@@ -1,0 +1,536 @@
+{
+  "id": "5204",
+  "title": {
+    "romaji": "Kara no Kyoukai: Boukyaku Rokuon",
+    "english": "the Garden of sinners Chapter 6: Fairy Tale. (Oblivion Recording)",
+    "native": "空の境界 忘却録音"
+  },
+  "malId": 5204,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "XVAJ1o_fsbY",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/XVAJ1o_fsbY/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5204-6PdYdIXswcEo.png",
+  "popularity": 41045,
+  "color": "#2850a1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5204-09vEnPmj98Ba.jpg",
+  "description": "January, 1999: Apprentice mage Azaka Kokutou, Mikiya's younger sister, has been ordered by her mentor, Touko Aozaki, to investigate a certain incident in which fairies steal the memories of students at Azaka's school, Reien Academy. Azaka launches an investigation with the help of Shiki.\r\n<br><br>\r\n(Source: Aniplex USA)",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 12,
+    "day": 20
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 12,
+    "day": 20
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 70,
+  "duration": 59,
+  "genres": [
+    "Action",
+    "Mystery",
+    "Romance",
+    "Supernatural",
+    "Thriller"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "ufotable"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 10087,
+      "malId": 10087,
+      "title": {
+        "romaji": "Fate/Zero",
+        "english": "Fate/Zero",
+        "native": "Fate/Zero",
+        "userPreferred": "Fate/Zero"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10087-el5Bo1VMZwsU.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10087-32MFY9VnJQ7I.jpg",
+      "rating": 81,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 3105,
+      "role": "MAIN",
+      "name": {
+        "first": "Shiki",
+        "last": "Ryougi",
+        "full": "Shiki Ryougi",
+        "native": "両儀式",
+        "userPreferred": "Shiki Ryougi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b3105-lI0m8vJ3JQK1.png",
+      "voiceActors": [
+        {
+          "id": 95090,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Sakamoto",
+            "full": "Maaya Sakamoto",
+            "native": "坂本真綾",
+            "userPreferred": "Maaya Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95090-oARRP42NEhu0.jpg"
+        },
+        {
+          "id": 114940,
+          "language": "German",
+          "name": {
+            "first": "Petra",
+            "last": "Barthel",
+            "full": "Petra Barthel",
+            "native": null,
+            "userPreferred": "Petra Barthel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/19940.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5268,
+      "role": "MAIN",
+      "name": {
+        "first": "Azaka",
+        "last": "Kokutou",
+        "full": "Azaka Kokutou",
+        "native": "黒桐鮮花",
+        "userPreferred": "Azaka Kokutou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5268-9v9bSOTESyH0.png",
+      "voiceActors": [
+        {
+          "id": 95247,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Fujimura",
+            "full": "Ayumi Fujimura",
+            "native": "藤村歩",
+            "userPreferred": "Ayumi Fujimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95247-3jzUQFPN8clW.png"
+        },
+        {
+          "id": 101118,
+          "language": "German",
+          "name": {
+            "first": "Julia",
+            "last": "Ziffer",
+            "full": "Julia Ziffer",
+            "native": null,
+            "userPreferred": "Julia Ziffer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6118.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5267,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mikiya",
+        "last": "Kokutou",
+        "full": "Mikiya Kokutou",
+        "native": "黒桐幹也",
+        "userPreferred": "Mikiya Kokutou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5267-aBSt3ADW1fvW.png",
+      "voiceActors": [
+        {
+          "id": 95413,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Kitamura",
+            "full": "Eri Kitamura",
+            "native": "喜多村英梨",
+            "userPreferred": "Eri Kitamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95413-FwAIrc8Ishpt.png"
+        },
+        {
+          "id": 95005,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Suzumura",
+            "full": "Kenichi Suzumura",
+            "native": "鈴村健一",
+            "userPreferred": "Kenichi Suzumura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95005-SkoVN02iOglr.png"
+        },
+        {
+          "id": 107321,
+          "language": "German",
+          "name": {
+            "first": "Tobias",
+            "last": "Nath",
+            "full": "Tobias Nath",
+            "native": null,
+            "userPreferred": "Tobias Nath"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12321.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21283,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lio",
+        "last": "Shirazumi",
+        "full": "Lio Shirazumi",
+        "native": "白純里緒",
+        "userPreferred": "Lio Shirazumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21283.jpg",
+      "voiceActors": [
+        {
+          "id": 95030,
+          "language": "Japanese",
+          "name": {
+            "first": "Souichirou",
+            "last": "Hoshi",
+            "full": "Souichirou Hoshi",
+            "native": "保志総一朗",
+            "userPreferred": "Souichirou Hoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95030-kj64Uy6Zr3bq.png"
+        },
+        {
+          "id": 96661,
+          "language": "German",
+          "name": {
+            "first": "Gerrit",
+            "last": "Schmidt-Foß",
+            "full": "Gerrit Schmidt-Foß",
+            "native": null,
+            "userPreferred": "Gerrit Schmidt-Foß"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1661.jpg"
+        }
+      ]
+    },
+    {
+      "id": 134715,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shizune",
+        "last": "Seo",
+        "full": "Shizune Seo",
+        "native": "瀬尾静音",
+        "userPreferred": "Shizune Seo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b134715-MZjVIWwJuUDF.png",
+      "voiceActors": [
+        {
+          "id": 95885,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Iguchi",
+            "full": "Yuka Iguchi",
+            "native": "井口裕香",
+            "userPreferred": "Yuka Iguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95885-8Le2NWyACKNt.png"
+        }
+      ]
+    },
+    {
+      "id": 5266,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Touko",
+        "last": "Aozaki",
+        "full": "Touko Aozaki",
+        "native": "蒼崎橙子",
+        "userPreferred": "Touko Aozaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5266-058UnUQ6pufZ.png",
+      "voiceActors": [
+        {
+          "id": 95041,
+          "language": "Japanese",
+          "name": {
+            "first": "Takako",
+            "last": "Honda",
+            "full": "Takako Honda",
+            "native": "本田貴子",
+            "userPreferred": "Takako Honda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/41.jpg"
+        },
+        {
+          "id": 96668,
+          "language": "German",
+          "name": {
+            "first": "Christin",
+            "last": "Marquitan",
+            "full": "Christin Marquitan",
+            "native": null,
+            "userPreferred": "Christin Marquitan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1668.jpg"
+        }
+      ]
+    },
+    {
+      "id": 303401,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaori",
+        "last": "Tachibana",
+        "full": "Kaori Tachibana",
+        "native": "橘佳織",
+        "userPreferred": "Kaori Tachibana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b303401-wqsjwK2rP98O.png",
+      "voiceActors": [
+        {
+          "id": 95413,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Kitamura",
+            "full": "Eri Kitamura",
+            "native": "喜多村英梨",
+            "userPreferred": "Eri Kitamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95413-FwAIrc8Ishpt.png"
+        }
+      ]
+    },
+    {
+      "id": 20081,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Misaya",
+        "last": "Ouji",
+        "full": "Misaya Ouji",
+        "native": "黄路美沙夜",
+        "userPreferred": "Misaya Ouji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20081.jpg",
+      "voiceActors": [
+        {
+          "id": 95081,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Mizuki",
+            "full": "Nana Mizuki",
+            "native": "水樹奈々",
+            "userPreferred": "Nana Mizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95081-qto4UanYkpQT.png"
+        },
+        {
+          "id": 208973,
+          "language": "German",
+          "name": {
+            "first": "Melanie",
+            "last": "Pukaß",
+            "full": "Melanie Pukaß",
+            "native": null,
+            "userPreferred": "Melanie Pukaß"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 303402,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hideo",
+        "last": "Hayama",
+        "full": "Hideo Hayama",
+        "native": "葉山英雄",
+        "userPreferred": "Hideo Hayama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b303402-bTN3yrpnXRkX.png",
+      "voiceActors": [
+        {
+          "id": 102455,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Ishigami",
+            "full": "Yuuichi Ishigami",
+            "native": "裕一 石上",
+            "userPreferred": "Yuuichi Ishigami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7455.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5269,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Souren",
+        "last": "Araya",
+        "full": "Souren Araya",
+        "native": "荒耶宗蓮",
+        "userPreferred": "Souren Araya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5269-SA2LpB38WGt8.png",
+      "voiceActors": [
+        {
+          "id": 95091,
+          "language": "Japanese",
+          "name": {
+            "first": "Jouji",
+            "last": "Nakata",
+            "full": "Jouji Nakata",
+            "native": "中田譲治",
+            "userPreferred": "Jouji Nakata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95091-idoMaN26z80B.png"
+        },
+        {
+          "id": 96667,
+          "language": "German",
+          "name": {
+            "first": "Tilo",
+            "last": "Schmitz",
+            "full": "Tilo Schmitz",
+            "native": null,
+            "userPreferred": "Tilo Schmitz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96667-9lkA3mCJVALw.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20082,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Satsuki",
+        "last": "Kurogiri",
+        "full": "Satsuki Kurogiri",
+        "native": "玄霧皐月",
+        "userPreferred": "Satsuki Kurogiri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20082.jpg",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        },
+        {
+          "id": 143173,
+          "language": "German",
+          "name": {
+            "first": "Bernd",
+            "last": "Vollbrecht",
+            "full": "Bernd Vollbrecht",
+            "native": null,
+            "userPreferred": "Bernd Vollbrecht"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n143173-EFGTfooqjpNU.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6716,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Fujino",
+        "last": "Asagami",
+        "full": "Fujino Asagami",
+        "native": "浅上藤乃",
+        "userPreferred": "Fujino Asagami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6716-cI2dq1P7gKIX.png",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 4282,
+      "relationType": "PREQUEL",
+      "malId": 4282,
+      "title": {
+        "romaji": "Kara no Kyoukai: Mujun Rasen",
+        "english": "the Garden of sinners Chapter 5: Paradox Paradigm",
+        "native": "空の境界 矛盾螺旋",
+        "userPreferred": "Kara no Kyoukai: Mujun Rasen"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4282-R19YmET0glSZ.jpg",
+      "color": null,
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4282-2UcZq3DUNH9G.jpg",
+      "rating": 84
+    },
+    {
+      "id": 5205,
+      "relationType": "SEQUEL",
+      "malId": 5205,
+      "title": {
+        "romaji": "Kara no Kyoukai: Satsujin Kousatsu (Kou)",
+        "english": "the Garden of sinners Chapter 7: ……not nothing heart. (Murder Speculation Part B)",
+        "native": "空の境界 殺人考察(後)",
+        "userPreferred": "Kara no Kyoukai: Satsujin Kousatsu (Kou)"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5205-kfgpEQI8ERza.jpg",
+      "color": "#5093f1",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5205-Xfnek0viLdCj.jpg",
+      "rating": 82
+    },
+    {
+      "id": 6624,
+      "relationType": "SUMMARY",
+      "malId": 6624,
+      "title": {
+        "romaji": "Kara no Kyoukai Remix: Gate of seventh heaven",
+        "english": null,
+        "native": "空の境界 Remix -Gate of seventh heaven-",
+        "userPreferred": "Kara no Kyoukai Remix: Gate of seventh heaven"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6624-Y7y8z9WD2ze0.jpg",
+      "color": "#c9c9f1",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6624-pLJ3urMO7nDM.jpg",
+      "rating": 72
+    }
+  ],
+  "episodes": []
+}

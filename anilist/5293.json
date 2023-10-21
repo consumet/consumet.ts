@@ -1,0 +1,95 @@
+{
+  "id": "5293",
+  "title": {
+    "romaji": "Time Slip Ichimannen Prime Rose",
+    "english": "A Time Slip of 10000 Years: Prime Rose",
+    "native": "タイムスリップ１００００年　プライム・ローズ"
+  },
+  "malId": 5293,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5293.jpg",
+  "popularity": 528,
+  "color": "#d69378",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5293-1SuxS3tUT5gY.jpg",
+  "description": "A devil sends two cities; Kujukuri City in Chiba Prefecture and Dallas in the U.S., to ten thousand years ahead in the future, makes them fight each other, and enjoys watching over the fight. The devil's name is Bazusu. So Tanbara Gai, a member of Time Patrol, fights this devil to stop the atrocity.<br><br>\n(Source: AniDB)",
+  "status": "Completed",
+  "releaseDate": 1983,
+  "startDate": {
+    "year": 1983,
+    "month": 8,
+    "day": 21
+  },
+  "endDate": {
+    "year": 1983,
+    "month": 8,
+    "day": 21
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 47,
+  "duration": 82,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Romance",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "SPECIAL",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 11356,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dr. Kiriko",
+        "last": null,
+        "full": "Dr. Kiriko",
+        "native": "キリコ",
+        "userPreferred": "Dr. Kiriko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b11356-Jd53kj24g81s.jpg",
+      "voiceActors": [
+        {
+          "id": 100770,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuusaku",
+            "last": "Yara",
+            "full": "Yuusaku Yara",
+            "native": "屋良有作",
+            "userPreferred": "Yuusaku Yara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100770-UwcMoND5FIgC.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 52266,
+      "relationType": "ADAPTATION",
+      "malId": 22266,
+      "title": {
+        "romaji": "Prime Rose",
+        "english": null,
+        "native": "プライム・ローズ",
+        "userPreferred": "Prime Rose"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/22266.jpg",
+      "color": "#e45035",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/22266.jpg",
+      "rating": 70
+    }
+  ],
+  "episodes": []
+}

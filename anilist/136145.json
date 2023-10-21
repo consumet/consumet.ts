@@ -1,0 +1,496 @@
+{
+  "id": "136145",
+  "title": {
+    "romaji": "Shiguang Dailiren Special",
+    "english": "LINK CLICK Episode 5.5",
+    "native": "时光代理人 番外篇"
+  },
+  "malId": 49200,
+  "synonyms": [
+    "Shiguang Dailiren Episode 5.5",
+    "Shiguang Dailiren Extra",
+    "LINK CLICK Extra",
+    "LINK CLICK: Marrying by Contesting"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136145-guWKltDngjIu.jpg",
+  "popularity": 12884,
+  "color": "#f1865d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136145-guWKltDngjIu.jpg",
+  "description": "Extra episode of <i>Shiguang Dailiren</i>, taking place between episode 5 and 6.\n<br><br>\nIn order to marry Ouyang, the daughter of the master of martial arts, Siwen commissioned the Time Photo Studio to help him crack the master's unique martial arts.\n<br><br>\n(Source: Funimation)",
+  "status": "Completed",
+  "releaseDate": 2021,
+  "startDate": {
+    "year": 2021,
+    "month": 5,
+    "day": 28
+  },
+  "endDate": {
+    "year": 2021,
+    "month": 5,
+    "day": 28
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 78,
+  "duration": 24,
+  "genres": [
+    "Mystery",
+    "Supernatural"
+  ],
+  "season": null,
+  "studios": [
+    "Studio LAN"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 140175,
+      "malId": 50105,
+      "title": {
+        "romaji": "Shiguang Zhaoxiangguan De Richang",
+        "english": "LINK CLICK (Shorts)",
+        "native": "时光照相馆的日常",
+        "userPreferred": "Shiguang Zhaoxiangguan De Richang"
+      },
+      "status": "Completed",
+      "episodes": 18,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140175-ALEehijVQois.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140175-ALEehijVQois.jpg",
+      "rating": 73,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 218266,
+      "role": "MAIN",
+      "name": {
+        "first": "Xiaoshi",
+        "last": "Cheng",
+        "full": "Xiaoshi Cheng",
+        "native": "程小时",
+        "userPreferred": "Xiaoshi Cheng"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b218266-ypsehWLIcfER.png",
+      "voiceActors": [
+        {
+          "id": 95600,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Toyonaga",
+            "full": "Toshiyuki Toyonaga",
+            "native": "豊永利行",
+            "userPreferred": "Toshiyuki Toyonaga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95600-giNVqkdeWKuF.png"
+        },
+        {
+          "id": 120666,
+          "language": "English",
+          "name": {
+            "first": "Alejandro",
+            "last": "Saab",
+            "full": "Alejandro Saab",
+            "native": null,
+            "userPreferred": "Alejandro Saab"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120666-w1w9s5Y9z6vW.png"
+        },
+        {
+          "id": 167599,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandro",
+            "last": "Germano",
+            "full": "Alessandro Germano",
+            "native": null,
+            "userPreferred": "Alessandro Germano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n167599-JCQoEsDje5Ei.jpg"
+        },
+        {
+          "id": 189476,
+          "language": "Spanish",
+          "name": {
+            "first": "Emmanuel",
+            "last": "Bernal",
+            "full": "Emmanuel Bernal",
+            "native": null,
+            "userPreferred": "Emmanuel Bernal"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n189476-wXwCW3CBPykp.jpg"
+        },
+        {
+          "id": 197328,
+          "language": "Portuguese",
+          "name": {
+            "first": "Thiago ",
+            "last": "Cordova",
+            "full": "Thiago  Cordova",
+            "native": "Thiago Córdova",
+            "userPreferred": "Thiago  Cordova"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197328-cVtjSGbN9FhW.jpg"
+        },
+        {
+          "id": 164993,
+          "language": "Chinese",
+          "name": {
+            "first": "Shanqing",
+            "last": "Su",
+            "full": "Shanqing Su",
+            "native": "苏尚卿",
+            "userPreferred": "Shanqing Su"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n164993-cN3KkpGgtz6O.png"
+        }
+      ]
+    },
+    {
+      "id": 310883,
+      "role": "MAIN",
+      "name": {
+        "first": "Siwen",
+        "last": "Liu",
+        "full": "Siwen Liu",
+        "native": "劉思文",
+        "userPreferred": "Siwen Liu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b310883-WkOFnO8vcWd9.jpg",
+      "voiceActors": [
+        {
+          "id": 108055,
+          "language": "Japanese",
+          "name": {
+            "first": "Genki",
+            "last": "Muro",
+            "full": "Genki Muro",
+            "native": "室元気",
+            "userPreferred": "Genki Muro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n108055-xpbp6CAEStk2.jpg"
+        },
+        {
+          "id": 95718,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroya",
+            "last": "Ishimaru",
+            "full": "Hiroya Ishimaru",
+            "native": "石丸博也",
+            "userPreferred": "Hiroya Ishimaru"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95718-3ke4CyMs9um5.png"
+        },
+        {
+          "id": 111641,
+          "language": "English",
+          "name": {
+            "first": "Austin",
+            "last": "Tindle",
+            "full": "Austin Tindle",
+            "native": null,
+            "userPreferred": "Austin Tindle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111641-DbiOaZhYsNsi.jpg"
+        },
+        {
+          "id": 100990,
+          "language": "English",
+          "name": {
+            "first": "Charles",
+            "last": "Campbell",
+            "full": "Charles Campbell",
+            "native": null,
+            "userPreferred": "Charles Campbell"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5990.jpg"
+        },
+        {
+          "id": 190264,
+          "language": "Portuguese",
+          "name": {
+            "first": "Carlos",
+            "last": "Seidl",
+            "full": "Carlos Seidl",
+            "native": null,
+            "userPreferred": "Carlos Seidl"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190264-hphXpiNMtBLY.jpg"
+        },
+        {
+          "id": 181960,
+          "language": "Portuguese",
+          "name": {
+            "first": "Adrian",
+            "last": "Tatini",
+            "full": "Adrian Tatini",
+            "native": null,
+            "userPreferred": "Adrian Tatini"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n181960-IWJjJzHsTQaF.png"
+        }
+      ]
+    },
+    {
+      "id": 218267,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Guang",
+        "last": "Lu",
+        "full": "Guang Lu",
+        "native": "陆光",
+        "userPreferred": "Guang Lu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b218267-dl2RO0rxGOAU.png",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        },
+        {
+          "id": 153221,
+          "language": "English",
+          "name": {
+            "first": "Zeno",
+            "last": "Robinson",
+            "full": "Zeno Robinson",
+            "native": null,
+            "userPreferred": "Zeno Robinson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n153221-ERADaS2McJoO.jpg"
+        },
+        {
+          "id": 169130,
+          "language": "Italian",
+          "name": {
+            "first": "Davide",
+            "last": "Fumagalli",
+            "full": "Davide Fumagalli",
+            "native": null,
+            "userPreferred": "Davide Fumagalli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n169130-KPjTMCk6CJ19.jpg"
+        },
+        {
+          "id": 182191,
+          "language": "Spanish",
+          "name": {
+            "first": "Dan",
+            "last": "Frausto",
+            "full": "Dan Frausto",
+            "native": "Jorge Alberto Dan Frausto González",
+            "userPreferred": "Dan Frausto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182191-gNi1TzCEipiW.png"
+        },
+        {
+          "id": 197971,
+          "language": "Portuguese",
+          "name": {
+            "first": "Bernardo",
+            "last": "Berro",
+            "full": "Bernardo Berro",
+            "native": null,
+            "userPreferred": "Bernardo Berro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197971-ZYla1AgNR6Xe.jpg"
+        },
+        {
+          "id": 188400,
+          "language": "Chinese",
+          "name": {
+            "first": "Tianxiang",
+            "last": "Yang",
+            "full": "Tianxiang Yang",
+            "native": "杨天翔",
+            "userPreferred": "Tianxiang Yang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188400-JwoRMFHdJfKc.png"
+        }
+      ]
+    },
+    {
+      "id": 218265,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ling",
+        "last": "Qiao",
+        "full": "Ling Qiao",
+        "native": "乔苓",
+        "userPreferred": "Ling Qiao"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b218265-PyugCInpHgdd.png",
+      "voiceActors": [
+        {
+          "id": 123268,
+          "language": "Japanese",
+          "name": {
+            "first": "Aoi",
+            "last": "Koga",
+            "full": "Aoi Koga",
+            "native": "古賀葵",
+            "userPreferred": "Aoi Koga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n123268-zIZLjZ5Xfbk4.png"
+        },
+        {
+          "id": 152393,
+          "language": "English",
+          "name": {
+            "first": "Suzie",
+            "last": "Yeung",
+            "full": "Suzie Yeung",
+            "native": null,
+            "userPreferred": "Suzie Yeung"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n152393-b5B9ZTzgxUaa.jpg"
+        },
+        {
+          "id": 225967,
+          "language": "Italian",
+          "name": {
+            "first": "Federica",
+            "last": "Simonelli",
+            "full": "Federica Simonelli",
+            "native": null,
+            "userPreferred": "Federica Simonelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n225967-cd08Hy1XukIg.jpg"
+        },
+        {
+          "id": 139013,
+          "language": "Spanish",
+          "name": {
+            "first": "Montserrat",
+            "last": "Aguilar",
+            "full": "Montserrat Aguilar",
+            "native": "Montserrat Alejandra Aguilar Ortiz",
+            "userPreferred": "Montserrat Aguilar"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139013-G54ZhBGpZqmC.png"
+        },
+        {
+          "id": 197407,
+          "language": "Portuguese",
+          "name": {
+            "first": "Ana Paula",
+            "last": "Cadamuro",
+            "full": "Ana Paula Cadamuro",
+            "native": null,
+            "userPreferred": "Ana Paula Cadamuro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197407-wfKPhn1S9Zhs.jpg"
+        },
+        {
+          "id": 164997,
+          "language": "Chinese",
+          "name": {
+            "first": "Shimeng",
+            "last": "Li",
+            "full": "Shimeng Li",
+            "native": "李诗萌",
+            "userPreferred": "Shimeng Li"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n164997-n8nBhdTNuA1l.png"
+        }
+      ]
+    },
+    {
+      "id": 310895,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yang",
+        "last": "Ou",
+        "full": "Yang Ou",
+        "native": "欧陽",
+        "userPreferred": "Yang Ou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b310895-LnVOk5SgbJZl.jpg",
+      "voiceActors": [
+        {
+          "id": 310899,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumiko",
+            "last": "Konatsu",
+            "full": "Yumiko Konatsu",
+            "native": "小夏ゆみこ",
+            "userPreferred": "Yumiko Konatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n310899-RbShEdCC217E.jpg"
+        },
+        {
+          "id": 125475,
+          "language": "Japanese",
+          "name": {
+            "first": "Riho",
+            "last": "Sugiyama",
+            "full": "Riho Sugiyama",
+            "native": "杉山里穂",
+            "userPreferred": "Riho Sugiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n125475-O2PDOuGlaq62.png"
+        },
+        {
+          "id": 142049,
+          "language": "English",
+          "name": {
+            "first": "Sarah",
+            "last": "Roach",
+            "full": "Sarah Roach",
+            "native": null,
+            "userPreferred": "Sarah Roach"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n142049-vsDS95mN1KFg.jpg"
+        },
+        {
+          "id": 180895,
+          "language": "Portuguese",
+          "name": {
+            "first": "Amanda",
+            "last": "Brígido",
+            "full": "Amanda Brígido",
+            "native": null,
+            "userPreferred": "Amanda Brígido"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n180895-nJd1JaEkzl3r.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 126403,
+      "relationType": "PARENT",
+      "malId": 44074,
+      "title": {
+        "romaji": "Shiguang Dailiren",
+        "english": "Link Click",
+        "native": "时光代理人",
+        "userPreferred": "Shiguang Dailiren"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126403-0ufstxbwvPK7.png",
+      "color": null,
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/126403-Zs8HsM3YBoml.jpg",
+      "rating": 87
+    }
+  ],
+  "episodes": []
+}

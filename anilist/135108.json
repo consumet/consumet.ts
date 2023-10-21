@@ -1,0 +1,300 @@
+{
+  "id": "135108",
+  "title": {
+    "romaji": "Yami Shibai 9",
+    "english": "Theatre of Darkness: Yamishibai 9",
+    "native": "闇芝居 9"
+  },
+  "malId": 49110,
+  "synonyms": [
+    "Yamishibai: Japanese Ghost Stories 9",
+    "เรื่องเล่าผีญี่ปุ่น ภาค 9"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135108-K5eosBMnj97L.jpg",
+  "popularity": 2508,
+  "color": "#1a286b",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/135108-MWEMjBH5QGE6.jpg",
+  "description": "The ninth season of <i>Yami Shibai</i>.",
+  "status": "Completed",
+  "releaseDate": 2021,
+  "startDate": {
+    "year": 2021,
+    "month": 7,
+    "day": 12
+  },
+  "endDate": {
+    "year": 2021,
+    "month": 10,
+    "day": 4
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 53,
+  "duration": 5,
+  "genres": [
+    "Horror",
+    "Supernatural"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "ILCA"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 99940,
+      "malId": 36124,
+      "title": {
+        "romaji": "Itou Junji: Collection",
+        "english": "Junji Ito Collection",
+        "native": "伊藤潤二「コレクション」",
+        "userPreferred": "Itou Junji: Collection"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99940-pxsliSVHi0sj.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99940-A6OUzUuwTFxw.jpg",
+      "rating": 60,
+      "type": "TV"
+    },
+    {
+      "id": 139588,
+      "malId": 50046,
+      "title": {
+        "romaji": "Yamishibai 9th Special",
+        "english": "Theatre of Darkness: Yamishibai 9 Special",
+        "native": "闇芝居 九期",
+        "userPreferred": "Yamishibai 9th Special"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139588-ZXAvUYIjUAdA.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/139588-OYgxwBPcOGmq.jpg",
+      "rating": 52,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 150653,
+      "malId": 52031,
+      "title": {
+        "romaji": "Itou Junji: Maniac",
+        "english": "Junji Ito Maniac: Japanese Tales of the Macabre",
+        "native": "伊藤潤二『マニアック』",
+        "userPreferred": "Itou Junji: Maniac"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx150653-i7vaNr06DoQF.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/150653-T4P5zRw9xYXp.jpg",
+      "rating": 65,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 139456,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Kamishibaiya",
+        "last": null,
+        "full": "Kamishibaiya",
+        "native": "紙芝居屋",
+        "userPreferred": "Kamishibaiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b139456-BAznrkqsl3pC.jpg",
+      "voiceActors": [
+        {
+          "id": 101372,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanji",
+            "last": "Tsuda",
+            "full": "Kanji Tsuda",
+            "native": "津田寛治",
+            "userPreferred": "Kanji Tsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101372-p7f3H459Q6Zq.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 126678,
+      "relationType": "PREQUEL",
+      "malId": 44208,
+      "title": {
+        "romaji": "Yami Shibai 8",
+        "english": "Theatre of Darkness: Yamishibai 8",
+        "native": "闇芝居 8",
+        "userPreferred": "Yami Shibai 8"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126678-7cBM4FmJ5D2L.jpg",
+      "color": "#5d6bf1",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/126678-sPqTPJtOIen5.jpg",
+      "rating": 53
+    },
+    {
+      "id": 139588,
+      "relationType": "OTHER",
+      "malId": 50046,
+      "title": {
+        "romaji": "Yamishibai 9th Special",
+        "english": "Theatre of Darkness: Yamishibai 9 Special",
+        "native": "闇芝居 九期",
+        "userPreferred": "Yamishibai 9th Special"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139588-ZXAvUYIjUAdA.jpg",
+      "color": "#1a286b",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/139588-OYgxwBPcOGmq.jpg",
+      "rating": 52
+    },
+    {
+      "id": 142826,
+      "relationType": "SEQUEL",
+      "malId": 50599,
+      "title": {
+        "romaji": "Yami Shibai 10",
+        "english": "Theatre of Darkness: Yamishibai 10",
+        "native": "闇芝居 十期",
+        "userPreferred": "Yami Shibai 10"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142826-54rQbxGUPayU.jpg",
+      "color": null,
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142826-54rQbxGUPayU.jpg",
+      "rating": 57
+    }
+  ],
+  "episodes": [
+    {
+      "id": "yami-shibai-9-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135108-K5eosBMnj97L.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-9-episode-1"
+    },
+    {
+      "id": "yami-shibai-9-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135108-K5eosBMnj97L.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-9-episode-2"
+    },
+    {
+      "id": "yami-shibai-9-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135108-K5eosBMnj97L.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-9-episode-3"
+    },
+    {
+      "id": "yami-shibai-9-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135108-K5eosBMnj97L.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-9-episode-4"
+    },
+    {
+      "id": "yami-shibai-9-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135108-K5eosBMnj97L.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-9-episode-5"
+    },
+    {
+      "id": "yami-shibai-9-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135108-K5eosBMnj97L.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-9-episode-6"
+    },
+    {
+      "id": "yami-shibai-9-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135108-K5eosBMnj97L.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-9-episode-7"
+    },
+    {
+      "id": "yami-shibai-9-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135108-K5eosBMnj97L.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-9-episode-8"
+    },
+    {
+      "id": "yami-shibai-9-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135108-K5eosBMnj97L.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-9-episode-9"
+    },
+    {
+      "id": "yami-shibai-9-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135108-K5eosBMnj97L.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-9-episode-10"
+    },
+    {
+      "id": "yami-shibai-9-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135108-K5eosBMnj97L.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-9-episode-11"
+    },
+    {
+      "id": "yami-shibai-9-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135108-K5eosBMnj97L.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-9-episode-12"
+    },
+    {
+      "id": "yami-shibai-9-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135108-K5eosBMnj97L.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-9-episode-13"
+    }
+  ]
+}

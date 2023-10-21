@@ -1,0 +1,894 @@
+{
+  "id": "2391",
+  "title": {
+    "romaji": "SD Gundam Force",
+    "english": null,
+    "native": "SDガンダムフォース"
+  },
+  "malId": 2391,
+  "synonyms": [
+    "Superior Defender Gundam Force"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2391.jpg",
+  "popularity": 1647,
+  "color": "#e4c90d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2391.jpg",
+  "description": "The land of Neotopia is attacked by the Dark Axis, evil invaders from another dimension who wish to conquer this land. Neotopia's answer: the secret Super Dimensional Guard and their defenders, the Gundam Force. Led by Captain Gundam, the Gundam Force and its team of Gundams with special abilities are aided by a boy named Shute as they stop at nothing to defend the land from the Dark Axis and to defeat them once and for all.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2004,
+  "startDate": {
+    "year": 2004,
+    "month": 1,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2004,
+    "month": 12,
+    "day": 29
+  },
+  "totalEpisodes": 52,
+  "currentEpisode": 52,
+  "rating": 43,
+  "duration": 25,
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Mecha"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Sunrise"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 108041,
+      "malId": 38715,
+      "title": {
+        "romaji": "SD Gundam World Sangoku Soketsuden",
+        "english": "SD Gundam World Sangoku Soketsuden",
+        "native": "SDガンダムワールド 三国創傑伝",
+        "userPreferred": "SD Gundam World Sangoku Soketsuden"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108041-KVoSyXKJ6ftj.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108041-KVoSyXKJ6ftj.jpg",
+      "rating": 48,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 32285,
+      "role": "MAIN",
+      "name": {
+        "first": "Zero",
+        "last": null,
+        "full": "Zero",
+        "native": "ゼロ (翼の騎士 ゼロ)",
+        "userPreferred": "Zero"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32285.jpg",
+      "voiceActors": [
+        {
+          "id": 95197,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuki",
+            "last": "Saiga",
+            "full": "Mitsuki Saiga",
+            "native": "斎賀みつき",
+            "userPreferred": "Mitsuki Saiga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95197-gcTFdBK9oPtY.png"
+        },
+        {
+          "id": 109867,
+          "language": "Korean",
+          "name": {
+            "first": "Jang",
+            "last": "Kim",
+            "full": "Jang Kim",
+            "native": "장 김",
+            "userPreferred": "Jang Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14867.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32287,
+      "role": "MAIN",
+      "name": {
+        "first": "Shute",
+        "last": null,
+        "full": "Shute",
+        "native": "シュウト",
+        "userPreferred": "Shute"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32287.jpg",
+      "voiceActors": [
+        {
+          "id": 95082,
+          "language": "Japanese",
+          "name": {
+            "first": "Romi",
+            "last": "Park",
+            "full": "Romi Park",
+            "native": "朴璐美",
+            "userPreferred": "Romi Park"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95082-pNGbnYv4cHAK.png"
+        },
+        {
+          "id": 101800,
+          "language": "English",
+          "name": {
+            "first": "Deborah Sale",
+            "last": "Butler",
+            "full": "Deborah Sale Butler",
+            "native": null,
+            "userPreferred": "Deborah Sale Butler"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6800.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32286,
+      "role": "MAIN",
+      "name": {
+        "first": "Bakunetsumaru",
+        "last": null,
+        "full": "Bakunetsumaru",
+        "native": "武者頑駄無 爆熱丸",
+        "userPreferred": "Bakunetsumaru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32286.jpg",
+      "voiceActors": [
+        {
+          "id": 95260,
+          "language": "Japanese",
+          "name": {
+            "first": "Susumu",
+            "last": "Chiba",
+            "full": "Susumu Chiba",
+            "native": "千葉進歩",
+            "userPreferred": "Susumu Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95260-pKyM0LbhEznc.png"
+        },
+        {
+          "id": 95225,
+          "language": "English",
+          "name": {
+            "first": "Yuri",
+            "last": "Lowenthal",
+            "full": "Yuri Lowenthal",
+            "native": null,
+            "userPreferred": "Yuri Lowenthal"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95225-CbmI6oDkbbkL.jpg"
+        },
+        {
+          "id": 109777,
+          "language": "Korean",
+          "name": {
+            "first": "Sang-Hyeon",
+            "last": "Eom",
+            "full": "Sang-Hyeon Eom",
+            "native": "엄상현",
+            "userPreferred": "Sang-Hyeon Eom"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14777.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32291,
+      "role": "MAIN",
+      "name": {
+        "first": "Relejimana Miya",
+        "last": "du Lacroa",
+        "full": "Relejimana Miya du Lacroa",
+        "native": "リリジマーナ・ミヤ・ド・ラクロア",
+        "userPreferred": "Relejimana Miya du Lacroa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32291.jpg",
+      "voiceActors": [
+        {
+          "id": 95401,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Matsuki",
+            "full": "Miyu Matsuki",
+            "native": "松来未祐",
+            "userPreferred": "Miyu Matsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95401-2ffju56ewc36.png"
+        },
+        {
+          "id": 95085,
+          "language": "English",
+          "name": {
+            "first": "Michelle",
+            "last": "Ruff",
+            "full": "Michelle Ruff",
+            "native": null,
+            "userPreferred": "Michelle Ruff"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95085-zJmU0x2NLr3j.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32284,
+      "role": "MAIN",
+      "name": {
+        "first": "Captain",
+        "last": "Gundam",
+        "full": "Captain Gundam",
+        "native": "キャプテンガンダム",
+        "userPreferred": "Captain Gundam"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32284.jpg",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        },
+        {
+          "id": 96547,
+          "language": "English",
+          "name": {
+            "first": "Doug",
+            "last": "Erholtz",
+            "full": "Doug Erholtz",
+            "native": null,
+            "userPreferred": "Doug Erholtz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96547-AH4pebJhH8yY.png"
+        },
+        {
+          "id": 110101,
+          "language": "Korean",
+          "name": {
+            "first": "Hyeon Wu",
+            "last": "Byeon",
+            "full": "Hyeon Wu Byeon",
+            "native": "현우 변",
+            "userPreferred": "Hyeon Wu Byeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15101.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32295,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zapper",
+        "last": "Zaku",
+        "full": "Zapper Zaku",
+        "native": "ザッパーザク",
+        "userPreferred": "Zapper Zaku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32295.jpg",
+      "voiceActors": [
+        {
+          "id": 95007,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiji",
+            "last": "Yanagisawa",
+            "full": "Eiji Yanagisawa",
+            "native": "柳沢栄治",
+            "userPreferred": "Eiji Yanagisawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32333,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Madmug",
+        "last": null,
+        "full": "Madmug",
+        "native": null,
+        "userPreferred": "Madmug"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32333.jpg",
+      "voiceActors": [
+        {
+          "id": 95146,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Ootsuka",
+            "full": "Akio Ootsuka",
+            "native": "大塚明夫",
+            "userPreferred": "Akio Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95146-T6IEmqXW3xUN.jpg"
+        },
+        {
+          "id": 95351,
+          "language": "English",
+          "name": {
+            "first": "Michael",
+            "last": "McConnohie",
+            "full": "Michael McConnohie",
+            "native": null,
+            "userPreferred": "Michael McConnohie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95351-sfzuSJSC0wKK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32296,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Destroyer",
+        "last": "Dom",
+        "full": "Destroyer Dom",
+        "native": "デストロイヤードム",
+        "userPreferred": "Destroyer Dom"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32296.jpg",
+      "voiceActors": [
+        {
+          "id": 95838,
+          "language": "Japanese",
+          "name": {
+            "first": "Dai",
+            "last": "Matsumoto",
+            "full": "Dai Matsumoto",
+            "native": "松本大",
+            "userPreferred": "Dai Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/838.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32337,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ashuramaru",
+        "last": null,
+        "full": "Ashuramaru",
+        "native": "武者頑駄無 阿修羅丸",
+        "userPreferred": "Ashuramaru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32337.jpg",
+      "voiceActors": [
+        {
+          "id": 95020,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsuyuki",
+            "last": "Konishi",
+            "full": "Katsuyuki Konishi",
+            "native": "小西克幸",
+            "userPreferred": "Katsuyuki Konishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95020-uOJO2IlwpcX0.png"
+        }
+      ]
+    },
+    {
+      "id": 32303,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tallgeese",
+        "last": null,
+        "full": "Tallgeese",
+        "native": "トールギス",
+        "userPreferred": "Tallgeese"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32303.jpg",
+      "voiceActors": [
+        {
+          "id": 95893,
+          "language": "Japanese",
+          "name": {
+            "first": "Taiten",
+            "last": "Kusunoki",
+            "full": "Taiten Kusunoki",
+            "native": "楠大典",
+            "userPreferred": "Taiten Kusunoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95893-k0qEVnRygyIn.png"
+        },
+        {
+          "id": 96562,
+          "language": "English",
+          "name": {
+            "first": "Paul",
+            "last": "St. Peter",
+            "full": "Paul St. Peter",
+            "native": null,
+            "userPreferred": "Paul St. Peter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96562-2ycAuMOiEUGX.png"
+        }
+      ]
+    },
+    {
+      "id": 32335,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Genkimaru",
+        "last": null,
+        "full": "Genkimaru",
+        "native": "武者頑駄無 元気丸",
+        "userPreferred": "Genkimaru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32335.jpg",
+      "voiceActors": [
+        {
+          "id": 95539,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumiko",
+            "last": "Kobayashi",
+            "full": "Yumiko Kobayashi",
+            "native": "小林由美子",
+            "userPreferred": "Yumiko Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95539-vFLypMio70hC.png"
+        },
+        {
+          "id": 95237,
+          "language": "Japanese",
+          "name": {
+            "first": "Juurouta",
+            "last": "Kosugi",
+            "full": "Juurouta Kosugi",
+            "native": "小杉十郎太",
+            "userPreferred": "Juurouta Kosugi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95237-nelrZUfvh2FH.png"
+        },
+        {
+          "id": 95036,
+          "language": "English",
+          "name": {
+            "first": "Wendee",
+            "last": "Lee",
+            "full": "Wendee Lee",
+            "native": null,
+            "userPreferred": "Wendee Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95036-UkyIYVtEhoPk.png"
+        },
+        {
+          "id": 95349,
+          "language": "English",
+          "name": {
+            "first": "Dave",
+            "last": "Wittenberg",
+            "full": "Dave Wittenberg",
+            "native": null,
+            "userPreferred": "Dave Wittenberg"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95349-ZeWKAJFiOL7W.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32297,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zako",
+        "last": "Soldiers",
+        "full": "Zako Soldiers",
+        "native": "ザコソルジャー",
+        "userPreferred": "Zako Soldiers"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32297.jpg",
+      "voiceActors": [
+        {
+          "id": 96260,
+          "language": "Japanese",
+          "name": {
+            "first": "Takashi",
+            "last": "Nagasako",
+            "full": "Takashi Nagasako",
+            "native": "長嶝高士",
+            "userPreferred": "Takashi Nagasako"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96260-IhjrEBKbw8aN.png"
+        },
+        {
+          "id": 95221,
+          "language": "Japanese",
+          "name": {
+            "first": "Kentarou",
+            "last": "Itou",
+            "full": "Kentarou Itou",
+            "native": "伊藤健太郎",
+            "userPreferred": "Kentarou Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95221-2rpvfpZXEAZB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32301,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Grey",
+        "last": "Doga",
+        "full": "Grey Doga",
+        "native": "グレードーガ",
+        "userPreferred": "Grey Doga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32301.jpg",
+      "voiceActors": [
+        {
+          "id": 96346,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshihiko",
+            "last": "Nakajima",
+            "full": "Toshihiko Nakajima",
+            "native": "中嶋聡彦",
+            "userPreferred": "Toshihiko Nakajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1346.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32336,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Deed",
+        "last": null,
+        "full": "Deed",
+        "native": "ディード",
+        "userPreferred": "Deed"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32336.jpg",
+      "voiceActors": [
+        {
+          "id": 95221,
+          "language": "Japanese",
+          "name": {
+            "first": "Kentarou",
+            "last": "Itou",
+            "full": "Kentarou Itou",
+            "native": "伊藤健太郎",
+            "userPreferred": "Kentarou Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95221-2rpvfpZXEAZB.jpg"
+        },
+        {
+          "id": 95349,
+          "language": "English",
+          "name": {
+            "first": "Dave",
+            "last": "Wittenberg",
+            "full": "Dave Wittenberg",
+            "native": null,
+            "userPreferred": "Dave Wittenberg"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95349-ZeWKAJFiOL7W.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32289,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haro",
+        "last": null,
+        "full": "Haro",
+        "native": "ハロ",
+        "userPreferred": "Haro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32289.jpg",
+      "voiceActors": [
+        {
+          "id": 102612,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Yoshimizu",
+            "full": "Takahiro Yoshimizu",
+            "native": "吉水孝宏",
+            "userPreferred": "Takahiro Yoshimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7612.jpg"
+        },
+        {
+          "id": 109759,
+          "language": "Korean",
+          "name": {
+            "first": "Jae-Heon",
+            "last": "Jeong",
+            "full": "Jae-Heon Jeong",
+            "native": "정재헌",
+            "userPreferred": "Jae-Heon Jeong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109759-VMZn2P5P2ISK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32288,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sayla",
+        "last": null,
+        "full": "Sayla",
+        "native": "セーラ",
+        "userPreferred": "Sayla"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32288.jpg",
+      "voiceActors": [
+        {
+          "id": 95749,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Nakagawa",
+            "full": "Akiko Nakagawa",
+            "native": "中川亜紀子",
+            "userPreferred": "Akiko Nakagawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95749-4erLBLJkzE4v.png"
+        },
+        {
+          "id": 95085,
+          "language": "English",
+          "name": {
+            "first": "Michelle",
+            "last": "Ruff",
+            "full": "Michelle Ruff",
+            "native": null,
+            "userPreferred": "Michelle Ruff"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95085-zJmU0x2NLr3j.jpg"
+        },
+        {
+          "id": 109983,
+          "language": "Korean",
+          "name": {
+            "first": "Ui Jin",
+            "last": "Chae",
+            "full": "Ui Jin Chae",
+            "native": "의진 채",
+            "userPreferred": "Ui Jin Chae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14983.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32293,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Grappler",
+        "last": "Gouf",
+        "full": "Grappler Gouf",
+        "native": "グラップラーグフ",
+        "userPreferred": "Grappler Gouf"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32293.jpg",
+      "voiceActors": [
+        {
+          "id": 106777,
+          "language": "Japanese",
+          "name": {
+            "first": "Mantaro",
+            "last": "Iwao",
+            "full": "Mantaro Iwao",
+            "native": "岩尾万太郎",
+            "userPreferred": "Mantaro Iwao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32302,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Blue",
+        "last": "Doga",
+        "full": "Blue Doga",
+        "native": "ブルードーガ",
+        "userPreferred": "Blue Doga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32302.jpg",
+      "voiceActors": [
+        {
+          "id": 95279,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Mizushima",
+            "full": "Takahiro Mizushima",
+            "native": "水島大宙",
+            "userPreferred": "Takahiro Mizushima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95279-5fMO4r9szQKL.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32334,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kibaomaru",
+        "last": null,
+        "full": "Kibaomaru",
+        "native": "武者頑駄無 騎馬王丸",
+        "userPreferred": "Kibaomaru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32334.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 32644,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "GunEagle",
+        "last": null,
+        "full": "GunEagle",
+        "native": "ガンイーグル",
+        "userPreferred": "GunEagle"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32644.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        },
+        {
+          "id": 95349,
+          "language": "English",
+          "name": {
+            "first": "Dave",
+            "last": "Wittenberg",
+            "full": "Dave Wittenberg",
+            "native": null,
+            "userPreferred": "Dave Wittenberg"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95349-ZeWKAJFiOL7W.jpg"
+        },
+        {
+          "id": 109759,
+          "language": "Korean",
+          "name": {
+            "first": "Jae-Heon",
+            "last": "Jeong",
+            "full": "Jae-Heon Jeong",
+            "native": "정재헌",
+            "userPreferred": "Jae-Heon Jeong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109759-VMZn2P5P2ISK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32298,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Commander",
+        "last": "Sazabi",
+        "full": "Commander Sazabi",
+        "native": "コマンダーサザビー",
+        "userPreferred": "Commander Sazabi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32298.jpg",
+      "voiceActors": [
+        {
+          "id": 95598,
+          "language": "Japanese",
+          "name": {
+            "first": "Shuuichi",
+            "last": "Ikeda",
+            "full": "Shuuichi Ikeda",
+            "native": "池田秀一",
+            "userPreferred": "Shuuichi Ikeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95598-IZBrsaxRsACg.png"
+        }
+      ]
+    },
+    {
+      "id": 32300,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zako",
+        "last": "Red",
+        "full": "Zako Red",
+        "native": "ザコレッド",
+        "userPreferred": "Zako Red"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32300.jpg",
+      "voiceActors": [
+        {
+          "id": 95598,
+          "language": "Japanese",
+          "name": {
+            "first": "Shuuichi",
+            "last": "Ikeda",
+            "full": "Shuuichi Ikeda",
+            "native": "池田秀一",
+            "userPreferred": "Shuuichi Ikeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95598-IZBrsaxRsACg.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 80,
+      "relationType": "PARENT",
+      "malId": 80,
+      "title": {
+        "romaji": "Kidou Senshi Gundam",
+        "english": "Mobile Suit Gundam",
+        "native": "機動戦士ガンダム",
+        "userPreferred": "Kidou Senshi Gundam"
+      },
+      "status": "Completed",
+      "episodes": 43,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx80-HKQTjSNuFlHu.jpg",
+      "color": "#934328",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/80-LcQhJ600WeDn.jpg",
+      "rating": 76
+    },
+    {
+      "id": 159407,
+      "relationType": "ALTERNATIVE",
+      "malId": null,
+      "title": {
+        "romaji": "SD Gundam Force",
+        "english": null,
+        "native": "SDガンダムフォース",
+        "userPreferred": "SD Gundam Force"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b159407-zfRRd6je9s2x.jpg",
+      "color": "#e4935d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b159407-zfRRd6je9s2x.jpg",
+      "rating": 50
+    }
+  ],
+  "episodes": []
+}

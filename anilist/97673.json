@@ -1,0 +1,782 @@
+{
+  "id": "97673",
+  "title": {
+    "romaji": "Nyanko Days",
+    "english": "Nyanko Days",
+    "native": "にゃんこデイズ"
+  },
+  "malId": 34148,
+  "synonyms": [
+    "nyanko-days"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97673-UQ7WHkc04S40.jpg",
+  "popularity": 17365,
+  "color": "#f1ae43",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97673-WsIs3TC4omER.png",
+  "description": "The four-panel manga follows a shy girl named Tomoko who comes home from school and is greeted by her three (personified) cats.<br><br>\n\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2017,
+  "startDate": {
+    "year": 2017,
+    "month": 1,
+    "day": 8
+  },
+  "endDate": {
+    "year": 2017,
+    "month": 3,
+    "day": 26
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 62,
+  "duration": 2,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "EMT Squared"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 1207,
+      "malId": 1207,
+      "title": {
+        "romaji": "Wata no Kuni Hoshi",
+        "english": "The Star of Cottonland",
+        "native": "綿の国星",
+        "userPreferred": "Wata no Kuni Hoshi"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1207-YMCmETpgZhkC.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1207-qOw6U7QNhB9a.jpg",
+      "rating": 65,
+      "type": "MOVIE"
+    },
+    {
+      "id": 106863,
+      "malId": 38924,
+      "title": {
+        "romaji": "Nekopara",
+        "english": "Nekopara",
+        "native": "ネコぱら",
+        "userPreferred": "Nekopara"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106863-CxiCK7HejySK.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n106863-87foKqUmpj2G.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 99939,
+      "malId": 34658,
+      "title": {
+        "romaji": "Nekopara OVA",
+        "english": null,
+        "native": "ネコぱらOVA",
+        "userPreferred": "Nekopara OVA"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99939-O1rlvaP0UdTG.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99939-kDhj9oc1G79o.jpg",
+      "rating": 65,
+      "type": "OVA"
+    },
+    {
+      "id": 87496,
+      "malId": 33089,
+      "title": {
+        "romaji": "Kemono Friends",
+        "english": null,
+        "native": "けものフレンズ",
+        "userPreferred": "Kemono Friends"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx87496-22ELi0gTAGro.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/87496-OR27I0tcbgzc.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 12021,
+      "malId": 12021,
+      "title": {
+        "romaji": "Poyopoyo Kansatsu Nikki",
+        "english": "Poyopoyo",
+        "native": "ポヨポヨ観察日記",
+        "userPreferred": "Poyopoyo Kansatsu Nikki"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/12021.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/12021.jpg",
+      "rating": 71,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 130392,
+      "malId": 48252,
+      "title": {
+        "romaji": "Ore, Tsushima",
+        "english": "I, Tsushima",
+        "native": "俺、つしま",
+        "userPreferred": "Ore, Tsushima"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130392-4Wpdaq4W5XMB.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/130392-7wR8haFqhtqA.jpg",
+      "rating": 64,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 135384,
+      "malId": 49160,
+      "title": {
+        "romaji": "Shachiku-san wa Youjo Yuurei ni Iyasaretai.",
+        "english": "Miss Shachiku and the Little Baby Ghost",
+        "native": "社畜さんは幼女幽霊に癒されたい。",
+        "userPreferred": "Shachiku-san wa Youjo Yuurei ni Iyasaretai."
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135384-VYEyoOu3xNB2.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/135384-SN4hO4BHwdGP.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 2744,
+      "malId": 2744,
+      "title": {
+        "romaji": "Potemayo",
+        "english": null,
+        "native": "ぽてまよ",
+        "userPreferred": "Potemayo"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2744-jshoXw1Qdcaq.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2744-jshoXw1Qdcaq.png",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 148042,
+      "malId": 51692,
+      "title": {
+        "romaji": "Yoru wa Neko to Issho",
+        "english": "Nights with a Cat",
+        "native": "夜は猫といっしょ",
+        "userPreferred": "Yoru wa Neko to Issho"
+      },
+      "status": "Completed",
+      "episodes": 30,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx148042-4ECbzpkrQOWg.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/148042-ksQMpGLIHkG2.jpg",
+      "rating": 71,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 110881,
+      "malId": 40228,
+      "title": {
+        "romaji": "Bananya: Fushigi na Nakamatachi",
+        "english": "Bananya and the Curious Bunch",
+        "native": "ばなにゃ ふしぎななかまたち",
+        "userPreferred": "Bananya: Fushigi na Nakamatachi"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110881-GCLFxS80cmsb.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110881-DTIizARCzWzy.jpg",
+      "rating": 63,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 21600,
+      "malId": 32572,
+      "title": {
+        "romaji": "Neko Neko Nihonshi",
+        "english": "Meow Meow Japanese History",
+        "native": "ねこねこ日本史",
+        "userPreferred": "Neko Neko Nihonshi"
+      },
+      "status": "Completed",
+      "episodes": 32,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21600-I9uNvjRBlrLB.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21600-I9uNvjRBlrLB.jpg",
+      "rating": 60,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 10197,
+      "malId": 10197,
+      "title": {
+        "romaji": "Nyanpire The Animation",
+        "english": "Nyanpire - The Vampire Cat",
+        "native": "にゃんぱいあ The Animation",
+        "userPreferred": "Nyanpire The Animation"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10197.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10197-eztzQQHap8UU.jpg",
+      "rating": 61,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 6512,
+      "malId": 6512,
+      "title": {
+        "romaji": "Nyan Koi!",
+        "english": "Nyan Koi!",
+        "native": "にゃんこい！",
+        "userPreferred": "Nyan Koi!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6512.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6512-R3BfNFYjxbyd.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 3841,
+      "malId": 3841,
+      "title": {
+        "romaji": "Chi's Sweet Home",
+        "english": null,
+        "native": "チーズスイートホーム",
+        "userPreferred": "Chi's Sweet Home"
+      },
+      "status": "Completed",
+      "episodes": 104,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3841-PSDYqPPpBVBC.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3841-kkjmWatQAo9O.jpg",
+      "rating": 72,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 103874,
+      "malId": 38145,
+      "title": {
+        "romaji": "Doukyonin wa Hiza, Tokidoki, Atama no Ue.",
+        "english": "My Roommate is a Cat",
+        "native": "同居人はひざ、時々、頭のうえ。",
+        "userPreferred": "Doukyonin wa Hiza, Tokidoki, Atama no Ue."
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx103874-kAyuVMwwF5pp.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n103874-cfY9dLq4DgHV.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 114963,
+      "malId": 41168,
+      "title": {
+        "romaji": "Nakitai Watashi wa Neko wo Kaburu",
+        "english": "A Whisker Away",
+        "native": "泣きたい私は猫をかぶる",
+        "userPreferred": "Nakitai Watashi wa Neko wo Kaburu"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114963-QWMbi5ttovSK.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114963-UveNLlSCDPVM.jpg",
+      "rating": 72,
+      "type": "MOVIE"
+    },
+    {
+      "id": 20033,
+      "malId": 20033,
+      "title": {
+        "romaji": "Miss Monochrome - The Animation",
+        "english": "Miss Monochrome - The Animation",
+        "native": "ミス・モノクローム -The Animation-",
+        "userPreferred": "Miss Monochrome - The Animation"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20033-rJv0C1BASZMJ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20033-YGHBbXv0fdWn.png",
+      "rating": 60,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 104147,
+      "malId": 38295,
+      "title": {
+        "romaji": "Joshikausei",
+        "english": "Joshi Kausei",
+        "native": "女子かう生",
+        "userPreferred": "Joshikausei"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104147-fKwPPJLOYxaJ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104147-cUQyefM82UfY.jpg",
+      "rating": 53,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 106051,
+      "malId": 38787,
+      "title": {
+        "romaji": "Senryuu Shoujo",
+        "english": "Senryu Girl",
+        "native": "川柳少女",
+        "userPreferred": "Senryuu Shoujo"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106051-GanZefWWhRLa.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106051-Gteagsx1BEG9.jpg",
+      "rating": 71,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 155070,
+      "malId": 53163,
+      "title": {
+        "romaji": "Kawaisugi Crisis",
+        "english": "TOO CUTE CRISIS",
+        "native": "カワイスギクライシス",
+        "userPreferred": "Kawaisugi Crisis"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155070-XuEi3eycUBjC.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155070-XuEi3eycUBjC.png",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 149883,
+      "malId": 51916,
+      "title": {
+        "romaji": "Dekiru Neko wa Kyou mo Yuuutsu",
+        "english": "The Masterful Cat is Depressed Again Today",
+        "native": "デキる猫は今日も憂鬱",
+        "userPreferred": "Dekiru Neko wa Kyou mo Yuuutsu"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx149883-D2LSB7hm5bhv.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/149883-SStEPMi7GSIH.jpg",
+      "rating": 75,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 143315,
+      "role": "MAIN",
+      "name": {
+        "first": "Ro",
+        "last": null,
+        "full": "Ro",
+        "native": "ろー",
+        "userPreferred": "Ro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b143315-J0YXOwAZKOZ5.jpg",
+      "voiceActors": [
+        {
+          "id": 105071,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Komatsu",
+            "full": "Mikako Komatsu",
+            "native": "小松未可子",
+            "userPreferred": "Mikako Komatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105071-Hcj0X2gcliPq.png"
+        },
+        {
+          "id": 242589,
+          "language": "German",
+          "name": {
+            "first": "Nina-Carissima",
+            "last": "Schönrock",
+            "full": "Nina-Carissima Schönrock",
+            "native": null,
+            "userPreferred": "Nina-Carissima Schönrock"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 143317,
+      "role": "MAIN",
+      "name": {
+        "first": "Maa",
+        "last": null,
+        "full": "Maa",
+        "native": "まー",
+        "userPreferred": "Maa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b143317-PGRqL95ysoqL.jpg",
+      "voiceActors": [
+        {
+          "id": 112091,
+          "language": "Japanese",
+          "name": {
+            "first": "Ibuki",
+            "last": "Kido",
+            "full": "Ibuki Kido",
+            "native": "木戸衣吹",
+            "userPreferred": "Ibuki Kido"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112091-aO2WqvCmTFz9.png"
+        },
+        {
+          "id": 215724,
+          "language": "German",
+          "name": {
+            "first": "Lisa",
+            "last": "Cardinale",
+            "full": "Lisa Cardinale",
+            "native": null,
+            "userPreferred": "Lisa Cardinale"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 143319,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuuko",
+        "last": "Konagai",
+        "full": "Yuuko Konagai",
+        "native": "小長井 友子",
+        "userPreferred": "Yuuko Konagai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b143319-zBGr15qe8XN7.jpg",
+      "voiceActors": [
+        {
+          "id": 122771,
+          "language": "Japanese",
+          "name": {
+            "first": "Akari",
+            "last": "Uehara",
+            "full": "Akari Uehara",
+            "native": "上原あかり",
+            "userPreferred": "Akari Uehara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/122771-cBbqpMwWJny6.jpg"
+        },
+        {
+          "id": 216106,
+          "language": "German",
+          "name": {
+            "first": "Sara",
+            "last": "Wegner",
+            "full": "Sara Wegner",
+            "native": null,
+            "userPreferred": "Sara Wegner"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 143320,
+      "role": "MAIN",
+      "name": {
+        "first": "Shii",
+        "last": null,
+        "full": "Shii",
+        "native": "しー",
+        "userPreferred": "Shii"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b143320-dYtfTQnRpp7z.jpg",
+      "voiceActors": [
+        {
+          "id": 117421,
+          "language": "Japanese",
+          "name": {
+            "first": "Erii",
+            "last": "Yamazaki",
+            "full": "Erii Yamazaki",
+            "native": "山崎エリイ",
+            "userPreferred": "Erii Yamazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n117421-5NlOXOgi6Nah.png"
+        },
+        {
+          "id": 242587,
+          "language": "German",
+          "name": {
+            "first": "Cynthia",
+            "last": "Taha",
+            "full": "Cynthia Taha",
+            "native": null,
+            "userPreferred": "Cynthia Taha"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 143316,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Azumi",
+        "last": "Shiratori",
+        "full": "Azumi Shiratori",
+        "native": "白鳥 あづみ",
+        "userPreferred": "Azumi Shiratori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b143316-4RkAq0uMu51K.jpg",
+      "voiceActors": [
+        {
+          "id": 117329,
+          "language": "Japanese",
+          "name": {
+            "first": "Naomi",
+            "last": "Oozora",
+            "full": "Naomi Oozora",
+            "native": "大空直美",
+            "userPreferred": "Naomi Oozora"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n117329-lF0lh3HMfjRd.jpg"
+        },
+        {
+          "id": 242588,
+          "language": "German",
+          "name": {
+            "first": "Sabrina",
+            "last": "Engl",
+            "full": "Sabrina Engl",
+            "native": null,
+            "userPreferred": "Sabrina Engl"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 143318,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ran",
+        "last": "Iketani",
+        "full": "Ran Iketani",
+        "native": "池谷 嵐",
+        "userPreferred": "Ran Iketani"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b143318-Cok40pvqWBG2.jpg",
+      "voiceActors": [
+        {
+          "id": 106304,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazusa",
+            "last": "Aranami",
+            "full": "Kazusa Aranami",
+            "native": "荒浪和沙",
+            "userPreferred": "Kazusa Aranami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106304-Sxb9D4VBEZJQ.png"
+        },
+        {
+          "id": 242586,
+          "language": "German",
+          "name": {
+            "first": "Lisa",
+            "last": "Müller",
+            "full": "Lisa Müller",
+            "native": null,
+            "userPreferred": "Lisa Müller"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 143321,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Elza",
+        "last": null,
+        "full": "Elza",
+        "native": "エルザ",
+        "userPreferred": "Elza"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b143321-018N9YBmfaFO.jpg",
+      "voiceActors": [
+        {
+          "id": 107079,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayu",
+            "last": "Udono",
+            "full": "Mayu Udono",
+            "native": "鵜殿麻由",
+            "userPreferred": "Mayu Udono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107079-oLor7h2n2eqe.png"
+        },
+        {
+          "id": 144932,
+          "language": "German",
+          "name": {
+            "first": "Dagmar",
+            "last": "Bittner",
+            "full": "Dagmar Bittner",
+            "native": null,
+            "userPreferred": "Dagmar Bittner"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144932-Z94USAFeZ64g.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 99093,
+      "relationType": "ADAPTATION",
+      "malId": 101613,
+      "title": {
+        "romaji": "Nyanko Days",
+        "english": null,
+        "native": "にゃんこデイズ",
+        "userPreferred": "Nyanko Days"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx99093-4o1BQcFS3Adt.jpg",
+      "color": "#f1a135",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/99093-Bgilr7NccW8G.png",
+      "rating": 71
+    }
+  ],
+  "episodes": [
+    {
+      "id": "nyanko-days-episode-1",
+      "title": "Me and My Kitties",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97673-UQ7WHkc04S40.jpg",
+      "number": 1,
+      "createdAt": "2017-06-30T15:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nyanko-days-episode-1"
+    },
+    {
+      "id": "nyanko-days-episode-2",
+      "title": "Weekend with Cats 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97673-UQ7WHkc04S40.jpg",
+      "number": 2,
+      "createdAt": "2017-06-30T15:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nyanko-days-episode-2"
+    },
+    {
+      "id": "nyanko-days-episode-3",
+      "title": "Weekend with Cats 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97673-UQ7WHkc04S40.jpg",
+      "number": 3,
+      "createdAt": "2017-06-30T15:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nyanko-days-episode-3"
+    },
+    {
+      "id": "nyanko-days-episode-4",
+      "title": "Yuuko and Azumi",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97673-UQ7WHkc04S40.jpg",
+      "number": 4,
+      "createdAt": "2017-06-30T15:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nyanko-days-episode-4"
+    },
+    {
+      "id": "nyanko-days-episode-5",
+      "title": "Episode 5",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97673-UQ7WHkc04S40.jpg",
+      "number": 5,
+      "createdAt": "2017-06-30T15:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nyanko-days-episode-5"
+    },
+    {
+      "id": "nyanko-days-episode-6",
+      "title": "Episode 6",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97673-UQ7WHkc04S40.jpg",
+      "number": 6,
+      "createdAt": "2017-06-30T15:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nyanko-days-episode-6"
+    },
+    {
+      "id": "nyanko-days-episode-7",
+      "title": "Episode 7",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97673-UQ7WHkc04S40.jpg",
+      "number": 7,
+      "createdAt": "2017-06-30T15:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nyanko-days-episode-7"
+    },
+    {
+      "id": "nyanko-days-episode-8",
+      "title": "Episode 8",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97673-UQ7WHkc04S40.jpg",
+      "number": 8,
+      "createdAt": "2017-06-30T15:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nyanko-days-episode-8"
+    },
+    {
+      "id": "nyanko-days-episode-9",
+      "title": "Her Name Is Ran",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97673-UQ7WHkc04S40.jpg",
+      "number": 9,
+      "createdAt": "2017-06-30T15:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nyanko-days-episode-9"
+    },
+    {
+      "id": "nyanko-days-episode-10",
+      "title": "Secrets and Tsundere",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97673-UQ7WHkc04S40.jpg",
+      "number": 10,
+      "createdAt": "2017-06-30T15:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nyanko-days-episode-10"
+    },
+    {
+      "id": "nyanko-days-episode-11",
+      "title": "Let's Go to the Festival",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97673-UQ7WHkc04S40.jpg",
+      "number": 11,
+      "createdAt": "2017-06-30T15:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nyanko-days-episode-11"
+    },
+    {
+      "id": "nyanko-days-episode-12",
+      "title": "With My Cats",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97673-UQ7WHkc04S40.jpg",
+      "number": 12,
+      "createdAt": "2017-06-30T15:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nyanko-days-episode-12"
+    }
+  ]
+}

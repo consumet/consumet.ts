@@ -1,0 +1,92 @@
+{
+  "id": "119927",
+  "title": {
+    "romaji": "Dubu Xiaoyao",
+    "english": null,
+    "native": "独步逍遥"
+  },
+  "malId": 42267,
+  "synonyms": [
+    "One Step Forward Freedom"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx119927-y4o8s29KJANF.jpg",
+  "popularity": 635,
+  "color": "#e4a150",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx119927-y4o8s29KJANF.jpg",
+  "status": "Ongoing",
+  "releaseDate": 2020,
+  "startDate": {
+    "year": 2020,
+    "month": 6,
+    "day": 18
+  },
+  "endDate": {
+    "year": 2024,
+    "month": 1,
+    "day": 8
+  },
+  "nextAiringEpisode": {
+    "airingTime": 1698026400,
+    "timeUntilAiring": 215787,
+    "episode": 358
+  },
+  "totalEpisodes": 380,
+  "currentEpisode": 357,
+  "rating": 61,
+  "duration": 12,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Romance"
+  ],
+  "season": null,
+  "studios": [
+    "Soyep"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 120272,
+      "malId": 41884,
+      "title": {
+        "romaji": "Ling Jian Zun 4",
+        "english": null,
+        "native": "灵剑尊 第四季",
+        "userPreferred": "Ling Jian Zun 4"
+      },
+      "status": "Ongoing",
+      "episodes": 360,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120272-v1UXPGEyyVDb.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120272-v1UXPGEyyVDb.png",
+      "rating": 73,
+      "type": "ONA"
+    }
+  ],
+  "characters": [],
+  "relations": [
+    {
+      "id": 124604,
+      "relationType": "ALTERNATIVE",
+      "malId": null,
+      "title": {
+        "romaji": "Dubu Xiaoyao",
+        "english": "Free Walker",
+        "native": "独步逍遥",
+        "userPreferred": "Dubu Xiaoyao"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b124604-9KK5FSwYFKbJ.jpg",
+      "color": "#e41a93",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b124604-9KK5FSwYFKbJ.jpg",
+      "rating": 63
+    }
+  ],
+  "episodes": []
+}

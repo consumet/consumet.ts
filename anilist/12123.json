@@ -1,0 +1,428 @@
+{
+  "id": "12123",
+  "title": {
+    "romaji": "Yurumates 3D",
+    "english": null,
+    "native": "ゆるめいつ 3でぃ"
+  },
+  "malId": 12123,
+  "synonyms": [
+    "Yurumeitsu 3D"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b12123-W2g9WpFpZc8K.jpg",
+  "popularity": 1970,
+  "color": "#86e45d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b12123-W2g9WpFpZc8K.jpg",
+  "description": "Yurume, an 18-year-old \"ronin\" and recent high school graduate, has high hopes of being accepted and attending Tokyo University. She moves into an apartment complex, the Maison du Wish, located on the outskirts of Tokyo where other ronins living there are studying for upcoming college acceptance exams. ",
+  "status": "Completed",
+  "releaseDate": 2012,
+  "startDate": {
+    "year": 2012,
+    "month": 4,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2012,
+    "month": 6,
+    "day": 26
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 59,
+  "duration": 3,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "C2C"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 1852,
+      "malId": 1852,
+      "title": {
+        "romaji": "Hidamari Sketch",
+        "english": "Hidamari Sketch",
+        "native": "ひだまりスケッチ",
+        "userPreferred": "Hidamari Sketch"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1852-ru4zOAvNn1Aq.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1852-luCP33l49lkR.jpg",
+      "rating": 73,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 21356,
+      "role": "MAIN",
+      "name": {
+        "first": "Sae",
+        "last": "Kawano",
+        "full": "Sae Kawano",
+        "native": "川野サエ",
+        "userPreferred": "Sae Kawano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21356.jpg",
+      "voiceActors": [
+        {
+          "id": 95136,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsuko",
+            "last": "Kuwatani",
+            "full": "Natsuko Kuwatani",
+            "native": "桑谷夏子",
+            "userPreferred": "Natsuko Kuwatani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95136-8dAGkiwq7Htk.png"
+        }
+      ]
+    },
+    {
+      "id": 24621,
+      "role": "MAIN",
+      "name": {
+        "first": "Matsukichi",
+        "last": null,
+        "full": "Matsukichi",
+        "native": "松吉",
+        "userPreferred": "Matsukichi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24621.jpg",
+      "voiceActors": [
+        {
+          "id": 95245,
+          "language": "Japanese",
+          "name": {
+            "first": "Satoshi",
+            "last": "Hino",
+            "full": "Satoshi Hino",
+            "native": "日野聡",
+            "userPreferred": "Satoshi Hino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95245-prBoWpg0HaGX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20395,
+      "role": "MAIN",
+      "name": {
+        "first": "Yurume",
+        "last": "Aida",
+        "full": "Yurume Aida",
+        "native": "相田ゆるめ",
+        "userPreferred": "Yurume Aida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20395.jpg",
+      "voiceActors": [
+        {
+          "id": 95258,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruko",
+            "last": "Momoi",
+            "full": "Haruko Momoi",
+            "native": "桃井はるこ",
+            "userPreferred": "Haruko Momoi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95258-cTKT3ONucnZU.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21355,
+      "role": "MAIN",
+      "name": {
+        "first": "Kumi",
+        "last": "Tanaka",
+        "full": "Kumi Tanaka",
+        "native": "田中くみ",
+        "userPreferred": "Kumi Tanaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21355.jpg",
+      "voiceActors": [
+        {
+          "id": 95401,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Matsuki",
+            "full": "Miyu Matsuki",
+            "native": "松来未祐",
+            "userPreferred": "Miyu Matsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95401-2ffju56ewc36.png"
+        }
+      ]
+    },
+    {
+      "id": 60843,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mother",
+        "last": "Aida",
+        "full": "Mother Aida",
+        "native": "ゆるめの母",
+        "userPreferred": "Mother Aida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 107779,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanami",
+            "last": "Satou",
+            "full": "Kanami Satou",
+            "native": "佐藤奏美",
+            "userPreferred": "Kanami Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12779.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60845,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ooya",
+        "last": null,
+        "full": "Ooya",
+        "native": "大家",
+        "userPreferred": "Ooya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60845.jpg",
+      "voiceActors": [
+        {
+          "id": 109159,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayu",
+            "last": "Miyazaki",
+            "full": "Mayu Miyazaki",
+            "native": "宮崎まゆ",
+            "userPreferred": "Mayu Miyazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14159.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63105,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sae no imouto",
+        "last": null,
+        "full": "Sae no imouto",
+        "native": "サエの妹",
+        "userPreferred": "Sae no imouto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63105.jpg",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 14693,
+      "relationType": "SEQUEL",
+      "malId": 14693,
+      "title": {
+        "romaji": "Yurumates 3D PLUS",
+        "english": null,
+        "native": "ゆるめいつ3でぃPLUS",
+        "userPreferred": "Yurumates 3D PLUS"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/14693.jpg",
+      "color": "#7850e4",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/14693.jpg",
+      "rating": 60
+    },
+    {
+      "id": 42960,
+      "relationType": "ADAPTATION",
+      "malId": 12960,
+      "title": {
+        "romaji": "Yurumates",
+        "english": null,
+        "native": "ゆるめいつ",
+        "userPreferred": "Yurumates"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/12960.jpg",
+      "color": "#ffd6a1",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/12960.jpg",
+      "rating": 51
+    },
+    {
+      "id": 14949,
+      "relationType": "SIDE_STORY",
+      "malId": 14949,
+      "title": {
+        "romaji": "Yurumates (2012)",
+        "english": null,
+        "native": "ゆるめいつ (2012)",
+        "userPreferred": "Yurumates (2012)"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/14949.jpg",
+      "color": "#e4bb86",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/14949.jpg",
+      "rating": 58
+    },
+    {
+      "id": 6148,
+      "relationType": "PARENT",
+      "malId": 6148,
+      "title": {
+        "romaji": "Yurumates",
+        "english": null,
+        "native": "ゆるめいつ",
+        "userPreferred": "Yurumates"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b6148-b1gpBGQUfEUk.png",
+      "color": "#f1ae5d",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b6148-b1gpBGQUfEUk.png",
+      "rating": 59
+    }
+  ],
+  "episodes": [
+    {
+      "id": "yurumates-3d-episode-1",
+      "title": "Yurume Goes to Tokyo",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b12123-W2g9WpFpZc8K.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:29:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yurumates-3d-episode-1"
+    },
+    {
+      "id": "yurumates-3d-episode-2",
+      "title": "Image Chicken Race",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b12123-W2g9WpFpZc8K.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:29:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yurumates-3d-episode-2"
+    },
+    {
+      "id": "yurumates-3d-episode-3",
+      "title": "A True Lie",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b12123-W2g9WpFpZc8K.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:29:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yurumates-3d-episode-3"
+    },
+    {
+      "id": "yurumates-3d-episode-4",
+      "title": "Let's Talk About Matsukichi",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b12123-W2g9WpFpZc8K.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:29:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yurumates-3d-episode-4"
+    },
+    {
+      "id": "yurumates-3d-episode-5",
+      "title": "Tanabata Festival Rain or Shine",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b12123-W2g9WpFpZc8K.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:29:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yurumates-3d-episode-5"
+    },
+    {
+      "id": "yurumates-3d-episode-6",
+      "title": "Watermelon Splitting",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b12123-W2g9WpFpZc8K.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:29:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yurumates-3d-episode-6"
+    },
+    {
+      "id": "yurumates-3d-episode-7",
+      "title": "Ice Cream's Close Shave",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b12123-W2g9WpFpZc8K.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:29:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yurumates-3d-episode-7"
+    },
+    {
+      "id": "yurumates-3d-episode-8",
+      "title": "Japan's Two Choice Weather Agency",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b12123-W2g9WpFpZc8K.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:29:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yurumates-3d-episode-8"
+    },
+    {
+      "id": "yurumates-3d-episode-9",
+      "title": "Tabletop Puzzle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b12123-W2g9WpFpZc8K.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:29:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yurumates-3d-episode-9"
+    },
+    {
+      "id": "yurumates-3d-episode-10",
+      "title": "How to Celebrate New Year's",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b12123-W2g9WpFpZc8K.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:29:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yurumates-3d-episode-10"
+    },
+    {
+      "id": "yurumates-3d-episode-11",
+      "title": "Unopened Doors",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b12123-W2g9WpFpZc8K.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:29:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yurumates-3d-episode-11"
+    },
+    {
+      "id": "yurumates-3d-episode-12",
+      "title": "Packed for Cherry Blossom Viewing",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b12123-W2g9WpFpZc8K.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:29:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yurumates-3d-episode-12"
+    },
+    {
+      "id": "yurumates-3d-episode-13",
+      "title": "Pattern Sister",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b12123-W2g9WpFpZc8K.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:29:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yurumates-3d-episode-13"
+    }
+  ]
+}

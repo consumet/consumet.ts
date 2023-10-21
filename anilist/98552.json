@@ -1,0 +1,82 @@
+{
+  "id": "98552",
+  "title": {
+    "romaji": "World Fool News (TV)",
+    "english": null,
+    "native": "ワールドフールニューズ"
+  },
+  "malId": 18205,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98552-mDTjg41ouXjb.jpg",
+  "popularity": 401,
+  "color": "#f1a128",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98552-mDTjg41ouXjb.jpg",
+  "description": "Takahashi is transferred to a main anchor of a news program, which is known for being a little...weird. This is a comedy about somewhat ridiculous happenings occurring at a broadcasting station.",
+  "status": "Completed",
+  "releaseDate": 2014,
+  "startDate": {
+    "year": 2014,
+    "month": 4,
+    "day": 17
+  },
+  "endDate": {
+    "year": 2014,
+    "month": 7,
+    "day": 3
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 50,
+  "duration": 10,
+  "genres": [
+    "Comedy"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [],
+  "characters": [],
+  "relations": [
+    {
+      "id": 18205,
+      "relationType": "ALTERNATIVE",
+      "malId": 24437,
+      "title": {
+        "romaji": "World Fool News",
+        "english": null,
+        "native": "ワールド フールニュース",
+        "userPreferred": "World Fool News"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18205.jpg",
+      "color": "#e4860d",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18205.jpg",
+      "rating": 52
+    },
+    {
+      "id": 98553,
+      "relationType": "SEQUEL",
+      "malId": 35332,
+      "title": {
+        "romaji": "World Fool News (TV) Part II",
+        "english": null,
+        "native": "ワールドフールニュース Part Ⅱ",
+        "userPreferred": "World Fool News (TV) Part II"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98553-bQGzkCBE5yUi.jpg",
+      "color": "#e4c943",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98553-bQGzkCBE5yUi.jpg",
+      "rating": 51
+    }
+  ],
+  "episodes": []
+}

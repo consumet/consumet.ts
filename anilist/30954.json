@@ -1,0 +1,318 @@
+{
+  "id": "30954",
+  "title": {
+    "romaji": "Murder Princess",
+    "english": "Murder Princess",
+    "native": "マーダー・プリンセス"
+  },
+  "malId": 954,
+  "synonyms": [
+    "MadaPur"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30954-SEcGvXdWe17H.jpg",
+  "popularity": 585,
+  "color": "#f1f1c9",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30954-SEcGvXdWe17H.jpg",
+  "description": "Princess Alita must protect her kingdom from a coup d'etat. But on her way to get help, a magical mishap trapped her inside the body of a bounty hunter named Falis. Now Alita must rule disguised as a servant as the battle-savvy Falis sits on the throne in her body.<br><br>\nAnd thus the story about the strongest and most violent princess in the history of the kingdom begins. \n\n<br><br>(Source: Broccoli Books)",
+  "status": "Completed",
+  "releaseDate": 2004,
+  "startDate": {
+    "year": 2004,
+    "month": 4,
+    "day": 26
+  },
+  "endDate": {
+    "year": 2006,
+    "month": 11,
+    "day": 26
+  },
+  "totalEpisodes": null,
+  "currentEpisode": null,
+  "rating": 58,
+  "duration": null,
+  "genres": [
+    "Adventure",
+    "Fantasy"
+  ],
+  "season": null,
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "MANGA",
+  "recommendations": [
+    {
+      "id": 30424,
+      "malId": 424,
+      "title": {
+        "romaji": "Kaibutsu Oujo",
+        "english": "Princess Resurrection",
+        "native": "怪物王女",
+        "userPreferred": "Kaibutsu Oujo"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx30424-JD1GFkeDXwM2.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx30424-JD1GFkeDXwM2.jpg",
+      "rating": 70,
+      "type": "MANGA"
+    },
+    {
+      "id": 38775,
+      "malId": 8775,
+      "title": {
+        "romaji": "Mazinger Angel Z",
+        "english": null,
+        "native": "マジンガーエンジェルZ",
+        "userPreferred": "Mazinger Angel Z"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/8775.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/8775.jpg",
+      "rating": 58,
+      "type": "MANGA"
+    },
+    {
+      "id": 75509,
+      "malId": 45509,
+      "title": {
+        "romaji": "Shinmai Fukei Kiruko-san",
+        "english": null,
+        "native": "新米婦警キルコさん",
+        "userPreferred": "Shinmai Fukei Kiruko-san"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx75509-vxjrVOu1zN44.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/75509-tiCmJB2LEcoJ.jpg",
+      "rating": 61,
+      "type": "MANGA"
+    },
+    {
+      "id": 42390,
+      "malId": 12390,
+      "title": {
+        "romaji": "Yukei Seikyo Kukla",
+        "english": null,
+        "native": "幽形聖境クークラ",
+        "userPreferred": "Yukei Seikyo Kukla"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx42390-WbqodOlO9whv.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx42390-WbqodOlO9whv.jpg",
+      "rating": 67,
+      "type": "MANGA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 2273,
+      "role": "MAIN",
+      "name": {
+        "first": "Falis",
+        "last": null,
+        "full": "Falis",
+        "native": "ファリス",
+        "userPreferred": "Falis"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2273.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 2083,
+      "role": "MAIN",
+      "name": {
+        "first": "Alita Castilia Arago",
+        "last": "Forland",
+        "full": "Alita Castilia Arago Forland",
+        "native": "アリタ‧フォーランド",
+        "userPreferred": "Alita Castilia Arago Forland"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2083.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 2275,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Pete",
+        "last": "Armstrong",
+        "full": "Pete Armstrong",
+        "native": "ピート‧アームストロング",
+        "userPreferred": "Pete Armstrong"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2275.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 6994,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jodo",
+        "last": "Entolasia",
+        "full": "Jodo Entolasia",
+        "native": "ジョドォ‧エントラシア",
+        "userPreferred": "Jodo Entolasia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6994.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 5747,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ana",
+        "last": null,
+        "full": "Ana",
+        "native": "アナ",
+        "userPreferred": "Ana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5747.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 5788,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dr. Akamashi",
+        "last": null,
+        "full": "Dr. Akamashi",
+        "native": "Dr.アカマシ",
+        "userPreferred": "Dr. Akamashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5788.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 2274,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dominikov",
+        "last": null,
+        "full": "Dominikov",
+        "native": "ドミニコフ",
+        "userPreferred": "Dominikov"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2274.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 4715,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaito",
+        "last": null,
+        "full": "Kaito",
+        "native": "カイト (黒い騎士)",
+        "userPreferred": "Kaito"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4715.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 5129,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cecilia",
+        "last": null,
+        "full": "Cecilia",
+        "native": "セシリア",
+        "userPreferred": "Cecilia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5129.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 5746,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuna",
+        "last": null,
+        "full": "Yuna",
+        "native": "ユナ",
+        "userPreferred": "Yuna"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5746.jpg",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 1696,
+      "relationType": "ADAPTATION",
+      "malId": 1696,
+      "title": {
+        "romaji": "Murder Princess",
+        "english": null,
+        "native": "マーダープリンセス",
+        "userPreferred": "Murder Princess"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1696-umqHi6MD4mcc.png",
+      "color": "#e4a10d",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1696-d251qujxtdhh.jpg",
+      "rating": 65
+    }
+  ],
+  "episodes": [
+    {
+      "id": "murder-princess-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30954-SEcGvXdWe17H.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//murder-princess-episode-1"
+    },
+    {
+      "id": "murder-princess-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30954-SEcGvXdWe17H.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//murder-princess-episode-2"
+    },
+    {
+      "id": "murder-princess-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30954-SEcGvXdWe17H.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//murder-princess-episode-3"
+    },
+    {
+      "id": "murder-princess-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30954-SEcGvXdWe17H.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//murder-princess-episode-4"
+    },
+    {
+      "id": "murder-princess-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30954-SEcGvXdWe17H.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//murder-princess-episode-5"
+    },
+    {
+      "id": "murder-princess-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30954-SEcGvXdWe17H.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//murder-princess-episode-6"
+    }
+  ]
+}

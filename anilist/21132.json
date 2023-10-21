@@ -1,0 +1,571 @@
+{
+  "id": "21132",
+  "title": {
+    "romaji": "Tokyo Ghoul: [JACK]",
+    "english": null,
+    "native": "東京喰種トーキョーグール [JACK]"
+  },
+  "malId": 30458,
+  "synonyms": [
+    "Tokyo Kushu: Jack"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "pg278L_T62k",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/pg278L_T62k/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21132-nY3Ifx1GYQ6f.jpg",
+  "popularity": 45157,
+  "color": "#1a93d6",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n21132-AJU3lc6JfnMM.jpg",
+  "description": "The story follows how the ace investigator Arima and the talented 7th Ward investigator Taishi Fura first met.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2015,
+  "startDate": {
+    "year": 2015,
+    "month": 9,
+    "day": 30
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 9,
+    "day": 30
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 69,
+  "duration": 30,
+  "genres": [
+    "Drama",
+    "Horror",
+    "Supernatural"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Studio Pierrot"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 21326,
+      "malId": 31297,
+      "title": {
+        "romaji": "Tokyo Ghoul: [PINTO]",
+        "english": null,
+        "native": "東京喰種トーキョーグール【PINTO】",
+        "userPreferred": "Tokyo Ghoul: [PINTO]"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21326-Vmunxqzj1umc.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n21326-frrcFf02l5kt.jpg",
+      "rating": 69,
+      "type": "OVA"
+    },
+    {
+      "id": 100240,
+      "malId": 36511,
+      "title": {
+        "romaji": "Tokyo Ghoul:re",
+        "english": "Tokyo Ghoul:re",
+        "native": "東京喰種-トーキョーグール-:re",
+        "userPreferred": "Tokyo Ghoul:re"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx100240-vJNaKd5HwPJ2.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n100240-UuzeDXFw7itH.jpg",
+      "rating": 61,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 88946,
+      "role": "MAIN",
+      "name": {
+        "first": "Kishou",
+        "last": "Arima",
+        "full": "Kishou Arima",
+        "native": "有馬 貴将",
+        "userPreferred": "Kishou Arima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88946-YbTQAGJAdpoH.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        },
+        {
+          "id": 165518,
+          "language": "Italian",
+          "name": {
+            "first": "Federico",
+            "last": "Campaiola",
+            "full": "Federico Campaiola",
+            "native": null,
+            "userPreferred": "Federico Campaiola"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 194029,
+          "language": "Spanish",
+          "name": {
+            "first": "Elliot",
+            "last": "Leguizamo",
+            "full": "Elliot Leguizamo",
+            "native": "Elliot Ivan Leguizamo Rodriguez",
+            "userPreferred": "Elliot Leguizamo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n194029-TmzaVZBtRwwD.jpg"
+        },
+        {
+          "id": 198591,
+          "language": "Portuguese",
+          "name": {
+            "first": "Guilherme",
+            "last": "de Barros",
+            "full": "Guilherme de Barros",
+            "native": null,
+            "userPreferred": "Guilherme de Barros"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n198591-SUn0HtX1Nxoa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 145217,
+      "role": "MAIN",
+      "name": {
+        "first": "Taishi",
+        "last": "Fura",
+        "full": "Taishi Fura",
+        "native": "富良太志",
+        "userPreferred": "Taishi Fura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b145217-ZQ9Iw8HOxHFQ.jpg",
+      "voiceActors": [
+        {
+          "id": 96762,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouhei",
+            "last": "Kimura",
+            "full": "Ryouhei Kimura",
+            "native": "木村良平",
+            "userPreferred": "Ryouhei Kimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96762-DNKMFBA2vWRr.jpg"
+        },
+        {
+          "id": 115244,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandro",
+            "last": "Vanni",
+            "full": "Alessandro Vanni",
+            "native": null,
+            "userPreferred": "Alessandro Vanni"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20244.jpg"
+        },
+        {
+          "id": 255849,
+          "language": "Spanish",
+          "name": {
+            "first": "Arturo Sian",
+            "last": "Vidal",
+            "full": "Arturo Sian Vidal",
+            "native": null,
+            "userPreferred": "Arturo Sian Vidal"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n255849-5ULk8vMnqNk8.png"
+        },
+        {
+          "id": 233205,
+          "language": "Portuguese",
+          "name": {
+            "first": "Caio",
+            "last": "Freire",
+            "full": "Caio Freire",
+            "native": "Caio Freire Santos",
+            "userPreferred": "Caio Freire"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n233205-47ce0Ap6P1bJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 145221,
+      "role": "MAIN",
+      "name": {
+        "first": "Aki",
+        "last": "Sasada",
+        "full": "Aki Sasada",
+        "native": "笹田アキ",
+        "userPreferred": "Aki Sasada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b145221-t5dkg5bjdu8M.jpg",
+      "voiceActors": [
+        {
+          "id": 107041,
+          "language": "Japanese",
+          "name": {
+            "first": "Rumi",
+            "last": "Ookubo",
+            "full": "Rumi Ookubo",
+            "native": "大久保瑠美",
+            "userPreferred": "Rumi Ookubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107041-ZqPloXZhcuQw.jpg"
+        },
+        {
+          "id": 237616,
+          "language": "Italian",
+          "name": {
+            "first": "Laura",
+            "last": "Amadei",
+            "full": "Laura Amadei",
+            "native": null,
+            "userPreferred": "Laura Amadei"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 205025,
+          "language": "Spanish",
+          "name": {
+            "first": "Nadia",
+            "last": "Lujambio",
+            "full": "Nadia Lujambio",
+            "native": "Nadia Yanin Lujambio Valle",
+            "userPreferred": "Nadia Lujambio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n205025-D1N0VdUczuxq.png"
+        },
+        {
+          "id": 197891,
+          "language": "Portuguese",
+          "name": {
+            "first": "Kandy",
+            "last": "Kathy",
+            "full": "Kandy Kathy",
+            "native": null,
+            "userPreferred": "Kandy Kathy"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197891-LjOl5TqJjpQt.png"
+        }
+      ]
+    },
+    {
+      "id": 145222,
+      "role": "MAIN",
+      "name": {
+        "first": "Uruka",
+        "last": "Minami",
+        "full": "Uruka Minami",
+        "native": "三波麗花",
+        "userPreferred": "Uruka Minami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b145222-Njk3g24gd40l.jpg",
+      "voiceActors": [
+        {
+          "id": 95869,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Hayami",
+            "full": "Saori Hayami",
+            "native": "早見沙織",
+            "userPreferred": "Saori Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95869-qCQ0EaWpq1QT.png"
+        },
+        {
+          "id": 115144,
+          "language": "Italian",
+          "name": {
+            "first": "Joy",
+            "last": "Saltarelli",
+            "full": "Joy Saltarelli",
+            "native": null,
+            "userPreferred": "Joy Saltarelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20144.jpg"
+        },
+        {
+          "id": 197592,
+          "language": "Spanish",
+          "name": {
+            "first": "Monserrat",
+            "last": "Pérez",
+            "full": "Monserrat Pérez",
+            "native": null,
+            "userPreferred": "Monserrat Pérez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197592-pczbVt8q0Rv6.png"
+        },
+        {
+          "id": 198674,
+          "language": "Portuguese",
+          "name": {
+            "first": "Carol",
+            "last": "Ruis",
+            "full": "Carol Ruis",
+            "native": "Carolina Ruis",
+            "userPreferred": "Carol Ruis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n198674-3LDAXxUJxXvr.png"
+        }
+      ]
+    },
+    {
+      "id": 88428,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yakumo",
+        "last": "Oomori",
+        "full": "Yakumo Oomori",
+        "native": "大守 八雲 / ジェイソン / ヤモリ",
+        "userPreferred": "Yakumo Oomori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88428.jpg",
+      "voiceActors": [
+        {
+          "id": 100928,
+          "language": "Japanese",
+          "name": {
+            "first": "Rintarou",
+            "last": "Nishi",
+            "full": "Rintarou Nishi",
+            "native": "西凜太朗",
+            "userPreferred": "Rintarou Nishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100928-OfFb5f55VSFB.png"
+        },
+        {
+          "id": 245237,
+          "language": "Italian",
+          "name": {
+            "first": "Fabrizio",
+            "last": "Russotto",
+            "full": "Fabrizio Russotto",
+            "native": null,
+            "userPreferred": "Fabrizio Russotto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 201035,
+          "language": "Spanish",
+          "name": {
+            "first": "Mauricio",
+            "last": "Vázquez",
+            "full": "Mauricio Vázquez",
+            "native": null,
+            "userPreferred": "Mauricio Vázquez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n201035-gRWvtYedjH5d.png"
+        },
+        {
+          "id": 185881,
+          "language": "Portuguese",
+          "name": {
+            "first": "Cassiano",
+            "last": "Ávila",
+            "full": "Cassiano Ávila",
+            "native": null,
+            "userPreferred": "Cassiano Ávila"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n185881-tlLhn9XhlurL.jpg"
+        }
+      ]
+    },
+    {
+      "id": 145218,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryou",
+        "last": null,
+        "full": "Ryou",
+        "native": "リョウ",
+        "userPreferred": "Ryou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b145218-Qk2JbeK7zdcA.jpg",
+      "voiceActors": [
+        {
+          "id": 95735,
+          "language": "Japanese",
+          "name": {
+            "first": "Tatsuhisa",
+            "last": "Suzuki",
+            "full": "Tatsuhisa Suzuki",
+            "native": "鈴木達央",
+            "userPreferred": "Tatsuhisa Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95735-xssSe5BRSkaq.jpg"
+        },
+        {
+          "id": 175399,
+          "language": "Italian",
+          "name": {
+            "first": "Emanuele",
+            "last": "Ruzza",
+            "full": "Emanuele Ruzza",
+            "native": null,
+            "userPreferred": "Emanuele Ruzza"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 184396,
+          "language": "Spanish",
+          "name": {
+            "first": "Héctor",
+            "last": "Mena",
+            "full": "Héctor Mena",
+            "native": null,
+            "userPreferred": "Héctor Mena"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n184396-xWboaE1KVAY3.jpg"
+        },
+        {
+          "id": 198592,
+          "language": "Portuguese",
+          "name": {
+            "first": "Celso",
+            "last": "Henrique",
+            "full": "Celso Henrique",
+            "native": null,
+            "userPreferred": "Celso Henrique"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n198592-0Bswj6EM3eaD.png"
+        }
+      ]
+    },
+    {
+      "id": 145219,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Itsuki",
+        "last": "Marude",
+        "full": "Itsuki Marude",
+        "native": "丸手斎",
+        "userPreferred": "Itsuki Marude"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b145219-5UZ7wyA5gaCq.jpg",
+      "voiceActors": [
+        {
+          "id": 95058,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Ueda",
+            "full": "Yuuji Ueda",
+            "native": "うえだゆうじ",
+            "userPreferred": "Yuuji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95058-fGnId7E4tgx3.jpg"
+        },
+        {
+          "id": 285763,
+          "language": "Italian",
+          "name": {
+            "first": "Stefano",
+            "last": "Thermes",
+            "full": "Stefano Thermes",
+            "native": null,
+            "userPreferred": "Stefano Thermes"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 253280,
+          "language": "Spanish",
+          "name": {
+            "first": "Mauricio",
+            "last": "Valverde",
+            "full": "Mauricio Valverde",
+            "native": "Mauricio Valverde Parrao",
+            "userPreferred": "Mauricio Valverde"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n253280-ShX7QCb93H49.png"
+        },
+        {
+          "id": 224045,
+          "language": "Portuguese",
+          "name": {
+            "first": "Douglas",
+            "last": "Monteiro",
+            "full": "Douglas Monteiro",
+            "native": null,
+            "userPreferred": "Douglas Monteiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n224045-E7XRujWdm6We.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 85522,
+      "relationType": "ADAPTATION",
+      "malId": 77815,
+      "title": {
+        "romaji": "Tokyo Ghoul: Jack",
+        "english": "Tokyo Ghoul: Jack",
+        "native": "東京喰種－トーキョーグール－ [JACK]",
+        "userPreferred": "Tokyo Ghoul: Jack"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx85522-v5vjyUSCTvvl.jpg",
+      "color": "#f19343",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/85522-DpDigt0PjS29.jpg",
+      "rating": 70
+    },
+    {
+      "id": 20605,
+      "relationType": "SEQUEL",
+      "malId": 22319,
+      "title": {
+        "romaji": "Tokyo Ghoul",
+        "english": "Tokyo Ghoul",
+        "native": "東京喰種 トーキョーグール",
+        "userPreferred": "Tokyo Ghoul"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20605-fmnHdfurM7m6.jpg",
+      "color": "#35DDFF",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20605-RCJ7M71zLmrh.jpg",
+      "rating": 75
+    }
+  ],
+  "episodes": [
+    {
+      "id": "tokyo-ghoul-jack--episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21132-nY3Ifx1GYQ6f.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-ghoul-jack--episode-1"
+    }
+  ]
+}

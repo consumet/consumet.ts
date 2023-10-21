@@ -1,0 +1,1173 @@
+{
+  "id": "6634",
+  "title": {
+    "romaji": "Sengoku BASARA Ni",
+    "english": "Sengoku Basara: Samurai Kings 2",
+    "native": "戦国BASARA弐"
+  },
+  "malId": 6634,
+  "synonyms": [
+    "Sengoku Basara 2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6634-vIE3Zufsz2bP.png",
+  "popularity": 8920,
+  "color": "#e42843",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6634-vIE3Zufsz2bP.png",
+  "description": "The second season of <i>Sengoku Basara</i>.<br>\n<br>\nJapan's toughest warlords are on the move, leading massive armies against their rivals in a thrilling quest for total domination. Wielding insane weaponry and unleashing the elements to boost their already awesome power, these warrior generals roar into the fray atop turbo-charged stallions, slicing through the enemy with six blades at once.<br>\n<br>\nThey brandish explosive shotguns and swing swords the size of men. They crush the opposition with rolling battle fortresses and incinerate their foes with solar death rays. Hordes of ninja assassins and samurai fight to vanquish every adversary in their sight. As loyalties crumble and new alliances are forged in the scorching heat of battle, heroes become conquerors and conquerors become legends. This is war!<br>\n<br>\n(Source: Manga Entertainment)",
+  "status": "Completed",
+  "releaseDate": 2010,
+  "startDate": {
+    "year": 2010,
+    "month": 7,
+    "day": 11
+  },
+  "endDate": {
+    "year": 2010,
+    "month": 9,
+    "day": 26
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 71,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Drama",
+    "Fantasy"
+  ],
+  "season": "SUMMER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 117612,
+      "malId": 41710,
+      "title": {
+        "romaji": "Genjitsu Shugi Yuusha no Oukoku Saikenki",
+        "english": "How a Realist Hero Rebuilt the Kingdom",
+        "native": "現実主義勇者の王国再建記",
+        "userPreferred": "Genjitsu Shugi Yuusha no Oukoku Saikenki"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx117612-MCbAaq2ypJlp.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/117612-MQ8iXGt2NHkB.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 11241,
+      "malId": 11241,
+      "title": {
+        "romaji": "Brave 10",
+        "english": null,
+        "native": "ブレイブ・テン",
+        "userPreferred": "Brave 10"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11241-FVdZiZceB4c7.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11241-9X2TrLCKv60G.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 4151,
+      "malId": 4151,
+      "title": {
+        "romaji": "Mugen no Juunin",
+        "english": "Blade of the Immortal",
+        "native": "無限の住人",
+        "userPreferred": "Mugen no Juunin"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4151-7kcnkt5iisJX.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4151-sm2gllDa2PxO.jpg",
+      "rating": 63,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 16302,
+      "role": "MAIN",
+      "name": {
+        "first": "Masamune",
+        "last": "Date",
+        "full": "Masamune Date",
+        "native": "伊達 政宗",
+        "userPreferred": "Masamune Date"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16302.jpg",
+      "voiceActors": [
+        {
+          "id": 95123,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuya",
+            "last": "Nakai",
+            "full": "Kazuya Nakai",
+            "native": "中井和哉",
+            "userPreferred": "Kazuya Nakai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95123-qdVFNraYmQ5K.png"
+        },
+        {
+          "id": 95666,
+          "language": "English",
+          "name": {
+            "first": "Robert",
+            "last": "McCollum",
+            "full": "Robert McCollum",
+            "native": null,
+            "userPreferred": "Robert McCollum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95666-er3JLtqV1TLy.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16301,
+      "role": "MAIN",
+      "name": {
+        "first": "Yukimura",
+        "last": "Sanada",
+        "full": "Yukimura Sanada",
+        "native": "真田幸村",
+        "userPreferred": "Yukimura Sanada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16301.jpg",
+      "voiceActors": [
+        {
+          "id": 95030,
+          "language": "Japanese",
+          "name": {
+            "first": "Souichirou",
+            "last": "Hoshi",
+            "full": "Souichirou Hoshi",
+            "native": "保志総一朗",
+            "userPreferred": "Souichirou Hoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95030-kj64Uy6Zr3bq.png"
+        },
+        {
+          "id": 95010,
+          "language": "English",
+          "name": {
+            "first": "Johnny Yong",
+            "last": "Bosch",
+            "full": "Johnny Yong Bosch",
+            "native": null,
+            "userPreferred": "Johnny Yong Bosch"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95010-56EByXYI2PjI.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20286,
+      "role": "MAIN",
+      "name": {
+        "first": "Keiji",
+        "last": "Maeda",
+        "full": "Keiji Maeda",
+        "native": "前田慶次",
+        "userPreferred": "Keiji Maeda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20286.jpg",
+      "voiceActors": [
+        {
+          "id": 95205,
+          "language": "Japanese",
+          "name": {
+            "first": "Masakazu",
+            "last": "Morita",
+            "full": "Masakazu Morita",
+            "native": "森田成一",
+            "userPreferred": "Masakazu Morita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95205-5P3tKe3eTG9n.jpg"
+        },
+        {
+          "id": 95312,
+          "language": "English",
+          "name": {
+            "first": "Eric",
+            "last": "Vale",
+            "full": "Eric Vale",
+            "native": null,
+            "userPreferred": "Eric Vale"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95312-lixmVhwE8AXE.png"
+        }
+      ]
+    },
+    {
+      "id": 36615,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mitsunari",
+        "last": "Ishida",
+        "full": "Mitsunari Ishida",
+        "native": "石田三成",
+        "userPreferred": "Mitsunari Ishida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36615.jpg",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        },
+        {
+          "id": 95182,
+          "language": "English",
+          "name": {
+            "first": "Troy",
+            "last": "Baker",
+            "full": "Troy Baker",
+            "native": null,
+            "userPreferred": "Troy Baker"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95182-TiZXT6F98sV2.png"
+        }
+      ]
+    },
+    {
+      "id": 36225,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Musashi",
+        "last": "Miyamoto",
+        "full": "Musashi Miyamoto",
+        "native": "宮本 武蔵",
+        "userPreferred": "Musashi Miyamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36225.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        },
+        {
+          "id": 96326,
+          "language": "English",
+          "name": {
+            "first": "Sean",
+            "last": "Michael Teague",
+            "full": "Sean Michael Teague",
+            "native": null,
+            "userPreferred": "Sean Michael Teague"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1326.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24922,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ieyasu",
+        "last": "Tokugawa",
+        "full": "Ieyasu Tokugawa",
+        "native": "徳川 家康",
+        "userPreferred": "Ieyasu Tokugawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24922.jpg",
+      "voiceActors": [
+        {
+          "id": 95243,
+          "language": "Japanese",
+          "name": {
+            "first": "Tooru",
+            "last": "Ookawa",
+            "full": "Tooru Ookawa",
+            "native": "大川透",
+            "userPreferred": "Tooru Ookawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95243-zhk18RRqSAmx.png"
+        },
+        {
+          "id": 95317,
+          "language": "English",
+          "name": {
+            "first": "Liam",
+            "last": "O'Brien",
+            "full": "Liam O'Brien",
+            "native": null,
+            "userPreferred": "Liam O'Brien"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95317-1H9A9jxTNsCP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17815,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kojuurou",
+        "last": "Katakura",
+        "full": "Kojuurou Katakura",
+        "native": "片倉小十郎",
+        "userPreferred": "Kojuurou Katakura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17815.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        },
+        {
+          "id": 95026,
+          "language": "English",
+          "name": {
+            "first": "Travis",
+            "last": "Willingham",
+            "full": "Travis Willingham",
+            "native": null,
+            "userPreferred": "Travis Willingham"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95026-8rP8eX7zsekz.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34882,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Toshiie",
+        "last": "Maeda",
+        "full": "Toshiie Maeda",
+        "native": "前田利家",
+        "userPreferred": "Toshiie Maeda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b34882-V3K6deFlT0R2.png",
+      "voiceActors": [
+        {
+          "id": 95846,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomohiro",
+            "last": "Tsuboi",
+            "full": "Tomohiro Tsuboi",
+            "native": "坪井智浩",
+            "userPreferred": "Tomohiro Tsuboi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95846-xrlHyretf2oT.png"
+        },
+        {
+          "id": 95250,
+          "language": "English",
+          "name": {
+            "first": "Chuck",
+            "last": "Huber",
+            "full": "Chuck Huber",
+            "native": null,
+            "userPreferred": "Chuck Huber"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95250-9yhImC3oRnYj.png"
+        }
+      ]
+    },
+    {
+      "id": 18971,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kasuga",
+        "last": null,
+        "full": "Kasuga",
+        "native": "かすが",
+        "userPreferred": "Kasuga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18971.jpg",
+      "voiceActors": [
+        {
+          "id": 95136,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsuko",
+            "last": "Kuwatani",
+            "full": "Natsuko Kuwatani",
+            "native": "桑谷夏子",
+            "userPreferred": "Natsuko Kuwatani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95136-8dAGkiwq7Htk.png"
+        },
+        {
+          "id": 95396,
+          "language": "English",
+          "name": {
+            "first": "Stephanie",
+            "last": "Sheh",
+            "full": "Stephanie Sheh",
+            "native": null,
+            "userPreferred": "Stephanie Sheh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95396-tNpkTyDD9Y1g.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36183,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nobushige",
+        "last": "Oyamada",
+        "full": "Nobushige Oyamada",
+        "native": null,
+        "userPreferred": "Nobushige Oyamada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36183.jpg",
+      "voiceActors": [
+        {
+          "id": 95326,
+          "language": "Japanese",
+          "name": {
+            "first": "Tooru",
+            "last": "Furuya",
+            "full": "Tooru Furuya",
+            "native": "古谷徹",
+            "userPreferred": "Tooru Furuya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95326-OfRv2DBnFVZU.png"
+        },
+        {
+          "id": 105792,
+          "language": "English",
+          "name": {
+            "first": "Scott",
+            "last": "Freeman",
+            "full": "Scott Freeman",
+            "native": null,
+            "userPreferred": "Scott Freeman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10792.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31983,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shigeharu",
+        "last": "Takenaka",
+        "full": "Shigeharu Takenaka",
+        "native": "竹中重治",
+        "userPreferred": "Shigeharu Takenaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31983.jpg",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        },
+        {
+          "id": 96138,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Cason",
+            "full": "Chris Cason",
+            "native": null,
+            "userPreferred": "Chris Cason"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1138.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18972,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sasuke",
+        "last": "Sarutobi",
+        "full": "Sasuke Sarutobi",
+        "native": "猿飛佐助",
+        "userPreferred": "Sasuke Sarutobi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18972.jpg",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        },
+        {
+          "id": 95833,
+          "language": "English",
+          "name": {
+            "first": "Michael",
+            "last": "Sinterniklaas",
+            "full": "Michael Sinterniklaas",
+            "native": null,
+            "userPreferred": "Michael Sinterniklaas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/833.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20872,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Motochika",
+        "last": "Chousokabe",
+        "full": "Motochika Chousokabe",
+        "native": "長宗我部元親",
+        "userPreferred": "Motochika Chousokabe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20872.jpg",
+      "voiceActors": [
+        {
+          "id": 95679,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryuuzou",
+            "last": "Ishino",
+            "full": "Ryuuzou Ishino",
+            "native": "石野竜三",
+            "userPreferred": "Ryuuzou Ishino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95679-vT6wLZlpBsWI.jpg"
+        },
+        {
+          "id": 95340,
+          "language": "English",
+          "name": {
+            "first": "Patrick",
+            "last": "Seitz",
+            "full": "Patrick Seitz",
+            "native": null,
+            "userPreferred": "Patrick Seitz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95340-W5PAwurtgtXs.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19617,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Oichi",
+        "last": "Nobunaga",
+        "full": "Oichi Nobunaga",
+        "native": "お市",
+        "userPreferred": "Oichi Nobunaga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b19617-KGrlaNwl0fI6.jpg",
+      "voiceActors": [
+        {
+          "id": 95040,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamiko",
+            "last": "Noto",
+            "full": "Mamiko Noto",
+            "native": "能登麻美子",
+            "userPreferred": "Mamiko Noto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95040-CskhFn4LiOti.jpg"
+        },
+        {
+          "id": 95187,
+          "language": "English",
+          "name": {
+            "first": "Laura",
+            "last": "Bailey",
+            "full": "Laura Bailey",
+            "native": null,
+            "userPreferred": "Laura Bailey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95187-QeezFM0GP4tu.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28478,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hideyoshi",
+        "last": "Toyotomi",
+        "full": "Hideyoshi Toyotomi",
+        "native": null,
+        "userPreferred": "Hideyoshi Toyotomi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28478.jpg",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        },
+        {
+          "id": 95253,
+          "language": "English",
+          "name": {
+            "first": "Christopher",
+            "last": "Sabat",
+            "full": "Christopher Sabat",
+            "native": null,
+            "userPreferred": "Christopher Sabat"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95253-Z7Yqog73M7E8.png"
+        }
+      ]
+    },
+    {
+      "id": 21338,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Matsu",
+        "last": "Maeda",
+        "full": "Matsu Maeda",
+        "native": "前田まつ",
+        "userPreferred": "Matsu Maeda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21338.jpg",
+      "voiceActors": [
+        {
+          "id": 95428,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Kaida",
+            "full": "Yuuko Kaida",
+            "native": "甲斐田裕子",
+            "userPreferred": "Yuuko Kaida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95428-1e4kSvr5fkmQ.png"
+        },
+        {
+          "id": 95891,
+          "language": "English",
+          "name": {
+            "first": "Jamie",
+            "last": "Marchi",
+            "full": "Jamie Marchi",
+            "native": null,
+            "userPreferred": "Jamie Marchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95891-QG8dyefPjUIz.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22201,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hisahide",
+        "last": "Matsunaga",
+        "full": "Hisahide Matsunaga",
+        "native": "松永久秀",
+        "userPreferred": "Hisahide Matsunaga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22201.jpg",
+      "voiceActors": [
+        {
+          "id": 95063,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiji",
+            "last": "Fujiwara",
+            "full": "Keiji Fujiwara",
+            "native": "藤原啓治",
+            "userPreferred": "Keiji Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95063-xAsEUzspuLMG.jpg"
+        },
+        {
+          "id": 95872,
+          "language": "English",
+          "name": {
+            "first": "Kent",
+            "last": "Williams",
+            "full": "Kent Williams",
+            "native": null,
+            "userPreferred": "Kent Williams"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/872.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18969,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shingen",
+        "last": "Takeda",
+        "full": "Shingen Takeda",
+        "native": "武田信玄",
+        "userPreferred": "Shingen Takeda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18969.jpg",
+      "voiceActors": [
+        {
+          "id": 95761,
+          "language": "Japanese",
+          "name": {
+            "first": "Tesshou",
+            "last": "Genda",
+            "full": "Tesshou Genda",
+            "native": "玄田哲章",
+            "userPreferred": "Tesshou Genda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95761-nwndYRCqJxno.png"
+        },
+        {
+          "id": 95191,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Ayres",
+            "full": "Chris Ayres",
+            "native": null,
+            "userPreferred": "Chris Ayres"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95191-Aw9ipWm83bS8.png"
+        }
+      ]
+    },
+    {
+      "id": 20871,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Motonari",
+        "last": "Mouri",
+        "full": "Motonari Mouri",
+        "native": "毛利 元就",
+        "userPreferred": "Motonari Mouri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20871.jpg",
+      "voiceActors": [
+        {
+          "id": 95445,
+          "language": "Japanese",
+          "name": {
+            "first": "Shigeru",
+            "last": "Nakahara",
+            "full": "Shigeru Nakahara",
+            "native": "中原茂",
+            "userPreferred": "Shigeru Nakahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/445.jpg"
+        },
+        {
+          "id": 95669,
+          "language": "English",
+          "name": {
+            "first": "Sam",
+            "last": "Riegel",
+            "full": "Sam Riegel",
+            "native": null,
+            "userPreferred": "Sam Riegel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95669-SRLnXSqkz2iy.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18970,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kenshin",
+        "last": "Uesugi",
+        "full": "Kenshin Uesugi",
+        "native": "上杉 謙信",
+        "userPreferred": "Kenshin Uesugi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18970.jpg",
+      "voiceActors": [
+        {
+          "id": 95082,
+          "language": "Japanese",
+          "name": {
+            "first": "Romi",
+            "last": "Park",
+            "full": "Romi Park",
+            "native": "朴璐美",
+            "userPreferred": "Romi Park"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95082-pNGbnYv4cHAK.png"
+        },
+        {
+          "id": 95192,
+          "language": "English",
+          "name": {
+            "first": "Greg",
+            "last": "Ayres",
+            "full": "Greg Ayres",
+            "native": null,
+            "userPreferred": "Greg Ayres"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95192-igLHZjSO4eE0.png"
+        }
+      ]
+    },
+    {
+      "id": 36258,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yoshihiro",
+        "last": "Shimazu",
+        "full": "Yoshihiro Shimazu",
+        "native": "島津 義弘",
+        "userPreferred": "Yoshihiro Shimazu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36258.jpg",
+      "voiceActors": [
+        {
+          "id": 95481,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Ogata",
+            "full": "Kenichi Ogata",
+            "native": "緒方賢一",
+            "userPreferred": "Kenichi Ogata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95481-1dPQbwMpvjul.png"
+        },
+        {
+          "id": 95480,
+          "language": "English",
+          "name": {
+            "first": "R. Bruce",
+            "last": "Elliott",
+            "full": "R. Bruce Elliott",
+            "native": null,
+            "userPreferred": "R. Bruce Elliott"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/480.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17814,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nobunaga",
+        "last": "Oda",
+        "full": "Nobunaga Oda",
+        "native": "織田信長",
+        "userPreferred": "Nobunaga Oda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17814.jpg",
+      "voiceActors": [
+        {
+          "id": 95084,
+          "language": "Japanese",
+          "name": {
+            "first": "Norio",
+            "last": "Wakamoto",
+            "full": "Norio Wakamoto",
+            "native": "若本規夫",
+            "userPreferred": "Norio Wakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95084-RTrZSU38POPF.png"
+        },
+        {
+          "id": 95201,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Swasey",
+            "full": "John Swasey",
+            "native": null,
+            "userPreferred": "John Swasey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95201-cas6XbtZmMay.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30152,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kanetsugu",
+        "last": "Naoe",
+        "full": "Kanetsugu Naoe",
+        "native": "直江兼続",
+        "userPreferred": "Kanetsugu Naoe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30152.jpg",
+      "voiceActors": [
+        {
+          "id": 95229,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Imaruoka",
+            "full": "Atsushi Imaruoka",
+            "native": "伊丸岡篤",
+            "userPreferred": "Atsushi Imaruoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95229-EwEEkYYY6bCf.png"
+        },
+        {
+          "id": 106990,
+          "language": "English",
+          "name": {
+            "first": "Jim",
+            "last": "Johnson",
+            "full": "Jim Johnson",
+            "native": null,
+            "userPreferred": "Jim Johnson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11990.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 5355,
+      "relationType": "PREQUEL",
+      "malId": 5355,
+      "title": {
+        "romaji": "Sengoku BASARA",
+        "english": "Sengoku Basara: Samurai Kings",
+        "native": "戦国BASARA",
+        "userPreferred": "Sengoku BASARA"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5355-TGrgtbiJ5zlH.png",
+      "color": "#c9e4f1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n5355-ZZsFYvWD3t4G.jpg",
+      "rating": 69
+    },
+    {
+      "id": 9745,
+      "relationType": "SEQUEL",
+      "malId": 9745,
+      "title": {
+        "romaji": "Sengoku BASARA: The Last Party",
+        "english": "Sengoku Basara - Samurai Kings: The Movie",
+        "native": "劇場版 戦国BASARA -The Last Party-",
+        "userPreferred": "Sengoku BASARA: The Last Party"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9745-2IUfJems8Asg.jpg",
+      "color": "#5da1f1",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9745-2IUfJems8Asg.jpg",
+      "rating": 72
+    },
+    {
+      "id": 9630,
+      "relationType": "SIDE_STORY",
+      "malId": 9630,
+      "title": {
+        "romaji": "Mini Sengoku BASARA Two: Tsukiyo no Katakura-kun",
+        "english": null,
+        "native": "ミニ戦国BASARA弐　月夜の片倉くん",
+        "userPreferred": "Mini Sengoku BASARA Two: Tsukiyo no Katakura-kun"
+      },
+      "status": "Completed",
+      "episodes": 7,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9630.jpg",
+      "color": "#e4a186",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9630.jpg",
+      "rating": 60
+    },
+    {
+      "id": 10483,
+      "relationType": "SIDE_STORY",
+      "malId": 10483,
+      "title": {
+        "romaji": "Sengoku BASARA Two: Ryuko, Itadaki no Chikai! Atsuki Mirai e Kakeru Tamashii!!",
+        "english": null,
+        "native": "戦国BASARA 弐: 竜虎、頂の誓い! 熱き未来へ駆ける魂!!",
+        "userPreferred": "Sengoku BASARA Two: Ryuko, Itadaki no Chikai! Atsuki Mirai e Kakeru Tamashii!!"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10483.jpg",
+      "color": "#bb5035",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10483.jpg",
+      "rating": 67
+    },
+    {
+      "id": 45539,
+      "relationType": "ADAPTATION",
+      "malId": 15539,
+      "title": {
+        "romaji": "Sengoku BASARA",
+        "english": null,
+        "native": "TVアニメ戦国BASARA",
+        "userPreferred": "Sengoku BASARA"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b45539-NYKoRVl0GINr.jpg",
+      "color": "#d61a1a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b45539-NYKoRVl0GINr.jpg",
+      "rating": 63
+    }
+  ],
+  "episodes": [
+    {
+      "id": "sengoku-basara-season-2-episode-1",
+      "title": "Troubled Times Once Again! Advent of the Great Cataclysmic Warlord, Toyotomi Hideyoshi!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166564/original.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:45:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sengoku-basara-season-2-episode-1"
+    },
+    {
+      "id": "sengoku-basara-season-2-episode-2",
+      "title": "The Lost Right Eye - The Dragon's Back Rent Asunder!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166578/original.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:45:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sengoku-basara-season-2-episode-2"
+    },
+    {
+      "id": "sengoku-basara-season-2-episode-3",
+      "title": "Keiji vs. Toshiie! Tedorigawa Choked with Unequivocal Ideals!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166591/original.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:46:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sengoku-basara-season-2-episode-3"
+    },
+    {
+      "id": "sengoku-basara-season-2-episode-4",
+      "title": "The Ghost of Azuchi Castle?! The Lamentation and Howl of Evil that Assail Yukimura!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166600/original.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:46:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sengoku-basara-season-2-episode-4"
+    },
+    {
+      "id": "sengoku-basara-season-2-episode-5",
+      "title": "Engraved Pledge! The One-Eyed Dragon vs The War God - Confrontation at Hitotoribashi!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166614/original.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:46:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sengoku-basara-season-2-episode-5"
+    },
+    {
+      "id": "sengoku-basara-season-2-episode-6",
+      "title": "The Menacing Toyotomi-Mori Alliance! The Powerful Fist of Supremacy Cleaves the Sea!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166623/original.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:46:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sengoku-basara-season-2-episode-6"
+    },
+    {
+      "id": "sengoku-basara-season-2-episode-7",
+      "title": "To the Southernmost Land of Satsuma! A New Encounter as a Man for Yukimura!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166638/original.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:46:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sengoku-basara-season-2-episode-7"
+    },
+    {
+      "id": "sengoku-basara-season-2-episode-8",
+      "title": "A Sad Reunion with a Friend - Memory of the Day Etched with Blinding Obsession",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166660/original.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:46:15Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sengoku-basara-season-2-episode-8"
+    },
+    {
+      "id": "sengoku-basara-season-2-episode-9",
+      "title": "Dragon and Ogre - Clash and Roar in Owari! The Combined Force of Date and Chosokabe",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166689/original.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:46:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sengoku-basara-season-2-episode-9"
+    },
+    {
+      "id": "sengoku-basara-season-2-episode-10",
+      "title": "The Young Tiger Restored! The Great Fortress Rebuilt - the Menace of the Sun Heads East!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166718/original.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:46:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sengoku-basara-season-2-episode-10"
+    },
+    {
+      "id": "sengoku-basara-season-2-episode-11",
+      "title": "Toyotomi's Great Main Army Dashes for Supremacy! Earnest Keiji Draws Sword in Heartbreak!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166738/original.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:46:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sengoku-basara-season-2-episode-11"
+    },
+    {
+      "id": "sengoku-basara-season-2-episode-12",
+      "title": "Azure and Crimson Do-or-Die Battle! To the Sound of the Breeze at the End of the Fierce Struggle!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166752/original.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:46:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sengoku-basara-season-2-episode-12"
+    }
+  ]
+}

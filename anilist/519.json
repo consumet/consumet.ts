@@ -1,0 +1,931 @@
+{
+  "id": "519",
+  "title": {
+    "romaji": "Mahoraba: Heartful days",
+    "english": "Mahoraba ~HeartfuL days~",
+    "native": "まほらば ~Heartful days~"
+  },
+  "malId": 519,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx519-GS6gb1XtiIDg.png",
+  "popularity": 4062,
+  "color": "#e4ae5d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/519-QnSlolwR60Rx.jpg",
+  "description": "Shiratori Ryuushi is a young artist-in-training, about to start studying at a vocational school. Arriving at his new lodgings, Narutakisou, he finds himself the focus of attention for the collection of weirdos that inhabit the place. He also meets and falls for the landlady, Aoba Kozue, who seems to be both lovely and charming. However, Kozue is not what she seems to be... in fact, she's more.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2005,
+  "startDate": {
+    "year": 2005,
+    "month": 1,
+    "day": 10
+  },
+  "endDate": {
+    "year": 2005,
+    "month": 6,
+    "day": 27
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 68,
+  "duration": 23,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "J.C. Staff"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 5292,
+      "malId": 5292,
+      "title": {
+        "romaji": "Getter Robo Go",
+        "english": "Getter Robo Go",
+        "native": "ゲッターロボ號",
+        "userPreferred": "Getter Robo Go"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5292-DLiutsWESCEr.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5292-DLiutsWESCEr.jpg",
+      "rating": 56,
+      "type": "TV"
+    },
+    {
+      "id": 2744,
+      "malId": 2744,
+      "title": {
+        "romaji": "Potemayo",
+        "english": null,
+        "native": "ぽてまよ",
+        "userPreferred": "Potemayo"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2744-jshoXw1Qdcaq.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2744-jshoXw1Qdcaq.png",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 965,
+      "malId": 965,
+      "title": {
+        "romaji": "Yoshinaga-sanchi no Gargoyle",
+        "english": "Gargoyle of Yoshinaga House",
+        "native": "吉永さん家のガーゴイル",
+        "userPreferred": "Yoshinaga-sanchi no Gargoyle"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx965-wSNF2I6OyOjL.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx965-wSNF2I6OyOjL.png",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 189,
+      "malId": 189,
+      "title": {
+        "romaji": "Love Hina",
+        "english": "Love Hina",
+        "native": "ラブひな",
+        "userPreferred": "Love Hina"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189-ybxKAazvr7cH.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/189-GKJY2UPwRIqi.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 53,
+      "malId": 53,
+      "title": {
+        "romaji": "Ai Yori Aoshi",
+        "english": "Ai Yori Aoshi",
+        "native": "藍より青し",
+        "userPreferred": "Ai Yori Aoshi"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx53-GPDXGvbhg4w5.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/53-MTjcQ19CGzYP.jpg",
+      "rating": 66,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 451,
+      "role": "MAIN",
+      "name": {
+        "first": "Ryuushi",
+        "last": "Shiratori",
+        "full": "Ryuushi Shiratori",
+        "native": "白鳥隆士",
+        "userPreferred": "Ryuushi Shiratori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/451.jpg",
+      "voiceActors": [
+        {
+          "id": 95348,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shiraishi",
+            "full": "Ryouko Shiraishi",
+            "native": "白石涼子",
+            "userPreferred": "Ryouko Shiraishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95348-sLIy7IMrgZeA.png"
+        }
+      ]
+    },
+    {
+      "id": 426,
+      "role": "MAIN",
+      "name": {
+        "first": "Kozue",
+        "last": "Aoba",
+        "full": "Kozue Aoba",
+        "native": "蒼葉梢",
+        "userPreferred": "Kozue Aoba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/426.jpg",
+      "voiceActors": [
+        {
+          "id": 95124,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Arai",
+            "full": "Satomi Arai",
+            "native": "新井里美",
+            "userPreferred": "Satomi Arai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95124-8C0BORTX7Bfd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 593,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yu",
+        "last": "Minazuki",
+        "full": "Yu Minazuki",
+        "native": "水無月 夕",
+        "userPreferred": "Yu Minazuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/593.jpg",
+      "voiceActors": [
+        {
+          "id": 95009,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotono",
+            "last": "Mitsuishi",
+            "full": "Kotono Mitsuishi",
+            "native": "三石琴乃",
+            "userPreferred": "Kotono Mitsuishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95009-d01Dg8mMwcg6.png"
+        }
+      ]
+    },
+    {
+      "id": 582,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yukio",
+        "last": "Haibara",
+        "full": "Yukio Haibara",
+        "native": "灰原由起夫",
+        "userPreferred": "Yukio Haibara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/582.jpg",
+      "voiceActors": [
+        {
+          "id": 95262,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenyuu",
+            "last": "Horiuchi",
+            "full": "Kenyuu Horiuchi",
+            "native": "堀内賢雄",
+            "userPreferred": "Kenyuu Horiuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/262.jpg"
+        }
+      ]
+    },
+    {
+      "id": 584,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miyabi",
+        "last": "Shirogane",
+        "full": "Miyabi Shirogane",
+        "native": "銀 雅",
+        "userPreferred": "Miyabi Shirogane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/584.jpg",
+      "voiceActors": [
+        {
+          "id": 101479,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Kinoshita",
+            "full": "Sayaka Kinoshita",
+            "native": "木下紗華",
+            "userPreferred": "Sayaka Kinoshita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101479-59KTNOCwdAFL.png"
+        }
+      ]
+    },
+    {
+      "id": 450,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tamami",
+        "last": "Chanohata",
+        "full": "Tamami Chanohata",
+        "native": "茶ノ畑珠実",
+        "userPreferred": "Tamami Chanohata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/450.jpg",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        }
+      ]
+    },
+    {
+      "id": 583,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryuusei",
+        "last": "Johnny",
+        "full": "Ryuusei Johnny",
+        "native": "流星ジョニー",
+        "userPreferred": "Ryuusei Johnny"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/583.jpg",
+      "voiceActors": [
+        {
+          "id": 95262,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenyuu",
+            "last": "Horiuchi",
+            "full": "Kenyuu Horiuchi",
+            "native": "堀内賢雄",
+            "userPreferred": "Kenyuu Horiuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/262.jpg"
+        }
+      ]
+    },
+    {
+      "id": 589,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiro",
+        "last": "Utsugi",
+        "full": "Hiro Utsugi",
+        "native": "空木尋",
+        "userPreferred": "Hiro Utsugi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/589.jpg",
+      "voiceActors": [
+        {
+          "id": 101479,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Kinoshita",
+            "full": "Sayaka Kinoshita",
+            "native": "木下紗華",
+            "userPreferred": "Sayaka Kinoshita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101479-59KTNOCwdAFL.png"
+        }
+      ]
+    },
+    {
+      "id": 579,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Megumi",
+        "last": "Momono",
+        "full": "Megumi Momono",
+        "native": "桃乃恵",
+        "userPreferred": "Megumi Momono"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/579.jpg",
+      "voiceActors": [
+        {
+          "id": 95077,
+          "language": "Japanese",
+          "name": {
+            "first": "Masumi",
+            "last": "Asano",
+            "full": "Masumi Asano",
+            "native": "浅野真澄",
+            "userPreferred": "Masumi Asano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95077-d2OK4xiiRWAu.png"
+        }
+      ]
+    },
+    {
+      "id": 595,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tachibana",
+        "last": null,
+        "full": "Tachibana",
+        "native": "タチバナ",
+        "userPreferred": "Tachibana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/595.jpg",
+      "voiceActors": [
+        {
+          "id": 101479,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Kinoshita",
+            "full": "Sayaka Kinoshita",
+            "native": "木下紗華",
+            "userPreferred": "Sayaka Kinoshita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101479-59KTNOCwdAFL.png"
+        }
+      ]
+    },
+    {
+      "id": 588,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Erika",
+        "last": "Vermillion",
+        "full": "Erika Vermillion",
+        "native": "エリカ・バーミリオン",
+        "userPreferred": "Erika Vermillion"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/588.jpg",
+      "voiceActors": [
+        {
+          "id": 95093,
+          "language": "Japanese",
+          "name": {
+            "first": "Shizuka",
+            "last": "Itou",
+            "full": "Shizuka Itou",
+            "native": "伊藤静",
+            "userPreferred": "Shizuka Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95093-MApaH7qqtmVN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 581,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Asami",
+        "last": "Kurosaki",
+        "full": "Asami Kurosaki",
+        "native": "黒崎朝美",
+        "userPreferred": "Asami Kurosaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/581.jpg",
+      "voiceActors": [
+        {
+          "id": 95486,
+          "language": "Japanese",
+          "name": {
+            "first": "Umi",
+            "last": "Tenjin",
+            "full": "Umi Tenjin",
+            "native": "有海 天神",
+            "userPreferred": "Umi Tenjin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/486.jpg"
+        }
+      ]
+    },
+    {
+      "id": 586,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Risona",
+        "last": "Aizawa",
+        "full": "Risona Aizawa",
+        "native": "藍沢 理想奈",
+        "userPreferred": "Risona Aizawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/586.jpg",
+      "voiceActors": [
+        {
+          "id": 110321,
+          "language": "Japanese",
+          "name": {
+            "first": "Riku",
+            "last": "Moriyama",
+            "full": "Riku Moriyama",
+            "native": "森山理来",
+            "userPreferred": "Riku Moriyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 590,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Satsuki",
+        "last": "Matsuba",
+        "full": "Satsuki Matsuba",
+        "native": "松葉五月",
+        "userPreferred": "Satsuki Matsuba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/590.jpg",
+      "voiceActors": [
+        {
+          "id": 95094,
+          "language": "Japanese",
+          "name": {
+            "first": "Akeno",
+            "last": "Watanabe",
+            "full": "Akeno Watanabe",
+            "native": "渡边明乃",
+            "userPreferred": "Akeno Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95094-nRPWBG1cVGo5.png"
+        }
+      ]
+    },
+    {
+      "id": 592,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ushimitsu",
+        "last": "Minazuki",
+        "full": "Ushimitsu Minazuki",
+        "native": "水無月 丑三",
+        "userPreferred": "Ushimitsu Minazuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/592.jpg",
+      "voiceActors": [
+        {
+          "id": 95800,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinpachi",
+            "last": "Tsuji",
+            "full": "Shinpachi Tsuji",
+            "native": "辻親八",
+            "userPreferred": "Shinpachi Tsuji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95800-TBMYjwu8Wy6T.png"
+        }
+      ]
+    },
+    {
+      "id": 591,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Michiyo",
+        "last": "Asagi",
+        "full": "Michiyo Asagi",
+        "native": "浅葱三千代",
+        "userPreferred": "Michiyo Asagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/591.jpg",
+      "voiceActors": [
+        {
+          "id": 110321,
+          "language": "Japanese",
+          "name": {
+            "first": "Riku",
+            "last": "Moriyama",
+            "full": "Riku Moriyama",
+            "native": "森山理来",
+            "userPreferred": "Riku Moriyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 580,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sayoko",
+        "last": "Kurosaki",
+        "full": "Sayoko Kurosaki",
+        "native": "黒崎沙夜子",
+        "userPreferred": "Sayoko Kurosaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/580.jpg",
+      "voiceActors": [
+        {
+          "id": 95915,
+          "language": "Japanese",
+          "name": {
+            "first": "Mioko",
+            "last": "Fujiwara",
+            "full": "Mioko Fujiwara",
+            "native": "美央子 藤原",
+            "userPreferred": "Mioko Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/915.jpg"
+        }
+      ]
+    },
+    {
+      "id": 594,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mahiru",
+        "last": "Minazuki",
+        "full": "Mahiru Minazuki",
+        "native": "水無月 まひる",
+        "userPreferred": "Mahiru Minazuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/594.jpg",
+      "voiceActors": [
+        {
+          "id": 95217,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Saitou",
+            "full": "Rie Saitou",
+            "native": "斉藤梨絵",
+            "userPreferred": "Rie Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95217-qr02eNWQfOZk.png"
+        }
+      ]
+    },
+    {
+      "id": 585,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsubasa",
+        "last": "Yamabuki",
+        "full": "Tsubasa Yamabuki",
+        "native": "山吹 翼",
+        "userPreferred": "Tsubasa Yamabuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/585.jpg",
+      "voiceActors": [
+        {
+          "id": 96332,
+          "language": "Japanese",
+          "name": {
+            "first": "Hikaru",
+            "last": "Tokita",
+            "full": "Hikaru Tokita",
+            "native": "時田光",
+            "userPreferred": "Hikaru Tokita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1332.jpg"
+        }
+      ]
+    },
+    {
+      "id": 596,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sakura",
+        "last": "Utsugi",
+        "full": "Sakura Utsugi",
+        "native": "空木桜",
+        "userPreferred": "Sakura Utsugi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/596.jpg",
+      "voiceActors": [
+        {
+          "id": 95246,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Inokuchi",
+            "full": "Yuka Inokuchi",
+            "native": "いのくちゆか",
+            "userPreferred": "Yuka Inokuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95246-SuMvw46iBvbI.png"
+        }
+      ]
+    },
+    {
+      "id": 587,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mizuho",
+        "last": "Amane",
+        "full": "Mizuho Amane",
+        "native": "亜麻根 瑞穂",
+        "userPreferred": "Mizuho Amane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/587.jpg",
+      "voiceActors": [
+        {
+          "id": 96500,
+          "language": "Japanese",
+          "name": {
+            "first": "Nozomi",
+            "last": "Masu",
+            "full": "Nozomi Masu",
+            "native": "望 升",
+            "userPreferred": "Nozomi Masu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1500.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 30744,
+      "relationType": "ADAPTATION",
+      "malId": 744,
+      "title": {
+        "romaji": "Mahoraba",
+        "english": null,
+        "native": "まほらば",
+        "userPreferred": "Mahoraba"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30744-qkk6VTdLJNwl.jpg",
+      "color": "#5093e4",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/30744-f8vOW1CrEWWw.jpg",
+      "rating": 75
+    }
+  ],
+  "episodes": [
+    {
+      "id": "mahoraba-heartful-days-episode-1",
+      "title": "Welcome to Narutaki Apartment",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160056/original.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:28:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-1"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-2",
+      "title": "Ooya-san`s Secret",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160057/original.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:28:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-2"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-3",
+      "title": "Important Place",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160062/original.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:28:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-3"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-4",
+      "title": "Snugly",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160070/original.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:28:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-4"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-5",
+      "title": "Negative Positive",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160072/original.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:28:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-5"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-6",
+      "title": "Tama Check",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160074/original.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:28:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-6"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-7",
+      "title": "Hide and Seek",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160086/original.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:28:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-7"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-8",
+      "title": "Shopping",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160089/original.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:28:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-8"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-9",
+      "title": "Correct!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160100/original.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:28:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-9"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-10",
+      "title": "Sketch",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160110/original.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:28:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-10"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-11",
+      "title": "Thoughts...",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160112/original.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:28:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-11"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-12",
+      "title": "Its Summer! The Sea! Sea Bathing!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160123/original.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:28:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-12"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-13",
+      "title": "Narutaki Apartments Treasure",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160126/original.jpg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:28:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-13"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-14",
+      "title": "End of Summer",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160130/original.jpg",
+      "number": 14,
+      "createdAt": "2014-11-16T20:28:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-14"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-15",
+      "title": "...Maybe",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160137/original.jpg",
+      "number": 15,
+      "createdAt": "2014-11-16T20:28:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-15"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-16",
+      "title": "Flood of Customers",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160148/original.jpg",
+      "number": 16,
+      "createdAt": "2014-11-16T20:28:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-16"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-17",
+      "title": "Color of the Sky",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160158/original.jpg",
+      "number": 17,
+      "createdAt": "2014-11-16T20:28:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-17"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-18",
+      "title": "Meow Meow Meow",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160164/original.jpg",
+      "number": 18,
+      "createdAt": "2014-11-16T20:28:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-18"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-19",
+      "title": "Everyone`s Day",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160176/original.jpg",
+      "number": 19,
+      "createdAt": "2014-11-16T20:28:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-19"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-20",
+      "title": "School Festival",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160189/original.jpg",
+      "number": 20,
+      "createdAt": "2014-11-16T20:28:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-20"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-21",
+      "title": "Parent and Child",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160203/original.jpg",
+      "number": 21,
+      "createdAt": "2014-11-16T20:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-21"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-22",
+      "title": "Important Affair...",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160213/original.jpg",
+      "number": 22,
+      "createdAt": "2014-11-16T20:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-22"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-23",
+      "title": "Among the Red Leaves",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160228/original.jpg",
+      "number": 23,
+      "createdAt": "2014-11-16T20:28:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-23"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-24",
+      "title": "Bells",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160240/original.jpg",
+      "number": 24,
+      "createdAt": "2014-11-16T20:29:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-24"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-25",
+      "title": "The Night of Revelation",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160250/original.jpg",
+      "number": 25,
+      "createdAt": "2014-11-16T20:29:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-25"
+    },
+    {
+      "id": "mahoraba-heartful-days-episode-26",
+      "title": "Heartful Days",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160255/original.jpg",
+      "number": 26,
+      "createdAt": "2014-11-16T20:29:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahoraba-heartful-days-episode-26"
+    }
+  ]
+}

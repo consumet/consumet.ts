@@ -1,0 +1,737 @@
+{
+  "id": "15699",
+  "title": {
+    "romaji": "Haiyore! Nyaruko-san W",
+    "english": "Nyaruko-san: Another Crawling Chaos W",
+    "native": "這いよれ！ニャル子さん W"
+  },
+  "malId": 15699,
+  "synonyms": [
+    "Haiyore! Nyaruko-san 2",
+    "Haiyoru! Nyaruko-san 2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "UsBCGv-UPZ4",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/UsBCGv-UPZ4/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15699-x4ifamV2eqrh.jpg",
+  "popularity": 32793,
+  "color": "#e4c950",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15699-iye5sJEmdHxS.jpg",
+  "description": "Second season of Haiyore! Nyaruko-san.",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 4,
+    "day": 8
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 7,
+    "day": 1
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 69,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Romance",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Xebec"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 21202,
+      "malId": 30831,
+      "title": {
+        "romaji": "Kono Subarashii Sekai ni Shukufuku wo!",
+        "english": "KONOSUBA -God's blessing on this wonderful world!",
+        "native": "この素晴らしい世界に祝福を！",
+        "userPreferred": "Kono Subarashii Sekai ni Shukufuku wo!"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21202-TfzXuWQf2oLQ.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21202-UWijdV7RMnXo.jpg",
+      "rating": 79,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 60929,
+      "role": "MAIN",
+      "name": {
+        "first": "Hasta",
+        "last": null,
+        "full": "Hasta",
+        "native": "ハス太",
+        "userPreferred": "Hasta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b60929-fgKUKwV7oxcH.png",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        },
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        },
+        {
+          "id": 189477,
+          "language": "Spanish",
+          "name": {
+            "first": "David",
+            "last": "Allende",
+            "full": "David Allende",
+            "native": null,
+            "userPreferred": "David Allende"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n189477-c4iFMANX6L6R.jpg"
+        },
+        {
+          "id": 189427,
+          "language": "Spanish",
+          "name": {
+            "first": "Alejandra",
+            "last": "Delint",
+            "full": "Alejandra Delint",
+            "native": "Alejandra Delint González",
+            "userPreferred": "Alejandra Delint"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n189427-iu3TiiKWsZvu.png"
+        }
+      ]
+    },
+    {
+      "id": 31417,
+      "role": "MAIN",
+      "name": {
+        "first": "Mahiro",
+        "last": "Yasaka",
+        "full": "Mahiro Yasaka",
+        "native": "八坂 真尋",
+        "userPreferred": "Mahiro Yasaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31417.jpg",
+      "voiceActors": [
+        {
+          "id": 95413,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Kitamura",
+            "full": "Eri Kitamura",
+            "native": "喜多村英梨",
+            "userPreferred": "Eri Kitamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95413-FwAIrc8Ishpt.png"
+        },
+        {
+          "id": 285928,
+          "language": "Spanish",
+          "name": {
+            "first": "Iván",
+            "last": "García",
+            "full": "Iván García",
+            "native": null,
+            "userPreferred": "Iván García"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n285928-yUQqbp54AmSK.png"
+        }
+      ]
+    },
+    {
+      "id": 31418,
+      "role": "MAIN",
+      "name": {
+        "first": "Nyaruko",
+        "last": null,
+        "full": "Nyaruko",
+        "native": "ニャル子",
+        "userPreferred": "Nyaruko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b31418-Pvm5XKQsiRAj.jpg",
+      "voiceActors": [
+        {
+          "id": 95817,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Asumi",
+            "full": "Kana Asumi",
+            "native": "阿澄佳奈",
+            "userPreferred": "Kana Asumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95817-UHqRZ5xuSJgW.png"
+        },
+        {
+          "id": 198309,
+          "language": "Spanish",
+          "name": {
+            "first": "Valca",
+            "last": "Ponzanelli",
+            "full": "Valca Ponzanelli",
+            "native": null,
+            "userPreferred": "Valca Ponzanelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n198309-LZyfoYdtvzRk.png"
+        }
+      ]
+    },
+    {
+      "id": 31419,
+      "role": "MAIN",
+      "name": {
+        "first": "Cthuko",
+        "last": null,
+        "full": "Cthuko",
+        "native": "クー子",
+        "userPreferred": "Cthuko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31419.jpg",
+      "voiceActors": [
+        {
+          "id": 95401,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Matsuki",
+            "full": "Miyu Matsuki",
+            "native": "松来未祐",
+            "userPreferred": "Miyu Matsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95401-2ffju56ewc36.png"
+        },
+        {
+          "id": 190695,
+          "language": "Spanish",
+          "name": {
+            "first": "Marysol",
+            "last": "Lobo",
+            "full": "Marysol Lobo",
+            "native": "Marysol Lopéz Borja Rivas",
+            "userPreferred": "Marysol Lobo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190695-zYzxHUUwAWxw.jpg"
+        }
+      ]
+    },
+    {
+      "id": 62153,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yoriko",
+        "last": "Yasaka",
+        "full": "Yoriko Yasaka",
+        "native": "八坂頼子",
+        "userPreferred": "Yoriko Yasaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/62153.jpg",
+      "voiceActors": [
+        {
+          "id": 95080,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Hisakawa",
+            "full": "Aya Hisakawa",
+            "native": "久川綾",
+            "userPreferred": "Aya Hisakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95080-7dOAcrnsSghI.jpg"
+        },
+        {
+          "id": 189426,
+          "language": "Spanish",
+          "name": {
+            "first": "Doris",
+            "last": "Vargas",
+            "full": "Doris Vargas",
+            "native": "Doris Vargas Estrada Rodríguez",
+            "userPreferred": "Doris Vargas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n189426-ODoRtSV9TXyB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60927,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takehiko",
+        "last": "Yoichi",
+        "full": "Takehiko Yoichi",
+        "native": "余市健彦",
+        "userPreferred": "Takehiko Yoichi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60927.jpg",
+      "voiceActors": [
+        {
+          "id": 95098,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Hatano",
+            "full": "Wataru Hatano",
+            "native": "羽多野渉",
+            "userPreferred": "Wataru Hatano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95098-x6T2xOTuvkuY.jpg"
+        },
+        {
+          "id": 285929,
+          "language": "Spanish",
+          "name": {
+            "first": "Carlos",
+            "last": "Ramos",
+            "full": "Carlos Ramos",
+            "native": "Carlos Alejandro Ramos Vargas",
+            "userPreferred": "Carlos Ramos"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n285929-HKOlIayhWbzM.png"
+        }
+      ]
+    },
+    {
+      "id": 60939,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tamao",
+        "last": "Kurei",
+        "full": "Tamao Kurei",
+        "native": "暮井珠緒",
+        "userPreferred": "Tamao Kurei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60939.jpg",
+      "voiceActors": [
+        {
+          "id": 107452,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Ootsubo",
+            "full": "Yuka Ootsubo",
+            "native": "大坪由佳",
+            "userPreferred": "Yuka Ootsubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107452-PcfGagaON83G.png"
+        },
+        {
+          "id": 190698,
+          "language": "Spanish",
+          "name": {
+            "first": "Iarel",
+            "last": "Verduzco",
+            "full": "Iarel Verduzco",
+            "native": null,
+            "userPreferred": "Iarel Verduzco"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190698-gmsLeAkzCAcx.jpg"
+        }
+      ]
+    },
+    {
+      "id": 62311,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shantak-kun",
+        "last": null,
+        "full": "Shantak-kun",
+        "native": "シャンタッ君",
+        "userPreferred": "Shantak-kun"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/62311.jpg",
+      "voiceActors": [
+        {
+          "id": 95124,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Arai",
+            "full": "Satomi Arai",
+            "native": "新井里美",
+            "userPreferred": "Satomi Arai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95124-8C0BORTX7Bfd.jpg"
+        },
+        {
+          "id": 139013,
+          "language": "Spanish",
+          "name": {
+            "first": "Montserrat",
+            "last": "Aguilar",
+            "full": "Montserrat Aguilar",
+            "native": "Montserrat Alejandra Aguilar Ortiz",
+            "userPreferred": "Montserrat Aguilar"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139013-G54ZhBGpZqmC.png"
+        }
+      ]
+    },
+    {
+      "id": 83365,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsuruko",
+        "last": null,
+        "full": "Tsuruko",
+        "native": "ツル子",
+        "userPreferred": "Tsuruko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/83365.jpg",
+      "voiceActors": [
+        {
+          "id": 117183,
+          "language": "Japanese",
+          "name": {
+            "first": "Saki",
+            "last": "Yamakita",
+            "full": "Saki Yamakita",
+            "native": "山北早紀",
+            "userPreferred": "Saki Yamakita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/117183-N5qX8xgxpOpg.jpg"
+        },
+        {
+          "id": 116755,
+          "language": "Spanish",
+          "name": {
+            "first": "Angélica",
+            "last": "Villa",
+            "full": "Angélica Villa",
+            "native": "Angélica Villa Barrón",
+            "userPreferred": "Angélica Villa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116755-6V6pEog2goBj.png"
+        }
+      ]
+    },
+    {
+      "id": 65337,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Isuka",
+        "last": null,
+        "full": "Isuka",
+        "native": "イス香",
+        "userPreferred": "Isuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/65337.jpg",
+      "voiceActors": [
+        {
+          "id": 95124,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Arai",
+            "full": "Satomi Arai",
+            "native": "新井里美",
+            "userPreferred": "Satomi Arai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95124-8C0BORTX7Bfd.jpg"
+        },
+        {
+          "id": 190698,
+          "language": "Spanish",
+          "name": {
+            "first": "Iarel",
+            "last": "Verduzco",
+            "full": "Iarel Verduzco",
+            "native": null,
+            "userPreferred": "Iarel Verduzco"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190698-gmsLeAkzCAcx.jpg"
+        }
+      ]
+    },
+    {
+      "id": 83707,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cthune",
+        "last": null,
+        "full": "Cthune",
+        "native": "クー音",
+        "userPreferred": "Cthune"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/83707.jpg",
+      "voiceActors": [
+        {
+          "id": 95141,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouka",
+            "last": "Yuzuki",
+            "full": "Ryouka Yuzuki",
+            "native": "柚木涼香",
+            "userPreferred": "Ryouka Yuzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95141-RUTdfZUbNcUv.png"
+        },
+        {
+          "id": 257475,
+          "language": "Spanish",
+          "name": {
+            "first": "Ellie",
+            "last": "Rojo",
+            "full": "Ellie Rojo",
+            "native": null,
+            "userPreferred": "Ellie Rojo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n257475-BFFQ4LYDKKdE.png"
+        }
+      ]
+    },
+    {
+      "id": 59571,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Luhy",
+        "last": "Jistone",
+        "full": "Luhy Jistone",
+        "native": "ルーヒー・ジストーン",
+        "userPreferred": "Luhy Jistone"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/59571.jpg",
+      "voiceActors": [
+        {
+          "id": 95275,
+          "language": "Japanese",
+          "name": {
+            "first": "Mariko",
+            "last": "Kouda",
+            "full": "Mariko Kouda",
+            "native": "國府田マリ子",
+            "userPreferred": "Mariko Kouda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95275-qm6Ep9IcLAv7.png"
+        },
+        {
+          "id": 252512,
+          "language": "Spanish",
+          "name": {
+            "first": "Luz",
+            "last": "Menchaca",
+            "full": "Luz Menchaca",
+            "native": "Luz Elena Menchaca Romo",
+            "userPreferred": "Luz Menchaca"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n252512-H1T9x6Csk1PO.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 11785,
+      "relationType": "PREQUEL",
+      "malId": 11785,
+      "title": {
+        "romaji": "Haiyore! Nyaruko-san",
+        "english": "Nyaruko: Crawling with Love!",
+        "native": "這いよれ！ニャル子さん",
+        "userPreferred": "Haiyore! Nyaruko-san"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11785-cBfqpOetdIeF.jpg",
+      "color": "#78c9e4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11785-dlTHrbZh3zPV.jpg",
+      "rating": 66
+    },
+    {
+      "id": 53485,
+      "relationType": "ADAPTATION",
+      "malId": 23485,
+      "title": {
+        "romaji": "Haiyore! Nyaruko-san",
+        "english": null,
+        "native": "這いよれ！ニャル子さん",
+        "userPreferred": "Haiyore! Nyaruko-san"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx53485-ktMOJG522MfA.jpg",
+      "color": "#f10d93",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx53485-ktMOJG522MfA.jpg",
+      "rating": 75
+    },
+    {
+      "id": 20733,
+      "relationType": "SIDE_STORY",
+      "malId": 23619,
+      "title": {
+        "romaji": "Haiyore! Nyaruko-san W OVA",
+        "english": null,
+        "native": "這いよれ！ニャル子さん W OVA",
+        "userPreferred": "Haiyore! Nyaruko-san W OVA"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20733.jpg",
+      "color": "#e41a78",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20733.jpg",
+      "rating": 67
+    },
+    {
+      "id": 20824,
+      "relationType": "SEQUEL",
+      "malId": 26023,
+      "title": {
+        "romaji": "Haiyore! Nyaruko-san F",
+        "english": "Nyaruko-san: Another Crawling Chaos F",
+        "native": "這いよれ！ニャル子さん F",
+        "userPreferred": "Haiyore! Nyaruko-san F"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20824-ARIVkvWl0OQj.jpg",
+      "color": "#e45043",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20824-ARIVkvWl0OQj.jpg",
+      "rating": 72
+    }
+  ],
+  "episodes": [
+    {
+      "id": "haiyoru-nyaruko-san-w-episode-1",
+      "title": "Attack on Evil Deity",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105069/original.jpg",
+      "number": 1,
+      "createdAt": "2013-04-12T13:31:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//haiyoru-nyaruko-san-w-episode-1"
+    },
+    {
+      "id": "haiyoru-nyaruko-san-w-episode-2",
+      "title": "Celaeno Library War",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105070/original.jpg",
+      "number": 2,
+      "createdAt": "2013-04-12T13:31:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//haiyoru-nyaruko-san-w-episode-2"
+    },
+    {
+      "id": "haiyoru-nyaruko-san-w-episode-3",
+      "title": "Super Deity Apocalypse",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105071/original.jpg",
+      "number": 3,
+      "createdAt": "2013-04-12T13:31:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//haiyoru-nyaruko-san-w-episode-3"
+    },
+    {
+      "id": "haiyoru-nyaruko-san-w-episode-4",
+      "title": "Talent at Love",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105072/original.jpg",
+      "number": 4,
+      "createdAt": "2013-04-12T13:31:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//haiyoru-nyaruko-san-w-episode-4"
+    },
+    {
+      "id": "haiyoru-nyaruko-san-w-episode-5",
+      "title": "Say It Isn't So, Kuuko",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105073/original.jpg",
+      "number": 5,
+      "createdAt": "2013-04-12T13:31:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//haiyoru-nyaruko-san-w-episode-5"
+    },
+    {
+      "id": "haiyoru-nyaruko-san-w-episode-6",
+      "title": "I'll Try to Act it Out",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105074/original.jpg",
+      "number": 6,
+      "createdAt": "2013-04-12T13:31:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//haiyoru-nyaruko-san-w-episode-6"
+    },
+    {
+      "id": "haiyoru-nyaruko-san-w-episode-7",
+      "title": "Color the Pool Red with Blood",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105075/original.jpg",
+      "number": 7,
+      "createdAt": "2013-04-12T13:31:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//haiyoru-nyaruko-san-w-episode-7"
+    },
+    {
+      "id": "haiyoru-nyaruko-san-w-episode-8",
+      "title": "A Little Love Song",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105076/original.jpg",
+      "number": 8,
+      "createdAt": "2013-04-12T13:31:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//haiyoru-nyaruko-san-w-episode-8"
+    },
+    {
+      "id": "haiyoru-nyaruko-san-w-episode-9",
+      "title": "High School of the Heat",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105077/original.jpg",
+      "number": 9,
+      "createdAt": "2013-04-12T13:31:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//haiyoru-nyaruko-san-w-episode-9"
+    },
+    {
+      "id": "haiyoru-nyaruko-san-w-episode-10",
+      "title": "Yuggoth Attacks!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105078/original.jpg",
+      "number": 10,
+      "createdAt": "2013-04-12T13:31:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//haiyoru-nyaruko-san-w-episode-10"
+    },
+    {
+      "id": "haiyoru-nyaruko-san-w-episode-11",
+      "title": "A Certain Camp's Haunted House",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105079/original.jpg",
+      "number": 11,
+      "createdAt": "2013-04-12T13:31:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//haiyoru-nyaruko-san-w-episode-11"
+    },
+    {
+      "id": "haiyoru-nyaruko-san-w-episode-12",
+      "title": "Good-bye, Nyarko-san W",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105080/original.jpg",
+      "number": 12,
+      "createdAt": "2013-04-12T13:31:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//haiyoru-nyaruko-san-w-episode-12"
+    }
+  ]
+}

@@ -1,0 +1,879 @@
+{
+  "id": "21287",
+  "title": {
+    "romaji": "Soukyuu no Fafner: EXODUS 2",
+    "english": "Fafner Exodus 2",
+    "native": "蒼穹のファフナー EXODUS 2"
+  },
+  "malId": 30549,
+  "synonyms": [
+    "Soukyuu no Fafner: Dead Aggressor - Exodus 2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "yoYucqi4Pco",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/yoYucqi4Pco/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21287-ey3gaynEFqUS.png",
+  "popularity": 3358,
+  "color": "#e47850",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21287-EugxMxa1mOco.jpg",
+  "description": "Second season of Soukyuu no Fafner: Exodus.",
+  "status": "Completed",
+  "releaseDate": 2015,
+  "startDate": {
+    "year": 2015,
+    "month": 10,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 12,
+    "day": 26
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 72,
+  "duration": 24,
+  "genres": [
+    "Drama",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Xebec Zwei"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 99730,
+      "malId": 35759,
+      "title": {
+        "romaji": "Sidonia no Kishi: Ai Tsumugu Hoshi",
+        "english": "Knights of Sidonia: Love Woven in the Stars",
+        "native": "シドニアの騎士 あいつむぐほし",
+        "userPreferred": "Sidonia no Kishi: Ai Tsumugu Hoshi"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99730-pG6lazHo6pKG.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99730-pG6lazHo6pKG.jpg",
+      "rating": 72,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 1615,
+      "role": "MAIN",
+      "name": {
+        "first": "Maya",
+        "last": "Toomi",
+        "full": "Maya Toomi",
+        "native": "遠見真矢",
+        "userPreferred": "Maya Toomi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1615-b5ka81dGcdoN.png",
+      "voiceActors": [
+        {
+          "id": 95422,
+          "language": "Japanese",
+          "name": {
+            "first": "Marika",
+            "last": "Matsumoto",
+            "full": "Marika Matsumoto",
+            "native": "松本まりか",
+            "userPreferred": "Marika Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/422.jpg"
+        }
+      ]
+    },
+    {
+      "id": 138315,
+      "role": "MAIN",
+      "name": {
+        "first": "Akira",
+        "last": "Nishio",
+        "full": "Akira Nishio",
+        "native": "西尾暉",
+        "userPreferred": "Akira Nishio"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138315-e3VoeqDa6rpM.jpg",
+      "voiceActors": [
+        {
+          "id": 95672,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Kaji",
+            "full": "Yuuki Kaji",
+            "native": "梶裕貴",
+            "userPreferred": "Yuuki Kaji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95672-RN4nm0OFwCyU.png"
+        }
+      ]
+    },
+    {
+      "id": 307107,
+      "role": "MAIN",
+      "name": {
+        "first": "Orihime",
+        "last": "Minashiro",
+        "full": "Orihime Minashiro",
+        "native": "皆城織姫",
+        "userPreferred": "Orihime Minashiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b307107-FfzuqDEQHChg.png",
+      "voiceActors": [
+        {
+          "id": 96061,
+          "language": "Japanese",
+          "name": {
+            "first": "Tamaki",
+            "last": "Nakanishi",
+            "full": "Tamaki Nakanishi",
+            "native": "仲西環",
+            "userPreferred": "Tamaki Nakanishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96061-CZaHxtXOsJtt.png"
+        }
+      ]
+    },
+    {
+      "id": 1614,
+      "role": "MAIN",
+      "name": {
+        "first": "Kazuki",
+        "last": "Makabe",
+        "full": "Kazuki Makabe",
+        "native": "真壁一騎",
+        "userPreferred": "Kazuki Makabe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1614-YysEf5YpFuUk.png",
+      "voiceActors": [
+        {
+          "id": 96126,
+          "language": "Japanese",
+          "name": {
+            "first": "Makoto",
+            "last": "Ishii",
+            "full": "Makoto Ishii",
+            "native": "石井真",
+            "userPreferred": "Makoto Ishii"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96126-jqtbbpjANhg6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 138311,
+      "role": "MAIN",
+      "name": {
+        "first": "Reo",
+        "last": "Mikado",
+        "full": "Reo Mikado",
+        "native": "御門零央",
+        "userPreferred": "Reo Mikado"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138311-BvwhpHvN7MMl.jpg",
+      "voiceActors": [
+        {
+          "id": 105989,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobunaga",
+            "last": "Shimazaki",
+            "full": "Nobunaga Shimazaki",
+            "native": "島崎信長",
+            "userPreferred": "Nobunaga Shimazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105989-96etzH1dLNug.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1613,
+      "role": "MAIN",
+      "name": {
+        "first": "Soushi",
+        "last": "Minashiro",
+        "full": "Soushi Minashiro",
+        "native": "皆城総士",
+        "userPreferred": "Soushi Minashiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1613-i3PKPmsC2CbP.png",
+      "voiceActors": [
+        {
+          "id": 95619,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouhei",
+            "last": "Kiyasu",
+            "full": "Kouhei Kiyasu",
+            "native": "喜安浩平",
+            "userPreferred": "Kouhei Kiyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/619.jpg"
+        }
+      ]
+    },
+    {
+      "id": 64227,
+      "role": "MAIN",
+      "name": {
+        "first": "Rina",
+        "last": "Nishio",
+        "full": "Rina Nishio",
+        "native": "西尾里奈",
+        "userPreferred": "Rina Nishio"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b64227-nCP7AMslQtf4.png",
+      "voiceActors": [
+        {
+          "id": 95348,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shiraishi",
+            "full": "Ryouko Shiraishi",
+            "native": "白石涼子",
+            "userPreferred": "Ryouko Shiraishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95348-sLIy7IMrgZeA.png"
+        }
+      ]
+    },
+    {
+      "id": 138320,
+      "role": "MAIN",
+      "name": {
+        "first": "Miwa",
+        "last": "Hino",
+        "full": "Miwa Hino",
+        "native": "日野美羽",
+        "userPreferred": "Miwa Hino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138320-538vexg0r9eN.jpg",
+      "voiceActors": [
+        {
+          "id": 106404,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumire",
+            "last": "Morohoshi",
+            "full": "Sumire Morohoshi",
+            "native": "諸星すみれ",
+            "userPreferred": "Sumire Morohoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106404-uodatsBbsnJh.png"
+        }
+      ]
+    },
+    {
+      "id": 138321,
+      "role": "MAIN",
+      "name": {
+        "first": "Emery",
+        "last": "Almond",
+        "full": "Emery Almond",
+        "native": "エメリー・アーモンド",
+        "userPreferred": "Emery Almond"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138321-v7txh6JI33x1.jpg",
+      "voiceActors": [
+        {
+          "id": 118501,
+          "language": "Japanese",
+          "name": {
+            "first": "Rio",
+            "last": "Sasaki",
+            "full": "Rio Sasaki",
+            "native": "佐々木りお",
+            "userPreferred": "Rio Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118501-mhYKj7NzL36O.png"
+        }
+      ]
+    },
+    {
+      "id": 138313,
+      "role": "MAIN",
+      "name": {
+        "first": "Sui",
+        "last": "Kaburagi",
+        "full": "Sui Kaburagi",
+        "native": "鏑木彗",
+        "userPreferred": "Sui Kaburagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138313-aGdi3oDFLReh.jpg",
+      "voiceActors": [
+        {
+          "id": 95819,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenshou",
+            "last": "Ono",
+            "full": "Kenshou Ono",
+            "native": "小野賢章",
+            "userPreferred": "Kenshou Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95819-O4fosAY0a1Ml.jpg"
+        }
+      ]
+    },
+    {
+      "id": 138314,
+      "role": "MAIN",
+      "name": {
+        "first": "Mimika",
+        "last": "Mikagami",
+        "full": "Mimika Mikagami",
+        "native": "水鏡美三香",
+        "userPreferred": "Mimika Mikagami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138314-jloCr2ZEs5KV.jpg",
+      "voiceActors": [
+        {
+          "id": 100142,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Ishikawa",
+            "full": "Yui Ishikawa",
+            "native": "石川由依",
+            "userPreferred": "Yui Ishikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100142-k6RP0HzXffUG.png"
+        }
+      ]
+    },
+    {
+      "id": 7826,
+      "role": "MAIN",
+      "name": {
+        "first": "Canon",
+        "last": "Memphis",
+        "full": "Canon Memphis",
+        "native": "カノン・メンフィス",
+        "userPreferred": "Canon Memphis"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7826-WxNF6CGEuz8K.png",
+      "voiceActors": [
+        {
+          "id": 95149,
+          "language": "Japanese",
+          "name": {
+            "first": "Sanae",
+            "last": "Kobayashi",
+            "full": "Sanae Kobayashi",
+            "native": "小林沙苗",
+            "userPreferred": "Sanae Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95149-xNDmN92Feq8y.png"
+        }
+      ]
+    },
+    {
+      "id": 9944,
+      "role": "MAIN",
+      "name": {
+        "first": "Seri",
+        "last": "Tatekami",
+        "full": "Seri Tatekami",
+        "native": "立上芹",
+        "userPreferred": "Seri Tatekami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9944-GBpESOtu3KWq.jpg",
+      "voiceActors": [
+        {
+          "id": 95207,
+          "language": "Japanese",
+          "name": {
+            "first": "Misato",
+            "last": "Fukuen",
+            "full": "Misato Fukuen",
+            "native": "福圓美里",
+            "userPreferred": "Misato Fukuen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95207-TYPMa0JKUDAf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7833,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yumiko",
+        "last": "Toomi",
+        "full": "Yumiko Toomi",
+        "native": "遠見弓子",
+        "userPreferred": "Yumiko Toomi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7833-KguQnJHKzHAt.png",
+      "voiceActors": [
+        {
+          "id": 95140,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukana",
+            "last": "",
+            "full": "Yukana",
+            "native": "ゆかな",
+            "userPreferred": "Yukana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95140-sFp0uedEmZ9f.png"
+        }
+      ]
+    },
+    {
+      "id": 138826,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Billy",
+        "last": "Morgan",
+        "full": "Billy Morgan",
+        "native": "ビリー・モーガン",
+        "userPreferred": "Billy Morgan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138826-5HigEcoz6krX.png",
+      "voiceActors": [
+        {
+          "id": 95205,
+          "language": "Japanese",
+          "name": {
+            "first": "Masakazu",
+            "last": "Morita",
+            "full": "Masakazu Morita",
+            "native": "森田成一",
+            "userPreferred": "Masakazu Morita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95205-5P3tKe3eTG9n.jpg"
+        }
+      ]
+    },
+    {
+      "id": 138316,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiroto",
+        "last": "Douma",
+        "full": "Hiroto Douma",
+        "native": "堂馬広登",
+        "userPreferred": "Hiroto Douma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138316-T4Op7iqcuNWP.png",
+      "voiceActors": [
+        {
+          "id": 95286,
+          "language": "Japanese",
+          "name": {
+            "first": "Nozomu",
+            "last": "Sasaki",
+            "full": "Nozomu Sasaki",
+            "native": "佐々木望",
+            "userPreferred": "Nozomu Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95286-1RlrFeFKx3jn.png"
+        }
+      ]
+    },
+    {
+      "id": 138828,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keith",
+        "last": "Water",
+        "full": "Keith Water",
+        "native": "キース・ウォーター",
+        "userPreferred": "Keith Water"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138828-PiG8PR772qU3.png",
+      "voiceActors": [
+        {
+          "id": 112217,
+          "language": "Japanese",
+          "name": {
+            "first": "Aki",
+            "last": "Unone",
+            "full": "Aki Unone",
+            "native": "宇乃音亜季",
+            "userPreferred": "Aki Unone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/17217.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7817,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyousuke",
+        "last": "Mizoguchi",
+        "full": "Kyousuke Mizoguchi",
+        "native": "溝口恭介",
+        "userPreferred": "Kyousuke Mizoguchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7817-6oirJqA7TjPo.jpg",
+      "voiceActors": [
+        {
+          "id": 100427,
+          "language": "Japanese",
+          "name": {
+            "first": "Takaya",
+            "last": "Hashi",
+            "full": "Takaya Hashi",
+            "native": "土師孝也",
+            "userPreferred": "Takaya Hashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100427-rXj5mx6gGNfH.png"
+        }
+      ]
+    },
+    {
+      "id": 138317,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aishwarya",
+        "last": "Fein",
+        "full": "Aishwarya Fein",
+        "native": "アイシュワリア・フェイン",
+        "userPreferred": "Aishwarya Fein"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138317-FLilBsnnxt6s.jpg",
+      "voiceActors": [
+        {
+          "id": 107961,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Han",
+            "full": "Megumi Han",
+            "native": "潘めぐみ",
+            "userPreferred": "Megumi Han"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107961-aMetTdEFTi2W.jpg"
+        }
+      ]
+    },
+    {
+      "id": 138829,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Narain",
+        "last": "Wiseman-Bose",
+        "full": "Narain Wiseman-Bose",
+        "native": "ナレイン・ワイズマン・ボース",
+        "userPreferred": "Narain Wiseman-Bose"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138829-1yS2WYB2NsY1.jpg",
+      "voiceActors": [
+        {
+          "id": 95836,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryuuzaburou",
+            "last": "Ootomo",
+            "full": "Ryuuzaburou Ootomo",
+            "native": "大友龍三郎",
+            "userPreferred": "Ryuuzaburou Ootomo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95836-cHQyycQ0PWo2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 191382,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Prometheus",
+        "last": null,
+        "full": "Prometheus",
+        "native": "プロメテウス",
+        "userPreferred": "Prometheus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b191382-NabVnipHoCEi.jpg",
+      "voiceActors": [
+        {
+          "id": 106744,
+          "language": "Japanese",
+          "name": {
+            "first": "Shizuka",
+            "last": "Ishikawa",
+            "full": "Shizuka Ishikawa",
+            "native": "石川静",
+            "userPreferred": "Shizuka Ishikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106744-alqGqG9FQOMh.png"
+        }
+      ]
+    },
+    {
+      "id": 191393,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saki",
+        "last": "Masaoka",
+        "full": "Saki Masaoka",
+        "native": "将陵佐喜",
+        "userPreferred": "Saki Masaoka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b191393-Lg504O5JjMxq.png",
+      "voiceActors": [
+        {
+          "id": 96722,
+          "language": "Japanese",
+          "name": {
+            "first": "Azumi",
+            "last": "Asakura",
+            "full": "Azumi Asakura",
+            "native": "浅倉杏美",
+            "userPreferred": "Azumi Asakura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96722-Vf3KI8BbYnYZ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1616,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fumihiko",
+        "last": "Makabe",
+        "full": "Fumihiko Makabe",
+        "native": "真壁史彦",
+        "userPreferred": "Fumihiko Makabe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1616-hGffn1xgCskR.jpg",
+      "voiceActors": [
+        {
+          "id": 96414,
+          "language": "Japanese",
+          "name": {
+            "first": "Masahiko",
+            "last": "Tanaka",
+            "full": "Masahiko Tanaka",
+            "native": "田中正彦",
+            "userPreferred": "Masahiko Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96414-0dvcgzJwFZO4.png"
+        }
+      ]
+    },
+    {
+      "id": 138830,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Olga Katina",
+        "last": "Betrenko",
+        "full": "Olga Katina Betrenko",
+        "native": "オルガ・カティーナ・ベトレンコ",
+        "userPreferred": "Olga Katina Betrenko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138830-4ZyVNuD2a5BU.jpg",
+      "voiceActors": [
+        {
+          "id": 105207,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuu",
+            "last": "Sawai",
+            "full": "Miyuu Sawai",
+            "native": "沢井美優",
+            "userPreferred": "Miyuu Sawai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105207-KRX0WfR8Qc9E.png"
+        }
+      ]
+    },
+    {
+      "id": 191383,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hester",
+        "last": "Gallop",
+        "full": "Hester Gallop",
+        "native": "ヘスター・ギャロップ",
+        "userPreferred": "Hester Gallop"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b191383-ak2NfdKYQCQs.jpg",
+      "voiceActors": [
+        {
+          "id": 104647,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshino",
+            "last": "Ohtori",
+            "full": "Yoshino Ohtori",
+            "native": "鳳芳野",
+            "userPreferred": "Yoshino Ohtori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9647.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 17080,
+      "relationType": "PREQUEL",
+      "malId": 17080,
+      "title": {
+        "romaji": "Soukyuu no Fafner: EXODUS",
+        "english": "Fafner Exodus",
+        "native": "蒼穹のファフナー EXODUS",
+        "userPreferred": "Soukyuu no Fafner: EXODUS"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17080-p81US7OldLCq.png",
+      "color": "#43a1e4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/17080-gAc9WHwKuOW7.jpg",
+      "rating": 72
+    },
+    {
+      "id": 98056,
+      "relationType": "SEQUEL",
+      "malId": 34649,
+      "title": {
+        "romaji": "Soukyuu no Fafner: Dead Aggressor - THE BEYOND",
+        "english": null,
+        "native": "蒼穹のファフナー Dead Aggressor THE BEYOND",
+        "userPreferred": "Soukyuu no Fafner: Dead Aggressor - THE BEYOND"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98056-IWZuJqO93j7T.png",
+      "color": "#d6bb5d",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98056-atkDsypaoX1H.jpg",
+      "rating": 71
+    }
+  ],
+  "episodes": [
+    {
+      "id": "soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-1",
+      "title": "The March for Dawn",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21287-ey3gaynEFqUS.png",
+      "number": 1,
+      "createdAt": "2015-09-24T18:16:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-1"
+    },
+    {
+      "id": "soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-2",
+      "title": "ROE Alpha",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21287-ey3gaynEFqUS.png",
+      "number": 2,
+      "createdAt": "2015-09-24T18:16:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-2"
+    },
+    {
+      "id": "soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-3",
+      "title": "Where Life Is",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21287-ey3gaynEFqUS.png",
+      "number": 3,
+      "createdAt": "2015-09-24T18:16:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-3"
+    },
+    {
+      "id": "soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-4",
+      "title": "Flames of the Final Farewell",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21287-ey3gaynEFqUS.png",
+      "number": 4,
+      "createdAt": "2015-09-24T18:16:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-4"
+    },
+    {
+      "id": "soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-5",
+      "title": "Layering Sins Upon Sins",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21287-ey3gaynEFqUS.png",
+      "number": 5,
+      "createdAt": "2015-09-24T18:16:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-5"
+    },
+    {
+      "id": "soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-6",
+      "title": "The Oath of the Living",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21287-ey3gaynEFqUS.png",
+      "number": 6,
+      "createdAt": "2015-09-24T18:16:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-6"
+    },
+    {
+      "id": "soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-7",
+      "title": "The Soldiers Return Home",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21287-ey3gaynEFqUS.png",
+      "number": 7,
+      "createdAt": "2015-09-24T18:16:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-7"
+    },
+    {
+      "id": "soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-8",
+      "title": "Time of Awakening",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21287-ey3gaynEFqUS.png",
+      "number": 8,
+      "createdAt": "2015-09-24T18:16:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-8"
+    },
+    {
+      "id": "soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-9",
+      "title": "Memories of Hatred",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21287-ey3gaynEFqUS.png",
+      "number": 9,
+      "createdAt": "2015-09-24T18:16:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-9"
+    },
+    {
+      "id": "soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-10",
+      "title": "Power Without Reason",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21287-ey3gaynEFqUS.png",
+      "number": 10,
+      "createdAt": "2015-09-24T18:16:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-10"
+    },
+    {
+      "id": "soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-11",
+      "title": "The Third Alvis",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21287-ey3gaynEFqUS.png",
+      "number": 11,
+      "createdAt": "2015-09-24T18:16:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-11"
+    },
+    {
+      "id": "soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-12",
+      "title": "Azure Sky Plan",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21287-ey3gaynEFqUS.png",
+      "number": 12,
+      "createdAt": "2015-09-24T18:16:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-12"
+    },
+    {
+      "id": "soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-13",
+      "title": "Tatsumiyajima",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21287-ey3gaynEFqUS.png",
+      "number": 13,
+      "createdAt": "2015-09-24T18:16:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//soukyuu-no-fafner-dead-aggressor---exodus-2nd-season-episode-13"
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "id": "21357",
+  "title": {
+    "romaji": "Kyoukai no Rinne 2",
+    "english": "Rin-ne 2",
+    "native": "境界のRinne ２"
+  },
+  "malId": 31610,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+  "popularity": 6035,
+  "color": "#f18643",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+  "description": "The shinigami Rinne Rokudou, and Sakura Mamiya, the girl who can see ghosts, attend the same school. The two spend their days solving the worries of spirits. Rinne is so poor that he is forced to borrow money from Sakura to buy shinigami tools to solve their cases. Rinne and Sakura care for each other, but their relationship is not progressing. However, with the appearance of a new contracted black cat, a beautiful damashigami, and a person with whom Rinne shares a special circumstance, the situation becomes even more chaotic! Rinne and Sakura's after-school time wrapped up in the world of spirits continues!<br>\n<br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2016,
+  "startDate": {
+    "year": 2016,
+    "month": 4,
+    "day": 9
+  },
+  "endDate": {
+    "year": 2016,
+    "month": 9,
+    "day": 24
+  },
+  "totalEpisodes": 25,
+  "currentEpisode": 25,
+  "rating": 67,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Romance",
+    "Supernatural"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Brain's Base"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 21408,
+      "role": "MAIN",
+      "name": {
+        "first": "Rinne",
+        "last": "Rokudou",
+        "full": "Rinne Rokudou",
+        "native": "六道りんね",
+        "userPreferred": "Rinne Rokudou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21408-NZSeH4DaKJMq.png",
+      "voiceActors": [
+        {
+          "id": 115156,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaito",
+            "last": "Ishikawa",
+            "full": "Kaito Ishikawa",
+            "native": "石川界人",
+            "userPreferred": "Kaito Ishikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115156-ngYfqBazlxYQ.png"
+        }
+      ]
+    },
+    {
+      "id": 21176,
+      "role": "MAIN",
+      "name": {
+        "first": "Sakura",
+        "last": "Mamiya",
+        "full": "Sakura Mamiya",
+        "native": "真宮桜",
+        "userPreferred": "Sakura Mamiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21176-HjhCPPbaiDbu.png",
+      "voiceActors": [
+        {
+          "id": 95158,
+          "language": "Japanese",
+          "name": {
+            "first": "Marina",
+            "last": "Inoue",
+            "full": "Marina Inoue",
+            "native": "井上麻里奈",
+            "userPreferred": "Marina Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95158-OLhgs8zv5xsp.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 20953,
+      "relationType": "PREQUEL",
+      "malId": 28423,
+      "title": {
+        "romaji": "Kyoukai no Rinne",
+        "english": "Rin-ne",
+        "native": "境界のRinne",
+        "userPreferred": "Kyoukai no Rinne"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20953-ZWTPj5AplXtX.jpg",
+      "color": "#e49343",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20953-ZWTPj5AplXtX.jpg",
+      "rating": 64
+    },
+    {
+      "id": 43558,
+      "relationType": "ADAPTATION",
+      "malId": 13558,
+      "title": {
+        "romaji": "Kyoukai no RINNE",
+        "english": "RIN-NE",
+        "native": "境界のRINNE",
+        "userPreferred": "Kyoukai no RINNE"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx43558-dfNKljwA76Ry.jpg",
+      "color": "#e4280d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/43558-IJ6mpNX3mc3q.jpg",
+      "rating": 68
+    },
+    {
+      "id": 97670,
+      "relationType": "SEQUEL",
+      "malId": 34106,
+      "title": {
+        "romaji": "Kyoukai no Rinne 3",
+        "english": "Rin-ne 3",
+        "native": "境界のRinne 3",
+        "userPreferred": "Kyoukai no Rinne 3"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97670-OeUijqB6qWns.jpg",
+      "color": "#f1c950",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97670-OeUijqB6qWns.jpg",
+      "rating": 68
+    }
+  ],
+  "episodes": [
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-1",
+      "title": "Black Cat Oboro",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 1,
+      "createdAt": "2015-09-15T00:06:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-1"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-2",
+      "title": "Court of Dreams",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 2,
+      "createdAt": "2015-09-15T00:06:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-2"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-3",
+      "title": "The Missing Membership Fee",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 3,
+      "createdAt": "2015-09-15T00:06:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-3"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-4",
+      "title": "Song of Love",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 4,
+      "createdAt": "2015-09-15T00:06:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-4"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-5",
+      "title": "Digging Up Memories | Demon at the Campground",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 5,
+      "createdAt": "2015-09-15T00:06:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-5"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-6",
+      "title": "Homestay Trainee",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 6,
+      "createdAt": "2015-09-15T00:06:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-6"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-7",
+      "title": "Coaching Responsibilities",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 7,
+      "createdAt": "2015-09-15T00:06:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-7"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-8",
+      "title": "The Cursed Straw Doll",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 8,
+      "createdAt": "2015-09-15T00:06:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-8"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-9",
+      "title": "Mikazukido For All Your Scythe Needs",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 9,
+      "createdAt": "2015-09-15T00:06:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-9"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-10",
+      "title": "Black Cat 6th Dan",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 10,
+      "createdAt": "2015-09-15T00:06:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-10"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-11",
+      "title": "Monster of the Summer Festival",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 11,
+      "createdAt": "2015-09-15T00:06:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-11"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-12",
+      "title": "Ghost Inflatable Boat | Something in the Tunnel | Welcome to Nehan-ya!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 12,
+      "createdAt": "2015-09-15T00:06:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-12"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-13",
+      "title": "The Mysterious Transfer Student",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 13,
+      "createdAt": "2015-09-15T00:06:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-13"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-14",
+      "title": "Renge's Revenge",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 14,
+      "createdAt": "2015-09-15T00:06:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-14"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-15",
+      "title": "Recovery Cream | The Rumor | Mushroom Hunting",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 15,
+      "createdAt": "2015-09-15T00:06:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-15"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-16",
+      "title": "Break-up Kit",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 16,
+      "createdAt": "2015-09-15T00:06:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-16"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-17",
+      "title": "Shinigami Elementary School Reunion",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 17,
+      "createdAt": "2015-09-15T00:06:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-17"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-18",
+      "title": "Black Cat Ranking Exam",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 18,
+      "createdAt": "2015-09-15T00:06:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-18"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-19",
+      "title": "MVC",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 19,
+      "createdAt": "2015-09-15T00:06:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-19"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-20",
+      "title": "Hot Pot Conductor | Demon Type A, Shinigami Type B",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 20,
+      "createdAt": "2015-09-15T00:06:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-20"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-21",
+      "title": "Have My Scarf | Waiting on the Rink",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 21,
+      "createdAt": "2015-09-15T00:06:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-21"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-22",
+      "title": "Never Change...",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 22,
+      "createdAt": "2015-09-15T00:06:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-22"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-23",
+      "title": "Shinigami Sakura?!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 23,
+      "createdAt": "2015-09-15T00:06:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-23"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-24",
+      "title": "Matsugo Returns?!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 24,
+      "createdAt": "2015-09-15T00:06:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-24"
+    },
+    {
+      "id": "kyoukai-no-rinne-tv-2nd-season-episode-25",
+      "title": "Sakura's Wager",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21357-kMdMWARChk7Z.jpg",
+      "number": 25,
+      "createdAt": "2015-09-15T00:06:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-no-rinne-tv-2nd-season-episode-25"
+    }
+  ]
+}

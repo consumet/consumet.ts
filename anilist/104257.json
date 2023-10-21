@@ -1,0 +1,692 @@
+{
+  "id": "104257",
+  "title": {
+    "romaji": "Lupin wa Ima mo Moete Iru ka?",
+    "english": "Is Lupin Still Burning?",
+    "native": "ルパンは今も燃えているか？"
+  },
+  "malId": 36967,
+  "synonyms": [
+    "Lupin III: Part V - Special",
+    "Lupin III (2018) Special",
+    "Lupin the Third - 50th Anniversary Special",
+    "Lupin III - Lupin contro tutti!"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx104257-D7AKMDDVf0lV.jpg",
+  "popularity": 1817,
+  "color": "#78285d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx104257-D7AKMDDVf0lV.jpg",
+  "description": "OVA included in the Blu-ray and DVD releases of Lupin III (2018).",
+  "status": "Completed",
+  "releaseDate": 2018,
+  "startDate": {
+    "year": 2018,
+    "month": 7,
+    "day": 25
+  },
+  "endDate": {
+    "year": 2018,
+    "month": 7,
+    "day": 25
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 67,
+  "duration": 27,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "TMS Entertainment"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 1044,
+      "role": "MAIN",
+      "name": {
+        "first": "Arsène",
+        "last": "Lupin III",
+        "full": "Arsène Lupin III",
+        "native": "ルパン三世",
+        "userPreferred": "Arsène Lupin III"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1044-UriNGSc2CKPO.jpg",
+      "voiceActors": [
+        {
+          "id": 95531,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanichi",
+            "last": "Kurita",
+            "full": "Kanichi Kurita",
+            "native": "栗田貫一",
+            "userPreferred": "Kanichi Kurita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95531-WSCCZprf7HyG.png"
+        },
+        {
+          "id": 95654,
+          "language": "English",
+          "name": {
+            "first": "Tony",
+            "last": "Oliver",
+            "full": "Tony Oliver",
+            "native": "Rafael Antonio Olivier",
+            "userPreferred": "Tony Oliver"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95654-iX4zn8eYCaRS.png"
+        },
+        {
+          "id": 110723,
+          "language": "Italian",
+          "name": {
+            "first": "Stefano",
+            "last": "Onofri",
+            "full": "Stefano Onofri",
+            "native": null,
+            "userPreferred": "Stefano Onofri"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110723-dc8SyyoZCF3L.jpg"
+        },
+        {
+          "id": 116395,
+          "language": "French",
+          "name": {
+            "first": "Maxime",
+            "last": "Donnay",
+            "full": "Maxime Donnay",
+            "native": null,
+            "userPreferred": "Maxime Donnay"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21395.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1045,
+      "role": "MAIN",
+      "name": {
+        "first": "Daisuke",
+        "last": "Jigen",
+        "full": "Daisuke Jigen",
+        "native": "次元大介",
+        "userPreferred": "Daisuke Jigen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1045-5VLjexUmCT6p.jpg",
+      "voiceActors": [
+        {
+          "id": 95339,
+          "language": "Japanese",
+          "name": {
+            "first": "Kiyoshi",
+            "last": "Kobayashi",
+            "full": "Kiyoshi Kobayashi",
+            "native": "小林清志 ",
+            "userPreferred": "Kiyoshi Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95339-lEIGi2vIa2hN.png"
+        },
+        {
+          "id": 95352,
+          "language": "English",
+          "name": {
+            "first": "Richard",
+            "last": "Epcar",
+            "full": "Richard Epcar",
+            "native": null,
+            "userPreferred": "Richard Epcar"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95352-kin2JggyOwqx.png"
+        },
+        {
+          "id": 96232,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandro",
+            "last": "D'Errico",
+            "full": "Alessandro D'Errico",
+            "native": null,
+            "userPreferred": "Alessandro D'Errico"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96232-IIIfLggIYqZd.jpg"
+        },
+        {
+          "id": 143716,
+          "language": "French",
+          "name": {
+            "first": "Michel",
+            "last": "Hinderyckx",
+            "full": "Michel Hinderyckx",
+            "native": null,
+            "userPreferred": "Michel Hinderyckx"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n143716-8BG6wFR6JalA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1047,
+      "role": "MAIN",
+      "name": {
+        "first": "Fujiko",
+        "last": "Mine",
+        "full": "Fujiko Mine",
+        "native": "峰不二子",
+        "userPreferred": "Fujiko Mine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1047-3VgNXvRjylHV.png",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        },
+        {
+          "id": 95085,
+          "language": "English",
+          "name": {
+            "first": "Michelle",
+            "last": "Ruff",
+            "full": "Michelle Ruff",
+            "native": null,
+            "userPreferred": "Michelle Ruff"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95085-zJmU0x2NLr3j.jpg"
+        },
+        {
+          "id": 144774,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandra",
+            "last": "Korompay",
+            "full": "Alessandra Korompay",
+            "native": null,
+            "userPreferred": "Alessandra Korompay"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144774-NXwEs5Rm4nn4.jpg"
+        },
+        {
+          "id": 201457,
+          "language": "French",
+          "name": {
+            "first": "Audrey",
+            "last": "Devos",
+            "full": "Audrey Devos",
+            "native": null,
+            "userPreferred": "Audrey Devos"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n201457-z2S4sFrBsOub.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1046,
+      "role": "MAIN",
+      "name": {
+        "first": "Goemon",
+        "last": "Ishikawa XIII",
+        "full": "Goemon Ishikawa XIII",
+        "native": "石川五ェ門",
+        "userPreferred": "Goemon Ishikawa XIII"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1046-kFemmr8KkgFb.png",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        },
+        {
+          "id": 95180,
+          "language": "English",
+          "name": {
+            "first": "Lex",
+            "last": "Lang",
+            "full": "Lex Lang",
+            "native": null,
+            "userPreferred": "Lex Lang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95180-lBWAdPZISYWf.jpg"
+        },
+        {
+          "id": 144775,
+          "language": "Italian",
+          "name": {
+            "first": "Antonio",
+            "last": "Palumbo",
+            "full": "Antonio Palumbo",
+            "native": null,
+            "userPreferred": "Antonio Palumbo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144775-6SeLNfKtxOtB.jpg"
+        },
+        {
+          "id": 201456,
+          "language": "French",
+          "name": {
+            "first": "Jean-François",
+            "last": "Rossion",
+            "full": "Jean-François Rossion",
+            "native": null,
+            "userPreferred": "Jean-François Rossion"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63063,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sandayuu",
+        "last": "Momochi",
+        "full": "Sandayuu Momochi",
+        "native": "百地 三太夫",
+        "userPreferred": "Sandayuu Momochi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63063.jpg",
+      "voiceActors": [
+        {
+          "id": 107677,
+          "language": "Japanese",
+          "name": {
+            "first": "Jin",
+            "last": "Urayama",
+            "full": "Jin Urayama",
+            "native": "浦山迅",
+            "userPreferred": "Jin Urayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107677-4JwhOvVQPItM.png"
+        },
+        {
+          "id": 95512,
+          "language": "English",
+          "name": {
+            "first": "Michael",
+            "last": "Sorich",
+            "full": "Michael Sorich",
+            "native": null,
+            "userPreferred": "Michael Sorich"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95512-ZF7RSh28tB0l.jpg"
+        },
+        {
+          "id": 234130,
+          "language": "Italian",
+          "name": {
+            "first": "Cesare",
+            "last": "Rasini",
+            "full": "Cesare Rasini",
+            "native": null,
+            "userPreferred": "Cesare Rasini"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n234130-WTzDo892esUD.jpg"
+        },
+        {
+          "id": 201462,
+          "language": "French",
+          "name": {
+            "first": "Patrick",
+            "last": "Waleffe",
+            "full": "Patrick Waleffe",
+            "native": null,
+            "userPreferred": "Patrick Waleffe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n201462-1C6GNLMC2oRq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8737,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Pycal",
+        "last": null,
+        "full": "Pycal",
+        "native": "パイカル",
+        "userPreferred": "Pycal"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b8737-EYuidndPWZoM.png",
+      "voiceActors": [
+        {
+          "id": 95477,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Yanaka",
+            "full": "Hiroshi Yanaka",
+            "native": "家中宏",
+            "userPreferred": "Hiroshi Yanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95477-zUeFZNtjTgap.png"
+        },
+        {
+          "id": 103491,
+          "language": "English",
+          "name": {
+            "first": "Kaiji",
+            "last": "Tang",
+            "full": "Kaiji Tang",
+            "native": null,
+            "userPreferred": "Kaiji Tang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103491-m720HzpwMA2o.jpg"
+        },
+        {
+          "id": 96267,
+          "language": "Italian",
+          "name": {
+            "first": "Luigi",
+            "last": "Rosa",
+            "full": "Luigi Rosa",
+            "native": null,
+            "userPreferred": "Luigi Rosa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96267-I6paUN1vrxxA.png"
+        },
+        {
+          "id": 201461,
+          "language": "French",
+          "name": {
+            "first": "Jonathan",
+            "last": "Simon",
+            "full": "Jonathan Simon",
+            "native": null,
+            "userPreferred": "Jonathan Simon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1048,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouichi",
+        "last": "Zenigata",
+        "full": "Kouichi Zenigata",
+        "native": "銭形幸一",
+        "userPreferred": "Kouichi Zenigata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1048-GDlCKww1le0Q.jpg",
+      "voiceActors": [
+        {
+          "id": 95011,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouichi",
+            "last": "Yamadera",
+            "full": "Kouichi Yamadera",
+            "native": "山寺宏一",
+            "userPreferred": "Kouichi Yamadera"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95011-2RfLzncNyvbR.png"
+        },
+        {
+          "id": 96547,
+          "language": "English",
+          "name": {
+            "first": "Doug",
+            "last": "Erholtz",
+            "full": "Doug Erholtz",
+            "native": null,
+            "userPreferred": "Doug Erholtz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96547-AH4pebJhH8yY.png"
+        },
+        {
+          "id": 152325,
+          "language": "Italian",
+          "name": {
+            "first": "Rodolfo",
+            "last": "Bianchi",
+            "full": "Rodolfo Bianchi",
+            "native": null,
+            "userPreferred": "Rodolfo Bianchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n152325-deA7rWW7Y8mv.jpg"
+        },
+        {
+          "id": 201460,
+          "language": "French",
+          "name": {
+            "first": "Robert",
+            "last": "Dubois",
+            "full": "Robert Dubois",
+            "native": null,
+            "userPreferred": "Robert Dubois"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n201460-HgY2QmvXPaa5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4290,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyosuke",
+        "last": "Mamou",
+        "full": "Kyosuke Mamou",
+        "native": "魔毛狂介",
+        "userPreferred": "Kyosuke Mamou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4290-K4KsPIgIJU1X.png",
+      "voiceActors": [
+        {
+          "id": 101057,
+          "language": "Japanese",
+          "name": {
+            "first": "Manabu",
+            "last": "Muraji",
+            "full": "Manabu Muraji",
+            "native": "村治学",
+            "userPreferred": "Manabu Muraji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6057.jpg"
+        },
+        {
+          "id": 96562,
+          "language": "English",
+          "name": {
+            "first": "Paul",
+            "last": "St. Peter",
+            "full": "Paul St. Peter",
+            "native": null,
+            "userPreferred": "Paul St. Peter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96562-2ycAuMOiEUGX.png"
+        },
+        {
+          "id": 156244,
+          "language": "Italian",
+          "name": {
+            "first": "Matteo",
+            "last": "De Mojana",
+            "full": "Matteo De Mojana",
+            "native": null,
+            "userPreferred": "Matteo De Mojana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n156244-xABDIuR4IgXq.jpg"
+        },
+        {
+          "id": 201464,
+          "language": "French",
+          "name": {
+            "first": "Erwin",
+            "last": "Grünspan",
+            "full": "Erwin Grünspan",
+            "native": null,
+            "userPreferred": "Erwin Grünspan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n201464-h6CDawYfiqY6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 76796,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mister X",
+        "last": null,
+        "full": "Mister X",
+        "native": "ミスターX",
+        "userPreferred": "Mister X"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/76796.jpg",
+      "voiceActors": [
+        {
+          "id": 95831,
+          "language": "Japanese",
+          "name": {
+            "first": "",
+            "last": "Chafuurin",
+            "full": "Chafuurin",
+            "native": "茶風林 ",
+            "userPreferred": "Chafuurin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95831-yMEQTpN1WEtp.jpg"
+        },
+        {
+          "id": 95390,
+          "language": "English",
+          "name": {
+            "first": "Derek",
+            "last": "Prince",
+            "full": "Derek Prince",
+            "native": null,
+            "userPreferred": "Derek Stephen Prince"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95390-R8mt1qvD1qGX.jpg"
+        },
+        {
+          "id": 96089,
+          "language": "Italian",
+          "name": {
+            "first": "Mario",
+            "last": "Zucca",
+            "full": "Mario Zucca",
+            "native": null,
+            "userPreferred": "Mario Zucca"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96089-q69sRJKRPl65.jpg"
+        },
+        {
+          "id": 104933,
+          "language": "French",
+          "name": {
+            "first": "Benoît",
+            "last": "Van Dorslaer",
+            "full": "Benoît Van Dorslaer",
+            "native": null,
+            "userPreferred": "Benoît Van Dorslaer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104933-Ys2U9uVVKTq2.png"
+        }
+      ]
+    },
+    {
+      "id": 63233,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Poon",
+        "last": null,
+        "full": "Poon",
+        "native": "プーン",
+        "userPreferred": "Poon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63233.jpg",
+      "voiceActors": [
+        {
+          "id": 100491,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Ono",
+            "full": "Atsushi Ono",
+            "native": "斧アツシ",
+            "userPreferred": "Atsushi Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100491-6xlkDMFJdADo.png"
+        },
+        {
+          "id": 103491,
+          "language": "English",
+          "name": {
+            "first": "Kaiji",
+            "last": "Tang",
+            "full": "Kaiji Tang",
+            "native": null,
+            "userPreferred": "Kaiji Tang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103491-m720HzpwMA2o.jpg"
+        },
+        {
+          "id": 201463,
+          "language": "French",
+          "name": {
+            "first": "Laurent",
+            "last": "Renard",
+            "full": "Laurent Renard",
+            "native": null,
+            "userPreferred": "Laurent Renard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 100957,
+      "relationType": "PARENT",
+      "malId": 35857,
+      "title": {
+        "romaji": "Lupin III: PART 5",
+        "english": "Lupin the 3rd Part V",
+        "native": "ルパン三世 PART5",
+        "userPreferred": "Lupin III: PART 5"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100957-YzfrlJDqswJc.jpg",
+      "color": "#e48635",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100957-YCn32nSXzauM.jpg",
+      "rating": 80
+    }
+  ],
+  "episodes": [
+    {
+      "id": "lupin-wa-ima-mo-moete-iru-ka-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx104257-D7AKMDDVf0lV.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-wa-ima-mo-moete-iru-ka-episode-1"
+    }
+  ]
+}

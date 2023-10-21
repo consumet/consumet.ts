@@ -1,0 +1,1393 @@
+{
+  "id": "15489",
+  "title": {
+    "romaji": "Yu☆Gi☆Oh! ZEXAL II",
+    "english": "Yu-Gi-Oh! ZEXAL II",
+    "native": "遊☆戯☆王ZEXALⅡ（セカンド）"
+  },
+  "malId": 15489,
+  "synonyms": [
+    "Yugioh",
+    "Yu-Gi-Oh! Zexal II",
+    "Yu-Gi-Oh! Zexal 2nd",
+    "Yuu Gi Ou! Zexal Second"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+  "popularity": 8537,
+  "color": "#e45d93",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15489-uyPpbIa11CSx.png",
+  "description": "The continuation of Yu-Gi-Oh! Zexal. <br><br>\r\nA new enemy has been revealed - Barian. They wish to gather the \"Numbers\" and destroy the Astral World to avoid their own world's destruction. As such, Yuma and his friends are their prime target, and the Barian begin to slowly enter Heartland City.",
+  "status": "Completed",
+  "releaseDate": 2012,
+  "startDate": {
+    "year": 2012,
+    "month": 10,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2014,
+    "month": 3,
+    "day": 23
+  },
+  "totalEpisodes": 73,
+  "currentEpisode": 73,
+  "rating": 66,
+  "duration": 23,
+  "genres": [
+    "Action",
+    "Fantasy"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Studio Gallop"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 890,
+      "malId": 890,
+      "title": {
+        "romaji": "Yuusha-Ou GaoGaiGar",
+        "english": "The King of Braves: GaoGaiGar",
+        "native": "勇者王ガオガイガー",
+        "userPreferred": "Yuusha-Ou GaoGaiGar"
+      },
+      "status": "Completed",
+      "episodes": 49,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx890-opmekyhFfZO9.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/890-LV6teY9Xj3yY.jpg",
+      "rating": 75,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 39181,
+      "role": "MAIN",
+      "name": {
+        "first": "Kotori",
+        "last": "Mizuki",
+        "full": "Kotori Mizuki",
+        "native": "観月小鳥",
+        "userPreferred": "Kotori Mizuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39181.jpg",
+      "voiceActors": [
+        {
+          "id": 105071,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Komatsu",
+            "full": "Mikako Komatsu",
+            "native": "小松未可子",
+            "userPreferred": "Mikako Komatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105071-Hcj0X2gcliPq.png"
+        }
+      ]
+    },
+    {
+      "id": 39182,
+      "role": "MAIN",
+      "name": {
+        "first": "Ryoga",
+        "last": "Kamishiro",
+        "full": "Ryoga Kamishiro",
+        "native": "神代凌牙",
+        "userPreferred": "Ryoga Kamishiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39182.jpg",
+      "voiceActors": [
+        {
+          "id": 107017,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiki",
+            "last": "Masuda",
+            "full": "Toshiki Masuda",
+            "native": "増田俊樹",
+            "userPreferred": "Toshiki Masuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107017-Jv96B9DBJOy9.png"
+        }
+      ]
+    },
+    {
+      "id": 39184,
+      "role": "MAIN",
+      "name": {
+        "first": "Astral",
+        "last": null,
+        "full": "Astral",
+        "native": "アストラル",
+        "userPreferred": "Astral"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39184.jpg",
+      "voiceActors": [
+        {
+          "id": 95088,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Irino",
+            "full": "Miyu Irino",
+            "native": "入野自由",
+            "userPreferred": "Miyu Irino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95088-BHyqnkadBEqi.png"
+        }
+      ]
+    },
+    {
+      "id": 43687,
+      "role": "MAIN",
+      "name": {
+        "first": "Kaito",
+        "last": "Tenjou",
+        "full": "Kaito Tenjou",
+        "native": "天城カイト",
+        "userPreferred": "Kaito Tenjou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43687.jpg",
+      "voiceActors": [
+        {
+          "id": 96764,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouki",
+            "last": "Uchiyama",
+            "full": "Kouki Uchiyama",
+            "native": "内山昂輝",
+            "userPreferred": "Kouki Uchiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96764-yJWGrhjanDJQ.png"
+        }
+      ]
+    },
+    {
+      "id": 39180,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuma",
+        "last": "Tsukumo",
+        "full": "Yuma Tsukumo",
+        "native": "九十九 遊馬",
+        "userPreferred": "Yuma Tsukumo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39180.jpg",
+      "voiceActors": [
+        {
+          "id": 107018,
+          "language": "Japanese",
+          "name": {
+            "first": "Tasuku",
+            "last": "Hatanaka",
+            "full": "Tasuku Hatanaka",
+            "native": "畠中祐",
+            "userPreferred": "Tasuku Hatanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107018-UwRPnTdllbPT.png"
+        }
+      ]
+    },
+    {
+      "id": 69713,
+      "role": "MAIN",
+      "name": {
+        "first": "Rio",
+        "last": "Kamishiro",
+        "full": "Rio Kamishiro",
+        "native": "神代璃緒",
+        "userPreferred": "Rio Kamishiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b69713-wsKvKHyWFiHK.png",
+      "voiceActors": [
+        {
+          "id": 107961,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Han",
+            "full": "Megumi Han",
+            "native": "潘めぐみ",
+            "userPreferred": "Megumi Han"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107961-aMetTdEFTi2W.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43372,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cathy",
+        "last": null,
+        "full": "Cathy",
+        "native": "キャッシー",
+        "userPreferred": "Cathy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43372.jpg",
+      "voiceActors": [
+        {
+          "id": 95034,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Kobayashi",
+            "full": "Yuu Kobayashi",
+            "native": "小林ゆう",
+            "userPreferred": "Yuu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95034-AwobjrcmkMi9.png"
+        }
+      ]
+    },
+    {
+      "id": 42936,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tokunosuke",
+        "last": "Omoteura",
+        "full": "Tokunosuke Omoteura",
+        "native": "表裏徳之助",
+        "userPreferred": "Tokunosuke Omoteura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42936.jpg",
+      "voiceActors": [
+        {
+          "id": 95930,
+          "language": "Japanese",
+          "name": {
+            "first": "Aki",
+            "last": "Kanada",
+            "full": "Aki Kanada",
+            "native": "金田アキ",
+            "userPreferred": "Aki Kanada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95930-tn7fNp6AXwUY.png"
+        }
+      ]
+    },
+    {
+      "id": 35605,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chitaro",
+        "last": "Ariga",
+        "full": "Chitaro Ariga",
+        "native": "有賀千太郎",
+        "userPreferred": "Chitaro Ariga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35605.jpg",
+      "voiceActors": [
+        {
+          "id": 113513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yousuke",
+            "last": "Itou",
+            "full": "Yousuke Itou",
+            "native": "伊藤陽佑",
+            "userPreferred": "Yousuke Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n113513-UkiviSXcSFk3.png"
+        }
+      ]
+    },
+    {
+      "id": 40607,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akari",
+        "last": "Tsukumo",
+        "full": "Akari Tsukumo",
+        "native": "九十九明里",
+        "userPreferred": "Akari Tsukumo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40607.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 35594,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Daisuke",
+        "last": "Katagiri",
+        "full": "Daisuke Katagiri",
+        "native": "片桐大介",
+        "userPreferred": "Daisuke Katagiri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35594.jpg",
+      "voiceActors": [
+        {
+          "id": 95065,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamoru",
+            "last": "Miyano",
+            "full": "Mamoru Miyano",
+            "native": "宮野真守",
+            "userPreferred": "Mamoru Miyano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95065-eyynywrhombR.png"
+        }
+      ]
+    },
+    {
+      "id": 74233,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fuma",
+        "last": null,
+        "full": "Fuma",
+        "native": "風魔",
+        "userPreferred": "Fuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/74233.jpg",
+      "voiceActors": [
+        {
+          "id": 96122,
+          "language": "Japanese",
+          "name": {
+            "first": "Takaya",
+            "last": "Kuroda",
+            "full": "Takaya Kuroda",
+            "native": "黒田崇矢",
+            "userPreferred": "Takaya Kuroda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96122-KZMI0XXqYtpG.png"
+        }
+      ]
+    },
+    {
+      "id": 74241,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Alit",
+        "last": null,
+        "full": "Alit",
+        "native": "アリト",
+        "userPreferred": "Alit"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/74241.jpg",
+      "voiceActors": [
+        {
+          "id": 114769,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Hikami",
+            "full": "Kouji Hikami",
+            "native": "孝治 比上",
+            "userPreferred": "Kouji Hikami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 82789,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "No. 96",
+        "last": null,
+        "full": "No. 96",
+        "native": "№96 ブラックミスト",
+        "userPreferred": "No. 96"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/82789.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 74243,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Misael",
+        "last": null,
+        "full": "Misael",
+        "native": "ミザエル",
+        "userPreferred": "Misael"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/74243.jpg",
+      "voiceActors": [
+        {
+          "id": 114946,
+          "language": "Japanese",
+          "name": {
+            "first": "Genki",
+            "last": "Okawa",
+            "full": "Genki Okawa",
+            "native": "大河元気",
+            "userPreferred": "Genki Okawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114946-P0yRoqSm5swu.png"
+        }
+      ]
+    },
+    {
+      "id": 43965,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mr. Heartland",
+        "last": null,
+        "full": "Mr. Heartland",
+        "native": "Mr.ハートランド",
+        "userPreferred": "Mr. Heartland"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43965.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 74237,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Durbe",
+        "last": null,
+        "full": "Durbe",
+        "native": "ドルベ",
+        "userPreferred": "Durbe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/74237.jpg",
+      "voiceActors": [
+        {
+          "id": 95183,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Hirakawa",
+            "full": "Daisuke Hirakawa",
+            "native": "平川大輔",
+            "userPreferred": "Daisuke Hirakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95183-5C42gbrKIP7L.png"
+        }
+      ]
+    },
+    {
+      "id": 52361,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Droite",
+        "last": null,
+        "full": "Droite",
+        "native": "ドロワ",
+        "userPreferred": "Droite"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52361.jpg",
+      "voiceActors": [
+        {
+          "id": 101235,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Fukamizu",
+            "full": "Yumi Fukamizu",
+            "native": "深水由美",
+            "userPreferred": "Yumi Fukamizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6235.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39183,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tetsuo",
+        "last": "Takada",
+        "full": "Tetsuo Takada",
+        "native": "武田 鉄男 ",
+        "userPreferred": "Tetsuo Takada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39183.jpg",
+      "voiceActors": [
+        {
+          "id": 107019,
+          "language": "Japanese",
+          "name": {
+            "first": "Makoto",
+            "last": "Shimada",
+            "full": "Makoto Shimada",
+            "native": "真 嶋田",
+            "userPreferred": "Makoto Shimada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12019.jpg"
+        }
+      ]
+    },
+    {
+      "id": 50297,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Orbital 7",
+        "last": null,
+        "full": "Orbital 7",
+        "native": "オービタル7",
+        "userPreferred": "Orbital 7"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/50297.jpg",
+      "voiceActors": [
+        {
+          "id": 96489,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoaki",
+            "last": "Maeno",
+            "full": "Tomoaki Maeno",
+            "native": "前野智昭",
+            "userPreferred": "Tomoaki Maeno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96489-xTzYxgdC9g9l.png"
+        },
+        {
+          "id": 96000,
+          "language": "English",
+          "name": {
+            "first": "Sean",
+            "last": "Schemmel",
+            "full": "Sean Schemmel",
+            "native": null,
+            "userPreferred": "Sean Schemmel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96000-2o6VuDoBKFam.png"
+        },
+        {
+          "id": 104937,
+          "language": "French",
+          "name": {
+            "first": "Tony",
+            "last": "Beck",
+            "full": "Tony Beck",
+            "native": null,
+            "userPreferred": "Tony Beck"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104937-yzBT4LiZik5C.jpg"
+        }
+      ]
+    },
+    {
+      "id": 48417,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kazuma",
+        "last": "Tsukumo",
+        "full": "Kazuma Tsukumo",
+        "native": "九十九一馬",
+        "userPreferred": "Kazuma Tsukumo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/48417.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 74235,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rei",
+        "last": "Shingetsu",
+        "full": "Rei Shingetsu",
+        "native": "真月零",
+        "userPreferred": "Rei Shingetsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b74235-hMnnz5bazKfE.png",
+      "voiceActors": [
+        {
+          "id": 95245,
+          "language": "Japanese",
+          "name": {
+            "first": "Satoshi",
+            "last": "Hino",
+            "full": "Satoshi Hino",
+            "native": "日野聡",
+            "userPreferred": "Satoshi Hino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95245-prBoWpg0HaGX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52359,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gauche",
+        "last": null,
+        "full": "Gauche",
+        "native": "ゴーシュ",
+        "userPreferred": "Gauche"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52359.jpg",
+      "voiceActors": [
+        {
+          "id": 101724,
+          "language": "Japanese",
+          "name": {
+            "first": "Gou",
+            "last": "Shinomiya",
+            "full": "Gou Shinomiya",
+            "native": "四宮豪",
+            "userPreferred": "Gou Shinomiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101724-MEUzOW3BRvy2.png"
+        }
+      ]
+    },
+    {
+      "id": 51743,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Anna",
+        "last": "Kozuki",
+        "full": "Anna Kozuki",
+        "native": "神月アンナ",
+        "userPreferred": "Anna Kozuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/51743.jpg",
+      "voiceActors": [
+        {
+          "id": 107081,
+          "language": "Japanese",
+          "name": {
+            "first": "Rei",
+            "last": "Mochizuki",
+            "full": "Rei Mochizuki",
+            "native": "玲依 持月",
+            "userPreferred": "Rei Mochizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12081.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40608,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haru",
+        "last": "Tsukumo",
+        "full": "Haru Tsukumo",
+        "native": "九十九春",
+        "userPreferred": "Haru Tsukumo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40608.jpg",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 10015,
+      "relationType": "PREQUEL",
+      "malId": 10015,
+      "title": {
+        "romaji": "Yu☆Gi☆Oh! ZEXAL",
+        "english": "Yu-Gi-Oh! Zexal",
+        "native": "遊☆戯☆王ZEXAL",
+        "userPreferred": "Yu☆Gi☆Oh! ZEXAL"
+      },
+      "status": "Completed",
+      "episodes": 73,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10015-S7qEYfWP8ibi.png",
+      "color": "#28aee4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10015-KPirixZnqUYI.jpg",
+      "rating": 61
+    },
+    {
+      "id": 114072,
+      "relationType": "OTHER",
+      "malId": 40145,
+      "title": {
+        "romaji": "Yu☆Gi☆Oh! SEVENS",
+        "english": "Yu-Gi-Oh! SEVENS",
+        "native": "遊☆戯☆王SEVENS",
+        "userPreferred": "Yu☆Gi☆Oh! SEVENS"
+      },
+      "status": "Completed",
+      "episodes": 92,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114072-3C6Bbv490sNj.jpg",
+      "color": "#ffd643",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114072-skJElBIWDt69.jpg",
+      "rating": 54
+    },
+    {
+      "id": 142842,
+      "relationType": "OTHER",
+      "malId": 50607,
+      "title": {
+        "romaji": "Yu☆Gi☆Oh! Go Rush!!",
+        "english": null,
+        "native": "遊☆戯☆王ゴーラッシュ!!",
+        "userPreferred": "Yu☆Gi☆Oh! Go Rush!!"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142842-sz1cRActqBe3.jpg",
+      "color": "#35bbff",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142842-sz1cRActqBe3.jpg",
+      "rating": 50
+    }
+  ],
+  "episodes": [
+    {
+      "id": "yu-gi-oh-zexal-second-episode-1",
+      "title": "Attack of the Barians, Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 1,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-1"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-2",
+      "title": "Attack of the Barians, Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 2,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-2"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-3",
+      "title": "Hard Knox",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 3,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-3"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-4",
+      "title": "Rule Duel",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 4,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-4"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-5",
+      "title": "The Adventures of Artimus Stanleyus",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 5,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-5"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-6",
+      "title": "Doom in Bloom",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 6,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-6"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-7",
+      "title": "Rivals in the Ring",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 7,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-7"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-8",
+      "title": "The Friendship Games",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 8,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-8"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-9",
+      "title": "Sphere Cube Calamity: Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 9,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-9"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-10",
+      "title": "Sphere Cube Calamity: Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 10,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-10"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-11",
+      "title": "Playing Defense",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 11,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-11"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-12",
+      "title": "Counter Offensive: Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 12,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-12"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-13",
+      "title": "Counter Offensive: Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 13,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-13"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-14",
+      "title": "Dual Duel: Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 14,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-14"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-15",
+      "title": "Dual Duel: Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 15,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-15"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-16",
+      "title": "Darkness Dawns",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 16,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-16"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-17",
+      "title": "You Give Love a Bot Name",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 17,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-17"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-18",
+      "title": "Take a Chance",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 18,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-18"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-19",
+      "title": "An Imperfect Couple, Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 19,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-19"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-20",
+      "title": "An Imperfect Couple, Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 20,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-20"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-21",
+      "title": "Enter Vector",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 21,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-21"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-22",
+      "title": "The Search for Shadows",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 22,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-22"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-23",
+      "title": "Shadows of Deception",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 23,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-23"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-24",
+      "title": "Sinister Shadows",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 24,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-24"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-25",
+      "title": "Shadows End",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 25,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-25"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-26",
+      "title": "A Duel in Ruins: Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 26,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-26"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-27",
+      "title": "A Duel in Ruins: Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 27,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-27"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-28",
+      "title": "The Dark Mist Rises: Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 28,
+      "createdAt": "2014-11-18T13:51:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-28"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-29",
+      "title": "The Dark Mist Rises: Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 29,
+      "createdAt": "2014-11-18T13:51:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-29"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-30",
+      "title": "Barian Vengeance: Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 30,
+      "createdAt": "2014-11-18T13:51:31Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-30"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-31",
+      "title": "Barian Vengeance: Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 31,
+      "createdAt": "2014-11-18T13:51:31Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-31"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-32",
+      "title": "Put to the Test: Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 32,
+      "createdAt": "2014-11-18T13:51:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-32"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-33",
+      "title": "Put to the Test: Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 33,
+      "createdAt": "2014-11-18T13:51:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-33"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-34",
+      "title": "Furry Fury",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 34,
+      "createdAt": "2014-11-18T13:51:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-34"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-35",
+      "title": "A Sea of Troubles: Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 35,
+      "createdAt": "2014-11-18T13:51:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-35"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-36",
+      "title": "A Sea of Troubles: Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 36,
+      "createdAt": "2014-11-18T13:51:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-36"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-37",
+      "title": "A World of Chaos: Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 37,
+      "createdAt": "2014-11-18T13:51:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-37"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-38",
+      "title": "A World of Chaos: Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 38,
+      "createdAt": "2014-11-18T13:51:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-38"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-39",
+      "title": "Memory Thief: Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 39,
+      "createdAt": "2014-11-18T13:51:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-39"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-40",
+      "title": "Memory Thief: Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 40,
+      "createdAt": "2014-11-18T13:51:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-40"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-41",
+      "title": "Tentacles of Terror: Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 41,
+      "createdAt": "2014-11-18T13:51:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-41"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-42",
+      "title": "Tentacles of Terror: Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 42,
+      "createdAt": "2014-11-18T13:51:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-42"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-43",
+      "title": "Now or Never: Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 43,
+      "createdAt": "2014-11-18T13:51:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-43"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-44",
+      "title": "Now or Never: Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 44,
+      "createdAt": "2014-11-18T13:51:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-44"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-45",
+      "title": "Mission: Astral World: Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 45,
+      "createdAt": "2014-11-18T13:51:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-45"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-46",
+      "title": "Mission: Astral World: Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 46,
+      "createdAt": "2014-11-18T13:51:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-46"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-47",
+      "title": "Mission: Astral World: Part 3",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 47,
+      "createdAt": "2014-11-18T13:51:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-47"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-48",
+      "title": "Mission: Astral World: Part 4",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 48,
+      "createdAt": "2014-11-18T13:51:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-48"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-49",
+      "title": "Assimilation: Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 49,
+      "createdAt": "2014-11-18T13:51:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-49"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-50",
+      "title": "Assimilation: Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 50,
+      "createdAt": "2014-11-18T13:51:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-50"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-51",
+      "title": "Battle with the Barians",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 51,
+      "createdAt": "2014-11-18T13:51:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-51"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-52",
+      "title": "Fight for a Friend",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 52,
+      "createdAt": "2014-11-18T13:51:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-52"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-53",
+      "title": "Farewell for a Friend",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 53,
+      "createdAt": "2014-11-18T13:51:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-53"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-54",
+      "title": "Settling the Score: Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 54,
+      "createdAt": "2014-11-18T13:51:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-54"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-55",
+      "title": "Settling the Score: Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 55,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-55"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-56",
+      "title": "Fists of Fury: Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 56,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-56"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-57",
+      "title": "Fists of Fury: Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 57,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-57"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-58",
+      "title": "Power Play",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 58,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-58"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-59",
+      "title": "Barian vs. Barian",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 59,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-59"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-60",
+      "title": "Vector the Victor",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 60,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-60"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-61",
+      "title": "Dragon Strife: Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 61,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-61"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-62",
+      "title": "Dragon Strife: Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 62,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-62"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-63",
+      "title": "The Forsaken Palace",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 63,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-63"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-64",
+      "title": "Clash of the Emperors",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 64,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-64"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-65",
+      "title": "The New World",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 65,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-65"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-66",
+      "title": "The Source Code",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 66,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-66"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-67",
+      "title": "A Thousand Ways to Lose",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 67,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-67"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-68",
+      "title": "The Fate of Three Worlds",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 68,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-68"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-69",
+      "title": "The Battle of Three Worlds",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 69,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-69"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-70",
+      "title": "The Future of Three Worlds",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 70,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-70"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-71",
+      "title": "Last First Duel",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 71,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-71"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-72",
+      "title": "Outclassed and Outmatched",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 72,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-72"
+    },
+    {
+      "id": "yu-gi-oh-zexal-second-episode-73",
+      "title": "Forever ZEXAL",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "number": 73,
+      "createdAt": "2014-04-07T12:42:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yu-gi-oh-zexal-second-episode-73"
+    }
+  ]
+}

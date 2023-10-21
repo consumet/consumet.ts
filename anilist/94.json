@@ -1,0 +1,1993 @@
+{
+  "id": "94",
+  "title": {
+    "romaji": "Kidou Senshi Gundam SEED DESTINY",
+    "english": "Mobile Suit Gundam Seed Destiny",
+    "native": "機動戦士ガンダムSEED DESTINY"
+  },
+  "malId": 94,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/94.jpg",
+  "popularity": 13432,
+  "color": "#e45d78",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/94-RuejO7P6dcrm.jpg",
+  "description": "C.E. 73: While the second battle of Yachin Due brought the war between the Naturals and Coordinators to a close, tensions between the two races are at an all-time high. During a meeting between PLANT Chairman Gilbert Dullindal and Orb Representative Cagalli Yula Athha, a unit of soldiers hijack ZAFT's newly developed Gundams. ZAFT soldier Shinn Asuka along with his friends at the ZAFT ship Minerva sortie in attempt to deter this hijacking. With the assistance of Cagalli's bodyguard, Athrun Zala, the Minerva chases after the unknown ship that hijacked the Gundams until an even greater problem occurs leading to the start of the second Bloody Valentine war.\n<br><Br>\n<i>Note: On March 2013, the airing of the HD Remaster began. Like the HD Remaster of Gundam SEED, the remaster of this series not only improves the animation, but also alters lines and scenes from the original, as well as introducing brand new mobile suits. The episode count for the remaster was 50 episodes. The recap episode \"Refrain\" was completely omitted from the HD Remaster, while the final episode divided into two parts: \"Final Power\" and \"The Chosen Future\", based on the \"The Chosen Future\" television special, with additional footage.</i>",
+  "status": "Completed",
+  "releaseDate": 2004,
+  "startDate": {
+    "year": 2004,
+    "month": 10,
+    "day": 9
+  },
+  "endDate": {
+    "year": 2005,
+    "month": 10,
+    "day": 1
+  },
+  "totalEpisodes": 50,
+  "currentEpisode": 50,
+  "rating": 64,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Drama",
+    "Mecha",
+    "Romance",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Sunrise"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 16668,
+      "malId": 16668,
+      "title": {
+        "romaji": "Kakumeiki Valvrave",
+        "english": "Valvrave the Liberator",
+        "native": "革命機ヴァルヴレイヴ",
+        "userPreferred": "Kakumeiki Valvrave"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16668-ShG8DE2t0ryW.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16668-7kiygsBfIXKm.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 20853,
+      "malId": 27655,
+      "title": {
+        "romaji": "Aldnoah.Zero 2",
+        "english": "ALDNOAH.ZERO Season 2",
+        "native": "アルドノア・ゼロ 2",
+        "userPreferred": "Aldnoah.Zero 2"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20853-q12T6ELsEyi3.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20853-Xli7nZSGFj00.jpg",
+      "rating": 65,
+      "type": "TV"
+    },
+    {
+      "id": 2484,
+      "malId": 2484,
+      "title": {
+        "romaji": "GEAR Senshi Dendoh",
+        "english": null,
+        "native": "GEAR戦士 電童",
+        "userPreferred": "GEAR Senshi Dendoh"
+      },
+      "status": "Completed",
+      "episodes": 38,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2484-cKkTQRNpoAXx.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2484-yNDOYWN4jezp.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 75,
+      "malId": 75,
+      "title": {
+        "romaji": "Soukyuu no Fafner",
+        "english": "Fafner",
+        "native": "蒼穹のファフナー",
+        "userPreferred": "Soukyuu no Fafner"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx75-ZE4KQgvN8qRs.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/75-nHDkGMjIohRQ.jpg",
+      "rating": 69,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 116,
+      "role": "MAIN",
+      "name": {
+        "first": "Lacus",
+        "last": "Clyne",
+        "full": "Lacus Clyne",
+        "native": "ラクス クライン",
+        "userPreferred": "Lacus Clyne"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b116-DV0Kf8F2vSsW.png",
+      "voiceActors": [
+        {
+          "id": 95060,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Tanaka",
+            "full": "Rie Tanaka",
+            "native": "田中理恵",
+            "userPreferred": "Rie Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95060-Rw0HZghxH1hF.jpg"
+        },
+        {
+          "id": 95396,
+          "language": "English",
+          "name": {
+            "first": "Stephanie",
+            "last": "Sheh",
+            "full": "Stephanie Sheh",
+            "native": null,
+            "userPreferred": "Stephanie Sheh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95396-tNpkTyDD9Y1g.jpg"
+        },
+        {
+          "id": 96086,
+          "language": "English",
+          "name": {
+            "first": "Chantal",
+            "last": "Strand",
+            "full": "Chantal Strand",
+            "native": null,
+            "userPreferred": "Chantal Strand"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1086.jpg"
+        },
+        {
+          "id": 165054,
+          "language": "French",
+          "name": {
+            "first": "Sabrina",
+            "last": "Leurquin",
+            "full": "Sabrina Leurquin",
+            "native": null,
+            "userPreferred": "Sabrina Leurquin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "role": "MAIN",
+      "name": {
+        "first": "Shinn",
+        "last": "Asuka",
+        "full": "Shinn Asuka",
+        "native": "シン・アスカ",
+        "userPreferred": "Shinn Asuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/117.jpg",
+      "voiceActors": [
+        {
+          "id": 95005,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Suzumura",
+            "full": "Kenichi Suzumura",
+            "native": "鈴村健一",
+            "userPreferred": "Kenichi Suzumura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95005-SkoVN02iOglr.png"
+        },
+        {
+          "id": 203993,
+          "language": "English",
+          "name": {
+            "first": "Aaron",
+            "last": "Phillips",
+            "full": "Aaron Phillips",
+            "native": null,
+            "userPreferred": "Aaron Ben Phillips"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n203993-k7nw37XlWlnc.png"
+        },
+        {
+          "id": 95813,
+          "language": "English",
+          "name": {
+            "first": "Matthew",
+            "last": "Erickson",
+            "full": "Matthew Erickson",
+            "native": null,
+            "userPreferred": "Matthew Erickson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/813.jpg"
+        },
+        {
+          "id": 160131,
+          "language": "French",
+          "name": {
+            "first": "Taric",
+            "last": "Mehani",
+            "full": "Taric Mehani",
+            "native": null,
+            "userPreferred": "Taric Mehani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n160131-4pIgx0Ex184E.jpg"
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "role": "MAIN",
+      "name": {
+        "first": "Rey",
+        "last": "Za Burrel",
+        "full": "Rey Za Burrel",
+        "native": "レイ・ザ・バレル",
+        "userPreferred": "Rey Za Burrel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/118.jpg",
+      "voiceActors": [
+        {
+          "id": 95129,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshihiko",
+            "last": "Seki",
+            "full": "Toshihiko Seki",
+            "native": "関俊彦",
+            "userPreferred": "Toshihiko Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95129-AAL7kfwAPpgR.jpg"
+        },
+        {
+          "id": 96434,
+          "language": "English",
+          "name": {
+            "first": "Kevin",
+            "last": "Collins",
+            "full": "Kevin Collins",
+            "native": null,
+            "userPreferred": "Kevin Thomas Collins"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96434-z6paljURlHy2.jpg"
+        },
+        {
+          "id": 95307,
+          "language": "English",
+          "name": {
+            "first": "Kirby",
+            "last": "Morrow",
+            "full": "Kirby Morrow",
+            "native": null,
+            "userPreferred": "Kirby Morrow"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95307-KnqG1E5BgQpn.jpg"
+        },
+        {
+          "id": 161249,
+          "language": "French",
+          "name": {
+            "first": "Emmanuel",
+            "last": "Gradi",
+            "full": "Emmanuel Gradi",
+            "native": null,
+            "userPreferred": "Emmanuel Gradi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n161249-yPwxnGBthmrG.jpg"
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "role": "MAIN",
+      "name": {
+        "first": "Cagalli Yula",
+        "last": "Athha",
+        "full": "Cagalli Yula Athha",
+        "native": "カガリ・ユラ・アスハ",
+        "userPreferred": "Cagalli Yula Athha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/115.jpg",
+      "voiceActors": [
+        {
+          "id": 95256,
+          "language": "Japanese",
+          "name": {
+            "first": "Naomi",
+            "last": "Shindou",
+            "full": "Naomi Shindou",
+            "native": "進藤尚美",
+            "userPreferred": "Naomi Shindou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95256-4emdBHqQ5S7m.png"
+        },
+        {
+          "id": 96650,
+          "language": "English",
+          "name": {
+            "first": "Cherami",
+            "last": "Leigh",
+            "full": "Cherami Leigh",
+            "native": null,
+            "userPreferred": "Cherami Leigh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96650-oYspSQuaFo3N.jpg"
+        },
+        {
+          "id": 96371,
+          "language": "English",
+          "name": {
+            "first": "Vanessa",
+            "last": "Morley",
+            "full": "Vanessa Morley",
+            "native": null,
+            "userPreferred": "Vanessa Morley"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1371.jpg"
+        },
+        {
+          "id": 104747,
+          "language": "French",
+          "name": {
+            "first": "Susan",
+            "last": "Sindberg",
+            "full": "Susan Sindberg",
+            "native": null,
+            "userPreferred": "Susan Sindberg"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104747-3HN1vSuPSlEb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "role": "MAIN",
+      "name": {
+        "first": "Athrun",
+        "last": "Zala",
+        "full": "Athrun Zala",
+        "native": "アスラン・ザラ",
+        "userPreferred": "Athrun Zala"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b114-kCkesWgy5gFn.png",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        },
+        {
+          "id": 129650,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Hackney",
+            "full": "Chris Hackney",
+            "native": null,
+            "userPreferred": "Chris Hackney"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129650-Zl2AyZpwb7Jz.png"
+        },
+        {
+          "id": 95304,
+          "language": "English",
+          "name": {
+            "first": "Sam",
+            "last": "Khouth",
+            "full": "Sam Khouth",
+            "native": null,
+            "userPreferred": "Sam Khouth"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95304-tEe39dsTPAkN.jpg"
+        },
+        {
+          "id": 104885,
+          "language": "French",
+          "name": {
+            "first": "Fabien",
+            "last": "Briche",
+            "full": "Fabien Briche",
+            "native": null,
+            "userPreferred": "Fabien Briche"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "role": "MAIN",
+      "name": {
+        "first": "Kira",
+        "last": "Yamato",
+        "full": "Kira Yamato",
+        "native": "キラ・ヤマト",
+        "userPreferred": "Kira Yamato"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b113-f7dc3pmRl8ok.jpg",
+      "voiceActors": [
+        {
+          "id": 95030,
+          "language": "Japanese",
+          "name": {
+            "first": "Souichirou",
+            "last": "Hoshi",
+            "full": "Souichirou Hoshi",
+            "native": "保志総一朗",
+            "userPreferred": "Souichirou Hoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95030-kj64Uy6Zr3bq.png"
+        },
+        {
+          "id": 120213,
+          "language": "English",
+          "name": {
+            "first": "Max",
+            "last": "Mittelman",
+            "full": "Max Mittelman",
+            "native": null,
+            "userPreferred": "Max Mittelman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/25213-IylSduNo7Q2O.jpg"
+        },
+        {
+          "id": 95303,
+          "language": "English",
+          "name": {
+            "first": "Matt",
+            "last": "Hill",
+            "full": "Matt Hill",
+            "native": null,
+            "userPreferred": "Matt Hill"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95303-3VFEfMzsR2Q6.jpg"
+        },
+        {
+          "id": 96201,
+          "language": "French",
+          "name": {
+            "first": "Thierry",
+            "last": "Bourdon",
+            "full": "Thierry Bourdon",
+            "native": null,
+            "userPreferred": "Thierry Bourdon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96201-tx2JFz837S39.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "role": "MAIN",
+      "name": {
+        "first": "Lunamaria",
+        "last": "Hawke",
+        "full": "Lunamaria Hawke",
+        "native": "ルナマリア・ホーク",
+        "userPreferred": "Lunamaria Hawke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b120-8YVoL3Gsvpv8.png",
+      "voiceActors": [
+        {
+          "id": 95090,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Sakamoto",
+            "full": "Maaya Sakamoto",
+            "native": "坂本真綾",
+            "userPreferred": "Maaya Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95090-oARRP42NEhu0.jpg"
+        },
+        {
+          "id": 136638,
+          "language": "English",
+          "name": {
+            "first": "Alyson Leigh",
+            "last": "Rosenfeld",
+            "full": "Alyson Leigh Rosenfeld",
+            "native": null,
+            "userPreferred": "Alyson Leigh Rosenfeld"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n136638-kotYrtCVIUhF.jpg"
+        },
+        {
+          "id": 95887,
+          "language": "English",
+          "name": {
+            "first": "Marÿke",
+            "last": "Hendrikse",
+            "full": "Marÿke Hendrikse",
+            "native": null,
+            "userPreferred": "Marÿke Hendrikse"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95887-lcsKJzni0sG1.jpg"
+        },
+        {
+          "id": 113861,
+          "language": "French",
+          "name": {
+            "first": "Nathalie",
+            "last": "Homs",
+            "full": "Nathalie Homs",
+            "native": null,
+            "userPreferred": "Nathalie Homs"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/18861.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1264,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yzak",
+        "last": "Joule",
+        "full": "Yzak Joule",
+        "native": "イザーク・ジュール",
+        "userPreferred": "Yzak Joule"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1264.jpg",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        },
+        {
+          "id": 95844,
+          "language": "English",
+          "name": {
+            "first": "Michael",
+            "last": "Adamthwaite",
+            "full": "Michael Adamthwaite",
+            "native": null,
+            "userPreferred": "Michael Adamthwaite"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95844-kfHmM7sAgdRC.png"
+        },
+        {
+          "id": 96025,
+          "language": "French",
+          "name": {
+            "first": "Bruno",
+            "last": "Magne",
+            "full": "Bruno Magne",
+            "native": null,
+            "userPreferred": "Bruno Magne"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96025-FBV94GDI70gg.jpg"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Stella",
+        "last": "Loussier",
+        "full": "Stella Loussier",
+        "native": "ステラ・ルーシェ",
+        "userPreferred": "Stella Loussier"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/119.jpg",
+      "voiceActors": [
+        {
+          "id": 95057,
+          "language": "Japanese",
+          "name": {
+            "first": "Houko",
+            "last": "Kuwashima",
+            "full": "Houko Kuwashima",
+            "native": "桑島法子",
+            "userPreferred": "Houko Kuwashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95057-nMZEwJet445W.jpg"
+        },
+        {
+          "id": 102905,
+          "language": "English",
+          "name": {
+            "first": "Lalainia",
+            "last": "Lindbjerg",
+            "full": "Lalainia Lindbjerg",
+            "native": null,
+            "userPreferred": "Lalainia Lindbjerg"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102905-RyX6wO6l4YfD.png"
+        },
+        {
+          "id": 232479,
+          "language": "French",
+          "name": {
+            "first": "Marie",
+            "last": "Chevalot",
+            "full": "Marie Chevalot",
+            "native": null,
+            "userPreferred": "Marie Chevalot"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40432,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mars",
+        "last": "Symeon",
+        "full": "Mars Symeon",
+        "native": "マーズ・シメオン",
+        "userPreferred": "Mars Symeon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40432.jpg",
+      "voiceActors": [
+        {
+          "id": 95095,
+          "language": "Japanese",
+          "name": {
+            "first": "Junichi",
+            "last": "Suwabe",
+            "full": "Junichi Suwabe",
+            "native": "諏訪部順一",
+            "userPreferred": "Junichi Suwabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95095-DvSjTQnqcgXP.png"
+        },
+        {
+          "id": 100576,
+          "language": "English",
+          "name": {
+            "first": "Philip",
+            "last": "Pacaud",
+            "full": "Philip Pacaud",
+            "native": null,
+            "userPreferred": "Philip Pacaud"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40525,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Abbey",
+        "last": "Windsor",
+        "full": "Abbey Windsor",
+        "native": "アビー・ウィンザー",
+        "userPreferred": "Abbey Windsor"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40525.jpg",
+      "voiceActors": [
+        {
+          "id": 95176,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiko",
+            "last": "Neya",
+            "full": "Michiko Neya",
+            "native": "根谷美智子",
+            "userPreferred": "Michiko Neya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95176-3yZnUwXap7nX.png"
+        },
+        {
+          "id": 95545,
+          "language": "English",
+          "name": {
+            "first": "Tabitha",
+            "last": "St. Germain",
+            "full": "Tabitha St. Germain",
+            "native": null,
+            "userPreferred": "Tabitha St. Germain"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95545-HhIJnzm6gV1M.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1270,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Talia",
+        "last": "Gladys",
+        "full": "Talia Gladys",
+        "native": "タリア・グラディス",
+        "userPreferred": "Talia Gladys"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1270.jpg",
+      "voiceActors": [
+        {
+          "id": 95571,
+          "language": "Japanese",
+          "name": {
+            "first": "Mami",
+            "last": "Koyama",
+            "full": "Mami Koyama",
+            "native": "小山茉美",
+            "userPreferred": "Mami Koyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95571-QuL7zlRwRcxa.png"
+        },
+        {
+          "id": 95444,
+          "language": "English",
+          "name": {
+            "first": "Venus",
+            "last": "Terzo",
+            "full": "Venus Terzo",
+            "native": null,
+            "userPreferred": "Venus Terzo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95444-Qioj4HUdoj6o.jpg"
+        },
+        {
+          "id": 163357,
+          "language": "French",
+          "name": {
+            "first": "Bérangère",
+            "last": "Jean",
+            "full": "Bérangère Jean",
+            "native": null,
+            "userPreferred": "Bérangère Jean"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163357-UI9zFTe0wI6y.png"
+        }
+      ]
+    },
+    {
+      "id": 34519,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ledonir",
+        "last": "Kisaka",
+        "full": "Ledonir Kisaka",
+        "native": null,
+        "userPreferred": "Ledonir Kisaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34519.jpg",
+      "voiceActors": [
+        {
+          "id": 95899,
+          "language": "Japanese",
+          "name": {
+            "first": "Isshin",
+            "last": "Chiba",
+            "full": "Isshin Chiba",
+            "native": "千葉一伸",
+            "userPreferred": "Isshin Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95899-AMM2JgmiM26f.png"
+        },
+        {
+          "id": 104951,
+          "language": "English",
+          "name": {
+            "first": "Adam",
+            "last": "Henderson",
+            "full": "Adam Henderson",
+            "native": null,
+            "userPreferred": "Adam Henderson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9951.jpg"
+        },
+        {
+          "id": 144546,
+          "language": "French",
+          "name": {
+            "first": "Patrick",
+            "last": "Béthune",
+            "full": "Patrick Béthune",
+            "native": null,
+            "userPreferred": "Patrick Béthune"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144546-jH4R7yiesEsA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27666,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Erica",
+        "last": "Simmons",
+        "full": "Erica Simmons",
+        "native": null,
+        "userPreferred": "Erica Simmons"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27666.jpg",
+      "voiceActors": [
+        {
+          "id": 105282,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiyo",
+            "last": "Yanagisawa",
+            "full": "Michiyo Yanagisawa",
+            "native": "三千代柳沢",
+            "userPreferred": "Michiyo Yanagisawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105282-V20mNhq2imRw.jpg"
+        },
+        {
+          "id": 105925,
+          "language": "English",
+          "name": {
+            "first": "Sharon",
+            "last": "Alexander",
+            "full": "Sharon Alexander",
+            "native": null,
+            "userPreferred": "Sharon Alexander"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105925-lJedQdRsvDfn.png"
+        },
+        {
+          "id": 163357,
+          "language": "French",
+          "name": {
+            "first": "Bérangère",
+            "last": "Jean",
+            "full": "Bérangère Jean",
+            "native": null,
+            "userPreferred": "Bérangère Jean"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163357-UI9zFTe0wI6y.png"
+        }
+      ]
+    },
+    {
+      "id": 37686,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yolan",
+        "last": "Kent",
+        "full": "Yolan Kent",
+        "native": null,
+        "userPreferred": "Yolan Kent"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37686.jpg",
+      "voiceActors": [
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        },
+        {
+          "id": 101853,
+          "language": "English",
+          "name": {
+            "first": "Michael",
+            "last": "Coleman",
+            "full": "Michael Coleman",
+            "native": null,
+            "userPreferred": "Michael Coleman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6853.jpg"
+        },
+        {
+          "id": 96201,
+          "language": "French",
+          "name": {
+            "first": "Thierry",
+            "last": "Bourdon",
+            "full": "Thierry Bourdon",
+            "native": null,
+            "userPreferred": "Thierry Bourdon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96201-tx2JFz837S39.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13134,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sting",
+        "last": "Oakley",
+        "full": "Sting Oakley",
+        "native": null,
+        "userPreferred": "Sting Oakley"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13134.jpg",
+      "voiceActors": [
+        {
+          "id": 95095,
+          "language": "Japanese",
+          "name": {
+            "first": "Junichi",
+            "last": "Suwabe",
+            "full": "Junichi Suwabe",
+            "native": "諏訪部順一",
+            "userPreferred": "Junichi Suwabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95095-DvSjTQnqcgXP.png"
+        },
+        {
+          "id": 96080,
+          "language": "English",
+          "name": {
+            "first": "Brent",
+            "last": "Miller",
+            "full": "Brent Miller",
+            "native": null,
+            "userPreferred": "Brent Miller"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1080.jpg"
+        },
+        {
+          "id": 145494,
+          "language": "French",
+          "name": {
+            "first": "Gérard",
+            "last": "Malabat",
+            "full": "Gérard Malabat",
+            "native": null,
+            "userPreferred": "Gérard Malabat"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145494-lLjRZbwwAYMn.png"
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Andrew",
+        "last": "Waltfeld",
+        "full": "Andrew Waltfeld",
+        "native": "アンドリュー・バルトフェルド",
+        "userPreferred": "Andrew Waltfeld"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/122.jpg",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        },
+        {
+          "id": 95515,
+          "language": "English",
+          "name": {
+            "first": "Brian",
+            "last": "Drummond",
+            "full": "Brian Drummond",
+            "native": null,
+            "userPreferred": "Brian Drummond"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95515-jCqOzlX9iNhC.png"
+        },
+        {
+          "id": 101796,
+          "language": "French",
+          "name": {
+            "first": "Jérome",
+            "last": "Keen",
+            "full": "Jérome Keen",
+            "native": null,
+            "userPreferred": "Jérome Keen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34538,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Coniel",
+        "last": null,
+        "full": "Coniel",
+        "native": null,
+        "userPreferred": "Coniel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34538.jpg",
+      "voiceActors": [
+        {
+          "id": 95503,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Sasamoto",
+            "full": "Yuuko Sasamoto",
+            "native": "笹本優子",
+            "userPreferred": "Yuuko Sasamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95503-GnKAFk8sIBPc.jpg"
+        },
+        {
+          "id": 100575,
+          "language": "English",
+          "name": {
+            "first": "Brenna",
+            "last": "O'Brien",
+            "full": "Brenna O'Brien",
+            "native": null,
+            "userPreferred": "Brenna O'Brien"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5575.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34503,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lord",
+        "last": "Djibril",
+        "full": "Lord Djibril",
+        "native": "ロード・ジブリール",
+        "userPreferred": "Lord Djibril"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34503.jpg",
+      "voiceActors": [
+        {
+          "id": 96027,
+          "language": "Japanese",
+          "name": {
+            "first": "Hideyuki",
+            "last": "Hori",
+            "full": "Hideyuki Hori",
+            "native": "堀秀行",
+            "userPreferred": "Hideyuki Hori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96027-mDC23xjXMdC5.png"
+        },
+        {
+          "id": 96081,
+          "language": "English",
+          "name": {
+            "first": "Alistair",
+            "last": "Abell",
+            "full": "Alistair Abell",
+            "native": null,
+            "userPreferred": "Alistair Abell"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1081.jpg"
+        },
+        {
+          "id": 145494,
+          "language": "French",
+          "name": {
+            "first": "Gérard",
+            "last": "Malabat",
+            "full": "Gérard Malabat",
+            "native": null,
+            "userPreferred": "Gérard Malabat"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145494-lLjRZbwwAYMn.png"
+        }
+      ]
+    },
+    {
+      "id": 37594,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Vino",
+        "last": "Dupre",
+        "full": "Vino Dupre",
+        "native": null,
+        "userPreferred": "Vino Dupre"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37594.jpg",
+      "voiceActors": [
+        {
+          "id": 105446,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisafumi",
+            "last": "Oda",
+            "full": "Hisafumi Oda",
+            "native": "小田久史",
+            "userPreferred": "Hisafumi Oda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105446-rsh3opbT9EQf.jpg"
+        },
+        {
+          "id": 105473,
+          "language": "English",
+          "name": {
+            "first": "Reece",
+            "last": "Thompson",
+            "full": "Reece Thompson",
+            "native": null,
+            "userPreferred": "Reece Thompson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10473.jpg"
+        },
+        {
+          "id": 162207,
+          "language": "French",
+          "name": {
+            "first": "Vincent",
+            "last": "de Bouard",
+            "full": "Vincent de Bouard",
+            "native": "Vincent de Boüard",
+            "userPreferred": "Vincent de Bouard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n162207-aIWarkMXIvz5.png"
+        }
+      ]
+    },
+    {
+      "id": 1266,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Meer",
+        "last": "Campbell",
+        "full": "Meer Campbell",
+        "native": "ミーア・キャンベル",
+        "userPreferred": "Meer Campbell"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1266.jpg",
+      "voiceActors": [
+        {
+          "id": 95060,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Tanaka",
+            "full": "Rie Tanaka",
+            "native": "田中理恵",
+            "userPreferred": "Rie Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95060-Rw0HZghxH1hF.jpg"
+        },
+        {
+          "id": 96086,
+          "language": "English",
+          "name": {
+            "first": "Chantal",
+            "last": "Strand",
+            "full": "Chantal Strand",
+            "native": null,
+            "userPreferred": "Chantal Strand"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1086.jpg"
+        },
+        {
+          "id": 165054,
+          "language": "French",
+          "name": {
+            "first": "Sabrina",
+            "last": "Leurquin",
+            "full": "Sabrina Leurquin",
+            "native": null,
+            "userPreferred": "Sabrina Leurquin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1263,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Auel",
+        "last": "Neider",
+        "full": "Auel Neider",
+        "native": "アウル・ニーダ",
+        "userPreferred": "Auel Neider"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1263.jpg",
+      "voiceActors": [
+        {
+          "id": 95205,
+          "language": "Japanese",
+          "name": {
+            "first": "Masakazu",
+            "last": "Morita",
+            "full": "Masakazu Morita",
+            "native": "森田成一",
+            "userPreferred": "Masakazu Morita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95205-5P3tKe3eTG9n.jpg"
+        },
+        {
+          "id": 95370,
+          "language": "English",
+          "name": {
+            "first": "Brad",
+            "last": "Swaile",
+            "full": "Brad Swaile",
+            "native": null,
+            "userPreferred": "Brad Swaile"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95370-1Z9Us8CD2IVs.jpg"
+        },
+        {
+          "id": 160131,
+          "language": "French",
+          "name": {
+            "first": "Taric",
+            "last": "Mehani",
+            "full": "Taric Mehani",
+            "native": null,
+            "userPreferred": "Taric Mehani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n160131-4pIgx0Ex184E.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34536,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Unato",
+        "last": "Ema Seiran",
+        "full": "Unato Ema Seiran",
+        "native": null,
+        "userPreferred": "Unato Ema Seiran"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34536.jpg",
+      "voiceActors": [
+        {
+          "id": 95838,
+          "language": "Japanese",
+          "name": {
+            "first": "Dai",
+            "last": "Matsumoto",
+            "full": "Dai Matsumoto",
+            "native": "松本大",
+            "userPreferred": "Dai Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/838.jpg"
+        },
+        {
+          "id": 95551,
+          "language": "English",
+          "name": {
+            "first": "Scott",
+            "last": "McNeil",
+            "full": "Scott McNeil",
+            "native": null,
+            "userPreferred": "Scott McNeil"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95551-Rr0m2lNWoZTw.png"
+        },
+        {
+          "id": 96025,
+          "language": "French",
+          "name": {
+            "first": "Bruno",
+            "last": "Magne",
+            "full": "Bruno Magne",
+            "native": null,
+            "userPreferred": "Bruno Magne"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96025-FBV94GDI70gg.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34513,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kojiro",
+        "last": "Murdoch",
+        "full": "Kojiro Murdoch",
+        "native": null,
+        "userPreferred": "Kojiro Murdoch"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34513.jpg",
+      "voiceActors": [
+        {
+          "id": 96346,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshihiko",
+            "last": "Nakajima",
+            "full": "Toshihiko Nakajima",
+            "native": "中嶋聡彦",
+            "userPreferred": "Toshihiko Nakajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1346.jpg"
+        },
+        {
+          "id": 106851,
+          "language": "English",
+          "name": {
+            "first": "Ward",
+            "last": "Perry",
+            "full": "Ward Perry",
+            "native": null,
+            "userPreferred": "Ward Perry"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11851.jpg"
+        },
+        {
+          "id": 96025,
+          "language": "French",
+          "name": {
+            "first": "Bruno",
+            "last": "Magne",
+            "full": "Bruno Magne",
+            "native": null,
+            "userPreferred": "Bruno Magne"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96025-FBV94GDI70gg.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 95009,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotono",
+            "last": "Mitsuishi",
+            "full": "Kotono Mitsuishi",
+            "native": "三石琴乃",
+            "userPreferred": "Kotono Mitsuishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95009-d01Dg8mMwcg6.png"
+        },
+        {
+          "id": 95841,
+          "language": "English",
+          "name": {
+            "first": "Alison",
+            "last": "Matthews",
+            "full": "Alison Matthews",
+            "native": null,
+            "userPreferred": "Alison Matthews"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/841.jpg"
+        },
+        {
+          "id": 104747,
+          "language": "French",
+          "name": {
+            "first": "Susan",
+            "last": "Sindberg",
+            "full": "Susan Sindberg",
+            "native": null,
+            "userPreferred": "Susan Sindberg"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104747-3HN1vSuPSlEb.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1241,
+      "relationType": "SEQUEL",
+      "malId": 1241,
+      "title": {
+        "romaji": "Kidou Senshi Gundam SEED DESTINY FINAL PLUS: Erabareta Mirai",
+        "english": "Mobile Suit Gundam Seed Destiny Final Plus: The Chosen Future",
+        "native": "機動戦士ガンダムSEED DESTINY FINAL PLUS 『選ばれた未来』",
+        "userPreferred": "Kidou Senshi Gundam SEED DESTINY FINAL PLUS: Erabareta Mirai"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1241.jpg",
+      "color": "#e45d50",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1241-LgdUG14UXnZk.jpg",
+      "rating": 65
+    },
+    {
+      "id": 1215,
+      "relationType": "SIDE_STORY",
+      "malId": 1215,
+      "title": {
+        "romaji": "Kidou Senshi Gundam SEED C.E.73: Stargazer",
+        "english": "Mobile Suit Gundam Seed C.E.73: Stargazer",
+        "native": "機動戦士ガンダムSEED C.E.73: Stargazer",
+        "userPreferred": "Kidou Senshi Gundam SEED C.E.73: Stargazer"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1215-TXSO3ljTDKjw.jpg",
+      "color": "#e4935d",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1215-wLCSkJcS8U9e.jpg",
+      "rating": 67
+    },
+    {
+      "id": 2294,
+      "relationType": "SUMMARY",
+      "malId": 2294,
+      "title": {
+        "romaji": "Kidou Senshi Gundam SEED DESTINY Special Edition",
+        "english": "Mobile Suit Gundam Seed Destiny Special Edition",
+        "native": "機動戦士ガンダムＳＥＥＤ ＤＥＳＴＩＮＹ スペシャルエディション",
+        "userPreferred": "Kidou Senshi Gundam SEED DESTINY Special Edition"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2294-zEmPJsCdhRKx.png",
+      "color": "#ae356b",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2294-g1dW9PAtKV8s.jpg",
+      "rating": 64
+    },
+    {
+      "id": 30408,
+      "relationType": "ADAPTATION",
+      "malId": 408,
+      "title": {
+        "romaji": "Mobile Suit Gundam SEED Destiny",
+        "english": "Mobile Suit Gundam Seed Destiny",
+        "native": "機動戦士ガンダム SEED Destiny",
+        "userPreferred": "Mobile Suit Gundam SEED Destiny"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30408-xVGUlKB0lvYD.png",
+      "color": "#fe506b",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30408-xVGUlKB0lvYD.png",
+      "rating": 55
+    },
+    {
+      "id": 7113,
+      "relationType": "OTHER",
+      "malId": 7113,
+      "title": {
+        "romaji": "30th GUNDAM PERFECT MISSION",
+        "english": null,
+        "native": "30th GUNDAM PERFECT MISSION",
+        "userPreferred": "30th GUNDAM PERFECT MISSION"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7113-5DDjjf4fGHox.png",
+      "color": "#e4c91a",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7113-5DDjjf4fGHox.png",
+      "rating": 62
+    },
+    {
+      "id": 134761,
+      "relationType": "SEQUEL",
+      "malId": 49073,
+      "title": {
+        "romaji": "Kidou Senshi Gundam SEED FREEDOM",
+        "english": null,
+        "native": "機動戦士ガンダムSEED FREEDOM",
+        "userPreferred": "Kidou Senshi Gundam SEED FREEDOM"
+      },
+      "status": "Not yet aired",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx134761-wlLA2W3o3gO2.jpg",
+      "color": "#f1a15d",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/134761-rkxgE6nDeSqj.jpg",
+      "rating": null
+    },
+    {
+      "id": 93,
+      "relationType": "PREQUEL",
+      "malId": 93,
+      "title": {
+        "romaji": "Kidou Senshi Gundam SEED",
+        "english": "Mobile Suit Gundam Seed",
+        "native": "機動戦士ガンダムSEED",
+        "userPreferred": "Kidou Senshi Gundam SEED"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx93-3b9jdMQjxEFf.png",
+      "color": "#e4930d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/93-KZlqRAri1Os5.jpg",
+      "rating": 72
+    }
+  ],
+  "episodes": [
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-1",
+      "title": "Angry Eyes",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2251/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-1"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-2",
+      "title": "PHASE-02: THOSE WHO CALL FOR WAR",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2252/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-2"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-3",
+      "title": "PHASE-03: WARNING SHOTS",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2253/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-3"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-4",
+      "title": "PHASE-04: STARDUST BATTLEFIELD",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2254/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-4"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-5",
+      "title": "PHASE-05: SCARS THAT WON'T HEAL",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2255/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-5"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-6",
+      "title": "PHASE-06: THE END OF THE WORLD",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2256/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-6"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-7",
+      "title": "PHASE-07: LAND OF CONFUSION",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2257/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-7"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-8",
+      "title": "PHASE-08: JUNCTION",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2258/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-8"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-9",
+      "title": "PHASE-09: BARED FANGS",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2259/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-9"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-10",
+      "title": "PHASE-10: A FATHER'S SPELL",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2260/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-10"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-11",
+      "title": "PHASE-11: THE CHOSEN PATH",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2261/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-11"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-12",
+      "title": "PHASE-12: BLOOD IN THE WATER",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2262/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-12"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-13",
+      "title": "PHASE-13: RESURRECTED WINGS",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2263/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-13"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-14",
+      "title": "PHASE-14: FLIGHT TO TOMORROW",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2264/original.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-14"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-15",
+      "title": "PHASE-15: RETURN TO THE BATTLEFIELD",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2265/original.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-15"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-16",
+      "title": "PHASE-16: STRUGGLE IN THE INDIAN OCEAN",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2266/original.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-16"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-17",
+      "title": "PHASE-17: THE SOLDIER'S LIFE",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2267/original.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-17"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-18",
+      "title": "PHASE-18: ATTACK THE LOHENGRIN",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2268/original.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-18"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-19",
+      "title": "PHASE-19: THE HIDDEN TRUTH",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2269/original.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-19"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-20",
+      "title": "PHASE-20: PAST",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2270/original.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-20"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-21",
+      "title": "PHASE-21: WANDERING EYES",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2271/original.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-21"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-22",
+      "title": "PHASE-22: SWORD OF THE BLUE SKIES",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2272/original.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-22"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-23",
+      "title": "PHASE-23: THE SHADOWS OF WAR",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2273/original.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-23"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-24",
+      "title": "PHASE-24: DIFFERING VIEWS",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2274/original.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-24"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-25",
+      "title": "PHASE-25: THE PLACE OF SIN",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2275/original.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-25"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-26",
+      "title": "PHASE-26: THE PROMISE",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2276/original.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-26"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-27",
+      "title": "PHASE-27: UNFULFILLED FEELINGS",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2277/original.jpg",
+      "number": 27,
+      "createdAt": "2013-02-20T18:20:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-27"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-28",
+      "title": "PHASE-28: SURVIVORS AND SACRIFICES",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2278/original.jpg",
+      "number": 28,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-28"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-29",
+      "title": "PHASE-29: FATES",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2279/original.jpg",
+      "number": 29,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-29"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-30",
+      "title": "PHASE-30: A FLEETING DREAM",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2280/original.jpg",
+      "number": 30,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-30"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-31",
+      "title": "PHASE-31: THE ENDLESS NIGHT",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2281/original.jpg",
+      "number": 31,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-31"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-32",
+      "title": "PHASE-32: STELLA",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2282/original.jpg",
+      "number": 32,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-32"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-33",
+      "title": "PHASE-33: THE WORLD REVEALED",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2283/original.jpg",
+      "number": 33,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-33"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-34",
+      "title": "PHASE-34: NIGHTMARE",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2284/original.jpg",
+      "number": 34,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-34"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-35",
+      "title": "PHASE-35: EVE OF CHAOS",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2285/original.jpg",
+      "number": 35,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-35"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-36",
+      "title": "PHASE-36: ATHRUN ON THE RUN",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2286/original.jpg",
+      "number": 36,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-36"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-37",
+      "title": "PHASE-37: THUNDER IN THE DARK",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2287/original.jpg",
+      "number": 37,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-37"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-38",
+      "title": "PHASE-38: A NEW FLAG",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2288/original.jpg",
+      "number": 38,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-38"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-39",
+      "title": "PHASE-39: KIRA OF THE SKIES",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2289/original.jpg",
+      "number": 39,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-39"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-40",
+      "title": "PHASE-40: LEGACY OF GOLD",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2290/original.jpg",
+      "number": 40,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-40"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-41",
+      "title": "PHASE-41: REFRAIN",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2291/original.jpg",
+      "number": 41,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-41"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-42",
+      "title": "PHASE-42: FREEDOM AND JUSTICE",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2292/original.jpg",
+      "number": 42,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-42"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-43",
+      "title": "PHASE-43: A CALL FOR COUNTERATTACK",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2293/original.jpg",
+      "number": 43,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-43"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-44",
+      "title": "PHASE-44: LACUS TIMES TWO",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2294/original.jpg",
+      "number": 44,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-44"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-45",
+      "title": "PHASE-45: PRELUDE TO REVOLUTION",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2295/original.jpg",
+      "number": 45,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-45"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-46",
+      "title": "PHASE-46: THE SONG OF TRUTH",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2296/original.jpg",
+      "number": 46,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-46"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-47",
+      "title": "PHASE-47: MEER",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2297/original.jpg",
+      "number": 47,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-47"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-48",
+      "title": "PHASE-48: TO A NEW WORLD",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2298/original.jpg",
+      "number": 48,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-48"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-49",
+      "title": "PHASE-49: REY",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2299/original.jpg",
+      "number": 49,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-49"
+    },
+    {
+      "id": "mobile-suit-gundam-seed-destiny-episode-50",
+      "title": "PHASE-50: THE FINAL POWER",
+      "image": "https://media.kitsu.io/episodes/thumbnails/2300/original.jpg",
+      "number": 50,
+      "createdAt": "2013-02-20T18:20:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mobile-suit-gundam-seed-destiny-episode-50"
+    }
+  ]
+}

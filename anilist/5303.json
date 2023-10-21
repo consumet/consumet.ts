@@ -1,0 +1,143 @@
+{
+  "id": "5303",
+  "title": {
+    "romaji": "Xabungle Graffiti",
+    "english": "Xabungle Graffiti",
+    "native": "ザブングルグラフィティ"
+  },
+  "malId": 5303,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5303-yiVmUCm5D5ZZ.jpg",
+  "popularity": 379,
+  "color": "#f1a150",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5303-ksxt9yMvQylj.jpg",
+  "description": "A movie recapping the events of the Xabungle TV series.",
+  "status": "Completed",
+  "releaseDate": 1983,
+  "startDate": {
+    "year": 1983,
+    "month": 7,
+    "day": 9
+  },
+  "endDate": {
+    "year": 1983,
+    "month": 7,
+    "day": 9
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 48,
+  "duration": 84,
+  "genres": [
+    "Mecha"
+  ],
+  "season": "SUMMER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 38885,
+      "role": "MAIN",
+      "name": {
+        "first": "Jiron",
+        "last": "Amos",
+        "full": "Jiron Amos",
+        "native": "ジロン・アモス",
+        "userPreferred": "Jiron Amos"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38885.jpg",
+      "voiceActors": [
+        {
+          "id": 104080,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinya",
+            "last": "Ootaki",
+            "full": "Shinya Ootaki",
+            "native": "大滝進矢",
+            "userPreferred": "Shinya Ootaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9080.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40203,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Timp",
+        "last": "Sharon",
+        "full": "Timp Sharon",
+        "native": "ティンプ・シャローン",
+        "userPreferred": "Timp Sharon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b40203-ASGKUODlXXZl.png",
+      "voiceActors": [
+        {
+          "id": 95330,
+          "language": "Japanese",
+          "name": {
+            "first": "Banjou",
+            "last": "Ginga",
+            "full": "Banjou Ginga",
+            "native": "銀河万丈",
+            "userPreferred": "Banjou Ginga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95330-PHDm9uDhKAsT.png"
+        }
+      ]
+    },
+    {
+      "id": 40209,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fatman",
+        "last": "Big",
+        "full": "Fatman Big",
+        "native": "ファットマン・ビッグ",
+        "userPreferred": "Fatman Big"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40209.jpg",
+      "voiceActors": [
+        {
+          "id": 95330,
+          "language": "Japanese",
+          "name": {
+            "first": "Banjou",
+            "last": "Ginga",
+            "full": "Banjou Ginga",
+            "native": "銀河万丈",
+            "userPreferred": "Banjou Ginga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95330-PHDm9uDhKAsT.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 2254,
+      "relationType": "PARENT",
+      "malId": 2254,
+      "title": {
+        "romaji": "Sentou Mecha Xabungle",
+        "english": "Blue Gale Xabungle",
+        "native": "戦闘メカザブングル",
+        "userPreferred": "Sentou Mecha Xabungle"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx2254-Q767RO4R54pf.jpg",
+      "color": "#f1ae5d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2254-0goCw60bwvAi.jpg",
+      "rating": 69
+    }
+  ],
+  "episodes": []
+}

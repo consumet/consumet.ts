@@ -1,0 +1,896 @@
+{
+  "id": "10521",
+  "title": {
+    "romaji": "Working'!!",
+    "english": "Wagnaria!! 2",
+    "native": "Working'!!"
+  },
+  "malId": 10521,
+  "synonyms": [
+    "ワーキング’!!",
+    "Working!! 2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10521-dx9L5dLNJXun.jpg",
+  "popularity": 43874,
+  "color": "#fea150",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10521-DmsoEtDbMAc6.jpg",
+  "description": "Life goes on at the Wagnaria family restaurant as its peculiar employees try to provide a good service despite their individual eccentricities.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2011,
+  "startDate": {
+    "year": 2011,
+    "month": 10,
+    "day": 1
+  },
+  "endDate": {
+    "year": 2011,
+    "month": 12,
+    "day": 24
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 76,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [
+    "A-1 Pictures"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 99578,
+      "malId": 35968,
+      "title": {
+        "romaji": "Wotaku ni Koi wa Muzukashii",
+        "english": "Wotakoi: Love is Hard for Otaku",
+        "native": "ヲタクに恋は難しい",
+        "userPreferred": "Wotaku ni Koi wa Muzukashii"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99578-oO5KChtfhzln.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99578-8orFGgDq7NS8.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 97994,
+      "malId": 34618,
+      "title": {
+        "romaji": "Blend S",
+        "english": "BLEND-S",
+        "native": "ブレンド・S",
+        "userPreferred": "Blend S"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97994-5k4ISEsvDl5x.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97994-3JZ05K3Idjco.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 18119,
+      "malId": 18119,
+      "title": {
+        "romaji": "Servant x Service",
+        "english": "Servant x Service",
+        "native": "サーバント×サービス",
+        "userPreferred": "Servant x Service"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18119-L4l1JsqrzATj.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18119-E1t5vS9XHovZ.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 13759,
+      "malId": 13759,
+      "title": {
+        "romaji": "Sakurasou no Pet na Kanojo",
+        "english": "The Pet Girl of Sakurasou",
+        "native": "さくら荘のペットな彼女",
+        "userPreferred": "Sakurasou no Pet na Kanojo"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13759-44TVZe8xNOJx.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n13759-nBjdu6f8aLbz.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 151252,
+      "malId": 52173,
+      "title": {
+        "romaji": "Koori Zokusei Danshi to Cool na Douryou Joshi",
+        "english": "The Ice Guy and His Cool Female Colleague",
+        "native": "氷属性男子とクールな同僚女子",
+        "userPreferred": "Koori Zokusei Danshi to Cool na Douryou Joshi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151252-ywrMmJG1Loc3.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/151252-8bTZKJBAzgMR.jpg",
+      "rating": 72,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 24418,
+      "role": "MAIN",
+      "name": {
+        "first": "Souta",
+        "last": "Takanashi",
+        "full": "Souta Takanashi",
+        "native": "小鳥遊 宗太",
+        "userPreferred": "Souta Takanashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b24418-HdBfdTzCL3yE.jpg",
+      "voiceActors": [
+        {
+          "id": 95086,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukuyama",
+            "full": "Jun Fukuyama",
+            "native": "福山潤",
+            "userPreferred": "Jun Fukuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95086-cwKYmhOFNtH5.png"
+        }
+      ]
+    },
+    {
+      "id": 24420,
+      "role": "MAIN",
+      "name": {
+        "first": "Kyouko",
+        "last": "Shirafuji",
+        "full": "Kyouko Shirafuji",
+        "native": "白藤 杏子",
+        "userPreferred": "Kyouko Shirafuji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24420.jpg",
+      "voiceActors": [
+        {
+          "id": 95248,
+          "language": "Japanese",
+          "name": {
+            "first": "Kumiko",
+            "last": "Watanabe",
+            "full": "Kumiko Watanabe",
+            "native": "渡辺久美子",
+            "userPreferred": "Kumiko Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95248-UzMyBDiMD7LM.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24417,
+      "role": "MAIN",
+      "name": {
+        "first": "Popura",
+        "last": "Taneshima",
+        "full": "Popura Taneshima",
+        "native": "種島ぽぷら",
+        "userPreferred": "Popura Taneshima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24417.jpg",
+      "voiceActors": [
+        {
+          "id": 95817,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Asumi",
+            "full": "Kana Asumi",
+            "native": "阿澄佳奈",
+            "userPreferred": "Kana Asumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95817-UHqRZ5xuSJgW.png"
+        }
+      ]
+    },
+    {
+      "id": 32292,
+      "role": "MAIN",
+      "name": {
+        "first": "Aoi",
+        "last": "Yamada",
+        "full": "Aoi Yamada",
+        "native": "山田 葵",
+        "userPreferred": "Aoi Yamada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b32292-hSQxD35opKu2.jpg",
+      "voiceActors": [
+        {
+          "id": 95111,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryou",
+            "last": "Hirohashi",
+            "full": "Ryou Hirohashi",
+            "native": "広橋涼",
+            "userPreferred": "Ryou Hirohashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95111-iw76EbsupYkS.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30686,
+      "role": "MAIN",
+      "name": {
+        "first": "Hiroomi",
+        "last": "Souma",
+        "full": "Hiroomi Souma",
+        "native": "相馬博臣",
+        "userPreferred": "Hiroomi Souma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30686.jpg",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        }
+      ]
+    },
+    {
+      "id": 30905,
+      "role": "MAIN",
+      "name": {
+        "first": "Yachiyo",
+        "last": "Todoroki",
+        "full": "Yachiyo Todoroki",
+        "native": "轟 八千代",
+        "userPreferred": "Yachiyo Todoroki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30905.jpg",
+      "voiceActors": [
+        {
+          "id": 95413,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Kitamura",
+            "full": "Eri Kitamura",
+            "native": "喜多村英梨",
+            "userPreferred": "Eri Kitamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95413-FwAIrc8Ishpt.png"
+        }
+      ]
+    },
+    {
+      "id": 30685,
+      "role": "MAIN",
+      "name": {
+        "first": "Jun",
+        "last": "Satou",
+        "full": "Jun Satou",
+        "native": "佐藤 潤",
+        "userPreferred": "Jun Satou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30685.jpg",
+      "voiceActors": [
+        {
+          "id": 95212,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Ono",
+            "full": "Daisuke Ono",
+            "native": "小野大輔",
+            "userPreferred": "Daisuke Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95212-wX1M4LJN96q2.png"
+        }
+      ]
+    },
+    {
+      "id": 24419,
+      "role": "MAIN",
+      "name": {
+        "first": "Mahiru",
+        "last": "Inami",
+        "full": "Mahiru Inami",
+        "native": "伊波まひる",
+        "userPreferred": "Mahiru Inami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b24419-bw1EMn37MMlf.png",
+      "voiceActors": [
+        {
+          "id": 95504,
+          "language": "Japanese",
+          "name": {
+            "first": "Saki",
+            "last": "Fujita",
+            "full": "Saki Fujita",
+            "native": "藤田咲",
+            "userPreferred": "Saki Fujita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95504-pDIKpd8t2EYU.png"
+        }
+      ]
+    },
+    {
+      "id": 54369,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ritsuko",
+        "last": "Kitahara",
+        "full": "Ritsuko Kitahara",
+        "native": "北原律子",
+        "userPreferred": "Ritsuko Kitahara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/54369.jpg",
+      "voiceActors": [
+        {
+          "id": 95048,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumie",
+            "last": "Mizusawa",
+            "full": "Fumie Mizusawa",
+            "native": "水沢史絵",
+            "userPreferred": "Fumie Mizusawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95048-JO5aLRIedGxl.jpg"
+        }
+      ]
+    },
+    {
+      "id": 51755,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kirio",
+        "last": "Yamada",
+        "full": "Kirio Yamada",
+        "native": "山田 桐生",
+        "userPreferred": "Kirio Yamada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/51755.jpg",
+      "voiceActors": [
+        {
+          "id": 95245,
+          "language": "Japanese",
+          "name": {
+            "first": "Satoshi",
+            "last": "Hino",
+            "full": "Satoshi Hino",
+            "native": "日野聡",
+            "userPreferred": "Satoshi Hino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95245-prBoWpg0HaGX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43776,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Youhei",
+        "last": "Mashiba",
+        "full": "Youhei Mashiba",
+        "native": "真柴 陽平",
+        "userPreferred": "Youhei Mashiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43776.jpg",
+      "voiceActors": [
+        {
+          "id": 95513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Nakamura",
+            "full": "Yuuichi Nakamura",
+            "native": "中村悠一",
+            "userPreferred": "Yuuichi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95513-up9ZDuocHgRs.png"
+        }
+      ]
+    },
+    {
+      "id": 32294,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hyougo",
+        "last": "Otoo",
+        "full": "Hyougo Otoo",
+        "native": "音尾兵吾",
+        "userPreferred": "Hyougo Otoo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32294-i5e8kTT6WiMg.jpg",
+      "voiceActors": [
+        {
+          "id": 95091,
+          "language": "Japanese",
+          "name": {
+            "first": "Jouji",
+            "last": "Nakata",
+            "full": "Jouji Nakata",
+            "native": "中田譲治",
+            "userPreferred": "Jouji Nakata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95091-idoMaN26z80B.png"
+        }
+      ]
+    },
+    {
+      "id": 50931,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haruna",
+        "last": "Otoo",
+        "full": "Haruna Otoo",
+        "native": "音尾春菜",
+        "userPreferred": "Haruna Otoo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/50931.jpg",
+      "voiceActors": [
+        {
+          "id": 95289,
+          "language": "Japanese",
+          "name": {
+            "first": "Junko",
+            "last": "Iwao",
+            "full": "Junko Iwao",
+            "native": "岩男潤子",
+            "userPreferred": "Junko Iwao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95289-B5RApCeWP4xk.png"
+        }
+      ]
+    },
+    {
+      "id": 44259,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mitsuki",
+        "last": "Mashiba",
+        "full": "Mitsuki Mashiba",
+        "native": "真柴 美月",
+        "userPreferred": "Mitsuki Mashiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44259.jpg",
+      "voiceActors": [
+        {
+          "id": 95890,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Tomatsu",
+            "full": "Haruka Tomatsu",
+            "native": "戸松遥",
+            "userPreferred": "Haruka Tomatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95890-pDWHkOm4ncq0.png"
+        }
+      ]
+    },
+    {
+      "id": 30908,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kozue",
+        "last": "Takanashi",
+        "full": "Kozue Takanashi",
+        "native": "小鳥遊 梢",
+        "userPreferred": "Kozue Takanashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30908.jpg",
+      "voiceActors": [
+        {
+          "id": 95093,
+          "language": "Japanese",
+          "name": {
+            "first": "Shizuka",
+            "last": "Itou",
+            "full": "Shizuka Itou",
+            "native": "伊藤静",
+            "userPreferred": "Shizuka Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95093-MApaH7qqtmVN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32809,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Inami Haha",
+        "last": "",
+        "full": "Inami Haha",
+        "native": "伊波母",
+        "userPreferred": "Inami Haha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b32809-zpNtkmijgWH3.png",
+      "voiceActors": [
+        {
+          "id": 95328,
+          "language": "Japanese",
+          "name": {
+            "first": "Masami",
+            "last": "Suzuki",
+            "full": "Masami Suzuki",
+            "native": "鈴木真仁",
+            "userPreferred": "Masami Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95328-nioVHwumOVow.png"
+        }
+      ]
+    },
+    {
+      "id": 32299,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Maya",
+        "last": "Matsumoto",
+        "full": "Maya Matsumoto",
+        "native": "松本 麻耶",
+        "userPreferred": "Maya Matsumoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32299.jpg",
+      "voiceActors": [
+        {
+          "id": 96465,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Kawase",
+            "full": "Akiko Kawase",
+            "native": "川瀬晶子",
+            "userPreferred": "Akiko Kawase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1465.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30907,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kazue",
+        "last": "Takanashi",
+        "full": "Kazue Takanashi",
+        "native": "小鳥遊一枝",
+        "userPreferred": "Kazue Takanashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b30907-uBjhnrt7KxF7.png",
+      "voiceActors": [
+        {
+          "id": 95348,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shiraishi",
+            "full": "Ryouko Shiraishi",
+            "native": "白石涼子",
+            "userPreferred": "Ryouko Shiraishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95348-sLIy7IMrgZeA.png"
+        }
+      ]
+    },
+    {
+      "id": 30906,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Izumi",
+        "last": "Takanashi",
+        "full": "Izumi Takanashi",
+        "native": "小鳥遊 泉",
+        "userPreferred": "Izumi Takanashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b30906-ZpakFcNwXYGn.jpg",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 54371,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Momoka",
+        "last": "Suzutani",
+        "full": "Momoka Suzutani",
+        "native": "鈴谷桃香",
+        "userPreferred": "Momoka Suzutani"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/54371.jpg",
+      "voiceActors": [
+        {
+          "id": 95380,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayuri",
+            "last": "Yahagi",
+            "full": "Sayuri Yahagi",
+            "native": "矢作紗友里",
+            "userPreferred": "Sayuri Yahagi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95380-mOdqKPb6xYnI.png"
+        }
+      ]
+    },
+    {
+      "id": 54373,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "CU Clerk",
+        "last": null,
+        "full": "CU Clerk",
+        "native": null,
+        "userPreferred": "CU Clerk"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/54373.jpg",
+      "voiceActors": [
+        {
+          "id": 106784,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Uchiyama",
+            "full": "Yumi Uchiyama",
+            "native": "内山夕実",
+            "userPreferred": "Yumi Uchiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106784-reDoHBLWxi7J.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30909,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nazuna",
+        "last": "Takanashi",
+        "full": "Nazuna Takanashi",
+        "native": "小鳥遊 なずな",
+        "userPreferred": "Nazuna Takanashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b30909-3fxIMxPRuVSB.png",
+      "voiceActors": [
+        {
+          "id": 95172,
+          "language": "Japanese",
+          "name": {
+            "first": "Momoko",
+            "last": "Saitou",
+            "full": "Momoko Saitou",
+            "native": "斎藤桃子",
+            "userPreferred": "Momoko Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/172.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 6956,
+      "relationType": "PREQUEL",
+      "malId": 6956,
+      "title": {
+        "romaji": "Working!!",
+        "english": "Wagnaria!!",
+        "native": "Working!!",
+        "userPreferred": "Working!!"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6956-Nxs7H25yHLNS.jpg",
+      "color": "#e49350",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6956-V7ovHknjKRlc.jpg",
+      "rating": 74
+    },
+    {
+      "id": 33044,
+      "relationType": "ADAPTATION",
+      "malId": 3044,
+      "title": {
+        "romaji": "WORKING!!",
+        "english": null,
+        "native": "WORKING!!",
+        "userPreferred": "WORKING!!"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx33044-LMTD1o9jcPSD.png",
+      "color": "#e4501a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx33044-LMTD1o9jcPSD.png",
+      "rating": 76
+    },
+    {
+      "id": 20819,
+      "relationType": "SEQUEL",
+      "malId": 25879,
+      "title": {
+        "romaji": "Working!!!",
+        "english": "Wagnaria!!3",
+        "native": "Working!!!",
+        "userPreferred": "Working!!!"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20819-w8PLekO22Sc8.jpg",
+      "color": "#e4bb50",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20819-c6rR4iliUOSB.jpg",
+      "rating": 78
+    },
+    {
+      "id": 10532,
+      "relationType": "OTHER",
+      "malId": 10532,
+      "title": {
+        "romaji": "Working'!! Announcement Specials",
+        "english": "Wagnaria'!! Announcement Specials",
+        "native": "ワーキング!!",
+        "userPreferred": "Working'!! Announcement Specials"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10532.jpg",
+      "color": null,
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10532.jpg",
+      "rating": 63
+    }
+  ],
+  "episodes": [
+    {
+      "id": "-working-season-2-episode-1",
+      "title": "A Poplar's Pride",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94048/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-working-season-2-episode-1"
+    },
+    {
+      "id": "-working-season-2-episode-2",
+      "title": "The Ideal Family Plan",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94049/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-working-season-2-episode-2"
+    },
+    {
+      "id": "-working-season-2-episode-3",
+      "title": "The Reason Behind the Slump",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94050/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-working-season-2-episode-3"
+    },
+    {
+      "id": "-working-season-2-episode-4",
+      "title": "Manhole Spiral",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94051/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-working-season-2-episode-4"
+    },
+    {
+      "id": "-working-season-2-episode-5",
+      "title": "Wagnaria's Big Stomach",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94052/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-working-season-2-episode-5"
+    },
+    {
+      "id": "-working-season-2-episode-6",
+      "title": "Hired, Fired, Tired",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94053/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-working-season-2-episode-6"
+    },
+    {
+      "id": "-working-season-2-episode-7",
+      "title": "Bad Tuning of Love",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94054/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-working-season-2-episode-7"
+    },
+    {
+      "id": "-working-season-2-episode-8",
+      "title": "Oh, My Sister",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94055/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-working-season-2-episode-8"
+    },
+    {
+      "id": "-working-season-2-episode-9",
+      "title": "Love Is So Global",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94056/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-working-season-2-episode-9"
+    },
+    {
+      "id": "-working-season-2-episode-10",
+      "title": "Cell Phone, No Problem",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94057/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-working-season-2-episode-10"
+    },
+    {
+      "id": "-working-season-2-episode-11",
+      "title": "It's Resolve, Is That a Problem?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94058/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-working-season-2-episode-11"
+    },
+    {
+      "id": "-working-season-2-episode-12",
+      "title": "Daisy Dies",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94059/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-working-season-2-episode-12"
+    },
+    {
+      "id": "-working-season-2-episode-13",
+      "title": "Farewell, Popura",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94060/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-working-season-2-episode-13"
+    }
+  ]
+}

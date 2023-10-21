@@ -1,0 +1,532 @@
+{
+  "id": "18523",
+  "title": {
+    "romaji": "Senyuu. 2",
+    "english": null,
+    "native": "戦勇. 2"
+  },
+  "malId": 18523,
+  "synonyms": [
+    "Senyu. 2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18523-c0Qw0GbwGJvh.jpg",
+  "popularity": 11265,
+  "color": "#d6c91a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18523.jpg",
+  "description": "Second season of Senyuu.",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 7,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 9,
+    "day": 25
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 71,
+  "duration": 6,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Ordet",
+    "LIDENFILMS"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 71291,
+      "role": "MAIN",
+      "name": {
+        "first": "Alba",
+        "last": "Frühling",
+        "full": "Alba Frühling",
+        "native": "アルバ・フリューリング",
+        "userPreferred": "Alba Frühling"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b71291-TA9yynOWzpW9.png",
+      "voiceActors": [
+        {
+          "id": 95356,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiro",
+            "last": "Shimono",
+            "full": "Hiro Shimono",
+            "native": "下野紘",
+            "userPreferred": "Hiro Shimono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95356-PFaZRlI9oJ56.png"
+        }
+      ]
+    },
+    {
+      "id": 71293,
+      "role": "MAIN",
+      "name": {
+        "first": "Ross",
+        "last": null,
+        "full": "Ross",
+        "native": "ロス",
+        "userPreferred": "Ross"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/71293.jpg",
+      "voiceActors": [
+        {
+          "id": 95513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Nakamura",
+            "full": "Yuuichi Nakamura",
+            "native": "中村悠一",
+            "userPreferred": "Yuuichi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95513-up9ZDuocHgRs.png"
+        }
+      ]
+    },
+    {
+      "id": 76904,
+      "role": "MAIN",
+      "name": {
+        "first": "Ruki",
+        "last": null,
+        "full": "Ruki",
+        "native": "ルキ",
+        "userPreferred": "Ruki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b76904-2G06j8qB4hnV.jpg",
+      "voiceActors": [
+        {
+          "id": 105765,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Kayano",
+            "full": "Ai Kayano",
+            "native": "茅野愛衣",
+            "userPreferred": "Ai Kayano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105765-DDK94me8axVv.png"
+        }
+      ]
+    },
+    {
+      "id": 76900,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rudolf",
+        "last": null,
+        "full": "Rudolf",
+        "native": "ルドルフ",
+        "userPreferred": "Rudolf"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/76900.jpg",
+      "voiceActors": [
+        {
+          "id": 95091,
+          "language": "Japanese",
+          "name": {
+            "first": "Jouji",
+            "last": "Nakata",
+            "full": "Jouji Nakata",
+            "native": "中田譲治",
+            "userPreferred": "Jouji Nakata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95091-idoMaN26z80B.png"
+        }
+      ]
+    },
+    {
+      "id": 77667,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mother",
+        "last": "Alba",
+        "full": "Mother Alba",
+        "native": "アルバのお母さん",
+        "userPreferred": "Mother Alba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77667.jpg",
+      "voiceActors": [
+        {
+          "id": 95425,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumi",
+            "last": "Shimamoto",
+            "full": "Sumi Shimamoto",
+            "native": "島本須美",
+            "userPreferred": "Sumi Shimamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95425-wEl09IWpLxIA.png"
+        }
+      ]
+    },
+    {
+      "id": 80231,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dezember",
+        "last": "Zwolf",
+        "full": "Dezember Zwolf",
+        "native": "ディツェンバー・ツヴォルフ",
+        "userPreferred": "Dezember Zwolf"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/80231.jpg",
+      "voiceActors": [
+        {
+          "id": 95829,
+          "language": "Japanese",
+          "name": {
+            "first": "Takayuki",
+            "last": "Kondou",
+            "full": "Takayuki Kondou",
+            "native": "近藤孝行",
+            "userPreferred": "Takayuki Kondou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/829.jpg"
+        }
+      ]
+    },
+    {
+      "id": 78941,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ares",
+        "last": null,
+        "full": "Ares",
+        "native": "アレス",
+        "userPreferred": "Ares"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/78941.jpg",
+      "voiceActors": [
+        {
+          "id": 106784,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Uchiyama",
+            "full": "Yumi Uchiyama",
+            "native": "内山夕実",
+            "userPreferred": "Yumi Uchiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106784-reDoHBLWxi7J.jpg"
+        }
+      ]
+    },
+    {
+      "id": 78943,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hime-chan",
+        "last": null,
+        "full": "Hime-chan",
+        "native": "ヒメちゃん",
+        "userPreferred": "Hime-chan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/78943.jpg",
+      "voiceActors": [
+        {
+          "id": 95052,
+          "language": "Japanese",
+          "name": {
+            "first": "Emiri",
+            "last": "Katou",
+            "full": "Emiri Katou",
+            "native": "加藤英美里",
+            "userPreferred": "Emiri Katou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95052-OhSpZ8tqM3KY.png"
+        }
+      ]
+    },
+    {
+      "id": 80229,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Michelajul",
+        "last": "Lortelia",
+        "full": "Michelajul Lortelia",
+        "native": "ミーちゃん",
+        "userPreferred": "Michelajul Lortelia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/80229.jpg",
+      "voiceActors": [
+        {
+          "id": 95926,
+          "language": "Japanese",
+          "name": {
+            "first": "Youji",
+            "last": "Ueda",
+            "full": "Youji Ueda",
+            "native": "上田燿司",
+            "userPreferred": "Youji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95926-IzwXTUF5tUJD.png"
+        }
+      ]
+    },
+    {
+      "id": 77487,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Januar",
+        "last": "Ein",
+        "full": "Januar Ein",
+        "native": "ヤヌア・アイン",
+        "userPreferred": "Januar Ein"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77487.jpg",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 80777,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Februar",
+        "last": "Zwei",
+        "full": "Februar Zwei",
+        "native": "フェブルアール・ツヴァイ",
+        "userPreferred": "Februar Zwei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/80777.jpg",
+      "voiceActors": [
+        {
+          "id": 95671,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Terasaki",
+            "full": "Yuka Terasaki",
+            "native": "寺崎裕香",
+            "userPreferred": "Yuka Terasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95671-iXGq2oxE1DlW.png"
+        }
+      ]
+    },
+    {
+      "id": 80903,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Samejima",
+        "last": null,
+        "full": "Samejima",
+        "native": "鮫島",
+        "userPreferred": "Samejima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b80903-RN4yvXaXm4V3.jpg",
+      "voiceActors": [
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        }
+      ]
+    },
+    {
+      "id": 187245,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Juli ",
+        "last": "Sieben",
+        "full": "Juli  Sieben",
+        "native": "ユーリ・ジーベン ",
+        "userPreferred": "Juli  Sieben"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b187245-ZqEJtMZKEqls.jpg",
+      "voiceActors": [
+        {
+          "id": 95278,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Sakaguchi",
+            "full": "Daisuke Sakaguchi",
+            "native": "阪口大助",
+            "userPreferred": "Daisuke Sakaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95278-IrUPhIvJCsF9.png"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 95091,
+          "language": "Japanese",
+          "name": {
+            "first": "Jouji",
+            "last": "Nakata",
+            "full": "Jouji Nakata",
+            "native": "中田譲治",
+            "userPreferred": "Jouji Nakata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95091-idoMaN26z80B.png"
+        }
+      ]
+    },
+    {
+      "id": 187249,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "November",
+        "last": "Elf",
+        "full": "November Elf",
+        "native": "エルフ・ノベンバー ",
+        "userPreferred": "November Elf"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b187249-TkZaCjaerzrM.png",
+      "voiceActors": [
+        {
+          "id": 95521,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Okamoto",
+            "full": "Hiroshi Okamoto",
+            "native": "岡本寛志",
+            "userPreferred": "Hiroshi Okamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95521-KfqomPkcPmfl.jpg"
+        }
+      ]
+    },
+    {
+      "id": 76902,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Foifoi",
+        "last": null,
+        "full": "Foifoi",
+        "native": "フォイフォイ",
+        "userPreferred": "Foifoi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/76902.jpg",
+      "voiceActors": [
+        {
+          "id": 95005,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Suzumura",
+            "full": "Kenichi Suzumura",
+            "native": "鈴村健一",
+            "userPreferred": "Kenichi Suzumura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95005-SkoVN02iOglr.png"
+        }
+      ]
+    },
+    {
+      "id": 187248,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rukimedes",
+        "last": "Shodai",
+        "full": "Rukimedes Shodai",
+        "native": "初代ルキメデス",
+        "userPreferred": "Rukimedes Shodai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b187248-6lDhkjctFTjh.png",
+      "voiceActors": [
+        {
+          "id": 106629,
+          "language": "Japanese",
+          "name": {
+            "first": "Seirou",
+            "last": "Ogino",
+            "full": "Seirou Ogino",
+            "native": "荻野晴朗",
+            "userPreferred": "Seirou Ogino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106629-TT3F7WfC3wLq.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 15751,
+      "relationType": "PREQUEL",
+      "malId": 15751,
+      "title": {
+        "romaji": "Senyuu.",
+        "english": "Senyuu",
+        "native": "戦勇.",
+        "userPreferred": "Senyuu."
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15751-ozQ3AyCfaUgJ.jpg",
+      "color": "#e4bb50",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15751.jpg",
+      "rating": 69
+    },
+    {
+      "id": 117896,
+      "relationType": "ADAPTATION",
+      "malId": null,
+      "title": {
+        "romaji": "Senyuu.",
+        "english": null,
+        "native": "战勇。",
+        "userPreferred": "Senyuu."
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b117896-flCJdMXJuJU0.png",
+      "color": "#e45035",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b117896-flCJdMXJuJU0.png",
+      "rating": 84
+    }
+  ],
+  "episodes": []
+}

@@ -1,0 +1,797 @@
+{
+  "id": "8740",
+  "title": {
+    "romaji": "ONE PIECE FILM: STRONG WORLD - EPISODE:0",
+    "english": null,
+    "native": "ONE PIECE FILM STRONG WORLD EPISODE:0"
+  },
+  "malId": 8740,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8740-oZajT3brPn7b.jpg",
+  "popularity": 13974,
+  "color": "#e493a1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8740-MlFelJndh6Yr.png",
+  "description": "Set over 20 years prior to the main One Piece story, this limited release OVA chronicles the confrontation between Gold Lion Shiki and Gold Roger as well as other events around the world around the time of the Pirate King's execution. ",
+  "status": "Completed",
+  "releaseDate": 2010,
+  "startDate": {
+    "year": 2010,
+    "month": 4,
+    "day": 16
+  },
+  "endDate": {
+    "year": 2010,
+    "month": 4,
+    "day": 16
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 76,
+  "duration": 18,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 21880,
+      "malId": 33606,
+      "title": {
+        "romaji": "ONE PIECE FILM: GOLD - episode 0 711ver.",
+        "english": null,
+        "native": "ONE PIECE FILM GOLD 〜episode 0〜 711ver.",
+        "userPreferred": "ONE PIECE FILM: GOLD - episode 0 711ver."
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21880-uxsZ880LXSdY.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21880-9gGzVvnzqiNA.jpg",
+      "rating": 70,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 16468,
+      "malId": 16468,
+      "title": {
+        "romaji": "ONE PIECE FILM: Z - GLORIOUS ISLAND",
+        "english": null,
+        "native": "ONE PIECE FILM Z『GLORIOUS ISLAND』",
+        "userPreferred": "ONE PIECE FILM: Z - GLORIOUS ISLAND"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b16468-pMKFwfY8lYZX.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n16468-yOxhsBHFICtu.jpg",
+      "rating": 69,
+      "type": "SPECIAL"
+    }
+  ],
+  "characters": [
+    {
+      "id": 40,
+      "role": "MAIN",
+      "name": {
+        "first": "Luffy",
+        "last": "Monkey",
+        "full": "Luffy Monkey",
+        "native": "モンキー・D・ルフィ",
+        "userPreferred": "Luffy D. Monkey"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b40-q0YepZ4VUZUO.png",
+      "voiceActors": [
+        {
+          "id": 95075,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayumi",
+            "last": "Tanaka",
+            "full": "Mayumi Tanaka",
+            "native": "田中真弓",
+            "userPreferred": "Mayumi Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95075-1qD4TeW1ON92.png"
+        }
+      ]
+    },
+    {
+      "id": 4883,
+      "role": "MAIN",
+      "name": {
+        "first": "Roger",
+        "last": "Gold",
+        "full": "Roger Gold",
+        "native": "ゴールド・ロジャー",
+        "userPreferred": "Roger Gold"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4883-0t76xH00sehO.png",
+      "voiceActors": [
+        {
+          "id": 95974,
+          "language": "Japanese",
+          "name": {
+            "first": "Chikao",
+            "last": "Ootsuka",
+            "full": "Chikao Ootsuka",
+            "native": "大塚周夫",
+            "userPreferred": "Chikao Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95974-SvJQqqEApoSf.png"
+        }
+      ]
+    },
+    {
+      "id": 23677,
+      "role": "MAIN",
+      "name": {
+        "first": "Shiki",
+        "last": null,
+        "full": "Shiki",
+        "native": "シキ",
+        "userPreferred": "Shiki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23677.jpg",
+      "voiceActors": [
+        {
+          "id": 103631,
+          "language": "Japanese",
+          "name": {
+            "first": "Naoto",
+            "last": "Takenaka",
+            "full": "Naoto Takenaka",
+            "native": "竹中直人",
+            "userPreferred": "Naoto Takenaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103631-OL6vuS65q6Sv.png"
+        }
+      ]
+    },
+    {
+      "id": 4889,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hatchan",
+        "last": null,
+        "full": "Hatchan",
+        "native": "はっちゃん",
+        "userPreferred": "Hatchan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4889.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 32881,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Indigo",
+        "last": null,
+        "full": "Indigo",
+        "native": "インディゴ",
+        "userPreferred": "Indigo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32881.jpg",
+      "voiceActors": [
+        {
+          "id": 95259,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryuusei",
+            "last": "Nakao",
+            "full": "Ryuusei Nakao",
+            "native": "中尾隆聖",
+            "userPreferred": "Ryuusei Nakao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95259-A1sNVqfD2MWp.png"
+        }
+      ]
+    },
+    {
+      "id": 22443,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Oimo",
+        "last": null,
+        "full": "Oimo",
+        "native": "オイモ",
+        "userPreferred": "Oimo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22443.jpg",
+      "voiceActors": [
+        {
+          "id": 95521,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Okamoto",
+            "full": "Hiroshi Okamoto",
+            "native": "岡本寛志",
+            "userPreferred": "Hiroshi Okamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95521-KfqomPkcPmfl.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22618,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Magellan",
+        "last": null,
+        "full": "Magellan",
+        "native": "マゼラン",
+        "userPreferred": "Magellan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b22618-ki6mxLc2f9Tm.png",
+      "voiceActors": [
+        {
+          "id": 95945,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuaki",
+            "last": "Hoshino",
+            "full": "Mitsuaki Hoshino",
+            "native": "星野充昭",
+            "userPreferred": "Mitsuaki Hoshino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95945-SnY7HVDqchdI.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24010,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Momonga",
+        "last": null,
+        "full": "Momonga",
+        "native": "モモンガ",
+        "userPreferred": "Momonga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24010.jpg",
+      "voiceActors": [
+        {
+          "id": 96521,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Oota",
+            "full": "Shinichirou Oota",
+            "native": "太田真一郎",
+            "userPreferred": "Shinichirou Oota"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96521-a6Ki3JTYmII0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22676,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tom",
+        "last": null,
+        "full": "Tom",
+        "native": "トム",
+        "userPreferred": "Tom"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22676.jpg",
+      "voiceActors": [
+        {
+          "id": 102952,
+          "language": "Japanese",
+          "name": {
+            "first": "Yasuo",
+            "last": "Muramatsu",
+            "full": "Yasuo Muramatsu",
+            "native": "村松康雄",
+            "userPreferred": "Yasuo Muramatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7952.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20946,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sandersonia",
+        "last": "Boa",
+        "full": "Sandersonia Boa",
+        "native": "ボア・サンダーソニア",
+        "userPreferred": "Sandersonia Boa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20946-yJBKvKS78f8H.png",
+      "voiceActors": [
+        {
+          "id": 95272,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Kaneda",
+            "full": "Tomoko Kaneda",
+            "native": "金田朋子",
+            "userPreferred": "Tomoko Kaneda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95272-qfGnqI0gkKK5.png"
+        }
+      ]
+    },
+    {
+      "id": 21366,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Crocus",
+        "last": null,
+        "full": "Crocus",
+        "native": "クロッカス",
+        "userPreferred": "Crocus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21366.jpg",
+      "voiceActors": [
+        {
+          "id": 95528,
+          "language": "Japanese",
+          "name": {
+            "first": "Gorou",
+            "last": "Naya",
+            "full": "Gorou Naya",
+            "native": "納谷悟朗",
+            "userPreferred": "Gorou Naya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95528-dTJE6VLgUOHo.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23202,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tonjit",
+        "last": null,
+        "full": "Tonjit",
+        "native": "トンジット",
+        "userPreferred": "Tonjit"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23202.jpg",
+      "voiceActors": [
+        {
+          "id": 96522,
+          "language": "Japanese",
+          "name": {
+            "first": "Naoki",
+            "last": "Tatsuta",
+            "full": "Naoki Tatsuta",
+            "native": "龍田直樹",
+            "userPreferred": "Naoki Tatsuta"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1522.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22444,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kashii",
+        "last": null,
+        "full": "Kashii",
+        "native": "カーシー",
+        "userPreferred": "Kashii"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b22444-NRhdci0mo218.png",
+      "voiceActors": [
+        {
+          "id": 102953,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouhei",
+            "last": "Fukuhara",
+            "full": "Kouhei Fukuhara",
+            "native": "福原耕平",
+            "userPreferred": "Kouhei Fukuhara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7953.jpg"
+        }
+      ]
+    },
+    {
+      "id": 723,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nami",
+        "last": "",
+        "full": "Nami",
+        "native": "ナミ",
+        "userPreferred": "Nami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b723-Ye0LjLgo6i2K.png",
+      "voiceActors": [
+        {
+          "id": 95076,
+          "language": "Japanese",
+          "name": {
+            "first": "Akemi",
+            "last": "Okamura",
+            "full": "Akemi Okamura",
+            "native": "岡村明美",
+            "userPreferred": "Akemi Okamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95076-itRGy8F3x5Em.png"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Franky",
+        "last": "",
+        "full": "Franky",
+        "native": "フランキー",
+        "userPreferred": "Franky"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n64-ChX6ZzHHjXqA.png",
+      "voiceActors": [
+        {
+          "id": 95277,
+          "language": "Japanese",
+          "name": {
+            "first": "Junko",
+            "last": "Noda",
+            "full": "Junko Noda",
+            "native": "野田順子",
+            "userPreferred": "Junko Noda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95277-hcE9l52SPjNP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4393,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kureha",
+        "last": "",
+        "full": "Kureha",
+        "native": "ドクター･くれは",
+        "userPreferred": "Kureha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4393-SpodwBZ7tpe9.png",
+      "voiceActors": [
+        {
+          "id": 95557,
+          "language": "Japanese",
+          "name": {
+            "first": "Masako",
+            "last": "Nozawa",
+            "full": "Masako Nozawa",
+            "native": "野沢雅子",
+            "userPreferred": "Masako Nozawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95557-5a2nnIBK05ul.png"
+        }
+      ]
+    },
+    {
+      "id": 5423,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dalton",
+        "last": null,
+        "full": "Dalton",
+        "native": "ドルトン",
+        "userPreferred": "Dalton"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5423-n38TDrDIqKs6.jpg",
+      "voiceActors": [
+        {
+          "id": 96173,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Ono",
+            "full": "Kenichi Ono",
+            "native": "小野健一",
+            "userPreferred": "Kenichi Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1173.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9562,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yasopp",
+        "last": null,
+        "full": "Yasopp",
+        "native": "ヤソップ",
+        "userPreferred": "Yasopp"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9562-spNkmlnOZf7C.png",
+      "voiceActors": [
+        {
+          "id": 100436,
+          "language": "Japanese",
+          "name": {
+            "first": "Michitaka",
+            "last": "Kobayashi",
+            "full": "Michitaka Kobayashi",
+            "native": "小林通孝",
+            "userPreferred": "Michitaka Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5436.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19168,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Duval",
+        "last": null,
+        "full": "Duval",
+        "native": "デュバル ",
+        "userPreferred": "Duval"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b19168-ANaaigEPt3FW.png",
+      "voiceActors": [
+        {
+          "id": 95129,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshihiko",
+            "last": "Seki",
+            "full": "Toshihiko Seki",
+            "native": "関俊彦",
+            "userPreferred": "Toshihiko Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95129-AAL7kfwAPpgR.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20178,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shakuyaku",
+        "last": null,
+        "full": "Shakuyaku",
+        "native": "シャクヤク",
+        "userPreferred": "Shakuyaku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20178-AHmyHdCpWvSk.png",
+      "voiceActors": [
+        {
+          "id": 95354,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiromi",
+            "last": "Tsuru",
+            "full": "Hiromi Tsuru",
+            "native": "鶴ひろみ",
+            "userPreferred": "Hiromi Tsuru"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95354-Ds90swc530OH.jpg"
+        }
+      ]
+    },
+    {
+      "id": 727,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shanks",
+        "last": null,
+        "full": "Shanks",
+        "native": "シャンクス",
+        "userPreferred": "Shanks"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b727-wUJx7M1z5xON.png",
+      "voiceActors": [
+        {
+          "id": 95598,
+          "language": "Japanese",
+          "name": {
+            "first": "Shuuichi",
+            "last": "Ikeda",
+            "full": "Shuuichi Ikeda",
+            "native": "池田秀一",
+            "userPreferred": "Shuuichi Ikeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95598-IZBrsaxRsACg.png"
+        }
+      ]
+    },
+    {
+      "id": 8064,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Garp",
+        "last": "",
+        "full": "Garp",
+        "native": "ガープ",
+        "userPreferred": "Garp"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b8064-dPltKaZ8RAsj.jpg",
+      "voiceActors": [
+        {
+          "id": 96174,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Naka",
+            "full": "Hiroshi Naka",
+            "native": "中博史",
+            "userPreferred": "Hiroshi Naka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96174-xESRSYS5NSwN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10444,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zeff",
+        "last": null,
+        "full": "Zeff",
+        "native": "ゼフ",
+        "userPreferred": "Zeff"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10444.jpg",
+      "voiceActors": [
+        {
+          "id": 100437,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Yada",
+            "full": "Kouji Yada",
+            "native": "矢田耕司",
+            "userPreferred": "Kouji Yada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100437-mEsOQrDIzjth.png"
+        }
+      ]
+    },
+    {
+      "id": 32554,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dadan",
+        "last": "Curly",
+        "full": "Dadan Curly",
+        "native": "カーリー・ダダン",
+        "userPreferred": "Dadan Curly"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b32554-VepctsXEVcC8.jpg",
+      "voiceActors": [
+        {
+          "id": 103753,
+          "language": "Japanese",
+          "name": {
+            "first": "Noriko",
+            "last": "Uemura",
+            "full": "Noriko Uemura",
+            "native": "上村典子",
+            "userPreferred": "Noriko Uemura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103753-RtNwIDvgTyoK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2752,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuzan",
+        "last": null,
+        "full": "Kuzan",
+        "native": "クザン",
+        "userPreferred": "Kuzan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2752-0ENS2a39muDz.png",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 4155,
+      "relationType": "SEQUEL",
+      "malId": 4155,
+      "title": {
+        "romaji": "ONE PIECE FILM: STRONG WORLD",
+        "english": "One Piece Film: Strong World",
+        "native": "ONE PIECE FILM STRONG WORLD",
+        "userPreferred": "ONE PIECE FILM: STRONG WORLD"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4155-P5TDf6t6qFwX.png",
+      "color": "#e4ae50",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4155-2PkLjTHddz2s.jpg",
+      "rating": 78
+    },
+    {
+      "id": 47152,
+      "relationType": "ADAPTATION",
+      "malId": 17152,
+      "title": {
+        "romaji": "ONE PIECE: STRONG WORLD",
+        "english": null,
+        "native": "ONE PIECE STRONG WORLD",
+        "userPreferred": "ONE PIECE: STRONG WORLD"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/n47152-v3AqgrZH9BsU.jpg",
+      "color": "#e48628",
+      "type": "ONE_SHOT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/47152-TAPDzhGbWvss.png",
+      "rating": 76
+    },
+    {
+      "id": 21,
+      "relationType": "PARENT",
+      "malId": 21,
+      "title": {
+        "romaji": "ONE PIECE",
+        "english": "ONE PIECE",
+        "native": "ONE PIECE",
+        "userPreferred": "ONE PIECE"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21-tXMN3Y20PIL9.jpg",
+      "color": "#e4a15d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg",
+      "rating": 88
+    }
+  ],
+  "episodes": [
+    {
+      "id": "one-piece-film-strong-world-episode-0",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8740-oZajT3brPn7b.jpg",
+      "number": 0,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//one-piece-film-strong-world-episode-0"
+    }
+  ]
+}

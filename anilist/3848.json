@@ -1,0 +1,972 @@
+{
+  "id": "3848",
+  "title": {
+    "romaji": "ONE PIECE THE MOVIE: Episode of Chopper Plus - Fuyu ni Saku, Kiseki no Sakura",
+    "english": "One Piece: Episode Of Chopper +: The Miracle Winter Cherry Blossom",
+    "native": "ONE PIECE THE MOVIE エピソードオブチョッパー+ 冬に咲く、奇跡の桜"
+  },
+  "malId": 3848,
+  "synonyms": [
+    "Miracle Sakura",
+    "One Piece: Episodio de Chopper + El milagro del cerezo en invierno",
+    "One Piece: Episode of Chopper Plus - Bloom in the Winter, Miracle Sakura",
+    "One Piece Movie 09",
+    "One Piece - Il miracolo dei ciliegi in fiore"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3848-SCnYGTn34Llt.jpg",
+  "popularity": 11573,
+  "color": "#e4e450",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3848-LXsSQtSFu4e9.jpg",
+  "description": "The movie is a retelling of the Drum Island arc with new music and animation. Vivi has been removed from the plot while both Nico Robin and Franky, who joined the crew after the Drum Island arc, have been added. The movie also has the Straw Hat's new ship, the Thousand Sunny. It has been stated that Oda will be creating a new character for this movie, Wapol's older brother, Mushul, who also appears to be a Devil Fruit user. <br>",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 3,
+    "day": 1
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 3,
+    "day": 1
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 71,
+  "duration": 113,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 461,
+      "malId": 461,
+      "title": {
+        "romaji": "ONE PIECE: Chinjuu-jima no Chopper Oukoku",
+        "english": "One Piece: Chopper’s Kingdom on the Island of Strange Animals",
+        "native": "ONE PIECE 珍獣島のチョッパー王国",
+        "userPreferred": "ONE PIECE: Chinjuu-jima no Chopper Oukoku"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx461-DC9fMDl3AaK1.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/461-0pvcIaXC0p70.jpg",
+      "rating": 64,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 4393,
+      "role": "MAIN",
+      "name": {
+        "first": "Kureha",
+        "last": "",
+        "full": "Kureha",
+        "native": "ドクター･くれは",
+        "userPreferred": "Kureha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4393-SpodwBZ7tpe9.png",
+      "voiceActors": [
+        {
+          "id": 95557,
+          "language": "Japanese",
+          "name": {
+            "first": "Masako",
+            "last": "Nozawa",
+            "full": "Masako Nozawa",
+            "native": "野沢雅子",
+            "userPreferred": "Masako Nozawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95557-5a2nnIBK05ul.png"
+        },
+        {
+          "id": 157939,
+          "language": "Italian",
+          "name": {
+            "first": "Caterina",
+            "last": "Rochira",
+            "full": "Caterina Rochira",
+            "native": null,
+            "userPreferred": "Caterina Rochira"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 155792,
+          "language": "German",
+          "name": {
+            "first": "Dagmar",
+            "last": "Heller",
+            "full": "Dagmar Heller",
+            "native": null,
+            "userPreferred": "Dagmar Heller"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "role": "MAIN",
+      "name": {
+        "first": "Luffy",
+        "last": "Monkey",
+        "full": "Luffy Monkey",
+        "native": "モンキー・D・ルフィ",
+        "userPreferred": "Luffy D. Monkey"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b40-q0YepZ4VUZUO.png",
+      "voiceActors": [
+        {
+          "id": 95075,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayumi",
+            "last": "Tanaka",
+            "full": "Mayumi Tanaka",
+            "native": "田中真弓",
+            "userPreferred": "Mayumi Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95075-1qD4TeW1ON92.png"
+        },
+        {
+          "id": 96163,
+          "language": "Italian",
+          "name": {
+            "first": "Renato",
+            "last": "Novara",
+            "full": "Renato Novara",
+            "native": null,
+            "userPreferred": "Renato Novara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96163-YaGjTo1XM8qd.png"
+        },
+        {
+          "id": 100143,
+          "language": "German",
+          "name": {
+            "first": "Daniel",
+            "last": "Schlauch",
+            "full": "Daniel Schlauch",
+            "native": null,
+            "userPreferred": "Daniel Schlauch"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100143-47anXO76XYj9.png"
+        }
+      ]
+    },
+    {
+      "id": 5422,
+      "role": "MAIN",
+      "name": {
+        "first": "Wapol",
+        "last": null,
+        "full": "Wapol",
+        "native": "ワポル",
+        "userPreferred": "Wapol"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5422.jpg",
+      "voiceActors": [
+        {
+          "id": 95651,
+          "language": "Japanese",
+          "name": {
+            "first": "Bin",
+            "last": "Shimada",
+            "full": "Bin Shimada",
+            "native": "島田敏",
+            "userPreferred": "Bin Shimada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95651-6kRo7F4yb6Yt.png"
+        },
+        {
+          "id": 96240,
+          "language": "Italian",
+          "name": {
+            "first": "Mario",
+            "last": "Scarabelli",
+            "full": "Mario Scarabelli",
+            "native": null,
+            "userPreferred": "Mario Scarabelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96240-skGulG7kauYH.png"
+        },
+        {
+          "id": 155790,
+          "language": "German",
+          "name": {
+            "first": "Dirk",
+            "last": "Galuba",
+            "full": "Dirk Galuba",
+            "native": null,
+            "userPreferred": "Dirk Galuba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 723,
+      "role": "MAIN",
+      "name": {
+        "first": "Nami",
+        "last": "",
+        "full": "Nami",
+        "native": "ナミ",
+        "userPreferred": "Nami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b723-Ye0LjLgo6i2K.png",
+      "voiceActors": [
+        {
+          "id": 95076,
+          "language": "Japanese",
+          "name": {
+            "first": "Akemi",
+            "last": "Okamura",
+            "full": "Akemi Okamura",
+            "native": "岡村明美",
+            "userPreferred": "Akemi Okamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95076-itRGy8F3x5Em.png"
+        },
+        {
+          "id": 96090,
+          "language": "Italian",
+          "name": {
+            "first": "Emanuela",
+            "last": "Pacotto",
+            "full": "Emanuela Pacotto",
+            "native": null,
+            "userPreferred": "Emanuela Pacotto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96090-UnDifVZ6rNS2.png"
+        },
+        {
+          "id": 105717,
+          "language": "German",
+          "name": {
+            "first": "Stephanie",
+            "last": "Kellner",
+            "full": "Stephanie Kellner",
+            "native": null,
+            "userPreferred": "Stephanie Kellner"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10717.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19271,
+      "role": "MAIN",
+      "name": {
+        "first": "Hiluluk",
+        "last": "",
+        "full": "Hiluluk",
+        "native": "ヒルルク",
+        "userPreferred": "Hiluluk"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b19271-15sAzRtoggrW.png",
+      "voiceActors": [
+        {
+          "id": 102555,
+          "language": "Japanese",
+          "name": {
+            "first": "Shigeru",
+            "last": "Ushiyama",
+            "full": "Shigeru Ushiyama",
+            "native": "牛山茂",
+            "userPreferred": "Shigeru Ushiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102555-M2VcOd9jjdev.jpg"
+        },
+        {
+          "id": 152875,
+          "language": "Italian",
+          "name": {
+            "first": "Sergio",
+            "last": "Romanò",
+            "full": "Sergio Romanò",
+            "native": null,
+            "userPreferred": "Sergio Romanò"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n152875-i1YiIZZHhxzL.png"
+        },
+        {
+          "id": 107323,
+          "language": "German",
+          "name": {
+            "first": "Christoph",
+            "last": "Jablonka",
+            "full": "Christoph Jablonka",
+            "native": null,
+            "userPreferred": "Christoph Jablonka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12323.jpg"
+        }
+      ]
+    },
+    {
+      "id": 305,
+      "role": "MAIN",
+      "name": {
+        "first": "Sanji",
+        "last": "",
+        "full": "Sanji",
+        "native": "サンジ",
+        "userPreferred": "Sanji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b305-OCK4jCGefFKU.png",
+      "voiceActors": [
+        {
+          "id": 95125,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroaki",
+            "last": "Hirata",
+            "full": "Hiroaki Hirata",
+            "native": "平田広明",
+            "userPreferred": "Hiroaki Hirata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95125-NeFFiJupoDVj.png"
+        },
+        {
+          "id": 96239,
+          "language": "Italian",
+          "name": {
+            "first": "Lorenzo",
+            "last": "Scattorin",
+            "full": "Lorenzo Scattorin",
+            "native": null,
+            "userPreferred": "Lorenzo Scattorin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96239-P3XLQtzk2cGc.png"
+        },
+        {
+          "id": 102964,
+          "language": "German",
+          "name": {
+            "first": "Hubertus",
+            "last": "von Lerchenfeld",
+            "full": "Hubertus von Lerchenfeld",
+            "native": null,
+            "userPreferred": "Hubertus von Lerchenfeld"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102964-OF7rN1qtFSA3.png"
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "role": "MAIN",
+      "name": {
+        "first": "Chopper",
+        "last": "Tony Tony",
+        "full": "Chopper Tony Tony",
+        "native": "トニートニー・チョッパー",
+        "userPreferred": "Chopper Tony Tony"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n309-Px56UsWX35A3.jpg",
+      "voiceActors": [
+        {
+          "id": 95128,
+          "language": "Japanese",
+          "name": {
+            "first": "Ikue",
+            "last": "Ootani",
+            "full": "Ikue Ootani",
+            "native": "大谷育江",
+            "userPreferred": "Ikue Ootani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95128-9YWpE1d2U8Sj.png"
+        },
+        {
+          "id": 96291,
+          "language": "Italian",
+          "name": {
+            "first": "Federica",
+            "last": "Valenti",
+            "full": "Federica Valenti",
+            "native": null,
+            "userPreferred": "Federica Valenti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1291.jpg"
+        },
+        {
+          "id": 145190,
+          "language": "German",
+          "name": {
+            "first": "Martin",
+            "last": "Halm",
+            "full": "Martin Halm",
+            "native": null,
+            "userPreferred": "Martin Halm"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145190-Cbuh8HLA6WUt.jpg"
+        }
+      ]
+    },
+    {
+      "id": 155788,
+      "role": "MAIN",
+      "name": {
+        "first": "Musshuru",
+        "last": null,
+        "full": "Musshuru",
+        "native": "ムッシュール",
+        "userPreferred": "Musshuru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b155788-cGjFVBCssnJX.png",
+      "voiceActors": [
+        {
+          "id": 114846,
+          "language": "Japanese",
+          "name": {
+            "first": "Monta",
+            "last": "Mino",
+            "full": "Monta Mino",
+            "native": "法男 御法川",
+            "userPreferred": "Monta Mino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/19846.jpg"
+        },
+        {
+          "id": 145115,
+          "language": "Italian",
+          "name": {
+            "first": "Marco",
+            "last": "Balbi",
+            "full": "Marco Balbi",
+            "native": null,
+            "userPreferred": "Marco Balbi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145115-muE7CKYeLEl8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 724,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Usopp",
+        "last": null,
+        "full": "Usopp",
+        "native": "ウソップ",
+        "userPreferred": "Usopp"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b724-9WkBXgfmVUgW.jpg",
+      "voiceActors": [
+        {
+          "id": 95067,
+          "language": "Japanese",
+          "name": {
+            "first": "Kappei",
+            "last": "Yamaguchi",
+            "full": "Kappei Yamaguchi",
+            "native": "山口勝平",
+            "userPreferred": "Kappei Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95067-hqIpNxMfAuN2.png"
+        },
+        {
+          "id": 106920,
+          "language": "Italian",
+          "name": {
+            "first": "Luca",
+            "last": "Bottale",
+            "full": "Luca Bottale",
+            "native": null,
+            "userPreferred": "Luca Bottale"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106920-pIJQfJ0oF9Wi.png"
+        },
+        {
+          "id": 104926,
+          "language": "German",
+          "name": {
+            "first": "Dirk",
+            "last": "Meyer",
+            "full": "Dirk Meyer",
+            "native": null,
+            "userPreferred": "Dirk Meyer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9926.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5423,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dalton",
+        "last": null,
+        "full": "Dalton",
+        "native": "ドルトン",
+        "userPreferred": "Dalton"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5423-n38TDrDIqKs6.jpg",
+      "voiceActors": [
+        {
+          "id": 96173,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Ono",
+            "full": "Kenichi Ono",
+            "native": "小野健一",
+            "userPreferred": "Kenichi Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1173.jpg"
+        },
+        {
+          "id": 104534,
+          "language": "Italian",
+          "name": {
+            "first": "Marco",
+            "last": "Balzarotti",
+            "full": "Marco Balzarotti",
+            "native": null,
+            "userPreferred": "Marco Balzarotti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104534-lE9qihaiasGl.jpg"
+        },
+        {
+          "id": 116361,
+          "language": "German",
+          "name": {
+            "first": "Claus",
+            "last": "Brockmeyer",
+            "full": "Claus Brockmeyer",
+            "native": null,
+            "userPreferred": "Claus Brockmeyer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21361.jpg"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zoro",
+        "last": "Roronoa",
+        "full": "Zoro Roronoa",
+        "native": "ロロノア・ゾロ",
+        "userPreferred": "Zoro Roronoa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b62-Wixe3kLJGVby.png",
+      "voiceActors": [
+        {
+          "id": 95123,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuya",
+            "last": "Nakai",
+            "full": "Kazuya Nakai",
+            "native": "中井和哉",
+            "userPreferred": "Kazuya Nakai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95123-qdVFNraYmQ5K.png"
+        },
+        {
+          "id": 96268,
+          "language": "Italian",
+          "name": {
+            "first": "Patrizio",
+            "last": "Prata",
+            "full": "Patrizio Prata",
+            "native": null,
+            "userPreferred": "Patrizio Prata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96268-zO83Agjsj8HU.png"
+        },
+        {
+          "id": 100144,
+          "language": "German",
+          "name": {
+            "first": "Philipp",
+            "last": "Brammer",
+            "full": "Philipp Brammer",
+            "native": null,
+            "userPreferred": "Philipp Brammer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5144.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21527,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chess",
+        "last": null,
+        "full": "Chess",
+        "native": "チェス",
+        "userPreferred": "Chess"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21527.jpg",
+      "voiceActors": [
+        {
+          "id": 102631,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuusuke",
+            "last": "Numata",
+            "full": "Yuusuke Numata",
+            "native": "沼田祐介",
+            "userPreferred": "Yuusuke Numata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102631-fyo3dDQWsuKW.jpg"
+        },
+        {
+          "id": 116933,
+          "language": "Italian",
+          "name": {
+            "first": "Riccardo",
+            "last": "Peroni",
+            "full": "Riccardo Peroni",
+            "native": null,
+            "userPreferred": "Riccardo Peroni"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21933.jpg"
+        },
+        {
+          "id": 100927,
+          "language": "German",
+          "name": {
+            "first": "Claus-Peter",
+            "last": "Damitz",
+            "full": "Claus-Peter Damitz",
+            "native": null,
+            "userPreferred": "Claus-Peter Damitz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100927-7E0L3vrr6hd8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Robin",
+        "last": "Nico",
+        "full": "Robin Nico",
+        "native": "ニコロビン",
+        "userPreferred": "Robin Nico"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b61-YQmTA6SO0UuV.png",
+      "voiceActors": [
+        {
+          "id": 95130,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuriko",
+            "last": "Yamaguchi",
+            "full": "Yuriko Yamaguchi",
+            "native": "山口由里子",
+            "userPreferred": "Yuriko Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95130-GoO41ve3YWQw.png"
+        },
+        {
+          "id": 96275,
+          "language": "Italian",
+          "name": {
+            "first": "Patrizia",
+            "last": "Scianca",
+            "full": "Patrizia Scianca",
+            "native": null,
+            "userPreferred": "Patrizia Scianca"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96275-K5vy1UBZWPA0.png"
+        },
+        {
+          "id": 100881,
+          "language": "German",
+          "name": {
+            "first": "Simone",
+            "last": "Brahmann",
+            "full": "Simone Brahmann",
+            "native": null,
+            "userPreferred": "Simone Brahmann"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5881.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21529,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuromarimo",
+        "last": null,
+        "full": "Kuromarimo",
+        "native": "クロマーリモ",
+        "userPreferred": "Kuromarimo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21529.jpg",
+      "voiceActors": [
+        {
+          "id": 95299,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Nomura",
+            "full": "Kenji Nomura",
+            "native": "乃村健次",
+            "userPreferred": "Kenji Nomura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95299-emNsgDYS4DBi.jpg"
+        },
+        {
+          "id": 115238,
+          "language": "Italian",
+          "name": {
+            "first": "Giorgio",
+            "last": "Bonino",
+            "full": "Giorgio Bonino",
+            "native": null,
+            "userPreferred": "Giorgio Bonino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115238-Ir7FfYulWTxt.jpg"
+        },
+        {
+          "id": 155791,
+          "language": "German",
+          "name": {
+            "first": "Tonio",
+            "last": "von der Meden",
+            "full": "Tonio von der Meden",
+            "native": null,
+            "userPreferred": "Tonio von der Meden"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Franky",
+        "last": "",
+        "full": "Franky",
+        "native": "フランキー",
+        "userPreferred": "Franky"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n64-ChX6ZzHHjXqA.png",
+      "voiceActors": [
+        {
+          "id": 95131,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuki",
+            "last": "Yao",
+            "full": "Kazuki Yao",
+            "native": "矢尾一樹",
+            "userPreferred": "Kazuki Yao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95131-TCVTgxb08tfE.png"
+        },
+        {
+          "id": 101797,
+          "language": "Italian",
+          "name": {
+            "first": "Riccardo",
+            "last": "Rovatti",
+            "full": "Riccardo Rovatti",
+            "native": null,
+            "userPreferred": "Riccardo Rovatti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6797.jpg"
+        },
+        {
+          "id": 155789,
+          "language": "German",
+          "name": {
+            "first": "Frank",
+            "last": "Engelhardt",
+            "full": "Frank Engelhardt",
+            "native": null,
+            "userPreferred": "Frank Engelhardt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 100438,
+          "language": "Japanese",
+          "name": {
+            "first": "Mahito",
+            "last": "Ooba",
+            "full": "Mahito Ooba",
+            "native": "大場真人",
+            "userPreferred": "Mahito Ooba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100438-wHHSJxNAYT0R.png"
+        },
+        {
+          "id": 152875,
+          "language": "Italian",
+          "name": {
+            "first": "Sergio",
+            "last": "Romanò",
+            "full": "Sergio Romanò",
+            "native": null,
+            "userPreferred": "Sergio Romanò"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n152875-i1YiIZZHhxzL.png"
+        },
+        {
+          "id": 116415,
+          "language": "German",
+          "name": {
+            "first": "Reinhard",
+            "last": "Brock",
+            "full": "Reinhard Brock",
+            "native": null,
+            "userPreferred": "Reinhard Brock"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21415.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 2107,
+      "relationType": "PREQUEL",
+      "malId": 2107,
+      "title": {
+        "romaji": "ONE PIECE: Episode of Alabasta - Sabaku no Oujo to Kaizoku-tachi",
+        "english": "One Piece: The Desert Princess and the Pirates, Adventures in Alabasta",
+        "native": "ONE PIECE エピソードオブアラバスタ 砂漠の王女と海賊たち",
+        "userPreferred": "ONE PIECE: Episode of Alabasta - Sabaku no Oujo to Kaizoku-tachi"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2107-H8bRuRRbhCIJ.jpg",
+      "color": "#e4a143",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2107-Je0JIEoxx1VF.jpg",
+      "rating": 70
+    },
+    {
+      "id": 21,
+      "relationType": "PARENT",
+      "malId": 21,
+      "title": {
+        "romaji": "ONE PIECE",
+        "english": "ONE PIECE",
+        "native": "ONE PIECE",
+        "userPreferred": "ONE PIECE"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21-tXMN3Y20PIL9.jpg",
+      "color": "#e4a15d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg",
+      "rating": 88
+    },
+    {
+      "id": 4155,
+      "relationType": "SEQUEL",
+      "malId": 4155,
+      "title": {
+        "romaji": "ONE PIECE FILM: STRONG WORLD",
+        "english": "One Piece Film: Strong World",
+        "native": "ONE PIECE FILM STRONG WORLD",
+        "userPreferred": "ONE PIECE FILM: STRONG WORLD"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4155-P5TDf6t6qFwX.png",
+      "color": "#e4ae50",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4155-2PkLjTHddz2s.jpg",
+      "rating": 78
+    },
+    {
+      "id": 30013,
+      "relationType": "ADAPTATION",
+      "malId": 13,
+      "title": {
+        "romaji": "ONE PIECE",
+        "english": "One Piece",
+        "native": "ONE PIECE",
+        "userPreferred": "ONE PIECE"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30013-tZVlfBCHbrNL.jpg",
+      "color": "#e48650",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/30013-hbbRZqC5MjYh.jpg",
+      "rating": 91
+    },
+    {
+      "id": 107110,
+      "relationType": "OTHER",
+      "malId": 22661,
+      "title": {
+        "romaji": "ONE PIECE: Cry heart",
+        "english": null,
+        "native": "ワンピース Cry heart",
+        "userPreferred": "ONE PIECE: Cry heart"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n107110-pF0sMxDe3aLi.png",
+      "color": "#f1861a",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n107110-pF0sMxDe3aLi.png",
+      "rating": 59
+    }
+  ],
+  "episodes": [
+    {
+      "id": "one-piece-movie-9-bloom-in-the-winter-miracle-sakura-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3848-SCnYGTn34Llt.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//one-piece-movie-9-bloom-in-the-winter-miracle-sakura-episode-1"
+    },
+    {
+      "id": "one-piece-movie-9-bloom-in-the-winter-miracle-sakura-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3848-SCnYGTn34Llt.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//one-piece-movie-9-bloom-in-the-winter-miracle-sakura-episode-2"
+    }
+  ]
+}

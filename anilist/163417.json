@@ -1,0 +1,515 @@
+{
+  "id": "163417",
+  "title": {
+    "romaji": "Majutsushi Orphen Hagure Tabi: Seiiki-hen",
+    "english": "Sorcerous Stabber Orphen: Doom of Dragon's Sanctuary",
+    "native": "魔術士オーフェンはぐれ旅 聖域編"
+  },
+  "malId": 54738,
+  "synonyms": [
+    "魔術士歐菲 流浪之旅 聖域篇"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "hpswrk1nBCM",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/hpswrk1nBCM/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163417-jreD0IMipR6K.jpg",
+  "popularity": 1677,
+  "color": "#e4bb50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163417-jreD0IMipR6K.jpg",
+  "description": "The fourth season of <i>Majutsushi Orphen Hagure Tabi</i>.",
+  "status": "Completed",
+  "releaseDate": 2023,
+  "startDate": {
+    "year": 2023,
+    "month": 4,
+    "day": 12
+  },
+  "endDate": {
+    "year": 2023,
+    "month": 6,
+    "day": 28
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 56,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Studio DEEN"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 1411,
+      "role": "MAIN",
+      "name": {
+        "first": "Orphen",
+        "last": null,
+        "full": "Orphen",
+        "native": "オーフェン",
+        "userPreferred": "Orphen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n1411-dKMaZJPRUXLW.jpg",
+      "voiceActors": [
+        {
+          "id": 95178,
+          "language": "Japanese",
+          "name": {
+            "first": "Shoutarou",
+            "last": "Morikubo",
+            "full": "Shoutarou Morikubo",
+            "native": "森久保祥太郎",
+            "userPreferred": "Shoutarou Morikubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95178-8R9Itg3Y1v24.png"
+        }
+      ]
+    },
+    {
+      "id": 5656,
+      "role": "MAIN",
+      "name": {
+        "first": "Majic",
+        "last": "Lin",
+        "full": "Majic Lin",
+        "native": "マジク・リン",
+        "userPreferred": "Majic Lin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5656-DgU1N9wT0ury.png",
+      "voiceActors": [
+        {
+          "id": 118407,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuusuke",
+            "last": "Kobayashi",
+            "full": "Yuusuke Kobayashi",
+            "native": "小林裕介",
+            "userPreferred": "Yuusuke Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118407-QvEt3bGtuRQM.png"
+        }
+      ]
+    },
+    {
+      "id": 5758,
+      "role": "MAIN",
+      "name": {
+        "first": "Cleao",
+        "last": "Everlasting",
+        "full": "Cleao Everlasting",
+        "native": "クリーオウ・エバーラスティン",
+        "userPreferred": "Cleao Everlasting"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5758-qqcFHAAlNEQI.png",
+      "voiceActors": [
+        {
+          "id": 107041,
+          "language": "Japanese",
+          "name": {
+            "first": "Rumi",
+            "last": "Ookubo",
+            "full": "Rumi Ookubo",
+            "native": "大久保瑠美",
+            "userPreferred": "Rumi Ookubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107041-ZqPloXZhcuQw.jpg"
+        }
+      ]
+    },
+    {
+      "id": 301810,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kakorkist",
+        "last": null,
+        "full": "Kakorkist",
+        "native": "カコルキスト",
+        "userPreferred": "Kakorkist"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b301810-vSHOU47rmO0J.png",
+      "voiceActors": [
+        {
+          "id": 121823,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinba",
+            "last": "Tsuchiya",
+            "full": "Shinba Tsuchiya",
+            "native": "土屋神葉",
+            "userPreferred": "Shinba Tsuchiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n121823-SuyXhJRy3FoG.png"
+        }
+      ]
+    },
+    {
+      "id": 301813,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Seek",
+        "last": null,
+        "full": "Seek",
+        "native": "シーク",
+        "userPreferred": "Seek"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b301813-NKZauozy5fBh.png",
+      "voiceActors": [
+        {
+          "id": 142107,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuya",
+            "last": "Nakashima",
+            "full": "Takuya Nakashima",
+            "native": "中島卓也",
+            "userPreferred": "Takuya Nakashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n142107-tc4KxRPG1m8w.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9685,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Azalie",
+        "last": "Cait-Sith",
+        "full": "Azalie Cait-Sith",
+        "native": "アザリー・ ケットシー",
+        "userPreferred": "Azalie Cait-Sith"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9685-Vayp0r3pJsBG.png",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 301814,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Irgitte",
+        "last": null,
+        "full": "Irgitte",
+        "native": "イールギット",
+        "userPreferred": "Irgitte"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b301814-xfqa9zKZXWzP.png",
+      "voiceActors": [
+        {
+          "id": 121941,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuna",
+            "last": "Kamakura",
+            "full": "Yuna Kamakura",
+            "native": "鎌倉有那",
+            "userPreferred": "Yuna Kamakura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n121941-SzVuZybv2De3.png"
+        }
+      ]
+    },
+    {
+      "id": 306089,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Maria",
+        "last": null,
+        "full": "Maria",
+        "native": "マリア",
+        "userPreferred": "Maria"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b306089-6IpvL4JlaLcN.jpg",
+      "voiceActors": [
+        {
+          "id": 112101,
+          "language": "Japanese",
+          "name": {
+            "first": "Rena",
+            "last": "Maeda",
+            "full": "Rena Maeda",
+            "native": "前田玲奈",
+            "userPreferred": "Rena Maeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112101-nOHhohG1NHb9.jpg"
+        }
+      ]
+    },
+    {
+      "id": 301804,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jack",
+        "last": null,
+        "full": "Jack",
+        "native": "ジャック",
+        "userPreferred": "Jack"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b301804-YBHLD3QZdEHX.jpg",
+      "voiceActors": [
+        {
+          "id": 95025,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Yasumoto",
+            "full": "Hiroki Yasumoto",
+            "native": "安元洋貴",
+            "userPreferred": "Hiroki Yasumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95025-LGHr4VufmfCc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 301805,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Armagest",
+        "last": null,
+        "full": "Armagest",
+        "native": "アルマゲストを",
+        "userPreferred": "Armagest"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b301805-q7PrSNrF0exn.jpg",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        }
+      ]
+    },
+    {
+      "id": 301807,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Pluto",
+        "last": null,
+        "full": "Pluto",
+        "native": "プルートー",
+        "userPreferred": "Pluto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b301807-iGluXW7UQZwJ.jpg",
+      "voiceActors": [
+        {
+          "id": 95245,
+          "language": "Japanese",
+          "name": {
+            "first": "Satoshi",
+            "last": "Hino",
+            "full": "Satoshi Hino",
+            "native": "日野聡",
+            "userPreferred": "Satoshi Hino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95245-prBoWpg0HaGX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 301809,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gin Tsukihime",
+        "last": null,
+        "full": "Gin Tsukihime",
+        "native": "銀月姫",
+        "userPreferred": "Gin Tsukihime"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b301809-DX81nF9r6WV1.jpg",
+      "voiceActors": [
+        {
+          "id": 95272,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Kaneda",
+            "full": "Tomoko Kaneda",
+            "native": "金田朋子",
+            "userPreferred": "Tomoko Kaneda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95272-qfGnqI0gkKK5.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 69745,
+      "relationType": "ADAPTATION",
+      "malId": 39745,
+      "title": {
+        "romaji": "Majutsushi Orphen",
+        "english": "Sorcerous Stabber Orphen: The Wayward Journey",
+        "native": "魔術士オーフェン",
+        "userPreferred": "Majutsushi Orphen"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx69745-NNIsBqIUHMcY.png",
+      "color": "#ffd635",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/69745-jdPzm9IUIM0D.jpg",
+      "rating": 73
+    },
+    {
+      "id": 155068,
+      "relationType": "PREQUEL",
+      "malId": 53162,
+      "title": {
+        "romaji": "Majutsushi Orphen Hagure Tabi: Urbanrama-hen",
+        "english": "Sorcerous Stabber Orphen: Chaos in Urbanrama",
+        "native": "魔術士オーフェンはぐれ旅 アーバンラマ編",
+        "userPreferred": "Majutsushi Orphen Hagure Tabi: Urbanrama-hen"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155068-AC7dnl313hfy.jpg",
+      "color": "#e4930d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155068-AC7dnl313hfy.jpg",
+      "rating": 59
+    }
+  ],
+  "episodes": [
+    {
+      "id": "majutsushi-orphen-hagure-tabi-seiiki-hen-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163417-jreD0IMipR6K.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-seiiki-hen-episode-1"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-seiiki-hen-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163417-jreD0IMipR6K.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-seiiki-hen-episode-2"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-seiiki-hen-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163417-jreD0IMipR6K.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-seiiki-hen-episode-3"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-seiiki-hen-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163417-jreD0IMipR6K.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-seiiki-hen-episode-4"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-seiiki-hen-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163417-jreD0IMipR6K.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-seiiki-hen-episode-5"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-seiiki-hen-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163417-jreD0IMipR6K.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-seiiki-hen-episode-6"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-seiiki-hen-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163417-jreD0IMipR6K.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-seiiki-hen-episode-7"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-seiiki-hen-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163417-jreD0IMipR6K.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-seiiki-hen-episode-8"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-seiiki-hen-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163417-jreD0IMipR6K.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-seiiki-hen-episode-9"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-seiiki-hen-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163417-jreD0IMipR6K.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-seiiki-hen-episode-10"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-seiiki-hen-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163417-jreD0IMipR6K.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-seiiki-hen-episode-11"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-seiiki-hen-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163417-jreD0IMipR6K.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-seiiki-hen-episode-12"
+    }
+  ]
+}

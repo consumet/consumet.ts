@@ -1,0 +1,587 @@
+{
+  "id": "13851",
+  "title": {
+    "romaji": "To LOVE-Ru Darkness OVA",
+    "english": null,
+    "native": "To LOVEる -とらぶる- ダークネス"
+  },
+  "malId": 13851,
+  "synonyms": [
+    "To LOVE-Ru Trouble Darkness OVA",
+    "To-Love-Ru Darkness OVA",
+    "ToLoveRu Darkness OVA",
+    "To Love Ru Darkness OVA"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13851.jpg",
+  "popularity": 23075,
+  "color": "#f1c950",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13851.jpg",
+  "description": "Unaired episodes bundled with the 5th, 6th, 8th, 9th, 12th and 13th limited-edition volume of the manga.",
+  "status": "Completed",
+  "releaseDate": 2012,
+  "startDate": {
+    "year": 2012,
+    "month": 8,
+    "day": 17
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 4,
+    "day": 3
+  },
+  "totalEpisodes": 6,
+  "currentEpisode": 6,
+  "rating": 72,
+  "duration": 25,
+  "genres": [
+    "Comedy",
+    "Ecchi",
+    "Romance",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Xebec"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 16397,
+      "malId": 16397,
+      "title": {
+        "romaji": "Photokano",
+        "english": "Photo Kano",
+        "native": "フォトカノ",
+        "userPreferred": "Photokano"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16397-dSCC0RzWjWnk.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16397-8GUJY0j9Miar.jpg",
+      "rating": 57,
+      "type": "TV"
+    },
+    {
+      "id": 20638,
+      "malId": 22865,
+      "title": {
+        "romaji": "Rokujouma no Shinryakusha!?",
+        "english": "Invaders of the Rokujoma!?",
+        "native": "六畳間の侵略者!?",
+        "userPreferred": "Rokujouma no Shinryakusha!?"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20638-SbFNGXcc4Fgi.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20638-tHQu2YsLHRum.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 11499,
+      "malId": 11499,
+      "title": {
+        "romaji": "Sankarea",
+        "english": "Sankarea: Undying Love",
+        "native": "さんかれあ",
+        "userPreferred": "Sankarea"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11499-SeYog5nP4Uks.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11499-etOfsgdjZY4L.jpg",
+      "rating": 70,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 5512,
+      "role": "MAIN",
+      "name": {
+        "first": "Haruna",
+        "last": "Sairenji",
+        "full": "Haruna Sairenji",
+        "native": "西連寺春菜",
+        "userPreferred": "Haruna Sairenji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5512-1wPXDnrqMBsd.png",
+      "voiceActors": [
+        {
+          "id": 95380,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayuri",
+            "last": "Yahagi",
+            "full": "Sayuri Yahagi",
+            "native": "矢作紗友里",
+            "userPreferred": "Sayuri Yahagi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95380-mOdqKPb6xYnI.png"
+        }
+      ]
+    },
+    {
+      "id": 9530,
+      "role": "MAIN",
+      "name": {
+        "first": "Yui",
+        "last": "Kotegawa",
+        "full": "Yui Kotegawa",
+        "native": "古手川唯",
+        "userPreferred": "Yui Kotegawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9530-MY4D9opZHhKh.png",
+      "voiceActors": [
+        {
+          "id": 95078,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Nazuka",
+            "full": "Kaori Nazuka",
+            "native": "名塚佳織",
+            "userPreferred": "Kaori Nazuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95078-tMm7zdlRNZ3P.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17364,
+      "role": "MAIN",
+      "name": {
+        "first": "Momo Belia",
+        "last": "Deviluke",
+        "full": "Momo Belia Deviluke",
+        "native": "モモ・ベリア・デビルーク",
+        "userPreferred": "Momo Belia Deviluke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17364-mhicLLsOJVAr.png",
+      "voiceActors": [
+        {
+          "id": 95599,
+          "language": "Japanese",
+          "name": {
+            "first": "Aki",
+            "last": "Toyosaki",
+            "full": "Aki Toyosaki",
+            "native": "豊崎愛生",
+            "userPreferred": "Aki Toyosaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95599-XDGiluZB7IXL.png"
+        }
+      ]
+    },
+    {
+      "id": 5510,
+      "role": "MAIN",
+      "name": {
+        "first": "Rito",
+        "last": "Yuuki",
+        "full": "Rito Yuuki",
+        "native": "結城リト",
+        "userPreferred": "Rito Yuuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5510.jpg",
+      "voiceActors": [
+        {
+          "id": 95094,
+          "language": "Japanese",
+          "name": {
+            "first": "Akeno",
+            "last": "Watanabe",
+            "full": "Akeno Watanabe",
+            "native": "渡边明乃",
+            "userPreferred": "Akeno Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95094-nRPWBG1cVGo5.png"
+        }
+      ]
+    },
+    {
+      "id": 17363,
+      "role": "MAIN",
+      "name": {
+        "first": "Nana",
+        "last": "Deviluke",
+        "full": "Nana Deviluke",
+        "native": "ナナ・アスタ・デビルーク",
+        "userPreferred": "Nana Astar Deviluke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17363-ztrfvpda0H8P.jpg",
+      "voiceActors": [
+        {
+          "id": 95762,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanae",
+            "last": "Itou",
+            "full": "Kanae Itou",
+            "native": "伊藤かな恵",
+            "userPreferred": "Kanae Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95762-qhWmwni3TT6Y.png"
+        }
+      ]
+    },
+    {
+      "id": 5511,
+      "role": "MAIN",
+      "name": {
+        "first": "Lala Satalin",
+        "last": "Deviluke",
+        "full": "Lala Satalin Deviluke",
+        "native": "ララ・サタリン・デビルーク",
+        "userPreferred": "Lala Satalin Deviluke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5511-fz4zDPM0gBSQ.png",
+      "voiceActors": [
+        {
+          "id": 95890,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Tomatsu",
+            "full": "Haruka Tomatsu",
+            "native": "戸松遥",
+            "userPreferred": "Haruka Tomatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95890-pDWHkOm4ncq0.png"
+        }
+      ]
+    },
+    {
+      "id": 7806,
+      "role": "MAIN",
+      "name": {
+        "first": "Mikan",
+        "last": "Yuuki",
+        "full": "Mikan Yuuki",
+        "native": "結城美柑",
+        "userPreferred": "Mikan Yuuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7806-YLwD4rZyclb0.png",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14388,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shizu",
+        "last": "Murasame",
+        "full": "Shizu Murasame",
+        "native": "村雨静",
+        "userPreferred": "Shizu Murasame"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14388-HNc1lZenz3rz.png",
+      "voiceActors": [
+        {
+          "id": 95040,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamiko",
+            "last": "Noto",
+            "full": "Mamiko Noto",
+            "native": "能登麻美子",
+            "userPreferred": "Mamiko Noto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95040-CskhFn4LiOti.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7807,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Peke",
+        "last": null,
+        "full": "Peke",
+        "native": "ペケ",
+        "userPreferred": "Peke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7807.jpg",
+      "voiceActors": [
+        {
+          "id": 95124,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Arai",
+            "full": "Satomi Arai",
+            "native": "新井里美",
+            "userPreferred": "Satomi Arai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95124-8C0BORTX7Bfd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7810,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Risa",
+        "last": "Momioka",
+        "full": "Risa Momioka",
+        "native": "籾岡 里紗",
+        "userPreferred": "Risa Momioka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7810-b7MUxigjiYZA.png",
+      "voiceActors": [
+        {
+          "id": 95141,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouka",
+            "last": "Yuzuki",
+            "full": "Ryouka Yuzuki",
+            "native": "柚木涼香",
+            "userPreferred": "Ryouka Yuzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95141-RUTdfZUbNcUv.png"
+        }
+      ]
+    },
+    {
+      "id": 5516,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Run",
+        "last": "Elsie Jewelria",
+        "full": "Run Elsie Jewelria",
+        "native": "ルン・エルシ・ジュエリア",
+        "userPreferred": "Run Elsie Jewelria"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5516-QhH9yj22Mzj3.png",
+      "voiceActors": [
+        {
+          "id": 95935,
+          "language": "Japanese",
+          "name": {
+            "first": "Fuyuka",
+            "last": "Ooura",
+            "full": "Fuyuka Ooura",
+            "native": "大浦冬華",
+            "userPreferred": "Fuyuka Ooura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/935.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17894,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Celine",
+        "last": null,
+        "full": "Celine",
+        "native": "セリーヌ",
+        "userPreferred": "Celine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17894.jpg",
+      "voiceActors": [
+        {
+          "id": 95141,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouka",
+            "last": "Yuzuki",
+            "full": "Ryouka Yuzuki",
+            "native": "柚木涼香",
+            "userPreferred": "Ryouka Yuzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95141-RUTdfZUbNcUv.png"
+        }
+      ]
+    },
+    {
+      "id": 26644,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuu",
+        "last": "Kotegawa",
+        "full": "Yuu Kotegawa",
+        "native": "古手川 遊",
+        "userPreferred": "Yuu Kotegawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26644.jpg",
+      "voiceActors": [
+        {
+          "id": 95991,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Abe",
+            "full": "Atsushi Abe",
+            "native": "阿部敦",
+            "userPreferred": "Atsushi Abe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95991-4u24gUBgqeTA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37164,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mea",
+        "last": "Kurosaki",
+        "full": "Mea Kurosaki",
+        "native": "黒咲芽亜",
+        "userPreferred": "Mea Kurosaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b37164-BAavTJhM1662.png",
+      "voiceActors": [
+        {
+          "id": 95885,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Iguchi",
+            "full": "Yuka Iguchi",
+            "native": "井口裕香",
+            "userPreferred": "Yuka Iguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95885-8Le2NWyACKNt.png"
+        }
+      ]
+    },
+    {
+      "id": 5513,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Konjiki no Yami",
+        "last": null,
+        "full": "Konjiki no Yami",
+        "native": "金色の闇",
+        "userPreferred": "Konjiki no Yami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5513-n2VPdIYXaqbh.png",
+      "voiceActors": [
+        {
+          "id": 95207,
+          "language": "Japanese",
+          "name": {
+            "first": "Misato",
+            "last": "Fukuen",
+            "full": "Misato Fukuen",
+            "native": "福圓美里",
+            "userPreferred": "Misato Fukuen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95207-TYPMa0JKUDAf.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 52519,
+      "relationType": "ADAPTATION",
+      "malId": 22519,
+      "title": {
+        "romaji": "To LOVE-Ru Darkness",
+        "english": "To Love Ru Darkness",
+        "native": "To LOVEる -とらぶる- ダークネス",
+        "userPreferred": "To LOVE-Ru Darkness"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx52519-W6U86EmcSlp4.jpg",
+      "color": "#feae50",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/52519-7LKiw7LuarUH.jpg",
+      "rating": 75
+    },
+    {
+      "id": 13663,
+      "relationType": "PARENT",
+      "malId": 13663,
+      "title": {
+        "romaji": "To LOVE-Ru Darkness",
+        "english": "To Love Ru Darkness",
+        "native": "To LOVEる -とらぶる- ダークネス",
+        "userPreferred": "To LOVE-Ru Darkness"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13663-kpsCFSRAutWM.jpg",
+      "color": "#e4785d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/13663.jpg",
+      "rating": 71
+    }
+  ],
+  "episodes": [
+    {
+      "id": "to-love-ru-darkness-ova-episode-1",
+      "title": "Volume 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13851.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:29:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//to-love-ru-darkness-ova-episode-1"
+    },
+    {
+      "id": "to-love-ru-darkness-ova-episode-2",
+      "title": "Volume 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13851.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:29:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//to-love-ru-darkness-ova-episode-2"
+    },
+    {
+      "id": "to-love-ru-darkness-ova-episode-3",
+      "title": "Volume 3",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13851.jpg",
+      "number": 3,
+      "createdAt": "2013-07-05T16:25:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//to-love-ru-darkness-ova-episode-3"
+    },
+    {
+      "id": "to-love-ru-darkness-ova-episode-4",
+      "title": "Volume 4",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13851.jpg",
+      "number": 4,
+      "createdAt": "2013-07-05T16:25:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//to-love-ru-darkness-ova-episode-4"
+    },
+    {
+      "id": "to-love-ru-darkness-ova-episode-5",
+      "title": "Volume 5",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13851.jpg",
+      "number": 5,
+      "createdAt": "2014-06-30T20:44:31Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//to-love-ru-darkness-ova-episode-5"
+    },
+    {
+      "id": "to-love-ru-darkness-ova-episode-6",
+      "title": "Volume 6",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13851.jpg",
+      "number": 6,
+      "createdAt": "2014-11-22T05:08:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//to-love-ru-darkness-ova-episode-6"
+    }
+  ]
+}

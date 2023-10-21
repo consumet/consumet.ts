@@ -1,0 +1,877 @@
+{
+  "id": "623",
+  "title": {
+    "romaji": "Shichinin no Nana",
+    "english": "Nana: Seven of Seven",
+    "native": "七人のナナ"
+  },
+  "malId": 623,
+  "synonyms": [
+    "Nana Seven of Seven",
+    "7 of 7",
+    "Nana 7 of 7"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+  "popularity": 1854,
+  "color": "#e4a143",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+  "description": "Nana is your average high school girl with a boyfriend, average grades, interests, and problems until her inventor grandfather’s experiment goes haywire and produces 6 Nana clones! The trouble begins when they all have a crush on the same boy!<br><br>(Source: Media Blasters)",
+  "status": "Completed",
+  "releaseDate": 2002,
+  "startDate": {
+    "year": 2002,
+    "month": 1,
+    "day": 10
+  },
+  "endDate": {
+    "year": 2002,
+    "month": 6,
+    "day": 27
+  },
+  "totalEpisodes": 25,
+  "currentEpisode": 25,
+  "rating": 59,
+  "duration": 24,
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Romance"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "A.C.G.T."
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 1596,
+      "malId": 1596,
+      "title": {
+        "romaji": "Arcade Gamer Fubuki",
+        "english": "Arcade Gamer Fubuki",
+        "native": "アーケードゲーマーふぶき",
+        "userPreferred": "Arcade Gamer Fubuki"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1596.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1596.jpg",
+      "rating": 48,
+      "type": "OVA"
+    },
+    {
+      "id": 516,
+      "malId": 516,
+      "title": {
+        "romaji": "Keroro Gunsou",
+        "english": "Sgt. Frog",
+        "native": "ケロロ軍曹",
+        "userPreferred": "Keroro Gunsou"
+      },
+      "status": "Completed",
+      "episodes": 358,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx516-ofBmeR4TcbKb.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/516-kgoFaO4d13bt.jpg",
+      "rating": 74,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 25170,
+      "role": "MAIN",
+      "name": {
+        "first": "Nanacchi",
+        "last": null,
+        "full": "Nanacchi",
+        "native": "ナナっち ",
+        "userPreferred": "Nanacchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25170.jpg",
+      "voiceActors": [
+        {
+          "id": 103658,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Asaki",
+            "full": "Mai Asaki",
+            "native": "舞 浅木",
+            "userPreferred": "Mai Asaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8658.jpg"
+        },
+        {
+          "id": 95905,
+          "language": "English",
+          "name": {
+            "first": "Veronica",
+            "last": "Taylor",
+            "full": "Veronica Taylor",
+            "native": null,
+            "userPreferred": "Veronica Taylor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95905-X3mxkcZkmmKN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8128,
+      "role": "MAIN",
+      "name": {
+        "first": "Nana",
+        "last": "Suzuki",
+        "full": "Nana Suzuki",
+        "native": "鈴木ナナ",
+        "userPreferred": "Nana Suzuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8128.jpg",
+      "voiceActors": [
+        {
+          "id": 95081,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Mizuki",
+            "full": "Nana Mizuki",
+            "native": "水樹奈々",
+            "userPreferred": "Nana Mizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95081-qto4UanYkpQT.png"
+        },
+        {
+          "id": 95905,
+          "language": "English",
+          "name": {
+            "first": "Veronica",
+            "last": "Taylor",
+            "full": "Veronica Taylor",
+            "native": null,
+            "userPreferred": "Veronica Taylor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95905-X3mxkcZkmmKN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16193,
+      "role": "MAIN",
+      "name": {
+        "first": "Nanapon",
+        "last": null,
+        "full": "Nanapon",
+        "native": "ナナぽん",
+        "userPreferred": "Nanapon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16193.jpg",
+      "voiceActors": [
+        {
+          "id": 95078,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Nazuka",
+            "full": "Kaori Nazuka",
+            "native": "名塚佳織",
+            "userPreferred": "Kaori Nazuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95078-tMm7zdlRNZ3P.jpg"
+        },
+        {
+          "id": 95905,
+          "language": "English",
+          "name": {
+            "first": "Veronica",
+            "last": "Taylor",
+            "full": "Veronica Taylor",
+            "native": null,
+            "userPreferred": "Veronica Taylor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95905-X3mxkcZkmmKN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 25169,
+      "role": "MAIN",
+      "name": {
+        "first": "Nanappe",
+        "last": null,
+        "full": "Nanappe",
+        "native": "ナナっぺ",
+        "userPreferred": "Nanappe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25169.jpg",
+      "voiceActors": [
+        {
+          "id": 103657,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumomo",
+            "last": "Momomori",
+            "full": "Sumomo Momomori",
+            "native": "すもも 桃森",
+            "userPreferred": "Sumomo Momomori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8657.jpg"
+        },
+        {
+          "id": 95905,
+          "language": "English",
+          "name": {
+            "first": "Veronica",
+            "last": "Taylor",
+            "full": "Veronica Taylor",
+            "native": null,
+            "userPreferred": "Veronica Taylor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95905-X3mxkcZkmmKN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 25171,
+      "role": "MAIN",
+      "name": {
+        "first": "Nanakko",
+        "last": null,
+        "full": "Nanakko",
+        "native": "ナナっこ ",
+        "userPreferred": "Nanakko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25171.jpg",
+      "voiceActors": [
+        {
+          "id": 103659,
+          "language": "Japanese",
+          "name": {
+            "first": "Madoka",
+            "last": "Akita",
+            "full": "Madoka Akita",
+            "native": "まどか 秋田",
+            "userPreferred": "Madoka Akita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8659.jpg"
+        },
+        {
+          "id": 95905,
+          "language": "English",
+          "name": {
+            "first": "Veronica",
+            "last": "Taylor",
+            "full": "Veronica Taylor",
+            "native": null,
+            "userPreferred": "Veronica Taylor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95905-X3mxkcZkmmKN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16192,
+      "role": "MAIN",
+      "name": {
+        "first": "Nanarin",
+        "last": null,
+        "full": "Nanarin",
+        "native": "ナナりん",
+        "userPreferred": "Nanarin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16192.jpg",
+      "voiceActors": [
+        {
+          "id": 95359,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Fukui",
+            "full": "Yukari Fukui",
+            "native": "福井裕佳梨",
+            "userPreferred": "Yukari Fukui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95359-ZgCbzadpH4g4.png"
+        },
+        {
+          "id": 95905,
+          "language": "English",
+          "name": {
+            "first": "Veronica",
+            "last": "Taylor",
+            "full": "Veronica Taylor",
+            "native": null,
+            "userPreferred": "Veronica Taylor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95905-X3mxkcZkmmKN.jpg"
+        },
+        {
+          "id": 109927,
+          "language": "Korean",
+          "name": {
+            "first": "Seon Hye",
+            "last": "Kim",
+            "full": "Seon Hye Kim",
+            "native": "선혜 김",
+            "userPreferred": "Seon Hye Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14927.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16194,
+      "role": "MAIN",
+      "name": {
+        "first": "Nanasama",
+        "last": null,
+        "full": "Nanasama",
+        "native": "ナナさま",
+        "userPreferred": "Nanasama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16194.jpg",
+      "voiceActors": [
+        {
+          "id": 95031,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Nakahara",
+            "full": "Mai Nakahara",
+            "native": "中原麻衣",
+            "userPreferred": "Mai Nakahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95031-tipPIz2k0Ncw.png"
+        },
+        {
+          "id": 95905,
+          "language": "English",
+          "name": {
+            "first": "Veronica",
+            "last": "Taylor",
+            "full": "Veronica Taylor",
+            "native": null,
+            "userPreferred": "Veronica Taylor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95905-X3mxkcZkmmKN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12861,
+      "role": "MAIN",
+      "name": {
+        "first": "Hitomi",
+        "last": "Onodera",
+        "full": "Hitomi Onodera",
+        "native": "小野寺瞳",
+        "userPreferred": "Hitomi Onodera"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12861.jpg",
+      "voiceActors": [
+        {
+          "id": 95401,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Matsuki",
+            "full": "Miyu Matsuki",
+            "native": "松来未祐",
+            "userPreferred": "Miyu Matsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95401-2ffju56ewc36.png"
+        },
+        {
+          "id": 96503,
+          "language": "English",
+          "name": {
+            "first": "Rachael",
+            "last": "Lillis",
+            "full": "Rachael Lillis",
+            "native": null,
+            "userPreferred": "Rachael Lillis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96503-BpnE3dFXJnyF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16227,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jamanana",
+        "last": null,
+        "full": "Jamanana",
+        "native": "ジャマナナ",
+        "userPreferred": "Jamanana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16227.jpg",
+      "voiceActors": [
+        {
+          "id": 95081,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Mizuki",
+            "full": "Nana Mizuki",
+            "native": "水樹奈々",
+            "userPreferred": "Nana Mizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95081-qto4UanYkpQT.png"
+        },
+        {
+          "id": 95905,
+          "language": "English",
+          "name": {
+            "first": "Veronica",
+            "last": "Taylor",
+            "full": "Veronica Taylor",
+            "native": null,
+            "userPreferred": "Veronica Taylor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95905-X3mxkcZkmmKN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16191,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Erino",
+        "last": "Kogarashi",
+        "full": "Erino Kogarashi",
+        "native": "木枯えりの",
+        "userPreferred": "Erino Kogarashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95585,
+          "language": "Japanese",
+          "name": {
+            "first": "Erino",
+            "last": "Hazuki",
+            "full": "Erino Hazuki",
+            "native": "葉月絵理乃",
+            "userPreferred": "Erino Hazuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95585-q5noKAfKT13Z.png"
+        },
+        {
+          "id": 175828,
+          "language": "English",
+          "name": {
+            "first": "Mena",
+            "last": "Roberts",
+            "full": "Mena Roberts",
+            "native": null,
+            "userPreferred": "Mena Roberts"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52161,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kamichika",
+        "last": "Yuuichi",
+        "full": "Kamichika Yuuichi",
+        "native": "神近優一",
+        "userPreferred": "Kamichika Yuuichi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52161.jpg",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        },
+        {
+          "id": 95833,
+          "language": "English",
+          "name": {
+            "first": "Michael",
+            "last": "Sinterniklaas",
+            "full": "Michael Sinterniklaas",
+            "native": null,
+            "userPreferred": "Michael Sinterniklaas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/833.jpg"
+        },
+        {
+          "id": 109777,
+          "language": "Korean",
+          "name": {
+            "first": "Sang-Hyeon",
+            "last": "Eom",
+            "full": "Sang-Hyeon Eom",
+            "native": "엄상현",
+            "userPreferred": "Sang-Hyeon Eom"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14777.jpg"
+        }
+      ]
+    },
+    {
+      "id": 187279,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rokuzo",
+        "last": "Suzuki",
+        "full": "Rokuzo Suzuki",
+        "native": "鈴木六造",
+        "userPreferred": "Rokuzo Suzuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b187279-p1PmnwIUfflv.png",
+      "voiceActors": [
+        {
+          "id": 96436,
+          "language": "Japanese",
+          "name": {
+            "first": "Mugihito",
+            "last": "",
+            "full": "Mugihito",
+            "native": "麦人 ",
+            "userPreferred": "Mugihito"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1436.jpg"
+        },
+        {
+          "id": 104720,
+          "language": "English",
+          "name": {
+            "first": "Mike",
+            "last": "Pollock",
+            "full": "Mike Pollock",
+            "native": null,
+            "userPreferred": "Mike Pollock"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104720-YrS8GnziY5Lr.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10159,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Melody",
+        "last": "Honey",
+        "full": "Melody Honey",
+        "native": "メロディー ハニー",
+        "userPreferred": "Melody Honey"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10159.jpg",
+      "voiceActors": [
+        {
+          "id": 95516,
+          "language": "Japanese",
+          "name": {
+            "first": "Naoko",
+            "last": "Matsui",
+            "full": "Naoko Matsui",
+            "native": "松井菜桜子",
+            "userPreferred": "Naoko Matsui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95516-N94jWbOCyDd7.jpg"
+        },
+        {
+          "id": 101906,
+          "language": "English",
+          "name": {
+            "first": "Erica",
+            "last": "Schroeder",
+            "full": "Erica Schroeder",
+            "native": null,
+            "userPreferred": "Erica Schroeder"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101906-Cul50rrR8cSA.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 33648,
+      "relationType": "ADAPTATION",
+      "malId": 3648,
+      "title": {
+        "romaji": "Shichinin no Nana",
+        "english": null,
+        "native": "七人のナナ",
+        "userPreferred": "Shichinin no Nana"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/3648.jpg",
+      "color": "#f1d643",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/3648.jpg",
+      "rating": 64
+    },
+    {
+      "id": 117019,
+      "relationType": "SIDE_STORY",
+      "malId": 22361,
+      "title": {
+        "romaji": "Shichinin no Nana: Oshougatsu Da yo! 7×7 = 49-nin no Nana?",
+        "english": "New Year Special: It's New Year's! 7 x 7 = 49 Nanas? ",
+        "native": "七人のナナ お正月だよ!7×7＝49人のナナ?",
+        "userPreferred": "Shichinin no Nana: Oshougatsu Da yo! 7×7 = 49-nin no Nana?"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b117019-x3szkP8JrzZE.jpg",
+      "color": "#e4c928",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b117019-x3szkP8JrzZE.jpg",
+      "rating": 55
+    }
+  ],
+  "episodes": [
+    {
+      "id": "shichinin-no-nana-episode-1",
+      "title": "Nana times Nana is Nana?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 1,
+      "createdAt": "2014-11-16T20:27:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-1"
+    },
+    {
+      "id": "shichinin-no-nana-episode-2",
+      "title": "Chaos! All seven of us go to school?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 2,
+      "createdAt": "2014-11-16T20:27:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-2"
+    },
+    {
+      "id": "shichinin-no-nana-episode-3",
+      "title": "Do seven Nanas make one Nana?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 3,
+      "createdAt": "2014-11-16T20:27:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-3"
+    },
+    {
+      "id": "shichinin-no-nana-episode-4",
+      "title": "The Birth of the Exam Hell Squadron, Nana Rangers?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 4,
+      "createdAt": "2014-11-16T20:27:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-4"
+    },
+    {
+      "id": "shichinin-no-nana-episode-5",
+      "title": "Decision Time! Yuichi's First-Choice High School?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 5,
+      "createdAt": "2014-11-16T20:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-5"
+    },
+    {
+      "id": "shichinin-no-nana-episode-6",
+      "title": "Examinee No. 623! Late-Night Radio Commotion?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 6,
+      "createdAt": "2014-11-16T20:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-6"
+    },
+    {
+      "id": "shichinin-no-nana-episode-7",
+      "title": "Midnight Snack Munchies! A Cook-off to Help Us Pass Our Exams?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 7,
+      "createdAt": "2014-11-16T20:27:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-7"
+    },
+    {
+      "id": "shichinin-no-nana-episode-8",
+      "title": "Confess Your Love in English! K.O. the American Tutor?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 8,
+      "createdAt": "2014-11-16T20:27:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-8"
+    },
+    {
+      "id": "shichinin-no-nana-episode-9",
+      "title": "Sweet Temptation! Love, Secrets and Crib Notes?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 9,
+      "createdAt": "2014-11-16T20:27:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-9"
+    },
+    {
+      "id": "shichinin-no-nana-episode-10",
+      "title": "The Dreaded F! Final Exams Are a Must-Win Battle?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 10,
+      "createdAt": "2014-11-16T20:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-10"
+    },
+    {
+      "id": "shichinin-no-nana-episode-11",
+      "title": "Have Your Cake and Eat It Too!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 11,
+      "createdAt": "2014-11-16T20:28:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-11"
+    },
+    {
+      "id": "shichinin-no-nana-episode-12",
+      "title": "Hot Summer Study Retreat! Heartstopping Test of Courage and Love?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 12,
+      "createdAt": "2014-11-16T20:28:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-12"
+    },
+    {
+      "id": "shichinin-no-nana-episode-13",
+      "title": "Love and English Conversation! A Mid-air Rendezvous with Yuichi?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 13,
+      "createdAt": "2014-11-16T20:28:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-13"
+    },
+    {
+      "id": "shichinin-no-nana-episode-14",
+      "title": "Overseas Study Program! Chaos in San Francisco?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 14,
+      "createdAt": "2014-11-16T20:28:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-14"
+    },
+    {
+      "id": "shichinin-no-nana-episode-15",
+      "title": "To Each Her Own Entrance Exam! Who Will Catch the Future?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 15,
+      "createdAt": "2014-11-16T20:28:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-15"
+    },
+    {
+      "id": "shichinin-no-nana-episode-16",
+      "title": "Cultural Festival Heartbreak! A 4-Handkerchief Tearjerker?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 16,
+      "createdAt": "2014-11-16T20:28:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-16"
+    },
+    {
+      "id": "shichinin-no-nana-episode-17",
+      "title": "The Day Nana Disappeared... and Reappeared?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 17,
+      "createdAt": "2014-11-16T20:28:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-17"
+    },
+    {
+      "id": "shichinin-no-nana-episode-18",
+      "title": "Confession in the Snow? Happy X`mas",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 18,
+      "createdAt": "2014-11-16T20:28:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-18"
+    },
+    {
+      "id": "shichinin-no-nana-episode-19",
+      "title": "New Year`s Eve With the Whole Family! Panic! Will They Be Seen Seven?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 19,
+      "createdAt": "2014-11-16T20:28:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-19"
+    },
+    {
+      "id": "shichinin-no-nana-episode-20",
+      "title": "Passing Grade Guaranteed! Charms Gone Awry?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 20,
+      "createdAt": "2014-11-16T20:28:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-20"
+    },
+    {
+      "id": "shichinin-no-nana-episode-21",
+      "title": "The Missing Pencil! There Are 8 Nanas?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 21,
+      "createdAt": "2014-11-16T20:28:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-21"
+    },
+    {
+      "id": "shichinin-no-nana-episode-22",
+      "title": "Showdown! Nana and Yuichi! Interview for Early Acceptance?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 22,
+      "createdAt": "2014-11-16T20:28:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-22"
+    },
+    {
+      "id": "shichinin-no-nana-episode-23",
+      "title": "Early Acceptance Retracted! My Love Life And My Exams Are Out Of Control?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 23,
+      "createdAt": "2014-11-16T20:28:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-23"
+    },
+    {
+      "id": "shichinin-no-nana-episode-24",
+      "title": "The Day Before the Exam!! The Last Battle, Nana vs. Nana?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 24,
+      "createdAt": "2014-11-16T20:28:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-24"
+    },
+    {
+      "id": "shichinin-no-nana-episode-25",
+      "title": "Acceptance Announcement!! Flowers Blossom on the Hill of Hearts?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 25,
+      "createdAt": "2014-11-16T20:28:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-25"
+    },
+    {
+      "id": "shichinin-no-nana-episode-26",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx623-4vLVAsUbQDO0.png",
+      "number": 26,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shichinin-no-nana-episode-26"
+    }
+  ]
+}

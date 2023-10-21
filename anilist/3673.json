@@ -1,0 +1,888 @@
+{
+  "id": "3673",
+  "title": {
+    "romaji": "Nijuu Mensou no Musume",
+    "english": "The Daughter of 20 Faces",
+    "native": "二十面相の娘"
+  },
+  "malId": 3673,
+  "synonyms": [
+    "The Daughter of Twenty Faces",
+    "Chiko",
+    "Heiress of the Phantom Thief",
+    "Chiko, l'héritière de Cent-Visages"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+  "popularity": 5802,
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3673-xT4Iyud3WayT.jpg",
+  "description": "Chiko is the daughter of the wealthy Mikamo family who has to live with her aunt and uncle after her parents passed away. Because her aunt wants to inherit the Mikamo family's wealth, she gives Chiko poisoned food. One day, however, she's kidnapped by the Nijuu Mensou (20 Faces) and decides to join his clan. <br><br>\n(Source: ZOMG)",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 4,
+    "day": 13
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 9,
+    "day": 28
+  },
+  "totalEpisodes": 22,
+  "currentEpisode": 22,
+  "rating": 69,
+  "duration": 22,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Mystery"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "bones",
+    "Telecom Animation Film"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 1571,
+      "malId": 1571,
+      "title": {
+        "romaji": "Ghost Hunt",
+        "english": "Ghost Hunt",
+        "native": "ゴーストハント",
+        "userPreferred": "Ghost Hunt"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1571-rgWSFoPDZhzS.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1571-dDw7w85KmYFD.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 8425,
+      "malId": 8425,
+      "title": {
+        "romaji": "GOSICK",
+        "english": "Gosick",
+        "native": "GOSICK",
+        "userPreferred": "GOSICK"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx8425-Bn14ayPjnq9o.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8425-Lf6WLBHfOdRQ.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 20818,
+      "malId": 24909,
+      "title": {
+        "romaji": "Kaitou Joker",
+        "english": "Mysterious Joker",
+        "native": "怪盗ジョーカー",
+        "userPreferred": "Kaitou Joker"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20818.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20818.jpg",
+      "rating": 65,
+      "type": "TV"
+    },
+    {
+      "id": 21004,
+      "malId": 28869,
+      "title": {
+        "romaji": "Kaitou Joker 2",
+        "english": "Mysterious Joker Season 2",
+        "native": "怪盗ジョーカー2",
+        "userPreferred": "Kaitou Joker 2"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21004-mFKDlWoAK8XK.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21004-mFKDlWoAK8XK.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 21859,
+      "malId": 33490,
+      "title": {
+        "romaji": "Kaitou Joker 4",
+        "english": "Mysterious Joker Season 4",
+        "native": "怪盗ジョーカー 4",
+        "userPreferred": "Kaitou Joker 4"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21859-AbrSRa5LnmJS.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21859-AbrSRa5LnmJS.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 198,
+      "malId": 198,
+      "title": {
+        "romaji": "Speed Grapher",
+        "english": "Speed Grapher",
+        "native": "スピードグラファー",
+        "userPreferred": "Speed Grapher"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198-11hkVkT4h4Im.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/198-kF0xLn7nqAHj.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 483,
+      "malId": 483,
+      "title": {
+        "romaji": "Kurau Phantom Memory",
+        "english": "Kurau Phantom Memory",
+        "native": "クラウ ファントムメモリー",
+        "userPreferred": "Kurau Phantom Memory"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx483-huW3GD9cUqSi.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/483-E8FpGnzxTDdI.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 1946,
+      "malId": 1946,
+      "title": {
+        "romaji": "Ashita no Nadja",
+        "english": null,
+        "native": "明日のナージャ",
+        "userPreferred": "Ashita no Nadja"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1946-MLn2pjGSGhHJ.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1946-uwfg4bMXy33Y.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 1695,
+      "malId": 1695,
+      "title": {
+        "romaji": "Les Misérables: Shoujo Cosette",
+        "english": null,
+        "native": "レ・ミゼラブル 少女コゼット",
+        "userPreferred": "Les Misérables: Shoujo Cosette"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1695-etz4t9yoXO19.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1695-f2BWoFWAhG27.jpg",
+      "rating": 77,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 10510,
+      "role": "MAIN",
+      "name": {
+        "first": "Chizuko",
+        "last": "Mikamo",
+        "full": "Chizuko Mikamo",
+        "native": "美甘 千津子",
+        "userPreferred": "Chizuko Mikamo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10510.jpg",
+      "voiceActors": [
+        {
+          "id": 95004,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Hirano",
+            "full": "Aya Hirano",
+            "native": "平野綾",
+            "userPreferred": "Aya Hirano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95004-qWQQHGzY3wqr.png"
+        },
+        {
+          "id": 109769,
+          "language": "Korean",
+          "name": {
+            "first": "Min-Jeong",
+            "last": "Yeo",
+            "full": "Min-Jeong Yeo",
+            "native": "여민정",
+            "userPreferred": "Min-Jeong Yeo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14769.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10511,
+      "role": "MAIN",
+      "name": {
+        "first": "Nijuu Mensou",
+        "last": null,
+        "full": "Nijuu Mensou",
+        "native": "二十面相",
+        "userPreferred": "Nijuu Mensou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10511.jpg",
+      "voiceActors": [
+        {
+          "id": 96637,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuya",
+            "last": "Uchida",
+            "full": "Yuuya Uchida",
+            "native": "内田夕夜",
+            "userPreferred": "Yuuya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96637-GOQaib9J8Mu6.png"
+        },
+        {
+          "id": 109819,
+          "language": "Korean",
+          "name": {
+            "first": "Seung jun",
+            "last": "Kim",
+            "full": "Seung jun Kim",
+            "native": "승준 김",
+            "userPreferred": "Seung jun Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14819.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20466,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akechi",
+        "last": null,
+        "full": "Akechi",
+        "native": "明智",
+        "userPreferred": "Akechi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20466.jpg",
+      "voiceActors": [
+        {
+          "id": 95371,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Hamada",
+            "full": "Kenji Hamada",
+            "native": "浜田賢二",
+            "userPreferred": "Kenji Hamada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95371-nyA7w7nPrlPr.png"
+        },
+        {
+          "id": 109931,
+          "language": "Korean",
+          "name": {
+            "first": "Yeong Jae",
+            "last": "Pyo",
+            "full": "Yeong Jae Pyo",
+            "native": "영재 표",
+            "userPreferred": "Yeong Jae Pyo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14931.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10513,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ken",
+        "last": null,
+        "full": "Ken",
+        "native": "ケン",
+        "userPreferred": "Ken"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10513.jpg",
+      "voiceActors": [
+        {
+          "id": 95042,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaya",
+            "last": "Matsukaze",
+            "full": "Masaya Matsukaze",
+            "native": "松風雅也",
+            "userPreferred": "Masaya Matsukaze"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95042-gEcEYD7iDXnF.png"
+        },
+        {
+          "id": 109853,
+          "language": "Korean",
+          "name": {
+            "first": "Yong-Woo",
+            "last": "Shin",
+            "full": "Yong-Woo Shin",
+            "native": "신용우",
+            "userPreferred": "Yong-Woo Shin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109853-j96EqRUBocBE.jpg"
+        }
+      ]
+    },
+    {
+      "id": 55543,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yoshie",
+        "last": "Mikamo",
+        "full": "Yoshie Mikamo",
+        "native": "美甘淑恵",
+        "userPreferred": "Yoshie Mikamo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/55543.jpg",
+      "voiceActors": [
+        {
+          "id": 95435,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Touma",
+            "full": "Yumi Touma",
+            "native": "冬馬由美",
+            "userPreferred": "Yumi Touma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95435-REiTyMQqIfH4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30169,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nozomi",
+        "last": "Kayama",
+        "full": "Nozomi Kayama",
+        "native": null,
+        "userPreferred": "Nozomi Kayama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30169.jpg",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        },
+        {
+          "id": 109993,
+          "language": "Korean",
+          "name": {
+            "first": "Ji Yeong",
+            "last": "Lee",
+            "full": "Ji Yeong Lee",
+            "native": "이지영",
+            "userPreferred": "Ji Yeong Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109993-WIQ4T5SCuW8X.jpg"
+        }
+      ]
+    },
+    {
+      "id": 46363,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Seiji",
+        "last": "Tamiya",
+        "full": "Seiji Tamiya",
+        "native": "田宮清次",
+        "userPreferred": "Seiji Tamiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/46363.jpg",
+      "voiceActors": [
+        {
+          "id": 95100,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsuko",
+            "last": "Tanaka",
+            "full": "Atsuko Tanaka",
+            "native": "田中敦子",
+            "userPreferred": "Atsuko Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95100-QZdjWZLCoWkf.png"
+        },
+        {
+          "id": 110097,
+          "language": "Korean",
+          "name": {
+            "first": "In-Seong",
+            "last": "Oh",
+            "full": "In-Seong Oh",
+            "native": "오인성",
+            "userPreferred": "In-Seong Oh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15097.jpg"
+        },
+        {
+          "id": 109993,
+          "language": "Korean",
+          "name": {
+            "first": "Ji Yeong",
+            "last": "Lee",
+            "full": "Ji Yeong Lee",
+            "native": "이지영",
+            "userPreferred": "Ji Yeong Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109993-WIQ4T5SCuW8X.jpg"
+        }
+      ]
+    },
+    {
+      "id": 55541,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akine",
+        "last": null,
+        "full": "Akine",
+        "native": "空根探偵",
+        "userPreferred": "Akine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/55541.jpg",
+      "voiceActors": [
+        {
+          "id": 100148,
+          "language": "Japanese",
+          "name": {
+            "first": "Masanori",
+            "last": "Takeda",
+            "full": "Masanori Takeda",
+            "native": "竹田雅則",
+            "userPreferred": "Masanori Takeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100148-hFBLAJp8q5QI.png"
+        }
+      ]
+    },
+    {
+      "id": 10512,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tome",
+        "last": null,
+        "full": "Tome",
+        "native": "トメ",
+        "userPreferred": "Tome"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10512.jpg",
+      "voiceActors": [
+        {
+          "id": 95124,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Arai",
+            "full": "Satomi Arai",
+            "native": "新井里美",
+            "userPreferred": "Satomi Arai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95124-8C0BORTX7Bfd.jpg"
+        },
+        {
+          "id": 109921,
+          "language": "Korean",
+          "name": {
+            "first": "Seon-Yeong",
+            "last": "Park",
+            "full": "Seon-Yeong Park",
+            "native": "박선영",
+            "userPreferred": "Seon-Yeong Park"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14921.jpg"
+        }
+      ]
+    },
+    {
+      "id": 46361,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tiger",
+        "last": null,
+        "full": "Tiger",
+        "native": "虎",
+        "userPreferred": "Tiger"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/46361.jpg",
+      "voiceActors": [
+        {
+          "id": 100928,
+          "language": "Japanese",
+          "name": {
+            "first": "Rintarou",
+            "last": "Nishi",
+            "full": "Rintarou Nishi",
+            "native": "西凜太朗",
+            "userPreferred": "Rintarou Nishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100928-OfFb5f55VSFB.png"
+        },
+        {
+          "id": 109855,
+          "language": "Korean",
+          "name": {
+            "first": "Ju Chang",
+            "last": "Lee",
+            "full": "Ju Chang Lee",
+            "native": "주창 이",
+            "userPreferred": "Ju Chang Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14855.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12460,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Goro",
+        "last": null,
+        "full": "Goro",
+        "native": null,
+        "userPreferred": "Goro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12460.jpg",
+      "voiceActors": [
+        {
+          "id": 95167,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuya",
+            "last": "Kakihara",
+            "full": "Tetsuya Kakihara",
+            "native": "柿原徹也",
+            "userPreferred": "Tetsuya Kakihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95167-wjIShzThRTlS.png"
+        }
+      ]
+    },
+    {
+      "id": 10514,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shunka",
+        "last": "Koito",
+        "full": "Shunka Koito",
+        "native": null,
+        "userPreferred": "Shunka Koito"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10514.jpg",
+      "voiceActors": [
+        {
+          "id": 95241,
+          "language": "Japanese",
+          "name": {
+            "first": "Rina",
+            "last": "Satou",
+            "full": "Rina Satou",
+            "native": "佐藤利奈",
+            "userPreferred": "Rina Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95241-4XvR64oguxwS.png"
+        },
+        {
+          "id": 109851,
+          "language": "Korean",
+          "name": {
+            "first": "Jeong Mi",
+            "last": "Bae",
+            "full": "Jeong Mi Bae",
+            "native": "정미 배",
+            "userPreferred": "Jeong Mi Bae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14851.jpg"
+        }
+      ]
+    },
+    {
+      "id": 46365,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kohei",
+        "last": "Kakihara",
+        "full": "Kohei Kakihara",
+        "native": "柿島耕平",
+        "userPreferred": "Kohei Kakihara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/46365.jpg",
+      "voiceActors": [
+        {
+          "id": 95337,
+          "language": "Japanese",
+          "name": {
+            "first": "Houchuu",
+            "last": "Ootsuka",
+            "full": "Houchuu Ootsuka",
+            "native": "大塚芳忠",
+            "userPreferred": "Houchuu Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95337-NnvEQEBKV2dR.jpg"
+        },
+        {
+          "id": 109767,
+          "language": "Korean",
+          "name": {
+            "first": "Gwang",
+            "last": "Jang",
+            "full": "Gwang Jang",
+            "native": "광 장",
+            "userPreferred": "Gwang Jang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14767.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 38597,
+      "relationType": "ADAPTATION",
+      "malId": 8597,
+      "title": {
+        "romaji": "Nijuu Mensou no Musume",
+        "english": "Daughter of Twenty Faces",
+        "native": "二十面相の娘",
+        "userPreferred": "Nijuu Mensou no Musume"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/8597.jpg",
+      "color": "#f1355d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/8597.jpg",
+      "rating": 71
+    }
+  ],
+  "episodes": [
+    {
+      "id": "nijuu-mensou-no-musume-episode-1",
+      "title": "Door",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 1,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-1"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-2",
+      "title": "Crimson Eastern Nights",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 2,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-2"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-3",
+      "title": "Castle At the Bottom of the Ocean",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 3,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-3"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-4",
+      "title": "Thief Aspiration",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 4,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-4"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-5",
+      "title": "Star Performer Lily",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 5,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-5"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-6",
+      "title": "Dream of A Transient World",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 6,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-6"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-7",
+      "title": "Akechi Appears",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 7,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-7"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-8",
+      "title": "The Human Tank",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 8,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-8"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-9",
+      "title": "The Remaining People",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 9,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-9"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-10",
+      "title": "White Hair Island",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 10,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-10"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-11",
+      "title": "At the Summer Resort",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 11,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-11"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-12",
+      "title": "The Devil vs. The Mystery Man",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 12,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-12"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-13",
+      "title": "White Flame",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 13,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-13"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-14",
+      "title": "The Airship of Death",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 14,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-14"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-15",
+      "title": "The Detective Girls",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 15,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-15"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-16",
+      "title": "Cipher",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 16,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-16"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-17",
+      "title": "Great Dark Room",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 17,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-17"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-18",
+      "title": "Terror Tower",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 18,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-18"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-19",
+      "title": "Hellish Scenery",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 19,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-19"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-20",
+      "title": "Mysterious Twenty-Faces",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 20,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-20"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-21",
+      "title": "Dawn",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 21,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-21"
+    },
+    {
+      "id": "nijuu-mensou-no-musume-episode-22",
+      "title": "Chiko",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3673-Fos7rHpTdnnf.png",
+      "number": 22,
+      "createdAt": "2013-02-20T18:25:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nijuu-mensou-no-musume-episode-22"
+    }
+  ]
+}

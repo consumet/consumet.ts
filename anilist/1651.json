@@ -1,0 +1,432 @@
+{
+  "id": "1651",
+  "title": {
+    "romaji": "Uchuu Senkan Yamato 2",
+    "english": "Star Blazers: The Comet Empire",
+    "native": "宇宙戦艦ヤマト2"
+  },
+  "malId": 1651,
+  "synonyms": [
+    "Space Battleship Yamato 2",
+    "Star Blazers 2",
+    "Space Cruiser Yamato 2",
+    "Uchu Senkan Yamato 2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1651-AVojwgPHoiuH.png",
+  "popularity": 1980,
+  "color": "#e4a150",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1651-hGaAdVlPpHkK.jpg",
+  "description": "A year has passed since the Star Force returned to save the Earth but another danger now approaches from deep space. A gigantic White Comet hurtles toward our galaxy, obliterating everything in its path. But it is no ordinary comet - it is the deadly Comet Empire, conqueror of worlds and Earth is the next target! Against orders, the Star Force blasts off to investigate, but even if they can get past the flagship Andromeda, they don't yet know the true nature of their new enemy!",
+  "status": "Completed",
+  "releaseDate": 1978,
+  "startDate": {
+    "year": 1978,
+    "month": 10,
+    "day": 14
+  },
+  "endDate": {
+    "year": 1979,
+    "month": 4,
+    "day": 7
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 68,
+  "duration": 24,
+  "genres": [
+    "Drama",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Academy Productions",
+    "Group TAC"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 21730,
+      "malId": 33064,
+      "title": {
+        "romaji": "Uchuu Senkan Yamato 2202: Ai no Senshi-tachi",
+        "english": "Star Blazers: Space Battleship Yamato 2202",
+        "native": "宇宙戦艦ヤマト2202 愛の戦士たち",
+        "userPreferred": "Uchuu Senkan Yamato 2202: Ai no Senshi-tachi"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21730-caiwTjlMlg0R.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21730-1wEA54xT95HE.jpg",
+      "rating": 74,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 6769,
+      "role": "MAIN",
+      "name": {
+        "first": "Susumu",
+        "last": "Kodai",
+        "full": "Susumu Kodai",
+        "native": "古代進",
+        "userPreferred": "Susumu Kodai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6769-bkQ5BjNe8ykJ.png",
+      "voiceActors": [
+        {
+          "id": 95870,
+          "language": "Japanese",
+          "name": {
+            "first": "Kei",
+            "last": "Tomiyama",
+            "full": "Kei Tomiyama",
+            "native": "富山敬",
+            "userPreferred": "Kei Tomiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95870-nqSFY9095pWw.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42714,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuki",
+        "last": "Mori",
+        "full": "Yuki Mori",
+        "native": "森雪",
+        "userPreferred": "Yuki Mori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b42714-BOdxDbkIW3Hw.png",
+      "voiceActors": [
+        {
+          "id": 96119,
+          "language": "Japanese",
+          "name": {
+            "first": "Harumi",
+            "last": "Ichiryuusai",
+            "full": "Harumi Ichiryuusai",
+            "native": "一龍斎春水",
+            "userPreferred": "Harumi Ichiryuusai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96119-fc73Td5Qm6RB.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1650,
+      "relationType": "PREQUEL",
+      "malId": 1650,
+      "title": {
+        "romaji": "Uchuu Senkan Yamato",
+        "english": "Star Blazers: The Quest for Iscandar",
+        "native": "宇宙戦艦ヤマト",
+        "userPreferred": "Uchuu Senkan Yamato"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1650-v2eMjvOfnLCc.jpg",
+      "color": "#e42843",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1650-Zge6M0RZ1Q7Q.jpg",
+      "rating": 71
+    },
+    {
+      "id": 1652,
+      "relationType": "SEQUEL",
+      "malId": 1652,
+      "title": {
+        "romaji": "Uchuu Senkan Yamato 3",
+        "english": "Star Blazers: The Bolar Wars",
+        "native": "宇宙戦艦ヤマト3",
+        "userPreferred": "Uchuu Senkan Yamato 3"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1652-XyonpdSstJsc.jpg",
+      "color": "#f1a10d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n1652-EY9g1D2yl1ZA.jpg",
+      "rating": 66
+    },
+    {
+      "id": 3071,
+      "relationType": "SEQUEL",
+      "malId": 3071,
+      "title": {
+        "romaji": "Uchuu Senkan Yamato: Aratanaru Tabidachi",
+        "english": "Space Battleship Yamato: The New Voyage",
+        "native": "宇宙戦艦ヤマト 新たなる旅立ち",
+        "userPreferred": "Uchuu Senkan Yamato: Aratanaru Tabidachi"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3071-hoAZ5A2dKdHS.jpg",
+      "color": "#e4ae50",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3071-hoAZ5A2dKdHS.jpg",
+      "rating": 63
+    },
+    {
+      "id": 3067,
+      "relationType": "ALTERNATIVE",
+      "malId": 3067,
+      "title": {
+        "romaji": "Saraba Uchuu Senkan Yamato: Ai no Senshitachi",
+        "english": "Farewell to Space Battleship Yamato: In the Name of Love",
+        "native": "さらば宇宙戦艦ヤマト・愛の戦士たち",
+        "userPreferred": "Saraba Uchuu Senkan Yamato: Ai no Senshitachi"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx3067-qHiEdy4tGsHM.jpg",
+      "color": "#e4a15d",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx3067-qHiEdy4tGsHM.jpg",
+      "rating": 67
+    }
+  ],
+  "episodes": [
+    {
+      "id": "uchuu-senkan-yamato-2-episode-1",
+      "title": "2201: The Yamato Returns!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1651-AVojwgPHoiuH.png",
+      "number": 1,
+      "createdAt": "2014-11-16T20:35:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-1"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-2",
+      "title": "The Comet Appears; Remodeling the Yamato!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162582/original.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:35:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-2"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-3",
+      "title": "Earth's Crisis Awakens the Yamato!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162586/original.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:35:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-3"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-4",
+      "title": "Blast Off to the Unknown!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162592/original.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:35:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-4"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-5",
+      "title": "Open Main Guns! Target: Yamato!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162600/original.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:35:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-5"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-6",
+      "title": "Heavy Fighting! The Space Marines!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162610/original.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:35:15Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-6"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-7",
+      "title": "Counter-Attack! The Invisible Space Submarine!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162626/original.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:35:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-7"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-8",
+      "title": "Space Storm! Escape is Impossible!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162644/original.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:35:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-8"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-9",
+      "title": "Charge! Destroy the Yamato!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162661/original.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:35:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-9"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-10",
+      "title": "Crisis Relief! The Roar of the Wave-Motion Gun",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162694/original.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:35:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-10"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-11",
+      "title": "Leader Desslok, the Vengeful Demon!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162711/original.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:35:24Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-11"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-12",
+      "title": "Will the Yamato Perish in the Hollow Planetoid?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162720/original.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:35:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-12"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-13",
+      "title": "Fierce Attack! The Telezart Landing Operation!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162730/original.jpg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:35:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-13"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-14",
+      "title": "Counterstrike! The Discovery of Trelaina!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162740/original.jpg",
+      "number": 14,
+      "createdAt": "2014-11-16T20:35:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-14"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-15",
+      "title": "Trelaina: The Beginning of Love",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162748/original.jpg",
+      "number": 15,
+      "createdAt": "2014-11-16T20:35:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-15"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-16",
+      "title": "Trelaina: Farewell to Love!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162757/original.jpg",
+      "number": 16,
+      "createdAt": "2014-11-16T20:35:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-16"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-17",
+      "title": "Telezart -- Disperse into Space!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162767/original.jpg",
+      "number": 17,
+      "createdAt": "2014-11-16T20:35:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-17"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-18",
+      "title": "The Decisive Battle! All Ships, Combat-Ready!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162779/original.jpg",
+      "number": 18,
+      "createdAt": "2014-11-16T20:35:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-18"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-19",
+      "title": "Yamato -- Collision in Warp!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162787/original.jpg",
+      "number": 19,
+      "createdAt": "2014-11-16T20:35:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-19"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-20",
+      "title": "Yamato -- A Daring Surprise Attack!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162803/original.jpg",
+      "number": 20,
+      "createdAt": "2014-11-16T20:35:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-20"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-21",
+      "title": "Courage: The Death of Captain Gideon!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162816/original.jpg",
+      "number": 21,
+      "createdAt": "2014-11-16T20:35:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-21"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-22",
+      "title": "Yamato, Fight to the Last!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162826/original.jpg",
+      "number": 22,
+      "createdAt": "2014-11-16T20:35:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-22"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-23",
+      "title": "The Destined Showdown!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162840/original.jpg",
+      "number": 23,
+      "createdAt": "2014-11-16T20:35:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-23"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-24",
+      "title": "Life and Death Struggle! Two Brave Men!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162854/original.jpg",
+      "number": 24,
+      "createdAt": "2014-11-16T20:35:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-24"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-25",
+      "title": "Strategic Invasion of the Imperial City!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162870/original.jpg",
+      "number": 25,
+      "createdAt": "2014-11-16T20:35:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-25"
+    },
+    {
+      "id": "uchuu-senkan-yamato-2-episode-26",
+      "title": "Be Forever, Yamato",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162886/original.jpg",
+      "number": 26,
+      "createdAt": "2014-11-16T20:35:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//uchuu-senkan-yamato-2-episode-26"
+    }
+  ]
+}

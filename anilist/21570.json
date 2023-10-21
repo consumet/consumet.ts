@@ -1,0 +1,506 @@
+{
+  "id": "21570",
+  "title": {
+    "romaji": "Usakame",
+    "english": null,
+    "native": "うさかめ"
+  },
+  "malId": 32454,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21570-zzAl1zWpP9v3.jpg",
+  "popularity": 3969,
+  "color": "#f1d6a1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21570-zzAl1zWpP9v3.jpg",
+  "description": "A spin-off of focusing on the rivals of the Teekyuu girls.",
+  "status": "Completed",
+  "releaseDate": 2016,
+  "startDate": {
+    "year": 2016,
+    "month": 4,
+    "day": 12
+  },
+  "endDate": {
+    "year": 2016,
+    "month": 6,
+    "day": 28
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 55,
+  "duration": 4,
+  "genres": [
+    "Comedy",
+    "Sports"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Millepensee"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 21896,
+      "malId": 33811,
+      "title": {
+        "romaji": "Teekyuu 8",
+        "english": "Teekyuu 8",
+        "native": "てーきゅう8",
+        "userPreferred": "Teekyuu 8"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21896-EupleZruvjt4.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21896-EupleZruvjt4.jpg",
+      "rating": 66,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 10495,
+      "malId": 10495,
+      "title": {
+        "romaji": "Yuru Yuri",
+        "english": "YuruYuri",
+        "native": "ゆるゆり",
+        "userPreferred": "Yuru Yuri"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10495-LC0vlFLHk2Ue.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10495-rIrvOpIurPXE.jpg",
+      "rating": 74,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 136235,
+      "role": "MAIN",
+      "name": {
+        "first": "Kurumi",
+        "last": "Satou",
+        "full": "Kurumi Satou",
+        "native": "佐藤くるみ",
+        "userPreferred": "Kurumi Satou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136235-o1jx36fqKAiZ.jpg",
+      "voiceActors": [
+        {
+          "id": 136242,
+          "language": "Japanese",
+          "name": {
+            "first": "Hikaru",
+            "last": "Kotama",
+            "full": "Hikaru Kotama",
+            "native": "小珠ひかる",
+            "userPreferred": "Hikaru Kotama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n136242-8vSKrlz0qCfv.jpg"
+        }
+      ]
+    },
+    {
+      "id": 136236,
+      "role": "MAIN",
+      "name": {
+        "first": "Nishi",
+        "last": "Nishiaraidaishi",
+        "full": "Nishi Nishiaraidaishi",
+        "native": "西新井大師西",
+        "userPreferred": "Nishi Nishiaraidaishi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136236-eWNZZVIZmCrU.jpg",
+      "voiceActors": [
+        {
+          "id": 136241,
+          "language": "Japanese",
+          "name": {
+            "first": "Maria",
+            "last": "Tanijiri",
+            "full": "Maria Tanijiri",
+            "native": "谷尻まりあ",
+            "userPreferred": "Maria Tanijiri"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n136241-nvNAR4MRKZSq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 136237,
+      "role": "MAIN",
+      "name": {
+        "first": "Ayako",
+        "last": "Suzuki",
+        "full": "Ayako Suzuki",
+        "native": "鈴木あやこ",
+        "userPreferred": "Ayako Suzuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136237-ymoyvoVsiPZO.jpg",
+      "voiceActors": [
+        {
+          "id": 136243,
+          "language": "Japanese",
+          "name": {
+            "first": "Izumi",
+            "last": "Araida",
+            "full": "Izumi Araida",
+            "native": "新井田いづみ",
+            "userPreferred": "Izumi Araida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n136243-H3RXOGvjw9yc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 136238,
+      "role": "MAIN",
+      "name": {
+        "first": "Kinako",
+        "last": "Tanaka",
+        "full": "Kinako Tanaka",
+        "native": "田中きなこ",
+        "userPreferred": "Kinako Tanaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136238-JorpUBOGOKbn.jpg",
+      "voiceActors": [
+        {
+          "id": 128152,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Nakashima",
+            "full": "Yuki Nakashima",
+            "native": "中島由貴",
+            "userPreferred": "Yuki Nakashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n128152-N4BY6Oz42koz.png"
+        }
+      ]
+    },
+    {
+      "id": 224350,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sora",
+        "last": "Shibakusa",
+        "full": "Sora Shibakusa",
+        "native": "芝草宇宙",
+        "userPreferred": "Sora Shibakusa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b224350-4dMIZXN6kyz9.png",
+      "voiceActors": [
+        {
+          "id": 106361,
+          "language": "Japanese",
+          "name": {
+            "first": "Sora",
+            "last": "Tokui",
+            "full": "Sora Tokui",
+            "native": "徳井青空",
+            "userPreferred": "Sora Tokui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106361-EMvWLkEKavEM.png"
+        }
+      ]
+    },
+    {
+      "id": 224351,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hoheto",
+        "last": "Irohani",
+        "full": "Hoheto Irohani",
+        "native": "色葉似ほへと",
+        "userPreferred": "Hoheto Irohani"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b224351-WFhSSstve3lF.png",
+      "voiceActors": [
+        {
+          "id": 224352,
+          "language": "Japanese",
+          "name": {
+            "first": "Arisa",
+            "last": "Aihara",
+            "full": "Arisa Aihara",
+            "native": "愛原ありさ",
+            "userPreferred": "Arisa Aihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n224352-z1uIk8R5gVB4.png"
+        }
+      ]
+    },
+    {
+      "id": 67557,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nasuno",
+        "last": "Takamiya",
+        "full": "Nasuno Takamiya",
+        "native": "高宮なすの",
+        "userPreferred": "Nasuno Takamiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/67557.jpg",
+      "voiceActors": [
+        {
+          "id": 113455,
+          "language": "Japanese",
+          "name": {
+            "first": "Kyouko",
+            "last": "Narumi",
+            "full": "Kyouko Narumi",
+            "native": "鳴海杏子",
+            "userPreferred": "Kyouko Narumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/18455.jpg"
+        }
+      ]
+    },
+    {
+      "id": 67559,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kanae",
+        "last": "Shinjou",
+        "full": "Kanae Shinjou",
+        "native": "新庄かなえ",
+        "userPreferred": "Kanae Shinjou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/67559.jpg",
+      "voiceActors": [
+        {
+          "id": 106359,
+          "language": "Japanese",
+          "name": {
+            "first": "Suzuko",
+            "last": "Mimori",
+            "full": "Suzuko Mimori",
+            "native": "三森すずこ",
+            "userPreferred": "Suzuko Mimori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106359-G8dROMWpwlM6.png"
+        }
+      ]
+    },
+    {
+      "id": 67561,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuri",
+        "last": "Oshimoto",
+        "full": "Yuri Oshimoto",
+        "native": "押本 ユリ",
+        "userPreferred": "Yuri Oshimoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/67561.jpg",
+      "voiceActors": [
+        {
+          "id": 106864,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Watanabe",
+            "full": "Yui Watanabe",
+            "native": "渡部優衣",
+            "userPreferred": "Yui Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11864.jpg"
+        }
+      ]
+    },
+    {
+      "id": 67563,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Marimo",
+        "last": "Bandou",
+        "full": "Marimo Bandou",
+        "native": "板東まりも",
+        "userPreferred": "Marimo Bandou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/67563.jpg",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 15125,
+      "relationType": "PARENT",
+      "malId": 15125,
+      "title": {
+        "romaji": "Teekyuu",
+        "english": "Teekyuu",
+        "native": "てーきゅう",
+        "userPreferred": "Teekyuu"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15125-2ngZyS4KrMqA.png",
+      "color": "#e4a150",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15125.jpg",
+      "rating": 63
+    },
+    {
+      "id": 100177,
+      "relationType": "ADAPTATION",
+      "malId": 95732,
+      "title": {
+        "romaji": "Usakame",
+        "english": null,
+        "native": "うさかめ",
+        "userPreferred": "Usakame"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx100177-sZE3bk5axGaj.jpg",
+      "color": "#e4c9a1",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx100177-sZE3bk5axGaj.jpg",
+      "rating": 63
+    },
+    {
+      "id": 100176,
+      "relationType": "SIDE_STORY",
+      "malId": 34615,
+      "title": {
+        "romaji": "Usakame Special",
+        "english": "Usakame Special",
+        "native": "うさかめ",
+        "userPreferred": "Usakame Special"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100176-VjcQcSMpudLw.jpg",
+      "color": "#f1d6a1",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100176-VjcQcSMpudLw.jpg",
+      "rating": 54
+    }
+  ],
+  "episodes": [
+    {
+      "id": "usakame-episode-1",
+      "title": "How Does Someone Ask for Water That Is from the Neighbor with Senpai",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21570-zzAl1zWpP9v3.jpg",
+      "number": 1,
+      "createdAt": "2016-01-19T22:15:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//usakame-episode-1"
+    },
+    {
+      "id": "usakame-episode-2",
+      "title": "Get Out of the Way, Horse Coming Through, with Senpai, Get Out of the Way",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21570-zzAl1zWpP9v3.jpg",
+      "number": 2,
+      "createdAt": "2016-01-19T22:15:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//usakame-episode-2"
+    },
+    {
+      "id": "usakame-episode-3",
+      "title": "Spindly, Long and Thin, Just as the Silhouette of a Cat, With Kouhai",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21570-zzAl1zWpP9v3.jpg",
+      "number": 3,
+      "createdAt": "2016-01-19T22:15:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//usakame-episode-3"
+    },
+    {
+      "id": "usakame-episode-4",
+      "title": "The Faint Sound of the Dripping Dew from the Lotus Blossoms With Kouhai",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21570-zzAl1zWpP9v3.jpg",
+      "number": 4,
+      "createdAt": "2016-01-19T22:15:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//usakame-episode-4"
+    },
+    {
+      "id": "usakame-episode-5",
+      "title": "The Spring Breeze Blows Through the Feathers On White-Feathered Arrows with Kouhai",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21570-zzAl1zWpP9v3.jpg",
+      "number": 5,
+      "createdAt": "2016-01-19T22:15:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//usakame-episode-5"
+    },
+    {
+      "id": "usakame-episode-6",
+      "title": "Oh, How I Spent the Long Spring Days Together in the Fields with Kouhai",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21570-zzAl1zWpP9v3.jpg",
+      "number": 6,
+      "createdAt": "2016-01-19T22:15:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//usakame-episode-6"
+    },
+    {
+      "id": "usakame-episode-7",
+      "title": "An Afternoon Moon, Appearing Up in the Sky One Day, with Kouhai",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21570-zzAl1zWpP9v3.jpg",
+      "number": 7,
+      "createdAt": "2016-01-19T22:15:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//usakame-episode-7"
+    },
+    {
+      "id": "usakame-episode-8",
+      "title": "The Viscous Water and Gently Blowing Springtime Zephyrs with Kouhai",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21570-zzAl1zWpP9v3.jpg",
+      "number": 8,
+      "createdAt": "2016-01-19T22:15:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//usakame-episode-8"
+    },
+    {
+      "id": "usakame-episode-9",
+      "title": "Constitutionals Alongside the Shopkeeper as Well as Kouhai",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21570-zzAl1zWpP9v3.jpg",
+      "number": 9,
+      "createdAt": "2016-01-19T22:15:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//usakame-episode-9"
+    },
+    {
+      "id": "usakame-episode-10",
+      "title": "Could This Truly Be the Dawning of a Springtime Tempest with Kouhai",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21570-zzAl1zWpP9v3.jpg",
+      "number": 10,
+      "createdAt": "2016-01-19T22:15:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//usakame-episode-10"
+    },
+    {
+      "id": "usakame-episode-11",
+      "title": "Oh, to Hear My Name Spoken as the First Rain Starts to Fall With Kouhai",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21570-zzAl1zWpP9v3.jpg",
+      "number": 11,
+      "createdAt": "2016-01-19T22:15:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//usakame-episode-11"
+    },
+    {
+      "id": "usakame-episode-12",
+      "title": "To Gaze Upon an Aureolin Butterfly Alongside Kouhai",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21570-zzAl1zWpP9v3.jpg",
+      "number": 12,
+      "createdAt": "2016-01-19T22:15:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//usakame-episode-12"
+    }
+  ]
+}

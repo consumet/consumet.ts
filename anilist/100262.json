@@ -1,0 +1,850 @@
+{
+  "id": "100262",
+  "title": {
+    "romaji": "Monster Strike: Kieyuku Uchuu-hen",
+    "english": "Monster Strike the Animation: The Fading Cosmos",
+    "native": "モンスターストライク「消えゆく宇宙編」"
+  },
+  "malId": 36246,
+  "synonyms": [
+    "Monster Strike 3",
+    "Monster Strike the Animation: : The Fading Cosmos",
+    "Monster Strike the Anime: The Fading Cosmos",
+    "Monster Strike 2017"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "yy3qLNDwm0Y",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/yy3qLNDwm0Y/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100262-1VMMC4Usz9Ft.jpg",
+  "popularity": 1198,
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100262-6hpQHZe84FgZ.jpg",
+  "description": "Second part to Monster Strike 2.<br><br>\nRen and his friends race to save the world from the apocalypse prophesied by the monster Nostradamus. When Mana discovers the truth about her origins and her role in the events to come, she becomes the key that could change everything...for better or for worse.<br><br>\nUnlike its predecessor, <i>The Fading Cosmos</i> is not animated in full CG, returning to the 2D/CG mix used in the first <i>Monster Strike</i> season.\n",
+  "status": "Completed",
+  "releaseDate": 2017,
+  "startDate": {
+    "year": 2017,
+    "month": 10,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2018,
+    "month": 1,
+    "day": 6
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 59,
+  "duration": 13,
+  "genres": [
+    "Action",
+    "Fantasy"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Yokohama Animation Lab"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 146061,
+      "role": "MAIN",
+      "name": {
+        "first": "Oragon",
+        "last": null,
+        "full": "Oragon",
+        "native": "オラゴン",
+        "userPreferred": "Oragon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b146061-cXQ1mpIUwqbQ.jpg",
+      "voiceActors": [
+        {
+          "id": 105094,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukushima",
+            "full": "Jun Fukushima",
+            "native": "福島潤",
+            "userPreferred": "Jun Fukushima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105094-Udz3lBFTZa5W.png"
+        }
+      ]
+    },
+    {
+      "id": 178695,
+      "role": "MAIN",
+      "name": {
+        "first": "Mana",
+        "last": "Livingston",
+        "full": "Mana Livingston",
+        "native": "マナ・リビングストン",
+        "userPreferred": "Mana Livingston"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178695-ALRegAGqN1Cj.jpg",
+      "voiceActors": [
+        {
+          "id": 103555,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisako",
+            "last": "Kanemoto",
+            "full": "Hisako Kanemoto",
+            "native": "金元寿子",
+            "userPreferred": "Hisako Kanemoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103555-2ZtBwZfy9DTi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 178785,
+      "role": "MAIN",
+      "name": {
+        "first": "Miroku",
+        "last": null,
+        "full": "Miroku",
+        "native": "ミロク",
+        "userPreferred": "Miroku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178785-AAQOnoXVUxPK.jpg",
+      "voiceActors": [
+        {
+          "id": 95013,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayako",
+            "last": "Kawasumi",
+            "full": "Ayako Kawasumi",
+            "native": "川澄綾子",
+            "userPreferred": "Ayako Kawasumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95013-cwl64qXuP2r7.png"
+        }
+      ]
+    },
+    {
+      "id": 174861,
+      "role": "MAIN",
+      "name": {
+        "first": "Ren",
+        "last": "Homura",
+        "full": "Ren Homura",
+        "native": "焔 レン",
+        "userPreferred": "Ren Homura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174861-75XxNaxUs0FN.jpg",
+      "voiceActors": [
+        {
+          "id": 118407,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuusuke",
+            "last": "Kobayashi",
+            "full": "Yuusuke Kobayashi",
+            "native": "小林裕介",
+            "userPreferred": "Yuusuke Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118407-QvEt3bGtuRQM.png"
+        }
+      ]
+    },
+    {
+      "id": 174862,
+      "role": "MAIN",
+      "name": {
+        "first": "Ryouma",
+        "last": "Sakamoto",
+        "full": "Ryouma Sakamoto",
+        "native": "坂本 龍馬",
+        "userPreferred": "Ryouma Sakamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174862-UPioV2EG7nc4.jpg",
+      "voiceActors": [
+        {
+          "id": 107705,
+          "language": "Japanese",
+          "name": {
+            "first": "Taishi",
+            "last": "Murata",
+            "full": "Taishi Murata",
+            "native": "村田太志",
+            "userPreferred": "Taishi Murata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107705-lVfYRzWY5AFW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 178868,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yomi",
+        "last": null,
+        "full": "Yomi",
+        "native": "黄泉",
+        "userPreferred": "Yomi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178868-6G4QOHOALUDx.png",
+      "voiceActors": [
+        {
+          "id": 123617,
+          "language": "Japanese",
+          "name": {
+            "first": "Shou",
+            "last": "Nogami",
+            "full": "Shou Nogami",
+            "native": "野上翔",
+            "userPreferred": "Shou Nogami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n123617-K0VM2ZZsoDV7.png"
+        }
+      ]
+    },
+    {
+      "id": 174537,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akira",
+        "last": "Kagetsuki",
+        "full": "Akira Kagetsuki",
+        "native": "影月明",
+        "userPreferred": "Akira Kagetsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174537-AlsHQvIRFTc5.jpg",
+      "voiceActors": [
+        {
+          "id": 110877,
+          "language": "Japanese",
+          "name": {
+            "first": "Kengo",
+            "last": "Kawanishi",
+            "full": "Kengo Kawanishi",
+            "native": "河西健吾",
+            "userPreferred": "Kengo Kawanishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110877-zSEL81OrcDwR.png"
+        }
+      ]
+    },
+    {
+      "id": 174542,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rinto",
+        "last": "Dead Rabbits Ltd.",
+        "full": "Rinto Dead Rabbits Ltd.",
+        "native": "デッドラビッツLtd. リント",
+        "userPreferred": "Rinto Dead Rabbits Ltd."
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174542-nuPUelia4bhx.jpg",
+      "voiceActors": [
+        {
+          "id": 127248,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuna",
+            "last": "Yoshino",
+            "full": "Yuna Yoshino",
+            "native": "芳野由奈",
+            "userPreferred": "Yuna Yoshino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n127248-g8EDcsY0nX7n.png"
+        }
+      ]
+    },
+    {
+      "id": 178764,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Robin",
+        "last": "Hood",
+        "full": "Robin Hood",
+        "native": "ロビンフッド",
+        "userPreferred": "Robin Hood"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178764-ZnsHbqiJV1W5.jpg",
+      "voiceActors": [
+        {
+          "id": 106510,
+          "language": "Japanese",
+          "name": {
+            "first": "Yasuaki",
+            "last": "Takumi",
+            "full": "Yasuaki Takumi",
+            "native": "内匠靖明",
+            "userPreferred": "Yasuaki Takumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11510.jpg"
+        }
+      ]
+    },
+    {
+      "id": 174864,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Taiyou",
+        "last": "Shirahama",
+        "full": "Taiyou Shirahama",
+        "native": "白浜太陽",
+        "userPreferred": "Taiyou Shirahama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174864-m03jSvIqDZ4u.jpg",
+      "voiceActors": [
+        {
+          "id": 95020,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsuyuki",
+            "last": "Konishi",
+            "full": "Katsuyuki Konishi",
+            "native": "小西克幸",
+            "userPreferred": "Katsuyuki Konishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95020-uOJO2IlwpcX0.png"
+        }
+      ]
+    },
+    {
+      "id": 178856,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsukuyomi",
+        "last": null,
+        "full": "Tsukuyomi",
+        "native": "ツクヨミ",
+        "userPreferred": "Tsukuyomi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178856-FH6Y6fHr41rf.jpg",
+      "voiceActors": [
+        {
+          "id": 114834,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Suzaki",
+            "full": "Aya Suzaki",
+            "native": "洲崎綾",
+            "userPreferred": "Aya Suzaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114834-WWHMBVvu2Lzu.png"
+        }
+      ]
+    },
+    {
+      "id": 174541,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haruma",
+        "last": "Kagutsuchi",
+        "full": "Haruma Kagutsuchi",
+        "native": "神倶土春馬",
+        "userPreferred": "Haruma Kagutsuchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174541-lIrwfGzqONGD.jpg",
+      "voiceActors": [
+        {
+          "id": 95212,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Ono",
+            "full": "Daisuke Ono",
+            "native": "小野大輔",
+            "userPreferred": "Daisuke Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95212-wX1M4LJN96q2.png"
+        }
+      ]
+    },
+    {
+      "id": 178855,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Suihanjar",
+        "last": null,
+        "full": "Suihanjar",
+        "native": "スイハンジャー",
+        "userPreferred": "Suihanjar"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178855-lpiIuf2Tdj0B.jpg",
+      "voiceActors": [
+        {
+          "id": 102288,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuyuki",
+            "last": "Okitsu",
+            "full": "Kazuyuki Okitsu",
+            "native": "興津和幸",
+            "userPreferred": "Kazuyuki Okitsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102288-xqcBKreDyZYN.png"
+        }
+      ]
+    },
+    {
+      "id": 174860,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Napoleon",
+        "last": null,
+        "full": "Napoleon",
+        "native": "ナポレオン",
+        "userPreferred": "Napoleon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174860-daA72ookQl9L.jpg",
+      "voiceActors": [
+        {
+          "id": 118688,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Suzuki",
+            "full": "Eri Suzuki",
+            "native": "鈴木絵理",
+            "userPreferred": "Eri Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118688-z1eYfW49NzFc.png"
+        }
+      ]
+    },
+    {
+      "id": 174540,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Torin",
+        "last": "Dead Rabbits Ltd.",
+        "full": "Torin Dead Rabbits Ltd.",
+        "native": "デッドラビッツLtd. トリン",
+        "userPreferred": "Torin Dead Rabbits Ltd."
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174540-Zq8xnS1Cy1ku.jpg",
+      "voiceActors": [
+        {
+          "id": 120122,
+          "language": "Japanese",
+          "name": {
+            "first": "Chinami",
+            "last": "Hashimoto",
+            "full": "Chinami Hashimoto",
+            "native": "橋本ちなみ",
+            "userPreferred": "Chinami Hashimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120122-Y1zWcqv5AlqT.png"
+        }
+      ]
+    },
+    {
+      "id": 146516,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lucifer",
+        "last": null,
+        "full": "Lucifer",
+        "native": "ルシファー",
+        "userPreferred": "Lucifer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b146516-QUYJfBdIHRPf.png",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 178860,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Walpurgis",
+        "last": null,
+        "full": "Walpurgis",
+        "native": "ワルプルギス",
+        "userPreferred": "Walpurgis"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178860-5bvA1Vt6z6Gs.jpg",
+      "voiceActors": [
+        {
+          "id": 95060,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Tanaka",
+            "full": "Rie Tanaka",
+            "native": "田中理恵",
+            "userPreferred": "Rie Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95060-Rw0HZghxH1hF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 146519,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kamui",
+        "last": null,
+        "full": "Kamui",
+        "native": "神威",
+        "userPreferred": "Kamui"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b146519-VWaKanXjGRFf.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 174856,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "K",
+        "last": null,
+        "full": "K",
+        "native": "ケイ",
+        "userPreferred": "K"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174856-qdiRE1NilYaS.jpg",
+      "voiceActors": [
+        {
+          "id": 95591,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenjirou",
+            "last": "Tsuda",
+            "full": "Kenjirou Tsuda",
+            "native": "津田健次郎",
+            "userPreferred": "Kenjirou Tsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95591-WQGdD3ubbeoq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 178779,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Minoru",
+        "last": "Madarame",
+        "full": "Minoru Madarame",
+        "native": "斑目穣",
+        "userPreferred": "Minoru Madarame"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178779-muCL8VXDSZjr.png",
+      "voiceActors": [
+        {
+          "id": 95820,
+          "language": "Japanese",
+          "name": {
+            "first": "Junji",
+            "last": "Majima",
+            "full": "Junji Majima",
+            "native": "間島淳司",
+            "userPreferred": "Junji Majima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95820-5Fuosf1ljdSc.png"
+        }
+      ]
+    },
+    {
+      "id": 178518,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Karin",
+        "last": "Homura",
+        "full": "Karin Homura",
+        "native": "焔花燐",
+        "userPreferred": "Karin Homura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 107212,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Murakawa",
+            "full": "Rie Murakawa",
+            "native": "村川梨衣",
+            "userPreferred": "Rie Murakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107212-4OHHrSs8srTU.png"
+        }
+      ]
+    },
+    {
+      "id": 174538,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Minami",
+        "last": "Wakaba",
+        "full": "Minami Wakaba",
+        "native": "若葉皆実",
+        "userPreferred": "Minami Wakaba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174538-I492kRtMwoIe.jpg",
+      "voiceActors": [
+        {
+          "id": 118918,
+          "language": "Japanese",
+          "name": {
+            "first": "Juri",
+            "last": "Kimura",
+            "full": "Juri Kimura",
+            "native": "木村珠莉",
+            "userPreferred": "Juri Kimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118918-Uz7Ep42wQFmQ.png"
+        }
+      ]
+    },
+    {
+      "id": 146060,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nostradamus",
+        "last": null,
+        "full": "Nostradamus",
+        "native": "ノストラダムス",
+        "userPreferred": "Nostradamus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b146060-alPR9uWzHmso.png",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        }
+      ]
+    },
+    {
+      "id": 178517,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mitsuki",
+        "last": "Homura",
+        "full": "Mitsuki Homura",
+        "native": "焔三月",
+        "userPreferred": "Mitsuki Homura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178517-vNSAoEPlOvyZ.jpg",
+      "voiceActors": [
+        {
+          "id": 95040,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamiko",
+            "last": "Noto",
+            "full": "Mamiko Noto",
+            "native": "能登麻美子",
+            "userPreferred": "Mamiko Noto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95040-CskhFn4LiOti.jpg"
+        }
+      ]
+    },
+    {
+      "id": 174536,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aoi",
+        "last": "Mizuwasa",
+        "full": "Aoi Mizuwasa",
+        "native": "水澤葵",
+        "userPreferred": "Aoi Mizuwasa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174536-0Te0syWIWJC1.jpg",
+      "voiceActors": [
+        {
+          "id": 118806,
+          "language": "Japanese",
+          "name": {
+            "first": "Lynn",
+            "last": "",
+            "full": "Lynn",
+            "native": "Lynn",
+            "userPreferred": "Lynn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118806-AlHvdje5aHje.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 98069,
+      "relationType": "PREQUEL",
+      "malId": 34670,
+      "title": {
+        "romaji": "Monster Strike 2",
+        "english": "Monster Strike the Anime 2nd Season",
+        "native": "モンスターストライク 2",
+        "userPreferred": "Monster Strike 2"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98069-9KME3HrudKR3.jpg",
+      "color": "#5daee4",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98069-9KME3HrudKR3.jpg",
+      "rating": 58
+    },
+    {
+      "id": 103744,
+      "relationType": "CHARACTER",
+      "malId": null,
+      "title": {
+        "romaji": "Haitoku Pistols: Wishing",
+        "english": null,
+        "native": "背徳ピストルズ「Wishing」",
+        "userPreferred": "Haitoku Pistols: Wishing"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx103744-KRTC6rYXsM4t.jpg",
+      "color": "#e4c993",
+      "type": "MUSIC",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/103744-yUHfs7bBNOIA.png",
+      "rating": 50
+    }
+  ],
+  "episodes": [
+    {
+      "id": "monster-strike-kieyuku-uchuu-hen-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100262-1VMMC4Usz9Ft.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-strike-kieyuku-uchuu-hen-episode-1"
+    },
+    {
+      "id": "monster-strike-kieyuku-uchuu-hen-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100262-1VMMC4Usz9Ft.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-strike-kieyuku-uchuu-hen-episode-2"
+    },
+    {
+      "id": "monster-strike-kieyuku-uchuu-hen-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100262-1VMMC4Usz9Ft.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-strike-kieyuku-uchuu-hen-episode-3"
+    },
+    {
+      "id": "monster-strike-kieyuku-uchuu-hen-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100262-1VMMC4Usz9Ft.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-strike-kieyuku-uchuu-hen-episode-4"
+    },
+    {
+      "id": "monster-strike-kieyuku-uchuu-hen-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100262-1VMMC4Usz9Ft.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-strike-kieyuku-uchuu-hen-episode-5"
+    },
+    {
+      "id": "monster-strike-kieyuku-uchuu-hen-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100262-1VMMC4Usz9Ft.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-strike-kieyuku-uchuu-hen-episode-6"
+    },
+    {
+      "id": "monster-strike-kieyuku-uchuu-hen-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100262-1VMMC4Usz9Ft.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-strike-kieyuku-uchuu-hen-episode-7"
+    },
+    {
+      "id": "monster-strike-kieyuku-uchuu-hen-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100262-1VMMC4Usz9Ft.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-strike-kieyuku-uchuu-hen-episode-8"
+    },
+    {
+      "id": "monster-strike-kieyuku-uchuu-hen-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100262-1VMMC4Usz9Ft.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-strike-kieyuku-uchuu-hen-episode-9"
+    },
+    {
+      "id": "monster-strike-kieyuku-uchuu-hen-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100262-1VMMC4Usz9Ft.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-strike-kieyuku-uchuu-hen-episode-10"
+    },
+    {
+      "id": "monster-strike-kieyuku-uchuu-hen-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100262-1VMMC4Usz9Ft.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-strike-kieyuku-uchuu-hen-episode-11"
+    },
+    {
+      "id": "monster-strike-kieyuku-uchuu-hen-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100262-1VMMC4Usz9Ft.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-strike-kieyuku-uchuu-hen-episode-12"
+    },
+    {
+      "id": "monster-strike-kieyuku-uchuu-hen-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100262-1VMMC4Usz9Ft.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-strike-kieyuku-uchuu-hen-episode-13"
+    }
+  ]
+}

@@ -1,0 +1,879 @@
+{
+  "id": "21710",
+  "title": {
+    "romaji": "Natsume Yuujinchou Go",
+    "english": "Natsume's Book of Friends 5",
+    "native": "夏目友人帳 伍"
+  },
+  "malId": 32983,
+  "synonyms": [
+    "Natsume's Book of Friends Five"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "kPpelFtBGhc",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/kPpelFtBGhc/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21710-Y20fKQviC3hL.jpg",
+  "popularity": 29087,
+  "color": "#d6f1c9",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21710-t9uyLEVqcBXJ.jpg",
+  "description": "The fifth season of <i>Natsume Yuujinchou</i>.",
+  "status": "Completed",
+  "releaseDate": 2016,
+  "startDate": {
+    "year": 2016,
+    "month": 10,
+    "day": 5
+  },
+  "endDate": {
+    "year": 2016,
+    "month": 12,
+    "day": 21
+  },
+  "totalEpisodes": 11,
+  "currentEpisode": 11,
+  "rating": 84,
+  "duration": 24,
+  "genres": [
+    "Drama",
+    "Fantasy",
+    "Slice of Life",
+    "Supernatural"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Shuka"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 457,
+      "malId": 457,
+      "title": {
+        "romaji": "Mushishi",
+        "english": "MUSHI-SHI",
+        "native": "蟲師",
+        "userPreferred": "Mushishi"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx457-Si9avlyStAXj.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n457-sWOJfqYC7s2I.jpg",
+      "rating": 85,
+      "type": "TV"
+    },
+    {
+      "id": 2246,
+      "malId": 2246,
+      "title": {
+        "romaji": "Mononoke",
+        "english": "Mononoke",
+        "native": "モノノ怪",
+        "userPreferred": "Mononoke"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2246-WHkSkgyuxfgD.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2246-8DKsjLTMEFJq.png",
+      "rating": 81,
+      "type": "TV"
+    },
+    {
+      "id": 10408,
+      "malId": 10408,
+      "title": {
+        "romaji": "Hotarubi no Mori e",
+        "english": "Into the Forest of Fireflies' Light",
+        "native": "蛍火の杜へ",
+        "userPreferred": "Hotarubi no Mori e"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10408-PlKJ6DAyvMk2.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10408-kZhXe0uVrAd2.jpg",
+      "rating": 79,
+      "type": "MOVIE"
+    },
+    {
+      "id": 477,
+      "malId": 477,
+      "title": {
+        "romaji": "ARIA The ANIMATION",
+        "english": "ARIA The ANIMATION",
+        "native": "ARIA The ANIMATION",
+        "userPreferred": "ARIA The ANIMATION"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx477-IhmzyyzROh27.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/477.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 20478,
+      "malId": 20651,
+      "title": {
+        "romaji": "Natsume Yuujinchou: Itsuka Yuki no Hi ni",
+        "english": "Natsume's Book of Friends OVA",
+        "native": "夏目友人帳 新作OVA いつかゆきのひに",
+        "userPreferred": "Natsume Yuujinchou: Itsuka Yuki no Hi ni"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20478-CLBOf5ao3dWK.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20478-bo07YIxFXD6e.jpg",
+      "rating": 81,
+      "type": "OVA"
+    },
+    {
+      "id": 308,
+      "malId": 308,
+      "title": {
+        "romaji": "Zettai Shounen",
+        "english": null,
+        "native": "絶対少年",
+        "userPreferred": "Zettai Shounen"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx308-vl9t9ZoJ51qT.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/308-Gq0g980shP08.jpg",
+      "rating": 64,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 13783,
+      "role": "MAIN",
+      "name": {
+        "first": "Takashi",
+        "last": "Natsume",
+        "full": "Takashi Natsume",
+        "native": "夏目貴志",
+        "userPreferred": "Takashi Natsume"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13783-FvmhRaCOKzKQ.png",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        }
+      ]
+    },
+    {
+      "id": 13784,
+      "role": "MAIN",
+      "name": {
+        "first": "Madara",
+        "last": "",
+        "full": "Madara",
+        "native": "斑",
+        "userPreferred": "Madara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13784.jpg",
+      "voiceActors": [
+        {
+          "id": 95021,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiko",
+            "last": "Inoue",
+            "full": "Kazuhiko Inoue",
+            "native": "井上和彦",
+            "userPreferred": "Kazuhiko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95021-9qAoAn6GNZ3S.png"
+        }
+      ]
+    },
+    {
+      "id": 20336,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shigeru",
+        "last": "Fujiwara",
+        "full": "Shigeru Fujiwara",
+        "native": "藤原滋",
+        "userPreferred": "Shigeru Fujiwara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20336-hZooLymkPnd7.jpg",
+      "voiceActors": [
+        {
+          "id": 102983,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiji",
+            "last": "Itou",
+            "full": "Eiji Itou",
+            "native": "伊藤栄次",
+            "userPreferred": "Eiji Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7983.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31303,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Seiji",
+        "last": "Matoba",
+        "full": "Seiji Matoba",
+        "native": "的場静司",
+        "userPreferred": "Seiji Matoba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b31303-MCf7v5ihWhic.jpg",
+      "voiceActors": [
+        {
+          "id": 95095,
+          "language": "Japanese",
+          "name": {
+            "first": "Junichi",
+            "last": "Suwabe",
+            "full": "Junichi Suwabe",
+            "native": "諏訪部順一",
+            "userPreferred": "Junichi Suwabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95095-DvSjTQnqcgXP.png"
+        }
+      ]
+    },
+    {
+      "id": 25272,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Misuzu",
+        "last": null,
+        "full": "Misuzu",
+        "native": "三篠",
+        "userPreferred": "Misuzu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b25272-TtXoDHXHbgQ2.jpg",
+      "voiceActors": [
+        {
+          "id": 96122,
+          "language": "Japanese",
+          "name": {
+            "first": "Takaya",
+            "last": "Kuroda",
+            "full": "Takaya Kuroda",
+            "native": "黒田崇矢",
+            "userPreferred": "Takaya Kuroda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96122-KZMI0XXqYtpG.png"
+        }
+      ]
+    },
+    {
+      "id": 13887,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shuuichi",
+        "last": "Natori",
+        "full": "Shuuichi Natori",
+        "native": "名取周一",
+        "userPreferred": "Shuuichi Natori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13887-YNOjDFZOaS79.png",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        }
+      ]
+    },
+    {
+      "id": 19023,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiiragi",
+        "last": null,
+        "full": "Hiiragi",
+        "native": "柊",
+        "userPreferred": "Hiiragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b19023-TvAFMcLdOmTi.png",
+      "voiceActors": [
+        {
+          "id": 95003,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsuki",
+            "last": "Yukino",
+            "full": "Satsuki Yukino",
+            "native": "ゆきのさつき",
+            "userPreferred": "Satsuki Yukino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95003-Du7wb5JJzb8P.png"
+        }
+      ]
+    },
+    {
+      "id": 23039,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Atsushi",
+        "last": "Kitamoto",
+        "full": "Atsushi Kitamoto",
+        "native": "北本篤史",
+        "userPreferred": "Atsushi Kitamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b23039-Q9gGFW3RLFJc.jpg",
+      "voiceActors": [
+        {
+          "id": 95441,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisayoshi",
+            "last": "Suganuma",
+            "full": "Hisayoshi Suganuma",
+            "native": "菅沼久義",
+            "userPreferred": "Hisayoshi Suganuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95441-i7m3Auotx9KB.png"
+        }
+      ]
+    },
+    {
+      "id": 43497,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sasago",
+        "last": null,
+        "full": "Sasago",
+        "native": "笹後",
+        "userPreferred": "Sasago"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b43497-rYamdTEKKWti.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 14414,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jun",
+        "last": "Sasada",
+        "full": "Jun Sasada",
+        "native": "笹田純",
+        "userPreferred": "Jun Sasada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14414-o93ZpddmPD7S.png",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43496,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Urihime",
+        "last": null,
+        "full": "Urihime",
+        "native": "瓜姫",
+        "userPreferred": "Urihime"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43496.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 19455,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hinoe",
+        "last": null,
+        "full": "Hinoe",
+        "native": "ヒノエ",
+        "userPreferred": "Hinoe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19455.jpg",
+      "voiceActors": [
+        {
+          "id": 95076,
+          "language": "Japanese",
+          "name": {
+            "first": "Akemi",
+            "last": "Okamura",
+            "full": "Akemi Okamura",
+            "native": "岡村明美",
+            "userPreferred": "Akemi Okamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95076-itRGy8F3x5Em.png"
+        }
+      ]
+    },
+    {
+      "id": 19515,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tooru",
+        "last": "Taki",
+        "full": "Tooru Taki",
+        "native": "多軌透",
+        "userPreferred": "Tooru Taki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b19515-xhtlWFIvf2Q1.jpg",
+      "voiceActors": [
+        {
+          "id": 95241,
+          "language": "Japanese",
+          "name": {
+            "first": "Rina",
+            "last": "Satou",
+            "full": "Rina Satou",
+            "native": "佐藤利奈",
+            "userPreferred": "Rina Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95241-4XvR64oguxwS.png"
+        }
+      ]
+    },
+    {
+      "id": 36826,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hitotsume no Chuukyuu Youkai",
+        "last": null,
+        "full": "Hitotsume no Chuukyuu Youkai",
+        "native": "一つ目の中級妖怪",
+        "userPreferred": "Hitotsume no Chuukyuu Youkai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36826-Jr56GWbduSOF.jpg",
+      "voiceActors": [
+        {
+          "id": 95685,
+          "language": "Japanese",
+          "name": {
+            "first": "Takashi",
+            "last": "Matsuyama",
+            "full": "Takashi Matsuyama",
+            "native": "松山鷹志",
+            "userPreferred": "Takashi Matsuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95685-hBzFgdWzq43x.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13888,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaname",
+        "last": "Tanuma",
+        "full": "Kaname Tanuma",
+        "native": "田沼要",
+        "userPreferred": "Kaname Tanuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13888-W2Lq1k67yLg7.jpg",
+      "voiceActors": [
+        {
+          "id": 95456,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuma",
+            "last": "Horie",
+            "full": "Kazuma Horie",
+            "native": "堀江一眞",
+            "userPreferred": "Kazuma Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95456-a2LdFNUAoJS3.png"
+        }
+      ]
+    },
+    {
+      "id": 19546,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Touko",
+        "last": "Fujiwara",
+        "full": "Touko Fujiwara",
+        "native": "藤原塔子",
+        "userPreferred": "Touko Fujiwara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b19546-CJX65evYlXJB.png",
+      "voiceActors": [
+        {
+          "id": 95121,
+          "language": "Japanese",
+          "name": {
+            "first": "Miki",
+            "last": "Itou",
+            "full": "Miki Itou",
+            "native": "伊藤美紀 ",
+            "userPreferred": "Miki Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95121-FCp9NcoFgKZk.png"
+        }
+      ]
+    },
+    {
+      "id": 23115,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chobi-hige",
+        "last": null,
+        "full": "Chobi-hige",
+        "native": "ちょびひげ",
+        "userPreferred": "Chobi-hige"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23115.jpg",
+      "voiceActors": [
+        {
+          "id": 95898,
+          "language": "Japanese",
+          "name": {
+            "first": "Choo",
+            "last": null,
+            "full": "Choo",
+            "native": "チョー ",
+            "userPreferred": "Choo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95898-XHSESV65G8Jv.png"
+        }
+      ]
+    },
+    {
+      "id": 44182,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nanase",
+        "last": null,
+        "full": "Nanase",
+        "native": "七瀬",
+        "userPreferred": "Nanase"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44182.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 13886,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Reiko",
+        "last": "Natsume",
+        "full": "Reiko Natsume",
+        "native": "夏目レイコ",
+        "userPreferred": "Reiko Natsume"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13886-jvXFmldVIkEu.png",
+      "voiceActors": [
+        {
+          "id": 95149,
+          "language": "Japanese",
+          "name": {
+            "first": "Sanae",
+            "last": "Kobayashi",
+            "full": "Sanae Kobayashi",
+            "native": "小林沙苗",
+            "userPreferred": "Sanae Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95149-xNDmN92Feq8y.png"
+        }
+      ]
+    },
+    {
+      "id": 44209,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ushikao no Chuukyuu Youkai",
+        "last": null,
+        "full": "Ushikao no Chuukyuu Youkai",
+        "native": "牛顔の中級妖怪",
+        "userPreferred": "Ushikao no Chuukyuu Youkai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b44209-WKoEs9ZA4wSt.jpg",
+      "voiceActors": [
+        {
+          "id": 101003,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Shimozaki",
+            "full": "Hiroshi Shimozaki",
+            "native": "紘史 下崎",
+            "userPreferred": "Hiroshi Shimozaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6003.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23038,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Satoru",
+        "last": "Nishimura",
+        "full": "Satoru Nishimura",
+        "native": "西村 悟",
+        "userPreferred": "Satoru Nishimura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b23038-Hpz0og46jyCJ.jpg",
+      "voiceActors": [
+        {
+          "id": 96762,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouhei",
+            "last": "Kimura",
+            "full": "Ryouhei Kimura",
+            "native": "木村良平",
+            "userPreferred": "Ryouhei Kimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96762-DNKMFBA2vWRr.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18601,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Benio",
+        "last": null,
+        "full": "Benio",
+        "native": "紅峰",
+        "userPreferred": "Benio"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18601.jpg",
+      "voiceActors": [
+        {
+          "id": 95230,
+          "language": "Japanese",
+          "name": {
+            "first": "Misa",
+            "last": "Watanabe",
+            "full": "Misa Watanabe",
+            "native": "渡辺美佐",
+            "userPreferred": "Misa Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95230-lCHOeyeVaISA.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 31859,
+      "relationType": "ADAPTATION",
+      "malId": 1859,
+      "title": {
+        "romaji": "Natsume Yuujinchou",
+        "english": "Natsume's Book of Friends",
+        "native": "夏目友人帳",
+        "userPreferred": "Natsume Yuujinchou"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31859-mITgIaJFBzl4.png",
+      "color": "#ffa143",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/31859-cldDQH6BHxtF.jpg",
+      "rating": 85
+    },
+    {
+      "id": 11665,
+      "relationType": "PREQUEL",
+      "malId": 11665,
+      "title": {
+        "romaji": "Natsume Yuujinchou Shi",
+        "english": "Natsume's Book of Friends 4",
+        "native": "夏目友人帳 肆",
+        "userPreferred": "Natsume Yuujinchou Shi"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11665-nfbt94cwKySE.png",
+      "color": "#e4c986",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11665-JYylw0x1Qi1H.jpg",
+      "rating": 85
+    },
+    {
+      "id": 18849,
+      "relationType": "SIDE_STORY",
+      "malId": 18849,
+      "title": {
+        "romaji": "Natsume Yuujinchou: Nyanko-sensei to Hajimete no Otsukai",
+        "english": "Natsume's Book of Friends LaLa Special",
+        "native": "夏目友人帳新 ニャンコ先生とはじめてのおつかい",
+        "userPreferred": "Natsume Yuujinchou: Nyanko-sensei to Hajimete no Otsukai"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18849.jpg",
+      "color": "#e4a11a",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18849-4lZhCz4PRDF9.jpg",
+      "rating": 74
+    },
+    {
+      "id": 97983,
+      "relationType": "SEQUEL",
+      "malId": 34591,
+      "title": {
+        "romaji": "Natsume Yuujinchou Roku",
+        "english": "Natsume's Book of Friends 6",
+        "native": "夏目友人帳 陸",
+        "userPreferred": "Natsume Yuujinchou Roku"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97983-Uqn04SR6hVW9.jpg",
+      "color": "#5daee4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97983-gnWWi3k6xstM.jpg",
+      "rating": 85
+    },
+    {
+      "id": 99363,
+      "relationType": "SIDE_STORY",
+      "malId": 34534,
+      "title": {
+        "romaji": "Natsume Yuujinchou Go Specials",
+        "english": "Natsume Yujin-cho 5 Specials",
+        "native": "夏目友人帳 伍 特別編",
+        "userPreferred": "Natsume Yuujinchou Go Specials"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99363-vFOXsEm0340k.png",
+      "color": "#e4a143",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99363-vFOXsEm0340k.png",
+      "rating": 81
+    }
+  ],
+  "episodes": [
+    {
+      "id": "natsume-yuujinchou-go-episode-1",
+      "title": "Unchanging Form",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200584/original.jpg",
+      "number": 1,
+      "createdAt": "2017-07-01T22:49:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsume-yuujinchou-go-episode-1"
+    },
+    {
+      "id": "natsume-yuujinchou-go-episode-2",
+      "title": "Mischievous Rain",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200585/original.jpg",
+      "number": 2,
+      "createdAt": "2017-07-01T22:49:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsume-yuujinchou-go-episode-2"
+    },
+    {
+      "id": "natsume-yuujinchou-go-episode-3",
+      "title": "The Letter From the Exorcist",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200586/original.jpg",
+      "number": 3,
+      "createdAt": "2017-07-01T22:49:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsume-yuujinchou-go-episode-3"
+    },
+    {
+      "id": "natsume-yuujinchou-go-episode-4",
+      "title": "Shadow of Linked Chains",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200587/original.jpg",
+      "number": 4,
+      "createdAt": "2017-07-01T22:49:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsume-yuujinchou-go-episode-4"
+    },
+    {
+      "id": "natsume-yuujinchou-go-episode-5",
+      "title": "It Must Not Be Bound",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200588/original.jpg",
+      "number": 5,
+      "createdAt": "2017-07-01T22:49:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsume-yuujinchou-go-episode-5"
+    },
+    {
+      "id": "natsume-yuujinchou-go-episode-6",
+      "title": "Soundless Valley",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200589/original.jpg",
+      "number": 6,
+      "createdAt": "2017-07-01T22:49:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsume-yuujinchou-go-episode-6"
+    },
+    {
+      "id": "natsume-yuujinchou-go-episode-7",
+      "title": "Distant Festival Lights",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200590/original.jpg",
+      "number": 7,
+      "createdAt": "2017-07-01T22:49:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsume-yuujinchou-go-episode-7"
+    },
+    {
+      "id": "natsume-yuujinchou-go-episode-8",
+      "title": "A World Unbent",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200591/original.jpg",
+      "number": 8,
+      "createdAt": "2017-07-01T22:49:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsume-yuujinchou-go-episode-8"
+    },
+    {
+      "id": "natsume-yuujinchou-go-episode-9",
+      "title": "Following a Narrow Path",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200592/original.jpg",
+      "number": 9,
+      "createdAt": "2017-07-01T22:49:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsume-yuujinchou-go-episode-9"
+    },
+    {
+      "id": "natsume-yuujinchou-go-episode-10",
+      "title": "Touko and Shigeru",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200593/original.jpg",
+      "number": 10,
+      "createdAt": "2017-07-01T22:49:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsume-yuujinchou-go-episode-10"
+    },
+    {
+      "id": "natsume-yuujinchou-go-episode-11",
+      "title": "To The Ephemeral Ones",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200594/original.jpg",
+      "number": 11,
+      "createdAt": "2017-07-01T22:49:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsume-yuujinchou-go-episode-11"
+    }
+  ]
+}

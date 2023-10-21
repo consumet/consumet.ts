@@ -1,0 +1,835 @@
+{
+  "id": "3225",
+  "title": {
+    "romaji": "Minami-ke: Okawari",
+    "english": null,
+    "native": "みなみけ～おかわり～"
+  },
+  "malId": 3225,
+  "synonyms": [
+    "Minamike: Okawari"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3225-o0alpa3uDh0S.png",
+  "popularity": 11407,
+  "color": "#e4c9a1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3225-RA6ojx4GBLMD.jpg",
+  "description": "The second season of Minami-Ke. It picks up where the first season left off, and just like the first season, it's about the daily lives of the three Minami sisters, Haruka, Kana and Chiaki, and their school friends.",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 1,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 3,
+    "day": 31
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 70,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Asread"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 10495,
+      "malId": 10495,
+      "title": {
+        "romaji": "Yuru Yuri",
+        "english": "YuruYuri",
+        "native": "ゆるゆり",
+        "userPreferred": "Yuru Yuri"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10495-LC0vlFLHk2Ue.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10495-rIrvOpIurPXE.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 105081,
+      "malId": 38619,
+      "title": {
+        "romaji": "Joshikousei no Mudazukai",
+        "english": "Wasteful Days of High School Girls",
+        "native": "女子高生の無駄づかい",
+        "userPreferred": "Joshikousei no Mudazukai"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105081-pc4jgCmAP0dZ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/105081-9EnxVsn9iNq9.jpg",
+      "rating": 75,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 5505,
+      "role": "MAIN",
+      "name": {
+        "first": "Chiaki",
+        "last": "Minami",
+        "full": "Chiaki Minami",
+        "native": "南千秋",
+        "userPreferred": "Chiaki Minami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5505-cqGOnUpgkI3d.png",
+      "voiceActors": [
+        {
+          "id": 95053,
+          "language": "Japanese",
+          "name": {
+            "first": "Minori",
+            "last": "Chihara",
+            "full": "Minori Chihara",
+            "native": "茅原実里",
+            "userPreferred": "Minori Chihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95053-wN1MdNMSGTMn.png"
+        }
+      ]
+    },
+    {
+      "id": 5504,
+      "role": "MAIN",
+      "name": {
+        "first": "Haruka",
+        "last": "Minami",
+        "full": "Haruka Minami",
+        "native": "南春香",
+        "userPreferred": "Haruka Minami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5504.jpg",
+      "voiceActors": [
+        {
+          "id": 95241,
+          "language": "Japanese",
+          "name": {
+            "first": "Rina",
+            "last": "Satou",
+            "full": "Rina Satou",
+            "native": "佐藤利奈",
+            "userPreferred": "Rina Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95241-4XvR64oguxwS.png"
+        },
+        {
+          "id": 109835,
+          "language": "Korean",
+          "name": {
+            "first": "Hyeon-Jin",
+            "last": "Lee",
+            "full": "Hyeon-Jin Lee",
+            "native": "이현진",
+            "userPreferred": "Hyeon-Jin Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14835.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5503,
+      "role": "MAIN",
+      "name": {
+        "first": "Kana",
+        "last": "Minami",
+        "full": "Kana Minami",
+        "native": "南夏奈",
+        "userPreferred": "Kana Minami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5503-fG5Y0IrT43N9.jpg",
+      "voiceActors": [
+        {
+          "id": 95158,
+          "language": "Japanese",
+          "name": {
+            "first": "Marina",
+            "last": "Inoue",
+            "full": "Marina Inoue",
+            "native": "井上麻里奈",
+            "userPreferred": "Marina Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95158-OLhgs8zv5xsp.jpg"
+        },
+        {
+          "id": 109823,
+          "language": "Korean",
+          "name": {
+            "first": "Mi Na",
+            "last": "Yun",
+            "full": "Mi Na Yun",
+            "native": "미나 윤",
+            "userPreferred": "Mi Na Yun"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14823.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10734,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keiko",
+        "last": null,
+        "full": "Keiko",
+        "native": "ケイコ",
+        "userPreferred": "Keiko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10734.jpg",
+      "voiceActors": [
+        {
+          "id": 95211,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Gotou",
+            "full": "Saori Gotou",
+            "native": "後藤沙緒里",
+            "userPreferred": "Saori Gotou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95211-d04fFmOyVpfz.png"
+        }
+      ]
+    },
+    {
+      "id": 10733,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shuuichi",
+        "last": null,
+        "full": "Shuuichi",
+        "native": "シュウイチ",
+        "userPreferred": "Shuuichi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10733.jpg",
+      "voiceActors": [
+        {
+          "id": 95988,
+          "language": "Japanese",
+          "name": {
+            "first": "Momoko",
+            "last": "Ohara",
+            "full": "Momoko Ohara",
+            "native": "大原桃子",
+            "userPreferred": "Momoko Ohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95988-bcaJ30tSzdfL.png"
+        }
+      ]
+    },
+    {
+      "id": 7258,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Touma",
+        "last": "Minami",
+        "full": "Touma Minami",
+        "native": "南 冬馬",
+        "userPreferred": "Touma Minami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7258-fbMtjjyIkCaX.png",
+      "voiceActors": [
+        {
+          "id": 95081,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Mizuki",
+            "full": "Nana Mizuki",
+            "native": "水樹奈々",
+            "userPreferred": "Nana Mizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95081-qto4UanYkpQT.png"
+        }
+      ]
+    },
+    {
+      "id": 6102,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hosaka",
+        "last": null,
+        "full": "Hosaka",
+        "native": "保坂",
+        "userPreferred": "Hosaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6102-TExUkT0rtLoz.png",
+      "voiceActors": [
+        {
+          "id": 95212,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Ono",
+            "full": "Daisuke Ono",
+            "native": "小野大輔",
+            "userPreferred": "Daisuke Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95212-wX1M4LJN96q2.png"
+        },
+        {
+          "id": 109821,
+          "language": "Korean",
+          "name": {
+            "first": "Han",
+            "last": "Choi",
+            "full": "Han Choi",
+            "native": "최한",
+            "userPreferred": "Han Choi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14821.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10735,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuu",
+        "last": null,
+        "full": "Yuu",
+        "native": "ユウ",
+        "userPreferred": "Yuu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10735.jpg",
+      "voiceActors": [
+        {
+          "id": 95988,
+          "language": "Japanese",
+          "name": {
+            "first": "Momoko",
+            "last": "Ohara",
+            "full": "Momoko Ohara",
+            "native": "大原桃子",
+            "userPreferred": "Momoko Ohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95988-bcaJ30tSzdfL.png"
+        }
+      ]
+    },
+    {
+      "id": 10736,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiroko",
+        "last": null,
+        "full": "Hiroko",
+        "native": "ヒロコ",
+        "userPreferred": "Hiroko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10736.jpg",
+      "voiceActors": [
+        {
+          "id": 95135,
+          "language": "Japanese",
+          "name": {
+            "first": "Saeko",
+            "last": "Chiba",
+            "full": "Saeko Chiba",
+            "native": "千葉紗子",
+            "userPreferred": "Saeko Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95135-zptQ6sZjTSU9.png"
+        }
+      ]
+    },
+    {
+      "id": 10732,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Atsuko",
+        "last": null,
+        "full": "Atsuko",
+        "native": "アツコ",
+        "userPreferred": "Atsuko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10732.jpg",
+      "voiceActors": [
+        {
+          "id": 96683,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Ono",
+            "full": "Ryouko Ono",
+            "native": "小野涼子",
+            "userPreferred": "Ryouko Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96683-XB7Xlhmw91Vf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10739,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Hayami",
+        "full": "Hayami",
+        "native": "速水",
+        "userPreferred": "Hayami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10739.jpg",
+      "voiceActors": [
+        {
+          "id": 95135,
+          "language": "Japanese",
+          "name": {
+            "first": "Saeko",
+            "last": "Chiba",
+            "full": "Saeko Chiba",
+            "native": "千葉紗子",
+            "userPreferred": "Saeko Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95135-zptQ6sZjTSU9.png"
+        }
+      ]
+    },
+    {
+      "id": 10629,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Masumi",
+        "last": "Fuyuki",
+        "full": "Masumi Fuyuki",
+        "native": "フユキ",
+        "userPreferred": "Masumi Fuyuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10629.jpg",
+      "voiceActors": [
+        {
+          "id": 95365,
+          "language": "Japanese",
+          "name": {
+            "first": "Miho",
+            "last": "Saiki",
+            "full": "Miho Saiki",
+            "native": "斉木美帆",
+            "userPreferred": "Miho Saiki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95365-3wV62ahHGAvu.png"
+        }
+      ]
+    },
+    {
+      "id": 7251,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuka",
+        "last": "Uchida",
+        "full": "Yuka Uchida",
+        "native": "内田ユカ",
+        "userPreferred": "Yuka Uchida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7251.jpg",
+      "voiceActors": [
+        {
+          "id": 95413,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Kitamura",
+            "full": "Eri Kitamura",
+            "native": "喜多村英梨",
+            "userPreferred": "Eri Kitamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95413-FwAIrc8Ishpt.png"
+        }
+      ]
+    },
+    {
+      "id": 7276,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Fujioka",
+        "full": "Fujioka",
+        "native": "藤岡",
+        "userPreferred": "Fujioka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7276.jpg",
+      "voiceActors": [
+        {
+          "id": 95167,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuya",
+            "last": "Kakihara",
+            "full": "Tetsuya Kakihara",
+            "native": "柿原徹也",
+            "userPreferred": "Tetsuya Kakihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95167-wjIShzThRTlS.png"
+        },
+        {
+          "id": 109827,
+          "language": "Korean",
+          "name": {
+            "first": "Wan gyeong",
+            "last": "Seong",
+            "full": "Wan gyeong Seong",
+            "native": "완경 성",
+            "userPreferred": "Wan gyeong Seong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14827.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9582,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Maki",
+        "last": null,
+        "full": "Maki",
+        "native": "マキ",
+        "userPreferred": "Maki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9582.jpg",
+      "voiceActors": [
+        {
+          "id": 95429,
+          "language": "Japanese",
+          "name": {
+            "first": "Reiko",
+            "last": "Takagi",
+            "full": "Reiko Takagi",
+            "native": "高木礼子",
+            "userPreferred": "Reiko Takagi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95429-UOUUXfVWaQN2.png"
+        }
+      ]
+    },
+    {
+      "id": 6785,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takeru",
+        "last": null,
+        "full": "Takeru",
+        "native": "タケル",
+        "userPreferred": "Takeru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6785.jpg",
+      "voiceActors": [
+        {
+          "id": 95186,
+          "language": "Japanese",
+          "name": {
+            "first": "Shintarou",
+            "last": "Asanuma",
+            "full": "Shintarou Asanuma",
+            "native": "浅沼晋太郎",
+            "userPreferred": "Shintarou Asanuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95186-XMdPPqYhMrwN.jpg"
+        },
+        {
+          "id": 109867,
+          "language": "Korean",
+          "name": {
+            "first": "Jang",
+            "last": "Kim",
+            "full": "Jang Kim",
+            "native": "장 김",
+            "userPreferred": "Jang Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14867.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10738,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Yoshino",
+        "full": "Yoshino",
+        "native": "吉野",
+        "userPreferred": "Yoshino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10738.jpg",
+      "voiceActors": [
+        {
+          "id": 95599,
+          "language": "Japanese",
+          "name": {
+            "first": "Aki",
+            "last": "Toyosaki",
+            "full": "Aki Toyosaki",
+            "native": "豊崎愛生",
+            "userPreferred": "Aki Toyosaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95599-XDGiluZB7IXL.png"
+        },
+        {
+          "id": 109993,
+          "language": "Korean",
+          "name": {
+            "first": "Ji Yeong",
+            "last": "Lee",
+            "full": "Ji Yeong Lee",
+            "native": "이지영",
+            "userPreferred": "Ji Yeong Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109993-WIQ4T5SCuW8X.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5609,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Makoto",
+        "last": null,
+        "full": "Makoto",
+        "native": "マコト",
+        "userPreferred": "Makoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5609.jpg",
+      "voiceActors": [
+        {
+          "id": 95210,
+          "language": "Japanese",
+          "name": {
+            "first": "Rika",
+            "last": "Morinaga",
+            "full": "Rika Morinaga",
+            "native": "理科 森永",
+            "userPreferred": "Rika Morinaga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95210-ypPCcBORovp0.png"
+        },
+        {
+          "id": 110097,
+          "language": "Korean",
+          "name": {
+            "first": "In-Seong",
+            "last": "Oh",
+            "full": "In-Seong Oh",
+            "native": "오인성",
+            "userPreferred": "In-Seong Oh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15097.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10737,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Riko",
+        "last": null,
+        "full": "Riko",
+        "native": "リコ",
+        "userPreferred": "Riko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10737.jpg",
+      "voiceActors": [
+        {
+          "id": 95713,
+          "language": "Japanese",
+          "name": {
+            "first": "Ao",
+            "last": "Takahashi",
+            "full": "Ao Takahashi",
+            "native": "高梁碧",
+            "userPreferred": "Ao Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95713-wwtd0UwpjKug.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 2963,
+      "relationType": "PREQUEL",
+      "malId": 2963,
+      "title": {
+        "romaji": "Minami-ke",
+        "english": null,
+        "native": "みなみけ",
+        "userPreferred": "Minami-ke"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2963-JxvWsnzcs4IP.png",
+      "color": null,
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2963-WP4D4YxOk04F.jpg",
+      "rating": 73
+    },
+    {
+      "id": 5162,
+      "relationType": "SEQUEL",
+      "malId": 5162,
+      "title": {
+        "romaji": "Minami-ke: Okaeri",
+        "english": null,
+        "native": "みなみけ おかえり",
+        "userPreferred": "Minami-ke: Okaeri"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5162-5UFIak1E0jvL.png",
+      "color": null,
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5162-5UFIak1E0jvL.png",
+      "rating": 73
+    },
+    {
+      "id": 32629,
+      "relationType": "ADAPTATION",
+      "malId": 2629,
+      "title": {
+        "romaji": "Minami-ke",
+        "english": null,
+        "native": "みなみけ",
+        "userPreferred": "Minami-ke"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx32629-sJUrUnzkdCjx.png",
+      "color": "#ffa135",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/32629-YKV6o8t5gPqM.jpg",
+      "rating": 70
+    }
+  ],
+  "episodes": [
+    {
+      "id": "-minami-ke-okawari-episode-1",
+      "title": "Hot Springs, Let's Eat",
+      "image": "https://media.kitsu.io/episodes/thumbnails/48517/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:24:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-minami-ke-okawari-episode-1"
+    },
+    {
+      "id": "-minami-ke-okawari-episode-2",
+      "title": "Taste is Something Inherited Over Generations",
+      "image": "https://media.kitsu.io/episodes/thumbnails/48518/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:24:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-minami-ke-okawari-episode-2"
+    },
+    {
+      "id": "-minami-ke-okawari-episode-3",
+      "title": "Evening Hospitality, Hesitantly Offered",
+      "image": "https://media.kitsu.io/episodes/thumbnails/48519/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:24:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-minami-ke-okawari-episode-3"
+    },
+    {
+      "id": "-minami-ke-okawari-episode-4",
+      "title": "Is It All Right to Clean Up?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/48520/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:24:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-minami-ke-okawari-episode-4"
+    },
+    {
+      "id": "-minami-ke-okawari-episode-5",
+      "title": "Can't Take Back a Served Tea Cup",
+      "image": "https://media.kitsu.io/episodes/thumbnails/48521/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:24:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-minami-ke-okawari-episode-5"
+    },
+    {
+      "id": "-minami-ke-okawari-episode-6",
+      "title": "My Rice is Warm Even After It's Cooled",
+      "image": "https://media.kitsu.io/episodes/thumbnails/48522/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:24:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-minami-ke-okawari-episode-6"
+    },
+    {
+      "id": "-minami-ke-okawari-episode-7",
+      "title": "The More You Chew It, The Sweeter It Becomes",
+      "image": "https://media.kitsu.io/episodes/thumbnails/48523/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:24:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-minami-ke-okawari-episode-7"
+    },
+    {
+      "id": "-minami-ke-okawari-episode-8",
+      "title": "There's Always Time for the Pool",
+      "image": "https://media.kitsu.io/episodes/thumbnails/48524/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:24:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-minami-ke-okawari-episode-8"
+    },
+    {
+      "id": "-minami-ke-okawari-episode-9",
+      "title": "Does It Hurt Yet? Secrets of Mako-chan",
+      "image": "https://media.kitsu.io/episodes/thumbnails/48525/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:24:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-minami-ke-okawari-episode-9"
+    },
+    {
+      "id": "-minami-ke-okawari-episode-10",
+      "title": "'Dumplings Rather than Flowers' Age",
+      "image": "https://media.kitsu.io/episodes/thumbnails/48526/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:24:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-minami-ke-okawari-episode-10"
+    },
+    {
+      "id": "-minami-ke-okawari-episode-11",
+      "title": "As Expected, It's Getting Bad",
+      "image": "https://media.kitsu.io/episodes/thumbnails/48527/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:24:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-minami-ke-okawari-episode-11"
+    },
+    {
+      "id": "-minami-ke-okawari-episode-12",
+      "title": "Even One Bite More Is Painful",
+      "image": "https://media.kitsu.io/episodes/thumbnails/48528/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:24:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-minami-ke-okawari-episode-12"
+    },
+    {
+      "id": "-minami-ke-okawari-episode-13",
+      "title": "Everyone At Once, 'Thank You for the Meal'",
+      "image": "https://media.kitsu.io/episodes/thumbnails/48529/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:24:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-minami-ke-okawari-episode-13"
+    }
+  ]
+}

@@ -1,0 +1,684 @@
+{
+  "id": "21891",
+  "title": {
+    "romaji": "Re:Petit kara Hajimeru Isekai Seikatsu",
+    "english": "Re:PETIT ~Re: Starting Life in Another World From PETIT~",
+    "native": "Re:プチから始める異世界生活"
+  },
+  "malId": 33569,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21891-Zr4CPYnZzljl.jpg",
+  "popularity": 11411,
+  "color": "#f1a143",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21891-tryAiMpIwGCH.jpg",
+  "description": "A collection of comedic shorts featuring characters from Re:Zero kara Hajimeru Isekai Seikatsu. A continuation of Re:Zero kara Hajimeru Break Time.\n",
+  "status": "Completed",
+  "releaseDate": 2016,
+  "startDate": {
+    "year": 2016,
+    "month": 6,
+    "day": 24
+  },
+  "endDate": {
+    "year": 2016,
+    "month": 9,
+    "day": 23
+  },
+  "totalEpisodes": 14,
+  "currentEpisode": 14,
+  "rating": 64,
+  "duration": 3,
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Studio PuYUKAI"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 100180,
+      "malId": 36468,
+      "title": {
+        "romaji": "Shoujo Shuumatsu Jugyou",
+        "english": "Girls' Weekend Class",
+        "native": "少女週末授業",
+        "userPreferred": "Shoujo Shuumatsu Jugyou"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100180-vPtNXnPCS7bR.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100180-LBVQbTPyfTMD.jpg",
+      "rating": 63,
+      "type": "ONA"
+    },
+    {
+      "id": 104454,
+      "malId": 38472,
+      "title": {
+        "romaji": "Isekai Quartet",
+        "english": "ISEKAI QUARTET",
+        "native": "異世界かるてっと",
+        "userPreferred": "Isekai Quartet"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104454-pH5YCR7HteqP.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104454-saTOUkEAtcMC.jpg",
+      "rating": 72,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 166988,
+      "malId": 55753,
+      "title": {
+        "romaji": "Okashi na Tensei Mini Anime",
+        "english": null,
+        "native": "おかしな転生 ミニアニメ",
+        "userPreferred": "Okashi na Tensei Mini Anime"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b166988-Z2Lty0yFizhd.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b166988-Z2Lty0yFizhd.jpg",
+      "rating": 50,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 88573,
+      "role": "MAIN",
+      "name": {
+        "first": "Subaru",
+        "last": "Natsuki",
+        "full": "Subaru Natsuki",
+        "native": "ナツキ・スバル",
+        "userPreferred": "Subaru Natsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88573-OLEMxaBLC9rk.png",
+      "voiceActors": [
+        {
+          "id": 118407,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuusuke",
+            "last": "Kobayashi",
+            "full": "Yuusuke Kobayashi",
+            "native": "小林裕介",
+            "userPreferred": "Yuusuke Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118407-QvEt3bGtuRQM.png"
+        }
+      ]
+    },
+    {
+      "id": 88575,
+      "role": "MAIN",
+      "name": {
+        "first": "Rem",
+        "last": "",
+        "full": "Rem",
+        "native": "レム",
+        "userPreferred": "Rem"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88575-CjdhrvYLrToO.png",
+      "voiceActors": [
+        {
+          "id": 106297,
+          "language": "Japanese",
+          "name": {
+            "first": "Inori",
+            "last": "Minase",
+            "full": "Inori Minase",
+            "native": "水瀬いのり",
+            "userPreferred": "Inori Minase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106297-KnzvgfxB1byY.png"
+        }
+      ]
+    },
+    {
+      "id": 88576,
+      "role": "MAIN",
+      "name": {
+        "first": "Ram",
+        "last": "",
+        "full": "Ram",
+        "native": "ラム",
+        "userPreferred": "Ram"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88576-fjTlmKcRsBxS.png",
+      "voiceActors": [
+        {
+          "id": 107212,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Murakawa",
+            "full": "Rie Murakawa",
+            "native": "村川梨衣",
+            "userPreferred": "Rie Murakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107212-4OHHrSs8srTU.png"
+        }
+      ]
+    },
+    {
+      "id": 90181,
+      "role": "MAIN",
+      "name": {
+        "first": "Beatrice",
+        "last": null,
+        "full": "Beatrice",
+        "native": "ベアトリス",
+        "userPreferred": "Beatrice"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b90181-wRPm0OEaucmw.png",
+      "voiceActors": [
+        {
+          "id": 95124,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Arai",
+            "full": "Satomi Arai",
+            "native": "新井里美",
+            "userPreferred": "Satomi Arai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95124-8C0BORTX7Bfd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 88574,
+      "role": "MAIN",
+      "name": {
+        "first": "Felt",
+        "last": "",
+        "full": "Felt",
+        "native": "フェルト",
+        "userPreferred": "Felt"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88574-Hau8t0GlMvhp.jpg",
+      "voiceActors": [
+        {
+          "id": 107652,
+          "language": "Japanese",
+          "name": {
+            "first": "Chinatsu",
+            "last": "Akasaki",
+            "full": "Chinatsu Akasaki",
+            "native": "赤﨑千夏",
+            "userPreferred": "Chinatsu Akasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107652-wHdkKzhetbiH.jpg"
+        }
+      ]
+    },
+    {
+      "id": 88572,
+      "role": "MAIN",
+      "name": {
+        "first": "Emilia",
+        "last": null,
+        "full": "Emilia",
+        "native": "エミリア",
+        "userPreferred": "Emilia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88572-v2KimyNuU4XZ.jpg",
+      "voiceActors": [
+        {
+          "id": 119331,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Takahashi",
+            "full": "Rie Takahashi",
+            "native": "高橋李依",
+            "userPreferred": "Rie Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119331-0CYDTh2mwy62.png"
+        }
+      ]
+    },
+    {
+      "id": 90186,
+      "role": "MAIN",
+      "name": {
+        "first": "Priscilla",
+        "last": "Barielle",
+        "full": "Priscilla Barielle",
+        "native": "プリシラ・バーリエル",
+        "userPreferred": "Priscilla Barielle"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b90186-oW46kURZRPrl.jpg",
+      "voiceActors": [
+        {
+          "id": 95027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Tamura",
+            "full": "Yukari Tamura",
+            "native": "田村ゆかり",
+            "userPreferred": "Yukari Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+        }
+      ]
+    },
+    {
+      "id": 90177,
+      "role": "MAIN",
+      "name": {
+        "first": "Anastasia",
+        "last": "Hoshin",
+        "full": "Anastasia Hoshin",
+        "native": "アナスタシア・ホーシン",
+        "userPreferred": "Anastasia Hoshin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b90177-K1XztcZqHl3c.png",
+      "voiceActors": [
+        {
+          "id": 95116,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Ueda",
+            "full": "Kana Ueda",
+            "native": "植田佳奈",
+            "userPreferred": "Kana Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95116-NvhEn6vNMiAq.png"
+        }
+      ]
+    },
+    {
+      "id": 90187,
+      "role": "MAIN",
+      "name": {
+        "first": "Puck",
+        "last": null,
+        "full": "Puck",
+        "native": "パック",
+        "userPreferred": "Puck"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b90187-xJXlD84KXl3t.jpg",
+      "voiceActors": [
+        {
+          "id": 106784,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Uchiyama",
+            "full": "Yumi Uchiyama",
+            "native": "内山夕実",
+            "userPreferred": "Yumi Uchiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106784-reDoHBLWxi7J.jpg"
+        }
+      ]
+    },
+    {
+      "id": 90185,
+      "role": "MAIN",
+      "name": {
+        "first": "Crusch",
+        "last": "Karsten",
+        "full": "Crusch Karsten",
+        "native": "クルシュ・カルステン",
+        "userPreferred": "Crusch Karsten"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b90185-FR9JHyNe5038.jpg",
+      "voiceActors": [
+        {
+          "id": 95885,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Iguchi",
+            "full": "Yuka Iguchi",
+            "native": "井口裕香",
+            "userPreferred": "Yuka Iguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95885-8Le2NWyACKNt.png"
+        }
+      ]
+    },
+    {
+      "id": 127242,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Satella",
+        "last": null,
+        "full": "Satella",
+        "native": "サテラ",
+        "userPreferred": "Satella"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/127242-UVgHhBEnLAJn.png",
+      "voiceActors": []
+    },
+    {
+      "id": 90180,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Elsa",
+        "last": "Granhiert",
+        "full": "Elsa Granhiert",
+        "native": "エルザ・グランヒルテ",
+        "userPreferred": "Elsa Granhiert"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b90180-YXbXfcSlalav.png",
+      "voiceActors": []
+    },
+    {
+      "id": 90182,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Roswaal",
+        "last": "Mathers",
+        "full": "Roswaal Mathers",
+        "native": "ロズワール・Ｌ・メイザース",
+        "userPreferred": "Roswaal L. Mathers"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b90182-Ho0NS06tc6NL.png",
+      "voiceActors": []
+    },
+    {
+      "id": 124118,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Kadomon",
+        "last": "Risch",
+        "full": "Kadomon Risch",
+        "native": "カドモン・リッシュ",
+        "userPreferred": "Kadomon Risch"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124118-ZWc6vrpwxZAL.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 90184,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Felix",
+        "last": "Argyle",
+        "full": "Felix Argyle",
+        "native": "フェリックス・アーガイル",
+        "userPreferred": "Felix Argyle"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b90184-o1ZFF6osCZX7.png",
+      "voiceActors": []
+    },
+    {
+      "id": 124115,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Rachins",
+        "last": "Hoffman",
+        "full": "Rachins Hoffman",
+        "native": "ラチンス・ホフマン",
+        "userPreferred": "Rachins Hoffman"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124115-AlzT5EbLBWbt.png",
+      "voiceActors": []
+    },
+    {
+      "id": 90179,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Wilhelm",
+        "last": "van Astrea",
+        "full": "Wilhelm van Astrea",
+        "native": "ヴィルヘルム・ヴァン・アストレア",
+        "userPreferred": "Wilhelm van Astrea"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b90179-dBqDPUn2i7dM.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 205262,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Gaston",
+        "last": null,
+        "full": "Gaston",
+        "native": "ガストン",
+        "userPreferred": "Gaston"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b205262-4QkNpvgw0svU.png",
+      "voiceActors": []
+    },
+    {
+      "id": 88577,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Reinhard",
+        "last": "van Astrea",
+        "full": "Reinhard van Astrea",
+        "native": "ラインハルト・ヴァン・アストレア",
+        "userPreferred": "Reinhard van Astrea"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88577-WlMtJzkQ1BJi.png",
+      "voiceActors": []
+    },
+    {
+      "id": 205261,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Kan",
+        "last": null,
+        "full": "Kan",
+        "native": "カン",
+        "userPreferred": "Kan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b205261-v1HJzOXXVEJf.png",
+      "voiceActors": []
+    },
+    {
+      "id": 124110,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Otto",
+        "last": "Suwen",
+        "full": "Otto Suwen",
+        "native": "オットー・スーウェン",
+        "userPreferred": "Otto Suwen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124110-Gfr3IYI6FwqE.jpg",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 21355,
+      "relationType": "PARENT",
+      "malId": 31240,
+      "title": {
+        "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu",
+        "english": "Re:ZERO -Starting Life in Another World-",
+        "native": "Re:ゼロから始める異世界生活",
+        "userPreferred": "Re:Zero kara Hajimeru Isekai Seikatsu"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21355-IHaS50pvLYd0.jpg",
+      "color": "#f150ae",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21355-f9SjOfEJMk5P.jpg",
+      "rating": 80
+    },
+    {
+      "id": 21780,
+      "relationType": "PREQUEL",
+      "malId": 33142,
+      "title": {
+        "romaji": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time)",
+        "english": "Re:ZERO ~Starting Break Time From Zero~",
+        "native": "Re:ゼロから始める休憩時間(ブレイクタイム)",
+        "userPreferred": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time)"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21780-xCJk0z5vpn57.jpg",
+      "color": "#5daee4",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21780-xCJk0z5vpn57.jpg",
+      "rating": 64
+    },
+    {
+      "id": 120700,
+      "relationType": "SEQUEL",
+      "malId": 42364,
+      "title": {
+        "romaji": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 2nd Season",
+        "english": null,
+        "native": "Re:ゼロから始める休憩時間(ブレイクタイム) 2nd Season",
+        "userPreferred": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 2nd Season"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b120700-buuy9COgsBTa.jpg",
+      "color": "#a1f1c9",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b120700-buuy9COgsBTa.jpg",
+      "rating": 68
+    }
+  ],
+  "episodes": [
+    {
+      "id": "repetit-kara-hajimeru-isekai-seikatsu-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21891-Zr4CPYnZzljl.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//repetit-kara-hajimeru-isekai-seikatsu-episode-1"
+    },
+    {
+      "id": "repetit-kara-hajimeru-isekai-seikatsu-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21891-Zr4CPYnZzljl.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//repetit-kara-hajimeru-isekai-seikatsu-episode-2"
+    },
+    {
+      "id": "repetit-kara-hajimeru-isekai-seikatsu-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21891-Zr4CPYnZzljl.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//repetit-kara-hajimeru-isekai-seikatsu-episode-3"
+    },
+    {
+      "id": "repetit-kara-hajimeru-isekai-seikatsu-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21891-Zr4CPYnZzljl.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//repetit-kara-hajimeru-isekai-seikatsu-episode-4"
+    },
+    {
+      "id": "repetit-kara-hajimeru-isekai-seikatsu-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21891-Zr4CPYnZzljl.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//repetit-kara-hajimeru-isekai-seikatsu-episode-5"
+    },
+    {
+      "id": "repetit-kara-hajimeru-isekai-seikatsu-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21891-Zr4CPYnZzljl.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//repetit-kara-hajimeru-isekai-seikatsu-episode-6"
+    },
+    {
+      "id": "repetit-kara-hajimeru-isekai-seikatsu-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21891-Zr4CPYnZzljl.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//repetit-kara-hajimeru-isekai-seikatsu-episode-7"
+    },
+    {
+      "id": "repetit-kara-hajimeru-isekai-seikatsu-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21891-Zr4CPYnZzljl.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//repetit-kara-hajimeru-isekai-seikatsu-episode-8"
+    },
+    {
+      "id": "repetit-kara-hajimeru-isekai-seikatsu-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21891-Zr4CPYnZzljl.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//repetit-kara-hajimeru-isekai-seikatsu-episode-9"
+    },
+    {
+      "id": "repetit-kara-hajimeru-isekai-seikatsu-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21891-Zr4CPYnZzljl.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//repetit-kara-hajimeru-isekai-seikatsu-episode-10"
+    },
+    {
+      "id": "repetit-kara-hajimeru-isekai-seikatsu-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21891-Zr4CPYnZzljl.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//repetit-kara-hajimeru-isekai-seikatsu-episode-11"
+    },
+    {
+      "id": "repetit-kara-hajimeru-isekai-seikatsu-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21891-Zr4CPYnZzljl.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//repetit-kara-hajimeru-isekai-seikatsu-episode-12"
+    },
+    {
+      "id": "repetit-kara-hajimeru-isekai-seikatsu-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21891-Zr4CPYnZzljl.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//repetit-kara-hajimeru-isekai-seikatsu-episode-13"
+    },
+    {
+      "id": "repetit-kara-hajimeru-isekai-seikatsu-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21891-Zr4CPYnZzljl.jpg",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//repetit-kara-hajimeru-isekai-seikatsu-episode-14"
+    }
+  ]
+}

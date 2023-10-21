@@ -1,0 +1,694 @@
+{
+  "id": "146",
+  "title": {
+    "romaji": "Kono Minikuku mo Utsukushii Sekai",
+    "english": "This Ugly Yet Beautiful World",
+    "native": "この醜くも美しい世界"
+  },
+  "malId": 146,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146-JPwhcOFDs1bY.jpg",
+  "popularity": 7880,
+  "color": "#f16b50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/146-5uBVFpL2FJod.jpg",
+  "description": "High school student Takeru Takemoto works part time as a (motor)bike courier. During one of his deliveries, he saw a mysterious light passing him and fell into a forest. What he had found was a beautiful girl coming out from a glowing cocoon, calling herself \"Hikari.\" While Takeru was quite embarrassed because of Hikari's nudity, a strange monster suddenly showed up and immediately attacked the two. Both Takeru and Hikari demonstrated the power of their other selves before Takeru had a clue of what's going on.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2004,
+  "startDate": {
+    "year": 2004,
+    "month": 4,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2004,
+    "month": 6,
+    "day": 18
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 60,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Romance",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Gainax"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 812,
+      "malId": 812,
+      "title": {
+        "romaji": "Chikyuu Shoujo Arjuna",
+        "english": "Arjuna",
+        "native": "地球少女アルジュナ",
+        "userPreferred": "Chikyuu Shoujo Arjuna"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx812-kBPBYhjD025q.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/812-i6k5giQCtxoo.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 226,
+      "malId": 226,
+      "title": {
+        "romaji": "Elfen Lied",
+        "english": "Elfen Lied",
+        "native": "エルフェンリート",
+        "userPreferred": "Elfen Lied"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx226-vqteB2impeYH.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/226.jpg",
+      "rating": 68,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 2570,
+      "role": "MAIN",
+      "name": {
+        "first": "Hikari",
+        "last": "Hoshino",
+        "full": "Hikari Hoshino",
+        "native": null,
+        "userPreferred": "Hikari Hoshino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2570.jpg",
+      "voiceActors": [
+        {
+          "id": 95013,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayako",
+            "last": "Kawasumi",
+            "full": "Ayako Kawasumi",
+            "native": "川澄綾子",
+            "userPreferred": "Ayako Kawasumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95013-cwl64qXuP2r7.png"
+        },
+        {
+          "id": 95721,
+          "language": "English",
+          "name": {
+            "first": "Cynthia",
+            "last": "Martinez",
+            "full": "Cynthia Martinez",
+            "native": null,
+            "userPreferred": "Cynthia Martinez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95721-4wGzyO12bXAP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2571,
+      "role": "MAIN",
+      "name": {
+        "first": "Ryou",
+        "last": "Ninomiya",
+        "full": "Ryou Ninomiya",
+        "native": "二ノ宮リョウ",
+        "userPreferred": "Ryou Ninomiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2571-OJ5CFbiFm48j.png",
+      "voiceActors": [
+        {
+          "id": 95451,
+          "language": "Japanese",
+          "name": {
+            "first": "Fujiko",
+            "last": "Takimoto",
+            "full": "Fujiko Takimoto",
+            "native": "富士子 瀧本",
+            "userPreferred": "Fujiko Takimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95451-NuJHY4CzBM8O.jpg"
+        },
+        {
+          "id": 106846,
+          "language": "English",
+          "name": {
+            "first": "Quentin",
+            "last": "Haag",
+            "full": "Quentin Haag",
+            "native": null,
+            "userPreferred": "Quentin Haag"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2572,
+      "role": "MAIN",
+      "name": {
+        "first": "Akari",
+        "last": null,
+        "full": "Akari",
+        "native": null,
+        "userPreferred": "Akari"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2572.jpg",
+      "voiceActors": [
+        {
+          "id": 95072,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Shimizu",
+            "full": "Ai Shimizu",
+            "native": "清水愛",
+            "userPreferred": "Ai Shimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95072-V8FWqUIDJ57b.png"
+        },
+        {
+          "id": 95199,
+          "language": "English",
+          "name": {
+            "first": "Jessica",
+            "last": "Boone",
+            "full": "Jessica Boone",
+            "native": null,
+            "userPreferred": "Jessica Boone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95199-0ArwCGT722iO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2573,
+      "role": "MAIN",
+      "name": {
+        "first": "Mari",
+        "last": "Nishino",
+        "full": "Mari Nishino",
+        "native": "西野マリ",
+        "userPreferred": "Mari Nishino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2573.jpg",
+      "voiceActors": [
+        {
+          "id": 95126,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Sanada",
+            "full": "Asami Sanada",
+            "native": "真田アサミ",
+            "userPreferred": "Asami Sanada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95126-5riJAYwazk5K.jpg"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2569,
+      "role": "MAIN",
+      "name": {
+        "first": "Takeru",
+        "last": "Takemoto",
+        "full": "Takeru Takemoto",
+        "native": "竹本タケル",
+        "userPreferred": "Takeru Takemoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2569.jpg",
+      "voiceActors": [
+        {
+          "id": 95279,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Mizushima",
+            "full": "Takahiro Mizushima",
+            "native": "水島大宙",
+            "userPreferred": "Takahiro Mizushima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95279-5fMO4r9szQKL.jpg"
+        },
+        {
+          "id": 96028,
+          "language": "English",
+          "name": {
+            "first": "Braden",
+            "last": "Hunt",
+            "full": "Braden Hunt",
+            "native": null,
+            "userPreferred": "Braden Hunt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1028.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20042,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shinichi",
+        "last": "Asakura",
+        "full": "Shinichi Asakura",
+        "native": null,
+        "userPreferred": "Shinichi Asakura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20042.jpg",
+      "voiceActors": [
+        {
+          "id": 95560,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Kisaichi",
+            "full": "Atsushi Kisaichi",
+            "native": "私市淳",
+            "userPreferred": "Atsushi Kisaichi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95560-zMj9LRxhYkMX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20047,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuon",
+        "last": null,
+        "full": "Kuon",
+        "native": null,
+        "userPreferred": "Kuon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20047.jpg",
+      "voiceActors": [
+        {
+          "id": 95126,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Sanada",
+            "full": "Asami Sanada",
+            "native": "真田アサミ",
+            "userPreferred": "Asami Sanada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95126-5riJAYwazk5K.jpg"
+        },
+        {
+          "id": 95192,
+          "language": "English",
+          "name": {
+            "first": "Greg",
+            "last": "Ayres",
+            "full": "Greg Ayres",
+            "native": null,
+            "userPreferred": "Greg Ayres"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95192-igLHZjSO4eE0.png"
+        }
+      ]
+    },
+    {
+      "id": 20044,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Amika",
+        "last": "Kurebayashi",
+        "full": "Amika Kurebayashi",
+        "native": null,
+        "userPreferred": "Amika Kurebayashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20044.jpg",
+      "voiceActors": [
+        {
+          "id": 100379,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Kikuchi",
+            "full": "Yumi Kikuchi",
+            "native": "菊地由美",
+            "userPreferred": "Yumi Kikuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100379-y8OPjepmmTFk.png"
+        },
+        {
+          "id": 95642,
+          "language": "English",
+          "name": {
+            "first": "Taylor",
+            "last": "Hannah",
+            "full": "Taylor Hannah",
+            "native": null,
+            "userPreferred": "Taylor Hannah"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/642.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20045,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ioneos",
+        "last": null,
+        "full": "Ioneos",
+        "native": null,
+        "userPreferred": "Ioneos"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20045.jpg",
+      "voiceActors": [
+        {
+          "id": 100177,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiichi",
+            "last": "Noda",
+            "full": "Keiichi Noda",
+            "native": "野田圭一",
+            "userPreferred": "Keiichi Noda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100177-ZfGV5vhrDCEB.png"
+        },
+        {
+          "id": 107436,
+          "language": "English",
+          "name": {
+            "first": "Paul",
+            "last": "Oddo",
+            "full": "Paul Oddo",
+            "native": null,
+            "userPreferred": "Paul Oddo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4489,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kimi",
+        "last": "Ninomiya",
+        "full": "Kimi Ninomiya",
+        "native": "二ノ宮 紀美",
+        "userPreferred": "Kimi Ninomiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4489.jpg",
+      "voiceActors": [
+        {
+          "id": 100484,
+          "language": "Japanese",
+          "name": {
+            "first": "Megu",
+            "last": "Ashiro",
+            "full": "Megu Ashiro",
+            "native": "亜城めぐ",
+            "userPreferred": "Megu Ashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100484-UQVhgZAK03kc.jpg"
+        },
+        {
+          "id": 95151,
+          "language": "English",
+          "name": {
+            "first": "Hilary",
+            "last": "Haag",
+            "full": "Hilary Haag",
+            "native": null,
+            "userPreferred": "Hilary Haag"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/151.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20043,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sakurako",
+        "last": "Urushima",
+        "full": "Sakurako Urushima",
+        "native": null,
+        "userPreferred": "Sakurako Urushima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20043.jpg",
+      "voiceActors": [
+        {
+          "id": 102536,
+          "language": "Japanese",
+          "name": {
+            "first": "Manabi",
+            "last": "Mizuno",
+            "full": "Manabi Mizuno",
+            "native": "愛日 水野",
+            "userPreferred": "Manabi Mizuno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7536.jpg"
+        },
+        {
+          "id": 105607,
+          "language": "English",
+          "name": {
+            "first": "Lesley",
+            "last": "Tesh",
+            "full": "Lesley Tesh",
+            "native": null,
+            "userPreferred": "Lesley Tesh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10607.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20041,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Daijirou",
+        "last": "Matsumura",
+        "full": "Daijirou Matsumura",
+        "native": null,
+        "userPreferred": "Daijirou Matsumura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20041.jpg",
+      "voiceActors": [
+        {
+          "id": 95985,
+          "language": "Japanese",
+          "name": {
+            "first": "Hideki",
+            "last": "Ogihara",
+            "full": "Hideki Ogihara",
+            "native": "荻原秀樹",
+            "userPreferred": "Hideki Ogihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/985.jpg"
+        },
+        {
+          "id": 95190,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Patton",
+            "full": "Chris Patton",
+            "native": null,
+            "userPreferred": "Chris Patton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95190-Ht5ukZFcl0PX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20046,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jennifer",
+        "last": "Portman",
+        "full": "Jennifer Portman",
+        "native": null,
+        "userPreferred": "Jennifer Portman"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20046.jpg",
+      "voiceActors": [
+        {
+          "id": 95984,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Takada",
+            "full": "Yumi Takada",
+            "native": "高田由美",
+            "userPreferred": "Yumi Takada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95984-CH3CaTnNBoQv.jpg"
+        },
+        {
+          "id": 95193,
+          "language": "English",
+          "name": {
+            "first": "Shelley",
+            "last": "Calene-Black",
+            "full": "Shelley Calene-Black",
+            "native": null,
+            "userPreferred": "Shelley Calene-Black"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95193-Nvdjk8BIcEJb.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 33989,
+      "relationType": "ADAPTATION",
+      "malId": 3989,
+      "title": {
+        "romaji": "Kono Minikuku mo Utsukushii Sekai",
+        "english": "This Ugly Yet Beautiful World",
+        "native": "この醜くも美しい世界",
+        "userPreferred": "Kono Minikuku mo Utsukushii Sekai"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/3989.jpg",
+      "color": "#e4c943",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/3989.jpg",
+      "rating": 69
+    }
+  ],
+  "episodes": [
+    {
+      "id": "this-ugly-yet-beautiful-world-episode-1",
+      "title": "Dawn Is the Separation Between Light and Darkness",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3717/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:20:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//this-ugly-yet-beautiful-world-episode-1"
+    },
+    {
+      "id": "this-ugly-yet-beautiful-world-episode-2",
+      "title": "You Are My First",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3718/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:20:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//this-ugly-yet-beautiful-world-episode-2"
+    },
+    {
+      "id": "this-ugly-yet-beautiful-world-episode-3",
+      "title": "The Two Silhouettes",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3719/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:20:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//this-ugly-yet-beautiful-world-episode-3"
+    },
+    {
+      "id": "this-ugly-yet-beautiful-world-episode-4",
+      "title": "Life from This Point On",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3720/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:20:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//this-ugly-yet-beautiful-world-episode-4"
+    },
+    {
+      "id": "this-ugly-yet-beautiful-world-episode-5",
+      "title": "School Days",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3721/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:20:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//this-ugly-yet-beautiful-world-episode-5"
+    },
+    {
+      "id": "this-ugly-yet-beautiful-world-episode-6",
+      "title": "Standing by the Waterside",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3722/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:20:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//this-ugly-yet-beautiful-world-episode-6"
+    },
+    {
+      "id": "this-ugly-yet-beautiful-world-episode-7",
+      "title": "Prelude to a Kiss",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3723/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:20:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//this-ugly-yet-beautiful-world-episode-7"
+    },
+    {
+      "id": "this-ugly-yet-beautiful-world-episode-8",
+      "title": "This Wonderful World",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3724/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:20:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//this-ugly-yet-beautiful-world-episode-8"
+    },
+    {
+      "id": "this-ugly-yet-beautiful-world-episode-9",
+      "title": "Wishing Upon a Star",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3725/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:20:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//this-ugly-yet-beautiful-world-episode-9"
+    },
+    {
+      "id": "this-ugly-yet-beautiful-world-episode-10",
+      "title": "Heart of Lies",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3726/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:20:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//this-ugly-yet-beautiful-world-episode-10"
+    },
+    {
+      "id": "this-ugly-yet-beautiful-world-episode-11",
+      "title": "Flowing with Time",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3727/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:20:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//this-ugly-yet-beautiful-world-episode-11"
+    },
+    {
+      "id": "this-ugly-yet-beautiful-world-episode-12",
+      "title": "The Song of My Heart",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3728/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:20:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//this-ugly-yet-beautiful-world-episode-12"
+    }
+  ]
+}

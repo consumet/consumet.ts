@@ -1,0 +1,666 @@
+{
+  "id": "2386",
+  "title": {
+    "romaji": "ONE PIECE: Yume no Soccer Ou!",
+    "english": null,
+    "native": "ONE PIECE 夢のサッカー王!"
+  },
+  "malId": 2386,
+  "synonyms": [
+    "One Piece: Dream Soccer King!"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2386-NQQkq1taHJ08.jpg",
+  "popularity": 8878,
+  "color": "#d6931a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2386-jtduFM8raO2z.jpg",
+  "description": "Luffy and his crew take on the Villain All-Stars in a game of soccer in order to become the Dream Soccer King. The game comes down to a pk tie-breaker shoot-out with Coby as goalie and Helmeppo refereeing.<br><br>\n(Source: Anime News Network) ",
+  "status": "Completed",
+  "releaseDate": 2002,
+  "startDate": {
+    "year": 2002,
+    "month": 3,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2002,
+    "month": 3,
+    "day": 2
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 66,
+  "duration": 5,
+  "genres": [
+    "Comedy",
+    "Fantasy",
+    "Sports"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "SPECIAL",
+  "recommendations": [
+    {
+      "id": 2490,
+      "malId": 2490,
+      "title": {
+        "romaji": "ONE PIECE: Mezase! Kaizoku Yakyuu Ou",
+        "english": null,
+        "native": "ONE PIECE めざせ! 海賊野球王",
+        "userPreferred": "ONE PIECE: Mezase! Kaizoku Yakyuu Ou"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2490-AL4WmnCJ5zvE.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2490-wlPYONPyTibY.jpg",
+      "rating": 65,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 2385,
+      "malId": 2385,
+      "title": {
+        "romaji": "ONE PIECE: Nejimaki-jima no Bouken - Jango no Dance Carnival",
+        "english": "One Piece: Django's Dance Carnival",
+        "native": "ONE PIECE ねじまき島の冒険 ジャンゴのダンスカーニバル",
+        "userPreferred": "ONE PIECE: Nejimaki-jima no Bouken - Jango no Dance Carnival"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n2385-us99rub90MzL.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n2385-kYxcxwV0LTvq.jpg",
+      "rating": 67,
+      "type": "SPECIAL"
+    }
+  ],
+  "characters": [
+    {
+      "id": 724,
+      "role": "MAIN",
+      "name": {
+        "first": "Usopp",
+        "last": null,
+        "full": "Usopp",
+        "native": "ウソップ",
+        "userPreferred": "Usopp"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b724-9WkBXgfmVUgW.jpg",
+      "voiceActors": [
+        {
+          "id": 95067,
+          "language": "Japanese",
+          "name": {
+            "first": "Kappei",
+            "last": "Yamaguchi",
+            "full": "Kappei Yamaguchi",
+            "native": "山口勝平",
+            "userPreferred": "Kappei Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95067-hqIpNxMfAuN2.png"
+        },
+        {
+          "id": 104926,
+          "language": "German",
+          "name": {
+            "first": "Dirk",
+            "last": "Meyer",
+            "full": "Dirk Meyer",
+            "native": null,
+            "userPreferred": "Dirk Meyer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9926.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "role": "MAIN",
+      "name": {
+        "first": "Luffy",
+        "last": "Monkey",
+        "full": "Luffy Monkey",
+        "native": "モンキー・D・ルフィ",
+        "userPreferred": "Luffy D. Monkey"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b40-q0YepZ4VUZUO.png",
+      "voiceActors": [
+        {
+          "id": 95075,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayumi",
+            "last": "Tanaka",
+            "full": "Mayumi Tanaka",
+            "native": "田中真弓",
+            "userPreferred": "Mayumi Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95075-1qD4TeW1ON92.png"
+        },
+        {
+          "id": 100143,
+          "language": "German",
+          "name": {
+            "first": "Daniel",
+            "last": "Schlauch",
+            "full": "Daniel Schlauch",
+            "native": null,
+            "userPreferred": "Daniel Schlauch"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100143-47anXO76XYj9.png"
+        }
+      ]
+    },
+    {
+      "id": 723,
+      "role": "MAIN",
+      "name": {
+        "first": "Nami",
+        "last": "",
+        "full": "Nami",
+        "native": "ナミ",
+        "userPreferred": "Nami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b723-Ye0LjLgo6i2K.png",
+      "voiceActors": [
+        {
+          "id": 95076,
+          "language": "Japanese",
+          "name": {
+            "first": "Akemi",
+            "last": "Okamura",
+            "full": "Akemi Okamura",
+            "native": "岡村明美",
+            "userPreferred": "Akemi Okamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95076-itRGy8F3x5Em.png"
+        },
+        {
+          "id": 105717,
+          "language": "German",
+          "name": {
+            "first": "Stephanie",
+            "last": "Kellner",
+            "full": "Stephanie Kellner",
+            "native": null,
+            "userPreferred": "Stephanie Kellner"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10717.jpg"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "role": "MAIN",
+      "name": {
+        "first": "Zoro",
+        "last": "Roronoa",
+        "full": "Zoro Roronoa",
+        "native": "ロロノア・ゾロ",
+        "userPreferred": "Zoro Roronoa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b62-Wixe3kLJGVby.png",
+      "voiceActors": [
+        {
+          "id": 95123,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuya",
+            "last": "Nakai",
+            "full": "Kazuya Nakai",
+            "native": "中井和哉",
+            "userPreferred": "Kazuya Nakai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95123-qdVFNraYmQ5K.png"
+        },
+        {
+          "id": 100144,
+          "language": "German",
+          "name": {
+            "first": "Philipp",
+            "last": "Brammer",
+            "full": "Philipp Brammer",
+            "native": null,
+            "userPreferred": "Philipp Brammer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5144.jpg"
+        }
+      ]
+    },
+    {
+      "id": 305,
+      "role": "MAIN",
+      "name": {
+        "first": "Sanji",
+        "last": "",
+        "full": "Sanji",
+        "native": "サンジ",
+        "userPreferred": "Sanji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b305-OCK4jCGefFKU.png",
+      "voiceActors": [
+        {
+          "id": 95125,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroaki",
+            "last": "Hirata",
+            "full": "Hiroaki Hirata",
+            "native": "平田広明",
+            "userPreferred": "Hiroaki Hirata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95125-NeFFiJupoDVj.png"
+        },
+        {
+          "id": 102964,
+          "language": "German",
+          "name": {
+            "first": "Hubertus",
+            "last": "von Lerchenfeld",
+            "full": "Hubertus von Lerchenfeld",
+            "native": null,
+            "userPreferred": "Hubertus von Lerchenfeld"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102964-OF7rN1qtFSA3.png"
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "role": "MAIN",
+      "name": {
+        "first": "Chopper",
+        "last": "Tony Tony",
+        "full": "Chopper Tony Tony",
+        "native": "トニートニー・チョッパー",
+        "userPreferred": "Chopper Tony Tony"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n309-Px56UsWX35A3.jpg",
+      "voiceActors": [
+        {
+          "id": 95128,
+          "language": "Japanese",
+          "name": {
+            "first": "Ikue",
+            "last": "Ootani",
+            "full": "Ikue Ootani",
+            "native": "大谷育江",
+            "userPreferred": "Ikue Ootani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95128-9YWpE1d2U8Sj.png"
+        },
+        {
+          "id": 145190,
+          "language": "German",
+          "name": {
+            "first": "Martin",
+            "last": "Halm",
+            "full": "Martin Halm",
+            "native": null,
+            "userPreferred": "Martin Halm"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145190-Cbuh8HLA6WUt.jpg"
+        }
+      ]
+    },
+    {
+      "id": 726,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Vivi",
+        "last": "Nefertari",
+        "full": "Vivi Nefertari",
+        "native": "ネフェルタリ ビビ",
+        "userPreferred": "Vivi Nefertari"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b726-DqAIpscMuYYx.png",
+      "voiceActors": [
+        {
+          "id": 95230,
+          "language": "Japanese",
+          "name": {
+            "first": "Misa",
+            "last": "Watanabe",
+            "full": "Misa Watanabe",
+            "native": "渡辺美佐",
+            "userPreferred": "Misa Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95230-lCHOeyeVaISA.png"
+        },
+        {
+          "id": 104916,
+          "language": "German",
+          "name": {
+            "first": "Kathrin",
+            "last": "Gaube",
+            "full": "Kathrin Gaube",
+            "native": null,
+            "userPreferred": "Kathrin Gaube"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 725,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Buggy",
+        "last": null,
+        "full": "Buggy",
+        "native": "バギー",
+        "userPreferred": "Buggy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n725-g04AaiaK5f9B.png",
+      "voiceActors": [
+        {
+          "id": 95255,
+          "language": "Japanese",
+          "name": {
+            "first": "Shigeru",
+            "last": "Chiba",
+            "full": "Shigeru Chiba",
+            "native": "千葉繁",
+            "userPreferred": "Shigeru Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95255-VOwYfPMZuZGQ.png"
+        },
+        {
+          "id": 145192,
+          "language": "German",
+          "name": {
+            "first": "Gudo",
+            "last": "Hoegel",
+            "full": "Gudo Hoegel",
+            "native": null,
+            "userPreferred": "Gudo Hoegel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145192-cW3EWqEJiT6s.png"
+        }
+      ]
+    },
+    {
+      "id": 12281,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eiichirou",
+        "last": "Oda",
+        "full": "Eiichirou Oda",
+        "native": "尾田栄一郎",
+        "userPreferred": "Eiichirou Oda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12281.jpg",
+      "voiceActors": [
+        {
+          "id": 96881,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiichirou",
+            "last": "Oda",
+            "full": "Eiichirou Oda",
+            "native": "尾田栄一郎",
+            "userPreferred": "Eiichirou Oda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96881-Cyv6wFJxpDw7.png"
+        },
+        {
+          "id": 146606,
+          "language": "German",
+          "name": {
+            "first": "Mike",
+            "last": "Carl",
+            "full": "Mike Carl",
+            "native": null,
+            "userPreferred": "Mike Carl"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4889,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hatchan",
+        "last": null,
+        "full": "Hatchan",
+        "native": "はっちゃん",
+        "userPreferred": "Hatchan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4889.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 12361,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Koby",
+        "last": null,
+        "full": "Koby",
+        "native": "コビー",
+        "userPreferred": "Koby"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b12361-H0SmgKxZ9T61.png",
+      "voiceActors": [
+        {
+          "id": 95155,
+          "language": "Japanese",
+          "name": {
+            "first": "Mika",
+            "last": "Doi",
+            "full": "Mika Doi",
+            "native": "土井美加",
+            "userPreferred": "Mika Doi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95155-hLCyqylRTNOo.png"
+        },
+        {
+          "id": 100886,
+          "language": "German",
+          "name": {
+            "first": "Inez",
+            "last": "Günther",
+            "full": "Inez Günther",
+            "native": null,
+            "userPreferred": "Inez Günther"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5886.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12362,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Helmeppo",
+        "last": null,
+        "full": "Helmeppo",
+        "native": "ヘルメッポ",
+        "userPreferred": "Helmeppo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12362.jpg",
+      "voiceActors": [
+        {
+          "id": 96049,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouichi",
+            "last": "Nagano",
+            "full": "Kouichi Nagano",
+            "native": "永野広一",
+            "userPreferred": "Kouichi Nagano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96049-6T46LKH15EdB.jpg"
+        },
+        {
+          "id": 143986,
+          "language": "German",
+          "name": {
+            "first": "Oliver",
+            "last": "Stritzel",
+            "full": "Oliver Stritzel",
+            "native": null,
+            "userPreferred": "Oliver Stritzel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n143986-d8cBRliOL0wr.png"
+        }
+      ]
+    },
+    {
+      "id": 4875,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bentham",
+        "last": null,
+        "full": "Bentham",
+        "native": "ボンクーレイ",
+        "userPreferred": "Bentham"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n4875-Ga2TVjP70R6r.png",
+      "voiceActors": [
+        {
+          "id": 95131,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuki",
+            "last": "Yao",
+            "full": "Kazuki Yao",
+            "native": "矢尾一樹",
+            "userPreferred": "Kazuki Yao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95131-TCVTgxb08tfE.png"
+        },
+        {
+          "id": 146605,
+          "language": "German",
+          "name": {
+            "first": "Pierre",
+            "last": "Peters-Arnolds",
+            "full": "Pierre Peters-Arnolds",
+            "native": null,
+            "userPreferred": "Pierre Peters-Arnolds"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 25870,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Carue",
+        "last": null,
+        "full": "Carue",
+        "native": "カルー",
+        "userPreferred": "Carue"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25870.jpg",
+      "voiceActors": [
+        {
+          "id": 95125,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroaki",
+            "last": "Hirata",
+            "full": "Hiroaki Hirata",
+            "native": "平田広明",
+            "userPreferred": "Hiroaki Hirata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95125-NeFFiJupoDVj.png"
+        }
+      ]
+    },
+    {
+      "id": 4886,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jango",
+        "last": null,
+        "full": "Jango",
+        "native": "ジャンゴ",
+        "userPreferred": "Jango"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4886-QwqBEUBwKgIr.png",
+      "voiceActors": [
+        {
+          "id": 95131,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuki",
+            "last": "Yao",
+            "full": "Kazuki Yao",
+            "native": "矢尾一樹",
+            "userPreferred": "Kazuki Yao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95131-TCVTgxb08tfE.png"
+        },
+        {
+          "id": 116419,
+          "language": "German",
+          "name": {
+            "first": "Paul",
+            "last": "Sedlmeir",
+            "full": "Paul Sedlmeir",
+            "native": null,
+            "userPreferred": "Paul Sedlmeir"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116419-v3BAobOYKUWM.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 461,
+      "relationType": "PARENT",
+      "malId": 461,
+      "title": {
+        "romaji": "ONE PIECE: Chinjuu-jima no Chopper Oukoku",
+        "english": "One Piece: Chopper’s Kingdom on the Island of Strange Animals",
+        "native": "ONE PIECE 珍獣島のチョッパー王国",
+        "userPreferred": "ONE PIECE: Chinjuu-jima no Chopper Oukoku"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx461-DC9fMDl3AaK1.jpg",
+      "color": "#e49343",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/461-0pvcIaXC0p70.jpg",
+      "rating": 64
+    },
+    {
+      "id": 21,
+      "relationType": "PARENT",
+      "malId": 21,
+      "title": {
+        "romaji": "ONE PIECE",
+        "english": "ONE PIECE",
+        "native": "ONE PIECE",
+        "userPreferred": "ONE PIECE"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21-tXMN3Y20PIL9.jpg",
+      "color": "#e4a15d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg",
+      "rating": 88
+    }
+  ],
+  "episodes": []
+}

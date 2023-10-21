@@ -1,0 +1,85 @@
+{
+  "id": "138612",
+  "title": {
+    "romaji": "Xi Xing Ji: Anying Mo Cheng",
+    "english": null,
+    "native": "西行纪之暗影魔城"
+  },
+  "malId": 54033,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx138612-APvwTpoStOi1.png",
+  "popularity": 87,
+  "color": "#f1ae5d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx138612-APvwTpoStOi1.png",
+  "status": "Completed",
+  "releaseDate": 2023,
+  "startDate": {
+    "year": 2023,
+    "month": 1,
+    "day": 18
+  },
+  "endDate": {
+    "year": 2023,
+    "month": 1,
+    "day": 18
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": null,
+  "duration": null,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "season": null,
+  "studios": [
+    "BYMENT"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [],
+  "characters": [],
+  "relations": [
+    {
+      "id": 137736,
+      "relationType": "PARENT",
+      "malId": 51791,
+      "title": {
+        "romaji": "Xi Xing Ji 4",
+        "english": null,
+        "native": "西行纪 第4季",
+        "userPreferred": "Xi Xing Ji 4"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137736-jjk1BKZihGo6.png",
+      "color": "#e4935d",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137736-jjk1BKZihGo6.png",
+      "rating": 74
+    },
+    {
+      "id": 102196,
+      "relationType": "ADAPTATION",
+      "malId": 109143,
+      "title": {
+        "romaji": "Xi Xing Ji",
+        "english": null,
+        "native": "西行纪",
+        "userPreferred": "Xi Xing Ji"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx102196-MUEQZeLjcCrx.jpg",
+      "color": "#d6861a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/102196-HrYgFMeWoc60.jpg",
+      "rating": 74
+    }
+  ],
+  "episodes": []
+}

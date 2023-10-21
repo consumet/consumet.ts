@@ -1,0 +1,542 @@
+{
+  "id": "20711",
+  "title": {
+    "romaji": "Re:_HAMATORA",
+    "english": "Re: Hamatora",
+    "native": "Re:␣ハマトラ"
+  },
+  "malId": 23421,
+  "synonyms": [
+    "Hamatora The Animation Season 2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20711-b641DKQpANPv.png",
+  "popularity": 29821,
+  "color": "#780d0d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n20711-2On3Sa9VBIsv.jpg",
+  "description": "It has been three months since the incident at Yokohama. Things have been settling down at Cafe Nowhere. Murasaki and Hajime have teamed up and started investigating again. After an unforeseen reunion, Art holds Nice at gunpoint. What are his real intentions? What will become of the connection between Art and Hamatora?<br>\n<br>\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2014,
+  "startDate": {
+    "year": 2014,
+    "month": 7,
+    "day": 8
+  },
+  "endDate": {
+    "year": 2014,
+    "month": 9,
+    "day": 23
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 70,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Mystery"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Lerche"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 20727,
+      "malId": 24439,
+      "title": {
+        "romaji": "Kekkai Sensen",
+        "english": "Blood Blockade Battlefront",
+        "native": "血界戦線",
+        "userPreferred": "Kekkai Sensen"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20727-jgVnxLCHAKqZ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20727-jcGXKLo3lLDP.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 7769,
+      "malId": 7769,
+      "title": {
+        "romaji": "Ookami-san to Shichinin no Nakama-tachi",
+        "english": "Okami-san and Her Seven Companions",
+        "native": "オオカミさんと七人の仲間たち",
+        "userPreferred": "Ookami-san to Shichinin no Nakama-tachi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7769-4SPih8uS2E4j.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7769-uHUwsRv2a32Y.jpg",
+      "rating": 68,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 87930,
+      "role": "MAIN",
+      "name": {
+        "first": "Nice",
+        "last": null,
+        "full": "Nice",
+        "native": "ナイス",
+        "userPreferred": "Nice"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87930.jpg",
+      "voiceActors": [
+        {
+          "id": 110743,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouta",
+            "last": "Oosaka",
+            "full": "Ryouta Oosaka",
+            "native": "逢坂良太",
+            "userPreferred": "Ryouta Oosaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110743-k2SgQwU0JD33.png"
+        }
+      ]
+    },
+    {
+      "id": 87931,
+      "role": "MAIN",
+      "name": {
+        "first": "Murasaki",
+        "last": null,
+        "full": "Murasaki",
+        "native": "ムラサキ",
+        "userPreferred": "Murasaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b87931-vcI0WjvRlgUT.jpg",
+      "voiceActors": [
+        {
+          "id": 95098,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Hatano",
+            "full": "Wataru Hatano",
+            "native": "羽多野渉",
+            "userPreferred": "Wataru Hatano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95098-x6T2xOTuvkuY.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87933,
+      "role": "MAIN",
+      "name": {
+        "first": "Art",
+        "last": null,
+        "full": "Art",
+        "native": "アート",
+        "userPreferred": "Art"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b87933-zS5EFwtJDDMr.jpg",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        }
+      ]
+    },
+    {
+      "id": 87932,
+      "role": "MAIN",
+      "name": {
+        "first": "Hajime",
+        "last": null,
+        "full": "Hajime",
+        "native": "はじめ",
+        "userPreferred": "Hajime"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b87932-y96ChHkYms8d.jpg",
+      "voiceActors": [
+        {
+          "id": 95052,
+          "language": "Japanese",
+          "name": {
+            "first": "Emiri",
+            "last": "Katou",
+            "full": "Emiri Katou",
+            "native": "加藤英美里",
+            "userPreferred": "Emiri Katou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95052-OhSpZ8tqM3KY.png"
+        }
+      ]
+    },
+    {
+      "id": 88151,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mao",
+        "last": null,
+        "full": "Mao",
+        "native": "マオ",
+        "userPreferred": "Mao"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88151-XOzWBn7eKW7D.png",
+      "voiceActors": [
+        {
+          "id": 102695,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuya",
+            "last": "Eguchi",
+            "full": "Takuya Eguchi",
+            "native": "江口拓也",
+            "userPreferred": "Takuya Eguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102695-dGzsJkor0KMj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 88145,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ratio",
+        "last": null,
+        "full": "Ratio",
+        "native": "レシオ",
+        "userPreferred": "Ratio"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88145-sPSooiqFGAaE.jpg",
+      "voiceActors": [
+        {
+          "id": 95513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Nakamura",
+            "full": "Yuuichi Nakamura",
+            "native": "中村悠一",
+            "userPreferred": "Yuuichi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95513-up9ZDuocHgRs.png"
+        }
+      ]
+    },
+    {
+      "id": 88150,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gasquet",
+        "last": null,
+        "full": "Gasquet",
+        "native": "ガスケ",
+        "userPreferred": "Gasquet"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88150.jpg",
+      "voiceActors": [
+        {
+          "id": 95634,
+          "language": "Japanese",
+          "name": {
+            "first": "Yousuke",
+            "last": "Akimoto",
+            "full": "Yousuke Akimoto",
+            "native": "秋元羊介",
+            "userPreferred": "Yousuke Akimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95634-q6SacvhRo9Pq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 88149,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Master",
+        "last": null,
+        "full": "Master",
+        "native": "マスター",
+        "userPreferred": "Master"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88149.jpg",
+      "voiceActors": [
+        {
+          "id": 100491,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Ono",
+            "full": "Atsushi Ono",
+            "native": "斧アツシ",
+            "userPreferred": "Atsushi Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100491-6xlkDMFJdADo.png"
+        }
+      ]
+    },
+    {
+      "id": 88147,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Honey",
+        "last": null,
+        "full": "Honey",
+        "native": "ハニー",
+        "userPreferred": "Honey"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88147.jpg",
+      "voiceActors": [
+        {
+          "id": 95413,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Kitamura",
+            "full": "Eri Kitamura",
+            "native": "喜多村英梨",
+            "userPreferred": "Eri Kitamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95413-FwAIrc8Ishpt.png"
+        }
+      ]
+    },
+    {
+      "id": 88146,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Birthday",
+        "last": null,
+        "full": "Birthday",
+        "native": "バースデイ",
+        "userPreferred": "Birthday"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88146.jpg",
+      "voiceActors": [
+        {
+          "id": 95086,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukuyama",
+            "full": "Jun Fukuyama",
+            "native": "福山潤",
+            "userPreferred": "Jun Fukuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95086-cwKYmhOFNtH5.png"
+        }
+      ]
+    },
+    {
+      "id": 88148,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Three",
+        "last": null,
+        "full": "Three",
+        "native": "スリー",
+        "userPreferred": "Three"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88148-96lIYXvZqtYa.jpg",
+      "voiceActors": [
+        {
+          "id": 95555,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsuki",
+            "last": "Murase",
+            "full": "Katsuki Murase",
+            "native": "村瀬克輝",
+            "userPreferred": "Katsuki Murase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/555.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87934,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Koneko",
+        "last": null,
+        "full": "Koneko",
+        "native": "コネコ",
+        "userPreferred": "Koneko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b87934-q2sqAXBjNRwC.jpg",
+      "voiceActors": [
+        {
+          "id": 107711,
+          "language": "Japanese",
+          "name": {
+            "first": "Kiyono",
+            "last": "Yasuno",
+            "full": "Kiyono Yasuno",
+            "native": "安野希世乃",
+            "userPreferred": "Kiyono Yasuno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107711-xaS7giEK9UIU.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 20521,
+      "relationType": "PREQUEL",
+      "malId": 20689,
+      "title": {
+        "romaji": "Hamatora THE ANIMATION",
+        "english": "Hamatora",
+        "native": "ハマトラ THE ANIMATION",
+        "userPreferred": "Hamatora THE ANIMATION"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20521-OJZxnuU1uvkN.jpg",
+      "color": "#355da1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20521-yo39TmRV7cMn.jpg",
+      "rating": 68
+    },
+    {
+      "id": 107199,
+      "relationType": "SUMMARY",
+      "malId": 30290,
+      "title": {
+        "romaji": "Fw:Hamatora",
+        "english": null,
+        "native": "Fw：ハマトラ",
+        "userPreferred": "Fw:Hamatora"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n107199-FB7W5mllsidI.jpg",
+      "color": "#fea128",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n107199-FB7W5mllsidI.jpg",
+      "rating": 64
+    }
+  ],
+  "episodes": [
+    {
+      "id": "re-hamatora-episode-1",
+      "title": "Melancholy of Hero",
+      "image": "https://media.kitsu.io/episodes/thumbnails/116825/original.jpg",
+      "number": 1,
+      "createdAt": "2014-09-12T19:02:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-hamatora-episode-1"
+    },
+    {
+      "id": "re-hamatora-episode-2",
+      "title": "Art Returns",
+      "image": "https://media.kitsu.io/episodes/thumbnails/116826/original.jpg",
+      "number": 2,
+      "createdAt": "2014-09-12T19:02:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-hamatora-episode-2"
+    },
+    {
+      "id": "re-hamatora-episode-3",
+      "title": "Madness Flower",
+      "image": "https://media.kitsu.io/episodes/thumbnails/116827/original.jpg",
+      "number": 3,
+      "createdAt": "2014-09-12T19:02:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-hamatora-episode-3"
+    },
+    {
+      "id": "re-hamatora-episode-4",
+      "title": "For Whom Talent",
+      "image": "https://media.kitsu.io/episodes/thumbnails/116828/original.jpg",
+      "number": 4,
+      "createdAt": "2014-09-12T19:02:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-hamatora-episode-4"
+    },
+    {
+      "id": "re-hamatora-episode-5",
+      "title": "Buddy's Wishes",
+      "image": "https://media.kitsu.io/episodes/thumbnails/116829/original.jpg",
+      "number": 5,
+      "createdAt": "2014-09-12T19:02:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-hamatora-episode-5"
+    },
+    {
+      "id": "re-hamatora-episode-6",
+      "title": "Advent",
+      "image": "https://media.kitsu.io/episodes/thumbnails/116830/original.jpg",
+      "number": 6,
+      "createdAt": "2014-09-12T19:02:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-hamatora-episode-6"
+    },
+    {
+      "id": "re-hamatora-episode-7",
+      "title": "Emergency Room 24 Hours",
+      "image": "https://media.kitsu.io/episodes/thumbnails/116831/original.jpg",
+      "number": 7,
+      "createdAt": "2014-09-12T19:02:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-hamatora-episode-7"
+    },
+    {
+      "id": "re-hamatora-episode-8",
+      "title": "Worst Promise & Best Memory",
+      "image": "https://media.kitsu.io/episodes/thumbnails/116832/original.jpg",
+      "number": 8,
+      "createdAt": "2014-09-12T19:02:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-hamatora-episode-8"
+    },
+    {
+      "id": "re-hamatora-episode-9",
+      "title": "Symphony in the Moonlight",
+      "image": "https://media.kitsu.io/episodes/thumbnails/116833/original.jpg",
+      "number": 9,
+      "createdAt": "2014-09-12T19:02:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-hamatora-episode-9"
+    },
+    {
+      "id": "re-hamatora-episode-10",
+      "title": "For whom to Duel",
+      "image": "https://media.kitsu.io/episodes/thumbnails/116834/original.jpg",
+      "number": 10,
+      "createdAt": "2014-09-12T19:02:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-hamatora-episode-10"
+    },
+    {
+      "id": "re-hamatora-episode-11",
+      "title": "End of Yokohama",
+      "image": "https://media.kitsu.io/episodes/thumbnails/116835/original.jpg",
+      "number": 11,
+      "createdAt": "2014-09-12T19:02:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-hamatora-episode-11"
+    },
+    {
+      "id": "re-hamatora-episode-12",
+      "title": "Ego (Resolution)",
+      "image": "https://media.kitsu.io/episodes/thumbnails/116836/original.jpg",
+      "number": 12,
+      "createdAt": "2014-09-12T19:02:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-hamatora-episode-12"
+    }
+  ]
+}

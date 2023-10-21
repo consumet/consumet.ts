@@ -1,0 +1,998 @@
+{
+  "id": "20800",
+  "title": {
+    "romaji": "Yuuki Yuuna wa Yuusha de Aru",
+    "english": "Yuki Yuna is a Hero",
+    "native": "結城友奈は勇者である"
+  },
+  "malId": 25519,
+  "synonyms": [
+    " YuYuYu",
+    "สาวน้อยชมรมผู้กล้า"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "BJ20efh7MSI",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/BJ20efh7MSI/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20800-7IAW762FbSFU.png",
+  "popularity": 37895,
+  "color": "#e47850",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20800-i17dz3prFA7t.jpg",
+  "description": "Yuuna Yuuki is an ordinary second-year middle school student. She gets up in the morning, gets ready for school, goes to classes, participates in club activities, and has fun with her friends. But there is one extraordinary thing about Yuuki — she belongs to the “Brave Hero Club.” What does the Brave Hero Club do? Who is the mysterious being called “Vertex?” Yuuki Yuuna and her friends’ story takes place in Year 300, Era of the Gods.<br>\n<br>\n(Source: Ponycan USA)",
+  "status": "Completed",
+  "releaseDate": 2014,
+  "startDate": {
+    "year": 2014,
+    "month": 10,
+    "day": 17
+  },
+  "endDate": {
+    "year": 2014,
+    "month": 12,
+    "day": 26
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 72,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Drama",
+    "Fantasy",
+    "Mahou Shoujo",
+    "Psychological",
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Studio Gokumi"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 9756,
+      "malId": 9756,
+      "title": {
+        "romaji": "Mahou Shoujo Madoka☆Magica",
+        "english": "Puella Magi Madoka Magica",
+        "native": "魔法少女まどか☆マギカ",
+        "userPreferred": "Mahou Shoujo Madoka☆Magica"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9756-oqKE3E6DLtgm.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9756-d5M8NffgJJHB.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 11751,
+      "malId": 11751,
+      "title": {
+        "romaji": "Senki Zesshou Symphogear",
+        "english": "Symphogear",
+        "native": "戦姫絶唱シンフォギア",
+        "userPreferred": "Senki Zesshou Symphogear"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11751-RTjNt29hG4pu.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11751-d9hxwvaF0aJc.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 77,
+      "malId": 77,
+      "title": {
+        "romaji": "Mahou Shoujo Lyrical Nanoha A's",
+        "english": "Magical Girl Lyrical Nanoha A's",
+        "native": "魔法少女リリカルなのはＡ’ｓ",
+        "userPreferred": "Mahou Shoujo Lyrical Nanoha A's"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx77-SwBCj7R1enWi.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/77-T4VUflM5o47a.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 17651,
+      "malId": 17651,
+      "title": {
+        "romaji": "Genei wo Kakeru Taiyou",
+        "english": "Day Break Illusion",
+        "native": "幻影ヲ駆ケル太陽",
+        "userPreferred": "Genei wo Kakeru Taiyou"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17651-42nNqs1vj5pK.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17651-42nNqs1vj5pK.png",
+      "rating": 59,
+      "type": "TV"
+    },
+    {
+      "id": 108147,
+      "malId": 39417,
+      "title": {
+        "romaji": "Granbelm",
+        "english": "GRANBELM",
+        "native": "グランベルム",
+        "userPreferred": "Granbelm"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b108147-pymvfgDxie1b.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108147-BGaAzTwozw12.jpg",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 21042,
+      "malId": 25907,
+      "title": {
+        "romaji": "Glass no Hana to Kowasu Sekai",
+        "english": "Garakowa -Restore the World-",
+        "native": "ガラスの花と壊す世界",
+        "userPreferred": "Glass no Hana to Kowasu Sekai"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21042-CQprtsf0iq2H.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21042-CQprtsf0iq2H.jpg",
+      "rating": 63,
+      "type": "MOVIE"
+    },
+    {
+      "id": 20615,
+      "malId": 22273,
+      "title": {
+        "romaji": "selector infected WIXOSS",
+        "english": "selector infected WIXOSS",
+        "native": "selector infected WIXOSS",
+        "userPreferred": "selector infected WIXOSS"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20615-tGV55eAmiw8V.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20615.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 15793,
+      "malId": 15793,
+      "title": {
+        "romaji": "Senki Zesshou Symphogear G",
+        "english": "Symphogear G",
+        "native": "戦姫絶唱シンフォギアG",
+        "userPreferred": "Senki Zesshou Symphogear G"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15793-CNcrWE9Eqzkg.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15793-GoMI0yDfAZfl.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 21714,
+      "malId": 32979,
+      "title": {
+        "romaji": "Flip Flappers",
+        "english": "FLIP FLAPPERS",
+        "native": "フリップフラッパーズ",
+        "userPreferred": "Flip Flappers"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21714-CkRGMKNtKfdp.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21714-9JDGsCdnU0iE.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 21462,
+      "malId": 31733,
+      "title": {
+        "romaji": "Bishoujo Senshi Sailor Moon: Crystal - Death Busters-hen",
+        "english": "Sailor Moon Crystal Season 3",
+        "native": "美少女戦士セーラームーン Crystal「デス・バスターズ編」",
+        "userPreferred": "Bishoujo Senshi Sailor Moon: Crystal - Death Busters-hen"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21462-bRbgZYf4Sgxj.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21462-BJPi43k93pAn.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 21340,
+      "malId": 33003,
+      "title": {
+        "romaji": "Mahou Shoujo Ikusei Keikaku",
+        "english": "Magical Girl Raising Project",
+        "native": "魔法少女育成計画",
+        "userPreferred": "Mahou Shoujo Ikusei Keikaku"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21340-0fOhJK8Qynmy.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21340-mHoVzJD81ZmM.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 104051,
+      "malId": 38256,
+      "title": {
+        "romaji": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden",
+        "english": "Magia Record: Puella Magi Madoka Magica Side Story",
+        "native": "マギアレコード 魔法少女まどか☆マギカ外伝",
+        "userPreferred": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104051-tFMIbiffwBLs.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104051-6yiBdkd5OkZt.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 21673,
+      "malId": 32843,
+      "title": {
+        "romaji": "Senki Zesshou Symphogear XV",
+        "english": "Symphogear XV",
+        "native": "戦姫絶唱シンフォギアＸＶ",
+        "userPreferred": "Senki Zesshou Symphogear XV"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21673-AgTKWSDIxzSz.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21673-6Hb1XB91YG63.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 98658,
+      "malId": 35503,
+      "title": {
+        "romaji": "Shoujo☆Kageki Revue Starlight",
+        "english": "Revue Starlight",
+        "native": "少女☆歌劇 レヴュー・スタァライト",
+        "userPreferred": "Shoujo☆Kageki Revue Starlight"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98658-0F1OcrvrL6HJ.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98658-YifB5qgBgnGQ.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 97757,
+      "malId": 34100,
+      "title": {
+        "romaji": "Fate/kaleid liner Prisma☆Illya: Sekka no Chikai",
+        "english": "Fate/kaleid liner Prisma☆Illya: Vow in the Snow",
+        "native": "Fate/kaleid liner プリズマ☆イリヤ 雪下の誓い",
+        "userPreferred": "Fate/kaleid liner Prisma☆Illya: Sekka no Chikai"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b97757-BWFRkX81LpGS.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97757-NAbK3w90qKOq.jpg",
+      "rating": 78,
+      "type": "MOVIE"
+    },
+    {
+      "id": 97986,
+      "malId": 34599,
+      "title": {
+        "romaji": "Made in Abyss",
+        "english": "Made in Abyss",
+        "native": "メイドインアビス",
+        "userPreferred": "Made in Abyss"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97986-8oxwTF84hzue.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97986-C55UnbJKB7ZF.jpg",
+      "rating": 85,
+      "type": "TV"
+    },
+    {
+      "id": 100643,
+      "malId": 36862,
+      "title": {
+        "romaji": "Made in Abyss: Fukaki Tamashii no Reimei",
+        "english": "Made in Abyss: Dawn of the Deep Soul",
+        "native": "メイドインアビス 深き魂の黎明",
+        "userPreferred": "Made in Abyss: Fukaki Tamashii no Reimei"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100643-fPH9OgEKKvcI.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100643-9cSyQS0R5u0o.jpg",
+      "rating": 86,
+      "type": "MOVIE"
+    },
+    {
+      "id": 13125,
+      "malId": 13125,
+      "title": {
+        "romaji": "Shinsekai yori",
+        "english": "From the New World",
+        "native": "新世界より",
+        "userPreferred": "Shinsekai yori"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13125-NdLjbmyHmoAD.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/13125.jpg",
+      "rating": 80,
+      "type": "TV"
+    },
+    {
+      "id": 114308,
+      "malId": 40540,
+      "title": {
+        "romaji": "Sword Art Online: Alicization - War of Underworld Part 2",
+        "english": "Sword Art Online: Alicization - War of Underworld Part 2",
+        "native": "ソードアート・オンライン アリシゼーション War of Underworld 最終章 (2nd Season)",
+        "userPreferred": "Sword Art Online: Alicization - War of Underworld Part 2"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114308-8UBiS7U9buzu.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114308-VuYDoBJMbU1i.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 76,
+      "malId": 76,
+      "title": {
+        "romaji": "Mahou Shoujo Lyrical Nanoha",
+        "english": "Magical Girl Lyrical Nanoha",
+        "native": "魔法少女リリカルなのは",
+        "userPreferred": "Mahou Shoujo Lyrical Nanoha"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx76-wRwZobrx9MPj.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n76-3QGPwccscSaE.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 112479,
+      "malId": 40550,
+      "title": {
+        "romaji": "Assault Lily: BOUQUET",
+        "english": "Assault Lily BOUQUET",
+        "native": "アサルトリリィ BOUQUET",
+        "userPreferred": "Assault Lily: BOUQUET"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112479-5EiZWhEK8l0x.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112479-boRqZL3nULeX.jpg",
+      "rating": 61,
+      "type": "TV"
+    },
+    {
+      "id": 116173,
+      "malId": 41372,
+      "title": {
+        "romaji": "Senyoku no Sigrdrifa",
+        "english": "Warlords of Sigrdrifa",
+        "native": "戦翼のシグルドリーヴァ",
+        "userPreferred": "Senyoku no Sigrdrifa"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116173-1oLcZkw6lkvM.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116173-aGt3wUp6RWgT.jpg",
+      "rating": 60,
+      "type": "TV"
+    },
+    {
+      "id": 19703,
+      "malId": 19703,
+      "title": {
+        "romaji": "Kyousougiga (TV)",
+        "english": "Kyousougiga",
+        "native": "京騒戯画 (TV)",
+        "userPreferred": "Kyousougiga (TV)"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19703-vLR6TxRgEIlo.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/19703-TXOqMdKutRU6.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 103222,
+      "malId": 37979,
+      "title": {
+        "romaji": "Mahou Shoujo Tokushusen Asuka",
+        "english": "Magical Girl Spec-Ops Asuka",
+        "native": "魔法少女特殊戦あすか",
+        "userPreferred": "Mahou Shoujo Tokushusen Asuka"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx103222-wqNFOfxscteC.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/103222-k7h6iDFHEhUJ.jpg",
+      "rating": 58,
+      "type": "TV"
+    },
+    {
+      "id": 101360,
+      "malId": 37561,
+      "title": {
+        "romaji": "Akane Sasu Shoujo",
+        "english": "The Girl in Twilight",
+        "native": "あかねさす少女",
+        "userPreferred": "Akane Sasu Shoujo"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101360-2JEYeXhqz0WH.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101360-i52AVCtRgRlw.jpg",
+      "rating": 60,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 88636,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuuna",
+        "last": "Yuuki",
+        "full": "Yuuna Yuuki",
+        "native": "結城友奈",
+        "userPreferred": "Yuuna Yuuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88636-qlblbpue9jvK.jpg",
+      "voiceActors": [
+        {
+          "id": 109161,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Terui",
+            "full": "Haruka Terui",
+            "native": "照井春佳",
+            "userPreferred": "Haruka Terui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109161-vJHWg4PyYW0a.png"
+        },
+        {
+          "id": 103492,
+          "language": "English",
+          "name": {
+            "first": "Xanthe",
+            "last": "Huynh",
+            "full": "Xanthe Huynh",
+            "native": null,
+            "userPreferred": "Xanthe Huynh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103492-YqlKopMMRRo3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 88637,
+      "role": "MAIN",
+      "name": {
+        "first": "Mimori",
+        "last": "Tougou",
+        "full": "Mimori Tougou",
+        "native": "東郷美森",
+        "userPreferred": "Mimori Tougou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88637-WXqWFtEUnSt6.jpg",
+      "voiceActors": [
+        {
+          "id": 106359,
+          "language": "Japanese",
+          "name": {
+            "first": "Suzuko",
+            "last": "Mimori",
+            "full": "Suzuko Mimori",
+            "native": "三森すずこ",
+            "userPreferred": "Suzuko Mimori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106359-G8dROMWpwlM6.png"
+        },
+        {
+          "id": 116785,
+          "language": "English",
+          "name": {
+            "first": "Erika",
+            "last": "Harlacher",
+            "full": "Erika Harlacher",
+            "native": null,
+            "userPreferred": "Erika Harlacher"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116785-nMXKjBLHjvF6.png"
+        }
+      ]
+    },
+    {
+      "id": 88638,
+      "role": "MAIN",
+      "name": {
+        "first": "Fuu",
+        "last": "Inubouzaki",
+        "full": "Fuu Inubouzaki",
+        "native": "犬吠埼風",
+        "userPreferred": "Fuu Inubouzaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88638-0I3nqQKI774u.png",
+      "voiceActors": [
+        {
+          "id": 106784,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Uchiyama",
+            "full": "Yumi Uchiyama",
+            "native": "内山夕実",
+            "userPreferred": "Yumi Uchiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106784-reDoHBLWxi7J.jpg"
+        },
+        {
+          "id": 126242,
+          "language": "English",
+          "name": {
+            "first": "Erica",
+            "last": "Mendez",
+            "full": "Erica Mendez",
+            "native": null,
+            "userPreferred": "Erica Mendez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n126242-LjdhLN4TV53X.jpg"
+        }
+      ]
+    },
+    {
+      "id": 88639,
+      "role": "MAIN",
+      "name": {
+        "first": "Itsuki",
+        "last": "Inubozaki",
+        "full": "Itsuki Inubozaki",
+        "native": "犬吠埼樹",
+        "userPreferred": "Itsuki Inubozaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88639-mGNBV2FXxR8V.jpg",
+      "voiceActors": [
+        {
+          "id": 106661,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoyo",
+            "last": "Kurosawa",
+            "full": "Tomoyo Kurosawa",
+            "native": "黒沢ともよ",
+            "userPreferred": "Tomoyo Kurosawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106661-r5f4gxJEyU67.jpg"
+        },
+        {
+          "id": 120212,
+          "language": "English",
+          "name": {
+            "first": "Brianna",
+            "last": "Knickerbocker",
+            "full": "Brianna Knickerbocker",
+            "native": null,
+            "userPreferred": "Brianna Knickerbocker"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120212-s8ziqBtQLQWy.png"
+        }
+      ]
+    },
+    {
+      "id": 88640,
+      "role": "MAIN",
+      "name": {
+        "first": "Karin",
+        "last": "Miyoshi",
+        "full": "Karin Miyoshi",
+        "native": "三好夏凜",
+        "userPreferred": "Karin Miyoshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88640-Zpb2n4Kft1GD.jpg",
+      "voiceActors": [
+        {
+          "id": 107737,
+          "language": "Japanese",
+          "name": {
+            "first": "Juri",
+            "last": "Nagatsuma",
+            "full": "Juri Nagatsuma",
+            "native": "長妻樹里",
+            "userPreferred": "Juri Nagatsuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107737-BYo4HhC7ubv6.jpg"
+        },
+        {
+          "id": 109285,
+          "language": "English",
+          "name": {
+            "first": "Sarah",
+            "last": "Williams",
+            "full": "Sarah Williams",
+            "native": null,
+            "userPreferred": "Sarah Williams"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109285-x9o53amp58HB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 88641,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sonoko",
+        "last": "Nogi",
+        "full": "Sonoko Nogi",
+        "native": "園子乃木",
+        "userPreferred": "Sonoko Nogi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88641-ikpD1qwAjhmF.png",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        },
+        {
+          "id": 107344,
+          "language": "English",
+          "name": {
+            "first": "Christine",
+            "last": "Cabanos",
+            "full": "Christine Cabanos",
+            "native": null,
+            "userPreferred": "Christine Marie Cabanos"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107344-hEL8CVWtd26L.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 97769,
+      "relationType": "SEQUEL",
+      "malId": 34445,
+      "title": {
+        "romaji": "Yuuki Yuuna wa Yuusha de Aru: Yuusha no Shou",
+        "english": "Yuki Yuna is a Hero: The Hero Chapter",
+        "native": "結城友奈は勇者である -勇者の章-",
+        "userPreferred": "Yuuki Yuuna wa Yuusha de Aru: Yuusha no Shou"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97769-q6mu5EiniVZe.png",
+      "color": "#f1bb28",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97769-omjSxfE8wiTx.jpg",
+      "rating": 76
+    },
+    {
+      "id": 97856,
+      "relationType": "SPIN_OFF",
+      "malId": 34394,
+      "title": {
+        "romaji": "Yuuki Yuuna wa Yuusha-bu Shozoku",
+        "english": null,
+        "native": "結城友奈は勇者部所属",
+        "userPreferred": "Yuuki Yuuna wa Yuusha-bu Shozoku"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97856-SMzHeOypYghg.jpg",
+      "color": "#f15093",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97856-SMzHeOypYghg.jpg",
+      "rating": 63
+    },
+    {
+      "id": 97860,
+      "relationType": "PREQUEL",
+      "malId": 34376,
+      "title": {
+        "romaji": "Yuuki Yuuna wa Yuusha de Aru: Washio Sumi no Shou 3 - Yakusoku",
+        "english": null,
+        "native": "結城友奈は勇者である -鷲尾須美の章- 第3章 「やくそく」",
+        "userPreferred": "Yuuki Yuuna wa Yuusha de Aru: Washio Sumi no Shou 3 - Yakusoku"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97860-UyQVEpqa2fRk.png",
+      "color": "#5070E4",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97860-ZExQS1FMfqHI.jpg",
+      "rating": 79
+    },
+    {
+      "id": 100791,
+      "relationType": "PREQUEL",
+      "malId": 34284,
+      "title": {
+        "romaji": "Yuuki Yuuna wa Yuusha de Aru: Washio Sumi no Shou",
+        "english": "Yuki Yuna is a Hero: The Washio Sumi Chapter",
+        "native": "結城友奈は勇者である -鷲尾須美の章-",
+        "userPreferred": "Yuuki Yuuna wa Yuusha de Aru: Washio Sumi no Shou"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100791-FBirQqF1Szo3.png",
+      "color": "#4393f1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100791-JwCVfH2iGcbx.jpg",
+      "rating": 76
+    },
+    {
+      "id": 102305,
+      "relationType": "OTHER",
+      "malId": 32826,
+      "title": {
+        "romaji": "Yuuki no Baton",
+        "english": null,
+        "native": "勇気のバトン",
+        "userPreferred": "Yuuki no Baton"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/102305-wbe0WGRaFKYN.jpg",
+      "color": "#5dbbe4",
+      "type": "MUSIC",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/102305-wbe0WGRaFKYN.jpg",
+      "rating": 61
+    },
+    {
+      "id": 108542,
+      "relationType": "CHARACTER",
+      "malId": 107115,
+      "title": {
+        "romaji": "Washio Sumi wa Yuusha de Aru Gaiden: Yuusha Koushinkyoku",
+        "english": null,
+        "native": "鷲尾須美は勇者である外伝 勇者行進曲",
+        "userPreferred": "Washio Sumi wa Yuusha de Aru Gaiden: Yuusha Koushinkyoku"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx108542-6biqG3fMEBNv.jpg",
+      "color": "#f18635",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx108542-6biqG3fMEBNv.jpg",
+      "rating": 74
+    },
+    {
+      "id": 86519,
+      "relationType": "PREQUEL",
+      "malId": 83169,
+      "title": {
+        "romaji": "Washio Sumi wa Yuusha de Aru",
+        "english": null,
+        "native": "鷲尾須美は勇者である",
+        "userPreferred": "Washio Sumi wa Yuusha de Aru"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx86519-Yi0aMMLVhZXo.jpg",
+      "color": null,
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/86519-aflA8WYgZmy1.jpg",
+      "rating": 80
+    },
+    {
+      "id": 86521,
+      "relationType": "ADAPTATION",
+      "malId": 82411,
+      "title": {
+        "romaji": "Yuuki Yuuna wa Yuusha de Aru",
+        "english": null,
+        "native": "結城友奈は勇者である",
+        "userPreferred": "Yuuki Yuuna wa Yuusha de Aru"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx86521-4rVJBFYfu7Xp.jpg",
+      "color": "#f15dae",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx86521-4rVJBFYfu7Xp.jpg",
+      "rating": 60
+    },
+    {
+      "id": 104764,
+      "relationType": "SEQUEL",
+      "malId": 86780,
+      "title": {
+        "romaji": "Yuuki Yuuna wa Yuusha de Aru: Sonogo no Sonoko",
+        "english": null,
+        "native": "結城友奈は勇者である その後の園子",
+        "userPreferred": "Yuuki Yuuna wa Yuusha de Aru: Sonogo no Sonoko"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx104764-SRRaAQpN6h94.jpg",
+      "color": "#e4d693",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx104764-SRRaAQpN6h94.jpg",
+      "rating": 81
+    },
+    {
+      "id": 119042,
+      "relationType": "SPIN_OFF",
+      "malId": 42071,
+      "title": {
+        "romaji": "Yuuki Yuuna wa Yuusha de Aru Churutto!",
+        "english": null,
+        "native": "結城友奈は勇者である ちゅるっと！",
+        "userPreferred": "Yuuki Yuuna wa Yuusha de Aru Churutto!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx119042-G7szZDTgtpyE.jpg",
+      "color": "#e4a143",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/119042-watEyMWTQnJE.jpg",
+      "rating": 60
+    },
+    {
+      "id": 147641,
+      "relationType": "SPIN_OFF",
+      "malId": null,
+      "title": {
+        "romaji": "Yuusha-bu Biyori",
+        "english": null,
+        "native": "勇者部びより",
+        "userPreferred": "Yuusha-bu Biyori"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx147641-7eXKDUsVoFiA.png",
+      "color": "#e4a135",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx147641-7eXKDUsVoFiA.png",
+      "rating": 82
+    }
+  ],
+  "episodes": [
+    {
+      "id": "yuuki-yuuna-wa-yuusha-de-aru-episode-1",
+      "title": "A Maiden's True Heart",
+      "image": "https://media.kitsu.io/episodes/thumbnails/149110/original.jpg",
+      "number": 1,
+      "createdAt": "2014-10-09T16:08:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yuuki-yuuna-wa-yuusha-de-aru-episode-1"
+    },
+    {
+      "id": "yuuki-yuuna-wa-yuusha-de-aru-episode-2",
+      "title": "Noble Thoughts",
+      "image": "https://media.kitsu.io/episodes/thumbnails/149111/original.jpg",
+      "number": 2,
+      "createdAt": "2014-10-09T16:08:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yuuki-yuuna-wa-yuusha-de-aru-episode-2"
+    },
+    {
+      "id": "yuuki-yuuna-wa-yuusha-de-aru-episode-3",
+      "title": "Moral Poise",
+      "image": "https://media.kitsu.io/episodes/thumbnails/149112/original.jpg",
+      "number": 3,
+      "createdAt": "2014-10-09T16:08:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yuuki-yuuna-wa-yuusha-de-aru-episode-3"
+    },
+    {
+      "id": "yuuki-yuuna-wa-yuusha-de-aru-episode-4",
+      "title": "Shining Hearts",
+      "image": "https://media.kitsu.io/episodes/thumbnails/149113/original.jpg",
+      "number": 4,
+      "createdAt": "2014-10-09T16:08:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yuuki-yuuna-wa-yuusha-de-aru-episode-4"
+    },
+    {
+      "id": "yuuki-yuuna-wa-yuusha-de-aru-episode-5",
+      "title": "Overcoming Adversity",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20800-7IAW762FbSFU.png",
+      "number": 5,
+      "createdAt": "2014-10-09T16:08:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yuuki-yuuna-wa-yuusha-de-aru-episode-5"
+    },
+    {
+      "id": "yuuki-yuuna-wa-yuusha-de-aru-episode-6",
+      "title": "In Anticipation of Tomorrow",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20800-7IAW762FbSFU.png",
+      "number": 6,
+      "createdAt": "2014-10-09T16:08:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yuuki-yuuna-wa-yuusha-de-aru-episode-6"
+    },
+    {
+      "id": "yuuki-yuuna-wa-yuusha-de-aru-episode-7",
+      "title": "Idyllic Happiness",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20800-7IAW762FbSFU.png",
+      "number": 7,
+      "createdAt": "2014-10-09T16:08:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yuuki-yuuna-wa-yuusha-de-aru-episode-7"
+    },
+    {
+      "id": "yuuki-yuuna-wa-yuusha-de-aru-episode-8",
+      "title": "Blessings of the Gods",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20800-7IAW762FbSFU.png",
+      "number": 8,
+      "createdAt": "2014-10-09T16:08:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yuuki-yuuna-wa-yuusha-de-aru-episode-8"
+    },
+    {
+      "id": "yuuki-yuuna-wa-yuusha-de-aru-episode-9",
+      "title": "Those Who Know Grief",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20800-7IAW762FbSFU.png",
+      "number": 9,
+      "createdAt": "2014-10-09T16:08:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yuuki-yuuna-wa-yuusha-de-aru-episode-9"
+    },
+    {
+      "id": "yuuki-yuuna-wa-yuusha-de-aru-episode-10",
+      "title": "Bonds of Love",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20800-7IAW762FbSFU.png",
+      "number": 10,
+      "createdAt": "2014-10-09T16:08:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yuuki-yuuna-wa-yuusha-de-aru-episode-10"
+    },
+    {
+      "id": "yuuki-yuuna-wa-yuusha-de-aru-episode-11",
+      "title": "Passion",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20800-7IAW762FbSFU.png",
+      "number": 11,
+      "createdAt": "2014-10-09T16:08:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yuuki-yuuna-wa-yuusha-de-aru-episode-11"
+    },
+    {
+      "id": "yuuki-yuuna-wa-yuusha-de-aru-episode-12",
+      "title": "Smile At You",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20800-7IAW762FbSFU.png",
+      "number": 12,
+      "createdAt": "2014-10-09T16:08:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yuuki-yuuna-wa-yuusha-de-aru-episode-12"
+    }
+  ]
+}

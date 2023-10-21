@@ -1,0 +1,412 @@
+{
+  "id": "346",
+  "title": {
+    "romaji": "W: Wish",
+    "english": "Double Wish",
+    "native": "W 〜ウィッシュ〜"
+  },
+  "malId": 346,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/346.jpg",
+  "popularity": 2229,
+  "color": "#e46b5d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/346.jpg",
+  "description": "Based on a game by Princess Soft<br><br>\nThe main character, Junna has a twin sister Senna. He is an ordinal student of an elite school. However, in the past, a traffic accident deprived him of his parents and his memory. Junna survived the accident, and he has lived only with his sister though he has been looked after by his relatives.<br><br>\nAnd present...<br>\nThe life with Senna in the same high school is so pleasant that he can forget the severe past. Because he has been in the world where there is only Senna, his lives in this town, such as the beginning of a new life, new environments, and the meetings, are so refreshing.<br><br>\nHowever, he begins to recall the memories he lost in the accident. Though he enjoys happy and pleasant days, he is tossed by the past, the present, and the future. What is the truth hidden in his memory?<br><br>\n(Source: AniDB)",
+  "status": "Completed",
+  "releaseDate": 2004,
+  "startDate": {
+    "year": 2004,
+    "month": 10,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2004,
+    "month": 12,
+    "day": 26
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 53,
+  "duration": 12,
+  "genres": [
+    "Drama",
+    "Romance",
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Picture Magic"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 546,
+      "malId": 546,
+      "title": {
+        "romaji": "Wind: a breath of heart (2004)",
+        "english": null,
+        "native": "Wind -a breath of heart- (2004)",
+        "userPreferred": "Wind: a breath of heart (2004)"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/546.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/546.jpg",
+      "rating": 52,
+      "type": "TV_SHORT"
+    }
+  ],
+  "characters": [
+    {
+      "id": 4646,
+      "role": "MAIN",
+      "name": {
+        "first": "Senna",
+        "last": "Tono",
+        "full": "Senna Tono",
+        "native": "遠野泉奈",
+        "userPreferred": "Senna Tono"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4646.jpg",
+      "voiceActors": [
+        {
+          "id": 95072,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Shimizu",
+            "full": "Ai Shimizu",
+            "native": "清水愛",
+            "userPreferred": "Ai Shimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95072-V8FWqUIDJ57b.png"
+        }
+      ]
+    },
+    {
+      "id": 4645,
+      "role": "MAIN",
+      "name": {
+        "first": "Junna",
+        "last": "Tono",
+        "full": "Junna Tono",
+        "native": "遠野潤和",
+        "userPreferred": "Junna Tono"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4645.jpg",
+      "voiceActors": [
+        {
+          "id": 95086,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukuyama",
+            "full": "Jun Fukuyama",
+            "native": "福山潤",
+            "userPreferred": "Jun Fukuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95086-cwKYmhOFNtH5.png"
+        }
+      ]
+    },
+    {
+      "id": 4648,
+      "role": "MAIN",
+      "name": {
+        "first": "Haruhi",
+        "last": "Inohara",
+        "full": "Haruhi Inohara",
+        "native": "井ノ原春陽",
+        "userPreferred": "Haruhi Inohara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4648.jpg",
+      "voiceActors": [
+        {
+          "id": 95315,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shintani",
+            "full": "Ryouko Shintani",
+            "native": "新谷良子",
+            "userPreferred": "Ryouko Shintani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95315-6lzPWFB0mhh8.png"
+        }
+      ]
+    },
+    {
+      "id": 4651,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsubasa",
+        "last": "Ootori",
+        "full": "Tsubasa Ootori",
+        "native": "鳳つばさ",
+        "userPreferred": "Tsubasa Ootori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4651.jpg",
+      "voiceActors": [
+        {
+          "id": 95135,
+          "language": "Japanese",
+          "name": {
+            "first": "Saeko",
+            "last": "Chiba",
+            "full": "Saeko Chiba",
+            "native": "千葉紗子",
+            "userPreferred": "Saeko Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95135-zptQ6sZjTSU9.png"
+        }
+      ]
+    },
+    {
+      "id": 4652,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tomokazu",
+        "last": "Kishida",
+        "full": "Tomokazu Kishida",
+        "native": "岸田智一",
+        "userPreferred": "Tomokazu Kishida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95235,
+          "language": "Japanese",
+          "name": {
+            "first": "Keisuke",
+            "last": "Oda",
+            "full": "Keisuke Oda",
+            "native": "織田圭祐",
+            "userPreferred": "Keisuke Oda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/235.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4650,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sana",
+        "last": "Fujie",
+        "full": "Sana Fujie",
+        "native": "藤枝彩夏",
+        "userPreferred": "Sana Fujie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4650.jpg",
+      "voiceActors": [
+        {
+          "id": 95272,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Kaneda",
+            "full": "Tomoko Kaneda",
+            "native": "金田朋子",
+            "userPreferred": "Tomoko Kaneda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95272-qfGnqI0gkKK5.png"
+        }
+      ]
+    },
+    {
+      "id": 4649,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akino",
+        "last": "Iida",
+        "full": "Akino Iida",
+        "native": "飯田秋乃",
+        "userPreferred": "Akino Iida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4649.jpg",
+      "voiceActors": [
+        {
+          "id": 95366,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuka",
+            "last": "Nanri",
+            "full": "Yuuka Nanri",
+            "native": "南里侑香",
+            "userPreferred": "Yuuka Nanri"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95366-8PqkqaC1vc2X.png"
+        }
+      ]
+    },
+    {
+      "id": 4647,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tomo",
+        "last": "Kishida",
+        "full": "Tomo Kishida",
+        "native": "岸田智",
+        "userPreferred": "Tomo Kishida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4647.jpg",
+      "voiceActors": [
+        {
+          "id": 95401,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Matsuki",
+            "full": "Miyu Matsuki",
+            "native": "松来未祐",
+            "userPreferred": "Miyu Matsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95401-2ffju56ewc36.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 9967,
+      "relationType": "SIDE_STORY",
+      "malId": 9967,
+      "title": {
+        "romaji": "W: Wish Omake",
+        "english": null,
+        "native": "W 〜ウィッシュ〜",
+        "userPreferred": "W: Wish Omake"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9967.jpg",
+      "color": "#f1d6ae",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9967.jpg",
+      "rating": 47
+    }
+  ],
+  "episodes": [
+    {
+      "id": "w-wish-episode-1",
+      "title": "Junna and Senna",
+      "image": "https://media.kitsu.io/episodes/thumbnails/8660/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:21:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//w-wish-episode-1"
+    },
+    {
+      "id": "w-wish-episode-2",
+      "title": "Help, Helpers Club",
+      "image": "https://media.kitsu.io/episodes/thumbnails/8661/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:21:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//w-wish-episode-2"
+    },
+    {
+      "id": "w-wish-episode-3",
+      "title": "Another Sister",
+      "image": "https://media.kitsu.io/episodes/thumbnails/8662/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:21:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//w-wish-episode-3"
+    },
+    {
+      "id": "w-wish-episode-4",
+      "title": "Pressing Anxiety",
+      "image": "https://media.kitsu.io/episodes/thumbnails/8663/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:21:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//w-wish-episode-4"
+    },
+    {
+      "id": "w-wish-episode-5",
+      "title": "Night Before the Cherry Blossom Summer Festival...",
+      "image": "https://media.kitsu.io/episodes/thumbnails/8664/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:21:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//w-wish-episode-5"
+    },
+    {
+      "id": "w-wish-episode-6",
+      "title": "Memories in the Darkness",
+      "image": "https://media.kitsu.io/episodes/thumbnails/8665/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:21:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//w-wish-episode-6"
+    },
+    {
+      "id": "w-wish-episode-7",
+      "title": "Summer! Ocean! Swimsuits!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/8666/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:21:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//w-wish-episode-7"
+    },
+    {
+      "id": "w-wish-episode-8",
+      "title": "Photo Album of Memories",
+      "image": "https://media.kitsu.io/episodes/thumbnails/8667/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:21:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//w-wish-episode-8"
+    },
+    {
+      "id": "w-wish-episode-9",
+      "title": "Hidden Past",
+      "image": "https://media.kitsu.io/episodes/thumbnails/8668/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:21:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//w-wish-episode-9"
+    },
+    {
+      "id": "w-wish-episode-10",
+      "title": "Distorted World",
+      "image": "https://media.kitsu.io/episodes/thumbnails/8669/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:21:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//w-wish-episode-10"
+    },
+    {
+      "id": "w-wish-episode-11",
+      "title": "Senna's Truth",
+      "image": "https://media.kitsu.io/episodes/thumbnails/8670/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:21:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//w-wish-episode-11"
+    },
+    {
+      "id": "w-wish-episode-12",
+      "title": "Imminent Decision",
+      "image": "https://media.kitsu.io/episodes/thumbnails/8671/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:21:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//w-wish-episode-12"
+    },
+    {
+      "id": "w-wish-episode-13",
+      "title": "Three Desires",
+      "image": "https://media.kitsu.io/episodes/thumbnails/8672/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:21:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//w-wish-episode-13"
+    }
+  ]
+}

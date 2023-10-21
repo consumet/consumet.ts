@@ -1,0 +1,974 @@
+{
+  "id": "1018",
+  "title": {
+    "romaji": "Majutsushi Orphen: Revenge",
+    "english": "Orphen 2: Revenge",
+    "native": "魔術士オーフェンRevenge"
+  },
+  "malId": 1018,
+  "synonyms": [
+    "Sorcerous Stabber Orphen Revenge",
+    "Orphen, la revenja"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+  "popularity": 2803,
+  "color": "#e4bb5d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1018-p2R38KMAnOYM.jpg",
+  "description": "Orphen and his gang has set out on an all new adventure with many monsters to battle and no peace and quiet. But a new friend has joined the group. Her name Lycorus who was sent to find Orphen. Many mysterious shadows are overhanging over head.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 1999,
+  "startDate": {
+    "year": 1999,
+    "month": 10,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2000,
+    "month": 3,
+    "day": 26
+  },
+  "totalEpisodes": 23,
+  "currentEpisode": 23,
+  "rating": 62,
+  "duration": 20,
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "FALL",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 1411,
+      "role": "MAIN",
+      "name": {
+        "first": "Orphen",
+        "last": null,
+        "full": "Orphen",
+        "native": "オーフェン",
+        "userPreferred": "Orphen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n1411-dKMaZJPRUXLW.jpg",
+      "voiceActors": [
+        {
+          "id": 95178,
+          "language": "Japanese",
+          "name": {
+            "first": "Shoutarou",
+            "last": "Morikubo",
+            "full": "Shoutarou Morikubo",
+            "native": "森久保祥太郎",
+            "userPreferred": "Shoutarou Morikubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95178-8R9Itg3Y1v24.png"
+        },
+        {
+          "id": 95379,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Matranga",
+            "full": "David Matranga",
+            "native": null,
+            "userPreferred": "David Matranga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95379-GMh9EncYDh5n.png"
+        },
+        {
+          "id": 109825,
+          "language": "Korean",
+          "name": {
+            "first": "Gwang ju",
+            "last": "Jeon",
+            "full": "Gwang ju Jeon",
+            "native": "광주 전",
+            "userPreferred": "Gwang ju Jeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14825.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5758,
+      "role": "MAIN",
+      "name": {
+        "first": "Cleao",
+        "last": "Everlasting",
+        "full": "Cleao Everlasting",
+        "native": "クリーオウ・エバーラスティン",
+        "userPreferred": "Cleao Everlasting"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5758-qqcFHAAlNEQI.png",
+      "voiceActors": [
+        {
+          "id": 95273,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayumi",
+            "last": "Iizuka",
+            "full": "Mayumi Iizuka",
+            "native": "飯塚雅弓",
+            "userPreferred": "Mayumi Iizuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95273-qtMQIJyybJ7O.png"
+        },
+        {
+          "id": 95193,
+          "language": "English",
+          "name": {
+            "first": "Shelley",
+            "last": "Calene-Black",
+            "full": "Shelley Calene-Black",
+            "native": null,
+            "userPreferred": "Shelley Calene-Black"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95193-Nvdjk8BIcEJb.png"
+        },
+        {
+          "id": 109773,
+          "language": "Korean",
+          "name": {
+            "first": "Jeong sin",
+            "last": "Wu",
+            "full": "Jeong sin Wu",
+            "native": "정신 우",
+            "userPreferred": "Jeong sin Wu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14773.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8868,
+      "role": "MAIN",
+      "name": {
+        "first": "Licoris",
+        "last": "Neilson",
+        "full": "Licoris Neilson",
+        "native": null,
+        "userPreferred": "Licoris Neilson"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8868.jpg",
+      "voiceActors": [
+        {
+          "id": 95071,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Kawakami",
+            "full": "Tomoko Kawakami",
+            "native": "川上とも子",
+            "userPreferred": "Tomoko Kawakami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95071-bmS9MxvAdsTr.png"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        },
+        {
+          "id": 109983,
+          "language": "Korean",
+          "name": {
+            "first": "Ui Jin",
+            "last": "Chae",
+            "full": "Ui Jin Chae",
+            "native": "의진 채",
+            "userPreferred": "Ui Jin Chae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14983.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5656,
+      "role": "MAIN",
+      "name": {
+        "first": "Majic",
+        "last": "Lin",
+        "full": "Majic Lin",
+        "native": "マジク・リン",
+        "userPreferred": "Majic Lin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5656-DgU1N9wT0ury.png",
+      "voiceActors": [
+        {
+          "id": 95323,
+          "language": "Japanese",
+          "name": {
+            "first": "Omi",
+            "last": "Minami",
+            "full": "Omi Minami",
+            "native": "南央美",
+            "userPreferred": "Omi Minami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95323-IEzYhIR4WaHK.jpg"
+        },
+        {
+          "id": 95150,
+          "language": "English",
+          "name": {
+            "first": "Spike",
+            "last": "Spencer",
+            "full": "Spike Spencer",
+            "native": null,
+            "userPreferred": "Spike Spencer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95150-VC7hhr2mVRBT.jpg"
+        },
+        {
+          "id": 110291,
+          "language": "Korean",
+          "name": {
+            "first": "Chea Eun",
+            "last": "Han",
+            "full": "Chea Eun Han",
+            "native": "채언 한",
+            "userPreferred": "Chea Eun Han"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15291.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10548,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Leticia",
+        "last": "Macredy",
+        "full": "Leticia Macredy",
+        "native": "レティシャ・マクレディ",
+        "userPreferred": "Leticia Macredy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10548-IuFnfqUxwsrP.png",
+      "voiceActors": [
+        {
+          "id": 95009,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotono",
+            "last": "Mitsuishi",
+            "full": "Kotono Mitsuishi",
+            "native": "三石琴乃",
+            "userPreferred": "Kotono Mitsuishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95009-d01Dg8mMwcg6.png"
+        },
+        {
+          "id": 95509,
+          "language": "English",
+          "name": {
+            "first": "Christine",
+            "last": "Auten",
+            "full": "Christine Auten",
+            "native": null,
+            "userPreferred": "Christine Auten"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95509-fSwGUErqAkmA.jpg"
+        },
+        {
+          "id": 110291,
+          "language": "Korean",
+          "name": {
+            "first": "Chea Eun",
+            "last": "Han",
+            "full": "Chea Eun Han",
+            "native": "채언 한",
+            "userPreferred": "Chea Eun Han"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15291.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9687,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Esperanza",
+        "last": null,
+        "full": "Esperanza",
+        "native": null,
+        "userPreferred": "Esperanza"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9687.jpg",
+      "voiceActors": [
+        {
+          "id": 95014,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Hayashibara",
+            "full": "Megumi Hayashibara",
+            "native": "林原めぐみ",
+            "userPreferred": "Megumi Hayashibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95014-VqxNuufY94V3.png"
+        },
+        {
+          "id": 95145,
+          "language": "English",
+          "name": {
+            "first": "Tiffany",
+            "last": "Grant",
+            "full": "Tiffany Grant",
+            "native": null,
+            "userPreferred": "Tiffany Lynn Grant"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95145-c3MjV5tshGXX.jpg"
+        },
+        {
+          "id": 109865,
+          "language": "Korean",
+          "name": {
+            "first": "So-Yeon",
+            "last": "",
+            "full": "So-Yeon",
+            "native": "소연",
+            "userPreferred": "So-Yeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109865-MYklOuRucAAZ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1406,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Volkan",
+        "last": null,
+        "full": "Volkan",
+        "native": "ボルカン",
+        "userPreferred": "Volkan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1406.jpg",
+      "voiceActors": [
+        {
+          "id": 95420,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazue",
+            "last": "Ikura",
+            "full": "Kazue Ikura",
+            "native": "伊倉一恵",
+            "userPreferred": "Kazue Ikura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95420-or3epAZNwUdi.png"
+        },
+        {
+          "id": 95201,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Swasey",
+            "full": "John Swasey",
+            "native": null,
+            "userPreferred": "John Swasey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95201-cas6XbtZmMay.jpg"
+        },
+        {
+          "id": 109823,
+          "language": "Korean",
+          "name": {
+            "first": "Mi Na",
+            "last": "Yun",
+            "full": "Mi Na Yun",
+            "native": "미나 윤",
+            "userPreferred": "Mi Na Yun"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14823.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40254,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Childman",
+        "last": "Powderfield",
+        "full": "Childman Powderfield",
+        "native": "チャイルドマン・パウダーフィールド",
+        "userPreferred": "Childman Powderfield"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40254.jpg",
+      "voiceActors": [
+        {
+          "id": 95091,
+          "language": "Japanese",
+          "name": {
+            "first": "Jouji",
+            "last": "Nakata",
+            "full": "Jouji Nakata",
+            "native": "中田譲治",
+            "userPreferred": "Jouji Nakata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95091-idoMaN26z80B.png"
+        }
+      ]
+    },
+    {
+      "id": 10546,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Reki",
+        "last": null,
+        "full": "Reki",
+        "native": null,
+        "userPreferred": "Reki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10546.jpg",
+      "voiceActors": [
+        {
+          "id": 95532,
+          "language": "Japanese",
+          "name": {
+            "first": "Konami",
+            "last": "Yoshida",
+            "full": "Konami Yoshida",
+            "native": "吉田小南美",
+            "userPreferred": "Konami Yoshida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95532-sqJ8xfccUfFT.png"
+        },
+        {
+          "id": 95608,
+          "language": "English",
+          "name": {
+            "first": "Serena",
+            "last": "Varghese",
+            "full": "Serena Varghese",
+            "native": null,
+            "userPreferred": "Serena Varghese"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/608.jpg"
+        },
+        {
+          "id": 109865,
+          "language": "Korean",
+          "name": {
+            "first": "So-Yeon",
+            "last": "",
+            "full": "So-Yeon",
+            "native": "소연",
+            "userPreferred": "So-Yeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109865-MYklOuRucAAZ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 46517,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Erukarena",
+        "last": null,
+        "full": "Erukarena",
+        "native": "エルカレナ",
+        "userPreferred": "Erukarena"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/46517.jpg",
+      "voiceActors": [
+        {
+          "id": 95532,
+          "language": "Japanese",
+          "name": {
+            "first": "Konami",
+            "last": "Yoshida",
+            "full": "Konami Yoshida",
+            "native": "吉田小南美",
+            "userPreferred": "Konami Yoshida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95532-sqJ8xfccUfFT.png"
+        },
+        {
+          "id": 95888,
+          "language": "English",
+          "name": {
+            "first": "Mandy",
+            "last": "Clark",
+            "full": "Mandy Clark",
+            "native": null,
+            "userPreferred": "Mandy Clark"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95888-nZ69hqO4TM9w.png"
+        }
+      ]
+    },
+    {
+      "id": 1407,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dortin",
+        "last": null,
+        "full": "Dortin",
+        "native": "ドーチン",
+        "userPreferred": "Dortin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1407-T2MBA450E3Zm.png",
+      "voiceActors": [
+        {
+          "id": 96482,
+          "language": "Japanese",
+          "name": {
+            "first": "Hekiru",
+            "last": "Shiina",
+            "full": "Hekiru Shiina",
+            "native": "椎名へきる",
+            "userPreferred": "Hekiru Shiina"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96482-dH6qurWW2af8.jpg"
+        },
+        {
+          "id": 95151,
+          "language": "English",
+          "name": {
+            "first": "Hilary",
+            "last": "Haag",
+            "full": "Hilary Haag",
+            "native": null,
+            "userPreferred": "Hilary Haag"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/151.jpg"
+        },
+        {
+          "id": 110291,
+          "language": "Korean",
+          "name": {
+            "first": "Chea Eun",
+            "last": "Han",
+            "full": "Chea Eun Han",
+            "native": "채언 한",
+            "userPreferred": "Chea Eun Han"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15291.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8867,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eris",
+        "last": null,
+        "full": "Eris",
+        "native": "エリス",
+        "userPreferred": "Eris"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8867.jpg",
+      "voiceActors": [
+        {
+          "id": 96368,
+          "language": "Japanese",
+          "name": {
+            "first": "Asako",
+            "last": "Shirakura",
+            "full": "Asako Shirakura",
+            "native": "白倉麻子",
+            "userPreferred": "Asako Shirakura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96368-DwQdbOlojWOp.png"
+        },
+        {
+          "id": 95162,
+          "language": "English",
+          "name": {
+            "first": "Kira",
+            "last": "Vincent-Davis",
+            "full": "Kira Vincent-Davis",
+            "native": null,
+            "userPreferred": "Kira Vincent-Davis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/162.jpg"
+        },
+        {
+          "id": 109823,
+          "language": "Korean",
+          "name": {
+            "first": "Mi Na",
+            "last": "Yun",
+            "full": "Mi Na Yun",
+            "native": "미나 윤",
+            "userPreferred": "Mi Na Yun"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14823.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9688,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Flamesoul",
+        "last": null,
+        "full": "Flamesoul",
+        "native": null,
+        "userPreferred": "Flamesoul"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9688.jpg",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        },
+        {
+          "id": 95190,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Patton",
+            "full": "Chris Patton",
+            "native": null,
+            "userPreferred": "Chris Patton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95190-Ht5ukZFcl0PX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10547,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rai",
+        "last": null,
+        "full": "Rai",
+        "native": "ライ",
+        "userPreferred": "Rai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10547.jpg",
+      "voiceActors": [
+        {
+          "id": 102091,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsumi",
+            "last": "Toriumi",
+            "full": "Katsumi Toriumi",
+            "native": "勝美鳥海",
+            "userPreferred": "Katsumi Toriumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7091.jpg"
+        },
+        {
+          "id": 95043,
+          "language": "English",
+          "name": {
+            "first": "Vic",
+            "last": "Mignogna",
+            "full": "Vic Mignogna",
+            "native": "Victor Joseph Mignogna",
+            "userPreferred": "Vic Mignogna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95043-cgQunZolvkPW.png"
+        }
+      ]
+    },
+    {
+      "id": 5759,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Heartia",
+        "last": "Allenford",
+        "full": "Heartia Allenford",
+        "native": "ハーティア・ アーレンフォード",
+        "userPreferred": "Heartia Allenford"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5759.jpg",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        },
+        {
+          "id": 96537,
+          "language": "English",
+          "name": {
+            "first": "Randy",
+            "last": "Sparks",
+            "full": "Randy Sparks",
+            "native": null,
+            "userPreferred": "Randy Sparks"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96537-ScJu23aq8S20.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1017,
+      "relationType": "PREQUEL",
+      "malId": 1017,
+      "title": {
+        "romaji": "Majutsushi Orphen",
+        "english": "Orphen",
+        "native": "魔術士オーフェン",
+        "userPreferred": "Majutsushi Orphen"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1017-tPKIClRY3XhN.jpg",
+      "color": "#f1a135",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1017-yXTNK95rFOsA.png",
+      "rating": 67
+    },
+    {
+      "id": 69745,
+      "relationType": "ADAPTATION",
+      "malId": 39745,
+      "title": {
+        "romaji": "Majutsushi Orphen",
+        "english": "Sorcerous Stabber Orphen: The Wayward Journey",
+        "native": "魔術士オーフェン",
+        "userPreferred": "Majutsushi Orphen"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx69745-NNIsBqIUHMcY.png",
+      "color": "#ffd635",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/69745-jdPzm9IUIM0D.jpg",
+      "rating": 73
+    }
+  ],
+  "episodes": [
+    {
+      "id": "majutsushi-orphen-revenge-episode-1",
+      "title": "Hotsprings",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-1"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-2",
+      "title": "Treacherous Bathhouse",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-2"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-3",
+      "title": "Hell's Beachwear Shop",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-3"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-4",
+      "title": "Bizarre: Love's Ripples",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-4"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-5",
+      "title": "Awaken, Beloved One",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-5"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-6",
+      "title": "Shrimp-man, Crab-woman",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-6"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-7",
+      "title": "An Errand's Sweet Trap",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-7"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-8",
+      "title": "Bird! Bird! Bird?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-8"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-9",
+      "title": "The Speed of Sound Lady",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-9"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-10",
+      "title": "Illusion Snowy Mountain",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-10"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-11",
+      "title": "The Crab and the Boy",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-11"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-12",
+      "title": "The Great Courtroom of Revenge",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-12"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-13",
+      "title": "The Girl Who Became the Wind",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-13"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-14",
+      "title": "What? Majik has..",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-14"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-15",
+      "title": "Leaving Home on the Night of the Full Moon",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-15"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-16",
+      "title": "Hot battle! Wonderful Passenger-boat",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-16"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-17",
+      "title": "Get out of here, Orphen!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-17"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-18",
+      "title": "Sad Lullaby - Rhapsody",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-18"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-19",
+      "title": "Licorice Nielsen",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-19"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-20",
+      "title": "The Truth in the Heart of the Storm",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-20"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-21",
+      "title": "Sorcerer Majik",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-21"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-22",
+      "title": "Feelings That Are Not Mutual",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-22"
+    },
+    {
+      "id": "majutsushi-orphen-revenge-episode-23",
+      "title": "I am the Sword Drawn from the Light!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1018-0Yyp7Uf8KfM4.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:22:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-revenge-episode-23"
+    }
+  ]
+}

@@ -1,0 +1,864 @@
+{
+  "id": "10156",
+  "title": {
+    "romaji": "Sacred Seven",
+    "english": null,
+    "native": "セイクリッドセブン"
+  },
+  "malId": 10156,
+  "synonyms": [
+    "Sacred 7"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10156-ppHiEMr7wyQm.jpg",
+  "popularity": 11529,
+  "color": "#5093f1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10156-wP7Bo0hqWWGi.jpg",
+  "description": "Alma Tandoji lives a lonely life. One day, Ruri Alba, a girl accompanied by her butler and maids, visits him. Knowing the power of Sacred Seven is latent within Alma, she asks him to lend her his powers. However, he refuses and drives her away since he injured many with his unusual strength in the past.<br><br>\nMeanwhile, a fiendish Dark Stone creature suddenly appears in this peaceful town in the Kanto region. Only Alma's power of Sacred Seven can fight against it. But Alma just lets his power run amuck and things begin to get worse. Ruri raised her gemstone in order to release his true abilities, My Soul I give to you. <br><br>\nWith Ruri's wishes engraved in it, will Alma be able to defeat the Dark Stone?",
+  "status": "Completed",
+  "releaseDate": 2011,
+  "startDate": {
+    "year": 2011,
+    "month": 7,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2011,
+    "month": 9,
+    "day": 16
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 60,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Sunrise"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 105119,
+      "malId": 38440,
+      "title": {
+        "romaji": "Shikizakura",
+        "english": "Shikizakura",
+        "native": "シキザクラ",
+        "userPreferred": "Shikizakura"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105119-DIxyYkAcvjN6.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105119-DIxyYkAcvjN6.png",
+      "rating": 53,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 43756,
+      "role": "MAIN",
+      "name": {
+        "first": "Ruri",
+        "last": "Aiba",
+        "full": "Ruri Aiba",
+        "native": "藍羽ルリ",
+        "userPreferred": "Ruri Aiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43756.jpg",
+      "voiceActors": [
+        {
+          "id": 96105,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Nakajima",
+            "full": "Megumi Nakajima",
+            "native": "中島愛",
+            "userPreferred": "Megumi Nakajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96105-KqV1Jn0RelZg.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43755,
+      "role": "MAIN",
+      "name": {
+        "first": "Alma",
+        "last": "Tandoji",
+        "full": "Alma Tandoji",
+        "native": "丹童子 アルマ",
+        "userPreferred": "Alma Tandoji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43755.jpg",
+      "voiceActors": [
+        {
+          "id": 95494,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuma",
+            "last": "Terashima",
+            "full": "Takuma Terashima",
+            "native": "寺島拓篤",
+            "userPreferred": "Takuma Terashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95494-HetCpJKbDy1B.png"
+        }
+      ]
+    },
+    {
+      "id": 43762,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuji",
+        "last": "Kenmi",
+        "full": "Yuuji Kenmi",
+        "native": "研美 悠士",
+        "userPreferred": "Yuuji Kenmi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43762.jpg",
+      "voiceActors": [
+        {
+          "id": 95020,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsuyuki",
+            "last": "Konishi",
+            "full": "Katsuyuki Konishi",
+            "native": "小西克幸",
+            "userPreferred": "Katsuyuki Konishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95020-uOJO2IlwpcX0.png"
+        }
+      ]
+    },
+    {
+      "id": 47479,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Makoto's father",
+        "last": "Kagami",
+        "full": "Makoto's father Kagami",
+        "native": "鏡誠の父",
+        "userPreferred": "Makoto's father Kagami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/47479.jpg",
+      "voiceActors": [
+        {
+          "id": 95720,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenta",
+            "last": "Miyake",
+            "full": "Kenta Miyake",
+            "native": "三宅健太",
+            "userPreferred": "Kenta Miyake"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95720-enxx6kZKuwGi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43760,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ageha",
+        "last": "Yamaguchi",
+        "full": "Ageha Yamaguchi",
+        "native": "山口 揚羽",
+        "userPreferred": "Ageha Yamaguchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43760.jpg",
+      "voiceActors": [
+        {
+          "id": 107042,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Yamaguchi",
+            "full": "Rie Yamaguchi",
+            "native": "理恵 山口",
+            "userPreferred": "Rie Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12042.jpg"
+        }
+      ]
+    },
+    {
+      "id": 48823,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ruri's father",
+        "last": "Aiba",
+        "full": "Ruri's father Aiba",
+        "native": null,
+        "userPreferred": "Ruri's father Aiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/48823.jpg",
+      "voiceActors": [
+        {
+          "id": 95260,
+          "language": "Japanese",
+          "name": {
+            "first": "Susumu",
+            "last": "Chiba",
+            "full": "Susumu Chiba",
+            "native": "千葉進歩",
+            "userPreferred": "Susumu Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95260-pKyM0LbhEznc.png"
+        }
+      ]
+    },
+    {
+      "id": 43758,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Makoto",
+        "last": "Kagami",
+        "full": "Makoto Kagami",
+        "native": "鏡誠",
+        "userPreferred": "Makoto Kagami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43758.jpg",
+      "voiceActors": [
+        {
+          "id": 95088,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Irino",
+            "full": "Miyu Irino",
+            "native": "入野自由",
+            "userPreferred": "Miyu Irino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95088-BHyqnkadBEqi.png"
+        }
+      ]
+    },
+    {
+      "id": 43759,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Wakana",
+        "last": "Itou",
+        "full": "Wakana Itou",
+        "native": "伊藤若菜",
+        "userPreferred": "Wakana Itou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43759.jpg",
+      "voiceActors": [
+        {
+          "id": 95762,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanae",
+            "last": "Itou",
+            "full": "Kanae Itou",
+            "native": "伊藤かな恵",
+            "userPreferred": "Kanae Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95762-qhWmwni3TT6Y.png"
+        }
+      ]
+    },
+    {
+      "id": 44149,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ami",
+        "last": null,
+        "full": "Ami",
+        "native": "アミ",
+        "userPreferred": "Ami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44149.jpg",
+      "voiceActors": [
+        {
+          "id": 107624,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Nanase",
+            "full": "Ami Nanase",
+            "native": "亜深 七瀬",
+            "userPreferred": "Ami Nanase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12624.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43757,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hellbrick",
+        "last": null,
+        "full": "Hellbrick",
+        "native": "鬼瓦",
+        "userPreferred": "Hellbrick"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43757.jpg",
+      "voiceActors": [
+        {
+          "id": 95243,
+          "language": "Japanese",
+          "name": {
+            "first": "Tooru",
+            "last": "Ookawa",
+            "full": "Tooru Ookawa",
+            "native": "大川透",
+            "userPreferred": "Tooru Ookawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95243-zhk18RRqSAmx.png"
+        }
+      ]
+    },
+    {
+      "id": 43761,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nanami",
+        "last": "Akasaki",
+        "full": "Nanami Akasaki",
+        "native": "赤崎 七海",
+        "userPreferred": "Nanami Akasaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43761.jpg",
+      "voiceActors": [
+        {
+          "id": 107652,
+          "language": "Japanese",
+          "name": {
+            "first": "Chinatsu",
+            "last": "Akasaki",
+            "full": "Chinatsu Akasaki",
+            "native": "赤﨑千夏",
+            "userPreferred": "Chinatsu Akasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107652-wHdkKzhetbiH.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43764,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Knight",
+        "last": "Kijima",
+        "full": "Knight Kijima",
+        "native": "輝島 ナイト",
+        "userPreferred": "Knight Kijima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43764.jpg",
+      "voiceActors": [
+        {
+          "id": 95270,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuhiko",
+            "last": "Okamoto",
+            "full": "Nobuhiko Okamoto",
+            "native": "岡本信彦",
+            "userPreferred": "Nobuhiko Okamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95270-LqNIF238L59u.png"
+        }
+      ]
+    },
+    {
+      "id": 44589,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "SP",
+        "last": null,
+        "full": "SP",
+        "native": null,
+        "userPreferred": "SP"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44589.jpg",
+      "voiceActors": [
+        {
+          "id": 103375,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Takabe",
+            "full": "Ai Takabe",
+            "native": "高部あい",
+            "userPreferred": "Ai Takabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8375.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44148,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Manami",
+        "last": null,
+        "full": "Manami",
+        "native": "マナミ",
+        "userPreferred": "Manami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44148.jpg",
+      "voiceActors": [
+        {
+          "id": 107722,
+          "language": "Japanese",
+          "name": {
+            "first": "Manami",
+            "last": "Tanaka",
+            "full": "Manami Tanaka",
+            "native": "田中真奈美",
+            "userPreferred": "Manami Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107722-69u0SAQgfNBs.png"
+        }
+      ]
+    },
+    {
+      "id": 48903,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mother",
+        "last": "Tandoji",
+        "full": "Mother Tandoji",
+        "native": "アルマの母",
+        "userPreferred": "Mother Tandoji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/48903.jpg",
+      "voiceActors": [
+        {
+          "id": 95276,
+          "language": "Japanese",
+          "name": {
+            "first": "Sachiko",
+            "last": "Kojima",
+            "full": "Sachiko Kojima",
+            "native": "小島幸子",
+            "userPreferred": "Sachiko Kojima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95276-uj7NdE0RLmEU.png"
+        }
+      ]
+    },
+    {
+      "id": 43763,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fei Zui",
+        "last": "Lau",
+        "full": "Fei Zui Lau",
+        "native": "ラウ・フェイゾォイ",
+        "userPreferred": "Fei Zui Lau"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43763.jpg",
+      "voiceActors": [
+        {
+          "id": 103956,
+          "language": "Japanese",
+          "name": {
+            "first": "Iori",
+            "last": "Nomizu",
+            "full": "Iori Nomizu",
+            "native": "野水伊織",
+            "userPreferred": "Iori Nomizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103956-SBfEe7v8hV4r.png"
+        }
+      ]
+    },
+    {
+      "id": 44147,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miho",
+        "last": null,
+        "full": "Miho",
+        "native": "ミホ",
+        "userPreferred": "Miho"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44147.jpg",
+      "voiceActors": [
+        {
+          "id": 132914,
+          "language": "Japanese",
+          "name": {
+            "first": "Miho",
+            "last": "Masaka",
+            "full": "Miho Masaka",
+            "native": "真坂美帆",
+            "userPreferred": "Miho Masaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n132914-eqWVYmq5Fp6E.png"
+        }
+      ]
+    },
+    {
+      "id": 48821,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mother",
+        "last": "Aiba",
+        "full": "Mother Aiba",
+        "native": null,
+        "userPreferred": "Mother Aiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/48821.jpg",
+      "voiceActors": [
+        {
+          "id": 95298,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Kakazu",
+            "full": "Yumi Kakazu",
+            "native": "かかずゆみ",
+            "userPreferred": "Yumi Kakazu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95298-wWENaJp9ERf7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44146,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rie",
+        "last": null,
+        "full": "Rie",
+        "native": "リエ",
+        "userPreferred": "Rie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44146.jpg",
+      "voiceActors": [
+        {
+          "id": 104662,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Tozuka",
+            "full": "Rie Tozuka",
+            "native": "利絵 戸塚",
+            "userPreferred": "Rie Tozuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9662.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44144,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saori",
+        "last": null,
+        "full": "Saori",
+        "native": "サオリ",
+        "userPreferred": "Saori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44144.jpg",
+      "voiceActors": [
+        {
+          "id": 107724,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Hayashi",
+            "full": "Saori Hayashi",
+            "native": "林沙織",
+            "userPreferred": "Saori Hayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107724-s7uY6btC8rA8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 47477,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aoi",
+        "last": "Aiba",
+        "full": "Aoi Aiba",
+        "native": null,
+        "userPreferred": "Aoi Aiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/47477.jpg",
+      "voiceActors": [
+        {
+          "id": 95380,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayuri",
+            "last": "Yahagi",
+            "full": "Sayuri Yahagi",
+            "native": "矢作紗友里",
+            "userPreferred": "Sayuri Yahagi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95380-mOdqKPb6xYnI.png"
+        }
+      ]
+    },
+    {
+      "id": 44143,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shiori",
+        "last": null,
+        "full": "Shiori",
+        "native": "シオリ",
+        "userPreferred": "Shiori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44143.jpg",
+      "voiceActors": [
+        {
+          "id": 106236,
+          "language": "Japanese",
+          "name": {
+            "first": "Shiori",
+            "last": "Mikami",
+            "full": "Shiori Mikami",
+            "native": "三上枝織",
+            "userPreferred": "Shiori Mikami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106236-aGhlIhHPPtjc.png"
+        }
+      ]
+    },
+    {
+      "id": 44145,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Risa",
+        "last": null,
+        "full": "Risa",
+        "native": "リサ",
+        "userPreferred": "Risa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44145.jpg",
+      "voiceActors": [
+        {
+          "id": 107724,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Hayashi",
+            "full": "Saori Hayashi",
+            "native": "林沙織",
+            "userPreferred": "Saori Hayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107724-s7uY6btC8rA8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44150,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fujimura",
+        "last": null,
+        "full": "Fujimura",
+        "native": "藤村",
+        "userPreferred": "Fujimura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44150.jpg",
+      "voiceActors": [
+        {
+          "id": 106817,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshitsugu",
+            "last": "Matsuoka",
+            "full": "Yoshitsugu Matsuoka",
+            "native": "松岡禎丞",
+            "userPreferred": "Yoshitsugu Matsuoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106817-mioGQjbTWWQ6.png"
+        }
+      ]
+    },
+    {
+      "id": 44151,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yumiko",
+        "last": null,
+        "full": "Yumiko",
+        "native": "ユミコ",
+        "userPreferred": "Yumiko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44151.jpg",
+      "voiceActors": [
+        {
+          "id": 107726,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumiko",
+            "last": "Fujita",
+            "full": "Yumiko Fujita",
+            "native": "藤田由美子",
+            "userPreferred": "Yumiko Fujita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12726.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 11635,
+      "relationType": "SUMMARY",
+      "malId": 11635,
+      "title": {
+        "romaji": "Sacred Seven: Shirogane no Tsubasa",
+        "english": "Sacred Seven: Wings of the Silver Moon",
+        "native": "セイクリッドセブン　銀月の翼",
+        "userPreferred": "Sacred Seven: Shirogane no Tsubasa"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/11635.jpg",
+      "color": "#e4505d",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11635-wZ8xfsVF6Rbh.jpg",
+      "rating": 62
+    },
+    {
+      "id": 57367,
+      "relationType": "ADAPTATION",
+      "malId": 27367,
+      "title": {
+        "romaji": "Sacred Seven",
+        "english": null,
+        "native": "セイクリットセブン",
+        "userPreferred": "Sacred Seven"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx57367-gQKHDfFTolrx.jpg",
+      "color": "#6ba1d6",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx57367-gQKHDfFTolrx.jpg",
+      "rating": 76
+    }
+  ],
+  "episodes": [
+    {
+      "id": "sacred-seven--episode-1",
+      "title": "Awakening Of The Stone",
+      "image": "https://media.kitsu.io/episodes/thumbnails/91515/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:28:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sacred-seven--episode-1"
+    },
+    {
+      "id": "sacred-seven--episode-2",
+      "title": "Ruri's Sky-Blue Bond",
+      "image": "https://media.kitsu.io/episodes/thumbnails/91516/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:28:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sacred-seven--episode-2"
+    },
+    {
+      "id": "sacred-seven--episode-3",
+      "title": "Crazy Night",
+      "image": "https://media.kitsu.io/episodes/thumbnails/91517/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:28:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sacred-seven--episode-3"
+    },
+    {
+      "id": "sacred-seven--episode-4",
+      "title": "Oni at the School Festival",
+      "image": "https://media.kitsu.io/episodes/thumbnails/91518/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:28:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sacred-seven--episode-4"
+    },
+    {
+      "id": "sacred-seven--episode-5",
+      "title": "The Mirror in Kagami's Heart",
+      "image": "https://media.kitsu.io/episodes/thumbnails/91519/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:28:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sacred-seven--episode-5"
+    },
+    {
+      "id": "sacred-seven--episode-6",
+      "title": "One More Night, One More Naito",
+      "image": "https://media.kitsu.io/episodes/thumbnails/91520/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:28:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sacred-seven--episode-6"
+    },
+    {
+      "id": "sacred-seven--episode-7",
+      "title": "A Dark Side of the Truth",
+      "image": "https://media.kitsu.io/episodes/thumbnails/91521/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:28:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sacred-seven--episode-7"
+    },
+    {
+      "id": "sacred-seven--episode-8",
+      "title": "With All My Heart",
+      "image": "https://media.kitsu.io/episodes/thumbnails/91522/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:28:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sacred-seven--episode-8"
+    },
+    {
+      "id": "sacred-seven--episode-9",
+      "title": "The Soul of a Rolling Stone",
+      "image": "https://media.kitsu.io/episodes/thumbnails/91523/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:28:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sacred-seven--episode-9"
+    },
+    {
+      "id": "sacred-seven--episode-10",
+      "title": "Memory of Aoi",
+      "image": "https://media.kitsu.io/episodes/thumbnails/91524/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:28:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sacred-seven--episode-10"
+    },
+    {
+      "id": "sacred-seven--episode-11",
+      "title": "Kenmi's Sharpened Blade",
+      "image": "https://media.kitsu.io/episodes/thumbnails/91525/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:28:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sacred-seven--episode-11"
+    },
+    {
+      "id": "sacred-seven--episode-12",
+      "title": "Sacred Seven",
+      "image": "https://media.kitsu.io/episodes/thumbnails/91526/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:28:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sacred-seven--episode-12"
+    }
+  ]
+}

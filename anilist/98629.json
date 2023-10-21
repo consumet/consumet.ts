@@ -1,0 +1,185 @@
+{
+  "id": "98629",
+  "title": {
+    "romaji": "Shingeki no Bahamut: GENESIS - Short story",
+    "english": "Rage of Bahamut: Genesis - Short Story",
+    "native": "神撃のバハムート GENESIS Short story"
+  },
+  "malId": 34642,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98629-YNcvPEHSTvBt.jpg",
+  "popularity": 8910,
+  "color": "#e45028",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98629-YNcvPEHSTvBt.jpg",
+  "description": "Shingeki no Bahamut: Genesis - Short Story is set after the events of season 1. \n\nThe first short story focuses on Favaro and Kaiser between the events of the first and second series.\n\nThe second short story focuses on Kaiser and Jeanne between the events of the first and second series.",
+  "status": "Completed",
+  "releaseDate": 2016,
+  "startDate": {
+    "year": 2016,
+    "month": 12,
+    "day": 28
+  },
+  "endDate": {
+    "year": 2017,
+    "month": 2,
+    "day": 20
+  },
+  "totalEpisodes": 2,
+  "currentEpisode": 2,
+  "rating": 69,
+  "duration": 9,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Supernatural"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "MAPPA"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 88556,
+      "role": "MAIN",
+      "name": {
+        "first": "Kaisar",
+        "last": "Lidfard",
+        "full": "Kaisar Lidfard",
+        "native": "カイザル・リドファルド",
+        "userPreferred": "Kaisar Lidfard"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n88556-Crc8iIzzmeuz.png",
+      "voiceActors": [
+        {
+          "id": 95527,
+          "language": "Japanese",
+          "name": {
+            "first": "Gou",
+            "last": "Inoue",
+            "full": "Gou Inoue",
+            "native": "井上剛",
+            "userPreferred": "Gou Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/527.jpg"
+        }
+      ]
+    },
+    {
+      "id": 88555,
+      "role": "MAIN",
+      "name": {
+        "first": "Favaro",
+        "last": "Leone",
+        "full": "Favaro Leone",
+        "native": "ファバロ・レオーネ",
+        "userPreferred": "Favaro Leone"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n88555-cw5l1LvibaSk.jpg",
+      "voiceActors": [
+        {
+          "id": 95283,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroyuki",
+            "last": "Yoshino",
+            "full": "Hiroyuki Yoshino",
+            "native": "吉野裕行",
+            "userPreferred": "Hiroyuki Yoshino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95283-g76zV4YacFfm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 88560,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jeanne",
+        "last": "d'Arc",
+        "full": "Jeanne d'Arc",
+        "native": "ジャンヌ・ダルク",
+        "userPreferred": "Jeanne d'Arc"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88560.jpg",
+      "voiceActors": [
+        {
+          "id": 107961,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Han",
+            "full": "Megumi Han",
+            "native": "潘めぐみ",
+            "userPreferred": "Megumi Han"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107961-aMetTdEFTi2W.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 20590,
+      "relationType": "PREQUEL",
+      "malId": 21843,
+      "title": {
+        "romaji": "Shingeki no Bahamut: GENESIS",
+        "english": "Rage of Bahamut: Genesis",
+        "native": "神撃のバハムート GENESIS",
+        "userPreferred": "Shingeki no Bahamut: GENESIS"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20590-LuMDAd75Kg3C.jpg",
+      "color": "#d6c978",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20590-UAwdqOHKvENl.jpg",
+      "rating": 74
+    },
+    {
+      "id": 21184,
+      "relationType": "SEQUEL",
+      "malId": 30736,
+      "title": {
+        "romaji": "Shingeki no Bahamut: VIRGIN SOUL",
+        "english": "Rage of Bahamut: Virgin Soul",
+        "native": "神撃のバハムート VIRGIN SOUL",
+        "userPreferred": "Shingeki no Bahamut: VIRGIN SOUL"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21184-wpNqr2bHzLcC.jpg",
+      "color": "#e47828",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21184-3eDU2Miq76Kj.jpg",
+      "rating": 71
+    }
+  ],
+  "episodes": [
+    {
+      "id": "shingeki-no-bahamut-genesis-short-story-episode-1",
+      "title": "Short Story #1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98629-YNcvPEHSTvBt.jpg",
+      "number": 1,
+      "createdAt": "2017-06-30T15:26:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shingeki-no-bahamut-genesis-short-story-episode-1"
+    },
+    {
+      "id": "shingeki-no-bahamut-genesis-short-story-episode-2",
+      "title": "Short Story #2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98629-YNcvPEHSTvBt.jpg",
+      "number": 2,
+      "createdAt": "2017-06-30T15:26:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shingeki-no-bahamut-genesis-short-story-episode-2"
+    }
+  ]
+}

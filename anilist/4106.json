@@ -1,0 +1,693 @@
+{
+  "id": "4106",
+  "title": {
+    "romaji": "TRIGUN: Badlands Rumble",
+    "english": "Trigun: Badlands Rumble",
+    "native": "TRIGUN Badlands Rumble"
+  },
+  "malId": 4106,
+  "synonyms": [
+    "劇場版トライガン",
+    "Trigun Movie"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4106-hkczeGBjOzI6.jpg",
+  "popularity": 21781,
+  "color": "#e45043",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4106-nYrMeODefMQL.jpg",
+  "description": "In town surrounded by quicksand, an outlaw from Vash the Stampede's past has resurfaced after twenty years. His name is Gasback - and he's looking to cause a little trouble. It seems Gasback has a serious beef with the town's mayor, who's paying dozens of bounty hunters to protect his turf.<br>\n<br>\nOne of those hired guns is a beautiful woman with a vendetta against Gasback. Will she get a shot at revenge? Maybe, if she can get through Gasback's bodyguard, Wolfwood. And what's Vash got to do with this mess? Nothing much - except for the fact that he personally set off the entire chain of events two decades ago!<br>\n<br>\n(Source: Funimation)",
+  "status": "Completed",
+  "releaseDate": 2010,
+  "startDate": {
+    "year": 2010,
+    "month": 4,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2010,
+    "month": 4,
+    "day": 2
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 76,
+  "duration": 90,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "MADHOUSE"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 1,
+      "malId": 1,
+      "title": {
+        "romaji": "Cowboy Bebop",
+        "english": "Cowboy Bebop",
+        "native": "カウボーイビバップ",
+        "userPreferred": "Cowboy Bebop"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1-CXtrrkMpJ8Zq.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1-OquNCNB6srGe.jpg",
+      "rating": 86,
+      "type": "TV"
+    },
+    {
+      "id": 5,
+      "malId": 5,
+      "title": {
+        "romaji": "Cowboy Bebop: Tengoku no Tobira",
+        "english": "Cowboy Bebop: The Movie - Knockin' on Heaven's Door",
+        "native": "カウボーイビバップ天国の扉",
+        "userPreferred": "Cowboy Bebop: Tengoku no Tobira"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5-NozHwXWdNLCz.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5-VOcSZFepDDhm.jpg",
+      "rating": 82,
+      "type": "MOVIE"
+    },
+    {
+      "id": 1706,
+      "malId": 1706,
+      "title": {
+        "romaji": "Gun Frontier",
+        "english": null,
+        "native": "ガンフロンティア",
+        "userPreferred": "Gun Frontier"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1706.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1706.jpg",
+      "rating": 60,
+      "type": "TV"
+    },
+    {
+      "id": 151040,
+      "malId": 52093,
+      "title": {
+        "romaji": "TRIGUN STAMPEDE",
+        "english": "TRIGUN STAMPEDE",
+        "native": "TRIGUN STAMPEDE",
+        "userPreferred": "TRIGUN STAMPEDE"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151040-zQEvp8bCA987.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/151040-1auPdaGqDGYd.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 25,
+      "malId": 25,
+      "title": {
+        "romaji": "Sunabouzu",
+        "english": "Desert Punk",
+        "native": "砂ぼうず",
+        "userPreferred": "Sunabouzu"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx25-H1etX7IgfFtQ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/25-F2qEJ3hvFzHj.jpg",
+      "rating": 68,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 714,
+      "role": "MAIN",
+      "name": {
+        "first": "Milly",
+        "last": "Thompson",
+        "full": "Milly Thompson",
+        "native": "ミリィ・トンプソン",
+        "userPreferred": "Milly Thompson"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b714-bwscmKr1GkxW.jpg",
+      "voiceActors": [
+        {
+          "id": 95003,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsuki",
+            "last": "Yukino",
+            "full": "Satsuki Yukino",
+            "native": "ゆきのさつき",
+            "userPreferred": "Satsuki Yukino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95003-Du7wb5JJzb8P.png"
+        },
+        {
+          "id": 96804,
+          "language": "English",
+          "name": {
+            "first": "Trina",
+            "last": "Nishimura",
+            "full": "Trina Nishimura",
+            "native": null,
+            "userPreferred": "Trina Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96804-0OKQgacznkZ4.png"
+        },
+        {
+          "id": 95768,
+          "language": "Italian",
+          "name": {
+            "first": "Perla",
+            "last": "Liberatori",
+            "full": "Perla Liberatori",
+            "native": null,
+            "userPreferred": "Perla Liberatori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95768-yFfBr9YadCpl.jpg"
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "role": "MAIN",
+      "name": {
+        "first": "Vash the Stampede",
+        "last": "",
+        "full": "Vash the Stampede",
+        "native": "ヴァッシュ・ザ・スタンピード",
+        "userPreferred": "Vash the Stampede"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b162-INumohN3e4yE.png",
+      "voiceActors": [
+        {
+          "id": 95173,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaya",
+            "last": "Onosaka",
+            "full": "Masaya Onosaka",
+            "native": "小野坂昌也",
+            "userPreferred": "Masaya Onosaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95173-LIuN04REF5eA.png"
+        },
+        {
+          "id": 95010,
+          "language": "English",
+          "name": {
+            "first": "Johnny Yong",
+            "last": "Bosch",
+            "full": "Johnny Yong Bosch",
+            "native": null,
+            "userPreferred": "Johnny Yong Bosch"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95010-56EByXYI2PjI.jpg"
+        },
+        {
+          "id": 102752,
+          "language": "Italian",
+          "name": {
+            "first": "Simone",
+            "last": "Mori",
+            "full": "Simone Mori",
+            "native": null,
+            "userPreferred": "Simone Mori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7752.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32717,
+      "role": "MAIN",
+      "name": {
+        "first": "Amelia Ann",
+        "last": "McFly",
+        "full": "Amelia Ann McFly",
+        "native": "アメリア・アン・マクフライ",
+        "userPreferred": "Amelia Ann McFly"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32717.jpg",
+      "voiceActors": [
+        {
+          "id": 95090,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Sakamoto",
+            "full": "Maaya Sakamoto",
+            "native": "坂本真綾",
+            "userPreferred": "Maaya Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95090-oARRP42NEhu0.jpg"
+        },
+        {
+          "id": 96650,
+          "language": "English",
+          "name": {
+            "first": "Cherami",
+            "last": "Leigh",
+            "full": "Cherami Leigh",
+            "native": null,
+            "userPreferred": "Cherami Leigh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96650-oYspSQuaFo3N.jpg"
+        },
+        {
+          "id": 95472,
+          "language": "English",
+          "name": {
+            "first": "Colleen",
+            "last": "Clinkenbeard",
+            "full": "Colleen Clinkenbeard",
+            "native": null,
+            "userPreferred": "Colleen Clinkenbeard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95472-fznpewUW95vm.jpg"
+        },
+        {
+          "id": 109569,
+          "language": "Italian",
+          "name": {
+            "first": "Gea",
+            "last": "Riva",
+            "full": "Gea Riva",
+            "native": null,
+            "userPreferred": "Gea Riva"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109569-T6AuklGMbcKh.png"
+        }
+      ]
+    },
+    {
+      "id": 722,
+      "role": "MAIN",
+      "name": {
+        "first": "Nicholas D.",
+        "last": "Wolfwood",
+        "full": "Nicholas D. Wolfwood",
+        "native": "ニコラス・D・ウルフウッド",
+        "userPreferred": "Nicholas D. Wolfwood"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b722-Ernx5wHAXugB.jpg",
+      "voiceActors": [
+        {
+          "id": 95137,
+          "language": "Japanese",
+          "name": {
+            "first": "Shou",
+            "last": "Hayami",
+            "full": "Shou Hayami",
+            "native": "速水奨",
+            "userPreferred": "Shou Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95137-2Q5l3Br9G7sk.png"
+        },
+        {
+          "id": 103028,
+          "language": "English",
+          "name": {
+            "first": "Brad",
+            "last": "Hawkins",
+            "full": "Brad Hawkins",
+            "native": null,
+            "userPreferred": "Brad Hawkins"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8028.jpg"
+        },
+        {
+          "id": 95781,
+          "language": "Italian",
+          "name": {
+            "first": "Massimo",
+            "last": "De Ambrosis",
+            "full": "Massimo De Ambrosis",
+            "native": null,
+            "userPreferred": "Massimo De Ambrosis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/781.jpg"
+        }
+      ]
+    },
+    {
+      "id": 713,
+      "role": "MAIN",
+      "name": {
+        "first": "Meryl",
+        "last": "Stryfe",
+        "full": "Meryl Stryfe",
+        "native": "メリル・ストライフ",
+        "userPreferred": "Meryl Stryfe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b713-ARN91UwGfe3A.jpg",
+      "voiceActors": [
+        {
+          "id": 95354,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiromi",
+            "last": "Tsuru",
+            "full": "Hiromi Tsuru",
+            "native": "鶴ひろみ",
+            "userPreferred": "Hiromi Tsuru"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95354-Ds90swc530OH.jpg"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        },
+        {
+          "id": 95765,
+          "language": "Italian",
+          "name": {
+            "first": "Stella",
+            "last": "Musy",
+            "full": "Stella Musy",
+            "native": null,
+            "userPreferred": "Stella Musy"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/765.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32716,
+      "role": "MAIN",
+      "name": {
+        "first": "Gasback",
+        "last": "Gallon Getaway",
+        "full": "Gasback Gallon Getaway",
+        "native": "ガスバック・ガロン・ゲッタウェイ",
+        "userPreferred": "Gasback Gallon Getaway"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32716.jpg",
+      "voiceActors": [
+        {
+          "id": 95450,
+          "language": "Japanese",
+          "name": {
+            "first": "Tsutomu",
+            "last": "Isobe",
+            "full": "Tsutomu Isobe",
+            "native": "勉磯部",
+            "userPreferred": "Tsutomu Isobe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95450-rw0UlIXU7keU.jpg"
+        },
+        {
+          "id": 95201,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Swasey",
+            "full": "John Swasey",
+            "native": null,
+            "userPreferred": "John Swasey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95201-cas6XbtZmMay.jpg"
+        },
+        {
+          "id": 100033,
+          "language": "Italian",
+          "name": {
+            "first": "Pietro",
+            "last": "Ubaldi",
+            "full": "Pietro Ubaldi",
+            "native": null,
+            "userPreferred": "Pietro Ubaldi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5033.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63345,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Michio",
+        "last": "Tanto Ogorare",
+        "full": "Michio Tanto Ogorare",
+        "native": "メチーオ・タント・オゴラーレ",
+        "userPreferred": "Michio Tanto Ogorare"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63345.jpg",
+      "voiceActors": [
+        {
+          "id": 95284,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumihiko",
+            "last": "Tachiki",
+            "full": "Fumihiko Tachiki",
+            "native": "立木文彦",
+            "userPreferred": "Fumihiko Tachiki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95284-k97k9dULn4vr.png"
+        },
+        {
+          "id": 105880,
+          "language": "English",
+          "name": {
+            "first": "Newton",
+            "last": "Pittman",
+            "full": "Newton Pittman",
+            "native": null,
+            "userPreferred": "Newton Pittman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10880.jpg"
+        },
+        {
+          "id": 115236,
+          "language": "Italian",
+          "name": {
+            "first": "Daniele",
+            "last": "Demma",
+            "full": "Daniele Demma",
+            "native": null,
+            "userPreferred": "Daniele Demma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115236-G5CVh07TSnt3.png"
+        }
+      ]
+    },
+    {
+      "id": 63215,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cain",
+        "last": "Flaccano",
+        "full": "Cain Flaccano",
+        "native": "ケイン・フラッカーノ",
+        "userPreferred": "Cain Flaccano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63215.jpg",
+      "voiceActors": [
+        {
+          "id": 95651,
+          "language": "Japanese",
+          "name": {
+            "first": "Bin",
+            "last": "Shimada",
+            "full": "Bin Shimada",
+            "native": "島田敏",
+            "userPreferred": "Bin Shimada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95651-6kRo7F4yb6Yt.png"
+        },
+        {
+          "id": 95872,
+          "language": "English",
+          "name": {
+            "first": "Kent",
+            "last": "Williams",
+            "full": "Kent Williams",
+            "native": null,
+            "userPreferred": "Kent Williams"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/872.jpg"
+        },
+        {
+          "id": 160266,
+          "language": "Italian",
+          "name": {
+            "first": "Massimiliano",
+            "last": "Lotti",
+            "full": "Massimiliano Lotti",
+            "native": null,
+            "userPreferred": "Massimiliano Lotti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n160266-5OJb8QO3Bgsz.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63347,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dorino",
+        "last": "Ole Tadiski",
+        "full": "Dorino Ole Tadiski",
+        "native": "ドリーノ・オーレ・タディスキー",
+        "userPreferred": "Dorino Ole Tadiski"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63347.jpg",
+      "voiceActors": [
+        {
+          "id": 95157,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuo",
+            "last": "Tobita",
+            "full": "Nobuo Tobita",
+            "native": "飛田展男",
+            "userPreferred": "Nobuo Tobita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95157-td6WhlGehuDJ.png"
+        },
+        {
+          "id": 95360,
+          "language": "English",
+          "name": {
+            "first": "Sonny",
+            "last": "Strait",
+            "full": "Sonny Strait",
+            "native": null,
+            "userPreferred": "Sonny Strait"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/360.jpg"
+        },
+        {
+          "id": 156129,
+          "language": "Italian",
+          "name": {
+            "first": "Francesco",
+            "last": "Orlando",
+            "full": "Francesco Orlando",
+            "native": null,
+            "userPreferred": "Francesco Orlando"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n156129-nFcjhOQbWufJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63213,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Amelia's Mother",
+        "last": null,
+        "full": "Amelia's Mother",
+        "native": "アメリアの母",
+        "userPreferred": "Amelia's Mother"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63213.jpg",
+      "voiceActors": [
+        {
+          "id": 95195,
+          "language": "Japanese",
+          "name": {
+            "first": "Kikuko",
+            "last": "Inoue",
+            "full": "Kikuko Inoue",
+            "native": "井上喜久子",
+            "userPreferred": "Kikuko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95195-nLvtZl5sCK0D.png"
+        },
+        {
+          "id": 95511,
+          "language": "English",
+          "name": {
+            "first": "Lydia",
+            "last": "Mackay",
+            "full": "Lydia Mackay",
+            "native": null,
+            "userPreferred": "Lydia Mackay"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/511.jpg"
+        },
+        {
+          "id": 104942,
+          "language": "Italian",
+          "name": {
+            "first": "Donatella",
+            "last": "Fanfani",
+            "full": "Donatella Fanfani",
+            "native": null,
+            "userPreferred": "Donatella Fanfani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9942.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 6,
+      "relationType": "PARENT",
+      "malId": 6,
+      "title": {
+        "romaji": "TRIGUN",
+        "english": "Trigun",
+        "native": "TRIGUN",
+        "userPreferred": "TRIGUN"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6-Zzun7PHNNgPt.jpg",
+      "color": "#f1e4c9",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6-4pIR2RY8AHZ0.jpg",
+      "rating": 79
+    },
+    {
+      "id": 142027,
+      "relationType": "SEQUEL",
+      "malId": null,
+      "title": {
+        "romaji": "Dodongo Kyoudai Honeycombed Village no Kettou",
+        "english": "Trigun: Badlands Rumble-Extra Showdown with the Dodongo Brothers in Honeycombed Village",
+        "native": "ドドンゴ兄弟ハニーカムドビレッジの決闘",
+        "userPreferred": "Dodongo Kyoudai Honeycombed Village no Kettou"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx142027-bYRwiFdn7v1n.jpg",
+      "color": "#d6ae78",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx142027-bYRwiFdn7v1n.jpg",
+      "rating": 70
+    }
+  ],
+  "episodes": [
+    {
+      "id": "trigun-badlands-rumble-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4106-hkczeGBjOzI6.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//trigun-badlands-rumble-episode-1"
+    }
+  ]
+}

@@ -1,0 +1,574 @@
+{
+  "id": "4662",
+  "title": {
+    "romaji": "Neo Angelique Abyss: Second Age",
+    "english": null,
+    "native": "ネオアンジェリーク Abyss -Second Age-"
+  },
+  "malId": 4662,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4662.jpg",
+  "popularity": 1987,
+  "color": "#935d28",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4662.jpg",
+  "description": "Continuing where the first season left off, the sudden increase of Thanatos with the disappearance of the Aube Hunters has now left Arcadia in ruin. Desperation reigns high as the Religious Organization fights to battle the Thanatos. Six months had already past since Hidamari mansion burned to ashes, the Aube Hunters, once hailed as heroes, is now blamed for the appearance of Thanatos. Nevertheless, hope still exists for the reappearance of the Queen's Egg one day, who will become the savior of Arcadia. Unknown to many however, the Aube Hunters have actually been silently waiting for the awakening of Angelique, who has been asleep the entire time.",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 7,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 9,
+    "day": 29
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 62,
+  "duration": 25,
+  "genres": [
+    "Adventure",
+    "Fantasy"
+  ],
+  "season": "SUMMER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 11176,
+      "role": "MAIN",
+      "name": {
+        "first": "Angelique",
+        "last": null,
+        "full": "Angelique",
+        "native": "アンジェリーク",
+        "userPreferred": "Angelique"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11176.jpg",
+      "voiceActors": [
+        {
+          "id": 95054,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Endou",
+            "full": "Aya Endou",
+            "native": "遠藤綾",
+            "userPreferred": "Aya Endou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95054-8VgnlGK5QX2A.png"
+        }
+      ]
+    },
+    {
+      "id": 11178,
+      "role": "MAIN",
+      "name": {
+        "first": "Nyx",
+        "last": null,
+        "full": "Nyx",
+        "native": "ニクス",
+        "userPreferred": "Nyx"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11178.jpg",
+      "voiceActors": [
+        {
+          "id": 95243,
+          "language": "Japanese",
+          "name": {
+            "first": "Tooru",
+            "last": "Ookawa",
+            "full": "Tooru Ookawa",
+            "native": "大川透",
+            "userPreferred": "Tooru Ookawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95243-zhk18RRqSAmx.png"
+        }
+      ]
+    },
+    {
+      "id": 10878,
+      "role": "MAIN",
+      "name": {
+        "first": "Rayne",
+        "last": null,
+        "full": "Rayne",
+        "native": "レイン",
+        "userPreferred": "Rayne"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10878.jpg",
+      "voiceActors": [
+        {
+          "id": 95064,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Takahashi",
+            "full": "Hiroki Takahashi",
+            "native": "高橋広樹",
+            "userPreferred": "Hiroki Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95064-p83l3UvfQ6n6.png"
+        }
+      ]
+    },
+    {
+      "id": 11180,
+      "role": "MAIN",
+      "name": {
+        "first": "Jade",
+        "last": null,
+        "full": "Jade",
+        "native": "ジェイド",
+        "userPreferred": "Jade"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b11180-taAWQ8jr3nry.jpg",
+      "voiceActors": [
+        {
+          "id": 95173,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaya",
+            "last": "Onosaka",
+            "full": "Masaya Onosaka",
+            "native": "小野坂昌也",
+            "userPreferred": "Masaya Onosaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95173-LIuN04REF5eA.png"
+        }
+      ]
+    },
+    {
+      "id": 11182,
+      "role": "MAIN",
+      "name": {
+        "first": "Hyuga",
+        "last": null,
+        "full": "Hyuga",
+        "native": "ヒュウガ",
+        "userPreferred": "Hyuga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11182.jpg",
+      "voiceActors": [
+        {
+          "id": 95212,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Ono",
+            "full": "Daisuke Ono",
+            "native": "小野大輔",
+            "userPreferred": "Daisuke Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95212-wX1M4LJN96q2.png"
+        }
+      ]
+    },
+    {
+      "id": 11192,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jet",
+        "last": null,
+        "full": "Jet",
+        "native": "ジェット",
+        "userPreferred": "Jet"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b11192-Y2vBfKgWdJVs.jpg",
+      "voiceActors": [
+        {
+          "id": 95513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Nakamura",
+            "full": "Yuuichi Nakamura",
+            "native": "中村悠一",
+            "userPreferred": "Yuuichi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95513-up9ZDuocHgRs.png"
+        }
+      ]
+    },
+    {
+      "id": 11184,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "René",
+        "last": null,
+        "full": "René",
+        "native": "ルネ",
+        "userPreferred": "René"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11184.jpg",
+      "voiceActors": [
+        {
+          "id": 95067,
+          "language": "Japanese",
+          "name": {
+            "first": "Kappei",
+            "last": "Yamaguchi",
+            "full": "Kappei Yamaguchi",
+            "native": "山口勝平",
+            "userPreferred": "Kappei Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95067-hqIpNxMfAuN2.png"
+        }
+      ]
+    },
+    {
+      "id": 11188,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mathias",
+        "last": null,
+        "full": "Mathias",
+        "native": "マティアス",
+        "userPreferred": "Mathias"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11188.jpg",
+      "voiceActors": [
+        {
+          "id": 95893,
+          "language": "Japanese",
+          "name": {
+            "first": "Taiten",
+            "last": "Kusunoki",
+            "full": "Taiten Kusunoki",
+            "native": "楠大典",
+            "userPreferred": "Taiten Kusunoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95893-k0qEVnRygyIn.png"
+        }
+      ]
+    },
+    {
+      "id": 11190,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Erenfried",
+        "last": null,
+        "full": "Erenfried",
+        "native": "エレンフリート",
+        "userPreferred": "Erenfried"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11190.jpg",
+      "voiceActors": [
+        {
+          "id": 95088,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Irino",
+            "full": "Miyu Irino",
+            "native": "入野自由",
+            "userPreferred": "Miyu Irino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95088-BHyqnkadBEqi.png"
+        }
+      ]
+    },
+    {
+      "id": 11194,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Roche",
+        "last": null,
+        "full": "Roche",
+        "native": "ロシュ",
+        "userPreferred": "Roche"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11194.jpg",
+      "voiceActors": [
+        {
+          "id": 96762,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouhei",
+            "last": "Kimura",
+            "full": "Ryouhei Kimura",
+            "native": "木村良平",
+            "userPreferred": "Ryouhei Kimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96762-DNKMFBA2vWRr.jpg"
+        }
+      ]
+    },
+    {
+      "id": 25265,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Carlyle",
+        "last": null,
+        "full": "Carlyle",
+        "native": null,
+        "userPreferred": "Carlyle"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25265.jpg",
+      "voiceActors": [
+        {
+          "id": 95097,
+          "language": "Japanese",
+          "name": {
+            "first": "Kousuke",
+            "last": "Toriumi",
+            "full": "Kousuke Toriumi",
+            "native": "鳥海浩輔",
+            "userPreferred": "Kousuke Toriumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95097-BhSegy6KBLbE.png"
+        }
+      ]
+    },
+    {
+      "id": 15638,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yorgo",
+        "last": null,
+        "full": "Yorgo",
+        "native": null,
+        "userPreferred": "Yorgo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15638.jpg",
+      "voiceActors": [
+        {
+          "id": 95710,
+          "language": "Japanese",
+          "name": {
+            "first": "Masami",
+            "last": "Iwasaki",
+            "full": "Masami Iwasaki",
+            "native": "岩崎征実",
+            "userPreferred": "Masami Iwasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95710-FJIApacylT8A.png"
+        }
+      ]
+    },
+    {
+      "id": 15645,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ervin",
+        "last": null,
+        "full": "Ervin",
+        "native": null,
+        "userPreferred": "Ervin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15645.jpg",
+      "voiceActors": [
+        {
+          "id": 95107,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Aoki",
+            "full": "Sayaka Aoki",
+            "native": "あおきさやか",
+            "userPreferred": "Sayaka Aoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95107-ksLLjUzOFaI4.png"
+        }
+      ]
+    },
+    {
+      "id": 11186,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bernard",
+        "last": null,
+        "full": "Bernard",
+        "native": "ベルナール",
+        "userPreferred": "Bernard"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11186.jpg",
+      "voiceActors": [
+        {
+          "id": 95183,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Hirakawa",
+            "full": "Daisuke Hirakawa",
+            "native": "平川大輔",
+            "userPreferred": "Daisuke Hirakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95183-5C42gbrKIP7L.png"
+        }
+      ]
+    },
+    {
+      "id": 44072,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sedona",
+        "last": null,
+        "full": "Sedona",
+        "native": null,
+        "userPreferred": "Sedona"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44072.jpg",
+      "voiceActors": [
+        {
+          "id": 95439,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruna",
+            "last": "Ikezawa",
+            "full": "Haruna Ikezawa",
+            "native": "池澤春菜",
+            "userPreferred": "Haruna Ikezawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95439-8EqzBBucWWvE.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 3615,
+      "relationType": "PREQUEL",
+      "malId": 3615,
+      "title": {
+        "romaji": "Neo Angelique Abyss",
+        "english": null,
+        "native": "ネオアンジェリーク Abyss",
+        "userPreferred": "Neo Angelique Abyss"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3615.jpg",
+      "color": "#e45d78",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3615.jpg",
+      "rating": 61
+    }
+  ],
+  "episodes": [
+    {
+      "id": "neo-angelique-abyss-second-age-episode-1",
+      "title": "The Lost Light",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4662.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:26:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//neo-angelique-abyss-second-age-episode-1"
+    },
+    {
+      "id": "neo-angelique-abyss-second-age-episode-2",
+      "title": "Melody of Encounter",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4662.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:26:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//neo-angelique-abyss-second-age-episode-2"
+    },
+    {
+      "id": "neo-angelique-abyss-second-age-episode-3",
+      "title": "Sword in that hand",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4662.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:26:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//neo-angelique-abyss-second-age-episode-3"
+    },
+    {
+      "id": "neo-angelique-abyss-second-age-episode-4",
+      "title": "Tower of Dream Soul",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4662.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:26:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//neo-angelique-abyss-second-age-episode-4"
+    },
+    {
+      "id": "neo-angelique-abyss-second-age-episode-5",
+      "title": "My Little Angel",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4662.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:26:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//neo-angelique-abyss-second-age-episode-5"
+    },
+    {
+      "id": "neo-angelique-abyss-second-age-episode-6",
+      "title": "The Rebellion at the Sacred Capital",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4662.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:26:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//neo-angelique-abyss-second-age-episode-6"
+    },
+    {
+      "id": "neo-angelique-abyss-second-age-episode-7",
+      "title": "One Night of Truth",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4662.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:26:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//neo-angelique-abyss-second-age-episode-7"
+    },
+    {
+      "id": "neo-angelique-abyss-second-age-episode-8",
+      "title": "Realisations of the Young Men",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4662.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:26:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//neo-angelique-abyss-second-age-episode-8"
+    },
+    {
+      "id": "neo-angelique-abyss-second-age-episode-9",
+      "title": "Snow Field Termination",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4662.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:26:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//neo-angelique-abyss-second-age-episode-9"
+    },
+    {
+      "id": "neo-angelique-abyss-second-age-episode-10",
+      "title": "Atonement",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4662.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:26:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//neo-angelique-abyss-second-age-episode-10"
+    },
+    {
+      "id": "neo-angelique-abyss-second-age-episode-11",
+      "title": "Slumber in Celestizam",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4662.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:26:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//neo-angelique-abyss-second-age-episode-11"
+    },
+    {
+      "id": "neo-angelique-abyss-second-age-episode-12",
+      "title": "To the sky...",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4662.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:26:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//neo-angelique-abyss-second-age-episode-12"
+    },
+    {
+      "id": "neo-angelique-abyss-second-age-episode-13",
+      "title": "An Eternal Arcadia",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4662.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:26:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//neo-angelique-abyss-second-age-episode-13"
+    }
+  ]
+}

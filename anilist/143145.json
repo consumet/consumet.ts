@@ -1,0 +1,397 @@
+{
+  "id": "143145",
+  "title": {
+    "romaji": "The Missing 8",
+    "english": null,
+    "native": "The Missing 8"
+  },
+  "malId": 50689,
+  "synonyms": [],
+  "isLicensed": false,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b143145-cvB7P3FxMVYD.png",
+  "popularity": 1129,
+  "color": "#aef1ae",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/143145-ZMTH8qCu5my2.jpg",
+  "description": "A devastated world ──\nAndroids and robots live there.\n\"Poppy\" is an android that looks like a human.\nAndroid \"Punkun\" who is not interested in human.\nOne night, a star fell in front of them looking up at the sky ...\n<br><br>\nFUZI's original work \"The Missing 8\" born from the Music video is made into a web animation.\n<br><br>\n(Source: YouTube description)",
+  "status": "Completed",
+  "releaseDate": 2021,
+  "startDate": {
+    "year": 2021,
+    "month": 12,
+    "day": 28
+  },
+  "endDate": {
+    "year": 2022,
+    "month": 11,
+    "day": 8
+  },
+  "totalEpisodes": 8,
+  "currentEpisode": 8,
+  "rating": 56,
+  "duration": 15,
+  "genres": [
+    "Sci-Fi"
+  ],
+  "season": null,
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 9756,
+      "malId": 9756,
+      "title": {
+        "romaji": "Mahou Shoujo Madoka☆Magica",
+        "english": "Puella Magi Madoka Magica",
+        "native": "魔法少女まどか☆マギカ",
+        "userPreferred": "Mahou Shoujo Madoka☆Magica"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9756-oqKE3E6DLtgm.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9756-d5M8NffgJJHB.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 16009,
+      "malId": 16009,
+      "title": {
+        "romaji": "Kamisama no Inai Nichiyoubi",
+        "english": "Sunday Without God",
+        "native": "神さまのいない日曜日",
+        "userPreferred": "Kamisama no Inai Nichiyoubi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16009-Sjn9slY4IsjE.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16009-Mt1EU2bS3SQm.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 10721,
+      "malId": 10721,
+      "title": {
+        "romaji": "Mawaru Penguindrum",
+        "english": "Penguindrum",
+        "native": "輪るピングドラム",
+        "userPreferred": "Mawaru Penguindrum"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx10721-2QWmrqbmyYil.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10721-tN8SLwirGDAB.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 101123,
+      "malId": 37302,
+      "title": {
+        "romaji": "Kemurikusa",
+        "english": "kemurikusa.",
+        "native": "ケムリクサ",
+        "userPreferred": "Kemurikusa"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101123-3SzWQNaV6PTi.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101123-Lud6NAjMgV61.jpg",
+      "rating": 64,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 281060,
+      "role": "MAIN",
+      "name": {
+        "first": "Poppy",
+        "last": null,
+        "full": "Poppy",
+        "native": "ポップ",
+        "userPreferred": "Poppy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b281060-xHfljm1vwM6r.png",
+      "voiceActors": [
+        {
+          "id": 137842,
+          "language": "Japanese",
+          "name": {
+            "first": "Hikaru",
+            "last": "Toono",
+            "full": "Hikaru Toono",
+            "native": "遠野ひかる",
+            "userPreferred": "Hikaru Toono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n137842-ygQx5blzWLlV.jpg"
+        }
+      ]
+    },
+    {
+      "id": 281063,
+      "role": "MAIN",
+      "name": {
+        "first": "Punkun",
+        "last": null,
+        "full": "Punkun",
+        "native": "パンク",
+        "userPreferred": "Punkun"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b281063-aQnWaPKVcg43.png",
+      "voiceActors": [
+        {
+          "id": 129325,
+          "language": "Japanese",
+          "name": {
+            "first": "Makoto",
+            "last": "Koichi",
+            "full": "Makoto Koichi",
+            "native": "小市眞琴",
+            "userPreferred": "Makoto Koichi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129325-RhR0e5aA6Yj5.png"
+        }
+      ]
+    },
+    {
+      "id": 281068,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Corey",
+        "last": null,
+        "full": "Corey",
+        "native": "コア",
+        "userPreferred": "Corey"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b281068-R27uEBGdbwhz.png",
+      "voiceActors": [
+        {
+          "id": 152199,
+          "language": "Japanese",
+          "name": {
+            "first": "Misaki",
+            "last": "Watada",
+            "full": "Misaki Watada",
+            "native": "和多田美咲",
+            "userPreferred": "Misaki Watada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n152199-VVKAzgSZLFqX.png"
+        }
+      ]
+    },
+    {
+      "id": 281061,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Emory",
+        "last": null,
+        "full": "Emory",
+        "native": "エモ",
+        "userPreferred": "Emory"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b281061-cuvNrTkrs0oD.png",
+      "voiceActors": [
+        {
+          "id": 119960,
+          "language": "Japanese",
+          "name": {
+            "first": "Risae",
+            "last": "Matsuda",
+            "full": "Risae Matsuda",
+            "native": "松田利冴",
+            "userPreferred": "Risae Matsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119960-1b9eah3Af5f2.png"
+        }
+      ]
+    },
+    {
+      "id": 281069,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Deathlily",
+        "last": null,
+        "full": "Deathlily",
+        "native": "リリー",
+        "userPreferred": "Deathlily"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b281069-E7Nup5O45GMM.png",
+      "voiceActors": [
+        {
+          "id": 122813,
+          "language": "Japanese",
+          "name": {
+            "first": "Miho",
+            "last": "Hayashi",
+            "full": "Miho Hayashi",
+            "native": "拝師みほ",
+            "userPreferred": "Miho Hayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n122813-7dKS5eMfPhl5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 281062,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Postmarin",
+        "last": null,
+        "full": "Postmarin",
+        "native": "マリン",
+        "userPreferred": "Postmarin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b281062-Us0IQW8NcwZJ.png",
+      "voiceActors": [
+        {
+          "id": 205892,
+          "language": "Japanese",
+          "name": {
+            "first": "Hina",
+            "last": "Youmiya",
+            "full": "Hina Youmiya",
+            "native": "羊宮妃那",
+            "userPreferred": "Hina Youmiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n205892-gaMHjeUijh84.png"
+        }
+      ]
+    },
+    {
+      "id": 292382,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mother",
+        "last": null,
+        "full": "Mother",
+        "native": "マザー",
+        "userPreferred": "Mother"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b292382-sGSnxqC7bOEi.png",
+      "voiceActors": [
+        {
+          "id": 105765,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Kayano",
+            "full": "Ai Kayano",
+            "native": "茅野愛衣",
+            "userPreferred": "Ai Kayano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105765-DDK94me8axVv.png"
+        }
+      ]
+    },
+    {
+      "id": 281064,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Raphaela",
+        "last": null,
+        "full": "Raphaela",
+        "native": "ラファ",
+        "userPreferred": "Raphaela"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b281064-8acUAid1lEdl.png",
+      "voiceActors": [
+        {
+          "id": 107750,
+          "language": "Japanese",
+          "name": {
+            "first": "Hibiku",
+            "last": "Yamamura",
+            "full": "Hibiku Yamamura",
+            "native": "山村響",
+            "userPreferred": "Hibiku Yamamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107750-ncaOycwTveFP.png"
+        }
+      ]
+    },
+    {
+      "id": 281065,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Almet",
+        "last": null,
+        "full": "Almet",
+        "native": "アル",
+        "userPreferred": "Almet"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b281065-5KoimO7dG0wv.png",
+      "voiceActors": [
+        {
+          "id": 140800,
+          "language": "Japanese",
+          "name": {
+            "first": "Reona",
+            "last": "Irie",
+            "full": "Reona Irie",
+            "native": "入江玲於奈",
+            "userPreferred": "Reona Irie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n140800-nLu2MgRx4lto.jpg"
+        }
+      ]
+    },
+    {
+      "id": 281066,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rocke",
+        "last": null,
+        "full": "Rocke",
+        "native": "ロック",
+        "userPreferred": "Rocke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b281066-y9hz1ptA0M49.png",
+      "voiceActors": [
+        {
+          "id": 122731,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsumi",
+            "last": "Fukuhara",
+            "full": "Katsumi Fukuhara",
+            "native": "福原かつみ",
+            "userPreferred": "Katsumi Fukuhara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n122731-nAnzixFo0dLS.jpg"
+        }
+      ]
+    },
+    {
+      "id": 281067,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Maesarc",
+        "last": null,
+        "full": "Maesarc",
+        "native": "メア",
+        "userPreferred": "Maesarc"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b281067-XUqg2HlRWDaq.png",
+      "voiceActors": [
+        {
+          "id": 112215,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsumi",
+            "last": "Tanezaki",
+            "full": "Atsumi Tanezaki",
+            "native": "種﨑敦美",
+            "userPreferred": "Atsumi Tanezaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112215-kfABGD8W2YSJ.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": []
+}

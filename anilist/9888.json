@@ -1,0 +1,206 @@
+{
+  "id": "9888",
+  "title": {
+    "romaji": "Shinryaku! Ika Musume Specials",
+    "english": "Squid Girl Specials",
+    "native": "侵略!イカ娘 ミニイカ娘の番外編"
+  },
+  "malId": 9888,
+  "synonyms": [
+    "Mini Ika Musume Bangaihen",
+    "The Invader Comes From the Bottom of the Sea!"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9888.jpg",
+  "popularity": 5005,
+  "color": "#f1bbae",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9888-uM5aqPutcVP8.jpg",
+  "description": "\"Mini Ika-Musume\" side-story episodes.",
+  "status": "Completed",
+  "releaseDate": 2011,
+  "startDate": {
+    "year": 2011,
+    "month": 5,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2011,
+    "month": 5,
+    "day": 27
+  },
+  "totalEpisodes": 2,
+  "currentEpisode": 2,
+  "rating": 69,
+  "duration": 4,
+  "genres": [
+    "Comedy"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "diomedéa"
+  ],
+  "subOrDub": "sub",
+  "type": "SPECIAL",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 20512,
+      "role": "MAIN",
+      "name": {
+        "first": "Ika Musume",
+        "last": null,
+        "full": "Ika Musume",
+        "native": "イカ娘",
+        "userPreferred": "Ika Musume"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20512-joFQqBRc7vwp.png",
+      "voiceActors": [
+        {
+          "id": 103555,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisako",
+            "last": "Kanemoto",
+            "full": "Hisako Kanemoto",
+            "native": "金元寿子",
+            "userPreferred": "Hisako Kanemoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103555-2ZtBwZfy9DTi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34656,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sanae",
+        "last": "Nagatsuki",
+        "full": "Sanae Nagatsuki",
+        "native": "長月早苗",
+        "userPreferred": "Sanae Nagatsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34656.jpg",
+      "voiceActors": [
+        {
+          "id": 95762,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanae",
+            "last": "Itou",
+            "full": "Kanae Itou",
+            "native": "伊藤かな恵",
+            "userPreferred": "Kanae Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95762-qhWmwni3TT6Y.png"
+        }
+      ]
+    },
+    {
+      "id": 40730,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuta",
+        "last": "Matsumoto",
+        "full": "Yuuta Matsumoto",
+        "native": "松本ユウタ",
+        "userPreferred": "Yuuta Matsumoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40730.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 37242,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takeru",
+        "last": "Aizawa",
+        "full": "Takeru Aizawa",
+        "native": "相沢たける",
+        "userPreferred": "Takeru Aizawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37242.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 34653,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Eiko",
+        "last": "Aizawa",
+        "full": "Eiko Aizawa",
+        "native": "相沢栄子",
+        "userPreferred": "Eiko Aizawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34653.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 37244,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Nagisa",
+        "last": "Saitou",
+        "full": "Nagisa Saitou",
+        "native": "斉藤渚",
+        "userPreferred": "Nagisa Saitou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37244.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 34654,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Chizuru",
+        "last": "Aizawa",
+        "full": "Chizuru Aizawa",
+        "native": "相沢千鶴",
+        "userPreferred": "Chizuru Aizawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34654.jpg",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 8557,
+      "relationType": "PARENT",
+      "malId": 8557,
+      "title": {
+        "romaji": "Shinryaku! Ika Musume",
+        "english": "Squid Girl",
+        "native": "侵略!イカ娘",
+        "userPreferred": "Shinryaku! Ika Musume"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8557-seSnCyH8Nl16.png",
+      "color": "#43a1ff",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8557-3mpgWYbYIOQg.jpg",
+      "rating": 72
+    }
+  ],
+  "episodes": [
+    {
+      "id": "shinryaku-ika-musume-specials-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9888.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shinryaku-ika-musume-specials-episode-1"
+    },
+    {
+      "id": "shinryaku-ika-musume-specials-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9888.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shinryaku-ika-musume-specials-episode-2"
+    }
+  ]
+}

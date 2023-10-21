@@ -1,0 +1,510 @@
+{
+  "id": "21707",
+  "title": {
+    "romaji": "Regalia: The Three Sacred Stars",
+    "english": "Regalia: The Three Sacred Stars",
+    "native": "レガリア The Three Sacred Stars"
+  },
+  "malId": 32961,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "Z1v2phIeYsA",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/Z1v2phIeYsA/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21707-2j3DygPJrJs4.jpg",
+  "popularity": 6391,
+  "color": "#4350f1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21707-2j3DygPJrJs4.jpg",
+  "description": "Twelve years ago, a mysterious event shook the Kingdom of Rimgarde, causing massive destruction. In the present day, Empress Yui rules a peaceful kingdom where she is loved by her people and especially by her sister, Rena. But when a giant robot appears, her peaceful life is shattered. Now Yui must fight to protect her nation and the person she loves most.<br>\n<br>\n(Source: Funimation)",
+  "status": "Completed",
+  "releaseDate": 2016,
+  "startDate": {
+    "year": 2016,
+    "month": 7,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2016,
+    "month": 11,
+    "day": 24
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 53,
+  "duration": 24,
+  "genres": [
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Infinite"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 90071,
+      "role": "MAIN",
+      "name": {
+        "first": "Rena",
+        "last": "Asteria",
+        "full": "Rena Asteria",
+        "native": "レナ・アステリア",
+        "userPreferred": "Rena Asteria"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/90071-y86FkAkKGyoP.jpg",
+      "voiceActors": [
+        {
+          "id": 106622,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayane",
+            "last": "Sakura",
+            "full": "Ayane Sakura",
+            "native": "佐倉綾音",
+            "userPreferred": "Ayane Sakura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106622-yemj6ymLz4lY.png"
+        }
+      ]
+    },
+    {
+      "id": 90072,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuinshiel",
+        "last": "Asteria",
+        "full": "Yuinshiel Asteria",
+        "native": "ユインシェル・アステリア",
+        "userPreferred": "Yuinshiel Asteria"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/90072-EsvtjdHVb3aC.jpg",
+      "voiceActors": [
+        {
+          "id": 119416,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaede",
+            "last": "Hondo",
+            "full": "Kaede Hondo",
+            "native": "本渡楓",
+            "userPreferred": "Kaede Hondo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119416-7RC2mPKDKydB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 90073,
+      "role": "MAIN",
+      "name": {
+        "first": "Ingrid",
+        "last": "Tiesto",
+        "full": "Ingrid Tiesto",
+        "native": "イングリッド・ティエスト",
+        "userPreferred": "Ingrid Tiesto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/90073-idN9QIPdkoQn.jpg",
+      "voiceActors": [
+        {
+          "id": 106787,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Seto",
+            "full": "Asami Seto",
+            "native": "瀬戸麻沙美",
+            "userPreferred": "Asami Seto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106787-pNRFEiywJuEx.png"
+        }
+      ]
+    },
+    {
+      "id": 90074,
+      "role": "MAIN",
+      "name": {
+        "first": "Kei",
+        "last": "Tiesto",
+        "full": "Kei Tiesto",
+        "native": "ケイ・ティエスト",
+        "userPreferred": "Kei Tiesto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/90074-rCsOgo6PiDjt.jpg",
+      "voiceActors": [
+        {
+          "id": 106184,
+          "language": "Japanese",
+          "name": {
+            "first": "Nao",
+            "last": "Touyama",
+            "full": "Nao Touyama",
+            "native": "東山奈央",
+            "userPreferred": "Nao Touyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106184-rFA0sHFJrbk4.png"
+        }
+      ]
+    },
+    {
+      "id": 90079,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aoi",
+        "last": "Konoe",
+        "full": "Aoi Konoe",
+        "native": "アオイ・コノエ",
+        "userPreferred": "Aoi Konoe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/90079-yEHoHWlDwQ93.jpg",
+      "voiceActors": [
+        {
+          "id": 96722,
+          "language": "Japanese",
+          "name": {
+            "first": "Azumi",
+            "last": "Asakura",
+            "full": "Azumi Asakura",
+            "native": "浅倉杏美",
+            "userPreferred": "Azumi Asakura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96722-Vf3KI8BbYnYZ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 90080,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Naru",
+        "last": "Arisaka",
+        "full": "Naru Arisaka",
+        "native": "ナル・アリサカ",
+        "userPreferred": "Naru Arisaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/90080-0aWuA8C3RWxf.jpg",
+      "voiceActors": [
+        {
+          "id": 95885,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Iguchi",
+            "full": "Yuka Iguchi",
+            "native": "井口裕香",
+            "userPreferred": "Yuka Iguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95885-8Le2NWyACKNt.png"
+        }
+      ]
+    },
+    {
+      "id": 90081,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Margaret",
+        "last": "Bathory",
+        "full": "Margaret Bathory",
+        "native": "マーガレット・バーソリー",
+        "userPreferred": "Margaret Bathory"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/90081-9HqI7ZrsLUrA.jpg",
+      "voiceActors": [
+        {
+          "id": 95342,
+          "language": "Japanese",
+          "name": {
+            "first": "Masako",
+            "last": "Katsuki",
+            "full": "Masako Katsuki",
+            "native": "勝生真沙子",
+            "userPreferred": "Masako Katsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95342-pC8tGadzfTNb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 90082,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jonathan",
+        "last": "Marshall",
+        "full": "Jonathan Marshall",
+        "native": "ジョナサン・マーシャル",
+        "userPreferred": "Jonathan Marshall"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/90082-jaZnVqwnsW2J.jpg",
+      "voiceActors": [
+        {
+          "id": 95477,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Yanaka",
+            "full": "Hiroshi Yanaka",
+            "native": "家中宏",
+            "userPreferred": "Hiroshi Yanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95477-zUeFZNtjTgap.png"
+        }
+      ]
+    },
+    {
+      "id": 90075,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tia",
+        "last": "Kleis",
+        "full": "Tia Kleis",
+        "native": "ティア・クレイス",
+        "userPreferred": "Tia Kleis"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/90075-U5JmiaDmnIwY.jpg",
+      "voiceActors": [
+        {
+          "id": 105981,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Ogura",
+            "full": "Yui Ogura",
+            "native": "小倉唯",
+            "userPreferred": "Yui Ogura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105981-CDMPx1Q79Aum.png"
+        }
+      ]
+    },
+    {
+      "id": 90083,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Theodore",
+        "last": "Moore",
+        "full": "Theodore Moore",
+        "native": "テオドア・ムーア",
+        "userPreferred": "Theodore Moore"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/90083-lRQm3cNzjcq2.jpg",
+      "voiceActors": [
+        {
+          "id": 103022,
+          "language": "Japanese",
+          "name": {
+            "first": "Hidenari",
+            "last": "Ugaki",
+            "full": "Hidenari Ugaki",
+            "native": "宇垣秀成",
+            "userPreferred": "Hidenari Ugaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103022-eePmaoJGrs94.png"
+        }
+      ]
+    },
+    {
+      "id": 90076,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sara",
+        "last": "Kleis",
+        "full": "Sara Kleis",
+        "native": "サラ・クレイス",
+        "userPreferred": "Sara Kleis"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/90076-00Eqg2nbsDoF.jpg",
+      "voiceActors": [
+        {
+          "id": 112209,
+          "language": "Japanese",
+          "name": {
+            "first": "Yurika",
+            "last": "Kubo",
+            "full": "Yurika Kubo",
+            "native": "久保ユリカ",
+            "userPreferred": "Yurika Kubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112209-6rgze0vZlnG6.png"
+        }
+      ]
+    },
+    {
+      "id": 90077,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Retsu",
+        "last": "Narumi",
+        "full": "Retsu Narumi",
+        "native": "レツ・ナルミ",
+        "userPreferred": "Retsu Narumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/90077-2hJc9CFb22OV.jpg",
+      "voiceActors": [
+        {
+          "id": 103555,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisako",
+            "last": "Kanemoto",
+            "full": "Hisako Kanemoto",
+            "native": "金元寿子",
+            "userPreferred": "Hisako Kanemoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103555-2ZtBwZfy9DTi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 90078,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Johann",
+        "last": null,
+        "full": "Johann",
+        "native": "ヨハン",
+        "userPreferred": "Johann"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/90078-BWRn7Un4sgDv.jpg",
+      "voiceActors": [
+        {
+          "id": 95287,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Ogata",
+            "full": "Megumi Ogata",
+            "native": "緒方恵美",
+            "userPreferred": "Megumi Ogata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95287-3moX16xmYedv.png"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "regalia-the-three-sacred-stars-episode-1",
+      "title": "Sisters",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21707-2j3DygPJrJs4.jpg",
+      "number": 1,
+      "createdAt": "2016-07-08T21:59:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//regalia-the-three-sacred-stars-episode-1"
+    },
+    {
+      "id": "regalia-the-three-sacred-stars-episode-2",
+      "title": "Declaration",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21707-2j3DygPJrJs4.jpg",
+      "number": 2,
+      "createdAt": "2016-07-08T21:59:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//regalia-the-three-sacred-stars-episode-2"
+    },
+    {
+      "id": "regalia-the-three-sacred-stars-episode-3",
+      "title": "Sincerity",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21707-2j3DygPJrJs4.jpg",
+      "number": 3,
+      "createdAt": "2016-07-08T21:59:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//regalia-the-three-sacred-stars-episode-3"
+    },
+    {
+      "id": "regalia-the-three-sacred-stars-episode-4",
+      "title": "Feigned Confidence",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21707-2j3DygPJrJs4.jpg",
+      "number": 4,
+      "createdAt": "2016-07-08T21:59:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//regalia-the-three-sacred-stars-episode-4"
+    },
+    {
+      "id": "regalia-the-three-sacred-stars-episode-5",
+      "title": "Counterattack",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21707-2j3DygPJrJs4.jpg",
+      "number": 5,
+      "createdAt": "2016-07-08T21:59:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//regalia-the-three-sacred-stars-episode-5"
+    },
+    {
+      "id": "regalia-the-three-sacred-stars-episode-6",
+      "title": "Shinki",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21707-2j3DygPJrJs4.jpg",
+      "number": 6,
+      "createdAt": "2016-07-08T21:59:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//regalia-the-three-sacred-stars-episode-6"
+    },
+    {
+      "id": "regalia-the-three-sacred-stars-episode-7",
+      "title": "Past",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21707-2j3DygPJrJs4.jpg",
+      "number": 7,
+      "createdAt": "2016-07-08T21:59:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//regalia-the-three-sacred-stars-episode-7"
+    },
+    {
+      "id": "regalia-the-three-sacred-stars-episode-8",
+      "title": "Returning Home",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21707-2j3DygPJrJs4.jpg",
+      "number": 8,
+      "createdAt": "2016-07-08T21:59:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//regalia-the-three-sacred-stars-episode-8"
+    },
+    {
+      "id": "regalia-the-three-sacred-stars-episode-9",
+      "title": "Succession",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21707-2j3DygPJrJs4.jpg",
+      "number": 9,
+      "createdAt": "2016-07-08T21:59:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//regalia-the-three-sacred-stars-episode-9"
+    },
+    {
+      "id": "regalia-the-three-sacred-stars-episode-10",
+      "title": "Isolation",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21707-2j3DygPJrJs4.jpg",
+      "number": 10,
+      "createdAt": "2016-07-08T21:59:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//regalia-the-three-sacred-stars-episode-10"
+    },
+    {
+      "id": "regalia-the-three-sacred-stars-episode-11",
+      "title": "Prison",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21707-2j3DygPJrJs4.jpg",
+      "number": 11,
+      "createdAt": "2016-07-08T21:59:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//regalia-the-three-sacred-stars-episode-11"
+    },
+    {
+      "id": "regalia-the-three-sacred-stars-episode-12",
+      "title": "Reclamation",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21707-2j3DygPJrJs4.jpg",
+      "number": 12,
+      "createdAt": "2016-07-08T21:59:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//regalia-the-three-sacred-stars-episode-12"
+    },
+    {
+      "id": "regalia-the-three-sacred-stars-episode-13",
+      "title": "Family",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21707-2j3DygPJrJs4.jpg",
+      "number": 13,
+      "createdAt": "2016-07-08T21:59:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//regalia-the-three-sacred-stars-episode-13"
+    }
+  ]
+}

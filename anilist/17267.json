@@ -1,0 +1,533 @@
+{
+  "id": "17267",
+  "title": {
+    "romaji": "Futari wa Milky Holmes",
+    "english": null,
+    "native": "ふたりはミルキィホームズ"
+  },
+  "malId": 17267,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17267-NiBrRoEI3RMD.jpg",
+  "popularity": 2826,
+  "color": "#d6e443",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17267-NiBrRoEI3RMD.jpg",
+  "description": "Third season of Tantei Opera Milky Holmes.",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 7,
+    "day": 13
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 9,
+    "day": 28
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 52,
+  "duration": 12,
+  "genres": [
+    "Comedy",
+    "Mystery"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "J.C. Staff"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 35951,
+      "role": "MAIN",
+      "name": {
+        "first": "Cordelia",
+        "last": "Glauca",
+        "full": "Cordelia Glauca",
+        "native": "コーデリア・グラウカ",
+        "userPreferred": "Cordelia Glauca"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b35951-BAVo6cx6JuZM.png",
+      "voiceActors": [
+        {
+          "id": 102899,
+          "language": "Japanese",
+          "name": {
+            "first": "Izumi",
+            "last": "Kitta",
+            "full": "Izumi Kitta",
+            "native": "橘田いずみ",
+            "userPreferred": "Izumi Kitta"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102899-4uiePLus0JmW.png"
+        }
+      ]
+    },
+    {
+      "id": 35949,
+      "role": "MAIN",
+      "name": {
+        "first": "Sherlock",
+        "last": "Shellingford",
+        "full": "Sherlock Shellingford",
+        "native": "シャーロック・シェリンフォード",
+        "userPreferred": "Sherlock Shellingford"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35949.jpg",
+      "voiceActors": [
+        {
+          "id": 106359,
+          "language": "Japanese",
+          "name": {
+            "first": "Suzuko",
+            "last": "Mimori",
+            "full": "Suzuko Mimori",
+            "native": "三森すずこ",
+            "userPreferred": "Suzuko Mimori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106359-G8dROMWpwlM6.png"
+        }
+      ]
+    },
+    {
+      "id": 35950,
+      "role": "MAIN",
+      "name": {
+        "first": "Hercule",
+        "last": "Barton",
+        "full": "Hercule Barton",
+        "native": "エルキュール・バートン",
+        "userPreferred": "Hercule Barton"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b35950-5k7ytJ8yIS2T.jpg",
+      "voiceActors": [
+        {
+          "id": 106360,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikoi",
+            "last": "Sasaki",
+            "full": "Mikoi Sasaki",
+            "native": "佐々木未来",
+            "userPreferred": "Mikoi Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106360-v5iXFAn6YX1q.png"
+        }
+      ]
+    },
+    {
+      "id": 32892,
+      "role": "MAIN",
+      "name": {
+        "first": "Nero",
+        "last": "Yuzurizaki",
+        "full": "Nero Yuzurizaki",
+        "native": "譲崎ネロ",
+        "userPreferred": "Nero Yuzurizaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b32892-JHD3NOuwLwZC.png",
+      "voiceActors": [
+        {
+          "id": 106361,
+          "language": "Japanese",
+          "name": {
+            "first": "Sora",
+            "last": "Tokui",
+            "full": "Sora Tokui",
+            "native": "徳井青空",
+            "userPreferred": "Sora Tokui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106361-EMvWLkEKavEM.png"
+        }
+      ]
+    },
+    {
+      "id": 78323,
+      "role": "MAIN",
+      "name": {
+        "first": "Kazumi",
+        "last": "Tokiwa ",
+        "full": "Kazumi Tokiwa ",
+        "native": "常盤 カズミ",
+        "userPreferred": "Kazumi Tokiwa "
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/78323.jpg",
+      "voiceActors": [
+        {
+          "id": 109519,
+          "language": "Japanese",
+          "name": {
+            "first": "Aimi",
+            "last": "",
+            "full": "Aimi",
+            "native": "愛美",
+            "userPreferred": "Aimi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109519-YA8OsgIUdWbM.png"
+        }
+      ]
+    },
+    {
+      "id": 88425,
+      "role": "MAIN",
+      "name": {
+        "first": "Alice",
+        "last": "Myoujingawa",
+        "full": "Alice Myoujingawa",
+        "native": "明神川 アリス",
+        "userPreferred": "Alice Myoujingawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88425.jpg",
+      "voiceActors": [
+        {
+          "id": 118799,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayasa\r\n",
+            "last": "Itou",
+            "full": "Ayasa\r\n Itou",
+            "native": "伊藤彩沙",
+            "userPreferred": "Ayasa\r\n Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118799-Efb6L1viBVjz.png"
+        }
+      ]
+    },
+    {
+      "id": 209283,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keiko",
+        "last": "Totsugawa",
+        "full": "Keiko Totsugawa",
+        "native": "十津川警子",
+        "userPreferred": "Keiko Totsugawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b209283-GM0ExvtzFe6s.png",
+      "voiceActors": [
+        {
+          "id": 112009,
+          "language": "Japanese",
+          "name": {
+            "first": "Ikumi",
+            "last": "Nakagami",
+            "full": "Ikumi Nakagami",
+            "native": "中上育実",
+            "userPreferred": "Ikumi Nakagami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112009-F39RV9nNITnq.png"
+        }
+      ]
+    },
+    {
+      "id": 37734,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsugiko",
+        "last": "Zenigata",
+        "full": "Tsugiko Zenigata",
+        "native": "銭形次子",
+        "userPreferred": "Tsugiko Zenigata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37734.jpg",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37735,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hirano",
+        "last": "Hasegawa",
+        "full": "Hirano Hasegawa",
+        "native": "長谷川 平乃",
+        "userPreferred": "Hirano Hasegawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37735.jpg",
+      "voiceActors": [
+        {
+          "id": 95315,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shintani",
+            "full": "Ryouko Shintani",
+            "native": "新谷良子",
+            "userPreferred": "Ryouko Shintani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95315-6lzPWFB0mhh8.png"
+        }
+      ]
+    },
+    {
+      "id": 38121,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Henriette",
+        "last": "Mystere",
+        "full": "Henriette Mystere",
+        "native": "アンリエット・ミステール",
+        "userPreferred": "Henriette Mystere"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38121-EqLqYtofPZDl.jpg",
+      "voiceActors": [
+        {
+          "id": 95723,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Akesaka",
+            "full": "Satomi Akesaka",
+            "native": "明坂聡美",
+            "userPreferred": "Satomi Akesaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95723-bV625Jngt5o6.png"
+        }
+      ]
+    },
+    {
+      "id": 164676,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Opera",
+        "last": "Kobayashi",
+        "full": "Opera Kobayashi",
+        "native": "小林オペラ",
+        "userPreferred": "Opera Kobayashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b164676-B5mVzzOV6K52.jpg",
+      "voiceActors": [
+        {
+          "id": 106743,
+          "language": "Japanese",
+          "name": {
+            "first": "Shuuta",
+            "last": "Morishima",
+            "full": "Shuuta Morishima",
+            "native": "森嶋秀太",
+            "userPreferred": "Shuuta Morishima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106743-a37RvMZbYnfP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37733,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kokoro",
+        "last": "Akechi",
+        "full": "Kokoro Akechi",
+        "native": "明智小衣",
+        "userPreferred": "Kokoro Akechi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37733.jpg",
+      "voiceActors": [
+        {
+          "id": 96592,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshino",
+            "last": "Nanjou",
+            "full": "Yoshino Nanjou",
+            "native": "南條愛乃",
+            "userPreferred": "Yoshino Nanjou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96592-yC5OOGtWXv6r.png"
+        }
+      ]
+    },
+    {
+      "id": 38369,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saku",
+        "last": "Tooyama",
+        "full": "Saku Tooyama",
+        "native": "遠山 咲",
+        "userPreferred": "Saku Tooyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38369.jpg",
+      "voiceActors": [
+        {
+          "id": 95027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Tamura",
+            "full": "Yukari Tamura",
+            "native": "田村ゆかり",
+            "userPreferred": "Yukari Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 11341,
+      "relationType": "PREQUEL",
+      "malId": 11341,
+      "title": {
+        "romaji": "Tantei Opera Milky Holmes Dai 2 Maku",
+        "english": "Detective Opera Milky Holmes 2",
+        "native": "探偵オペラ ミルキィホームズ 第2幕",
+        "userPreferred": "Tantei Opera Milky Holmes Dai 2 Maku"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11341-QLilHfOnk46Q.jpg",
+      "color": "#e4a150",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11341.jpg",
+      "rating": 71
+    },
+    {
+      "id": 20848,
+      "relationType": "SEQUEL",
+      "malId": 27629,
+      "title": {
+        "romaji": "Tantei Kageki Milky Holmes TD",
+        "english": null,
+        "native": "探偵歌劇 ミルキィホームズ TD",
+        "userPreferred": "Tantei Kageki Milky Holmes TD"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20848.jpg",
+      "color": "#e4bb43",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20848.jpg",
+      "rating": 63
+    }
+  ],
+  "episodes": [
+    {
+      "id": "futari-wa-milky-holmes-episode-1",
+      "title": "Always the Two of Us",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17267-NiBrRoEI3RMD.jpg",
+      "number": 1,
+      "createdAt": "2013-06-28T21:07:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futari-wa-milky-holmes-episode-1"
+    },
+    {
+      "id": "futari-wa-milky-holmes-episode-2",
+      "title": "By Become, You Mean...",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17267-NiBrRoEI3RMD.jpg",
+      "number": 2,
+      "createdAt": "2013-06-28T21:07:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futari-wa-milky-holmes-episode-2"
+    },
+    {
+      "id": "futari-wa-milky-holmes-episode-3",
+      "title": "My Toys",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17267-NiBrRoEI3RMD.jpg",
+      "number": 3,
+      "createdAt": "2013-06-28T21:07:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futari-wa-milky-holmes-episode-3"
+    },
+    {
+      "id": "futari-wa-milky-holmes-episode-4",
+      "title": "Feelings That Will Never Lose",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17267-NiBrRoEI3RMD.jpg",
+      "number": 4,
+      "createdAt": "2013-06-28T21:07:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futari-wa-milky-holmes-episode-4"
+    },
+    {
+      "id": "futari-wa-milky-holmes-episode-5",
+      "title": "Mysterious Old Lady",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17267-NiBrRoEI3RMD.jpg",
+      "number": 5,
+      "createdAt": "2013-06-28T21:07:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futari-wa-milky-holmes-episode-5"
+    },
+    {
+      "id": "futari-wa-milky-holmes-episode-6",
+      "title": "Returning Home",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17267-NiBrRoEI3RMD.jpg",
+      "number": 6,
+      "createdAt": "2013-06-28T21:07:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futari-wa-milky-holmes-episode-6"
+    },
+    {
+      "id": "futari-wa-milky-holmes-episode-7",
+      "title": "The Beginning of the End",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17267-NiBrRoEI3RMD.jpg",
+      "number": 7,
+      "createdAt": "2013-06-28T21:07:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futari-wa-milky-holmes-episode-7"
+    },
+    {
+      "id": "futari-wa-milky-holmes-episode-8",
+      "title": "Himeyuri-senpai",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17267-NiBrRoEI3RMD.jpg",
+      "number": 8,
+      "createdAt": "2013-06-28T21:07:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futari-wa-milky-holmes-episode-8"
+    },
+    {
+      "id": "futari-wa-milky-holmes-episode-9",
+      "title": "Your Own Strength",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17267-NiBrRoEI3RMD.jpg",
+      "number": 9,
+      "createdAt": "2013-06-28T21:07:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futari-wa-milky-holmes-episode-9"
+    },
+    {
+      "id": "futari-wa-milky-holmes-episode-10",
+      "title": "Together No Matter What",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17267-NiBrRoEI3RMD.jpg",
+      "number": 10,
+      "createdAt": "2013-06-28T21:07:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futari-wa-milky-holmes-episode-10"
+    },
+    {
+      "id": "futari-wa-milky-holmes-episode-11",
+      "title": "Everyone Plus Two",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17267-NiBrRoEI3RMD.jpg",
+      "number": 11,
+      "createdAt": "2013-06-28T21:07:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futari-wa-milky-holmes-episode-11"
+    },
+    {
+      "id": "futari-wa-milky-holmes-episode-12",
+      "title": "A New Twosome",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17267-NiBrRoEI3RMD.jpg",
+      "number": 12,
+      "createdAt": "2013-06-28T21:07:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futari-wa-milky-holmes-episode-12"
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "id": "761",
+  "title": {
+    "romaji": "NARUTO: Akaki Yotsuba no Clover wo Sagase",
+    "english": null,
+    "native": "NARUTO -ナルト- 紅き四つ葉のクローバーを探せ"
+  },
+  "malId": 761,
+  "synonyms": [
+    "Naruto: Jump Festa 2003",
+    "Naruto: Find the Crimson Four-leaf Clover!",
+    "Naruto: Find the Four-Leaf Red Clover!"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/761.jpg",
+  "popularity": 13748,
+  "color": "#f17843",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/761.jpg",
+  "description": "The grandson of the 3rd Hokage, Konohamaru, finally has a crush on a girl, but he has a big problem she is soon to be moving away from the hidden leaf village. Konohamaru trying to make her stay seeks out the legendary crimson four-leaf clover, which is rumored to grant one wish.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2003,
+  "startDate": {
+    "year": 2003,
+    "month": 5,
+    "day": 24
+  },
+  "endDate": {
+    "year": 2003,
+    "month": 5,
+    "day": 24
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 61,
+  "duration": 17,
+  "genres": [
+    "Adventure",
+    "Comedy"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "SPECIAL",
+  "recommendations": [
+    {
+      "id": 7367,
+      "malId": 7367,
+      "title": {
+        "romaji": "NARUTO: THE CROSS ROADS",
+        "english": null,
+        "native": "NARUTO -ナルト- THE CROSS ROADS",
+        "userPreferred": "NARUTO: THE CROSS ROADS"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7367.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7367.jpg",
+      "rating": 63,
+      "type": "SPECIAL"
+    }
+  ],
+  "characters": [
+    {
+      "id": 17,
+      "role": "MAIN",
+      "name": {
+        "first": "Naruto",
+        "last": "Uzumaki",
+        "full": "Naruto Uzumaki",
+        "native": "うずまきナルト",
+        "userPreferred": "Naruto Uzumaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17-IazKGogQwJ1p.png",
+      "voiceActors": [
+        {
+          "id": 95015,
+          "language": "Japanese",
+          "name": {
+            "first": "Junko",
+            "last": "Takeuchi",
+            "full": "Junko Takeuchi",
+            "native": "竹内順子",
+            "userPreferred": "Junko Takeuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95015-QwI9K4FRe4Cq.png"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "role": "MAIN",
+      "name": {
+        "first": "Sasuke",
+        "last": "Uchiha",
+        "full": "Sasuke Uchiha",
+        "native": "うちはサスケ",
+        "userPreferred": "Sasuke Uchiha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13-SISLEw1oAD7a.png",
+      "voiceActors": [
+        {
+          "id": 95016,
+          "language": "Japanese",
+          "name": {
+            "first": "Noriaki",
+            "last": "Sugiyama",
+            "full": "Noriaki Sugiyama",
+            "native": "杉山紀彰",
+            "userPreferred": "Noriaki Sugiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95016-03m7lAUZBMDv.png"
+        },
+        {
+          "id": 101499,
+          "language": "Korean",
+          "name": {
+            "first": "Yeong-seon",
+            "last": "Kim",
+            "full": "Yeong-seon Kim",
+            "native": "김영선",
+            "userPreferred": "Yeong-seon Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101499-aHFkv5mYhE5m.png"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "role": "MAIN",
+      "name": {
+        "first": "Kakashi",
+        "last": "Hatake",
+        "full": "Kakashi Hatake",
+        "native": "はたけカカシ",
+        "userPreferred": "Kakashi Hatake"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b85-mkVBh2yjxjmx.png",
+      "voiceActors": [
+        {
+          "id": 95021,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiko",
+            "last": "Inoue",
+            "full": "Kazuhiko Inoue",
+            "native": "井上和彦",
+            "userPreferred": "Kazuhiko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95021-9qAoAn6GNZ3S.png"
+        }
+      ]
+    },
+    {
+      "id": 3889,
+      "role": "MAIN",
+      "name": {
+        "first": "Konohamaru",
+        "last": "Sarutobi",
+        "full": "Konohamaru Sarutobi",
+        "native": "猿飛木ノ葉丸",
+        "userPreferred": "Konohamaru Sarutobi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n3889-gCUewPsRY2kD.png",
+      "voiceActors": [
+        {
+          "id": 95128,
+          "language": "Japanese",
+          "name": {
+            "first": "Ikue",
+            "last": "Ootani",
+            "full": "Ikue Ootani",
+            "native": "大谷育江",
+            "userPreferred": "Ikue Ootani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95128-9YWpE1d2U8Sj.png"
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "role": "MAIN",
+      "name": {
+        "first": "Sakura",
+        "last": "Haruno",
+        "full": "Sakura Haruno",
+        "native": "春野サクラ",
+        "userPreferred": "Sakura Haruno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b145-IorfpI8arxeX.png",
+      "voiceActors": [
+        {
+          "id": 95300,
+          "language": "Japanese",
+          "name": {
+            "first": "Chie",
+            "last": "Nakamura",
+            "full": "Chie Nakamura",
+            "native": "中村千絵",
+            "userPreferred": "Chie Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95300-84lMPsAHkPP3.png"
+        }
+      ]
+    },
+    {
+      "id": 17550,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaede",
+        "last": "Yoshino",
+        "full": "Kaede Yoshino",
+        "native": "嬉野カエデ",
+        "userPreferred": "Kaede Yoshino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17550.jpg",
+      "voiceActors": [
+        {
+          "id": 96410,
+          "language": "Japanese",
+          "name": {
+            "first": "Taeko",
+            "last": "Kawata",
+            "full": "Taeko Kawata",
+            "native": "川田妙子",
+            "userPreferred": "Taeko Kawata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96410-l2Mnnebzk6M1.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 20,
+      "relationType": "PARENT",
+      "malId": 20,
+      "title": {
+        "romaji": "NARUTO",
+        "english": "Naruto",
+        "native": "NARUTO -ナルト-",
+        "userPreferred": "NARUTO"
+      },
+      "status": "Completed",
+      "episodes": 220,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20-YJvLbgJQPCoI.jpg",
+      "color": "#e47850",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20-HHxhPj5JD13a.jpg",
+      "rating": 79
+    }
+  ],
+  "episodes": [
+    {
+      "id": "naruto-akaki-yotsuba-no-clover-wo-sagase-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/761.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//naruto-akaki-yotsuba-no-clover-wo-sagase-episode-1"
+    }
+  ]
+}

@@ -1,0 +1,943 @@
+{
+  "id": "97995",
+  "title": {
+    "romaji": "Kono Yo no Hate de Koi wo Utau Shoujo YU-NO",
+    "english": "YU-NO: A Girl Who Chants Love at the Bound of This World",
+    "native": "この世の果てで恋を唄う少女YU-NO"
+  },
+  "malId": 34620,
+  "synonyms": [
+    "YU-NO: A girl who chants love at the bound of this world."
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "O8ET_s6zyXg",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/O8ET_s6zyXg/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97995-VO6rXNU0fmBq.jpg",
+  "popularity": 33114,
+  "color": "#1a6bf1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97995-DxgVs30ejV6Y.jpg",
+  "description": "Takuya Arima is a young student whose father, a historian who has conducted various researches, disappeared recently. During a summer vacation Takuya receives a peculiar package from his missing father, along with a letter containing information about the existence of various parallel worlds. At first Takuya doesn't take it seriously, but soon he realizes that he possesses a device that allows him to travel to alternate dimensions. Is his father alive, after all? If so, where is he?<br><br>\n\n(Source: TLWiki)",
+  "status": "Completed",
+  "releaseDate": 2019,
+  "startDate": {
+    "year": 2019,
+    "month": 4,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2019,
+    "month": 10,
+    "day": 1
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 61,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "feel."
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 9253,
+      "malId": 9253,
+      "title": {
+        "romaji": "Steins;Gate",
+        "english": "Steins;Gate",
+        "native": "シュタインズ・ゲート",
+        "userPreferred": "Steins;Gate"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9253-7pdcVzQSkKxT.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n9253-JIhmKgBKsWUN.jpg",
+      "rating": 89,
+      "type": "TV"
+    },
+    {
+      "id": 21712,
+      "malId": 33012,
+      "title": {
+        "romaji": "Island",
+        "english": "ISLAND",
+        "native": "アイランド",
+        "userPreferred": "Island"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21712-To9Y3VNCf5a6.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21712-QVSt9jDVddY0.jpg",
+      "rating": 57,
+      "type": "TV"
+    },
+    {
+      "id": 11757,
+      "malId": 11757,
+      "title": {
+        "romaji": "Sword Art Online",
+        "english": "Sword Art Online",
+        "native": "ソードアート・オンライン",
+        "userPreferred": "Sword Art Online"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx11757-Q9P2zjCPICq5.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11757-TlEEV9weG4Ag.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 20605,
+      "malId": 22319,
+      "title": {
+        "romaji": "Tokyo Ghoul",
+        "english": "Tokyo Ghoul",
+        "native": "東京喰種 トーキョーグール",
+        "userPreferred": "Tokyo Ghoul"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20605-fmnHdfurM7m6.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20605-RCJ7M71zLmrh.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 97660,
+      "malId": 34102,
+      "title": {
+        "romaji": "Sagrada Reset",
+        "english": "Sagrada Reset",
+        "native": "サクラダリセット",
+        "userPreferred": "Sagrada Reset"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97660-82E7nL8irvuF.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97660-PTLuY3s817fj.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 21355,
+      "malId": 31240,
+      "title": {
+        "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu",
+        "english": "Re:ZERO -Starting Life in Another World-",
+        "native": "Re:ゼロから始める異世界生活",
+        "userPreferred": "Re:Zero kara Hajimeru Isekai Seikatsu"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21355-IHaS50pvLYd0.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21355-f9SjOfEJMk5P.jpg",
+      "rating": 80,
+      "type": "TV"
+    },
+    {
+      "id": 101168,
+      "malId": 37345,
+      "title": {
+        "romaji": "Plunderer",
+        "english": "Plunderer",
+        "native": "プランダラ",
+        "userPreferred": "Plunderer"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101168-LY3XA61byAVo.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101168-55dmHGtGlJOY.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 129201,
+      "malId": 47194,
+      "title": {
+        "romaji": "Summer Time Render",
+        "english": "Summer Time Rendering",
+        "native": "サマータイムレンダ",
+        "userPreferred": "Summer Time Render"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129201-HJBauga2be8I.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/129201-eeCsKFrCSQPS.jpg",
+      "rating": 83,
+      "type": "TV"
+    },
+    {
+      "id": 21382,
+      "malId": 31716,
+      "title": {
+        "romaji": "Rewrite",
+        "english": null,
+        "native": "Rewrite",
+        "userPreferred": "Rewrite"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21382-bBJghvjTP8Dr.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21382-WylQ6DZFuGLK.jpg",
+      "rating": 61,
+      "type": "TV"
+    },
+    {
+      "id": 140643,
+      "malId": 50204,
+      "title": {
+        "romaji": "Tokyo 24-ku",
+        "english": "Tokyo 24th Ward",
+        "native": "東京24区",
+        "userPreferred": "Tokyo 24-ku"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140643-RpKlGdwDa7r7.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/140643-mtfFuRKRhmDS.jpg",
+      "rating": 61,
+      "type": "TV"
+    },
+    {
+      "id": 101291,
+      "malId": 37450,
+      "title": {
+        "romaji": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
+        "english": "Rascal Does Not Dream of Bunny Girl Senpai",
+        "native": "青春ブタ野郎はバニーガール先輩の夢を見ない",
+        "userPreferred": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101291-L71WpAkZPtgm.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n101291-fqIUvQ6apEtD.jpg",
+      "rating": 80,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 135693,
+      "role": "MAIN",
+      "name": {
+        "first": "Takuya",
+        "last": "Arima",
+        "full": "Takuya Arima",
+        "native": "有馬たくや",
+        "userPreferred": "Takuya Arima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135693-tg6M3yhJOri1.png",
+      "voiceActors": [
+        {
+          "id": 116157,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Hayashi",
+            "full": "Yuu Hayashi",
+            "native": "林勇",
+            "userPreferred": "Yuu Hayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116157-MAPYgEeptEUh.png"
+        },
+        {
+          "id": 95312,
+          "language": "English",
+          "name": {
+            "first": "Eric",
+            "last": "Vale",
+            "full": "Eric Vale",
+            "native": null,
+            "userPreferred": "Eric Vale"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95312-lixmVhwE8AXE.png"
+        }
+      ]
+    },
+    {
+      "id": 135695,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaori",
+        "last": "Asakura",
+        "full": "Kaori Asakura",
+        "native": "朝倉香織",
+        "userPreferred": "Kaori Asakura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135695-3FoB6en5SRR7.png",
+      "voiceActors": [
+        {
+          "id": 112101,
+          "language": "Japanese",
+          "name": {
+            "first": "Rena",
+            "last": "Maeda",
+            "full": "Rena Maeda",
+            "native": "前田玲奈",
+            "userPreferred": "Rena Maeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112101-nOHhohG1NHb9.jpg"
+        },
+        {
+          "id": 95773,
+          "language": "English",
+          "name": {
+            "first": "Kara",
+            "last": "Edwards",
+            "full": "Kara Edwards",
+            "native": null,
+            "userPreferred": "Kara Edwards"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/773.jpg"
+        }
+      ]
+    },
+    {
+      "id": 135699,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mitsuki",
+        "last": "Ichijou",
+        "full": "Mitsuki Ichijou",
+        "native": "一条美月",
+        "userPreferred": "Mitsuki Ichijou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135699-QBd1BdOVXCx1.png",
+      "voiceActors": [
+        {
+          "id": 114884,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Oonishi",
+            "full": "Saori Oonishi",
+            "native": "大西沙織",
+            "userPreferred": "Saori Oonishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114884-UzAes6hUiiOJ.jpg"
+        },
+        {
+          "id": 138798,
+          "language": "English",
+          "name": {
+            "first": "Kylie",
+            "last": "Stewart",
+            "full": "Kylie Stewart",
+            "native": null,
+            "userPreferred": "Kylie Stewart"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n138798-ZYgRY3sHg5D2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 135694,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ayumi",
+        "last": "Arima",
+        "full": "Ayumi Arima",
+        "native": "有馬亜由美",
+        "userPreferred": "Ayumi Arima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135694-jE4704IuVrL1.png",
+      "voiceActors": [
+        {
+          "id": 95078,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Nazuka",
+            "full": "Kaori Nazuka",
+            "native": "名塚佳織",
+            "userPreferred": "Kaori Nazuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95078-tMm7zdlRNZ3P.jpg"
+        },
+        {
+          "id": 124164,
+          "language": "English",
+          "name": {
+            "first": "Dawn",
+            "last": "Bennett",
+            "full": "Dawn Bennett",
+            "native": null,
+            "userPreferred": "Dawn M. Bennett"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n124164-S1pPyOrjgRpg.png"
+        }
+      ]
+    },
+    {
+      "id": 135698,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eriko",
+        "last": "Takeda",
+        "full": "Eriko Takeda",
+        "native": "武田絵里子",
+        "userPreferred": "Eriko Takeda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135698-uboYXgXy9QWj.png",
+      "voiceActors": [
+        {
+          "id": 95034,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Kobayashi",
+            "full": "Yuu Kobayashi",
+            "native": "小林ゆう",
+            "userPreferred": "Yuu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95034-AwobjrcmkMi9.png"
+        },
+        {
+          "id": 113057,
+          "language": "English",
+          "name": {
+            "first": "Morgan",
+            "last": "Lauré",
+            "full": "Morgan Lauré",
+            "native": null,
+            "userPreferred": "Morgan Lauré"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/18057.jpg"
+        }
+      ]
+    },
+    {
+      "id": 135701,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mio",
+        "last": "Shimazu",
+        "full": "Mio Shimazu",
+        "native": "島津澪",
+        "userPreferred": "Mio Shimazu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135701-7ZYzqsEjRaH2.png",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        },
+        {
+          "id": 120247,
+          "language": "English",
+          "name": {
+            "first": "Megan",
+            "last": "Shipman",
+            "full": "Megan Shipman",
+            "native": null,
+            "userPreferred": "Megan Shipman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120247-s5bNWV2Pi4Y0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 137697,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yu-no",
+        "last": null,
+        "full": "Yu-no",
+        "native": "ユーノ",
+        "userPreferred": "Yu-no"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137697-E14lCTcD36zh.png",
+      "voiceActors": [
+        {
+          "id": 118663,
+          "language": "Japanese",
+          "name": {
+            "first": "Ari",
+            "last": "Ozawa",
+            "full": "Ari Ozawa",
+            "native": "小澤亜李",
+            "userPreferred": "Ari Ozawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118663-fFzQqJDtYNdA.png"
+        },
+        {
+          "id": 119619,
+          "language": "English",
+          "name": {
+            "first": "Sarah",
+            "last": "Wiedenheft",
+            "full": "Sarah Wiedenheft",
+            "native": null,
+            "userPreferred": "Sarah Wiedenheft"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119619-ozgAK9to6Ijy.jpg"
+        }
+      ]
+    },
+    {
+      "id": 135697,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouzou",
+        "last": "Ryuuzouji",
+        "full": "Kouzou Ryuuzouji",
+        "native": "龍蔵寺幸三",
+        "userPreferred": "Kouzou Ryuuzouji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135697-gjBxmqWLMrCx.png",
+      "voiceActors": [
+        {
+          "id": 95893,
+          "language": "Japanese",
+          "name": {
+            "first": "Taiten",
+            "last": "Kusunoki",
+            "full": "Taiten Kusunoki",
+            "native": "楠大典",
+            "userPreferred": "Taiten Kusunoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95893-k0qEVnRygyIn.png"
+        },
+        {
+          "id": 104777,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Wald",
+            "full": "David Wald",
+            "native": null,
+            "userPreferred": "David Wald"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9777.jpg"
+        }
+      ]
+    },
+    {
+      "id": 135700,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hideo",
+        "last": "Toyotomi",
+        "full": "Hideo Toyotomi",
+        "native": "豊富秀夫",
+        "userPreferred": "Hideo Toyotomi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135700-kD7YxAtLk4VI.png",
+      "voiceActors": [
+        {
+          "id": 102695,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuya",
+            "last": "Eguchi",
+            "full": "Takuya Eguchi",
+            "native": "江口拓也",
+            "userPreferred": "Takuya Eguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102695-dGzsJkor0KMj.jpg"
+        },
+        {
+          "id": 129212,
+          "language": "English",
+          "name": {
+            "first": "Kyle",
+            "last": "Igneczi",
+            "full": "Kyle Igneczi",
+            "native": null,
+            "userPreferred": "Kyle Igneczi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129212-bZ6AFfgrxuaw.jpg"
+        }
+      ]
+    },
+    {
+      "id": 135702,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Masakatsu",
+        "last": "Yuuki",
+        "full": "Masakatsu Yuuki",
+        "native": "結城正勝",
+        "userPreferred": "Masakatsu Yuuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135702-awFjsRjy2RiC.png",
+      "voiceActors": [
+        {
+          "id": 95707,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Fujiwara",
+            "full": "Yuuki Fujiwara",
+            "native": "藤原祐規",
+            "userPreferred": "Yuuki Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95707-IrCtERO5JNhv.png"
+        },
+        {
+          "id": 119611,
+          "language": "English",
+          "name": {
+            "first": "Justin",
+            "last": "Briner",
+            "full": "Justin Briner",
+            "native": null,
+            "userPreferred": "Justin Briner"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/119611-CwI54lOhSnDQ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 135696,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kanna",
+        "last": "Hatano",
+        "full": "Kanna Hatano",
+        "native": "波多乃神奈",
+        "userPreferred": "Kanna Hatano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135696-4rrEm1hvW7Xw.png",
+      "voiceActors": [
+        {
+          "id": 108639,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Uchida",
+            "full": "Maaya Uchida",
+            "native": "内田真礼",
+            "userPreferred": "Maaya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n108639-LLrR4WptCh5s.png"
+        },
+        {
+          "id": 120664,
+          "language": "English",
+          "name": {
+            "first": "Kristen",
+            "last": "McGuire",
+            "full": "Kristen McGuire",
+            "native": null,
+            "userPreferred": "Kristen McGuire"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120664-R9g32vsbhPaO.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 3883,
+      "relationType": "ALTERNATIVE",
+      "malId": 3883,
+      "title": {
+        "romaji": "Yu-No",
+        "english": null,
+        "native": null,
+        "userPreferred": "Yu-No"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3883.jpg",
+      "color": "#e4c935",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3883.jpg",
+      "rating": 41
+    },
+    {
+      "id": 112472,
+      "relationType": "SEQUEL",
+      "malId": 39846,
+      "title": {
+        "romaji": "Kono Yo no Hate de Koi wo Utau Shoujo YU-NO: Mugen no Heiretsu Sekai",
+        "english": null,
+        "native": "この世の果てで恋を唄う少女YU-NO「無限の並列世界」",
+        "userPreferred": "Kono Yo no Hate de Koi wo Utau Shoujo YU-NO: Mugen no Heiretsu Sekai"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b112472-fNcU57kIwotb.jpg",
+      "color": "#f1ae50",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b112472-fNcU57kIwotb.jpg",
+      "rating": 62
+    },
+    {
+      "id": 112533,
+      "relationType": "ALTERNATIVE",
+      "malId": 101690,
+      "title": {
+        "romaji": "Kono Yo no Hate de Koi wo Utau Shoujo YU-NO",
+        "english": null,
+        "native": "この世の果てで恋を唄う少女YU-NO",
+        "userPreferred": "Kono Yo no Hate de Koi wo Utau Shoujo YU-NO"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b112533-q6XTn0uDKHTL.jpg",
+      "color": null,
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b112533-q6XTn0uDKHTL.jpg",
+      "rating": 64
+    }
+  ],
+  "episodes": [
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-1",
+      "title": "You Know?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/215236/original.jpg",
+      "number": 1,
+      "createdAt": "2017-08-09T04:48:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-1"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-2",
+      "title": "Parallel World Constitutive Theorem",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254836/original.jpg",
+      "number": 2,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-2"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-3",
+      "title": "Tears That Can't Be Stopped",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254837/original.jpg",
+      "number": 3,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-3"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-4",
+      "title": "Dirtied White Skin",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254838/original.jpg",
+      "number": 4,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-4"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-5",
+      "title": "Spiral of Tragedy",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254839/original.jpg",
+      "number": 5,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-5"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-6",
+      "title": "Beyond a Pale Light",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254840/original.jpg",
+      "number": 6,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-6"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-7",
+      "title": "The Cause of the Curse",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254841/original.jpg",
+      "number": 7,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-7"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-8",
+      "title": "The Sparrows and Swallows Know Not",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254842/original.jpg",
+      "number": 8,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-8"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-9",
+      "title": "The Distance Between Him and Her",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254843/original.jpg",
+      "number": 9,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-9"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-10",
+      "title": "Feelings Overlapping",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254844/original.jpg",
+      "number": 10,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-10"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-11",
+      "title": "That Kiss, Once More",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254845/original.jpg",
+      "number": 11,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-11"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-12",
+      "title": "The Secret Under the White Coat",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254846/original.jpg",
+      "number": 12,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-12"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-13",
+      "title": "An Ordained Fate",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254847/original.jpg",
+      "number": 13,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-13"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-14",
+      "title": "The Transfer Student's Friend",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254848/original.jpg",
+      "number": 14,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-14"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-15",
+      "title": "A Summer That Won't Come Back",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254849/original.jpg",
+      "number": 15,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-15"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-16",
+      "title": "Within Unmoving Time",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254850/original.jpg",
+      "number": 16,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-16"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-17",
+      "title": "A Pale, Ephemeral Vow",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254851/original.jpg",
+      "number": 17,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-17"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-18",
+      "title": "Twilight in Dela Granto",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254852/original.jpg",
+      "number": 18,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-18"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-19",
+      "title": "The Bond Between Parent And Child",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254853/original.jpg",
+      "number": 19,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-19"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-20",
+      "title": "Into the Rafaelo Desert",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254854/original.jpg",
+      "number": 20,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-20"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-21",
+      "title": "The Quarry Where Demons Rule",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254855/original.jpg",
+      "number": 21,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-21"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-22",
+      "title": "Escape from the Quarry",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254856/original.jpg",
+      "number": 22,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-22"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-23",
+      "title": "The Imperial City, Where The Wind Blows",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254857/original.jpg",
+      "number": 23,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-23"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-24",
+      "title": "The Truth of Dela Granto",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254858/original.jpg",
+      "number": 24,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-24"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-25",
+      "title": "The Promised Ritual",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254859/original.jpg",
+      "number": 25,
+      "createdAt": "2018-09-14T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-25"
+    },
+    {
+      "id": "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-26",
+      "title": "A Girl Who Chants Love at the Bound of This World",
+      "image": "https://media.kitsu.io/episodes/thumbnails/254860/original.jpg",
+      "number": 26,
+      "createdAt": "2018-09-14T20:36:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-episode-26"
+    }
+  ]
+}

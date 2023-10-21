@@ -1,0 +1,853 @@
+{
+  "id": "151679",
+  "title": {
+    "romaji": "Nokemono-tachi no Yoru",
+    "english": "The tale of outcasts",
+    "native": "ノケモノたちの夜"
+  },
+  "malId": 52274,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "dSQ1oBUuoGA",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/dSQ1oBUuoGA/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151679-aslz4Mr7FD8Q.jpg",
+  "popularity": 10689,
+  "color": "#ae28e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151679-aslz4Mr7FD8Q.jpg",
+  "description": "In Victorian England, the young orphan Wisteria begs for scraps. Able to see through demons’ disguises, she befriends the immortal Marbas, lonely after centuries of solitude. He finds kinship with the human girl, even while evading the brutal Sword Cross Knights—including Wisteria’s brother. Is it possible for two souls so different to find happiness together, and what price must they pay?<br>\n<br>\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2023,
+  "startDate": {
+    "year": 2023,
+    "month": 1,
+    "day": 8
+  },
+  "endDate": {
+    "year": 2023,
+    "month": 4,
+    "day": 2
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 63,
+  "duration": 24,
+  "genres": [
+    "Drama",
+    "Fantasy",
+    "Romance"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Ashi Productions"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 98436,
+      "malId": 35062,
+      "title": {
+        "romaji": "Mahoutsukai no Yome",
+        "english": "The Ancient Magus' Bride",
+        "native": "魔法使いの嫁",
+        "userPreferred": "Mahoutsukai no Yome"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98436-n7sK6POCd0XV.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98436-mipAtJXRUCgx.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 5530,
+      "malId": 5530,
+      "title": {
+        "romaji": "Pandora Hearts",
+        "english": null,
+        "native": "パンドラハーツ",
+        "userPreferred": "Pandora Hearts"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5530-ukD9JNrN47aA.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5530-VsVYMKkehtiy.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 131646,
+      "malId": 48580,
+      "title": {
+        "romaji": "Vanitas no Carte",
+        "english": "The Case Study of Vanitas",
+        "native": "ヴァニタスの手記",
+        "userPreferred": "Vanitas no Carte"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131646-k6u2UXIsMXEa.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131646-ewbYrSfyUyp6.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 6793,
+      "malId": 6793,
+      "title": {
+        "romaji": "Kuroshitsuji: Sono Shitsuji, Kougyou",
+        "english": "Black Butler: His Butler, Performer",
+        "native": "黒執事 その執事、興行",
+        "userPreferred": "Kuroshitsuji: Sono Shitsuji, Kougyou"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6793-WJHPwa0ofanb.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6793-WJHPwa0ofanb.png",
+      "rating": 71,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 108617,
+      "malId": 39575,
+      "title": {
+        "romaji": "Somali to Mori no Kamisama",
+        "english": "Somali and the Forest Spirit",
+        "native": "ソマリと森の神様",
+        "userPreferred": "Somali to Mori no Kamisama"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108617-PgoYLgWzzm0c.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108617-K5pexm0OYdJl.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 139821,
+      "malId": 49980,
+      "title": {
+        "romaji": "Sugar Apple Fairy Tale",
+        "english": "Sugar Apple Fairy Tale",
+        "native": "シュガーアップル・フェアリーテイル",
+        "userPreferred": "Sugar Apple Fairy Tale"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139821-RC4PW7KPY1DU.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/139821-Zd6xO2rMyA4x.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 8915,
+      "malId": 8915,
+      "title": {
+        "romaji": "Dantalian no Shoka",
+        "english": "The Mystic Archives of Dantalian",
+        "native": "ダンタリアンの書架",
+        "userPreferred": "Dantalian no Shoka"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8915-KMxeHflWLc6o.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n8915-GyycPBl1eDaH.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 4898,
+      "malId": 4898,
+      "title": {
+        "romaji": "Kuroshitsuji",
+        "english": "Black Butler",
+        "native": "黒執事",
+        "userPreferred": "Kuroshitsuji"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx4898-mW4gabZvwmLC.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4898-qqGPkf0qkMDh.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 16890,
+      "malId": 16890,
+      "title": {
+        "romaji": "Makai Ouji: devils and realist",
+        "english": null,
+        "native": "魔界王子 devils and realist",
+        "userPreferred": "Makai Ouji: devils and realist"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16890-RkJhuzKLCl9Y.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16890-RkJhuzKLCl9Y.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 128715,
+      "malId": 46422,
+      "title": {
+        "romaji": "Niehime to Kemono no Ou",
+        "english": "Sacrificial Princess and the King of Beasts",
+        "native": "贄姫と獣の王",
+        "userPreferred": "Niehime to Kemono no Ou"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128715-e4WZuZ0ex0Xt.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/128715-GdkWx3o3In8I.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 97682,
+      "malId": 34176,
+      "title": {
+        "romaji": "Zero kara Hajimeru Mahou no Sho",
+        "english": "Grimoire of Zero",
+        "native": "ゼロから始める魔法の書",
+        "userPreferred": "Zero kara Hajimeru Mahou no Sho"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97682-YRhTwV979zSr.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97682-HgEodWuTgFgS.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 154364,
+      "malId": 52955,
+      "title": {
+        "romaji": "Mahoutsukai no Yome SEASON 2",
+        "english": "The Ancient Magus’ Bride Season 2",
+        "native": "魔法使いの嫁 SEASON2",
+        "userPreferred": "Mahoutsukai no Yome SEASON 2"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154364-ZFPtr9F1sW60.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/154364-j4VQTmcsOWFR.jpg",
+      "rating": 77,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 284536,
+      "role": "MAIN",
+      "name": {
+        "first": "Wisteria",
+        "last": null,
+        "full": "Wisteria",
+        "native": "ウィステリア",
+        "userPreferred": "Wisteria"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b284536-L2bxLmdXP5Xg.png",
+      "voiceActors": [
+        {
+          "id": 101996,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayana",
+            "last": "Taketatsu",
+            "full": "Ayana Taketatsu",
+            "native": "竹達彩奈",
+            "userPreferred": "Ayana Taketatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101996-W14XnDV34VpO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 284537,
+      "role": "MAIN",
+      "name": {
+        "first": "Marbas",
+        "last": null,
+        "full": "Marbas",
+        "native": "マルバス",
+        "userPreferred": "Marbas"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b284537-zv8MF4FMsGDY.jpg",
+      "voiceActors": [
+        {
+          "id": 95020,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsuyuki",
+            "last": "Konishi",
+            "full": "Katsuyuki Konishi",
+            "native": "小西克幸",
+            "userPreferred": "Katsuyuki Konishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95020-uOJO2IlwpcX0.png"
+        }
+      ]
+    },
+    {
+      "id": 284538,
+      "role": "MAIN",
+      "name": {
+        "first": "Snow",
+        "last": null,
+        "full": "Snow",
+        "native": "スノウ",
+        "userPreferred": "Snow"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b284538-NtIFzwsjyai5.jpg",
+      "voiceActors": [
+        {
+          "id": 110743,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouta",
+            "last": "Oosaka",
+            "full": "Ryouta Oosaka",
+            "native": "逢坂良太",
+            "userPreferred": "Ryouta Oosaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110743-k2SgQwU0JD33.png"
+        }
+      ]
+    },
+    {
+      "id": 289132,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Maury",
+        "last": null,
+        "full": "Maury",
+        "native": "モリー",
+        "userPreferred": "Maury"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b289132-vpLshHo2UShg.png",
+      "voiceActors": [
+        {
+          "id": 119813,
+          "language": "Japanese",
+          "name": {
+            "first": "Chitose",
+            "last": "Morinaga",
+            "full": "Chitose Morinaga",
+            "native": "森永千才",
+            "userPreferred": "Chitose Morinaga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119813-M3X0yu8k0MGB.png"
+        }
+      ]
+    },
+    {
+      "id": 296187,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tokage no Akuma",
+        "last": null,
+        "full": "Tokage no Akuma",
+        "native": "トカゲの悪魔",
+        "userPreferred": "Tokage no Akuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b296187-ToZ4NOBKRkuC.jpg",
+      "voiceActors": [
+        {
+          "id": 296188,
+          "language": "Japanese",
+          "name": {
+            "first": "Moai",
+            "last": "Iwashita",
+            "full": "Moai Iwashita",
+            "native": "モアイ岩下",
+            "userPreferred": "Moai Iwashita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n296188-gXAZMlZrAtIx.jpg"
+        }
+      ]
+    },
+    {
+      "id": 289133,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Harriet",
+        "last": null,
+        "full": "Harriet",
+        "native": "ハリエット",
+        "userPreferred": "Harriet"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b289133-m6t87zSW4v3Z.jpg",
+      "voiceActors": [
+        {
+          "id": 117217,
+          "language": "Japanese",
+          "name": {
+            "first": "Karin",
+            "last": "Oda",
+            "full": "Karin Oda",
+            "native": "小田果林",
+            "userPreferred": "Karin Oda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/22217.jpg"
+        }
+      ]
+    },
+    {
+      "id": 301888,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sherlock",
+        "last": "Holmes",
+        "full": "Sherlock Holmes",
+        "native": "シャーロック・ホームズ",
+        "userPreferred": "Sherlock Holmes"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 112635,
+          "language": "Japanese",
+          "name": {
+            "first": "Makoto",
+            "last": "Furukawa",
+            "full": "Makoto Furukawa",
+            "native": "古川慎",
+            "userPreferred": "Makoto Furukawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112635-ORlGvRvgf5Nq.png"
+        }
+      ]
+    },
+    {
+      "id": 292032,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sitri",
+        "last": null,
+        "full": "Sitri",
+        "native": "シトリ",
+        "userPreferred": "Sitri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b292032-q8E8nr3kRraW.png",
+      "voiceActors": [
+        {
+          "id": 106817,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshitsugu",
+            "last": "Matsuoka",
+            "full": "Yoshitsugu Matsuoka",
+            "native": "松岡禎丞",
+            "userPreferred": "Yoshitsugu Matsuoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106817-mioGQjbTWWQ6.png"
+        }
+      ]
+    },
+    {
+      "id": 289126,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Diana",
+        "last": null,
+        "full": "Diana",
+        "native": "ダイアナ",
+        "userPreferred": "Diana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b289126-6YgrFPBH3oQc.jpg",
+      "voiceActors": [
+        {
+          "id": 289127,
+          "language": "Japanese",
+          "name": {
+            "first": "Risa",
+            "last": "Imayanagi",
+            "full": "Risa Imayanagi",
+            "native": "今柳りさ",
+            "userPreferred": "Risa Imayanagi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n289127-u9YDY4fkILLL.jpg"
+        }
+      ]
+    },
+    {
+      "id": 292033,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dantalion",
+        "last": null,
+        "full": "Dantalion",
+        "native": "ダンタリオン",
+        "userPreferred": "Dantalion"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b292033-E1WkqTdtrkrr.png",
+      "voiceActors": [
+        {
+          "id": 119185,
+          "language": "Japanese",
+          "name": {
+            "first": "Shunsuke",
+            "last": "Takeuchi",
+            "full": "Shunsuke Takeuchi",
+            "native": "武内駿輔",
+            "userPreferred": "Shunsuke Takeuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119185-65kkxuTRxAgo.png"
+        }
+      ]
+    },
+    {
+      "id": 289128,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Naberius",
+        "last": null,
+        "full": "Naberius",
+        "native": "ナベリウス",
+        "userPreferred": "Naberius"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b289128-kWTCDfHpe0dn.jpg",
+      "voiceActors": [
+        {
+          "id": 95095,
+          "language": "Japanese",
+          "name": {
+            "first": "Junichi",
+            "last": "Suwabe",
+            "full": "Junichi Suwabe",
+            "native": "諏訪部順一",
+            "userPreferred": "Junichi Suwabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95095-DvSjTQnqcgXP.png"
+        }
+      ]
+    },
+    {
+      "id": 292034,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Luther",
+        "last": null,
+        "full": "Luther",
+        "native": "ルーサー",
+        "userPreferred": "Luther"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b292034-iaAH07UguyLf.png",
+      "voiceActors": [
+        {
+          "id": 96154,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Ono",
+            "full": "Yuuki Ono",
+            "native": "小野友樹",
+            "userPreferred": "Yuuki Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96154-B8GAO9wm1Fbd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 289129,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Danchou",
+        "last": null,
+        "full": "Danchou",
+        "native": "団長",
+        "userPreferred": "Danchou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b289129-1FQa9JHAyUDn.jpg",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        }
+      ]
+    },
+    {
+      "id": 296183,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shinpu",
+        "last": null,
+        "full": "Shinpu",
+        "native": "神父",
+        "userPreferred": "Shinpu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b296183-vdq8PBsiysF9.jpg",
+      "voiceActors": [
+        {
+          "id": 96538,
+          "language": "Japanese",
+          "name": {
+            "first": "Yutaka",
+            "last": "Aoyama",
+            "full": "Yutaka Aoyama",
+            "native": "青山穣",
+            "userPreferred": "Yutaka Aoyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96538-mM7J8gp87gut.jpg"
+        }
+      ]
+    },
+    {
+      "id": 289130,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takenami",
+        "last": null,
+        "full": "Takenami",
+        "native": "タケナミ",
+        "userPreferred": "Takenami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b289130-pOcjklX2wCHu.jpg",
+      "voiceActors": [
+        {
+          "id": 124759,
+          "language": "Japanese",
+          "name": {
+            "first": "Kentarou",
+            "last": "Kumagai",
+            "full": "Kentarou Kumagai",
+            "native": "熊谷健太郎",
+            "userPreferred": "Kentarou Kumagai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n124759-Qd1CVnWr4D8L.png"
+        }
+      ]
+    },
+    {
+      "id": 296184,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jinushi",
+        "last": null,
+        "full": "Jinushi",
+        "native": "地主",
+        "userPreferred": "Jinushi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b296184-Bvaol0WAVdQh.jpg",
+      "voiceActors": [
+        {
+          "id": 117123,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruo",
+            "last": "Yamagishi",
+            "full": "Haruo Yamagishi",
+            "native": "山岸治雄",
+            "userPreferred": "Haruo Yamagishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/22123.jpg"
+        }
+      ]
+    },
+    {
+      "id": 289131,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Astaroth",
+        "last": null,
+        "full": "Astaroth",
+        "native": "アスタロト",
+        "userPreferred": "Astaroth"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b289131-kY7BHsZ5sv6z.jpg",
+      "voiceActors": [
+        {
+          "id": 95034,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Kobayashi",
+            "full": "Yuu Kobayashi",
+            "native": "小林ゆう",
+            "userPreferred": "Yuu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95034-AwobjrcmkMi9.png"
+        }
+      ]
+    },
+    {
+      "id": 296185,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Roubu no Akuma",
+        "last": null,
+        "full": "Roubu no Akuma",
+        "native": "ローブの悪魔",
+        "userPreferred": "Roubu no Akuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b296185-cF4yPMkiSu0F.jpg",
+      "voiceActors": [
+        {
+          "id": 105273,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichirou",
+            "last": "Matsuda",
+            "full": "Kenichirou Matsuda",
+            "native": "松田健一郎",
+            "userPreferred": "Kenichirou Matsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105273-asextl049B2s.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 110934,
+      "relationType": "ADAPTATION",
+      "malId": 132120,
+      "title": {
+        "romaji": "Nokemono-tachi no Yoru",
+        "english": "The Tale of the Outcasts",
+        "native": "ノケモノたちの夜",
+        "userPreferred": "Nokemono-tachi no Yoru"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx110934-A93QBKWzdege.jpg",
+      "color": "#e44335",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/110934-Bl35IJIEeHnz.jpg",
+      "rating": 68
+    }
+  ],
+  "episodes": [
+    {
+      "id": "nokemono-tachi-no-yoru-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151679-aslz4Mr7FD8Q.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//nokemono-tachi-no-yoru-episode-1"
+    },
+    {
+      "id": "nokemono-tachi-no-yoru-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151679-aslz4Mr7FD8Q.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//nokemono-tachi-no-yoru-episode-2"
+    },
+    {
+      "id": "nokemono-tachi-no-yoru-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151679-aslz4Mr7FD8Q.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//nokemono-tachi-no-yoru-episode-3"
+    },
+    {
+      "id": "nokemono-tachi-no-yoru-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151679-aslz4Mr7FD8Q.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//nokemono-tachi-no-yoru-episode-4"
+    },
+    {
+      "id": "nokemono-tachi-no-yoru-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151679-aslz4Mr7FD8Q.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//nokemono-tachi-no-yoru-episode-5"
+    },
+    {
+      "id": "nokemono-tachi-no-yoru-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151679-aslz4Mr7FD8Q.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//nokemono-tachi-no-yoru-episode-6"
+    },
+    {
+      "id": "nokemono-tachi-no-yoru-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151679-aslz4Mr7FD8Q.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//nokemono-tachi-no-yoru-episode-7"
+    },
+    {
+      "id": "nokemono-tachi-no-yoru-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151679-aslz4Mr7FD8Q.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//nokemono-tachi-no-yoru-episode-8"
+    },
+    {
+      "id": "nokemono-tachi-no-yoru-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151679-aslz4Mr7FD8Q.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//nokemono-tachi-no-yoru-episode-9"
+    },
+    {
+      "id": "nokemono-tachi-no-yoru-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151679-aslz4Mr7FD8Q.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//nokemono-tachi-no-yoru-episode-10"
+    },
+    {
+      "id": "nokemono-tachi-no-yoru-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151679-aslz4Mr7FD8Q.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//nokemono-tachi-no-yoru-episode-11"
+    },
+    {
+      "id": "nokemono-tachi-no-yoru-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151679-aslz4Mr7FD8Q.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//nokemono-tachi-no-yoru-episode-12"
+    },
+    {
+      "id": "nokemono-tachi-no-yoru-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151679-aslz4Mr7FD8Q.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//nokemono-tachi-no-yoru-episode-13"
+    }
+  ]
+}

@@ -1,0 +1,637 @@
+{
+  "id": "155419",
+  "title": {
+    "romaji": "Hoshikuzu Telepath",
+    "english": "Stardust Telepath",
+    "native": "星屑テレパス"
+  },
+  "malId": 53262,
+  "synonyms": [
+    "Hoshitele"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "3b2zD_CcAao",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/3b2zD_CcAao/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155419-tPkRvXYb9ffC.png",
+  "popularity": 12536,
+  "color": "#e4a135",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/155419-yO6MTtDbaeDj.jpg",
+  "description": "Konohoshi Umika is a high-schooler who is very bad at communicating with others. Feeling almost like an alien trapped on Earth with nowhere to belong, one day she meets a girl who claims to be an actual alien!",
+  "status": "Ongoing",
+  "releaseDate": 2023,
+  "startDate": {
+    "year": 2023,
+    "month": 10,
+    "day": 9
+  },
+  "endDate": {
+    "year": 2023,
+    "month": 12,
+    "day": 25
+  },
+  "nextAiringEpisode": {
+    "airingTime": 1698062400,
+    "timeUntilAiring": 250528,
+    "episode": 3
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 2,
+  "rating": 69,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Studio Gokumi"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 109287,
+      "malId": 39790,
+      "title": {
+        "romaji": "Adachi to Shimamura",
+        "english": "Adachi and Shimamura",
+        "native": "安達としまむら",
+        "userPreferred": "Adachi to Shimamura"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109287-y1uy7u2I58lb.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109287-Du3UxrOnIS4w.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 105857,
+      "malId": 38578,
+      "title": {
+        "romaji": "Star☆Twinkle Precure",
+        "english": null,
+        "native": "スター☆トゥインクルプリキュア",
+        "userPreferred": "Star☆Twinkle Precure"
+      },
+      "status": "Completed",
+      "episodes": 49,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105857-iziLS4e4rTaP.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/105857-D1S4lCsrKFMT.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 130003,
+      "malId": 47917,
+      "title": {
+        "romaji": "Bocchi the Rock!",
+        "english": "BOCCHI THE ROCK!",
+        "native": "ぼっち・ざ・ろっく！",
+        "userPreferred": "Bocchi the Rock!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130003-5Y8rYzg982sq.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/130003-Ht7myAxpdNPo.jpg",
+      "rating": 87,
+      "type": "TV"
+    },
+    {
+      "id": 101386,
+      "malId": 37614,
+      "title": {
+        "romaji": "Hitoribocchi no ○○ Seikatsu",
+        "english": "Hitoribocchi no Marumaruseikatsu",
+        "native": "ひとりぼっちの○○生活",
+        "userPreferred": "Hitoribocchi no ○○ Seikatsu"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101386-ZtlTugIEuorU.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101386-Y1SeQi4BsBaO.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 108092,
+      "malId": 39388,
+      "title": {
+        "romaji": "Koisuru Asteroid",
+        "english": "Asteroid in Love",
+        "native": "恋する小惑星〈アステロイド〉",
+        "userPreferred": "Koisuru Asteroid"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108092-vbL3rf0b23sp.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108092-y9c4xaGJU8m9.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 131548,
+      "malId": 48553,
+      "title": {
+        "romaji": "Akebi-chan no Sailor Fuku",
+        "english": "Akebi’s Sailor Uniform",
+        "native": "明日ちゃんのセーラー服",
+        "userPreferred": "Akebi-chan no Sailor Fuku"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131548-4OXik3SWOaee.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131548-oYCEYv4ZgsM8.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 155389,
+      "malId": 53237,
+      "title": {
+        "romaji": "SHY",
+        "english": "SHY",
+        "native": "SHY",
+        "userPreferred": "SHY"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155389-qB3aiPB5IkAi.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/155389-AYVuX0nowx1l.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 107490,
+      "malId": 39071,
+      "title": {
+        "romaji": "Machikado Mazoku",
+        "english": "The Demon Girl Next Door",
+        "native": "まちカドまぞく",
+        "userPreferred": "Machikado Mazoku"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107490-wolT0UvNSetx.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107490-wQ8rfnjOa7TO.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 123330,
+      "malId": 42745,
+      "title": {
+        "romaji": "Machikado Mazoku: 2-Choume",
+        "english": "The Demon Girl Next Door Season 2",
+        "native": "まちカドまぞく 2丁目",
+        "userPreferred": "Machikado Mazoku: 2-Choume"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx123330-AU2jllC75uSE.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/123330-g5hGEeefeioP.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 113302,
+      "malId": 40755,
+      "title": {
+        "romaji": "Machikado Mazoku Mini",
+        "english": null,
+        "native": "まちカドまぞく みに",
+        "userPreferred": "Machikado Mazoku Mini"
+      },
+      "status": "Completed",
+      "episodes": 36,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113302-gyi7olucoLXg.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113302-xcXJ28POCMgw.jpg",
+      "rating": 58,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 101013,
+      "malId": 37206,
+      "title": {
+        "romaji": "Anima Yell!",
+        "english": null,
+        "native": "アニマエール！",
+        "userPreferred": "Anima Yell!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101013-hFT0b0mqC1oY.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n101013-jecSkRN3pt5I.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 127549,
+      "malId": 45425,
+      "title": {
+        "romaji": "Slow Loop",
+        "english": "Slow Loop",
+        "native": "スローループ",
+        "userPreferred": "Slow Loop"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127549-fr324YPdXb3D.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127549-9j4uHXMStHGX.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 109019,
+      "malId": 39730,
+      "title": {
+        "romaji": "Houkago Teibou Nisshi",
+        "english": "Diary of Our Days at the Breakwater",
+        "native": "放課後ていぼう日誌",
+        "userPreferred": "Houkago Teibou Nisshi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109019-xlrVQRdo1EQi.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109019-CI5tlvudZ3zS.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 99916,
+      "malId": 36214,
+      "title": {
+        "romaji": "Asagao to Kase-san.",
+        "english": "Kase-san and Morning Glories",
+        "native": "あさがおと加瀬さん。",
+        "userPreferred": "Asagao to Kase-san."
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99916-1GGvAujPHu6F.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99916-A1CqNrdSMHM4.jpg",
+      "rating": 76,
+      "type": "OVA"
+    },
+    {
+      "id": 98511,
+      "malId": 35159,
+      "title": {
+        "romaji": "Kimi no Hikari: Asagao to Kase-san.",
+        "english": "Your Light: Kase-san and Morning Glories",
+        "native": "キミノヒカリ ～あさがおと加瀬さん。～",
+        "userPreferred": "Kimi no Hikari: Asagao to Kase-san."
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98511-pZHBsH3uETJL.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98511-qZCQlp4zYjjo.jpg",
+      "rating": 71,
+      "type": "ONA"
+    },
+    {
+      "id": 101573,
+      "malId": 37786,
+      "title": {
+        "romaji": "Yagate Kimi ni Naru",
+        "english": "Bloom Into You",
+        "native": "やがて君になる",
+        "userPreferred": "Yagate Kimi ni Naru"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101573-Gql3Q3UX1jcu.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101573-yaDZ76cLeMBU.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 10495,
+      "malId": 10495,
+      "title": {
+        "romaji": "Yuru Yuri",
+        "english": "YuruYuri",
+        "native": "ゆるゆり",
+        "userPreferred": "Yuru Yuri"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10495-LC0vlFLHk2Ue.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10495-rIrvOpIurPXE.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 12403,
+      "malId": 12403,
+      "title": {
+        "romaji": "Yuru Yuri♪♪",
+        "english": "YuruYuri Season 2",
+        "native": "ゆるゆり♪♪",
+        "userPreferred": "Yuru Yuri♪♪"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12403-sAG2FsLFX8bH.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/12403-5u268qIm5jsR.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 21088,
+      "malId": 30279,
+      "title": {
+        "romaji": "Yuru Yuri San☆Hai!",
+        "english": "YuruYuri Season 3",
+        "native": "ゆるゆり さん☆はい！",
+        "userPreferred": "Yuru Yuri San☆Hai!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21088-T5qFaSe9ohRK.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21088-9ZJIOWGApSmO.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 102090,
+      "malId": 37773,
+      "title": {
+        "romaji": "Yuru Yuri,",
+        "english": "Yuru Yuri,",
+        "native": "ゆるゆり、",
+        "userPreferred": "Yuru Yuri,"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102090-unOFHc0pmYAr.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/102090-owqDmPD29vJy.jpg",
+      "rating": 77,
+      "type": "OVA"
+    },
+    {
+      "id": 20625,
+      "malId": 23225,
+      "title": {
+        "romaji": "Yuru Yuri Nachuyachumi!",
+        "english": "YuruYuri Nachuyachumi!",
+        "native": "ゆるゆり　なちゅやちゅみ！",
+        "userPreferred": "Yuru Yuri Nachuyachumi!"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20625-dm9pmEqlyY5T.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n20625-uJgQ6xl44PVV.jpg",
+      "rating": 77,
+      "type": "OVA"
+    },
+    {
+      "id": 12665,
+      "malId": 12665,
+      "title": {
+        "romaji": "Yuru Yuri: Doushite☆Tomaranai☆Tokimeki☆Doki Doki☆Paradox☆Eternal",
+        "english": null,
+        "native": "ゆるゆり どうして☆止まらない☆トキメキ☆ドキドキ☆パラドクス☆エターナル",
+        "userPreferred": "Yuru Yuri: Doushite☆Tomaranai☆Tokimeki☆Doki Doki☆Paradox☆Eternal"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/12665.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/12665.jpg",
+      "rating": 60,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 21214,
+      "malId": 30902,
+      "title": {
+        "romaji": "Yuru Yuri Nachuyachumi!+",
+        "english": "YuruYuri Nachuyachumi!+",
+        "native": "ゆるゆり　なちゅやちゅみ！＋",
+        "userPreferred": "Yuru Yuri Nachuyachumi!+"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21214-nKcMytzKkOUU.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21214-TyslvW1sDslF.jpg",
+      "rating": 76,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 110382,
+      "malId": 40369,
+      "title": {
+        "romaji": "Mini Yuri",
+        "english": null,
+        "native": "みにゆり",
+        "userPreferred": "Mini Yuri"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110382-z0m4OAr2Hfig.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110382-EOQinQ6DXd91.jpg",
+      "rating": 67,
+      "type": "ONA"
+    },
+    {
+      "id": 149028,
+      "malId": 51817,
+      "title": {
+        "romaji": "Watashi no Yuri wa Oshigoto desu!",
+        "english": "Yuri Is My Job!",
+        "native": "私の百合はお仕事です！",
+        "userPreferred": "Watashi no Yuri wa Oshigoto desu!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx149028-RrE2FX1FGIMv.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/149028-laR7XfTl5W9K.jpg",
+      "rating": 65,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 288810,
+      "role": "MAIN",
+      "name": {
+        "first": "Umika",
+        "last": "Konohoshi",
+        "full": "Umika Konohoshi",
+        "native": "小ノ星海果",
+        "userPreferred": "Umika Konohoshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b288810-61wtTbc61OKY.png",
+      "voiceActors": [
+        {
+          "id": 162029,
+          "language": "Japanese",
+          "name": {
+            "first": "Yurie",
+            "last": "Funato",
+            "full": "Yurie Funato",
+            "native": "船戸ゆり絵",
+            "userPreferred": "Yurie Funato"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n162029-D8keureDZn4D.png"
+        }
+      ]
+    },
+    {
+      "id": 300088,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuu",
+        "last": "Akeuchi",
+        "full": "Yuu Akeuchi",
+        "native": "明内ユウ",
+        "userPreferred": "Yuu Akeuchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b300088-jFB0qmeZdvYC.jpg",
+      "voiceActors": [
+        {
+          "id": 118705,
+          "language": "Japanese",
+          "name": {
+            "first": "Seria",
+            "last": "Fukagawa",
+            "full": "Seria Fukagawa",
+            "native": "深川芹亜",
+            "userPreferred": "Seria Fukagawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118705-DgVchmGSV8IH.png"
+        }
+      ]
+    },
+    {
+      "id": 307323,
+      "role": "MAIN",
+      "name": {
+        "first": "Matataki",
+        "last": "Raimon",
+        "full": "Matataki Raimon",
+        "native": "雷門瞬",
+        "userPreferred": "Matataki Raimon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b307323-d59Q5qGO4s1i.jpg",
+      "voiceActors": [
+        {
+          "id": 129329,
+          "language": "Japanese",
+          "name": {
+            "first": "Shiki",
+            "last": "Aoki",
+            "full": "Shiki Aoki",
+            "native": "青木志貴",
+            "userPreferred": "Shiki Aoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129329-ij7ziHZt7CsE.png"
+        }
+      ]
+    },
+    {
+      "id": 307324,
+      "role": "MAIN",
+      "name": {
+        "first": "Haruno",
+        "last": "Takaragi",
+        "full": "Haruno Takaragi",
+        "native": "宝木遥乃",
+        "userPreferred": "Haruno Takaragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b307324-lpu4N3iHtJQt.jpg",
+      "voiceActors": [
+        {
+          "id": 307325,
+          "language": "Japanese",
+          "name": {
+            "first": "Moe",
+            "last": "Nagamuta",
+            "full": "Moe Nagamuta",
+            "native": "永牟田萌",
+            "userPreferred": "Moe Nagamuta"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n307325-Ld0p9Gc6pTuq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 309517,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Honami",
+        "last": "Konohoshi",
+        "full": "Honami Konohoshi",
+        "native": "小ノ星穂波",
+        "userPreferred": "Honami Konohoshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b309517-KyA6Agwkaiuf.jpg",
+      "voiceActors": [
+        {
+          "id": 205892,
+          "language": "Japanese",
+          "name": {
+            "first": "Hina",
+            "last": "Youmiya",
+            "full": "Hina Youmiya",
+            "native": "羊宮妃那",
+            "userPreferred": "Hina Youmiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n205892-gaMHjeUijh84.png"
+        }
+      ]
+    },
+    {
+      "id": 309518,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Emihara-sensei",
+        "last": null,
+        "full": "Emihara-sensei",
+        "native": "笑原先生",
+        "userPreferred": "Emihara-sensei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b309518-n1VHadKuOBsV.jpg",
+      "voiceActors": [
+        {
+          "id": 106659,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsumi",
+            "last": "Takamori",
+            "full": "Natsumi Takamori",
+            "native": "高森奈津美",
+            "userPreferred": "Natsumi Takamori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106659-3LfNtHDY3P0Z.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 121501,
+      "relationType": "ADAPTATION",
+      "malId": 127231,
+      "title": {
+        "romaji": "Hoshikuzu Telepath",
+        "english": null,
+        "native": "星屑テレパス",
+        "userPreferred": "Hoshikuzu Telepath"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx121501-wsBh10j2CHwJ.jpg",
+      "color": "#1abbf1",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx121501-wsBh10j2CHwJ.jpg",
+      "rating": 75
+    }
+  ],
+  "episodes": []
+}

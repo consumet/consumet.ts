@@ -1,0 +1,136 @@
+{
+  "id": "21299",
+  "title": {
+    "romaji": "Hyakka Ryouran: Samurai After - Mousou Shinkon Nikki",
+    "english": "Samurai After Specials",
+    "native": "百花繚乱サムライアフター 妄想新婚日記"
+  },
+  "malId": 30237,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21299-CjgY6zVQfwcV.jpg",
+  "popularity": 2162,
+  "color": "#e42850",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21299-CjgY6zVQfwcV.jpg",
+  "description": "Specials included with the Hyakka Ryouran: Samurai After BDs.",
+  "status": "Completed",
+  "releaseDate": 2015,
+  "startDate": {
+    "year": 2015,
+    "month": 1,
+    "day": 23
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 7,
+    "day": 1
+  },
+  "totalEpisodes": 2,
+  "currentEpisode": 2,
+  "rating": 59,
+  "duration": 5,
+  "genres": [
+    "Ecchi"
+  ],
+  "season": "WINTER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "SPECIAL",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 34341,
+      "role": "MAIN",
+      "name": {
+        "first": "Sen",
+        "last": "Tokugawa",
+        "full": "Sen Tokugawa",
+        "native": "徳川 千 (千姫)",
+        "userPreferred": "Sen Tokugawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34341.jpg",
+      "voiceActors": [
+        {
+          "id": 101634,
+          "language": "Japanese",
+          "name": {
+            "first": "Minako",
+            "last": "Kotobuki",
+            "full": "Minako Kotobuki",
+            "native": "寿美菜子",
+            "userPreferred": "Minako Kotobuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101634-IiPW117K0ybp.png"
+        }
+      ]
+    },
+    {
+      "id": 143514,
+      "role": "MAIN",
+      "name": {
+        "first": "Kagekatsu",
+        "last": "Uesugi",
+        "full": "Kagekatsu Uesugi",
+        "native": "上杉景勝",
+        "userPreferred": "Kagekatsu Uesugi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b143514-RZgIvyuQnYud.jpg",
+      "voiceActors": [
+        {
+          "id": 108639,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Uchida",
+            "full": "Maaya Uchida",
+            "native": "内田真礼",
+            "userPreferred": "Maaya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n108639-LLrR4WptCh5s.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 20823,
+      "relationType": "PARENT",
+      "malId": 25689,
+      "title": {
+        "romaji": "Hyakka Ryouran: Samurai After",
+        "english": null,
+        "native": "百花繚乱 サムライアフター",
+        "userPreferred": "Hyakka Ryouran: Samurai After"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20823.jpg",
+      "color": "#d6e45d",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20823.jpg",
+      "rating": 62
+    }
+  ],
+  "episodes": [
+    {
+      "id": "hyakka-ryouran-samurai-after-specials-episode-1",
+      "title": "Samurai General Election",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21299-CjgY6zVQfwcV.jpg",
+      "number": 1,
+      "createdAt": "2014-09-25T11:31:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyakka-ryouran-samurai-after-specials-episode-1"
+    },
+    {
+      "id": "hyakka-ryouran-samurai-after-specials-episode-2",
+      "title": "Samurai Wedding",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21299-CjgY6zVQfwcV.jpg",
+      "number": 2,
+      "createdAt": "2014-09-25T11:31:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyakka-ryouran-samurai-after-specials-episode-2"
+    }
+  ]
+}

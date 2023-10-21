@@ -1,0 +1,1022 @@
+{
+  "id": "130",
+  "title": {
+    "romaji": "Saiyuuki RELOAD",
+    "english": "Saiyuki Reload",
+    "native": "最遊記RELOAD"
+  },
+  "malId": 130,
+  "synonyms": [
+    "Saiyuki Reloaded",
+    "Saiyuki 2",
+    "Saiyuki R"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+  "popularity": 4678,
+  "color": "#e4bb5d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/130-uyi8Cx23aWKJ.jpg",
+  "description": "Priest Genjo Sanzo and companions Cho Hakkai, Sha Gojyo, and Son Goku maintain their westward journey to stop the resurrection of the demon Gyoumao. As the reputation of the Sanzo Ikkou precedes them, they continue to fight demon assassins at every turn, but they must also deal with increasing tensions within their group in order to defeat a powerful enemy.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2003,
+  "startDate": {
+    "year": 2003,
+    "month": 10,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2004,
+    "month": 3,
+    "day": 25
+  },
+  "totalEpisodes": 25,
+  "currentEpisode": 25,
+  "rating": 69,
+  "duration": 20,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Fantasy"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Studio Pierrot"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 9088,
+      "malId": 9088,
+      "title": {
+        "romaji": "Saiyuuki Gaiden",
+        "english": null,
+        "native": "最遊記外伝",
+        "userPreferred": "Saiyuuki Gaiden"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9088-ZJ6P3FEzeCTQ.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9088-ZJ6P3FEzeCTQ.png",
+      "rating": 73,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 217,
+      "role": "MAIN",
+      "name": {
+        "first": "Sanzou",
+        "last": "Genjou",
+        "full": "Sanzou Genjou",
+        "native": "玄奘三蔵",
+        "userPreferred": "Sanzou Genjou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b217-G6yuMoUz5QwJ.png",
+      "voiceActors": [
+        {
+          "id": 95129,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshihiko",
+            "last": "Seki",
+            "full": "Toshihiko Seki",
+            "native": "関俊彦",
+            "userPreferred": "Toshihiko Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95129-AAL7kfwAPpgR.jpg"
+        },
+        {
+          "id": 95180,
+          "language": "English",
+          "name": {
+            "first": "Lex",
+            "last": "Lang",
+            "full": "Lex Lang",
+            "native": null,
+            "userPreferred": "Lex Lang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95180-lBWAdPZISYWf.jpg"
+        },
+        {
+          "id": 110099,
+          "language": "Korean",
+          "name": {
+            "first": "Si Ho",
+            "last": "Hong",
+            "full": "Si Ho Hong",
+            "native": "시호 홍",
+            "userPreferred": "Si Ho Hong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15099.jpg"
+        }
+      ]
+    },
+    {
+      "id": 219,
+      "role": "MAIN",
+      "name": {
+        "first": "Hakkai",
+        "last": "Cho",
+        "full": "Hakkai Cho",
+        "native": "豬八戒",
+        "userPreferred": "Hakkai Cho"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219-JDw11bFgEtRX.jpg",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        },
+        {
+          "id": 95281,
+          "language": "English",
+          "name": {
+            "first": "Steve",
+            "last": "Staley",
+            "full": "Steve Staley",
+            "native": null,
+            "userPreferred": "Steve Staley"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95281-pM54mfq6s7F8.jpg"
+        },
+        {
+          "id": 109819,
+          "language": "Korean",
+          "name": {
+            "first": "Seung jun",
+            "last": "Kim",
+            "full": "Seung jun Kim",
+            "native": "승준 김",
+            "userPreferred": "Seung jun Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14819.jpg"
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "role": "MAIN",
+      "name": {
+        "first": "Goku",
+        "last": "Son",
+        "full": "Goku Son",
+        "native": "孫悟空",
+        "userPreferred": "Goku Son"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b218-UaEK4iDyciUg.jpg",
+      "voiceActors": [
+        {
+          "id": 95030,
+          "language": "Japanese",
+          "name": {
+            "first": "Souichirou",
+            "last": "Hoshi",
+            "full": "Souichirou Hoshi",
+            "native": "保志総一朗",
+            "userPreferred": "Souichirou Hoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95030-kj64Uy6Zr3bq.png"
+        },
+        {
+          "id": 95225,
+          "language": "English",
+          "name": {
+            "first": "Yuri",
+            "last": "Lowenthal",
+            "full": "Yuri Lowenthal",
+            "native": null,
+            "userPreferred": "Yuri Lowenthal"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95225-CbmI6oDkbbkL.jpg"
+        },
+        {
+          "id": 101499,
+          "language": "Korean",
+          "name": {
+            "first": "Yeong-seon",
+            "last": "Kim",
+            "full": "Yeong-seon Kim",
+            "native": "김영선",
+            "userPreferred": "Yeong-seon Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101499-aHFkv5mYhE5m.png"
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "role": "MAIN",
+      "name": {
+        "first": "Gojou",
+        "last": "Sha",
+        "full": "Gojou Sha",
+        "native": "沙悟浄",
+        "userPreferred": "Gojou Sha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b220-4P4VnGFyZYA6.jpg",
+      "voiceActors": [
+        {
+          "id": 95125,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroaki",
+            "last": "Hirata",
+            "full": "Hiroaki Hirata",
+            "native": "平田広明",
+            "userPreferred": "Hiroaki Hirata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95125-NeFFiJupoDVj.png"
+        },
+        {
+          "id": 95654,
+          "language": "English",
+          "name": {
+            "first": "Tony",
+            "last": "Oliver",
+            "full": "Tony Oliver",
+            "native": "Rafael Antonio Olivier",
+            "userPreferred": "Tony Oliver"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95654-iX4zn8eYCaRS.png"
+        },
+        {
+          "id": 109925,
+          "language": "Korean",
+          "name": {
+            "first": "Won Il",
+            "last": "Son",
+            "full": "Won Il Son",
+            "native": "원일 손",
+            "userPreferred": "Won Il Son"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14925.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16481,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rampa",
+        "last": null,
+        "full": "Rampa",
+        "native": null,
+        "userPreferred": "Rampa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16481.jpg",
+      "voiceActors": [
+        {
+          "id": 95010,
+          "language": "English",
+          "name": {
+            "first": "Johnny Yong",
+            "last": "Bosch",
+            "full": "Johnny Yong Bosch",
+            "native": null,
+            "userPreferred": "Johnny Yong Bosch"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95010-56EByXYI2PjI.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9264,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kougaiji",
+        "last": null,
+        "full": "Kougaiji",
+        "native": null,
+        "userPreferred": "Kougaiji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9264.jpg",
+      "voiceActors": [
+        {
+          "id": 95134,
+          "language": "Japanese",
+          "name": {
+            "first": "Takeshi",
+            "last": "Kusao",
+            "full": "Takeshi Kusao",
+            "native": "草尾毅",
+            "userPreferred": "Takeshi Kusao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95134-OZzRIDS8eAUd.png"
+        },
+        {
+          "id": 95321,
+          "language": "English",
+          "name": {
+            "first": "Terrence",
+            "last": "Stone",
+            "full": "Terrence Stone",
+            "native": null,
+            "userPreferred": "Terrence Stone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95321-OHD0RmMYGh71.jpg"
+        },
+        {
+          "id": 109757,
+          "language": "Korean",
+          "name": {
+            "first": "Won Hyeong",
+            "last": "Choi",
+            "full": "Won Hyeong Choi",
+            "native": "원형 최",
+            "userPreferred": "Won Hyeong Choi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14757.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34116,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ginkaku",
+        "last": null,
+        "full": "Ginkaku",
+        "native": null,
+        "userPreferred": "Ginkaku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34116.jpg",
+      "voiceActors": [
+        {
+          "id": 95149,
+          "language": "Japanese",
+          "name": {
+            "first": "Sanae",
+            "last": "Kobayashi",
+            "full": "Sanae Kobayashi",
+            "native": "小林沙苗",
+            "userPreferred": "Sanae Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95149-xNDmN92Feq8y.png"
+        }
+      ]
+    },
+    {
+      "id": 9265,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gyokumen",
+        "last": "Koushou",
+        "full": "Gyokumen Koushou",
+        "native": null,
+        "userPreferred": "Gyokumen Koushou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9265.jpg",
+      "voiceActors": [
+        {
+          "id": 105632,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinobu",
+            "last": "Satou",
+            "full": "Shinobu Satou",
+            "native": "佐藤しのぶ",
+            "userPreferred": "Shinobu Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10632.jpg"
+        },
+        {
+          "id": 95036,
+          "language": "English",
+          "name": {
+            "first": "Wendee",
+            "last": "Lee",
+            "full": "Wendee Lee",
+            "native": null,
+            "userPreferred": "Wendee Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95036-UkyIYVtEhoPk.png"
+        }
+      ]
+    },
+    {
+      "id": 9269,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yaone",
+        "last": null,
+        "full": "Yaone",
+        "native": null,
+        "userPreferred": "Yaone"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9269.jpg",
+      "voiceActors": [
+        {
+          "id": 95170,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Minaguchi",
+            "full": "Yuuko Minaguchi",
+            "native": "皆口裕子",
+            "userPreferred": "Yuuko Minaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95170-oAiTh7t2T1J0.png"
+        },
+        {
+          "id": 109769,
+          "language": "Korean",
+          "name": {
+            "first": "Min-Jeong",
+            "last": "Yeo",
+            "full": "Min-Jeong Yeo",
+            "native": "여민정",
+            "userPreferred": "Min-Jeong Yeo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14769.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9267,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lirin",
+        "last": null,
+        "full": "Lirin",
+        "native": "李厘",
+        "userPreferred": "Lirin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9267.jpg",
+      "voiceActors": [
+        {
+          "id": 95071,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Kawakami",
+            "full": "Tomoko Kawakami",
+            "native": "川上とも子",
+            "userPreferred": "Tomoko Kawakami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95071-bmS9MxvAdsTr.png"
+        }
+      ]
+    },
+    {
+      "id": 9263,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ni",
+        "last": "Jianyi",
+        "full": "Ni Jianyi",
+        "native": "你健一",
+        "userPreferred": "Ni Jianyi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9263.jpg",
+      "voiceActors": [
+        {
+          "id": 95337,
+          "language": "Japanese",
+          "name": {
+            "first": "Houchuu",
+            "last": "Ootsuka",
+            "full": "Houchuu Ootsuka",
+            "native": "大塚芳忠",
+            "userPreferred": "Houchuu Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95337-NnvEQEBKV2dR.jpg"
+        },
+        {
+          "id": 95232,
+          "language": "English",
+          "name": {
+            "first": "Kirk",
+            "last": "Thornton",
+            "full": "Kirk Thornton",
+            "native": null,
+            "userPreferred": "Kirk Thornton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/232.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29900,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kami-sama",
+        "last": null,
+        "full": "Kami-sama",
+        "native": null,
+        "userPreferred": "Kami-sama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29900.jpg",
+      "voiceActors": [
+        {
+          "id": 95391,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Satou",
+            "full": "Yuuko Satou",
+            "native": "佐藤ゆうこ",
+            "userPreferred": "Yuuko Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95391-tnUC8ogWxYRq.jpg"
+        },
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        }
+      ]
+    },
+    {
+      "id": 9268,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dokugakuji",
+        "last": null,
+        "full": "Dokugakuji",
+        "native": null,
+        "userPreferred": "Dokugakuji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9268.jpg",
+      "voiceActors": [
+        {
+          "id": 95237,
+          "language": "Japanese",
+          "name": {
+            "first": "Juurouta",
+            "last": "Kosugi",
+            "full": "Juurouta Kosugi",
+            "native": "小杉十郎太",
+            "userPreferred": "Juurouta Kosugi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95237-nelrZUfvh2FH.png"
+        },
+        {
+          "id": 109821,
+          "language": "Korean",
+          "name": {
+            "first": "Han",
+            "last": "Choi",
+            "full": "Han Choi",
+            "native": "최한",
+            "userPreferred": "Han Choi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14821.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9469,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sanzo",
+        "last": "Koumyou",
+        "full": "Sanzo Koumyou",
+        "native": null,
+        "userPreferred": "Sanzo Koumyou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n9469-TPSIi15j3CKX.png",
+      "voiceActors": [
+        {
+          "id": 95109,
+          "language": "Japanese",
+          "name": {
+            "first": "Ken",
+            "last": "Narita",
+            "full": "Ken Narita",
+            "native": "成田剣",
+            "userPreferred": "Ken Narita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95109-iOWKX2uxDWnj.png"
+        },
+        {
+          "id": 105565,
+          "language": "English",
+          "name": {
+            "first": "Joe",
+            "last": "Cappelletti",
+            "full": "Joe Cappelletti",
+            "native": null,
+            "userPreferred": "Joe Cappelletti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105565-SUZzeAuPNJ4o.jpg"
+        },
+        {
+          "id": 109863,
+          "language": "Korean",
+          "name": {
+            "first": "Beom Gi",
+            "last": "Hong",
+            "full": "Beom Gi Hong",
+            "native": "범기 홍",
+            "userPreferred": "Beom Gi Hong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14863.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9511,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jeep",
+        "last": null,
+        "full": "Jeep",
+        "native": null,
+        "userPreferred": "Jeep"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9511.jpg",
+      "voiceActors": [
+        {
+          "id": 95568,
+          "language": "Japanese",
+          "name": {
+            "first": "Tae",
+            "last": "Okajima",
+            "full": "Tae Okajima",
+            "native": "岡嶋妙",
+            "userPreferred": "Tae Okajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95568-LIiGKb6leaBa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9266,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kanzeon",
+        "last": "Bosatsu",
+        "full": "Kanzeon Bosatsu",
+        "native": "観世音菩薩",
+        "userPreferred": "Kanzeon Bosatsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9266.jpg",
+      "voiceActors": [
+        {
+          "id": 102524,
+          "language": "Japanese",
+          "name": {
+            "first": "Rei",
+            "last": "Igarashi",
+            "full": "Rei Igarashi",
+            "native": "五十嵐麗",
+            "userPreferred": "Rei Igarashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102524-g3nz3coVOPFS.jpg"
+        },
+        {
+          "id": 101408,
+          "language": "English",
+          "name": {
+            "first": "Melodee M.",
+            "last": "Spevack",
+            "full": "Melodee M. Spevack",
+            "native": null,
+            "userPreferred": "Melodee M. Spevack"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101408-wVBYQ6CyonkM.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 129,
+      "relationType": "PREQUEL",
+      "malId": 129,
+      "title": {
+        "romaji": "Gensou Maden Saiyuuki",
+        "english": "Saiyuki",
+        "native": "幻想魔伝 最遊記",
+        "userPreferred": "Gensou Maden Saiyuuki"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129-YjyAZNbmTGxE.png",
+      "color": "#f1e4bb",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129-YjyAZNbmTGxE.png",
+      "rating": 70
+    },
+    {
+      "id": 131,
+      "relationType": "SEQUEL",
+      "malId": 131,
+      "title": {
+        "romaji": "Saiyuuki RELOAD GUNLOCK",
+        "english": "Saiyuki Gunlock",
+        "native": "最遊記RELOAD GUNLOCK",
+        "userPreferred": "Saiyuuki RELOAD GUNLOCK"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/131.jpg",
+      "color": "#6b351a",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/131.jpg",
+      "rating": 69
+    },
+    {
+      "id": 30509,
+      "relationType": "ADAPTATION",
+      "malId": 509,
+      "title": {
+        "romaji": "Saiyuuki",
+        "english": "Saiyuki",
+        "native": "最遊記",
+        "userPreferred": "Saiyuuki"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30509-dyDz0HuHxtpZ.jpg",
+      "color": "#e4ae5d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/30509-6NiJgUrDCqmG.jpg",
+      "rating": 75
+    },
+    {
+      "id": 30510,
+      "relationType": "ADAPTATION",
+      "malId": 510,
+      "title": {
+        "romaji": "Saiyuuki RELOAD",
+        "english": "Saiyuki Reload",
+        "native": "最遊記RELOAD",
+        "userPreferred": "Saiyuuki RELOAD"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30510-kH5IOJOVe485.jpg",
+      "color": "#f1ae5d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/30510-HTIqaIWfjgM5.jpg",
+      "rating": 77
+    },
+    {
+      "id": 6434,
+      "relationType": "SIDE_STORY",
+      "malId": 6434,
+      "title": {
+        "romaji": "Saiyuki RELOAD Urasai",
+        "english": null,
+        "native": "最遊記RELOAD うら最",
+        "userPreferred": "Saiyuki RELOAD Urasai"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6434.jpg",
+      "color": "#e46b28",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6434.jpg",
+      "rating": 74
+    }
+  ],
+  "episodes": [
+    {
+      "id": "saiyuki-reload--episode-1",
+      "title": "The Bullets are Reloaded ++RUN++ ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 1,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-1"
+    },
+    {
+      "id": "saiyuki-reload--episode-2",
+      "title": "Squirming Trap ++Wanted Dead or Alive++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 2,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-2"
+    },
+    {
+      "id": "saiyuki-reload--episode-3",
+      "title": "The Most Powerful Foes in History ++Lethal Weapon++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 3,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-3"
+    },
+    {
+      "id": "saiyuki-reload--episode-4",
+      "title": "A Final Promise ++Negative Energy++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 4,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-4"
+    },
+    {
+      "id": "saiyuki-reload--episode-5",
+      "title": "Slumbering Memory ++Voice++ ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 5,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-5"
+    },
+    {
+      "id": "saiyuki-reload--episode-6",
+      "title": "Recapture ++Sad Memory++ ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 6,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-6"
+    },
+    {
+      "id": "saiyuki-reload--episode-7",
+      "title": "Tiny Pal ++Little Will++ ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 7,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-7"
+    },
+    {
+      "id": "saiyuki-reload--episode-8",
+      "title": "Delicious Cuisine ++Poison++ ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 8,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-8"
+    },
+    {
+      "id": "saiyuki-reload--episode-9",
+      "title": "The Unfallen Castle ++Self Defense++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 9,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-9"
+    },
+    {
+      "id": "saiyuki-reload--episode-10",
+      "title": "Youkai Genjo Sanzo ++Trick or Treat++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 10,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-10"
+    },
+    {
+      "id": "saiyuki-reload--episode-11",
+      "title": "Gentle Face ++Mother++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 11,
+      "createdAt": "2013-02-20T18:20:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-11"
+    },
+    {
+      "id": "saiyuki-reload--episode-12",
+      "title": "The Spirited-Away Mountain ++Tiny Dream++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 12,
+      "createdAt": "2013-02-20T18:20:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-12"
+    },
+    {
+      "id": "saiyuki-reload--episode-13",
+      "title": "Just a teeny-tiny Story ++Lovely Baby++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 13,
+      "createdAt": "2013-02-20T18:20:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-13"
+    },
+    {
+      "id": "saiyuki-reload--episode-14",
+      "title": "Murmurs of the Darkness ++Black Crow++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 14,
+      "createdAt": "2013-02-20T18:20:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-14"
+    },
+    {
+      "id": "saiyuki-reload--episode-15",
+      "title": "Premonition ++ Secret Ambition++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 15,
+      "createdAt": "2013-02-20T18:20:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-15"
+    },
+    {
+      "id": "saiyuki-reload--episode-16",
+      "title": "Footprint ++ Opposite ++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 16,
+      "createdAt": "2013-02-20T18:20:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-16"
+    },
+    {
+      "id": "saiyuki-reload--episode-17",
+      "title": "Unfulfillable Desire ++ Wish ++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 17,
+      "createdAt": "2013-02-20T18:20:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-17"
+    },
+    {
+      "id": "saiyuki-reload--episode-18",
+      "title": "Pitiful Ties ++ Critical Days ++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 18,
+      "createdAt": "2013-02-20T18:20:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-18"
+    },
+    {
+      "id": "saiyuki-reload--episode-19",
+      "title": "Kami-sama ++ Farewell ++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 19,
+      "createdAt": "2013-02-20T18:20:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-19"
+    },
+    {
+      "id": "saiyuki-reload--episode-20",
+      "title": "Prelude ++ Chase ++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 20,
+      "createdAt": "2013-02-20T18:20:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-20"
+    },
+    {
+      "id": "saiyuki-reload--episode-21",
+      "title": "Battle ++ Don't cry ++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 21,
+      "createdAt": "2013-02-20T18:20:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-21"
+    },
+    {
+      "id": "saiyuki-reload--episode-22",
+      "title": "Broken Things ++ Pain ++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 22,
+      "createdAt": "2013-02-20T18:20:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-22"
+    },
+    {
+      "id": "saiyuki-reload--episode-23",
+      "title": "The Way We Do It ++ Dawn ++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 23,
+      "createdAt": "2013-02-20T18:20:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-23"
+    },
+    {
+      "id": "saiyuki-reload--episode-24",
+      "title": "The Battle Resumes ++ Go Ahead ++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 24,
+      "createdAt": "2013-02-20T18:20:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-24"
+    },
+    {
+      "id": "saiyuki-reload--episode-25",
+      "title": "Conclusion ++ Nothing to Give ++",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130-f0o2z5QN9qeO.png",
+      "number": 25,
+      "createdAt": "2013-02-20T18:20:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saiyuki-reload--episode-25"
+    }
+  ]
+}

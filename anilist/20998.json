@@ -1,0 +1,709 @@
+{
+  "id": "20998",
+  "title": {
+    "romaji": "Robot Girls Z Plus",
+    "english": null,
+    "native": "ロボットガールズＺプラス"
+  },
+  "malId": 29035,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "bzXTk1Nhbx8",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/bzXTk1Nhbx8/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20998-gwR0zI63uuzU.jpg",
+  "popularity": 2086,
+  "color": "#2893f1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20998-gwR0zI63uuzU.jpg",
+  "description": "Based two classic \"Toei Manga Matsuri\" films, Great Mazinger tai Getter Robo (Great Mazinger Vs. Getter Robo) and Great Mazinger tai Getter Robo G - Kuuchuu Dai-Gekitotsu (Great Mazinger Vs. Getter Robo G - The Great Space Encounter).",
+  "status": "Completed",
+  "releaseDate": 2015,
+  "startDate": {
+    "year": 2015,
+    "month": 5,
+    "day": 20
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 10,
+    "day": 20
+  },
+  "totalEpisodes": 6,
+  "currentEpisode": 6,
+  "rating": 60,
+  "duration": 8,
+  "genres": [
+    "Comedy"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 88304,
+      "role": "MAIN",
+      "name": {
+        "first": "Mazinger Z",
+        "last": null,
+        "full": "Mazinger Z",
+        "native": "マジンガーZ; Zちゃん",
+        "userPreferred": "Mazinger Z"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88304.jpg",
+      "voiceActors": [
+        {
+          "id": 103805,
+          "language": "Japanese",
+          "name": {
+            "first": "Mariko",
+            "last": "Honda",
+            "full": "Mariko Honda",
+            "native": "本多真梨子",
+            "userPreferred": "Mariko Honda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103805-HvYDh8Y5Dmgi.png"
+        }
+      ]
+    },
+    {
+      "id": 88305,
+      "role": "MAIN",
+      "name": {
+        "first": "Great Mazinger",
+        "last": null,
+        "full": "Great Mazinger",
+        "native": "グレートマジンガー; グレちゃん",
+        "userPreferred": "Great Mazinger"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88305.jpg",
+      "voiceActors": [
+        {
+          "id": 106297,
+          "language": "Japanese",
+          "name": {
+            "first": "Inori",
+            "last": "Minase",
+            "full": "Inori Minase",
+            "native": "水瀬いのり",
+            "userPreferred": "Inori Minase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106297-KnzvgfxB1byY.png"
+        }
+      ]
+    },
+    {
+      "id": 88306,
+      "role": "MAIN",
+      "name": {
+        "first": "Grendizer",
+        "last": null,
+        "full": "Grendizer",
+        "native": "グレンダイザー; グレンダさん",
+        "userPreferred": "Grendizer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88306.jpg",
+      "voiceActors": [
+        {
+          "id": 106304,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazusa",
+            "last": "Aranami",
+            "full": "Kazusa Aranami",
+            "native": "荒浪和沙",
+            "userPreferred": "Kazusa Aranami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106304-Sxb9D4VBEZJQ.png"
+        }
+      ]
+    },
+    {
+      "id": 88308,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kotetsu Jeeg",
+        "last": null,
+        "full": "Kotetsu Jeeg",
+        "native": "鋼鉄ジーグ",
+        "userPreferred": "Kotetsu Jeeg"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88308.jpg",
+      "voiceActors": [
+        {
+          "id": 106492,
+          "language": "Japanese",
+          "name": {
+            "first": "Minami",
+            "last": "Tsuda",
+            "full": "Minami Tsuda",
+            "native": "津田美波",
+            "userPreferred": "Minami Tsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106492-hNpin1BODjBw.png"
+        }
+      ]
+    },
+    {
+      "id": 193961,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Getter Gai",
+        "last": null,
+        "full": "Getter Gai",
+        "native": "ゲッター凱",
+        "userPreferred": "Getter Gai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193961-xCscvagmXQsa.png",
+      "voiceActors": [
+        {
+          "id": 118663,
+          "language": "Japanese",
+          "name": {
+            "first": "Ari",
+            "last": "Ozawa",
+            "full": "Ari Ozawa",
+            "native": "小澤亜李",
+            "userPreferred": "Ari Ozawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118663-fFzQqJDtYNdA.png"
+        }
+      ]
+    },
+    {
+      "id": 18490,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Musashi",
+        "last": "Tomoe",
+        "full": "Musashi Tomoe",
+        "native": "巴武蔵",
+        "userPreferred": "Musashi Tomoe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18490.jpg",
+      "voiceActors": [
+        {
+          "id": 102713,
+          "language": "Japanese",
+          "name": {
+            "first": "Yasuhiko",
+            "last": "Kawazu",
+            "full": "Yasuhiko Kawazu",
+            "native": "川津泰彦",
+            "userPreferred": "Yasuhiko Kawazu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102713-2MmIe1hDrg1j.png"
+        }
+      ]
+    },
+    {
+      "id": 8662,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Benkei",
+        "last": "Kuruma",
+        "full": "Benkei Kuruma",
+        "native": "車弁慶",
+        "userPreferred": "Benkei Kuruma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8662.jpg",
+      "voiceActors": [
+        {
+          "id": 102713,
+          "language": "Japanese",
+          "name": {
+            "first": "Yasuhiko",
+            "last": "Kawazu",
+            "full": "Yasuhiko Kawazu",
+            "native": "川津泰彦",
+            "userPreferred": "Yasuhiko Kawazu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102713-2MmIe1hDrg1j.png"
+        }
+      ]
+    },
+    {
+      "id": 193966,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouha-juu Picdoron",
+        "last": null,
+        "full": "Kouha-juu Picdoron",
+        "native": "光波獣ピクドロン",
+        "userPreferred": "Kouha-juu Picdoron"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193966-cfGAKaoCCdos.png",
+      "voiceActors": [
+        {
+          "id": 95723,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Akesaka",
+            "full": "Satomi Akesaka",
+            "native": "明坂聡美",
+            "userPreferred": "Satomi Akesaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95723-bV625Jngt5o6.png"
+        }
+      ]
+    },
+    {
+      "id": 193953,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Boss Borot",
+        "last": null,
+        "full": "Boss Borot",
+        "native": "ボスボロット",
+        "userPreferred": "Boss Borot"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193953-f4jDZgreecby.png",
+      "voiceActors": [
+        {
+          "id": 101996,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayana",
+            "last": "Taketatsu",
+            "full": "Ayana Taketatsu",
+            "native": "竹達彩奈",
+            "userPreferred": "Ayana Taketatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101996-W14XnDV34VpO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6107,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryouma",
+        "last": "Nagare",
+        "full": "Ryouma Nagare",
+        "native": "流竜馬",
+        "userPreferred": "Ryouma Nagare"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6107-jDp1qzjQAsxL.jpg",
+      "voiceActors": [
+        {
+          "id": 95395,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsu",
+            "last": "Inada",
+            "full": "Tetsu Inada",
+            "native": "稲田徹",
+            "userPreferred": "Tetsu Inada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95395-HpxLuh4ysrzJ.png"
+        }
+      ]
+    },
+    {
+      "id": 193962,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Getter Gou",
+        "last": null,
+        "full": "Getter Gou",
+        "native": "ゲッター號",
+        "userPreferred": "Getter Gou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193962-jQxPIK7fjKjg.png",
+      "voiceActors": [
+        {
+          "id": 106236,
+          "language": "Japanese",
+          "name": {
+            "first": "Shiori",
+            "last": "Mikami",
+            "full": "Shiori Mikami",
+            "native": "三上枝織",
+            "userPreferred": "Shiori Mikami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106236-aGhlIhHPPtjc.png"
+        }
+      ]
+    },
+    {
+      "id": 193952,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ketsugou Sasori Bong",
+        "last": null,
+        "full": "Ketsugou Sasori Bong",
+        "native": "結合蠍ボング",
+        "userPreferred": "Ketsugou Sasori Bong"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193952-DcNWurA6Hl1v.png",
+      "voiceActors": [
+        {
+          "id": 117003,
+          "language": "Japanese",
+          "name": {
+            "first": "Minami",
+            "last": "Takahashi",
+            "full": "Minami Takahashi",
+            "native": "髙橋ミナミ",
+            "userPreferred": "Minami Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n117003-UucaZmQjVSV7.png"
+        }
+      ]
+    },
+    {
+      "id": 193957,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sora Majuu Grangen",
+        "last": null,
+        "full": "Sora Majuu Grangen",
+        "native": "空魔獣グランゲン",
+        "userPreferred": "Sora Majuu Grangen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193957-ZVPjOZSBlcwy.png",
+      "voiceActors": [
+        {
+          "id": 193959,
+          "language": "Japanese",
+          "name": {
+            "first": "Manami",
+            "last": "Maeda",
+            "full": "Manami Maeda",
+            "native": "前田愛美",
+            "userPreferred": "Manami Maeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n193959-i2h7qukRlV0B.png"
+        }
+      ]
+    },
+    {
+      "id": 193965,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Balking",
+        "last": null,
+        "full": "Balking",
+        "native": "バルキング",
+        "userPreferred": "Balking"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193965-usGGsvGeffWE.png",
+      "voiceActors": [
+        {
+          "id": 117329,
+          "language": "Japanese",
+          "name": {
+            "first": "Naomi",
+            "last": "Oozora",
+            "full": "Naomi Oozora",
+            "native": "大空直美",
+            "userPreferred": "Naomi Oozora"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n117329-lF0lh3HMfjRd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 193955,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Getter Dragon",
+        "last": null,
+        "full": "Getter Dragon",
+        "native": "ゲッタードラゴン",
+        "userPreferred": "Getter Dragon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193955-1xjS9Tbx5K2l.png",
+      "voiceActors": [
+        {
+          "id": 108639,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Uchida",
+            "full": "Maaya Uchida",
+            "native": "内田真礼",
+            "userPreferred": "Maaya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n108639-LLrR4WptCh5s.png"
+        }
+      ]
+    },
+    {
+      "id": 193958,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Pantheroid",
+        "last": null,
+        "full": "Pantheroid",
+        "native": "パーンサロイド",
+        "userPreferred": "Pantheroid"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193958-FDA2dEKiaI56.png",
+      "voiceActors": [
+        {
+          "id": 193960,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsumi",
+            "last": "Koike",
+            "full": "Natsumi Koike",
+            "native": "小池菜摘",
+            "userPreferred": "Natsumi Koike"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n193960-Z2hW0gvYEu1q.png"
+        }
+      ]
+    },
+    {
+      "id": 193967,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Triple Gaiking",
+        "last": null,
+        "full": "Triple Gaiking",
+        "native": "トリプルガイキング",
+        "userPreferred": "Triple Gaiking"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193967-n9LXfKq1kgNR.png",
+      "voiceActors": [
+        {
+          "id": 141558,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Takaoka",
+            "full": "Kaori Takaoka",
+            "native": "高岡香",
+            "userPreferred": "Kaori Takaoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141558-pvI1Yw4BhY1a.jpg"
+        }
+      ]
+    },
+    {
+      "id": 193954,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Getter Posedon",
+        "last": null,
+        "full": "Getter Posedon",
+        "native": "ゲッターポセドン",
+        "userPreferred": "Getter Posedon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193954-4krP8DhpSGcy.png",
+      "voiceActors": [
+        {
+          "id": 106641,
+          "language": "Japanese",
+          "name": {
+            "first": "Misaki",
+            "last": "Kuno",
+            "full": "Misaki Kuno",
+            "native": "久野美咲",
+            "userPreferred": "Misaki Kuno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106641-zsyRkJ74NXvE.png"
+        }
+      ]
+    },
+    {
+      "id": 8663,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hayato",
+        "last": "Jin",
+        "full": "Hayato Jin",
+        "native": "神隼人",
+        "userPreferred": "Hayato Jin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8663.jpg",
+      "voiceActors": [
+        {
+          "id": 95576,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiji",
+            "last": "Takemoto",
+            "full": "Eiji Takemoto",
+            "native": "竹本英史",
+            "userPreferred": "Eiji Takemoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95576-daJz6YMxGaX6.png"
+        }
+      ]
+    },
+    {
+      "id": 193968,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Raiking",
+        "last": null,
+        "full": "Raiking",
+        "native": "ライキング",
+        "userPreferred": "Raiking"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193968-BMAWMHzsHwwz.png",
+      "voiceActors": [
+        {
+          "id": 109409,
+          "language": "Japanese",
+          "name": {
+            "first": "Emi",
+            "last": "Nitta",
+            "full": "Emi Nitta",
+            "native": "新田恵海",
+            "userPreferred": "Emi Nitta"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109409-TKu56WtuAxMx.png"
+        }
+      ]
+    },
+    {
+      "id": 194850,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gilgilgan",
+        "last": null,
+        "full": "Gilgilgan",
+        "native": "ギルギルガン",
+        "userPreferred": "Gilgilgan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b194850-WQgZSyJiUPU6.png",
+      "voiceActors": [
+        {
+          "id": 95275,
+          "language": "Japanese",
+          "name": {
+            "first": "Mariko",
+            "last": "Kouda",
+            "full": "Mariko Kouda",
+            "native": "國府田マリ子",
+            "userPreferred": "Mariko Kouda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95275-qm6Ep9IcLAv7.png"
+        }
+      ]
+    },
+    {
+      "id": 193956,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Getter Liger",
+        "last": null,
+        "full": "Getter Liger",
+        "native": "ゲッターライガー",
+        "userPreferred": "Getter Liger"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193956-M5lS7fUfNyYh.png",
+      "voiceActors": [
+        {
+          "id": 95380,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayuri",
+            "last": "Yahagi",
+            "full": "Sayuri Yahagi",
+            "native": "矢作紗友里",
+            "userPreferred": "Sayuri Yahagi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95380-mOdqKPb6xYnI.png"
+        }
+      ]
+    },
+    {
+      "id": 193963,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Getter Shou",
+        "last": null,
+        "full": "Getter Shou",
+        "native": "ゲッター翔",
+        "userPreferred": "Getter Shou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193963-tWtx7R1dJo8W.png",
+      "voiceActors": [
+        {
+          "id": 131075,
+          "language": "Japanese",
+          "name": {
+            "first": "Emi",
+            "last": "Hirayama",
+            "full": "Emi Hirayama",
+            "native": "平山笑美",
+            "userPreferred": "Emi Hirayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n131075-Pqf4pDPhBriB.png"
+        }
+      ]
+    },
+    {
+      "id": 193975,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shokuin",
+        "last": null,
+        "full": "Shokuin",
+        "native": "職員",
+        "userPreferred": "Shokuin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193975-8xHLeweQq48d.png",
+      "voiceActors": [
+        {
+          "id": 193976,
+          "language": "Japanese",
+          "name": {
+            "first": "Miku",
+            "last": "Tanabe",
+            "full": "Miku Tanabe",
+            "native": "田名部生来",
+            "userPreferred": "Miku Tanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n193976-WlH7pcLHeNU0.png"
+        }
+      ]
+    },
+    {
+      "id": 193980,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Go",
+        "last": "Nagai",
+        "full": "Go Nagai",
+        "native": "永井豪",
+        "userPreferred": "Go Nagai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193980-W2tfiQpBbAiO.png",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 19799,
+      "relationType": "PREQUEL",
+      "malId": 19799,
+      "title": {
+        "romaji": "Robot Girls Z",
+        "english": null,
+        "native": "ロボットガールズＺ",
+        "userPreferred": "Robot Girls Z"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19799-v2FsN9odXqiR.jpg",
+      "color": "#35a1e4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/19799-8eKE4UaB2ufZ.jpg",
+      "rating": 63
+    }
+  ],
+  "episodes": []
+}

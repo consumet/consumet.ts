@@ -1,0 +1,407 @@
+{
+  "id": "19315",
+  "title": {
+    "romaji": "Pupa",
+    "english": null,
+    "native": "ピューパ"
+  },
+  "malId": 19315,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19315-VV7QVUnw4wNT.jpg",
+  "popularity": 35217,
+  "color": "#d61a43",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/19315.jpg",
+  "description": "The \"life-and-death sibling\" story follows Utsutsu and Yume Hasegawa, a boy and his little sister who find themselves all alone. One day, Yume sees a mysterious red butterfly and her body undergoes a strange metamorphosis—into a creature that eats humans. Utsutsu struggles to find a way to restore his sister.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2014,
+  "startDate": {
+    "year": 2014,
+    "month": 1,
+    "day": 10
+  },
+  "endDate": {
+    "year": 2014,
+    "month": 3,
+    "day": 28
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 27,
+  "duration": 4,
+  "genres": [
+    "Drama",
+    "Fantasy",
+    "Horror",
+    "Psychological"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Studio DEEN"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 226,
+      "malId": 226,
+      "title": {
+        "romaji": "Elfen Lied",
+        "english": "Elfen Lied",
+        "native": "エルフェンリート",
+        "userPreferred": "Elfen Lied"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx226-vqteB2impeYH.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/226.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 20605,
+      "malId": 22319,
+      "title": {
+        "romaji": "Tokyo Ghoul",
+        "english": "Tokyo Ghoul",
+        "native": "東京喰種 トーキョーグール",
+        "userPreferred": "Tokyo Ghoul"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20605-fmnHdfurM7m6.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20605-RCJ7M71zLmrh.jpg",
+      "rating": 75,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 136248,
+      "role": "MAIN",
+      "name": {
+        "first": "Utsutsu",
+        "last": "Hasegawa",
+        "full": "Utsutsu Hasegawa",
+        "native": "長谷川現",
+        "userPreferred": "Utsutsu Hasegawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136248-KYDmxTZUvqBt.png",
+      "voiceActors": [
+        {
+          "id": 105989,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobunaga",
+            "last": "Shimazaki",
+            "full": "Nobunaga Shimazaki",
+            "native": "島崎信長",
+            "userPreferred": "Nobunaga Shimazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105989-96etzH1dLNug.jpg"
+        }
+      ]
+    },
+    {
+      "id": 136249,
+      "role": "MAIN",
+      "name": {
+        "first": "Yume",
+        "last": "Hasegawa",
+        "full": "Yume Hasegawa",
+        "native": "長谷川夢",
+        "userPreferred": "Yume Hasegawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136249-cWgBWtzEMYWw.png",
+      "voiceActors": [
+        {
+          "id": 112091,
+          "language": "Japanese",
+          "name": {
+            "first": "Ibuki",
+            "last": "Kido",
+            "full": "Ibuki Kido",
+            "native": "木戸衣吹",
+            "userPreferred": "Ibuki Kido"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112091-aO2WqvCmTFz9.png"
+        }
+      ]
+    },
+    {
+      "id": 216690,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ai",
+        "last": "Imari",
+        "full": "Ai Imari",
+        "native": "伊万里愛",
+        "userPreferred": "Ai Imari"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b216690-WqlDSQ2NQOLe.png",
+      "voiceActors": [
+        {
+          "id": 113455,
+          "language": "Japanese",
+          "name": {
+            "first": "Kyouko",
+            "last": "Narumi",
+            "full": "Kyouko Narumi",
+            "native": "鳴海杏子",
+            "userPreferred": "Kyouko Narumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/18455.jpg"
+        }
+      ]
+    },
+    {
+      "id": 317194,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sachiko",
+        "last": "Hasegawa",
+        "full": "Sachiko Hasegawa",
+        "native": "長谷川幸子",
+        "userPreferred": "Sachiko Hasegawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b317194-WwDt79duYT5L.png",
+      "voiceActors": [
+        {
+          "id": 95040,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamiko",
+            "last": "Noto",
+            "full": "Mamiko Noto",
+            "native": "能登麻美子",
+            "userPreferred": "Mamiko Noto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95040-CskhFn4LiOti.jpg"
+        }
+      ]
+    },
+    {
+      "id": 317196,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yamamoto",
+        "last": null,
+        "full": "Yamamoto",
+        "native": "山本",
+        "userPreferred": "Yamamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b317196-fwlDUVPxH6np.png",
+      "voiceActors": []
+    },
+    {
+      "id": 317195,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shirou",
+        "last": "Onijima",
+        "full": "Shirou Onijima",
+        "native": "鬼島四郎",
+        "userPreferred": "Shirou Onijima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b317195-xoQej1bNRVDa.png",
+      "voiceActors": [
+        {
+          "id": 95068,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Yusa",
+            "full": "Kouji Yusa",
+            "native": "遊佐浩二",
+            "userPreferred": "Kouji Yusa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95068-nf823DpvyKof.jpg"
+        }
+      ]
+    },
+    {
+      "id": 317197,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuhei",
+        "last": "Arita",
+        "full": "Yuuhei Arita",
+        "native": "有田雄平",
+        "userPreferred": "Yuuhei Arita"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b317197-G4uT3ZRVoPYB.png",
+      "voiceActors": [
+        {
+          "id": 119832,
+          "language": "Japanese",
+          "name": {
+            "first": "Koudai",
+            "last": "Sakai",
+            "full": "Koudai Sakai",
+            "native": "酒井広大",
+            "userPreferred": "Koudai Sakai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119832-6UV28VP1MXWI.png"
+        }
+      ]
+    },
+    {
+      "id": 317198,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hotoki",
+        "last": null,
+        "full": "Hotoki",
+        "native": "仏木",
+        "userPreferred": "Hotoki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b317198-5qaxzructgZK.png",
+      "voiceActors": [
+        {
+          "id": 95591,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenjirou",
+            "last": "Tsuda",
+            "full": "Kenjirou Tsuda",
+            "native": "津田健次郎",
+            "userPreferred": "Kenjirou Tsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95591-WQGdD3ubbeoq.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 75613,
+      "relationType": "ADAPTATION",
+      "malId": 45613,
+      "title": {
+        "romaji": "pupa",
+        "english": "Pupa",
+        "native": "pupa",
+        "userPreferred": "pupa"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx75613-BR9QmBWrmjgQ.jpg",
+      "color": "#e4a128",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/75613-zL8EgX4NgFee.jpg",
+      "rating": 50
+    }
+  ],
+  "episodes": [
+    {
+      "id": "pupa-episode-1",
+      "title": "Emergence",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113450/original.jpg",
+      "number": 1,
+      "createdAt": "2014-01-07T05:12:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pupa-episode-1"
+    },
+    {
+      "id": "pupa-episode-2",
+      "title": "Sting",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113451/original.jpg",
+      "number": 2,
+      "createdAt": "2014-01-07T05:12:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pupa-episode-2"
+    },
+    {
+      "id": "pupa-episode-3",
+      "title": "Tiger Beetle",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113452/original.jpg",
+      "number": 3,
+      "createdAt": "2014-01-07T05:12:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pupa-episode-3"
+    },
+    {
+      "id": "pupa-episode-4",
+      "title": "Squirm",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113453/original.jpg",
+      "number": 4,
+      "createdAt": "2014-01-07T05:12:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pupa-episode-4"
+    },
+    {
+      "id": "pupa-episode-5",
+      "title": "Tadpole",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113454/original.jpg",
+      "number": 5,
+      "createdAt": "2014-01-07T05:12:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pupa-episode-5"
+    },
+    {
+      "id": "pupa-episode-6",
+      "title": "Encroach",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113455/original.jpg",
+      "number": 6,
+      "createdAt": "2014-01-07T05:12:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pupa-episode-6"
+    },
+    {
+      "id": "pupa-episode-7",
+      "title": "Incubation",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113456/original.jpg",
+      "number": 7,
+      "createdAt": "2014-01-07T05:12:26Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pupa-episode-7"
+    },
+    {
+      "id": "pupa-episode-8",
+      "title": "Caterpillar",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113457/original.jpg",
+      "number": 8,
+      "createdAt": "2014-01-07T05:12:26Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pupa-episode-8"
+    },
+    {
+      "id": "pupa-episode-9",
+      "title": "Specimen",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113458/original.jpg",
+      "number": 9,
+      "createdAt": "2014-01-07T05:12:26Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pupa-episode-9"
+    },
+    {
+      "id": "pupa-episode-10",
+      "title": "Poison Curse",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113459/original.jpg",
+      "number": 10,
+      "createdAt": "2014-01-07T05:12:26Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pupa-episode-10"
+    },
+    {
+      "id": "pupa-episode-11",
+      "title": "Pupation",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113460/original.jpg",
+      "number": 11,
+      "createdAt": "2014-01-07T05:12:26Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pupa-episode-11"
+    },
+    {
+      "id": "pupa-episode-12",
+      "title": "Larva",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113461/original.jpg",
+      "number": 12,
+      "createdAt": "2014-01-07T05:12:26Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pupa-episode-12"
+    }
+  ]
+}

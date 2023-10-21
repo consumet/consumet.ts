@@ -1,0 +1,750 @@
+{
+  "id": "101126",
+  "title": {
+    "romaji": "Macross Δ: Gekijou no Walküre",
+    "english": null,
+    "native": "劇場版マクロスΔ　激情のワルキューレ"
+  },
+  "malId": 36077,
+  "synonyms": [
+    "Macross Delta: Gekijou no Walküre",
+    "Macross Δ: Passionate Walküre",
+    "Macross Δ Movie: Gekijou no Walküre",
+    "Gekijouban Macross Δ: Gekijou no Walkure"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101126-EkTBTjUhjsfH.jpg",
+  "popularity": 3372,
+  "color": "#e4ae0d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101126-EkTBTjUhjsfH.jpg",
+  "description": "The film will recompile scenes from the television anime with new scenes to tell a different story, to maximize the storytelling potential of the shorter runtime but larger medium. It will have at least one new song and enhanced battle sequences.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2018,
+  "startDate": {
+    "year": 2018,
+    "month": 2,
+    "day": 9
+  },
+  "endDate": {
+    "year": 2018,
+    "month": 2,
+    "day": 9
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 65,
+  "duration": 120,
+  "genres": [
+    "Action",
+    "Mecha",
+    "Music",
+    "Romance",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Satelight"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 90100,
+      "role": "MAIN",
+      "name": {
+        "first": "Mirage",
+        "last": "Farina Jenius",
+        "full": "Mirage Farina Jenius",
+        "native": "ミラージュ・ファリーナ・ジーナス",
+        "userPreferred": "Mirage Farina Jenius"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/90100-jNaCAsH8XNQT.jpg",
+      "voiceActors": [
+        {
+          "id": 106787,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Seto",
+            "full": "Asami Seto",
+            "native": "瀬戸麻沙美",
+            "userPreferred": "Asami Seto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106787-pNRFEiywJuEx.png"
+        }
+      ]
+    },
+    {
+      "id": 90101,
+      "role": "MAIN",
+      "name": {
+        "first": "Freyja",
+        "last": "Wion",
+        "full": "Freyja Wion",
+        "native": "フレイア・ヴィオン",
+        "userPreferred": "Freyja Wion"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b90101-Cj2zBEbVPgOg.jpg",
+      "voiceActors": [
+        {
+          "id": 120134,
+          "language": "Japanese",
+          "name": {
+            "first": "Minori",
+            "last": "Suzuki",
+            "full": "Minori Suzuki",
+            "native": "鈴木みのり",
+            "userPreferred": "Minori Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120134-RJ2camxQoR5E.jpg"
+        }
+      ]
+    },
+    {
+      "id": 90102,
+      "role": "MAIN",
+      "name": {
+        "first": "Hayate",
+        "last": "Immelmann",
+        "full": "Hayate Immelmann",
+        "native": "ハヤテ・インメルマン",
+        "userPreferred": "Hayate Immelmann"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b90102-NXLHYfR7Dijg.jpg",
+      "voiceActors": [
+        {
+          "id": 119617,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuma",
+            "last": "Uchida",
+            "full": "Yuuma Uchida",
+            "native": "内田雄馬",
+            "userPreferred": "Yuuma Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119617-icFDk96OdV5k.png"
+        }
+      ]
+    },
+    {
+      "id": 90103,
+      "role": "MAIN",
+      "name": {
+        "first": "Mikumo",
+        "last": "Guynemer",
+        "full": "Mikumo Guynemer",
+        "native": "美雲・ギンヌメール",
+        "userPreferred": "Mikumo Guynemer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/90103-JzoZor6mykQb.png",
+      "voiceActors": [
+        {
+          "id": 123119,
+          "language": "Japanese",
+          "name": {
+            "first": "JUNNA",
+            "last": "",
+            "full": "JUNNA",
+            "native": "ジュンナ",
+            "userPreferred": "JUNNA"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n123119-m5FKZNQUOy5Q.jpg"
+        },
+        {
+          "id": 95070,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Koshimizu",
+            "full": "Ami Koshimizu",
+            "native": "小清水亜美",
+            "userPreferred": "Ami Koshimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95070-klkIfKz1VItS.png"
+        }
+      ]
+    },
+    {
+      "id": 90104,
+      "role": "MAIN",
+      "name": {
+        "first": "Kaname",
+        "last": "Buccaneer",
+        "full": "Kaname Buccaneer",
+        "native": "カナメ・バッカニア",
+        "userPreferred": "Kaname Buccaneer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/90104-STrs2RarX5tl.png",
+      "voiceActors": [
+        {
+          "id": 107711,
+          "language": "Japanese",
+          "name": {
+            "first": "Kiyono",
+            "last": "Yasuno",
+            "full": "Kiyono Yasuno",
+            "native": "安野希世乃",
+            "userPreferred": "Kiyono Yasuno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107711-xaS7giEK9UIU.png"
+        }
+      ]
+    },
+    {
+      "id": 90106,
+      "role": "MAIN",
+      "name": {
+        "first": "Reina",
+        "last": "Prowler",
+        "full": "Reina Prowler",
+        "native": "レイナ・プラウラー",
+        "userPreferred": "Reina Prowler"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/90106-1PsYjAE9ujSS.png",
+      "voiceActors": [
+        {
+          "id": 106184,
+          "language": "Japanese",
+          "name": {
+            "first": "Nao",
+            "last": "Touyama",
+            "full": "Nao Touyama",
+            "native": "東山奈央",
+            "userPreferred": "Nao Touyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106184-rFA0sHFJrbk4.png"
+        }
+      ]
+    },
+    {
+      "id": 90105,
+      "role": "MAIN",
+      "name": {
+        "first": "Makina",
+        "last": "Nakajima",
+        "full": "Makina Nakajima",
+        "native": "マキナ・中島",
+        "userPreferred": "Makina Nakajima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/90105-Be9VBLDZtR4I.png",
+      "voiceActors": [
+        {
+          "id": 120135,
+          "language": "Japanese",
+          "name": {
+            "first": "Nozomi",
+            "last": "Nishida",
+            "full": "Nozomi Nishida",
+            "native": "西田望見",
+            "userPreferred": "Nozomi Nishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/25135-Jb0j6URXYw2r.jpg"
+        }
+      ]
+    },
+    {
+      "id": 213563,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ernest",
+        "last": "Johnson",
+        "full": "Ernest Johnson",
+        "native": "アーネスト・ジョンソン",
+        "userPreferred": "Ernest Johnson"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b213563-YZ3Png2A8V2M.png",
+      "voiceActors": [
+        {
+          "id": 95357,
+          "language": "Japanese",
+          "name": {
+            "first": "Unshou",
+            "last": "Ishizuka",
+            "full": "Unshou Ishizuka",
+            "native": "石塚運昇",
+            "userPreferred": "Unshou Ishizuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95357-umndcceko65h.png"
+        }
+      ]
+    },
+    {
+      "id": 198381,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Messer ",
+        "last": "Ihlefeld",
+        "full": "Messer  Ihlefeld",
+        "native": "メッサー・イーレフェルト",
+        "userPreferred": "Messer  Ihlefeld"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b198381-WeMnTUpTA4QP.jpg",
+      "voiceActors": [
+        {
+          "id": 96764,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouki",
+            "last": "Uchiyama",
+            "full": "Kouki Uchiyama",
+            "native": "内山昂輝",
+            "userPreferred": "Kouki Uchiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96764-yJWGrhjanDJQ.png"
+        }
+      ]
+    },
+    {
+      "id": 213562,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Xao",
+        "last": "Jussila",
+        "full": "Xao Jussila",
+        "native": "ザオ・ユッシラ",
+        "userPreferred": "Xao Jussila"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b213562-u36HfTRcPAbS.png",
+      "voiceActors": [
+        {
+          "id": 197943,
+          "language": "Japanese",
+          "name": {
+            "first": "Kei",
+            "last": "Minegishi",
+            "full": "Kei Minegishi",
+            "native": "峰岸佳",
+            "userPreferred": "Kei Minegishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197943-RBC6BlK0ecPC.jpg"
+        }
+      ]
+    },
+    {
+      "id": 213552,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Arad",
+        "last": "Mölders",
+        "full": "Arad Mölders",
+        "native": "アラド・メルダース",
+        "userPreferred": "Arad Mölders"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b213552-Gk0vn0feEdYw.png",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 213561,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Heinz",
+        "last": "Nehrich Windermere",
+        "full": "Heinz Nehrich Windermere",
+        "native": "ハインツ・ネーリッヒ・ウィンダミア",
+        "userPreferred": "Heinz Nehrich Windermere"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b213561-2i1wpeqZuVWT.png",
+      "voiceActors": [
+        {
+          "id": 95671,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Terasaki",
+            "full": "Yuka Terasaki",
+            "native": "寺崎裕香",
+            "userPreferred": "Yuka Terasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95671-iXGq2oxE1DlW.png"
+        }
+      ]
+    },
+    {
+      "id": 213555,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Theo",
+        "last": "Jussila",
+        "full": "Theo Jussila",
+        "native": "テオ・ユッシラ",
+        "userPreferred": "Theo Jussila"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b213555-iA6ydMGwyBxG.png",
+      "voiceActors": [
+        {
+          "id": 197943,
+          "language": "Japanese",
+          "name": {
+            "first": "Kei",
+            "last": "Minegishi",
+            "full": "Kei Minegishi",
+            "native": "峰岸佳",
+            "userPreferred": "Kei Minegishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197943-RBC6BlK0ecPC.jpg"
+        }
+      ]
+    },
+    {
+      "id": 213567,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nina",
+        "last": "O'Brien",
+        "full": "Nina O'Brien",
+        "native": "ニナ・オブライエン",
+        "userPreferred": "Nina O'Brien"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b213567-r7XFR8XUqIFJ.png",
+      "voiceActors": [
+        {
+          "id": 141516,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuu",
+            "last": "Tsuji ",
+            "full": "Miyuu Tsuji ",
+            "native": "辻美優 ",
+            "userPreferred": "Miyuu Tsuji "
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141516-9v95VEoX30vt.jpg"
+        }
+      ]
+    },
+    {
+      "id": 213565,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chuck",
+        "last": "Mustang",
+        "full": "Chuck Mustang",
+        "native": "チャック・マスタング",
+        "userPreferred": "Chuck Mustang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b213565-O1WJENUFHFev.png",
+      "voiceActors": [
+        {
+          "id": 95410,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinji",
+            "last": "Kawada",
+            "full": "Shinji Kawada",
+            "native": "川田紳司",
+            "userPreferred": "Shinji Kawada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95410-AosJKUc7YZXE.jpg"
+        }
+      ]
+    },
+    {
+      "id": 213566,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Roid",
+        "last": "Brehm",
+        "full": "Roid Brehm",
+        "native": "ロイド・ブレーム",
+        "userPreferred": "Roid Brehm"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b213566-lgjZMqXpA6Iy.png",
+      "voiceActors": [
+        {
+          "id": 115156,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaito",
+            "last": "Ishikawa",
+            "full": "Kaito Ishikawa",
+            "native": "石川界人",
+            "userPreferred": "Kaito Ishikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115156-ngYfqBazlxYQ.png"
+        }
+      ]
+    },
+    {
+      "id": 213560,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Beth",
+        "last": "Muscat",
+        "full": "Beth Muscat",
+        "native": "ベス・マスカット",
+        "userPreferred": "Beth Muscat"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b213560-ktgrgHYNuqP5.png",
+      "voiceActors": [
+        {
+          "id": 105207,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuu",
+            "last": "Sawai",
+            "full": "Miyuu Sawai",
+            "native": "沢井美優",
+            "userPreferred": "Miyuu Sawai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105207-KRX0WfR8Qc9E.png"
+        }
+      ]
+    },
+    {
+      "id": 213558,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bogue",
+        "last": "Con-Vaart",
+        "full": "Bogue Con-Vaart",
+        "native": "ボーグ・コンファールト",
+        "userPreferred": "Bogue Con-Vaart"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b213558-BXEYkwzGPH3k.png",
+      "voiceActors": [
+        {
+          "id": 95857,
+          "language": "Japanese",
+          "name": {
+            "first": "KENN",
+            "last": "",
+            "full": "KENN",
+            "native": "KENN",
+            "userPreferred": "KENN"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95857-oHOhHwEDyAlL.png"
+        }
+      ]
+    },
+    {
+      "id": 213564,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keith",
+        "last": "Aero Windermere",
+        "full": "Keith Aero Windermere",
+        "native": "キース・エアロ・ウィンダミア",
+        "userPreferred": "Keith Aero Windermere"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b213564-Z5Ehx2Uwp4Hg.png",
+      "voiceActors": [
+        {
+          "id": 96762,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouhei",
+            "last": "Kimura",
+            "full": "Ryouhei Kimura",
+            "native": "木村良平",
+            "userPreferred": "Ryouhei Kimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96762-DNKMFBA2vWRr.jpg"
+        }
+      ]
+    },
+    {
+      "id": 213551,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Herman",
+        "last": "Kroos",
+        "full": "Herman Kroos",
+        "native": "ヘルマン・クロース",
+        "userPreferred": "Herman Kroos"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b213551-Zmb9ov3P0FXP.png",
+      "voiceActors": [
+        {
+          "id": 105675,
+          "language": "Japanese",
+          "name": {
+            "first": "Daichi",
+            "last": "Endou",
+            "full": "Daichi Endou",
+            "native": "遠藤大智",
+            "userPreferred": "Daichi Endou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105675-XnR4PwkkKbRH.jpg"
+        }
+      ]
+    },
+    {
+      "id": 213574,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Claire",
+        "last": "Paddle",
+        "full": "Claire Paddle",
+        "native": "クレア・パドル",
+        "userPreferred": "Claire Paddle"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b213574-MBcJAwa7Yzt3.png",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 142937,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mizuki",
+        "last": "Yuri",
+        "full": "Mizuki Yuri",
+        "native": "ミズキ・ユーリ",
+        "userPreferred": "Mizuki Yuri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b142937-C2mVj3AwRSPh.jpg",
+      "voiceActors": [
+        {
+          "id": 135405,
+          "language": "Japanese",
+          "name": {
+            "first": "Wakana",
+            "last": "Minami",
+            "full": "Wakana Minami",
+            "native": "美波わかな",
+            "userPreferred": "Wakana Minami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n135405-kxXMGBZyQCbx.png"
+        }
+      ]
+    },
+    {
+      "id": 213559,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kassim",
+        "last": "Eberhardt",
+        "full": "Kassim Eberhardt",
+        "native": "カシム・エーベルハルト",
+        "userPreferred": "Kassim Eberhardt"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b213559-Ot525pScULfP.png",
+      "voiceActors": [
+        {
+          "id": 154090,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinnosuke",
+            "last": "Ogami ",
+            "full": "Shinnosuke Ogami ",
+            "native": "拝真之介",
+            "userPreferred": "Shinnosuke Ogami "
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n154090-VbzpIPxbXM5q.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 122675,
+      "relationType": "SIDE_STORY",
+      "malId": 38676,
+      "title": {
+        "romaji": "Macross Δ: Gekijoban Delta Shougekijou",
+        "english": null,
+        "native": "げきじょうばんでるた小劇場",
+        "userPreferred": "Macross Δ: Gekijoban Delta Shougekijou"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b122675-mZooqTdnCpGg.png",
+      "color": "#5078f1",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/122675-IsaZKYNAUkYh.jpg",
+      "rating": 51
+    },
+    {
+      "id": 122678,
+      "relationType": "SIDE_STORY",
+      "malId": 38676,
+      "title": {
+        "romaji": "Macross Δ: Pajama no Megami-tachi",
+        "english": null,
+        "native": "パジャマの女神達",
+        "userPreferred": "Macross Δ: Pajama no Megami-tachi"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b122678-20IiELnXCr1L.png",
+      "color": "#f1865d",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/122678-zEceHudrVCmk.jpg",
+      "rating": 59
+    },
+    {
+      "id": 20680,
+      "relationType": "ALTERNATIVE",
+      "malId": 28013,
+      "title": {
+        "romaji": "Macross Δ",
+        "english": null,
+        "native": "マクロスΔ",
+        "userPreferred": "Macross Δ"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20680-IVFFnv8oXahy.jpg",
+      "color": "#e44343",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20680-S1KKV9DLwPm2.jpg",
+      "rating": 70
+    },
+    {
+      "id": 118126,
+      "relationType": "SEQUEL",
+      "malId": 38373,
+      "title": {
+        "romaji": "Macross Δ: Zettai LIVE!!!!!!",
+        "english": null,
+        "native": "劇場版マクロスΔ 絶対LIVE!!!!!!",
+        "userPreferred": "Macross Δ: Zettai LIVE!!!!!!"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx118126-kcHtcMuSH3P6.png",
+      "color": "#e4935d",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/118126-5Ky0dNN1DoSv.jpg",
+      "rating": 78
+    }
+  ],
+  "episodes": [
+    {
+      "id": "macross-d-movie-gekijou-no-walkure-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101126-EkTBTjUhjsfH.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//macross-d-movie-gekijou-no-walkure-episode-1"
+    }
+  ]
+}

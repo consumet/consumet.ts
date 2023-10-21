@@ -1,0 +1,924 @@
+{
+  "id": "252",
+  "title": {
+    "romaji": "Madlax",
+    "english": null,
+    "native": "マドラックス"
+  },
+  "malId": 252,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx252-VPLN6O7v18RC.png",
+  "popularity": 6961,
+  "color": "#f1a150",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/252-VhuaDuAJowmp.jpg",
+  "description": "In the country of Gazth-Sonika, civil war rages. There, a mercenary called Madlax plies her trade, with almost supernatural skill. In the seemingly peaceful country of Nafrece, Margaret Burton lives a tranquil life. As separate as their lives may seem, the two are connected by ties of mystery, and by a holy book that is also sought by the shadowy organisation, Anfan. As Margaret and Madlax follow the path of their destiny, they come ever closer to uncovering the truth - with no guarantee that it is a truth they can bear to learn.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2004,
+  "startDate": {
+    "year": 2004,
+    "month": 4,
+    "day": 5
+  },
+  "endDate": {
+    "year": 2004,
+    "month": 9,
+    "day": 27
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 65,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Drama",
+    "Mystery",
+    "Psychological",
+    "Supernatural"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Bee Train"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 2030,
+      "malId": 2030,
+      "title": {
+        "romaji": "El Cazador",
+        "english": "El Cazador de la Bruja",
+        "native": "エル・カザド",
+        "userPreferred": "El Cazador"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2030-ZzuSiixHIRRg.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2030-ZzuSiixHIRRg.png",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 272,
+      "malId": 272,
+      "title": {
+        "romaji": "Noir",
+        "english": null,
+        "native": "ノワール",
+        "userPreferred": "Noir"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx272-e2hCtZneansZ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n272-FvZK2wFXEuay.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 5682,
+      "malId": 5682,
+      "title": {
+        "romaji": "Phantom: Requiem for the Phantom",
+        "english": "Phantom: Requiem for the Phantom",
+        "native": "Phantom 〜Requiem for the Phantom〜",
+        "userPreferred": "Phantom: Requiem for the Phantom"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5682-13S0UNmJInAE.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5682-a82hdGCnapUe.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 134,
+      "malId": 134,
+      "title": {
+        "romaji": "GUNSLINGER GIRL",
+        "english": "Gunslinger Girl",
+        "native": "GUNSLINGER GIRL",
+        "userPreferred": "GUNSLINGER GIRL"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx134-f3dmmMOijYdn.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/134-tg9PX9ry53fz.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 1704,
+      "malId": 1704,
+      "title": {
+        "romaji": "EAT-MAN",
+        "english": null,
+        "native": "EAT-MAN",
+        "userPreferred": "EAT-MAN"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1704-qTN7Fy5TfE1A.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1704-WWjJcLGnto0P.jpg",
+      "rating": 58,
+      "type": "TV"
+    },
+    {
+      "id": 5356,
+      "malId": 5356,
+      "title": {
+        "romaji": "Canaan",
+        "english": null,
+        "native": "カナン",
+        "userPreferred": "Canaan"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5356-RRwXlRIIYe7g.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5356-HhX084YNmr86.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 143270,
+      "malId": 50709,
+      "title": {
+        "romaji": "Lycoris Recoil",
+        "english": "Lycoris Recoil",
+        "native": "リコリス・リコイル",
+        "userPreferred": "Lycoris Recoil"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143270-iZOJX2DMUFMC.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/143270-Ivjs2nVpARtS.jpg",
+      "rating": 81,
+      "type": "TV"
+    },
+    {
+      "id": 56,
+      "malId": 56,
+      "title": {
+        "romaji": "Avenger",
+        "english": null,
+        "native": "アヴェンジャー",
+        "userPreferred": "Avenger"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b56-u0q9CHIgtbQG.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b56-u0q9CHIgtbQG.jpg",
+      "rating": 53,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 3818,
+      "role": "MAIN",
+      "name": {
+        "first": "Vanessa",
+        "last": "Rene",
+        "full": "Vanessa Rene",
+        "native": "ヴァネッサ・レネ",
+        "userPreferred": "Vanessa Rene"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3818.jpg",
+      "voiceActors": [
+        {
+          "id": 95003,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsuki",
+            "last": "Yukino",
+            "full": "Satsuki Yukino",
+            "native": "ゆきのさつき",
+            "userPreferred": "Satsuki Yukino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95003-Du7wb5JJzb8P.png"
+        },
+        {
+          "id": 95607,
+          "language": "English",
+          "name": {
+            "first": "Kelly",
+            "last": "Manison",
+            "full": "Kelly Manison",
+            "native": null,
+            "userPreferred": "Kelly Manison"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/607.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3832,
+      "role": "MAIN",
+      "name": {
+        "first": "Friday",
+        "last": "Monday",
+        "full": "Friday Monday",
+        "native": "フライデー・マンデー",
+        "userPreferred": "Friday Monday"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3832.jpg",
+      "voiceActors": [
+        {
+          "id": 95179,
+          "language": "Japanese",
+          "name": {
+            "first": "Masashi",
+            "last": "Ebara",
+            "full": "Masashi Ebara",
+            "native": "江原正士",
+            "userPreferred": "Masashi Ebara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95179-ZXxATX9muGcD.png"
+        },
+        {
+          "id": 96604,
+          "language": "English",
+          "name": {
+            "first": "Mike",
+            "last": "Kleinhenz",
+            "full": "Mike Kleinhenz",
+            "native": null,
+            "userPreferred": "Mike Kleinhenz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1604.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3833,
+      "role": "MAIN",
+      "name": {
+        "first": "Carrossea",
+        "last": "Doon",
+        "full": "Carrossea Doon",
+        "native": "カロッスア・ドゥーン",
+        "userPreferred": "Carrossea Doon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3833.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        },
+        {
+          "id": 95043,
+          "language": "English",
+          "name": {
+            "first": "Vic",
+            "last": "Mignogna",
+            "full": "Vic Mignogna",
+            "native": "Victor Joseph Mignogna",
+            "userPreferred": "Vic Mignogna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95043-cgQunZolvkPW.png"
+        }
+      ]
+    },
+    {
+      "id": 3834,
+      "role": "MAIN",
+      "name": {
+        "first": "Margaret",
+        "last": "Burton",
+        "full": "Margaret Burton",
+        "native": "マーガレット・バートン",
+        "userPreferred": "Margaret Burton"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3834.jpg",
+      "voiceActors": [
+        {
+          "id": 95057,
+          "language": "Japanese",
+          "name": {
+            "first": "Houko",
+            "last": "Kuwashima",
+            "full": "Houko Kuwashima",
+            "native": "桑島法子",
+            "userPreferred": "Houko Kuwashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95057-nMZEwJet445W.jpg"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2533,
+      "role": "MAIN",
+      "name": {
+        "first": "Madlax",
+        "last": null,
+        "full": "Madlax",
+        "native": null,
+        "userPreferred": "Madlax"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2533.jpg",
+      "voiceActors": [
+        {
+          "id": 95149,
+          "language": "Japanese",
+          "name": {
+            "first": "Sanae",
+            "last": "Kobayashi",
+            "full": "Sanae Kobayashi",
+            "native": "小林沙苗",
+            "userPreferred": "Sanae Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95149-xNDmN92Feq8y.png"
+        },
+        {
+          "id": 95928,
+          "language": "English",
+          "name": {
+            "first": "Nancy",
+            "last": "Novotny",
+            "full": "Nancy Novotny",
+            "native": null,
+            "userPreferred": "Nancy Novotny"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95928-TWiUny7lqanh.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3815,
+      "role": "MAIN",
+      "name": {
+        "first": "Elenore",
+        "last": "Baker",
+        "full": "Elenore Baker",
+        "native": "エリノア・ベイカー",
+        "userPreferred": "Elenore Baker"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3815.jpg",
+      "voiceActors": [
+        {
+          "id": 96018,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Uchikawa",
+            "full": "Ai Uchikawa",
+            "native": "内川藍維",
+            "userPreferred": "Ai Uchikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1018.jpg"
+        },
+        {
+          "id": 95162,
+          "language": "English",
+          "name": {
+            "first": "Kira",
+            "last": "Vincent-Davis",
+            "full": "Kira Vincent-Davis",
+            "native": null,
+            "userPreferred": "Kira Vincent-Davis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/162.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17833,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Baggis",
+        "last": null,
+        "full": "Baggis",
+        "native": "バジス",
+        "userPreferred": "Baggis"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17833.jpg",
+      "voiceActors": [
+        {
+          "id": 95286,
+          "language": "Japanese",
+          "name": {
+            "first": "Nozomu",
+            "last": "Sasaki",
+            "full": "Nozomu Sasaki",
+            "native": "佐々木望",
+            "userPreferred": "Nozomu Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95286-1RlrFeFKx3jn.png"
+        },
+        {
+          "id": 95190,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Patton",
+            "full": "Chris Patton",
+            "native": null,
+            "userPreferred": "Chris Patton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95190-Ht5ukZFcl0PX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 25599,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "SSS",
+        "last": null,
+        "full": "SSS",
+        "native": null,
+        "userPreferred": "SSS"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 107677,
+          "language": "Japanese",
+          "name": {
+            "first": "Jin",
+            "last": "Urayama",
+            "full": "Jin Urayama",
+            "native": "浦山迅",
+            "userPreferred": "Jin Urayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107677-4JwhOvVQPItM.png"
+        },
+        {
+          "id": 95200,
+          "language": "English",
+          "name": {
+            "first": "Jay",
+            "last": "Hickman",
+            "full": "Jay Hickman",
+            "native": null,
+            "userPreferred": "Jay Hickman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95200-7TSLnFJQSpzL.png"
+        }
+      ]
+    },
+    {
+      "id": 3816,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Limelda",
+        "last": "Jorg",
+        "full": "Limelda Jorg",
+        "native": "リメルダ・ユルグ",
+        "userPreferred": "Limelda Jorg"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3816.jpg",
+      "voiceActors": [
+        {
+          "id": 95080,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Hisakawa",
+            "full": "Aya Hisakawa",
+            "native": "久川綾",
+            "userPreferred": "Aya Hisakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95080-7dOAcrnsSghI.jpg"
+        },
+        {
+          "id": 95509,
+          "language": "English",
+          "name": {
+            "first": "Christine",
+            "last": "Auten",
+            "full": "Christine Auten",
+            "native": null,
+            "userPreferred": "Christine Auten"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95509-fSwGUErqAkmA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2534,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Laetitia",
+        "last": null,
+        "full": "Laetitia",
+        "native": "レティシア",
+        "userPreferred": "Laetitia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2534.jpg",
+      "voiceActors": [
+        {
+          "id": 95272,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Kaneda",
+            "full": "Tomoko Kaneda",
+            "native": "金田朋子",
+            "userPreferred": "Tomoko Kaneda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95272-qfGnqI0gkKK5.png"
+        },
+        {
+          "id": 95721,
+          "language": "English",
+          "name": {
+            "first": "Cynthia",
+            "last": "Martinez",
+            "full": "Cynthia Martinez",
+            "native": null,
+            "userPreferred": "Cynthia Martinez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95721-4wGzyO12bXAP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13823,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chris",
+        "last": "Krana",
+        "full": "Chris Krana",
+        "native": "クリス・クラナ",
+        "userPreferred": "Chris Krana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13823.jpg",
+      "voiceActors": [
+        {
+          "id": 95088,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Irino",
+            "full": "Miyu Irino",
+            "native": "入野自由",
+            "userPreferred": "Miyu Irino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95088-BHyqnkadBEqi.png"
+        },
+        {
+          "id": 96028,
+          "language": "English",
+          "name": {
+            "first": "Braden",
+            "last": "Hunt",
+            "full": "Braden Hunt",
+            "native": null,
+            "userPreferred": "Braden Hunt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1028.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18663,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nakhl",
+        "last": null,
+        "full": "Nakhl",
+        "native": "ナハル",
+        "userPreferred": "Nakhl"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18663.jpg",
+      "voiceActors": [
+        {
+          "id": 95414,
+          "language": "English",
+          "name": {
+            "first": "Brittney",
+            "last": "Karbowski",
+            "full": "Brittney Karbowski",
+            "native": null,
+            "userPreferred": "Brittney Karbowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/414.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39142,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eric",
+        "last": "Gillain",
+        "full": "Eric Gillain",
+        "native": "エリック・ジラン",
+        "userPreferred": "Eric Gillain"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39142.jpg",
+      "voiceActors": [
+        {
+          "id": 95125,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroaki",
+            "last": "Hirata",
+            "full": "Hiroaki Hirata",
+            "native": "平田広明",
+            "userPreferred": "Hiroaki Hirata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95125-NeFFiJupoDVj.png"
+        },
+        {
+          "id": 95153,
+          "language": "English",
+          "name": {
+            "first": "Andy",
+            "last": "McAvin",
+            "full": "Andy McAvin",
+            "native": null,
+            "userPreferred": "Andy McAvin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/153.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52371,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Charlie",
+        "last": "Winston",
+        "full": "Charlie Winston",
+        "native": "チャーリー・ウィンストン",
+        "userPreferred": "Charlie Winston"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95911,
+          "language": "Japanese",
+          "name": {
+            "first": "Tokuyoshi",
+            "last": "Kawashima",
+            "full": "Tokuyoshi Kawashima",
+            "native": "川島得愛",
+            "userPreferred": "Tokuyoshi Kawashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95911-OTi0Qqvbjphr.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "madlax-episode-1",
+      "title": "Gun Dance -dance-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6608/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:21:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-1"
+    },
+    {
+      "id": "madlax-episode-2",
+      "title": "Crimson Moon -crimson-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6609/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:21:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-2"
+    },
+    {
+      "id": "madlax-episode-3",
+      "title": "Blue Moon -moon-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6610/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:21:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-3"
+    },
+    {
+      "id": "madlax-episode-4",
+      "title": "Temptation -ask-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6611/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:21:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-4"
+    },
+    {
+      "id": "madlax-episode-5",
+      "title": "Non-existent -none-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6612/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:21:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-5"
+    },
+    {
+      "id": "madlax-episode-6",
+      "title": "Last Words -leave-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6613/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:21:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-6"
+    },
+    {
+      "id": "madlax-episode-7",
+      "title": "Picture Book -nature-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6614/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:21:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-7"
+    },
+    {
+      "id": "madlax-episode-8",
+      "title": "Soul Word -soul-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6615/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:21:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-8"
+    },
+    {
+      "id": "madlax-episode-9",
+      "title": "Lingering Scent -scent-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6616/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:21:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-9"
+    },
+    {
+      "id": "madlax-episode-10",
+      "title": "Infiltration -dive-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6617/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:21:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-10"
+    },
+    {
+      "id": "madlax-episode-11",
+      "title": "Foreign Country -object-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6618/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:21:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-11"
+    },
+    {
+      "id": "madlax-episode-12",
+      "title": "Lost Will -close-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6619/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:21:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-12"
+    },
+    {
+      "id": "madlax-episode-13",
+      "title": "Cry of Senses -awake-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6620/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:21:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-13"
+    },
+    {
+      "id": "madlax-episode-14",
+      "title": "Lost Feeling -memory-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6621/original.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:21:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-14"
+    },
+    {
+      "id": "madlax-episode-15",
+      "title": "Fake Conflict -camouflage-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6622/original.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:21:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-15"
+    },
+    {
+      "id": "madlax-episode-16",
+      "title": "Gun Rhyme -moment-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6623/original.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:21:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-16"
+    },
+    {
+      "id": "madlax-episode-17",
+      "title": "Killing Moment -reunion-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6624/original.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:21:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-17"
+    },
+    {
+      "id": "madlax-episode-18",
+      "title": "Two Separations -duo-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6625/original.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:21:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-18"
+    },
+    {
+      "id": "madlax-episode-19",
+      "title": "Target Book -holy-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6626/original.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:21:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-19"
+    },
+    {
+      "id": "madlax-episode-20",
+      "title": "True Conflict -wish-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6627/original.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:21:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-20"
+    },
+    {
+      "id": "madlax-episode-21",
+      "title": "Light Confession -guilty-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6628/original.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:21:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-21"
+    },
+    {
+      "id": "madlax-episode-22",
+      "title": "Shooting Emotion -rage-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6629/original.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:21:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-22"
+    },
+    {
+      "id": "madlax-episode-23",
+      "title": "Straying Mind -doubt-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6630/original.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:21:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-23"
+    },
+    {
+      "id": "madlax-episode-24",
+      "title": "Devoting Heart -hearts-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6631/original.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:21:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-24"
+    },
+    {
+      "id": "madlax-episode-25",
+      "title": "Holy Blood -saint-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6632/original.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:21:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-25"
+    },
+    {
+      "id": "madlax-episode-26",
+      "title": "Fragment -pupil-",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6633/original.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:21:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//madlax-episode-26"
+    }
+  ]
+}

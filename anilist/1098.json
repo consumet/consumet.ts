@@ -1,0 +1,611 @@
+{
+  "id": "1098",
+  "title": {
+    "romaji": "SAMURAI GIRL Real Bout High School",
+    "english": "Samurai Girl Real Bout High School",
+    "native": "SAMURAI GIRL　リアルバウトハイスクール"
+  },
+  "malId": 1098,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1098.jpg",
+  "popularity": 1431,
+  "color": "#50aee4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1098.jpg",
+  "description": "At Daimon High School, kids settle their disputes by dueling with each other in the school's official K-Fight battle arena. Ryoko Mitsurugi, samurai girl and undefeated K-Fight champion, is called upon by a mysterious Priestess to protect the Earth from an invasion coming from the alternate universe of Solvania. She must face battles that will test her skills, her friendships, and her heart in order to find her true strength as a samurai warrior.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2001,
+  "startDate": {
+    "year": 2001,
+    "month": 7,
+    "day": 30
+  },
+  "endDate": {
+    "year": 2001,
+    "month": 10,
+    "day": 22
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 51,
+  "duration": 23,
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "GONZO"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 13077,
+      "role": "MAIN",
+      "name": {
+        "first": "Shizuma",
+        "last": "Kusanagi",
+        "full": "Shizuma Kusanagi",
+        "native": "草彅静馬",
+        "userPreferred": "Shizuma Kusanagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13077-w3LUXd43UHTY.png",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        },
+        {
+          "id": 95012,
+          "language": "English",
+          "name": {
+            "first": "Steven",
+            "last": "Blum",
+            "full": "Steven Blum",
+            "native": null,
+            "userPreferred": "Steven Blum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95012-jnlK6VyCTf9P.png"
+        }
+      ]
+    },
+    {
+      "id": 18718,
+      "role": "MAIN",
+      "name": {
+        "first": "Azumi",
+        "last": "Kiribayashi",
+        "full": "Azumi Kiribayashi",
+        "native": "霧林あずみ",
+        "userPreferred": "Azumi Kiribayashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b18718-VdvfeMPBw9We.png",
+      "voiceActors": [
+        {
+          "id": 95003,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsuki",
+            "last": "Yukino",
+            "full": "Satsuki Yukino",
+            "native": "ゆきのさつき",
+            "userPreferred": "Satsuki Yukino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95003-Du7wb5JJzb8P.png"
+        },
+        {
+          "id": 95514,
+          "language": "English",
+          "name": {
+            "first": "Bridget",
+            "last": "Hoffman",
+            "full": "Bridget Hoffman",
+            "native": null,
+            "userPreferred": "Bridget Hoffman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/514.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13076,
+      "role": "MAIN",
+      "name": {
+        "first": "Ryouko",
+        "last": "Mitsurugi",
+        "full": "Ryouko Mitsurugi",
+        "native": "御剣涼子",
+        "userPreferred": "Ryouko Mitsurugi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13076-bCg8mPVe7sgS.png",
+      "voiceActors": [
+        {
+          "id": 96688,
+          "language": "Japanese",
+          "name": {
+            "first": "Ikue",
+            "last": "Kimura",
+            "full": "Ikue Kimura",
+            "native": "木村郁絵",
+            "userPreferred": "Ikue Kimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96688-TvUeQTyg2bUv.png"
+        },
+        {
+          "id": 95036,
+          "language": "English",
+          "name": {
+            "first": "Wendee",
+            "last": "Lee",
+            "full": "Wendee Lee",
+            "native": null,
+            "userPreferred": "Wendee Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95036-UkyIYVtEhoPk.png"
+        }
+      ]
+    },
+    {
+      "id": 74645,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tamaki",
+        "last": "Nakamura",
+        "full": "Tamaki Nakamura",
+        "native": null,
+        "userPreferred": "Tamaki Nakamura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/74645.jpg",
+      "voiceActors": [
+        {
+          "id": 100246,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayuri",
+            "last": "Yoshida",
+            "full": "Sayuri Yoshida",
+            "native": "吉田小百合",
+            "userPreferred": "Sayuri Yoshida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100246-24bKnOMquJaT.png"
+        },
+        {
+          "id": 96065,
+          "language": "English",
+          "name": {
+            "first": "Julie",
+            "last": "Maddalena",
+            "full": "Julie Maddalena",
+            "native": null,
+            "userPreferred": "Julie Maddalena"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1065.jpg"
+        }
+      ]
+    },
+    {
+      "id": 75398,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nanako",
+        "last": "Hishinuma",
+        "full": "Nanako Hishinuma",
+        "native": null,
+        "userPreferred": "Nanako Hishinuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/75398.jpg",
+      "voiceActors": [
+        {
+          "id": 103017,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Sumitomo",
+            "full": "Yuuko Sumitomo",
+            "native": "住友優子",
+            "userPreferred": "Yuuko Sumitomo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103017-Piytwi9mEz6d.png"
+        },
+        {
+          "id": 95452,
+          "language": "English",
+          "name": {
+            "first": "Melissa",
+            "last": "Fahn",
+            "full": "Melissa Fahn",
+            "native": null,
+            "userPreferred": "Melissa Fahn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95452-ID2nbW1E8fLk.png"
+        }
+      ]
+    },
+    {
+      "id": 75400,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Misao",
+        "last": "Aoki",
+        "full": "Misao Aoki",
+        "native": null,
+        "userPreferred": "Misao Aoki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/75400.jpg",
+      "voiceActors": [
+        {
+          "id": 95163,
+          "language": "English",
+          "name": {
+            "first": "Sherry",
+            "last": "Lynn",
+            "full": "Sherry Lynn",
+            "native": null,
+            "userPreferred": "Sherry Lynn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95163-q7DJQ5g1XEPJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18715,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hitomi",
+        "last": "Yuki",
+        "full": "Hitomi Yuki",
+        "native": null,
+        "userPreferred": "Hitomi Yuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18715.jpg",
+      "voiceActors": [
+        {
+          "id": 95805,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Nasu",
+            "full": "Megumi Nasu",
+            "native": "めぐみ那須",
+            "userPreferred": "Megumi Nasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/805.jpg"
+        },
+        {
+          "id": 95085,
+          "language": "English",
+          "name": {
+            "first": "Michelle",
+            "last": "Ruff",
+            "full": "Michelle Ruff",
+            "native": null,
+            "userPreferred": "Michelle Ruff"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95085-zJmU0x2NLr3j.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18713,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miyuki",
+        "last": "Onizuka",
+        "full": "Miyuki Onizuka",
+        "native": "鬼塚美雪",
+        "userPreferred": "Miyuki Onizuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b18713-DDoDisb2s2lI.png",
+      "voiceActors": [
+        {
+          "id": 95204,
+          "language": "Japanese",
+          "name": {
+            "first": "Sakura",
+            "last": "Nogawa",
+            "full": "Sakura Nogawa",
+            "native": "野川さくら",
+            "userPreferred": "Sakura Nogawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95204-nsvdCdwwgIrC.png"
+        },
+        {
+          "id": 96006,
+          "language": "English",
+          "name": {
+            "first": "Rebecca",
+            "last": "Forstadt",
+            "full": "Rebecca Forstadt",
+            "native": null,
+            "userPreferred": "Rebecca Forstadt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1006.jpg"
+        }
+      ]
+    },
+    {
+      "id": 75396,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tatsuya",
+        "last": "Shishikura",
+        "full": "Tatsuya Shishikura",
+        "native": "獅子倉 達哉",
+        "userPreferred": "Tatsuya Shishikura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/75396.jpg",
+      "voiceActors": [
+        {
+          "id": 95260,
+          "language": "Japanese",
+          "name": {
+            "first": "Susumu",
+            "last": "Chiba",
+            "full": "Susumu Chiba",
+            "native": "千葉進歩",
+            "userPreferred": "Susumu Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95260-pKyM0LbhEznc.png"
+        },
+        {
+          "id": 95654,
+          "language": "English",
+          "name": {
+            "first": "Tony",
+            "last": "Oliver",
+            "full": "Tony Oliver",
+            "native": "Rafael Antonio Olivier",
+            "userPreferred": "Tony Oliver"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95654-iX4zn8eYCaRS.png"
+        }
+      ]
+    },
+    {
+      "id": 65937,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Daisaku",
+        "last": "Kamiya",
+        "full": "Daisaku Kamiya",
+        "native": "神矢大作",
+        "userPreferred": "Daisaku Kamiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/65937.jpg",
+      "voiceActors": [
+        {
+          "id": 95344,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouki",
+            "last": "Miyata",
+            "full": "Kouki Miyata",
+            "native": "宮田幸季",
+            "userPreferred": "Kouki Miyata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95344-wYgLhxYeWEp4.jpg"
+        },
+        {
+          "id": 95367,
+          "language": "English",
+          "name": {
+            "first": "Joshua",
+            "last": "Seth",
+            "full": "Joshua Seth",
+            "native": null,
+            "userPreferred": "Joshua Seth"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95367-lUCb8pOCMGVb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 65939,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takao",
+        "last": "Todo",
+        "full": "Takao Todo",
+        "native": "藤堂鷹王",
+        "userPreferred": "Takao Todo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/65939.jpg",
+      "voiceActors": [
+        {
+          "id": 95357,
+          "language": "Japanese",
+          "name": {
+            "first": "Unshou",
+            "last": "Ishizuka",
+            "full": "Unshou Ishizuka",
+            "native": "石塚運昇",
+            "userPreferred": "Unshou Ishizuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95357-umndcceko65h.png"
+        },
+        {
+          "id": 96008,
+          "language": "English",
+          "name": {
+            "first": "Bob",
+            "last": "Papenbrook",
+            "full": "Bob Papenbrook",
+            "native": null,
+            "userPreferred": "Bob Papenbrook"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96008-bfuKQdPALg36.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 87949,
+      "relationType": "ADAPTATION",
+      "malId": 55359,
+      "title": {
+        "romaji": "Shoukan Kyoushi Real Bout High School",
+        "english": null,
+        "native": "召喚教師リアルバウトハイスクール",
+        "userPreferred": "Shoukan Kyoushi Real Bout High School"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/87949-akRaVhSSGIfk.jpg",
+      "color": "#e4c95d",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/87949-akRaVhSSGIfk.jpg",
+      "rating": 60
+    },
+    {
+      "id": 30496,
+      "relationType": "ADAPTATION",
+      "malId": 496,
+      "title": {
+        "romaji": "Real Bout High School",
+        "english": "Samurai Girl: Real Bout High School",
+        "native": "リアルバウトハイスクール",
+        "userPreferred": "Real Bout High School"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30496-OQBIt2zToMGZ.png",
+      "color": "#e47850",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30496-OQBIt2zToMGZ.png",
+      "rating": 61
+    }
+  ],
+  "episodes": [
+    {
+      "id": "samurai-girl-real-bout-high-school-episode-1",
+      "title": "Samurai Girl Appears",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1098.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//samurai-girl-real-bout-high-school-episode-1"
+    },
+    {
+      "id": "samurai-girl-real-bout-high-school-episode-2",
+      "title": "The Strongest Man On Earth Joins the Fight",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1098.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//samurai-girl-real-bout-high-school-episode-2"
+    },
+    {
+      "id": "samurai-girl-real-bout-high-school-episode-3",
+      "title": "Enter the Way of the Swordsman",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1098.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//samurai-girl-real-bout-high-school-episode-3"
+    },
+    {
+      "id": "samurai-girl-real-bout-high-school-episode-4",
+      "title": "The Girl With Deep Black Eyes",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1098.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//samurai-girl-real-bout-high-school-episode-4"
+    },
+    {
+      "id": "samurai-girl-real-bout-high-school-episode-5",
+      "title": "Attack of the Raging Wind!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1098.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//samurai-girl-real-bout-high-school-episode-5"
+    },
+    {
+      "id": "samurai-girl-real-bout-high-school-episode-6",
+      "title": "Threat From Another World",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1098.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//samurai-girl-real-bout-high-school-episode-6"
+    },
+    {
+      "id": "samurai-girl-real-bout-high-school-episode-7",
+      "title": "Rematch! Battle at Lunch Time",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1098.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//samurai-girl-real-bout-high-school-episode-7"
+    },
+    {
+      "id": "samurai-girl-real-bout-high-school-episode-8",
+      "title": "The Beach, the Swimsuit, and the Haunted Island",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1098.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//samurai-girl-real-bout-high-school-episode-8"
+    },
+    {
+      "id": "samurai-girl-real-bout-high-school-episode-9",
+      "title": "Super Transformation! The Seven Witches",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1098.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//samurai-girl-real-bout-high-school-episode-9"
+    },
+    {
+      "id": "samurai-girl-real-bout-high-school-episode-10",
+      "title": "The Awakening of Love",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1098.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//samurai-girl-real-bout-high-school-episode-10"
+    },
+    {
+      "id": "samurai-girl-real-bout-high-school-episode-11",
+      "title": "A Maiden's Way",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1098.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//samurai-girl-real-bout-high-school-episode-11"
+    },
+    {
+      "id": "samurai-girl-real-bout-high-school-episode-12",
+      "title": "Final Battle in the Arena",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1098.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//samurai-girl-real-bout-high-school-episode-12"
+    },
+    {
+      "id": "samurai-girl-real-bout-high-school-episode-13",
+      "title": "A Battle Against Fate",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1098.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:22:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//samurai-girl-real-bout-high-school-episode-13"
+    }
+  ]
+}

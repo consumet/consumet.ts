@@ -1,0 +1,530 @@
+{
+  "id": "126369",
+  "title": {
+    "romaji": "Ni Zhenshi Ge Tiancai",
+    "english": "You're A Genius!",
+    "native": "你真是个天才"
+  },
+  "malId": 44073,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "trailer": {
+    "id": "DglYW83U964",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/DglYW83U964/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+  "popularity": 203,
+  "color": "#5dc9f1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+  "status": "Completed",
+  "releaseDate": 2022,
+  "startDate": {
+    "year": 2022,
+    "month": 4,
+    "day": 23
+  },
+  "endDate": {
+    "year": 2022,
+    "month": 7,
+    "day": 9
+  },
+  "totalEpisodes": 24,
+  "currentEpisode": 24,
+  "rating": null,
+  "duration": 8,
+  "genres": [
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": null,
+  "studios": [
+    "Mili Pictures"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 268385,
+      "role": "MAIN",
+      "name": {
+        "first": "Xiao",
+        "last": "Bai",
+        "full": "Xiao Bai",
+        "native": "白骁",
+        "userPreferred": "Xiao Bai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b268385-asE6CXnysTwq.png",
+      "voiceActors": [
+        {
+          "id": 268386,
+          "language": "Chinese",
+          "name": {
+            "first": "Yuxiang",
+            "last": "He",
+            "full": "Yuxiang He",
+            "native": "何禹祥",
+            "userPreferred": "Yuxiang He"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 268380,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yue",
+        "last": "Qing",
+        "full": "Yue Qing",
+        "native": "清月",
+        "userPreferred": "Yue Qing"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b268380-REOUx1bhiBW2.png",
+      "voiceActors": [
+        {
+          "id": 221878,
+          "language": "Chinese",
+          "name": {
+            "first": "Quecheng",
+            "last": "Zhu",
+            "full": "Quecheng Zhu",
+            "native": "朱雀橙",
+            "userPreferred": "Quecheng Zhu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n221878-hGfI8V3N20ZJ.png"
+        }
+      ]
+    },
+    {
+      "id": 268391,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Xiaoqing",
+        "last": null,
+        "full": "Xiaoqing",
+        "native": "小青",
+        "userPreferred": "Xiaoqing"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b268391-ZQ48jCiXAcmY.png",
+      "voiceActors": [
+        {
+          "id": 233175,
+          "language": "Chinese",
+          "name": {
+            "first": "Ayu",
+            "last": null,
+            "full": "Ayu",
+            "native": "阿愚",
+            "userPreferred": "Ayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 268382,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Wen",
+        "last": "Sun",
+        "full": "Wen Sun",
+        "native": "孙雯",
+        "userPreferred": "Wen Sun"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 233175,
+          "language": "Chinese",
+          "name": {
+            "first": "Ayu",
+            "last": null,
+            "full": "Ayu",
+            "native": "阿愚",
+            "userPreferred": "Ayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 268392,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Liming",
+        "last": "Zheng",
+        "full": "Liming Zheng",
+        "native": "郑力铭",
+        "userPreferred": "Liming Zheng"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 268393,
+          "language": "Chinese",
+          "name": {
+            "first": "Dezhi",
+            "last": null,
+            "full": "Dezhi",
+            "native": "德智",
+            "userPreferred": "Dezhi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n268393-lZK1xCJpwrKr.png"
+        }
+      ]
+    },
+    {
+      "id": 268384,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shi",
+        "last": "Yuan",
+        "full": "Shi Yuan",
+        "native": "原诗",
+        "userPreferred": "Shi Yuan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b268384-r2R59HcRlgbG.png",
+      "voiceActors": [
+        {
+          "id": 188805,
+          "language": "Chinese",
+          "name": {
+            "first": "Yue",
+            "last": "Gui",
+            "full": "Yue Gui",
+            "native": "鬼月",
+            "userPreferred": "Yue Gui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188805-WS0IXwErIXCS.png"
+        }
+      ]
+    },
+    {
+      "id": 268383,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Wei",
+        "last": "Qi",
+        "full": "Wei Qi",
+        "native": "戚威",
+        "userPreferred": "Wei Qi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b268383-Ua2b4gzIQbtO.png",
+      "voiceActors": [
+        {
+          "id": 268387,
+          "language": "Chinese",
+          "name": {
+            "first": "Yulong",
+            "last": "Xu",
+            "full": "Yulong Xu",
+            "native": "徐宇隆",
+            "userPreferred": "Yulong Xu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n268387-EkTyzWyWEZch.png"
+        }
+      ]
+    },
+    {
+      "id": 268381,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Xun",
+        "last": "Lu",
+        "full": "Xun Lu",
+        "native": "陆珣",
+        "userPreferred": "Xun Lu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b268381-PNmx5Pv1JAkZ.png",
+      "voiceActors": [
+        {
+          "id": 268388,
+          "language": "Chinese",
+          "name": {
+            "first": "Tao",
+            "last": "Wu",
+            "full": "Tao Wu",
+            "native": "吴韬",
+            "userPreferred": "Tao Wu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n268388-rLKJs4wlJeKl.png"
+        }
+      ]
+    },
+    {
+      "id": 268389,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Wuya",
+        "last": "Bai",
+        "full": "Wuya Bai",
+        "native": "白无涯",
+        "userPreferred": "Wuya Bai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b268389-XQkb6MZeMcRd.png",
+      "voiceActors": [
+        {
+          "id": 218550,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhankun",
+            "last": "Zhang",
+            "full": "Zhankun Zhang",
+            "native": "张占坤",
+            "userPreferred": "Zhankun Zhang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n218550-8gqHIXsz9dVL.png"
+        }
+      ]
+    },
+    {
+      "id": 268390,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Junshen",
+        "last": "Zhu",
+        "full": "Junshen Zhu",
+        "native": "朱俊燊",
+        "userPreferred": "Junshen Zhu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 218550,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhankun",
+            "last": "Zhang",
+            "full": "Zhankun Zhang",
+            "native": "张占坤",
+            "userPreferred": "Zhankun Zhang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n218550-8gqHIXsz9dVL.png"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-1"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-2"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-3"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-4"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-5"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-6"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-7"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-8"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-9"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-10"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-11"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-12"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-13"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-14"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-15"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-16"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-17",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 17,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-17"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-18",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 18,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-18"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-19",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 19,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-19"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-20",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 20,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-20"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-21",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 21,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-21"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-22",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 22,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-22"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-23",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 23,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-23"
+    },
+    {
+      "id": "ni-zhenshi-ge-tiancai-episode-24",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126369-XCIKagSOhNRx.png",
+      "number": 24,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ni-zhenshi-ge-tiancai-episode-24"
+    }
+  ]
+}

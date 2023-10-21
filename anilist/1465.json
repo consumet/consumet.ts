@@ -1,0 +1,393 @@
+{
+  "id": "1465",
+  "title": {
+    "romaji": "Hakaima Sadamitsu",
+    "english": "Sadamitsu the Destroyer",
+    "native": "破壊魔定光"
+  },
+  "malId": 1465,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1465.jpg",
+  "popularity": 1230,
+  "color": "#e4bb93",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1465.jpg",
+  "description": "Sadamitsu, a high-school delinguents turned to a masked-hero, while not dealing with his rocky relationship with the strong female protagonist, he puts on a motorcycle-helmet-like mask and becomes a semi-robotic superhero who fights. He is assisted by other possibly- mechanical creatures in order to save the earth from the invasion of 20,000,000 escaped alien convicts.<br><br>\n(Source: AniDB)",
+  "status": "Completed",
+  "releaseDate": 2001,
+  "startDate": {
+    "year": 2001,
+    "month": 1,
+    "day": 17
+  },
+  "endDate": {
+    "year": 2001,
+    "month": 3,
+    "day": 21
+  },
+  "totalEpisodes": 10,
+  "currentEpisode": 10,
+  "rating": 60,
+  "duration": 22,
+  "genres": [
+    "Action",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Studio DEEN"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 20605,
+      "malId": 22319,
+      "title": {
+        "romaji": "Tokyo Ghoul",
+        "english": "Tokyo Ghoul",
+        "native": "東京喰種 トーキョーグール",
+        "userPreferred": "Tokyo Ghoul"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20605-fmnHdfurM7m6.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20605-RCJ7M71zLmrh.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 20623,
+      "malId": 22535,
+      "title": {
+        "romaji": "Kiseijuu: Sei no Kakuritsu",
+        "english": "Parasyte -the maxim-",
+        "native": "寄生獣 セイの格率",
+        "userPreferred": "Kiseijuu: Sei no Kakuritsu"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20623-rVoHgF3Apo7P.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20623-xb9PPf8rGOsG.jpg",
+      "rating": 81,
+      "type": "TV"
+    },
+    {
+      "id": 1374,
+      "malId": 1374,
+      "title": {
+        "romaji": "Kyoushoku Soukou Guyver (TV)",
+        "english": "Guyver: The Bioboosted Armor",
+        "native": "強殖装甲ガイバー (TV)",
+        "userPreferred": "Kyoushoku Soukou Guyver (TV)"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1374-UEWE9nUg9ACi.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1374-N3Blr0oc4Xky.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 566,
+      "malId": 566,
+      "title": {
+        "romaji": "Tetsuwan Birdy",
+        "english": "Birdy the Mighty",
+        "native": "鉄腕バーディー",
+        "userPreferred": "Tetsuwan Birdy"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b566-o7Btb4cx4Ku4.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n566-lE7xa0XONTiw.jpg",
+      "rating": 67,
+      "type": "OVA"
+    },
+    {
+      "id": 3974,
+      "malId": 3974,
+      "title": {
+        "romaji": "Tetsuwan Birdy DECODE",
+        "english": "Birdy the Mighty: Decode",
+        "native": "鉄腕バーディー DECODE",
+        "userPreferred": "Tetsuwan Birdy DECODE"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3974-Gb9WK53nSsPz.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3974-oWzLMiXRWyS0.jpg",
+      "rating": 70,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 24840,
+      "role": "MAIN",
+      "name": {
+        "first": "Sadamitsu",
+        "last": "Tsubaki",
+        "full": "Sadamitsu Tsubaki",
+        "native": "椿 定光",
+        "userPreferred": "Sadamitsu Tsubaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24840.jpg",
+      "voiceActors": [
+        {
+          "id": 95058,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Ueda",
+            "full": "Yuuji Ueda",
+            "native": "うえだゆうじ",
+            "userPreferred": "Yuuji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95058-fGnId7E4tgx3.jpg"
+        },
+        {
+          "id": 95717,
+          "language": "English",
+          "name": {
+            "first": "Vinnie",
+            "last": "Penna",
+            "full": "Vinnie Penna",
+            "native": null,
+            "userPreferred": "Vinnie Penna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95717-UpQJ4joT0hTb.png"
+        }
+      ]
+    },
+    {
+      "id": 24842,
+      "role": "MAIN",
+      "name": {
+        "first": "Yayoi",
+        "last": "Kamishiro",
+        "full": "Yayoi Kamishiro",
+        "native": "神代やよい",
+        "userPreferred": "Yayoi Kamishiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24842.jpg",
+      "voiceActors": [
+        {
+          "id": 95060,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Tanaka",
+            "full": "Rie Tanaka",
+            "native": "田中理恵",
+            "userPreferred": "Rie Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95060-Rw0HZghxH1hF.jpg"
+        },
+        {
+          "id": 175828,
+          "language": "English",
+          "name": {
+            "first": "Mena",
+            "last": "Roberts",
+            "full": "Mena Roberts",
+            "native": null,
+            "userPreferred": "Mena Roberts"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36847,
+      "role": "MAIN",
+      "name": {
+        "first": "Kulon",
+        "last": null,
+        "full": "Kulon",
+        "native": "クロン",
+        "userPreferred": "Kulon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36847.jpg",
+      "voiceActors": [
+        {
+          "id": 95595,
+          "language": "Japanese",
+          "name": {
+            "first": "Shigenori",
+            "last": "Yamazaki",
+            "full": "Shigenori Yamazaki",
+            "native": "山崎樹範",
+            "userPreferred": "Shigenori Yamazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/595.jpg"
+        },
+        {
+          "id": 143877,
+          "language": "English",
+          "name": {
+            "first": "Sean",
+            "last": "Reyes",
+            "full": "Sean Reyes",
+            "native": null,
+            "userPreferred": "Sean Reyes"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n143877-sqB5PoYK8lPM.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24841,
+      "role": "MAIN",
+      "name": {
+        "first": "Junk",
+        "last": null,
+        "full": "Junk",
+        "native": "ポンコツ",
+        "userPreferred": "Junk"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b24841-8KnHSRTEkdH5.jpg",
+      "voiceActors": [
+        {
+          "id": 101755,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiro",
+            "last": "Yamaji",
+            "full": "Kazuhiro Yamaji",
+            "native": "山路和弘",
+            "userPreferred": "Kazuhiro Yamaji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101755-LsVbHCwg6Pel.png"
+        },
+        {
+          "id": 96000,
+          "language": "English",
+          "name": {
+            "first": "Sean",
+            "last": "Schemmel",
+            "full": "Sean Schemmel",
+            "native": null,
+            "userPreferred": "Sean Schemmel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96000-2o6VuDoBKFam.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 56157,
+      "relationType": "ADAPTATION",
+      "malId": 26157,
+      "title": {
+        "romaji": "Hakaima Sadamitsu",
+        "english": "Sadamitsu the Destroyer",
+        "native": "破壊魔定光",
+        "userPreferred": "Hakaima Sadamitsu"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx56157-Z6neszLA875y.jpg",
+      "color": "#e4a10d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx56157-Z6neszLA875y.jpg",
+      "rating": 69
+    }
+  ],
+  "episodes": [
+    {
+      "id": "hakaima-sadamitsu-episode-1",
+      "title": "Wanna Fight? Bring It on! Enter Sadamitsu",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1465.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hakaima-sadamitsu-episode-1"
+    },
+    {
+      "id": "hakaima-sadamitsu-episode-2",
+      "title": "Blazing Battle! Retrieval Complete!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1465.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hakaima-sadamitsu-episode-2"
+    },
+    {
+      "id": "hakaima-sadamitsu-episode-3",
+      "title": "A New Member - Culon Runs Wild",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1465.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hakaima-sadamitsu-episode-3"
+    },
+    {
+      "id": "hakaima-sadamitsu-episode-4",
+      "title": "A Blazing Man's Spirit",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1465.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hakaima-sadamitsu-episode-4"
+    },
+    {
+      "id": "hakaima-sadamitsu-episode-5",
+      "title": "Women are Men's Death Scythe",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1465.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hakaima-sadamitsu-episode-5"
+    },
+    {
+      "id": "hakaima-sadamitsu-episode-6",
+      "title": "A Cherry Blossom is a Flower of Man's Confusion",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1465.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hakaima-sadamitsu-episode-6"
+    },
+    {
+      "id": "hakaima-sadamitsu-episode-7",
+      "title": "Man, Eat the Fist of Life!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1465.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hakaima-sadamitsu-episode-7"
+    },
+    {
+      "id": "hakaima-sadamitsu-episode-8",
+      "title": "Man, Sharing an Umbrella of Tears",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1465.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hakaima-sadamitsu-episode-8"
+    },
+    {
+      "id": "hakaima-sadamitsu-episode-9",
+      "title": "Man's Love is a Love for a Struggle to the Death",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1465.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hakaima-sadamitsu-episode-9"
+    },
+    {
+      "id": "hakaima-sadamitsu-episode-10",
+      "title": "Man's Constellation that Sparkles in the Sky",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1465.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hakaima-sadamitsu-episode-10"
+    }
+  ]
+}

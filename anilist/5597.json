@@ -1,0 +1,616 @@
+{
+  "id": "5597",
+  "title": {
+    "romaji": "Natsu no Arashi!",
+    "english": "Natsu no Arashi!",
+    "native": "夏のあらし!"
+  },
+  "malId": 5597,
+  "synonyms": [
+    "Summer Storm!"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5597.jpg",
+  "popularity": 9853,
+  "color": "#50aee4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5597.jpg",
+  "description": "Thirteen-year-old Yasaka is a boy staying at his grandfather's house during his summer vacation. One day he entered a store and met Arashi, a beautiful sixteen-year old girl working there. After trying to protect her from a man who claims to have been hired by her family to take her back by force, Yasaka ran away with her and now she stays at his grandpa's place with him. It didn't take much time for Yasaka to figure out that his new friend is far from an ordinary girl, as she possesses mysterious powers. The plot thickens when he finds a sixty-year-old picture of Arashi and another girl named Kaja, and to the surprise of all Kaja suddenly appears, and just like Arashi, her appearance hasn't changed at all since then.<br><br>\n(Source: Wikipedia)",
+  "status": "Completed",
+  "releaseDate": 2009,
+  "startDate": {
+    "year": 2009,
+    "month": 4,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2009,
+    "month": 6,
+    "day": 29
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 67,
+  "duration": 23,
+  "genres": [
+    "Comedy",
+    "Fantasy",
+    "Romance"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Shaft"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 8726,
+      "malId": 8726,
+      "title": {
+        "romaji": "Soredemo Machi wa Mawatteiru",
+        "english": "And Yet The Town Moves",
+        "native": "それでも町は廻っている",
+        "userPreferred": "Soredemo Machi wa Mawatteiru"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8726-PX1AiBJxOzyo.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8726-JZ9aVlxAQERm.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 24,
+      "malId": 24,
+      "title": {
+        "romaji": "School Rumble",
+        "english": "School Rumble",
+        "native": "スクールランブル",
+        "userPreferred": "School Rumble"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx24-InbFkgWGvqIK.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/24-THD6AYmlVPIb.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 12445,
+      "malId": 12445,
+      "title": {
+        "romaji": "Tasogare Otome x Amnesia",
+        "english": "Dusk Maiden of Amnesia",
+        "native": "黄昏乙女×アムネジア",
+        "userPreferred": "Tasogare Otome x Amnesia"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12445-hKIXQW3vA4iz.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/12445.jpg",
+      "rating": 74,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 8748,
+      "role": "MAIN",
+      "name": {
+        "first": "Sayoko",
+        "last": "Arashiyama",
+        "full": "Sayoko Arashiyama",
+        "native": "嵐山 小夜子",
+        "userPreferred": "Sayoko Arashiyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8748.jpg",
+      "voiceActors": [
+        {
+          "id": 95348,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shiraishi",
+            "full": "Ryouko Shiraishi",
+            "native": "白石涼子",
+            "userPreferred": "Ryouko Shiraishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95348-sLIy7IMrgZeA.png"
+        },
+        {
+          "id": 109755,
+          "language": "Korean",
+          "name": {
+            "first": "Jeong-Hwa",
+            "last": "Yang",
+            "full": "Jeong-Hwa Yang",
+            "native": "정화 양",
+            "userPreferred": "Jeong-Hwa Yang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14755.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8747,
+      "role": "MAIN",
+      "name": {
+        "first": "Hajime",
+        "last": "Yasaka",
+        "full": "Hajime Yasaka",
+        "native": "八坂 一",
+        "userPreferred": "Hajime Yasaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8747.jpg",
+      "voiceActors": [
+        {
+          "id": 95407,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Sanpei",
+            "full": "Yuuko Sanpei",
+            "native": "三瓶由布子",
+            "userPreferred": "Yuuko Sanpei"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95407-u8MV6kcAJNV6.png"
+        },
+        {
+          "id": 109757,
+          "language": "Korean",
+          "name": {
+            "first": "Won Hyeong",
+            "last": "Choi",
+            "full": "Won Hyeong Choi",
+            "native": "원형 최",
+            "userPreferred": "Won Hyeong Choi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14757.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17205,
+      "role": "MAIN",
+      "name": {
+        "first": "Jun",
+        "last": "Kamigamo",
+        "full": "Jun Kamigamo",
+        "native": "上賀茂 潤",
+        "userPreferred": "Jun Kamigamo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17205.jpg",
+      "voiceActors": [
+        {
+          "id": 96760,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiaki",
+            "last": "Omigawa",
+            "full": "Chiaki Omigawa",
+            "native": "小見川千明",
+            "userPreferred": "Chiaki Omigawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96760-z00Vs7vhLR07.png"
+        },
+        {
+          "id": 109823,
+          "language": "Korean",
+          "name": {
+            "first": "Mi Na",
+            "last": "Yun",
+            "full": "Mi Na Yun",
+            "native": "미나 윤",
+            "userPreferred": "Mi Na Yun"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14823.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17206,
+      "role": "MAIN",
+      "name": {
+        "first": "Kaja",
+        "last": "Bergmann",
+        "full": "Kaja Bergmann",
+        "native": "カヤ バーグマン",
+        "userPreferred": "Kaja Bergmann"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17206.jpg",
+      "voiceActors": [
+        {
+          "id": 95078,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Nazuka",
+            "full": "Kaori Nazuka",
+            "native": "名塚佳織",
+            "userPreferred": "Kaori Nazuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95078-tMm7zdlRNZ3P.jpg"
+        },
+        {
+          "id": 109921,
+          "language": "Korean",
+          "name": {
+            "first": "Seon-Yeong",
+            "last": "Park",
+            "full": "Seon-Yeong Park",
+            "native": "박선영",
+            "userPreferred": "Seon-Yeong Park"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14921.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17375,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takeshi",
+        "last": "Yamashiro",
+        "full": "Takeshi Yamashiro",
+        "native": "山代 武士",
+        "userPreferred": "Takeshi Yamashiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17375.jpg",
+      "voiceActors": [
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        }
+      ]
+    },
+    {
+      "id": 17376,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Youko",
+        "last": "Himekawa",
+        "full": "Youko Himekawa",
+        "native": "姫川 ようこ",
+        "userPreferred": "Youko Himekawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17376.jpg",
+      "voiceActors": [
+        {
+          "id": 95329,
+          "language": "Japanese",
+          "name": {
+            "first": "Saki",
+            "last": "Nakajima",
+            "full": "Saki Nakajima",
+            "native": "中島沙樹",
+            "userPreferred": "Saki Nakajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/329.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28756,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shioya",
+        "last": null,
+        "full": "Shioya",
+        "native": "塩谷",
+        "userPreferred": "Shioya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28756.jpg",
+      "voiceActors": [
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        }
+      ]
+    },
+    {
+      "id": 28757,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kazuo",
+        "last": "Sogoru",
+        "full": "Kazuo Sogoru",
+        "native": "十五流 一夫",
+        "userPreferred": "Kazuo Sogoru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28757.jpg",
+      "voiceActors": [
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        }
+      ]
+    },
+    {
+      "id": 17208,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hideo",
+        "last": "Murata",
+        "full": "Hideo Murata",
+        "native": "村田 英雄",
+        "userPreferred": "Hideo Murata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17208.jpg",
+      "voiceActors": [
+        {
+          "id": 95025,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Yasumoto",
+            "full": "Hiroki Yasumoto",
+            "native": "安元洋貴",
+            "userPreferred": "Hiroki Yasumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95025-LGHr4VufmfCc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17374,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kanako",
+        "last": "Yamazaki",
+        "full": "Kanako Yamazaki",
+        "native": "山崎 加奈子",
+        "userPreferred": "Kanako Yamazaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17374.jpg",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        }
+      ]
+    },
+    {
+      "id": 17373,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yayoi",
+        "last": "Fushimi",
+        "full": "Yayoi Fushimi",
+        "native": "伏見 やよゐ",
+        "userPreferred": "Yayoi Fushimi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17373.jpg",
+      "voiceActors": [
+        {
+          "id": 95032,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Nonaka",
+            "full": "Ai Nonaka",
+            "native": "野中藍",
+            "userPreferred": "Ai Nonaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95032-P8Hvtz5iaaoI.png"
+        }
+      ]
+    },
+    {
+      "id": 17207,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sayaka",
+        "last": null,
+        "full": "Sayaka",
+        "native": "さやか",
+        "userPreferred": "Sayaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17207.jpg",
+      "voiceActors": [
+        {
+          "id": 95184,
+          "language": "Japanese",
+          "name": {
+            "first": "Hitomi",
+            "last": "Nabatame",
+            "full": "Hitomi Nabatame",
+            "native": "生天目仁美",
+            "userPreferred": "Hitomi Nabatame"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95184-OpXCWNXhJJpg.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 6712,
+      "relationType": "SEQUEL",
+      "malId": 6712,
+      "title": {
+        "romaji": "Natsu no Arashi!: Akinai-chuu",
+        "english": "Natsu no Arashi! Season 2",
+        "native": "夏のあらし! 〜春夏冬中〜",
+        "userPreferred": "Natsu no Arashi!: Akinai-chuu"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6712-Ij76UPxFEuDC.png",
+      "color": "#e450a1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6712-Ij76UPxFEuDC.png",
+      "rating": 69
+    },
+    {
+      "id": 33728,
+      "relationType": "ADAPTATION",
+      "malId": 3728,
+      "title": {
+        "romaji": "Natsu no Arashi!",
+        "english": null,
+        "native": "夏のあらし!",
+        "userPreferred": "Natsu no Arashi!"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/3728.jpg",
+      "color": "#43bbf1",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/3728.jpg",
+      "rating": 70
+    }
+  ],
+  "episodes": [
+    {
+      "id": "natsu-no-arashi-episode-1",
+      "title": "Playback Part II",
+      "image": "https://media.kitsu.io/episodes/thumbnails/164075/original.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:38:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsu-no-arashi-episode-1"
+    },
+    {
+      "id": "natsu-no-arashi-episode-2",
+      "title": "Girl A",
+      "image": "https://media.kitsu.io/episodes/thumbnails/164086/original.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:39:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsu-no-arashi-episode-2"
+    },
+    {
+      "id": "natsu-no-arashi-episode-3",
+      "title": "I Want to Protect Her",
+      "image": "https://media.kitsu.io/episodes/thumbnails/164101/original.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:39:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsu-no-arashi-episode-3"
+    },
+    {
+      "id": "natsu-no-arashi-episode-4",
+      "title": "Outpouring Memories",
+      "image": "https://media.kitsu.io/episodes/thumbnails/164111/original.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:39:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsu-no-arashi-episode-4"
+    },
+    {
+      "id": "natsu-no-arashi-episode-5",
+      "title": "The Secret Garden",
+      "image": "https://media.kitsu.io/episodes/thumbnails/164122/original.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:39:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsu-no-arashi-episode-5"
+    },
+    {
+      "id": "natsu-no-arashi-episode-6",
+      "title": "Fall in Love - Kaya",
+      "image": "https://media.kitsu.io/episodes/thumbnails/164133/original.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:39:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsu-no-arashi-episode-6"
+    },
+    {
+      "id": "natsu-no-arashi-episode-7",
+      "title": "Relationship to Others",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5597.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:39:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsu-no-arashi-episode-7"
+    },
+    {
+      "id": "natsu-no-arashi-episode-8",
+      "title": "Master - Do What You Like",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5597.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:39:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsu-no-arashi-episode-8"
+    },
+    {
+      "id": "natsu-no-arashi-episode-9",
+      "title": "Hero - Now's the Time for You to Become a Hero!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5597.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:39:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsu-no-arashi-episode-9"
+    },
+    {
+      "id": "natsu-no-arashi-episode-10",
+      "title": "Foreigner - Kaya",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5597.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:39:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsu-no-arashi-episode-10"
+    },
+    {
+      "id": "natsu-no-arashi-episode-11",
+      "title": "The World Exists for Us Two - Yayoi",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5597.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:39:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsu-no-arashi-episode-11"
+    },
+    {
+      "id": "natsu-no-arashi-episode-12",
+      "title": "Let Your Body Ride on the Flow of Time - Master",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5597.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:39:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsu-no-arashi-episode-12"
+    },
+    {
+      "id": "natsu-no-arashi-episode-13",
+      "title": "Playback Part I - Master",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5597.jpg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:39:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//natsu-no-arashi-episode-13"
+    }
+  ]
+}

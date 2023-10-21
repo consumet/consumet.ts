@@ -1,0 +1,1034 @@
+{
+  "id": "1231",
+  "title": {
+    "romaji": "Saber Marionette J to X",
+    "english": null,
+    "native": "セイバーマリオネットJ to X"
+  },
+  "malId": 1231,
+  "synonyms": [
+    "smj to x",
+    "smj2x",
+    "smjtox"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1231.jpg",
+  "popularity": 2030,
+  "color": "#e47850",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1231-uR5Gh8Id1jwT.jpg",
+  "description": "Taking place mere months after the Saber Marionette J OVA series, this newest installment in the Saber Marionette line follows the continuing adventures of Otaru and his clan of selfless, obsessive marionette girls. This time, the evil Faust is back, and again toying with Marionette technology that was never meant to be explored. The Saber Dolls are back, and torn between their newfound love for Otaru and their undying loyalty to Faust; Will Otaru, Lime, Cherry and Bloodberry be able to stop Faust again, or are they all headed for the scrap heap?<br><br>\n(Source: AniDB)",
+  "status": "Completed",
+  "releaseDate": 1998,
+  "startDate": {
+    "year": 1998,
+    "month": 10,
+    "day": 6
+  },
+  "endDate": {
+    "year": 1999,
+    "month": 3,
+    "day": 30
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 66,
+  "duration": 20,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Hal Film Maker"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 538,
+      "malId": 538,
+      "title": {
+        "romaji": "Shin Tenchi Muyou!",
+        "english": "Tenchi in Tokyo",
+        "native": "新・天地無用!",
+        "userPreferred": "Shin Tenchi Muyou!"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx538-yPo9msL7L6sm.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx538-yPo9msL7L6sm.png",
+      "rating": 65,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 2658,
+      "role": "MAIN",
+      "name": {
+        "first": "Lime",
+        "last": null,
+        "full": "Lime",
+        "native": "ライム",
+        "userPreferred": "Lime"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2658-pne1x1cNSne6.png",
+      "voiceActors": [
+        {
+          "id": 95014,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Hayashibara",
+            "full": "Megumi Hayashibara",
+            "native": "林原めぐみ",
+            "userPreferred": "Megumi Hayashibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95014-VqxNuufY94V3.png"
+        },
+        {
+          "id": 100669,
+          "language": "English",
+          "name": {
+            "first": "Mariette",
+            "last": "Sluyter",
+            "full": "Mariette Sluyter",
+            "native": null,
+            "userPreferred": "Mariette Sluyter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5669.jpg"
+        },
+        {
+          "id": 109823,
+          "language": "Korean",
+          "name": {
+            "first": "Mi Na",
+            "last": "Yun",
+            "full": "Mi Na Yun",
+            "native": "미나 윤",
+            "userPreferred": "Mi Na Yun"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14823.jpg"
+        },
+        {
+          "id": 96846,
+          "language": "Spanish",
+          "name": {
+            "first": "Cristina",
+            "last": "Hernández",
+            "full": "Cristina Hernández",
+            "native": "Helga Cristina Hernández Ramírez",
+            "userPreferred": "Cristina Hernández"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96846-1tJ46kl7SBgd.jpg"
+        },
+        {
+          "id": 106454,
+          "language": "Portuguese",
+          "name": {
+            "first": "Márcia",
+            "last": "Regina",
+            "full": "Márcia Regina",
+            "native": null,
+            "userPreferred": "Márcia Regina"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11454.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2660,
+      "role": "MAIN",
+      "name": {
+        "first": "Bloodberry",
+        "last": null,
+        "full": "Bloodberry",
+        "native": "ブラッドベリー",
+        "userPreferred": "Bloodberry"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2660-oZBxeFWhgzyR.jpg",
+      "voiceActors": [
+        {
+          "id": 95066,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Hiramatsu",
+            "full": "Akiko Hiramatsu",
+            "native": "平松晶子",
+            "userPreferred": "Akiko Hiramatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95066-oCD0liGFKqlH.png"
+        },
+        {
+          "id": 203104,
+          "language": "English",
+          "name": {
+            "first": "Marianne",
+            "last": "Jaromi",
+            "full": "Marianne Jaromi",
+            "native": null,
+            "userPreferred": "Marianne Jaromi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2659,
+      "role": "MAIN",
+      "name": {
+        "first": "Cherry",
+        "last": null,
+        "full": "Cherry",
+        "native": "チェリー",
+        "userPreferred": "Cherry"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2659.jpg",
+      "voiceActors": [
+        {
+          "id": 95291,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuri",
+            "last": "Shiratori",
+            "full": "Yuri Shiratori",
+            "native": "白鳥由里",
+            "userPreferred": "Yuri Shiratori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95291-NJi0RGiirXL6.png"
+        },
+        {
+          "id": 187527,
+          "language": "English",
+          "name": {
+            "first": "Kendra",
+            "last": "Masonchuck",
+            "full": "Kendra Masonchuck",
+            "native": null,
+            "userPreferred": "Kendra Masonchuck"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 109995,
+          "language": "Korean",
+          "name": {
+            "first": "Hye Ok",
+            "last": "Jeong",
+            "full": "Hye Ok Jeong",
+            "native": "혜옥 정",
+            "userPreferred": "Hye Ok Jeong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14995.jpg"
+        },
+        {
+          "id": 109983,
+          "language": "Korean",
+          "name": {
+            "first": "Ui Jin",
+            "last": "Chae",
+            "full": "Ui Jin Chae",
+            "native": "의진 채",
+            "userPreferred": "Ui Jin Chae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14983.jpg"
+        },
+        {
+          "id": 104773,
+          "language": "Spanish",
+          "name": {
+            "first": "Rossy",
+            "last": "Aguirre",
+            "full": "Rossy Aguirre",
+            "native": null,
+            "userPreferred": "Rossy Aguirre"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104773-PmfPC8nuPYGn.jpg"
+        },
+        {
+          "id": 106518,
+          "language": "Portuguese",
+          "name": {
+            "first": "Fátima",
+            "last": "Noya",
+            "full": "Fátima Noya",
+            "native": null,
+            "userPreferred": "Fátima Noya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11518.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2657,
+      "role": "MAIN",
+      "name": {
+        "first": "Otaru",
+        "last": "Mamiya",
+        "full": "Otaru Mamiya",
+        "native": "間宮小樽",
+        "userPreferred": "Otaru Mamiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2657-KVQi5XHa03Ud.jpg",
+      "voiceActors": [
+        {
+          "id": 95374,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Imai",
+            "full": "Yuka Imai",
+            "native": "今井由香",
+            "userPreferred": "Yuka Imai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95374-ZCLR2wSfxYDX.jpg"
+        },
+        {
+          "id": 103732,
+          "language": "English",
+          "name": {
+            "first": "Jonathan",
+            "last": "Love",
+            "full": "Jonathan Love",
+            "native": null,
+            "userPreferred": "Jonathan Love"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103732-F5nUqcKu7ywj.jpg"
+        },
+        {
+          "id": 109777,
+          "language": "Korean",
+          "name": {
+            "first": "Sang-Hyeon",
+            "last": "Eom",
+            "full": "Sang-Hyeon Eom",
+            "native": "엄상현",
+            "userPreferred": "Sang-Hyeon Eom"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14777.jpg"
+        },
+        {
+          "id": 96462,
+          "language": "Spanish",
+          "name": {
+            "first": "Irwin",
+            "last": "Daayán",
+            "full": "Irwin Daayán",
+            "native": "Irwin Daayán Rosenthal Sarlí",
+            "userPreferred": "Irwin Daayán"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96462-PWlPtfZ1sHX7.png"
+        },
+        {
+          "id": 103609,
+          "language": "Portuguese",
+          "name": {
+            "first": "Márcio",
+            "last": "Araújo",
+            "full": "Márcio Araújo",
+            "native": "Márcio José Araújo",
+            "userPreferred": "Márcio Araújo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103609-le01QWguLrUK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 182389,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Baiko",
+        "last": null,
+        "full": "Baiko",
+        "native": null,
+        "userPreferred": "Baiko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b182389-j5hj0qzUs6ZT.png",
+      "voiceActors": [
+        {
+          "id": 95208,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Orikasa",
+            "full": "Ai Orikasa",
+            "native": "折笠愛",
+            "userPreferred": "Ai Orikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95208-DIfpWvWN401M.png"
+        },
+        {
+          "id": 203104,
+          "language": "English",
+          "name": {
+            "first": "Marianne",
+            "last": "Jaromi",
+            "full": "Marianne Jaromi",
+            "native": null,
+            "userPreferred": "Marianne Jaromi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2679,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lorelei",
+        "last": null,
+        "full": "Lorelei",
+        "native": "ローレライ",
+        "userPreferred": "Lorelei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2679.jpg",
+      "voiceActors": [
+        {
+          "id": 95290,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuri",
+            "last": "Amano",
+            "full": "Yuri Amano",
+            "native": "天野由梨",
+            "userPreferred": "Yuri Amano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95290-nU8h5vWr8RCv.jpg"
+        },
+        {
+          "id": 100669,
+          "language": "English",
+          "name": {
+            "first": "Mariette",
+            "last": "Sluyter",
+            "full": "Mariette Sluyter",
+            "native": null,
+            "userPreferred": "Mariette Sluyter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5669.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5468,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Luchs",
+        "last": null,
+        "full": "Luchs",
+        "native": null,
+        "userPreferred": "Luchs"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5468.jpg",
+      "voiceActors": [
+        {
+          "id": 95485,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Mizutani",
+            "full": "Yuuko Mizutani",
+            "native": "水谷優子",
+            "userPreferred": "Yuuko Mizutani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95485-fKXiqJdcVHHs.png"
+        },
+        {
+          "id": 102005,
+          "language": "English",
+          "name": {
+            "first": "Melanie",
+            "last": "Risdon",
+            "full": "Melanie Risdon",
+            "native": null,
+            "userPreferred": "Melanie Risdon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7005.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60635,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hess",
+        "last": null,
+        "full": "Hess",
+        "native": "ヘス",
+        "userPreferred": "Hess"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60635.jpg",
+      "voiceActors": [
+        {
+          "id": 95295,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomohiro",
+            "last": "Nishimura",
+            "full": "Tomohiro Nishimura",
+            "native": "西村朋紘",
+            "userPreferred": "Tomohiro Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95295-wAC8cLzBjWet.png"
+        },
+        {
+          "id": 102233,
+          "language": "English",
+          "name": {
+            "first": "Dave",
+            "last": "Pettitt",
+            "full": "Dave Pettitt",
+            "native": null,
+            "userPreferred": "Dave Pettitt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7233.jpg"
+        }
+      ]
+    },
+    {
+      "id": 182388,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tamasaburo",
+        "last": null,
+        "full": "Tamasaburo",
+        "native": "玉三郎",
+        "userPreferred": "Tamasaburo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b182388-XNWH3CbJzSl9.png",
+      "voiceActors": [
+        {
+          "id": 96295,
+          "language": "Japanese",
+          "name": {
+            "first": "Maria",
+            "last": "Kawamura",
+            "full": "Maria Kawamura",
+            "native": "川村万梨阿",
+            "userPreferred": "Maria Kawamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96295-i8Ve82EZ373Y.png"
+        },
+        {
+          "id": 203106,
+          "language": "English",
+          "name": {
+            "first": "Macy",
+            "last": "Brown",
+            "full": "Macy Brown",
+            "native": null,
+            "userPreferred": "Macy Brown"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5466,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gelhardt von",
+        "last": "Faust",
+        "full": "Gelhardt von Faust",
+        "native": "ゲルハルト・フォン・ファウスト",
+        "userPreferred": "Gelhardt von Faust"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5466.jpg",
+      "voiceActors": [
+        {
+          "id": 95112,
+          "language": "Japanese",
+          "name": {
+            "first": "Hikaru",
+            "last": "Midorikawa",
+            "full": "Hikaru Midorikawa",
+            "native": "緑川光",
+            "userPreferred": "Hikaru Midorikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95112-c275OLptkSYO.png"
+        },
+        {
+          "id": 144990,
+          "language": "English",
+          "name": {
+            "first": "Byron",
+            "last": "Close",
+            "full": "Byron Close",
+            "native": null,
+            "userPreferred": "Byron Close"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2678,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mitsurugi",
+        "last": "Hanagata",
+        "full": "Mitsurugi Hanagata",
+        "native": null,
+        "userPreferred": "Mitsurugi Hanagata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2678.jpg",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        },
+        {
+          "id": 187528,
+          "language": "English",
+          "name": {
+            "first": "Bryce",
+            "last": "Kulak",
+            "full": "Bryce Kulak",
+            "native": null,
+            "userPreferred": "Bryce Kulak"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5470,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yumeji",
+        "last": "Hanagata",
+        "full": "Yumeji Hanagata",
+        "native": null,
+        "userPreferred": "Yumeji Hanagata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5470.jpg",
+      "voiceActors": [
+        {
+          "id": 95622,
+          "language": "Japanese",
+          "name": {
+            "first": "Urara",
+            "last": "Takano",
+            "full": "Urara Takano",
+            "native": "高乃麗",
+            "userPreferred": "Urara Takano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95622-dTBTsrkei7v4.png"
+        },
+        {
+          "id": 203105,
+          "language": "English",
+          "name": {
+            "first": "Andi",
+            "last": "Zack",
+            "full": "Andi Zack",
+            "native": null,
+            "userPreferred": "Andi Zack"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5467,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tiger",
+        "last": null,
+        "full": "Tiger",
+        "native": null,
+        "userPreferred": "Tiger"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5467.jpg",
+      "voiceActors": [
+        {
+          "id": 95622,
+          "language": "Japanese",
+          "name": {
+            "first": "Urara",
+            "last": "Takano",
+            "full": "Urara Takano",
+            "native": "高乃麗",
+            "userPreferred": "Urara Takano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95622-dTBTsrkei7v4.png"
+        },
+        {
+          "id": 166740,
+          "language": "English",
+          "name": {
+            "first": "Elizabeth",
+            "last": "Stepkowski",
+            "full": "Elizabeth Stepkowski",
+            "native": null,
+            "userPreferred": "Elizabeth Stepkowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 182390,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gennai",
+        "last": "Shiraga",
+        "full": "Gennai Shiraga",
+        "native": null,
+        "userPreferred": "Gennai Shiraga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b182390-TMDd781AnLCi.png",
+      "voiceActors": [
+        {
+          "id": 95898,
+          "language": "Japanese",
+          "name": {
+            "first": "Choo",
+            "last": null,
+            "full": "Choo",
+            "native": "チョー ",
+            "userPreferred": "Choo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95898-XHSESV65G8Jv.png"
+        },
+        {
+          "id": 144990,
+          "language": "English",
+          "name": {
+            "first": "Byron",
+            "last": "Close",
+            "full": "Byron Close",
+            "native": null,
+            "userPreferred": "Byron Close"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5469,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Panther",
+        "last": null,
+        "full": "Panther",
+        "native": null,
+        "userPreferred": "Panther"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5469.jpg",
+      "voiceActors": [
+        {
+          "id": 95195,
+          "language": "Japanese",
+          "name": {
+            "first": "Kikuko",
+            "last": "Inoue",
+            "full": "Kikuko Inoue",
+            "native": "井上喜久子",
+            "userPreferred": "Kikuko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95195-nLvtZl5sCK0D.png"
+        },
+        {
+          "id": 165407,
+          "language": "English",
+          "name": {
+            "first": "Michelle",
+            "last": "Armeneau",
+            "full": "Michelle Armeneau",
+            "native": null,
+            "userPreferred": "Michelle Armeneau"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1191,
+      "relationType": "PREQUEL",
+      "malId": 1191,
+      "title": {
+        "romaji": "Saber Marionette J Again",
+        "english": null,
+        "native": "またまたセイバーマリオネットＪ",
+        "userPreferred": "Saber Marionette J Again"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1191-KOfFm1N6sd0O.jpg",
+      "color": "#e4d650",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1191-7ZSRI2YshcQe.jpg",
+      "rating": 68
+    },
+    {
+      "id": 1232,
+      "relationType": "ALTERNATIVE",
+      "malId": 1232,
+      "title": {
+        "romaji": "Saber Marionette R",
+        "english": null,
+        "native": "セイバーマリオネットR",
+        "userPreferred": "Saber Marionette R"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1232-ZgcCUGOBqEbK.jpg",
+      "color": "#e47850",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1232-WJ9SoPGVPQkM.jpg",
+      "rating": 61
+    }
+  ],
+  "episodes": [
+    {
+      "id": "saber-marionette-j-to-x-episode-1",
+      "title": "Civilization All Over the Place",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20943/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-1"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-2",
+      "title": "Wishes Are Granted to the Winner of the Float Battle",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20944/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-2"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-3",
+      "title": "Daddy is Coming! Daddy is Coming!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20945/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-3"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-4",
+      "title": "The Saberdolls' Journey",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20946/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-4"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-5",
+      "title": "Shirataki Shines Forever",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20947/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-5"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-6",
+      "title": "Two Otaru's? The Tightrope of Love",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20948/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-6"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-7",
+      "title": "The Lonely Fairy",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20949/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-7"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-8",
+      "title": "Cherry's Babysitting Diary",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20950/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-8"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-9",
+      "title": "The Forest, An Iron Ball, and Everybody",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20951/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-9"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-10",
+      "title": "Onigiri Tastes Like Peace?!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20952/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-10"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-11",
+      "title": "Redemption of Otaru the Man",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20953/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-11"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-12",
+      "title": "The Heaven's Cross of Fate",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20954/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-12"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-13",
+      "title": "Evil Ambitions and the Rise of the Iron Beast",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20955/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-13"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-14",
+      "title": "A Pair of Tickets for a Slow Train to Xi'an",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20956/original.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-14"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-15",
+      "title": "The Eternal City, Xian",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20957/original.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-15"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-16",
+      "title": "Birds Without Wings",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20958/original.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-16"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-17",
+      "title": "The Many Yesterdays and Todays",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20959/original.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-17"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-18",
+      "title": "Under the Plasma Sky",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20960/original.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-18"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-19",
+      "title": "1/3 of Sorrow",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20961/original.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-19"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-20",
+      "title": "The Unrelenting Rain of Xi'an",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20962/original.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-20"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-21",
+      "title": "The Scarlet Awakening",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20963/original.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-21"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-22",
+      "title": "The Cry",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20964/original.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-22"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-23",
+      "title": "The Dream in the Circuit",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20965/original.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-23"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-24",
+      "title": "The Girls Beyond the Rainbow",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20966/original.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-24"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-25",
+      "title": "Rays of Light",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20967/original.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-25"
+    },
+    {
+      "id": "saber-marionette-j-to-x-episode-26",
+      "title": "A Forever Blue Sky",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20968/original.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saber-marionette-j-to-x-episode-26"
+    }
+  ]
+}

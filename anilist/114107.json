@@ -1,0 +1,677 @@
+{
+  "id": "114107",
+  "title": {
+    "romaji": "Huo Feng Liao Yuan",
+    "english": "The Ravages of Time",
+    "native": "火凤燎原"
+  },
+  "malId": 41220,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "trailer": {
+    "id": "2uwfE5Tx_Uk",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/2uwfE5Tx_Uk/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114107-XnbGmr47y8M1.png",
+  "popularity": 663,
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114107-XnbGmr47y8M1.png",
+  "description": "Nearly 2000 years ago, the prosperous Han dynasty of China collapsed. Heroes rose and fell, and three nations emerged--Wei, Shu, and Wu. Historians refer to this period as the Three Kingdoms period. The romance of the three kingdoms is an intriguing tale of heroic deeds, of alliance forged and broken, of loyalty and betrayal.\n",
+  "status": "Completed",
+  "releaseDate": 2023,
+  "startDate": {
+    "year": 2023,
+    "month": 4,
+    "day": 29
+  },
+  "endDate": {
+    "year": 2023,
+    "month": 8,
+    "day": 5
+  },
+  "totalEpisodes": 16,
+  "currentEpisode": 16,
+  "rating": 59,
+  "duration": null,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Drama"
+  ],
+  "season": null,
+  "studios": [
+    "LX Animation Studio"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 114556,
+      "malId": 40638,
+      "title": {
+        "romaji": "Wanguo Zhi",
+        "english": "Wings of the World",
+        "native": "万国志",
+        "userPreferred": "Wanguo Zhi"
+      },
+      "status": "Completed",
+      "episodes": 16,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114556-jErqrkAGGMnv.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114556-jErqrkAGGMnv.png",
+      "rating": 62,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 21500,
+      "role": "MAIN",
+      "name": {
+        "first": "Yi",
+        "last": "Sima",
+        "full": "Yi Sima",
+        "native": "司馬懿",
+        "userPreferred": "Yi Sima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b21500-dqwRkxIU3RGd.png",
+      "voiceActors": [
+        {
+          "id": 232755,
+          "language": "Chinese",
+          "name": {
+            "first": "Lei",
+            "last": "Shen",
+            "full": "Lei Shen",
+            "native": "沈磊",
+            "userPreferred": "Lei Shen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n232755-WrYTpFswOtR9.png"
+        }
+      ]
+    },
+    {
+      "id": 24750,
+      "role": "MAIN",
+      "name": {
+        "first": "Huo",
+        "last": "Liaoyuan",
+        "full": "Huo Liaoyuan",
+        "native": "燎原火",
+        "userPreferred": "Huo Liaoyuan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b24750-GwTdZr1ZOe5F.jpg",
+      "voiceActors": [
+        {
+          "id": 308371,
+          "language": "Chinese",
+          "name": {
+            "first": "Guangyi",
+            "last": "Du",
+            "full": "Guangyi Du",
+            "native": "杜光祎",
+            "userPreferred": "Guangyi Du"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n308371-BYro2u09BDc4.png"
+        }
+      ]
+    },
+    {
+      "id": 24319,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Xiaomeng",
+        "last": "",
+        "full": "Xiaomeng",
+        "native": "小孟",
+        "userPreferred": "Xiaomeng"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24319.jpg",
+      "voiceActors": [
+        {
+          "id": 280772,
+          "language": "Chinese",
+          "name": {
+            "first": "Xiaotong",
+            "last": "Wang",
+            "full": "Xiaotong Wang",
+            "native": "王晓彤",
+            "userPreferred": "Xiaotong Wang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n280772-pYn4oICu4WIR.png"
+        }
+      ]
+    },
+    {
+      "id": 287023,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shu",
+        "last": "Sun",
+        "full": "Shu Sun",
+        "native": "孫淑",
+        "userPreferred": "Shu Sun"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b287023-xau4tZ9QYstt.jpg",
+      "voiceActors": [
+        {
+          "id": 308376,
+          "language": "Chinese",
+          "name": {
+            "first": "Hongxiu",
+            "last": "Wang",
+            "full": "Hongxiu Wang",
+            "native": "王红秀",
+            "userPreferred": "Hongxiu Wang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 308384,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Xiong",
+        "last": "Hua",
+        "full": "Xiong Hua",
+        "native": "华雄",
+        "userPreferred": "Xiong Hua"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 308385,
+          "language": "Chinese",
+          "name": {
+            "first": "Weishuai",
+            "last": "Wang",
+            "full": "Weishuai Wang",
+            "native": "王维帅",
+            "userPreferred": "Weishuai Wang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 77969,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yu",
+        "last": "Guan",
+        "full": "Yu Guan",
+        "native": "関羽",
+        "userPreferred": "Yu Guan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77969.jpg",
+      "voiceActors": [
+        {
+          "id": 308377,
+          "language": "Chinese",
+          "name": {
+            "first": "Ran",
+            "last": "Jiang",
+            "full": "Ran Jiang",
+            "native": "江冉",
+            "userPreferred": "Ran Jiang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n308377-WabPWvDX2M8c.png"
+        }
+      ]
+    },
+    {
+      "id": 287018,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lei",
+        "last": "Zhang",
+        "full": "Lei Zhang",
+        "native": "張雷",
+        "userPreferred": "Lei Zhang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b287018-fPFEQOXofLkR.png",
+      "voiceActors": [
+        {
+          "id": 308378,
+          "language": "Chinese",
+          "name": {
+            "first": "Huasheng",
+            "last": "Wang",
+            "full": "Huasheng Wang",
+            "native": "王华圣",
+            "userPreferred": "Huasheng Wang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 53267,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bu",
+        "last": "Lü",
+        "full": "Bu Lü",
+        "native": "呂布",
+        "userPreferred": "Bu Lü"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b53267-B6j4wq39hjYt.jpg",
+      "voiceActors": [
+        {
+          "id": 308372,
+          "language": "Chinese",
+          "name": {
+            "first": "Jing",
+            "last": "Lin",
+            "full": "Jing Lin",
+            "native": "林景",
+            "userPreferred": "Jing Lin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n308372-rGvA53ZtnjzA.png"
+        }
+      ]
+    },
+    {
+      "id": 287014,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ang",
+        "last": "Guo",
+        "full": "Ang Guo",
+        "native": "郭昂",
+        "userPreferred": "Ang Guo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b287014-XysWJD8Kv9Qm.jpg",
+      "voiceActors": [
+        {
+          "id": 308379,
+          "language": "Chinese",
+          "name": {
+            "first": "Feng",
+            "last": "Guo",
+            "full": "Feng Guo",
+            "native": "郭枫",
+            "userPreferred": "Feng Guo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28679,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fang",
+        "last": "Yuan",
+        "full": "Fang Yuan",
+        "native": "袁方",
+        "userPreferred": "Fang Yuan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28679.jpg",
+      "voiceActors": [
+        {
+          "id": 188416,
+          "language": "Chinese",
+          "name": {
+            "first": "Lei",
+            "last": "Wu",
+            "full": "Lei Wu",
+            "native": "吴磊",
+            "userPreferred": "Lei Wu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188416-imtnktDpDBSl.png"
+        }
+      ]
+    },
+    {
+      "id": 308380,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shui Jing Xiansheng",
+        "last": "",
+        "full": "Shui Jing Xiansheng",
+        "native": "水镜先生",
+        "userPreferred": "Shui Jing Xiansheng"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 217685,
+          "language": "Chinese",
+          "name": {
+            "first": "Yuzhu",
+            "last": "Cheng",
+            "full": "Yuzhu Cheng",
+            "native": "程玉珠",
+            "userPreferred": "Yuzhu Cheng"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217685-gemjUAjm2uaV.png"
+        }
+      ]
+    },
+    {
+      "id": 287016,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zhuo",
+        "last": "Dong",
+        "full": "Zhuo Dong",
+        "native": "董卓",
+        "userPreferred": "Zhuo Dong"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b287016-9JtFnUYGleZF.png",
+      "voiceActors": [
+        {
+          "id": 308373,
+          "language": "Chinese",
+          "name": {
+            "first": "Jingtian",
+            "last": "Zheng",
+            "full": "Jingtian Zheng",
+            "native": "郑景天",
+            "userPreferred": "Jingtian Zheng"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 308381,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ge",
+        "last": "Huang",
+        "full": "Ge Huang",
+        "native": "黄盖",
+        "userPreferred": "Ge Huang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 220510,
+          "language": "Chinese",
+          "name": {
+            "first": "Chong",
+            "last": "Fu",
+            "full": "Chong Fu",
+            "native": "符冲",
+            "userPreferred": "Chong Fu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n220510-jpSkUtqNlLAv.png"
+        }
+      ]
+    },
+    {
+      "id": 77971,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fei",
+        "last": "Zhang",
+        "full": "Fei Zhang",
+        "native": "張飛",
+        "userPreferred": "Fei Zhang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77971.jpg",
+      "voiceActors": [
+        {
+          "id": 308374,
+          "language": "Chinese",
+          "name": {
+            "first": "Chen",
+            "last": "Huang",
+            "full": "Chen Huang",
+            "native": "黄晨",
+            "userPreferred": "Chen Huang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 308382,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lang",
+        "last": "Sima",
+        "full": "Lang Sima",
+        "native": "司马朗",
+        "userPreferred": "Lang Sima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 308383,
+          "language": "Chinese",
+          "name": {
+            "first": "Qian",
+            "last": "Hu",
+            "full": "Qian Hu",
+            "native": "胡谦",
+            "userPreferred": "Qian Hu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n308383-FyVDUae4fxGT.png"
+        }
+      ]
+    },
+    {
+      "id": 77967,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bei",
+        "last": "Liu",
+        "full": "Bei Liu",
+        "native": "劉備",
+        "userPreferred": "Bei Liu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77967.jpg",
+      "voiceActors": [
+        {
+          "id": 308375,
+          "language": "Chinese",
+          "name": {
+            "first": "Ke",
+            "last": "Jiang",
+            "full": "Ke Jiang",
+            "native": "蒋可",
+            "userPreferred": "Ke Jiang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n308375-cyBNqy7qTC1p.png"
+        }
+      ]
+    },
+    {
+      "id": 243428,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shao",
+        "last": "Yuan",
+        "full": "Shao Yuan",
+        "native": "袁绍",
+        "userPreferred": "Shao Yuan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b243428-GwQBjIESflQD.png",
+      "voiceActors": [
+        {
+          "id": 188414,
+          "language": "Chinese",
+          "name": {
+            "first": "Qiu",
+            "last": "Jia",
+            "full": "Qiu Jia",
+            "native": "贾邱",
+            "userPreferred": "Qiu Jia"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188414-NqYyTcEArxbC.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 31320,
+      "relationType": "ADAPTATION",
+      "malId": 1320,
+      "title": {
+        "romaji": "Huo Feng Liao Yuan",
+        "english": "The Ravages of Time",
+        "native": "火鳳燎原",
+        "userPreferred": "Huo Feng Liao Yuan"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31320-34hlJNSVlvbb.jpg",
+      "color": "#e44328",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/31320-XjljcXpSLRfU.jpg",
+      "rating": 84
+    }
+  ],
+  "episodes": [
+    {
+      "id": "huo-feng-liao-yuan-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114107-XnbGmr47y8M1.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//huo-feng-liao-yuan-episode-1"
+    },
+    {
+      "id": "huo-feng-liao-yuan-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114107-XnbGmr47y8M1.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//huo-feng-liao-yuan-episode-2"
+    },
+    {
+      "id": "huo-feng-liao-yuan-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114107-XnbGmr47y8M1.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//huo-feng-liao-yuan-episode-3"
+    },
+    {
+      "id": "huo-feng-liao-yuan-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114107-XnbGmr47y8M1.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//huo-feng-liao-yuan-episode-4"
+    },
+    {
+      "id": "huo-feng-liao-yuan-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114107-XnbGmr47y8M1.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//huo-feng-liao-yuan-episode-5"
+    },
+    {
+      "id": "huo-feng-liao-yuan-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114107-XnbGmr47y8M1.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//huo-feng-liao-yuan-episode-6"
+    },
+    {
+      "id": "huo-feng-liao-yuan-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114107-XnbGmr47y8M1.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//huo-feng-liao-yuan-episode-7"
+    },
+    {
+      "id": "huo-feng-liao-yuan-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114107-XnbGmr47y8M1.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//huo-feng-liao-yuan-episode-8"
+    },
+    {
+      "id": "huo-feng-liao-yuan-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114107-XnbGmr47y8M1.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//huo-feng-liao-yuan-episode-9"
+    },
+    {
+      "id": "huo-feng-liao-yuan-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114107-XnbGmr47y8M1.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//huo-feng-liao-yuan-episode-10"
+    },
+    {
+      "id": "huo-feng-liao-yuan-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114107-XnbGmr47y8M1.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//huo-feng-liao-yuan-episode-11"
+    },
+    {
+      "id": "huo-feng-liao-yuan-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114107-XnbGmr47y8M1.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//huo-feng-liao-yuan-episode-12"
+    },
+    {
+      "id": "huo-feng-liao-yuan-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114107-XnbGmr47y8M1.png",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//huo-feng-liao-yuan-episode-13"
+    },
+    {
+      "id": "huo-feng-liao-yuan-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114107-XnbGmr47y8M1.png",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//huo-feng-liao-yuan-episode-14"
+    },
+    {
+      "id": "huo-feng-liao-yuan-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114107-XnbGmr47y8M1.png",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//huo-feng-liao-yuan-episode-15"
+    },
+    {
+      "id": "huo-feng-liao-yuan-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114107-XnbGmr47y8M1.png",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//huo-feng-liao-yuan-episode-16"
+    }
+  ]
+}

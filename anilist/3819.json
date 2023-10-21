@@ -1,0 +1,407 @@
+{
+  "id": "3819",
+  "title": {
+    "romaji": "Sasurai no Taiyou",
+    "english": null,
+    "native": "さすらいの太陽"
+  },
+  "malId": 3819,
+  "synonyms": [
+    "Wandering Sun",
+    "Nathalie Sasurai no Taiyo"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+  "popularity": 851,
+  "color": "#e4bb5d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+  "description": "Two baby girls were born in the same hospital: one of them is the daughter of an aristocratic family while the other belongs to a depraved household which lives in the slums of the city. However, the nurse-in-charge, Michiko, secretly switches the two babies due to a personal grudge, resulting in a change of fates of the girls from then on. Many years later, the lives of the two girls continue to be intertwined with each other, with the rich Miki ill-treating the poor Nozomi, yet both of them hold similar dreams to become a singer.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 1971,
+  "startDate": {
+    "year": 1971,
+    "month": 4,
+    "day": 8
+  },
+  "endDate": {
+    "year": 1971,
+    "month": 9,
+    "day": 30
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 56,
+  "duration": 24,
+  "genres": [
+    "Drama",
+    "Music"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Mushi Production"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 506,
+      "malId": 506,
+      "title": {
+        "romaji": "Glass no Kamen",
+        "english": "Glass Mask",
+        "native": "ガラスの仮面",
+        "userPreferred": "Glass no Kamen"
+      },
+      "status": "Completed",
+      "episodes": 23,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx506-wfDcUJMnvMed.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/506-hqggxE83Rujb.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 2938,
+      "malId": 2938,
+      "title": {
+        "romaji": "Idol Densetsu Eriko",
+        "english": null,
+        "native": "アイドル伝説えり子",
+        "userPreferred": "Idol Densetsu Eriko"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2938-q1dJScuPYdYC.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2938-3Kn5FYuhWmGr.jpg",
+      "rating": 65,
+      "type": "TV"
+    },
+    {
+      "id": 2402,
+      "malId": 2402,
+      "title": {
+        "romaji": "Ashita no Joe",
+        "english": null,
+        "native": "あしたのジョー",
+        "userPreferred": "Ashita no Joe"
+      },
+      "status": "Completed",
+      "episodes": 79,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx2402-hbo1SbfcM5hm.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2402-SgRt5yp35i1Y.jpg",
+      "rating": 80,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 39275,
+      "role": "MAIN",
+      "name": {
+        "first": "Miki",
+        "last": "Kouda",
+        "full": "Miki Kouda",
+        "native": "香田美紀",
+        "userPreferred": "Miki Kouda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b39275-yK4kl331MZTB.png",
+      "voiceActors": [
+        {
+          "id": 112121,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiko",
+            "last": "Hirai",
+            "full": "Michiko Hirai",
+            "native": "平井道子",
+            "userPreferred": "Michiko Hirai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112121-VrDqmTjVzndT.jpg"
+        }
+      ]
+    },
+    {
+      "id": 146172,
+      "role": "MAIN",
+      "name": {
+        "first": "Nozomi",
+        "last": "Mine",
+        "full": "Nozomi Mine",
+        "native": "峰のぞみ",
+        "userPreferred": "Nozomi Mine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b146172-JYS2laDdm69y.png",
+      "voiceActors": [
+        {
+          "id": 146173,
+          "language": "Japanese",
+          "name": {
+            "first": "Junko",
+            "last": "Fujiyama",
+            "full": "Junko Fujiyama",
+            "native": "藤山ジュンコ",
+            "userPreferred": "Junko Fujiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n146173-6u6EAt5zOnM9.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 108317,
+      "relationType": "ADAPTATION",
+      "malId": 125753,
+      "title": {
+        "romaji": "Sasurai no Taiyou",
+        "english": null,
+        "native": "さすらいの太陽",
+        "userPreferred": "Sasurai no Taiyou"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b108317-Kmv8Uz0wL9FD.jpg",
+      "color": "#d6d61a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b108317-Kmv8Uz0wL9FD.jpg",
+      "rating": 100
+    }
+  ],
+  "episodes": [
+    {
+      "id": "sasurai-no-taiyou-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-1"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-2"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-3"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-4"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-5"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-6"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-7"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-8"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-9"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-10"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-11"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-12"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-13"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-14"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-15"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-16"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-17",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 17,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-17"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-18",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 18,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-18"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-19",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 19,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-19"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-20",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 20,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-20"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-21",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 21,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-21"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-22",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 22,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-22"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-23",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 23,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-23"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-24",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 24,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-24"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-25",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 25,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-25"
+    },
+    {
+      "id": "sasurai-no-taiyou-episode-26",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3819-jlc3y5Nz90Sz.png",
+      "number": 26,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sasurai-no-taiyou-episode-26"
+    }
+  ]
+}

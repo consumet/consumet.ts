@@ -1,0 +1,923 @@
+{
+  "id": "554",
+  "title": {
+    "romaji": "Koutetsu Tenshi Kurumi",
+    "english": "Steel Angel Kurumi",
+    "native": "鋼鉄天使くるみ"
+  },
+  "malId": 554,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/554.jpg",
+  "popularity": 3796,
+  "color": "#f15d43",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n554-jvJOqiWD1nvg.jpg",
+  "description": "During Japan's Taisho Era (1912-1926), a scientist named Ayanokoji developed the Steel Angel - an artificial humanoid with superhuman physical abilities. While the Imperial Army wanted to use the Steel Angel as a new means of modern warfare, Ayanokoji wanted his creation to be a new step in the future of mankind. Thus, he defied orders from the Army and secretly made the Steel Angel codenamed \"Kurumi\". Then one day, a young boy named Nakahito Kagura snuck into Ayanokoji's house as a dare by his friends and stumbled upon Kurumi's lifeless body. A sudden attack by the Imperial Army shook the house, causing Kurumi to fall on Nakahito. At that moment, their lips met, and Kurumi woke up from \"the kiss that started a miracle\".\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 1999,
+  "startDate": {
+    "year": 1999,
+    "month": 10,
+    "day": 5
+  },
+  "endDate": {
+    "year": 2000,
+    "month": 4,
+    "day": 4
+  },
+  "totalEpisodes": 24,
+  "currentEpisode": 24,
+  "rating": 61,
+  "duration": 15,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Mecha",
+    "Romance",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "OLM"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 59,
+      "malId": 59,
+      "title": {
+        "romaji": "Chobits",
+        "english": "Chobits",
+        "native": "ちょびっツ",
+        "userPreferred": "Chobits"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx59-0J95ZHgt4uyP.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n59-A3U3L90yUEWQ.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 276,
+      "malId": 276,
+      "title": {
+        "romaji": "Mahoromatic",
+        "english": "Mahoromatic: Automatic Maiden",
+        "native": "まほろまてぃっく",
+        "userPreferred": "Mahoromatic"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b276-r8umGUlMypFh.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n276-f14uInoPAvU9.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 412,
+      "malId": 412,
+      "title": {
+        "romaji": "Kore ga Watashi no Goshujin-sama",
+        "english": "He is My Master",
+        "native": "これが私の御主人様",
+        "userPreferred": "Kore ga Watashi no Goshujin-sama"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx412-sptPOlVOH0Y0.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/412-ThwWz5NUxHO3.jpg",
+      "rating": 59,
+      "type": "TV"
+    },
+    {
+      "id": 21511,
+      "malId": 32214,
+      "title": {
+        "romaji": "Koukaku no Pandora",
+        "english": "Pandora in the Crimson Shell Ghost Urn",
+        "native": "紅殻のパンドラ",
+        "userPreferred": "Koukaku no Pandora"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21511-D0tPX9spNPQW.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21511-D0tPX9spNPQW.png",
+      "rating": 61,
+      "type": "TV"
+    },
+    {
+      "id": 1165,
+      "malId": 1165,
+      "title": {
+        "romaji": "Sakura Taisen: Ouka Kenran",
+        "english": "Sakura Wars: The Gorgeous Blooming Cherry Blossoms ",
+        "native": "サクラ大戦 ~桜華絢爛~",
+        "userPreferred": "Sakura Taisen: Ouka Kenran"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1165-cmxTudQc5wHO.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1165-v2FI8ei9CzAc.jpg",
+      "rating": 62,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 3853,
+      "role": "MAIN",
+      "name": {
+        "first": "Nakahito",
+        "last": "Kagura",
+        "full": "Nakahito Kagura",
+        "native": null,
+        "userPreferred": "Nakahito Kagura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3853.jpg",
+      "voiceActors": [
+        {
+          "id": 95057,
+          "language": "Japanese",
+          "name": {
+            "first": "Houko",
+            "last": "Kuwashima",
+            "full": "Houko Kuwashima",
+            "native": "桑島法子",
+            "userPreferred": "Houko Kuwashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95057-nMZEwJet445W.jpg"
+        },
+        {
+          "id": 95162,
+          "language": "English",
+          "name": {
+            "first": "Kira",
+            "last": "Vincent-Davis",
+            "full": "Kira Vincent-Davis",
+            "native": null,
+            "userPreferred": "Kira Vincent-Davis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/162.jpg"
+        },
+        {
+          "id": 116479,
+          "language": "Portuguese",
+          "name": {
+            "first": "Antonio",
+            "last": "Akira",
+            "full": "Antonio Akira",
+            "native": null,
+            "userPreferred": "Antonio Akira"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116479-93jliiv7Z9JK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1718,
+      "role": "MAIN",
+      "name": {
+        "first": "Saki",
+        "last": null,
+        "full": "Saki",
+        "native": "サキ",
+        "userPreferred": "Saki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1718.jpg",
+      "voiceActors": [
+        {
+          "id": 95060,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Tanaka",
+            "full": "Rie Tanaka",
+            "native": "田中理恵",
+            "userPreferred": "Rie Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95060-Rw0HZghxH1hF.jpg"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        }
+      ]
+    },
+    {
+      "id": 136034,
+      "role": "MAIN",
+      "name": {
+        "first": "The General",
+        "last": null,
+        "full": "The General",
+        "native": "将軍",
+        "userPreferred": "The General"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136034-xYuNPYyiY0Ha.jpg",
+      "voiceActors": [
+        {
+          "id": 95892,
+          "language": "Japanese",
+          "name": {
+            "first": "Tamio",
+            "last": "Ooki",
+            "full": "Tamio Ooki",
+            "native": "大木民夫",
+            "userPreferred": "Tamio Ooki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95892-hARexeaqvxfo.jpg"
+        },
+        {
+          "id": 95201,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Swasey",
+            "full": "John Swasey",
+            "native": null,
+            "userPreferred": "John Swasey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95201-cas6XbtZmMay.jpg"
+        }
+      ]
+    },
+    {
+      "id": 155613,
+      "role": "MAIN",
+      "name": {
+        "first": "Reiko",
+        "last": "Amagi",
+        "full": "Reiko Amagi",
+        "native": "天城礼子 ",
+        "userPreferred": "Reiko Amagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b155613-VCWfT25Wk4oP.jpg",
+      "voiceActors": [
+        {
+          "id": 95208,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Orikasa",
+            "full": "Ai Orikasa",
+            "native": "折笠愛",
+            "userPreferred": "Ai Orikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95208-DIfpWvWN401M.png"
+        },
+        {
+          "id": 95193,
+          "language": "English",
+          "name": {
+            "first": "Shelley",
+            "last": "Calene-Black",
+            "full": "Shelley Calene-Black",
+            "native": null,
+            "userPreferred": "Shelley Calene-Black"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95193-Nvdjk8BIcEJb.png"
+        },
+        {
+          "id": 179631,
+          "language": "Portuguese",
+          "name": {
+            "first": "Lucia",
+            "last": "Helena",
+            "full": "Lucia Helena",
+            "native": "Lúcia Helena",
+            "userPreferred": "Lucia Helena"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n179631-LvYh53HJB1dP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1717,
+      "role": "MAIN",
+      "name": {
+        "first": "Karinka",
+        "last": null,
+        "full": "Karinka",
+        "native": "カリンカ",
+        "userPreferred": "Karinka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1717.jpg",
+      "voiceActors": [
+        {
+          "id": 95616,
+          "language": "Japanese",
+          "name": {
+            "first": "Masayo",
+            "last": "Kurata",
+            "full": "Masayo Kurata",
+            "native": "倉田雅世",
+            "userPreferred": "Masayo Kurata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95616-CmlD2OKyZCss.png"
+        },
+        {
+          "id": 95151,
+          "language": "English",
+          "name": {
+            "first": "Hilary",
+            "last": "Haag",
+            "full": "Hilary Haag",
+            "native": null,
+            "userPreferred": "Hilary Haag"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/151.jpg"
+        },
+        {
+          "id": 106667,
+          "language": "Portuguese",
+          "name": {
+            "first": "Flávia",
+            "last": "Narciso",
+            "full": "Flávia Narciso",
+            "native": null,
+            "userPreferred": "Flávia Narciso"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106667-s5hQX18m02e0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1719,
+      "role": "MAIN",
+      "name": {
+        "first": "Kurumi",
+        "last": null,
+        "full": "Kurumi",
+        "native": "くるみ",
+        "userPreferred": "Kurumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1719.jpg",
+      "voiceActors": [
+        {
+          "id": 95411,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsuko",
+            "last": "Enomoto",
+            "full": "Atsuko Enomoto",
+            "native": "榎本温子",
+            "userPreferred": "Atsuko Enomoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95411-yVQiIcuYzQXr.jpg"
+        },
+        {
+          "id": 96627,
+          "language": "English",
+          "name": {
+            "first": "Kelli",
+            "last": "Cousins",
+            "full": "Kelli Cousins",
+            "native": null,
+            "userPreferred": "Kelli Cousins"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96627-CI5pvjO3q5lh.jpg"
+        },
+        {
+          "id": 106453,
+          "language": "Portuguese",
+          "name": {
+            "first": "Raquel",
+            "last": "Marinho",
+            "full": "Raquel Marinho",
+            "native": null,
+            "userPreferred": "Raquel Marinho"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11453.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27237,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mikhail",
+        "last": null,
+        "full": "Mikhail",
+        "native": null,
+        "userPreferred": "Mikhail"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27237-z1Wnah1sFV3N.jpg",
+      "voiceActors": [
+        {
+          "id": 95435,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Touma",
+            "full": "Yumi Touma",
+            "native": "冬馬由美",
+            "userPreferred": "Yumi Touma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95435-REiTyMQqIfH4.jpg"
+        },
+        {
+          "id": 103998,
+          "language": "English",
+          "name": {
+            "first": "Claudia",
+            "last": "Black",
+            "full": "Claudia Black",
+            "native": null,
+            "userPreferred": "Claudia Black"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8998.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17689,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Two-Tone",
+        "last": null,
+        "full": "Two-Tone",
+        "native": null,
+        "userPreferred": "Two-Tone"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95150,
+          "language": "English",
+          "name": {
+            "first": "Spike",
+            "last": "Spencer",
+            "full": "Spike Spencer",
+            "native": null,
+            "userPreferred": "Spike Spencer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95150-VC7hhr2mVRBT.jpg"
+        }
+      ]
+    },
+    {
+      "id": 48547,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dr.Brandow",
+        "last": null,
+        "full": "Dr.Brandow",
+        "native": null,
+        "userPreferred": "Dr.Brandow"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        },
+        {
+          "id": 96031,
+          "language": "English",
+          "name": {
+            "first": "Todd",
+            "last": "Waite",
+            "full": "Todd Waite",
+            "native": null,
+            "userPreferred": "Todd Waite"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1031.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39548,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kamihito",
+        "last": "Kagura",
+        "full": "Kamihito Kagura",
+        "native": null,
+        "userPreferred": "Kamihito Kagura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39548.jpg",
+      "voiceActors": [
+        {
+          "id": 95310,
+          "language": "Japanese",
+          "name": {
+            "first": "Yasunori",
+            "last": "Matsumoto",
+            "full": "Yasunori Matsumoto",
+            "native": "松本保典",
+            "userPreferred": "Yasunori Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95310-n59AcIeJBg9W.png"
+        },
+        {
+          "id": 95379,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Matranga",
+            "full": "David Matranga",
+            "native": null,
+            "userPreferred": "David Matranga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95379-GMh9EncYDh5n.png"
+        },
+        {
+          "id": 102350,
+          "language": "Portuguese",
+          "name": {
+            "first": "Alfredo",
+            "last": "Rollo",
+            "full": "Alfredo Rollo",
+            "native": null,
+            "userPreferred": "Alfredo Rollo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102350-J9WM40ldrYng.jpg"
+        }
+      ]
+    },
+    {
+      "id": 64493,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tetsuo",
+        "last": "Ayanokoji",
+        "full": "Tetsuo Ayanokoji",
+        "native": "綾小路博士",
+        "userPreferred": "Tetsuo Ayanokoji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b64493-8Lt97ZTdxbTx.png",
+      "voiceActors": [
+        {
+          "id": 95572,
+          "language": "Japanese",
+          "name": {
+            "first": "Hirotaka",
+            "last": "Suzuoki",
+            "full": "Hirotaka Suzuoki",
+            "native": "鈴置洋孝",
+            "userPreferred": "Hirotaka Suzuoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95572-H6tkZ7SsId5E.jpg"
+        },
+        {
+          "id": 96605,
+          "language": "English",
+          "name": {
+            "first": "Mike",
+            "last": "MacRae",
+            "full": "Mike MacRae",
+            "native": null,
+            "userPreferred": "Mike MacRae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96605-TzkWu528mzCU.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43917,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaga",
+        "last": null,
+        "full": "Kaga",
+        "native": null,
+        "userPreferred": "Kaga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43917.jpg",
+      "voiceActors": [
+        {
+          "id": 101191,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiharu",
+            "last": "Tezuka",
+            "full": "Chiharu Tezuka",
+            "native": "ちはる 手塚",
+            "userPreferred": "Chiharu Tezuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6191.jpg"
+        },
+        {
+          "id": 101435,
+          "language": "English",
+          "name": {
+            "first": "Kaytha",
+            "last": "Coker",
+            "full": "Kaytha Coker",
+            "native": null,
+            "userPreferred": "Kaytha Coker"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6435.jpg"
+        },
+        {
+          "id": 145500,
+          "language": "Portuguese",
+          "name": {
+            "first": "Denise",
+            "last": "Reis",
+            "full": "Denise Reis",
+            "native": null,
+            "userPreferred": "Denise Reis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145500-bJZlvYUWAUXS.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 555,
+      "relationType": "SEQUEL",
+      "malId": 555,
+      "title": {
+        "romaji": "Koutetsu Tenshi Kurumi 2-shiki",
+        "english": "Steel Angel Kurumi 2",
+        "native": "鋼鉄天使くるみ2式",
+        "userPreferred": "Koutetsu Tenshi Kurumi 2-shiki"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/555.jpg",
+      "color": "#f1c943",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/555.jpg",
+      "rating": 57
+    },
+    {
+      "id": 557,
+      "relationType": "SIDE_STORY",
+      "malId": 557,
+      "title": {
+        "romaji": "Koutetsu Tenshi Kurumi: DVD Single Episodes",
+        "english": "Steel Angel Kurumi Encore",
+        "native": "鋼鉄天使くるみ DVDシングル エピソード",
+        "userPreferred": "Koutetsu Tenshi Kurumi: DVD Single Episodes"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/557.jpg",
+      "color": "#e4c95d",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/557.jpg",
+      "rating": 63
+    },
+    {
+      "id": 33414,
+      "relationType": "ALTERNATIVE",
+      "malId": 3414,
+      "title": {
+        "romaji": "Koutetsu Tenshi Kurumi",
+        "english": "Steel Angel Kurumi",
+        "native": "鋼鉄天使くるみ",
+        "userPreferred": "Koutetsu Tenshi Kurumi"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b33414-MuHrtNovc7vt.png",
+      "color": "#e46b35",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b33414-MuHrtNovc7vt.png",
+      "rating": 63
+    }
+  ],
+  "episodes": [
+    {
+      "id": "steel-angel-kurumi-episode-1",
+      "title": "The Activation ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12415/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-1"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-2",
+      "title": "A One-Master Kinda Gal ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12416/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-2"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-3",
+      "title": "Cold Saki ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12417/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-3"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-4",
+      "title": "Don't Hate Me! ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12418/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-4"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-5",
+      "title": "Warm Saki ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12419/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-5"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-6",
+      "title": "Love Shack ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12420/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-6"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-7",
+      "title": "Playing Doctor",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12421/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-7"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-8",
+      "title": "Tsunami ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12422/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-8"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-9",
+      "title": "Fireworks ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12423/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-9"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-10",
+      "title": "Triple Threat ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12424/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-10"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-11",
+      "title": "Cinnamon Cookies",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12425/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-11"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-12",
+      "title": "Karinka ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12426/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-12"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-13",
+      "title": "Second Sister ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12427/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-13"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-14",
+      "title": "It's Not Fair ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12428/original.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-14"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-15",
+      "title": "Dark Wings ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12429/original.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-15"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-16",
+      "title": "Our Lips Are Sealed ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12430/original.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-16"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-17",
+      "title": "Mikhail ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12431/original.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-17"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-18",
+      "title": "Lies ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12432/original.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-18"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-19",
+      "title": "Storming The Base ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12433/original.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-19"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-20",
+      "title": "Avenging Angel ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12434/original.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-20"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-21",
+      "title": "When Angels Die ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12435/original.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-21"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-22",
+      "title": "Hell's Angel ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12436/original.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-22"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-23",
+      "title": "Crime And Punishment ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12437/original.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-23"
+    },
+    {
+      "id": "steel-angel-kurumi-episode-24",
+      "title": "Kiss ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12438/original.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:21:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//steel-angel-kurumi-episode-24"
+    }
+  ]
+}

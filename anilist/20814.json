@@ -1,0 +1,802 @@
+{
+  "id": "20814",
+  "title": {
+    "romaji": "Re-Kan!",
+    "english": null,
+    "native": "レーカン!"
+  },
+  "malId": 25859,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "9L-xHo-LsRI",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/9L-xHo-LsRI/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20814-fNcQcAFZwDTV.jpg",
+  "popularity": 12285,
+  "color": "#e4935d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20814-oeexuguid4QQ.jpg",
+  "description": "The manga centers around Hibiki Amami, a girl who can see ghosts and other supernatural phenomena in her surroundings. The stories follow her daily life with both her friends and the otherworldly.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2015,
+  "startDate": {
+    "year": 2015,
+    "month": 4,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 6,
+    "day": 26
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 62,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Supernatural"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Studio Signpost"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 131083,
+      "malId": 48483,
+      "title": {
+        "romaji": "Mieruko-chan",
+        "english": "Mieruko-chan",
+        "native": "見える子ちゃん",
+        "userPreferred": "Mieruko-chan"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131083-fMWFyOFgp6vb.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131083-MYE8c1cuzO6C.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 21284,
+      "malId": 31376,
+      "title": {
+        "romaji": "Flying Witch",
+        "english": "Flying Witch",
+        "native": "ふらいんぐうぃっち",
+        "userPreferred": "Flying Witch"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21284-vQcCLIWt1o5O.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21284-9gAbP4x5ziD1.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 20953,
+      "malId": 28423,
+      "title": {
+        "romaji": "Kyoukai no Rinne",
+        "english": "Rin-ne",
+        "native": "境界のRinne",
+        "userPreferred": "Kyoukai no Rinne"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20953-ZWTPj5AplXtX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20953-ZWTPj5AplXtX.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 152802,
+      "malId": 52505,
+      "title": {
+        "romaji": "Dark Gathering",
+        "english": "Dark Gathering",
+        "native": "ダークギャザリング",
+        "userPreferred": "Dark Gathering"
+      },
+      "status": "Ongoing",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx152802-qpOnEtQDbppP.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/152802-7iZxNsDwWjVs.jpg",
+      "rating": 71,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 88965,
+      "role": "MAIN",
+      "name": {
+        "first": "Hibiki",
+        "last": "Amami",
+        "full": "Hibiki Amami",
+        "native": "天海 響",
+        "userPreferred": "Hibiki Amami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88965-VzaBef91ewsS.png",
+      "voiceActors": [
+        {
+          "id": 112091,
+          "language": "Japanese",
+          "name": {
+            "first": "Ibuki",
+            "last": "Kido",
+            "full": "Ibuki Kido",
+            "native": "木戸衣吹",
+            "userPreferred": "Ibuki Kido"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112091-aO2WqvCmTFz9.png"
+        }
+      ]
+    },
+    {
+      "id": 88966,
+      "role": "MAIN",
+      "name": {
+        "first": "Narumi",
+        "last": "Inoue",
+        "full": "Narumi Inoue",
+        "native": "井上 成美",
+        "userPreferred": "Narumi Inoue"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88966-TU8sImQXLizk.png",
+      "voiceActors": [
+        {
+          "id": 118581,
+          "language": "Japanese",
+          "name": {
+            "first": "Miku",
+            "last": "Itou",
+            "full": "Miku Itou",
+            "native": "伊藤美来",
+            "userPreferred": "Miku Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118581-JzwZhJUqhNGr.png"
+        }
+      ]
+    },
+    {
+      "id": 88969,
+      "role": "MAIN",
+      "name": {
+        "first": "Kyouko",
+        "last": "Esumi",
+        "full": "Kyouko Esumi",
+        "native": "江角京子",
+        "userPreferred": "Kyouko Esumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88969-00eQ7pzKk1li.png",
+      "voiceActors": [
+        {
+          "id": 118510,
+          "language": "Japanese",
+          "name": {
+            "first": "Mao",
+            "last": "Ichimichi",
+            "full": "Mao Ichimichi",
+            "native": "市道真央",
+            "userPreferred": "Mao Ichimichi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118510-iMUv5D7W99C1.png"
+        }
+      ]
+    },
+    {
+      "id": 88968,
+      "role": "MAIN",
+      "name": {
+        "first": "Kana",
+        "last": "Uehara",
+        "full": "Kana Uehara",
+        "native": "上原　佳菜",
+        "userPreferred": "Kana Uehara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88968-Ad0Bg5wtt2fg.png",
+      "voiceActors": [
+        {
+          "id": 112207,
+          "language": "Japanese",
+          "name": {
+            "first": "Riho",
+            "last": "Iida",
+            "full": "Riho Iida",
+            "native": "飯田里穂",
+            "userPreferred": "Riho Iida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112207-FZGGO2a34Wqt.png"
+        }
+      ]
+    },
+    {
+      "id": 88970,
+      "role": "MAIN",
+      "name": {
+        "first": "Makoto",
+        "last": "Ogawa",
+        "full": "Makoto Ogawa",
+        "native": "小川 真琴",
+        "userPreferred": "Makoto Ogawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88970-sHFyVUu6mfni.png",
+      "voiceActors": [
+        {
+          "id": 117421,
+          "language": "Japanese",
+          "name": {
+            "first": "Erii",
+            "last": "Yamazaki",
+            "full": "Erii Yamazaki",
+            "native": "山崎エリイ",
+            "userPreferred": "Erii Yamazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n117421-5NlOXOgi6Nah.png"
+        }
+      ]
+    },
+    {
+      "id": 177352,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Masaki",
+        "last": "Yamada",
+        "full": "Masaki Yamada",
+        "native": "山田正輝",
+        "userPreferred": "Masaki Yamada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177352-9Al6ULiVIIq3.jpg",
+      "voiceActors": [
+        {
+          "id": 108745,
+          "language": "Japanese",
+          "name": {
+            "first": "Shouhei",
+            "last": "Kajikawa",
+            "full": "Shouhei Kajikawa",
+            "native": "梶川翔平",
+            "userPreferred": "Shouhei Kajikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/108745-q3Rngk5Es6Ni.jpg"
+        }
+      ]
+    },
+    {
+      "id": 177361,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Faceless",
+        "last": "Spirit",
+        "full": "Faceless Spirit",
+        "native": "顔なし霊",
+        "userPreferred": "Faceless Spirit"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177361-CEfUUM5QdxeO.jpg",
+      "voiceActors": [
+        {
+          "id": 177366,
+          "language": "Japanese",
+          "name": {
+            "first": "Futaba",
+            "last": "Kino",
+            "full": "Futaba Kino",
+            "native": "木野双葉",
+            "userPreferred": "Futaba Kino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n177366-RSf9ooyuZ2cf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 177353,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Moriya",
+        "full": "Moriya",
+        "native": "守屋先生",
+        "userPreferred": "Moriya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177353-MHE3Y9TWt7yF.jpg",
+      "voiceActors": [
+        {
+          "id": 101724,
+          "language": "Japanese",
+          "name": {
+            "first": "Gou",
+            "last": "Shinomiya",
+            "full": "Gou Shinomiya",
+            "native": "四宮豪",
+            "userPreferred": "Gou Shinomiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101724-MEUzOW3BRvy2.png"
+        }
+      ]
+    },
+    {
+      "id": 177360,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hanako-san",
+        "last": null,
+        "full": "Hanako-san",
+        "native": "トイレの花子さん",
+        "userPreferred": "Hanako-san"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177360-FAAS1cYp3MjQ.jpg",
+      "voiceActors": [
+        {
+          "id": 119401,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Izawa",
+            "full": "Mikako Izawa",
+            "native": "井澤美香子",
+            "userPreferred": "Mikako Izawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119401-rCnDTIzPtuOc.png"
+        }
+      ]
+    },
+    {
+      "id": 177354,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mary-san",
+        "last": null,
+        "full": "Mary-san",
+        "native": "メリーさん",
+        "userPreferred": "Mary-san"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177354-zwqH35QKRgQd.jpg",
+      "voiceActors": [
+        {
+          "id": 115835,
+          "language": "Japanese",
+          "name": {
+            "first": "Eriko",
+            "last": "Matsui",
+            "full": "Eriko Matsui",
+            "native": "松井恵理子",
+            "userPreferred": "Eriko Matsui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115835-3uhE3pEKEsEN.png"
+        }
+      ]
+    },
+    {
+      "id": 177362,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Daihen-zamurai",
+        "last": null,
+        "full": "Daihen-zamurai",
+        "native": "代返侍",
+        "userPreferred": "Daihen-zamurai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177362-WbaOnFoXg5jg.jpg",
+      "voiceActors": [
+        {
+          "id": 95409,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshihisa",
+            "last": "Kawahara",
+            "full": "Yoshihisa Kawahara",
+            "native": "川原慶久",
+            "userPreferred": "Yoshihisa Kawahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95409-87S6L0u8gQNf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 177355,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Little Ghost Girl",
+        "last": null,
+        "full": "Little Ghost Girl",
+        "native": "少女霊",
+        "userPreferred": "Little Ghost Girl"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177355-eueW8CHyfrQB.jpg",
+      "voiceActors": [
+        {
+          "id": 95500,
+          "language": "Japanese",
+          "name": {
+            "first": "Kurumi",
+            "last": "Mamiya",
+            "full": "Kurumi Mamiya",
+            "native": "間宮くるみ",
+            "userPreferred": "Kurumi Mamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95500-eEWlj7eCm3Ab.jpg"
+        }
+      ]
+    },
+    {
+      "id": 177363,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuhi",
+        "last": "Amami",
+        "full": "Yuuhi Amami",
+        "native": "天海夕陽",
+        "userPreferred": "Yuuhi Amami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177363-nYCWzf75h0lX.jpg",
+      "voiceActors": [
+        {
+          "id": 95170,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Minaguchi",
+            "full": "Yuuko Minaguchi",
+            "native": "皆口裕子",
+            "userPreferred": "Yuuko Minaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95170-oAiTh7t2T1J0.png"
+        }
+      ]
+    },
+    {
+      "id": 177356,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ko-gal Spirit's Mother",
+        "last": null,
+        "full": "Ko-gal Spirit's Mother",
+        "native": "コギャル霊の母",
+        "userPreferred": "Ko-gal Spirit's Mother"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177356-P9xmDEkgH2BZ.jpg",
+      "voiceActors": [
+        {
+          "id": 95195,
+          "language": "Japanese",
+          "name": {
+            "first": "Kikuko",
+            "last": "Inoue",
+            "full": "Kikuko Inoue",
+            "native": "井上喜久子",
+            "userPreferred": "Kikuko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95195-nLvtZl5sCK0D.png"
+        }
+      ]
+    },
+    {
+      "id": 177364,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Asahi",
+        "last": "Amami",
+        "full": "Asahi Amami",
+        "native": "天海朝陽",
+        "userPreferred": "Asahi Amami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177364-FfBYAxFxMc9s.jpg",
+      "voiceActors": [
+        {
+          "id": 95098,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Hatano",
+            "full": "Wataru Hatano",
+            "native": "羽多野渉",
+            "userPreferred": "Wataru Hatano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95098-x6T2xOTuvkuY.jpg"
+        }
+      ]
+    },
+    {
+      "id": 88971,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kenta",
+        "last": "Yamada",
+        "full": "Kenta Yamada",
+        "native": "山田 健太",
+        "userPreferred": "Kenta Yamada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88971-bcAi190Ooa9M.png",
+      "voiceActors": [
+        {
+          "id": 118591,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshitaka",
+            "last": "Yamaya",
+            "full": "Yoshitaka Yamaya",
+            "native": "山谷祥生",
+            "userPreferred": "Yoshitaka Yamaya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118591-rOO8iwizHVUV.png"
+        }
+      ]
+    },
+    {
+      "id": 177357,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ko-gal",
+        "last": "Spirit",
+        "full": "Ko-gal Spirit",
+        "native": "コギャル霊",
+        "userPreferred": "Ko-gal Spirit"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177357-EgxYr00I6X1x.jpg",
+      "voiceActors": [
+        {
+          "id": 103921,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Uchida",
+            "full": "Aya Uchida",
+            "native": "内田彩",
+            "userPreferred": "Aya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103921-bnSaJsF0jgH1.png"
+        }
+      ]
+    },
+    {
+      "id": 88967,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ero-neko",
+        "last": null,
+        "full": "Ero-neko",
+        "native": "エロ猫",
+        "userPreferred": "Ero-neko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88967-itYjQ5PBeRn2.jpg",
+      "voiceActors": [
+        {
+          "id": 95103,
+          "language": "Japanese",
+          "name": {
+            "first": "Kujira",
+            "last": "",
+            "full": "Kujira",
+            "native": "くじら",
+            "userPreferred": "Kujira"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95103-u0gfczhE9neg.png"
+        }
+      ]
+    },
+    {
+      "id": 177358,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuki",
+        "last": "Inoue",
+        "full": "Yuuki Inoue",
+        "native": "井上勇希",
+        "userPreferred": "Yuuki Inoue"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177358-mQZBk2Os59sw.jpg",
+      "voiceActors": [
+        {
+          "id": 95823,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayahi",
+            "last": "Takagaki",
+            "full": "Ayahi Takagaki",
+            "native": "高垣彩陽",
+            "userPreferred": "Ayahi Takagaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95823-gJC6Tr9HDOqy.png"
+        }
+      ]
+    },
+    {
+      "id": 177351,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Yoshida",
+        "full": "Yoshida",
+        "native": "吉田",
+        "userPreferred": "Yoshida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177351-wpGwsFhrLLb0.jpg",
+      "voiceActors": [
+        {
+          "id": 177365,
+          "language": "Japanese",
+          "name": {
+            "first": "Yasuyuki",
+            "last": "Takase",
+            "full": "Yasuyuki Takase",
+            "native": "高瀬泰幸",
+            "userPreferred": "Yasuyuki Takase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n177365-Xg52PLZgi2Yq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 177359,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuki's Mother",
+        "last": null,
+        "full": "Yuuki's Mother",
+        "native": "勇希の母",
+        "userPreferred": "Yuuki's Mother"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177359-yWDRlqW7sGa3.jpg",
+      "voiceActors": [
+        {
+          "id": 95315,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shintani",
+            "full": "Ryouko Shintani",
+            "native": "新谷良子",
+            "userPreferred": "Ryouko Shintani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95315-6lzPWFB0mhh8.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 74005,
+      "relationType": "ADAPTATION",
+      "malId": 44005,
+      "title": {
+        "romaji": "Re-Kan!",
+        "english": null,
+        "native": "レーカン!",
+        "userPreferred": "Re-Kan!"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx74005-ou1aA0gHnJXw.png",
+      "color": "#f17800",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx74005-ou1aA0gHnJXw.png",
+      "rating": 62
+    }
+  ],
+  "episodes": [
+    {
+      "id": "re-kan--episode-1",
+      "title": "I Can See Them",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20814-fNcQcAFZwDTV.jpg",
+      "number": 1,
+      "createdAt": "2015-04-12T11:20:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-kan--episode-1"
+    },
+    {
+      "id": "re-kan--episode-2",
+      "title": "They're My Friends",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20814-fNcQcAFZwDTV.jpg",
+      "number": 2,
+      "createdAt": "2015-04-12T11:20:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-kan--episode-2"
+    },
+    {
+      "id": "re-kan--episode-3",
+      "title": "Delicious Fried Eggs",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20814-fNcQcAFZwDTV.jpg",
+      "number": 3,
+      "createdAt": "2015-04-12T11:20:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-kan--episode-3"
+    },
+    {
+      "id": "re-kan--episode-4",
+      "title": "Summer Means the Beach.",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20814-fNcQcAFZwDTV.jpg",
+      "number": 4,
+      "createdAt": "2015-04-12T11:20:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-kan--episode-4"
+    },
+    {
+      "id": "re-kan--episode-5",
+      "title": "The Legendary Culture Festival",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20814-fNcQcAFZwDTV.jpg",
+      "number": 5,
+      "createdAt": "2015-04-12T11:20:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-kan--episode-5"
+    },
+    {
+      "id": "re-kan--episode-6",
+      "title": "A Super Awesome Holy Night",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20814-fNcQcAFZwDTV.jpg",
+      "number": 6,
+      "createdAt": "2015-04-12T11:20:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-kan--episode-6"
+    },
+    {
+      "id": "re-kan--episode-7",
+      "title": "A Busy New Year",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20814-fNcQcAFZwDTV.jpg",
+      "number": 7,
+      "createdAt": "2015-04-12T11:20:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-kan--episode-7"
+    },
+    {
+      "id": "re-kan--episode-8",
+      "title": "Let's All Play Together",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20814-fNcQcAFZwDTV.jpg",
+      "number": 8,
+      "createdAt": "2015-04-12T11:20:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-kan--episode-8"
+    },
+    {
+      "id": "re-kan--episode-9",
+      "title": "The Secret Valentine",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20814-fNcQcAFZwDTV.jpg",
+      "number": 9,
+      "createdAt": "2015-04-12T11:20:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-kan--episode-9"
+    },
+    {
+      "id": "re-kan--episode-10",
+      "title": "We've Entered Our Second Year.",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20814-fNcQcAFZwDTV.jpg",
+      "number": 10,
+      "createdAt": "2015-04-12T11:20:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-kan--episode-10"
+    },
+    {
+      "id": "re-kan--episode-11",
+      "title": "My Wish",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20814-fNcQcAFZwDTV.jpg",
+      "number": 11,
+      "createdAt": "2015-04-12T11:20:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-kan--episode-11"
+    },
+    {
+      "id": "re-kan--episode-12",
+      "title": "We Are All Connected.",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20814-fNcQcAFZwDTV.jpg",
+      "number": 12,
+      "createdAt": "2015-04-12T11:20:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-kan--episode-12"
+    },
+    {
+      "id": "re-kan--episode-13",
+      "title": "Summer Memories.",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20814-fNcQcAFZwDTV.jpg",
+      "number": 13,
+      "createdAt": "2015-04-12T11:20:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//re-kan--episode-13"
+    }
+  ]
+}

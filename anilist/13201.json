@@ -1,0 +1,805 @@
+{
+  "id": "13201",
+  "title": {
+    "romaji": "Monster Farm: Legend e no Michi",
+    "english": "Monster Rancher (2000)",
+    "native": "モンスターファーム 〜伝説への道〜"
+  },
+  "malId": 13201,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+  "popularity": 3092,
+  "color": "#f1d61a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+  "description": "Genki is a boy who loves playing video games. One day he's zapped into the world of Monster Rancher and meets the girl Holly and the monsters Mochi, Suezo, Golem, Tiger and Hare.<br><br>\nContinuing from where the original story left off, Genki and friends journey to conquer the legend cup in hopes of freeing Holly's father from the mystery disc.<br><br>\n(Source: AniDB)",
+  "status": "Completed",
+  "releaseDate": 2000,
+  "startDate": {
+    "year": 2000,
+    "month": 4,
+    "day": 1
+  },
+  "endDate": {
+    "year": 2000,
+    "month": 9,
+    "day": 30
+  },
+  "totalEpisodes": 25,
+  "currentEpisode": 25,
+  "rating": 62,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "TMS Entertainment"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 527,
+      "malId": 527,
+      "title": {
+        "romaji": "Pocket Monsters",
+        "english": "Pokémon",
+        "native": "ポケットモンスター",
+        "userPreferred": "Pocket Monsters"
+      },
+      "status": "Completed",
+      "episodes": 276,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b527-cFxpkJI4026c.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/527-69bO9vmmewWm.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 552,
+      "malId": 552,
+      "title": {
+        "romaji": "Digimon Adventure",
+        "english": "Digimon: Digital Monsters",
+        "native": "デジモンアドベンチャー",
+        "userPreferred": "Digimon Adventure"
+      },
+      "status": "Completed",
+      "episodes": 54,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx552-zad0ts5hylQJ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/552-xAHaRMpoco2e.jpg",
+      "rating": 75,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 7177,
+      "role": "MAIN",
+      "name": {
+        "first": "Genki",
+        "last": "Sakura",
+        "full": "Genki Sakura",
+        "native": null,
+        "userPreferred": "Genki Sakura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7177.jpg",
+      "voiceActors": [
+        {
+          "id": 95904,
+          "language": "Japanese",
+          "name": {
+            "first": "Chisa",
+            "last": "Yokoyama",
+            "full": "Chisa Yokoyama",
+            "native": "横山智佐",
+            "userPreferred": "Chisa Yokoyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95904-Hwjlrw4tCDMl.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1469,
+      "relationType": "PREQUEL",
+      "malId": 1469,
+      "title": {
+        "romaji": "Monster Farm: Enbanseki no Himitsu",
+        "english": "Monster Rancher",
+        "native": "モンスターファーム 〜円盤石の秘密〜",
+        "userPreferred": "Monster Farm: Enbanseki no Himitsu"
+      },
+      "status": "Completed",
+      "episodes": 48,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1469-7kKoYlntt8qV.jpg",
+      "color": "#d6861a",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1469-7kKoYlntt8qV.jpg",
+      "rating": 63
+    },
+    {
+      "id": 15937,
+      "relationType": "SEQUEL",
+      "malId": 15937,
+      "title": {
+        "romaji": "Monster Farm 5: Circus Caravan OVA - Kessei!! Orcoro Circus",
+        "english": null,
+        "native": "モンスターファーム5　サーカスキャラバン オリジナルアニメーション 「結成!!オルコロサーカス」",
+        "userPreferred": "Monster Farm 5: Circus Caravan OVA - Kessei!! Orcoro Circus"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15937.jpg",
+      "color": "#f1bb00",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15937.jpg",
+      "rating": 46
+    }
+  ],
+  "episodes": [
+    {
+      "id": "monster-rancher-episode-1",
+      "title": "Return to Monster Rancher",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:44:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-1"
+    },
+    {
+      "id": "monster-rancher-episode-2",
+      "title": "Quest for the Legend Cup",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:44:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-2"
+    },
+    {
+      "id": "monster-rancher-episode-3",
+      "title": "Battle for the Rookie Cup",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:44:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-3"
+    },
+    {
+      "id": "monster-rancher-episode-4",
+      "title": "Saved by a Hare",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:44:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-4"
+    },
+    {
+      "id": "monster-rancher-episode-5",
+      "title": "The Powerful Wonder Brothers",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:44:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-5"
+    },
+    {
+      "id": "monster-rancher-episode-6",
+      "title": "Tiger and the Mandy Cup Challenge",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:44:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-6"
+    },
+    {
+      "id": "monster-rancher-episode-7",
+      "title": "Disappearing Hare Line",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:44:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-7"
+    },
+    {
+      "id": "monster-rancher-episode-8",
+      "title": "Lost At Sea: The Disappearance Of The Mystery Disc",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:44:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-8"
+    },
+    {
+      "id": "monster-rancher-episode-9",
+      "title": "Furred Suezo's M-1 Grand Prix Hero",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:44:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-9"
+    },
+    {
+      "id": "monster-rancher-episode-10",
+      "title": "All's Fare in Love and Taxis",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:44:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-10"
+    },
+    {
+      "id": "monster-rancher-episode-11",
+      "title": "Allan's Advice",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:44:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-11"
+    },
+    {
+      "id": "monster-rancher-episode-12",
+      "title": "Winner's Cup: The Fickle Finger Of Fate",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:44:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-12"
+    },
+    {
+      "id": "monster-rancher-episode-13",
+      "title": "Pink Jam To The Rescue",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:44:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-13"
+    },
+    {
+      "id": "monster-rancher-episode-14",
+      "title": "Ghost Encounters Of The Pirate Kind",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 14,
+      "createdAt": "2014-11-16T20:44:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-14"
+    },
+    {
+      "id": "monster-rancher-episode-15",
+      "title": "The World Monster Cup - Naga Returns",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 15,
+      "createdAt": "2014-11-16T20:44:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-15"
+    },
+    {
+      "id": "monster-rancher-episode-16",
+      "title": "Legend Of The Great White Most",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 16,
+      "createdAt": "2014-11-16T20:44:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-16"
+    },
+    {
+      "id": "monster-rancher-episode-17",
+      "title": "Shogun The Mighty",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 17,
+      "createdAt": "2014-11-16T20:44:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-17"
+    },
+    {
+      "id": "monster-rancher-episode-18",
+      "title": "Brothers, In The Greatest Four",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 18,
+      "createdAt": "2014-11-16T20:44:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-18"
+    },
+    {
+      "id": "monster-rancher-episode-19",
+      "title": "Golem's Cook-Off",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 19,
+      "createdAt": "2014-11-16T20:44:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-19"
+    },
+    {
+      "id": "monster-rancher-episode-20",
+      "title": "Battling Granity",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 20,
+      "createdAt": "2014-11-16T20:44:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-20"
+    },
+    {
+      "id": "monster-rancher-episode-21",
+      "title": "Mum Mew Risks It All",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 21,
+      "createdAt": "2014-11-16T20:44:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-21"
+    },
+    {
+      "id": "monster-rancher-episode-22",
+      "title": "Legend Cup: Mocchi vs Poritoka",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 22,
+      "createdAt": "2014-11-16T20:44:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-22"
+    },
+    {
+      "id": "monster-rancher-episode-23",
+      "title": "Legend Cup: Mocchi vs Most",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 23,
+      "createdAt": "2014-11-16T20:44:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-23"
+    },
+    {
+      "id": "monster-rancher-episode-24",
+      "title": "Reunion",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 24,
+      "createdAt": "2014-11-16T20:44:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-24"
+    },
+    {
+      "id": "monster-rancher-episode-25",
+      "title": "The Final Battle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 25,
+      "createdAt": "2014-11-16T20:44:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-25"
+    },
+    {
+      "id": "monster-rancher-episode-26",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 26,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-26"
+    },
+    {
+      "id": "monster-rancher-episode-27",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 27,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-27"
+    },
+    {
+      "id": "monster-rancher-episode-28",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 28,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-28"
+    },
+    {
+      "id": "monster-rancher-episode-29",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 29,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-29"
+    },
+    {
+      "id": "monster-rancher-episode-30",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 30,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-30"
+    },
+    {
+      "id": "monster-rancher-episode-31",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 31,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-31"
+    },
+    {
+      "id": "monster-rancher-episode-32",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 32,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-32"
+    },
+    {
+      "id": "monster-rancher-episode-33",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 33,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-33"
+    },
+    {
+      "id": "monster-rancher-episode-34",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 34,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-34"
+    },
+    {
+      "id": "monster-rancher-episode-35",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 35,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-35"
+    },
+    {
+      "id": "monster-rancher-episode-36",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 36,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-36"
+    },
+    {
+      "id": "monster-rancher-episode-37",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 37,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-37"
+    },
+    {
+      "id": "monster-rancher-episode-38",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 38,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-38"
+    },
+    {
+      "id": "monster-rancher-episode-39",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 39,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-39"
+    },
+    {
+      "id": "monster-rancher-episode-40",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 40,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-40"
+    },
+    {
+      "id": "monster-rancher-episode-41",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 41,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-41"
+    },
+    {
+      "id": "monster-rancher-episode-42",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 42,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-42"
+    },
+    {
+      "id": "monster-rancher-episode-43",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 43,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-43"
+    },
+    {
+      "id": "monster-rancher-episode-44",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 44,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-44"
+    },
+    {
+      "id": "monster-rancher-episode-45",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 45,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-45"
+    },
+    {
+      "id": "monster-rancher-episode-46",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 46,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-46"
+    },
+    {
+      "id": "monster-rancher-episode-47",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 47,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-47"
+    },
+    {
+      "id": "monster-rancher-episode-48",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 48,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-48"
+    },
+    {
+      "id": "monster-rancher-episode-49",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 49,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-49"
+    },
+    {
+      "id": "monster-rancher-episode-50",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 50,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-50"
+    },
+    {
+      "id": "monster-rancher-episode-51",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 51,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-51"
+    },
+    {
+      "id": "monster-rancher-episode-52",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 52,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-52"
+    },
+    {
+      "id": "monster-rancher-episode-53",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 53,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-53"
+    },
+    {
+      "id": "monster-rancher-episode-54",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 54,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-54"
+    },
+    {
+      "id": "monster-rancher-episode-55",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 55,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-55"
+    },
+    {
+      "id": "monster-rancher-episode-56",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 56,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-56"
+    },
+    {
+      "id": "monster-rancher-episode-57",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 57,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-57"
+    },
+    {
+      "id": "monster-rancher-episode-58",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 58,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-58"
+    },
+    {
+      "id": "monster-rancher-episode-59",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 59,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-59"
+    },
+    {
+      "id": "monster-rancher-episode-60",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 60,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-60"
+    },
+    {
+      "id": "monster-rancher-episode-61",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 61,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-61"
+    },
+    {
+      "id": "monster-rancher-episode-62",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 62,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-62"
+    },
+    {
+      "id": "monster-rancher-episode-63",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 63,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-63"
+    },
+    {
+      "id": "monster-rancher-episode-64",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 64,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-64"
+    },
+    {
+      "id": "monster-rancher-episode-65",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 65,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-65"
+    },
+    {
+      "id": "monster-rancher-episode-66",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 66,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-66"
+    },
+    {
+      "id": "monster-rancher-episode-67",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 67,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-67"
+    },
+    {
+      "id": "monster-rancher-episode-68",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 68,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-68"
+    },
+    {
+      "id": "monster-rancher-episode-69",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 69,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-69"
+    },
+    {
+      "id": "monster-rancher-episode-70",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 70,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-70"
+    },
+    {
+      "id": "monster-rancher-episode-71",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 71,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-71"
+    },
+    {
+      "id": "monster-rancher-episode-72",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 72,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-72"
+    },
+    {
+      "id": "monster-rancher-episode-73",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13201.jpg",
+      "number": 73,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//monster-rancher-episode-73"
+    }
+  ]
+}

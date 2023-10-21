@@ -1,0 +1,944 @@
+{
+  "id": "4726",
+  "title": {
+    "romaji": "Druaga no Tou: the Sword of URUK",
+    "english": "Tower of Druaga: The Sword of Uruk",
+    "native": "ドルアーガの塔 ～the Sword of URUK～"
+  },
+  "malId": 4726,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4726-jdANq6sGjol8.png",
+  "popularity": 9266,
+  "color": "#f19335",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4726-jdANq6sGjol8.png",
+  "description": "With broken spirits and enigmatic questions that hold no answers lingering, Jil is still trying to figure everything out. Then, a mysterious girl named Kai appears before him and says: &ldquo;Take me to the top of the tower.&rdquo;<br><br>\nKai&rsquo;s request shrouded in ambiguity, Jil will have another chance to work towards completing his destiny and ascend the Tower. With his hopes and aspirations seemingly slipping out of his hands, Jil must rise to the challenge once again on this never-ending adventure.<br><br>\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2009,
+  "startDate": {
+    "year": 2009,
+    "month": 1,
+    "day": 9
+  },
+  "endDate": {
+    "year": 2009,
+    "month": 3,
+    "day": 27
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 68,
+  "duration": 24,
+  "genres": [
+    "Adventure",
+    "Fantasy"
+  ],
+  "season": "WINTER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 108358,
+      "malId": 39506,
+      "title": {
+        "romaji": "PHANTASY STAR ONLINE 2: EPISODE ORACLE",
+        "english": "Phantasy Star Online 2: Episode Oracle",
+        "native": "PHANTASY STAR ONLINE 2 EPISODE ORACLE",
+        "userPreferred": "PHANTASY STAR ONLINE 2: EPISODE ORACLE"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108358-9Y0qXz0o101z.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108358-9Y0qXz0o101z.png",
+      "rating": 60,
+      "type": "TV"
+    },
+    {
+      "id": 115230,
+      "malId": 40221,
+      "title": {
+        "romaji": "Kami no Tou: Tower of God",
+        "english": "Tower of God",
+        "native": "神之塔 -Tower of God-",
+        "userPreferred": "Kami no Tou: Tower of God"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115230-QHOdSN7yt8ab.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/115230-wjDIxW77TLv3.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 14765,
+      "malId": 14765,
+      "title": {
+        "romaji": "Ixion Saga DT",
+        "english": "Ixion Saga DT",
+        "native": "イクシオン サーガ DT",
+        "userPreferred": "Ixion Saga DT"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx14765-znJDLKWjr0j9.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx14765-znJDLKWjr0j9.jpg",
+      "rating": 67,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 12998,
+      "role": "MAIN",
+      "name": {
+        "first": "Kai",
+        "last": null,
+        "full": "Kai",
+        "native": null,
+        "userPreferred": "Kai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12998.jpg",
+      "voiceActors": [
+        {
+          "id": 95148,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Yajima",
+            "full": "Akiko Yajima",
+            "native": "矢島晶子",
+            "userPreferred": "Akiko Yajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95148-JiNi79wg9ScS.png"
+        },
+        {
+          "id": 95859,
+          "language": "English",
+          "name": {
+            "first": "Leah",
+            "last": "Clark",
+            "full": "Leah Clark",
+            "native": null,
+            "userPreferred": "Leah Clark"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/859.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10182,
+      "role": "MAIN",
+      "name": {
+        "first": "Jil",
+        "last": null,
+        "full": "Jil",
+        "native": "ジル",
+        "userPreferred": "Jil"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10182.jpg",
+      "voiceActors": [
+        {
+          "id": 95857,
+          "language": "Japanese",
+          "name": {
+            "first": "KENN",
+            "last": "",
+            "full": "KENN",
+            "native": "KENN",
+            "userPreferred": "KENN"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95857-oHOhHwEDyAlL.png"
+        },
+        {
+          "id": 95860,
+          "language": "English",
+          "name": {
+            "first": "Todd",
+            "last": "Haberkorn",
+            "full": "Todd Haberkorn",
+            "native": "Todd Michael Haberkorn",
+            "userPreferred": "Todd Haberkorn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95860-RxBJH1Kt2TUW.png"
+        },
+        {
+          "id": 110299,
+          "language": "Korean",
+          "name": {
+            "first": "Min Seok",
+            "last": "Kim",
+            "full": "Min Seok Kim",
+            "native": "민석 김",
+            "userPreferred": "Min Seok Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15299.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10183,
+      "role": "MAIN",
+      "name": {
+        "first": "Kaaya",
+        "last": null,
+        "full": "Kaaya",
+        "native": "カーヤ",
+        "userPreferred": "Kaaya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10183.jpg",
+      "voiceActors": [
+        {
+          "id": 95152,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumiko",
+            "last": "Orikasa",
+            "full": "Fumiko Orikasa",
+            "native": "折笠富美子",
+            "userPreferred": "Fumiko Orikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95152-X9K5ciNGSX35.jpg"
+        },
+        {
+          "id": 96804,
+          "language": "English",
+          "name": {
+            "first": "Trina",
+            "last": "Nishimura",
+            "full": "Trina Nishimura",
+            "native": null,
+            "userPreferred": "Trina Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96804-0OKQgacznkZ4.png"
+        }
+      ]
+    },
+    {
+      "id": 10190,
+      "role": "MAIN",
+      "name": {
+        "first": "Utu",
+        "last": null,
+        "full": "Utu",
+        "native": "ウトゥ",
+        "userPreferred": "Utu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10190.jpg",
+      "voiceActors": [
+        {
+          "id": 95025,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Yasumoto",
+            "full": "Hiroki Yasumoto",
+            "native": "安元洋貴",
+            "userPreferred": "Hiroki Yasumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95025-LGHr4VufmfCc.jpg"
+        },
+        {
+          "id": 95872,
+          "language": "English",
+          "name": {
+            "first": "Kent",
+            "last": "Williams",
+            "full": "Kent Williams",
+            "native": null,
+            "userPreferred": "Kent Williams"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/872.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19004,
+      "role": "MAIN",
+      "name": {
+        "first": "Henaro",
+        "last": null,
+        "full": "Henaro",
+        "native": "ヘナロ",
+        "userPreferred": "Henaro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19004.jpg",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        },
+        {
+          "id": 95414,
+          "language": "English",
+          "name": {
+            "first": "Brittney",
+            "last": "Karbowski",
+            "full": "Brittney Karbowski",
+            "native": null,
+            "userPreferred": "Brittney Karbowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/414.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10188,
+      "role": "MAIN",
+      "name": {
+        "first": "Fatina",
+        "last": null,
+        "full": "Fatina",
+        "native": "ファティナ",
+        "userPreferred": "Fatina"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10188.jpg",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        },
+        {
+          "id": 95891,
+          "language": "English",
+          "name": {
+            "first": "Jamie",
+            "last": "Marchi",
+            "full": "Jamie Marchi",
+            "native": null,
+            "userPreferred": "Jamie Marchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95891-QG8dyefPjUIz.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21077,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shadow Gilgamesh",
+        "last": null,
+        "full": "Shadow Gilgamesh",
+        "native": null,
+        "userPreferred": "Shadow Gilgamesh"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21077.jpg",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        },
+        {
+          "id": 96047,
+          "language": "English",
+          "name": {
+            "first": "Jessie James",
+            "last": "Grelle",
+            "full": "Jessie James Grelle",
+            "native": null,
+            "userPreferred": "Jessie James Grelle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96047-E9nBWn3YL0Tn.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18712,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Uragon",
+        "last": null,
+        "full": "Uragon",
+        "native": "ウラーゴン",
+        "userPreferred": "Uragon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18712.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        },
+        {
+          "id": 95666,
+          "language": "English",
+          "name": {
+            "first": "Robert",
+            "last": "McCollum",
+            "full": "Robert McCollum",
+            "native": null,
+            "userPreferred": "Robert McCollum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95666-er3JLtqV1TLy.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12994,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "King Gilgamesh",
+        "last": null,
+        "full": "King Gilgamesh",
+        "native": "ギルガメス王",
+        "userPreferred": "King Gilgamesh"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12994.jpg",
+      "voiceActors": [
+        {
+          "id": 100427,
+          "language": "Japanese",
+          "name": {
+            "first": "Takaya",
+            "last": "Hashi",
+            "full": "Takaya Hashi",
+            "native": "土師孝也",
+            "userPreferred": "Takaya Hashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100427-rXj5mx6gGNfH.png"
+        },
+        {
+          "id": 100990,
+          "language": "English",
+          "name": {
+            "first": "Charles",
+            "last": "Campbell",
+            "full": "Charles Campbell",
+            "native": null,
+            "userPreferred": "Charles Campbell"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5990.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10189,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kally",
+        "last": null,
+        "full": "Kally",
+        "native": "カリー",
+        "userPreferred": "Kally"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10189.jpg",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        },
+        {
+          "id": 96510,
+          "language": "English",
+          "name": {
+            "first": "Justin",
+            "last": "Pate",
+            "full": "Justin Pate",
+            "native": null,
+            "userPreferred": "Justin Pate"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1510.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20724,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gremica",
+        "last": null,
+        "full": "Gremica",
+        "native": null,
+        "userPreferred": "Gremica"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20724.jpg",
+      "voiceActors": [
+        {
+          "id": 95176,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiko",
+            "last": "Neya",
+            "full": "Michiko Neya",
+            "native": "根谷美智子",
+            "userPreferred": "Michiko Neya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95176-3yZnUwXap7nX.png"
+        },
+        {
+          "id": 95661,
+          "language": "English",
+          "name": {
+            "first": "Clarine",
+            "last": "Harp",
+            "full": "Clarine Harp",
+            "native": null,
+            "userPreferred": "Clarine Harp"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/661.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10187,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Neeba",
+        "last": null,
+        "full": "Neeba",
+        "native": "ニーバ",
+        "userPreferred": "Neeba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10187.jpg",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        },
+        {
+          "id": 95859,
+          "language": "English",
+          "name": {
+            "first": "Leah",
+            "last": "Clark",
+            "full": "Leah Clark",
+            "native": null,
+            "userPreferred": "Leah Clark"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/859.jpg"
+        },
+        {
+          "id": 95026,
+          "language": "English",
+          "name": {
+            "first": "Travis",
+            "last": "Willingham",
+            "full": "Travis Willingham",
+            "native": null,
+            "userPreferred": "Travis Willingham"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95026-8rP8eX7zsekz.jpg"
+        },
+        {
+          "id": 109819,
+          "language": "Korean",
+          "name": {
+            "first": "Seung jun",
+            "last": "Kim",
+            "full": "Seung jun Kim",
+            "native": "승준 김",
+            "userPreferred": "Seung jun Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14819.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10184,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ahmey",
+        "last": null,
+        "full": "Ahmey",
+        "native": "アーメイ",
+        "userPreferred": "Ahmey"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10184.jpg",
+      "voiceActors": [
+        {
+          "id": 95215,
+          "language": "Japanese",
+          "name": {
+            "first": "Risa",
+            "last": "Hayamizu",
+            "full": "Risa Hayamizu",
+            "native": "早水リサ",
+            "userPreferred": "Risa Hayamizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95215-CvyYAqsZaaaK.png"
+        },
+        {
+          "id": 95659,
+          "language": "English",
+          "name": {
+            "first": "Brina",
+            "last": "Palencia",
+            "full": "Brina Palencia",
+            "native": null,
+            "userPreferred": "Brina Palencia"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/659.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10185,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Melt",
+        "last": null,
+        "full": "Melt",
+        "native": "メルト",
+        "userPreferred": "Melt"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10185.jpg",
+      "voiceActors": [
+        {
+          "id": 95936,
+          "language": "Japanese",
+          "name": {
+            "first": "Hozumi",
+            "last": "Gouda",
+            "full": "Hozumi Gouda",
+            "native": "郷田ほづみ",
+            "userPreferred": "Hozumi Gouda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95936-cBkm9F8KgrRD.png"
+        },
+        {
+          "id": 95250,
+          "language": "English",
+          "name": {
+            "first": "Chuck",
+            "last": "Huber",
+            "full": "Chuck Huber",
+            "native": null,
+            "userPreferred": "Chuck Huber"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95250-9yhImC3oRnYj.png"
+        }
+      ]
+    },
+    {
+      "id": 10186,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Coopa",
+        "last": null,
+        "full": "Coopa",
+        "native": "クーパ",
+        "userPreferred": "Coopa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10186.jpg",
+      "voiceActors": [
+        {
+          "id": 95053,
+          "language": "Japanese",
+          "name": {
+            "first": "Minori",
+            "last": "Chihara",
+            "full": "Minori Chihara",
+            "native": "茅原実里",
+            "userPreferred": "Minori Chihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95053-wN1MdNMSGTMn.png"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        }
+      ]
+    },
+    {
+      "id": 12992,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ethana",
+        "last": null,
+        "full": "Ethana",
+        "native": null,
+        "userPreferred": "Ethana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12992.jpg",
+      "voiceActors": [
+        {
+          "id": 96331,
+          "language": "Japanese",
+          "name": {
+            "first": "Risa",
+            "last": "Mizuno",
+            "full": "Risa Mizuno",
+            "native": "理紗水野",
+            "userPreferred": "Risa Mizuno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96331-NL72KlyVd8Wh.png"
+        },
+        {
+          "id": 95472,
+          "language": "English",
+          "name": {
+            "first": "Colleen",
+            "last": "Clinkenbeard",
+            "full": "Colleen Clinkenbeard",
+            "native": null,
+            "userPreferred": "Colleen Clinkenbeard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95472-fznpewUW95vm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12990,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Succubus",
+        "last": null,
+        "full": "Succubus",
+        "native": "サキュバス",
+        "userPreferred": "Succubus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12990.jpg",
+      "voiceActors": [
+        {
+          "id": 95140,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukana",
+            "last": "",
+            "full": "Yukana",
+            "native": "ゆかな",
+            "userPreferred": "Yukana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95140-sFp0uedEmZ9f.png"
+        },
+        {
+          "id": 95327,
+          "language": "English",
+          "name": {
+            "first": "Carrie",
+            "last": "Savage",
+            "full": "Carrie Savage",
+            "native": null,
+            "userPreferred": "Carrie Savage"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/327.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12995,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kelb",
+        "last": null,
+        "full": "Kelb",
+        "native": "ケルブ",
+        "userPreferred": "Kelb"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12995.jpg",
+      "voiceActors": [
+        {
+          "id": 95563,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaki",
+            "last": "Terasoma",
+            "full": "Masaki Terasoma",
+            "native": "てらそままさき",
+            "userPreferred": "Masaki Terasoma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95563-tMN0xtsy1qyh.png"
+        },
+        {
+          "id": 96602,
+          "language": "English",
+          "name": {
+            "first": "J. Michael",
+            "last": "Tatum",
+            "full": "J. Michael Tatum",
+            "native": "John Michael Tatum",
+            "userPreferred": "J. Michael Tatum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96602-ztTfuo3nzu5t.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 3230,
+      "relationType": "PREQUEL",
+      "malId": 3230,
+      "title": {
+        "romaji": "Druaga no Tou: the Aegis of URUK",
+        "english": "Tower of Druaga: The Aegis of Uruk",
+        "native": "ドルアーガの塔 〜the Aegis of URUK〜",
+        "userPreferred": "Druaga no Tou: the Aegis of URUK"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3230-Dd9HXot3osii.png",
+      "color": "#285d86",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3230-Dd9HXot3osii.png",
+      "rating": 66
+    }
+  ],
+  "episodes": [
+    {
+      "id": "tower-of-druaga-the-sword-of-uruk-episode-1",
+      "title": "The Tower of Gilgamesh",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4726-jdANq6sGjol8.png",
+      "number": 1,
+      "createdAt": "2013-02-20T18:26:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tower-of-druaga-the-sword-of-uruk-episode-1"
+    },
+    {
+      "id": "tower-of-druaga-the-sword-of-uruk-episode-2",
+      "title": "Capital City Meskia",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4726-jdANq6sGjol8.png",
+      "number": 2,
+      "createdAt": "2013-02-20T18:26:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tower-of-druaga-the-sword-of-uruk-episode-2"
+    },
+    {
+      "id": "tower-of-druaga-the-sword-of-uruk-episode-3",
+      "title": "City of Dreams: Meltland",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4726-jdANq6sGjol8.png",
+      "number": 3,
+      "createdAt": "2013-02-20T18:26:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tower-of-druaga-the-sword-of-uruk-episode-3"
+    },
+    {
+      "id": "tower-of-druaga-the-sword-of-uruk-episode-4",
+      "title": "Into the Phantasm",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4726-jdANq6sGjol8.png",
+      "number": 4,
+      "createdAt": "2013-02-20T18:26:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tower-of-druaga-the-sword-of-uruk-episode-4"
+    },
+    {
+      "id": "tower-of-druaga-the-sword-of-uruk-episode-5",
+      "title": "The Land of Shadows",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4726-jdANq6sGjol8.png",
+      "number": 5,
+      "createdAt": "2013-02-20T18:26:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tower-of-druaga-the-sword-of-uruk-episode-5"
+    },
+    {
+      "id": "tower-of-druaga-the-sword-of-uruk-episode-6",
+      "title": "The Four Assassins",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4726-jdANq6sGjol8.png",
+      "number": 6,
+      "createdAt": "2013-02-20T18:26:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tower-of-druaga-the-sword-of-uruk-episode-6"
+    },
+    {
+      "id": "tower-of-druaga-the-sword-of-uruk-episode-7",
+      "title": "The Chateau of Everlasting Spring",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4726-jdANq6sGjol8.png",
+      "number": 7,
+      "createdAt": "2013-02-20T18:26:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tower-of-druaga-the-sword-of-uruk-episode-7"
+    },
+    {
+      "id": "tower-of-druaga-the-sword-of-uruk-episode-8",
+      "title": "Their Past",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4726-jdANq6sGjol8.png",
+      "number": 8,
+      "createdAt": "2013-02-20T18:26:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tower-of-druaga-the-sword-of-uruk-episode-8"
+    },
+    {
+      "id": "tower-of-druaga-the-sword-of-uruk-episode-9",
+      "title": "At the End of the Dream",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4726-jdANq6sGjol8.png",
+      "number": 9,
+      "createdAt": "2013-02-20T18:26:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tower-of-druaga-the-sword-of-uruk-episode-9"
+    },
+    {
+      "id": "tower-of-druaga-the-sword-of-uruk-episode-10",
+      "title": "Last Resort",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4726-jdANq6sGjol8.png",
+      "number": 10,
+      "createdAt": "2013-02-20T18:26:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tower-of-druaga-the-sword-of-uruk-episode-10"
+    },
+    {
+      "id": "tower-of-druaga-the-sword-of-uruk-episode-11",
+      "title": "Slayer of God",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4726-jdANq6sGjol8.png",
+      "number": 11,
+      "createdAt": "2013-02-20T18:26:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tower-of-druaga-the-sword-of-uruk-episode-11"
+    },
+    {
+      "id": "tower-of-druaga-the-sword-of-uruk-episode-12",
+      "title": "The Hands that Bind",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4726-jdANq6sGjol8.png",
+      "number": 12,
+      "createdAt": "2013-02-20T18:26:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tower-of-druaga-the-sword-of-uruk-episode-12"
+    }
+  ]
+}

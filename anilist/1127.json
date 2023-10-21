@@ -1,0 +1,861 @@
+{
+  "id": "1127",
+  "title": {
+    "romaji": "UFO Princess Valkyrie",
+    "english": "UFO Ultramaiden Valkyrie",
+    "native": "円盤皇女ワるきゅーレ"
+  },
+  "malId": 1127,
+  "synonyms": [
+    "UFO Princess Walkyure"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1127.jpg",
+  "popularity": 3344,
+  "color": "#f1ae43",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1127-HdaVVppwAR8i.jpg",
+  "description": "UFO Princess Warukyure, aka UFO Princess Walkyrie is about a princess from outer space who accidentally crashes on earth, where Kazuto desperately tries to maintain the public bath of his grandfather. Due to circumstances, Kazuto receives part of princess Walkyrie's soul which forces her to stay there with him. But that's not the only problem ... because her soul lost strength, the princess transforms both mentally and physically into a little kid!<br><br>\n(Source: AniDB)",
+  "status": "Completed",
+  "releaseDate": 2002,
+  "startDate": {
+    "year": 2002,
+    "month": 7,
+    "day": 4
+  },
+  "endDate": {
+    "year": 2002,
+    "month": 9,
+    "day": 19
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 61,
+  "duration": 23,
+  "genres": [
+    "Comedy",
+    "Ecchi",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "TNK"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 50,
+      "malId": 50,
+      "title": {
+        "romaji": "Aa! Megami-sama! (TV)",
+        "english": "Oh! My Goddess (TV)",
+        "native": "ああっ女神さまっ (TV)",
+        "userPreferred": "Aa! Megami-sama! (TV)"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx50-OdzAFLX6X6Hf.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx50-OdzAFLX6X6Hf.png",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 2403,
+      "malId": 2403,
+      "title": {
+        "romaji": "Kodomo no Jikan",
+        "english": null,
+        "native": "こどものじかん",
+        "userPreferred": "Kodomo no Jikan"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2403-vZ99B6GVLMCr.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2403-vZ99B6GVLMCr.jpg",
+      "rating": 61,
+      "type": "TV"
+    },
+    {
+      "id": 3455,
+      "malId": 3455,
+      "title": {
+        "romaji": "To LOVE-Ru",
+        "english": "To Love Ru",
+        "native": "To LOVEる -とらぶる-",
+        "userPreferred": "To LOVE-Ru"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3455-oNiJmsZZTAAj.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3455.jpg",
+      "rating": 65,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 5285,
+      "role": "MAIN",
+      "name": {
+        "first": "Kazuto",
+        "last": "Tokino",
+        "full": "Kazuto Tokino",
+        "native": "時野和人",
+        "userPreferred": "Kazuto Tokino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5285-NlAXq3kaXGIj.jpg",
+      "voiceActors": [
+        {
+          "id": 95005,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Suzumura",
+            "full": "Kenichi Suzumura",
+            "native": "鈴村健一",
+            "userPreferred": "Kenichi Suzumura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95005-SkoVN02iOglr.png"
+        },
+        {
+          "id": 95192,
+          "language": "English",
+          "name": {
+            "first": "Greg",
+            "last": "Ayres",
+            "full": "Greg Ayres",
+            "native": null,
+            "userPreferred": "Greg Ayres"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95192-igLHZjSO4eE0.png"
+        }
+      ]
+    },
+    {
+      "id": 5284,
+      "role": "MAIN",
+      "name": {
+        "first": "Valkyrie",
+        "last": null,
+        "full": "Valkyrie",
+        "native": null,
+        "userPreferred": "Valkyrie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5284.jpg",
+      "voiceActors": [
+        {
+          "id": 95393,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisayo",
+            "last": "Mochizuki",
+            "full": "Hisayo Mochizuki",
+            "native": "望月久代",
+            "userPreferred": "Hisayo Mochizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95393-Z3l1YAF2Gty6.png"
+        },
+        {
+          "id": 95287,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Ogata",
+            "full": "Megumi Ogata",
+            "native": "緒方恵美",
+            "userPreferred": "Megumi Ogata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95287-3moX16xmYedv.png"
+        },
+        {
+          "id": 95162,
+          "language": "English",
+          "name": {
+            "first": "Kira",
+            "last": "Vincent-Davis",
+            "full": "Kira Vincent-Davis",
+            "native": null,
+            "userPreferred": "Kira Vincent-Davis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/162.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4640,
+      "role": "MAIN",
+      "name": {
+        "first": "Sanada",
+        "last": null,
+        "full": "Sanada",
+        "native": "真田",
+        "userPreferred": "Sanada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4640.jpg",
+      "voiceActors": [
+        {
+          "id": 95060,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Tanaka",
+            "full": "Rie Tanaka",
+            "native": "田中理恵",
+            "userPreferred": "Rie Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95060-Rw0HZghxH1hF.jpg"
+        },
+        {
+          "id": 95509,
+          "language": "English",
+          "name": {
+            "first": "Christine",
+            "last": "Auten",
+            "full": "Christine Auten",
+            "native": null,
+            "userPreferred": "Christine Auten"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95509-fSwGUErqAkmA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13453,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aiko",
+        "last": "Wakitani",
+        "full": "Aiko Wakitani",
+        "native": null,
+        "userPreferred": "Aiko Wakitani"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13453.jpg",
+      "voiceActors": [
+        {
+          "id": 95031,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Nakahara",
+            "full": "Mai Nakahara",
+            "native": "中原麻衣",
+            "userPreferred": "Mai Nakahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95031-tipPIz2k0Ncw.png"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16463,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Marduke",
+        "last": null,
+        "full": "Marduke",
+        "native": "マルドゥーク",
+        "userPreferred": "Marduke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16463.jpg",
+      "voiceActors": [
+        {
+          "id": 95258,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruko",
+            "last": "Momoi",
+            "full": "Haruko Momoi",
+            "native": "桃井はるこ",
+            "userPreferred": "Haruko Momoi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95258-cTKT3ONucnZU.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16280,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chorus",
+        "last": null,
+        "full": "Chorus",
+        "native": null,
+        "userPreferred": "Chorus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16280.jpg",
+      "voiceActors": [
+        {
+          "id": 95057,
+          "language": "Japanese",
+          "name": {
+            "first": "Houko",
+            "last": "Kuwashima",
+            "full": "Houko Kuwashima",
+            "native": "桑島法子",
+            "userPreferred": "Houko Kuwashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95057-nMZEwJet445W.jpg"
+        },
+        {
+          "id": 96598,
+          "language": "English",
+          "name": {
+            "first": "Kimberly",
+            "last": "Prause",
+            "full": "Kimberly Prause",
+            "native": null,
+            "userPreferred": "Kimberly Prause"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96598-T0qa688Kgmeq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16459,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mehm",
+        "last": null,
+        "full": "Mehm",
+        "native": "メーム",
+        "userPreferred": "Mehm"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16459.jpg",
+      "voiceActors": [
+        {
+          "id": 95438,
+          "language": "Japanese",
+          "name": {
+            "first": "Emi",
+            "last": "Shinohara",
+            "full": "Emi Shinohara",
+            "native": "篠原恵美",
+            "userPreferred": "Emi Shinohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95438-dNxTPna4mfhR.jpg"
+        },
+        {
+          "id": 108355,
+          "language": "English",
+          "name": {
+            "first": "Robin",
+            "last": "Terry",
+            "full": "Robin Terry",
+            "native": null,
+            "userPreferred": "Robin Terry"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/13355.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4641,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hydra",
+        "last": null,
+        "full": "Hydra",
+        "native": null,
+        "userPreferred": "Hydra"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4641.jpg",
+      "voiceActors": [
+        {
+          "id": 95553,
+          "language": "Japanese",
+          "name": {
+            "first": "Chinami",
+            "last": "Nishimura",
+            "full": "Chinami Nishimura",
+            "native": "西村ちなみ",
+            "userPreferred": "Chinami Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95553-m1IIC7sNSQ2h.png"
+        },
+        {
+          "id": 95928,
+          "language": "English",
+          "name": {
+            "first": "Nancy",
+            "last": "Novotny",
+            "full": "Nancy Novotny",
+            "native": null,
+            "userPreferred": "Nancy Novotny"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95928-TWiUny7lqanh.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20494,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nesti",
+        "last": null,
+        "full": "Nesti",
+        "native": "ネスティー",
+        "userPreferred": "Nesti"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20494.jpg",
+      "voiceActors": [
+        {
+          "id": 95119,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Asakawa",
+            "full": "Yuu Asakawa",
+            "native": "浅川悠",
+            "userPreferred": "Yuu Asakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95119-ExV6YzTBbIZE.png"
+        }
+      ]
+    },
+    {
+      "id": 16462,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shirokenhaimu",
+        "last": null,
+        "full": "Shirokenhaimu",
+        "native": "シロ",
+        "userPreferred": "Shirokenhaimu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16462.jpg",
+      "voiceActors": [
+        {
+          "id": 96359,
+          "language": "Japanese",
+          "name": {
+            "first": "Tadahisa",
+            "last": "Saizen",
+            "full": "Tadahisa Saizen",
+            "native": "西前忠久",
+            "userPreferred": "Tadahisa Saizen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1359.jpg"
+        },
+        {
+          "id": 96848,
+          "language": "English",
+          "name": {
+            "first": "Andrew",
+            "last": "Love",
+            "full": "Andrew Love",
+            "native": null,
+            "userPreferred": "Andrew Love"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1848.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5485,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akina",
+        "last": "Nanamura",
+        "full": "Akina Nanamura",
+        "native": "七村秋菜",
+        "userPreferred": "Akina Nanamura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5485-TACjmoVMEgMo.jpg",
+      "voiceActors": [
+        {
+          "id": 95135,
+          "language": "Japanese",
+          "name": {
+            "first": "Saeko",
+            "last": "Chiba",
+            "full": "Saeko Chiba",
+            "native": "千葉紗子",
+            "userPreferred": "Saeko Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95135-zptQ6sZjTSU9.png"
+        },
+        {
+          "id": 95721,
+          "language": "English",
+          "name": {
+            "first": "Cynthia",
+            "last": "Martinez",
+            "full": "Cynthia Martinez",
+            "native": null,
+            "userPreferred": "Cynthia Martinez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95721-4wGzyO12bXAP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13281,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Pharm",
+        "last": null,
+        "full": "Pharm",
+        "native": "ファム",
+        "userPreferred": "Pharm"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13281.jpg",
+      "voiceActors": [
+        {
+          "id": 95117,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Kadowaki",
+            "full": "Mai Kadowaki",
+            "native": "門脇舞以",
+            "userPreferred": "Mai Kadowaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95117-TpLo1AeJRfVJ.jpg"
+        },
+        {
+          "id": 101181,
+          "language": "English",
+          "name": {
+            "first": "Carli",
+            "last": "Mosier",
+            "full": "Carli Mosier",
+            "native": "Carlin Cyd Mosier",
+            "userPreferred": "Carli Mosier"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101181-LTc5rfaUef91.png"
+        }
+      ]
+    },
+    {
+      "id": 14228,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Raine",
+        "last": null,
+        "full": "Raine",
+        "native": null,
+        "userPreferred": "Raine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14228.jpg",
+      "voiceActors": [
+        {
+          "id": 95273,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayumi",
+            "last": "Iizuka",
+            "full": "Mayumi Iizuka",
+            "native": "飯塚雅弓",
+            "userPreferred": "Mayumi Iizuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95273-qtMQIJyybJ7O.png"
+        },
+        {
+          "id": 95151,
+          "language": "English",
+          "name": {
+            "first": "Hilary",
+            "last": "Haag",
+            "full": "Hilary Haag",
+            "native": null,
+            "userPreferred": "Hilary Haag"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/151.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20493,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Inarba",
+        "last": null,
+        "full": "Inarba",
+        "native": null,
+        "userPreferred": "Inarba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20493-5R60OjSxFBsS.jpg",
+      "voiceActors": [
+        {
+          "id": 95195,
+          "language": "Japanese",
+          "name": {
+            "first": "Kikuko",
+            "last": "Inoue",
+            "full": "Kikuko Inoue",
+            "native": "井上喜久子",
+            "userPreferred": "Kikuko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95195-nLvtZl5sCK0D.png"
+        },
+        {
+          "id": 95199,
+          "language": "English",
+          "name": {
+            "first": "Jessica",
+            "last": "Boone",
+            "full": "Jessica Boone",
+            "native": null,
+            "userPreferred": "Jessica Boone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95199-0ArwCGT722iO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22613,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rika",
+        "last": "Tokino",
+        "full": "Rika Tokino",
+        "native": "時野リカ",
+        "userPreferred": "Rika Tokino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22613.jpg",
+      "voiceActors": [
+        {
+          "id": 95323,
+          "language": "Japanese",
+          "name": {
+            "first": "Omi",
+            "last": "Minami",
+            "full": "Omi Minami",
+            "native": "南央美",
+            "userPreferred": "Omi Minami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95323-IEzYhIR4WaHK.jpg"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        }
+      ]
+    },
+    {
+      "id": 22614,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mar",
+        "last": null,
+        "full": "Mar",
+        "native": null,
+        "userPreferred": "Mar"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22614.jpg",
+      "voiceActors": [
+        {
+          "id": 95740,
+          "language": "Japanese",
+          "name": {
+            "first": "Nanae",
+            "last": "Katou",
+            "full": "Nanae Katou",
+            "native": "加藤奈々絵",
+            "userPreferred": "Nanae Katou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/740.jpg"
+        },
+        {
+          "id": 115332,
+          "language": "Spanish",
+          "name": {
+            "first": "Ariadna",
+            "last": "Jimenez",
+            "full": "Ariadna Jimenez",
+            "native": null,
+            "userPreferred": "Ariadna Jimenez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1128,
+      "relationType": "SEQUEL",
+      "malId": 1128,
+      "title": {
+        "romaji": "UFO Princess Valkyrie 2: Juunigatsu no Yasoukyoku",
+        "english": "UFO Ultramaiden Valkyrie 2: December Nocturne",
+        "native": "円盤皇女ワるきゅーレ 十二月の夜想曲",
+        "userPreferred": "UFO Princess Valkyrie 2: Juunigatsu no Yasoukyoku"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1128.jpg",
+      "color": "#e4c935",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1128-X4WqTIypO5R8.jpg",
+      "rating": 64
+    },
+    {
+      "id": 40049,
+      "relationType": "ADAPTATION",
+      "malId": 10049,
+      "title": {
+        "romaji": "UFO Princess Valkyrie",
+        "english": "UFO Princess Valkyrie",
+        "native": "円盤皇女ワるきゅーレ",
+        "userPreferred": "UFO Princess Valkyrie"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/10049.jpg",
+      "color": "#e4ae50",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/10049.jpg",
+      "rating": 71
+    },
+    {
+      "id": 1129,
+      "relationType": "PARENT",
+      "malId": 1129,
+      "title": {
+        "romaji": "UFO Princess Valkyrie: Shichiten Battou Hanayome Shuugyou",
+        "english": "UFO Princess Valkyrie Special: Bridal Training",
+        "native": "円盤皇女ワるきゅーレ 七転八倒花嫁修行\t",
+        "userPreferred": "UFO Princess Valkyrie: Shichiten Battou Hanayome Shuugyou"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1129.jpg",
+      "color": "#e4c950",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1129.jpg",
+      "rating": 62
+    }
+  ],
+  "episodes": [
+    {
+      "id": "ufo-ultramaiden-valkyrie-episode-1",
+      "title": "The Bathhouse with an Angel",
+      "image": "https://media.kitsu.io/episodes/thumbnails/19869/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ufo-ultramaiden-valkyrie-episode-1"
+    },
+    {
+      "id": "ufo-ultramaiden-valkyrie-episode-2",
+      "title": "The Transforming Princess Valkyrie",
+      "image": "https://media.kitsu.io/episodes/thumbnails/19870/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ufo-ultramaiden-valkyrie-episode-2"
+    },
+    {
+      "id": "ufo-ultramaiden-valkyrie-episode-3",
+      "title": "Head Catgirl Maid, Ms. Sanada",
+      "image": "https://media.kitsu.io/episodes/thumbnails/19871/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ufo-ultramaiden-valkyrie-episode-3"
+    },
+    {
+      "id": "ufo-ultramaiden-valkyrie-episode-4",
+      "title": "What Your Wings Are For",
+      "image": "https://media.kitsu.io/episodes/thumbnails/19872/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ufo-ultramaiden-valkyrie-episode-4"
+    },
+    {
+      "id": "ufo-ultramaiden-valkyrie-episode-5",
+      "title": "A Page Out of Rika's Youth",
+      "image": "https://media.kitsu.io/episodes/thumbnails/19873/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ufo-ultramaiden-valkyrie-episode-5"
+    },
+    {
+      "id": "ufo-ultramaiden-valkyrie-episode-6",
+      "title": "Princess Memorial",
+      "image": "https://media.kitsu.io/episodes/thumbnails/19874/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ufo-ultramaiden-valkyrie-episode-6"
+    },
+    {
+      "id": "ufo-ultramaiden-valkyrie-episode-7",
+      "title": " Runaway Princess Laine",
+      "image": "https://media.kitsu.io/episodes/thumbnails/19875/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ufo-ultramaiden-valkyrie-episode-7"
+    },
+    {
+      "id": "ufo-ultramaiden-valkyrie-episode-8",
+      "title": "A Vacation for the Catgirl Maids",
+      "image": "https://media.kitsu.io/episodes/thumbnails/19876/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ufo-ultramaiden-valkyrie-episode-8"
+    },
+    {
+      "id": "ufo-ultramaiden-valkyrie-episode-9",
+      "title": "Akina's Minature Transformation",
+      "image": "https://media.kitsu.io/episodes/thumbnails/19877/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ufo-ultramaiden-valkyrie-episode-9"
+    },
+    {
+      "id": "ufo-ultramaiden-valkyrie-episode-10",
+      "title": "How I Bought an Asteroid Over the Internet",
+      "image": "https://media.kitsu.io/episodes/thumbnails/19878/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ufo-ultramaiden-valkyrie-episode-10"
+    },
+    {
+      "id": "ufo-ultramaiden-valkyrie-episode-11",
+      "title": "Tokino Bathhouse Space Annex",
+      "image": "https://media.kitsu.io/episodes/thumbnails/19879/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ufo-ultramaiden-valkyrie-episode-11"
+    },
+    {
+      "id": "ufo-ultramaiden-valkyrie-episode-12",
+      "title": "A Ride into Fantasy for Valkyrie",
+      "image": "https://media.kitsu.io/episodes/thumbnails/19880/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ufo-ultramaiden-valkyrie-episode-12"
+    }
+  ]
+}

@@ -1,0 +1,911 @@
+{
+  "id": "1829",
+  "title": {
+    "romaji": "Ged Senki",
+    "english": "Tales from Earthsea",
+    "native": "ゲド戦記"
+  },
+  "malId": 1829,
+  "synonyms": [
+    "Gedo Senki",
+    "Tales of Ged",
+    "Ged's War Chronicles",
+    "Die Chroniken von Erdsee ",
+    "Cuentos de Terramar",
+    "Contos de Terramar",
+    "Les Contes de Terremer",
+    "Opowieści z Ziemiomorza",
+    "I racconti di Terramare"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1829-DqhBRfDU7n6D.jpg",
+  "popularity": 28589,
+  "color": "#e4d678",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1829-CogP9EXilVsU.jpg",
+  "description": "In the land of Earthsea, crops are dwindling, dragons have reappeared, and humanity is giving way to chaos. Journey with Lord Archmage Sparrowhawk, a master wizard, and Arren, a troubled young prince, on a tale of redemption and self-discovery as they search for the force behind the mysterious imbalance that threatens to destroy their world.<br>\n<br>\n(Source: Disney)",
+  "status": "Completed",
+  "releaseDate": 2006,
+  "startDate": {
+    "year": 2006,
+    "month": 7,
+    "day": 29
+  },
+  "endDate": {
+    "year": 2006,
+    "month": 7,
+    "day": 29
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 64,
+  "duration": 115,
+  "genres": [
+    "Adventure",
+    "Fantasy"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Studio Ghibli"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 572,
+      "malId": 572,
+      "title": {
+        "romaji": "Kaze no Tani no Nausicaä",
+        "english": "Nausicaä of the Valley of the Wind",
+        "native": "風の谷のナウシカ",
+        "userPreferred": "Kaze no Tani no Nausicaä"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx572-ZE3kHBA6U0X1.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/572-8Lz6Wwy3ySHE.jpg",
+      "rating": 81,
+      "type": "MOVIE"
+    },
+    {
+      "id": 513,
+      "malId": 513,
+      "title": {
+        "romaji": "Tenkuu no Shiro Laputa",
+        "english": "Castle in the Sky",
+        "native": "天空の城ラピュタ",
+        "userPreferred": "Tenkuu no Shiro Laputa"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx513-G47zqEhndFBY.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/513-3zMLMyA0qH5n.jpg",
+      "rating": 80,
+      "type": "MOVIE"
+    },
+    {
+      "id": 164,
+      "malId": 164,
+      "title": {
+        "romaji": "Mononoke-hime",
+        "english": "Princess Mononoke",
+        "native": "もののけ姫",
+        "userPreferred": "Mononoke-hime"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx164-QYmGmG2k09pL.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/164-Aj6MINy7VTfs.jpg",
+      "rating": 84,
+      "type": "MOVIE"
+    },
+    {
+      "id": 107727,
+      "malId": 39235,
+      "title": {
+        "romaji": "Ni no Kuni",
+        "english": "NiNoKuni",
+        "native": "二ノ国",
+        "userPreferred": "Ni no Kuni"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107727-OZLbxfScJyYE.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107727-YG3Xz6kDrWwL.jpg",
+      "rating": 63,
+      "type": "MOVIE"
+    },
+    {
+      "id": 2890,
+      "malId": 2890,
+      "title": {
+        "romaji": "Gake no Ue no Ponyo",
+        "english": "Ponyo",
+        "native": "崖の上のポニョ",
+        "userPreferred": "Gake no Ue no Ponyo"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2890-wcNtFr6aUYOR.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2890-9ABkcfl2a7xS.jpg",
+      "rating": 78,
+      "type": "MOVIE"
+    },
+    {
+      "id": 199,
+      "malId": 199,
+      "title": {
+        "romaji": "Sen to Chihiro no Kamikakushi",
+        "english": "Spirited Away",
+        "native": "千と千尋の神隠し",
+        "userPreferred": "Sen to Chihiro no Kamikakushi"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx199-ehguwq1mPvtN.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/199-Sm2RU5PSqw7T.jpg",
+      "rating": 86,
+      "type": "MOVIE"
+    },
+    {
+      "id": 578,
+      "malId": 578,
+      "title": {
+        "romaji": "Hotaru no Haka",
+        "english": "Grave of the Fireflies",
+        "native": "火垂るの墓",
+        "userPreferred": "Hotaru no Haka"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx578-vU6XcOlb1XFU.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/578.jpg",
+      "rating": 82,
+      "type": "MOVIE"
+    },
+    {
+      "id": 585,
+      "malId": 585,
+      "title": {
+        "romaji": "Mimi wo Sumaseba",
+        "english": "Whisper of the Heart",
+        "native": "耳をすませば",
+        "userPreferred": "Mimi wo Sumaseba"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx585-5uq7j2xNNVmN.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/585-FySIY9zeEDOc.jpg",
+      "rating": 81,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 5375,
+      "role": "MAIN",
+      "name": {
+        "first": "Ged",
+        "last": null,
+        "full": "Ged",
+        "native": "ゲド",
+        "userPreferred": "Ged"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5375-cLJdmi1gBMtP.png",
+      "voiceActors": [
+        {
+          "id": 96265,
+          "language": "Japanese",
+          "name": {
+            "first": "Bunta",
+            "last": "Sugawara",
+            "full": "Bunta Sugawara",
+            "native": "菅原文太",
+            "userPreferred": "Bunta Sugawara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96265-fAGZxbl40IrF.png"
+        },
+        {
+          "id": 100511,
+          "language": "English",
+          "name": {
+            "first": "Timothy",
+            "last": "Dalton",
+            "full": "Timothy Dalton",
+            "native": null,
+            "userPreferred": "Timothy Dalton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5511.jpg"
+        },
+        {
+          "id": 110099,
+          "language": "Korean",
+          "name": {
+            "first": "Si Ho",
+            "last": "Hong",
+            "full": "Si Ho Hong",
+            "native": "시호 홍",
+            "userPreferred": "Si Ho Hong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15099.jpg"
+        },
+        {
+          "id": 154145,
+          "language": "Italian",
+          "name": {
+            "first": "Vittorio",
+            "last": "Di Prima",
+            "full": "Vittorio Di Prima",
+            "native": null,
+            "userPreferred": "Vittorio Di Prima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n154145-wtB0Tlm6zNGR.png"
+        },
+        {
+          "id": 149615,
+          "language": "German",
+          "name": {
+            "first": "Ekkehardt",
+            "last": "Belle",
+            "full": "Ekkehardt Belle",
+            "native": null,
+            "userPreferred": "Ekkehardt Belle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n149615-coJrcmwsvJFY.png"
+        }
+      ]
+    },
+    {
+      "id": 5312,
+      "role": "MAIN",
+      "name": {
+        "first": "Therru",
+        "last": null,
+        "full": "Therru",
+        "native": "テルー",
+        "userPreferred": "Therru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5312-B3SXAKTjnnI3.png",
+      "voiceActors": [
+        {
+          "id": 96571,
+          "language": "Japanese",
+          "name": {
+            "first": "Aoi",
+            "last": "Teshima",
+            "full": "Aoi Teshima",
+            "native": "手嶌葵",
+            "userPreferred": "Aoi Teshima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96571-EeTWcyMGSIEQ.png"
+        },
+        {
+          "id": 100515,
+          "language": "English",
+          "name": {
+            "first": "Blaire",
+            "last": "Restaneo",
+            "full": "Blaire Restaneo",
+            "native": null,
+            "userPreferred": "Blaire Restaneo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5515.jpg"
+        },
+        {
+          "id": 103812,
+          "language": "Korean",
+          "name": {
+            "first": "Mi Sook",
+            "last": "Jeong",
+            "full": "Mi Sook Jeong",
+            "native": "숙 정미",
+            "userPreferred": "Mi Sook Jeong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8812.jpg"
+        },
+        {
+          "id": 156992,
+          "language": "Italian",
+          "name": {
+            "first": "Gemma",
+            "last": "Donati",
+            "full": "Gemma Donati",
+            "native": null,
+            "userPreferred": "Gemma Donati"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 106623,
+          "language": "Spanish",
+          "name": {
+            "first": "Romina",
+            "last": "Marroquín Payró",
+            "full": "Romina Marroquín Payró",
+            "native": null,
+            "userPreferred": "Romina Marroquín Payró"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106623-7DDWAOfePwsI.png"
+        },
+        {
+          "id": 116409,
+          "language": "German",
+          "name": {
+            "first": "Farina",
+            "last": "Brock",
+            "full": "Farina Brock",
+            "native": null,
+            "userPreferred": "Farina Brock"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116409-pVxaLIdEjKkl.png"
+        },
+        {
+          "id": 103062,
+          "language": "Hungarian",
+          "name": {
+            "first": "Borbála",
+            "last": "Csuha",
+            "full": "Borbála Csuha",
+            "native": null,
+            "userPreferred": "Borbála Csuha"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8062.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5374,
+      "role": "MAIN",
+      "name": {
+        "first": "Arren",
+        "last": null,
+        "full": "Arren",
+        "native": "アレン",
+        "userPreferred": "Arren"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5374-67x7wLhhkGOG.png",
+      "voiceActors": [
+        {
+          "id": 100517,
+          "language": "Japanese",
+          "name": {
+            "first": "Junichi",
+            "last": "Okada",
+            "full": "Junichi Okada",
+            "native": "岡田准一",
+            "userPreferred": "Junichi Okada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100517-SGO1MDIm5yFV.jpg"
+        },
+        {
+          "id": 100513,
+          "language": "English",
+          "name": {
+            "first": "Matt",
+            "last": "Levin",
+            "full": "Matt Levin",
+            "native": null,
+            "userPreferred": "Matt Levin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5513.jpg"
+        },
+        {
+          "id": 101499,
+          "language": "Korean",
+          "name": {
+            "first": "Yeong-seon",
+            "last": "Kim",
+            "full": "Yeong-seon Kim",
+            "native": "김영선",
+            "userPreferred": "Yeong-seon Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101499-aHFkv5mYhE5m.png"
+        },
+        {
+          "id": 115240,
+          "language": "Italian",
+          "name": {
+            "first": "Marco",
+            "last": "Vivio",
+            "full": "Marco Vivio",
+            "native": null,
+            "userPreferred": "Marco Vivio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20240.jpg"
+        },
+        {
+          "id": 190006,
+          "language": "Spanish",
+          "name": {
+            "first": "Ferso",
+            "last": "Velázquez",
+            "full": "Ferso Velázquez",
+            "native": "José Fernando Velázquez Soto",
+            "userPreferred": "Ferso Velázquez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190006-i5uXMXkiiReH.jpg"
+        },
+        {
+          "id": 116203,
+          "language": "French",
+          "name": {
+            "first": "Rémi",
+            "last": "Bichet",
+            "full": "Rémi Bichet",
+            "native": null,
+            "userPreferred": "Rémi Bichet"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21203.jpg"
+        },
+        {
+          "id": 116533,
+          "language": "German",
+          "name": {
+            "first": "Manuel",
+            "last": "Straube",
+            "full": "Manuel Straube",
+            "native": null,
+            "userPreferred": "Manuel Straube"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116533-BFTvaAP1bWww.png"
+        },
+        {
+          "id": 102831,
+          "language": "Hungarian",
+          "name": {
+            "first": "Balázs",
+            "last": "Szvetlov",
+            "full": "Balázs Szvetlov",
+            "native": null,
+            "userPreferred": "Balázs Szvetlov"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7831.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5376,
+      "role": "MAIN",
+      "name": {
+        "first": "Tenar",
+        "last": null,
+        "full": "Tenar",
+        "native": "テナー",
+        "userPreferred": "Tenar"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5376-mHtrgGNmzfZJ.png",
+      "voiceActors": [
+        {
+          "id": 100519,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fubuki",
+            "full": "Jun Fubuki",
+            "native": "風吹ジュン",
+            "userPreferred": "Jun Fubuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100519-HUoxBxB2byp9.png"
+        },
+        {
+          "id": 100516,
+          "language": "English",
+          "name": {
+            "first": "Mariska",
+            "last": "Hargitay",
+            "full": "Mariska Hargitay",
+            "native": null,
+            "userPreferred": "Mariska Hargitay"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5516.jpg"
+        },
+        {
+          "id": 163360,
+          "language": "Italian",
+          "name": {
+            "first": "Roberta",
+            "last": "Paladini",
+            "full": "Roberta Paladini",
+            "native": null,
+            "userPreferred": "Roberta Paladini"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 146358,
+          "language": "German",
+          "name": {
+            "first": "Kathrin",
+            "last": "Simon",
+            "full": "Kathrin Simon",
+            "native": null,
+            "userPreferred": "Kathrin Simon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5383,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kokuou",
+        "last": null,
+        "full": "Kokuou",
+        "native": "国王",
+        "userPreferred": "Kokuou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5383.jpg",
+      "voiceActors": [
+        {
+          "id": 95949,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaoru",
+            "last": "Kobayashi",
+            "full": "Kaoru Kobayashi",
+            "native": "小林薫",
+            "userPreferred": "Kaoru Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95949-bUC9058vzYre.png"
+        },
+        {
+          "id": 130885,
+          "language": "English",
+          "name": {
+            "first": "Brian",
+            "last": "George",
+            "full": "Brian George",
+            "native": null,
+            "userPreferred": "Brian George"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n130885-JMktnkNksmQv.jpg"
+        },
+        {
+          "id": 109861,
+          "language": "Korean",
+          "name": {
+            "first": "Won Je",
+            "last": "Tak",
+            "full": "Won Je Tak",
+            "native": "원제 탁",
+            "userPreferred": "Won Je Tak"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14861.jpg"
+        },
+        {
+          "id": 96192,
+          "language": "Italian",
+          "name": {
+            "first": "Michele",
+            "last": "Kalamera",
+            "full": "Michele Kalamera",
+            "native": null,
+            "userPreferred": "Michele Kalamera"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 104240,
+          "language": "German",
+          "name": {
+            "first": "Walter",
+            "last": "von Hauff",
+            "full": "Walter von Hauff",
+            "native": null,
+            "userPreferred": "Walter von Hauff"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9240.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5377,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kumo",
+        "last": "",
+        "full": "Kumo",
+        "native": "クモ",
+        "userPreferred": "Kumo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5377-wozK5lrTJYxL.png",
+      "voiceActors": [
+        {
+          "id": 95950,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuko",
+            "last": "Tanaka",
+            "full": "Yuko Tanaka",
+            "native": "田中裕子",
+            "userPreferred": "Yuko Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95950-bqKQA9bv8C6d.png"
+        },
+        {
+          "id": 100512,
+          "language": "English",
+          "name": {
+            "first": "Willem",
+            "last": "Dafoe",
+            "full": "Willem Dafoe",
+            "native": null,
+            "userPreferred": "Willem Dafoe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100512-5iL6dlExYTXt.png"
+        },
+        {
+          "id": 110593,
+          "language": "Korean",
+          "name": {
+            "first": "Mun Ja",
+            "last": "Choi",
+            "full": "Mun Ja Choi",
+            "native": "문자 최",
+            "userPreferred": "Mun Ja Choi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15593.jpg"
+        },
+        {
+          "id": 175825,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandra",
+            "last": "Cassioli",
+            "full": "Alessandra Cassioli",
+            "native": null,
+            "userPreferred": "Alessandra Cassioli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 182238,
+          "language": "Spanish",
+          "name": {
+            "first": "Kerygma",
+            "last": "Flores",
+            "full": "Kerygma Flores",
+            "native": "Martha Kerygma Flores Galaviz",
+            "userPreferred": "Kerygma Flores"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182238-a9oJUDFGbga1.png"
+        },
+        {
+          "id": 154683,
+          "language": "German",
+          "name": {
+            "first": "Susanne",
+            "last": "von Medvey",
+            "full": "Susanne von Medvey",
+            "native": null,
+            "userPreferred": "Susanne von Medvey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n154683-DszW6YeoRuA1.png"
+        }
+      ]
+    },
+    {
+      "id": 5379,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Usagi",
+        "last": null,
+        "full": "Usagi",
+        "native": "ウサギ",
+        "userPreferred": "Usagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5379-IQDL7G4Y2GyB.png",
+      "voiceActors": [
+        {
+          "id": 100518,
+          "language": "Japanese",
+          "name": {
+            "first": "Teruyuki",
+            "last": "Kagawa",
+            "full": "Teruyuki Kagawa",
+            "native": "香川照之",
+            "userPreferred": "Teruyuki Kagawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5518.jpg"
+        },
+        {
+          "id": 100514,
+          "language": "English",
+          "name": {
+            "first": "Cheech",
+            "last": "Marin",
+            "full": "Cheech Marin",
+            "native": null,
+            "userPreferred": "Cheech Marin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5514.jpg"
+        },
+        {
+          "id": 109827,
+          "language": "Korean",
+          "name": {
+            "first": "Wan gyeong",
+            "last": "Seong",
+            "full": "Wan gyeong Seong",
+            "native": "완경 성",
+            "userPreferred": "Wan gyeong Seong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14827.jpg"
+        },
+        {
+          "id": 175826,
+          "language": "Italian",
+          "name": {
+            "first": "Enrico",
+            "last": "Pallini",
+            "full": "Enrico Pallini",
+            "native": null,
+            "userPreferred": "Enrico Pallini"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n175826-dVDthmLA1O1R.jpg"
+        },
+        {
+          "id": 117477,
+          "language": "Spanish",
+          "name": {
+            "first": "Gabriel",
+            "last": "Ortiz",
+            "full": "Gabriel Ortiz",
+            "native": null,
+            "userPreferred": "Gabriel Ortiz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n117477-3WVZW7Mp0vNz.jpg"
+        },
+        {
+          "id": 132373,
+          "language": "German",
+          "name": {
+            "first": "Gerd",
+            "last": "Meyer",
+            "full": "Gerd Meyer",
+            "native": null,
+            "userPreferred": "Gerd Meyer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5384,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ouhi",
+        "last": null,
+        "full": "Ouhi",
+        "native": "王妃",
+        "userPreferred": "Ouhi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5384.jpg",
+      "voiceActors": [
+        {
+          "id": 100520,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Natsukawa",
+            "full": "Yui Natsukawa",
+            "native": "結衣 夏川",
+            "userPreferred": "Yui Natsukawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5520.jpg"
+        },
+        {
+          "id": 130886,
+          "language": "English",
+          "name": {
+            "first": "Susanne",
+            "last": "Blakeslee",
+            "full": "Susanne Blakeslee",
+            "native": null,
+            "userPreferred": "Susanne Blakeslee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n130886-wi0qzN2uoQfU.jpg"
+        },
+        {
+          "id": 110423,
+          "language": "Korean",
+          "name": {
+            "first": "Eun Jeong",
+            "last": "Im",
+            "full": "Eun Jeong Im",
+            "native": "은정 임",
+            "userPreferred": "Eun Jeong Im"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15423.jpg"
+        },
+        {
+          "id": 204647,
+          "language": "Italian",
+          "name": {
+            "first": "Emanuela",
+            "last": "Rossi",
+            "full": "Emanuela Rossi",
+            "native": null,
+            "userPreferred": "Emanuela Rossi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 196339,
+          "language": "Spanish",
+          "name": {
+            "first": "Irene",
+            "last": "Jiménez",
+            "full": "Irene Jiménez",
+            "native": null,
+            "userPreferred": "Irene Jiménez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n196339-DYJVmUsGkXBo.png"
+        },
+        {
+          "id": 100917,
+          "language": "German",
+          "name": {
+            "first": "Martina",
+            "last": "Duncker",
+            "full": "Martina Duncker",
+            "native": null,
+            "userPreferred": "Martina Duncker"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 33274,
+      "relationType": "OTHER",
+      "malId": 3274,
+      "title": {
+        "romaji": "Shuna no Tabi",
+        "english": "Shuna's Journey",
+        "native": "シュナの旅",
+        "userPreferred": "Shuna no Tabi"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx33274-Q1CaBlnPMtNL.jpg",
+      "color": "#f1d635",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/n33274-UDSWLlyejlW0.jpg",
+      "rating": 72
+    },
+    {
+      "id": 41927,
+      "relationType": "ALTERNATIVE",
+      "malId": 11927,
+      "title": {
+        "romaji": "Ged Senki",
+        "english": "Tales from Earthsea",
+        "native": "ゲド戦記",
+        "userPreferred": "Ged Senki"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b41927-OWLKFyheYcUp.jpg",
+      "color": "#e4c928",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b41927-OWLKFyheYcUp.jpg",
+      "rating": 60
+    }
+  ],
+  "episodes": [
+    {
+      "id": "tales-from-earthsea-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1829-DqhBRfDU7n6D.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tales-from-earthsea-episode-1"
+    }
+  ]
+}

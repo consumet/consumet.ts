@@ -1,0 +1,578 @@
+{
+  "id": "112033",
+  "title": {
+    "romaji": "Zenonzard: THE ANIMATION",
+    "english": null,
+    "native": "ゼノンザード THE ANIMATION"
+  },
+  "malId": 40940,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "5egG5UE_1aw",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/5egG5UE_1aw/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112033-OJCATuZi1FGz.png",
+  "popularity": 5768,
+  "color": "#0de45d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112033-6fZM2YTJCtq0.jpg",
+  "description": "The year 20XX. Humans called \"Concodes\" and ultra-high-performance AI called \"Codeman\" team up as buddies to compete in the card battle game ZENONZARD. People are going wild with excitement at the world championships, THE ZENON.<br><br>One day, Souta Azuma, an average high school student, is challenged to a battle by a mysterious woman, Eilietta Lash. She reveals that she’s a Codeman and that her intent is to team up with Souta and participate in THE ZENON. Souta reluctantly agrees. Souta and Eilietta’s first opponent turns out to be the super-famous player Shion Saionji, who attends Souta’s school, and her buddy, Ash Claude.<br><br>(Source: Zenonzard YouTube channel)",
+  "status": "Completed",
+  "releaseDate": 2020,
+  "startDate": {
+    "year": 2020,
+    "month": 1,
+    "day": 31
+  },
+  "endDate": {
+    "year": 2020,
+    "month": 10,
+    "day": 31
+  },
+  "totalEpisodes": 9,
+  "currentEpisode": 9,
+  "rating": 56,
+  "duration": 15,
+  "genres": [
+    "Action",
+    "Drama",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "8-bit"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 9539,
+      "malId": 9539,
+      "title": {
+        "romaji": "Cardfight!! Vanguard",
+        "english": "Cardfight Vanguard",
+        "native": "カードファイト!! ヴァンガード",
+        "userPreferred": "Cardfight!! Vanguard"
+      },
+      "status": "Completed",
+      "episodes": 65,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9539-g9UtWqT6iotq.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9539-cbmKfF6VCMgm.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 527,
+      "malId": 527,
+      "title": {
+        "romaji": "Pocket Monsters",
+        "english": "Pokémon",
+        "native": "ポケットモンスター",
+        "userPreferred": "Pocket Monsters"
+      },
+      "status": "Completed",
+      "episodes": 276,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b527-cFxpkJI4026c.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/527-69bO9vmmewWm.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 98231,
+      "malId": 34866,
+      "title": {
+        "romaji": "Yu☆Gi☆Oh! VRAINS",
+        "english": "Yu-Gi-Oh! VRAINS",
+        "native": "遊☆戯☆王VRAINS",
+        "userPreferred": "Yu☆Gi☆Oh! VRAINS"
+      },
+      "status": "Completed",
+      "episodes": 120,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98231-mPVCPWmg3KiL.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98231-U0QEp5F5cDqW.jpg",
+      "rating": 62,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 155834,
+      "role": "MAIN",
+      "name": {
+        "first": "Ash",
+        "last": "Claude",
+        "full": "Ash Claude",
+        "native": "アッシュ・クロード",
+        "userPreferred": "Ash Claude"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b155834-Gd18hV7e02Zn.jpg",
+      "voiceActors": [
+        {
+          "id": 118908,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichirou",
+            "last": "Umehara",
+            "full": "Yuuichirou Umehara",
+            "native": "梅原裕一郎",
+            "userPreferred": "Yuuichirou Umehara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/118908-f16PugVCnZfT.jpg"
+        }
+      ]
+    },
+    {
+      "id": 155835,
+      "role": "MAIN",
+      "name": {
+        "first": "Shion",
+        "last": "Saionji",
+        "full": "Shion Saionji",
+        "native": "西園寺紫音",
+        "userPreferred": "Shion Saionji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b155835-Go34OlcAiBdu.jpg",
+      "voiceActors": [
+        {
+          "id": 107961,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Han",
+            "full": "Megumi Han",
+            "native": "潘めぐみ",
+            "userPreferred": "Megumi Han"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107961-aMetTdEFTi2W.jpg"
+        }
+      ]
+    },
+    {
+      "id": 155836,
+      "role": "MAIN",
+      "name": {
+        "first": "Souta",
+        "last": "Azuma",
+        "full": "Souta Azuma",
+        "native": "東蒼汰",
+        "userPreferred": "Souta Azuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b155836-tq5Pth1NvF64.jpg",
+      "voiceActors": [
+        {
+          "id": 105989,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobunaga",
+            "last": "Shimazaki",
+            "full": "Nobunaga Shimazaki",
+            "native": "島崎信長",
+            "userPreferred": "Nobunaga Shimazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105989-96etzH1dLNug.jpg"
+        }
+      ]
+    },
+    {
+      "id": 155837,
+      "role": "MAIN",
+      "name": {
+        "first": "Eilietta",
+        "last": "Lash",
+        "full": "Eilietta Lash",
+        "native": "アイリエッタ・ラッシュ",
+        "userPreferred": "Eilietta Lash"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b155837-CBUqQ7Asd9cW.jpg",
+      "voiceActors": [
+        {
+          "id": 95869,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Hayami",
+            "full": "Saori Hayami",
+            "native": "早見沙織",
+            "userPreferred": "Saori Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95869-qCQ0EaWpq1QT.png"
+        }
+      ]
+    },
+    {
+      "id": 161801,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mina",
+        "last": null,
+        "full": "Mina",
+        "native": "ミーナ",
+        "userPreferred": "Mina"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 118918,
+          "language": "Japanese",
+          "name": {
+            "first": "Juri",
+            "last": "Kimura",
+            "full": "Juri Kimura",
+            "native": "木村珠莉",
+            "userPreferred": "Juri Kimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118918-Uz7Ep42wQFmQ.png"
+        }
+      ]
+    },
+    {
+      "id": 161796,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Laura",
+        "last": null,
+        "full": "Laura",
+        "native": "ローラ",
+        "userPreferred": "Laura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b161796-XzkMsLZVZPW1.png",
+      "voiceActors": [
+        {
+          "id": 126865,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Nukui",
+            "full": "Yuka Nukui",
+            "native": "貫井柚佳",
+            "userPreferred": "Yuka Nukui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n126865-dEIO6FLXLcFH.png"
+        }
+      ]
+    },
+    {
+      "id": 161798,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hughtlom",
+        "last": "Aubreykahn",
+        "full": "Hughtlom Aubreykahn",
+        "native": "ヒュートラム・オブリカーン",
+        "userPreferred": "Hughtlom Aubreykahn"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b161798-LBefxxTu4BJm.png",
+      "voiceActors": [
+        {
+          "id": 95063,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiji",
+            "last": "Fujiwara",
+            "full": "Keiji Fujiwara",
+            "native": "藤原啓治",
+            "userPreferred": "Keiji Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95063-xAsEUzspuLMG.jpg"
+        }
+      ]
+    },
+    {
+      "id": 161797,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yorusuke",
+        "last": "Yorraiha",
+        "full": "Yorusuke Yorraiha",
+        "native": "ヨルスケ・ヨーライハ",
+        "userPreferred": "Yorusuke Yorraiha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b161797-iQmsriwocQTZ.png",
+      "voiceActors": [
+        {
+          "id": 95792,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinnosuke",
+            "last": "Tachibana",
+            "full": "Shinnosuke Tachibana",
+            "native": "立花慎之介",
+            "userPreferred": "Shinnosuke Tachibana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95792-5413Ip70mSdV.jpg"
+        }
+      ]
+    },
+    {
+      "id": 155839,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ruri",
+        "last": "Minamino",
+        "full": "Ruri Minamino",
+        "native": "南野るり",
+        "userPreferred": "Ruri Minamino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b155839-YY2CrOtls1v6.jpg",
+      "voiceActors": [
+        {
+          "id": 133625,
+          "language": "Japanese",
+          "name": {
+            "first": "Fairouz Ai",
+            "last": "",
+            "full": "Fairouz Ai",
+            "native": "ファイルーズあい",
+            "userPreferred": "Fairouz Ai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n133625-YpEgKD7flV2S.jpg"
+        }
+      ]
+    },
+    {
+      "id": 164948,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Manager",
+        "last": null,
+        "full": "Manager",
+        "native": "マネージャー",
+        "userPreferred": "Manager"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95060,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Tanaka",
+            "full": "Rie Tanaka",
+            "native": "田中理恵",
+            "userPreferred": "Rie Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95060-Rw0HZghxH1hF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 161794,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Alice",
+        "last": null,
+        "full": "Alice",
+        "native": "アリス",
+        "userPreferred": "Alice"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 109251,
+          "language": "Japanese",
+          "name": {
+            "first": "You",
+            "last": "Taichi",
+            "full": "You Taichi",
+            "native": "大地葉",
+            "userPreferred": "You Taichi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109251-ge8rmZwppqxy.png"
+        }
+      ]
+    },
+    {
+      "id": 164947,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nonoin",
+        "last": "Nillon",
+        "full": "Nonoin Nillon",
+        "native": "ノノイン・ニルオン",
+        "userPreferred": "Nonoin Nillon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b164947-30VdNNjNKTZA.png",
+      "voiceActors": [
+        {
+          "id": 124747,
+          "language": "Japanese",
+          "name": {
+            "first": "Reina",
+            "last": "Kondou",
+            "full": "Reina Kondou",
+            "native": "近藤玲奈",
+            "userPreferred": "Reina Kondou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n124747-uWJRlxZ05TaM.png"
+        }
+      ]
+    },
+    {
+      "id": 161793,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hinaria",
+        "last": "Darkend",
+        "full": "Hinaria Darkend",
+        "native": "ヒナリア・ダーケンド",
+        "userPreferred": "Hinaria Darkend"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b161793-4HZHELQvE5L3.png",
+      "voiceActors": [
+        {
+          "id": 119331,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Takahashi",
+            "full": "Rie Takahashi",
+            "native": "高橋李依",
+            "userPreferred": "Rie Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119331-0CYDTh2mwy62.png"
+        }
+      ]
+    },
+    {
+      "id": 161795,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rimel",
+        "last": null,
+        "full": "Rimel",
+        "native": "リメル",
+        "userPreferred": "Rimel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95092,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Oohara",
+            "full": "Sayaka Oohara",
+            "native": "大原さやか",
+            "userPreferred": "Sayaka Oohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95092-dQXsTFQXLg3o.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 112034,
+      "relationType": "PREQUEL",
+      "malId": 40394,
+      "title": {
+        "romaji": "Zenonzard: THE ANIMATION - Episode 0",
+        "english": null,
+        "native": "ゼノンザード THE ANIMATION - Episode 0",
+        "userPreferred": "Zenonzard: THE ANIMATION - Episode 0"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112034-wGD4vMFsQNrm.png",
+      "color": "#feae28",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112034-wGD4vMFsQNrm.png",
+      "rating": 63
+    }
+  ],
+  "episodes": [
+    {
+      "id": "zenonzard-the-animation",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112033-OJCATuZi1FGz.png",
+      "number": 0,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zenonzard-the-animation"
+    },
+    {
+      "id": "zenonzard-the-animation-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112033-OJCATuZi1FGz.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zenonzard-the-animation-episode-1"
+    },
+    {
+      "id": "zenonzard-the-animation-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112033-OJCATuZi1FGz.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zenonzard-the-animation-episode-2"
+    },
+    {
+      "id": "zenonzard-the-animation-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112033-OJCATuZi1FGz.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zenonzard-the-animation-episode-3"
+    },
+    {
+      "id": "zenonzard-the-animation-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112033-OJCATuZi1FGz.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zenonzard-the-animation-episode-4"
+    },
+    {
+      "id": "zenonzard-the-animation-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112033-OJCATuZi1FGz.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zenonzard-the-animation-episode-5"
+    },
+    {
+      "id": "zenonzard-the-animation-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112033-OJCATuZi1FGz.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zenonzard-the-animation-episode-6"
+    },
+    {
+      "id": "zenonzard-the-animation-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112033-OJCATuZi1FGz.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zenonzard-the-animation-episode-7"
+    },
+    {
+      "id": "zenonzard-the-animation-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112033-OJCATuZi1FGz.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zenonzard-the-animation-episode-8"
+    },
+    {
+      "id": "zenonzard-the-animation-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112033-OJCATuZi1FGz.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zenonzard-the-animation-episode-9"
+    }
+  ]
+}

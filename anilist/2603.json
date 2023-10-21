@@ -1,0 +1,562 @@
+{
+  "id": "2603",
+  "title": {
+    "romaji": "Mushi-Uta",
+    "english": "Mushi-Uta",
+    "native": "ムシウタ"
+  },
+  "malId": 2603,
+  "synonyms": [
+    "Mushiuta"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2603.jpg",
+  "popularity": 2385,
+  "color": "#ae5de4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2603.jpg",
+  "description": "Mushi-uta's story takes place in the near future. Ten years before the story's opening, strange insect-like creatures known as \"Mushi\" began appearing. The Mushi are able to consume peoples' dreams and thoughts in return for supernatural powers. At the end of episode one, protagonist Daisuke \"Kakkou\" Kusuriya encounters a young girl named Shiika Anmoto. The two, in time, become quite close. However, unbeknownst to Kakkou, Shiika is an escapee from a secret prison known as GARDEN where those posessed by the Mushi, known as the Mushitsuki are held. GARDEN's military force, the Special Environmental Conservation Executive Office, dispatches its finest killer to track down Shiika. However, they are faced with resistance from the Mushibane resistance organisation, led by the secretive \"Ladybird\".<br>\n<br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2007,
+  "startDate": {
+    "year": 2007,
+    "month": 7,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2007,
+    "month": 10,
+    "day": 5
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 58,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Fantasy",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "ZEXCS"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 3412,
+      "role": "MAIN",
+      "name": {
+        "first": "Daisuke",
+        "last": "Kusuriya",
+        "full": "Daisuke Kusuriya",
+        "native": "薬屋大助",
+        "userPreferred": "Daisuke Kusuriya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3412.jpg",
+      "voiceActors": [
+        {
+          "id": 95186,
+          "language": "Japanese",
+          "name": {
+            "first": "Shintarou",
+            "last": "Asanuma",
+            "full": "Shintarou Asanuma",
+            "native": "浅沼晋太郎",
+            "userPreferred": "Shintarou Asanuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95186-XMdPPqYhMrwN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3414,
+      "role": "MAIN",
+      "name": {
+        "first": "Rina",
+        "last": "Tachibana",
+        "full": "Rina Tachibana",
+        "native": "立花 利菜",
+        "userPreferred": "Rina Tachibana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3414.jpg",
+      "voiceActors": [
+        {
+          "id": 95184,
+          "language": "Japanese",
+          "name": {
+            "first": "Hitomi",
+            "last": "Nabatame",
+            "full": "Hitomi Nabatame",
+            "native": "生天目仁美",
+            "userPreferred": "Hitomi Nabatame"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95184-OpXCWNXhJJpg.png"
+        }
+      ]
+    },
+    {
+      "id": 3413,
+      "role": "MAIN",
+      "name": {
+        "first": "Shiika",
+        "last": "Anmoto",
+        "full": "Shiika Anmoto",
+        "native": "杏本詩歌",
+        "userPreferred": "Shiika Anmoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3413.jpg",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3416,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Azusa",
+        "last": "Horizaki",
+        "full": "Azusa Horizaki",
+        "native": "堀崎梓",
+        "userPreferred": "Azusa Horizaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3416.jpg",
+      "voiceActors": [
+        {
+          "id": 95027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Tamura",
+            "full": "Yukari Tamura",
+            "native": "田村ゆかり",
+            "userPreferred": "Yukari Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4845,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Erii",
+        "last": "Horiuchi",
+        "full": "Erii Horiuchi",
+        "native": "堀内 愛理衣",
+        "userPreferred": "Erii Horiuchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4845.jpg",
+      "voiceActors": [
+        {
+          "id": 95032,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Nonaka",
+            "full": "Ai Nonaka",
+            "native": "野中藍",
+            "userPreferred": "Ai Nonaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95032-P8Hvtz5iaaoI.png"
+        }
+      ]
+    },
+    {
+      "id": 5114,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tannin Kyoushi",
+        "last": null,
+        "full": "Tannin Kyoushi",
+        "native": "担任教師",
+        "userPreferred": "Tannin Kyoushi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5114.jpg",
+      "voiceActors": [
+        {
+          "id": 95197,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuki",
+            "last": "Saiga",
+            "full": "Mitsuki Saiga",
+            "native": "斎賀みつき",
+            "userPreferred": "Mitsuki Saiga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95197-gcTFdBK9oPtY.png"
+        }
+      ]
+    },
+    {
+      "id": 4846,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kazufusa",
+        "last": "Hibino",
+        "full": "Kazufusa Hibino",
+        "native": "日々野 一房",
+        "userPreferred": "Kazufusa Hibino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4846.jpg",
+      "voiceActors": [
+        {
+          "id": 95098,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Hatano",
+            "full": "Wataru Hatano",
+            "native": "羽多野渉",
+            "userPreferred": "Wataru Hatano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95098-x6T2xOTuvkuY.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4955,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyouko",
+        "last": "Kazama",
+        "full": "Kyouko Kazama",
+        "native": "風間京子",
+        "userPreferred": "Kyouko Kazama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4955.jpg",
+      "voiceActors": [
+        {
+          "id": 95348,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shiraishi",
+            "full": "Ryouko Shiraishi",
+            "native": "白石涼子",
+            "userPreferred": "Ryouko Shiraishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95348-sLIy7IMrgZeA.png"
+        }
+      ]
+    },
+    {
+      "id": 4720,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Annelize",
+        "last": "Mitake",
+        "full": "Annelize Mitake",
+        "native": "御嶽アンネリーゼ",
+        "userPreferred": "Annelize Mitake"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4720.jpg",
+      "voiceActors": [
+        {
+          "id": 95158,
+          "language": "Japanese",
+          "name": {
+            "first": "Marina",
+            "last": "Inoue",
+            "full": "Marina Inoue",
+            "native": "井上麻里奈",
+            "userPreferred": "Marina Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95158-OLhgs8zv5xsp.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4864,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yamato",
+        "last": "Ookura",
+        "full": "Yamato Ookura",
+        "native": "大蔵 倭",
+        "userPreferred": "Yamato Ookura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4864.jpg",
+      "voiceActors": [
+        {
+          "id": 95371,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Hamada",
+            "full": "Kenji Hamada",
+            "native": "浜田賢二",
+            "userPreferred": "Kenji Hamada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95371-nyA7w7nPrlPr.png"
+        }
+      ]
+    },
+    {
+      "id": 4719,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Asami",
+        "last": "Minagawa",
+        "full": "Asami Minagawa",
+        "native": "皆川あさみ",
+        "userPreferred": "Asami Minagawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4719.jpg",
+      "voiceActors": [
+        {
+          "id": 95166,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Shimura",
+            "full": "Yumi Shimura",
+            "native": "志村由美",
+            "userPreferred": "Yumi Shimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/166.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4863,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Touko",
+        "last": "Goroumaru",
+        "full": "Touko Goroumaru",
+        "native": "五郎丸 柊子",
+        "userPreferred": "Touko Goroumaru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4863.jpg",
+      "voiceActors": [
+        {
+          "id": 95429,
+          "language": "Japanese",
+          "name": {
+            "first": "Reiko",
+            "last": "Takagi",
+            "full": "Reiko Takagi",
+            "native": "高木礼子",
+            "userPreferred": "Reiko Takagi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95429-UOUUXfVWaQN2.png"
+        }
+      ]
+    },
+    {
+      "id": 3415,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keigo",
+        "last": "Haji",
+        "full": "Keigo Haji",
+        "native": "土師圭吾",
+        "userPreferred": "Keigo Haji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3415.jpg",
+      "voiceActors": [
+        {
+          "id": 95183,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Hirakawa",
+            "full": "Daisuke Hirakawa",
+            "native": "平川大輔",
+            "userPreferred": "Daisuke Hirakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95183-5C42gbrKIP7L.png"
+        }
+      ]
+    },
+    {
+      "id": 4956,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miharu",
+        "last": "Asano",
+        "full": "Miharu Asano",
+        "native": "浅野みはる",
+        "userPreferred": "Miharu Asano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4956.jpg",
+      "voiceActors": [
+        {
+          "id": 95691,
+          "language": "Japanese",
+          "name": {
+            "first": "Nami",
+            "last": "Kurokawa",
+            "full": "Nami Kurokawa",
+            "native": "黒河奈美 ",
+            "userPreferred": "Nami Kurokawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/691.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 46716,
+      "relationType": "ADAPTATION",
+      "malId": 16716,
+      "title": {
+        "romaji": "Mushi-Uta",
+        "english": "Mushi-Uta",
+        "native": "ムシウタ",
+        "userPreferred": "Mushi-Uta"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/16716.jpg",
+      "color": "#d6351a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/16716.jpg",
+      "rating": 70
+    },
+    {
+      "id": 46724,
+      "relationType": "ADAPTATION",
+      "malId": 16724,
+      "title": {
+        "romaji": "Mushi-Uta",
+        "english": null,
+        "native": "ムシウタ",
+        "userPreferred": "Mushi-Uta"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx46724-aMjDnxE5T7Ed.jpg",
+      "color": "#e45dbb",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx46724-aMjDnxE5T7Ed.jpg",
+      "rating": 53
+    }
+  ],
+  "episodes": [
+    {
+      "id": "mushi-uta-episode-1",
+      "title": "The Beginning of the Dream",
+      "image": "https://media.kitsu.io/episodes/thumbnails/40446/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:24:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mushi-uta-episode-1"
+    },
+    {
+      "id": "mushi-uta-episode-2",
+      "title": "The Dream that Binds",
+      "image": "https://media.kitsu.io/episodes/thumbnails/40447/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:24:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mushi-uta-episode-2"
+    },
+    {
+      "id": "mushi-uta-episode-3",
+      "title": "Slaves to the Dream",
+      "image": "https://media.kitsu.io/episodes/thumbnails/40448/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:24:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mushi-uta-episode-3"
+    },
+    {
+      "id": "mushi-uta-episode-4",
+      "title": "Shattered Dream",
+      "image": "https://media.kitsu.io/episodes/thumbnails/40449/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:24:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mushi-uta-episode-4"
+    },
+    {
+      "id": "mushi-uta-episode-5",
+      "title": "Dream's Encounter",
+      "image": "https://media.kitsu.io/episodes/thumbnails/40450/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:24:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mushi-uta-episode-5"
+    },
+    {
+      "id": "mushi-uta-episode-6",
+      "title": "Targeted Dream",
+      "image": "https://media.kitsu.io/episodes/thumbnails/40451/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:24:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mushi-uta-episode-6"
+    },
+    {
+      "id": "mushi-uta-episode-7",
+      "title": "Dream's Labyrinth",
+      "image": "https://media.kitsu.io/episodes/thumbnails/40452/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:24:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mushi-uta-episode-7"
+    },
+    {
+      "id": "mushi-uta-episode-8",
+      "title": "Unfulfilled Dream",
+      "image": "https://media.kitsu.io/episodes/thumbnails/40453/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:24:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mushi-uta-episode-8"
+    },
+    {
+      "id": "mushi-uta-episode-9",
+      "title": "Fragments of the Dream",
+      "image": "https://media.kitsu.io/episodes/thumbnails/40454/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:24:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mushi-uta-episode-9"
+    },
+    {
+      "id": "mushi-uta-episode-10",
+      "title": "Passing Dream",
+      "image": "https://media.kitsu.io/episodes/thumbnails/40455/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:24:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mushi-uta-episode-10"
+    },
+    {
+      "id": "mushi-uta-episode-11",
+      "title": "Endless Dream",
+      "image": "https://media.kitsu.io/episodes/thumbnails/40456/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:24:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mushi-uta-episode-11"
+    },
+    {
+      "id": "mushi-uta-episode-12",
+      "title": "Dreaming Firefly",
+      "image": "https://media.kitsu.io/episodes/thumbnails/40457/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:24:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mushi-uta-episode-12"
+    }
+  ]
+}

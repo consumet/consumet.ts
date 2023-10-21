@@ -1,0 +1,654 @@
+{
+  "id": "21557",
+  "title": {
+    "romaji": "Qualidea Code",
+    "english": null,
+    "native": "クオリディア・コード"
+  },
+  "malId": 32360,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "ohFqqKSxMk0",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/ohFqqKSxMk0/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21557-Z5r4cvbl9R6R.jpg",
+  "popularity": 38436,
+  "color": "#50bbe4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n21557-yjE1UGjms9tM.jpg",
+  "description": "The anime takes place in a world where humans are continuing to fight a war against an enemy called UNKNOWN. UNKNOWN invaded several decades ago, and children entered a cold sleep to escape the invasion. When the children awoke, they found themselves with supernatural powers. The children set up defense cities in Tokyo, Kanagawa, and Chiba in order to protect the country from the UNKNOWN, who appear through the Tokyo Bay Gate.<br>\n<br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2016,
+  "startDate": {
+    "year": 2016,
+    "month": 7,
+    "day": 10
+  },
+  "endDate": {
+    "year": 2016,
+    "month": 9,
+    "day": 25
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 60,
+  "duration": 23,
+  "genres": [
+    "Action",
+    "Fantasy",
+    "Supernatural"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "A-1 Pictures"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 21362,
+      "malId": 31338,
+      "title": {
+        "romaji": "Hundred",
+        "english": "Hundred",
+        "native": "ハンドレッド",
+        "userPreferred": "Hundred"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21362-kXBkIa9tP3WO.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21362-x9quCoBS5cTg.jpg",
+      "rating": 58,
+      "type": "TV"
+    },
+    {
+      "id": 20457,
+      "malId": 20787,
+      "title": {
+        "romaji": "Black Bullet",
+        "english": "Black Bullet",
+        "native": "ブラック・ブレット",
+        "userPreferred": "Black Bullet"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20457-4zieOshU5zw9.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20457.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 20583,
+      "malId": 23309,
+      "title": {
+        "romaji": "Rail Wars!",
+        "english": "Rail Wars!",
+        "native": "レールウォーズ",
+        "userPreferred": "Rail Wars!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20583-tUV6itvmiwEL.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20583.jpg",
+      "rating": 59,
+      "type": "TV"
+    },
+    {
+      "id": 9041,
+      "malId": 9041,
+      "title": {
+        "romaji": "IS: Infinite Stratos",
+        "english": "Infinite Stratos",
+        "native": "IS〈インフィニット・ストラトス〉",
+        "userPreferred": "IS: Infinite Stratos"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9041-nyIdVMM8q27K.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9041.jpg",
+      "rating": 61,
+      "type": "TV"
+    },
+    {
+      "id": 21306,
+      "malId": 31442,
+      "title": {
+        "romaji": "Musaigen no Phantom World",
+        "english": "Myriad Colors Phantom World",
+        "native": "無彩限のファントム・ワールド",
+        "userPreferred": "Musaigen no Phantom World"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21306-nXw2pY43S2ox.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21306-xIkqRnZd1xV9.jpg",
+      "rating": 65,
+      "type": "TV"
+    },
+    {
+      "id": 11757,
+      "malId": 11757,
+      "title": {
+        "romaji": "Sword Art Online",
+        "english": "Sword Art Online",
+        "native": "ソードアート・オンライン",
+        "userPreferred": "Sword Art Online"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx11757-Q9P2zjCPICq5.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11757-TlEEV9weG4Ag.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 129386,
+      "malId": 47391,
+      "title": {
+        "romaji": "Seven Knights Revolution: Eiyuu no Keishousha",
+        "english": "SEVEN KNIGHTS REVOLUTION: Hero Successor",
+        "native": "セブンナイツ レボリューション -英雄の継承者-",
+        "userPreferred": "Seven Knights Revolution: Eiyuu no Keishousha"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129386-DlNotDtJoSTg.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/129386-tBsd32P8bHbl.jpg",
+      "rating": 60,
+      "type": "TV"
+    },
+    {
+      "id": 21439,
+      "malId": 32171,
+      "title": {
+        "romaji": "Ange Vierge",
+        "english": null,
+        "native": "アンジュ・ヴィエルジュ",
+        "userPreferred": "Ange Vierge"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21439-f9V9DCXof1zt.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21439-N3k4lpDhXUIe.jpg",
+      "rating": 54,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 89378,
+      "role": "MAIN",
+      "name": {
+        "first": "Ichiya",
+        "last": "Suzaku",
+        "full": "Ichiya Suzaku",
+        "native": "朱雀 壱弥",
+        "userPreferred": "Ichiya Suzaku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89378-6nSA7YF97Hfn.jpg",
+      "voiceActors": [
+        {
+          "id": 113227,
+          "language": "Japanese",
+          "name": {
+            "first": "Souma",
+            "last": "Saitou",
+            "full": "Souma Saitou",
+            "native": "斉藤壮馬",
+            "userPreferred": "Souma Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n113227-x0UXLNL6v08X.png"
+        }
+      ]
+    },
+    {
+      "id": 89379,
+      "role": "MAIN",
+      "name": {
+        "first": "Canaria",
+        "last": "Utara",
+        "full": "Canaria Utara",
+        "native": "宇多良 カナリア",
+        "userPreferred": "Canaria Utara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89379-ZdaAICEHnVIt.jpg",
+      "voiceActors": [
+        {
+          "id": 100142,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Ishikawa",
+            "full": "Yui Ishikawa",
+            "native": "石川由依",
+            "userPreferred": "Yui Ishikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100142-k6RP0HzXffUG.png"
+        }
+      ]
+    },
+    {
+      "id": 89380,
+      "role": "MAIN",
+      "name": {
+        "first": "Maihime",
+        "last": "Tenkawa",
+        "full": "Maihime Tenkawa",
+        "native": "天河舞姫",
+        "userPreferred": "Maihime Tenkawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89380-4ptknzFinrMG.jpg",
+      "voiceActors": [
+        {
+          "id": 101686,
+          "language": "Japanese",
+          "name": {
+            "first": "Aoi",
+            "last": "Yuuki",
+            "full": "Aoi Yuuki",
+            "native": "悠木碧",
+            "userPreferred": "Aoi Yuuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101686-PTd0lQZMsmcv.png"
+        }
+      ]
+    },
+    {
+      "id": 89381,
+      "role": "MAIN",
+      "name": {
+        "first": "Hotaru",
+        "last": "Rindo",
+        "full": "Hotaru Rindo",
+        "native": "凛堂 ほたる",
+        "userPreferred": "Hotaru Rindo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89381-uu2PRDDI4sth.jpg",
+      "voiceActors": [
+        {
+          "id": 117223,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayaka",
+            "last": "Fukuhara",
+            "full": "Ayaka Fukuhara",
+            "native": "福原綾香",
+            "userPreferred": "Ayaka Fukuhara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n117223-vZXqGnmQhUEO.png"
+        }
+      ]
+    },
+    {
+      "id": 89382,
+      "role": "MAIN",
+      "name": {
+        "first": "Asuha",
+        "last": "Chigusa",
+        "full": "Asuha Chigusa",
+        "native": "千種 明日葉",
+        "userPreferred": "Asuha Chigusa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89382-Ig47wrPrWMve.png",
+      "voiceActors": [
+        {
+          "id": 106030,
+          "language": "Japanese",
+          "name": {
+            "first": "Chika",
+            "last": "Anzai",
+            "full": "Chika Anzai",
+            "native": "安済知佳",
+            "userPreferred": "Chika Anzai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106030-oz4RUJZ3D9v9.png"
+        }
+      ]
+    },
+    {
+      "id": 89383,
+      "role": "MAIN",
+      "name": {
+        "first": "Kasumi",
+        "last": "Chigusa",
+        "full": "Kasumi Chigusa",
+        "native": "千種 霞",
+        "userPreferred": "Kasumi Chigusa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89383-S9aqpKrcbhzd.jpg",
+      "voiceActors": [
+        {
+          "id": 119617,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuma",
+            "last": "Uchida",
+            "full": "Yuuma Uchida",
+            "native": "内田雄馬",
+            "userPreferred": "Yuuma Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119617-icFDk96OdV5k.png"
+        }
+      ]
+    },
+    {
+      "id": 151914,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aoi",
+        "last": "Yaegaki",
+        "full": "Aoi Yaegaki",
+        "native": "八重垣青生",
+        "userPreferred": "Aoi Yaegaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151914-LYxUfYIjbIj3.jpg",
+      "voiceActors": [
+        {
+          "id": 116517,
+          "language": "Japanese",
+          "name": {
+            "first": "Sora",
+            "last": "Amamiya",
+            "full": "Sora Amamiya",
+            "native": "雨宮天",
+            "userPreferred": "Sora Amamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116517-NQh6ewlCwzBN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 149674,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Airi",
+        "last": "Yuunami",
+        "full": "Airi Yuunami",
+        "native": "夕浪愛離",
+        "userPreferred": "Airi Yuunami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b149674-WjjAa2FQCfes.png",
+      "voiceActors": [
+        {
+          "id": 95040,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamiko",
+            "last": "Noto",
+            "full": "Mamiko Noto",
+            "native": "能登麻美子",
+            "userPreferred": "Mamiko Noto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95040-CskhFn4LiOti.jpg"
+        }
+      ]
+    },
+    {
+      "id": 149787,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mahiru ",
+        "last": "Ookuni",
+        "full": "Mahiru  Ookuni",
+        "native": "大國真昼",
+        "userPreferred": "Mahiru  Ookuni"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b149787-9431MBPt3wCh.jpg",
+      "voiceActors": [
+        {
+          "id": 95092,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Oohara",
+            "full": "Sayaka Oohara",
+            "native": "大原さやか",
+            "userPreferred": "Sayaka Oohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95092-dQXsTFQXLg3o.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 97522,
+      "relationType": "ADAPTATION",
+      "malId": 100302,
+      "title": {
+        "romaji": "Qualidea Code",
+        "english": null,
+        "native": "クオリディア・コード",
+        "userPreferred": "Qualidea Code"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx97522-CWH3YY92pRVO.jpg",
+      "color": "#e4bb50",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx97522-CWH3YY92pRVO.jpg",
+      "rating": 75
+    },
+    {
+      "id": 124514,
+      "relationType": "ADAPTATION",
+      "malId": 99776,
+      "title": {
+        "romaji": "Qualidea Code",
+        "english": null,
+        "native": "クオリディア・コード",
+        "userPreferred": "Qualidea Code"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx124514-NuTyjKwUI7vR.jpg",
+      "color": "#e4ae50",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx124514-NuTyjKwUI7vR.jpg",
+      "rating": 74
+    },
+    {
+      "id": 97941,
+      "relationType": "SPIN_OFF",
+      "malId": 99322,
+      "title": {
+        "romaji": "Qualidea Code: Doudemo Ii Sekai nante",
+        "english": null,
+        "native": "どうでもいい世界なんて －クオリディア・コード－",
+        "userPreferred": "Qualidea Code: Doudemo Ii Sekai nante"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx97941-6sqjU3o7VB6m.jpg",
+      "color": "#e4435d",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx97941-6sqjU3o7VB6m.jpg",
+      "rating": 84
+    },
+    {
+      "id": 93466,
+      "relationType": "SPIN_OFF",
+      "malId": 83877,
+      "title": {
+        "romaji": "Kuzu to Kinka no Qualidea",
+        "english": "Qualidea of Scum And a Gold Coin",
+        "native": "クズと金貨のクオリディア",
+        "userPreferred": "Kuzu to Kinka no Qualidea"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx93466-dPRzosOzom6Y.jpg",
+      "color": "#5dbbe4",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx93466-dPRzosOzom6Y.jpg",
+      "rating": 67
+    },
+    {
+      "id": 96149,
+      "relationType": "SPIN_OFF",
+      "malId": 93502,
+      "title": {
+        "romaji": "Qualidea Code: Sonna Sekai wa Kowashiteshimae",
+        "english": null,
+        "native": "そんな世界は壊してしまえ ―クオリディア・コード―",
+        "userPreferred": "Qualidea Code: Sonna Sekai wa Kowashiteshimae"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx96149-sM9PTlXndTm7.jpg",
+      "color": "#bb005d",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx96149-sM9PTlXndTm7.jpg",
+      "rating": 77
+    },
+    {
+      "id": 95446,
+      "relationType": "SPIN_OFF",
+      "malId": 91166,
+      "title": {
+        "romaji": "Qualidea Code: Itsuka Sekai wo Sukuu Tame ni",
+        "english": null,
+        "native": "いつか世界を救うために ―クオリディア・コード―",
+        "userPreferred": "Qualidea Code: Itsuka Sekai wo Sukuu Tame ni"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/95446-O2lBBGbsuCZ7.jpg",
+      "color": "#e4865d",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/95446-O2lBBGbsuCZ7.jpg",
+      "rating": 82
+    },
+    {
+      "id": 118566,
+      "relationType": "OTHER",
+      "malId": 35264,
+      "title": {
+        "romaji": "Gravity",
+        "english": null,
+        "native": "Gravity",
+        "userPreferred": "Gravity"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b118566-HFopq3w68sJJ.jpg",
+      "color": "#c9f1f1",
+      "type": "MUSIC",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b118566-HFopq3w68sJJ.jpg",
+      "rating": 50
+    }
+  ],
+  "episodes": [
+    {
+      "id": "qualidea-code-episode-1",
+      "title": "Surviving World Gloria",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21557-Z5r4cvbl9R6R.jpg",
+      "number": 1,
+      "createdAt": "2016-09-06T16:54:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//qualidea-code-episode-1"
+    },
+    {
+      "id": "qualidea-code-episode-2",
+      "title": "Deep Blue Caricature",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21557-Z5r4cvbl9R6R.jpg",
+      "number": 2,
+      "createdAt": "2016-09-06T16:54:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//qualidea-code-episode-2"
+    },
+    {
+      "id": "qualidea-code-episode-3",
+      "title": "Silent Aria",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21557-Z5r4cvbl9R6R.jpg",
+      "number": 3,
+      "createdAt": "2016-09-06T16:54:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//qualidea-code-episode-3"
+    },
+    {
+      "id": "qualidea-code-episode-4",
+      "title": "Canary in the Coal Mine",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21557-Z5r4cvbl9R6R.jpg",
+      "number": 4,
+      "createdAt": "2016-09-06T16:54:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//qualidea-code-episode-4"
+    },
+    {
+      "id": "qualidea-code-episode-5",
+      "title": "The Little Princess's Regalia",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21557-Z5r4cvbl9R6R.jpg",
+      "number": 5,
+      "createdAt": "2016-09-06T16:54:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//qualidea-code-episode-5"
+    },
+    {
+      "id": "qualidea-code-episode-6",
+      "title": "Memoria of Salvation",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21557-Z5r4cvbl9R6R.jpg",
+      "number": 6,
+      "createdAt": "2016-09-06T16:54:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//qualidea-code-episode-6"
+    },
+    {
+      "id": "qualidea-code-episode-7",
+      "title": "Rescue Paranoia",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21557-Z5r4cvbl9R6R.jpg",
+      "number": 7,
+      "createdAt": "2016-09-06T16:54:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//qualidea-code-episode-7"
+    },
+    {
+      "id": "qualidea-code-episode-8",
+      "title": "Inverse Qualia",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21557-Z5r4cvbl9R6R.jpg",
+      "number": 8,
+      "createdAt": "2016-09-06T16:54:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//qualidea-code-episode-8"
+    },
+    {
+      "id": "qualidea-code-episode-9",
+      "title": "Jailbreak Idea",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21557-Z5r4cvbl9R6R.jpg",
+      "number": 9,
+      "createdAt": "2016-09-06T16:54:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//qualidea-code-episode-9"
+    },
+    {
+      "id": "qualidea-code-episode-10",
+      "title": "Compound Note Folklore",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21557-Z5r4cvbl9R6R.jpg",
+      "number": 10,
+      "createdAt": "2016-09-06T16:54:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//qualidea-code-episode-10"
+    },
+    {
+      "id": "qualidea-code-episode-11",
+      "title": "Dipole Familia",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21557-Z5r4cvbl9R6R.jpg",
+      "number": 11,
+      "createdAt": "2016-09-06T16:54:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//qualidea-code-episode-11"
+    },
+    {
+      "id": "qualidea-code-episode-12",
+      "title": "Qualidea of the Radiant World",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21557-Z5r4cvbl9R6R.jpg",
+      "number": 12,
+      "createdAt": "2016-09-06T16:54:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//qualidea-code-episode-12"
+    }
+  ]
+}

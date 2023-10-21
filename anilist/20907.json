@@ -1,0 +1,414 @@
+{
+  "id": "20907",
+  "title": {
+    "romaji": "Steins;Gate: Soumei Eichi no Cognitive Computing",
+    "english": null,
+    "native": "Steins;Gate 聡明叡智のコグニティブ・コンピューティング"
+  },
+  "malId": 27957,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20907-Pl4YwH8RopKT.jpg",
+  "popularity": 24275,
+  "color": "#e4ae43",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20907-jnUr3Ud4bWXW.png",
+  "description": "Anime shorts created in collaboration with IBM.\n<br><br>\nEpisode 1: Cooking-hen\n<br>\nEpisode 2: Navigation-hen\n<br>\nEpisode 3: Fashion-hen\n<br>\nEpisode.4: Kaigi-hen\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2014,
+  "startDate": {
+    "year": 2014,
+    "month": 10,
+    "day": 14
+  },
+  "endDate": {
+    "year": 2014,
+    "month": 11,
+    "day": 11
+  },
+  "totalEpisodes": 4,
+  "currentEpisode": 4,
+  "rating": 71,
+  "duration": 4,
+  "genres": [
+    "Comedy",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "White Fox"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 10863,
+      "malId": 10863,
+      "title": {
+        "romaji": "Steins;Gate: Oukoubakko no Poriomania",
+        "english": "Steins;Gate: Egoistic Poriomania",
+        "native": "シュタインズ・ゲート 横行跋扈のポリオマニア",
+        "userPreferred": "Steins;Gate: Oukoubakko no Poriomania"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10863-V6oW2kN8bBYf.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10863-paT73FyJgPi3.jpg",
+      "rating": 80,
+      "type": "OVA"
+    },
+    {
+      "id": 140175,
+      "malId": 50105,
+      "title": {
+        "romaji": "Shiguang Zhaoxiangguan De Richang",
+        "english": "LINK CLICK (Shorts)",
+        "native": "时光照相馆的日常",
+        "userPreferred": "Shiguang Zhaoxiangguan De Richang"
+      },
+      "status": "Completed",
+      "episodes": 18,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140175-ALEehijVQois.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140175-ALEehijVQois.jpg",
+      "rating": 73,
+      "type": "ONA"
+    },
+    {
+      "id": 136484,
+      "malId": 49413,
+      "title": {
+        "romaji": "Shiguang Dailiren II",
+        "english": "Link Click Season 2",
+        "native": "时光代理人 第二季",
+        "userPreferred": "Shiguang Dailiren II"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136484-nBYX9HCItKjb.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/136484-LuB1Iz3U2rx5.jpg",
+      "rating": 87,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 89506,
+      "role": "MAIN",
+      "name": {
+        "first": "Upa",
+        "last": null,
+        "full": "Upa",
+        "native": "コグニティブコンピューティングシステム・うーぱ",
+        "userPreferred": "Upa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89506-dTT3eSBnB8Lw.jpg",
+      "voiceActors": [
+        {
+          "id": 107477,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayano",
+            "last": "Yamamoto",
+            "full": "Ayano Yamamoto",
+            "native": "山本彩乃",
+            "userPreferred": "Ayano Yamamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107477-ErLvIi8kYcDp.png"
+        }
+      ]
+    },
+    {
+      "id": 35258,
+      "role": "MAIN",
+      "name": {
+        "first": "Itaru",
+        "last": "Hashida",
+        "full": "Itaru Hashida",
+        "native": "橋田至",
+        "userPreferred": "Itaru Hashida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b35258-FeTGR4LEUNvt.png",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        }
+      ]
+    },
+    {
+      "id": 34470,
+      "role": "MAIN",
+      "name": {
+        "first": "Kurisu",
+        "last": "Makise",
+        "full": "Kurisu Makise",
+        "native": "牧瀬紅莉栖",
+        "userPreferred": "Kurisu Makise"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b34470-eFxpScPYCOUC.png",
+      "voiceActors": [
+        {
+          "id": 103662,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Imai",
+            "full": "Asami Imai",
+            "native": "今井麻美",
+            "userPreferred": "Asami Imai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103662-1gAPfy3TvPK8.png"
+        }
+      ]
+    },
+    {
+      "id": 35252,
+      "role": "MAIN",
+      "name": {
+        "first": "Rintarou",
+        "last": "Okabe",
+        "full": "Rintarou Okabe",
+        "native": "岡部倫太郎",
+        "userPreferred": "Rintarou Okabe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b35252-DY9TW6pusqeh.png",
+      "voiceActors": [
+        {
+          "id": 95065,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamoru",
+            "last": "Miyano",
+            "full": "Mamoru Miyano",
+            "native": "宮野真守",
+            "userPreferred": "Mamoru Miyano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95065-eyynywrhombR.png"
+        }
+      ]
+    },
+    {
+      "id": 35253,
+      "role": "MAIN",
+      "name": {
+        "first": "Mayuri",
+        "last": "Shiina",
+        "full": "Mayuri Shiina",
+        "native": "椎名まゆり",
+        "userPreferred": "Mayuri Shiina"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b35253-u6QVgLLyHq2W.png",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38559,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nae",
+        "last": "Tennouji",
+        "full": "Nae Tennouji",
+        "native": "天王寺綯",
+        "userPreferred": "Nae Tennouji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b38559-s2jG8GbHLdI2.png",
+      "voiceActors": [
+        {
+          "id": 107477,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayano",
+            "last": "Yamamoto",
+            "full": "Ayano Yamamoto",
+            "native": "山本彩乃",
+            "userPreferred": "Ayano Yamamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107477-ErLvIi8kYcDp.png"
+        }
+      ]
+    },
+    {
+      "id": 30919,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Luka",
+        "last": "Urushibara",
+        "full": "Luka Urushibara",
+        "native": "漆原るか",
+        "userPreferred": "Luka Urushibara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b30919-5PjiA4ucfuuJ.png",
+      "voiceActors": [
+        {
+          "id": 95034,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Kobayashi",
+            "full": "Yuu Kobayashi",
+            "native": "小林ゆう",
+            "userPreferred": "Yuu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95034-AwobjrcmkMi9.png"
+        }
+      ]
+    },
+    {
+      "id": 35256,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rumiho",
+        "last": "Akiha",
+        "full": "Rumiho Akiha",
+        "native": "秋葉留美穂",
+        "userPreferred": "Rumiho Akiha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b35256-A729dmHEgSYQ.png",
+      "voiceActors": [
+        {
+          "id": 95258,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruko",
+            "last": "Momoi",
+            "full": "Haruko Momoi",
+            "native": "桃井はるこ",
+            "userPreferred": "Haruko Momoi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95258-cTKT3ONucnZU.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35255,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Suzuha",
+        "last": "Amane",
+        "full": "Suzuha Amane",
+        "native": "阿万音鈴羽",
+        "userPreferred": "Suzuha Amane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b35255-Ra9Aq5Kn9lYq.png",
+      "voiceActors": [
+        {
+          "id": 95027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Tamura",
+            "full": "Yukari Tamura",
+            "native": "田村ゆかり",
+            "userPreferred": "Yukari Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38558,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuugo",
+        "last": "Tennouji",
+        "full": "Yuugo Tennouji",
+        "native": "天王寺裕吾",
+        "userPreferred": "Yuugo Tennouji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b38558-E4By0N5JXskJ.png",
+      "voiceActors": [
+        {
+          "id": 95563,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaki",
+            "last": "Terasoma",
+            "full": "Masaki Terasoma",
+            "native": "てらそままさき",
+            "userPreferred": "Masaki Terasoma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95563-tMN0xtsy1qyh.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 9253,
+      "relationType": "PARENT",
+      "malId": 9253,
+      "title": {
+        "romaji": "Steins;Gate",
+        "english": "Steins;Gate",
+        "native": "シュタインズ・ゲート",
+        "userPreferred": "Steins;Gate"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9253-7pdcVzQSkKxT.jpg",
+      "color": "#e4a15d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n9253-JIhmKgBKsWUN.jpg",
+      "rating": 89
+    }
+  ],
+  "episodes": [
+    {
+      "id": "steinsgate-soumei-eichi-no-cognitive-computing-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20907-Pl4YwH8RopKT.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//steinsgate-soumei-eichi-no-cognitive-computing-episode-1"
+    },
+    {
+      "id": "steinsgate-soumei-eichi-no-cognitive-computing-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20907-Pl4YwH8RopKT.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//steinsgate-soumei-eichi-no-cognitive-computing-episode-2"
+    },
+    {
+      "id": "steinsgate-soumei-eichi-no-cognitive-computing-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20907-Pl4YwH8RopKT.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//steinsgate-soumei-eichi-no-cognitive-computing-episode-3"
+    },
+    {
+      "id": "steinsgate-soumei-eichi-no-cognitive-computing-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20907-Pl4YwH8RopKT.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//steinsgate-soumei-eichi-no-cognitive-computing-episode-4"
+    }
+  ]
+}

@@ -1,0 +1,621 @@
+{
+  "id": "21655",
+  "title": {
+    "romaji": "Nyanbo!",
+    "english": "Nyanbo!",
+    "native": "にゃんぼー!"
+  },
+  "malId": 32805,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21655-yvHxPvZogNzp.png",
+  "popularity": 2015,
+  "color": "#e4d643",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21655-SYLOZDKdFaY6.jpg",
+  "description": "The \"Nyanbo\" are creatures with square bodies with ears and tails that came to Earth from outer space. There's Tora, who dreams of repairing their broken UFO and returning to space, as well as his sister Kotora, the precocious Shiro, the mischievous Mike, the mysterious Kuro, and many more. All of these Nyanbos are now happily living much like cats, free-spirited and sometimes getting into trouble, in places that humans don't know about.<br>\n<br>\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2016,
+  "startDate": {
+    "year": 2016,
+    "month": 9,
+    "day": 27
+  },
+  "endDate": {
+    "year": 2017,
+    "month": 3,
+    "day": 28
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 58,
+  "duration": 5,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Shirogumi"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 10197,
+      "malId": 10197,
+      "title": {
+        "romaji": "Nyanpire The Animation",
+        "english": "Nyanpire - The Vampire Cat",
+        "native": "にゃんぱいあ The Animation",
+        "userPreferred": "Nyanpire The Animation"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10197.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10197-eztzQQHap8UU.jpg",
+      "rating": 61,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 123474,
+      "malId": 41688,
+      "title": {
+        "romaji": "Toutotsu ni Egypt Shin",
+        "english": "Oh, Suddenly Egyptian God",
+        "native": "とーとつにエジプト神",
+        "userPreferred": "Toutotsu ni Egypt Shin"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx123474-goJkeXu38bhV.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx123474-goJkeXu38bhV.png",
+      "rating": 63,
+      "type": "ONA"
+    },
+    {
+      "id": 116700,
+      "malId": 40833,
+      "title": {
+        "romaji": "Inu to Neko Docchi mo Katteru to Mainichi Tanoshii",
+        "english": "With a Dog AND a Cat, Every Day is Fun",
+        "native": "犬と猫どっちも飼ってると毎日たのしい",
+        "userPreferred": "Inu to Neko Docchi mo Katteru to Mainichi Tanoshii"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116700-5BXjWj2zSx4S.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116700-VPHQyStAWi5m.jpg",
+      "rating": 69,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 18755,
+      "malId": 18755,
+      "title": {
+        "romaji": "Donyatsu",
+        "english": "Donyatsu",
+        "native": "どーにゃつ",
+        "userPreferred": "Donyatsu"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18755.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18755.jpg",
+      "rating": 53,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 6604,
+      "malId": 6604,
+      "title": {
+        "romaji": "Kuruneko",
+        "english": null,
+        "native": "くるねこ",
+        "userPreferred": "Kuruneko"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6604.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6604.jpg",
+      "rating": 65,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 6069,
+      "malId": 6069,
+      "title": {
+        "romaji": "Gregory Horror Show",
+        "english": "Gregory Horror Show",
+        "native": "グレゴリーホラーショー",
+        "userPreferred": "Gregory Horror Show"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6069.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6069.jpg",
+      "rating": 61,
+      "type": "TV_SHORT"
+    }
+  ],
+  "characters": [
+    {
+      "id": 150029,
+      "role": "MAIN",
+      "name": {
+        "first": "Shiro",
+        "last": null,
+        "full": "Shiro",
+        "native": "シロ",
+        "userPreferred": "Shiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b150029-bhSPZEncFcbr.jpg",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        },
+        {
+          "id": 116755,
+          "language": "Spanish",
+          "name": {
+            "first": "Angélica",
+            "last": "Villa",
+            "full": "Angélica Villa",
+            "native": "Angélica Villa Barrón",
+            "userPreferred": "Angélica Villa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116755-6V6pEog2goBj.png"
+        }
+      ]
+    },
+    {
+      "id": 150030,
+      "role": "MAIN",
+      "name": {
+        "first": "Kotora",
+        "last": null,
+        "full": "Kotora",
+        "native": "コトラ",
+        "userPreferred": "Kotora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b150030-Kd4OKXIJluwZ.jpg",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        },
+        {
+          "id": 182231,
+          "language": "Spanish",
+          "name": {
+            "first": "Erika",
+            "last": "Ugalde",
+            "full": "Erika Ugalde",
+            "native": "Erika Ugalde Cervantes",
+            "userPreferred": "Erika Ugalde"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182231-AXClncMZZahT.png"
+        }
+      ]
+    },
+    {
+      "id": 150031,
+      "role": "MAIN",
+      "name": {
+        "first": "Tora",
+        "last": null,
+        "full": "Tora",
+        "native": "トラ",
+        "userPreferred": "Tora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b150031-qlJGnmpjuNzW.jpg",
+      "voiceActors": [
+        {
+          "id": 95082,
+          "language": "Japanese",
+          "name": {
+            "first": "Romi",
+            "last": "Park",
+            "full": "Romi Park",
+            "native": "朴璐美",
+            "userPreferred": "Romi Park"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95082-pNGbnYv4cHAK.png"
+        },
+        {
+          "id": 182199,
+          "language": "Spanish",
+          "name": {
+            "first": "Alan Fernando",
+            "last": "Velázquez",
+            "full": "Alan Fernando Velázquez",
+            "native": null,
+            "userPreferred": "Alan Fernando Velázquez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182199-jQt3eVObCAfT.png"
+        }
+      ]
+    },
+    {
+      "id": 150033,
+      "role": "MAIN",
+      "name": {
+        "first": "Kuro",
+        "last": null,
+        "full": "Kuro",
+        "native": "クロ",
+        "userPreferred": "Kuro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b150033-zWc8bCY6V5Sl.jpg",
+      "voiceActors": [
+        {
+          "id": 95407,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Sanpei",
+            "full": "Yuuko Sanpei",
+            "native": "三瓶由布子",
+            "userPreferred": "Yuuko Sanpei"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95407-u8MV6kcAJNV6.png"
+        },
+        {
+          "id": 181979,
+          "language": "Spanish",
+          "name": {
+            "first": "Javier",
+            "last": "Olguín",
+            "full": "Javier Olguín",
+            "native": null,
+            "userPreferred": "Javier Olguín"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n181979-5mjIa06q28A5.png"
+        }
+      ]
+    },
+    {
+      "id": 150032,
+      "role": "MAIN",
+      "name": {
+        "first": "Mike",
+        "last": null,
+        "full": "Mike",
+        "native": "ミケ",
+        "userPreferred": "Mike"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b150032-W7G1mqPz6WYd.jpg",
+      "voiceActors": [
+        {
+          "id": 95015,
+          "language": "Japanese",
+          "name": {
+            "first": "Junko",
+            "last": "Takeuchi",
+            "full": "Junko Takeuchi",
+            "native": "竹内順子",
+            "userPreferred": "Junko Takeuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95015-QwI9K4FRe4Cq.png"
+        },
+        {
+          "id": 202569,
+          "language": "Spanish",
+          "name": {
+            "first": "Iván",
+            "last": "Bastidas",
+            "full": "Iván Bastidas",
+            "native": null,
+            "userPreferred": "Iván Bastidas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n202569-WTGrcuQyL0xA.png"
+        }
+      ]
+    },
+    {
+      "id": 150039,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kutsushiku",
+        "last": null,
+        "full": "Kutsushiku",
+        "native": "クツシク",
+        "userPreferred": "Kutsushiku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b150039-7oeliLAkHfn0.jpg",
+      "voiceActors": [
+        {
+          "id": 150041,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Kameyama",
+            "full": "Yuuji Kameyama",
+            "native": "亀山雄慈",
+            "userPreferred": "Yuuji Kameyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n150041-uQgmPNl105rx.jpg"
+        },
+        {
+          "id": 202568,
+          "language": "Spanish",
+          "name": {
+            "first": "Juan José",
+            "last": "Hernández",
+            "full": "Juan José Hernández",
+            "native": null,
+            "userPreferred": "Juan José Hernández"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n202568-zslqW0Vl5S7T.png"
+        }
+      ]
+    },
+    {
+      "id": 150034,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shirokuro",
+        "last": null,
+        "full": "Shirokuro",
+        "native": "シロクロ",
+        "userPreferred": "Shirokuro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b150034-YAA3sVVVloV0.jpg",
+      "voiceActors": [
+        {
+          "id": 150040,
+          "language": "Japanese",
+          "name": {
+            "first": "Kiyohiro",
+            "last": "Yamaguchi",
+            "full": "Kiyohiro Yamaguchi",
+            "native": "山口キヨヒロ",
+            "userPreferred": "Kiyohiro Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n150040-6bVJrQPI0m0k.jpg"
+        },
+        {
+          "id": 208632,
+          "language": "Spanish",
+          "name": {
+            "first": "Edgar",
+            "last": "Luna",
+            "full": "Edgar Luna",
+            "native": null,
+            "userPreferred": "Edgar Luna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n208632-Xj1yprwSHs03.png"
+        }
+      ]
+    },
+    {
+      "id": 150038,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Alpha",
+        "last": null,
+        "full": "Alpha",
+        "native": "アルファ",
+        "userPreferred": "Alpha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b150038-4rbMhqvTQ4Il.jpg",
+      "voiceActors": [
+        {
+          "id": 105273,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichirou",
+            "last": "Matsuda",
+            "full": "Kenichirou Matsuda",
+            "native": "松田健一郎",
+            "userPreferred": "Kenichirou Matsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105273-asextl049B2s.png"
+        },
+        {
+          "id": 184305,
+          "language": "Spanish",
+          "name": {
+            "first": "Santos",
+            "last": "Alberto",
+            "full": "Santos Alberto",
+            "native": null,
+            "userPreferred": "Santos Alberto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n184305-478AOovBImYa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 150035,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sabatora",
+        "last": null,
+        "full": "Sabatora",
+        "native": "サバトラ",
+        "userPreferred": "Sabatora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b150035-f0ZuJ9X7bkWW.jpg",
+      "voiceActors": [
+        {
+          "id": 115106,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayaka",
+            "last": "Suwa",
+            "full": "Ayaka Suwa",
+            "native": "諏訪彩花",
+            "userPreferred": "Ayaka Suwa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115106-QsQwmOLeNILr.png"
+        },
+        {
+          "id": 129793,
+          "language": "Spanish",
+          "name": {
+            "first": "Betzabé",
+            "last": "Jara",
+            "full": "Betzabé Jara",
+            "native": null,
+            "userPreferred": "Betzabé Jara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129793-y84cKVCwce6q.png"
+        }
+      ]
+    },
+    {
+      "id": 150037,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kijitora",
+        "last": null,
+        "full": "Kijitora",
+        "native": "キジトラ",
+        "userPreferred": "Kijitora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b150037-RN1rx5wqhgHB.jpg",
+      "voiceActors": [
+        {
+          "id": 102337,
+          "language": "Japanese",
+          "name": {
+            "first": "Sachika",
+            "last": "Misawa",
+            "full": "Sachika Misawa",
+            "native": "三澤紗千香",
+            "userPreferred": "Sachika Misawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102337-iHJMCOTE1eVT.jpg"
+        },
+        {
+          "id": 218134,
+          "language": "Spanish",
+          "name": {
+            "first": "María José",
+            "last": "Guerrero",
+            "full": "María José Guerrero",
+            "native": null,
+            "userPreferred": "María José Guerrero"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n218134-zIAqskicIqGT.png"
+        }
+      ]
+    },
+    {
+      "id": 150036,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hachiware",
+        "last": null,
+        "full": "Hachiware",
+        "native": "ハチワレ",
+        "userPreferred": "Hachiware"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b150036-4N10hLIIJmOy.jpg",
+      "voiceActors": [
+        {
+          "id": 100395,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazutoshi",
+            "last": "Hatano",
+            "full": "Kazutoshi Hatano",
+            "native": "波多野和俊",
+            "userPreferred": "Kazutoshi Hatano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100395-9pRSL71WnnlU.png"
+        },
+        {
+          "id": 205486,
+          "language": "Spanish",
+          "name": {
+            "first": "Ignacio",
+            "last": "Córdoba",
+            "full": "Ignacio Córdoba",
+            "native": null,
+            "userPreferred": "Ignacio Córdoba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n205486-XhA1WNlohAq4.png"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 119477,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinnosuke",
+            "last": "Mitsushima",
+            "full": "Shinnosuke Mitsushima",
+            "native": "満島真之介",
+            "userPreferred": "Shinnosuke Mitsushima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/24477-4YlG2lNdgDS0.jpg"
+        },
+        {
+          "id": 182216,
+          "language": "Spanish",
+          "name": {
+            "first": "Miguel Ángel",
+            "last": "Leal ",
+            "full": "Miguel Ángel Leal ",
+            "native": null,
+            "userPreferred": "Miguel Ángel Leal "
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182216-NYnHyG9gPhEw.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 30104,
+      "relationType": "PARENT",
+      "malId": 104,
+      "title": {
+        "romaji": "Yotsuba to!",
+        "english": "Yotsuba&!",
+        "native": "よつばと！",
+        "userPreferred": "Yotsuba to!"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30104-Qv5SLPFRRAqJ.jpg",
+      "color": "#e4ae5d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/30104-CDra9ye7UPGI.jpg",
+      "rating": 88
+    }
+  ],
+  "episodes": []
+}

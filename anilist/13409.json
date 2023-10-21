@@ -1,0 +1,647 @@
+{
+  "id": "13409",
+  "title": {
+    "romaji": "Moyashimon Returns",
+    "english": null,
+    "native": "もやしもん リターンズ"
+  },
+  "malId": 13409,
+  "synonyms": [
+    "Moyashimon Returns: Tales of Agriculture",
+    "Moyasimon Returns"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13409.jpg",
+  "popularity": 4721,
+  "color": "#d6931a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13409.jpg",
+  "description": "In the second season the story continues exactly where it left off previously. Professor Itsuki's Fermentation Cellar and laboratory is ready for operation and with Sawaki Tadayasu's unique gift to see and communicate with microbes to help, Itsuki's motley group of students begin to process different fermented products like soy sauce and sake.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2012,
+  "startDate": {
+    "year": 2012,
+    "month": 7,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2012,
+    "month": 9,
+    "day": 14
+  },
+  "totalEpisodes": 11,
+  "currentEpisode": 11,
+  "rating": 69,
+  "duration": 23,
+  "genres": [
+    "Comedy",
+    "Supernatural"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Telecom Animation Film",
+    "Shirogumi"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 16918,
+      "malId": 16918,
+      "title": {
+        "romaji": "Gin no Saji",
+        "english": "Silver Spoon",
+        "native": "銀の匙",
+        "userPreferred": "Gin no Saji"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16918-6setSTR2Rfus.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16918-c2JbTcNvQpor.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 18095,
+      "malId": 18095,
+      "title": {
+        "romaji": "Nourin",
+        "english": "No-Rin",
+        "native": "のうりん",
+        "userPreferred": "Nourin"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18095-kX8R704uIqDo.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18095-jpbVsYZQqzH6.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 19363,
+      "malId": 19363,
+      "title": {
+        "romaji": "Gin no Saji 2",
+        "english": "Silver Spoon Season 2",
+        "native": "銀の匙 2",
+        "userPreferred": "Gin no Saji 2"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19363-7DZw204Dlzw1.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/19363-eeJhfaZ65SFf.jpg",
+      "rating": 81,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 5685,
+      "role": "MAIN",
+      "name": {
+        "first": "Tadayasu",
+        "last": "Sawaki",
+        "full": "Tadayasu Sawaki",
+        "native": "沢木直保",
+        "userPreferred": "Tadayasu Sawaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5685-45LOK93BXXXy.png",
+      "voiceActors": [
+        {
+          "id": 95278,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Sakaguchi",
+            "full": "Daisuke Sakaguchi",
+            "native": "阪口大助",
+            "userPreferred": "Daisuke Sakaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95278-IrUPhIvJCsF9.png"
+        }
+      ]
+    },
+    {
+      "id": 5825,
+      "role": "MAIN",
+      "name": {
+        "first": "Haruka",
+        "last": "Hasegawa",
+        "full": "Haruka Hasegawa",
+        "native": "長谷川遥",
+        "userPreferred": "Haruka Hasegawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5825-HWGGAqZHgu5y.png",
+      "voiceActors": [
+        {
+          "id": 95092,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Oohara",
+            "full": "Sayaka Oohara",
+            "native": "大原さやか",
+            "userPreferred": "Sayaka Oohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95092-dQXsTFQXLg3o.png"
+        }
+      ]
+    },
+    {
+      "id": 5824,
+      "role": "MAIN",
+      "name": {
+        "first": "Keizou",
+        "last": "Itsuki",
+        "full": "Keizou Itsuki",
+        "native": "樹慶蔵",
+        "userPreferred": "Keizou Itsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5824-tc9csYoRAIeq.png",
+      "voiceActors": [
+        {
+          "id": 101175,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomomichi",
+            "last": "Nishimura",
+            "full": "Tomomichi Nishimura",
+            "native": "西村知道",
+            "userPreferred": "Tomomichi Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6175.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6129,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takuma",
+        "last": "Kawahama",
+        "full": "Takuma Kawahama",
+        "native": "川浜拓馬",
+        "userPreferred": "Takuma Kawahama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6129-2lf582MTOkoI.png",
+      "voiceActors": [
+        {
+          "id": 95016,
+          "language": "Japanese",
+          "name": {
+            "first": "Noriaki",
+            "last": "Sugiyama",
+            "full": "Noriaki Sugiyama",
+            "native": "杉山紀彰",
+            "userPreferred": "Noriaki Sugiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95016-03m7lAUZBMDv.png"
+        }
+      ]
+    },
+    {
+      "id": 71477,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryuuta",
+        "last": null,
+        "full": "Ryuuta",
+        "native": "龍太",
+        "userPreferred": "Ryuuta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b71477-UBIOj92suHH0.png",
+      "voiceActors": [
+        {
+          "id": 95243,
+          "language": "Japanese",
+          "name": {
+            "first": "Tooru",
+            "last": "Ookawa",
+            "full": "Tooru Ookawa",
+            "native": "大川透",
+            "userPreferred": "Tooru Ookawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95243-zhk18RRqSAmx.png"
+        }
+      ]
+    },
+    {
+      "id": 71475,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Father",
+        "last": "Hasegawa",
+        "full": "Father Hasegawa",
+        "native": "長谷川の父",
+        "userPreferred": "Father Hasegawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b71475-m98ZIlvrPMqz.png",
+      "voiceActors": [
+        {
+          "id": 95018,
+          "language": "Japanese",
+          "name": {
+            "first": "Hidekatsu",
+            "last": "Shibata",
+            "full": "Hidekatsu Shibata",
+            "native": "柴田秀勝",
+            "userPreferred": "Hidekatsu Shibata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95018-HXJMMED74SVO.png"
+        }
+      ]
+    },
+    {
+      "id": 66485,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tomoharu",
+        "last": "Hiyoshi",
+        "full": "Tomoharu Hiyoshi",
+        "native": "日吉友春",
+        "userPreferred": "Tomoharu Hiyoshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b66485-VPrDBBJqKXOS.png",
+      "voiceActors": [
+        {
+          "id": 95245,
+          "language": "Japanese",
+          "name": {
+            "first": "Satoshi",
+            "last": "Hino",
+            "full": "Satoshi Hino",
+            "native": "日野聡",
+            "userPreferred": "Satoshi Hino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95245-prBoWpg0HaGX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6128,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaoru",
+        "last": "Misato",
+        "full": "Kaoru Misato",
+        "native": "美里薫",
+        "userPreferred": "Kaoru Misato"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6128-i39achVpr3CN.png",
+      "voiceActors": [
+        {
+          "id": 95020,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsuyuki",
+            "last": "Konishi",
+            "full": "Katsuyuki Konishi",
+            "native": "小西克幸",
+            "userPreferred": "Katsuyuki Konishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95020-uOJO2IlwpcX0.png"
+        }
+      ]
+    },
+    {
+      "id": 6976,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aoi",
+        "last": "Mutou",
+        "full": "Aoi Mutou",
+        "native": "武藤葵",
+        "userPreferred": "Aoi Mutou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6976-7tXatInpmkeA.png",
+      "voiceActors": [
+        {
+          "id": 95040,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamiko",
+            "last": "Noto",
+            "full": "Mamiko Noto",
+            "native": "能登麻美子",
+            "userPreferred": "Mamiko Noto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95040-CskhFn4LiOti.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6126,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aspergillus oryzae",
+        "last": null,
+        "full": "Aspergillus oryzae",
+        "native": "アスペルギルス・オリザエ",
+        "userPreferred": "Aspergillus oryzae"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6126.jpg",
+      "voiceActors": [
+        {
+          "id": 95435,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Touma",
+            "full": "Yumi Touma",
+            "native": "冬馬由美",
+            "userPreferred": "Yumi Touma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95435-REiTyMQqIfH4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6978,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aya",
+        "last": "Hirooka",
+        "full": "Aya Hirooka",
+        "native": "宏岡亜矢",
+        "userPreferred": "Aya Hirooka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6978-Pcj2tEecx86G.png",
+      "voiceActors": [
+        {
+          "id": 95584,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiaki",
+            "last": "Takahashi",
+            "full": "Chiaki Takahashi",
+            "native": "たかはし智秋",
+            "userPreferred": "Chiaki Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95584-TgaiagGVcsSp.jpg"
+        }
+      ]
+    },
+    {
+      "id": 68521,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Marie",
+        "last": null,
+        "full": "Marie",
+        "native": "マリー",
+        "userPreferred": "Marie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b68521-R6zJKUOS35sp.png",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5823,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kei",
+        "last": "Yuuki",
+        "full": "Kei Yuuki",
+        "native": "結城蛍",
+        "userPreferred": "Kei Yuuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5823-QP7MMjEUjxQh.png",
+      "voiceActors": [
+        {
+          "id": 95197,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuki",
+            "last": "Saiga",
+            "full": "Mitsuki Saiga",
+            "native": "斎賀みつき",
+            "userPreferred": "Mitsuki Saiga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95197-gcTFdBK9oPtY.png"
+        }
+      ]
+    },
+    {
+      "id": 66483,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kikuchi",
+        "last": "Hiyoshi",
+        "full": "Kikuchi Hiyoshi",
+        "native": "日吉菊二",
+        "userPreferred": "Kikuchi Hiyoshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b66483-npXn3QoDQDyQ.png",
+      "voiceActors": [
+        {
+          "id": 101455,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuzuru",
+            "last": "Fujimoto",
+            "full": "Yuzuru Fujimoto",
+            "native": "藤本譲",
+            "userPreferred": "Yuzuru Fujimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6455.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6135,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hazuki",
+        "last": "Oikawa",
+        "full": "Hazuki Oikawa",
+        "native": "及川葉月",
+        "userPreferred": "Hazuki Oikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6135-OOtGVgMKKaWY.png",
+      "voiceActors": [
+        {
+          "id": 95239,
+          "language": "Japanese",
+          "name": {
+            "first": "Akemi",
+            "last": "Kanda",
+            "full": "Akemi Kanda",
+            "native": "神田朱未",
+            "userPreferred": "Akemi Kanda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/239.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 3001,
+      "relationType": "PREQUEL",
+      "malId": 3001,
+      "title": {
+        "romaji": "Moyashimon",
+        "english": null,
+        "native": "もやしもん",
+        "userPreferred": "Moyashimon"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3001-MhrRs4v3tCPs.png",
+      "color": "#e4bb35",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3001-xsTcQO6yqoxP.jpg",
+      "rating": 72
+    },
+    {
+      "id": 32970,
+      "relationType": "ADAPTATION",
+      "malId": 2970,
+      "title": {
+        "romaji": "Moyashimon",
+        "english": "Moyasimon: Tales of Agriculture",
+        "native": "もやしもん",
+        "userPreferred": "Moyashimon"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx32970-w7N6zirKS7Ql.jpg",
+      "color": "#f1a11a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/32970-Q1Oszub9AQiP.jpg",
+      "rating": 73
+    },
+    {
+      "id": 104480,
+      "relationType": "PARENT",
+      "malId": 31568,
+      "title": {
+        "romaji": "Wake Up",
+        "english": null,
+        "native": "Wake Up",
+        "userPreferred": "Wake Up"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx104480-JMYCPWM6ygTK.jpg",
+      "color": "#fff186",
+      "type": "MUSIC",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx104480-JMYCPWM6ygTK.jpg",
+      "rating": 52
+    }
+  ],
+  "episodes": [
+    {
+      "id": "moyashimon-returns-episode-1",
+      "title": "The Moyashi Gang Rises",
+      "image": "https://media.kitsu.io/episodes/thumbnails/100509/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:29:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//moyashimon-returns-episode-1"
+    },
+    {
+      "id": "moyashimon-returns-episode-2",
+      "title": "The Fermenting Cellar",
+      "image": "https://media.kitsu.io/episodes/thumbnails/100510/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:29:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//moyashimon-returns-episode-2"
+    },
+    {
+      "id": "moyashimon-returns-episode-3",
+      "title": "Team Oikawa",
+      "image": "https://media.kitsu.io/episodes/thumbnails/100511/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:29:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//moyashimon-returns-episode-3"
+    },
+    {
+      "id": "moyashimon-returns-episode-4",
+      "title": "An Autumn of Change",
+      "image": "https://media.kitsu.io/episodes/thumbnails/100512/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:29:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//moyashimon-returns-episode-4"
+    },
+    {
+      "id": "moyashimon-returns-episode-5",
+      "title": "The Harvest Festival",
+      "image": "https://media.kitsu.io/episodes/thumbnails/100513/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:29:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//moyashimon-returns-episode-5"
+    },
+    {
+      "id": "moyashimon-returns-episode-6",
+      "title": "Teamwork",
+      "image": "https://media.kitsu.io/episodes/thumbnails/100514/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:29:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//moyashimon-returns-episode-6"
+    },
+    {
+      "id": "moyashimon-returns-episode-7",
+      "title": "Bird in a Cage",
+      "image": "https://media.kitsu.io/episodes/thumbnails/100515/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:29:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//moyashimon-returns-episode-7"
+    },
+    {
+      "id": "moyashimon-returns-episode-8",
+      "title": "Mariage",
+      "image": "https://media.kitsu.io/episodes/thumbnails/100516/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:29:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//moyashimon-returns-episode-8"
+    },
+    {
+      "id": "moyashimon-returns-episode-9",
+      "title": "On the Route des Grand Crus",
+      "image": "https://media.kitsu.io/episodes/thumbnails/100517/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:29:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//moyashimon-returns-episode-9"
+    },
+    {
+      "id": "moyashimon-returns-episode-10",
+      "title": "Misunderstandings",
+      "image": "https://media.kitsu.io/episodes/thumbnails/100518/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:29:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//moyashimon-returns-episode-10"
+    },
+    {
+      "id": "moyashimon-returns-episode-11",
+      "title": "We're Home",
+      "image": "https://media.kitsu.io/episodes/thumbnails/100519/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:29:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//moyashimon-returns-episode-11"
+    }
+  ]
+}

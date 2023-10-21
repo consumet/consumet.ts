@@ -1,0 +1,931 @@
+{
+  "id": "6774",
+  "title": {
+    "romaji": "Kuuchuu Buranko",
+    "english": "Welcome to Irabu's Office",
+    "native": "空中ブランコ"
+  },
+  "malId": 6774,
+  "synonyms": [
+    "Kuchu Buranko",
+    "Trapeze",
+    "Flying Trapeze"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6774-9yybYg3VePJU.png",
+  "popularity": 21092,
+  "color": "#f15dae",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6774-qsd4lXiBryY0.jpg",
+  "description": "Many patients with different problems visit the psychiatric ward of Irabu General Hospital; a trapeze artist suffering from insomnia after suddenly failing his jumps, a gangster afraid of knives and sharp objects and a business man who has an erection 24 hours a day. They undergo counseling by Dr. Ichiro Irabu, who is the child-like son of the hospital director. His assistant is the sullen faced sexy nurse Mayumi. With his mysterious injections, and advice that does not make sense, Dr. Irabu confuses his patients. But at the end of his unique treatments, the patients are lead to digging further into their souls to find peace of mind.<br><br>\n(Source: fujicreative.co.jp)",
+  "status": "Completed",
+  "releaseDate": 2009,
+  "startDate": {
+    "year": 2009,
+    "month": 10,
+    "day": 15
+  },
+  "endDate": {
+    "year": 2009,
+    "month": 12,
+    "day": 24
+  },
+  "totalEpisodes": 11,
+  "currentEpisode": 11,
+  "rating": 76,
+  "duration": 25,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Psychological"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 16201,
+      "malId": 16201,
+      "title": {
+        "romaji": "Aku no Hana",
+        "english": "Flowers of Evil",
+        "native": "惡の華",
+        "userPreferred": "Aku no Hana"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16201-CmzFug6RUp8B.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16201-64JGqbNltJhq.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 2246,
+      "malId": 2246,
+      "title": {
+        "romaji": "Mononoke",
+        "english": "Mononoke",
+        "native": "モノノ怪",
+        "userPreferred": "Mononoke"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2246-WHkSkgyuxfgD.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2246-8DKsjLTMEFJq.png",
+      "rating": 81,
+      "type": "TV"
+    },
+    {
+      "id": 7785,
+      "malId": 7785,
+      "title": {
+        "romaji": "Yojouhan Shinwa Taikei",
+        "english": "The Tatami Galaxy",
+        "native": "四畳半神話大系",
+        "userPreferred": "Yojouhan Shinwa Taikei"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx7785-TMqYIFkWDCgy.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7785.jpg",
+      "rating": 85,
+      "type": "TV"
+    },
+    {
+      "id": 1210,
+      "malId": 1210,
+      "title": {
+        "romaji": "NHK ni Youkoso!",
+        "english": "Welcome to the N-H-K",
+        "native": "N・H・Kにようこそ！",
+        "userPreferred": "NHK ni Youkoso!"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1210-spaA00zoDoqr.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1210-3HzGH3tahHmC.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 323,
+      "malId": 323,
+      "title": {
+        "romaji": "Mousou Dairinin",
+        "english": "Paranoia Agent",
+        "native": "妄想代理人",
+        "userPreferred": "Mousou Dairinin"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx323-CxrgvoTwF7oe.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/323-tQCOVrhiRgeU.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 20901,
+      "malId": 27911,
+      "title": {
+        "romaji": "Anime de Wakaru Shinryounaika",
+        "english": "Comical Psychosomatic Medicine",
+        "native": "アニメで分かる心療内科",
+        "userPreferred": "Anime de Wakaru Shinryounaika"
+      },
+      "status": "Completed",
+      "episodes": 20,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20901-7ZLhoiHpdU6p.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20901-7ZLhoiHpdU6p.jpg",
+      "rating": 61,
+      "type": "ONA"
+    },
+    {
+      "id": 2605,
+      "malId": 2605,
+      "title": {
+        "romaji": "Sayonara Zetsubou Sensei",
+        "english": "Sayonara, Zetsubou-Sensei",
+        "native": "さよなら絶望先生",
+        "userPreferred": "Sayonara Zetsubou Sensei"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2605-euXOWMmXtZMe.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2605.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 3701,
+      "malId": 3701,
+      "title": {
+        "romaji": "Kaiba",
+        "english": "Kaiba",
+        "native": "カイバ",
+        "userPreferred": "Kaiba"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3701-IKmPkBHPIukF.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3701-8mD0yBstxxuX.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 875,
+      "malId": 875,
+      "title": {
+        "romaji": "Mind Game",
+        "english": "Mind Game",
+        "native": "マインド・ゲーム",
+        "userPreferred": "Mind Game"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx875-kvQVUKDPcAKl.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/875-yXbiRS7ayxlG.jpg",
+      "rating": 75,
+      "type": "MOVIE"
+    },
+    {
+      "id": 369,
+      "malId": 369,
+      "title": {
+        "romaji": "Boogiepop wa Warawanai: Boogiepop Phantom",
+        "english": "Boogiepop Phantom",
+        "native": "ブギーポップは笑わない Boogiepop Phantom",
+        "userPreferred": "Boogiepop wa Warawanai: Boogiepop Phantom"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx369-Wb0q6vVlgPjz.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/369-qdcR0yzZC0AX.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 123779,
+      "malId": 42822,
+      "title": {
+        "romaji": "Kai Byoui Ramune",
+        "english": "Dr. Ramune -Mysterious Disease Specialist-",
+        "native": "怪病医ラムネ",
+        "userPreferred": "Kai Byoui Ramune"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx123779-AbSom3C7nPQn.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/123779-Ck1nQb0mZ8zJ.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 10721,
+      "malId": 10721,
+      "title": {
+        "romaji": "Mawaru Penguindrum",
+        "english": "Penguindrum",
+        "native": "輪るピングドラム",
+        "userPreferred": "Mawaru Penguindrum"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx10721-2QWmrqbmyYil.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10721-tN8SLwirGDAB.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 8795,
+      "malId": 8795,
+      "title": {
+        "romaji": "Panty & Stocking with Garterbelt",
+        "english": "Panty & Stocking with Garterbelt",
+        "native": "パンティ＆ストッキングwithガーターベルト",
+        "userPreferred": "Panty & Stocking with Garterbelt"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8795-lB0XvcH8ztx9.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n8795-vh12igcBvV5G.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 1943,
+      "malId": 1943,
+      "title": {
+        "romaji": "Paprika",
+        "english": "Paprika",
+        "native": "パプリカ",
+        "userPreferred": "Paprika"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1943-YyEsHWhYKukN.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1943.jpg",
+      "rating": 78,
+      "type": "MOVIE"
+    },
+    {
+      "id": 124845,
+      "malId": 43299,
+      "title": {
+        "romaji": "Wonder Egg Priority",
+        "english": "WONDER EGG PRIORITY",
+        "native": "ワンダーエッグ・プライオリティ",
+        "userPreferred": "Wonder Egg Priority"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124845-sD8ZA0RGLRWT.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/124845-uw8Fiw3kWtbj.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 128547,
+      "malId": 46102,
+      "title": {
+        "romaji": "Odd Taxi",
+        "english": "ODDTAXI",
+        "native": "オッドタクシー",
+        "userPreferred": "Odd Taxi"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128547-TWRVIu5zRTYx.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/128547-aVWJmZz9dwJJ.jpg",
+      "rating": 86,
+      "type": "TV"
+    },
+    {
+      "id": 18229,
+      "malId": 18229,
+      "title": {
+        "romaji": "Gatchaman Crowds",
+        "english": null,
+        "native": "ガッチャマン クラウズ",
+        "userPreferred": "Gatchaman Crowds"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18229-KanFYQps8XGS.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18229-5lFOkRtqPu46.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 134120,
+      "malId": 49066,
+      "title": {
+        "romaji": "Artiswitch",
+        "english": "Artiswitch",
+        "native": "Artiswitch",
+        "userPreferred": "Artiswitch"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx134120-KvcC6jMnAWSb.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/134120-UH2csuBZnAMY.jpg",
+      "rating": 70,
+      "type": "ONA"
+    },
+    {
+      "id": 3077,
+      "malId": 3077,
+      "title": {
+        "romaji": "Warau Salesman",
+        "english": "Laughing Salesman",
+        "native": "笑ゥせぇるすまん",
+        "userPreferred": "Warau Salesman"
+      },
+      "status": "Completed",
+      "episodes": 104,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3077-r93tm0fXWl46.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3077-r93tm0fXWl46.jpg",
+      "rating": 65,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 98239,
+      "malId": 34550,
+      "title": {
+        "romaji": "Warau Salesman New",
+        "english": "The Laughing Salesman",
+        "native": "笑ゥせぇるすまんNew",
+        "userPreferred": "Warau Salesman New"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98239-TfA5HDdAciC6.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98239-H0axcO42rZrW.jpg",
+      "rating": 57,
+      "type": "TV"
+    },
+    {
+      "id": 7647,
+      "malId": 7647,
+      "title": {
+        "romaji": "Arakawa Under the Bridge",
+        "english": "Arakawa Under the Bridge",
+        "native": "荒川アンダー ザ ブリッジ",
+        "userPreferred": "Arakawa Under the Bridge"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7647-IRs5Yo8pAOFw.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7647-sq4QqwtIjEF1.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 339,
+      "malId": 339,
+      "title": {
+        "romaji": "serial experiments lain",
+        "english": "Serial Experiments Lain",
+        "native": "serial experiments lain",
+        "userPreferred": "serial experiments lain"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx339-4438BQupScYO.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/339-Lh0tuuwRLRgI.jpg",
+      "rating": 80,
+      "type": "TV"
+    },
+    {
+      "id": 919,
+      "malId": 919,
+      "title": {
+        "romaji": "RAY THE ANIMATION",
+        "english": "Ray",
+        "native": "RAY THE ANIMATION",
+        "userPreferred": "RAY THE ANIMATION"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx919-5xFFHNsIkDsa.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx919-5xFFHNsIkDsa.jpg",
+      "rating": 61,
+      "type": "TV"
+    },
+    {
+      "id": 111323,
+      "malId": 40358,
+      "title": {
+        "romaji": "Gal to Kyouryuu",
+        "english": "Gal & Dino",
+        "native": "ギャルと恐竜",
+        "userPreferred": "Gal to Kyouryuu"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111323-quqYgAchD9PM.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111323-6VubjN9ROpKb.jpg",
+      "rating": 60,
+      "type": "TV"
+    },
+    {
+      "id": 154545,
+      "malId": 53012,
+      "title": {
+        "romaji": "Human Bug Daigaku",
+        "english": "The Human Crazy University",
+        "native": "ヒューマンバグ大学",
+        "userPreferred": "Human Bug Daigaku"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154545-V8HOiDY7keu0.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154545-V8HOiDY7keu0.jpg",
+      "rating": 62,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 26119,
+      "role": "MAIN",
+      "name": {
+        "first": "Ichiro",
+        "last": "Irabu",
+        "full": "Ichiro Irabu",
+        "native": "伊良部 一郎",
+        "userPreferred": "Ichiro Irabu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b26119-JEHVkystN92K.jpg",
+      "voiceActors": [
+        {
+          "id": 95082,
+          "language": "Japanese",
+          "name": {
+            "first": "Romi",
+            "last": "Park",
+            "full": "Romi Park",
+            "native": "朴璐美",
+            "userPreferred": "Romi Park"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95082-pNGbnYv4cHAK.png"
+        },
+        {
+          "id": 95874,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Mitsuya",
+            "full": "Yuuji Mitsuya",
+            "native": "三ツ矢雄二",
+            "userPreferred": "Yuuji Mitsuya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95874-grd6XzrNhfoP.png"
+        }
+      ]
+    },
+    {
+      "id": 26118,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouhei",
+        "last": "Yamashita",
+        "full": "Kouhei Yamashita",
+        "native": "山下 公平",
+        "userPreferred": "Kouhei Yamashita"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26118.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 27820,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tatsurou",
+        "last": "Ikeyama",
+        "full": "Tatsurou Ikeyama",
+        "native": "池山達郎",
+        "userPreferred": "Tatsurou Ikeyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27820.jpg",
+      "voiceActors": [
+        {
+          "id": 95125,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroaki",
+            "last": "Hirata",
+            "full": "Hiroaki Hirata",
+            "native": "平田広明",
+            "userPreferred": "Hiroaki Hirata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95125-NeFFiJupoDVj.png"
+        }
+      ]
+    },
+    {
+      "id": 27354,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Junichi",
+        "last": "Hoshiyama",
+        "full": "Junichi Hoshiyama",
+        "native": null,
+        "userPreferred": "Junichi Hoshiyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27354.jpg",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        }
+      ]
+    },
+    {
+      "id": 28751,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mitsuo",
+        "last": "Tanabe",
+        "full": "Mitsuo Tanabe",
+        "native": "田辺満男",
+        "userPreferred": "Mitsuo Tanabe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28751.jpg",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        }
+      ]
+    },
+    {
+      "id": 28211,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Seiji",
+        "last": "Ino",
+        "full": "Seiji Ino",
+        "native": "猪野誠司",
+        "userPreferred": "Seiji Ino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28211.jpg",
+      "voiceActors": [
+        {
+          "id": 95064,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Takahashi",
+            "full": "Hiroki Takahashi",
+            "native": "高橋広樹",
+            "userPreferred": "Hiroki Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95064-p83l3UvfQ6n6.png"
+        }
+      ]
+    },
+    {
+      "id": 28932,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eiyu",
+        "last": "Tsuda",
+        "full": "Eiyu Tsuda",
+        "native": "津田英雄",
+        "userPreferred": "Eiyu Tsuda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28932.jpg",
+      "voiceActors": [
+        {
+          "id": 95326,
+          "language": "Japanese",
+          "name": {
+            "first": "Tooru",
+            "last": "Furuya",
+            "full": "Tooru Furuya",
+            "native": "古谷徹",
+            "userPreferred": "Tooru Furuya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95326-OfRv2DBnFVZU.png"
+        }
+      ]
+    },
+    {
+      "id": 25738,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tetsuya",
+        "last": "Taguchi",
+        "full": "Tetsuya Taguchi",
+        "native": "田口 哲也",
+        "userPreferred": "Tetsuya Taguchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25738.jpg",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28426,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yoshio",
+        "last": "Iwamura",
+        "full": "Yoshio Iwamura",
+        "native": "岩村義雄",
+        "userPreferred": "Yoshio Iwamura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28426.jpg",
+      "voiceActors": [
+        {
+          "id": 95399,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuo",
+            "last": "Iwata",
+            "full": "Mitsuo Iwata",
+            "native": "岩田光央",
+            "userPreferred": "Mitsuo Iwata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95399-HGKWUmKmZ1el.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26952,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mayumi",
+        "last": null,
+        "full": "Mayumi",
+        "native": null,
+        "userPreferred": "Mayumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26952.jpg",
+      "voiceActors": [
+        {
+          "id": 103948,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Sugimoto",
+            "full": "Yumi Sugimoto",
+            "native": "杉本有美",
+            "userPreferred": "Yumi Sugimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103948-W8IYuzulMYMX.png"
+        }
+      ]
+    },
+    {
+      "id": 27546,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shinichi",
+        "last": "Bando",
+        "full": "Shinichi Bando",
+        "native": "坂東真一",
+        "userPreferred": "Shinichi Bando"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27546.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        }
+      ]
+    },
+    {
+      "id": 27615,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fukuicchi",
+        "last": null,
+        "full": "Fukuicchi",
+        "native": "福井ッチ",
+        "userPreferred": "Fukuicchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27615.jpg",
+      "voiceActors": [
+        {
+          "id": 104085,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Fukui",
+            "full": "Kenji Fukui",
+            "native": "福井謙二",
+            "userPreferred": "Kenji Fukui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104085-DQmtrXLBGSjh.png"
+        }
+      ]
+    },
+    {
+      "id": 27821,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuta",
+        "last": "Tsuda",
+        "full": "Yuta Tsuda",
+        "native": "津田雄太",
+        "userPreferred": "Yuta Tsuda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27821.jpg",
+      "voiceActors": [
+        {
+          "id": 95088,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Irino",
+            "full": "Miyu Irino",
+            "native": "入野自由",
+            "userPreferred": "Miyu Irino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95088-BHyqnkadBEqi.png"
+        }
+      ]
+    },
+    {
+      "id": 28617,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiromi",
+        "last": "Yasukawa",
+        "full": "Hiromi Yasukawa",
+        "native": "安川ヒロミ",
+        "userPreferred": "Hiromi Yasukawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28617.jpg",
+      "voiceActors": [
+        {
+          "id": 95098,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Hatano",
+            "full": "Wataru Hatano",
+            "native": "羽多野渉",
+            "userPreferred": "Wataru Hatano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95098-x6T2xOTuvkuY.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "kuuchuu-buranko-episode-1",
+      "title": "Flying Trapeze",
+      "image": "https://media.kitsu.io/episodes/thumbnails/75715/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:27:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kuuchuu-buranko-episode-1"
+    },
+    {
+      "id": "kuuchuu-buranko-episode-2",
+      "title": "Keep on Erecting",
+      "image": "https://media.kitsu.io/episodes/thumbnails/75716/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:27:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kuuchuu-buranko-episode-2"
+    },
+    {
+      "id": "kuuchuu-buranko-episode-3",
+      "title": "Romance Novelist",
+      "image": "https://media.kitsu.io/episodes/thumbnails/75717/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:27:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kuuchuu-buranko-episode-3"
+    },
+    {
+      "id": "kuuchuu-buranko-episode-4",
+      "title": "Hot Corner",
+      "image": "https://media.kitsu.io/episodes/thumbnails/75718/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:27:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kuuchuu-buranko-episode-4"
+    },
+    {
+      "id": "kuuchuu-buranko-episode-5",
+      "title": "My Father-in-Law",
+      "image": "https://media.kitsu.io/episodes/thumbnails/75719/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:27:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kuuchuu-buranko-episode-5"
+    },
+    {
+      "id": "kuuchuu-buranko-episode-6",
+      "title": "Friends",
+      "image": "https://media.kitsu.io/episodes/thumbnails/75720/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:27:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kuuchuu-buranko-episode-6"
+    },
+    {
+      "id": "kuuchuu-buranko-episode-7",
+      "title": "Hedgehog",
+      "image": "https://media.kitsu.io/episodes/thumbnails/75721/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:27:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kuuchuu-buranko-episode-7"
+    },
+    {
+      "id": "kuuchuu-buranko-episode-8",
+      "title": "I couldn't sit",
+      "image": "https://media.kitsu.io/episodes/thumbnails/75722/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:27:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kuuchuu-buranko-episode-8"
+    },
+    {
+      "id": "kuuchuu-buranko-episode-9",
+      "title": "Gifted child actor",
+      "image": "https://media.kitsu.io/episodes/thumbnails/75723/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:27:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kuuchuu-buranko-episode-9"
+    },
+    {
+      "id": "kuuchuu-buranko-episode-10",
+      "title": "Owner",
+      "image": "https://media.kitsu.io/episodes/thumbnails/75724/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:27:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kuuchuu-buranko-episode-10"
+    },
+    {
+      "id": "kuuchuu-buranko-episode-11",
+      "title": "Canary",
+      "image": "https://media.kitsu.io/episodes/thumbnails/75725/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:27:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kuuchuu-buranko-episode-11"
+    }
+  ]
+}

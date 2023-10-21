@@ -1,0 +1,1481 @@
+{
+  "id": "763",
+  "title": {
+    "romaji": "Zoids",
+    "english": "Zoids",
+    "native": "ゾイド"
+  },
+  "malId": 763,
+  "synonyms": [
+    "Zoids Classic",
+    "Zoids: Chaotic Century",
+    "Zoids: Guardian Forces"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+  "popularity": 6070,
+  "color": "#4386c9",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n763-kDX6Sqr6GaBu.jpg",
+  "description": "Zoids are beast-like fighting machines used in both everyday use such as transportation, and special use such as war. Some types of Zoids, know as Organoids, are miniature Zoids that are living organisms. These Organoids have the capability to fuse with a non-living Zoid and make it much more powerful.<br><br>\nVan (Ban) Freiheit discovers a Zoid Organoid in an abandoned laboratory while running from two strangers piloting Zoids. Also in the laboratory, in an animated suspension tube is a strange girl. He breaks the tube open and takes her and the Organoid with him. Spotting a ruined Shield Liger Zoid outside nearby, the Organoid fuses with it and repairs the damages. Making his escape, Van names the Organoid Zeke, and decides to keep him as a friend. The girl, who says her name is Fiona, wants to find something called Zoids Eve, and so Van, Zeke, and Fiona begin their adventure.<br><br>\n(Source: AniDB)",
+  "status": "Completed",
+  "releaseDate": 1999,
+  "startDate": {
+    "year": 1999,
+    "month": 9,
+    "day": 4
+  },
+  "endDate": {
+    "year": 2000,
+    "month": 12,
+    "day": 23
+  },
+  "totalEpisodes": 67,
+  "currentEpisode": 67,
+  "rating": 69,
+  "duration": 25,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Xebec"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 2255,
+      "malId": 2255,
+      "title": {
+        "romaji": "Choujuu Kishin Dancougar",
+        "english": "Dancouga: Super Beast Machine God",
+        "native": "超獣機神ダンクーガ",
+        "userPreferred": "Choujuu Kishin Dancougar"
+      },
+      "status": "Completed",
+      "episodes": 38,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2255.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2255.jpg",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 114307,
+      "malId": 40964,
+      "title": {
+        "romaji": "Back Arrow",
+        "english": "BACK ARROW",
+        "native": "バック・アロウ",
+        "userPreferred": "Back Arrow"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114307-hZFz35Nh7YuS.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114307-xmy1dyKDR7gE.jpg",
+      "rating": 57,
+      "type": "TV"
+    },
+    {
+      "id": 712,
+      "malId": 712,
+      "title": {
+        "romaji": "Zoids Genesis",
+        "english": "Zoids Genesis",
+        "native": "ゾイド ジェネシス",
+        "userPreferred": "Zoids Genesis"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/712.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/712.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 154643,
+      "malId": 53026,
+      "title": {
+        "romaji": "SYNDUALITY Noir",
+        "english": "Synduality Noir",
+        "native": "SYNDUALITY Noir",
+        "userPreferred": "SYNDUALITY Noir"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154643-NbuhZQCxgKMj.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154643-NbuhZQCxgKMj.jpg",
+      "rating": 65,
+      "type": "TV"
+    },
+    {
+      "id": 552,
+      "malId": 552,
+      "title": {
+        "romaji": "Digimon Adventure",
+        "english": "Digimon: Digital Monsters",
+        "native": "デジモンアドベンチャー",
+        "userPreferred": "Digimon Adventure"
+      },
+      "status": "Completed",
+      "episodes": 54,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx552-zad0ts5hylQJ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/552-xAHaRMpoco2e.jpg",
+      "rating": 75,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 40815,
+      "role": "MAIN",
+      "name": {
+        "first": "Thomas Richard",
+        "last": "Schubaltz",
+        "full": "Thomas Richard Schubaltz",
+        "native": "トーマ・リヒャルト・シュバルツ",
+        "userPreferred": "Thomas Richard Schubaltz"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40815.jpg",
+      "voiceActors": [
+        {
+          "id": 95221,
+          "language": "Japanese",
+          "name": {
+            "first": "Kentarou",
+            "last": "Itou",
+            "full": "Kentarou Itou",
+            "native": "伊藤健太郎",
+            "userPreferred": "Kentarou Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95221-2rpvfpZXEAZB.jpg"
+        },
+        {
+          "id": 115350,
+          "language": "English",
+          "name": {
+            "first": "Ryan",
+            "last": "Luhning",
+            "full": "Ryan Luhning",
+            "native": null,
+            "userPreferred": "Ryan Luhning"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115350-C9hGlEvNH9en.jpg"
+        },
+        {
+          "id": 109853,
+          "language": "Korean",
+          "name": {
+            "first": "Yong-Woo",
+            "last": "Shin",
+            "full": "Yong-Woo Shin",
+            "native": "신용우",
+            "userPreferred": "Yong-Woo Shin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109853-j96EqRUBocBE.jpg"
+        },
+        {
+          "id": 106920,
+          "language": "Italian",
+          "name": {
+            "first": "Luca",
+            "last": "Bottale",
+            "full": "Luca Bottale",
+            "native": null,
+            "userPreferred": "Luca Bottale"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106920-pIJQfJ0oF9Wi.png"
+        }
+      ]
+    },
+    {
+      "id": 40817,
+      "role": "MAIN",
+      "name": {
+        "first": "Gunther",
+        "last": "Prozen",
+        "full": "Gunther Prozen",
+        "native": null,
+        "userPreferred": "Gunther Prozen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40817.jpg",
+      "voiceActors": [
+        {
+          "id": 95337,
+          "language": "Japanese",
+          "name": {
+            "first": "Houchuu",
+            "last": "Ootsuka",
+            "full": "Houchuu Ootsuka",
+            "native": "大塚芳忠",
+            "userPreferred": "Houchuu Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95337-NnvEQEBKV2dR.jpg"
+        },
+        {
+          "id": 115991,
+          "language": "English",
+          "name": {
+            "first": "Dave",
+            "last": "Kelly",
+            "full": "Dave Kelly",
+            "native": null,
+            "userPreferred": "Dave Kelly"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20991.jpg"
+        },
+        {
+          "id": 109829,
+          "language": "Korean",
+          "name": {
+            "first": "Il",
+            "last": "Kim",
+            "full": "Il Kim",
+            "native": "일 김",
+            "userPreferred": "Il Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14829.jpg"
+        },
+        {
+          "id": 96293,
+          "language": "Italian",
+          "name": {
+            "first": "Gabriele",
+            "last": "Calindri",
+            "full": "Gabriele Calindri",
+            "native": null,
+            "userPreferred": "Gabriele Calindri"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96293-QmhYngY200fT.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2681,
+      "role": "MAIN",
+      "name": {
+        "first": "Van",
+        "last": "Flyheight",
+        "full": "Van Flyheight",
+        "native": null,
+        "userPreferred": "Van Flyheight"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2681.jpg",
+      "voiceActors": [
+        {
+          "id": 95440,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Kishio",
+            "full": "Daisuke Kishio",
+            "native": "岸尾だいすけ",
+            "userPreferred": "Daisuke Kishio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95440-j4iWV0MGWtBh.png"
+        },
+        {
+          "id": 95813,
+          "language": "English",
+          "name": {
+            "first": "Matthew",
+            "last": "Erickson",
+            "full": "Matthew Erickson",
+            "native": null,
+            "userPreferred": "Matthew Erickson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/813.jpg"
+        },
+        {
+          "id": 101499,
+          "language": "Korean",
+          "name": {
+            "first": "Yeong-seon",
+            "last": "Kim",
+            "full": "Yeong-seon Kim",
+            "native": "김영선",
+            "userPreferred": "Yeong-seon Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101499-aHFkv5mYhE5m.png"
+        },
+        {
+          "id": 96160,
+          "language": "Italian",
+          "name": {
+            "first": "Davide",
+            "last": "Garbolino",
+            "full": "Davide Garbolino",
+            "native": null,
+            "userPreferred": "Davide Garbolino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96160-f2iHwGVbtmun.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12288,
+      "role": "MAIN",
+      "name": {
+        "first": "Elisi",
+        "last": "Linette",
+        "full": "Elisi Linette",
+        "native": null,
+        "userPreferred": "Elisi Linette"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12288.jpg",
+      "voiceActors": [
+        {
+          "id": 95745,
+          "language": "Japanese",
+          "name": {
+            "first": "Makiko",
+            "last": "Oomoto",
+            "full": "Makiko Oomoto",
+            "native": "大本眞基子",
+            "userPreferred": "Makiko Oomoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95745-CQXJmwHVOdpn.jpg"
+        },
+        {
+          "id": 95461,
+          "language": "English",
+          "name": {
+            "first": "Carol-Anne",
+            "last": "Day",
+            "full": "Carol-Anne Day",
+            "native": null,
+            "userPreferred": "Carol-Anne Day"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/461.jpg"
+        },
+        {
+          "id": 95788,
+          "language": "Korean",
+          "name": {
+            "first": "Yong Sin",
+            "last": "Lee",
+            "full": "Yong Sin Lee",
+            "native": "용신 이",
+            "userPreferred": "Yong Sin Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95788-6EPSNNAjYDly.jpg"
+        },
+        {
+          "id": 96291,
+          "language": "Italian",
+          "name": {
+            "first": "Federica",
+            "last": "Valenti",
+            "full": "Federica Valenti",
+            "native": null,
+            "userPreferred": "Federica Valenti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1291.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37825,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Karl",
+        "last": "Schubaltz",
+        "full": "Karl Schubaltz",
+        "native": null,
+        "userPreferred": "Karl Schubaltz"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37825.jpg",
+      "voiceActors": [
+        {
+          "id": 95058,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Ueda",
+            "full": "Yuuji Ueda",
+            "native": "うえだゆうじ",
+            "userPreferred": "Yuuji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95058-fGnId7E4tgx3.jpg"
+        },
+        {
+          "id": 103732,
+          "language": "English",
+          "name": {
+            "first": "Jonathan",
+            "last": "Love",
+            "full": "Jonathan Love",
+            "native": null,
+            "userPreferred": "Jonathan Love"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103732-F5nUqcKu7ywj.jpg"
+        },
+        {
+          "id": 109863,
+          "language": "Korean",
+          "name": {
+            "first": "Beom Gi",
+            "last": "Hong",
+            "full": "Beom Gi Hong",
+            "native": "범기 홍",
+            "userPreferred": "Beom Gi Hong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14863.jpg"
+        },
+        {
+          "id": 165081,
+          "language": "Italian",
+          "name": {
+            "first": "Claudio",
+            "last": "Beccari",
+            "full": "Claudio Beccari",
+            "native": null,
+            "userPreferred": "Claudio Beccari"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11742,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Irvine",
+        "last": null,
+        "full": "Irvine",
+        "native": "アーバイン",
+        "userPreferred": "Irvine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11742.jpg",
+      "voiceActors": [
+        {
+          "id": 95063,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiji",
+            "last": "Fujiwara",
+            "full": "Keiji Fujiwara",
+            "native": "藤原啓治",
+            "userPreferred": "Keiji Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95063-xAsEUzspuLMG.jpg"
+        },
+        {
+          "id": 96754,
+          "language": "English",
+          "name": {
+            "first": "Mark",
+            "last": "Gatha",
+            "full": "Mark Gatha",
+            "native": null,
+            "userPreferred": "Mark Gatha"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96754-2o1yNTNxYBJJ.jpg"
+        },
+        {
+          "id": 109855,
+          "language": "Korean",
+          "name": {
+            "first": "Ju Chang",
+            "last": "Lee",
+            "full": "Ju Chang Lee",
+            "native": "주창 이",
+            "userPreferred": "Ju Chang Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14855.jpg"
+        },
+        {
+          "id": 96236,
+          "language": "Italian",
+          "name": {
+            "first": "Diego",
+            "last": "Sabre",
+            "full": "Diego Sabre",
+            "native": null,
+            "userPreferred": "Diego Sabre"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96236-2gQfODFDwIAT.png"
+        }
+      ]
+    },
+    {
+      "id": 37824,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rudolph",
+        "last": "Zeppelin III",
+        "full": "Rudolph Zeppelin III",
+        "native": null,
+        "userPreferred": "Rudolph Zeppelin III"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37824.jpg",
+      "voiceActors": [
+        {
+          "id": 95750,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Ishimura",
+            "full": "Tomoko Ishimura",
+            "native": "石村知子",
+            "userPreferred": "Tomoko Ishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/750.jpg"
+        },
+        {
+          "id": 103606,
+          "language": "English",
+          "name": {
+            "first": "Elinor",
+            "last": "Holt",
+            "full": "Elinor Holt",
+            "native": null,
+            "userPreferred": "Elinor Holt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8606.jpg"
+        },
+        {
+          "id": 109927,
+          "language": "Korean",
+          "name": {
+            "first": "Seon Hye",
+            "last": "Kim",
+            "full": "Seon Hye Kim",
+            "native": "선혜 김",
+            "userPreferred": "Seon Hye Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14927.jpg"
+        },
+        {
+          "id": 96275,
+          "language": "Italian",
+          "name": {
+            "first": "Patrizia",
+            "last": "Scianca",
+            "full": "Patrizia Scianca",
+            "native": null,
+            "userPreferred": "Patrizia Scianca"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96275-K5vy1UBZWPA0.png"
+        }
+      ]
+    },
+    {
+      "id": 14863,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Joyce",
+        "last": "Chen",
+        "full": "Joyce Chen",
+        "native": null,
+        "userPreferred": "Joyce Chen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14863.jpg",
+      "voiceActors": [
+        {
+          "id": 95197,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuki",
+            "last": "Saiga",
+            "full": "Mitsuki Saiga",
+            "native": "斎賀みつき",
+            "userPreferred": "Mitsuki Saiga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95197-gcTFdBK9oPtY.png"
+        },
+        {
+          "id": 181280,
+          "language": "English",
+          "name": {
+            "first": "Robert Scott",
+            "last": "Henrickson",
+            "full": "Robert Scott Henrickson",
+            "native": null,
+            "userPreferred": "Robert Scott Henrickson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40813,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Reese",
+        "last": null,
+        "full": "Reese",
+        "native": null,
+        "userPreferred": "Reese"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40813.jpg",
+      "voiceActors": [
+        {
+          "id": 95181,
+          "language": "Japanese",
+          "name": {
+            "first": "Noriko",
+            "last": "Hidaka",
+            "full": "Noriko Hidaka",
+            "native": "日高のり子",
+            "userPreferred": "Noriko Hidaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95181-vMjqcku6ZHtF.jpg"
+        },
+        {
+          "id": 100669,
+          "language": "English",
+          "name": {
+            "first": "Mariette",
+            "last": "Sluyter",
+            "full": "Mariette Sluyter",
+            "native": null,
+            "userPreferred": "Mariette Sluyter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5669.jpg"
+        },
+        {
+          "id": 110291,
+          "language": "Korean",
+          "name": {
+            "first": "Chea Eun",
+            "last": "Han",
+            "full": "Chea Eun Han",
+            "native": "채언 한",
+            "userPreferred": "Chea Eun Han"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15291.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27280,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Moonbay",
+        "last": null,
+        "full": "Moonbay",
+        "native": "ムンベイ",
+        "userPreferred": "Moonbay"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27280.jpg",
+      "voiceActors": [
+        {
+          "id": 95248,
+          "language": "Japanese",
+          "name": {
+            "first": "Kumiko",
+            "last": "Watanabe",
+            "full": "Kumiko Watanabe",
+            "native": "渡辺久美子",
+            "userPreferred": "Kumiko Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95248-UzMyBDiMD7LM.jpg"
+        },
+        {
+          "id": 109533,
+          "language": "English",
+          "name": {
+            "first": "Onalea",
+            "last": "Gilbertson",
+            "full": "Onalea Gilbertson",
+            "native": null,
+            "userPreferred": "Onalea Gilbertson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14533.jpg"
+        },
+        {
+          "id": 109997,
+          "language": "Korean",
+          "name": {
+            "first": "Yeo Jin",
+            "last": "Yun",
+            "full": "Yeo Jin Yun",
+            "native": "여진 윤",
+            "userPreferred": "Yeo Jin Yun"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14997.jpg"
+        },
+        {
+          "id": 104985,
+          "language": "Italian",
+          "name": {
+            "first": "Cinzia",
+            "last": "Massironi",
+            "full": "Cinzia Massironi",
+            "native": null,
+            "userPreferred": "Cinzia Massironi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9985.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40818,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shadow",
+        "last": null,
+        "full": "Shadow",
+        "native": null,
+        "userPreferred": "Shadow"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40818.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 36309,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 96485,
+          "language": "Japanese",
+          "name": {
+            "first": "Iemasa",
+            "last": "Kayumi",
+            "full": "Iemasa Kayumi",
+            "native": "家弓家正",
+            "userPreferred": "Iemasa Kayumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1485.jpg"
+        },
+        {
+          "id": 115991,
+          "language": "English",
+          "name": {
+            "first": "Dave",
+            "last": "Kelly",
+            "full": "Dave Kelly",
+            "native": null,
+            "userPreferred": "Dave Kelly"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20991.jpg"
+        }
+      ]
+    },
+    {
+      "id": 51075,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Viola",
+        "last": null,
+        "full": "Viola",
+        "native": "ヴィオーラ",
+        "userPreferred": "Viola"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/51075.jpg",
+      "voiceActors": [
+        {
+          "id": 95436,
+          "language": "Japanese",
+          "name": {
+            "first": "Rika",
+            "last": "Fukami",
+            "full": "Rika Fukami",
+            "native": "深見梨加",
+            "userPreferred": "Rika Fukami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95436-2md6ij7fGO88.png"
+        },
+        {
+          "id": 109535,
+          "language": "English",
+          "name": {
+            "first": "Meredith",
+            "last": "Taylor-Parry",
+            "full": "Meredith Taylor-Parry",
+            "native": null,
+            "userPreferred": "Meredith Taylor-Parry"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14535.jpg"
+        },
+        {
+          "id": 157959,
+          "language": "Italian",
+          "name": {
+            "first": "Patrizia",
+            "last": "Salmoiraghi",
+            "full": "Patrizia Salmoiraghi",
+            "native": null,
+            "userPreferred": "Patrizia Salmoiraghi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n157959-1MQM490KR143.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 764,
+      "relationType": "ALTERNATIVE",
+      "malId": 764,
+      "title": {
+        "romaji": "Zoids Shin Seiki/Zero",
+        "english": "Zoids New Century/Zero",
+        "native": "ゾイド新世紀／ゼロ",
+        "userPreferred": "Zoids Shin Seiki/Zero"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx764-adoeyfxioM3H.png",
+      "color": "#5dbbe4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/764-IFTWyQQahwEA.jpg",
+      "rating": 68
+    },
+    {
+      "id": 30359,
+      "relationType": "ADAPTATION",
+      "malId": 359,
+      "title": {
+        "romaji": "Kijuushin Seiki ZOIDS",
+        "english": "ZOIDS: Chaotic Century",
+        "native": "機獣新世紀ZOIDS",
+        "userPreferred": "Kijuushin Seiki ZOIDS"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30359-nIqgWfGMeO6C.jpg",
+      "color": "#e4865d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30359-nIqgWfGMeO6C.jpg",
+      "rating": 63
+    },
+    {
+      "id": 84281,
+      "relationType": "ADAPTATION",
+      "malId": 54281,
+      "title": {
+        "romaji": "Zoids SS",
+        "english": null,
+        "native": "ZOIDS ゾイドSS",
+        "userPreferred": "Zoids SS"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx84281-ym91NHdznBtg.png",
+      "color": "#5086f1",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx84281-ym91NHdznBtg.png",
+      "rating": 50
+    }
+  ],
+  "episodes": [
+    {
+      "id": "zoids-1999-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-1"
+    },
+    {
+      "id": "zoids-1999-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-2"
+    },
+    {
+      "id": "zoids-1999-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-3"
+    },
+    {
+      "id": "zoids-1999-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-4"
+    },
+    {
+      "id": "zoids-1999-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-5"
+    },
+    {
+      "id": "zoids-1999-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-6"
+    },
+    {
+      "id": "zoids-1999-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-7"
+    },
+    {
+      "id": "zoids-1999-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-8"
+    },
+    {
+      "id": "zoids-1999-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-9"
+    },
+    {
+      "id": "zoids-1999-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-10"
+    },
+    {
+      "id": "zoids-1999-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-11"
+    },
+    {
+      "id": "zoids-1999-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-12"
+    },
+    {
+      "id": "zoids-1999-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-13"
+    },
+    {
+      "id": "zoids-1999-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-14"
+    },
+    {
+      "id": "zoids-1999-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-15"
+    },
+    {
+      "id": "zoids-1999-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-16"
+    },
+    {
+      "id": "zoids-1999-episode-17",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 17,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-17"
+    },
+    {
+      "id": "zoids-1999-episode-18",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 18,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-18"
+    },
+    {
+      "id": "zoids-1999-episode-19",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 19,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-19"
+    },
+    {
+      "id": "zoids-1999-episode-20",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 20,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-20"
+    },
+    {
+      "id": "zoids-1999-episode-21",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 21,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-21"
+    },
+    {
+      "id": "zoids-1999-episode-22",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 22,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-22"
+    },
+    {
+      "id": "zoids-1999-episode-23",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 23,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-23"
+    },
+    {
+      "id": "zoids-1999-episode-24",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 24,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-24"
+    },
+    {
+      "id": "zoids-1999-episode-25",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 25,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-25"
+    },
+    {
+      "id": "zoids-1999-episode-26",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 26,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-26"
+    },
+    {
+      "id": "zoids-1999-episode-27",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 27,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-27"
+    },
+    {
+      "id": "zoids-1999-episode-28",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 28,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-28"
+    },
+    {
+      "id": "zoids-1999-episode-29",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 29,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-29"
+    },
+    {
+      "id": "zoids-1999-episode-30",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 30,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-30"
+    },
+    {
+      "id": "zoids-1999-episode-31",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 31,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-31"
+    },
+    {
+      "id": "zoids-1999-episode-32",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 32,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-32"
+    },
+    {
+      "id": "zoids-1999-episode-33",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 33,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-33"
+    },
+    {
+      "id": "zoids-1999-episode-34",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 34,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-34"
+    },
+    {
+      "id": "zoids-1999-episode-35",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 35,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-35"
+    },
+    {
+      "id": "zoids-1999-episode-36",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 36,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-36"
+    },
+    {
+      "id": "zoids-1999-episode-37",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 37,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-37"
+    },
+    {
+      "id": "zoids-1999-episode-38",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 38,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-38"
+    },
+    {
+      "id": "zoids-1999-episode-39",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 39,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-39"
+    },
+    {
+      "id": "zoids-1999-episode-40",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 40,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-40"
+    },
+    {
+      "id": "zoids-1999-episode-41",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 41,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-41"
+    },
+    {
+      "id": "zoids-1999-episode-42",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 42,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-42"
+    },
+    {
+      "id": "zoids-1999-episode-43",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 43,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-43"
+    },
+    {
+      "id": "zoids-1999-episode-44",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 44,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-44"
+    },
+    {
+      "id": "zoids-1999-episode-45",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 45,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-45"
+    },
+    {
+      "id": "zoids-1999-episode-46",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 46,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-46"
+    },
+    {
+      "id": "zoids-1999-episode-47",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 47,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-47"
+    },
+    {
+      "id": "zoids-1999-episode-48",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 48,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-48"
+    },
+    {
+      "id": "zoids-1999-episode-49",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 49,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-49"
+    },
+    {
+      "id": "zoids-1999-episode-50",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 50,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-50"
+    },
+    {
+      "id": "zoids-1999-episode-51",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 51,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-51"
+    },
+    {
+      "id": "zoids-1999-episode-52",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 52,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-52"
+    },
+    {
+      "id": "zoids-1999-episode-53",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 53,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-53"
+    },
+    {
+      "id": "zoids-1999-episode-54",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 54,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-54"
+    },
+    {
+      "id": "zoids-1999-episode-55",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 55,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-55"
+    },
+    {
+      "id": "zoids-1999-episode-56",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 56,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-56"
+    },
+    {
+      "id": "zoids-1999-episode-57",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 57,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-57"
+    },
+    {
+      "id": "zoids-1999-episode-58",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 58,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-58"
+    },
+    {
+      "id": "zoids-1999-episode-59",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 59,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-59"
+    },
+    {
+      "id": "zoids-1999-episode-60",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 60,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-60"
+    },
+    {
+      "id": "zoids-1999-episode-61",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 61,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-61"
+    },
+    {
+      "id": "zoids-1999-episode-62",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 62,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-62"
+    },
+    {
+      "id": "zoids-1999-episode-63",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 63,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-63"
+    },
+    {
+      "id": "zoids-1999-episode-64",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 64,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-64"
+    },
+    {
+      "id": "zoids-1999-episode-65",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 65,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-65"
+    },
+    {
+      "id": "zoids-1999-episode-66",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 66,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-66"
+    },
+    {
+      "id": "zoids-1999-episode-67",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b763-1T59JdI5ohJd.jpg",
+      "number": 67,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//zoids-1999-episode-67"
+    }
+  ]
+}

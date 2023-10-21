@@ -1,0 +1,92 @@
+{
+  "id": "129946",
+  "title": {
+    "romaji": "Douluo Dalu: Haishen Zhi Guang",
+    "english": null,
+    "native": "斗罗大陆 海神之光"
+  },
+  "synonyms": [
+    "斗罗大陆 第八部分",
+    "Douluo Dalu Part 8",
+    "Soul Land Part 8",
+    "斗罗大陆之海神之光篇"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129946-pF2Ofp9nFEHD.png",
+  "popularity": 1255,
+  "color": "#5d86e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129946-pF2Ofp9nFEHD.png",
+  "description": "The eighth part of <i>Douluo Dalu</i>.\n<br><br>\n<i>Note: Episodes 144 to 156.</i>",
+  "status": "Completed",
+  "releaseDate": 2021,
+  "startDate": {
+    "year": 2021,
+    "month": 2,
+    "day": 20
+  },
+  "endDate": {
+    "year": 2021,
+    "month": 5,
+    "day": 15
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 78,
+  "duration": 20,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Romance",
+    "Supernatural"
+  ],
+  "season": null,
+  "studios": [
+    "Sparkly Key Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [],
+  "relations": [
+    {
+      "id": 129351,
+      "relationType": "PREQUEL",
+      "malId": null,
+      "title": {
+        "romaji": "Douluo Dalu: Hanhai Qiankun",
+        "english": null,
+        "native": "斗罗大陆 瀚海乾坤",
+        "userPreferred": "Douluo Dalu: Hanhai Qiankun"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129351-9SZKw96PJyzY.png",
+      "color": "#5d86e4",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129351-9SZKw96PJyzY.png",
+      "rating": 82
+    },
+    {
+      "id": 134168,
+      "relationType": "SEQUEL",
+      "malId": null,
+      "title": {
+        "romaji": "Douluo Dalu: Shan Yu Yu Lai",
+        "english": null,
+        "native": "斗罗大陆 山雨欲来",
+        "userPreferred": "Douluo Dalu: Shan Yu Yu Lai"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx134168-AI4394ovy8kM.png",
+      "color": "#e4bb50",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx134168-AI4394ovy8kM.png",
+      "rating": 81
+    }
+  ],
+  "episodes": []
+}

@@ -1,0 +1,853 @@
+{
+  "id": "18041",
+  "title": {
+    "romaji": "Rozen Maiden (2013)",
+    "english": "Rozen Maiden: Zurückspulen",
+    "native": "ローゼンメイデン (2013)"
+  },
+  "malId": 18041,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "EtBxEYU1GFQ",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/EtBxEYU1GFQ/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18041-GLl6gGymRszJ.jpg",
+  "popularity": 12993,
+  "color": "#6b281a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18041-oglVd4aPy9zF.jpg",
+  "description": "Each decision we make in life leads us down a different path. Have you ever wondered what would be if the path not chosen weren't lost to the chaos of the universe? For Jun Sakurada, just such an opportunity is presented to him in his darkest hour: a chance to communicate with a future version of himself who did not win the key and bring forth the Rozen Maidens, and a chance to fix the shattered remains of his own world.<br>\n<br>\nFor Jun-who-did-not-win, the messages from his younger self represent a beacon of light in his mediocre and disappointing existence. When the adult Jun discovers a box with parts and building instructions for a familiar red-dressed doll, the goal becomes clear: revive Shinku in his world to save both worlds from succumbing to the evils of Kirakisho, the seventh Rozen Maiden in a desperate search for a body and master. The Alice Game will become a war of dimensions as two worlds hang by the threads of fate.<br>\n<br>\n(Source: Sentai Filmworks)",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 7,
+    "day": 5
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 9,
+    "day": 27
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 70,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Drama"
+  ],
+  "season": "SUMMER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 2130,
+      "malId": 2130,
+      "title": {
+        "romaji": "Kaibutsu Oujo",
+        "english": "Princess Resurrection",
+        "native": "怪物王女",
+        "userPreferred": "Kaibutsu Oujo"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2130.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2130-5ko6JFFPycGT.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 8915,
+      "malId": 8915,
+      "title": {
+        "romaji": "Dantalian no Shoka",
+        "english": "The Mystic Archives of Dantalian",
+        "native": "ダンタリアンの書架",
+        "userPreferred": "Dantalian no Shoka"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8915-KMxeHflWLc6o.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n8915-GyycPBl1eDaH.jpg",
+      "rating": 69,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 1072,
+      "role": "MAIN",
+      "name": {
+        "first": "Suigintou",
+        "last": null,
+        "full": "Suigintou",
+        "native": "水銀燈",
+        "userPreferred": "Suigintou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1072-fcfpwbJNr92f.png",
+      "voiceActors": [
+        {
+          "id": 95060,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Tanaka",
+            "full": "Rie Tanaka",
+            "native": "田中理恵",
+            "userPreferred": "Rie Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95060-Rw0HZghxH1hF.jpg"
+        },
+        {
+          "id": 96048,
+          "language": "English",
+          "name": {
+            "first": "Jessica",
+            "last": "Calvello",
+            "full": "Jessica Calvello",
+            "native": null,
+            "userPreferred": "Jessica Calvello"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96048-jnCHXjbHtDMh.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1073,
+      "role": "MAIN",
+      "name": {
+        "first": "Shinku",
+        "last": null,
+        "full": "Shinku",
+        "native": "真紅",
+        "userPreferred": "Shinku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1073-15DezPe42K5Y.jpg",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3317,
+      "role": "MAIN",
+      "name": {
+        "first": "Kirakishou",
+        "last": null,
+        "full": "Kirakishou",
+        "native": "雪華綺晶",
+        "userPreferred": "Kirakishou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3317.jpg",
+      "voiceActors": [
+        {
+          "id": 95795,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiemi",
+            "last": "Chiba",
+            "full": "Chiemi Chiba",
+            "native": "千葉千恵巳",
+            "userPreferred": "Chiemi Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95795-R95HhZinSrFX.png"
+        },
+        {
+          "id": 101181,
+          "language": "English",
+          "name": {
+            "first": "Carli",
+            "last": "Mosier",
+            "full": "Carli Mosier",
+            "native": "Carlin Cyd Mosier",
+            "userPreferred": "Carli Mosier"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101181-LTc5rfaUef91.png"
+        }
+      ]
+    },
+    {
+      "id": 5618,
+      "role": "MAIN",
+      "name": {
+        "first": "Jun",
+        "last": "Sakurada",
+        "full": "Jun Sakurada",
+        "native": "桜田 ジュン",
+        "userPreferred": "Jun Sakurada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5618.jpg",
+      "voiceActors": [
+        {
+          "id": 110743,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouta",
+            "last": "Oosaka",
+            "full": "Ryouta Oosaka",
+            "native": "逢坂良太",
+            "userPreferred": "Ryouta Oosaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110743-k2SgQwU0JD33.png"
+        },
+        {
+          "id": 95126,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Sanada",
+            "full": "Asami Sanada",
+            "native": "真田アサミ",
+            "userPreferred": "Asami Sanada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95126-5riJAYwazk5K.jpg"
+        },
+        {
+          "id": 105841,
+          "language": "English",
+          "name": {
+            "first": "Corey",
+            "last": "Hartzog",
+            "full": "Corey Hartzog",
+            "native": null,
+            "userPreferred": "Corey Hartzog"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10841.jpg"
+        },
+        {
+          "id": 95603,
+          "language": "English",
+          "name": {
+            "first": "Shannon",
+            "last": "Emerick",
+            "full": "Shannon Emerick",
+            "native": null,
+            "userPreferred": "Shannon Emerick"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95603-86oUTjGBLgvi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1105,
+      "role": "MAIN",
+      "name": {
+        "first": "Suiseiseki",
+        "last": null,
+        "full": "Suiseiseki",
+        "native": "翠星石",
+        "userPreferred": "Suiseiseki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1105-h6PYZJS69F0V.png",
+      "voiceActors": [
+        {
+          "id": 95136,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsuko",
+            "last": "Kuwatani",
+            "full": "Natsuko Kuwatani",
+            "native": "桑谷夏子",
+            "userPreferred": "Natsuko Kuwatani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95136-8dAGkiwq7Htk.png"
+        },
+        {
+          "id": 95414,
+          "language": "English",
+          "name": {
+            "first": "Brittney",
+            "last": "Karbowski",
+            "full": "Brittney Karbowski",
+            "native": null,
+            "userPreferred": "Brittney Karbowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/414.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1106,
+      "role": "MAIN",
+      "name": {
+        "first": "Kanaria",
+        "last": null,
+        "full": "Kanaria",
+        "native": "金糸雀",
+        "userPreferred": "Kanaria"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1106.jpg",
+      "voiceActors": [
+        {
+          "id": 95166,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Shimura",
+            "full": "Yumi Shimura",
+            "native": "志村由美",
+            "userPreferred": "Yumi Shimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/166.jpg"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        }
+      ]
+    },
+    {
+      "id": 1108,
+      "role": "MAIN",
+      "name": {
+        "first": "Hina Ichigo",
+        "last": null,
+        "full": "Hina Ichigo",
+        "native": "雛苺",
+        "userPreferred": "Hina Ichigo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1108-PUQJ7uQDyAkG.png",
+      "voiceActors": [
+        {
+          "id": 95204,
+          "language": "Japanese",
+          "name": {
+            "first": "Sakura",
+            "last": "Nogawa",
+            "full": "Sakura Nogawa",
+            "native": "野川さくら",
+            "userPreferred": "Sakura Nogawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95204-nsvdCdwwgIrC.png"
+        },
+        {
+          "id": 95151,
+          "language": "English",
+          "name": {
+            "first": "Hilary",
+            "last": "Haag",
+            "full": "Hilary Haag",
+            "native": null,
+            "userPreferred": "Hilary Haag"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/151.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1107,
+      "role": "MAIN",
+      "name": {
+        "first": "Souseiseki",
+        "last": null,
+        "full": "Souseiseki",
+        "native": "蒼星石",
+        "userPreferred": "Souseiseki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1107.jpg",
+      "voiceActors": [
+        {
+          "id": 95210,
+          "language": "Japanese",
+          "name": {
+            "first": "Rika",
+            "last": "Morinaga",
+            "full": "Rika Morinaga",
+            "native": "理科 森永",
+            "userPreferred": "Rika Morinaga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95210-ypPCcBORovp0.png"
+        },
+        {
+          "id": 95417,
+          "language": "English",
+          "name": {
+            "first": "Kara",
+            "last": "Greenberg",
+            "full": "Kara Greenberg",
+            "native": null,
+            "userPreferred": "Kara Greenberg"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/417.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10680,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tomoe",
+        "last": "Kashiwaba",
+        "full": "Tomoe Kashiwaba",
+        "native": "柏葉 巴",
+        "userPreferred": "Tomoe Kashiwaba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10680-TtZWzhjNjfrF.png",
+      "voiceActors": [
+        {
+          "id": 95616,
+          "language": "Japanese",
+          "name": {
+            "first": "Masayo",
+            "last": "Kurata",
+            "full": "Masayo Kurata",
+            "native": "倉田雅世",
+            "userPreferred": "Masayo Kurata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95616-CmlD2OKyZCss.png"
+        },
+        {
+          "id": 124165,
+          "language": "English",
+          "name": {
+            "first": "Juliet",
+            "last": "Simmons",
+            "full": "Juliet Simmons",
+            "native": null,
+            "userPreferred": "Juliet Simmons"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/124165-H4pJed6F03Yq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 86131,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saitou",
+        "last": null,
+        "full": "Saitou",
+        "native": "斉藤さん",
+        "userPreferred": "Saitou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/86131.jpg",
+      "voiceActors": [
+        {
+          "id": 106659,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsumi",
+            "last": "Takamori",
+            "full": "Natsumi Takamori",
+            "native": "高森奈津美",
+            "userPreferred": "Natsumi Takamori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106659-3LfNtHDY3P0Z.png"
+        },
+        {
+          "id": 114309,
+          "language": "English",
+          "name": {
+            "first": "Margaret",
+            "last": "McDonald",
+            "full": "Margaret McDonald",
+            "native": null,
+            "userPreferred": "Margaret McDonald"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114309-Ku5Kk0XHxZp1.png"
+        }
+      ]
+    },
+    {
+      "id": 1074,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Laplace no Ma",
+        "last": null,
+        "full": "Laplace no Ma",
+        "native": "ラプラスの魔",
+        "userPreferred": "Laplace no Ma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1074.jpg",
+      "voiceActors": [
+        {
+          "id": 118511,
+          "language": "Japanese",
+          "name": {
+            "first": "Satoshi",
+            "last": "Mikami",
+            "full": "Satoshi Mikami",
+            "native": "三上哲",
+            "userPreferred": "Satoshi Mikami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118511-htoA4dCjugsd.jpg"
+        },
+        {
+          "id": 104777,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Wald",
+            "full": "David Wald",
+            "native": null,
+            "userPreferred": "David Wald"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9777.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24514,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mitsu",
+        "last": "Kusabue",
+        "full": "Mitsu Kusabue",
+        "native": "草笛 みつ (みっちゃん)",
+        "userPreferred": "Mitsu Kusabue"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24514.jpg",
+      "voiceActors": [
+        {
+          "id": 96465,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Kawase",
+            "full": "Akiko Kawase",
+            "native": "川瀬晶子",
+            "userPreferred": "Akiko Kawase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1465.jpg"
+        },
+        {
+          "id": 95928,
+          "language": "English",
+          "name": {
+            "first": "Nancy",
+            "last": "Novotny",
+            "full": "Nancy Novotny",
+            "native": null,
+            "userPreferred": "Nancy Novotny"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95928-TWiUny7lqanh.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5619,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nori",
+        "last": "Sakurada",
+        "full": "Nori Sakurada",
+        "native": "桜田 のり",
+        "userPreferred": "Nori Sakurada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5619-42Q1Ts71ALW8.png",
+      "voiceActors": [
+        {
+          "id": 95883,
+          "language": "Japanese",
+          "name": {
+            "first": "Noriko",
+            "last": "Rikimaru",
+            "full": "Noriko Rikimaru",
+            "native": "力丸乃りこ",
+            "userPreferred": "Noriko Rikimaru"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/883.jpg"
+        },
+        {
+          "id": 95928,
+          "language": "English",
+          "name": {
+            "first": "Nancy",
+            "last": "Novotny",
+            "full": "Nancy Novotny",
+            "native": null,
+            "userPreferred": "Nancy Novotny"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95928-TWiUny7lqanh.jpg"
+        }
+      ]
+    },
+    {
+      "id": 290629,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yamaguchi",
+        "last": "",
+        "full": "Yamaguchi",
+        "native": "山口",
+        "userPreferred": "Yamaguchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b290629-Jijs45i34dAg.png",
+      "voiceActors": [
+        {
+          "id": 107060,
+          "language": "Japanese",
+          "name": {
+            "first": "Sho",
+            "last": "Sudou",
+            "full": "Sho Sudou",
+            "native": "須藤翔",
+            "userPreferred": "Sho Sudou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12060.jpg"
+        },
+        {
+          "id": 108493,
+          "language": "English",
+          "name": {
+            "first": "Houston",
+            "last": "Hayes",
+            "full": "Houston Hayes",
+            "native": null,
+            "userPreferred": "Houston Hayes"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/13493.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18453,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Megu",
+        "last": "Kakizaki",
+        "full": "Megu Kakizaki",
+        "native": "柿崎 めぐ",
+        "userPreferred": "Megu Kakizaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18453.jpg",
+      "voiceActors": [
+        {
+          "id": 95465,
+          "language": "Japanese",
+          "name": {
+            "first": "Shiho",
+            "last": "Kawaragi",
+            "full": "Shiho Kawaragi",
+            "native": "河原木志穂",
+            "userPreferred": "Shiho Kawaragi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95465-gyAtV4yZ1A9L.png"
+        },
+        {
+          "id": 105073,
+          "language": "English",
+          "name": {
+            "first": "Emily",
+            "last": "Neves",
+            "full": "Emily Neves",
+            "native": null,
+            "userPreferred": "Emily Neves"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105073-S4JMuSDQbiTt.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 37728,
+      "relationType": "ADAPTATION",
+      "malId": 7728,
+      "title": {
+        "romaji": "Rozen Maiden",
+        "english": null,
+        "native": "ローゼンメイデン",
+        "userPreferred": "Rozen Maiden"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b37728-Dgh8MjYLJYTk.jpg",
+      "color": "#e4935d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/37728-ldQrOuAFDqhL.jpg",
+      "rating": 78
+    },
+    {
+      "id": 64,
+      "relationType": "ALTERNATIVE",
+      "malId": 64,
+      "title": {
+        "romaji": "Rozen Maiden",
+        "english": "Rozen Maiden",
+        "native": "ローゼンメイデン",
+        "userPreferred": "Rozen Maiden"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx64-i0zBn241OD2x.png",
+      "color": "#5dbbe4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/64-dL4Ec6MxFlQw.jpg",
+      "rating": 70
+    },
+    {
+      "id": 65,
+      "relationType": "ALTERNATIVE",
+      "malId": 65,
+      "title": {
+        "romaji": "Rozen Maiden: Träumend",
+        "english": "Rozen Maiden: Dreaming",
+        "native": "ローゼンメイデン ~ トロイメント",
+        "userPreferred": "Rozen Maiden: Träumend"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx65-SnVu0Txb00nV.jpg",
+      "color": "#d65de4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx65-SnVu0Txb00nV.jpg",
+      "rating": 72
+    }
+  ],
+  "episodes": [
+    {
+      "id": "rozen-maiden-2013--episode-1",
+      "title": "Tale 1",
+      "image": "https://media.kitsu.io/episodes/thumbnails/109776/original.jpg",
+      "number": 1,
+      "createdAt": "2013-07-05T19:36:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rozen-maiden-2013--episode-1"
+    },
+    {
+      "id": "rozen-maiden-2013--episode-2",
+      "title": "Tale 2",
+      "image": "https://media.kitsu.io/episodes/thumbnails/109777/original.jpg",
+      "number": 2,
+      "createdAt": "2013-07-05T19:36:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rozen-maiden-2013--episode-2"
+    },
+    {
+      "id": "rozen-maiden-2013--episode-3",
+      "title": "Tale 3",
+      "image": "https://media.kitsu.io/episodes/thumbnails/109778/original.jpg",
+      "number": 3,
+      "createdAt": "2013-07-05T19:36:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rozen-maiden-2013--episode-3"
+    },
+    {
+      "id": "rozen-maiden-2013--episode-4",
+      "title": "Tale 4",
+      "image": "https://media.kitsu.io/episodes/thumbnails/109779/original.jpg",
+      "number": 4,
+      "createdAt": "2013-07-05T19:36:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rozen-maiden-2013--episode-4"
+    },
+    {
+      "id": "rozen-maiden-2013--episode-5",
+      "title": "Tale 5",
+      "image": "https://media.kitsu.io/episodes/thumbnails/109780/original.jpg",
+      "number": 5,
+      "createdAt": "2013-07-05T19:36:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rozen-maiden-2013--episode-5"
+    },
+    {
+      "id": "rozen-maiden-2013--episode-6",
+      "title": "Tale 6",
+      "image": "https://media.kitsu.io/episodes/thumbnails/109781/original.jpg",
+      "number": 6,
+      "createdAt": "2013-07-05T19:36:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rozen-maiden-2013--episode-6"
+    },
+    {
+      "id": "rozen-maiden-2013--episode-7",
+      "title": "Tale 7",
+      "image": "https://media.kitsu.io/episodes/thumbnails/109782/original.jpg",
+      "number": 7,
+      "createdAt": "2013-07-05T19:36:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rozen-maiden-2013--episode-7"
+    },
+    {
+      "id": "rozen-maiden-2013--episode-8",
+      "title": "Tale 8",
+      "image": "https://media.kitsu.io/episodes/thumbnails/109783/original.jpg",
+      "number": 8,
+      "createdAt": "2013-07-05T19:36:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rozen-maiden-2013--episode-8"
+    },
+    {
+      "id": "rozen-maiden-2013--episode-9",
+      "title": "Tale 9",
+      "image": "https://media.kitsu.io/episodes/thumbnails/109784/original.jpg",
+      "number": 9,
+      "createdAt": "2013-07-05T19:36:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rozen-maiden-2013--episode-9"
+    },
+    {
+      "id": "rozen-maiden-2013--episode-10",
+      "title": "Tale 10",
+      "image": "https://media.kitsu.io/episodes/thumbnails/109785/original.jpg",
+      "number": 10,
+      "createdAt": "2013-07-05T19:36:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rozen-maiden-2013--episode-10"
+    },
+    {
+      "id": "rozen-maiden-2013--episode-11",
+      "title": "Tale 11",
+      "image": "https://media.kitsu.io/episodes/thumbnails/109786/original.jpg",
+      "number": 11,
+      "createdAt": "2013-07-05T19:36:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rozen-maiden-2013--episode-11"
+    },
+    {
+      "id": "rozen-maiden-2013--episode-12",
+      "title": "Tale 12",
+      "image": "https://media.kitsu.io/episodes/thumbnails/109787/original.jpg",
+      "number": 12,
+      "createdAt": "2013-07-05T19:36:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rozen-maiden-2013--episode-12"
+    },
+    {
+      "id": "rozen-maiden-2013--episode-13",
+      "title": "Tale 13",
+      "image": "https://media.kitsu.io/episodes/thumbnails/109788/original.jpg",
+      "number": 13,
+      "createdAt": "2013-07-05T19:36:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rozen-maiden-2013--episode-13"
+    }
+  ]
+}

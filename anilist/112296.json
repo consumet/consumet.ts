@@ -1,0 +1,636 @@
+{
+  "id": "112296",
+  "title": {
+    "romaji": "Strike the Blood IV",
+    "english": null,
+    "native": "ストライク・ザ・ブラッド IV"
+  },
+  "malId": 40485,
+  "synonyms": [
+    "Strike the Blood Fourth",
+    "ราชันย์โลหิตรัตติกาล ภาค 4"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "UwvTSlfT_dg",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/UwvTSlfT_dg/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112296-fkwRQQpfNJX2.png",
+  "popularity": 20484,
+  "color": "#285078",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112296-fkwRQQpfNJX2.png",
+  "description": "The fourth season of <i>Strike the Blood</i>.",
+  "status": "Completed",
+  "releaseDate": 2020,
+  "startDate": {
+    "year": 2020,
+    "month": 4,
+    "day": 8
+  },
+  "endDate": {
+    "year": 2021,
+    "month": 6,
+    "day": 30
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 67,
+  "duration": 30,
+  "genres": [
+    "Action",
+    "Ecchi",
+    "Fantasy",
+    "Supernatural"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "CONNECT"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 97767,
+      "malId": 34281,
+      "title": {
+        "romaji": "High School DxD HERO",
+        "english": null,
+        "native": "ハイスクールD×D HERO",
+        "userPreferred": "High School DxD HERO"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97767-5PcDorQe0h8w.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97767-Akkp9Alo4ut4.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 11617,
+      "malId": 11617,
+      "title": {
+        "romaji": "High School DxD",
+        "english": "High School DxD",
+        "native": "ハイスクールD×D",
+        "userPreferred": "High School DxD"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx11617-nmxMU9Zh3H5R.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11617-oLkTAGcyAwcU.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 4654,
+      "malId": 4654,
+      "title": {
+        "romaji": "Toaru Majutsu no Index",
+        "english": "A Certain Magical Index",
+        "native": "とある魔術の禁書目録",
+        "userPreferred": "Toaru Majutsu no Index"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4654-HX1Y1R1EfYJr.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4654-YLc90XaeWvPb.jpg",
+      "rating": 70,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 81597,
+      "role": "MAIN",
+      "name": {
+        "first": "Yukina",
+        "last": "Himeragi ",
+        "full": "Yukina Himeragi ",
+        "native": "姫柊 雪菜",
+        "userPreferred": "Yukina Himeragi "
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/81597.jpg",
+      "voiceActors": [
+        {
+          "id": 111135,
+          "language": "Japanese",
+          "name": {
+            "first": "Risa",
+            "last": "Taneda",
+            "full": "Risa Taneda",
+            "native": "種田梨沙",
+            "userPreferred": "Risa Taneda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111135-JLUj5YUo23lW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87950,
+      "role": "MAIN",
+      "name": {
+        "first": "Kojou",
+        "last": "Akatsuki",
+        "full": "Kojou Akatsuki",
+        "native": "暁 古城",
+        "userPreferred": "Kojou Akatsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87950.jpg",
+      "voiceActors": [
+        {
+          "id": 100626,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshimasa",
+            "last": "Hosoya",
+            "full": "Yoshimasa Hosoya",
+            "native": "細谷佳正",
+            "userPreferred": "Yoshimasa Hosoya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100626-bH8eZ0wv3HYX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 167236,
+      "role": "MAIN",
+      "name": {
+        "first": "Kasugaya Shizuri",
+        "last": "Castiella",
+        "full": "Kasugaya Shizuri Castiella",
+        "native": "香管谷雫梨・カスティエラ",
+        "userPreferred": "Kasugaya Shizuri Castiella"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b167236-tGaawT9yi1j1.png",
+      "voiceActors": [
+        {
+          "id": 129326,
+          "language": "Japanese",
+          "name": {
+            "first": "Saya",
+            "last": "Aizawa",
+            "full": "Saya Aizawa",
+            "native": "会沢紗弥",
+            "userPreferred": "Saya Aizawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129326-UrPZoDTpWkNt.png"
+        }
+      ]
+    },
+    {
+      "id": 87958,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Natsuki",
+        "last": "Minamiya",
+        "full": "Natsuki Minamiya",
+        "native": "南宮 那月",
+        "userPreferred": "Natsuki Minamiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b87958-1y4tZKsx9L8C.png",
+      "voiceActors": [
+        {
+          "id": 103555,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisako",
+            "last": "Kanemoto",
+            "full": "Hisako Kanemoto",
+            "native": "金元寿子",
+            "userPreferred": "Hisako Kanemoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103555-2ZtBwZfy9DTi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87951,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Asagi",
+        "last": "Aiba",
+        "full": "Asagi Aiba",
+        "native": "藍羽浅葱",
+        "userPreferred": "Asagi Aiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b87951-htdY5B0u4g3T.jpg",
+      "voiceActors": [
+        {
+          "id": 106787,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Seto",
+            "full": "Asami Seto",
+            "native": "瀬戸麻沙美",
+            "userPreferred": "Asami Seto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106787-pNRFEiywJuEx.png"
+        }
+      ]
+    },
+    {
+      "id": 87954,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kanon",
+        "last": "Kanase",
+        "full": "Kanon Kanase",
+        "native": "叶瀬 夏音",
+        "userPreferred": "Kanon Kanase"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b87954-HceIbVup9Pil.png",
+      "voiceActors": [
+        {
+          "id": 95762,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanae",
+            "last": "Itou",
+            "full": "Kanae Itou",
+            "native": "伊藤かな恵",
+            "userPreferred": "Kanae Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95762-qhWmwni3TT6Y.png"
+        }
+      ]
+    },
+    {
+      "id": 87952,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Astarte",
+        "last": null,
+        "full": "Astarte",
+        "native": "アスタルテ",
+        "userPreferred": "Astarte"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b87952-mlJDper18t63.jpg",
+      "voiceActors": [
+        {
+          "id": 95885,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Iguchi",
+            "full": "Yuka Iguchi",
+            "native": "井口裕香",
+            "userPreferred": "Yuka Iguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95885-8Le2NWyACKNt.png"
+        }
+      ]
+    },
+    {
+      "id": 87955,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "La Folia",
+        "last": "Rihavein",
+        "full": "La Folia Rihavein",
+        "native": "ラ・フォリア・リハヴァイン",
+        "userPreferred": "La Folia Rihavein"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87955.jpg",
+      "voiceActors": [
+        {
+          "id": 114884,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Oonishi",
+            "full": "Saori Oonishi",
+            "native": "大西沙織",
+            "userPreferred": "Saori Oonishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114884-UzAes6hUiiOJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87957,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nagisa ",
+        "last": "Akatsuki",
+        "full": "Nagisa  Akatsuki",
+        "native": "暁 凪沙",
+        "userPreferred": "Nagisa  Akatsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87957.jpg",
+      "voiceActors": [
+        {
+          "id": 100250,
+          "language": "Japanese",
+          "name": {
+            "first": "Rina",
+            "last": "Hidaka",
+            "full": "Rina Hidaka",
+            "native": "日高里菜",
+            "userPreferred": "Rina Hidaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100250-JhNN2vxQ311M.png"
+        }
+      ]
+    },
+    {
+      "id": 154017,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kiriha",
+        "last": "Kisaki",
+        "full": "Kiriha Kisaki",
+        "native": "妃崎霧葉",
+        "userPreferred": "Kiriha Kisaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154017-neA5FSzWo7jD.jpg",
+      "voiceActors": [
+        {
+          "id": 106162,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukiyo",
+            "last": "Fujii",
+            "full": "Yukiyo Fujii",
+            "native": "藤井ゆきよ",
+            "userPreferred": "Yukiyo Fujii"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106162-k7Jn7QGysSFk.png"
+        }
+      ]
+    },
+    {
+      "id": 87953,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sayaka",
+        "last": "Kirasaka",
+        "full": "Sayaka Kirasaka",
+        "native": "煌坂紗矢華",
+        "userPreferred": "Sayaka Kirasaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b87953-UoaNtwzIKQHs.png",
+      "voiceActors": [
+        {
+          "id": 105065,
+          "language": "Japanese",
+          "name": {
+            "first": "Ikumi",
+            "last": "Hayama",
+            "full": "Ikumi Hayama",
+            "native": "葉山いくみ",
+            "userPreferred": "Ikumi Hayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105065-h1ysNglouHXs.png"
+        }
+      ]
+    },
+    {
+      "id": 87960,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Avrora",
+        "last": "Florestina",
+        "full": "Avrora Florestina",
+        "native": "アヴローラ・フロレスティーナ",
+        "userPreferred": "Avrora Florestina"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87960.jpg",
+      "voiceActors": [
+        {
+          "id": 105217,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Ishihara",
+            "full": "Kaori Ishihara",
+            "native": "石原夏織",
+            "userPreferred": "Kaori Ishihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105217-PyXOw2omIHuJ.png"
+        }
+      ]
+    },
+    {
+      "id": 131796,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shio",
+        "last": "Hikawa",
+        "full": "Shio Hikawa",
+        "native": "斐川 志緒",
+        "userPreferred": "Shio Hikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n131796-PBnmzFS0c372.jpg",
+      "voiceActors": [
+        {
+          "id": 119416,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaede",
+            "last": "Hondo",
+            "full": "Kaede Hondo",
+            "native": "本渡楓",
+            "userPreferred": "Kaede Hondo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119416-7RC2mPKDKydB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 131795,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuiri",
+        "last": "Haba ",
+        "full": "Yuiri Haba ",
+        "native": "羽波 唯里",
+        "userPreferred": "Yuiri Haba "
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n131795-S6m9zy0BiuDP.jpg",
+      "voiceActors": [
+        {
+          "id": 119616,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Senbongi",
+            "full": "Sayaka Senbongi",
+            "native": "千本木彩花",
+            "userPreferred": "Sayaka Senbongi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119616-Dakq7gsUo2ja.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 71021,
+      "relationType": "ADAPTATION",
+      "malId": 41021,
+      "title": {
+        "romaji": "Strike the Blood",
+        "english": "Strike the Blood",
+        "native": "ストライク・ザ・ブラッド",
+        "userPreferred": "Strike the Blood"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx71021-TDuV51qcZj1m.jpg",
+      "color": "#5dbbe4",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx71021-TDuV51qcZj1m.jpg",
+      "rating": 71
+    },
+    {
+      "id": 102436,
+      "relationType": "PREQUEL",
+      "malId": 37449,
+      "title": {
+        "romaji": "Strike the Blood III",
+        "english": "Strike the Blood III",
+        "native": "「ストライク・ザ・ブラッド」OVA3",
+        "userPreferred": "Strike the Blood III"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102436-1A1THjDwq8Ky.jpg",
+      "color": "#5de4f1",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/102436-eaRmFIP1OeBF.jpg",
+      "rating": 68
+    },
+    {
+      "id": 136226,
+      "relationType": "SEQUEL",
+      "malId": 49316,
+      "title": {
+        "romaji": "Strike the Blood FINAL",
+        "english": null,
+        "native": "ストライク・ザ・ブラッドFINAL",
+        "userPreferred": "Strike the Blood FINAL"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136226-P58frDKkgvTc.jpg",
+      "color": "#286b86",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136226-P58frDKkgvTc.jpg",
+      "rating": 68
+    }
+  ],
+  "episodes": [
+    {
+      "id": "strike-the-blood-iv-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112296-fkwRQQpfNJX2.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//strike-the-blood-iv-episode-1"
+    },
+    {
+      "id": "strike-the-blood-iv-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112296-fkwRQQpfNJX2.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//strike-the-blood-iv-episode-2"
+    },
+    {
+      "id": "strike-the-blood-iv-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112296-fkwRQQpfNJX2.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//strike-the-blood-iv-episode-3"
+    },
+    {
+      "id": "strike-the-blood-iv-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112296-fkwRQQpfNJX2.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//strike-the-blood-iv-episode-4"
+    },
+    {
+      "id": "strike-the-blood-iv-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112296-fkwRQQpfNJX2.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//strike-the-blood-iv-episode-5"
+    },
+    {
+      "id": "strike-the-blood-iv-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112296-fkwRQQpfNJX2.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//strike-the-blood-iv-episode-6"
+    },
+    {
+      "id": "strike-the-blood-iv-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112296-fkwRQQpfNJX2.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//strike-the-blood-iv-episode-7"
+    },
+    {
+      "id": "strike-the-blood-iv-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112296-fkwRQQpfNJX2.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//strike-the-blood-iv-episode-8"
+    },
+    {
+      "id": "strike-the-blood-iv-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112296-fkwRQQpfNJX2.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//strike-the-blood-iv-episode-9"
+    },
+    {
+      "id": "strike-the-blood-iv-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112296-fkwRQQpfNJX2.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//strike-the-blood-iv-episode-10"
+    },
+    {
+      "id": "strike-the-blood-iv-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112296-fkwRQQpfNJX2.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//strike-the-blood-iv-episode-11"
+    },
+    {
+      "id": "strike-the-blood-iv-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112296-fkwRQQpfNJX2.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//strike-the-blood-iv-episode-12"
+    }
+  ]
+}

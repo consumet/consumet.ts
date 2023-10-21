@@ -1,0 +1,641 @@
+{
+  "id": "3493",
+  "title": {
+    "romaji": "Ryuusei no Rockman Tribe",
+    "english": "Mega Man Star Force Tribe",
+    "native": "流星のロックマン トライブ"
+  },
+  "malId": 3493,
+  "synonyms": [
+    "Ryusei no Rockman Tribe",
+    "Shooting Star Rockman Tribe",
+    "Mega Man Shooting Star Tribe"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+  "popularity": 1434,
+  "color": "#f1ae5d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+  "description": "The second series is to follow the events of the second video game, focusing on the lost continent of Mu. The ancient civilization vanished ages ago, and a few of its remnants still exist as myths and legends called UMAs (unidentified lifeforms). The UMAs begin merging with humans in order to search for the treasures of Mu, the powerful ooparts, which will give them the power to revive Mu. After Subaru and War-Rock encounter several unusual enemies, they meet a professor named Doctor Orihime who sends them on a quest to find the ooparts and stop the UMAs. Using the ooparts, Rockman is able to take new forms, including Thunder Berserk, Fire Dinosaur, and Green Shinobi. (Source: Wikipedia)",
+  "status": "Completed",
+  "releaseDate": 2007,
+  "startDate": {
+    "year": 2007,
+    "month": 11,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 3,
+    "day": 29
+  },
+  "totalEpisodes": 21,
+  "currentEpisode": 21,
+  "rating": 62,
+  "duration": 10,
+  "genres": [
+    "Adventure"
+  ],
+  "season": "FALL",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 4706,
+      "role": "MAIN",
+      "name": {
+        "first": "Misora",
+        "last": "Hibiki",
+        "full": "Misora Hibiki",
+        "native": "響ミソラ",
+        "userPreferred": "Misora Hibiki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4706.jpg",
+      "voiceActors": [
+        {
+          "id": 95207,
+          "language": "Japanese",
+          "name": {
+            "first": "Misato",
+            "last": "Fukuen",
+            "full": "Misato Fukuen",
+            "native": "福圓美里",
+            "userPreferred": "Misato Fukuen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95207-TYPMa0JKUDAf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 257487,
+      "role": "MAIN",
+      "name": {
+        "first": "Harp Note",
+        "last": "",
+        "full": "Harp Note",
+        "native": "ハープノート",
+        "userPreferred": "Harp Note"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b257487-J2Lifx26ydZF.png",
+      "voiceActors": [
+        {
+          "id": 95995,
+          "language": "Japanese",
+          "name": {
+            "first": "Kyouko",
+            "last": "Hikami",
+            "full": "Kyouko Hikami",
+            "native": "氷上恭子",
+            "userPreferred": "Kyouko Hikami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95995-zZU0UQQIQQ3N.png"
+        }
+      ]
+    },
+    {
+      "id": 8765,
+      "role": "MAIN",
+      "name": {
+        "first": "War-Rock",
+        "last": null,
+        "full": "War-Rock",
+        "native": "ウォーロック",
+        "userPreferred": "War-Rock"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8765.jpg",
+      "voiceActors": [
+        {
+          "id": 95221,
+          "language": "Japanese",
+          "name": {
+            "first": "Kentarou",
+            "last": "Itou",
+            "full": "Kentarou Itou",
+            "native": "伊藤健太郎",
+            "userPreferred": "Kentarou Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95221-2rpvfpZXEAZB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 257486,
+      "role": "MAIN",
+      "name": {
+        "first": "Gonta",
+        "last": "Ushijima",
+        "full": "Gonta Ushijima",
+        "native": "牛島ゴン太",
+        "userPreferred": "Gonta Ushijima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b257486-QpoHUo57gHs8.png",
+      "voiceActors": [
+        {
+          "id": 96818,
+          "language": "Japanese",
+          "name": {
+            "first": "Shintarou",
+            "last": "Oohata",
+            "full": "Shintarou Oohata",
+            "native": "大畑伸太郎",
+            "userPreferred": "Shintarou Oohata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96818-yAH3Krh7Y7Uy.png"
+        }
+      ]
+    },
+    {
+      "id": 4704,
+      "role": "MAIN",
+      "name": {
+        "first": "Subaru",
+        "last": "Hoshikawa",
+        "full": "Subaru Hoshikawa",
+        "native": "星川スバル",
+        "userPreferred": "Subaru Hoshikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4704-Gzzo2PkjjzKK.png",
+      "voiceActors": [
+        {
+          "id": 95935,
+          "language": "Japanese",
+          "name": {
+            "first": "Fuyuka",
+            "last": "Ooura",
+            "full": "Fuyuka Ooura",
+            "native": "大浦冬華",
+            "userPreferred": "Fuyuka Ooura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/935.jpg"
+        }
+      ]
+    },
+    {
+      "id": 257484,
+      "role": "MAIN",
+      "name": {
+        "first": "Kizamaro",
+        "last": "Saishouin",
+        "full": "Kizamaro Saishouin",
+        "native": "最小院キザマロ",
+        "userPreferred": "Kizamaro Saishouin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b257484-WxJbH8y5fRPm.png",
+      "voiceActors": [
+        {
+          "id": 101625,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Gibu",
+            "full": "Yuuko Gibu",
+            "native": "儀武ゆう子",
+            "userPreferred": "Yuuko Gibu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/101625-xy2dEvGoLudC.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23780,
+      "role": "MAIN",
+      "name": {
+        "first": "Shooting Star Rockman",
+        "last": null,
+        "full": "Shooting Star Rockman",
+        "native": "流星のロックマン",
+        "userPreferred": "Shooting Star Rockman"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23780.jpg",
+      "voiceActors": [
+        {
+          "id": 95935,
+          "language": "Japanese",
+          "name": {
+            "first": "Fuyuka",
+            "last": "Ooura",
+            "full": "Fuyuka Ooura",
+            "native": "大浦冬華",
+            "userPreferred": "Fuyuka Ooura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/935.jpg"
+        }
+      ]
+    },
+    {
+      "id": 257485,
+      "role": "MAIN",
+      "name": {
+        "first": "Harp",
+        "last": null,
+        "full": "Harp",
+        "native": "ハープ",
+        "userPreferred": "Harp"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b257485-WfndtzSczRLs.png",
+      "voiceActors": [
+        {
+          "id": 95995,
+          "language": "Japanese",
+          "name": {
+            "first": "Kyouko",
+            "last": "Hikami",
+            "full": "Kyouko Hikami",
+            "native": "氷上恭子",
+            "userPreferred": "Kyouko Hikami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95995-zZU0UQQIQQ3N.png"
+        }
+      ]
+    },
+    {
+      "id": 12234,
+      "role": "MAIN",
+      "name": {
+        "first": "Luna",
+        "last": "Shirogane",
+        "full": "Luna Shirogane",
+        "native": "白金　ルナ",
+        "userPreferred": "Luna Shirogane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12234.jpg",
+      "voiceActors": [
+        {
+          "id": 95116,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Ueda",
+            "full": "Kana Ueda",
+            "native": "植田佳奈",
+            "userPreferred": "Kana Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95116-NvhEn6vNMiAq.png"
+        }
+      ]
+    },
+    {
+      "id": 9071,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Solo",
+        "last": null,
+        "full": "Solo",
+        "native": "ソロ",
+        "userPreferred": "Solo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9071.jpg",
+      "voiceActors": [
+        {
+          "id": 95220,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Tai",
+            "full": "Yuuki Tai",
+            "native": "泰勇気",
+            "userPreferred": "Yuuki Tai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/220.jpg"
+        }
+      ]
+    },
+    {
+      "id": 257489,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akane",
+        "last": "Hoshikawa",
+        "full": "Akane Hoshikawa",
+        "native": "星河あかね",
+        "userPreferred": "Akane Hoshikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b257489-9ZZFAXOCYTXG.png",
+      "voiceActors": [
+        {
+          "id": 95467,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Kimura",
+            "full": "Akiko Kimura",
+            "native": "木村亜希子",
+            "userPreferred": "Akiko Kimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/467.jpg"
+        }
+      ]
+    },
+    {
+      "id": 257483,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Heiji",
+        "last": "Goyoda",
+        "full": "Heiji Goyoda",
+        "native": "五陽田ヘイジ",
+        "userPreferred": "Heiji Goyoda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b257483-HYRA4nX44xvx.png",
+      "voiceActors": [
+        {
+          "id": 96520,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoyuki",
+            "last": "Shimura",
+            "full": "Tomoyuki Shimura",
+            "native": "志村知幸",
+            "userPreferred": "Tomoyuki Shimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1520.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13785,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsukasa",
+        "last": "Futaba",
+        "full": "Tsukasa Futaba",
+        "native": "双葉ツカサ",
+        "userPreferred": "Tsukasa Futaba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13785.jpg",
+      "voiceActors": [
+        {
+          "id": 95688,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Kaida",
+            "full": "Yuki Kaida",
+            "native": "甲斐田ゆき",
+            "userPreferred": "Yuki Kaida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95688-uK5svGURlbgS.png"
+        }
+      ]
+    },
+    {
+      "id": 257488,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mamoru",
+        "last": "Amachi",
+        "full": "Mamoru Amachi",
+        "native": "天地守",
+        "userPreferred": "Mamoru Amachi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b257488-GUvbapJ1Bv5j.png",
+      "voiceActors": [
+        {
+          "id": 101214,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Tsuchida",
+            "full": "Hiroshi Tsuchida",
+            "native": "土田大",
+            "userPreferred": "Hiroshi Tsuchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101214-kvHCKwu88FcF.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1835,
+      "relationType": "PREQUEL",
+      "malId": 1835,
+      "title": {
+        "romaji": "Ryuusei no Rockman",
+        "english": "Mega Man Star Force",
+        "native": "流星のロックマン",
+        "userPreferred": "Ryuusei no Rockman"
+      },
+      "status": "Completed",
+      "episodes": 55,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1835-6GfMj4kSZo3b.jpg",
+      "color": "#e4ae35",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1835-6GfMj4kSZo3b.jpg",
+      "rating": 66
+    },
+    {
+      "id": 2808,
+      "relationType": "ALTERNATIVE",
+      "malId": 2808,
+      "title": {
+        "romaji": "Irregular Hunter X: The Day of Sigma",
+        "english": "Mega Man X - The Day of Sigma",
+        "native": "イレギュラーハンターＸ",
+        "userPreferred": "Irregular Hunter X: The Day of Sigma"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2808.jpg",
+      "color": "#ffd635",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2808.jpg",
+      "rating": 67
+    }
+  ],
+  "episodes": [
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-1"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-2"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-3"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-4"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-5"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-6"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-7"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-8"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-9"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-10"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-11"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-12"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-13"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-14"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-15"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-16"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-17",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 17,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-17"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-18",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 18,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-18"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-19",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 19,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-19"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-20",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 20,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-20"
+    },
+    {
+      "id": "ryuusei-no-rockman-tribe-episode-21",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3493.jpg",
+      "number": 21,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ryuusei-no-rockman-tribe-episode-21"
+    }
+  ]
+}

@@ -1,0 +1,707 @@
+{
+  "id": "1493",
+  "title": {
+    "romaji": "Project ARMS: The 2nd Chapter",
+    "english": "Project ARMS: The 2nd Chapter",
+    "native": null
+  },
+  "malId": 1493,
+  "synonyms": [
+    "Project Arms 2",
+    "ARMS2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1493-sLFc2wR1q92E.jpg",
+  "popularity": 912,
+  "color": "#d61a35",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1493-sLFc2wR1q92E.jpg",
+  "description": "The 2nd Chapter continues the story of Ryo Takatsuki and his companions' quest to discover the secret of the mysterious A.R.M.S. they all possess and what the future may hold for them. They now know where the answers lie but to get to them, they must fight a desperate fight of survival against a powerful military corporation that wants their secrets no matter what the cost.<br><br>\n(Source: AniDB)",
+  "status": "Completed",
+  "releaseDate": 2001,
+  "startDate": {
+    "year": 2001,
+    "month": 10,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2002,
+    "month": 3,
+    "day": 30
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 61,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Fantasy",
+    "Mystery",
+    "Sci-Fi",
+    "Thriller"
+  ],
+  "season": "FALL",
+  "studios": [
+    "TMS Entertainment"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 22317,
+      "role": "MAIN",
+      "name": {
+        "first": "Kei",
+        "last": "Kuruma",
+        "full": "Kei Kuruma",
+        "native": null,
+        "userPreferred": "Kei Kuruma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b22317-MPR1P5ttSW3t.jpg",
+      "voiceActors": [
+        {
+          "id": 95024,
+          "language": "Japanese",
+          "name": {
+            "first": "Minami",
+            "last": "Takayama",
+            "full": "Minami Takayama",
+            "native": "高山みなみ",
+            "userPreferred": "Minami Takayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95024-qsZgGp8VHqMP.png"
+        },
+        {
+          "id": 96165,
+          "language": "English",
+          "name": {
+            "first": "Nicole",
+            "last": "Oliver",
+            "full": "Nicole Oliver",
+            "native": null,
+            "userPreferred": "Nicole Oliver"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1165.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22318,
+      "role": "MAIN",
+      "name": {
+        "first": "Katsumi",
+        "last": "Akagi",
+        "full": "Katsumi Akagi",
+        "native": "赤木カツミ",
+        "userPreferred": "Katsumi Akagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22318.jpg",
+      "voiceActors": [
+        {
+          "id": 105790,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Miura",
+            "full": "Tomoko Miura",
+            "native": "三浦智子",
+            "userPreferred": "Tomoko Miura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10790.jpg"
+        },
+        {
+          "id": 95444,
+          "language": "English",
+          "name": {
+            "first": "Venus",
+            "last": "Terzo",
+            "full": "Venus Terzo",
+            "native": null,
+            "userPreferred": "Venus Terzo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95444-Qioj4HUdoj6o.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4838,
+      "role": "MAIN",
+      "name": {
+        "first": "Ryo",
+        "last": "Takatsuki",
+        "full": "Ryo Takatsuki",
+        "native": null,
+        "userPreferred": "Ryo Takatsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4838.jpg",
+      "voiceActors": [
+        {
+          "id": 95096,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobutoshi",
+            "last": "Kanna",
+            "full": "Nobutoshi Kanna",
+            "native": "神奈延年",
+            "userPreferred": "Nobutoshi Kanna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95096-7XONtZWj5lIw.png"
+        },
+        {
+          "id": 95307,
+          "language": "English",
+          "name": {
+            "first": "Kirby",
+            "last": "Morrow",
+            "full": "Kirby Morrow",
+            "native": null,
+            "userPreferred": "Kirby Morrow"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95307-KnqG1E5BgQpn.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22315,
+      "role": "MAIN",
+      "name": {
+        "first": "Hayato",
+        "last": "Shingu",
+        "full": "Hayato Shingu",
+        "native": "新宮隼人",
+        "userPreferred": "Hayato Shingu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b22315-X3r1nLsBeVzs.jpg",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        },
+        {
+          "id": 95515,
+          "language": "English",
+          "name": {
+            "first": "Brian",
+            "last": "Drummond",
+            "full": "Brian Drummond",
+            "native": null,
+            "userPreferred": "Brian Drummond"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95515-jCqOzlX9iNhC.png"
+        }
+      ]
+    },
+    {
+      "id": 22316,
+      "role": "MAIN",
+      "name": {
+        "first": "Takeshi",
+        "last": "Tomoe",
+        "full": "Takeshi Tomoe",
+        "native": "巴武士",
+        "userPreferred": "Takeshi Tomoe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b22316-m62ciCLRiIdS.jpg",
+      "voiceActors": [
+        {
+          "id": 95058,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Ueda",
+            "full": "Yuuji Ueda",
+            "native": "うえだゆうじ",
+            "userPreferred": "Yuuji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95058-fGnId7E4tgx3.jpg"
+        },
+        {
+          "id": 95370,
+          "language": "English",
+          "name": {
+            "first": "Brad",
+            "last": "Swaile",
+            "full": "Brad Swaile",
+            "native": null,
+            "userPreferred": "Brad Swaile"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95370-1Z9Us8CD2IVs.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36506,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keith",
+        "last": "Violet",
+        "full": "Keith Violet",
+        "native": "キース・バイオレット",
+        "userPreferred": "Keith Violet"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36506-nU2Y6HDTgae1.jpg",
+      "voiceActors": [
+        {
+          "id": 95057,
+          "language": "Japanese",
+          "name": {
+            "first": "Houko",
+            "last": "Kuwashima",
+            "full": "Houko Kuwashima",
+            "native": "桑島法子",
+            "userPreferred": "Houko Kuwashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95057-nMZEwJet445W.jpg"
+        },
+        {
+          "id": 95464,
+          "language": "English",
+          "name": {
+            "first": "Janyse",
+            "last": "Jaud",
+            "full": "Janyse Jaud",
+            "native": null,
+            "userPreferred": "Janyse Jaud"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95464-lgWUADUFq99k.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36507,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keith",
+        "last": "Green",
+        "full": "Keith Green",
+        "native": null,
+        "userPreferred": "Keith Green"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36507-hSA7i4FZBy5m.jpg",
+      "voiceActors": [
+        {
+          "id": 95560,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Kisaichi",
+            "full": "Atsushi Kisaichi",
+            "native": "私市淳",
+            "userPreferred": "Atsushi Kisaichi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95560-zMj9LRxhYkMX.jpg"
+        },
+        {
+          "id": 95880,
+          "language": "English",
+          "name": {
+            "first": "Andrew",
+            "last": "Francis",
+            "full": "Andrew Francis",
+            "native": null,
+            "userPreferred": "Andrew Francis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/880.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36509,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keith",
+        "last": "Silver",
+        "full": "Keith Silver",
+        "native": "キース・シルバー",
+        "userPreferred": "Keith Silver"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36509-IGgiSLzK0xtT.jpg",
+      "voiceActors": [
+        {
+          "id": 102713,
+          "language": "Japanese",
+          "name": {
+            "first": "Yasuhiko",
+            "last": "Kawazu",
+            "full": "Yasuhiko Kawazu",
+            "native": "川津泰彦",
+            "userPreferred": "Yasuhiko Kawazu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102713-2MmIe1hDrg1j.png"
+        },
+        {
+          "id": 103665,
+          "language": "English",
+          "name": {
+            "first": "Lee",
+            "last": "Tockar",
+            "full": "Lee Tockar",
+            "native": null,
+            "userPreferred": "Lee Tockar"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103665-FfLAp8TWSa20.png"
+        }
+      ]
+    },
+    {
+      "id": 36504,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keith",
+        "last": "Blue",
+        "full": "Keith Blue",
+        "native": null,
+        "userPreferred": "Keith Blue"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36504-8Zu1BPG10GBL.jpg",
+      "voiceActors": [
+        {
+          "id": 95718,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroya",
+            "last": "Ishimaru",
+            "full": "Hiroya Ishimaru",
+            "native": "石丸博也",
+            "userPreferred": "Hiroya Ishimaru"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95718-3ke4CyMs9um5.png"
+        },
+        {
+          "id": 103292,
+          "language": "English",
+          "name": {
+            "first": "Ross",
+            "last": "Douglas",
+            "full": "Ross Douglas",
+            "native": null,
+            "userPreferred": "Ross Douglas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8292.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36505,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keith",
+        "last": "Black",
+        "full": "Keith Black",
+        "native": "キース・ブラック",
+        "userPreferred": "Keith Black"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36505-GvFXB84Kj0D5.jpg",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        },
+        {
+          "id": 95304,
+          "language": "English",
+          "name": {
+            "first": "Sam",
+            "last": "Khouth",
+            "full": "Sam Khouth",
+            "native": null,
+            "userPreferred": "Sam Khouth"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95304-tEe39dsTPAkN.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1492,
+      "relationType": "PREQUEL",
+      "malId": 1492,
+      "title": {
+        "romaji": "Project ARMS",
+        "english": "Project ARMS",
+        "native": "プロジェクトアームズ",
+        "userPreferred": "Project ARMS"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1492-bdES48xL6wjS.jpg",
+      "color": "#e45d50",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1492-bdES48xL6wjS.jpg",
+      "rating": 64
+    },
+    {
+      "id": 31503,
+      "relationType": "ADAPTATION",
+      "malId": 1503,
+      "title": {
+        "romaji": "ARMS",
+        "english": "Project ARMS",
+        "native": "ARMS",
+        "userPreferred": "ARMS"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31503-hBnnHqANh0Eo.png",
+      "color": "#e46b5d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/31503-igo6oSxjocyq.jpg",
+      "rating": 68
+    }
+  ],
+  "episodes": [
+    {
+      "id": "project-arms-the-2nd-chapter-episode-1",
+      "title": "Arrive",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24009/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-1"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-2",
+      "title": "Hound",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24010/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-2"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-3",
+      "title": "Hunter",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24011/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-3"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-4",
+      "title": "Link",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24012/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-4"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-5",
+      "title": "Hercules",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24013/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-5"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-6",
+      "title": "Incubation",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24014/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-6"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-7",
+      "title": "Mars",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24015/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-7"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-8",
+      "title": "Canary",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24016/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-8"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-9",
+      "title": "Silent",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24017/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-9"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-10",
+      "title": "Stream",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24018/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-10"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-11",
+      "title": "Forward",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24019/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-11"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-12",
+      "title": "Coma",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24020/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-12"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-13",
+      "title": "Element",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24021/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-13"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-14",
+      "title": "Reverse",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24022/original.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-14"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-15",
+      "title": "Drakken",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24023/original.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-15"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-16",
+      "title": "Alice",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24024/original.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-16"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-17",
+      "title": "Turn",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24025/original.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-17"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-18",
+      "title": "Arcadia",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24026/original.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-18"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-19",
+      "title": "Killing Field",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24027/original.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-19"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-20",
+      "title": "Fortress",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24028/original.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-20"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-21",
+      "title": "Junction",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24029/original.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-21"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-22",
+      "title": "Human",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24030/original.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-22"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-23",
+      "title": "Liberation",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24031/original.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-23"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-24",
+      "title": "Animus",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24032/original.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-24"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-25",
+      "title": "Blue Wish",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24033/original.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-25"
+    },
+    {
+      "id": "project-arms-the-2nd-chapter-episode-26",
+      "title": "Life",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24034/original.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:22:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//project-arms-the-2nd-chapter-episode-26"
+    }
+  ]
+}

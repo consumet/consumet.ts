@@ -1,0 +1,434 @@
+{
+  "id": "2267",
+  "title": {
+    "romaji": "Red Garden: Dead Girls",
+    "english": null,
+    "native": "レッドガーデン デッドガールズ"
+  },
+  "malId": 2267,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2267.jpg",
+  "popularity": 1281,
+  "color": "#f1c95d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2267.jpg",
+  "description": "In the future (subsequent to the events of the television series) Kate, Rose, Rachel and Claire divide their immortal lives between study and vigilantism. Their past link to the red garden on Roosevelt Island comes back to haunt them after mysterious transfer students Louise and Edgar seek out their friendship.",
+  "status": "Completed",
+  "releaseDate": 2007,
+  "startDate": {
+    "year": 2007,
+    "month": 8,
+    "day": 8
+  },
+  "endDate": {
+    "year": 2007,
+    "month": 8,
+    "day": 8
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 57,
+  "duration": 44,
+  "genres": [
+    "Mecha",
+    "Mystery"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "GONZO"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 3123,
+      "role": "MAIN",
+      "name": {
+        "first": "Claire",
+        "last": "Forrest",
+        "full": "Claire Forrest",
+        "native": null,
+        "userPreferred": "Claire Forrest"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3123.jpg",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        },
+        {
+          "id": 95417,
+          "language": "English",
+          "name": {
+            "first": "Kara",
+            "last": "Greenberg",
+            "full": "Kara Greenberg",
+            "native": null,
+            "userPreferred": "Kara Greenberg"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/417.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3126,
+      "role": "MAIN",
+      "name": {
+        "first": "Rose",
+        "last": "Sheedy",
+        "full": "Rose Sheedy",
+        "native": null,
+        "userPreferred": "Rose Sheedy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3126.jpg",
+      "voiceActors": [
+        {
+          "id": 95383,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Tsuji",
+            "full": "Ayumi Tsuji",
+            "native": "辻あゆみ",
+            "userPreferred": "Ayumi Tsuji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95383-O5zWdJKKcPAq.png"
+        },
+        {
+          "id": 95414,
+          "language": "English",
+          "name": {
+            "first": "Brittney",
+            "last": "Karbowski",
+            "full": "Brittney Karbowski",
+            "native": null,
+            "userPreferred": "Brittney Karbowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/414.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29130,
+      "role": "MAIN",
+      "name": {
+        "first": "Edgar",
+        "last": null,
+        "full": "Edgar",
+        "native": null,
+        "userPreferred": "Edgar"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29130.jpg",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        },
+        {
+          "id": 106846,
+          "language": "English",
+          "name": {
+            "first": "Quentin",
+            "last": "Haag",
+            "full": "Quentin Haag",
+            "native": null,
+            "userPreferred": "Quentin Haag"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3125,
+      "role": "MAIN",
+      "name": {
+        "first": "Rachel",
+        "last": "Benning",
+        "full": "Rachel Benning",
+        "native": null,
+        "userPreferred": "Rachel Benning"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3125.jpg",
+      "voiceActors": [
+        {
+          "id": 95315,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shintani",
+            "full": "Ryouko Shintani",
+            "native": "新谷良子",
+            "userPreferred": "Ryouko Shintani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95315-6lzPWFB0mhh8.png"
+        },
+        {
+          "id": 95418,
+          "language": "English",
+          "name": {
+            "first": "Maggie",
+            "last": "Flecknoe",
+            "full": "Maggie Flecknoe",
+            "native": null,
+            "userPreferred": "Maggie Flecknoe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/418.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3124,
+      "role": "MAIN",
+      "name": {
+        "first": "Kate",
+        "last": "Ashley",
+        "full": "Kate Ashley",
+        "native": null,
+        "userPreferred": "Kate Ashley"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3124.jpg",
+      "voiceActors": [
+        {
+          "id": 95382,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Tomisaka",
+            "full": "Akira Tomisaka",
+            "native": "富坂晶",
+            "userPreferred": "Akira Tomisaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/382.jpg"
+        },
+        {
+          "id": 95963,
+          "language": "English",
+          "name": {
+            "first": "Melissa",
+            "last": "Davis",
+            "full": "Melissa Davis",
+            "native": null,
+            "userPreferred": "Melissa Davis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/963.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38481,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Neil",
+        "last": "Kasdan",
+        "full": "Neil Kasdan",
+        "native": "ニール・カスダン",
+        "userPreferred": "Neil Kasdan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38481.jpg",
+      "voiceActors": [
+        {
+          "id": 95926,
+          "language": "Japanese",
+          "name": {
+            "first": "Youji",
+            "last": "Ueda",
+            "full": "Youji Ueda",
+            "native": "上田燿司",
+            "userPreferred": "Youji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95926-IzwXTUF5tUJD.png"
+        }
+      ]
+    },
+    {
+      "id": 3641,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lula",
+        "last": null,
+        "full": "Lula",
+        "native": "ルーラ",
+        "userPreferred": "Lula"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3641.jpg",
+      "voiceActors": [
+        {
+          "id": 95193,
+          "language": "English",
+          "name": {
+            "first": "Shelley",
+            "last": "Calene-Black",
+            "full": "Shelley Calene-Black",
+            "native": null,
+            "userPreferred": "Shelley Calene-Black"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95193-Nvdjk8BIcEJb.png"
+        }
+      ]
+    },
+    {
+      "id": 38482,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Claude",
+        "last": "Steiner",
+        "full": "Claude Steiner",
+        "native": "クロード・シュタイナー",
+        "userPreferred": "Claude Steiner"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38482.jpg",
+      "voiceActors": [
+        {
+          "id": 95800,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinpachi",
+            "last": "Tsuji",
+            "full": "Shinpachi Tsuji",
+            "native": "辻親八",
+            "userPreferred": "Shinpachi Tsuji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95800-TBMYjwu8Wy6T.png"
+        },
+        {
+          "id": 95201,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Swasey",
+            "full": "John Swasey",
+            "native": null,
+            "userPreferred": "John Swasey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95201-cas6XbtZmMay.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17322,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Louise",
+        "last": null,
+        "full": "Louise",
+        "native": null,
+        "userPreferred": "Louise"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17322.jpg",
+      "voiceActors": [
+        {
+          "id": 95207,
+          "language": "Japanese",
+          "name": {
+            "first": "Misato",
+            "last": "Fukuen",
+            "full": "Misato Fukuen",
+            "native": "福圓美里",
+            "userPreferred": "Misato Fukuen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95207-TYPMa0JKUDAf.jpg"
+        },
+        {
+          "id": 95642,
+          "language": "English",
+          "name": {
+            "first": "Taylor",
+            "last": "Hannah",
+            "full": "Taylor Hannah",
+            "native": null,
+            "userPreferred": "Taylor Hannah"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/642.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23685,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Luke",
+        "last": null,
+        "full": "Luke",
+        "native": null,
+        "userPreferred": "Luke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23685.jpg",
+      "voiceActors": [
+        {
+          "id": 96641,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Masuda",
+            "full": "Yuuki Masuda",
+            "native": "増田裕生",
+            "userPreferred": "Yuuki Masuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96641-LW4dDxi4rrF5.png"
+        },
+        {
+          "id": 95282,
+          "language": "English",
+          "name": {
+            "first": "Illich",
+            "last": "Guardiola",
+            "full": "Illich Guardiola",
+            "native": null,
+            "userPreferred": "Illich Guardiola"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/282.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1601,
+      "relationType": "PREQUEL",
+      "malId": 1601,
+      "title": {
+        "romaji": "Red Garden",
+        "english": "Red Garden",
+        "native": "レッド ガーデン",
+        "userPreferred": "Red Garden"
+      },
+      "status": "Completed",
+      "episodes": 22,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1601-cvfDZsR6D98V.png",
+      "color": "#e45093",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1601-cvfDZsR6D98V.png",
+      "rating": 65
+    }
+  ],
+  "episodes": [
+    {
+      "id": "red-garden-dead-girls-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2267.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//red-garden-dead-girls-episode-1"
+    }
+  ]
+}

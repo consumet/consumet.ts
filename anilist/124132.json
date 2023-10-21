@@ -1,0 +1,422 @@
+{
+  "id": "124132",
+  "title": {
+    "romaji": "Natsume Yuujinchou: Ishi Okoshi to Ayashiki Raihousha",
+    "english": null,
+    "native": "夏目友人帳 石起こしと怪しき来訪者"
+  },
+  "malId": 42894,
+  "synonyms": [
+    "Natsume's Book of Friends: The Waking Rock and the Strange Visitor",
+    "นัตสึเมะกับบันทึกพิศวง เดอะ มูฟวี่ ผู้ปลุกหินผาและผู้มาเยือนประหลาด"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "sqotSD-JeXA",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/sqotSD-JeXA/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124132-1CMeg6ZKv09Q.jpg",
+  "popularity": 7761,
+  "color": "#e4bb50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124132-1CMeg6ZKv09Q.jpg",
+  "description": "In \"Ishi Okoshi,\" Natsume meets a small youkai called Mitsumi in a forest. Mitsumi is entrusted to wake up the divine youkai \"Iwatetsu\" from its deep slumber. Mitsumi weighs on Natsume's mind, so he sets out to help Mitsumi with his task.\n<br><br>\nIn \"Ayashiki Raihousha,\" a mysterious visitor appears in front of Tanuma. Nearly every day, the visitor visits Tanuma, talks to him a little, and then leaves. Natsume, who knows the visitor is a youkai, worries for Tanuma, but Tanuma enjoys these exchanges with the youkai. The youkai means no harm, but Tanuma's health slowly starts to deteriorate.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2021,
+  "startDate": {
+    "year": 2021,
+    "month": 1,
+    "day": 16
+  },
+  "endDate": {
+    "year": 2021,
+    "month": 1,
+    "day": 16
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 79,
+  "duration": 51,
+  "genres": [
+    "Drama",
+    "Fantasy",
+    "Slice of Life",
+    "Supernatural"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Shuka"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 10408,
+      "malId": 10408,
+      "title": {
+        "romaji": "Hotarubi no Mori e",
+        "english": "Into the Forest of Fireflies' Light",
+        "native": "蛍火の杜へ",
+        "userPreferred": "Hotarubi no Mori e"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10408-PlKJ6DAyvMk2.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10408-kZhXe0uVrAd2.jpg",
+      "rating": 79,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 13783,
+      "role": "MAIN",
+      "name": {
+        "first": "Takashi",
+        "last": "Natsume",
+        "full": "Takashi Natsume",
+        "native": "夏目貴志",
+        "userPreferred": "Takashi Natsume"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13783-FvmhRaCOKzKQ.png",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        }
+      ]
+    },
+    {
+      "id": 13888,
+      "role": "MAIN",
+      "name": {
+        "first": "Kaname",
+        "last": "Tanuma",
+        "full": "Kaname Tanuma",
+        "native": "田沼要",
+        "userPreferred": "Kaname Tanuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13888-W2Lq1k67yLg7.jpg",
+      "voiceActors": [
+        {
+          "id": 95456,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuma",
+            "last": "Horie",
+            "full": "Kazuma Horie",
+            "native": "堀江一眞",
+            "userPreferred": "Kazuma Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95456-a2LdFNUAoJS3.png"
+        }
+      ]
+    },
+    {
+      "id": 25272,
+      "role": "MAIN",
+      "name": {
+        "first": "Misuzu",
+        "last": null,
+        "full": "Misuzu",
+        "native": "三篠",
+        "userPreferred": "Misuzu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b25272-TtXoDHXHbgQ2.jpg",
+      "voiceActors": [
+        {
+          "id": 96122,
+          "language": "Japanese",
+          "name": {
+            "first": "Takaya",
+            "last": "Kuroda",
+            "full": "Takaya Kuroda",
+            "native": "黒田崇矢",
+            "userPreferred": "Takaya Kuroda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96122-KZMI0XXqYtpG.png"
+        }
+      ]
+    },
+    {
+      "id": 13784,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Madara",
+        "last": "",
+        "full": "Madara",
+        "native": "斑",
+        "userPreferred": "Madara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13784.jpg",
+      "voiceActors": [
+        {
+          "id": 95021,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiko",
+            "last": "Inoue",
+            "full": "Kazuhiko Inoue",
+            "native": "井上和彦",
+            "userPreferred": "Kazuhiko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95021-9qAoAn6GNZ3S.png"
+        }
+      ]
+    },
+    {
+      "id": 189398,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Iwatetsu",
+        "last": null,
+        "full": "Iwatetsu",
+        "native": "岩鉄",
+        "userPreferred": "Iwatetsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b189398-9M0rHmu53Ce9.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 189397,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mitsumi",
+        "last": null,
+        "full": "Mitsumi",
+        "native": "ミツミ",
+        "userPreferred": "Mitsumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b189397-cCpBi8AnVEZy.png",
+      "voiceActors": [
+        {
+          "id": 103555,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisako",
+            "last": "Kanemoto",
+            "full": "Hisako Kanemoto",
+            "native": "金元寿子",
+            "userPreferred": "Hisako Kanemoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103555-2ZtBwZfy9DTi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19455,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hinoe",
+        "last": null,
+        "full": "Hinoe",
+        "native": "ヒノエ",
+        "userPreferred": "Hinoe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19455.jpg",
+      "voiceActors": [
+        {
+          "id": 95076,
+          "language": "Japanese",
+          "name": {
+            "first": "Akemi",
+            "last": "Okamura",
+            "full": "Akemi Okamura",
+            "native": "岡村明美",
+            "userPreferred": "Akemi Okamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95076-itRGy8F3x5Em.png"
+        }
+      ]
+    },
+    {
+      "id": 36826,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hitotsume no Chuukyuu Youkai",
+        "last": null,
+        "full": "Hitotsume no Chuukyuu Youkai",
+        "native": "一つ目の中級妖怪",
+        "userPreferred": "Hitotsume no Chuukyuu Youkai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36826-Jr56GWbduSOF.jpg",
+      "voiceActors": [
+        {
+          "id": 95685,
+          "language": "Japanese",
+          "name": {
+            "first": "Takashi",
+            "last": "Matsuyama",
+            "full": "Takashi Matsuyama",
+            "native": "松山鷹志",
+            "userPreferred": "Takashi Matsuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95685-hBzFgdWzq43x.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23115,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chobi-hige",
+        "last": null,
+        "full": "Chobi-hige",
+        "native": "ちょびひげ",
+        "userPreferred": "Chobi-hige"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23115.jpg",
+      "voiceActors": [
+        {
+          "id": 95898,
+          "language": "Japanese",
+          "name": {
+            "first": "Choo",
+            "last": null,
+            "full": "Choo",
+            "native": "チョー ",
+            "userPreferred": "Choo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95898-XHSESV65G8Jv.png"
+        }
+      ]
+    },
+    {
+      "id": 44209,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ushikao no Chuukyuu Youkai",
+        "last": null,
+        "full": "Ushikao no Chuukyuu Youkai",
+        "native": "牛顔の中級妖怪",
+        "userPreferred": "Ushikao no Chuukyuu Youkai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b44209-WKoEs9ZA4wSt.jpg",
+      "voiceActors": [
+        {
+          "id": 101003,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Shimozaki",
+            "full": "Hiroshi Shimozaki",
+            "native": "紘史 下崎",
+            "userPreferred": "Hiroshi Shimozaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6003.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23038,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Satoru",
+        "last": "Nishimura",
+        "full": "Satoru Nishimura",
+        "native": "西村 悟",
+        "userPreferred": "Satoru Nishimura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b23038-Hpz0og46jyCJ.jpg",
+      "voiceActors": [
+        {
+          "id": 96762,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouhei",
+            "last": "Kimura",
+            "full": "Ryouhei Kimura",
+            "native": "木村良平",
+            "userPreferred": "Ryouhei Kimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96762-DNKMFBA2vWRr.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23039,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Atsushi",
+        "last": "Kitamoto",
+        "full": "Atsushi Kitamoto",
+        "native": "北本篤史",
+        "userPreferred": "Atsushi Kitamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b23039-Q9gGFW3RLFJc.jpg",
+      "voiceActors": [
+        {
+          "id": 95441,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisayoshi",
+            "last": "Suganuma",
+            "full": "Hisayoshi Suganuma",
+            "native": "菅沼久義",
+            "userPreferred": "Hisayoshi Suganuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95441-i7m3Auotx9KB.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 97983,
+      "relationType": "PARENT",
+      "malId": 34591,
+      "title": {
+        "romaji": "Natsume Yuujinchou Roku",
+        "english": "Natsume's Book of Friends 6",
+        "native": "夏目友人帳 陸",
+        "userPreferred": "Natsume Yuujinchou Roku"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97983-Uqn04SR6hVW9.jpg",
+      "color": "#5daee4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97983-gnWWi3k6xstM.jpg",
+      "rating": 85
+    },
+    {
+      "id": 31859,
+      "relationType": "ADAPTATION",
+      "malId": 1859,
+      "title": {
+        "romaji": "Natsume Yuujinchou",
+        "english": "Natsume's Book of Friends",
+        "native": "夏目友人帳",
+        "userPreferred": "Natsume Yuujinchou"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31859-mITgIaJFBzl4.png",
+      "color": "#ffa143",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/31859-cldDQH6BHxtF.jpg",
+      "rating": 85
+    }
+  ],
+  "episodes": [
+    {
+      "id": "natsume-yuujinchou-ishi-okoshi-to-ayashiki-raihousha-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124132-1CMeg6ZKv09Q.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//natsume-yuujinchou-ishi-okoshi-to-ayashiki-raihousha-episode-1"
+    }
+  ]
+}

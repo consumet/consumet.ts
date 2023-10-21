@@ -1,0 +1,580 @@
+{
+  "id": "125910",
+  "title": {
+    "romaji": "VAZZROCK THE ANIMATION",
+    "english": "VAZZROCK THE ANIMATION",
+    "native": "VAZZROCK THE ANIMATION"
+  },
+  "malId": 43771,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125910-DimvsuplrPqs.jpg",
+  "popularity": 1594,
+  "color": "#f1d6c9",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/125910-0OdIof4FolNz.jpg",
+  "description": "Twelve dazzling talents decide to make the most daring music groups ever: VAZZY and ROCK DOWN. Through rivalry and friendship, these gems help each other get better in every way. Even with unique differences, they all share a common goal—to shine! <br><br>\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2022,
+  "startDate": {
+    "year": 2022,
+    "month": 10,
+    "day": 4
+  },
+  "endDate": {
+    "year": 2022,
+    "month": 12,
+    "day": 27
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 42,
+  "duration": 24,
+  "genres": [
+    "Music"
+  ],
+  "season": "FALL",
+  "studios": [
+    "PRA"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 131584,
+      "malId": 48567,
+      "title": {
+        "romaji": "Visual Prison",
+        "english": "VISUAL PRISON",
+        "native": "ヴィジュアルプリズン",
+        "userPreferred": "Visual Prison"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131584-NTqZKbKvGEsK.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131584-oAAFNNZvQAqO.jpg",
+      "rating": 59,
+      "type": "TV"
+    },
+    {
+      "id": 87495,
+      "malId": 33899,
+      "title": {
+        "romaji": "IDOLiSH7",
+        "english": "IDOLiSH7",
+        "native": "アイドリッシュセブン",
+        "userPreferred": "IDOLiSH7"
+      },
+      "status": "Completed",
+      "episodes": 17,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx87495-ARGOIUGZreoN.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/87495-nFpvMZCbfJNZ.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 105244,
+      "malId": 38669,
+      "title": {
+        "romaji": "Tsukiuta. THE ANIMATION 2",
+        "english": "TSUKIUTA. The Animation Season 2",
+        "native": "ツキウタ。 THE ANIMATION 2",
+        "userPreferred": "Tsukiuta. THE ANIMATION 2"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105244-0EhJURYarzXl.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/105244-CG0E69yKxs5j.jpg",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 154969,
+      "malId": 53132,
+      "title": {
+        "romaji": "UniteUp!",
+        "english": "UniteUp!",
+        "native": "UniteUp!",
+        "userPreferred": "UniteUp!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154969-dEPbdET6V9Uk.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/154969-Tdw7vXuWAQbG.jpg",
+      "rating": 69,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 275603,
+      "role": "MAIN",
+      "name": {
+        "first": "Takaaki",
+        "last": "Mamiya",
+        "full": "Takaaki Mamiya",
+        "native": "眞宮孝明",
+        "userPreferred": "Takaaki Mamiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b275603-sr9hgygpIxXq.jpg",
+      "voiceActors": [
+        {
+          "id": 102242,
+          "language": "Japanese",
+          "name": {
+            "first": "Tarusuke",
+            "last": "Shingaki",
+            "full": "Tarusuke Shingaki",
+            "native": "新垣樽助",
+            "userPreferred": "Tarusuke Shingaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102242-bx8hrisiHiSK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 275610,
+      "role": "MAIN",
+      "name": {
+        "first": "Shou",
+        "last": "Onoda",
+        "full": "Shou Onoda",
+        "native": "小野田翔",
+        "userPreferred": "Shou Onoda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b275610-F0hOzpUhFXoH.jpg",
+      "voiceActors": [
+        {
+          "id": 119625,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukitoshi",
+            "last": "Kikuchi",
+            "full": "Yukitoshi Kikuchi",
+            "native": "菊池幸利 ",
+            "userPreferred": "Yukitoshi Kikuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/24625-E65Pyyfivnzv.jpg"
+        }
+      ]
+    },
+    {
+      "id": 275612,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuma",
+        "last": "Shirase",
+        "full": "Yuma Shirase",
+        "native": "白瀬優馬",
+        "userPreferred": "Yuma Shirase"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b275612-nF8nVIAPMj5P.jpg",
+      "voiceActors": [
+        {
+          "id": 119869,
+          "language": "Japanese",
+          "name": {
+            "first": "Shun",
+            "last": "Horie",
+            "full": "Shun Horie",
+            "native": "堀江瞬",
+            "userPreferred": "Shun Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119869-mUUrORIQBlnB.png"
+        }
+      ]
+    },
+    {
+      "id": 275604,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ayumu",
+        "last": "Tachibana",
+        "full": "Ayumu Tachibana",
+        "native": "立花歩",
+        "userPreferred": "Ayumu Tachibana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b275604-TxPgJpognkgU.jpg",
+      "voiceActors": [
+        {
+          "id": 151336,
+          "language": "Japanese",
+          "name": {
+            "first": "Taito",
+            "last": "Ban",
+            "full": "Taito Ban",
+            "native": "坂泰斗",
+            "userPreferred": "Taito Ban"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n151336-UiJpyoiQHAOU.png"
+        }
+      ]
+    },
+    {
+      "id": 275613,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Futaba",
+        "last": "Kidzuku",
+        "full": "Futaba Kidzuku",
+        "native": "築二葉",
+        "userPreferred": "Futaba Kidzuku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b275613-3fXSIFxOT1XG.jpg",
+      "voiceActors": [
+        {
+          "id": 114641,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuusuke",
+            "last": "Shirai",
+            "full": "Yuusuke Shirai",
+            "native": "白井悠介",
+            "userPreferred": "Yuusuke Shirai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114641-sFxCz9z3KQC9.png"
+        }
+      ]
+    },
+    {
+      "id": 275605,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ruka",
+        "last": "Nadzumi",
+        "full": "Ruka Nadzumi",
+        "native": "名積ルカ",
+        "userPreferred": "Ruka Nadzumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b275605-kNVTPUJZkFJT.jpg",
+      "voiceActors": [
+        {
+          "id": 112915,
+          "language": "Japanese",
+          "name": {
+            "first": "Keisuke",
+            "last": "Koumoto",
+            "full": "Keisuke Koumoto",
+            "native": "河本啓佑",
+            "userPreferred": "Keisuke Koumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112915-t6QiS4ax1wkO.png"
+        }
+      ]
+    },
+    {
+      "id": 275614,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gaku",
+        "last": "Oguro",
+        "full": "Gaku Oguro",
+        "native": "大黒岳",
+        "userPreferred": "Gaku Oguro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b275614-SXYgXkSKsHrz.jpg",
+      "voiceActors": [
+        {
+          "id": 117423,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuya",
+            "last": "Masumoto",
+            "full": "Takuya Masumoto",
+            "native": "増元拓也",
+            "userPreferred": "Takuya Masumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/22423.jpg"
+        }
+      ]
+    },
+    {
+      "id": 275606,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ouka",
+        "last": "Kira",
+        "full": "Ouka Kira",
+        "native": "吉良凰香",
+        "userPreferred": "Ouka Kira"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b275606-Y4c72QvVD4kr.jpg",
+      "voiceActors": [
+        {
+          "id": 118407,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuusuke",
+            "last": "Kobayashi",
+            "full": "Yuusuke Kobayashi",
+            "native": "小林裕介",
+            "userPreferred": "Yuusuke Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118407-QvEt3bGtuRQM.png"
+        }
+      ]
+    },
+    {
+      "id": 275615,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Naosuke",
+        "last": "Oyama",
+        "full": "Naosuke Oyama",
+        "native": "大山直助",
+        "userPreferred": "Naosuke Oyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b275615-vssbozAfIeAd.jpg",
+      "voiceActors": [
+        {
+          "id": 275616,
+          "language": "Japanese",
+          "name": {
+            "first": "Tsubasa",
+            "last": "Sasa",
+            "full": "Tsubasa Sasa",
+            "native": "笹翼",
+            "userPreferred": "Tsubasa Sasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n275616-BLlsPIjoJk51.jpg"
+        }
+      ]
+    },
+    {
+      "id": 275607,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Reiji",
+        "last": "Amaha",
+        "full": "Reiji Amaha",
+        "native": "天羽玲司",
+        "userPreferred": "Reiji Amaha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b275607-gFaTIMh6naTP.jpg",
+      "voiceActors": [
+        {
+          "id": 104580,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuya",
+            "last": "Satou",
+            "full": "Takuya Satou",
+            "native": "佐藤拓也",
+            "userPreferred": "Takuya Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104580-UtA5zydwu3ai.png"
+        }
+      ]
+    },
+    {
+      "id": 275608,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haruto",
+        "last": "Kujikawa",
+        "full": "Haruto Kujikawa",
+        "native": "久慈川悠人",
+        "userPreferred": "Haruto Kujikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b275608-FJsCSPGbCj83.jpg",
+      "voiceActors": [
+        {
+          "id": 119855,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshiaki",
+            "last": "Hasegawa",
+            "full": "Yoshiaki Hasegawa",
+            "native": "長谷川芳明",
+            "userPreferred": "Yoshiaki Hasegawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119855-B21adyPXI4PL.jpg"
+        }
+      ]
+    },
+    {
+      "id": 275609,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Issa",
+        "last": "Kidzuku",
+        "full": "Issa Kidzuku",
+        "native": "築一紗",
+        "userPreferred": "Issa Kidzuku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b275609-VvHW8eHmJaF3.jpg",
+      "voiceActors": [
+        {
+          "id": 101982,
+          "language": "Japanese",
+          "name": {
+            "first": "Masahiro",
+            "last": "Yamanaka",
+            "full": "Masahiro Yamanaka",
+            "native": "山中真尋",
+            "userPreferred": "Masahiro Yamanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101982-UrX6ObAYtaVX.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 97904,
+      "relationType": "PARENT",
+      "malId": 34474,
+      "title": {
+        "romaji": "TSUKIPRO THE ANIMATION",
+        "english": "TSUKIPRO THE ANIMATION",
+        "native": "TSUKIPRO THE ANIMATION",
+        "userPreferred": "TSUKIPRO THE ANIMATION"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97904-sV0DB3unqTiw.png",
+      "color": "#50aee4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97904-N9YTE81RjLIg.jpg",
+      "rating": 58
+    },
+    {
+      "id": 105244,
+      "relationType": "CHARACTER",
+      "malId": 38669,
+      "title": {
+        "romaji": "Tsukiuta. THE ANIMATION 2",
+        "english": "TSUKIUTA. The Animation Season 2",
+        "native": "ツキウタ。 THE ANIMATION 2",
+        "userPreferred": "Tsukiuta. THE ANIMATION 2"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105244-0EhJURYarzXl.jpg",
+      "color": null,
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/105244-CG0E69yKxs5j.jpg",
+      "rating": 63
+    }
+  ],
+  "episodes": [
+    {
+      "id": "vazzrock-the-animation-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125910-DimvsuplrPqs.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//vazzrock-the-animation-episode-1"
+    },
+    {
+      "id": "vazzrock-the-animation-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125910-DimvsuplrPqs.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//vazzrock-the-animation-episode-2"
+    },
+    {
+      "id": "vazzrock-the-animation-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125910-DimvsuplrPqs.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//vazzrock-the-animation-episode-3"
+    },
+    {
+      "id": "vazzrock-the-animation-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125910-DimvsuplrPqs.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//vazzrock-the-animation-episode-4"
+    },
+    {
+      "id": "vazzrock-the-animation-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125910-DimvsuplrPqs.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//vazzrock-the-animation-episode-5"
+    },
+    {
+      "id": "vazzrock-the-animation-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125910-DimvsuplrPqs.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//vazzrock-the-animation-episode-6"
+    },
+    {
+      "id": "vazzrock-the-animation-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125910-DimvsuplrPqs.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//vazzrock-the-animation-episode-7"
+    },
+    {
+      "id": "vazzrock-the-animation-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125910-DimvsuplrPqs.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//vazzrock-the-animation-episode-8"
+    },
+    {
+      "id": "vazzrock-the-animation-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125910-DimvsuplrPqs.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//vazzrock-the-animation-episode-9"
+    },
+    {
+      "id": "vazzrock-the-animation-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125910-DimvsuplrPqs.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//vazzrock-the-animation-episode-10"
+    },
+    {
+      "id": "vazzrock-the-animation-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125910-DimvsuplrPqs.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//vazzrock-the-animation-episode-11"
+    },
+    {
+      "id": "vazzrock-the-animation-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125910-DimvsuplrPqs.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//vazzrock-the-animation-episode-12"
+    },
+    {
+      "id": "vazzrock-the-animation-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125910-DimvsuplrPqs.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//vazzrock-the-animation-episode-13"
+    }
+  ]
+}

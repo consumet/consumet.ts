@@ -1,0 +1,656 @@
+{
+  "id": "13727",
+  "title": {
+    "romaji": "Rinne no Lagrange: Kamogawa Days",
+    "english": "Lagrange: The Flower of Rin-ne – Kamogawa Days",
+    "native": "輪廻のラグランジェ 鴨川デイズ"
+  },
+  "malId": 13727,
+  "synonyms": [
+    "Flower declaration of your heart: Kamogawa Days",
+    "Lag-Rin: Kamogawa Days"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13727-rTQBlu9a15rt.png",
+  "popularity": 2326,
+  "color": "#3593e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13727-rTQBlu9a15rt.png",
+  "description": "Rinne no Lagrange OVA.",
+  "status": "Completed",
+  "releaseDate": 2012,
+  "startDate": {
+    "year": 2012,
+    "month": 6,
+    "day": 23
+  },
+  "endDate": {
+    "year": 2012,
+    "month": 6,
+    "day": 23
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 63,
+  "duration": 43,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Mecha"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Xebec"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 47655,
+      "role": "MAIN",
+      "name": {
+        "first": "Laffinty",
+        "last": "Fin E Ld Si",
+        "full": "Laffinty Fin E Ld Si",
+        "native": "フィン・エ・ルド・スイ・ラフィンティ, ラン",
+        "userPreferred": "Laffinty Fin E Ld Si"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/47655.jpg",
+      "voiceActors": [
+        {
+          "id": 106787,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Seto",
+            "full": "Asami Seto",
+            "native": "瀬戸麻沙美",
+            "userPreferred": "Asami Seto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106787-pNRFEiywJuEx.png"
+        }
+      ]
+    },
+    {
+      "id": 47653,
+      "role": "MAIN",
+      "name": {
+        "first": "Madoka",
+        "last": "Kyouno",
+        "full": "Madoka Kyouno",
+        "native": "京乃 まどか",
+        "userPreferred": "Madoka Kyouno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/47653.jpg",
+      "voiceActors": [
+        {
+          "id": 105217,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Ishihara",
+            "full": "Kaori Ishihara",
+            "native": "石原夏織",
+            "userPreferred": "Kaori Ishihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105217-PyXOw2omIHuJ.png"
+        }
+      ]
+    },
+    {
+      "id": 47657,
+      "role": "MAIN",
+      "name": {
+        "first": "Muginami",
+        "last": null,
+        "full": "Muginami",
+        "native": "ムギナミ",
+        "userPreferred": "Muginami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/47657.jpg",
+      "voiceActors": [
+        {
+          "id": 105765,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Kayano",
+            "full": "Ai Kayano",
+            "native": "茅野愛衣",
+            "userPreferred": "Ai Kayano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105765-DDK94me8axVv.png"
+        }
+      ]
+    },
+    {
+      "id": 56709,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Youko",
+        "last": "Nakaizumi",
+        "full": "Youko Nakaizumi",
+        "native": "中泉 ようこ",
+        "userPreferred": "Youko Nakaizumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/56709.jpg",
+      "voiceActors": [
+        {
+          "id": 95040,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamiko",
+            "last": "Noto",
+            "full": "Mamiko Noto",
+            "native": "能登麻美子",
+            "userPreferred": "Mamiko Noto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95040-CskhFn4LiOti.jpg"
+        }
+      ]
+    },
+    {
+      "id": 61545,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Vilajulio",
+        "last": "De Metrio Lu",
+        "full": "Vilajulio De Metrio Lu",
+        "native": "デ・メトリオ・ル・ヴィラジュリオ",
+        "userPreferred": "Vilajulio De Metrio Lu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/61545.jpg",
+      "voiceActors": [
+        {
+          "id": 95513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Nakamura",
+            "full": "Yuuichi Nakamura",
+            "native": "中村悠一",
+            "userPreferred": "Yuuichi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95513-up9ZDuocHgRs.png"
+        }
+      ]
+    },
+    {
+      "id": 64241,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Michi",
+        "last": "Kondou",
+        "full": "Michi Kondou",
+        "native": "近藤 みち",
+        "userPreferred": "Michi Kondou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/64241.jpg",
+      "voiceActors": [
+        {
+          "id": 106359,
+          "language": "Japanese",
+          "name": {
+            "first": "Suzuko",
+            "last": "Mimori",
+            "full": "Suzuko Mimori",
+            "native": "三森すずこ",
+            "userPreferred": "Suzuko Mimori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106359-G8dROMWpwlM6.png"
+        }
+      ]
+    },
+    {
+      "id": 61855,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eri",
+        "last": "Watabe",
+        "full": "Eri Watabe",
+        "native": "渡部えり",
+        "userPreferred": "Eri Watabe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/61855.jpg",
+      "voiceActors": [
+        {
+          "id": 95060,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Tanaka",
+            "full": "Rie Tanaka",
+            "native": "田中理恵",
+            "userPreferred": "Rie Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95060-Rw0HZghxH1hF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60561,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shouzou",
+        "last": "Tadokoro",
+        "full": "Shouzou Tadokoro",
+        "native": "田所 正蔵",
+        "userPreferred": "Shouzou Tadokoro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60561.jpg",
+      "voiceActors": [
+        {
+          "id": 96074,
+          "language": "Japanese",
+          "name": {
+            "first": "Makoto",
+            "last": "Yasumura",
+            "full": "Makoto Yasumura",
+            "native": "保村真",
+            "userPreferred": "Makoto Yasumura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96074-mcIujin2kl4o.png"
+        }
+      ]
+    },
+    {
+      "id": 47659,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kirius",
+        "last": "Rakus Lestrine Ha",
+        "full": "Kirius Rakus Lestrine Ha",
+        "native": "ラクス・レストリネ・ハ・キリウス",
+        "userPreferred": "Kirius Rakus Lestrine Ha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b47659-UdKq4c1AuKDc.jpg",
+      "voiceActors": [
+        {
+          "id": 95074,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Nojima",
+            "full": "Kenji Nojima",
+            "native": "野島健児",
+            "userPreferred": "Kenji Nojima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95074-ilLCdbpWIgrF.png"
+        }
+      ]
+    },
+    {
+      "id": 64243,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Machiko",
+        "last": "Iwabuchi",
+        "full": "Machiko Iwabuchi",
+        "native": "岩淵 まちこ",
+        "userPreferred": "Machiko Iwabuchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/64243.jpg",
+      "voiceActors": [
+        {
+          "id": 96722,
+          "language": "Japanese",
+          "name": {
+            "first": "Azumi",
+            "last": "Asakura",
+            "full": "Azumi Asakura",
+            "native": "浅倉杏美",
+            "userPreferred": "Azumi Asakura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96722-Vf3KI8BbYnYZ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 47663,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Array",
+        "last": "Danon Ci",
+        "full": "Array Danon Ci",
+        "native": "ダノン・シ・アレイ",
+        "userPreferred": "Array Danon Ci"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/47663.jpg",
+      "voiceActors": [
+        {
+          "id": 106817,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshitsugu",
+            "last": "Matsuoka",
+            "full": "Yoshitsugu Matsuoka",
+            "native": "松岡禎丞",
+            "userPreferred": "Yoshitsugu Matsuoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106817-mioGQjbTWWQ6.png"
+        }
+      ]
+    },
+    {
+      "id": 61569,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dizelmine",
+        "last": "Fin E Ld Si",
+        "full": "Dizelmine Fin E Ld Si",
+        "native": "フィン・エ・ルド・シ・ディセルマイン",
+        "userPreferred": "Dizelmine Fin E Ld Si"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/61569.jpg",
+      "voiceActors": [
+        {
+          "id": 95212,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Ono",
+            "full": "Daisuke Ono",
+            "native": "小野大輔",
+            "userPreferred": "Daisuke Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95212-wX1M4LJN96q2.png"
+        }
+      ]
+    },
+    {
+      "id": 60565,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Balance T.",
+        "last": "Moid",
+        "full": "Balance T. Moid",
+        "native": "バランス・T・モイド",
+        "userPreferred": "Balance T. Moid"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60565.jpg",
+      "voiceActors": [
+        {
+          "id": 102288,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuyuki",
+            "last": "Okitsu",
+            "full": "Kazuyuki Okitsu",
+            "native": "興津和幸",
+            "userPreferred": "Kazuyuki Okitsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102288-xqcBKreDyZYN.png"
+        }
+      ]
+    },
+    {
+      "id": 64239,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sachi",
+        "last": "Nogami",
+        "full": "Sachi Nogami",
+        "native": "野上 さち",
+        "userPreferred": "Sachi Nogami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/64239.jpg",
+      "voiceActors": [
+        {
+          "id": 112247,
+          "language": "Japanese",
+          "name": {
+            "first": "Rikako",
+            "last": "Yamaguchi",
+            "full": "Rikako Yamaguchi",
+            "native": "山口立花子",
+            "userPreferred": "Rikako Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112247-wlARp1TTDJMI.png"
+        }
+      ]
+    },
+    {
+      "id": 61861,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haruka",
+        "last": "Uehara",
+        "full": "Haruka Uehara",
+        "native": "上原はるか",
+        "userPreferred": "Haruka Uehara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/61861.jpg",
+      "voiceActors": [
+        {
+          "id": 95247,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Fujimura",
+            "full": "Ayumi Fujimura",
+            "native": "藤村歩",
+            "userPreferred": "Ayumi Fujimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95247-3jzUQFPN8clW.png"
+        }
+      ]
+    },
+    {
+      "id": 59023,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Astelia",
+        "last": "Lizamarie de Rochefort",
+        "full": "Astelia Lizamarie de Rochefort",
+        "native": "アステリア・リーザマリー・ド・ロシュフォール",
+        "userPreferred": "Astelia Lizamarie de Rochefort"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/59023.jpg",
+      "voiceActors": [
+        {
+          "id": 103555,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisako",
+            "last": "Kanemoto",
+            "full": "Hisako Kanemoto",
+            "native": "金元寿子",
+            "userPreferred": "Hisako Kanemoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103555-2ZtBwZfy9DTi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 47661,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Izo",
+        "last": "Sofiro Karia Los",
+        "full": "Izo Sofiro Karia Los",
+        "native": "ソフィロ・カリア・ロス・イゾ",
+        "userPreferred": "Izo Sofiro Karia Los"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b47661-jnipgkVMM8er.jpg",
+      "voiceActors": [
+        {
+          "id": 95283,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroyuki",
+            "last": "Yoshino",
+            "full": "Hiroyuki Yoshino",
+            "native": "吉野裕行",
+            "userPreferred": "Hiroyuki Yoshino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95283-g76zV4YacFfm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60559,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Souta",
+        "last": "Serizawa",
+        "full": "Souta Serizawa",
+        "native": "芹沢颯太",
+        "userPreferred": "Souta Serizawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60559.jpg",
+      "voiceActors": [
+        {
+          "id": 105064,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Iguchi",
+            "full": "Yuuichi Iguchi",
+            "native": "井口祐一",
+            "userPreferred": "Yuuichi Iguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105064-Yi6aG3ZtcyjU.png"
+        }
+      ]
+    },
+    {
+      "id": 61543,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiroshi",
+        "last": "Nakaizumi",
+        "full": "Hiroshi Nakaizumi",
+        "native": "中泉浩",
+        "userPreferred": "Hiroshi Nakaizumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/61543.jpg",
+      "voiceActors": [
+        {
+          "id": 95371,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Hamada",
+            "full": "Kenji Hamada",
+            "native": "浜田賢二",
+            "userPreferred": "Kenji Hamada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95371-nyA7w7nPrlPr.png"
+        }
+      ]
+    },
+    {
+      "id": 61863,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "James",
+        "last": "Row",
+        "full": "James Row",
+        "native": "ジェイムズ・ロウ",
+        "userPreferred": "James Row"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/61863.jpg",
+      "voiceActors": [
+        {
+          "id": 95410,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinji",
+            "last": "Kawada",
+            "full": "Shinji Kawada",
+            "native": "川田紳司",
+            "userPreferred": "Shinji Kawada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95410-AosJKUc7YZXE.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 11227,
+      "relationType": "PREQUEL",
+      "malId": 11227,
+      "title": {
+        "romaji": "Rinne no Lagrange",
+        "english": "Lagrange: The Flower of Rin-ne",
+        "native": "輪廻のラグランジェ",
+        "userPreferred": "Rinne no Lagrange"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11227-dMDJFoq6Rb9j.png",
+      "color": "#5de4d6",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11227-dMDJFoq6Rb9j.png",
+      "rating": 66
+    },
+    {
+      "id": 12281,
+      "relationType": "SEQUEL",
+      "malId": 12281,
+      "title": {
+        "romaji": "Rinne no Lagrange season 2",
+        "english": "Lagrange: The Flower of Rin-ne Season 2",
+        "native": "輪廻のラグランジェ season 2",
+        "userPreferred": "Rinne no Lagrange season 2"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12281-xrUMM1ee9pqK.jpg",
+      "color": "#78d6ae",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12281-xrUMM1ee9pqK.jpg",
+      "rating": 67
+    },
+    {
+      "id": 84413,
+      "relationType": "ALTERNATIVE",
+      "malId": 54413,
+      "title": {
+        "romaji": "Rinne no Lagrange",
+        "english": null,
+        "native": "輪廻のラグランジェ",
+        "userPreferred": "Rinne no Lagrange"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/54413.jpg",
+      "color": "#f19343",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/54413.jpg",
+      "rating": 73
+    },
+    {
+      "id": 66341,
+      "relationType": "ALTERNATIVE",
+      "malId": 36341,
+      "title": {
+        "romaji": "Rinne no Lagrange",
+        "english": null,
+        "native": "輪廻のラグランジェ",
+        "userPreferred": "Rinne no Lagrange"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx66341-ZZzGM0K57deb.jpg",
+      "color": "#50e4bb",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx66341-ZZzGM0K57deb.jpg",
+      "rating": 75
+    }
+  ],
+  "episodes": [
+    {
+      "id": "rinne-no-lagrange--kamogawa-days-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13727-rTQBlu9a15rt.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//rinne-no-lagrange--kamogawa-days-episode-1"
+    }
+  ]
+}

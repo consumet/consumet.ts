@@ -1,0 +1,91 @@
+{
+  "id": "129349",
+  "title": {
+    "romaji": "Douluo Dalu: Xiaowu Juebie",
+    "english": null,
+    "native": "斗罗大陆 小舞诀别"
+  },
+  "synonyms": [
+    "斗罗大陆 第五部分",
+    "Douluo Dalu Part 5",
+    "Soul Land Part 5"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129349-q9rQenoTegnx.png",
+  "popularity": 1430,
+  "color": "#f1e478",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129349-q9rQenoTegnx.png",
+  "description": "The fifth part of <i>Douluo Dalu</i>.\n<br><br>\n<i>Note: Episodes 105 to 117.</i>",
+  "status": "Completed",
+  "releaseDate": 2020,
+  "startDate": {
+    "year": 2020,
+    "month": 5,
+    "day": 23
+  },
+  "endDate": {
+    "year": 2020,
+    "month": 8,
+    "day": 15
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 79,
+  "duration": 20,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Romance",
+    "Supernatural"
+  ],
+  "season": null,
+  "studios": [
+    "Tencent Penguin Pictures"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [],
+  "relations": [
+    {
+      "id": 129348,
+      "relationType": "PREQUEL",
+      "malId": null,
+      "title": {
+        "romaji": "Douluo Dalu: Qian Hua Xi Jin",
+        "english": null,
+        "native": "斗罗大陆 铅华洗尽",
+        "userPreferred": "Douluo Dalu: Qian Hua Xi Jin"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129348-X24UHyN5as12.png",
+      "color": "#f1e478",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129348-X24UHyN5as12.png",
+      "rating": 81
+    },
+    {
+      "id": 129350,
+      "relationType": "SEQUEL",
+      "malId": null,
+      "title": {
+        "romaji": "Douluo Dalu: Xingdou Xianji",
+        "english": null,
+        "native": "斗罗大陆 星斗献祭",
+        "userPreferred": "Douluo Dalu: Xingdou Xianji"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129350-pacPQReq3nWl.png",
+      "color": "#e4a135",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129350-pacPQReq3nWl.png",
+      "rating": 82
+    }
+  ],
+  "episodes": []
+}

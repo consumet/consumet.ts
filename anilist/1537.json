@@ -1,0 +1,570 @@
+{
+  "id": "1537",
+  "title": {
+    "romaji": "Genshi Shounen Ryuu",
+    "english": "Ryu the Primitive Boy",
+    "native": "原始少年リュウ"
+  },
+  "malId": 1537,
+  "synonyms": [
+    "Genshi Shonen Ryu",
+    "Ryu, the Cave Boy",
+    "Rai Grottpojken"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+  "popularity": 740,
+  "color": "#e45d50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+  "description": "When Ryuu is born his tribe tries to sacrifice him to a Tyrannosaurus named Shirano because of the color of his skin. He is however saved by a monkey who raises him as her own son. Meanwhile Ryuu's mother has left the tribe and is out on a quest to find Ryuu.<br><br>\n16 years later Ryuu meets a girl named Ran who was sold to the tribe Ryuu originaly came from. The tribe is not happy to see Ryuu alive and tries to sacrifice him again, this time by burning him alive. Before they can get the deed done the tribe is massacred along with Ryuu's adoptive mother by Shirano. Ryuu then sets out on a quest together with Ran to find his mother and Ran's brother Don.",
+  "status": "Completed",
+  "releaseDate": 1971,
+  "startDate": {
+    "year": 1971,
+    "month": 10,
+    "day": 30
+  },
+  "endDate": {
+    "year": 1972,
+    "month": 3,
+    "day": 25
+  },
+  "totalEpisodes": 22,
+  "currentEpisode": 22,
+  "rating": 53,
+  "duration": 25,
+  "genres": [
+    "Adventure",
+    "Romance"
+  ],
+  "season": "FALL",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 20806,
+      "malId": 25731,
+      "title": {
+        "romaji": "Cross Ange: Tenshi to Ryuu no Rondo",
+        "english": "Cross Ange: Rondo of Angel and Dragon",
+        "native": "クロスアンジュ 天使と竜の輪舞",
+        "userPreferred": "Cross Ange: Tenshi to Ryuu no Rondo"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20806-TFTl8bavYzvc.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n20806-rXk0tGTLIehi.jpg",
+      "rating": 69,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 77671,
+      "role": "MAIN",
+      "name": {
+        "first": "Don",
+        "last": null,
+        "full": "Don",
+        "native": "ドン",
+        "userPreferred": "Don"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77671.jpg",
+      "voiceActors": [
+        {
+          "id": 107721,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroko",
+            "last": "Maruyama",
+            "full": "Hiroko Maruyama",
+            "native": "丸山裕子",
+            "userPreferred": "Hiroko Maruyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107721-hlGQmncXVdh0.jpg"
+        },
+        {
+          "id": 95779,
+          "language": "Italian",
+          "name": {
+            "first": "Fabio",
+            "last": "Boccanera",
+            "full": "Fabio Boccanera",
+            "native": null,
+            "userPreferred": "Fabio Boccanera"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/779.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39535,
+      "role": "MAIN",
+      "name": {
+        "first": "Ryuu",
+        "last": null,
+        "full": "Ryuu",
+        "native": null,
+        "userPreferred": "Ryuu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39535.jpg",
+      "voiceActors": [
+        {
+          "id": 96148,
+          "language": "Japanese",
+          "name": {
+            "first": "Makio",
+            "last": "Inoue",
+            "full": "Makio Inoue",
+            "native": "井上真樹夫",
+            "userPreferred": "Makio Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96148-1qMEEmg8Ev8R.jpg"
+        },
+        {
+          "id": 96185,
+          "language": "Italian",
+          "name": {
+            "first": "Massimo",
+            "last": "Rossi",
+            "full": "Massimo Rossi",
+            "native": null,
+            "userPreferred": "Massimo Rossi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1185.jpg"
+        }
+      ]
+    },
+    {
+      "id": 77655,
+      "role": "MAIN",
+      "name": {
+        "first": "Ran",
+        "last": null,
+        "full": "Ran",
+        "native": "ラン",
+        "userPreferred": "Ran"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77655.jpg",
+      "voiceActors": [
+        {
+          "id": 112121,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiko",
+            "last": "Hirai",
+            "full": "Michiko Hirai",
+            "native": "平井道子",
+            "userPreferred": "Michiko Hirai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112121-VrDqmTjVzndT.jpg"
+        }
+      ]
+    },
+    {
+      "id": 77677,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kiba",
+        "last": null,
+        "full": "Kiba",
+        "native": "キバ",
+        "userPreferred": "Kiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77677.jpg",
+      "voiceActors": [
+        {
+          "id": 95528,
+          "language": "Japanese",
+          "name": {
+            "first": "Gorou",
+            "last": "Naya",
+            "full": "Gorou Naya",
+            "native": "納谷悟朗",
+            "userPreferred": "Gorou Naya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95528-dTJE6VLgUOHo.jpg"
+        }
+      ]
+    },
+    {
+      "id": 77661,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Majara",
+        "last": null,
+        "full": "Majara",
+        "native": null,
+        "userPreferred": "Majara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77661.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 77673,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miros",
+        "last": null,
+        "full": "Miros",
+        "native": null,
+        "userPreferred": "Miros"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77673.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 77675,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mashi",
+        "last": null,
+        "full": "Mashi",
+        "native": null,
+        "userPreferred": "Mashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77675.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 77657,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Elder",
+        "last": null,
+        "full": "Elder",
+        "native": null,
+        "userPreferred": "Elder"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77657.jpg",
+      "voiceActors": [
+        {
+          "id": 104012,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryuuji",
+            "last": "Saikachi",
+            "full": "Ryuuji Saikachi",
+            "native": "槐柳二",
+            "userPreferred": "Ryuuji Saikachi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9012.jpg"
+        }
+      ]
+    },
+    {
+      "id": 77681,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Pasa",
+        "last": null,
+        "full": "Pasa",
+        "native": null,
+        "userPreferred": "Pasa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77681.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 77683,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Karim",
+        "last": null,
+        "full": "Karim",
+        "native": "カリム",
+        "userPreferred": "Karim"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77683.jpg",
+      "voiceActors": [
+        {
+          "id": 105016,
+          "language": "Japanese",
+          "name": {
+            "first": "Eken",
+            "last": "Mine",
+            "full": "Eken Mine",
+            "native": "峰恵研",
+            "userPreferred": "Eken Mine"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105016-3hgEsmAMJ7A0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 77715,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Esta",
+        "last": null,
+        "full": "Esta",
+        "native": "リュウの母",
+        "userPreferred": "Esta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77715.jpg",
+      "voiceActors": [
+        {
+          "id": 115941,
+          "language": "Japanese",
+          "name": {
+            "first": "Reiko",
+            "last": "Seno",
+            "full": "Reiko Seno",
+            "native": "礼子 瀬能",
+            "userPreferred": "Reiko Seno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20941.jpg"
+        }
+      ]
+    },
+    {
+      "id": 77663,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Taka",
+        "last": null,
+        "full": "Taka",
+        "native": "タカ",
+        "userPreferred": "Taka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77663.jpg",
+      "voiceActors": [
+        {
+          "id": 96248,
+          "language": "Japanese",
+          "name": {
+            "first": "Ichiro",
+            "last": "Murakoshi",
+            "full": "Ichiro Murakoshi",
+            "native": "村越伊知郎",
+            "userPreferred": "Ichiro Murakoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1248.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 50021,
+      "relationType": "ADAPTATION",
+      "malId": 20021,
+      "title": {
+        "romaji": "Genshi Shounen Ryuu",
+        "english": null,
+        "native": "原始少年リュウ",
+        "userPreferred": "Genshi Shounen Ryuu"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/20021.jpg",
+      "color": "#d61a35",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/20021.jpg",
+      "rating": 64
+    }
+  ],
+  "episodes": [
+    {
+      "id": "genshi-shounen-ryuu-episode-1",
+      "title": "Primitive Law",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-1"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-2",
+      "title": "Fear of Tyranno",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-2"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-3",
+      "title": "Taka's Revenge",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-3"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-4",
+      "title": "Pursuit Full of Wounds",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-4"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-5",
+      "title": "The Yamaneko Tribe's Conspiracy",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-5"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-6",
+      "title": "Fight for the Hunting Grounds",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-6"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-7",
+      "title": "A Blood-stained Hero",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-7"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-8",
+      "title": "Fated Encounter",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-8"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-9",
+      "title": "Devil Stone",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-9"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-10",
+      "title": "Giant in the Blizzard",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-10"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-11",
+      "title": "Wrath of the Mountain God",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-11"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-12",
+      "title": "The Training of Misunderstandings",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-12"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-13",
+      "title": "Fire Trap",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-13"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-14",
+      "title": "Grave of the Heroes",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-14"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-15",
+      "title": "Paradise in the Southern Seas",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-15"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-16",
+      "title": "Human Beast",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-16"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-17",
+      "title": "Desperate Cry at the Cliffs",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-17"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-18",
+      "title": "The Uncontrollable Mammoth",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-18"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-19",
+      "title": "Barking Wolf",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-19"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-20",
+      "title": "Slave Hunt",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-20"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-21",
+      "title": "Human Fangs",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-21"
+    },
+    {
+      "id": "genshi-shounen-ryuu-episode-22",
+      "title": "Towards Tomorrow",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1537.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:22:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//genshi-shounen-ryuu-episode-22"
+    }
+  ]
+}

@@ -1,0 +1,855 @@
+{
+  "id": "1638",
+  "title": {
+    "romaji": "Peter Pan no Bouken",
+    "english": "Peter Pan & Wendy",
+    "native": "ピーターパンの冒険"
+  },
+  "malId": 1638,
+  "synonyms": [
+    "Sekai Meisaku Gekijou",
+    "Peter Pan no Boken",
+    "Adventures of Peter Pan",
+    "World Masterpiece Theater",
+    "WMT",
+    "פיטר פן"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+  "popularity": 1085,
+  "color": "#e45086",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1638-fZybrgZyG9Mg.jpg",
+  "description": "Wendy and her two little brothers are brought to the land of adventures, Neverland, by Peter pan, a boy who will never grow up. In Neverland they encounter exciting events and meet with little fairies, mermaids, Indians, and pirates. Required to act as a mother, Wendy never has a moments peace with all that is happening around her, including breath-taking fights with pirates. Later in the series, they set off to find a buried treasure with a map that they obtain from the pirates.<br><br>\n(Source: AnimeNfo)",
+  "status": "Completed",
+  "releaseDate": 1989,
+  "startDate": {
+    "year": 1989,
+    "month": 1,
+    "day": 15
+  },
+  "endDate": {
+    "year": 1989,
+    "month": 12,
+    "day": 24
+  },
+  "totalEpisodes": 41,
+  "currentEpisode": 41,
+  "rating": 58,
+  "duration": 23,
+  "genres": [
+    "Adventure",
+    "Fantasy"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Nippon Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 2826,
+      "malId": 2826,
+      "title": {
+        "romaji": "Oz no Mahoutsukai (1986)",
+        "english": "The Wonderful Wizard of Oz",
+        "native": "オズの魔法使い",
+        "userPreferred": "Oz no Mahoutsukai (1986)"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2826-DZaQKJ27jurZ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2826-DZaQKJ27jurZ.jpg",
+      "rating": 60,
+      "type": "TV"
+    },
+    {
+      "id": 7216,
+      "malId": 7216,
+      "title": {
+        "romaji": "Sekai Douwa Anime Zenshuu",
+        "english": null,
+        "native": "世界童話アニメ全集",
+        "userPreferred": "Sekai Douwa Anime Zenshuu"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7216.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7216.jpg",
+      "rating": 55,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 22403,
+      "role": "MAIN",
+      "name": {
+        "first": "Peter",
+        "last": "Pan",
+        "full": "Peter Pan",
+        "native": null,
+        "userPreferred": "Peter Pan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22403.jpg",
+      "voiceActors": [
+        {
+          "id": 95181,
+          "language": "Japanese",
+          "name": {
+            "first": "Noriko",
+            "last": "Hidaka",
+            "full": "Noriko Hidaka",
+            "native": "日高のり子",
+            "userPreferred": "Noriko Hidaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95181-vMjqcku6ZHtF.jpg"
+        },
+        {
+          "id": 96160,
+          "language": "Italian",
+          "name": {
+            "first": "Davide",
+            "last": "Garbolino",
+            "full": "Davide Garbolino",
+            "native": null,
+            "userPreferred": "Davide Garbolino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96160-f2iHwGVbtmun.jpg"
+        },
+        {
+          "id": 104774,
+          "language": "Spanish",
+          "name": {
+            "first": "Carlos Hugo",
+            "last": "Hidalgo",
+            "full": "Carlos Hugo Hidalgo",
+            "native": null,
+            "userPreferred": "Carlos Hugo Hidalgo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104774-BYTjmcfWmbRJ.png"
+        },
+        {
+          "id": 100144,
+          "language": "German",
+          "name": {
+            "first": "Philipp",
+            "last": "Brammer",
+            "full": "Philipp Brammer",
+            "native": null,
+            "userPreferred": "Philipp Brammer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5144.jpg"
+        },
+        {
+          "id": 217366,
+          "language": "Norwegian",
+          "name": {
+            "first": "Trond",
+            "last": "Teigen",
+            "full": "Trond Teigen",
+            "native": null,
+            "userPreferred": "Trond Teigen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217366-3nmBaPxW5DC0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22402,
+      "role": "MAIN",
+      "name": {
+        "first": "Wendy",
+        "last": "Darling",
+        "full": "Wendy Darling",
+        "native": null,
+        "userPreferred": "Wendy Darling"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22402.jpg",
+      "voiceActors": [
+        {
+          "id": 95516,
+          "language": "Japanese",
+          "name": {
+            "first": "Naoko",
+            "last": "Matsui",
+            "full": "Naoko Matsui",
+            "native": "松井菜桜子",
+            "userPreferred": "Naoko Matsui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95516-N94jWbOCyDd7.jpg"
+        },
+        {
+          "id": 144258,
+          "language": "Italian",
+          "name": {
+            "first": "Jasmine",
+            "last": "Laurenti",
+            "full": "Jasmine Laurenti",
+            "native": null,
+            "userPreferred": "Jasmine Laurenti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144258-S4QFHz60qchl.png"
+        },
+        {
+          "id": 96624,
+          "language": "French",
+          "name": {
+            "first": "Barbara",
+            "last": "Tissier",
+            "full": "Barbara Tissier",
+            "native": null,
+            "userPreferred": "Barbara Tissier"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1624.jpg"
+        },
+        {
+          "id": 100897,
+          "language": "German",
+          "name": {
+            "first": "Julia",
+            "last": "Haacke",
+            "full": "Julia Haacke",
+            "native": null,
+            "userPreferred": "Julia Haacke"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5897.jpg"
+        },
+        {
+          "id": 248564,
+          "language": "Norwegian",
+          "name": {
+            "first": "Guri",
+            "last": "Schanke",
+            "full": "Guri Schanke",
+            "native": null,
+            "userPreferred": "Guri Annika Schanke"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n248564-bI5l9tkOjbsX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40880,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tinkerbell",
+        "last": null,
+        "full": "Tinkerbell",
+        "native": null,
+        "userPreferred": "Tinkerbell"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40880.jpg",
+      "voiceActors": [
+        {
+          "id": 95425,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumi",
+            "last": "Shimamoto",
+            "full": "Sumi Shimamoto",
+            "native": "島本須美",
+            "userPreferred": "Sumi Shimamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95425-wEl09IWpLxIA.png"
+        },
+        {
+          "id": 158645,
+          "language": "Italian",
+          "name": {
+            "first": "Giusy",
+            "last": "Di Martino",
+            "full": "Giusy Di Martino",
+            "native": null,
+            "userPreferred": "Giusy Di Martino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 161919,
+          "language": "French",
+          "name": {
+            "first": "Annabelle",
+            "last": "Roux",
+            "full": "Annabelle Roux",
+            "native": null,
+            "userPreferred": "Annabelle Roux"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n161919-T1mqa8VZKCfO.png"
+        },
+        {
+          "id": 114932,
+          "language": "German",
+          "name": {
+            "first": "Claudia",
+            "last": "Lossl",
+            "full": "Claudia Lossl",
+            "native": "Claudia Lössl",
+            "userPreferred": "Claudia Lossl"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/19932.jpg"
+        }
+      ]
+    },
+    {
+      "id": 264090,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Michael",
+        "last": "Darling",
+        "full": "Michael Darling",
+        "native": "マイケル・ダーリング",
+        "userPreferred": "Michael Darling"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b264090-iWwsycUEUarA.jpg",
+      "voiceActors": [
+        {
+          "id": 95639,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuriko",
+            "last": "Fuchizaki",
+            "full": "Yuriko Fuchizaki",
+            "native": "渕崎ゆり子",
+            "userPreferred": "Yuriko Fuchizaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95639-mdpUJQ0yHZIo.png"
+        },
+        {
+          "id": 96090,
+          "language": "Italian",
+          "name": {
+            "first": "Emanuela",
+            "last": "Pacotto",
+            "full": "Emanuela Pacotto",
+            "native": null,
+            "userPreferred": "Emanuela Pacotto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96090-UnDifVZ6rNS2.png"
+        },
+        {
+          "id": 96589,
+          "language": "French",
+          "name": {
+            "first": "Jackie",
+            "last": "Berger",
+            "full": "Jackie Berger",
+            "native": null,
+            "userPreferred": "Jackie Berger"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1589.jpg"
+        },
+        {
+          "id": 264091,
+          "language": "Norwegian",
+          "name": {
+            "first": "Mari",
+            "last": "Maurstad",
+            "full": "Mari Maurstad",
+            "native": null,
+            "userPreferred": "Mari Maurstad"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n264091-1hf4cHyyLNan.jpg"
+        }
+      ]
+    },
+    {
+      "id": 264089,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hook-senchou",
+        "last": null,
+        "full": "Hook-senchou",
+        "native": "フック船長",
+        "userPreferred": "Hook-senchou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b264089-fYEmc9rFeqx2.jpg",
+      "voiceActors": [
+        {
+          "id": 95974,
+          "language": "Japanese",
+          "name": {
+            "first": "Chikao",
+            "last": "Ootsuka",
+            "full": "Chikao Ootsuka",
+            "native": "大塚周夫",
+            "userPreferred": "Chikao Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95974-SvJQqqEApoSf.png"
+        },
+        {
+          "id": 100033,
+          "language": "Italian",
+          "name": {
+            "first": "Pietro",
+            "last": "Ubaldi",
+            "full": "Pietro Ubaldi",
+            "native": null,
+            "userPreferred": "Pietro Ubaldi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5033.jpg"
+        },
+        {
+          "id": 202610,
+          "language": "French",
+          "name": {
+            "first": "Philippe",
+            "last": "Dumat",
+            "full": "Philippe Dumat",
+            "native": null,
+            "userPreferred": "Philippe Dumat"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 217365,
+          "language": "Norwegian",
+          "name": {
+            "first": "Ivar Trygve",
+            "last": "Nørve",
+            "full": "Ivar Trygve Nørve",
+            "native": null,
+            "userPreferred": "Ivar Trygve Nørve"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217365-0hvJeAikAp8w.jpg"
+        },
+        {
+          "id": 114908,
+          "language": "Tagalog",
+          "name": {
+            "first": "Montreal",
+            "last": "Repuyan",
+            "full": "Montreal Repuyan",
+            "native": "Tuazon Repuyan Montreal",
+            "userPreferred": "Montreal Repuyan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/19908.jpg"
+        }
+      ]
+    },
+    {
+      "id": 264088,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "John",
+        "last": "Darling",
+        "full": "John Darling",
+        "native": "ジョン・ジュリアン・ダーリング",
+        "userPreferred": "John Julian Darling"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b264088-4vwwK3tPFVgC.jpg",
+      "voiceActors": [
+        {
+          "id": 111671,
+          "language": "Japanese",
+          "name": {
+            "first": "Kyouko",
+            "last": "Hamura",
+            "full": "Kyouko Hamura",
+            "native": "羽村京子 ",
+            "userPreferred": "Kyouko Hamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/16671.jpg"
+        },
+        {
+          "id": 159222,
+          "language": "Italian",
+          "name": {
+            "first": "Veronica",
+            "last": "Pivetti",
+            "full": "Veronica Pivetti",
+            "native": null,
+            "userPreferred": "Veronica Pivetti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n159222-GEFukYfbwIFk.jpg"
+        },
+        {
+          "id": 217375,
+          "language": "Norwegian",
+          "name": {
+            "first": "Anitra Terese",
+            "last": "Eriksen",
+            "full": "Anitra Terese Eriksen",
+            "native": null,
+            "userPreferred": "Anitra Terese Eriksen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217375-RiAMWfgHcqIs.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "peter-pan-no-bouken-episode-1",
+      "title": "Who is Peter Pan?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-1"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-2",
+      "title": "The Lost Shadow",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-2"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-3",
+      "title": "Neverland",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-3"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-4",
+      "title": "The Captain",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-4"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-5",
+      "title": "Smee's Sewing Machine",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-5"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-6",
+      "title": "John the Pirate",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-6"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-7",
+      "title": "The Neverbird Egg",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-7"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-8",
+      "title": "The Clock",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-8"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-9",
+      "title": "Birthday Everyday",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-9"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-10",
+      "title": "John Falls in Love",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-10"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-11",
+      "title": "Hook's Mother",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-11"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-12",
+      "title": "Scary Stories",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-12"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-13",
+      "title": "Peter Pan Captured",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-13"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-14",
+      "title": "Brave Little Michael",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-14"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-15",
+      "title": "Cecco the Traitor",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-15"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-16",
+      "title": "Snow White Wendy",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-16"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-17",
+      "title": "John Can't Sleep",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-17"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-18",
+      "title": "Tootles the Brave",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-18"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-19",
+      "title": "Hook's Cloak",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-19"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-20",
+      "title": "Wendy Disappears",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-20"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-21",
+      "title": "Wendy Captured",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-21"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-22",
+      "title": "Hook's Secret Weapon",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-22"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-23",
+      "title": "The Rain Giant",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-23"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-24",
+      "title": "Escape in the Valley of the Elves",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-24"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-25",
+      "title": "Tinkerbell Returns",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-25"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-26",
+      "title": "The Magic Amulet",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-26"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-27",
+      "title": "Don Malaprop",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 27,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-27"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-28",
+      "title": "Satan's Bracelet",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 28,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-28"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-29",
+      "title": "To Fly",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 29,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-29"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-30",
+      "title": "Fire Lake",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 30,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-30"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-31",
+      "title": "Peter Can't Fly",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 31,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-31"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-32",
+      "title": "The White Castle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 32,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-32"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-33",
+      "title": "Rascal",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 33,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-33"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-34",
+      "title": "Ghost Train",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 34,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-34"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-35",
+      "title": "Key to the Black Mirror",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 35,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-35"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-36",
+      "title": "The Stone Idol",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 36,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-36"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-37",
+      "title": "The Path to the Castle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 37,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-37"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-38",
+      "title": "Hook Attacks",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 38,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-38"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-39",
+      "title": "New Sorceress",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 39,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-39"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-40",
+      "title": "Neverland in Danger",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 40,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-40"
+    },
+    {
+      "id": "peter-pan-no-bouken-episode-41",
+      "title": "Return Home",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1638-SblTYgtSBs0x.jpg",
+      "number": 41,
+      "createdAt": "2013-02-20T18:22:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//peter-pan-no-bouken-episode-41"
+    }
+  ]
+}

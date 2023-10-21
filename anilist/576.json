@@ -1,0 +1,750 @@
+{
+  "id": "576",
+  "title": {
+    "romaji": "Magikano",
+    "english": "Magikano",
+    "native": "マジカノ"
+  },
+  "malId": 576,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx576-2F5lKKqEXh54.jpg",
+  "popularity": 4470,
+  "color": "#35bbf1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx576-2F5lKKqEXh54.jpg",
+  "description": "Haruo Yoshikawa’s life goes from average to unbelievable when his sneaky sisters share their family’s dirty little secret—they’re all witches! Things only get crazier with the arrival of Ayumi—an enchanting young girl who’s bound and determined to arouse Haruo’s inner-magician.\n<br><br>\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2006,
+  "startDate": {
+    "year": 2006,
+    "month": 1,
+    "day": 1
+  },
+  "endDate": {
+    "year": 2006,
+    "month": 4,
+    "day": 1
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 57,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Fantasy",
+    "Romance"
+  ],
+  "season": "WINTER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 193,
+      "malId": 193,
+      "title": {
+        "romaji": "Maburaho",
+        "english": null,
+        "native": "まぶらほ",
+        "userPreferred": "Maburaho"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/193.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/193.jpg",
+      "rating": 61,
+      "type": "TV"
+    },
+    {
+      "id": 241,
+      "malId": 241,
+      "title": {
+        "romaji": "GIRLS Bravo: first season",
+        "english": "Girls Bravo",
+        "native": "GIRLSブラボー first season",
+        "userPreferred": "GIRLS Bravo: first season"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx241-8D6mfBUZBsjc.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/241-zPMtfUUQwysh.jpg",
+      "rating": 57,
+      "type": "TV"
+    },
+    {
+      "id": 357,
+      "malId": 357,
+      "title": {
+        "romaji": "Bokusatsu Tenshi Dokuro-chan",
+        "english": "Bludgeoning Angel Dokuro-chan",
+        "native": "撲殺天使ドクロちゃん",
+        "userPreferred": "Bokusatsu Tenshi Dokuro-chan"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx357-6Kbh4YULa3PQ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n357-8EZUGMpcCcwG.jpg",
+      "rating": 60,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 9742,
+      "role": "MAIN",
+      "name": {
+        "first": "Maika",
+        "last": "Yoshikawa",
+        "full": "Maika Yoshikawa",
+        "native": null,
+        "userPreferred": "Maika Yoshikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9742.jpg",
+      "voiceActors": [
+        {
+          "id": 95031,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Nakahara",
+            "full": "Mai Nakahara",
+            "native": "中原麻衣",
+            "userPreferred": "Mai Nakahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95031-tipPIz2k0Ncw.png"
+        },
+        {
+          "id": 95162,
+          "language": "English",
+          "name": {
+            "first": "Kira",
+            "last": "Vincent-Davis",
+            "full": "Kira Vincent-Davis",
+            "native": null,
+            "userPreferred": "Kira Vincent-Davis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/162.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9751,
+      "role": "MAIN",
+      "name": {
+        "first": "Tetsuko",
+        "last": "Hongou",
+        "full": "Tetsuko Hongou",
+        "native": "本郷 哲子",
+        "userPreferred": "Tetsuko Hongou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9751.jpg",
+      "voiceActors": [
+        {
+          "id": 95883,
+          "language": "Japanese",
+          "name": {
+            "first": "Noriko",
+            "last": "Rikimaru",
+            "full": "Noriko Rikimaru",
+            "native": "力丸乃りこ",
+            "userPreferred": "Noriko Rikimaru"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/883.jpg"
+        },
+        {
+          "id": 95509,
+          "language": "English",
+          "name": {
+            "first": "Christine",
+            "last": "Auten",
+            "full": "Christine Auten",
+            "native": null,
+            "userPreferred": "Christine Auten"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95509-fSwGUErqAkmA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9743,
+      "role": "MAIN",
+      "name": {
+        "first": "Chiaki",
+        "last": "Yoshikawa",
+        "full": "Chiaki Yoshikawa",
+        "native": null,
+        "userPreferred": "Chiaki Yoshikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9743.jpg",
+      "voiceActors": [
+        {
+          "id": 95038,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanako",
+            "last": "Sakai",
+            "full": "Kanako Sakai",
+            "native": "酒井香奈子",
+            "userPreferred": "Kanako Sakai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95038-NsRcCXDPZb3i.jpg"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9750,
+      "role": "MAIN",
+      "name": {
+        "first": "Michiru",
+        "last": "Mamiya",
+        "full": "Michiru Mamiya",
+        "native": null,
+        "userPreferred": "Michiru Mamiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9750.jpg",
+      "voiceActors": [
+        {
+          "id": 95136,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsuko",
+            "last": "Kuwatani",
+            "full": "Natsuko Kuwatani",
+            "native": "桑谷夏子",
+            "userPreferred": "Natsuko Kuwatani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95136-8dAGkiwq7Htk.png"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        }
+      ]
+    },
+    {
+      "id": 9576,
+      "role": "MAIN",
+      "name": {
+        "first": "Haruo",
+        "last": "Yoshikawa",
+        "full": "Haruo Yoshikawa",
+        "native": "吉川春生",
+        "userPreferred": "Haruo Yoshikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9576.jpg",
+      "voiceActors": [
+        {
+          "id": 96527,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuhiro",
+            "last": "Ichiki",
+            "full": "Mitsuhiro Ichiki",
+            "native": "市来光弘",
+            "userPreferred": "Mitsuhiro Ichiki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1527.jpg"
+        },
+        {
+          "id": 106098,
+          "language": "English",
+          "name": {
+            "first": "David Lee",
+            "last": "McKinney",
+            "full": "David Lee McKinney",
+            "native": null,
+            "userPreferred": "David Lee McKinney"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106098-wXQeJMJeejZT.jpg"
+        },
+        {
+          "id": 95886,
+          "language": "English",
+          "name": {
+            "first": "Clint",
+            "last": "Bickham",
+            "full": "Clint Bickham",
+            "native": null,
+            "userPreferred": "Clint Bickham"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/886.jpg"
+        },
+        {
+          "id": 109759,
+          "language": "Korean",
+          "name": {
+            "first": "Jae-Heon",
+            "last": "Jeong",
+            "full": "Jae-Heon Jeong",
+            "native": "정재헌",
+            "userPreferred": "Jae-Heon Jeong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109759-VMZn2P5P2ISK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9749,
+      "role": "MAIN",
+      "name": {
+        "first": "Rika",
+        "last": "Anju",
+        "full": "Rika Anju",
+        "native": null,
+        "userPreferred": "Rika Anju"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9749.jpg",
+      "voiceActors": [
+        {
+          "id": 100578,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Inoue",
+            "full": "Nana Inoue",
+            "native": "井ノ上奈々",
+            "userPreferred": "Nana Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100578-mV2Qacbk9i4T.jpg"
+        },
+        {
+          "id": 95145,
+          "language": "English",
+          "name": {
+            "first": "Tiffany",
+            "last": "Grant",
+            "full": "Tiffany Grant",
+            "native": null,
+            "userPreferred": "Tiffany Lynn Grant"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95145-c3MjV5tshGXX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9747,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuri",
+        "last": "Kurosu",
+        "full": "Yuri Kurosu",
+        "native": null,
+        "userPreferred": "Yuri Kurosu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9747.jpg",
+      "voiceActors": [
+        {
+          "id": 101152,
+          "language": "Japanese",
+          "name": {
+            "first": "Noriko",
+            "last": "Namiki",
+            "full": "Noriko Namiki",
+            "native": "並木のり子",
+            "userPreferred": "Noriko Namiki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6152.jpg"
+        },
+        {
+          "id": 101181,
+          "language": "English",
+          "name": {
+            "first": "Carli",
+            "last": "Mosier",
+            "full": "Carli Mosier",
+            "native": "Carlin Cyd Mosier",
+            "userPreferred": "Carli Mosier"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101181-LTc5rfaUef91.png"
+        },
+        {
+          "id": 109837,
+          "language": "Korean",
+          "name": {
+            "first": "Myeong-seon",
+            "last": "Lee",
+            "full": "Myeong-seon Lee",
+            "native": "명선 이",
+            "userPreferred": "Myeong-seon Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14837.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9744,
+      "role": "MAIN",
+      "name": {
+        "first": "Fuyuno",
+        "last": "Yoshikawa",
+        "full": "Fuyuno Yoshikawa",
+        "native": null,
+        "userPreferred": "Fuyuno Yoshikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9744.jpg",
+      "voiceActors": [
+        {
+          "id": 95272,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Kaneda",
+            "full": "Tomoko Kaneda",
+            "native": "金田朋子",
+            "userPreferred": "Tomoko Kaneda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95272-qfGnqI0gkKK5.png"
+        },
+        {
+          "id": 95151,
+          "language": "English",
+          "name": {
+            "first": "Hilary",
+            "last": "Haag",
+            "full": "Hilary Haag",
+            "native": null,
+            "userPreferred": "Hilary Haag"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/151.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9798,
+      "role": "MAIN",
+      "name": {
+        "first": "Ayumi",
+        "last": "Mamiya",
+        "full": "Ayumi Mamiya",
+        "native": null,
+        "userPreferred": "Ayumi Mamiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9798.jpg",
+      "voiceActors": [
+        {
+          "id": 95204,
+          "language": "Japanese",
+          "name": {
+            "first": "Sakura",
+            "last": "Nogawa",
+            "full": "Sakura Nogawa",
+            "native": "野川さくら",
+            "userPreferred": "Sakura Nogawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95204-nsvdCdwwgIrC.png"
+        },
+        {
+          "id": 95199,
+          "language": "English",
+          "name": {
+            "first": "Jessica",
+            "last": "Boone",
+            "full": "Jessica Boone",
+            "native": null,
+            "userPreferred": "Jessica Boone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95199-0ArwCGT722iO.jpg"
+        },
+        {
+          "id": 110135,
+          "language": "Korean",
+          "name": {
+            "first": "Do Yeong",
+            "last": "Song",
+            "full": "Do Yeong Song",
+            "native": "도영송",
+            "userPreferred": "Do Yeong Song"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15135.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9748,
+      "role": "MAIN",
+      "name": {
+        "first": "Marin",
+        "last": "Nijihara",
+        "full": "Marin Nijihara",
+        "native": null,
+        "userPreferred": "Marin Nijihara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9748.jpg",
+      "voiceActors": [
+        {
+          "id": 95258,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruko",
+            "last": "Momoi",
+            "full": "Haruko Momoi",
+            "native": "桃井はるこ",
+            "userPreferred": "Haruko Momoi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95258-cTKT3ONucnZU.jpg"
+        },
+        {
+          "id": 100189,
+          "language": "English",
+          "name": {
+            "first": "Hannah",
+            "last": "Alcorn",
+            "full": "Hannah Alcorn",
+            "native": null,
+            "userPreferred": "Hannah Alcorn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5189.jpg"
+        },
+        {
+          "id": 109837,
+          "language": "Korean",
+          "name": {
+            "first": "Myeong-seon",
+            "last": "Lee",
+            "full": "Myeong-seon Lee",
+            "native": "명선 이",
+            "userPreferred": "Myeong-seon Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14837.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18174,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Infomercial Announcer",
+        "last": null,
+        "full": "Infomercial Announcer",
+        "native": "通販アナウンサー",
+        "userPreferred": "Infomercial Announcer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95555,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsuki",
+            "last": "Murase",
+            "full": "Katsuki Murase",
+            "native": "村瀬克輝",
+            "userPreferred": "Katsuki Murase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/555.jpg"
+        },
+        {
+          "id": 101497,
+          "language": "English",
+          "name": {
+            "first": "Matt",
+            "last": "Greenfield",
+            "full": "Matt Greenfield",
+            "native": null,
+            "userPreferred": "Matt Greenfield"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6497.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9746,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hajime",
+        "last": "Hario",
+        "full": "Hajime Hario",
+        "native": null,
+        "userPreferred": "Hajime Hario"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9746.jpg",
+      "voiceActors": [
+        {
+          "id": 95192,
+          "language": "English",
+          "name": {
+            "first": "Greg",
+            "last": "Ayres",
+            "full": "Greg Ayres",
+            "native": null,
+            "userPreferred": "Greg Ayres"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95192-igLHZjSO4eE0.png"
+        },
+        {
+          "id": 109827,
+          "language": "Korean",
+          "name": {
+            "first": "Wan gyeong",
+            "last": "Seong",
+            "full": "Wan gyeong Seong",
+            "native": "완경 성",
+            "userPreferred": "Wan gyeong Seong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14827.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 31728,
+      "relationType": "ADAPTATION",
+      "malId": 1728,
+      "title": {
+        "romaji": "Magikano",
+        "english": null,
+        "native": "マジカノ",
+        "userPreferred": "Magikano"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31728-CknzKg19YP1H.png",
+      "color": "#0d0de4",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/31728-rWHXQYjgGpnh.jpg",
+      "rating": 60
+    }
+  ],
+  "episodes": [
+    {
+      "id": "magikano-episode-1",
+      "title": "Magi? She is a Witch?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12674/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:21:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//magikano-episode-1"
+    },
+    {
+      "id": "magikano-episode-2",
+      "title": "Magi? The Student Council President is Also a Witch?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12675/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:21:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//magikano-episode-2"
+    },
+    {
+      "id": "magikano-episode-3",
+      "title": "Magi? The Dangerous Siblings?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12676/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:21:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//magikano-episode-3"
+    },
+    {
+      "id": "magikano-episode-4",
+      "title": "Magi? It's Stolen?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12677/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:21:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//magikano-episode-4"
+    },
+    {
+      "id": "magikano-episode-5",
+      "title": "Magi? A Witch Hunter?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12678/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:21:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//magikano-episode-5"
+    },
+    {
+      "id": "magikano-episode-6",
+      "title": "Magi? There's a Ghost?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12679/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:21:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//magikano-episode-6"
+    },
+    {
+      "id": "magikano-episode-7",
+      "title": "Magi? A Maid is Here?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12680/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:21:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//magikano-episode-7"
+    },
+    {
+      "id": "magikano-episode-8",
+      "title": "Magi? A Victory Kiss?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12681/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:21:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//magikano-episode-8"
+    },
+    {
+      "id": "magikano-episode-9",
+      "title": "Magi? He's a Sleeping Prince?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12682/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:21:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//magikano-episode-9"
+    },
+    {
+      "id": "magikano-episode-10",
+      "title": "Magi? The Cat Panties are Cursed?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12683/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:21:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//magikano-episode-10"
+    },
+    {
+      "id": "magikano-episode-11",
+      "title": "Magi? It's a Holy Night?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12684/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:21:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//magikano-episode-11"
+    },
+    {
+      "id": "magikano-episode-12",
+      "title": "Magi? It's Time for Awakening?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12685/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:21:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//magikano-episode-12"
+    },
+    {
+      "id": "magikano-episode-13",
+      "title": "Magi? It's the Final Episode?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12686/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:21:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//magikano-episode-13"
+    }
+  ]
+}

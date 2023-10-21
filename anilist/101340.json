@@ -1,0 +1,906 @@
+{
+  "id": "101340",
+  "title": {
+    "romaji": "Muhyo to Rouji no Mahouritsu Soudan Jimusho",
+    "english": "Muhyo & Roji's Bureau of Supernatural Investigation",
+    "native": "ムヒョとロージーの魔法律相談事務所"
+  },
+  "malId": 37487,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "1Twrl9RUxE4",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/1Twrl9RUxE4/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101340-OstJznHblBXq.jpg",
+  "popularity": 12539,
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101340-OstJznHblBXq.jpg",
+  "description": "Are you a victim of unwanted spirit possession? Is there a ghost you need sent up and away...or down to burn for all eternity? If the answer is yes, then you need Muhyo and Roji, experts in magic law. Serving justice to evil spirits is their specialty. <br></br>\n(Source: Viz Media)",
+  "status": "Completed",
+  "releaseDate": 2018,
+  "startDate": {
+    "year": 2018,
+    "month": 8,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2018,
+    "month": 10,
+    "day": 19
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 63,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Mystery",
+    "Supernatural"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Studio DEEN"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 107693,
+      "malId": 39196,
+      "title": {
+        "romaji": "Mairimashita! Iruma-kun",
+        "english": "Welcome to Demon School! Iruma-kun",
+        "native": "魔入りました！入間くん",
+        "userPreferred": "Mairimashita! Iruma-kun"
+      },
+      "status": "Completed",
+      "episodes": 23,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107693-A9bSSFAMxA6j.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107693-h0syT88giDiw.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 21643,
+      "malId": 32696,
+      "title": {
+        "romaji": "Fukigen na Mononokean",
+        "english": "The Morose Mononokean",
+        "native": "不機嫌なモノノケ庵",
+        "userPreferred": "Fukigen na Mononokean"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21643-1zrEKuiV3ASs.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21643-TehjY9mfzzy1.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 108463,
+      "malId": 39534,
+      "title": {
+        "romaji": "Jibaku Shounen Hanako-kun",
+        "english": "Toilet-bound Hanako-kun",
+        "native": "地縛少年 花子くん",
+        "userPreferred": "Jibaku Shounen Hanako-kun"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108463-knWkFUR311ho.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108463-pJ5XS6oJwvKh.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 100978,
+      "malId": 37140,
+      "title": {
+        "romaji": "Gegege no Kitarou (2018)",
+        "english": "GeGeGe no Kitaro",
+        "native": "ゲゲゲの鬼太郎(2018)",
+        "userPreferred": "Gegege no Kitarou (2018)"
+      },
+      "status": "Completed",
+      "episodes": 97,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100978-2BLQeMknulmo.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100978-aeBVxeEtnc1S.jpg",
+      "rating": 65,
+      "type": "TV"
+    },
+    {
+      "id": 123779,
+      "malId": 42822,
+      "title": {
+        "romaji": "Kai Byoui Ramune",
+        "english": "Dr. Ramune -Mysterious Disease Specialist-",
+        "native": "怪病医ラムネ",
+        "userPreferred": "Kai Byoui Ramune"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx123779-AbSom3C7nPQn.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/123779-Ck1nQb0mZ8zJ.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 3077,
+      "malId": 3077,
+      "title": {
+        "romaji": "Warau Salesman",
+        "english": "Laughing Salesman",
+        "native": "笑ゥせぇるすまん",
+        "userPreferred": "Warau Salesman"
+      },
+      "status": "Completed",
+      "episodes": 104,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3077-r93tm0fXWl46.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3077-r93tm0fXWl46.jpg",
+      "rating": 65,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 98239,
+      "malId": 34550,
+      "title": {
+        "romaji": "Warau Salesman New",
+        "english": "The Laughing Salesman",
+        "native": "笑ゥせぇるすまんNew",
+        "userPreferred": "Warau Salesman New"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98239-TfA5HDdAciC6.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98239-H0axcO42rZrW.jpg",
+      "rating": 57,
+      "type": "TV"
+    },
+    {
+      "id": 20431,
+      "malId": 20431,
+      "title": {
+        "romaji": "Hoozuki no Reitetsu",
+        "english": "Hozuki's Coolheadedness",
+        "native": "鬼灯の冷徹",
+        "userPreferred": "Hoozuki no Reitetsu"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20431-01EHi0CpWKx0.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20431-S0BhJaPcjAAP.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 2985,
+      "malId": 2985,
+      "title": {
+        "romaji": "Majin Tantei Nougami Neuro",
+        "english": "Neuro: Supernatural Detective",
+        "native": "魔人探偵 脳噛ネウロ",
+        "userPreferred": "Majin Tantei Nougami Neuro"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2985-tfv7c225KMCs.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2985.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 8986,
+      "malId": 8986,
+      "title": {
+        "romaji": "Supernatural The Animation",
+        "english": null,
+        "native": "スーパーナチュラル・ザ・アニメーション",
+        "userPreferred": "Supernatural The Animation"
+      },
+      "status": "Completed",
+      "episodes": 22,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8986.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8986.jpg",
+      "rating": 64,
+      "type": "OVA"
+    },
+    {
+      "id": 102939,
+      "malId": 37964,
+      "title": {
+        "romaji": "Mayonaka no Occult Koumuin",
+        "english": "Midnight Occult Civil Servants",
+        "native": "真夜中のオカルト公務員",
+        "userPreferred": "Mayonaka no Occult Koumuin"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102939-6Jugm5BxgMPQ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/102939-bbNG7Il6gVv0.jpg",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 4081,
+      "malId": 4081,
+      "title": {
+        "romaji": "Natsume Yuujinchou",
+        "english": "Natsume's Book of Friends",
+        "native": "夏目友人帳",
+        "userPreferred": "Natsume Yuujinchou"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4081-33BLrdaPdZjP.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4081-dbeE4uMExtgc.jpg",
+      "rating": 80,
+      "type": "TV"
+    },
+    {
+      "id": 21507,
+      "malId": 32182,
+      "title": {
+        "romaji": "Mob Psycho 100",
+        "english": "Mob Psycho 100",
+        "native": "モブサイコ100",
+        "userPreferred": "Mob Psycho 100"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21507-BICFCVZY3xQb.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21507-Qx8bGsLXUgLo.jpg",
+      "rating": 84,
+      "type": "TV"
+    },
+    {
+      "id": 2246,
+      "malId": 2246,
+      "title": {
+        "romaji": "Mononoke",
+        "english": "Mononoke",
+        "native": "モノノ怪",
+        "userPreferred": "Mononoke"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2246-WHkSkgyuxfgD.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2246-8DKsjLTMEFJq.png",
+      "rating": 81,
+      "type": "TV"
+    },
+    {
+      "id": 152802,
+      "malId": 52505,
+      "title": {
+        "romaji": "Dark Gathering",
+        "english": "Dark Gathering",
+        "native": "ダークギャザリング",
+        "userPreferred": "Dark Gathering"
+      },
+      "status": "Ongoing",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx152802-qpOnEtQDbppP.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/152802-7iZxNsDwWjVs.jpg",
+      "rating": 71,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 7938,
+      "role": "MAIN",
+      "name": {
+        "first": "Tooru",
+        "last": "Muhyou",
+        "full": "Tooru Muhyou",
+        "native": "六氷透",
+        "userPreferred": "Tooru Muhyou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7938-Fiuzk0yedWs1.png",
+      "voiceActors": [
+        {
+          "id": 110919,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumu",
+            "last": "Murase",
+            "full": "Ayumu Murase",
+            "native": "村瀬歩",
+            "userPreferred": "Ayumu Murase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110919-zz5dq39kyzNC.png"
+        },
+        {
+          "id": 95860,
+          "language": "English",
+          "name": {
+            "first": "Todd",
+            "last": "Haberkorn",
+            "full": "Todd Haberkorn",
+            "native": "Todd Michael Haberkorn",
+            "userPreferred": "Todd Haberkorn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95860-RxBJH1Kt2TUW.png"
+        }
+      ]
+    },
+    {
+      "id": 7940,
+      "role": "MAIN",
+      "name": {
+        "first": "Jirou",
+        "last": "Kusano",
+        "full": "Jirou Kusano",
+        "native": "草野次郎",
+        "userPreferred": "Jirou Kusano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7940-nUV2GYFYzfTD.png",
+      "voiceActors": [
+        {
+          "id": 116157,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Hayashi",
+            "full": "Yuu Hayashi",
+            "native": "林勇",
+            "userPreferred": "Yuu Hayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116157-MAPYgEeptEUh.png"
+        },
+        {
+          "id": 129892,
+          "language": "English",
+          "name": {
+            "first": "Khoi",
+            "last": "Dao",
+            "full": "Khoi Dao",
+            "native": null,
+            "userPreferred": "Khoi Dao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129892-5cCk7dvQvKKj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19541,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kenji",
+        "last": "Satou",
+        "full": "Kenji Satou",
+        "native": "佐藤健二",
+        "userPreferred": "Kenji Satou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b19541-xxQfn0l52t7x.png",
+      "voiceActors": [
+        {
+          "id": 119871,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouhei",
+            "last": "Amasaki",
+            "full": "Kouhei Amasaki",
+            "native": "天崎滉平",
+            "userPreferred": "Kouhei Amasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119871-jbrrS09NU0CO.png"
+        },
+        {
+          "id": 124164,
+          "language": "English",
+          "name": {
+            "first": "Dawn",
+            "last": "Bennett",
+            "full": "Dawn Bennett",
+            "native": null,
+            "userPreferred": "Dawn M. Bennett"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n124164-S1pPyOrjgRpg.png"
+        }
+      ]
+    },
+    {
+      "id": 176623,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Paige",
+        "last": "Klaus",
+        "full": "Paige Klaus",
+        "native": "ペイジ・クラウス",
+        "userPreferred": "Paige Klaus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176623-Tz0r5YABTqGM.png",
+      "voiceActors": [
+        {
+          "id": 95098,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Hatano",
+            "full": "Wataru Hatano",
+            "native": "羽多野渉",
+            "userPreferred": "Wataru Hatano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95098-x6T2xOTuvkuY.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35738,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Reiko",
+        "last": "Imai",
+        "full": "Reiko Imai",
+        "native": "今井玲子",
+        "userPreferred": "Reiko Imai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b35738-L9elzLNnpIer.png",
+      "voiceActors": [
+        {
+          "id": 95197,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuki",
+            "last": "Saiga",
+            "full": "Mitsuki Saiga",
+            "native": "斎賀みつき",
+            "userPreferred": "Mitsuki Saiga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95197-gcTFdBK9oPtY.png"
+        }
+      ]
+    },
+    {
+      "id": 176624,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rio",
+        "last": "Kurotori",
+        "full": "Rio Kurotori",
+        "native": "黒鳥理緒",
+        "userPreferred": "Rio Kurotori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176624-eVRYX0GgJXMI.png",
+      "voiceActors": [
+        {
+          "id": 95723,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Akesaka",
+            "full": "Satomi Akesaka",
+            "native": "明坂聡美",
+            "userPreferred": "Satomi Akesaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95723-bV625Jngt5o6.png"
+        }
+      ]
+    },
+    {
+      "id": 37109,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Youichi",
+        "last": "Himukai",
+        "full": "Youichi Himukai",
+        "native": "火向洋一",
+        "userPreferred": "Youichi Himukai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b37109-2PzaYIIMdcvw.png",
+      "voiceActors": [
+        {
+          "id": 95167,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuya",
+            "last": "Kakihara",
+            "full": "Tetsuya Kakihara",
+            "native": "柿原徹也",
+            "userPreferred": "Tetsuya Kakihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95167-wjIShzThRTlS.png"
+        }
+      ]
+    },
+    {
+      "id": 176633,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Fujiwara",
+        "full": "Fujiwara",
+        "native": "藤原",
+        "userPreferred": "Fujiwara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176633-cYyLczk5eB6H.png",
+      "voiceActors": [
+        {
+          "id": 107389,
+          "language": "Japanese",
+          "name": {
+            "first": "Kyousuke",
+            "last": "Ikeda",
+            "full": "Kyousuke Ikeda",
+            "native": "池田恭祐",
+            "userPreferred": "Kyousuke Ikeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107389-YGHHoQHzClzc.png"
+        }
+      ]
+    },
+    {
+      "id": 176621,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Soratsugu",
+        "last": "Madoka",
+        "full": "Soratsugu Madoka",
+        "native": "円宙継",
+        "userPreferred": "Soratsugu Madoka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176621-NL11GYQwSFe0.png",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        }
+      ]
+    },
+    {
+      "id": 176634,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Furuya",
+        "last": null,
+        "full": "Furuya",
+        "native": "古谷",
+        "userPreferred": "Furuya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176634-2Hta7lzNBTXo.png",
+      "voiceActors": [
+        {
+          "id": 95070,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Koshimizu",
+            "full": "Ami Koshimizu",
+            "native": "小清水亜美",
+            "userPreferred": "Ami Koshimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95070-klkIfKz1VItS.png"
+        }
+      ]
+    },
+    {
+      "id": 16647,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuu",
+        "last": "Abiko",
+        "full": "Yuu Abiko",
+        "native": "我孫子優",
+        "userPreferred": "Yuu Abiko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b16647-rGKAiJfiU2rM.png",
+      "voiceActors": [
+        {
+          "id": 137627,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kawamura",
+            "full": "Rie Kawamura",
+            "native": "河村梨恵",
+            "userPreferred": "Rie Kawamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n137627-3zHTrIfTjepM.png"
+        }
+      ]
+    },
+    {
+      "id": 176636,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Maeda",
+        "full": "Maeda",
+        "native": "前田",
+        "userPreferred": "Maeda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176636-G8lY5nch3M7f.png",
+      "voiceActors": [
+        {
+          "id": 95926,
+          "language": "Japanese",
+          "name": {
+            "first": "Youji",
+            "last": "Ueda",
+            "full": "Youji Ueda",
+            "native": "上田燿司",
+            "userPreferred": "Youji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95926-IzwXTUF5tUJD.png"
+        }
+      ]
+    },
+    {
+      "id": 176627,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nana",
+        "last": "Takenouchi",
+        "full": "Nana Takenouchi",
+        "native": "竹乃内菜々",
+        "userPreferred": "Nana Takenouchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176627-MGU2LRpjEw16.png",
+      "voiceActors": [
+        {
+          "id": 103956,
+          "language": "Japanese",
+          "name": {
+            "first": "Iori",
+            "last": "Nomizu",
+            "full": "Iori Nomizu",
+            "native": "野水伊織",
+            "userPreferred": "Iori Nomizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103956-SBfEe7v8hV4r.png"
+        },
+        {
+          "id": 113057,
+          "language": "English",
+          "name": {
+            "first": "Morgan",
+            "last": "Lauré",
+            "full": "Morgan Lauré",
+            "native": null,
+            "userPreferred": "Morgan Lauré"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/18057.jpg"
+        }
+      ]
+    },
+    {
+      "id": 176635,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Iwamoto",
+        "full": "Iwamoto",
+        "native": "岩本",
+        "userPreferred": "Iwamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176635-wLlcsiDFG9oj.png",
+      "voiceActors": [
+        {
+          "id": 176637,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazumasa",
+            "last": "Fukagawa",
+            "full": "Kazumasa Fukagawa",
+            "native": "深川和征",
+            "userPreferred": "Kazumasa Fukagawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n176637-QncelCdPg9KP.png"
+        }
+      ]
+    },
+    {
+      "id": 176629,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Edgar",
+        "last": "Teek",
+        "full": "Edgar Teek",
+        "native": "エドガー・ティック",
+        "userPreferred": "Edgar Teek"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176629-oAwsQrnj9jTA.png",
+      "voiceActors": [
+        {
+          "id": 95955,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuharu",
+            "last": "Oota",
+            "full": "Tetsuharu Oota",
+            "native": "太田哲治",
+            "userPreferred": "Tetsuharu Oota"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95955-7VtRKoCevQaG.png"
+        }
+      ]
+    },
+    {
+      "id": 25933,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hanao",
+        "last": "Ebisu",
+        "full": "Hanao Ebisu",
+        "native": "花夫恵比寿",
+        "userPreferred": "Hanao Ebisu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b25933-VGlmaDwDhO5l.jpg",
+      "voiceActors": [
+        {
+          "id": 105148,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinya",
+            "last": "Takahashi",
+            "full": "Shinya Takahashi",
+            "native": "高橋伸也",
+            "userPreferred": "Shinya Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105148-X6NTB0Q8Yxs8.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 31925,
+      "relationType": "ADAPTATION",
+      "malId": 1925,
+      "title": {
+        "romaji": "Muhyo to Rouji no Mahoritsu Soudan Jimusou",
+        "english": "Muhyo & Roji's Bureau of Supernatural Investigation",
+        "native": "ムヒョとロージーの魔法律相談事務所",
+        "userPreferred": "Muhyo to Rouji no Mahoritsu Soudan Jimusou"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31925-0Hap2ytFohAC.png",
+      "color": "#f1d650",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/31925-Ke1lUzaVVcrP.jpg",
+      "rating": 70
+    },
+    {
+      "id": 110028,
+      "relationType": "SEQUEL",
+      "malId": 39948,
+      "title": {
+        "romaji": "Muhyo to Rouji no Mahouritsu Soudan Jimusho 2",
+        "english": "Muhyo & Roji’s Bureau of Supernatural Investigation Season 2",
+        "native": "ムヒョとロージーの魔法律相談事務所 2",
+        "userPreferred": "Muhyo to Rouji no Mahouritsu Soudan Jimusho 2"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110028-bosDZpze4Chn.png",
+      "color": "#e45035",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110028-bosDZpze4Chn.png",
+      "rating": 66
+    }
+  ],
+  "episodes": [
+    {
+      "id": "muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-1",
+      "title": "Rie and Taeko",
+      "image": "https://media.kitsu.io/episodes/thumbnails/250476/original.jpg",
+      "number": 1,
+      "createdAt": "2018-07-24T01:34:31Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-1"
+    },
+    {
+      "id": "muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-2",
+      "title": "Kenji and Nana",
+      "image": "https://media.kitsu.io/episodes/thumbnails/250477/original.jpg",
+      "number": 2,
+      "createdAt": "2018-07-24T01:34:31Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-2"
+    },
+    {
+      "id": "muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-3",
+      "title": "Talent",
+      "image": "https://media.kitsu.io/episodes/thumbnails/250776/original.jpg",
+      "number": 3,
+      "createdAt": "2018-08-03T00:05:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-3"
+    },
+    {
+      "id": "muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-4",
+      "title": "Omen",
+      "image": "https://media.kitsu.io/episodes/thumbnails/250777/original.jpg",
+      "number": 4,
+      "createdAt": "2018-08-03T00:05:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-4"
+    },
+    {
+      "id": "muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-5",
+      "title": "Insanity",
+      "image": "https://media.kitsu.io/episodes/thumbnails/250778/original.jpg",
+      "number": 5,
+      "createdAt": "2018-08-03T00:05:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-5"
+    },
+    {
+      "id": "muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-6",
+      "title": "The Butterfly of the Night",
+      "image": "https://media.kitsu.io/episodes/thumbnails/253962/original.jpg",
+      "number": 6,
+      "createdAt": "2018-08-23T00:06:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-6"
+    },
+    {
+      "id": "muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-7",
+      "title": "Magic Prison",
+      "image": "https://media.kitsu.io/episodes/thumbnails/253963/original.jpg",
+      "number": 7,
+      "createdAt": "2018-08-23T00:06:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-7"
+    },
+    {
+      "id": "muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-8",
+      "title": "Becoming Someone Else",
+      "image": "https://media.kitsu.io/episodes/thumbnails/253964/original.jpg",
+      "number": 8,
+      "createdAt": "2018-08-23T00:06:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-8"
+    },
+    {
+      "id": "muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-9",
+      "title": "Sophie",
+      "image": "https://media.kitsu.io/episodes/thumbnails/253965/original.jpg",
+      "number": 9,
+      "createdAt": "2018-08-23T00:06:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-9"
+    },
+    {
+      "id": "muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-10",
+      "title": "Raspberries",
+      "image": "https://media.kitsu.io/episodes/thumbnails/255334/original.jpg",
+      "number": 10,
+      "createdAt": "2018-09-18T18:08:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-10"
+    },
+    {
+      "id": "muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-11",
+      "title": "The Gamble",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101340-OstJznHblBXq.jpg",
+      "number": 11,
+      "createdAt": "2018-09-21T23:39:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-11"
+    },
+    {
+      "id": "muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-12",
+      "title": "Swallows in the Wind",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101340-OstJznHblBXq.jpg",
+      "number": 12,
+      "createdAt": "2018-09-21T23:39:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//muhyo-to-rouji-no-mahouritsu-soudan-jimusho-episode-12"
+    }
+  ]
+}

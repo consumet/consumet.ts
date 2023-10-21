@@ -1,0 +1,878 @@
+{
+  "id": "20820",
+  "title": {
+    "romaji": "Mahou Shoujo Lyrical Nanoha ViVid",
+    "english": "Magical Girl Lyrical Nanoha ViVid",
+    "native": "魔法少女リリカルなのはViVid"
+  },
+  "malId": 25939,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20820-QjhVyCHX5ZI8.jpg",
+  "popularity": 6726,
+  "color": "#e4ae50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20820-QjhVyCHX5ZI8.jpg",
+  "description": "The manga takes place four years after the JS incident in Magical Girl Lyrical Nanoha StrikerS, and stars Vivio Takamichi, a fourth-year elementary student at St. Hilde Academy of Magic. Vivio has learned to conjure her adult form and has received her own Device — named Sacred Heart — from Nanoha, and has promised Nanoha to never use either for mischief. Then a mysterious magical fighter appears and targets Vivio.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2015,
+  "startDate": {
+    "year": 2015,
+    "month": 4,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 6,
+    "day": 19
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 63,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Mahou Shoujo",
+    "Sports"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "A-1 Pictures"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 10155,
+      "malId": 10155,
+      "title": {
+        "romaji": "Dog Days",
+        "english": "Dog Days",
+        "native": "ドッグデイズ",
+        "userPreferred": "Dog Days"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10155-e5d9PukNkE8D.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10155-E433GYveGz8I.jpg",
+      "rating": 64,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 4174,
+      "role": "MAIN",
+      "name": {
+        "first": "Vivio",
+        "last": "Takamachi",
+        "full": "Vivio Takamachi",
+        "native": "高町ヴィヴィオ",
+        "userPreferred": "Vivio Takamachi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4174.jpg",
+      "voiceActors": [
+        {
+          "id": 95156,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Mizuhashi",
+            "full": "Kaori Mizuhashi",
+            "native": "水橋かおり",
+            "userPreferred": "Kaori Mizuhashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95156-7tw0zP396ecG.png"
+        }
+      ]
+    },
+    {
+      "id": 26309,
+      "role": "MAIN",
+      "name": {
+        "first": "Einhart",
+        "last": "Stratos",
+        "full": "Einhart Stratos",
+        "native": "ハイデイ・E・S・イングヴアルト / アインハート・ストゥラトス",
+        "userPreferred": "Einhart Stratos"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26309.jpg",
+      "voiceActors": [
+        {
+          "id": 95040,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamiko",
+            "last": "Noto",
+            "full": "Mamiko Noto",
+            "native": "能登麻美子",
+            "userPreferred": "Mamiko Noto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95040-CskhFn4LiOti.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1896,
+      "role": "MAIN",
+      "name": {
+        "first": "Fate",
+        "last": "Testarossa",
+        "full": "Fate Testarossa",
+        "native": "フェイト・テスタロッサ",
+        "userPreferred": "Fate Testarossa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1896-uwXbPEqvbfLG.jpg",
+      "voiceActors": [
+        {
+          "id": 95081,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Mizuki",
+            "full": "Nana Mizuki",
+            "native": "水樹奈々",
+            "userPreferred": "Nana Mizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95081-qto4UanYkpQT.png"
+        }
+      ]
+    },
+    {
+      "id": 2010,
+      "role": "MAIN",
+      "name": {
+        "first": "Nanoha",
+        "last": "Takamachi",
+        "full": "Nanoha Takamachi",
+        "native": "高町なのは",
+        "userPreferred": "Nanoha Takamachi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2010-fimDXaXie396.png",
+      "voiceActors": [
+        {
+          "id": 95027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Tamura",
+            "full": "Yukari Tamura",
+            "native": "田村ゆかり",
+            "userPreferred": "Yukari Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3582,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Subaru",
+        "last": "Nakajima",
+        "full": "Subaru Nakajima",
+        "native": "スバル・ナカジマ",
+        "userPreferred": "Subaru Nakajima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3582.jpg",
+      "voiceActors": [
+        {
+          "id": 95061,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiwa",
+            "last": "Saitou",
+            "full": "Chiwa Saitou",
+            "native": "斎藤千和",
+            "userPreferred": "Chiwa Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95061-R8YSAYX7UFCO.png"
+        }
+      ]
+    },
+    {
+      "id": 4176,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shamal",
+        "last": null,
+        "full": "Shamal",
+        "native": "シャマル",
+        "userPreferred": "Shamal"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4176.jpg",
+      "voiceActors": [
+        {
+          "id": 95141,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouka",
+            "last": "Yuzuki",
+            "full": "Ryouka Yuzuki",
+            "native": "柚木涼香",
+            "userPreferred": "Ryouka Yuzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95141-RUTdfZUbNcUv.png"
+        }
+      ]
+    },
+    {
+      "id": 220248,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Solfège",
+        "last": null,
+        "full": "Solfège",
+        "native": "ソルフェージュ",
+        "userPreferred": "Solfège"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b220248-ZlYYQWwR6eAS.png",
+      "voiceActors": [
+        {
+          "id": 220249,
+          "language": "Japanese",
+          "name": {
+            "first": "Jamie",
+            "last": "Schyy",
+            "full": "Jamie Schyy",
+            "native": null,
+            "userPreferred": "Jamie Schyy"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n220249-HoFCv9KvYVSm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3648,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lutecia",
+        "last": "Alpine",
+        "full": "Lutecia Alpine",
+        "native": "ルーテシア・アルピーノ",
+        "userPreferred": "Lutecia Alpine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3648.jpg",
+      "voiceActors": [
+        {
+          "id": 95136,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsuko",
+            "last": "Kuwatani",
+            "full": "Natsuko Kuwatani",
+            "native": "桑谷夏子",
+            "userPreferred": "Natsuko Kuwatani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95136-8dAGkiwq7Htk.png"
+        }
+      ]
+    },
+    {
+      "id": 2232,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Signum",
+        "last": null,
+        "full": "Signum",
+        "native": "シグナム",
+        "userPreferred": "Signum"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2232.jpg",
+      "voiceActors": [
+        {
+          "id": 95169,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Shimizu",
+            "full": "Kaori Shimizu",
+            "native": "清水香里",
+            "userPreferred": "Kaori Shimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95169-EfU6qQdPxHRv.jpg"
+        }
+      ]
+    },
+    {
+      "id": 220250,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bardiche",
+        "last": null,
+        "full": "Bardiche",
+        "native": "バルディッシュ",
+        "userPreferred": "Bardiche"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b220250-anpyYoUdG3yi.png",
+      "voiceActors": [
+        {
+          "id": 220251,
+          "language": "Japanese",
+          "name": {
+            "first": "Kevin J.",
+            "last": "England",
+            "full": "Kevin J. England",
+            "native": null,
+            "userPreferred": "Kevin J. England"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n220251-7VHrK9fWFOaP.png"
+        }
+      ]
+    },
+    {
+      "id": 4178,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zafila",
+        "last": null,
+        "full": "Zafila",
+        "native": "ザフィーラ",
+        "userPreferred": "Zafila"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4178.jpg",
+      "voiceActors": [
+        {
+          "id": 96519,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuya",
+            "last": "Ichijou",
+            "full": "Kazuya Ichijou",
+            "native": "一条和矢",
+            "userPreferred": "Kazuya Ichijou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1519.jpg"
+        }
+      ]
+    },
+    {
+      "id": 33013,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Corona",
+        "last": "Timir",
+        "full": "Corona Timir",
+        "native": "コロナ・ティミル",
+        "userPreferred": "Corona Timir"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/33013.jpg",
+      "voiceActors": [
+        {
+          "id": 95207,
+          "language": "Japanese",
+          "name": {
+            "first": "Misato",
+            "last": "Fukuen",
+            "full": "Misato Fukuen",
+            "native": "福圓美里",
+            "userPreferred": "Misato Fukuen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95207-TYPMa0JKUDAf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 162220,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Raising Heart",
+        "last": null,
+        "full": "Raising Heart",
+        "native": "レイジンハート",
+        "userPreferred": "Raising Heart"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b162220-QwjxoV36YScE.png",
+      "voiceActors": [
+        {
+          "id": 103348,
+          "language": "Japanese",
+          "name": {
+            "first": "Donna",
+            "last": "Burke",
+            "full": "Donna Burke",
+            "native": null,
+            "userPreferred": "Donna Burke"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103348-VEQsO8vQGqKd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19584,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nove",
+        "last": null,
+        "full": "Nove",
+        "native": "ノーヴェ",
+        "userPreferred": "Nove"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19584.jpg",
+      "voiceActors": [
+        {
+          "id": 95061,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiwa",
+            "last": "Saitou",
+            "full": "Chiwa Saitou",
+            "native": "斎藤千和",
+            "userPreferred": "Chiwa Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95061-R8YSAYX7UFCO.png"
+        }
+      ]
+    },
+    {
+      "id": 33012,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rio",
+        "last": "Wezley",
+        "full": "Rio Wezley",
+        "native": "リオ・ウェズリー",
+        "userPreferred": "Rio Wezley"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b33012-LxE4hcNI5tNt.png",
+      "voiceActors": [
+        {
+          "id": 95413,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Kitamura",
+            "full": "Eri Kitamura",
+            "native": "喜多村英梨",
+            "userPreferred": "Eri Kitamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95413-FwAIrc8Ishpt.png"
+        }
+      ]
+    },
+    {
+      "id": 41028,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chantez",
+        "last": "Apinion",
+        "full": "Chantez Apinion",
+        "native": "シャンテ・アピニオン",
+        "userPreferred": "Chantez Apinion"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41028.jpg",
+      "voiceActors": [
+        {
+          "id": 95817,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Asumi",
+            "full": "Kana Asumi",
+            "native": "阿澄佳奈",
+            "userPreferred": "Kana Asumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95817-UHqRZ5xuSJgW.png"
+        }
+      ]
+    },
+    {
+      "id": 19582,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Wendi",
+        "last": null,
+        "full": "Wendi",
+        "native": "ウェンディ",
+        "userPreferred": "Wendi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19582.jpg",
+      "voiceActors": [
+        {
+          "id": 95158,
+          "language": "Japanese",
+          "name": {
+            "first": "Marina",
+            "last": "Inoue",
+            "full": "Marina Inoue",
+            "native": "井上麻里奈",
+            "userPreferred": "Marina Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95158-OLhgs8zv5xsp.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19592,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dieci",
+        "last": null,
+        "full": "Dieci",
+        "native": "ディエチ",
+        "userPreferred": "Dieci"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19592.jpg",
+      "voiceActors": [
+        {
+          "id": 96500,
+          "language": "Japanese",
+          "name": {
+            "first": "Nozomi",
+            "last": "Masu",
+            "full": "Nozomi Masu",
+            "native": "望 升",
+            "userPreferred": "Nozomi Masu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1500.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4171,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Erio",
+        "last": "Mondial",
+        "full": "Erio Mondial",
+        "native": "エリオ・モンディアル",
+        "userPreferred": "Erio Mondial"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4171.jpg",
+      "voiceActors": [
+        {
+          "id": 95158,
+          "language": "Japanese",
+          "name": {
+            "first": "Marina",
+            "last": "Inoue",
+            "full": "Marina Inoue",
+            "native": "井上麻里奈",
+            "userPreferred": "Marina Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95158-OLhgs8zv5xsp.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19596,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Agito",
+        "last": null,
+        "full": "Agito",
+        "native": "アギト",
+        "userPreferred": "Agito"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19596.jpg",
+      "voiceActors": [
+        {
+          "id": 102717,
+          "language": "Japanese",
+          "name": {
+            "first": "Mami",
+            "last": "Kameoka",
+            "full": "Mami Kameoka",
+            "native": "亀岡真美",
+            "userPreferred": "Mami Kameoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7717.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19593,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Deed",
+        "last": null,
+        "full": "Deed",
+        "native": "ディード",
+        "userPreferred": "Deed"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19593.jpg",
+      "voiceActors": [
+        {
+          "id": 95093,
+          "language": "Japanese",
+          "name": {
+            "first": "Shizuka",
+            "last": "Itou",
+            "full": "Shizuka Itou",
+            "native": "伊藤静",
+            "userPreferred": "Shizuka Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95093-MApaH7qqtmVN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4172,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Caro",
+        "last": "Ru Lushe",
+        "full": "Caro Ru Lushe",
+        "native": "キャロ・ル・ルシエ",
+        "userPreferred": "Caro Ru Lushe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4172.jpg",
+      "voiceActors": [
+        {
+          "id": 95132,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Takahashi",
+            "full": "Mikako Takahashi",
+            "native": "高橋美佳子",
+            "userPreferred": "Mikako Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95132-TpIFKL0tJg84.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2251,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Vita",
+        "last": null,
+        "full": "Vita",
+        "native": "ヴィーター",
+        "userPreferred": "Vita"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2251.jpg",
+      "voiceActors": [
+        {
+          "id": 95126,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Sanada",
+            "full": "Asami Sanada",
+            "native": "真田アサミ",
+            "userPreferred": "Asami Sanada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95126-5riJAYwazk5K.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19598,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Garyuu",
+        "last": null,
+        "full": "Garyuu",
+        "native": "ガリュー",
+        "userPreferred": "Garyuu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19598.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 2768,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hayate",
+        "last": "Yagami",
+        "full": "Hayate Yagami",
+        "native": "八神はやて",
+        "userPreferred": "Hayate Yagami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2768-9rEOYlsdLfxL.jpg",
+      "voiceActors": [
+        {
+          "id": 95116,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Ueda",
+            "full": "Kana Ueda",
+            "native": "植田佳奈",
+            "userPreferred": "Kana Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95116-NvhEn6vNMiAq.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1915,
+      "relationType": "PREQUEL",
+      "malId": 1915,
+      "title": {
+        "romaji": "Mahou Shoujo Lyrical Nanoha StrikerS",
+        "english": "Magical Girl Lyrical Nanoha StrikerS",
+        "native": "魔法少女リリカルなのはStrikerS",
+        "userPreferred": "Mahou Shoujo Lyrical Nanoha StrikerS"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1915-IKthftm6s36b.png",
+      "color": "#5D88E4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1915-ZNdHtzCeDdF3.jpg",
+      "rating": 73
+    },
+    {
+      "id": 44238,
+      "relationType": "ADAPTATION",
+      "malId": 14238,
+      "title": {
+        "romaji": "Mahou Shoujo Lyrical Nanoha ViVid",
+        "english": null,
+        "native": "魔法少女リリカルなのはViVid",
+        "userPreferred": "Mahou Shoujo Lyrical Nanoha ViVid"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx44238-0UYWSPfYzTIm.jpg",
+      "color": "#f1bb43",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx44238-0UYWSPfYzTIm.jpg",
+      "rating": 73
+    },
+    {
+      "id": 21871,
+      "relationType": "SIDE_STORY",
+      "malId": 33589,
+      "title": {
+        "romaji": "ViVid Strike!",
+        "english": "ViVid Strike!",
+        "native": "ViVid Strike!",
+        "userPreferred": "ViVid Strike!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21871-HHE1QjwHA6Op.png",
+      "color": "#f1ae43",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21871-pdeA6G275fDd.jpg",
+      "rating": 66
+    }
+  ],
+  "episodes": [
+    {
+      "id": "mahou-shoujo-lyrical-nanoha-vivid-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20820-QjhVyCHX5ZI8.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-lyrical-nanoha-vivid-episode-1"
+    },
+    {
+      "id": "mahou-shoujo-lyrical-nanoha-vivid-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20820-QjhVyCHX5ZI8.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-lyrical-nanoha-vivid-episode-2"
+    },
+    {
+      "id": "mahou-shoujo-lyrical-nanoha-vivid-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20820-QjhVyCHX5ZI8.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-lyrical-nanoha-vivid-episode-3"
+    },
+    {
+      "id": "mahou-shoujo-lyrical-nanoha-vivid-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20820-QjhVyCHX5ZI8.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-lyrical-nanoha-vivid-episode-4"
+    },
+    {
+      "id": "mahou-shoujo-lyrical-nanoha-vivid-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20820-QjhVyCHX5ZI8.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-lyrical-nanoha-vivid-episode-5"
+    },
+    {
+      "id": "mahou-shoujo-lyrical-nanoha-vivid-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20820-QjhVyCHX5ZI8.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-lyrical-nanoha-vivid-episode-6"
+    },
+    {
+      "id": "mahou-shoujo-lyrical-nanoha-vivid-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20820-QjhVyCHX5ZI8.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-lyrical-nanoha-vivid-episode-7"
+    },
+    {
+      "id": "mahou-shoujo-lyrical-nanoha-vivid-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20820-QjhVyCHX5ZI8.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-lyrical-nanoha-vivid-episode-8"
+    },
+    {
+      "id": "mahou-shoujo-lyrical-nanoha-vivid-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20820-QjhVyCHX5ZI8.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-lyrical-nanoha-vivid-episode-9"
+    },
+    {
+      "id": "mahou-shoujo-lyrical-nanoha-vivid-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20820-QjhVyCHX5ZI8.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-lyrical-nanoha-vivid-episode-10"
+    },
+    {
+      "id": "mahou-shoujo-lyrical-nanoha-vivid-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20820-QjhVyCHX5ZI8.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-lyrical-nanoha-vivid-episode-11"
+    },
+    {
+      "id": "mahou-shoujo-lyrical-nanoha-vivid-episode-12",
+      "title": "TBA",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20820-QjhVyCHX5ZI8.jpg",
+      "number": 12,
+      "createdAt": "2014-11-18T15:12:26Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-lyrical-nanoha-vivid-episode-12"
+    },
+    {
+      "id": "mahou-shoujo-lyrical-nanoha-vivid-episode-12-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20820-QjhVyCHX5ZI8.jpg",
+      "number": 12.5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-lyrical-nanoha-vivid-episode-12-5"
+    }
+  ]
+}

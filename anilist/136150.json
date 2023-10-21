@@ -1,0 +1,708 @@
+{
+  "id": "136150",
+  "title": {
+    "romaji": "Seiken Densetsu: Legend of Mana - The Teardrop Crystal",
+    "english": "Legend of Mana -The Teardrop Crystal-",
+    "native": "聖剣伝説 Legend of Mana -The Teardrop Crystal-"
+  },
+  "malId": 49304,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "BYut2A9AgLo",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/BYut2A9AgLo/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136150-azIWKERi7SLo.jpg",
+  "popularity": 5457,
+  "color": "#5da1f1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136150-azIWKERi7SLo.jpg",
+  "description": "Not far from the town of Domina lives Shiloh, a boy who keeps hearing a voice in his dreams about a mission he must fulfill. But what mission could he be needed for remains unknown. That all changes when he meets two Jumi, a race that’s hunted for their unique gemstones, as a sudden outbreak of attacks against the Jumi occurs. His dream, his quest, becomes clear—help the Jumi and their gemstones!<br>\n<br>\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2022,
+  "startDate": {
+    "year": 2022,
+    "month": 10,
+    "day": 8
+  },
+  "endDate": {
+    "year": 2022,
+    "month": 12,
+    "day": 24
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 50,
+  "duration": 24,
+  "genres": [
+    "Adventure",
+    "Fantasy"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Graphinica"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 21361,
+      "malId": 31629,
+      "title": {
+        "romaji": "GRANBLUE FANTASY The Animation",
+        "english": "Granblue Fantasy: The Animation",
+        "native": "GRANBLUE FANTASY The Animation",
+        "userPreferred": "GRANBLUE FANTASY The Animation"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21361-8gQWpTE5AJpz.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21361-NcNDPOPe9oLW.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 21394,
+      "malId": 31741,
+      "title": {
+        "romaji": "Magi: Sinbad no Bouken",
+        "english": "Magi: Adventure of Sinbad",
+        "native": "マギ シンドバッドの冒険",
+        "userPreferred": "Magi: Sinbad no Bouken"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21394-yauvzIHGAoZv.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21394-wQkxIEAup8aT.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 14513,
+      "malId": 14513,
+      "title": {
+        "romaji": "Magi: The labyrinth of magic",
+        "english": "Magi: The Labyrinth of Magic",
+        "native": "マギ The labyrinth of magic",
+        "userPreferred": "Magi: The labyrinth of magic"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx14513-b4C3J03GF6UT.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14513-DDBxCumOyPIa.jpg",
+      "rating": 78,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 272225,
+      "role": "MAIN",
+      "name": {
+        "first": "Shiloh",
+        "last": null,
+        "full": "Shiloh",
+        "native": "シャイロ",
+        "userPreferred": "Shiloh"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b272225-rVFPsJnHPCFo.png",
+      "voiceActors": [
+        {
+          "id": 105989,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobunaga",
+            "last": "Shimazaki",
+            "full": "Nobunaga Shimazaki",
+            "native": "島崎信長",
+            "userPreferred": "Nobunaga Shimazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105989-96etzH1dLNug.jpg"
+        }
+      ]
+    },
+    {
+      "id": 272226,
+      "role": "MAIN",
+      "name": {
+        "first": "Ruri",
+        "last": null,
+        "full": "Ruri",
+        "native": "瑠璃",
+        "userPreferred": "Ruri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b272226-7M9aX0E1h5kW.png",
+      "voiceActors": [
+        {
+          "id": 118908,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichirou",
+            "last": "Umehara",
+            "full": "Yuuichirou Umehara",
+            "native": "梅原裕一郎",
+            "userPreferred": "Yuuichirou Umehara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/118908-f16PugVCnZfT.jpg"
+        }
+      ]
+    },
+    {
+      "id": 272227,
+      "role": "MAIN",
+      "name": {
+        "first": "Shinju-hime",
+        "last": null,
+        "full": "Shinju-hime",
+        "native": "真珠姫",
+        "userPreferred": "Shinju-hime"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b272227-EX3spNwaussr.png",
+      "voiceActors": [
+        {
+          "id": 95078,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Nazuka",
+            "full": "Kaori Nazuka",
+            "native": "名塚佳織",
+            "userPreferred": "Kaori Nazuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95078-tMm7zdlRNZ3P.jpg"
+        }
+      ]
+    },
+    {
+      "id": 280533,
+      "role": "MAIN",
+      "name": {
+        "first": "Serafina",
+        "last": null,
+        "full": "Serafina",
+        "native": "セラフィナ",
+        "userPreferred": "Serafina"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b280533-MigpmjJUw2ZB.jpg",
+      "voiceActors": [
+        {
+          "id": 95869,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Hayami",
+            "full": "Saori Hayami",
+            "native": "早見沙織",
+            "userPreferred": "Saori Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95869-qCQ0EaWpq1QT.png"
+        }
+      ]
+    },
+    {
+      "id": 287739,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Diana",
+        "last": null,
+        "full": "Diana",
+        "native": "ディアナ",
+        "userPreferred": "Diana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b287739-TeVbdvY8ACUC.png",
+      "voiceActors": [
+        {
+          "id": 104973,
+          "language": "Japanese",
+          "name": {
+            "first": "Manami",
+            "last": "Numakura",
+            "full": "Manami Numakura",
+            "native": "沼倉愛美",
+            "userPreferred": "Manami Numakura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104973-rymSxCu8uP0Y.png"
+        }
+      ]
+    },
+    {
+      "id": 291143,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Boyd Keibu",
+        "last": null,
+        "full": "Boyd Keibu",
+        "native": "ボイド警部",
+        "userPreferred": "Boyd Keibu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b291143-w5z482IAwKEM.png",
+      "voiceActors": [
+        {
+          "id": 95800,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinpachi",
+            "last": "Tsuji",
+            "full": "Shinpachi Tsuji",
+            "native": "辻親八",
+            "userPreferred": "Shinpachi Tsuji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95800-TBMYjwu8Wy6T.png"
+        }
+      ]
+    },
+    {
+      "id": 287737,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Esmeralda",
+        "last": null,
+        "full": "Esmeralda",
+        "native": "エメロード",
+        "userPreferred": "Esmeralda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b287737-FWeqJk4b1Ycy.png",
+      "voiceActors": [
+        {
+          "id": 106622,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayane",
+            "last": "Sakura",
+            "full": "Ayane Sakura",
+            "native": "佐倉綾音",
+            "userPreferred": "Ayane Sakura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106622-yemj6ymLz4lY.png"
+        }
+      ]
+    },
+    {
+      "id": 291144,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuka-chan",
+        "last": null,
+        "full": "Yuka-chan",
+        "native": "ユカちゃん",
+        "userPreferred": "Yuka-chan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b291144-bd7tsr61Xb0V.png",
+      "voiceActors": [
+        {
+          "id": 106641,
+          "language": "Japanese",
+          "name": {
+            "first": "Misaki",
+            "last": "Kuno",
+            "full": "Misaki Kuno",
+            "native": "久野美咲",
+            "userPreferred": "Misaki Kuno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106641-zsyRkJ74NXvE.png"
+        }
+      ]
+    },
+    {
+      "id": 26066,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nikita",
+        "last": null,
+        "full": "Nikita",
+        "native": "ニキータ",
+        "userPreferred": "Nikita"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b26066-fO1dIGFLS99k.jpg",
+      "voiceActors": [
+        {
+          "id": 95133,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Takagi",
+            "full": "Wataru Takagi",
+            "native": "高木渉",
+            "userPreferred": "Wataru Takagi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95133-cqDtu078voZ1.png"
+        }
+      ]
+    },
+    {
+      "id": 280540,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saboten-kun",
+        "last": null,
+        "full": "Saboten-kun",
+        "native": "サボテンくん",
+        "userPreferred": "Saboten-kun"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b280540-to0lVqaB0xmj.jpg",
+      "voiceActors": [
+        {
+          "id": 112209,
+          "language": "Japanese",
+          "name": {
+            "first": "Yurika",
+            "last": "Kubo",
+            "full": "Yurika Kubo",
+            "native": "久保ユリカ",
+            "userPreferred": "Yurika Kubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112209-6rgze0vZlnG6.png"
+        }
+      ]
+    },
+    {
+      "id": 280534,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bud",
+        "last": null,
+        "full": "Bud",
+        "native": "バド",
+        "userPreferred": "Bud"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b280534-w0n87RoYr6GZ.png",
+      "voiceActors": [
+        {
+          "id": 95407,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Sanpei",
+            "full": "Yuuko Sanpei",
+            "native": "三瓶由布子",
+            "userPreferred": "Yuuko Sanpei"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95407-u8MV6kcAJNV6.png"
+        }
+      ]
+    },
+    {
+      "id": 32785,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Corona",
+        "last": null,
+        "full": "Corona",
+        "native": "コロナ",
+        "userPreferred": "Corona"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b32785-wJkQDlX5G3Ww.png",
+      "voiceActors": [
+        {
+          "id": 118841,
+          "language": "Japanese",
+          "name": {
+            "first": "Shino",
+            "last": "Shimoji",
+            "full": "Shino Shimoji",
+            "native": "下地紫野",
+            "userPreferred": "Shino Shimoji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118841-X6nIv6aMxf0m.png"
+        }
+      ]
+    },
+    {
+      "id": 280542,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Duelle",
+        "last": null,
+        "full": "Duelle",
+        "native": "ドゥエル",
+        "userPreferred": "Duelle"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b280542-YyGDIgtgMfJ3.jpg",
+      "voiceActors": [
+        {
+          "id": 100997,
+          "language": "Japanese",
+          "name": {
+            "first": "Sachi",
+            "last": "Kokuryuu",
+            "full": "Sachi Kokuryuu",
+            "native": "國立幸",
+            "userPreferred": "Sachi Kokuryuu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100997-LpXQJVqFUVpW.png"
+        }
+      ]
+    },
+    {
+      "id": 291071,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kusabito",
+        "last": null,
+        "full": "Kusabito",
+        "native": "草人",
+        "userPreferred": "Kusabito"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b291071-qAduV1DQz366.png",
+      "voiceActors": [
+        {
+          "id": 119813,
+          "language": "Japanese",
+          "name": {
+            "first": "Chitose",
+            "last": "Morinaga",
+            "full": "Chitose Morinaga",
+            "native": "森永千才",
+            "userPreferred": "Chitose Morinaga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119813-M3X0yu8k0MGB.png"
+        }
+      ]
+    },
+    {
+      "id": 287738,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hotaru-hime",
+        "last": null,
+        "full": "Hotaru-hime",
+        "native": "蛍姫",
+        "userPreferred": "Hotaru-hime"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b287738-X02zEfSMdqRw.png",
+      "voiceActors": [
+        {
+          "id": 118602,
+          "language": "Japanese",
+          "name": {
+            "first": "Reina",
+            "last": "Ueda",
+            "full": "Reina Ueda",
+            "native": "上田麗奈",
+            "userPreferred": "Reina Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118602-SFsQabl6KLu9.png"
+        }
+      ]
+    },
+    {
+      "id": 291072,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mana Goddess",
+        "last": null,
+        "full": "Mana Goddess",
+        "native": null,
+        "userPreferred": "Mana Goddess"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b291072-4nzu4qVqfkm9.png",
+      "voiceActors": [
+        {
+          "id": 96504,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Tsunematsu",
+            "full": "Ayumi Tsunematsu",
+            "native": "恒松あゆみ",
+            "userPreferred": "Ayumi Tsunematsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96504-uR5BYvPwmSWR.png"
+        }
+      ]
+    },
+    {
+      "id": 287736,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sandra",
+        "last": null,
+        "full": "Sandra",
+        "native": "サンドラ",
+        "userPreferred": "Sandra"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b287736-M4nwOJEb1baN.png",
+      "voiceActors": [
+        {
+          "id": 101634,
+          "language": "Japanese",
+          "name": {
+            "first": "Minako",
+            "last": "Kotobuki",
+            "full": "Minako Kotobuki",
+            "native": "寿美菜子",
+            "userPreferred": "Minako Kotobuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101634-IiPW117K0ybp.png"
+        }
+      ]
+    },
+    {
+      "id": 291142,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rachel",
+        "last": null,
+        "full": "Rachel",
+        "native": "レイチェル",
+        "userPreferred": "Rachel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b291142-31ecc01vOoNA.png",
+      "voiceActors": [
+        {
+          "id": 117003,
+          "language": "Japanese",
+          "name": {
+            "first": "Minami",
+            "last": "Takahashi",
+            "full": "Minami Takahashi",
+            "native": "髙橋ミナミ",
+            "userPreferred": "Minami Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n117003-UucaZmQjVSV7.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 31305,
+      "relationType": "ALTERNATIVE",
+      "malId": 1305,
+      "title": {
+        "romaji": "Seiken Densetsu: Legend of Mana",
+        "english": null,
+        "native": "聖剣伝説レジェンドオブマナ",
+        "userPreferred": "Seiken Densetsu: Legend of Mana"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/1305.jpg",
+      "color": "#e47835",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/1305.jpg",
+      "rating": 64
+    }
+  ],
+  "episodes": [
+    {
+      "id": "seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136150-azIWKERi7SLo.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-1"
+    },
+    {
+      "id": "seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136150-azIWKERi7SLo.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-2"
+    },
+    {
+      "id": "seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136150-azIWKERi7SLo.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-3"
+    },
+    {
+      "id": "seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136150-azIWKERi7SLo.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-4"
+    },
+    {
+      "id": "seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136150-azIWKERi7SLo.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-5"
+    },
+    {
+      "id": "seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136150-azIWKERi7SLo.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-6"
+    },
+    {
+      "id": "seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136150-azIWKERi7SLo.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-7"
+    },
+    {
+      "id": "seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136150-azIWKERi7SLo.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-8"
+    },
+    {
+      "id": "seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136150-azIWKERi7SLo.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-9"
+    },
+    {
+      "id": "seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136150-azIWKERi7SLo.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-10"
+    },
+    {
+      "id": "seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136150-azIWKERi7SLo.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-11"
+    },
+    {
+      "id": "seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136150-azIWKERi7SLo.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-12"
+    },
+    {
+      "id": "seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-12-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136150-azIWKERi7SLo.jpg",
+      "number": 12.5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//seiken-densetsu-legend-of-mana-the-teardrop-crystal-episode-12-5"
+    }
+  ]
+}

@@ -1,0 +1,642 @@
+{
+  "id": "141873",
+  "title": {
+    "romaji": "Xing Yuan Zhi Zhu",
+    "english": "Master of the Star Spring",
+    "native": "星源之主"
+  },
+  "malId": 50539,
+  "synonyms": [
+    "Master of Star Origin"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "trailer": {
+    "id": "n1oEhuyZh2E",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/n1oEhuyZh2E/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+  "popularity": 158,
+  "color": "#43bbe4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+  "status": "Completed",
+  "releaseDate": 2022,
+  "startDate": {
+    "year": 2022,
+    "month": 7,
+    "day": 27
+  },
+  "endDate": {
+    "year": 2023,
+    "month": 1,
+    "day": 1
+  },
+  "totalEpisodes": 48,
+  "currentEpisode": 48,
+  "rating": null,
+  "duration": 8,
+  "genres": [
+    "Action",
+    "Fantasy"
+  ],
+  "season": null,
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 280620,
+      "role": "MAIN",
+      "name": {
+        "first": "Jiu",
+        "last": "Su",
+        "full": "Jiu Su",
+        "native": "苏九",
+        "userPreferred": "Jiu Su"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 188424,
+          "language": "Chinese",
+          "name": {
+            "first": "Mo",
+            "last": "Han",
+            "full": "Mo Han",
+            "native": "瀚墨",
+            "userPreferred": "Mo Han"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188424-oKW58VSXEzfG.png"
+        }
+      ]
+    },
+    {
+      "id": 280622,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yihan",
+        "last": "You",
+        "full": "Yihan You",
+        "native": "幽亦寒",
+        "userPreferred": "Yihan You"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 188406,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhixiao",
+            "last": "Liu",
+            "full": "Zhixiao Liu",
+            "native": "柳知萧",
+            "userPreferred": "Zhixiao Liu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188406-C2dcDAmg0wSy.jpg"
+        }
+      ]
+    },
+    {
+      "id": 280623,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shaung",
+        "last": "Qiu",
+        "full": "Shaung Qiu",
+        "native": "秋霜",
+        "userPreferred": "Shaung Qiu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 233420,
+          "language": "Chinese",
+          "name": {
+            "first": "Xiaotu",
+            "last": "Shuo",
+            "full": "Xiaotu Shuo",
+            "native": "朔小兔",
+            "userPreferred": "Xiaotu Shuo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n233420-0ibibE79DW9e.png"
+        }
+      ]
+    },
+    {
+      "id": 280621,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hu",
+        "last": "Zhao",
+        "full": "Hu Zhao",
+        "native": "赵虎",
+        "userPreferred": "Hu Zhao"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 249590,
+          "language": "Chinese",
+          "name": {
+            "first": "Jiaxiang",
+            "last": "Li",
+            "full": "Jiaxiang Li",
+            "native": "李嘉祥",
+            "userPreferred": "Jiaxiang Li"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n249590-sSyE2Lrd2NdX.png"
+        }
+      ]
+    },
+    {
+      "id": 280624,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mengyue",
+        "last": "Shen",
+        "full": "Mengyue Shen",
+        "native": "沈梦雪",
+        "userPreferred": "Mengyue Shen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 221137,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhenxiu",
+            "last": "Su",
+            "full": "Zhenxiu Su",
+            "native": "苏枕袖",
+            "userPreferred": "Zhenxiu Su"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n221137-xhnlEi8qU3BX.png"
+        }
+      ]
+    },
+    {
+      "id": 280625,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mi",
+        "last": "Xia",
+        "full": "Mi Xia",
+        "native": "虾米",
+        "userPreferred": "Mi Xia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 280626,
+          "language": "Chinese",
+          "name": {
+            "first": "Yuantao",
+            "last": "Zhang",
+            "full": "Yuantao Zhang",
+            "native": "张远韬",
+            "userPreferred": "Yuantao Zhang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n280626-d5zdIite6T5f.png"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "xing-yuan-zhi-zhu-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-1"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-2"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-3"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-4"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-5"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-6"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-7"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-8"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-9"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-10"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-11"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-12"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-13"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-14"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-15"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-16"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-17",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 17,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-17"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-18",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 18,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-18"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-19",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 19,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-19"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-20",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 20,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-20"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-21",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 21,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-21"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-22",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 22,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-22"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-23",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 23,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-23"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-24",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 24,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-24"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-25",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 25,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-25"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-26",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 26,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-26"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-27",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 27,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-27"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-28",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 28,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-28"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-29",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 29,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-29"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-30",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 30,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-30"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-31",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 31,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-31"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-32",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 32,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-32"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-33",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 33,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-33"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-34",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 34,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-34"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-35",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 35,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-35"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-36",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 36,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-36"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-37",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 37,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-37"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-38",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 38,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-38"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-39",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 39,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-39"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-40",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 40,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-40"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-41",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 41,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-41"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-42",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 42,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-42"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-43",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 43,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-43"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-44",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 44,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-44"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-45",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 45,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-45"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-46",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 46,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-46"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-47",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 47,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-47"
+    },
+    {
+      "id": "xing-yuan-zhi-zhu-episode-48",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141873-r6Pj7MvaEcf2.png",
+      "number": 48,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//xing-yuan-zhi-zhu-episode-48"
+    }
+  ]
+}

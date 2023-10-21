@@ -1,0 +1,391 @@
+{
+  "id": "818",
+  "title": {
+    "romaji": "Sakura Tsuushin",
+    "english": "Sakura Diaries",
+    "native": "桜通信"
+  },
+  "malId": 818,
+  "synonyms": [
+    "Sakura Mail"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b818-KJV5rnRLVKGZ.png",
+  "popularity": 2631,
+  "color": "#935d28",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/818-SF5ZhLnjcA3l.jpg",
+  "description": "A Keio University (one of the top three colleges in Japan) exam candidate, Touma Inaba, is interrupted when a cute young girl, Urara Kasuga, arrives at his hotel room door. She later turns out to be his cousin who he barely remembers from his childhood. Urara, who had felt something special for him (an other-than-cousinly-love), invites Touma to live with her since he has no place to stay other than the hotel room. Before taking the test, Touma meets Meiko Yotsuba, a beautiful, sophisticated woman also trying to get into Keio. Meiko gets into Keio but Touma does not, due to a cold Urara had given him shortly before. Although he did not make it, he pretends he does to earn the respect of Meiko. Touma is caught up in a love triangle with Urara and Meiko, while struggling to keep Meiko believing he's really a Keio student and still be there for Urara at the same time.",
+  "status": "Completed",
+  "releaseDate": 1997,
+  "startDate": {
+    "year": 1997,
+    "month": 5,
+    "day": 21
+  },
+  "endDate": {
+    "year": 1997,
+    "month": 10,
+    "day": 22
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 55,
+  "duration": 22,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Ecchi",
+    "Romance",
+    "Slice of Life"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Shaft"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 1087,
+      "malId": 1087,
+      "title": {
+        "romaji": "Kimagure Orange☆Road",
+        "english": null,
+        "native": "きまぐれオレンジ☆ロード",
+        "userPreferred": "Kimagure Orange☆Road"
+      },
+      "status": "Completed",
+      "episodes": 48,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1087-zqIJ1FZjwilM.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1087-ibInHaGwOFPg.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 1453,
+      "malId": 1453,
+      "title": {
+        "romaji": "Maison Ikkoku",
+        "english": null,
+        "native": "めぞん一刻",
+        "userPreferred": "Maison Ikkoku"
+      },
+      "status": "Completed",
+      "episodes": 96,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1453-mghhMKzxEVcQ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1453-sC5wVW5UoeHi.jpg",
+      "rating": 78,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 6116,
+      "role": "MAIN",
+      "name": {
+        "first": "Touma",
+        "last": "Inaba",
+        "full": "Touma Inaba",
+        "native": "因幡冬馬",
+        "userPreferred": "Touma Inaba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6116-lmo0pm5vS6vE.png",
+      "voiceActors": [
+        {
+          "id": 95394,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuaki",
+            "last": "Madono",
+            "full": "Mitsuaki Madono",
+            "native": "真殿光昭",
+            "userPreferred": "Mitsuaki Madono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95394-BMiqrbgY0gIp.jpg"
+        },
+        {
+          "id": 112529,
+          "language": "English",
+          "name": {
+            "first": "Martin",
+            "last": "Burke",
+            "full": "Martin Burke",
+            "native": null,
+            "userPreferred": "Martin Burke"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/17529.jpg"
+        },
+        {
+          "id": 102603,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandro",
+            "last": "Quarta",
+            "full": "Alessandro Quarta",
+            "native": null,
+            "userPreferred": "Alessandro Quarta"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102603-mmqtewPxKjaG.png"
+        }
+      ]
+    },
+    {
+      "id": 6117,
+      "role": "MAIN",
+      "name": {
+        "first": "Urara",
+        "last": "Kasuga",
+        "full": "Urara Kasuga",
+        "native": "春日麗",
+        "userPreferred": "Urara Kasuga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6117-4vywgyyY7Gh9.png",
+      "voiceActors": [
+        {
+          "id": 95995,
+          "language": "Japanese",
+          "name": {
+            "first": "Kyouko",
+            "last": "Hikami",
+            "full": "Kyouko Hikami",
+            "native": "氷上恭子",
+            "userPreferred": "Kyouko Hikami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95995-zZU0UQQIQQ3N.png"
+        },
+        {
+          "id": 265285,
+          "language": "English",
+          "name": {
+            "first": "Lauren",
+            "last": "Worsham",
+            "full": "Lauren Worsham",
+            "native": null,
+            "userPreferred": "Lauren Worsham"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n265285-3bdpfT529PZs.png"
+        },
+        {
+          "id": 95767,
+          "language": "Italian",
+          "name": {
+            "first": "Federica",
+            "last": "De Bortoli",
+            "full": "Federica De Bortoli",
+            "native": null,
+            "userPreferred": "Federica De Bortoli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95767-7CE7WZx7bDe1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6118,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Meiko",
+        "last": "Yotsuba",
+        "full": "Meiko Yotsuba",
+        "native": "四葉美咲子",
+        "userPreferred": "Meiko Yotsuba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6118-kWFGuIQbn9XT.png",
+      "voiceActors": [
+        {
+          "id": 100108,
+          "language": "Japanese",
+          "name": {
+            "first": "Mako",
+            "last": "Hyoudou",
+            "full": "Mako Hyoudou",
+            "native": "兵藤まこ",
+            "userPreferred": "Mako Hyoudou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100108-vhFxlbXRGkbh.jpg"
+        },
+        {
+          "id": 114906,
+          "language": "English",
+          "name": {
+            "first": "Rebecca",
+            "last": "Davis",
+            "full": "Rebecca Davis",
+            "native": null,
+            "userPreferred": "Rebecca Davis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/19906.jpg"
+        },
+        {
+          "id": 95763,
+          "language": "Italian",
+          "name": {
+            "first": "Barbara",
+            "last": "De Bortoli",
+            "full": "Barbara De Bortoli",
+            "native": null,
+            "userPreferred": "Barbara De Bortoli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95763-Ci0xdLc6Z3a0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 47983,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Komi",
+        "last": "Natsuki",
+        "full": "Komi Natsuki",
+        "native": "夏樹香美",
+        "userPreferred": "Komi Natsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b47983-CY4JUBISYPtO.png",
+      "voiceActors": [
+        {
+          "id": 95996,
+          "language": "Japanese",
+          "name": {
+            "first": "Rumi",
+            "last": "Kasahara",
+            "full": "Rumi Kasahara",
+            "native": "笠原留美",
+            "userPreferred": "Rumi Kasahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/996.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 31603,
+      "relationType": "ADAPTATION",
+      "malId": 1603,
+      "title": {
+        "romaji": "Sakura Tsuushin",
+        "english": null,
+        "native": "桜通信",
+        "userPreferred": "Sakura Tsuushin"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b31603-9M2uJvT9gp1e.jpg",
+      "color": "#f15d28",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b31603-9M2uJvT9gp1e.jpg",
+      "rating": 55
+    }
+  ],
+  "episodes": [
+    {
+      "id": "sakura-mail-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b818-KJV5rnRLVKGZ.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sakura-mail-episode-1"
+    },
+    {
+      "id": "sakura-mail-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b818-KJV5rnRLVKGZ.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sakura-mail-episode-2"
+    },
+    {
+      "id": "sakura-mail-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b818-KJV5rnRLVKGZ.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sakura-mail-episode-3"
+    },
+    {
+      "id": "sakura-mail-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b818-KJV5rnRLVKGZ.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sakura-mail-episode-4"
+    },
+    {
+      "id": "sakura-mail-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b818-KJV5rnRLVKGZ.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sakura-mail-episode-5"
+    },
+    {
+      "id": "sakura-mail-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b818-KJV5rnRLVKGZ.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sakura-mail-episode-6"
+    },
+    {
+      "id": "sakura-mail-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b818-KJV5rnRLVKGZ.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sakura-mail-episode-7"
+    },
+    {
+      "id": "sakura-mail-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b818-KJV5rnRLVKGZ.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sakura-mail-episode-8"
+    },
+    {
+      "id": "sakura-mail-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b818-KJV5rnRLVKGZ.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sakura-mail-episode-9"
+    },
+    {
+      "id": "sakura-mail-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b818-KJV5rnRLVKGZ.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sakura-mail-episode-10"
+    },
+    {
+      "id": "sakura-mail-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b818-KJV5rnRLVKGZ.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sakura-mail-episode-11"
+    },
+    {
+      "id": "sakura-mail-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b818-KJV5rnRLVKGZ.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sakura-mail-episode-12"
+    }
+  ]
+}

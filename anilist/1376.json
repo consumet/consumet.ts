@@ -1,0 +1,671 @@
+{
+  "id": "1376",
+  "title": {
+    "romaji": "Ojamajo Doremi Na-i-sho",
+    "english": null,
+    "native": "おジャ魔女どれみ ナ・イ・ショ"
+  },
+  "malId": 1376,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1376-LH3Sw7ZAJMjs.png",
+  "popularity": 2702,
+  "color": "#ffd643",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n1376-cNRyH1lRlXCz.jpg",
+  "description": "Na-i-sho is a 13 episode OVA series with episodes taking place during the ~motto~ season. It is a bit more mature than the TV seasons, and looks to develop each of the five witches romantically. Hana is back to a baby, and the mahou shop is a bakery. <br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2004,
+  "startDate": {
+    "year": 2004,
+    "month": 6,
+    "day": 26
+  },
+  "endDate": {
+    "year": 2004,
+    "month": 12,
+    "day": 11
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 77,
+  "duration": 25,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Fantasy",
+    "Mahou Shoujo",
+    "Slice of Life"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 108630,
+      "malId": 39585,
+      "title": {
+        "romaji": "Majo Minarai wo Sagashite",
+        "english": null,
+        "native": "魔女見習いをさがして",
+        "userPreferred": "Majo Minarai wo Sagashite"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108630-pu0vFUXKIuhI.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108630-mRm5iolLa5z2.jpg",
+      "rating": 77,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 5754,
+      "role": "MAIN",
+      "name": {
+        "first": "Aiko",
+        "last": "Senoo",
+        "full": "Aiko Senoo",
+        "native": "妹尾あいこ",
+        "userPreferred": "Aiko Senoo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5754-fbArJIyQuYSq.png",
+      "voiceActors": [
+        {
+          "id": 95073,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Matsuoka",
+            "full": "Yuki Matsuoka",
+            "native": "松岡由貴",
+            "userPreferred": "Yuki Matsuoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95073-HIjUyhssrxGs.png"
+        }
+      ]
+    },
+    {
+      "id": 4683,
+      "role": "MAIN",
+      "name": {
+        "first": "Doremi",
+        "last": "Harukaze",
+        "full": "Doremi Harukaze",
+        "native": "春風どれみ",
+        "userPreferred": "Doremi Harukaze"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4683-595KK4GYKfTa.png",
+      "voiceActors": [
+        {
+          "id": 95795,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiemi",
+            "last": "Chiba",
+            "full": "Chiemi Chiba",
+            "native": "千葉千恵巳",
+            "userPreferred": "Chiemi Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95795-R95HhZinSrFX.png"
+        },
+        {
+          "id": 109755,
+          "language": "Korean",
+          "name": {
+            "first": "Jeong-Hwa",
+            "last": "Yang",
+            "full": "Jeong-Hwa Yang",
+            "native": "정화 양",
+            "userPreferred": "Jeong-Hwa Yang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14755.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5805,
+      "role": "MAIN",
+      "name": {
+        "first": "Hana",
+        "last": "Makihatayama",
+        "full": "Hana Makihatayama",
+        "native": "巻機山花",
+        "userPreferred": "Hana Makihatayama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5805-IOavkdQEf7gU.png",
+      "voiceActors": [
+        {
+          "id": 95128,
+          "language": "Japanese",
+          "name": {
+            "first": "Ikue",
+            "last": "Ootani",
+            "full": "Ikue Ootani",
+            "native": "大谷育江",
+            "userPreferred": "Ikue Ootani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95128-9YWpE1d2U8Sj.png"
+        }
+      ]
+    },
+    {
+      "id": 5753,
+      "role": "MAIN",
+      "name": {
+        "first": "Hazuki",
+        "last": "Fujiwara",
+        "full": "Hazuki Fujiwara",
+        "native": "藤原はづき",
+        "userPreferred": "Hazuki Fujiwara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n5753-3Jd6m3FO2eC6.png",
+      "voiceActors": [
+        {
+          "id": 96748,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Akiya",
+            "full": "Tomoko Akiya",
+            "native": "秋谷智子",
+            "userPreferred": "Tomoko Akiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96748-7xa61EMRqKw9.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5767,
+      "role": "MAIN",
+      "name": {
+        "first": "Onpu",
+        "last": "Segawa",
+        "full": "Onpu Segawa",
+        "native": "瀬川おんぷ",
+        "userPreferred": "Onpu Segawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5767-ic1HeXMWSlRD.png",
+      "voiceActors": [
+        {
+          "id": 95709,
+          "language": "Japanese",
+          "name": {
+            "first": "Rumi",
+            "last": "Shishido",
+            "full": "Rumi Shishido",
+            "native": "宍戸留美",
+            "userPreferred": "Rumi Shishido"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95709-1rUYsS5GXdN3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5768,
+      "role": "MAIN",
+      "name": {
+        "first": "Momoko",
+        "last": "Asuka",
+        "full": "Momoko Asuka",
+        "native": "飛鳥ももこ",
+        "userPreferred": "Momoko Asuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5768-TEWqFC1p62hG.png",
+      "voiceActors": [
+        {
+          "id": 96824,
+          "language": "Japanese",
+          "name": {
+            "first": "Nami",
+            "last": "Miyahara",
+            "full": "Nami Miyahara",
+            "native": "宮原永海",
+            "userPreferred": "Nami Miyahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96824-SRIUpKdY5EfX.jpg"
+        },
+        {
+          "id": 95788,
+          "language": "Korean",
+          "name": {
+            "first": "Yong Sin",
+            "last": "Lee",
+            "full": "Yong Sin Lee",
+            "native": "용신 이",
+            "userPreferred": "Yong Sin Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95788-6EPSNNAjYDly.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14172,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lala",
+        "last": null,
+        "full": "Lala",
+        "native": "ララ",
+        "userPreferred": "Lala"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14172-7EgXNWYVXAR7.png",
+      "voiceActors": []
+    },
+    {
+      "id": 14094,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Majorika",
+        "last": null,
+        "full": "Majorika",
+        "native": "マジョリカ",
+        "userPreferred": "Majorika"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14094-EDOu8yaxbMpd.png",
+      "voiceActors": [
+        {
+          "id": 96037,
+          "language": "Japanese",
+          "name": {
+            "first": "Nao",
+            "last": "Nagasawa",
+            "full": "Nao Nagasawa",
+            "native": "永澤菜教",
+            "userPreferred": "Nao Nagasawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96037-F5vg66XmK4yl.png"
+        }
+      ]
+    },
+    {
+      "id": 6653,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Poppu",
+        "last": "Harukaze",
+        "full": "Poppu Harukaze",
+        "native": "春風ぽっぷ",
+        "userPreferred": "Poppu Harukaze"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6653-15P6vmQ4Nv5P.png",
+      "voiceActors": [
+        {
+          "id": 95165,
+          "language": "Japanese",
+          "name": {
+            "first": "Sawa",
+            "last": "Ishige",
+            "full": "Sawa Ishige",
+            "native": "石毛佐和",
+            "userPreferred": "Sawa Ishige"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/165.jpg"
+        },
+        {
+          "id": 110129,
+          "language": "Korean",
+          "name": {
+            "first": "Sin Jeong",
+            "last": "Han",
+            "full": "Sin Jeong Han",
+            "native": "신정 한",
+            "userPreferred": "Sin Jeong Han"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15129.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39846,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dodo",
+        "last": null,
+        "full": "Dodo",
+        "native": "ドド",
+        "userPreferred": "Dodo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39846.jpg",
+      "voiceActors": [
+        {
+          "id": 96456,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Tokumitsu",
+            "full": "Yuka Tokumitsu",
+            "native": "徳光由禾",
+            "userPreferred": "Yuka Tokumitsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96456-UGEu0zMdfRx9.jpg"
+        }
+      ]
+    },
+    {
+      "id": 66357,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fami",
+        "last": "Harukaze",
+        "full": "Fami Harukaze",
+        "native": "ふぁみ",
+        "userPreferred": "Fami Harukaze"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/66357.jpg",
+      "voiceActors": [
+        {
+          "id": 95248,
+          "language": "Japanese",
+          "name": {
+            "first": "Kumiko",
+            "last": "Watanabe",
+            "full": "Kumiko Watanabe",
+            "native": "渡辺久美子",
+            "userPreferred": "Kumiko Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95248-UzMyBDiMD7LM.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39847,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rere",
+        "last": null,
+        "full": "Rere",
+        "native": "レレ",
+        "userPreferred": "Rere"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39847.jpg",
+      "voiceActors": [
+        {
+          "id": 96490,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Mizuki",
+            "full": "Jun Mizuki",
+            "native": "水樹洵",
+            "userPreferred": "Jun Mizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1490.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14169,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Queen of the Witch World",
+        "last": null,
+        "full": "Queen of the Witch World",
+        "native": "魔女界の女王様",
+        "userPreferred": "Queen of the Witch World"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14169-F6jAnHCqzFsx.png",
+      "voiceActors": [
+        {
+          "id": 95374,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Imai",
+            "full": "Yuka Imai",
+            "native": "今井由香",
+            "userPreferred": "Yuka Imai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95374-ZCLR2wSfxYDX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39849,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nini",
+        "last": null,
+        "full": "Nini",
+        "native": "ニニ",
+        "userPreferred": "Nini"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39849.jpg",
+      "voiceActors": [
+        {
+          "id": 96824,
+          "language": "Japanese",
+          "name": {
+            "first": "Nami",
+            "last": "Miyahara",
+            "full": "Nami Miyahara",
+            "native": "宮原永海",
+            "userPreferred": "Nami Miyahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96824-SRIUpKdY5EfX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39848,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Roro",
+        "last": null,
+        "full": "Roro",
+        "native": "ロロ",
+        "userPreferred": "Roro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39848.jpg",
+      "voiceActors": [
+        {
+          "id": 95709,
+          "language": "Japanese",
+          "name": {
+            "first": "Rumi",
+            "last": "Shishido",
+            "full": "Rumi Shishido",
+            "native": "宍戸留美",
+            "userPreferred": "Rumi Shishido"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95709-1rUYsS5GXdN3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14171,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mimi",
+        "last": null,
+        "full": "Mimi",
+        "native": "ミミ",
+        "userPreferred": "Mimi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14171.jpg",
+      "voiceActors": [
+        {
+          "id": 108453,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Saitou",
+            "full": "Yuuko Saitou",
+            "native": "祐子斉藤",
+            "userPreferred": "Yuuko Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/13453.jpg"
+        }
+      ]
+    },
+    {
+      "id": 50487,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Masaru",
+        "last": "Yada",
+        "full": "Masaru Yada",
+        "native": "矢田まさる ",
+        "userPreferred": "Masaru Yada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b50487-ZUeq4pkTe0hx.png",
+      "voiceActors": [
+        {
+          "id": 109933,
+          "language": "Korean",
+          "name": {
+            "first": "Myeong Jun",
+            "last": "Jeong",
+            "full": "Myeong Jun Jeong",
+            "native": "명준 정",
+            "userPreferred": "Myeong Jun Jeong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14933.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 352,
+      "relationType": "PARENT",
+      "malId": 352,
+      "title": {
+        "romaji": "Motto! Ojamajo Doremi",
+        "english": null,
+        "native": "も〜っと！おジャ魔女どれみ",
+        "userPreferred": "Motto! Ojamajo Doremi"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx352-lkINWd9rrimu.png",
+      "color": "#f1bb28",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/352-fz2gpoVDCSA7.jpg",
+      "rating": 74
+    }
+  ],
+  "episodes": [
+    {
+      "id": "ojamajo-doremi-na-i-sho-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1376-LH3Sw7ZAJMjs.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ojamajo-doremi-na-i-sho-episode-1"
+    },
+    {
+      "id": "ojamajo-doremi-na-i-sho-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1376-LH3Sw7ZAJMjs.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ojamajo-doremi-na-i-sho-episode-2"
+    },
+    {
+      "id": "ojamajo-doremi-na-i-sho-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1376-LH3Sw7ZAJMjs.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ojamajo-doremi-na-i-sho-episode-3"
+    },
+    {
+      "id": "ojamajo-doremi-na-i-sho-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1376-LH3Sw7ZAJMjs.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ojamajo-doremi-na-i-sho-episode-4"
+    },
+    {
+      "id": "ojamajo-doremi-na-i-sho-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1376-LH3Sw7ZAJMjs.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ojamajo-doremi-na-i-sho-episode-5"
+    },
+    {
+      "id": "ojamajo-doremi-na-i-sho-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1376-LH3Sw7ZAJMjs.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ojamajo-doremi-na-i-sho-episode-6"
+    },
+    {
+      "id": "ojamajo-doremi-na-i-sho-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1376-LH3Sw7ZAJMjs.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ojamajo-doremi-na-i-sho-episode-7"
+    },
+    {
+      "id": "ojamajo-doremi-na-i-sho-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1376-LH3Sw7ZAJMjs.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ojamajo-doremi-na-i-sho-episode-8"
+    },
+    {
+      "id": "ojamajo-doremi-na-i-sho-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1376-LH3Sw7ZAJMjs.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ojamajo-doremi-na-i-sho-episode-9"
+    },
+    {
+      "id": "ojamajo-doremi-na-i-sho-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1376-LH3Sw7ZAJMjs.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ojamajo-doremi-na-i-sho-episode-10"
+    },
+    {
+      "id": "ojamajo-doremi-na-i-sho-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1376-LH3Sw7ZAJMjs.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ojamajo-doremi-na-i-sho-episode-11"
+    },
+    {
+      "id": "ojamajo-doremi-na-i-sho-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1376-LH3Sw7ZAJMjs.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ojamajo-doremi-na-i-sho-episode-12"
+    },
+    {
+      "id": "ojamajo-doremi-na-i-sho-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1376-LH3Sw7ZAJMjs.png",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ojamajo-doremi-na-i-sho-episode-13"
+    }
+  ]
+}

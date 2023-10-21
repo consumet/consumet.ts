@@ -1,0 +1,491 @@
+{
+  "id": "8457",
+  "title": {
+    "romaji": "Yozakura Quartet: Hoshi no Umi",
+    "english": null,
+    "native": "夜桜四重奏 ～ホシノウミ～"
+  },
+  "malId": 8457,
+  "synonyms": [
+    "Yozakura Quartet: Sea of Stars"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8457-HLjTiI3nOFZs.png",
+  "popularity": 9247,
+  "color": "#4386e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8457-iOJnFK1vWBUA.jpg",
+  "description": "An OVA based on the Hoshi no Umi arc of the manga spanning chapters 26-34. <br>\r\n<br>\r\nThis arc focuses on Rin Azuma, a Jiang-Shi yokai resident of Sakurashin adjusting to her new life in the city and working for a ramen shop. One day her former friend Zakuro Kurumaki invades Sakurashin to capture Rin and convince her to join her in destroying the city with the other yokai hunters as well as Enjin Hiizumi, the main antagonist of the series. Akina Hiizumi and the other members of the Hiizumi Life Counseling Office take action to save Rin, 'tune' the yokai controlling Zakuro and protect the city.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2010,
+  "startDate": {
+    "year": 2010,
+    "month": 10,
+    "day": 8
+  },
+  "endDate": {
+    "year": 2011,
+    "month": 11,
+    "day": 9
+  },
+  "totalEpisodes": 3,
+  "currentEpisode": 3,
+  "rating": 72,
+  "duration": 28,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Supernatural"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Tatsunoko Production",
+    "Purple Cow Studio Japan"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 108714,
+      "malId": 39610,
+      "title": {
+        "romaji": "ACCA: 13-ku Kansatsu-ka - Regards",
+        "english": "ACCA: 13-Territory Inspection Dept. - Regards",
+        "native": "ACCA13区監察課 Regards",
+        "userPreferred": "ACCA: 13-ku Kansatsu-ka - Regards"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108714-7QDTectcCIa3.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108714-EFbBAEWqd06i.jpg",
+      "rating": 71,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 14946,
+      "role": "MAIN",
+      "name": {
+        "first": "Kotoha",
+        "last": "Isone",
+        "full": "Kotoha Isone",
+        "native": "五十音ことは",
+        "userPreferred": "Kotoha Isone"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14946-vuwdczNGhw0L.png",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14944,
+      "role": "MAIN",
+      "name": {
+        "first": "Hime",
+        "last": "Yarizakura",
+        "full": "Hime Yarizakura",
+        "native": "槍桜ヒメ",
+        "userPreferred": "Hime Yarizakura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14944-yBLmyKMcntx2.png",
+      "voiceActors": [
+        {
+          "id": 95207,
+          "language": "Japanese",
+          "name": {
+            "first": "Misato",
+            "last": "Fukuen",
+            "full": "Misato Fukuen",
+            "native": "福圓美里",
+            "userPreferred": "Misato Fukuen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95207-TYPMa0JKUDAf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14945,
+      "role": "MAIN",
+      "name": {
+        "first": "Ao",
+        "last": "Nanami",
+        "full": "Ao Nanami",
+        "native": "七海アオ",
+        "userPreferred": "Ao Nanami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14945-DTjBbUDPwSZT.jpg",
+      "voiceActors": [
+        {
+          "id": 95504,
+          "language": "Japanese",
+          "name": {
+            "first": "Saki",
+            "last": "Fujita",
+            "full": "Saki Fujita",
+            "native": "藤田咲",
+            "userPreferred": "Saki Fujita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95504-pDIKpd8t2EYU.png"
+        }
+      ]
+    },
+    {
+      "id": 14942,
+      "role": "MAIN",
+      "name": {
+        "first": "Akina",
+        "last": "Hiizumi",
+        "full": "Akina Hiizumi",
+        "native": "比泉秋名",
+        "userPreferred": "Akina Hiizumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14942-fhI2OQBJYl9j.png",
+      "voiceActors": [
+        {
+          "id": 95672,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Kaji",
+            "full": "Yuuki Kaji",
+            "native": "梶裕貴",
+            "userPreferred": "Yuuki Kaji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95672-RN4nm0OFwCyU.png"
+        }
+      ]
+    },
+    {
+      "id": 16443,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Enjin",
+        "last": "Hiizumi",
+        "full": "Enjin Hiizumi",
+        "native": "比泉円神",
+        "userPreferred": "Enjin Hiizumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16443.jpg",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        }
+      ]
+    },
+    {
+      "id": 14949,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Touka",
+        "last": "Kishi",
+        "full": "Touka Kishi",
+        "native": "岸桃華",
+        "userPreferred": "Touka Kishi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14949-79VNKs3fBPEJ.jpg",
+      "voiceActors": [
+        {
+          "id": 95890,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Tomatsu",
+            "full": "Haruka Tomatsu",
+            "native": "戸松遥",
+            "userPreferred": "Haruka Tomatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95890-pDWHkOm4ncq0.png"
+        }
+      ]
+    },
+    {
+      "id": 16579,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mariabelle",
+        "last": null,
+        "full": "Mariabelle",
+        "native": "マリアベル",
+        "userPreferred": "Mariabelle"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b16579-ERtcohaEDVWF.png",
+      "voiceActors": [
+        {
+          "id": 95060,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Tanaka",
+            "full": "Rie Tanaka",
+            "native": "田中理恵",
+            "userPreferred": "Rie Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95060-Rw0HZghxH1hF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16578,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuhi",
+        "last": "Shinatsuhiko",
+        "full": "Yuuhi Shinatsuhiko",
+        "native": "士夏彦雄飛",
+        "userPreferred": "Yuuhi Shinatsuhiko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16578.jpg",
+      "voiceActors": [
+        {
+          "id": 101787,
+          "language": "Japanese",
+          "name": {
+            "first": "Sachi",
+            "last": "Matsumoto",
+            "full": "Sachi Matsumoto",
+            "native": "松本さち",
+            "userPreferred": "Sachi Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101787-WRivQ5zSDlow.png"
+        }
+      ]
+    },
+    {
+      "id": 88597,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yae",
+        "last": "Shinatsuhiko",
+        "full": "Yae Shinatsuhiko",
+        "native": "士夏彦八重",
+        "userPreferred": "Yae Shinatsuhiko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88597-ul6yTJVMqq1l.png",
+      "voiceActors": [
+        {
+          "id": 95136,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsuko",
+            "last": "Kuwatani",
+            "full": "Natsuko Kuwatani",
+            "native": "桑谷夏子",
+            "userPreferred": "Natsuko Kuwatani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95136-8dAGkiwq7Htk.png"
+        }
+      ]
+    },
+    {
+      "id": 88587,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "V Juli F",
+        "last": null,
+        "full": "V Juli F",
+        "native": "V・じゅり・F",
+        "userPreferred": "V Juli F"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88587-qv701em3wGmK.jpg",
+      "voiceActors": [
+        {
+          "id": 100175,
+          "language": "Japanese",
+          "name": {
+            "first": "Aiko",
+            "last": "Ookubo",
+            "full": "Aiko Ookubo",
+            "native": "大久保藍子",
+            "userPreferred": "Aiko Ookubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100175-P370HU2HIz1i.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14947,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyousuke",
+        "last": "Kishi",
+        "full": "Kyousuke Kishi",
+        "native": "岸恭助",
+        "userPreferred": "Kyousuke Kishi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14947-B8HqdhlaeZn3.png",
+      "voiceActors": [
+        {
+          "id": 95212,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Ono",
+            "full": "Daisuke Ono",
+            "native": "小野大輔",
+            "userPreferred": "Daisuke Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95212-wX1M4LJN96q2.png"
+        }
+      ]
+    },
+    {
+      "id": 88586,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rin",
+        "last": "Azuma",
+        "full": "Rin Azuma",
+        "native": "東鈴",
+        "userPreferred": "Rin Azuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88586-KPLlXuJbm9rn.jpg",
+      "voiceActors": [
+        {
+          "id": 101695,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Matayoshi",
+            "full": "Ai Matayoshi",
+            "native": "又吉愛",
+            "userPreferred": "Ai Matayoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101695-6fAUe4OkcnNi.png"
+        }
+      ]
+    },
+    {
+      "id": 42037,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zakuro",
+        "last": "Kurumaki",
+        "full": "Zakuro Kurumaki",
+        "native": "狂巻ざくろ",
+        "userPreferred": "Zakuro Kurumaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b42037-lHFZMAofo3Up.png",
+      "voiceActors": [
+        {
+          "id": 95579,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaoru",
+            "last": "Mizuhara",
+            "full": "Kaoru Mizuhara",
+            "native": "水原薫",
+            "userPreferred": "Kaoru Mizuhara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95579-5ZsNx7VamyqG.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 32060,
+      "relationType": "ADAPTATION",
+      "malId": 2060,
+      "title": {
+        "romaji": "Yozakura Quartet",
+        "english": "Yozakura Quartet",
+        "native": "夜桜四重奏～ヨザクラカルテット～",
+        "userPreferred": "Yozakura Quartet"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/2060.jpg",
+      "color": "#f15dc9",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/32060-DD1nl3ssegK5.jpg",
+      "rating": 74
+    },
+    {
+      "id": 4548,
+      "relationType": "ALTERNATIVE",
+      "malId": 4548,
+      "title": {
+        "romaji": "Yozakura Quartet",
+        "english": null,
+        "native": "夜桜四重奏 ～ヨザクラカルテット～",
+        "userPreferred": "Yozakura Quartet"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4548-MscKClt97d7N.jpg",
+      "color": "#3578e4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4548-p6ivM17LcinI.jpg",
+      "rating": 64
+    },
+    {
+      "id": 18497,
+      "relationType": "PARENT",
+      "malId": 18497,
+      "title": {
+        "romaji": "Yozakura Quartet: Hana no Uta",
+        "english": null,
+        "native": "夜桜四重奏 ~ハナノウタ~",
+        "userPreferred": "Yozakura Quartet: Hana no Uta"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18497-LT4KeTvilo8u.png",
+      "color": null,
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18497-ynzUlktAWF0A.jpg",
+      "rating": 73
+    }
+  ],
+  "episodes": [
+    {
+      "id": "yozakura-quartet-ova-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8457-HLjTiI3nOFZs.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yozakura-quartet-ova-episode-1"
+    },
+    {
+      "id": "yozakura-quartet-ova-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8457-HLjTiI3nOFZs.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yozakura-quartet-ova-episode-2"
+    },
+    {
+      "id": "yozakura-quartet-ova-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8457-HLjTiI3nOFZs.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yozakura-quartet-ova-episode-3"
+    }
+  ]
+}

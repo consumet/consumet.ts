@@ -1,0 +1,811 @@
+{
+  "id": "1881",
+  "title": {
+    "romaji": "Sasami☆Mahou Shoujo Club",
+    "english": "Sasami Magical Girls Club",
+    "native": "砂沙美☆魔法少女クラブ"
+  },
+  "malId": 1881,
+  "synonyms": [
+    "Sasami: Maho Shojo Club"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1881.jpg",
+  "popularity": 1755,
+  "color": "#e4bb50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1881.jpg",
+  "description": "In this world, there live a group of people who call themselves \"Majo\" or \"Magical Girls\". They hide their powers so as to assimilate into the environment. They have been living together in harmony with the humans for many years to come, and their predecessors continue to do so. Sasami was enthroned with magical powers since her birth. However, at the age of three, she was told by her parents never to use her innate powers and from then on, had kept it a secret from everyone. On the day of a new school term, a new transfer teacher by the name of Wajuu arrives and from then on, Sasami's life begins to change tremendously.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2006,
+  "startDate": {
+    "year": 2006,
+    "month": 4,
+    "day": 13
+  },
+  "endDate": {
+    "year": 2006,
+    "month": 7,
+    "day": 13
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 56,
+  "duration": 25,
+  "genres": [
+    "Fantasy",
+    "Mahou Shoujo"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "AIC Spirits"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 1918,
+      "malId": 1918,
+      "title": {
+        "romaji": "Mahou Shoujo Pretty Sammy",
+        "english": "Magical Girl Pretty Sammy",
+        "native": "魔法少女プリティサミー",
+        "userPreferred": "Mahou Shoujo Pretty Sammy"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1918.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1918.jpg",
+      "rating": 59,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 6568,
+      "role": "MAIN",
+      "name": {
+        "first": "Washu",
+        "last": "Kozuka",
+        "full": "Washu Kozuka",
+        "native": "小塚鷲羽",
+        "userPreferred": "Washu Kozuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6568.jpg",
+      "voiceActors": [
+        {
+          "id": 95066,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Hiramatsu",
+            "full": "Akiko Hiramatsu",
+            "native": "平松晶子",
+            "userPreferred": "Akiko Hiramatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95066-oCD0liGFKqlH.png"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6564,
+      "role": "MAIN",
+      "name": {
+        "first": "Makoto",
+        "last": "Hozumi",
+        "full": "Makoto Hozumi",
+        "native": "穂積真琴",
+        "userPreferred": "Makoto Hozumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6564.jpg",
+      "voiceActors": [
+        {
+          "id": 95969,
+          "language": "Japanese",
+          "name": {
+            "first": "Momoko",
+            "last": "Hatano",
+            "full": "Momoko Hatano",
+            "native": "桃子 波多野",
+            "userPreferred": "Momoko Hatano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/969.jpg"
+        },
+        {
+          "id": 96650,
+          "language": "English",
+          "name": {
+            "first": "Cherami",
+            "last": "Leigh",
+            "full": "Cherami Leigh",
+            "native": null,
+            "userPreferred": "Cherami Leigh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96650-oYspSQuaFo3N.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6563,
+      "role": "MAIN",
+      "name": {
+        "first": "Misao",
+        "last": "Shinohara",
+        "full": "Misao Shinohara",
+        "native": "篠原美紗緒",
+        "userPreferred": "Misao Shinohara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6563.jpg",
+      "voiceActors": [
+        {
+          "id": 95966,
+          "language": "Japanese",
+          "name": {
+            "first": "Himeko",
+            "last": "Tooya",
+            "full": "Himeko Tooya",
+            "native": "遠谷比芽子",
+            "userPreferred": "Himeko Tooya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95966-QbjxwXLOKVZG.png"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        }
+      ]
+    },
+    {
+      "id": 6567,
+      "role": "MAIN",
+      "name": {
+        "first": "Anri",
+        "last": "Misugi",
+        "full": "Anri Misugi",
+        "native": "美杉杏莉",
+        "userPreferred": "Anri Misugi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6567.jpg",
+      "voiceActors": [
+        {
+          "id": 95967,
+          "language": "Japanese",
+          "name": {
+            "first": "Marin",
+            "last": "Funayama",
+            "full": "Marin Funayama",
+            "native": "真凛 船山",
+            "userPreferred": "Marin Funayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/967.jpg"
+        },
+        {
+          "id": 95414,
+          "language": "English",
+          "name": {
+            "first": "Brittney",
+            "last": "Karbowski",
+            "full": "Brittney Karbowski",
+            "native": null,
+            "userPreferred": "Brittney Karbowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/414.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6561,
+      "role": "MAIN",
+      "name": {
+        "first": "Sasami",
+        "last": "Iwakura",
+        "full": "Sasami Iwakura",
+        "native": "岩倉砂沙美",
+        "userPreferred": "Sasami Iwakura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6561-jtGgBUfFh4bO.png",
+      "voiceActors": [
+        {
+          "id": 95968,
+          "language": "Japanese",
+          "name": {
+            "first": "Mana",
+            "last": "Ogawa",
+            "full": "Mana Ogawa",
+            "native": "小川真奈",
+            "userPreferred": "Mana Ogawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95968-BeliRy07NNu7.jpg"
+        },
+        {
+          "id": 95479,
+          "language": "English",
+          "name": {
+            "first": "Alison",
+            "last": "Viktorin",
+            "full": "Alison Viktorin",
+            "native": null,
+            "userPreferred": "Alison Viktorin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/479.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6566,
+      "role": "MAIN",
+      "name": {
+        "first": "Tsukasa",
+        "last": "Takamine",
+        "full": "Tsukasa Takamine",
+        "native": "高峰 司",
+        "userPreferred": "Tsukasa Takamine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6566.jpg",
+      "voiceActors": [
+        {
+          "id": 95970,
+          "language": "Japanese",
+          "name": {
+            "first": "Saharu",
+            "last": "Kawakami",
+            "full": "Saharu Kawakami",
+            "native": "川上早春",
+            "userPreferred": "Saharu Kawakami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/970.jpg"
+        },
+        {
+          "id": 95659,
+          "language": "English",
+          "name": {
+            "first": "Brina",
+            "last": "Palencia",
+            "full": "Brina Palencia",
+            "native": null,
+            "userPreferred": "Brina Palencia"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/659.jpg"
+        }
+      ]
+    },
+    {
+      "id": 290779,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kozue",
+        "last": "Matsubara",
+        "full": "Kozue Matsubara",
+        "native": "松原梢",
+        "userPreferred": "Kozue Matsubara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 290782,
+          "language": "Japanese",
+          "name": {
+            "first": "Manami",
+            "last": "Yanagi",
+            "full": "Manami Yanagi",
+            "native": "柳愛美",
+            "userPreferred": "Manami Yanagi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39760,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ayane",
+        "last": null,
+        "full": "Ayane",
+        "native": null,
+        "userPreferred": "Ayane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39760.jpg",
+      "voiceActors": [
+        {
+          "id": 95034,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Kobayashi",
+            "full": "Yuu Kobayashi",
+            "native": "小林ゆう",
+            "userPreferred": "Yuu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95034-AwobjrcmkMi9.png"
+        },
+        {
+          "id": 96804,
+          "language": "English",
+          "name": {
+            "first": "Trina",
+            "last": "Nishimura",
+            "full": "Trina Nishimura",
+            "native": null,
+            "userPreferred": "Trina Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96804-0OKQgacznkZ4.png"
+        }
+      ]
+    },
+    {
+      "id": 290780,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chiaki",
+        "last": "Miyazawa",
+        "full": "Chiaki Miyazawa",
+        "native": "宮沢千晶",
+        "userPreferred": "Chiaki Miyazawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 290783,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsuki",
+            "last": "Matsuzaki",
+            "full": "Natsuki Matsuzaki",
+            "native": "松崎夏希",
+            "userPreferred": "Natsuki Matsuzaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28667,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Amitav",
+        "last": null,
+        "full": "Amitav",
+        "native": null,
+        "userPreferred": "Amitav"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28667.jpg",
+      "voiceActors": [
+        {
+          "id": 95197,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuki",
+            "last": "Saiga",
+            "full": "Mitsuki Saiga",
+            "native": "斎賀みつき",
+            "userPreferred": "Mitsuki Saiga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95197-gcTFdBK9oPtY.png"
+        },
+        {
+          "id": 96602,
+          "language": "English",
+          "name": {
+            "first": "J. Michael",
+            "last": "Tatum",
+            "full": "J. Michael Tatum",
+            "native": "John Michael Tatum",
+            "userPreferred": "J. Michael Tatum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96602-ztTfuo3nzu5t.png"
+        }
+      ]
+    },
+    {
+      "id": 290774,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryou-Ooki",
+        "last": null,
+        "full": "Ryou-Ooki",
+        "native": "魎皇鬼",
+        "userPreferred": "Ryou-Ooki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95727,
+          "language": "Japanese",
+          "name": {
+            "first": "Ema",
+            "last": "Kogure",
+            "full": "Ema Kogure",
+            "native": "小暮英麻",
+            "userPreferred": "Ema Kogure"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95727-qwSGmin4kQ7D.jpg"
+        }
+      ]
+    },
+    {
+      "id": 290781,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Honoka",
+        "last": "Iwakura",
+        "full": "Honoka Iwakura",
+        "native": "岩倉ほのか",
+        "userPreferred": "Honoka Iwakura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 96746,
+          "language": "Japanese",
+          "name": {
+            "first": "Ruri",
+            "last": "Asano",
+            "full": "Ruri Asano",
+            "native": "浅野るり",
+            "userPreferred": "Ruri Asano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1746.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6570,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mihoshi",
+        "last": null,
+        "full": "Mihoshi",
+        "native": "美星先生",
+        "userPreferred": "Mihoshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6570.jpg",
+      "voiceActors": [
+        {
+          "id": 95971,
+          "language": "Japanese",
+          "name": {
+            "first": "Kumiko",
+            "last": "Yokote",
+            "full": "Kumiko Yokote",
+            "native": "横手久美子",
+            "userPreferred": "Kumiko Yokote"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95971-XrJXCMjLDt7m.jpg"
+        },
+        {
+          "id": 95472,
+          "language": "English",
+          "name": {
+            "first": "Colleen",
+            "last": "Clinkenbeard",
+            "full": "Colleen Clinkenbeard",
+            "native": null,
+            "userPreferred": "Colleen Clinkenbeard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95472-fznpewUW95vm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 290775,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Daimon",
+        "last": null,
+        "full": "Daimon",
+        "native": "大門",
+        "userPreferred": "Daimon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 104105,
+          "language": "Japanese",
+          "name": {
+            "first": "Masakazu",
+            "last": "Suzuki",
+            "full": "Masakazu Suzuki",
+            "native": "鈴木正和",
+            "userPreferred": "Masakazu Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9105.jpg"
+        }
+      ]
+    },
+    {
+      "id": 290776,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Toshihiko",
+        "last": "Saruta",
+        "full": "Toshihiko Saruta",
+        "native": "猿田寿彦",
+        "userPreferred": "Toshihiko Saruta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 105045,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Nishigaki",
+            "full": "Yuka Nishigaki",
+            "native": "西墻由香",
+            "userPreferred": "Yuka Nishigaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105045-23ydNj8A5MfY.png"
+        }
+      ]
+    },
+    {
+      "id": 290777,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Itoki",
+        "last": null,
+        "full": "Itoki",
+        "native": "衣斗紀",
+        "userPreferred": "Itoki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95117,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Kadowaki",
+            "full": "Mai Kadowaki",
+            "native": "門脇舞以",
+            "userPreferred": "Mai Kadowaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95117-TpLo1AeJRfVJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 45079,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sonoko",
+        "last": null,
+        "full": "Sonoko",
+        "native": null,
+        "userPreferred": "Sonoko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/45079.jpg",
+      "voiceActors": [
+        {
+          "id": 95052,
+          "language": "Japanese",
+          "name": {
+            "first": "Emiri",
+            "last": "Katou",
+            "full": "Emiri Katou",
+            "native": "加藤英美里",
+            "userPreferred": "Emiri Katou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95052-OhSpZ8tqM3KY.png"
+        },
+        {
+          "id": 95891,
+          "language": "English",
+          "name": {
+            "first": "Jamie",
+            "last": "Marchi",
+            "full": "Jamie Marchi",
+            "native": null,
+            "userPreferred": "Jamie Marchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95891-QG8dyefPjUIz.jpg"
+        }
+      ]
+    },
+    {
+      "id": 290778,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ginji",
+        "last": "Iwakura",
+        "full": "Ginji Iwakura",
+        "native": "岩倉銀次",
+        "userPreferred": "Ginji Iwakura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95371,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Hamada",
+            "full": "Kenji Hamada",
+            "native": "浜田賢二",
+            "userPreferred": "Kenji Hamada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95371-nyA7w7nPrlPr.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1882,
+      "relationType": "SEQUEL",
+      "malId": 1882,
+      "title": {
+        "romaji": "Sasami☆Mahou Shoujo Club Season 2",
+        "english": "Sasami Magical Girls Club 2",
+        "native": "砂沙美☆魔法少女クラブ シーズン2",
+        "userPreferred": "Sasami☆Mahou Shoujo Club Season 2"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1882.jpg",
+      "color": "#5086e4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1882.jpg",
+      "rating": 60
+    },
+    {
+      "id": 1502,
+      "relationType": "ALTERNATIVE",
+      "malId": 1502,
+      "title": {
+        "romaji": "Mahou Shoujo Pretty Sammy (1996)",
+        "english": "Magical Project S",
+        "native": "魔法少女プリティサミー(1996)",
+        "userPreferred": "Mahou Shoujo Pretty Sammy (1996)"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1502.jpg",
+      "color": "#f1d643",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1502-St9dLMReRaQG.jpg",
+      "rating": 62
+    }
+  ],
+  "episodes": [
+    {
+      "id": "sasami-mahou-shoujo-club-episode-1",
+      "title": "Sasami and Misao",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159140/original.jpeg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:24:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sasami-mahou-shoujo-club-episode-1"
+    },
+    {
+      "id": "sasami-mahou-shoujo-club-episode-2",
+      "title": "Wishing on a Star",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159144/original.jpeg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:24:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sasami-mahou-shoujo-club-episode-2"
+    },
+    {
+      "id": "sasami-mahou-shoujo-club-episode-3",
+      "title": "First Time in First",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159147/original.jpeg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sasami-mahou-shoujo-club-episode-3"
+    },
+    {
+      "id": "sasami-mahou-shoujo-club-episode-4",
+      "title": "The Dreaded An-An Notebook",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159154/original.jpeg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sasami-mahou-shoujo-club-episode-4"
+    },
+    {
+      "id": "sasami-mahou-shoujo-club-episode-5",
+      "title": "Out of the Tunnel",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159167/original.jpeg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:24:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sasami-mahou-shoujo-club-episode-5"
+    },
+    {
+      "id": "sasami-mahou-shoujo-club-episode-6",
+      "title": "Starlit Sky Dance",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159170/original.jpeg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:24:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sasami-mahou-shoujo-club-episode-6"
+    },
+    {
+      "id": "sasami-mahou-shoujo-club-episode-7",
+      "title": "Night Sky Letter",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159175/original.jpeg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:24:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sasami-mahou-shoujo-club-episode-7"
+    },
+    {
+      "id": "sasami-mahou-shoujo-club-episode-8",
+      "title": "Ring of Friendship",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159181/original.jpeg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:24:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sasami-mahou-shoujo-club-episode-8"
+    },
+    {
+      "id": "sasami-mahou-shoujo-club-episode-9",
+      "title": "Good-bye, Miss Washu",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159189/original.jpeg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:24:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sasami-mahou-shoujo-club-episode-9"
+    },
+    {
+      "id": "sasami-mahou-shoujo-club-episode-10",
+      "title": "Magical Girl Apprentice",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159205/original.jpeg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:25:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sasami-mahou-shoujo-club-episode-10"
+    },
+    {
+      "id": "sasami-mahou-shoujo-club-episode-11",
+      "title": "Everyone Together",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159326/original.jpeg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:25:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sasami-mahou-shoujo-club-episode-11"
+    },
+    {
+      "id": "sasami-mahou-shoujo-club-episode-12",
+      "title": "Magical Girl Tournament - The Noisy Part",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159332/original.jpeg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:25:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sasami-mahou-shoujo-club-episode-12"
+    },
+    {
+      "id": "sasami-mahou-shoujo-club-episode-13",
+      "title": "Magical Girl Tournament - The Glittery Part",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159336/original.jpeg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:25:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sasami-mahou-shoujo-club-episode-13"
+    }
+  ]
+}

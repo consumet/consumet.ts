@@ -1,0 +1,766 @@
+{
+  "id": "678",
+  "title": {
+    "romaji": "Eigi: SHADOW SKILL",
+    "english": null,
+    "native": "影技 SHADOW SKILL"
+  },
+  "malId": 678,
+  "synonyms": [
+    "Shadow Skill (1998)",
+    "Shadow Skill TV"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/678.jpg",
+  "popularity": 2023,
+  "color": "#e4780d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/678.jpg",
+  "description": "In the land of Kuruda, warriors with magical powers and incredible fighting skills battle for the ultimate prize: the title of Sevaar, the strongest warrior in the land. Elle Ragu, nicknamed Shadow Skill, is the newest Sevaar to emerge, but that doesn't make her life any easier. Teaching her \"little brother,\" Gau, how to be a warrior, fending off assassins from other kingdoms and thwarting enemy invasions is hard enough, but her biggest challenge will be paying off her drinking debts.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 1998,
+  "startDate": {
+    "year": 1998,
+    "month": 7,
+    "day": 2
+  },
+  "endDate": {
+    "year": 1998,
+    "month": 12,
+    "day": 24
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 62,
+  "duration": 25,
+  "genres": [
+    "Adventure",
+    "Drama",
+    "Fantasy"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Studio DEEN"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 286,
+      "malId": 286,
+      "title": {
+        "romaji": "B’T X",
+        "english": "B't X",
+        "native": "B'T X",
+        "userPreferred": "B’T X"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx286-F7VBU6hw5Sfn.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/286-z9BWCkWG4VxP.jpg",
+      "rating": 65,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 4464,
+      "role": "MAIN",
+      "name": {
+        "first": "Elle",
+        "last": "Ragu",
+        "full": "Elle Ragu",
+        "native": "エレ・ラグ",
+        "userPreferred": "Elle Ragu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4464.jpg",
+      "voiceActors": [
+        {
+          "id": 95014,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Hayashibara",
+            "full": "Megumi Hayashibara",
+            "native": "林原めぐみ",
+            "userPreferred": "Megumi Hayashibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95014-VqxNuufY94V3.png"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21201,
+      "role": "MAIN",
+      "name": {
+        "first": "Fia",
+        "last": "Arcana",
+        "full": "Fia Arcana",
+        "native": null,
+        "userPreferred": "Fia Arcana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21201.jpg",
+      "voiceActors": [
+        {
+          "id": 95485,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Mizutani",
+            "full": "Yuuko Mizutani",
+            "native": "水谷優子",
+            "userPreferred": "Yuuko Mizutani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95485-fKXiqJdcVHHs.png"
+        },
+        {
+          "id": 95509,
+          "language": "English",
+          "name": {
+            "first": "Christine",
+            "last": "Auten",
+            "full": "Christine Auten",
+            "native": null,
+            "userPreferred": "Christine Auten"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95509-fSwGUErqAkmA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21202,
+      "role": "MAIN",
+      "name": {
+        "first": "Kyuo",
+        "last": "Lyu",
+        "full": "Kyuo Lyu",
+        "native": null,
+        "userPreferred": "Kyuo Lyu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21202.jpg",
+      "voiceActors": [
+        {
+          "id": 95128,
+          "language": "Japanese",
+          "name": {
+            "first": "Ikue",
+            "last": "Ootani",
+            "full": "Ikue Ootani",
+            "native": "大谷育江",
+            "userPreferred": "Ikue Ootani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95128-9YWpE1d2U8Sj.png"
+        },
+        {
+          "id": 95151,
+          "language": "English",
+          "name": {
+            "first": "Hilary",
+            "last": "Haag",
+            "full": "Hilary Haag",
+            "native": null,
+            "userPreferred": "Hilary Haag"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/151.jpg"
+        },
+        {
+          "id": 101135,
+          "language": "German",
+          "name": {
+            "first": "Marieke",
+            "last": "Oeffinger",
+            "full": "Marieke Oeffinger",
+            "native": null,
+            "userPreferred": "Marieke Oeffinger"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6135.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4463,
+      "role": "MAIN",
+      "name": {
+        "first": "Gau",
+        "last": "Ban",
+        "full": "Gau Ban",
+        "native": null,
+        "userPreferred": "Gau Ban"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4463.jpg",
+      "voiceActors": [
+        {
+          "id": 105914,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Matsuoka",
+            "full": "Akio Matsuoka",
+            "native": "松岡章夫",
+            "userPreferred": "Akio Matsuoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 95192,
+          "language": "English",
+          "name": {
+            "first": "Greg",
+            "last": "Ayres",
+            "full": "Greg Ayres",
+            "native": null,
+            "userPreferred": "Greg Ayres"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95192-igLHZjSO4eE0.png"
+        }
+      ]
+    },
+    {
+      "id": 17958,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Vy",
+        "last": "Low",
+        "full": "Vy Low",
+        "native": "ロウ",
+        "userPreferred": "Vy Low"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17958.jpg",
+      "voiceActors": [
+        {
+          "id": 95201,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Swasey",
+            "full": "John Swasey",
+            "native": null,
+            "userPreferred": "John Swasey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95201-cas6XbtZmMay.jpg"
+        },
+        {
+          "id": 107219,
+          "language": "German",
+          "name": {
+            "first": "Marco",
+            "last": "Steeger",
+            "full": "Marco Steeger",
+            "native": null,
+            "userPreferred": "Marco Steeger"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12219.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3522,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dias",
+        "last": "Ragu",
+        "full": "Dias Ragu",
+        "native": null,
+        "userPreferred": "Dias Ragu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3522.jpg",
+      "voiceActors": [
+        {
+          "id": 96469,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuru",
+            "last": "Miyamoto",
+            "full": "Mitsuru Miyamoto",
+            "native": "宮本充",
+            "userPreferred": "Mitsuru Miyamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96469-uVRO2mYXvXxP.png"
+        },
+        {
+          "id": 95039,
+          "language": "English",
+          "name": {
+            "first": "Jason",
+            "last": "Douglas",
+            "full": "Jason Douglas",
+            "native": null,
+            "userPreferred": "Jason Douglas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95039-F0UuxfqLslls.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21204,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Scrib",
+        "last": "Lowengren",
+        "full": "Scrib Lowengren",
+        "native": null,
+        "userPreferred": "Scrib Lowengren"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21204.jpg",
+      "voiceActors": [
+        {
+          "id": 95067,
+          "language": "Japanese",
+          "name": {
+            "first": "Kappei",
+            "last": "Yamaguchi",
+            "full": "Kappei Yamaguchi",
+            "native": "山口勝平",
+            "userPreferred": "Kappei Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95067-hqIpNxMfAuN2.png"
+        },
+        {
+          "id": 95282,
+          "language": "English",
+          "name": {
+            "first": "Illich",
+            "last": "Guardiola",
+            "full": "Illich Guardiola",
+            "native": null,
+            "userPreferred": "Illich Guardiola"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/282.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21207,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Iba",
+        "last": "Sutra",
+        "full": "Iba Sutra",
+        "native": null,
+        "userPreferred": "Iba Sutra"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21207.jpg",
+      "voiceActors": [
+        {
+          "id": 100386,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaharu",
+            "last": "Satou",
+            "full": "Masaharu Satou",
+            "native": "佐藤正治",
+            "userPreferred": "Masaharu Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5386.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21206,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kai",
+        "last": "Shinks",
+        "full": "Kai Shinks",
+        "native": null,
+        "userPreferred": "Kai Shinks"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21206.jpg",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        },
+        {
+          "id": 95190,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Patton",
+            "full": "Chris Patton",
+            "native": null,
+            "userPreferred": "Chris Patton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95190-Ht5ukZFcl0PX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36341,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gana",
+        "last": "Gig",
+        "full": "Gana Gig",
+        "native": "ガナ＝ギーグ",
+        "userPreferred": "Gana Gig"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36341.jpg",
+      "voiceActors": [
+        {
+          "id": 95176,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiko",
+            "last": "Neya",
+            "full": "Michiko Neya",
+            "native": "根谷美智子",
+            "userPreferred": "Michiko Neya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95176-3yZnUwXap7nX.png"
+        }
+      ]
+    },
+    {
+      "id": 21205,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kain",
+        "last": "Phalanx",
+        "full": "Kain Phalanx",
+        "native": null,
+        "userPreferred": "Kain Phalanx"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21205.jpg",
+      "voiceActors": [
+        {
+          "id": 95427,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Tsujitani",
+            "full": "Kouji Tsujitani",
+            "native": "辻谷耕史",
+            "userPreferred": "Kouji Tsujitani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95427-g0bwNKDLlROd.png"
+        },
+        {
+          "id": 95200,
+          "language": "English",
+          "name": {
+            "first": "Jay",
+            "last": "Hickman",
+            "full": "Jay Hickman",
+            "native": null,
+            "userPreferred": "Jay Hickman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95200-7TSLnFJQSpzL.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 40220,
+      "relationType": "ADAPTATION",
+      "malId": 10220,
+      "title": {
+        "romaji": "Shadow Skill",
+        "english": null,
+        "native": "シャドウスキル",
+        "userPreferred": "Shadow Skill"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx40220-cz7p6aOxcmVV.jpg",
+      "color": "#e49350",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx40220-cz7p6aOxcmVV.jpg",
+      "rating": 62
+    },
+    {
+      "id": 679,
+      "relationType": "ALTERNATIVE",
+      "malId": 679,
+      "title": {
+        "romaji": "Eigi: SHADOW SKILL (1996)",
+        "english": "Shadow Skill: The Movie",
+        "native": "影技 SHADOW SKILL",
+        "userPreferred": "Eigi: SHADOW SKILL (1996)"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx679-BBsy47CR51iD.jpg",
+      "color": "#50a1e4",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx679-BBsy47CR51iD.jpg",
+      "rating": 60
+    },
+    {
+      "id": 1099,
+      "relationType": "SEQUEL",
+      "malId": 1099,
+      "title": {
+        "romaji": "SHADOW SKILL: Kurudaryuu Kousatsuhou no Himitsu",
+        "english": null,
+        "native": "SHADOW SKILL ～クルダ流交殺法の秘密～",
+        "userPreferred": "SHADOW SKILL: Kurudaryuu Kousatsuhou no Himitsu"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1099.jpg",
+      "color": "#e4a143",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1099.jpg",
+      "rating": 48
+    }
+  ],
+  "episodes": [
+    {
+      "id": "shadow-skill--episode-1",
+      "title": "The Power of My Blow has No Equal!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13216/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-1"
+    },
+    {
+      "id": "shadow-skill--episode-2",
+      "title": "Duelists",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13217/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-2"
+    },
+    {
+      "id": "shadow-skill--episode-3",
+      "title": "Phantom's Keepsake",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13218/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-3"
+    },
+    {
+      "id": "shadow-skill--episode-4",
+      "title": "What My Father Left Me",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13219/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-4"
+    },
+    {
+      "id": "shadow-skill--episode-5",
+      "title": "Proud Battlefield",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13220/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-5"
+    },
+    {
+      "id": "shadow-skill--episode-6",
+      "title": "White and Black Flash",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13221/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-6"
+    },
+    {
+      "id": "shadow-skill--episode-7",
+      "title": "Destined Confrontation",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13222/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-7"
+    },
+    {
+      "id": "shadow-skill--episode-8",
+      "title": "Dangerous Human Weapon. To the North",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13223/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-8"
+    },
+    {
+      "id": "shadow-skill--episode-9",
+      "title": "Violent Bombing of the Holy City",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13224/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-9"
+    },
+    {
+      "id": "shadow-skill--episode-10",
+      "title": "Clash of White and Black",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13225/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-10"
+    },
+    {
+      "id": "shadow-skill--episode-11",
+      "title": "Invasion",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13226/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-11"
+    },
+    {
+      "id": "shadow-skill--episode-12",
+      "title": "Black Howling",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13227/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-12"
+    },
+    {
+      "id": "shadow-skill--episode-13",
+      "title": "With the Heart of a Friend",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13228/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-13"
+    },
+    {
+      "id": "shadow-skill--episode-14",
+      "title": "The Temple of Moonlight",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13229/original.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-14"
+    },
+    {
+      "id": "shadow-skill--episode-15",
+      "title": "Ghost",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13230/original.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-15"
+    },
+    {
+      "id": "shadow-skill--episode-16",
+      "title": "An Attacker From the Past",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13231/original.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-16"
+    },
+    {
+      "id": "shadow-skill--episode-17",
+      "title": "Crimson",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13232/original.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-17"
+    },
+    {
+      "id": "shadow-skill--episode-18",
+      "title": "The Seventh Dawn",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13233/original.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-18"
+    },
+    {
+      "id": "shadow-skill--episode-19",
+      "title": "Fang, 2nd Generation",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13234/original.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-19"
+    },
+    {
+      "id": "shadow-skill--episode-20",
+      "title": "Darkness and Death",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13235/original.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-20"
+    },
+    {
+      "id": "shadow-skill--episode-21",
+      "title": "Cannon",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13236/original.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-21"
+    },
+    {
+      "id": "shadow-skill--episode-22",
+      "title": "Older Sister, Younger Brother",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13237/original.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-22"
+    },
+    {
+      "id": "shadow-skill--episode-23",
+      "title": "Prepare Yourself",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13238/original.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-23"
+    },
+    {
+      "id": "shadow-skill--episode-24",
+      "title": "Fist of God",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13239/original.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-24"
+    },
+    {
+      "id": "shadow-skill--episode-25",
+      "title": "Ying-style Demon",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13240/original.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-25"
+    },
+    {
+      "id": "shadow-skill--episode-26",
+      "title": "Path of a Sevaar",
+      "image": "https://media.kitsu.io/episodes/thumbnails/13241/original.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:21:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//shadow-skill--episode-26"
+    }
+  ]
+}

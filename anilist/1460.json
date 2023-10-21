@@ -1,0 +1,508 @@
+{
+  "id": "1460",
+  "title": {
+    "romaji": "Uchuu no Kishi Tekkaman Blade II",
+    "english": "Tekkaman Blade II",
+    "native": "宇宙の騎士テッカマンブレードII"
+  },
+  "malId": 1460,
+  "synonyms": [
+    "Tekkaman Blade 2",
+    "Space Knight Tekkaman Blade 2",
+    "Space Knight Tekkaman Blade OVA",
+    "Uchu no Kishi Tekkaman Blade OVA"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1460-eFMHhTQlJXXB.png",
+  "popularity": 928,
+  "color": "#e4ae35",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1460-eFMHhTQlJXXB.png",
+  "description": "10 years have passed since the end of the last war against the radam. A new team of Space Knights has been assembled under the lead of Aki and D-boy. The first mission of the new tekkaman is to defeat the radam but then, they have to fight against a remnent from the past.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 1994,
+  "startDate": {
+    "year": 1994,
+    "month": 7,
+    "day": 21
+  },
+  "endDate": {
+    "year": 1995,
+    "month": 4,
+    "day": 21
+  },
+  "totalEpisodes": 6,
+  "currentEpisode": 6,
+  "rating": 53,
+  "duration": 30,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Tatsunoko Production"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 2497,
+      "malId": 2497,
+      "title": {
+        "romaji": "Shin Cutey Honey",
+        "english": "New Cutey Honey",
+        "native": "新・キューティーハニー",
+        "userPreferred": "Shin Cutey Honey"
+      },
+      "status": "Completed",
+      "episodes": 8,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2497-QaBY0r3WKNzU.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2497-TFi9xpYYvWqP.jpg",
+      "rating": 63,
+      "type": "OVA"
+    },
+    {
+      "id": 2292,
+      "malId": 2292,
+      "title": {
+        "romaji": "Bouken! Iczer 3",
+        "english": "Iczer Reborn",
+        "native": "冒険！イクサー３",
+        "userPreferred": "Bouken! Iczer 3"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2292.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2292.jpg",
+      "rating": 51,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 6772,
+      "role": "MAIN",
+      "name": {
+        "first": "Takaya",
+        "last": "Aiba",
+        "full": "Takaya Aiba",
+        "native": "相羽 タカヤ",
+        "userPreferred": "Takaya Aiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6772.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        },
+        {
+          "id": 95956,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Demita",
+            "full": "John Demita",
+            "native": null,
+            "userPreferred": "John Demita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/956.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6778,
+      "role": "MAIN",
+      "name": {
+        "first": "Aki",
+        "last": "Kisaragi",
+        "full": "Aki Kisaragi",
+        "native": "如月 アキ",
+        "userPreferred": "Aki Kisaragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6778.jpg",
+      "voiceActors": [
+        {
+          "id": 95014,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Hayashibara",
+            "full": "Megumi Hayashibara",
+            "native": "林原めぐみ",
+            "userPreferred": "Megumi Hayashibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95014-VqxNuufY94V3.png"
+        },
+        {
+          "id": 101236,
+          "language": "English",
+          "name": {
+            "first": "Julia",
+            "last": "Fletcher",
+            "full": "Julia Fletcher",
+            "native": null,
+            "userPreferred": "Julia Fletcher"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6236.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16126,
+      "role": "MAIN",
+      "name": {
+        "first": "Yumi",
+        "last": "Francois",
+        "full": "Yumi Francois",
+        "native": null,
+        "userPreferred": "Yumi Francois"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16126.jpg",
+      "voiceActors": [
+        {
+          "id": 95275,
+          "language": "Japanese",
+          "name": {
+            "first": "Mariko",
+            "last": "Kouda",
+            "full": "Mariko Kouda",
+            "native": "國府田マリ子",
+            "userPreferred": "Mariko Kouda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95275-qm6Ep9IcLAv7.png"
+        },
+        {
+          "id": 100154,
+          "language": "English",
+          "name": {
+            "first": "Tara",
+            "last": "Strong",
+            "full": "Tara Strong",
+            "native": null,
+            "userPreferred": "Tara Strong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100154-PMhtZbOiitT9.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37432,
+      "role": "MAIN",
+      "name": {
+        "first": "Dead",
+        "last": "End",
+        "full": "Dead End",
+        "native": null,
+        "userPreferred": "Dead End"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37432.jpg",
+      "voiceActors": [
+        {
+          "id": 95322,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiro",
+            "last": "Yuuki",
+            "full": "Hiro Yuuki",
+            "native": "優希比呂",
+            "userPreferred": "Hiro Yuuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95322-c2F72UgC1exn.jpg"
+        },
+        {
+          "id": 101236,
+          "language": "English",
+          "name": {
+            "first": "Julia",
+            "last": "Fletcher",
+            "full": "Julia Fletcher",
+            "native": null,
+            "userPreferred": "Julia Fletcher"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6236.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6876,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Honda",
+        "last": null,
+        "full": "Honda",
+        "native": "本田",
+        "userPreferred": "Honda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6876.jpg",
+      "voiceActors": [
+        {
+          "id": 95726,
+          "language": "Japanese",
+          "name": {
+            "first": "Shouzou",
+            "last": "Iizuka",
+            "full": "Shouzou Iizuka",
+            "native": "飯塚昭三",
+            "userPreferred": "Shouzou Iizuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95726-SddF7dYKZshB.png"
+        },
+        {
+          "id": 160062,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Hostetter",
+            "full": "John Hostetter",
+            "native": null,
+            "userPreferred": "John Hostetter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n160062-Mo2uRJcjoE9K.png"
+        }
+      ]
+    },
+    {
+      "id": 18448,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Goliath",
+        "last": null,
+        "full": "Goliath",
+        "native": "ゴリアテ",
+        "userPreferred": "Goliath"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95807,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaki",
+            "last": "Aizawa",
+            "full": "Masaki Aizawa",
+            "native": "相沢まさき",
+            "userPreferred": "Masaki Aizawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95807-aXQRtwu8StXS.jpg"
+        },
+        {
+          "id": 115454,
+          "language": "English",
+          "name": {
+            "first": "Matt",
+            "last": "McKenzie",
+            "full": "Matt McKenzie",
+            "native": null,
+            "userPreferred": "Matt McKenzie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20454.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18133,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hayato",
+        "last": null,
+        "full": "Hayato",
+        "native": null,
+        "userPreferred": "Hayato"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95133,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Takagi",
+            "full": "Wataru Takagi",
+            "native": "高木渉",
+            "userPreferred": "Wataru Takagi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95133-cqDtu078voZ1.png"
+        },
+        {
+          "id": 101872,
+          "language": "English",
+          "name": {
+            "first": "Scott",
+            "last": "Menville",
+            "full": "Scott Menville",
+            "native": null,
+            "userPreferred": "Scott David Menville"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101872-QCKr0mVQnETw.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18451,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "David",
+        "last": "Kruegel",
+        "full": "David Kruegel",
+        "native": null,
+        "userPreferred": "David Kruegel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        }
+      ]
+    },
+    {
+      "id": 18452,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Anita",
+        "last": null,
+        "full": "Anita",
+        "native": "アニタ",
+        "userPreferred": "Anita"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95248,
+          "language": "Japanese",
+          "name": {
+            "first": "Kumiko",
+            "last": "Watanabe",
+            "full": "Kumiko Watanabe",
+            "native": "渡辺久美子",
+            "userPreferred": "Kumiko Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95248-UzMyBDiMD7LM.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18450,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Natasha",
+        "last": "Pablochiva",
+        "full": "Natasha Pablochiva",
+        "native": null,
+        "userPreferred": "Natasha Pablochiva"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95677,
+          "language": "Japanese",
+          "name": {
+            "first": "Chieko",
+            "last": "Honda",
+            "full": "Chieko Honda",
+            "native": "本多知恵子",
+            "userPreferred": "Chieko Honda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95677-5luaaavs3b8I.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1459,
+      "relationType": "PREQUEL",
+      "malId": 1459,
+      "title": {
+        "romaji": "Uchuu no Kishi Tekkaman Blade",
+        "english": "Tekkaman Blade",
+        "native": "テッカマンブレード",
+        "userPreferred": "Uchuu no Kishi Tekkaman Blade"
+      },
+      "status": "Completed",
+      "episodes": 49,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1459-vkdwtG2LNQFU.png",
+      "color": "#e4d6a1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n1459-yQQYEwrXfmHO.jpg",
+      "rating": 69
+    }
+  ],
+  "episodes": [
+    {
+      "id": "tekkaman-blade-ova-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1460-eFMHhTQlJXXB.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tekkaman-blade-ova-episode-1"
+    },
+    {
+      "id": "tekkaman-blade-ova-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1460-eFMHhTQlJXXB.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tekkaman-blade-ova-episode-2"
+    },
+    {
+      "id": "tekkaman-blade-ova-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1460-eFMHhTQlJXXB.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tekkaman-blade-ova-episode-3"
+    },
+    {
+      "id": "tekkaman-blade-ova-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1460-eFMHhTQlJXXB.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tekkaman-blade-ova-episode-4"
+    },
+    {
+      "id": "tekkaman-blade-ova-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1460-eFMHhTQlJXXB.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tekkaman-blade-ova-episode-5"
+    },
+    {
+      "id": "tekkaman-blade-ova-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1460-eFMHhTQlJXXB.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tekkaman-blade-ova-episode-6"
+    }
+  ]
+}

@@ -1,0 +1,972 @@
+{
+  "id": "125868",
+  "title": {
+    "romaji": "NIGHT HEAD 2041",
+    "english": "NIGHT HEAD 2041",
+    "native": "NIGHT HEAD 2041"
+  },
+  "malId": 43767,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "aOhQ9P8sFPg",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/aOhQ9P8sFPg/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125868-apscwA5S0lOs.jpg",
+  "popularity": 11974,
+  "color": "#a11a50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/125868-Zu1jgifNWp5C.jpg",
+  "description": "The story follows the Kirihara brothers who from a young age were incarcerated in a secure scientific facility due to their supernatural powers, having escaped after the barrier that was preventing them malfunctions. The story also follows the Kuroki brothers who are trying to chase the Kirihara brothers.\n",
+  "status": "Completed",
+  "releaseDate": 2021,
+  "startDate": {
+    "year": 2021,
+    "month": 7,
+    "day": 15
+  },
+  "endDate": {
+    "year": 2021,
+    "month": 9,
+    "day": 30
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 61,
+  "duration": 23,
+  "genres": [
+    "Drama",
+    "Mystery",
+    "Psychological",
+    "Sci-Fi",
+    "Supernatural"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Shirogumi"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 21341,
+      "malId": 31580,
+      "title": {
+        "romaji": "Ajin",
+        "english": "AJIN: Demi-Human",
+        "native": "亜人",
+        "userPreferred": "Ajin"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21341-Pyc7SkMEuGsl.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21341-v415m6GrpeZY.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 13601,
+      "malId": 13601,
+      "title": {
+        "romaji": "PSYCHO-PASS",
+        "english": "PSYCHO-PASS",
+        "native": "PSYCHO-PASS サイコパス",
+        "userPreferred": "PSYCHO-PASS"
+      },
+      "status": "Completed",
+      "episodes": 22,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx13601-tgjUlf4eQOyx.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/13601-YrCmS1oY4uBZ.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 116566,
+      "malId": 41433,
+      "title": {
+        "romaji": "Akudama Drive",
+        "english": "Akudama Drive",
+        "native": "アクダマドライブ",
+        "userPreferred": "Akudama Drive"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116566-6qREQAAfbEDi.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116566-XwsHAwTxbXmC.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 20661,
+      "malId": 23283,
+      "title": {
+        "romaji": "Zankyou no Terror",
+        "english": "Terror in Resonance",
+        "native": "残響のテロル",
+        "userPreferred": "Zankyou no Terror"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20661-T3PD0tyXTito.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20661-JwMKrCzeSTZ7.png",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 20997,
+      "malId": 28999,
+      "title": {
+        "romaji": "Charlotte",
+        "english": null,
+        "native": "Charlotte(シャーロット)",
+        "userPreferred": "Charlotte"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20997-FGhaAtfnXCsH.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20997-nE9VyUa08vS0.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 1508,
+      "malId": 1508,
+      "title": {
+        "romaji": "Sci-fi Harry",
+        "english": "Sci-fi Harry",
+        "native": "サイファイハリー",
+        "userPreferred": "Sci-fi Harry"
+      },
+      "status": "Completed",
+      "episodes": 20,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1508-SDXzbWv7uORF.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1508-SDXzbWv7uORF.jpg",
+      "rating": 56,
+      "type": "TV"
+    },
+    {
+      "id": 20521,
+      "malId": 20689,
+      "title": {
+        "romaji": "Hamatora THE ANIMATION",
+        "english": "Hamatora",
+        "native": "ハマトラ THE ANIMATION",
+        "userPreferred": "Hamatora THE ANIMATION"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20521-OJZxnuU1uvkN.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20521-yo39TmRV7cMn.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 20534,
+      "malId": 21431,
+      "title": {
+        "romaji": "Gokukoku no Brynhildr",
+        "english": "Brynhildr in the Darkness",
+        "native": "極黒のブリュンヒルデ",
+        "userPreferred": "Gokukoku no Brynhildr"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20534-86ssOm8XsDd1.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20534-IPOwlIZFPvdY.jpg",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 47,
+      "malId": 47,
+      "title": {
+        "romaji": "AKIRA",
+        "english": "Akira",
+        "native": "AKIRA",
+        "userPreferred": "AKIRA"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx47-Sjkc8RDBjqwT.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/47-fof8HqtNDtvx.jpg",
+      "rating": 79,
+      "type": "MOVIE"
+    },
+    {
+      "id": 156,
+      "malId": 156,
+      "title": {
+        "romaji": "X (TV)",
+        "english": "X (TV)",
+        "native": "X−エックス− (TV)",
+        "userPreferred": "X (TV)"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b156-MSqEz70iYng4.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/156-dmhwnFzUK8kR.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 101349,
+      "malId": 37525,
+      "title": {
+        "romaji": "Babylon",
+        "english": "BABYLON",
+        "native": "バビロン",
+        "userPreferred": "Babylon"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101349-AWy5SjUS8mYZ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101349-5LUS8ZRP4ZiM.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 101350,
+      "malId": 37522,
+      "title": {
+        "romaji": "pet",
+        "english": "pet",
+        "native": "pet",
+        "userPreferred": "pet"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101350-nRjxYT3r6qTC.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101350-XpXykQcRZWK6.jpg",
+      "rating": 59,
+      "type": "TV"
+    },
+    {
+      "id": 131150,
+      "malId": 48492,
+      "title": {
+        "romaji": "SCARLET NEXUS",
+        "english": "Scarlet Nexus",
+        "native": "SCARLET NEXUS",
+        "userPreferred": "SCARLET NEXUS"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131150-YjdcqAvbHfxw.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131150-VGKhcrlNg3s2.jpg",
+      "rating": 52,
+      "type": "TV"
+    },
+    {
+      "id": 110350,
+      "malId": 40046,
+      "title": {
+        "romaji": "ID: INVADED",
+        "english": "ID: INVADED",
+        "native": "イド：インヴェイデッド",
+        "userPreferred": "ID: INVADED"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110350-uchN78wglmhN.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110350-kJfEuQ4Cx4j1.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 140643,
+      "malId": 50204,
+      "title": {
+        "romaji": "Tokyo 24-ku",
+        "english": "Tokyo 24th Ward",
+        "native": "東京24区",
+        "userPreferred": "Tokyo 24-ku"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140643-RpKlGdwDa7r7.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/140643-mtfFuRKRhmDS.jpg",
+      "rating": 61,
+      "type": "TV"
+    },
+    {
+      "id": 108353,
+      "malId": 39489,
+      "title": {
+        "romaji": "SPRIGGAN (ONA)",
+        "english": "SPRIGGAN (ONA)",
+        "native": "スプリガン (ONA)",
+        "userPreferred": "SPRIGGAN (ONA)"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108353-f43dOeHJ84r4.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108353-xmcJGLygTB0I.jpg",
+      "rating": 68,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 221539,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuuya",
+        "last": "Kuroki",
+        "full": "Yuuya Kuroki",
+        "native": "黒木ユウヤ",
+        "userPreferred": "Yuuya Kuroki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b221539-EupQ9nz5GnTU.png",
+      "voiceActors": [
+        {
+          "id": 95819,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenshou",
+            "last": "Ono",
+            "full": "Kenshou Ono",
+            "native": "小野賢章",
+            "userPreferred": "Kenshou Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95819-O4fosAY0a1Ml.jpg"
+        }
+      ]
+    },
+    {
+      "id": 221540,
+      "role": "MAIN",
+      "name": {
+        "first": "Takuya",
+        "last": "Kuroki",
+        "full": "Takuya Kuroki",
+        "native": "黒木タクヤ",
+        "userPreferred": "Takuya Kuroki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b221540-zoy3y4xqA8Iu.png",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 221541,
+      "role": "MAIN",
+      "name": {
+        "first": "Naoto",
+        "last": "Kirihara",
+        "full": "Naoto Kirihara",
+        "native": "霧原直人",
+        "userPreferred": "Naoto Kirihara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b221541-l6tB2exO4KyE.png",
+      "voiceActors": [
+        {
+          "id": 95212,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Ono",
+            "full": "Daisuke Ono",
+            "native": "小野大輔",
+            "userPreferred": "Daisuke Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95212-wX1M4LJN96q2.png"
+        }
+      ]
+    },
+    {
+      "id": 221542,
+      "role": "MAIN",
+      "name": {
+        "first": "Naoya",
+        "last": "Kirihara",
+        "full": "Naoya Kirihara",
+        "native": "霧原直也",
+        "userPreferred": "Naoya Kirihara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b221542-KiumzBkhFGn1.png",
+      "voiceActors": [
+        {
+          "id": 105989,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobunaga",
+            "last": "Shimazaki",
+            "full": "Nobunaga Shimazaki",
+            "native": "島崎信長",
+            "userPreferred": "Nobunaga Shimazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105989-96etzH1dLNug.jpg"
+        }
+      ]
+    },
+    {
+      "id": 233555,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Daisuke",
+        "last": "Honda",
+        "full": "Daisuke Honda",
+        "native": "本田大輔",
+        "userPreferred": "Daisuke Honda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b233555-2I4ymNwisvtq.png",
+      "voiceActors": [
+        {
+          "id": 104677,
+          "language": "Japanese",
+          "name": {
+            "first": "Yasuhiro",
+            "last": "Mamiya",
+            "full": "Yasuhiro Mamiya",
+            "native": "間宮康弘",
+            "userPreferred": "Yasuhiro Mamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104677-Jbb7yeij2Vkg.png"
+        }
+      ]
+    },
+    {
+      "id": 233565,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyoujirou",
+        "last": "Mikuriya",
+        "full": "Kyoujirou Mikuriya",
+        "native": "御厨恭二朗",
+        "userPreferred": "Kyoujirou Mikuriya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b233565-qyUAFSKPUJSC.png",
+      "voiceActors": [
+        {
+          "id": 95330,
+          "language": "Japanese",
+          "name": {
+            "first": "Banjou",
+            "last": "Ginga",
+            "full": "Banjou Ginga",
+            "native": "銀河万丈",
+            "userPreferred": "Banjou Ginga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95330-PHDm9uDhKAsT.png"
+        }
+      ]
+    },
+    {
+      "id": 233557,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Suguru",
+        "last": "Kakitani",
+        "full": "Suguru Kakitani",
+        "native": "柿谷スグル",
+        "userPreferred": "Suguru Kakitani"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 96489,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoaki",
+            "last": "Maeno",
+            "full": "Tomoaki Maeno",
+            "native": "前野智昭",
+            "userPreferred": "Tomoaki Maeno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96489-xTzYxgdC9g9l.png"
+        }
+      ]
+    },
+    {
+      "id": 233566,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akiko",
+        "last": "Okuhara",
+        "full": "Akiko Okuhara",
+        "native": "奥原晶子",
+        "userPreferred": "Akiko Okuhara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 104472,
+          "language": "Japanese",
+          "name": {
+            "first": "Mari",
+            "last": "Yokoo",
+            "full": "Mari Yokoo",
+            "native": "横尾まり",
+            "userPreferred": "Mari Yokoo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104472-lwGxYMW80n8P.png"
+        }
+      ]
+    },
+    {
+      "id": 233560,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shouko",
+        "last": "Futami",
+        "full": "Shouko Futami",
+        "native": "双海翔子",
+        "userPreferred": "Shouko Futami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b233560-Cx4NotCKWFxn.png",
+      "voiceActors": [
+        {
+          "id": 126863,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Maeda",
+            "full": "Kaori Maeda",
+            "native": "前田佳織里",
+            "userPreferred": "Kaori Maeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n126863-UhefvoqVWVbB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 233564,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Emily",
+        "last": "Shinjou",
+        "full": "Emily Shinjou",
+        "native": "新城エミリ",
+        "userPreferred": "Emily Shinjou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b233564-OKnAZ4VIcS7o.png",
+      "voiceActors": [
+        {
+          "id": 95869,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Hayami",
+            "full": "Saori Hayami",
+            "native": "早見沙織",
+            "userPreferred": "Saori Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95869-qCQ0EaWpq1QT.png"
+        }
+      ]
+    },
+    {
+      "id": 233558,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miki",
+        "last": "Tachibana",
+        "full": "Miki Tachibana",
+        "native": "立花美紀",
+        "userPreferred": "Miki Tachibana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95054,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Endou",
+            "full": "Aya Endou",
+            "native": "遠藤綾",
+            "userPreferred": "Aya Endou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95054-8VgnlGK5QX2A.png"
+        }
+      ]
+    },
+    {
+      "id": 233552,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Michio",
+        "last": "Sonezaki",
+        "full": "Michio Sonezaki",
+        "native": "曽根崎道夫",
+        "userPreferred": "Michio Sonezaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b233552-7SqNJESQuSbm.png",
+      "voiceActors": [
+        {
+          "id": 102288,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuyuki",
+            "last": "Okitsu",
+            "full": "Kazuyuki Okitsu",
+            "native": "興津和幸",
+            "userPreferred": "Kazuyuki Okitsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102288-xqcBKreDyZYN.png"
+        }
+      ]
+    },
+    {
+      "id": 233559,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mike",
+        "last": "Fujiki",
+        "full": "Mike Fujiki",
+        "native": "藤木マイク",
+        "userPreferred": "Mike Fujiki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 124703,
+          "language": "Japanese",
+          "name": {
+            "first": "Chikahiro",
+            "last": "Kobayashi",
+            "full": "Chikahiro Kobayashi",
+            "native": "小林親弘",
+            "userPreferred": "Chikahiro Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n124703-rtSB51tfBuY7.png"
+        }
+      ]
+    },
+    {
+      "id": 233554,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Reika",
+        "last": "Mutou",
+        "full": "Reika Mutou",
+        "native": "武藤玲佳",
+        "userPreferred": "Reika Mutou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b233554-J93ZT1qu7USL.png",
+      "voiceActors": [
+        {
+          "id": 118806,
+          "language": "Japanese",
+          "name": {
+            "first": "Lynn",
+            "last": "",
+            "full": "Lynn",
+            "native": "Lynn",
+            "userPreferred": "Lynn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118806-AlHvdje5aHje.png"
+        }
+      ]
+    },
+    {
+      "id": 233561,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouji",
+        "last": "Kazama",
+        "full": "Kouji Kazama",
+        "native": "風間浩二",
+        "userPreferred": "Kouji Kazama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        }
+      ]
+    },
+    {
+      "id": 233553,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kimie",
+        "last": "Kobayashi",
+        "full": "Kimie Kobayashi",
+        "native": "小林君枝",
+        "userPreferred": "Kimie Kobayashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b233553-sW2Th4FOoSEy.png",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 233562,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Roshkov",
+        "last": null,
+        "full": "Roshkov",
+        "native": "ロシュコフ",
+        "userPreferred": "Roshkov"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b233562-bvdmSGj8U0fO.png",
+      "voiceActors": [
+        {
+          "id": 102321,
+          "language": "Japanese",
+          "name": {
+            "first": "Kousei",
+            "last": "Hirota",
+            "full": "Kousei Hirota",
+            "native": "廣田行生",
+            "userPreferred": "Kousei Hirota"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102321-RGZyzVH6DAhs.png"
+        }
+      ]
+    },
+    {
+      "id": 233556,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yui",
+        "last": "Akiyama",
+        "full": "Yui Akiyama",
+        "native": "秋山唯",
+        "userPreferred": "Yui Akiyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b233556-PyZrwCTNx67u.png",
+      "voiceActors": [
+        {
+          "id": 118602,
+          "language": "Japanese",
+          "name": {
+            "first": "Reina",
+            "last": "Ueda",
+            "full": "Reina Ueda",
+            "native": "上田麗奈",
+            "userPreferred": "Reina Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118602-SFsQabl6KLu9.png"
+        }
+      ]
+    },
+    {
+      "id": 233563,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Victor",
+        "last": null,
+        "full": "Victor",
+        "native": "ヴィクトル",
+        "userPreferred": "Victor"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b233563-kw5u76bBq9SY.png",
+      "voiceActors": [
+        {
+          "id": 102242,
+          "language": "Japanese",
+          "name": {
+            "first": "Tarusuke",
+            "last": "Shingaki",
+            "full": "Tarusuke Shingaki",
+            "native": "新垣樽助",
+            "userPreferred": "Tarusuke Shingaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102242-bx8hrisiHiSK.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1243,
+      "relationType": "ALTERNATIVE",
+      "malId": 1243,
+      "title": {
+        "romaji": "NIGHT HEAD GENESIS",
+        "english": null,
+        "native": "NIGHT HEAD GENESIS",
+        "userPreferred": "NIGHT HEAD GENESIS"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1243-KqREWydioYdx.jpg",
+      "color": null,
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1243-4Fy5wufNxqHe.jpg",
+      "rating": 61
+    },
+    {
+      "id": 137331,
+      "relationType": "ADAPTATION",
+      "malId": null,
+      "title": {
+        "romaji": "NIGHT HEAD 2041",
+        "english": null,
+        "native": "NIGHT HEAD 2041",
+        "userPreferred": "NIGHT HEAD 2041"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx137331-7x1ItzHqzult.png",
+      "color": "#e44378",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx137331-7x1ItzHqzult.png",
+      "rating": 100
+    },
+    {
+      "id": 131047,
+      "relationType": "OTHER",
+      "malId": 45595,
+      "title": {
+        "romaji": "BATEN KAITOS",
+        "english": null,
+        "native": "バテンカイトス",
+        "userPreferred": "BATEN KAITOS"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131047-2wIT4jn2jOIM.jpg",
+      "color": "#e46b28",
+      "type": "MUSIC",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131047-VisIPNE4Wr6w.jpg",
+      "rating": 72
+    }
+  ],
+  "episodes": [
+    {
+      "id": "night-head-2041-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125868-apscwA5S0lOs.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//night-head-2041-episode-1"
+    },
+    {
+      "id": "night-head-2041-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125868-apscwA5S0lOs.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//night-head-2041-episode-2"
+    },
+    {
+      "id": "night-head-2041-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125868-apscwA5S0lOs.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//night-head-2041-episode-3"
+    },
+    {
+      "id": "night-head-2041-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125868-apscwA5S0lOs.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//night-head-2041-episode-4"
+    },
+    {
+      "id": "night-head-2041-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125868-apscwA5S0lOs.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//night-head-2041-episode-5"
+    },
+    {
+      "id": "night-head-2041-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125868-apscwA5S0lOs.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//night-head-2041-episode-6"
+    },
+    {
+      "id": "night-head-2041-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125868-apscwA5S0lOs.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//night-head-2041-episode-7"
+    },
+    {
+      "id": "night-head-2041-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125868-apscwA5S0lOs.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//night-head-2041-episode-8"
+    },
+    {
+      "id": "night-head-2041-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125868-apscwA5S0lOs.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//night-head-2041-episode-9"
+    },
+    {
+      "id": "night-head-2041-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125868-apscwA5S0lOs.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//night-head-2041-episode-10"
+    },
+    {
+      "id": "night-head-2041-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125868-apscwA5S0lOs.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//night-head-2041-episode-11"
+    },
+    {
+      "id": "night-head-2041-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125868-apscwA5S0lOs.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//night-head-2041-episode-12"
+    }
+  ]
+}

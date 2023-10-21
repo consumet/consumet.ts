@@ -1,0 +1,1036 @@
+{
+  "id": "5940",
+  "title": {
+    "romaji": "Seiken no Blacksmith",
+    "english": "The Sacred Blacksmith",
+    "native": "聖剣の刀鍛冶（ブラックスミス）"
+  },
+  "malId": 5940,
+  "synonyms": [
+    "Seiken no Katanakaji",
+    "La Espada Sagrada"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5940.jpg",
+  "popularity": 26403,
+  "color": "#5da1f1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5940-uMXJKV3XL2Lc.jpg",
+  "description": "The knight Cecily wants to defend the weak, but her lack of skill makes her an unlikely heroine—until the blacksmith Luke comes to her aid, using magic to forge blades of supernatural strength. Cecily wields this sacred steel and charges forth to face a new threat; a cloaked fiend is unleashing demons upon the land, and though he lurks in shadows, the villain is closer than Cecily knows. <br><br>\n\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2009,
+  "startDate": {
+    "year": 2009,
+    "month": 10,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2009,
+    "month": 12,
+    "day": 19
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 62,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Manglobe"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 21202,
+      "malId": 30831,
+      "title": {
+        "romaji": "Kono Subarashii Sekai ni Shukufuku wo!",
+        "english": "KONOSUBA -God's blessing on this wonderful world!",
+        "native": "この素晴らしい世界に祝福を！",
+        "userPreferred": "Kono Subarashii Sekai ni Shukufuku wo!"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21202-TfzXuWQf2oLQ.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21202-UWijdV7RMnXo.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 4063,
+      "malId": 4063,
+      "title": {
+        "romaji": "Sekirei",
+        "english": null,
+        "native": "セキレイ",
+        "userPreferred": "Sekirei"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4063-ZP7agutiaOCf.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4063-nuc7512yA0nx.jpg",
+      "rating": 65,
+      "type": "TV"
+    },
+    {
+      "id": 1691,
+      "malId": 1691,
+      "title": {
+        "romaji": "Kaze no Stigma",
+        "english": "Kaze no Stigma",
+        "native": "風のスティグマ",
+        "userPreferred": "Kaze no Stigma"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1691-dMen71ICnKJ9.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1691-AhcMS3Rwjs1D.jpg",
+      "rating": 67,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 24002,
+      "role": "MAIN",
+      "name": {
+        "first": "Cecily",
+        "last": "Cambell",
+        "full": "Cecily Cambell",
+        "native": "セシリー・キャンベル",
+        "userPreferred": "Cecily Cambell"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24002.jpg",
+      "voiceActors": [
+        {
+          "id": 95247,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Fujimura",
+            "full": "Ayumi Fujimura",
+            "native": "藤村歩",
+            "userPreferred": "Ayumi Fujimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95247-3jzUQFPN8clW.png"
+        },
+        {
+          "id": 96650,
+          "language": "English",
+          "name": {
+            "first": "Cherami",
+            "last": "Leigh",
+            "full": "Cherami Leigh",
+            "native": null,
+            "userPreferred": "Cherami Leigh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96650-oYspSQuaFo3N.jpg"
+        },
+        {
+          "id": 116455,
+          "language": "Spanish",
+          "name": {
+            "first": "Liliana",
+            "last": "Barba",
+            "full": "Liliana Barba",
+            "native": null,
+            "userPreferred": "Liliana Barba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116455-oV4zERYf9v2u.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24003,
+      "role": "MAIN",
+      "name": {
+        "first": "Luke",
+        "last": "Ainsworth",
+        "full": "Luke Ainsworth",
+        "native": "ルーク・エインズワース",
+        "userPreferred": "Luke Ainsworth"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24003.jpg",
+      "voiceActors": [
+        {
+          "id": 95270,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuhiko",
+            "last": "Okamoto",
+            "full": "Nobuhiko Okamoto",
+            "native": "岡本信彦",
+            "userPreferred": "Nobuhiko Okamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95270-LqNIF238L59u.png"
+        },
+        {
+          "id": 95454,
+          "language": "English",
+          "name": {
+            "first": "Blake",
+            "last": "Shepard",
+            "full": "Blake Shepard",
+            "native": null,
+            "userPreferred": "Blake Shepard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/454.jpg"
+        },
+        {
+          "id": 117179,
+          "language": "Spanish",
+          "name": {
+            "first": "Arturo",
+            "last": "Castañeda",
+            "full": "Arturo Castañeda",
+            "native": null,
+            "userPreferred": "Arturo Castañeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n117179-7jGqruzVaaSq.png"
+        }
+      ]
+    },
+    {
+      "id": 24005,
+      "role": "MAIN",
+      "name": {
+        "first": "Aria",
+        "last": null,
+        "full": "Aria",
+        "native": null,
+        "userPreferred": "Aria"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24005.jpg",
+      "voiceActors": [
+        {
+          "id": 95144,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Toyoguchi",
+            "full": "Megumi Toyoguchi",
+            "native": "豊口めぐみ",
+            "userPreferred": "Megumi Toyoguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95144-9Y8CtDVmxogE.jpg"
+        },
+        {
+          "id": 105292,
+          "language": "English",
+          "name": {
+            "first": "Anastasia",
+            "last": "Muñoz",
+            "full": "Anastasia Muñoz",
+            "native": null,
+            "userPreferred": "Anastasia Muñoz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10292.jpg"
+        },
+        {
+          "id": 202450,
+          "language": "Spanish",
+          "name": {
+            "first": "Melissa",
+            "last": "Gedeón",
+            "full": "Melissa Gedeón",
+            "native": null,
+            "userPreferred": "Melissa Gedeón"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n202450-bJ6JTYGaV1o8.png"
+        }
+      ]
+    },
+    {
+      "id": 24004,
+      "role": "MAIN",
+      "name": {
+        "first": "Lisa",
+        "last": null,
+        "full": "Lisa",
+        "native": null,
+        "userPreferred": "Lisa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24004.jpg",
+      "voiceActors": [
+        {
+          "id": 95599,
+          "language": "Japanese",
+          "name": {
+            "first": "Aki",
+            "last": "Toyosaki",
+            "full": "Aki Toyosaki",
+            "native": "豊崎愛生",
+            "userPreferred": "Aki Toyosaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95599-XDGiluZB7IXL.png"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        },
+        {
+          "id": 139017,
+          "language": "Spanish",
+          "name": {
+            "first": "Andrea",
+            "last": "Arruti",
+            "full": "Andrea Arruti",
+            "native": "Andrea Echeverría Arruti",
+            "userPreferred": "Andrea Arruti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139017-kbyWSv8yUbjv.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28533,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Evadne",
+        "last": null,
+        "full": "Evadne",
+        "native": null,
+        "userPreferred": "Evadne"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28533.jpg",
+      "voiceActors": [
+        {
+          "id": 95003,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsuki",
+            "last": "Yukino",
+            "full": "Satsuki Yukino",
+            "native": "ゆきのさつき",
+            "userPreferred": "Satsuki Yukino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95003-Du7wb5JJzb8P.png"
+        },
+        {
+          "id": 95661,
+          "language": "English",
+          "name": {
+            "first": "Clarine",
+            "last": "Harp",
+            "full": "Clarine Harp",
+            "native": null,
+            "userPreferred": "Clarine Harp"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/661.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28287,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lisa",
+        "last": "Oakwood",
+        "full": "Lisa Oakwood",
+        "native": null,
+        "userPreferred": "Lisa Oakwood"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28287.jpg",
+      "voiceActors": [
+        {
+          "id": 101542,
+          "language": "Japanese",
+          "name": {
+            "first": "Hinako",
+            "last": "Sasaki",
+            "full": "Hinako Sasaki",
+            "native": "日菜子 佐々木",
+            "userPreferred": "Hinako Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6542.jpg"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        },
+        {
+          "id": 96846,
+          "language": "Spanish",
+          "name": {
+            "first": "Cristina",
+            "last": "Hernández",
+            "full": "Cristina Hernández",
+            "native": "Helga Cristina Hernández Ramírez",
+            "userPreferred": "Cristina Hernández"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96846-1tJ46kl7SBgd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28057,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hugo",
+        "last": "Housman",
+        "full": "Hugo Housman",
+        "native": "ヒューゴー・ハウスマン",
+        "userPreferred": "Hugo Housman"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28057.jpg",
+      "voiceActors": [
+        {
+          "id": 95021,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiko",
+            "last": "Inoue",
+            "full": "Kazuhiko Inoue",
+            "native": "井上和彦",
+            "userPreferred": "Kazuhiko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95021-9qAoAn6GNZ3S.png"
+        },
+        {
+          "id": 95610,
+          "language": "English",
+          "name": {
+            "first": "Christopher",
+            "last": "Bevins",
+            "full": "Christopher Bevins",
+            "native": null,
+            "userPreferred": "Christopher Bevins"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95610-4FScrXVJmH3V.jpg"
+        },
+        {
+          "id": 198310,
+          "language": "Spanish",
+          "name": {
+            "first": "Roberto",
+            "last": "Mendiola",
+            "full": "Roberto Mendiola",
+            "native": null,
+            "userPreferred": "Roberto Mendiola"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n198310-yBOdbNEZylzU.png"
+        }
+      ]
+    },
+    {
+      "id": 26717,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Siegfried",
+        "last": null,
+        "full": "Siegfried",
+        "native": "シーグフリード",
+        "userPreferred": "Siegfried"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26717.jpg",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        },
+        {
+          "id": 96602,
+          "language": "English",
+          "name": {
+            "first": "J. Michael",
+            "last": "Tatum",
+            "full": "J. Michael Tatum",
+            "native": "John Michael Tatum",
+            "userPreferred": "J. Michael Tatum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96602-ztTfuo3nzu5t.png"
+        },
+        {
+          "id": 182227,
+          "language": "Spanish",
+          "name": {
+            "first": "Ricardo",
+            "last": "Méndez",
+            "full": "Ricardo Méndez",
+            "native": null,
+            "userPreferred": "Ricardo Méndez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182227-b2MJa9bBPQU7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27868,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Charlotte",
+        "last": "E Firobisher",
+        "full": "Charlotte E Firobisher",
+        "native": null,
+        "userPreferred": "Charlotte E Firobisher"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27868.jpg",
+      "voiceActors": [
+        {
+          "id": 95051,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Fukuhara",
+            "full": "Kaori Fukuhara",
+            "native": "福原香織",
+            "userPreferred": "Kaori Fukuhara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95051-cTWmIVG5piAG.png"
+        },
+        {
+          "id": 104091,
+          "language": "English",
+          "name": {
+            "first": "Alexis",
+            "last": "Tipton",
+            "full": "Alexis Tipton",
+            "native": null,
+            "userPreferred": "Alexis Tipton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104091-OZpJbFWFwnvV.jpg"
+        },
+        {
+          "id": 104136,
+          "language": "Spanish",
+          "name": {
+            "first": "Maggie",
+            "last": "Vera",
+            "full": "Maggie Vera",
+            "native": null,
+            "userPreferred": "Maggie Vera"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9136.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27686,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Margot",
+        "last": null,
+        "full": "Margot",
+        "native": null,
+        "userPreferred": "Margot"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27686.jpg",
+      "voiceActors": [
+        {
+          "id": 95053,
+          "language": "Japanese",
+          "name": {
+            "first": "Minori",
+            "last": "Chihara",
+            "full": "Minori Chihara",
+            "native": "茅原実里",
+            "userPreferred": "Minori Chihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95053-wN1MdNMSGTMn.png"
+        },
+        {
+          "id": 96804,
+          "language": "English",
+          "name": {
+            "first": "Trina",
+            "last": "Nishimura",
+            "full": "Trina Nishimura",
+            "native": null,
+            "userPreferred": "Trina Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96804-0OKQgacznkZ4.png"
+        },
+        {
+          "id": 181980,
+          "language": "Spanish",
+          "name": {
+            "first": "Analiz",
+            "last": "Sánchez",
+            "full": "Analiz Sánchez",
+            "native": null,
+            "userPreferred": "Analiz Sánchez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n181980-EtfeGcQBZpiZ.png"
+        }
+      ]
+    },
+    {
+      "id": 27684,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Doris",
+        "last": null,
+        "full": "Doris",
+        "native": null,
+        "userPreferred": "Doris"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27684.jpg",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        },
+        {
+          "id": 103722,
+          "language": "English",
+          "name": {
+            "first": "Maxey",
+            "last": "Whitehead",
+            "full": "Maxey Whitehead",
+            "native": null,
+            "userPreferred": "Maxey Whitehead"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103722-4IYtnwwabhYI.jpg"
+        },
+        {
+          "id": 104773,
+          "language": "Spanish",
+          "name": {
+            "first": "Rossy",
+            "last": "Aguirre",
+            "full": "Rossy Aguirre",
+            "native": null,
+            "userPreferred": "Rossy Aguirre"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104773-PmfPC8nuPYGn.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28376,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Elsa",
+        "last": null,
+        "full": "Elsa",
+        "native": null,
+        "userPreferred": "Elsa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28376.jpg",
+      "voiceActors": [
+        {
+          "id": 95315,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shintani",
+            "full": "Ryouko Shintani",
+            "native": "新谷良子",
+            "userPreferred": "Ryouko Shintani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95315-6lzPWFB0mhh8.png"
+        },
+        {
+          "id": 95659,
+          "language": "English",
+          "name": {
+            "first": "Brina",
+            "last": "Palencia",
+            "full": "Brina Palencia",
+            "native": null,
+            "userPreferred": "Brina Palencia"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/659.jpg"
+        },
+        {
+          "id": 113327,
+          "language": "Spanish",
+          "name": {
+            "first": "Circe",
+            "last": "Luna",
+            "full": "Circe Luna",
+            "native": null,
+            "userPreferred": "Circe Luna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/18327.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27685,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Penelope",
+        "last": null,
+        "full": "Penelope",
+        "native": null,
+        "userPreferred": "Penelope"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27685.jpg",
+      "voiceActors": [
+        {
+          "id": 95132,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Takahashi",
+            "full": "Mikako Takahashi",
+            "native": "高橋美佳子",
+            "userPreferred": "Mikako Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95132-TpIFKL0tJg84.jpg"
+        },
+        {
+          "id": 95891,
+          "language": "English",
+          "name": {
+            "first": "Jamie",
+            "last": "Marchi",
+            "full": "Jamie Marchi",
+            "native": null,
+            "userPreferred": "Jamie Marchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95891-QG8dyefPjUIz.jpg"
+        },
+        {
+          "id": 107400,
+          "language": "Spanish",
+          "name": {
+            "first": "Georgina",
+            "last": "Sánchez",
+            "full": "Georgina Sánchez",
+            "native": null,
+            "userPreferred": "Georgina Sánchez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107400-peQnahDFhfOc.png"
+        }
+      ]
+    },
+    {
+      "id": 27755,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Patty",
+        "last": "Baldwin",
+        "full": "Patty Baldwin",
+        "native": null,
+        "userPreferred": "Patty Baldwin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27755.jpg",
+      "voiceActors": [
+        {
+          "id": 95376,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiru",
+            "last": "Yuimoto",
+            "full": "Michiru Yuimoto",
+            "native": "結本ミチル",
+            "userPreferred": "Michiru Yuimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/376.jpg"
+        },
+        {
+          "id": 95773,
+          "language": "English",
+          "name": {
+            "first": "Kara",
+            "last": "Edwards",
+            "full": "Kara Edwards",
+            "native": null,
+            "userPreferred": "Kara Edwards"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/773.jpg"
+        },
+        {
+          "id": 182455,
+          "language": "Spanish",
+          "name": {
+            "first": "Valentina",
+            "last": "Souza",
+            "full": "Valentina Souza",
+            "native": null,
+            "userPreferred": "Valentina Souza"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182455-785l5xplDPf7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27754,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hannibal",
+        "last": "Quasar",
+        "full": "Hannibal Quasar",
+        "native": "ハンバル",
+        "userPreferred": "Hannibal Quasar"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27754.jpg",
+      "voiceActors": [
+        {
+          "id": 95634,
+          "language": "Japanese",
+          "name": {
+            "first": "Yousuke",
+            "last": "Akimoto",
+            "full": "Yousuke Akimoto",
+            "native": "秋元羊介",
+            "userPreferred": "Yousuke Akimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95634-q6SacvhRo9Pq.jpg"
+        },
+        {
+          "id": 95474,
+          "language": "English",
+          "name": {
+            "first": "Mark",
+            "last": "Stoddard",
+            "full": "Mark Stoddard",
+            "native": null,
+            "userPreferred": "Mark Stoddard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/474.jpg"
+        },
+        {
+          "id": 184397,
+          "language": "Spanish",
+          "name": {
+            "first": "Octavio",
+            "last": "Rojas",
+            "full": "Octavio Rojas",
+            "native": null,
+            "userPreferred": "Octavio Rojas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n184397-AVFS6OxXj0aI.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35556,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fio",
+        "last": "Atkins",
+        "full": "Fio Atkins",
+        "native": null,
+        "userPreferred": "Fio Atkins"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35556.jpg",
+      "voiceActors": [
+        {
+          "id": 96500,
+          "language": "Japanese",
+          "name": {
+            "first": "Nozomi",
+            "last": "Masu",
+            "full": "Nozomi Masu",
+            "native": "望 升",
+            "userPreferred": "Nozomi Masu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1500.jpg"
+        },
+        {
+          "id": 95859,
+          "language": "English",
+          "name": {
+            "first": "Leah",
+            "last": "Clark",
+            "full": "Leah Clark",
+            "native": null,
+            "userPreferred": "Leah Clark"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/859.jpg"
+        },
+        {
+          "id": 195233,
+          "language": "Spanish",
+          "name": {
+            "first": "Claudia",
+            "last": "Motta",
+            "full": "Claudia Motta",
+            "native": null,
+            "userPreferred": "Claudia Motta"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n195233-lBoGdkWr8geY.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 42239,
+      "relationType": "ADAPTATION",
+      "malId": 12239,
+      "title": {
+        "romaji": "Seiken no Blacksmith",
+        "english": "Seiken no Blacksmith",
+        "native": "聖剣の刀鍛冶（ブラックスミス）",
+        "userPreferred": "Seiken no Blacksmith"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/12239.jpg",
+      "color": "#e46b5d",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/12239.jpg",
+      "rating": 65
+    },
+    {
+      "id": 42240,
+      "relationType": "ALTERNATIVE",
+      "malId": 12240,
+      "title": {
+        "romaji": "Seiken no Blacksmith",
+        "english": "The Sacred Blacksmith",
+        "native": "聖剣の刀鍛冶（ブラックスミス）",
+        "userPreferred": "Seiken no Blacksmith"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/12240.jpg",
+      "color": "#c95d50",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/12240.jpg",
+      "rating": 67
+    }
+  ],
+  "episodes": [
+    {
+      "id": "the-sacred-blacksmith-episode-1",
+      "title": "Knight",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166370/original.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:45:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-sacred-blacksmith-episode-1"
+    },
+    {
+      "id": "the-sacred-blacksmith-episode-2",
+      "title": "The Devil's Pact; Valbanill",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166379/original.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:45:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-sacred-blacksmith-episode-2"
+    },
+    {
+      "id": "the-sacred-blacksmith-episode-3",
+      "title": "Demon Blade; Sword",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166383/original.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:45:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-sacred-blacksmith-episode-3"
+    },
+    {
+      "id": "the-sacred-blacksmith-episode-4",
+      "title": "Vow; Promise",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166390/original.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:45:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-sacred-blacksmith-episode-4"
+    },
+    {
+      "id": "the-sacred-blacksmith-episode-5",
+      "title": "Bond; Together",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166395/original.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:45:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-sacred-blacksmith-episode-5"
+    },
+    {
+      "id": "the-sacred-blacksmith-episode-6",
+      "title": "Imperial Princess",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166404/original.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:45:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-sacred-blacksmith-episode-6"
+    },
+    {
+      "id": "the-sacred-blacksmith-episode-7",
+      "title": "Family",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166411/original.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:45:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-sacred-blacksmith-episode-7"
+    },
+    {
+      "id": "the-sacred-blacksmith-episode-8",
+      "title": "Departure; Resolution",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166418/original.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:45:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-sacred-blacksmith-episode-8"
+    },
+    {
+      "id": "the-sacred-blacksmith-episode-9",
+      "title": "Vestige; Lisa",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166425/original.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:45:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-sacred-blacksmith-episode-9"
+    },
+    {
+      "id": "the-sacred-blacksmith-episode-10",
+      "title": "Lovers Suicide; Tragedy",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166433/original.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:45:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-sacred-blacksmith-episode-10"
+    },
+    {
+      "id": "the-sacred-blacksmith-episode-11",
+      "title": "Truth",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166439/original.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:45:24Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-sacred-blacksmith-episode-11"
+    },
+    {
+      "id": "the-sacred-blacksmith-episode-12",
+      "title": "Blacksmith",
+      "image": "https://media.kitsu.io/episodes/thumbnails/166450/original.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:45:26Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-sacred-blacksmith-episode-12"
+    }
+  ]
+}

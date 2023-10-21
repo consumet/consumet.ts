@@ -1,0 +1,1350 @@
+{
+  "id": "12863",
+  "title": {
+    "romaji": "Pretty Rhythm: Dear My Future",
+    "english": null,
+    "native": "プリティーリズム ディアマイフューチャー"
+  },
+  "malId": 12863,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+  "popularity": 2204,
+  "color": "#86f15d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/12863-HxTIpY9svpvZ.jpg",
+  "description": "Three years after the events of \"Pretty Rhythm: Aurora Dream,\" Aira, Mion and Rizumu have grown up and tutor a new group of aspiring idols: Karin, Reina, Mia and Ayami, who form the Prizmmy&#9734;. Teenage girls from Korea, named Somin, Shiyoon, Haein, Chaekyung and Jae Eun (who are the PURETTY), appear as a rival group. ",
+  "status": "Completed",
+  "releaseDate": 2012,
+  "startDate": {
+    "year": 2012,
+    "month": 4,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 3,
+    "day": 30
+  },
+  "totalEpisodes": 51,
+  "currentEpisode": 51,
+  "rating": 63,
+  "duration": 24,
+  "genres": [
+    "Drama",
+    "Music",
+    "Romance",
+    "Sports"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Tatsunoko Production",
+    "Dongwoo Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 98107,
+      "malId": 34787,
+      "title": {
+        "romaji": "Idol Time PriPara",
+        "english": "Idol Time Pripara",
+        "native": "アイドルタイムプリパラ",
+        "userPreferred": "Idol Time PriPara"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98107-k8yfz6rwuICI.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n98107-xi1uVhYxzGO5.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 20742,
+      "malId": 23135,
+      "title": {
+        "romaji": "PriPara",
+        "english": null,
+        "native": "プリパラ",
+        "userPreferred": "PriPara"
+      },
+      "status": "Completed",
+      "episodes": 38,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20742-k6FrauSxZg5S.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n20742-rI7bzRHjrYKv.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 136119,
+      "malId": 49285,
+      "title": {
+        "romaji": "Waccha PriMagi!",
+        "english": "Waccha PriMagi!",
+        "native": "ワッチャプリマジ！",
+        "userPreferred": "Waccha PriMagi!"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136119-vuJsJpnJeyL7.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/136119-f5b5KUToIAA3.jpg",
+      "rating": 67,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 73691,
+      "role": "MAIN",
+      "name": {
+        "first": "Chae Kyoung",
+        "last": null,
+        "full": "Chae Kyoung",
+        "native": "チェギョン",
+        "userPreferred": "Chae Kyoung"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b73691-MTpva6AvaqB4.jpg",
+      "voiceActors": [
+        {
+          "id": 95723,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Akesaka",
+            "full": "Satomi Akesaka",
+            "native": "明坂聡美",
+            "userPreferred": "Satomi Akesaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95723-bV625Jngt5o6.png"
+        }
+      ]
+    },
+    {
+      "id": 73687,
+      "role": "MAIN",
+      "name": {
+        "first": "Jae Eun",
+        "last": null,
+        "full": "Jae Eun",
+        "native": "ジェウン",
+        "userPreferred": "Jae Eun"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b73687-VoP5JCe6zz7p.jpg",
+      "voiceActors": [
+        {
+          "id": 102254,
+          "language": "Japanese",
+          "name": {
+            "first": "Madoka",
+            "last": "Yonezawa",
+            "full": "Madoka Yonezawa",
+            "native": "米澤円",
+            "userPreferred": "Madoka Yonezawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102254-LUKI5fI8aFPF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60609,
+      "role": "MAIN",
+      "name": {
+        "first": "So Min",
+        "last": null,
+        "full": "So Min",
+        "native": "ソミン",
+        "userPreferred": "So Min"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b60609-iF7hnHGpy8tM.jpg",
+      "voiceActors": [
+        {
+          "id": 107588,
+          "language": "Japanese",
+          "name": {
+            "first": "Marie",
+            "last": "Miyake",
+            "full": "Marie Miyake",
+            "native": "三宅麻理恵",
+            "userPreferred": "Marie Miyake"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12588.jpg"
+        }
+      ]
+    },
+    {
+      "id": 73689,
+      "role": "MAIN",
+      "name": {
+        "first": "Shi Yoon",
+        "last": null,
+        "full": "Shi Yoon",
+        "native": "シウン",
+        "userPreferred": "Shi Yoon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b73689-FPGHDEG1cv82.jpg",
+      "voiceActors": [
+        {
+          "id": 114994,
+          "language": "Japanese",
+          "name": {
+            "first": "Hyang-Lee",
+            "last": "Kim",
+            "full": "Hyang-Lee Kim",
+            "native": "金香里",
+            "userPreferred": "Hyang-Lee Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114994-PiNoswmMeOOO.png"
+        }
+      ]
+    },
+    {
+      "id": 73699,
+      "role": "MAIN",
+      "name": {
+        "first": "Hye In",
+        "last": null,
+        "full": "Hye In",
+        "native": "ヘイン",
+        "userPreferred": "Hye In"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b73699-kv5O4JbvbhU9.jpg",
+      "voiceActors": [
+        {
+          "id": 95762,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanae",
+            "last": "Itou",
+            "full": "Kanae Itou",
+            "native": "伊藤かな恵",
+            "userPreferred": "Kanae Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95762-qhWmwni3TT6Y.png"
+        }
+      ]
+    },
+    {
+      "id": 57197,
+      "role": "MAIN",
+      "name": {
+        "first": "Karin",
+        "last": "Shijimi",
+        "full": "Karin Shijimi",
+        "native": "志々美 かりん",
+        "userPreferred": "Karin Shijimi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n57197-J4TzTawNNbtZ.png",
+      "voiceActors": [
+        {
+          "id": 106492,
+          "language": "Japanese",
+          "name": {
+            "first": "Minami",
+            "last": "Tsuda",
+            "full": "Minami Tsuda",
+            "native": "津田美波",
+            "userPreferred": "Minami Tsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106492-hNpin1BODjBw.png"
+        }
+      ]
+    },
+    {
+      "id": 57205,
+      "role": "MAIN",
+      "name": {
+        "first": "Ayami",
+        "last": "Ooruri",
+        "full": "Ayami Ooruri",
+        "native": "大瑠璃 あやみ",
+        "userPreferred": "Ayami Ooruri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n57205-OQLhbwmVPqgt.png",
+      "voiceActors": [
+        {
+          "id": 106622,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayane",
+            "last": "Sakura",
+            "full": "Ayane Sakura",
+            "native": "佐倉綾音",
+            "userPreferred": "Ayane Sakura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106622-yemj6ymLz4lY.png"
+        }
+      ]
+    },
+    {
+      "id": 57203,
+      "role": "MAIN",
+      "name": {
+        "first": "Reina",
+        "last": "Miyama",
+        "full": "Reina Miyama",
+        "native": "深山 れいな",
+        "userPreferred": "Reina Miyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n57203-Yxs7VDkLNyQe.png",
+      "voiceActors": [
+        {
+          "id": 106659,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsumi",
+            "last": "Takamori",
+            "full": "Natsumi Takamori",
+            "native": "高森奈津美",
+            "userPreferred": "Natsumi Takamori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106659-3LfNtHDY3P0Z.png"
+        }
+      ]
+    },
+    {
+      "id": 57199,
+      "role": "MAIN",
+      "name": {
+        "first": "Mia",
+        "last": "Ageha",
+        "full": "Mia Ageha",
+        "native": "上葉みあ",
+        "userPreferred": "Mia Ageha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b57199-PxwR5uZ0afIY.png",
+      "voiceActors": [
+        {
+          "id": 107041,
+          "language": "Japanese",
+          "name": {
+            "first": "Rumi",
+            "last": "Ookubo",
+            "full": "Rumi Ookubo",
+            "native": "大久保瑠美",
+            "userPreferred": "Rumi Ookubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107041-ZqPloXZhcuQw.jpg"
+        }
+      ]
+    },
+    {
+      "id": 73701,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yun-su",
+        "last": null,
+        "full": "Yun-su",
+        "native": "ユンス",
+        "userPreferred": "Yun-su"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/73701.jpg",
+      "voiceActors": [
+        {
+          "id": 95098,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Hatano",
+            "full": "Wataru Hatano",
+            "native": "羽多野渉",
+            "userPreferred": "Wataru Hatano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95098-x6T2xOTuvkuY.jpg"
+        }
+      ]
+    },
+    {
+      "id": 73707,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mishiru",
+        "last": null,
+        "full": "Mishiru",
+        "native": "ミシル",
+        "userPreferred": "Mishiru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/73707.jpg",
+      "voiceActors": [
+        {
+          "id": 96278,
+          "language": "Japanese",
+          "name": {
+            "first": "Touko",
+            "last": "Aoyama",
+            "full": "Touko Aoyama",
+            "native": "青山桐子",
+            "userPreferred": "Touko Aoyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96278-DIPQYeUBOIhd.png"
+        }
+      ]
+    },
+    {
+      "id": 74377,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yumemi",
+        "last": null,
+        "full": "Yumemi",
+        "native": "夢美",
+        "userPreferred": "Yumemi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/74377.jpg",
+      "voiceActors": [
+        {
+          "id": 107452,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Ootsubo",
+            "full": "Yuka Ootsubo",
+            "native": "大坪由佳",
+            "userPreferred": "Yuka Ootsubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107452-PcfGagaON83G.png"
+        }
+      ]
+    },
+    {
+      "id": 74375,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kurumi",
+        "last": null,
+        "full": "Kurumi",
+        "native": "くるみ",
+        "userPreferred": "Kurumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/74375.jpg",
+      "voiceActors": [
+        {
+          "id": 95141,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouka",
+            "last": "Yuzuki",
+            "full": "Ryouka Yuzuki",
+            "native": "柚木涼香",
+            "userPreferred": "Ryouka Yuzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95141-RUTdfZUbNcUv.png"
+        }
+      ]
+    },
+    {
+      "id": 42189,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Itsuki",
+        "last": "Harune",
+        "full": "Itsuki Harune",
+        "native": "春音いつき",
+        "userPreferred": "Itsuki Harune"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42189.jpg",
+      "voiceActors": [
+        {
+          "id": 95746,
+          "language": "Japanese",
+          "name": {
+            "first": "Motoko",
+            "last": "Kumai",
+            "full": "Motoko Kumai",
+            "native": "くまいもとこ",
+            "userPreferred": "Motoko Kumai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95746-uCQ4Vz5v1St7.png"
+        }
+      ]
+    },
+    {
+      "id": 42182,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shou",
+        "last": null,
+        "full": "Shou",
+        "native": "ショウ",
+        "userPreferred": "Shou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b42182-qKbLI3bWpJ7y.png",
+      "voiceActors": [
+        {
+          "id": 95206,
+          "language": "Japanese",
+          "name": {
+            "first": "Takashi",
+            "last": "Kondou",
+            "full": "Takashi Kondou",
+            "native": "近藤隆",
+            "userPreferred": "Takashi Kondou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95206-xbnvRIrUO77y.jpg"
+        }
+      ]
+    },
+    {
+      "id": 59643,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaname",
+        "last": "Chris",
+        "full": "Kaname Chris",
+        "native": "久里須 かなめ",
+        "userPreferred": "Kaname Chris"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b59643-i3cUiM0e9ioo.png",
+      "voiceActors": [
+        {
+          "id": 95762,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanae",
+            "last": "Itou",
+            "full": "Kanae Itou",
+            "native": "伊藤かな恵",
+            "userPreferred": "Kanae Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95762-qhWmwni3TT6Y.png"
+        }
+      ]
+    },
+    {
+      "id": 60893,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Serena",
+        "last": "Jounouchi",
+        "full": "Serena Jounouchi",
+        "native": "城之内 セレナ",
+        "userPreferred": "Serena Jounouchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60893.jpg",
+      "voiceActors": [
+        {
+          "id": 102254,
+          "language": "Japanese",
+          "name": {
+            "first": "Madoka",
+            "last": "Yonezawa",
+            "full": "Madoka Yonezawa",
+            "native": "米澤円",
+            "userPreferred": "Madoka Yonezawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102254-LUKI5fI8aFPF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42186,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyouko",
+        "last": "Asechi",
+        "full": "Kyouko Asechi",
+        "native": "阿世知今日子",
+        "userPreferred": "Kyouko Asechi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b42186-ouumG0KXSgb2.jpg",
+      "voiceActors": [
+        {
+          "id": 95215,
+          "language": "Japanese",
+          "name": {
+            "first": "Risa",
+            "last": "Hayamizu",
+            "full": "Risa Hayamizu",
+            "native": "早水リサ",
+            "userPreferred": "Risa Hayamizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95215-CvyYAqsZaaaK.png"
+        }
+      ]
+    },
+    {
+      "id": 127768,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Meganee",
+        "last": "Akai",
+        "full": "Meganee Akai",
+        "native": "赤井めが姉ぇ",
+        "userPreferred": "Meganee Akai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n127768-FZubGwhoFkk4.jpg",
+      "voiceActors": [
+        {
+          "id": 95762,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanae",
+            "last": "Itou",
+            "full": "Kanae Itou",
+            "native": "伊藤かな恵",
+            "userPreferred": "Kanae Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95762-qhWmwni3TT6Y.png"
+        }
+      ]
+    },
+    {
+      "id": 42185,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jun",
+        "last": "Takigawa",
+        "full": "Jun Takigawa",
+        "native": "滝川純",
+        "userPreferred": "Jun Takigawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b42185-RQMifKFVctGb.png",
+      "voiceActors": [
+        {
+          "id": 95260,
+          "language": "Japanese",
+          "name": {
+            "first": "Susumu",
+            "last": "Chiba",
+            "full": "Susumu Chiba",
+            "native": "千葉進歩",
+            "userPreferred": "Susumu Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95260-pKyM0LbhEznc.png"
+        },
+        {
+          "id": 116639,
+          "language": "Korean",
+          "name": {
+            "first": "Doh Hyeong",
+            "last": "Nam",
+            "full": "Doh Hyeong Nam",
+            "native": "도형 남",
+            "userPreferred": "Doh Hyeong Nam"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21639.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42115,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aira",
+        "last": "Harune",
+        "full": "Aira Harune",
+        "native": "春音あいら",
+        "userPreferred": "Aira Harune"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b42115-x2jSxcbWrige.png",
+      "voiceActors": [
+        {
+          "id": 95817,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Asumi",
+            "full": "Kana Asumi",
+            "native": "阿澄佳奈",
+            "userPreferred": "Kana Asumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95817-UHqRZ5xuSJgW.png"
+        }
+      ]
+    },
+    {
+      "id": 198881,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yamao",
+        "last": "Yamada",
+        "full": "Yamao Yamada",
+        "native": "山田山夫",
+        "userPreferred": "Yamao Yamada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b198881-AFWfrCkF8IMv.png",
+      "voiceActors": [
+        {
+          "id": 95720,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenta",
+            "last": "Miyake",
+            "full": "Kenta Miyake",
+            "native": "三宅健太",
+            "userPreferred": "Kenta Miyake"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95720-enxx6kZKuwGi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42184,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Wataru",
+        "last": null,
+        "full": "Wataru",
+        "native": "ワタル",
+        "userPreferred": "Wataru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b42184-A7PKw3LZqdUM.jpg",
+      "voiceActors": [
+        {
+          "id": 95270,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuhiko",
+            "last": "Okamoto",
+            "full": "Nobuhiko Okamoto",
+            "native": "岡本信彦",
+            "userPreferred": "Nobuhiko Okamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95270-LqNIF238L59u.png"
+        }
+      ]
+    },
+    {
+      "id": 42183,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hibiki",
+        "last": null,
+        "full": "Hibiki",
+        "native": "ヒビキ",
+        "userPreferred": "Hibiki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b42183-3LCLeApx4mvN.jpg",
+      "voiceActors": [
+        {
+          "id": 95857,
+          "language": "Japanese",
+          "name": {
+            "first": "KENN",
+            "last": "",
+            "full": "KENN",
+            "native": "KENN",
+            "userPreferred": "KENN"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95857-oHOhHwEDyAlL.png"
+        }
+      ]
+    },
+    {
+      "id": 198882,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Penguin-sensei",
+        "last": null,
+        "full": "Penguin-sensei",
+        "native": "ペンギン先生",
+        "userPreferred": "Penguin-sensei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b198882-ZPT7OymxYTGM.jpg",
+      "voiceActors": [
+        {
+          "id": 95720,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenta",
+            "last": "Miyake",
+            "full": "Kenta Miyake",
+            "native": "三宅健太",
+            "userPreferred": "Kenta Miyake"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95720-enxx6kZKuwGi.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 10257,
+      "relationType": "PREQUEL",
+      "malId": 10257,
+      "title": {
+        "romaji": "Pretty Rhythm: Aurora Dream",
+        "english": null,
+        "native": "プリティーリズム オーロラドリーム",
+        "userPreferred": "Pretty Rhythm: Aurora Dream"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10257-zwbhwbaZ7Zr1.jpg",
+      "color": "#f1a143",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10257-fMg9PZfcDU7K.jpg",
+      "rating": 71
+    },
+    {
+      "id": 20581,
+      "relationType": "ALTERNATIVE",
+      "malId": 21707,
+      "title": {
+        "romaji": "Pretty Rhythm: All Star Selection - Prism Show☆Best Ten",
+        "english": null,
+        "native": "プリティーリズム・オールスターセレクション プリズムショー☆ベストテン",
+        "userPreferred": "Pretty Rhythm: All Star Selection - Prism Show☆Best Ten"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20581-9OwVneZO0yw3.jpg",
+      "color": "#e4c950",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20581-9OwVneZO0yw3.jpg",
+      "rating": 66
+    },
+    {
+      "id": 20917,
+      "relationType": "CHARACTER",
+      "malId": 25857,
+      "title": {
+        "romaji": "PriPara Movie: Minna Atsumare! Prism☆Tours",
+        "english": null,
+        "native": "劇場版プリパラ　み～んなあつまれ！プリズム☆ツアーズ",
+        "userPreferred": "PriPara Movie: Minna Atsumare! Prism☆Tours"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20917-ErO91llOqiea.png",
+      "color": "#e40d86",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n20917-X9YA4L7XJiMB.jpg",
+      "rating": 66
+    },
+    {
+      "id": 107755,
+      "relationType": "CHARACTER",
+      "malId": 37398,
+      "title": {
+        "romaji": "PriPara & Kiratto Pri☆Chan: Kira Kira Memorial Live",
+        "english": null,
+        "native": "劇場版 プリパラ＆キラッとプリ☆チャン ～きらきらメモリアルライブ～",
+        "userPreferred": "PriPara & Kiratto Pri☆Chan: Kira Kira Memorial Live"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107755-pKG3hnsGpniQ.png",
+      "color": "#f1bb50",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107755-pKG3hnsGpniQ.png",
+      "rating": 64
+    },
+    {
+      "id": 20620,
+      "relationType": "CHARACTER",
+      "malId": 22215,
+      "title": {
+        "romaji": "Pretty Rhythm: All Star Selection",
+        "english": null,
+        "native": "プリティーリズム・オールスターセレクション",
+        "userPreferred": "Pretty Rhythm: All Star Selection"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20620-vMVayYgB5AxZ.png",
+      "color": "#e4d65d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20620-vMVayYgB5AxZ.png",
+      "rating": 63
+    },
+    {
+      "id": 136206,
+      "relationType": "CHARACTER",
+      "malId": 48859,
+      "title": {
+        "romaji": "Pretty All Friends Selection",
+        "english": null,
+        "native": "プリティーオールフレンズセレクション",
+        "userPreferred": "Pretty All Friends Selection"
+      },
+      "status": "Completed",
+      "episodes": 16,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136206-I7DZ4UO4TUel.jpg",
+      "color": "#fe50bb",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136206-I7DZ4UO4TUel.jpg",
+      "rating": 63
+    },
+    {
+      "id": 17249,
+      "relationType": "ALTERNATIVE",
+      "malId": 17249,
+      "title": {
+        "romaji": "Pretty Rhythm: Rainbow Live",
+        "english": null,
+        "native": "プリズティーリズム・レインボーライブ",
+        "userPreferred": "Pretty Rhythm: Rainbow Live"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17249-FIqUTQWXkBWf.png",
+      "color": "#35f1ff",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/17249-9JhXEAcNus3l.jpg",
+      "rating": 75
+    }
+  ],
+  "episodes": [
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-1",
+      "title": "Hello, My Future",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 1,
+      "createdAt": "2014-11-16T20:38:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-1"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-2",
+      "title": "Take the Crown Shining for You",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 2,
+      "createdAt": "2014-11-16T20:38:24Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-2"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-3",
+      "title": "Get! My Fan Call",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 3,
+      "createdAt": "2014-11-16T20:38:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-3"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-4",
+      "title": "Prism Act is Hearts' Revolution!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 4,
+      "createdAt": "2014-11-16T20:38:26Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-4"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-5",
+      "title": "First Love!? ☆ My Prince",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 5,
+      "createdAt": "2014-11-16T20:38:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-5"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-6",
+      "title": "Note Note is Prohibited Trouble!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 6,
+      "createdAt": "2014-11-16T20:38:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-6"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-7",
+      "title": "General Election! Prizmmy☆Capture Leaders",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 7,
+      "createdAt": "2014-11-16T20:38:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-7"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-8",
+      "title": "Last Members Hate Your Waste!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 8,
+      "createdAt": "2014-11-16T20:38:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-8"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-9",
+      "title": "Trembling Heart! Handsome Designers Showdown",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 9,
+      "createdAt": "2014-11-16T20:38:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-9"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-10",
+      "title": "Withdrawal Mia!? Hardball with the Aira",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 10,
+      "createdAt": "2014-11-16T20:38:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-10"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-11",
+      "title": "Pounding ♥ Spring Training Camp with MARs",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 11,
+      "createdAt": "2014-11-16T20:38:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-11"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-12",
+      "title": "Stand Up! My Girls' Soul!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 12,
+      "createdAt": "2014-11-16T20:38:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-12"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-13",
+      "title": "The Perfume that Holds the Day of Future!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 13,
+      "createdAt": "2014-11-16T20:38:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-13"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-14",
+      "title": "P-nation of Turbulent PURETTY",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 14,
+      "createdAt": "2014-11-16T20:38:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-14"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-15",
+      "title": "Secret Crush ♥ Prince of Roses",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 15,
+      "createdAt": "2014-11-16T20:38:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-15"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-16",
+      "title": "Independent research in Magical Mion!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 16,
+      "createdAt": "2014-11-16T20:38:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-16"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-17",
+      "title": "Champion in the Zoo, Shi Yoon",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 17,
+      "createdAt": "2014-11-16T20:38:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-17"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-18",
+      "title": "Summer Vacation! Summer-colored Mermaid",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 18,
+      "createdAt": "2014-11-16T20:38:31Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-18"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-19",
+      "title": "PURETTY Go! Go! Go Summer Festival Season!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 19,
+      "createdAt": "2014-11-16T20:38:31Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-19"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-20",
+      "title": "Last Note is the Scent of Passion",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 20,
+      "createdAt": "2014-11-16T20:38:31Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-20"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-21",
+      "title": "Heart Flutter, Awakening of Symphonia",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 21,
+      "createdAt": "2014-11-16T20:38:31Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-21"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-22",
+      "title": "The Big Love Heart Shuffle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 22,
+      "createdAt": "2014-11-16T20:38:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-22"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-23",
+      "title": "Silver Screen Celebrity Story",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 23,
+      "createdAt": "2014-11-16T20:38:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-23"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-24",
+      "title": "Treasure Found! Charms' Great Adventure!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 24,
+      "createdAt": "2014-11-16T20:38:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-24"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-25",
+      "title": "The Most Cheerful! Prism-Cooking",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 25,
+      "createdAt": "2014-11-16T20:38:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-25"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-26",
+      "title": "Black and White Wedding",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 26,
+      "createdAt": "2014-11-16T20:38:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-26"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-27",
+      "title": "Shall We Dance with the New Team?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 27,
+      "createdAt": "2014-11-16T20:38:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-27"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-28",
+      "title": "Words of Love, Confession of Rizumu...",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 28,
+      "createdAt": "2014-11-16T20:38:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-28"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-29",
+      "title": "Dedicated to a Muse, I LOVE YOU",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 29,
+      "createdAt": "2014-11-16T20:38:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-29"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-30",
+      "title": "Halloween Mix Decor is Love Concerto",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 30,
+      "createdAt": "2014-11-16T20:38:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-30"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-31",
+      "title": "Cheer! Yeah!x2, Let Your Dreams Blossom!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 31,
+      "createdAt": "2014-11-16T20:38:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-31"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-32",
+      "title": "Win! The Essence of the Prism Heart",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 32,
+      "createdAt": "2014-11-16T20:38:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-32"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-33",
+      "title": "Paku Paku Restaurant of Love",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 33,
+      "createdAt": "2014-11-16T20:38:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-33"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-34",
+      "title": "Dance Teacher, Dance",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 34,
+      "createdAt": "2014-11-16T20:38:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-34"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-35",
+      "title": "So Min's Heart-Throbbing Heartbreak",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 35,
+      "createdAt": "2014-11-16T20:38:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-35"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-36",
+      "title": "Maiden Contest of Road to Symphonia.",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 36,
+      "createdAt": "2014-11-16T20:38:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-36"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-37",
+      "title": "Aira's Decision",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 37,
+      "createdAt": "2014-11-16T20:38:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-37"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-38",
+      "title": "Metamorphosis of Dream and Mystery",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 38,
+      "createdAt": "2014-11-16T20:38:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-38"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-39",
+      "title": "Captive Princess",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 39,
+      "createdAt": "2014-11-16T20:38:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-39"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-40",
+      "title": "Secret of the Birth of Symphonia",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 40,
+      "createdAt": "2014-11-16T20:38:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-40"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-41",
+      "title": "Pretty Remake of Friendship",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 41,
+      "createdAt": "2014-11-16T20:38:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-41"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-42",
+      "title": "Go! Sky High to the End of the Universe",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 42,
+      "createdAt": "2014-11-16T20:38:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-42"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-43",
+      "title": "Stand up, Star!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 43,
+      "createdAt": "2014-11-16T20:38:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-43"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-44",
+      "title": "Passion Revolution",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 44,
+      "createdAt": "2014-11-16T20:38:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-44"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-45",
+      "title": "The Prelude of the Starry Skies",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 45,
+      "createdAt": "2014-11-16T20:38:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-45"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-46",
+      "title": "Aim for the Center! Rivals Are Friends?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 46,
+      "createdAt": "2014-11-16T20:38:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-46"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-47",
+      "title": "Mia Selfish Unprecedented Uproar Canceled at the Last Minute",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 47,
+      "createdAt": "2014-11-16T20:38:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-47"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-48",
+      "title": "Curtain! Grateful Symphonia",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 48,
+      "createdAt": "2014-11-16T20:38:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-48"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-49",
+      "title": "Tomorrow Will Be Lost",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 49,
+      "createdAt": "2014-11-16T20:38:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-49"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-50",
+      "title": "My Future is Number One!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 50,
+      "createdAt": "2014-11-16T20:38:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-50"
+    },
+    {
+      "id": "pretty-rhythm-dear-my-future-episode-51",
+      "title": "Dear My Future",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12863-YerEY4cnzlfl.png",
+      "number": 51,
+      "createdAt": "2014-11-16T20:38:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//pretty-rhythm-dear-my-future-episode-51"
+    }
+  ]
+}

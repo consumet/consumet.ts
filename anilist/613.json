@@ -1,0 +1,828 @@
+{
+  "id": "613",
+  "title": {
+    "romaji": "Onmyou Tai Senki",
+    "english": null,
+    "native": "陰陽大戦記"
+  },
+  "malId": 613,
+  "synonyms": [
+    "Onmyou Taisenki",
+    "The Chronicle of the Big Battle between Yin and Yang"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+  "popularity": 977,
+  "color": "#e45035",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+  "description": "All his life, Riku Tachibana has been raised by his grandfather. For some reason, the old man has always been fond of strange hand gestures, and they've rubbed off on Riku, who performs them almost subconsciously, to his classmates' great amusement. One day, however, it suddenly becomes clear to Riku what his grandfather has been surreptitiously teaching him. And the teachings could mean the difference between life and death for Riku.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2004,
+  "startDate": {
+    "year": 2004,
+    "month": 11,
+    "day": 30
+  },
+  "endDate": {
+    "year": 2005,
+    "month": 11,
+    "day": 29
+  },
+  "totalEpisodes": 52,
+  "currentEpisode": 52,
+  "rating": 59,
+  "duration": 23,
+  "genres": [
+    "Adventure",
+    "Fantasy",
+    "Supernatural"
+  ],
+  "season": "FALL",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 2786,
+      "malId": 2786,
+      "title": {
+        "romaji": "Bakegyamon",
+        "english": null,
+        "native": "妖逆門",
+        "userPreferred": "Bakegyamon"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2786.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2786.jpg",
+      "rating": 59,
+      "type": "TV"
+    },
+    {
+      "id": 1557,
+      "malId": 1557,
+      "title": {
+        "romaji": "Shounen Onmyouji",
+        "english": "Shonen Onmyoji",
+        "native": "少年陰陽師",
+        "userPreferred": "Shounen Onmyouji"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1557-l3d9C5xr1BAC.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1557-Uz7TdjrwpQ2Q.jpg",
+      "rating": 69,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 3580,
+      "role": "MAIN",
+      "name": {
+        "first": "Riku",
+        "last": "Tachibana",
+        "full": "Riku Tachibana",
+        "native": "太刀花リク",
+        "userPreferred": "Riku Tachibana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3580.jpg",
+      "voiceActors": [
+        {
+          "id": 95086,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukuyama",
+            "full": "Jun Fukuyama",
+            "native": "福山潤",
+            "userPreferred": "Jun Fukuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95086-cwKYmhOFNtH5.png"
+        },
+        {
+          "id": 109755,
+          "language": "Korean",
+          "name": {
+            "first": "Jeong-Hwa",
+            "last": "Yang",
+            "full": "Jeong-Hwa Yang",
+            "native": "정화 양",
+            "userPreferred": "Jeong-Hwa Yang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14755.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3579,
+      "role": "MAIN",
+      "name": {
+        "first": "Yakumo",
+        "last": "Yoshikawa",
+        "full": "Yakumo Yoshikawa",
+        "native": "吉川ヤクモ",
+        "userPreferred": "Yakumo Yoshikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3579.jpg",
+      "voiceActors": [
+        {
+          "id": 95205,
+          "language": "Japanese",
+          "name": {
+            "first": "Masakazu",
+            "last": "Morita",
+            "full": "Masakazu Morita",
+            "native": "森田成一",
+            "userPreferred": "Masakazu Morita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95205-5P3tKe3eTG9n.jpg"
+        },
+        {
+          "id": 109777,
+          "language": "Korean",
+          "name": {
+            "first": "Sang-Hyeon",
+            "last": "Eom",
+            "full": "Sang-Hyeon Eom",
+            "native": "엄상현",
+            "userPreferred": "Sang-Hyeon Eom"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14777.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3581,
+      "role": "MAIN",
+      "name": {
+        "first": "Masaomi",
+        "last": "Oogami",
+        "full": "Masaomi Oogami",
+        "native": "大神マサオミ",
+        "userPreferred": "Masaomi Oogami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3581.jpg",
+      "voiceActors": [
+        {
+          "id": 95737,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuma",
+            "last": "Takewaka",
+            "full": "Takuma Takewaka",
+            "native": "竹若拓磨",
+            "userPreferred": "Takuma Takewaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95737-09geFhaEL9OB.png"
+        },
+        {
+          "id": 109781,
+          "language": "Korean",
+          "name": {
+            "first": "Ja hyeong",
+            "last": "Gu",
+            "full": "Ja hyeong Gu",
+            "native": "자형 구",
+            "userPreferred": "Ja hyeong Gu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14781.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3605,
+      "role": "MAIN",
+      "name": {
+        "first": "Kogenta",
+        "last": null,
+        "full": "Kogenta",
+        "native": "コゲンタ",
+        "userPreferred": "Kogenta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3605.jpg",
+      "voiceActors": [
+        {
+          "id": 95808,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Aida",
+            "full": "Sayaka Aida",
+            "native": "さやか 相田",
+            "userPreferred": "Sayaka Aida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95808-hJlq6DiK0DqZ.png"
+        }
+      ]
+    },
+    {
+      "id": 34330,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuuma",
+        "last": "Asuka",
+        "full": "Yuuma Asuka",
+        "native": "飛鳥 ソーマ",
+        "userPreferred": "Yuuma Asuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34330.jpg",
+      "voiceActors": [
+        {
+          "id": 105446,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisafumi",
+            "last": "Oda",
+            "full": "Hisafumi Oda",
+            "native": "小田久史",
+            "userPreferred": "Hisafumi Oda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105446-rsh3opbT9EQf.jpg"
+        },
+        {
+          "id": 101499,
+          "language": "Korean",
+          "name": {
+            "first": "Yeong-seon",
+            "last": "Kim",
+            "full": "Yeong-seon Kim",
+            "native": "김영선",
+            "userPreferred": "Yeong-seon Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101499-aHFkv5mYhE5m.png"
+        }
+      ]
+    },
+    {
+      "id": 42991,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hayate",
+        "last": "Takamiya",
+        "full": "Hayate Takamiya",
+        "native": "鷹宮ハヤテ",
+        "userPreferred": "Hayate Takamiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42991.jpg",
+      "voiceActors": [
+        {
+          "id": 95123,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuya",
+            "last": "Nakai",
+            "full": "Kazuya Nakai",
+            "native": "中井和哉",
+            "userPreferred": "Kazuya Nakai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95123-qdVFNraYmQ5K.png"
+        }
+      ]
+    },
+    {
+      "id": 30497,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Momo",
+        "last": "Jouzenji",
+        "full": "Momo Jouzenji",
+        "native": "上善寺モモ",
+        "userPreferred": "Momo Jouzenji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30497.jpg",
+      "voiceActors": [
+        {
+          "id": 95140,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukana",
+            "last": "",
+            "full": "Yukana",
+            "native": "ゆかな",
+            "userPreferred": "Yukana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95140-sFp0uedEmZ9f.png"
+        }
+      ]
+    },
+    {
+      "id": 30381,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kibachiyo",
+        "last": null,
+        "full": "Kibachiyo",
+        "native": "青龍のキバチヨ",
+        "userPreferred": "Kibachiyo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30381.jpg",
+      "voiceActors": [
+        {
+          "id": 95756,
+          "language": "Japanese",
+          "name": {
+            "first": "Anri",
+            "last": "Katsu",
+            "full": "Anri Katsu",
+            "native": "勝杏里",
+            "userPreferred": "Anri Katsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95756-MmmuyQK4Thzl.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 31212,
+      "relationType": "ADAPTATION",
+      "malId": 1212,
+      "title": {
+        "romaji": "Onmyou Taisenki",
+        "english": null,
+        "native": "陰陽大戦記",
+        "userPreferred": "Onmyou Taisenki"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/1212.jpg",
+      "color": "#e4ae5d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/1212.jpg",
+      "rating": 77
+    }
+  ],
+  "episodes": [
+    {
+      "id": "onmyou-taisenki-episode-1",
+      "title": "Koujin! Byakko no Kogenta",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:47:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-1"
+    },
+    {
+      "id": "onmyou-taisenki-episode-2",
+      "title": "Attack of the Chi-ryū",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:47:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-2"
+    },
+    {
+      "id": "onmyou-taisenki-episode-3",
+      "title": "Clash of the Byakko",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:47:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-3"
+    },
+    {
+      "id": "onmyou-taisenki-episode-4",
+      "title": "Strength of the Sword! Saikaidō Kotetsu",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:47:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-4"
+    },
+    {
+      "id": "onmyou-taisenki-episode-5",
+      "title": "Fight Between Dragons and Tigers",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:47:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-5"
+    },
+    {
+      "id": "onmyou-taisenki-episode-6",
+      "title": "Dance! Toujinfu",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:47:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-6"
+    },
+    {
+      "id": "onmyou-taisenki-episode-7",
+      "title": "Invoke! Wave-Cutting Blade",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:47:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-7"
+    },
+    {
+      "id": "onmyou-taisenki-episode-8",
+      "title": "Yumma and Souma",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:47:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-8"
+    },
+    {
+      "id": "onmyou-taisenki-episode-9",
+      "title": "The Fighting Heart",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:47:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-9"
+    },
+    {
+      "id": "onmyou-taisenki-episode-10",
+      "title": "Battle at the Mysterious Ancient Capital",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:47:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-10"
+    },
+    {
+      "id": "onmyou-taisenki-episode-11",
+      "title": "Secret of The Ten-ryū Ruins",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:47:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-11"
+    },
+    {
+      "id": "onmyou-taisenki-episode-12",
+      "title": "Heaven and Earth Shock - Daikoujin",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:47:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-12"
+    },
+    {
+      "id": "onmyou-taisenki-episode-13",
+      "title": "The Bond Between Two People",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:47:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-13"
+    },
+    {
+      "id": "onmyou-taisenki-episode-14",
+      "title": "Fukumaden Invasion",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 14,
+      "createdAt": "2014-11-16T20:47:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-14"
+    },
+    {
+      "id": "onmyou-taisenki-episode-15",
+      "title": "Kimon Escape",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 15,
+      "createdAt": "2014-11-16T20:47:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-15"
+    },
+    {
+      "id": "onmyou-taisenki-episode-16",
+      "title": "Return of the Assassin",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 16,
+      "createdAt": "2014-11-16T20:47:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-16"
+    },
+    {
+      "id": "onmyou-taisenki-episode-17",
+      "title": "Byakko's Great Underwater Decisive Battle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 17,
+      "createdAt": "2014-11-16T20:47:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-17"
+    },
+    {
+      "id": "onmyou-taisenki-episode-18",
+      "title": "The Sealed Fortress",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 18,
+      "createdAt": "2014-11-16T20:47:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-18"
+    },
+    {
+      "id": "onmyou-taisenki-episode-19",
+      "title": "Fight to The Death at The Secret Hot Spring",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 19,
+      "createdAt": "2014-11-16T20:47:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-19"
+    },
+    {
+      "id": "onmyou-taisenki-episode-20",
+      "title": "The Terrifying Daikōjin",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 20,
+      "createdAt": "2014-11-16T20:47:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-20"
+    },
+    {
+      "id": "onmyou-taisenki-episode-21",
+      "title": "And His Name Is Yakumo",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 21,
+      "createdAt": "2014-11-16T20:47:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-21"
+    },
+    {
+      "id": "onmyou-taisenki-episode-22",
+      "title": "The Seal Engraved on the Heart",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 22,
+      "createdAt": "2014-11-16T20:47:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-22"
+    },
+    {
+      "id": "onmyou-taisenki-episode-23",
+      "title": "Byakko Disappears",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 23,
+      "createdAt": "2014-11-16T20:47:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-23"
+    },
+    {
+      "id": "onmyou-taisenki-episode-24",
+      "title": "The Past, Once Again",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 24,
+      "createdAt": "2014-11-16T20:47:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-24"
+    },
+    {
+      "id": "onmyou-taisenki-episode-25",
+      "title": "Unsealed, The Zero Drive",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 25,
+      "createdAt": "2014-11-16T20:47:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-25"
+    },
+    {
+      "id": "onmyou-taisenki-episode-26",
+      "title": "Daikimon Opened",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 26,
+      "createdAt": "2014-11-16T20:47:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-26"
+    },
+    {
+      "id": "onmyou-taisenki-episode-27",
+      "title": "End of the Season Madness",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 27,
+      "createdAt": "2014-11-16T20:47:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-27"
+    },
+    {
+      "id": "onmyou-taisenki-episode-28",
+      "title": "Quickening of the Seal",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 28,
+      "createdAt": "2014-11-16T20:47:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-28"
+    },
+    {
+      "id": "onmyou-taisenki-episode-29",
+      "title": "Invitation to Enemy Territory",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 29,
+      "createdAt": "2014-11-16T20:47:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-29"
+    },
+    {
+      "id": "onmyou-taisenki-episode-30",
+      "title": "A Man Racing to the 4 Kimon",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 30,
+      "createdAt": "2014-11-16T20:47:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-30"
+    },
+    {
+      "id": "onmyou-taisenki-episode-31",
+      "title": "Built-up Emotions",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 31,
+      "createdAt": "2014-11-16T20:47:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-31"
+    },
+    {
+      "id": "onmyou-taisenki-episode-32",
+      "title": "Gold Rush at the Beach",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 32,
+      "createdAt": "2014-11-16T20:47:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-32"
+    },
+    {
+      "id": "onmyou-taisenki-episode-33",
+      "title": "A Reunion That Transcends Time",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 33,
+      "createdAt": "2014-11-16T20:47:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-33"
+    },
+    {
+      "id": "onmyou-taisenki-episode-34",
+      "title": "Dragon and Tiger, Again",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 34,
+      "createdAt": "2014-11-16T20:47:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-34"
+    },
+    {
+      "id": "onmyou-taisenki-episode-35",
+      "title": "The Price of Power",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 35,
+      "createdAt": "2014-11-16T20:47:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-35"
+    },
+    {
+      "id": "onmyou-taisenki-episode-36",
+      "title": "Stray Shikigami Koroku's Ordeal",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 36,
+      "createdAt": "2014-11-16T20:47:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-36"
+    },
+    {
+      "id": "onmyou-taisenki-episode-37",
+      "title": "Broken Trust",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 37,
+      "createdAt": "2014-11-16T20:47:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-37"
+    },
+    {
+      "id": "onmyou-taisenki-episode-38",
+      "title": "Falling Stars Of Calamity",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 38,
+      "createdAt": "2014-11-16T20:47:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-38"
+    },
+    {
+      "id": "onmyou-taisenki-episode-39",
+      "title": "Climatic Battle!  Ten and Chi",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 39,
+      "createdAt": "2014-11-16T20:47:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-39"
+    },
+    {
+      "id": "onmyou-taisenki-episode-40",
+      "title": "Master Drive, Byakko Reborn",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 40,
+      "createdAt": "2014-11-16T20:47:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-40"
+    },
+    {
+      "id": "onmyou-taisenki-episode-41",
+      "title": "Utsuho Revives",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 41,
+      "createdAt": "2014-11-16T20:47:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-41"
+    },
+    {
+      "id": "onmyou-taisenki-episode-42",
+      "title": "Awakening of the Blue",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 42,
+      "createdAt": "2014-11-16T20:47:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-42"
+    },
+    {
+      "id": "onmyou-taisenki-episode-43",
+      "title": "Dirtied Savior",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 43,
+      "createdAt": "2014-11-16T20:47:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-43"
+    },
+    {
+      "id": "onmyou-taisenki-episode-44",
+      "title": "Red Trap",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 44,
+      "createdAt": "2014-11-16T20:47:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-44"
+    },
+    {
+      "id": "onmyou-taisenki-episode-45",
+      "title": "Burn Up!  Souma",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 45,
+      "createdAt": "2014-11-16T20:47:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-45"
+    },
+    {
+      "id": "onmyou-taisenki-episode-46",
+      "title": "Farewell, Yakumo",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 46,
+      "createdAt": "2014-11-16T20:47:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-46"
+    },
+    {
+      "id": "onmyou-taisenki-episode-47",
+      "title": "Fierce Attack of the Yondaiten",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 47,
+      "createdAt": "2014-11-16T20:47:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-47"
+    },
+    {
+      "id": "onmyou-taisenki-episode-48",
+      "title": "Qualifications to Be the Head",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 48,
+      "createdAt": "2014-11-16T20:47:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-48"
+    },
+    {
+      "id": "onmyou-taisenki-episode-49",
+      "title": "The End of a Dream",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 49,
+      "createdAt": "2014-11-16T20:47:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-49"
+    },
+    {
+      "id": "onmyou-taisenki-episode-50",
+      "title": "With Our Bonds At Stake",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 50,
+      "createdAt": "2014-11-16T20:47:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-50"
+    },
+    {
+      "id": "onmyou-taisenki-episode-51",
+      "title": "Demise of the Taikyoku",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 51,
+      "createdAt": "2014-11-16T20:47:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-51"
+    },
+    {
+      "id": "onmyou-taisenki-episode-52",
+      "title": "Among The Passing Seasons",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/613.jpg",
+      "number": 52,
+      "createdAt": "2014-11-16T20:47:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//onmyou-taisenki-episode-52"
+    }
+  ]
+}

@@ -1,0 +1,807 @@
+{
+  "id": "4618",
+  "title": {
+    "romaji": "RideBack",
+    "english": "RideBack",
+    "native": "ライドバック"
+  },
+  "malId": 4618,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4618-vkqtWWfcW3ey.png",
+  "popularity": 7143,
+  "color": "#e45d35",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n4618-jqtoAF56ueye.jpg",
+  "description": "After ex-dancer Rin trades her stage career for college life, she forms an unusual connection with a robotic RideBack motorcycle—Fuego. As a tyrannical new government oppresses the population and crushes civil liberties, Rin may have no choice but to gun Fuego’s engines and speed directly into the heart of the fight for freedom.<br><br>\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2009,
+  "startDate": {
+    "year": 2009,
+    "month": 1,
+    "day": 12
+  },
+  "endDate": {
+    "year": 2009,
+    "month": 3,
+    "day": 30
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 67,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Drama",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "MADHOUSE"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 857,
+      "malId": 857,
+      "title": {
+        "romaji": "Air Gear",
+        "english": "Air Gear",
+        "native": "エア・ギア",
+        "userPreferred": "Air Gear"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b857-0pbF6kMJpUeL.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/857-1N95wHWuA5gk.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 10780,
+      "malId": 10780,
+      "title": {
+        "romaji": "DEAD HEAT",
+        "english": null,
+        "native": "DEAD HEAT",
+        "userPreferred": "DEAD HEAT"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10780-U6Bf9y7v9BEK.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n10780-AouVTDlBj642.jpg",
+      "rating": 49,
+      "type": "OVA"
+    },
+    {
+      "id": 124153,
+      "malId": 42923,
+      "title": {
+        "romaji": "SK∞",
+        "english": "SK8 the Infinity",
+        "native": "SK∞ エスケーエイト",
+        "userPreferred": "SK∞"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124153-Gieu6QnICXj1.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/124153-tEEm1Zaoqa58.jpg",
+      "rating": 79,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 18800,
+      "role": "MAIN",
+      "name": {
+        "first": "Rin",
+        "last": "Ogata",
+        "full": "Rin Ogata",
+        "native": "尾形琳",
+        "userPreferred": "Rin Ogata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18800.jpg",
+      "voiceActors": [
+        {
+          "id": 95081,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Mizuki",
+            "full": "Nana Mizuki",
+            "native": "水樹奈々",
+            "userPreferred": "Nana Mizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95081-qto4UanYkpQT.png"
+        },
+        {
+          "id": 104526,
+          "language": "English",
+          "name": {
+            "first": "Tia",
+            "last": "Ballard",
+            "full": "Tia Ballard",
+            "native": null,
+            "userPreferred": "Tia Ballard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9526.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18802,
+      "role": "MAIN",
+      "name": {
+        "first": "Tamayo",
+        "last": "Kataoka",
+        "full": "Tamayo Kataoka",
+        "native": "片岡珠代",
+        "userPreferred": "Tamayo Kataoka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18802.jpg",
+      "voiceActors": [
+        {
+          "id": 95082,
+          "language": "Japanese",
+          "name": {
+            "first": "Romi",
+            "last": "Park",
+            "full": "Romi Park",
+            "native": "朴璐美",
+            "userPreferred": "Romi Park"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95082-pNGbnYv4cHAK.png"
+        },
+        {
+          "id": 95475,
+          "language": "English",
+          "name": {
+            "first": "Stephanie",
+            "last": "Young",
+            "full": "Stephanie Young",
+            "native": null,
+            "userPreferred": "Stephanie Young"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95475-QV9KFgsYrsPb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18804,
+      "role": "MAIN",
+      "name": {
+        "first": "Tenshirou",
+        "last": "Okakura",
+        "full": "Tenshirou Okakura",
+        "native": null,
+        "userPreferred": "Tenshirou Okakura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18804.jpg",
+      "voiceActors": [
+        {
+          "id": 95113,
+          "language": "Japanese",
+          "name": {
+            "first": "Rikiya",
+            "last": "Koyama",
+            "full": "Rikiya Koyama",
+            "native": "小山力也",
+            "userPreferred": "Rikiya Koyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95113-z9eyYjTKSTX4.png"
+        },
+        {
+          "id": 102151,
+          "language": "English",
+          "name": {
+            "first": "Bryan",
+            "last": "Massey",
+            "full": "Bryan Massey",
+            "native": null,
+            "userPreferred": "Bryan Massey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7151.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18813,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kiefer",
+        "last": null,
+        "full": "Kiefer",
+        "native": null,
+        "userPreferred": "Kiefer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18813.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        },
+        {
+          "id": 95666,
+          "language": "English",
+          "name": {
+            "first": "Robert",
+            "last": "McCollum",
+            "full": "Robert McCollum",
+            "native": null,
+            "userPreferred": "Robert McCollum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95666-er3JLtqV1TLy.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18811,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Megumi",
+        "last": "Yoda",
+        "full": "Megumi Yoda",
+        "native": null,
+        "userPreferred": "Megumi Yoda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18811.jpg",
+      "voiceActors": [
+        {
+          "id": 95149,
+          "language": "Japanese",
+          "name": {
+            "first": "Sanae",
+            "last": "Kobayashi",
+            "full": "Sanae Kobayashi",
+            "native": "小林沙苗",
+            "userPreferred": "Sanae Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95149-xNDmN92Feq8y.png"
+        },
+        {
+          "id": 104091,
+          "language": "English",
+          "name": {
+            "first": "Alexis",
+            "last": "Tipton",
+            "full": "Alexis Tipton",
+            "native": null,
+            "userPreferred": "Alexis Tipton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104091-OZpJbFWFwnvV.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18806,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nanpuu",
+        "last": "Kataoka",
+        "full": "Nanpuu Kataoka",
+        "native": null,
+        "userPreferred": "Nanpuu Kataoka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18806.jpg",
+      "voiceActors": [
+        {
+          "id": 95018,
+          "language": "Japanese",
+          "name": {
+            "first": "Hidekatsu",
+            "last": "Shibata",
+            "full": "Hidekatsu Shibata",
+            "native": "柴田秀勝",
+            "userPreferred": "Hidekatsu Shibata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95018-HXJMMED74SVO.png"
+        },
+        {
+          "id": 111743,
+          "language": "English",
+          "name": {
+            "first": "T.A.",
+            "last": "Taylor",
+            "full": "T.A. Taylor",
+            "native": null,
+            "userPreferred": "T.A. Taylor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111743-j1fRpttppIQF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18807,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryuunosuke",
+        "last": "Kataoka",
+        "full": "Ryuunosuke Kataoka",
+        "native": null,
+        "userPreferred": "Ryuunosuke Kataoka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18807.jpg",
+      "voiceActors": [
+        {
+          "id": 95174,
+          "language": "Japanese",
+          "name": {
+            "first": "Hidenobu",
+            "last": "Kiuchi",
+            "full": "Hidenobu Kiuchi",
+            "native": "木内秀信",
+            "userPreferred": "Hidenobu Kiuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95174-yTsadXRKchp7.png"
+        },
+        {
+          "id": 96602,
+          "language": "English",
+          "name": {
+            "first": "J. Michael",
+            "last": "Tatum",
+            "full": "J. Michael Tatum",
+            "native": "John Michael Tatum",
+            "userPreferred": "J. Michael Tatum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96602-ztTfuo3nzu5t.png"
+        }
+      ]
+    },
+    {
+      "id": 18812,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Romanof",
+        "last": "Karenbak",
+        "full": "Romanof Karenbak",
+        "native": null,
+        "userPreferred": "Romanof Karenbak"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18812.jpg",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        },
+        {
+          "id": 95039,
+          "language": "English",
+          "name": {
+            "first": "Jason",
+            "last": "Douglas",
+            "full": "Jason Douglas",
+            "native": null,
+            "userPreferred": "Jason Douglas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95039-F0UuxfqLslls.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18810,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Misao",
+        "last": "Yokoyama",
+        "full": "Misao Yokoyama",
+        "native": null,
+        "userPreferred": "Misao Yokoyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95215,
+          "language": "Japanese",
+          "name": {
+            "first": "Risa",
+            "last": "Hayamizu",
+            "full": "Risa Hayamizu",
+            "native": "早水リサ",
+            "userPreferred": "Risa Hayamizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95215-CvyYAqsZaaaK.png"
+        },
+        {
+          "id": 95476,
+          "language": "English",
+          "name": {
+            "first": "Jennifer",
+            "last": "Seman",
+            "full": "Jennifer Seman",
+            "native": null,
+            "userPreferred": "Jennifer Seman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/476.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18803,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haruki",
+        "last": "Hishida",
+        "full": "Haruki Hishida",
+        "native": "菱田春樹",
+        "userPreferred": "Haruki Hishida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18803.jpg",
+      "voiceActors": [
+        {
+          "id": 95058,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Ueda",
+            "full": "Yuuji Ueda",
+            "native": "うえだゆうじ",
+            "userPreferred": "Yuuji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95058-fGnId7E4tgx3.jpg"
+        },
+        {
+          "id": 103686,
+          "language": "English",
+          "name": {
+            "first": "Micah",
+            "last": "Solusod",
+            "full": "Micah Solusod",
+            "native": null,
+            "userPreferred": "Micah Solusod"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8686.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39351,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kenji",
+        "last": "Ogata",
+        "full": "Kenji Ogata",
+        "native": "尾形堅司",
+        "userPreferred": "Kenji Ogata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39351.jpg",
+      "voiceActors": [
+        {
+          "id": 95456,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuma",
+            "last": "Horie",
+            "full": "Kazuma Horie",
+            "native": "堀江一眞",
+            "userPreferred": "Kazuma Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95456-a2LdFNUAoJS3.png"
+        },
+        {
+          "id": 96047,
+          "language": "English",
+          "name": {
+            "first": "Jessie James",
+            "last": "Grelle",
+            "full": "Jessie James Grelle",
+            "native": null,
+            "userPreferred": "Jessie James Grelle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96047-E9nBWn3YL0Tn.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18805,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Douta",
+        "last": "Kawai",
+        "full": "Douta Kawai",
+        "native": null,
+        "userPreferred": "Douta Kawai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18805.jpg",
+      "voiceActors": [
+        {
+          "id": 95583,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Suyama",
+            "full": "Akio Suyama",
+            "native": "章央陶山",
+            "userPreferred": "Akio Suyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95583-pcq7rkDjxRTl.jpg"
+        },
+        {
+          "id": 103060,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Burnett",
+            "full": "Chris Burnett",
+            "native": null,
+            "userPreferred": "Chris Burnett"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103060-hdVm0NPURbMl.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18809,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuki",
+        "last": "Ogata",
+        "full": "Yuki Ogata",
+        "native": null,
+        "userPreferred": "Yuki Ogata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18809.jpg",
+      "voiceActors": [
+        {
+          "id": 95602,
+          "language": "Japanese",
+          "name": {
+            "first": "Mie",
+            "last": "Sonozaki",
+            "full": "Mie Sonozaki",
+            "native": "園崎未恵",
+            "userPreferred": "Mie Sonozaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95602-kU7d6TvluxWB.jpg"
+        },
+        {
+          "id": 95859,
+          "language": "English",
+          "name": {
+            "first": "Leah",
+            "last": "Clark",
+            "full": "Leah Clark",
+            "native": null,
+            "userPreferred": "Leah Clark"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/859.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18808,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Suzuri",
+        "last": "Uchida",
+        "full": "Suzuri Uchida",
+        "native": null,
+        "userPreferred": "Suzuri Uchida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18808.jpg",
+      "voiceActors": [
+        {
+          "id": 95630,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Matsumoto",
+            "full": "Megumi Matsumoto",
+            "native": "松元惠",
+            "userPreferred": "Megumi Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/630.jpg"
+        },
+        {
+          "id": 96804,
+          "language": "English",
+          "name": {
+            "first": "Trina",
+            "last": "Nishimura",
+            "full": "Trina Nishimura",
+            "native": null,
+            "userPreferred": "Trina Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96804-0OKQgacznkZ4.png"
+        }
+      ]
+    },
+    {
+      "id": 18801,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shouko",
+        "last": "Uemura",
+        "full": "Shouko Uemura",
+        "native": "上村しょう子",
+        "userPreferred": "Shouko Uemura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18801.jpg",
+      "voiceActors": [
+        {
+          "id": 95144,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Toyoguchi",
+            "full": "Megumi Toyoguchi",
+            "native": "豊口めぐみ",
+            "userPreferred": "Megumi Toyoguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95144-9Y8CtDVmxogE.jpg"
+        },
+        {
+          "id": 105943,
+          "language": "English",
+          "name": {
+            "first": "Kristi",
+            "last": "Kang",
+            "full": "Kristi Kang",
+            "native": null,
+            "userPreferred": "Kristi Kang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10943.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 38398,
+      "relationType": "ADAPTATION",
+      "malId": 8398,
+      "title": {
+        "romaji": "RideBack",
+        "english": "Ride Back",
+        "native": "ライドバック",
+        "userPreferred": "RideBack"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx38398-tB3zxG3oJHCO.jpg",
+      "color": "#f16b43",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/38398-aOtfAuj4q9j8.jpg",
+      "rating": 68
+    }
+  ],
+  "episodes": [
+    {
+      "id": "rideback-episode-1",
+      "title": "The Crimson Iron Horse",
+      "image": "https://media.kitsu.io/episodes/thumbnails/61347/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:25:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rideback-episode-1"
+    },
+    {
+      "id": "rideback-episode-2",
+      "title": "Challenge from Tamayo!? S.L.F - Spread Legs Form",
+      "image": "https://media.kitsu.io/episodes/thumbnails/61348/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:25:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rideback-episode-2"
+    },
+    {
+      "id": "rideback-episode-3",
+      "title": "And There's the Flag",
+      "image": "https://media.kitsu.io/episodes/thumbnails/61349/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:25:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rideback-episode-3"
+    },
+    {
+      "id": "rideback-episode-4",
+      "title": "A Close Call for Shoko",
+      "image": "https://media.kitsu.io/episodes/thumbnails/61350/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:25:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rideback-episode-4"
+    },
+    {
+      "id": "rideback-episode-5",
+      "title": "The Mysterious RideBack Girl",
+      "image": "https://media.kitsu.io/episodes/thumbnails/61351/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:25:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rideback-episode-5"
+    },
+    {
+      "id": "rideback-episode-6",
+      "title": "The Lightning-Fast RideBack",
+      "image": "https://media.kitsu.io/episodes/thumbnails/61352/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:25:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rideback-episode-6"
+    },
+    {
+      "id": "rideback-episode-7",
+      "title": "Crime and Punishment",
+      "image": "https://media.kitsu.io/episodes/thumbnails/61353/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:25:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rideback-episode-7"
+    },
+    {
+      "id": "rideback-episode-8",
+      "title": "Get Ride! The Chosen One",
+      "image": "https://media.kitsu.io/episodes/thumbnails/61354/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:25:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rideback-episode-8"
+    },
+    {
+      "id": "rideback-episode-9",
+      "title": "In the Sunny Garden",
+      "image": "https://media.kitsu.io/episodes/thumbnails/61355/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:25:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rideback-episode-9"
+    },
+    {
+      "id": "rideback-episode-10",
+      "title": "Master of the War",
+      "image": "https://media.kitsu.io/episodes/thumbnails/61356/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:25:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rideback-episode-10"
+    },
+    {
+      "id": "rideback-episode-11",
+      "title": "Cloudy Followed by Occasional Rain...",
+      "image": "https://media.kitsu.io/episodes/thumbnails/61357/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:25:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rideback-episode-11"
+    },
+    {
+      "id": "rideback-episode-12",
+      "title": "To the Stage of Light",
+      "image": "https://media.kitsu.io/episodes/thumbnails/61358/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:25:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//rideback-episode-12"
+    },
+    {
+      "id": "rideback-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4618-vkqtWWfcW3ey.png",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//rideback-episode-13"
+    }
+  ]
+}

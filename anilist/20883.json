@@ -1,0 +1,445 @@
+{
+  "id": "20883",
+  "title": {
+    "romaji": "Madan no Ou to Vanadis: Tigre-kun to Vanadi-chu",
+    "english": null,
+    "native": "ティグルくんとヴァナディーちゅ"
+  },
+  "malId": 27857,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20883.jpg",
+  "popularity": 3154,
+  "color": "#e44378",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20883.jpg",
+  "description": "Short Flash specials streamed alongside with the series.",
+  "status": "Completed",
+  "releaseDate": 2014,
+  "startDate": {
+    "year": 2014,
+    "month": 10,
+    "day": 5
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 1,
+    "day": 6
+  },
+  "totalEpisodes": 14,
+  "currentEpisode": 14,
+  "rating": 61,
+  "duration": 2,
+  "genres": [
+    "Comedy"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Studio PuYUKAI"
+  ],
+  "subOrDub": "sub",
+  "type": "SPECIAL",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 82347,
+      "role": "MAIN",
+      "name": {
+        "first": "Tigrevurmund",
+        "last": "Vorn",
+        "full": "Tigrevurmund Vorn",
+        "native": "ティグルヴルムド＝ヴォルン",
+        "userPreferred": "Tigrevurmund Vorn"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b82347-O3H6VFs8D8bG.png",
+      "voiceActors": [
+        {
+          "id": 115156,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaito",
+            "last": "Ishikawa",
+            "full": "Kaito Ishikawa",
+            "native": "石川界人",
+            "userPreferred": "Kaito Ishikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115156-ngYfqBazlxYQ.png"
+        }
+      ]
+    },
+    {
+      "id": 77207,
+      "role": "MAIN",
+      "name": {
+        "first": "Eleanora",
+        "last": "Viltaria",
+        "full": "Eleanora Viltaria",
+        "native": "エレオノーラ＝ヴィルターリア",
+        "userPreferred": "Eleanora Viltaria"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b77207-N3H8UXD8Vqcy.png",
+      "voiceActors": [
+        {
+          "id": 95890,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Tomatsu",
+            "full": "Haruka Tomatsu",
+            "native": "戸松遥",
+            "userPreferred": "Haruka Tomatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95890-pDWHkOm4ncq0.png"
+        }
+      ]
+    },
+    {
+      "id": 82325,
+      "role": "MAIN",
+      "name": {
+        "first": "Limlisha",
+        "last": null,
+        "full": "Limlisha",
+        "native": "リムアリーシャ",
+        "userPreferred": "Limlisha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b82325-kF8DQ0oFccBt.png",
+      "voiceActors": [
+        {
+          "id": 95885,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Iguchi",
+            "full": "Yuka Iguchi",
+            "native": "井口裕香",
+            "userPreferred": "Yuka Iguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95885-8Le2NWyACKNt.png"
+        }
+      ]
+    },
+    {
+      "id": 82329,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Regin",
+        "last": null,
+        "full": "Regin",
+        "native": "レギン",
+        "userPreferred": "Regin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/82329-uXsVnhk4xa4i.png",
+      "voiceActors": [
+        {
+          "id": 106162,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukiyo",
+            "last": "Fujii",
+            "full": "Yukiyo Fujii",
+            "native": "藤井ゆきよ",
+            "userPreferred": "Yukiyo Fujii"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106162-k7Jn7QGysSFk.png"
+        }
+      ]
+    },
+    {
+      "id": 180306,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rurick",
+        "last": null,
+        "full": "Rurick",
+        "native": "ルーリック",
+        "userPreferred": "Rurick"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b180306-nhV7mmjobDBE.png",
+      "voiceActors": [
+        {
+          "id": 102288,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuyuki",
+            "last": "Okitsu",
+            "full": "Kazuyuki Okitsu",
+            "native": "興津和幸",
+            "userPreferred": "Kazuyuki Okitsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102288-xqcBKreDyZYN.png"
+        }
+      ]
+    },
+    {
+      "id": 82327,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Titta",
+        "last": null,
+        "full": "Titta",
+        "native": "ティッタ",
+        "userPreferred": "Titta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/82327-91Js4eqsLjUO.png",
+      "voiceActors": [
+        {
+          "id": 109441,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumire",
+            "last": "Uesaka",
+            "full": "Sumire Uesaka",
+            "native": "上坂すみれ",
+            "userPreferred": "Sumire Uesaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109441-lVHpd6BN2g16.png"
+        }
+      ]
+    },
+    {
+      "id": 82345,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Alexandra",
+        "last": "Alshavin",
+        "full": "Alexandra Alshavin",
+        "native": "アレクサンドラ＝アルシャーヴィン",
+        "userPreferred": "Alexandra Alshavin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/82345-BOMzQc0T6Gep.png",
+      "voiceActors": [
+        {
+          "id": 105071,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Komatsu",
+            "full": "Mikako Komatsu",
+            "native": "小松未可子",
+            "userPreferred": "Mikako Komatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105071-Hcj0X2gcliPq.png"
+        }
+      ]
+    },
+    {
+      "id": 82339,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sophia",
+        "last": "Obertas",
+        "full": "Sophia Obertas",
+        "native": "ソフィーヤ＝オベルタス",
+        "userPreferred": "Sophia Obertas"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/82339-Thu5N4cZWCbX.png",
+      "voiceActors": [
+        {
+          "id": 105765,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Kayano",
+            "full": "Ai Kayano",
+            "native": "茅野愛衣",
+            "userPreferred": "Ai Kayano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105765-DDK94me8axVv.png"
+        }
+      ]
+    },
+    {
+      "id": 82341,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Elizavetta",
+        "last": "Fomina",
+        "full": "Elizavetta Fomina",
+        "native": "エリザヴェータ＝フォミナ",
+        "userPreferred": "Elizavetta Fomina"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b82341-nv5jwMfPsVxj.png",
+      "voiceActors": [
+        {
+          "id": 95034,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Kobayashi",
+            "full": "Yuu Kobayashi",
+            "native": "小林ゆう",
+            "userPreferred": "Yuu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95034-AwobjrcmkMi9.png"
+        }
+      ]
+    },
+    {
+      "id": 82343,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Valentina",
+        "last": "Glinka Estes",
+        "full": "Valentina Glinka Estes",
+        "native": "ヴァレンティナ＝グリンカ＝エステス",
+        "userPreferred": "Valentina Glinka Estes"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/82343-fvatmYoeK81P.png",
+      "voiceActors": [
+        {
+          "id": 103030,
+          "language": "Japanese",
+          "name": {
+            "first": "Hitomi",
+            "last": "Harada",
+            "full": "Hitomi Harada",
+            "native": "原田ひとみ",
+            "userPreferred": "Hitomi Harada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103030-CqmMNYO3QRCv.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 20809,
+      "relationType": "PARENT",
+      "malId": 24455,
+      "title": {
+        "romaji": "Madan no Ou to Vanadis",
+        "english": "Lord Marksman and Vanadis",
+        "native": "魔弾の王と戦姫 (ヴァナディース)",
+        "userPreferred": "Madan no Ou to Vanadis"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20809-QJQM3RI8PI4a.jpg",
+      "color": null,
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20809-Cjon1rP2AnD2.png",
+      "rating": 67
+    }
+  ],
+  "episodes": [
+    {
+      "id": "madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-0",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20883.jpg",
+      "number": 0,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-0"
+    },
+    {
+      "id": "madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20883.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-1"
+    },
+    {
+      "id": "madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20883.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-2"
+    },
+    {
+      "id": "madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20883.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-3"
+    },
+    {
+      "id": "madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20883.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-4"
+    },
+    {
+      "id": "madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20883.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-5"
+    },
+    {
+      "id": "madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20883.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-6"
+    },
+    {
+      "id": "madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20883.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-8"
+    },
+    {
+      "id": "madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20883.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-9"
+    },
+    {
+      "id": "madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20883.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-10"
+    },
+    {
+      "id": "madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20883.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-11"
+    },
+    {
+      "id": "madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20883.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-12"
+    },
+    {
+      "id": "madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20883.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//madan-no-ou-to-vanadis-tigre-kun-to-vanadi-chu-episode-13"
+    }
+  ]
+}

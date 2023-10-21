@@ -1,0 +1,436 @@
+{
+  "id": "4209",
+  "title": {
+    "romaji": "MISSION-E",
+    "english": null,
+    "native": "MISSION-E"
+  },
+  "malId": 4209,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4209.jpg",
+  "popularity": 1021,
+  "color": "#3586bb",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4209-jvi1ehCMRcYX.jpg",
+  "description": "Chinami and her friends have formed an organization called OZ, with the financial backing of the Kujo Group. Their goal is to peacefully integrate people with Type-E abilities into society, and oppose the Foundation, an organization which seeks to capture and control Type-E users for their own mysterious purposes.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 7,
+    "day": 8
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 9,
+    "day": 23
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 55,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 4305,
+      "role": "MAIN",
+      "name": {
+        "first": "Chinami",
+        "last": "Ebihara",
+        "full": "Chinami Ebihara",
+        "native": "海老原 千波美",
+        "userPreferred": "Chinami Ebihara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4305.jpg",
+      "voiceActors": [
+        {
+          "id": 100698,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Hashimoto",
+            "full": "Mai Hashimoto",
+            "native": "まい 橋本",
+            "userPreferred": "Mai Hashimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5698.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11204,
+      "role": "MAIN",
+      "name": {
+        "first": "Maori",
+        "last": "Kimizuka",
+        "full": "Maori Kimizuka",
+        "native": null,
+        "userPreferred": "Maori Kimizuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11204.jpg",
+      "voiceActors": [
+        {
+          "id": 95701,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuna",
+            "last": "Inamura",
+            "full": "Yuuna Inamura",
+            "native": "優奈 稲村",
+            "userPreferred": "Yuuna Inamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/701.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35287,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kiriku",
+        "last": null,
+        "full": "Kiriku",
+        "native": "鬼里久",
+        "userPreferred": "Kiriku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35287.jpg",
+      "voiceActors": [
+        {
+          "id": 95068,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Yusa",
+            "full": "Kouji Yusa",
+            "native": "遊佐浩二",
+            "userPreferred": "Kouji Yusa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95068-nf823DpvyKof.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4306,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kotaro",
+        "last": "Kannagi",
+        "full": "Kotaro Kannagi",
+        "native": "巫光太郎",
+        "userPreferred": "Kotaro Kannagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4306.jpg",
+      "voiceActors": [
+        {
+          "id": 100697,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsuhito",
+            "last": "Nomura",
+            "full": "Katsuhito Nomura",
+            "native": "野村勝人",
+            "userPreferred": "Katsuhito Nomura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5697.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4307,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sonomi",
+        "last": "Kujo",
+        "full": "Sonomi Kujo",
+        "native": "九条 園美",
+        "userPreferred": "Sonomi Kujo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4307.jpg",
+      "voiceActors": [
+        {
+          "id": 95078,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Nazuka",
+            "full": "Kaori Nazuka",
+            "native": "名塚佳織",
+            "userPreferred": "Kaori Nazuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95078-tMm7zdlRNZ3P.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4615,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Adol",
+        "last": "Brinberg",
+        "full": "Adol Brinberg",
+        "native": "アドル・ブリンベルケ",
+        "userPreferred": "Adol Brinberg"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4615.jpg",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        }
+      ]
+    },
+    {
+      "id": 13590,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tokio",
+        "last": "Hiiragi",
+        "full": "Tokio Hiiragi",
+        "native": "柊 登喜雄",
+        "userPreferred": "Tokio Hiiragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13590.jpg",
+      "voiceActors": [
+        {
+          "id": 95131,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuki",
+            "last": "Yao",
+            "full": "Kazuki Yao",
+            "native": "矢尾一樹",
+            "userPreferred": "Kazuki Yao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95131-TCVTgxb08tfE.png"
+        }
+      ]
+    },
+    {
+      "id": 4308,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keiko",
+        "last": "Komatsuna",
+        "full": "Keiko Komatsuna",
+        "native": "小松菜 圭子",
+        "userPreferred": "Keiko Komatsuna"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4308.jpg",
+      "voiceActors": [
+        {
+          "id": 95258,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruko",
+            "last": "Momoi",
+            "full": "Haruko Momoi",
+            "native": "桃井はるこ",
+            "userPreferred": "Haruko Momoi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95258-cTKT3ONucnZU.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19733,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akane",
+        "last": "Kuramoto",
+        "full": "Akane Kuramoto",
+        "native": "倉本 茜",
+        "userPreferred": "Akane Kuramoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19733.jpg",
+      "voiceActors": [
+        {
+          "id": 95290,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuri",
+            "last": "Amano",
+            "full": "Yuri Amano",
+            "native": "天野由梨",
+            "userPreferred": "Yuri Amano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95290-nU8h5vWr8RCv.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4309,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuma",
+        "last": "Saihashi",
+        "full": "Yuma Saihashi",
+        "native": "斎橋 由真",
+        "userPreferred": "Yuma Saihashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4309.jpg",
+      "voiceActors": [
+        {
+          "id": 96331,
+          "language": "Japanese",
+          "name": {
+            "first": "Risa",
+            "last": "Mizuno",
+            "full": "Risa Mizuno",
+            "native": "理紗水野",
+            "userPreferred": "Risa Mizuno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96331-NL72KlyVd8Wh.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 2564,
+      "relationType": "PREQUEL",
+      "malId": 2564,
+      "title": {
+        "romaji": "CODE-E",
+        "english": null,
+        "native": "CODE-E",
+        "userPreferred": "CODE-E"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2564-xKQtlkedJIzt.png",
+      "color": "#a1c9f1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2564-lHowcz6RgrSF.jpg",
+      "rating": 59
+    }
+  ],
+  "episodes": [
+    {
+      "id": "mission-e-episode-1",
+      "title": "Office Lady Kidnapping Misson! ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59332/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mission-e-episode-1"
+    },
+    {
+      "id": "mission-e-episode-2",
+      "title": "All Girl High School Infiltration Misson ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59333/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mission-e-episode-2"
+    },
+    {
+      "id": "mission-e-episode-3",
+      "title": "In The Twilight Mission ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59334/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mission-e-episode-3"
+    },
+    {
+      "id": "mission-e-episode-4",
+      "title": "Northern Land Mission ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59335/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mission-e-episode-4"
+    },
+    {
+      "id": "mission-e-episode-5",
+      "title": "Go Go West Mission, Part One! ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59336/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mission-e-episode-5"
+    },
+    {
+      "id": "mission-e-episode-6",
+      "title": "Go Go West Mission, Part Two!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59337/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mission-e-episode-6"
+    },
+    {
+      "id": "mission-e-episode-7",
+      "title": "Are You Alright? Mission! ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59338/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mission-e-episode-7"
+    },
+    {
+      "id": "mission-e-episode-8",
+      "title": "Slightly Dangerous Date, Mission! ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59339/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mission-e-episode-8"
+    },
+    {
+      "id": "mission-e-episode-9",
+      "title": "Duo Team Restart Mission! ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59340/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mission-e-episode-9"
+    },
+    {
+      "id": "mission-e-episode-10",
+      "title": "Past Karma Mission!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59341/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mission-e-episode-10"
+    },
+    {
+      "id": "mission-e-episode-11",
+      "title": "Christmas Night Mission! ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59342/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mission-e-episode-11"
+    },
+    {
+      "id": "mission-e-episode-12",
+      "title": "Last of the Last of All Missions! ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59343/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mission-e-episode-12"
+    }
+  ]
+}

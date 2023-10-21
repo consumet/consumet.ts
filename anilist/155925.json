@@ -1,0 +1,574 @@
+{
+  "id": "155925",
+  "title": {
+    "romaji": "LUPIN ZERO",
+    "english": "Lupin ZERO",
+    "native": "ルパンゼロ"
+  },
+  "malId": 53414,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "6H1Sd53SOhI",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/6H1Sd53SOhI/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155925-FWI4G2QSweAz.png",
+  "popularity": 3473,
+  "color": "#e4bb86",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/155925-vJgoUSzo2RAe.jpg",
+  "description": "Lupin III, a bored junior high schooler in Tokyo, takes an interest in a young Daisuke Jigen, a mysterious and impressive marksman. Lupin III strikes up a conversation with Jigen at a nightclub, however during their talk, Jigen concludes that Lupin III is simply a privileged and naïve boy from a well-to-do family and doesn’t want anything to do with him. However, while helping the nightclub singer Yoko, who is being pursued by the yakuza, Jigen learns that Lupin III is a descendant of the legendary thief…<br><br>\n(Source: HIDIVE)",
+  "status": "Completed",
+  "releaseDate": 2022,
+  "startDate": {
+    "year": 2022,
+    "month": 12,
+    "day": 16
+  },
+  "endDate": {
+    "year": 2023,
+    "month": 1,
+    "day": 13
+  },
+  "totalEpisodes": 6,
+  "currentEpisode": 6,
+  "rating": 72,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Telecom Animation Film"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 1430,
+      "malId": 1430,
+      "title": {
+        "romaji": "Lupin III: Cagliostro no Shiro",
+        "english": "Lupin The 3rd: The Castle of Cagliostro",
+        "native": "ルパン三世 カリオストロの城",
+        "userPreferred": "Lupin III: Cagliostro no Shiro"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1430-aHneeSPBCeHR.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1430-QnrZxbYONXfh.jpg",
+      "rating": 80,
+      "type": "MOVIE"
+    },
+    {
+      "id": 100957,
+      "malId": 35857,
+      "title": {
+        "romaji": "Lupin III: PART 5",
+        "english": "Lupin the 3rd Part V",
+        "native": "ルパン三世 PART5",
+        "userPreferred": "Lupin III: PART 5"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100957-YzfrlJDqswJc.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100957-YCn32nSXzauM.jpg",
+      "rating": 80,
+      "type": "TV"
+    },
+    {
+      "id": 20906,
+      "malId": 27947,
+      "title": {
+        "romaji": "Lupin III: PART IV",
+        "english": "Lupin the 3rd Part IV",
+        "native": "ルパン三世 PART IV",
+        "userPreferred": "Lupin III: PART IV"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20906-6hK5SuAB4MmV.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20906-EWiCqF6vySRT.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 110349,
+      "malId": 40052,
+      "title": {
+        "romaji": "GREAT PRETENDER",
+        "english": "Great Pretender",
+        "native": "GREAT PRETENDER",
+        "userPreferred": "GREAT PRETENDER"
+      },
+      "status": "Completed",
+      "episodes": 23,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110349-59hhZ9CNHVdk.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110349-bGG1E4uunLoq.jpg",
+      "rating": 82,
+      "type": "ONA"
+    },
+    {
+      "id": 135778,
+      "malId": 49154,
+      "title": {
+        "romaji": "HIGH CARD",
+        "english": "HIGH CARD",
+        "native": "HIGH CARD",
+        "userPreferred": "HIGH CARD"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135778-Qldd93789wTL.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/135778-5QVzKcX4fskO.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 1426,
+      "malId": 1426,
+      "title": {
+        "romaji": "Lupin III: Part III",
+        "english": "Lupin the Third Part 3",
+        "native": "ルパン三世 - Part III",
+        "userPreferred": "Lupin III: Part III"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1426-DOXCZNxTn7f0.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1426-11KpXpbcFlU0.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 1425,
+      "malId": 1425,
+      "title": {
+        "romaji": "Lupin III: Part II",
+        "english": "Lupin the 3rd Part 2",
+        "native": "新・ルパン三世",
+        "userPreferred": "Lupin III: Part II"
+      },
+      "status": "Completed",
+      "episodes": 155,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1425.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1425-h2pu8v9xaVbM.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 110413,
+      "malId": 40082,
+      "title": {
+        "romaji": "Lupin III: THE FIRST",
+        "english": "Lupin III: The First",
+        "native": "ルパン三世 THE FIRST",
+        "userPreferred": "Lupin III: THE FIRST"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110413-0KLlv2NsuSyI.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110413-4GhTtOaQxAJQ.jpg",
+      "rating": 77,
+      "type": "MOVIE"
+    },
+    {
+      "id": 109946,
+      "malId": 48453,
+      "title": {
+        "romaji": "Super Crooks",
+        "english": "Super Crooks",
+        "native": "スーパー・クルックス",
+        "userPreferred": "Super Crooks"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109946-S05QNnNplFV2.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109946-kqAu0lDwwJJY.jpg",
+      "rating": 71,
+      "type": "ONA"
+    },
+    {
+      "id": 13249,
+      "malId": 13249,
+      "title": {
+        "romaji": "Lupin 8-sei",
+        "english": null,
+        "native": "ルパン8世",
+        "userPreferred": "Lupin 8-sei"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b13249-bDGymNcfxHeY.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b13249-bDGymNcfxHeY.jpg",
+      "rating": 52,
+      "type": "SPECIAL"
+    }
+  ],
+  "characters": [
+    {
+      "id": 1044,
+      "role": "MAIN",
+      "name": {
+        "first": "Arsène",
+        "last": "Lupin III",
+        "full": "Arsène Lupin III",
+        "native": "ルパン三世",
+        "userPreferred": "Arsène Lupin III"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1044-UriNGSc2CKPO.jpg",
+      "voiceActors": [
+        {
+          "id": 107018,
+          "language": "Japanese",
+          "name": {
+            "first": "Tasuku",
+            "last": "Hatanaka",
+            "full": "Tasuku Hatanaka",
+            "native": "畠中祐",
+            "userPreferred": "Tasuku Hatanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107018-UwRPnTdllbPT.png"
+        },
+        {
+          "id": 240346,
+          "language": "Italian",
+          "name": {
+            "first": "Matteo",
+            "last": "Garofalo",
+            "full": "Matteo Garofalo",
+            "native": null,
+            "userPreferred": "Matteo Garofalo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n240346-SPhlWtTSBJZL.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1045,
+      "role": "MAIN",
+      "name": {
+        "first": "Daisuke",
+        "last": "Jigen",
+        "full": "Daisuke Jigen",
+        "native": "次元大介",
+        "userPreferred": "Daisuke Jigen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1045-5VLjexUmCT6p.jpg",
+      "voiceActors": [
+        {
+          "id": 119185,
+          "language": "Japanese",
+          "name": {
+            "first": "Shunsuke",
+            "last": "Takeuchi",
+            "full": "Shunsuke Takeuchi",
+            "native": "武内駿輔",
+            "userPreferred": "Shunsuke Takeuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119185-65kkxuTRxAgo.png"
+        },
+        {
+          "id": 240255,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandro",
+            "last": "Fattori",
+            "full": "Alessandro Fattori",
+            "native": null,
+            "userPreferred": "Alessandro Fattori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n240255-YUlZqPsayoZA.png"
+        }
+      ]
+    },
+    {
+      "id": 63225,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lupin II",
+        "last": null,
+        "full": "Lupin II",
+        "native": "ルパン二世",
+        "userPreferred": "Lupin II"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b63225-mlJOn66exglb.jpg",
+      "voiceActors": [
+        {
+          "id": 95673,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshio",
+            "last": "Furukawa",
+            "full": "Toshio Furukawa",
+            "native": "古川登志夫",
+            "userPreferred": "Toshio Furukawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95673-jNN4GqGgpssj.png"
+        },
+        {
+          "id": 160266,
+          "language": "Italian",
+          "name": {
+            "first": "Massimiliano",
+            "last": "Lotti",
+            "full": "Massimiliano Lotti",
+            "native": null,
+            "userPreferred": "Massimiliano Lotti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n160266-5OJb8QO3Bgsz.jpg"
+        }
+      ]
+    },
+    {
+      "id": 293252,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lupin I",
+        "last": null,
+        "full": "Lupin I",
+        "native": "ルパン一世",
+        "userPreferred": "Lupin I"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b293252-WNdZNs4A00me.jpg",
+      "voiceActors": [
+        {
+          "id": 96245,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshito",
+            "last": "Yasuhara",
+            "full": "Yoshito Yasuhara",
+            "native": "安原義人",
+            "userPreferred": "Yoshito Yasuhara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1245.jpg"
+        },
+        {
+          "id": 156062,
+          "language": "Italian",
+          "name": {
+            "first": "Aldo",
+            "last": "Stella",
+            "full": "Aldo Stella",
+            "native": null,
+            "userPreferred": "Aldo Stella"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n156062-EmZRDADbGLnK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 293253,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Youko",
+        "last": null,
+        "full": "Youko",
+        "native": "洋子",
+        "userPreferred": "Youko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b293253-sijk7QQJTBzq.png",
+      "voiceActors": [
+        {
+          "id": 95869,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Hayami",
+            "full": "Saori Hayami",
+            "native": "早見沙織",
+            "userPreferred": "Saori Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95869-qCQ0EaWpq1QT.png"
+        },
+        {
+          "id": 225967,
+          "language": "Italian",
+          "name": {
+            "first": "Federica",
+            "last": "Simonelli",
+            "full": "Federica Simonelli",
+            "native": null,
+            "userPreferred": "Federica Simonelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n225967-cd08Hy1XukIg.jpg"
+        }
+      ]
+    },
+    {
+      "id": 293254,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shinobu",
+        "last": null,
+        "full": "Shinobu",
+        "native": "しのぶ",
+        "userPreferred": "Shinobu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b293254-ttuy67L7GRGU.png",
+      "voiceActors": [
+        {
+          "id": 108551,
+          "language": "Japanese",
+          "name": {
+            "first": "Toa",
+            "last": "Yukinari",
+            "full": "Toa Yukinari",
+            "native": "行成とあ",
+            "userPreferred": "Toa Yukinari"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n108551-R4Ro9eFab55G.png"
+        },
+        {
+          "id": 119595,
+          "language": "Italian",
+          "name": {
+            "first": "Beatrice",
+            "last": "Caggiula",
+            "full": "Beatrice Caggiula",
+            "native": null,
+            "userPreferred": "Beatrice Caggiula"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119595-mSjuz5Ni4dcK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 127421,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Albert",
+        "last": "Dandrezie",
+        "full": "Albert Dandrezie",
+        "native": "アルベール・ダンドレジー",
+        "userPreferred": "Albert Dandrezie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b127421-1HOjxbh4tcEr.png",
+      "voiceActors": [
+        {
+          "id": 95034,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Kobayashi",
+            "full": "Yuu Kobayashi",
+            "native": "小林ゆう",
+            "userPreferred": "Yuu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95034-AwobjrcmkMi9.png"
+        },
+        {
+          "id": 167061,
+          "language": "Italian",
+          "name": {
+            "first": "Annalisa",
+            "last": "Longo",
+            "full": "Annalisa Longo",
+            "native": null,
+            "userPreferred": "Annalisa Longo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n167061-BE4Zgk6uRIIA.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 30438,
+      "relationType": "ADAPTATION",
+      "malId": 438,
+      "title": {
+        "romaji": "Lupin III",
+        "english": "Lupin the 3rd",
+        "native": "ルパン三世",
+        "userPreferred": "Lupin III"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30438-DC5EbNFjtVUr.jpg",
+      "color": "#f1d635",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/30438-VRluSl5mqHMn.jpg",
+      "rating": 72
+    },
+    {
+      "id": 1412,
+      "relationType": "SEQUEL",
+      "malId": 1412,
+      "title": {
+        "romaji": "Lupin III",
+        "english": "Lupin the 3rd",
+        "native": "ルパン三世",
+        "userPreferred": "Lupin III"
+      },
+      "status": "Completed",
+      "episodes": 23,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1412-70kA9bzDoleV.jpg",
+      "color": "#862828",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1412-awKlaxacsLwL.jpg",
+      "rating": 73
+    }
+  ],
+  "episodes": [
+    {
+      "id": "lupin-zero-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155925-FWI4G2QSweAz.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-zero-episode-1"
+    },
+    {
+      "id": "lupin-zero-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155925-FWI4G2QSweAz.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-zero-episode-2"
+    },
+    {
+      "id": "lupin-zero-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155925-FWI4G2QSweAz.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-zero-episode-3"
+    },
+    {
+      "id": "lupin-zero-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155925-FWI4G2QSweAz.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-zero-episode-4"
+    },
+    {
+      "id": "lupin-zero-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155925-FWI4G2QSweAz.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-zero-episode-5"
+    },
+    {
+      "id": "lupin-zero-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155925-FWI4G2QSweAz.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-zero-episode-6"
+    }
+  ]
+}

@@ -1,0 +1,641 @@
+{
+  "id": "1703",
+  "title": {
+    "romaji": "TOKYO TRIBE 2",
+    "english": null,
+    "native": "TOKYO TRIBE 2"
+  },
+  "malId": 1703,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1703.jpg",
+  "popularity": 2381,
+  "color": "#d61a1a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1703.jpg",
+  "description": "This is the other side of Tokyo, a Tokyo of a different color. There, various tribes are living. The SARU from Japan's Musashino, WU-RONZE of Bukuro, and HANDS of Shindyuku... Young men living in the city...the public of modern times builds a home out of corruption, these young men of the sordid side of life, a side called \"reality,\" are depicted here!<br><br>\n(Source: AnimeNfo)",
+  "status": "Completed",
+  "releaseDate": 2006,
+  "startDate": {
+    "year": 2006,
+    "month": 11,
+    "day": 12
+  },
+  "endDate": {
+    "year": 2007,
+    "month": 2,
+    "day": 18
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 58,
+  "duration": 21,
+  "genres": [
+    "Action",
+    "Drama"
+  ],
+  "season": "FALL",
+  "studios": [
+    "MADHOUSE"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 205,
+      "malId": 205,
+      "title": {
+        "romaji": "Samurai Champloo",
+        "english": "Samurai Champloo",
+        "native": "サムライチャンプルー",
+        "userPreferred": "Samurai Champloo"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205-xxonQKyJtVcw.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/205-L7WpOOWUmVjh.jpg",
+      "rating": 84,
+      "type": "TV"
+    },
+    {
+      "id": 6746,
+      "malId": 6746,
+      "title": {
+        "romaji": "Durarara!!",
+        "english": "Durarara!!",
+        "native": "デュラララ!!",
+        "userPreferred": "Durarara!!"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6746-Q4EmstN2fy0R.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6746-84oNA7P9pboV.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 3448,
+      "malId": 3448,
+      "title": {
+        "romaji": "Mad★Bull 34",
+        "english": "Mad Bull 34",
+        "native": "マッド★ブル３４",
+        "userPreferred": "Mad★Bull 34"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3448-p7LePB14kDOV.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3448-Y2bE99z7tmaS.jpg",
+      "rating": 59,
+      "type": "OVA"
+    },
+    {
+      "id": 120120,
+      "malId": 42249,
+      "title": {
+        "romaji": "Tokyo Revengers",
+        "english": "Tokyo Revengers",
+        "native": "東京リベンジャーズ",
+        "userPreferred": "Tokyo Revengers"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120120-mBmQUtMloszF.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120120-UDYgoHA69peT.jpg",
+      "rating": 78,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 27056,
+      "role": "MAIN",
+      "name": {
+        "first": "Mera",
+        "last": null,
+        "full": "Mera",
+        "native": "メラ",
+        "userPreferred": "Mera"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27056.jpg",
+      "voiceActors": [
+        {
+          "id": 95720,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenta",
+            "last": "Miyake",
+            "full": "Kenta Miyake",
+            "native": "三宅健太",
+            "userPreferred": "Kenta Miyake"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95720-enxx6kZKuwGi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22607,
+      "role": "MAIN",
+      "name": {
+        "first": "Kai",
+        "last": "Deguchi",
+        "full": "Kai Deguchi",
+        "native": "出口 海",
+        "userPreferred": "Kai Deguchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22607.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        }
+      ]
+    },
+    {
+      "id": 252361,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ibu",
+        "last": null,
+        "full": "Ibu",
+        "native": "イブ",
+        "userPreferred": "Ibu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b252361-9KfSbxA4HHW5.jpg",
+      "voiceActors": [
+        {
+          "id": 95041,
+          "language": "Japanese",
+          "name": {
+            "first": "Takako",
+            "last": "Honda",
+            "full": "Takako Honda",
+            "native": "本田貴子",
+            "userPreferred": "Takako Honda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/41.jpg"
+        }
+      ]
+    },
+    {
+      "id": 252362,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sunmi",
+        "last": null,
+        "full": "Sunmi",
+        "native": "スンミ",
+        "userPreferred": "Sunmi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95034,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Kobayashi",
+            "full": "Yuu Kobayashi",
+            "native": "小林ゆう",
+            "userPreferred": "Yuu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95034-AwobjrcmkMi9.png"
+        }
+      ]
+    },
+    {
+      "id": 252355,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Iwao",
+        "last": null,
+        "full": "Iwao",
+        "native": "巌",
+        "userPreferred": "Iwao"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b252355-AKVOxmJI8VQ3.jpg",
+      "voiceActors": [
+        {
+          "id": 95045,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Ishii",
+            "full": "Kouji Ishii",
+            "native": "石井康嗣",
+            "userPreferred": "Kouji Ishii"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95045-xvCXMLXwg44s.jpg"
+        }
+      ]
+    },
+    {
+      "id": 252363,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tera",
+        "last": null,
+        "full": "Tera",
+        "native": "テラさん",
+        "userPreferred": "Tera"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b252363-PJAmII81gLk1.jpg",
+      "voiceActors": [
+        {
+          "id": 95058,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Ueda",
+            "full": "Yuuji Ueda",
+            "native": "うえだゆうじ",
+            "userPreferred": "Yuuji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95058-fGnId7E4tgx3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 252356,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bubba",
+        "last": null,
+        "full": "Bubba",
+        "native": "ブッバ",
+        "userPreferred": "Bubba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b252356-WdhPaxl7xnkL.jpg",
+      "voiceActors": [
+        {
+          "id": 95744,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Gouri",
+            "full": "Daisuke Gouri",
+            "native": "郷里大輔",
+            "userPreferred": "Daisuke Gouri"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95744-Iu1p0eNvShfN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 252364,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Skunk",
+        "last": null,
+        "full": "Skunk",
+        "native": "スカンク",
+        "userPreferred": "Skunk"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 234163,
+          "language": "Japanese",
+          "name": {
+            "first": "Zennosuke",
+            "last": "Fukkin",
+            "full": "Zennosuke Fukkin",
+            "native": null,
+            "userPreferred": "Zennosuke Fukkin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n234163-59VMfXCRA01Z.jpg"
+        }
+      ]
+    },
+    {
+      "id": 252357,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hashimu",
+        "last": null,
+        "full": "Hashimu",
+        "native": "ハシーム",
+        "userPreferred": "Hashimu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 102801,
+          "language": "Japanese",
+          "name": {
+            "first": "Makoto",
+            "last": "Higo",
+            "full": "Makoto Higo",
+            "native": "肥後マコト",
+            "userPreferred": "Makoto Higo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102801-P9Bkni0M0Rgm.png"
+        }
+      ]
+    },
+    {
+      "id": 252365,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nori",
+        "last": "Horikoshi",
+        "full": "Nori Horikoshi",
+        "native": "堀越のり",
+        "userPreferred": "Nori Horikoshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b252365-oXLIai3U4WNu.jpg",
+      "voiceActors": [
+        {
+          "id": 95144,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Toyoguchi",
+            "full": "Megumi Toyoguchi",
+            "native": "豊口めぐみ",
+            "userPreferred": "Megumi Toyoguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95144-9Y8CtDVmxogE.jpg"
+        }
+      ]
+    },
+    {
+      "id": 252358,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jyada",
+        "last": null,
+        "full": "Jyada",
+        "native": "ジャダキンス",
+        "userPreferred": "Jyada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95685,
+          "language": "Japanese",
+          "name": {
+            "first": "Takashi",
+            "last": "Matsuyama",
+            "full": "Takashi Matsuyama",
+            "native": "松山鷹志",
+            "userPreferred": "Takashi Matsuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95685-hBzFgdWzq43x.jpg"
+        }
+      ]
+    },
+    {
+      "id": 252366,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nikoi",
+        "last": null,
+        "full": "Nikoi",
+        "native": "ンコイ",
+        "userPreferred": "Nikoi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b252366-TyIVIAxiEt13.jpg",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        }
+      ]
+    },
+    {
+      "id": 252359,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shokicho",
+        "last": null,
+        "full": "Shokicho",
+        "native": "書記長",
+        "userPreferred": "Shokicho"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95279,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Mizushima",
+            "full": "Takahiro Mizushima",
+            "native": "水島大宙",
+            "userPreferred": "Takahiro Mizushima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95279-5fMO4r9szQKL.jpg"
+        }
+      ]
+    },
+    {
+      "id": 252367,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Renkon",
+        "last": "Chief",
+        "full": "Renkon Chief",
+        "native": "レンコン・シェフ",
+        "userPreferred": "Renkon Chief"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b252367-8XBhKFcXX7tr.jpg",
+      "voiceActors": [
+        {
+          "id": 95800,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinpachi",
+            "last": "Tsuji",
+            "full": "Shinpachi Tsuji",
+            "native": "辻親八",
+            "userPreferred": "Shinpachi Tsuji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95800-TBMYjwu8Wy6T.png"
+        }
+      ]
+    },
+    {
+      "id": 252360,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Galileo",
+        "last": null,
+        "full": "Galileo",
+        "native": "ガリレオ",
+        "userPreferred": "Galileo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b252360-x0RMpDsR22wD.jpg",
+      "voiceActors": [
+        {
+          "id": 95798,
+          "language": "Japanese",
+          "name": {
+            "first": "Kiyoyuki",
+            "last": "Yanada",
+            "full": "Kiyoyuki Yanada",
+            "native": "梁田清之",
+            "userPreferred": "Kiyoyuki Yanada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95798-zbNPAckSWMKV.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 31140,
+      "relationType": "ADAPTATION",
+      "malId": 1140,
+      "title": {
+        "romaji": "Tokyo Tribe 2",
+        "english": "Tokyo Tribes",
+        "native": "Tokyo Tribe 2",
+        "userPreferred": "Tokyo Tribe 2"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b31140-nLPpZC3WQ93G.jpg",
+      "color": null,
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b31140-nLPpZC3WQ93G.jpg",
+      "rating": 63
+    }
+  ],
+  "episodes": [
+    {
+      "id": "tokyo-tribe-2--episode-1",
+      "title": "Track 1",
+      "image": "https://media.kitsu.io/episodes/thumbnails/27838/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-tribe-2--episode-1"
+    },
+    {
+      "id": "tokyo-tribe-2--episode-2",
+      "title": "Track 2",
+      "image": "https://media.kitsu.io/episodes/thumbnails/27839/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-tribe-2--episode-2"
+    },
+    {
+      "id": "tokyo-tribe-2--episode-3",
+      "title": "Track 3",
+      "image": "https://media.kitsu.io/episodes/thumbnails/27840/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-tribe-2--episode-3"
+    },
+    {
+      "id": "tokyo-tribe-2--episode-4",
+      "title": "Track 4",
+      "image": "https://media.kitsu.io/episodes/thumbnails/27841/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-tribe-2--episode-4"
+    },
+    {
+      "id": "tokyo-tribe-2--episode-5",
+      "title": "Track 5",
+      "image": "https://media.kitsu.io/episodes/thumbnails/27842/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-tribe-2--episode-5"
+    },
+    {
+      "id": "tokyo-tribe-2--episode-6",
+      "title": "Track 6",
+      "image": "https://media.kitsu.io/episodes/thumbnails/27843/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-tribe-2--episode-6"
+    },
+    {
+      "id": "tokyo-tribe-2--episode-7",
+      "title": "Track 7",
+      "image": "https://media.kitsu.io/episodes/thumbnails/27844/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-tribe-2--episode-7"
+    },
+    {
+      "id": "tokyo-tribe-2--episode-8",
+      "title": "Track 8",
+      "image": "https://media.kitsu.io/episodes/thumbnails/27845/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-tribe-2--episode-8"
+    },
+    {
+      "id": "tokyo-tribe-2--episode-9",
+      "title": "Track 9",
+      "image": "https://media.kitsu.io/episodes/thumbnails/27846/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-tribe-2--episode-9"
+    },
+    {
+      "id": "tokyo-tribe-2--episode-10",
+      "title": "Track 10",
+      "image": "https://media.kitsu.io/episodes/thumbnails/27847/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-tribe-2--episode-10"
+    },
+    {
+      "id": "tokyo-tribe-2--episode-11",
+      "title": "Track 11",
+      "image": "https://media.kitsu.io/episodes/thumbnails/27848/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-tribe-2--episode-11"
+    },
+    {
+      "id": "tokyo-tribe-2--episode-12",
+      "title": "Track 12",
+      "image": "https://media.kitsu.io/episodes/thumbnails/27849/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-tribe-2--episode-12"
+    },
+    {
+      "id": "tokyo-tribe-2--episode-13",
+      "title": "Track 13",
+      "image": "https://media.kitsu.io/episodes/thumbnails/27850/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:22:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-tribe-2--episode-13"
+    }
+  ]
+}

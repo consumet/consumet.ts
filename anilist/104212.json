@@ -1,0 +1,559 @@
+{
+  "id": "104212",
+  "title": {
+    "romaji": "Namu Amida Butsu!: Rendai UTENA",
+    "english": "Namuamidabutsu! -UTENA-",
+    "native": "なむあみだ仏っ！-蓮台 UTENA-"
+  },
+  "malId": 38150,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "pRk1MCxDuc0",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/pRk1MCxDuc0/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b104212-Pb79PmiljHwx.jpg",
+  "popularity": 3383,
+  "color": "#e4935d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104212-9yezOgTRNAvM.jpg",
+  "description": "The story follows the Thirteen Buddha, along with Taishakuten and Bonten, who must confront the evil Māra. Māra seeks revenge against Shaka Nyorai, who had previously saved the world from suffering and conflict by achieving enlightenment.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2019,
+  "startDate": {
+    "year": 2019,
+    "month": 4,
+    "day": 8
+  },
+  "endDate": {
+    "year": 2019,
+    "month": 6,
+    "day": 24
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 50,
+  "duration": 24,
+  "genres": [
+    "Fantasy"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Asahi Production"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 21741,
+      "malId": 33023,
+      "title": {
+        "romaji": "Touken Ranbu: Hanamaru",
+        "english": "Touken Ranbu - Hanamaru",
+        "native": "刀剣乱舞-花丸-",
+        "userPreferred": "Touken Ranbu: Hanamaru"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21741-OM5WXyhhwzPL.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21741-Kkv4bxGo7Y8x.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 127399,
+      "malId": 44942,
+      "title": {
+        "romaji": "Shuumatsu no Valkyrie",
+        "english": "Record of Ragnarok",
+        "native": "終末のワルキューレ",
+        "userPreferred": "Shuumatsu no Valkyrie"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127399-AAH1pevCZLrB.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127399-eiN22Xg4LG9x.jpg",
+      "rating": 66,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 137909,
+      "role": "MAIN",
+      "name": {
+        "first": "Bonten",
+        "last": null,
+        "full": "Bonten",
+        "native": "梵天",
+        "userPreferred": "Bonten"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137909-hFddz6IPs9sp.jpg",
+      "voiceActors": [
+        {
+          "id": 96489,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoaki",
+            "last": "Maeno",
+            "full": "Tomoaki Maeno",
+            "native": "前野智昭",
+            "userPreferred": "Tomoaki Maeno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96489-xTzYxgdC9g9l.png"
+        }
+      ]
+    },
+    {
+      "id": 137907,
+      "role": "MAIN",
+      "name": {
+        "first": "Taishakuten",
+        "last": null,
+        "full": "Taishakuten",
+        "native": "帝釈天",
+        "userPreferred": "Taishakuten"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137907-RTasP1qBTOtK.jpg",
+      "voiceActors": [
+        {
+          "id": 126794,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaaki",
+            "last": "Mizunaka",
+            "full": "Masaaki Mizunaka",
+            "native": "水中雅章",
+            "userPreferred": "Masaaki Mizunaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n126794-tZzYeLEQbsrj.png"
+        }
+      ]
+    },
+    {
+      "id": 137911,
+      "role": "MAIN",
+      "name": {
+        "first": "Amida",
+        "last": "Nyorai",
+        "full": "Amida Nyorai",
+        "native": "阿弥陀",
+        "userPreferred": "Amida Nyorai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137911-grT48zjwAHuL.jpg",
+      "voiceActors": [
+        {
+          "id": 95183,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Hirakawa",
+            "full": "Daisuke Hirakawa",
+            "native": "平川大輔",
+            "userPreferred": "Daisuke Hirakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95183-5C42gbrKIP7L.png"
+        }
+      ]
+    },
+    {
+      "id": 138052,
+      "role": "MAIN",
+      "name": {
+        "first": "Shaka Nyorai",
+        "last": null,
+        "full": "Shaka Nyorai",
+        "native": "如来釈迦",
+        "userPreferred": "Shaka Nyorai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138052-iIfU2gTSL6PY.jpg",
+      "voiceActors": [
+        {
+          "id": 95178,
+          "language": "Japanese",
+          "name": {
+            "first": "Shoutarou",
+            "last": "Morikubo",
+            "full": "Shoutarou Morikubo",
+            "native": "森久保祥太郎",
+            "userPreferred": "Shoutarou Morikubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95178-8R9Itg3Y1v24.png"
+        }
+      ]
+    },
+    {
+      "id": 138050,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dainichi Nyorai ",
+        "last": null,
+        "full": "Dainichi Nyorai ",
+        "native": "Nyorai 大日",
+        "userPreferred": "Dainichi Nyorai "
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138050-q3jxeyG8v2kN.jpg",
+      "voiceActors": [
+        {
+          "id": 95167,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuya",
+            "last": "Kakihara",
+            "full": "Tetsuya Kakihara",
+            "native": "柿原徹也",
+            "userPreferred": "Tetsuya Kakihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95167-wjIShzThRTlS.png"
+        }
+      ]
+    },
+    {
+      "id": 138051,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ashura",
+        "last": null,
+        "full": "Ashura",
+        "native": "阿修羅",
+        "userPreferred": "Ashura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138051-gvq9hsmSEaHe.jpg",
+      "voiceActors": [
+        {
+          "id": 95735,
+          "language": "Japanese",
+          "name": {
+            "first": "Tatsuhisa",
+            "last": "Suzuki",
+            "full": "Tatsuhisa Suzuki",
+            "native": "鈴木達央",
+            "userPreferred": "Tatsuhisa Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95735-xssSe5BRSkaq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 137910,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Karuraten",
+        "last": null,
+        "full": "Karuraten",
+        "native": "迦楼羅天",
+        "userPreferred": "Karuraten"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137910-HNilCUStSD9i.png",
+      "voiceActors": [
+        {
+          "id": 116971,
+          "language": "Japanese",
+          "name": {
+            "first": "Daiki",
+            "last": "Yamashita",
+            "full": "Daiki Yamashita",
+            "native": "山下大輝",
+            "userPreferred": "Daiki Yamashita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116971-r6Yn9mDyzBqU.png"
+        }
+      ]
+    },
+    {
+      "id": 138053,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kannou",
+        "last": "Bosatsu",
+        "full": "Kannou Bosatsu",
+        "native": "菩薩観音",
+        "userPreferred": "Kannou Bosatsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138053-VVb6CtOKpxn1.jpg",
+      "voiceActors": [
+        {
+          "id": 119617,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuma",
+            "last": "Uchida",
+            "full": "Yuuma Uchida",
+            "native": "内田雄馬",
+            "userPreferred": "Yuuma Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119617-icFDk96OdV5k.png"
+        }
+      ]
+    },
+    {
+      "id": 138046,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miroku",
+        "last": "Bosatsu",
+        "full": "Miroku Bosatsu",
+        "native": "菩薩弥勒",
+        "userPreferred": "Miroku Bosatsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138046-fAIDAeQIcRCX.jpg",
+      "voiceActors": [
+        {
+          "id": 110919,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumu",
+            "last": "Murase",
+            "full": "Ayumu Murase",
+            "native": "村瀬歩",
+            "userPreferred": "Ayumu Murase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110919-zz5dq39kyzNC.png"
+        }
+      ]
+    },
+    {
+      "id": 138054,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yakushi ",
+        "last": "Nyorai ",
+        "full": "Yakushi  Nyorai ",
+        "native": "如来薬師",
+        "userPreferred": "Yakushi  Nyorai "
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138054-htryhn3swkDp.jpg",
+      "voiceActors": [
+        {
+          "id": 106817,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshitsugu",
+            "last": "Matsuoka",
+            "full": "Yoshitsugu Matsuoka",
+            "native": "松岡禎丞",
+            "userPreferred": "Yoshitsugu Matsuoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106817-mioGQjbTWWQ6.png"
+        }
+      ]
+    },
+    {
+      "id": 138047,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Monju ",
+        "last": "Bosatsu ",
+        "full": "Monju  Bosatsu ",
+        "native": "菩薩文殊",
+        "userPreferred": "Monju  Bosatsu "
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138047-jCVeHa3lQ7ij.jpg",
+      "voiceActors": [
+        {
+          "id": 106407,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryuuichi",
+            "last": "Kijima",
+            "full": "Ryuuichi Kijima",
+            "native": "木島隆一",
+            "userPreferred": "Ryuuichi Kijima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106407-wimVpBHnuCFW.png"
+        }
+      ]
+    },
+    {
+      "id": 138055,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fudoumyou",
+        "last": null,
+        "full": "Fudoumyou",
+        "native": "不動明王",
+        "userPreferred": "Fudoumyou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138055-eSuVV9LRtUqc.jpg",
+      "voiceActors": [
+        {
+          "id": 110877,
+          "language": "Japanese",
+          "name": {
+            "first": "Kengo",
+            "last": "Kawanishi",
+            "full": "Kengo Kawanishi",
+            "native": "河西健吾",
+            "userPreferred": "Kengo Kawanishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110877-zSEL81OrcDwR.png"
+        }
+      ]
+    },
+    {
+      "id": 138048,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kokuzo ",
+        "last": "Bosatsu",
+        "full": "Kokuzo  Bosatsu",
+        "native": "菩薩虚空蔵",
+        "userPreferred": "Kokuzo  Bosatsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138048-SE2UHhO4NFfC.jpg",
+      "voiceActors": [
+        {
+          "id": 95196,
+          "language": "Japanese",
+          "name": {
+            "first": "Kishou",
+            "last": "Taniyama",
+            "full": "Kishou Taniyama",
+            "native": "谷山紀章",
+            "userPreferred": "Kishou Taniyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95196-t2vbxQMee0ci.png"
+        }
+      ]
+    },
+    {
+      "id": 138049,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ashuku ",
+        "last": "Nyorai ",
+        "full": "Ashuku  Nyorai ",
+        "native": "如来阿閦",
+        "userPreferred": "Ashuku  Nyorai "
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138049-jwaelwrCU9zq.jpg",
+      "voiceActors": [
+        {
+          "id": 118407,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuusuke",
+            "last": "Kobayashi",
+            "full": "Yuusuke Kobayashi",
+            "native": "小林裕介",
+            "userPreferred": "Yuusuke Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118407-QvEt3bGtuRQM.png"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "namu-amida-butsu-rendai-utena-episode-1",
+      "title": "No Amount of Shooing Can Keep Earthly Vices at Bay",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260606/original.jpg",
+      "number": 1,
+      "createdAt": "2019-03-27T13:48:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//namu-amida-butsu-rendai-utena-episode-1"
+    },
+    {
+      "id": "namu-amida-butsu-rendai-utena-episode-2",
+      "title": "No Treasure is Worth More than Friendship",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260607/original.jpg",
+      "number": 2,
+      "createdAt": "2019-03-27T13:48:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//namu-amida-butsu-rendai-utena-episode-2"
+    },
+    {
+      "id": "namu-amida-butsu-rendai-utena-episode-3",
+      "title": "Behold the Flower that Blooms in the Shadow of the Obvious",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260608/original.png",
+      "number": 3,
+      "createdAt": "2019-03-27T13:48:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//namu-amida-butsu-rendai-utena-episode-3"
+    },
+    {
+      "id": "namu-amida-butsu-rendai-utena-episode-4",
+      "title": "You Can’t Fulfill Wishes Without Both Feet on the Ground",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260609/original.jpg",
+      "number": 4,
+      "createdAt": "2019-03-27T13:48:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//namu-amida-butsu-rendai-utena-episode-4"
+    },
+    {
+      "id": "namu-amida-butsu-rendai-utena-episode-5",
+      "title": "One Lie Leads to a Hundred Lies",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260610/original.png",
+      "number": 5,
+      "createdAt": "2019-03-27T13:48:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//namu-amida-butsu-rendai-utena-episode-5"
+    },
+    {
+      "id": "namu-amida-butsu-rendai-utena-episode-6",
+      "title": "If You Are to Forgive Sin Behold the Face of the Sinner",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260611/original.jpg",
+      "number": 6,
+      "createdAt": "2019-03-27T13:48:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//namu-amida-butsu-rendai-utena-episode-6"
+    },
+    {
+      "id": "namu-amida-butsu-rendai-utena-episode-7",
+      "title": "You Cannot Return to the Past But You Can Carry on With the Future",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260612/original.jpg",
+      "number": 7,
+      "createdAt": "2019-03-27T13:48:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//namu-amida-butsu-rendai-utena-episode-7"
+    },
+    {
+      "id": "namu-amida-butsu-rendai-utena-episode-8",
+      "title": "Out of Sight is Different From Gone",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260613/original.png",
+      "number": 8,
+      "createdAt": "2019-03-27T13:48:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//namu-amida-butsu-rendai-utena-episode-8"
+    },
+    {
+      "id": "namu-amida-butsu-rendai-utena-episode-9",
+      "title": "Set the Unenlightened Night Aglow With Smiles",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260614/original.png",
+      "number": 9,
+      "createdAt": "2019-03-27T13:48:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//namu-amida-butsu-rendai-utena-episode-9"
+    },
+    {
+      "id": "namu-amida-butsu-rendai-utena-episode-10",
+      "title": "The Fruit of Doubt Bears No Seed",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260615/original.jpg",
+      "number": 10,
+      "createdAt": "2019-03-27T13:48:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//namu-amida-butsu-rendai-utena-episode-10"
+    },
+    {
+      "id": "namu-amida-butsu-rendai-utena-episode-11",
+      "title": "There Can Be No Enlightenment Without Vice",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260616/original.png",
+      "number": 11,
+      "createdAt": "2019-03-27T13:48:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//namu-amida-butsu-rendai-utena-episode-11"
+    },
+    {
+      "id": "namu-amida-butsu-rendai-utena-episode-12",
+      "title": "Be at Peace with Vice-Prone Souls",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260617/original.jpg",
+      "number": 12,
+      "createdAt": "2019-03-27T13:48:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//namu-amida-butsu-rendai-utena-episode-12"
+    }
+  ]
+}

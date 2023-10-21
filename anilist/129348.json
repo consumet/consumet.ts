@@ -1,0 +1,91 @@
+{
+  "id": "129348",
+  "title": {
+    "romaji": "Douluo Dalu: Qian Hua Xi Jin",
+    "english": null,
+    "native": "斗罗大陆 铅华洗尽"
+  },
+  "synonyms": [
+    "斗罗大陆 第四部分",
+    "Douluo Dalu Part 4",
+    "Soul Land Part 4"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129348-X24UHyN5as12.png",
+  "popularity": 1390,
+  "color": "#f1e478",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129348-X24UHyN5as12.png",
+  "description": "The fourth part of <i>Douluo Dalu</i>.\n<br><br>\n<i>Note: Episodes 92 to 104.</i>",
+  "status": "Completed",
+  "releaseDate": 2020,
+  "startDate": {
+    "year": 2020,
+    "month": 2,
+    "day": 22
+  },
+  "endDate": {
+    "year": 2020,
+    "month": 5,
+    "day": 16
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 78,
+  "duration": 20,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Romance",
+    "Supernatural"
+  ],
+  "season": null,
+  "studios": [
+    "Sparkly Key Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [],
+  "relations": [
+    {
+      "id": 129347,
+      "relationType": "PREQUEL",
+      "malId": null,
+      "title": {
+        "romaji": "Douluo Dalu: Haotian Yang Wei",
+        "english": null,
+        "native": "斗罗大陆 昊天扬威",
+        "userPreferred": "Douluo Dalu: Haotian Yang Wei"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129347-wxx4TiX9iPF4.jpg",
+      "color": "#e443c9",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129347-wxx4TiX9iPF4.jpg",
+      "rating": 80
+    },
+    {
+      "id": 129349,
+      "relationType": "SEQUEL",
+      "malId": null,
+      "title": {
+        "romaji": "Douluo Dalu: Xiaowu Juebie",
+        "english": null,
+        "native": "斗罗大陆 小舞诀别",
+        "userPreferred": "Douluo Dalu: Xiaowu Juebie"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129349-q9rQenoTegnx.png",
+      "color": "#f1e478",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129349-q9rQenoTegnx.png",
+      "rating": 82
+    }
+  ],
+  "episodes": []
+}

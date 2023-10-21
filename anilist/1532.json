@@ -1,0 +1,633 @@
+{
+  "id": "1532",
+  "title": {
+    "romaji": "Suki na Mono wa Suki Dakara Shou ga Nai!!",
+    "english": "Sukisho",
+    "native": "好きなものは好きだからしょうがない！！"
+  },
+  "malId": 1532,
+  "synonyms": [
+    "Sukisyo",
+    "I like what I like, so there!"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1532.jpg",
+  "popularity": 5028,
+  "color": "#f1e4c9",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1532.jpg",
+  "description": "Hashiba Sora has fallen from a 4th story window and has lost all of his memories. When Fujimori Sunao comes to his school as his new room mate, Fujimori tells Hashiba that he is called Ran. Fujimori and Hashiba both have a split personality which they developed in their youth. Their split personalities, Yoru and Ran, are deeply in love. Even though it creeps Fujimori and Hashiba out what their other selves do with each other at night, they also start to fall for each other. Because of their relationship, Hashiba Sora finds out a lot of shocking facts about their youth.",
+  "status": "Completed",
+  "releaseDate": 2005,
+  "startDate": {
+    "year": 2005,
+    "month": 1,
+    "day": 9
+  },
+  "endDate": {
+    "year": 2005,
+    "month": 3,
+    "day": 27
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 57,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Romance",
+    "Slice of Life"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "ZEXCS"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 907,
+      "malId": 907,
+      "title": {
+        "romaji": "Princess Princess",
+        "english": null,
+        "native": "プリンセス・プリンセス",
+        "userPreferred": "Princess Princess"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx907-jSyaYDauPpRT.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/907-0tSyyXkohPYF.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 149,
+      "malId": 149,
+      "title": {
+        "romaji": "LOVELESS",
+        "english": "Loveless",
+        "native": "LOVELESS",
+        "userPreferred": "LOVELESS"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx149-6QGLHgJc8gum.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/149-1ObNHNwgBy8H.jpg",
+      "rating": 58,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 529,
+      "role": "MAIN",
+      "name": {
+        "first": "Kai",
+        "last": "Nanami",
+        "full": "Kai Nanami",
+        "native": "七海 かい",
+        "userPreferred": "Kai Nanami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/529.jpg",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        }
+      ]
+    },
+    {
+      "id": 530,
+      "role": "MAIN",
+      "name": {
+        "first": "Shinichirou",
+        "last": "Minato",
+        "full": "Shinichirou Minato",
+        "native": "水都真一朗",
+        "userPreferred": "Shinichirou Minato"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b530-9ilRfYo7Dbt5.png",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        }
+      ]
+    },
+    {
+      "id": 527,
+      "role": "MAIN",
+      "name": {
+        "first": "Sunao",
+        "last": "Fujimori",
+        "full": "Sunao Fujimori",
+        "native": "藤守 直",
+        "userPreferred": "Sunao Fujimori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/527.jpg",
+      "voiceActors": [
+        {
+          "id": 103659,
+          "language": "Japanese",
+          "name": {
+            "first": "Madoka",
+            "last": "Akita",
+            "full": "Madoka Akita",
+            "native": "まどか 秋田",
+            "userPreferred": "Madoka Akita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8659.jpg"
+        },
+        {
+          "id": 95030,
+          "language": "Japanese",
+          "name": {
+            "first": "Souichirou",
+            "last": "Hoshi",
+            "full": "Souichirou Hoshi",
+            "native": "保志総一朗",
+            "userPreferred": "Souichirou Hoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95030-kj64Uy6Zr3bq.png"
+        }
+      ]
+    },
+    {
+      "id": 526,
+      "role": "MAIN",
+      "name": {
+        "first": "Sora",
+        "last": "Hashiba",
+        "full": "Sora Hashiba",
+        "native": "羽柴 空",
+        "userPreferred": "Sora Hashiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/526.jpg",
+      "voiceActors": [
+        {
+          "id": 232298,
+          "language": "Japanese",
+          "name": {
+            "first": "Rika",
+            "last": "Higashino",
+            "full": "Rika Higashino",
+            "native": "東野里加",
+            "userPreferred": "Rika Higashino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        },
+        {
+          "id": 95112,
+          "language": "Japanese",
+          "name": {
+            "first": "Hikaru",
+            "last": "Midorikawa",
+            "full": "Hikaru Midorikawa",
+            "native": "緑川光",
+            "userPreferred": "Hikaru Midorikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95112-c275OLptkSYO.png"
+        }
+      ]
+    },
+    {
+      "id": 528,
+      "role": "MAIN",
+      "name": {
+        "first": "Matsuri",
+        "last": "Honjou",
+        "full": "Matsuri Honjou",
+        "native": "本城祭",
+        "userPreferred": "Matsuri Honjou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b528-FIANQJvWdpNV.png",
+      "voiceActors": [
+        {
+          "id": 95260,
+          "language": "Japanese",
+          "name": {
+            "first": "Susumu",
+            "last": "Chiba",
+            "full": "Susumu Chiba",
+            "native": "千葉進歩",
+            "userPreferred": "Susumu Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95260-pKyM0LbhEznc.png"
+        }
+      ]
+    },
+    {
+      "id": 22245,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryouya",
+        "last": "Kozuki",
+        "full": "Ryouya Kozuki",
+        "native": null,
+        "userPreferred": "Ryouya Kozuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22245.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 531,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gaku",
+        "last": "Ichikawa",
+        "full": "Gaku Ichikawa",
+        "native": "市川学",
+        "userPreferred": "Gaku Ichikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b531-5jiJhjtGO4FQ.png",
+      "voiceActors": [
+        {
+          "id": 95560,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Kisaichi",
+            "full": "Atsushi Kisaichi",
+            "native": "私市淳",
+            "userPreferred": "Atsushi Kisaichi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95560-zMj9LRxhYkMX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10631,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kano",
+        "last": "Kozuki",
+        "full": "Kano Kozuki",
+        "native": null,
+        "userPreferred": "Kano Kozuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10631.jpg",
+      "voiceActors": [
+        {
+          "id": 101662,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiru",
+            "last": "Yamazaki",
+            "full": "Michiru Yamazaki",
+            "native": "山崎みちる",
+            "userPreferred": "Michiru Yamazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6662.jpg"
+        }
+      ]
+    },
+    {
+      "id": 232295,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yoshihiro",
+        "last": "Hano",
+        "full": "Yoshihiro Hano",
+        "native": "羽野義広",
+        "userPreferred": "Yoshihiro Hano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b232295-PontqW2po2W9.png",
+      "voiceActors": [
+        {
+          "id": 95074,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Nojima",
+            "full": "Kenji Nojima",
+            "native": "野島健児",
+            "userPreferred": "Kenji Nojima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95074-ilLCdbpWIgrF.png"
+        }
+      ]
+    },
+    {
+      "id": 232297,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sei",
+        "last": "Hashiba",
+        "full": "Sei Hashiba",
+        "native": "羽柴青",
+        "userPreferred": "Sei Hashiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b232297-4JM1zKxOFcBR.png",
+      "voiceActors": [
+        {
+          "id": 95344,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouki",
+            "last": "Miyata",
+            "full": "Kouki Miyata",
+            "native": "宮田幸季",
+            "userPreferred": "Kouki Miyata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95344-wYgLhxYeWEp4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 232300,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ren",
+        "last": "Shiina",
+        "full": "Ren Shiina",
+        "native": "椎名廉",
+        "userPreferred": "Ren Shiina"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b232300-MwQaSU1chxdy.png",
+      "voiceActors": [
+        {
+          "id": 102084,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiro",
+            "last": "Kanzaki",
+            "full": "Chiro Kanzaki",
+            "native": "ちろ 神崎",
+            "userPreferred": "Chiro Kanzaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7084.jpg"
+        }
+      ]
+    },
+    {
+      "id": 532,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kai",
+        "last": "Nagase",
+        "full": "Kai Nagase",
+        "native": "永瀬 芥",
+        "userPreferred": "Kai Nagase"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/532.jpg",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        }
+      ]
+    },
+    {
+      "id": 232299,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fuuta",
+        "last": "Kitamura",
+        "full": "Fuuta Kitamura",
+        "native": "北村風太",
+        "userPreferred": "Fuuta Kitamura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b232299-adXIFRKPaEP2.png",
+      "voiceActors": [
+        {
+          "id": 95034,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Kobayashi",
+            "full": "Yuu Kobayashi",
+            "native": "小林ゆう",
+            "userPreferred": "Yuu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95034-AwobjrcmkMi9.png"
+        }
+      ]
+    },
+    {
+      "id": 27520,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sakura",
+        "last": "Hiromu",
+        "full": "Sakura Hiromu",
+        "native": null,
+        "userPreferred": "Sakura Hiromu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27520.jpg",
+      "voiceActors": [
+        {
+          "id": 95278,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Sakaguchi",
+            "full": "Daisuke Sakaguchi",
+            "native": "阪口大助",
+            "userPreferred": "Daisuke Sakaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95278-IrUPhIvJCsF9.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 34024,
+      "relationType": "ADAPTATION",
+      "malId": 4024,
+      "title": {
+        "romaji": "Suki Na Mono Wa Suki Dakara Shouganai!!",
+        "english": "I like what I like",
+        "native": "好きなものは好きだからしょうがない!!",
+        "userPreferred": "Suki Na Mono Wa Suki Dakara Shouganai!!"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/4024.jpg",
+      "color": null,
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/4024.jpg",
+      "rating": 57
+    },
+    {
+      "id": 105873,
+      "relationType": "SEQUEL",
+      "malId": 23684,
+      "title": {
+        "romaji": "Suki na Mono wa Suki Dakara Shou ga Nai!!: Onsen ni Ikou!",
+        "english": "Sukisho: Onsen ni Ikou!",
+        "native": "好きなものは好きだからしょうがない!! 温泉に行こう!",
+        "userPreferred": "Suki na Mono wa Suki Dakara Shou ga Nai!!: Onsen ni Ikou!"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n105873-fVFXHcZ50yJE.jpg",
+      "color": "#f1d6bb",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n105873-fVFXHcZ50yJE.jpg",
+      "rating": 59
+    }
+  ],
+  "episodes": [
+    {
+      "id": "sukisho-episode-1",
+      "title": "Sukisho!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24456/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sukisho-episode-1"
+    },
+    {
+      "id": "sukisho-episode-2",
+      "title": "The Campus Jack of All Trades Appears",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24457/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sukisho-episode-2"
+    },
+    {
+      "id": "sukisho-episode-3",
+      "title": "Mini Triangle",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24458/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sukisho-episode-3"
+    },
+    {
+      "id": "sukisho-episode-4",
+      "title": "A Bandit Appears",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24459/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sukisho-episode-4"
+    },
+    {
+      "id": "sukisho-episode-5",
+      "title": "Spirit Boy Hiromu",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24460/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sukisho-episode-5"
+    },
+    {
+      "id": "sukisho-episode-6",
+      "title": "Formation of Angel-chans",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24461/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sukisho-episode-6"
+    },
+    {
+      "id": "sukisho-episode-7",
+      "title": "Sunao's Suspicion",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24462/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sukisho-episode-7"
+    },
+    {
+      "id": "sukisho-episode-8",
+      "title": "Midnight Embrace",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24463/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sukisho-episode-8"
+    },
+    {
+      "id": "sukisho-episode-9",
+      "title": "Sora and Sunao",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24464/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sukisho-episode-9"
+    },
+    {
+      "id": "sukisho-episode-10",
+      "title": "Hatred",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24465/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sukisho-episode-10"
+    },
+    {
+      "id": "sukisho-episode-11",
+      "title": "Revenge",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24466/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sukisho-episode-11"
+    },
+    {
+      "id": "sukisho-episode-12",
+      "title": "Rescue!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/24467/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sukisho-episode-12"
+    }
+  ]
+}

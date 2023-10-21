@@ -1,0 +1,878 @@
+{
+  "id": "212",
+  "title": {
+    "romaji": "Project A-Ko",
+    "english": "Project A-ko",
+    "native": "プロジェクトA子"
+  },
+  "malId": 212,
+  "synonyms": [
+    "Projecte A-ko"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx212-SSB2S3cbIumn.jpg",
+  "popularity": 5494,
+  "color": "#e49335",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/212-Zfa1QJcRdJZ8.jpg",
+  "description": "On a splendid morning, an effervescently cheerful teenaged schoolgirl named A-ko sets off for school with her delightfully ditzy friend, C-ko. The duo are students in a marvelous futuristic city, but A-ko is about to run afoul of the wealthy and powerful B-ko, a young lady used to getting everything she wants—and what she wants is C-ko! Also, a vast and powerful alien fleet is about to touch down in Graviton City, and they're after something, too. Fortunately for us, A-ko’s no ordinary schoolgirl—she’s got super powers of her own!<br>\n<br>\n(Source: Discotek)",
+  "status": "Completed",
+  "releaseDate": 1986,
+  "startDate": {
+    "year": 1986,
+    "month": 6,
+    "day": 21
+  },
+  "endDate": {
+    "year": 1986,
+    "month": 6,
+    "day": 21
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 65,
+  "duration": 84,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "APPP"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 18679,
+      "malId": 18679,
+      "title": {
+        "romaji": "Kill la Kill",
+        "english": "Kill la Kill",
+        "native": "キルラキル",
+        "userPreferred": "Kill la Kill"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx18679-zE07Y4SFaOiO.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18679-rpC99hxBxaMn.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 2722,
+      "malId": 2722,
+      "title": {
+        "romaji": "Crusher Joe",
+        "english": "Crusher Joe: The Movie",
+        "native": "クラッシャージョウ",
+        "userPreferred": "Crusher Joe"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx2722-z9zqg2mEfGW4.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2722-pTgnnshWInBm.jpg",
+      "rating": 68,
+      "type": "MOVIE"
+    },
+    {
+      "id": 3787,
+      "malId": 3787,
+      "title": {
+        "romaji": "The Supergal",
+        "english": "Maris the Chojo",
+        "native": "ザ・超女",
+        "userPreferred": "The Supergal"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3787.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3787.jpg",
+      "rating": 56,
+      "type": "OVA"
+    },
+    {
+      "id": 2724,
+      "malId": 2724,
+      "title": {
+        "romaji": "DAICON III Opening Animation",
+        "english": null,
+        "native": "DAICONⅢ オープニングアニメ",
+        "userPreferred": "DAICON III Opening Animation"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2724-q3BwS59924IV.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2724-2hSomR12fveU.jpg",
+      "rating": 72,
+      "type": "MOVIE"
+    },
+    {
+      "id": 2050,
+      "malId": 2050,
+      "title": {
+        "romaji": "Honoo no Tenkousei",
+        "english": null,
+        "native": "炎の転校生",
+        "userPreferred": "Honoo no Tenkousei"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2050-EHhYlYdea6Ff.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2050-fjDUx4hceqy6.jpg",
+      "rating": 65,
+      "type": "OVA"
+    },
+    {
+      "id": 949,
+      "malId": 949,
+      "title": {
+        "romaji": "Top wo Nerae! GunBuster",
+        "english": "Gunbuster",
+        "native": "トップをねらえ! GunBuster",
+        "userPreferred": "Top wo Nerae! GunBuster"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx949-LDCFxDufSwTQ.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/949-SeKG5aRhF26j.jpg",
+      "rating": 77,
+      "type": "OVA"
+    },
+    {
+      "id": 373,
+      "malId": 373,
+      "title": {
+        "romaji": "Bannou Bunka Neko-Musume",
+        "english": "All Purpose Cultural Cat Girl Nuku Nuku",
+        "native": "万能文化猫娘",
+        "userPreferred": "Bannou Bunka Neko-Musume"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx373-8EE4GGNMeXhn.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n373-yZAAEXthlFcg.jpg",
+      "rating": 62,
+      "type": "OVA"
+    },
+    {
+      "id": 121664,
+      "malId": null,
+      "title": {
+        "romaji": "DAICON IV Opening Animation",
+        "english": null,
+        "native": "DAICONⅣ オープニングアニメ",
+        "userPreferred": "DAICON IV Opening Animation"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121664-W0B2xLXXNxpj.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/121664-pC5VqgwWHrhq.jpg",
+      "rating": 78,
+      "type": "MOVIE"
+    },
+    {
+      "id": 1293,
+      "malId": 1293,
+      "title": {
+        "romaji": "Urusei Yatsura",
+        "english": "Urusei Yatsura",
+        "native": "うる星やつら",
+        "userPreferred": "Urusei Yatsura"
+      },
+      "status": "Completed",
+      "episodes": 195,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1293-T6Ev080pKoum.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1293-XmAkK3xVNmQh.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 1794,
+      "malId": 1794,
+      "title": {
+        "romaji": "Dirty Pair no Ooshoubu: Nolandia no Nazo",
+        "english": "Dirty Pair: Affair of Nolandia",
+        "native": "ダーティペアの大勝負 ノーランディアの謎",
+        "userPreferred": "Dirty Pair no Ooshoubu: Nolandia no Nazo"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1794-VGc1ALHcorz4.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1794-3RCqUUl7aV9S.jpg",
+      "rating": 58,
+      "type": "OVA"
+    },
+    {
+      "id": 18245,
+      "malId": 18245,
+      "title": {
+        "romaji": "WHITE ALBUM 2",
+        "english": "White Album 2",
+        "native": "WHITE ALBUM 2",
+        "userPreferred": "WHITE ALBUM 2"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18245-q7Z7kXaQyck7.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18245-kcqQvFqQmMg2.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 1106,
+      "malId": 1106,
+      "title": {
+        "romaji": "Eikyuu Kazoku",
+        "english": "Eternal Family",
+        "native": "永久家族",
+        "userPreferred": "Eikyuu Kazoku"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1106-j3UdAIJOXqBa.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1106-j3UdAIJOXqBa.png",
+      "rating": 54,
+      "type": "MOVIE"
+    },
+    {
+      "id": 2289,
+      "malId": 2289,
+      "title": {
+        "romaji": "Akihabara Dennou Gumi: 2011 Nen no Natsuyasumi",
+        "english": null,
+        "native": "劇場版 アキハバラ電脳組 2011年の夏休み",
+        "userPreferred": "Akihabara Dennou Gumi: 2011 Nen no Natsuyasumi"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2289-uHWXSlvGZs9y.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2289-1Sk3b8Pp10Jl.jpg",
+      "rating": 60,
+      "type": "MOVIE"
+    },
+    {
+      "id": 2058,
+      "malId": 2058,
+      "title": {
+        "romaji": "Delpower X Bakuhatsu Miracle Genki!",
+        "english": null,
+        "native": "デルパワーＸ爆発みらくる元気！",
+        "userPreferred": "Delpower X Bakuhatsu Miracle Genki!"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2058.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2058.jpg",
+      "rating": 47,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 12405,
+      "role": "MAIN",
+      "name": {
+        "first": "Eiko",
+        "last": "Magami",
+        "full": "Eiko Magami",
+        "native": "摩神英子",
+        "userPreferred": "Eiko Magami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12405.jpg",
+      "voiceActors": [
+        {
+          "id": 95121,
+          "language": "Japanese",
+          "name": {
+            "first": "Miki",
+            "last": "Itou",
+            "full": "Miki Itou",
+            "native": "伊藤美紀 ",
+            "userPreferred": "Miki Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95121-FCp9NcoFgKZk.png"
+        },
+        {
+          "id": 104955,
+          "language": "English",
+          "name": {
+            "first": "Stacey",
+            "last": "Gregg",
+            "full": "Stacey Gregg",
+            "native": null,
+            "userPreferred": "Stacey Gregg"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9955.jpg"
+        },
+        {
+          "id": 104985,
+          "language": "Italian",
+          "name": {
+            "first": "Cinzia",
+            "last": "Massironi",
+            "full": "Cinzia Massironi",
+            "native": null,
+            "userPreferred": "Cinzia Massironi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9985.jpg"
+        },
+        {
+          "id": 108963,
+          "language": "Spanish",
+          "name": {
+            "first": "Graciela",
+            "last": "Molina",
+            "full": "Graciela Molina",
+            "native": null,
+            "userPreferred": "Graciela Molina"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/13963.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14071,
+      "role": "MAIN",
+      "name": {
+        "first": "Shiko",
+        "last": "Kotobuki",
+        "full": "Shiko Kotobuki",
+        "native": "寿詩子",
+        "userPreferred": "Shiko Kotobuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14071.jpg",
+      "voiceActors": [
+        {
+          "id": 95437,
+          "language": "Japanese",
+          "name": {
+            "first": "Michie",
+            "last": "Tomizawa",
+            "full": "Michie Tomizawa",
+            "native": "富沢美智恵",
+            "userPreferred": "Michie Tomizawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95437-E2FrR8aqJoFm.png"
+        },
+        {
+          "id": 104961,
+          "language": "English",
+          "name": {
+            "first": "Julia",
+            "last": "Brahms",
+            "full": "Julia Brahms",
+            "native": null,
+            "userPreferred": "Julia Brahms"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104961-YT66ZG17iIit.jpg"
+        },
+        {
+          "id": 96291,
+          "language": "Italian",
+          "name": {
+            "first": "Federica",
+            "last": "Valenti",
+            "full": "Federica Valenti",
+            "native": null,
+            "userPreferred": "Federica Valenti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1291.jpg"
+        },
+        {
+          "id": 102326,
+          "language": "Spanish",
+          "name": {
+            "first": "Núria",
+            "last": "Trifol",
+            "full": "Núria Trifol",
+            "native": null,
+            "userPreferred": "Núria Trifol"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102326-xkOzBZIus0bF.png"
+        }
+      ]
+    },
+    {
+      "id": 14070,
+      "role": "MAIN",
+      "name": {
+        "first": "Biko",
+        "last": "Daitokuji",
+        "full": "Biko Daitokuji",
+        "native": "大徳寺美子",
+        "userPreferred": "Biko Daitokuji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14070.jpg",
+      "voiceActors": [
+        {
+          "id": 95438,
+          "language": "Japanese",
+          "name": {
+            "first": "Emi",
+            "last": "Shinohara",
+            "full": "Emi Shinohara",
+            "native": "篠原恵美",
+            "userPreferred": "Emi Shinohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95438-dNxTPna4mfhR.jpg"
+        },
+        {
+          "id": 104954,
+          "language": "English",
+          "name": {
+            "first": "Denica",
+            "last": "Fairman",
+            "full": "Denica Fairman",
+            "native": null,
+            "userPreferred": "Denica Fairman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104954-4lQHkoJt1IFc.jpg"
+        },
+        {
+          "id": 152174,
+          "language": "Italian",
+          "name": {
+            "first": "Anna Maria",
+            "last": "Tulli",
+            "full": "Anna Maria Tulli",
+            "native": null,
+            "userPreferred": "Anna Maria Tulli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n152174-bx4khjvI0IAy.jpg"
+        },
+        {
+          "id": 144257,
+          "language": "Spanish",
+          "name": {
+            "first": "Mercedes",
+            "last": "Diemand-Hartz",
+            "full": "Mercedes Diemand-Hartz",
+            "native": null,
+            "userPreferred": "Mercedes Diemand-Hartz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144257-UhMkn91ivUKl.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28432,
+      "role": "MAIN",
+      "name": {
+        "first": "Captain Napolipolita",
+        "last": null,
+        "full": "Captain Napolipolita",
+        "native": null,
+        "userPreferred": "Captain Napolipolita"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28432.jpg",
+      "voiceActors": [
+        {
+          "id": 95598,
+          "language": "Japanese",
+          "name": {
+            "first": "Shuuichi",
+            "last": "Ikeda",
+            "full": "Shuuichi Ikeda",
+            "native": "池田秀一",
+            "userPreferred": "Shuuichi Ikeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95598-IZBrsaxRsACg.png"
+        },
+        {
+          "id": 148242,
+          "language": "English",
+          "name": {
+            "first": "Jay",
+            "last": "Benedict",
+            "full": "Jay Benedict",
+            "native": null,
+            "userPreferred": "Jay Benedict"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n148242-Hp1SIG1wxV12.jpg"
+        },
+        {
+          "id": 96092,
+          "language": "Italian",
+          "name": {
+            "first": "Claudio",
+            "last": "Ridolfo",
+            "full": "Claudio Ridolfo",
+            "native": null,
+            "userPreferred": "Claudio Ridolfo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96092-B1dDueqtjW1e.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14069,
+      "role": "MAIN",
+      "name": {
+        "first": "D",
+        "last": null,
+        "full": "D",
+        "native": null,
+        "userPreferred": "D"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14069.jpg",
+      "voiceActors": [
+        {
+          "id": 95761,
+          "language": "Japanese",
+          "name": {
+            "first": "Tesshou",
+            "last": "Genda",
+            "full": "Tesshou Genda",
+            "native": "玄田哲章",
+            "userPreferred": "Tesshou Genda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95761-nwndYRCqJxno.png"
+        },
+        {
+          "id": 141312,
+          "language": "English",
+          "name": {
+            "first": "Marc",
+            "last": "Smith",
+            "full": "Marc Smith",
+            "native": null,
+            "userPreferred": "Marc Smith"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141312-uPdZYMev4V7Z.png"
+        },
+        {
+          "id": 96089,
+          "language": "Italian",
+          "name": {
+            "first": "Mario",
+            "last": "Zucca",
+            "full": "Mario Zucca",
+            "native": null,
+            "userPreferred": "Mario Zucca"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96089-q69sRJKRPl65.jpg"
+        },
+        {
+          "id": 115474,
+          "language": "Spanish",
+          "name": {
+            "first": "Alberto",
+            "last": "Trifol",
+            "full": "Alberto Trifol",
+            "native": null,
+            "userPreferred": "Alberto Trifol"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20474.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28429,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ume",
+        "last": null,
+        "full": "Ume",
+        "native": null,
+        "userPreferred": "Ume"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28429.jpg",
+      "voiceActors": [
+        {
+          "id": 95014,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Hayashibara",
+            "full": "Megumi Hayashibara",
+            "native": "林原めぐみ",
+            "userPreferred": "Megumi Hayashibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95014-VqxNuufY94V3.png"
+        },
+        {
+          "id": 153163,
+          "language": "English",
+          "name": {
+            "first": "Liza",
+            "last": "Ross",
+            "full": "Liza Ross",
+            "native": null,
+            "userPreferred": "Liza Ross"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n153163-WTgS52EBSQxa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28430,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ine",
+        "last": null,
+        "full": "Ine",
+        "native": null,
+        "userPreferred": "Ine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28430.jpg",
+      "voiceActors": [
+        {
+          "id": 96057,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshino",
+            "last": "Takamori",
+            "full": "Yoshino Takamori",
+            "native": "鷹森淑乃",
+            "userPreferred": "Yoshino Takamori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96057-sTfYZjMdWTRu.png"
+        },
+        {
+          "id": 96044,
+          "language": "English",
+          "name": {
+            "first": "Annemarie",
+            "last": "Zola",
+            "full": "Annemarie Zola",
+            "native": "Annemarie Lawless",
+            "userPreferred": "Annemarie Zola"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96044-TH5NudyPuyGH.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14072,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ayumi",
+        "last": "Azuchi",
+        "full": "Ayumi Azuchi",
+        "native": "安土亜弓",
+        "userPreferred": "Ayumi Azuchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14072.jpg",
+      "voiceActors": [
+        {
+          "id": 104506,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Mukaidono",
+            "full": "Asami Mukaidono",
+            "native": "向殿あさみ",
+            "userPreferred": "Asami Mukaidono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104506-IP7uDCX8chJD.jpg"
+        },
+        {
+          "id": 153163,
+          "language": "English",
+          "name": {
+            "first": "Liza",
+            "last": "Ross",
+            "full": "Liza Ross",
+            "native": null,
+            "userPreferred": "Liza Ross"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n153163-WTgS52EBSQxa.jpg"
+        },
+        {
+          "id": 157939,
+          "language": "Italian",
+          "name": {
+            "first": "Caterina",
+            "last": "Rochira",
+            "full": "Caterina Rochira",
+            "native": null,
+            "userPreferred": "Caterina Rochira"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 152564,
+          "language": "Spanish",
+          "name": {
+            "first": "María Pilar",
+            "last": "Quesada",
+            "full": "María Pilar Quesada",
+            "native": null,
+            "userPreferred": "María Pilar Quesada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14073,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mari",
+        "last": null,
+        "full": "Mari",
+        "native": null,
+        "userPreferred": "Mari"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14073.jpg",
+      "voiceActors": [
+        {
+          "id": 104483,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayuri",
+            "last": "Ikemoto",
+            "full": "Sayuri Ikemoto",
+            "native": "池本小百合",
+            "userPreferred": "Sayuri Ikemoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9483.jpg"
+        },
+        {
+          "id": 95744,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Gouri",
+            "full": "Daisuke Gouri",
+            "native": "郷里大輔",
+            "userPreferred": "Daisuke Gouri"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95744-Iu1p0eNvShfN.jpg"
+        },
+        {
+          "id": 96044,
+          "language": "English",
+          "name": {
+            "first": "Annemarie",
+            "last": "Zola",
+            "full": "Annemarie Zola",
+            "native": "Annemarie Lawless",
+            "userPreferred": "Annemarie Zola"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96044-TH5NudyPuyGH.jpg"
+        },
+        {
+          "id": 141312,
+          "language": "English",
+          "name": {
+            "first": "Marc",
+            "last": "Smith",
+            "full": "Marc Smith",
+            "native": null,
+            "userPreferred": "Marc Smith"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141312-uPdZYMev4V7Z.png"
+        }
+      ]
+    },
+    {
+      "id": 28431,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Asa",
+        "last": null,
+        "full": "Asa",
+        "native": null,
+        "userPreferred": "Asa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28431.jpg",
+      "voiceActors": [
+        {
+          "id": 95824,
+          "language": "Japanese",
+          "name": {
+            "first": "Akari",
+            "last": "Hibino",
+            "full": "Akari Hibino",
+            "native": "朱里日比野",
+            "userPreferred": "Akari Hibino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95824-NUHx65QMarkQ.jpg"
+        },
+        {
+          "id": 96040,
+          "language": "English",
+          "name": {
+            "first": "Toni",
+            "last": "Barry",
+            "full": "Toni Barry",
+            "native": null,
+            "userPreferred": "Toni Barry"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1040.jpg"
+        }
+      ]
+    },
+    {
+      "id": 267221,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Apple-tai no Pilot",
+        "last": null,
+        "full": "Apple-tai no Pilot",
+        "native": "アップル隊のパイロット",
+        "userPreferred": "Apple-tai no Pilot"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b267221-ggcM9noMgWio.png",
+      "voiceActors": [
+        {
+          "id": 100658,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Moriyama",
+            "full": "Yuuji Moriyama",
+            "native": "森山雄治",
+            "userPreferred": "Yuuji Moriyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100658-hyFqT1x5NkI3.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1296,
+      "relationType": "SEQUEL",
+      "malId": 1296,
+      "title": {
+        "romaji": "PROJECT A-KO 2: Daitokuji Zaibatsu no Inbou",
+        "english": "Project A-Ko 2: The Plot of the Daitokuji Financial Group",
+        "native": "PROJECT A-KO 2 大徳寺財閥の陰謀",
+        "userPreferred": "PROJECT A-KO 2: Daitokuji Zaibatsu no Inbou"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1296.jpg",
+      "color": "#e4ae5d",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1296.jpg",
+      "rating": 60
+    },
+    {
+      "id": 1295,
+      "relationType": "ALTERNATIVE",
+      "malId": 1295,
+      "title": {
+        "romaji": "A-Ko The VS",
+        "english": "Project A-ko: Uncivil Wars",
+        "native": "A-Ko The VS",
+        "userPreferred": "A-Ko The VS"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1295.jpg",
+      "color": "#f1935d",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1295.jpg",
+      "rating": 57
+    }
+  ],
+  "episodes": []
+}

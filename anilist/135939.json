@@ -1,0 +1,652 @@
+{
+  "id": "135939",
+  "title": {
+    "romaji": "Yakunara Mug Cup Mo: Niban Gama",
+    "english": "Let's Make a Mug Too 2",
+    "native": "やくならマグカップも 二番窯"
+  },
+  "malId": 49263,
+  "synonyms": [
+    "วัยฝันปั้นแก้วมัค ภาค 2",
+    "Yakunara Mug Cup Mo 2nd Season"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "oh6OgcKz9f4",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/oh6OgcKz9f4/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135939-ghkWy9Q0MqTe.jpg",
+  "popularity": 5188,
+  "color": "#e48635",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/135939-UKwQQdSfukVV.jpg",
+  "description": "The second season of <i>Yakunara Mug Cup Mo</i>.",
+  "status": "Completed",
+  "releaseDate": 2021,
+  "startDate": {
+    "year": 2021,
+    "month": 10,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2021,
+    "month": 12,
+    "day": 18
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 67,
+  "duration": 15,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Nippon Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 104115,
+      "malId": 38276,
+      "title": {
+        "romaji": "Houkago Saikoro Club",
+        "english": "After School Dice Club",
+        "native": "放課後さいころ倶楽部",
+        "userPreferred": "Houkago Saikoro Club"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104115-7aStzqclhn6z.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104115-hTIuAGYjjAL4.jpg",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 109019,
+      "malId": 39730,
+      "title": {
+        "romaji": "Houkago Teibou Nisshi",
+        "english": "Diary of Our Days at the Breakwater",
+        "native": "放課後ていぼう日誌",
+        "userPreferred": "Houkago Teibou Nisshi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109019-xlrVQRdo1EQi.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109019-CI5tlvudZ3zS.jpg",
+      "rating": 71,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 183024,
+      "role": "MAIN",
+      "name": {
+        "first": "Himeno",
+        "last": "Toyokawa",
+        "full": "Himeno Toyokawa",
+        "native": "豊川姫乃",
+        "userPreferred": "Himeno Toyokawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b183024-5RULWKKtyPmO.png",
+      "voiceActors": [
+        {
+          "id": 118473,
+          "language": "Japanese",
+          "name": {
+            "first": "Minami",
+            "last": "Tanaka",
+            "full": "Minami Tanaka",
+            "native": "田中美海",
+            "userPreferred": "Minami Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118473-VDWNFvFDqodJ.png"
+        }
+      ]
+    },
+    {
+      "id": 183021,
+      "role": "MAIN",
+      "name": {
+        "first": "Mika",
+        "last": "Kukuri",
+        "full": "Mika Kukuri",
+        "native": "久々梨三華",
+        "userPreferred": "Mika Kukuri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b183021-IAmT6XDq1wXX.png",
+      "voiceActors": [
+        {
+          "id": 116515,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Serizawa",
+            "full": "Yuu Serizawa",
+            "native": "芹澤優",
+            "userPreferred": "Yuu Serizawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116515-Bt3kiKlNq1nK.png"
+        }
+      ]
+    },
+    {
+      "id": 183022,
+      "role": "MAIN",
+      "name": {
+        "first": "Tooko",
+        "last": "Aoki",
+        "full": "Tooko Aoki",
+        "native": "青木十子",
+        "userPreferred": "Tooko Aoki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b183022-kHDFRkYvPmEP.png",
+      "voiceActors": [
+        {
+          "id": 125577,
+          "language": "Japanese",
+          "name": {
+            "first": "Rina",
+            "last": "Honizumi",
+            "full": "Rina Honizumi",
+            "native": "本泉莉奈",
+            "userPreferred": "Rina Honizumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n125577-f48HE13krNVR.jpg"
+        }
+      ]
+    },
+    {
+      "id": 183023,
+      "role": "MAIN",
+      "name": {
+        "first": "Naoko",
+        "last": "Naruse",
+        "full": "Naoko Naruse",
+        "native": "成瀬直子",
+        "userPreferred": "Naoko Naruse"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b183023-i3EZxefAdvlf.png",
+      "voiceActors": [
+        {
+          "id": 122697,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Wakai",
+            "full": "Yuuki Wakai",
+            "native": "若井友希",
+            "userPreferred": "Yuuki Wakai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n122697-kpKnvR4VXxmB.png"
+        }
+      ]
+    },
+    {
+      "id": 232792,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tomoya",
+        "last": "Kusano",
+        "full": "Tomoya Kusano",
+        "native": "草野智也",
+        "userPreferred": "Tomoya Kusano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b232792-boMsQ2oGUWZ2.png",
+      "voiceActors": [
+        {
+          "id": 118908,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichirou",
+            "last": "Umehara",
+            "full": "Yuuichirou Umehara",
+            "native": "梅原裕一郎",
+            "userPreferred": "Yuuichirou Umehara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/118908-f16PugVCnZfT.jpg"
+        }
+      ]
+    },
+    {
+      "id": 232794,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yukari",
+        "last": "Oosawa",
+        "full": "Yukari Oosawa",
+        "native": "大沢由香里",
+        "userPreferred": "Yukari Oosawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b232794-wTCoGtyZl7lq.png",
+      "voiceActors": [
+        {
+          "id": 115106,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayaka",
+            "last": "Suwa",
+            "full": "Ayaka Suwa",
+            "native": "諏訪彩花",
+            "userPreferred": "Ayaka Suwa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115106-QsQwmOLeNILr.png"
+        }
+      ]
+    },
+    {
+      "id": 213321,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tokishirou",
+        "last": "Toyokawa",
+        "full": "Tokishirou Toyokawa",
+        "native": "豊川刻四郎",
+        "userPreferred": "Tokishirou Toyokawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b213321-Gi5IzsxEJYyd.png",
+      "voiceActors": [
+        {
+          "id": 115156,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaito",
+            "last": "Ishikawa",
+            "full": "Kaito Ishikawa",
+            "native": "石川界人",
+            "userPreferred": "Kaito Ishikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115156-ngYfqBazlxYQ.png"
+        }
+      ]
+    },
+    {
+      "id": 246041,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Himena",
+        "last": "Toyokawa",
+        "full": "Himena Toyokawa",
+        "native": "豊川姫菜",
+        "userPreferred": "Himena Toyokawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b246041-GAEv2lldFPIW.png",
+      "voiceActors": [
+        {
+          "id": 118663,
+          "language": "Japanese",
+          "name": {
+            "first": "Ari",
+            "last": "Ozawa",
+            "full": "Ari Ozawa",
+            "native": "小澤亜李",
+            "userPreferred": "Ari Ozawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118663-fFzQqJDtYNdA.png"
+        }
+      ]
+    },
+    {
+      "id": 213322,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sachie",
+        "last": "Tokikawa",
+        "full": "Sachie Tokikawa",
+        "native": "土岐川幸恵",
+        "userPreferred": "Sachie Tokikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b213322-C1pwVFBSWtBZ.png",
+      "voiceActors": [
+        {
+          "id": 100929,
+          "language": "Japanese",
+          "name": {
+            "first": "Ako",
+            "last": "Mayama",
+            "full": "Ako Mayama",
+            "native": "真山亜子",
+            "userPreferred": "Ako Mayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100929-yT4l5qIkOG6v.jpg"
+        }
+      ]
+    },
+    {
+      "id": 246042,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ximena",
+        "last": "Valdez",
+        "full": "Ximena Valdez",
+        "native": "ヒメナ・バルデス",
+        "userPreferred": "Ximena Valdez"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b246042-5D5id8mUgViK.png",
+      "voiceActors": [
+        {
+          "id": 127759,
+          "language": "Japanese",
+          "name": {
+            "first": "Sally",
+            "last": "Amaki",
+            "full": "Sally Amaki",
+            "native": "天城サリー",
+            "userPreferred": "Sally Amaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n127759-VOLxd3xnIf3N.jpg"
+        }
+      ]
+    },
+    {
+      "id": 232793,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Juubee",
+        "last": "Aoki",
+        "full": "Juubee Aoki",
+        "native": "青木十兵衛",
+        "userPreferred": "Juubee Aoki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b232793-YWbpTEpNR70h.png",
+      "voiceActors": [
+        {
+          "id": 96484,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsumi",
+            "last": "Suzuki",
+            "full": "Katsumi Suzuki",
+            "native": "鈴木勝美",
+            "userPreferred": "Katsumi Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96484-JL7P92kmdo5L.png"
+        }
+      ]
+    },
+    {
+      "id": 250274,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rio",
+        "last": "Matsuse",
+        "full": "Rio Matsuse",
+        "native": "松瀬理央",
+        "userPreferred": "Rio Matsuse"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b250274-OpzToO0Lsdwa.png",
+      "voiceActors": [
+        {
+          "id": 103921,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Uchida",
+            "full": "Aya Uchida",
+            "native": "内田彩",
+            "userPreferred": "Aya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103921-bnSaJsF0jgH1.png"
+        }
+      ]
+    },
+    {
+      "id": 213320,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mami",
+        "last": "Koizumi",
+        "full": "Mami Koizumi",
+        "native": "小泉真美",
+        "userPreferred": "Mami Koizumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b213320-m0bQGAQzTT90.png",
+      "voiceActors": [
+        {
+          "id": 95968,
+          "language": "Japanese",
+          "name": {
+            "first": "Mana",
+            "last": "Ogawa",
+            "full": "Mana Ogawa",
+            "native": "小川真奈",
+            "userPreferred": "Mana Ogawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95968-BeliRy07NNu7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 256592,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keitarou",
+        "last": "Arai",
+        "full": "Keitarou Arai",
+        "native": "荒井啓太郎",
+        "userPreferred": "Keitarou Arai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b256592-gnK8fA8HQKXa.png",
+      "voiceActors": [
+        {
+          "id": 95262,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenyuu",
+            "last": "Horiuchi",
+            "full": "Kenyuu Horiuchi",
+            "native": "堀内賢雄",
+            "userPreferred": "Kenyuu Horiuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/262.jpg"
+        }
+      ]
+    },
+    {
+      "id": 213909,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mad Demon",
+        "last": null,
+        "full": "Mad Demon",
+        "native": "真土泥右衛門",
+        "userPreferred": "Mad Demon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b213909-dIqzBMnUbLP1.png",
+      "voiceActors": [
+        {
+          "id": 103921,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Uchida",
+            "full": "Aya Uchida",
+            "native": "内田彩",
+            "userPreferred": "Aya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103921-bnSaJsF0jgH1.png"
+        }
+      ]
+    },
+    {
+      "id": 259246,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Kyaku A",
+        "last": null,
+        "full": "Kyaku A",
+        "native": "客A",
+        "userPreferred": "Kyaku A"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b259246-zkmhcEc985w4.png",
+      "voiceActors": [
+        {
+          "id": 131554,
+          "language": "Japanese",
+          "name": {
+            "first": "Soushirou",
+            "last": "Hori",
+            "full": "Soushirou Hori",
+            "native": "堀総士郎",
+            "userPreferred": "Soushirou Hori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n131554-gpNdBDdDPzYI.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 132897,
+      "relationType": "ADAPTATION",
+      "malId": null,
+      "title": {
+        "romaji": "Yakunara Mug Cup Mo",
+        "english": "Yakunara Mug Cup Mo",
+        "native": "やくならマグカップも",
+        "userPreferred": "Yakunara Mug Cup Mo"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx132897-q4dEWuVkSlZ7.png",
+      "color": "#0dbbe4",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx132897-q4dEWuVkSlZ7.png",
+      "rating": 64
+    },
+    {
+      "id": 122148,
+      "relationType": "PREQUEL",
+      "malId": 42568,
+      "title": {
+        "romaji": "Yakunara Mug Cup Mo",
+        "english": "Let's Make a Mug Too",
+        "native": "やくならマグカップも",
+        "userPreferred": "Yakunara Mug Cup Mo"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx122148-KZyKPK3Mj9Lp.jpg",
+      "color": "#e4a1c9",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/122148-EKWiPurqS5nG.jpg",
+      "rating": 63
+    }
+  ],
+  "episodes": [
+    {
+      "id": "yakunara-mug-cup-mo-niban-gama-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135939-ghkWy9Q0MqTe.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yakunara-mug-cup-mo-niban-gama-episode-1"
+    },
+    {
+      "id": "yakunara-mug-cup-mo-niban-gama-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135939-ghkWy9Q0MqTe.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yakunara-mug-cup-mo-niban-gama-episode-2"
+    },
+    {
+      "id": "yakunara-mug-cup-mo-niban-gama-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135939-ghkWy9Q0MqTe.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yakunara-mug-cup-mo-niban-gama-episode-3"
+    },
+    {
+      "id": "yakunara-mug-cup-mo-niban-gama-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135939-ghkWy9Q0MqTe.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yakunara-mug-cup-mo-niban-gama-episode-4"
+    },
+    {
+      "id": "yakunara-mug-cup-mo-niban-gama-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135939-ghkWy9Q0MqTe.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yakunara-mug-cup-mo-niban-gama-episode-5"
+    },
+    {
+      "id": "yakunara-mug-cup-mo-niban-gama-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135939-ghkWy9Q0MqTe.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yakunara-mug-cup-mo-niban-gama-episode-6"
+    },
+    {
+      "id": "yakunara-mug-cup-mo-niban-gama-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135939-ghkWy9Q0MqTe.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yakunara-mug-cup-mo-niban-gama-episode-7"
+    },
+    {
+      "id": "yakunara-mug-cup-mo-niban-gama-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135939-ghkWy9Q0MqTe.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yakunara-mug-cup-mo-niban-gama-episode-8"
+    },
+    {
+      "id": "yakunara-mug-cup-mo-niban-gama-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135939-ghkWy9Q0MqTe.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yakunara-mug-cup-mo-niban-gama-episode-9"
+    },
+    {
+      "id": "yakunara-mug-cup-mo-niban-gama-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135939-ghkWy9Q0MqTe.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yakunara-mug-cup-mo-niban-gama-episode-10"
+    },
+    {
+      "id": "yakunara-mug-cup-mo-niban-gama-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135939-ghkWy9Q0MqTe.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yakunara-mug-cup-mo-niban-gama-episode-11"
+    },
+    {
+      "id": "yakunara-mug-cup-mo-niban-gama-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135939-ghkWy9Q0MqTe.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yakunara-mug-cup-mo-niban-gama-episode-12"
+    }
+  ]
+}

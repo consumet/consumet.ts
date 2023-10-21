@@ -1,0 +1,225 @@
+{
+  "id": "10924",
+  "title": {
+    "romaji": "Queen's Blade OVA",
+    "english": "Queen's Blade OVA",
+    "native": "クイーンズブレイド OVA"
+  },
+  "malId": 10924,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10924.jpg",
+  "popularity": 3359,
+  "color": "#ff9335",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10924.jpg",
+  "description": "OVAs bundled with the Queen's Blade Premium Visual Book and the Queen's Blade Rebellion Premium Visual Book. Both of the episodes will be based on Queen's Blade Rebellion, a sequel to Queen's Blade: Utsukushiki Toushitachi.",
+  "status": "Completed",
+  "releaseDate": 2011,
+  "startDate": {
+    "year": 2011,
+    "month": 10,
+    "day": 29
+  },
+  "endDate": {
+    "year": 2012,
+    "month": 1,
+    "day": 28
+  },
+  "totalEpisodes": 2,
+  "currentEpisode": 2,
+  "rating": 56,
+  "duration": 21,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Ecchi",
+    "Fantasy"
+  ],
+  "season": "FALL",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 20717,
+      "malId": 24135,
+      "title": {
+        "romaji": "Nobunaga Concerto",
+        "english": "Nobunaga Concerto",
+        "native": "信長協奏曲〈コンツェルト〉",
+        "userPreferred": "Nobunaga Concerto"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20717.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20717-6WvQhj0YokHT.jpg",
+      "rating": 71,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 56467,
+      "role": "MAIN",
+      "name": {
+        "first": "Siggy",
+        "last": null,
+        "full": "Siggy",
+        "native": "シギィ",
+        "userPreferred": "Siggy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b56467-o0tHGXiYK4jJ.png",
+      "voiceActors": [
+        {
+          "id": 95034,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Kobayashi",
+            "full": "Yuu Kobayashi",
+            "native": "小林ゆう",
+            "userPreferred": "Yuu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95034-AwobjrcmkMi9.png"
+        }
+      ]
+    },
+    {
+      "id": 52003,
+      "role": "MAIN",
+      "name": {
+        "first": "Annelotte",
+        "last": "Kreutz",
+        "full": "Annelotte Kreutz",
+        "native": "アンネロッテ",
+        "userPreferred": "Annelotte Kreutz"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b52003-u3SjNJTkQkj0.png",
+      "voiceActors": [
+        {
+          "id": 95054,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Endou",
+            "full": "Aya Endou",
+            "native": "遠藤綾",
+            "userPreferred": "Aya Endou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95054-8VgnlGK5QX2A.png"
+        }
+      ]
+    },
+    {
+      "id": 22320,
+      "role": "MAIN",
+      "name": {
+        "first": "Ymir",
+        "last": null,
+        "full": "Ymir",
+        "native": "ユーミル",
+        "userPreferred": "Ymir"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22320.jpg",
+      "voiceActors": [
+        {
+          "id": 95222,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayaka",
+            "last": "Saitou",
+            "full": "Ayaka Saitou",
+            "native": "齋藤彩夏",
+            "userPreferred": "Ayaka Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95222-aS9fwwSk3xZR.png"
+        }
+      ]
+    },
+    {
+      "id": 21138,
+      "role": "MAIN",
+      "name": {
+        "first": "Alleyne",
+        "last": null,
+        "full": "Alleyne",
+        "native": "アレイン",
+        "userPreferred": "Alleyne"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21138.jpg",
+      "voiceActors": [
+        {
+          "id": 95413,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Kitamura",
+            "full": "Eri Kitamura",
+            "native": "喜多村英梨",
+            "userPreferred": "Eri Kitamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95413-FwAIrc8Ishpt.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 8456,
+      "relationType": "PREQUEL",
+      "malId": 8456,
+      "title": {
+        "romaji": "Queen's Blade: Utsukushiki Toushi-tachi",
+        "english": "Queen's Blade: Beautiful Warriors",
+        "native": "クイーンズブレイド 美しき闘士たち",
+        "userPreferred": "Queen's Blade: Utsukushiki Toushi-tachi"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8456.jpg",
+      "color": null,
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8456.jpg",
+      "rating": 60
+    },
+    {
+      "id": 11859,
+      "relationType": "SEQUEL",
+      "malId": 11859,
+      "title": {
+        "romaji": "Queen's Blade: Rebellion",
+        "english": "Queen's Blade Rebellion",
+        "native": "クイーンズブレイド リベリオン",
+        "userPreferred": "Queen's Blade: Rebellion"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11859-YVJI1Sv8b5SC.jpg",
+      "color": "#f18650",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11859-YVJI1Sv8b5SC.jpg",
+      "rating": 57
+    },
+    {
+      "id": 12065,
+      "relationType": "SIDE_STORY",
+      "malId": 12065,
+      "title": {
+        "romaji": "Queen's Blade OVA Specials",
+        "english": "Queen's Blade OVA Specials",
+        "native": "クイーンズブレイド OVA",
+        "userPreferred": "Queen's Blade OVA Specials"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/12065.jpg",
+      "color": null,
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/12065.jpg",
+      "rating": 53
+    }
+  ],
+  "episodes": []
+}

@@ -1,0 +1,842 @@
+{
+  "id": "2577",
+  "title": {
+    "romaji": "Tom Sawyer no Bouken",
+    "english": "The Adventures of Tom Sawyer",
+    "native": "トム・ソーヤーの冒険"
+  },
+  "malId": 2577,
+  "synonyms": [
+    "Sekai Meisaku Gekijou",
+    "World Masterpiece Theater",
+    "WMT"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2577-hQ3UqXtVoHn3.jpg",
+  "popularity": 2299,
+  "color": "#c99335",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2577-PQudkN84UwP2.jpg",
+  "description": "Tom Sawyer is a young boy growing up along the Mississippi River in the mid 1800s. Along with his best friend Huckleberry Finn, he spends his days ditching school, fishing, climbing trees and having adventures.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 1980,
+  "startDate": {
+    "year": 1980,
+    "month": 1,
+    "day": 6
+  },
+  "endDate": {
+    "year": 1980,
+    "month": 12,
+    "day": 28
+  },
+  "totalEpisodes": 49,
+  "currentEpisode": 49,
+  "rating": 67,
+  "duration": 25,
+  "genres": [
+    "Adventure",
+    "Drama",
+    "Slice of Life"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Nippon Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 3110,
+      "malId": 3110,
+      "title": {
+        "romaji": "Kaze no Naka no Shoujo: Kinpatsu no Jeanie",
+        "english": "The Girl in the Wind: Jeanie with the Light Brown Hair",
+        "native": "風の中の少女 金髪のジェニー",
+        "userPreferred": "Kaze no Naka no Shoujo: Kinpatsu no Jeanie"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3110.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3110.jpg",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 2548,
+      "malId": 2548,
+      "title": {
+        "romaji": "Ai no Wakakusa Monogatari",
+        "english": "Tales of Little Women",
+        "native": "愛の若草物語",
+        "userPreferred": "Ai no Wakakusa Monogatari"
+      },
+      "status": "Completed",
+      "episodes": 48,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2548-hTF8lyM7Tqq3.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2548-RXvb3cqfo2r3.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 283,
+      "malId": 283,
+      "title": {
+        "romaji": "Akage no Anne",
+        "english": "Anne of Green Gables",
+        "native": "赤毛のアン",
+        "userPreferred": "Akage no Anne"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx283-SfZh7XERqZjy.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/283-ayiNXKSSQpE7.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 127549,
+      "malId": 45425,
+      "title": {
+        "romaji": "Slow Loop",
+        "english": "Slow Loop",
+        "native": "スローループ",
+        "userPreferred": "Slow Loop"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127549-fr324YPdXb3D.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127549-9j4uHXMStHGX.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 109019,
+      "malId": 39730,
+      "title": {
+        "romaji": "Houkago Teibou Nisshi",
+        "english": "Diary of Our Days at the Breakwater",
+        "native": "放課後ていぼう日誌",
+        "userPreferred": "Houkago Teibou Nisshi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109019-xlrVQRdo1EQi.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109019-CI5tlvudZ3zS.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 7216,
+      "malId": 7216,
+      "title": {
+        "romaji": "Sekai Douwa Anime Zenshuu",
+        "english": null,
+        "native": "世界童話アニメ全集",
+        "userPreferred": "Sekai Douwa Anime Zenshuu"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7216.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7216.jpg",
+      "rating": 55,
+      "type": "OVA"
+    },
+    {
+      "id": 3631,
+      "malId": 3631,
+      "title": {
+        "romaji": "Aoi Blink",
+        "english": "Blue Blink",
+        "native": "青いブリンク",
+        "userPreferred": "Aoi Blink"
+      },
+      "status": "Completed",
+      "episodes": 39,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "rating": 55,
+      "type": "TV"
+    },
+    {
+      "id": 4800,
+      "malId": 4800,
+      "title": {
+        "romaji": "Huckleberry Finn Monogatari",
+        "english": null,
+        "native": "ハックルベリー・フィン物語",
+        "userPreferred": "Huckleberry Finn Monogatari"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4800-kGp5fI1svKxb.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4800-kGp5fI1svKxb.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 18731,
+      "malId": 18731,
+      "title": {
+        "romaji": "Bokutachi no Peace River",
+        "english": null,
+        "native": "ぼくたちのピース・リバー",
+        "userPreferred": "Bokutachi no Peace River"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18731.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18731.jpg",
+      "rating": 42,
+      "type": "OVA"
+    },
+    {
+      "id": 1375,
+      "malId": 1375,
+      "title": {
+        "romaji": "Watashi no Ashinaga Oji-san",
+        "english": "My Daddy Long Legs",
+        "native": "私のあしながおじさん",
+        "userPreferred": "Watashi no Ashinaga Oji-san"
+      },
+      "status": "Completed",
+      "episodes": 40,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1375-PRblyvQtNgNm.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1375-xY92v5E1lnuZ.jpg",
+      "rating": 72,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 9485,
+      "role": "MAIN",
+      "name": {
+        "first": "Tom",
+        "last": "Sawyer",
+        "full": "Tom Sawyer",
+        "native": "トム・ソーヤー",
+        "userPreferred": "Tom Sawyer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9485.jpg",
+      "voiceActors": [
+        {
+          "id": 95557,
+          "language": "Japanese",
+          "name": {
+            "first": "Masako",
+            "last": "Nozawa",
+            "full": "Masako Nozawa",
+            "native": "野沢雅子",
+            "userPreferred": "Masako Nozawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95557-5a2nnIBK05ul.png"
+        },
+        {
+          "id": 96098,
+          "language": "Italian",
+          "name": {
+            "first": "Massimiliano",
+            "last": "Manfredi",
+            "full": "Massimiliano Manfredi",
+            "native": null,
+            "userPreferred": "Massimiliano Manfredi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1098.jpg"
+        },
+        {
+          "id": 161064,
+          "language": "French",
+          "name": {
+            "first": "Francette",
+            "last": "Vernillat",
+            "full": "Francette Vernillat",
+            "native": null,
+            "userPreferred": "Francette Vernillat"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 103434,
+          "language": "German",
+          "name": {
+            "first": "Fabian",
+            "last": "Hollwitz",
+            "full": "Fabian Hollwitz",
+            "native": null,
+            "userPreferred": "Fabian Hollwitz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8434.jpg"
+        },
+        {
+          "id": 106967,
+          "language": "Hebrew",
+          "name": {
+            "first": "Shai",
+            "last": "Zornitzer",
+            "full": "Shai Zornitzer",
+            "native": null,
+            "userPreferred": "Shai Zornitzer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11967.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9487,
+      "role": "MAIN",
+      "name": {
+        "first": "Huckleberry",
+        "last": "Finn",
+        "full": "Huckleberry Finn",
+        "native": "ハックルベリー・フィン",
+        "userPreferred": "Huckleberry Finn"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9487.jpg",
+      "voiceActors": [
+        {
+          "id": 95636,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuyo",
+            "last": "Aoki",
+            "full": "Kazuyo Aoki",
+            "native": "青木和代",
+            "userPreferred": "Kazuyo Aoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95636-wyP4k5BrcAZn.jpg"
+        },
+        {
+          "id": 110135,
+          "language": "Korean",
+          "name": {
+            "first": "Do Yeong",
+            "last": "Song",
+            "full": "Do Yeong Song",
+            "native": "도영송",
+            "userPreferred": "Do Yeong Song"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15135.jpg"
+        },
+        {
+          "id": 161066,
+          "language": "Italian",
+          "name": {
+            "first": "Christian",
+            "last": "Fassetta",
+            "full": "Christian Fassetta",
+            "native": null,
+            "userPreferred": "Christian Fassetta"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 96589,
+          "language": "French",
+          "name": {
+            "first": "Jackie",
+            "last": "Berger",
+            "full": "Jackie Berger",
+            "native": null,
+            "userPreferred": "Jackie Berger"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1589.jpg"
+        },
+        {
+          "id": 161065,
+          "language": "French",
+          "name": {
+            "first": "Marcelle",
+            "last": "Lajeunesse",
+            "full": "Marcelle Lajeunesse",
+            "native": null,
+            "userPreferred": "Marcelle Lajeunesse"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 2545,
+      "relationType": "CHARACTER",
+      "malId": 2545,
+      "title": {
+        "romaji": "Huckleberry no Bouken",
+        "english": null,
+        "native": "ハックルベリィの冒険",
+        "userPreferred": "Huckleberry no Bouken"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2545.jpg",
+      "color": "#f1a11a",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2545.jpg",
+      "rating": 56
+    },
+    {
+      "id": 40276,
+      "relationType": "ALTERNATIVE",
+      "malId": 10276,
+      "title": {
+        "romaji": "Tom Sawyer",
+        "english": null,
+        "native": "トムソーヤ",
+        "userPreferred": "Tom Sawyer"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/10276.jpg",
+      "color": null,
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/10276.jpg",
+      "rating": 69
+    }
+  ],
+  "episodes": [
+    {
+      "id": "tom-sawyer-no-bouken-episode-1",
+      "title": "My friend Huck",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28842/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-1"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-2",
+      "title": "A fun punishment",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28843/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-2"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-3",
+      "title": "Love at first sight",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28844/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-3"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-4",
+      "title": "The Magic spell",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28845/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-4"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-5",
+      "title": "Becky doesn't remember me",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28846/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-5"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-6",
+      "title": "Huck's House",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28847/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-6"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-7",
+      "title": "The rival",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28848/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-7"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-8",
+      "title": "Panic at Board",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28849/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-8"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-9",
+      "title": "Aunt Polly is ill",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28850/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-9"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-10",
+      "title": "Joe, the Indian",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28851/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-10"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2577-hQ3UqXtVoHn3.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-11"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-12",
+      "title": "Becky gets Sad",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28853/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-12"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-13",
+      "title": "Tom and the pirates",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28854/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-13"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-14",
+      "title": "Pirates don't go to School",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28855/original.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-14"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-15",
+      "title": " Poor aunt Polly",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28856/original.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-15"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-16",
+      "title": "The funeral",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28857/original.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-16"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-17",
+      "title": "Back to School",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28858/original.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-17"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-18",
+      "title": "make peace is not easy",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28859/original.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-18"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-19",
+      "title": "racing frogs",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28860/original.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-19"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-20",
+      "title": "The teacher's Secret",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28861/original.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-20"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-21",
+      "title": "Summer vacation",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28862/original.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-21"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-22",
+      "title": "The medicine",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28863/original.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-22"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-23",
+      "title": "A day of fishing",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28864/original.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-23"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-24",
+      "title": "The adoption",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28865/original.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-24"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-25",
+      "title": "The champion",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28866/original.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-25"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-26",
+      "title": "The little actress",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28867/original.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-26"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-27",
+      "title": "The rising of the curtain",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28868/original.jpg",
+      "number": 27,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-27"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-28",
+      "title": "Helping Lisette",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28869/original.jpg",
+      "number": 28,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-28"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-29",
+      "title": "A sad goodbye",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28870/original.jpg",
+      "number": 29,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-29"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-30",
+      "title": "Huck's father",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28871/original.jpg",
+      "number": 30,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-30"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-31",
+      "title": "The candlestick",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28872/original.jpg",
+      "number": 31,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-31"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-32",
+      "title": "Gold fever",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28873/original.jpg",
+      "number": 32,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-32"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-33",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2577-hQ3UqXtVoHn3.jpg",
+      "number": 33,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-33"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-34",
+      "title": "The man that came from the Sky",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28875/original.jpg",
+      "number": 34,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-34"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-35",
+      "title": "I want to fly on the Sky",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28876/original.jpg",
+      "number": 35,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-35"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-36",
+      "title": "We are gonna fix the balloon",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28877/original.jpg",
+      "number": 36,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-36"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-37",
+      "title": "The view from the Sky",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28878/original.jpg",
+      "number": 37,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-37"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-38",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2577-hQ3UqXtVoHn3.jpg",
+      "number": 38,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-38"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-39",
+      "title": "Consciousness",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28880/original.jpg",
+      "number": 39,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-39"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-40",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2577-hQ3UqXtVoHn3.jpg",
+      "number": 40,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-40"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-41",
+      "title": "Where's Joe the Indian?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28882/original.jpg",
+      "number": 41,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-41"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-42",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2577-hQ3UqXtVoHn3.jpg",
+      "number": 42,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-42"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-43",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2577-hQ3UqXtVoHn3.jpg",
+      "number": 43,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-43"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-44",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2577-hQ3UqXtVoHn3.jpg",
+      "number": 44,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-44"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-45",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2577-hQ3UqXtVoHn3.jpg",
+      "number": 45,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-45"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-46",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2577-hQ3UqXtVoHn3.jpg",
+      "number": 46,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-46"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-47",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2577-hQ3UqXtVoHn3.jpg",
+      "number": 47,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-47"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-48",
+      "title": "The death of Joe the Indian",
+      "image": "https://media.kitsu.io/episodes/thumbnails/28889/original.jpg",
+      "number": 48,
+      "createdAt": "2013-02-20T18:23:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-48"
+    },
+    {
+      "id": "tom-sawyer-no-bouken-episode-49",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2577-hQ3UqXtVoHn3.jpg",
+      "number": 49,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//tom-sawyer-no-bouken-episode-49"
+    }
+  ]
+}

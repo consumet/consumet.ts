@@ -1,0 +1,974 @@
+{
+  "id": "101367",
+  "title": {
+    "romaji": "Majutsushi Orphen Hagure Tabi",
+    "english": "Sorcerous Stabber Orphen",
+    "native": "魔術士オーフェンはぐれ旅"
+  },
+  "malId": 37576,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "WG_Wi6ixBMg",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/WG_Wi6ixBMg/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101367-8z688YGVx0C3.jpg",
+  "popularity": 17261,
+  "color": "#e4bb5d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101367-VaO36ryPRywI.jpg",
+  "description": "Orphen is a powerful Sorcerer who’s notoriously lazy. But everything changes when he discovers a way to save his sister who was turned into a dragon during their days at the academy. Now he’ll stop at nothing to save her, even if he has to go it alone!<br>\n<br>(Source: Funimation)",
+  "status": "Completed",
+  "releaseDate": 2020,
+  "startDate": {
+    "year": 2020,
+    "month": 1,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2020,
+    "month": 3,
+    "day": 31
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 54,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Studio DEEN"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 21700,
+      "malId": 32951,
+      "title": {
+        "romaji": "Rokudenashi Majutsu Koushi to Akashic Records",
+        "english": "Akashic Records of Bastard Magic Instructor",
+        "native": "ロクでなし魔術講師と禁忌教典(アカシックレコード)",
+        "userPreferred": "Rokudenashi Majutsu Koushi to Akashic Records"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21700-HhTEXPZKxupP.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21700-3JaMOphL8VGr.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 7088,
+      "malId": 7088,
+      "title": {
+        "romaji": "Ichiban Ushiro no Daimaou",
+        "english": "Demon King Daimao",
+        "native": "いちばんうしろの大魔王",
+        "userPreferred": "Ichiban Ushiro no Daimaou"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7088-Y38q7jaBwlTZ.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7088-Ty2MX5FwLwhQ.jpg",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 16011,
+      "malId": 16011,
+      "title": {
+        "romaji": "Tokyo Ravens",
+        "english": "Tokyo Ravens",
+        "native": "東京レイヴンズ",
+        "userPreferred": "Tokyo Ravens"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16011-orxVpks3jG9U.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16011.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 20592,
+      "malId": 21033,
+      "title": {
+        "romaji": "Seikoku no Dragonar",
+        "english": "Dragonar Academy",
+        "native": "星刻の竜騎士",
+        "userPreferred": "Seikoku no Dragonar"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20592-73cVDt2rjmfq.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20592-9DWv7633Lz8R.jpg",
+      "rating": 59,
+      "type": "TV"
+    },
+    {
+      "id": 101168,
+      "malId": 37345,
+      "title": {
+        "romaji": "Plunderer",
+        "english": "Plunderer",
+        "native": "プランダラ",
+        "userPreferred": "Plunderer"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101168-LY3XA61byAVo.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101168-55dmHGtGlJOY.jpg",
+      "rating": 62,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 1411,
+      "role": "MAIN",
+      "name": {
+        "first": "Orphen",
+        "last": null,
+        "full": "Orphen",
+        "native": "オーフェン",
+        "userPreferred": "Orphen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n1411-dKMaZJPRUXLW.jpg",
+      "voiceActors": [
+        {
+          "id": 95178,
+          "language": "Japanese",
+          "name": {
+            "first": "Shoutarou",
+            "last": "Morikubo",
+            "full": "Shoutarou Morikubo",
+            "native": "森久保祥太郎",
+            "userPreferred": "Shoutarou Morikubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95178-8R9Itg3Y1v24.png"
+        },
+        {
+          "id": 95379,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Matranga",
+            "full": "David Matranga",
+            "native": null,
+            "userPreferred": "David Matranga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95379-GMh9EncYDh5n.png"
+        }
+      ]
+    },
+    {
+      "id": 5758,
+      "role": "MAIN",
+      "name": {
+        "first": "Cleao",
+        "last": "Everlasting",
+        "full": "Cleao Everlasting",
+        "native": "クリーオウ・エバーラスティン",
+        "userPreferred": "Cleao Everlasting"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5758-qqcFHAAlNEQI.png",
+      "voiceActors": [
+        {
+          "id": 107041,
+          "language": "Japanese",
+          "name": {
+            "first": "Rumi",
+            "last": "Ookubo",
+            "full": "Rumi Ookubo",
+            "native": "大久保瑠美",
+            "userPreferred": "Rumi Ookubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107041-ZqPloXZhcuQw.jpg"
+        },
+        {
+          "id": 119619,
+          "language": "English",
+          "name": {
+            "first": "Sarah",
+            "last": "Wiedenheft",
+            "full": "Sarah Wiedenheft",
+            "native": null,
+            "userPreferred": "Sarah Wiedenheft"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119619-ozgAK9to6Ijy.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5656,
+      "role": "MAIN",
+      "name": {
+        "first": "Majic",
+        "last": "Lin",
+        "full": "Majic Lin",
+        "native": "マジク・リン",
+        "userPreferred": "Majic Lin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5656-DgU1N9wT0ury.png",
+      "voiceActors": [
+        {
+          "id": 118407,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuusuke",
+            "last": "Kobayashi",
+            "full": "Yuusuke Kobayashi",
+            "native": "小林裕介",
+            "userPreferred": "Yuusuke Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118407-QvEt3bGtuRQM.png"
+        },
+        {
+          "id": 151665,
+          "language": "English",
+          "name": {
+            "first": "Ry",
+            "last": "McKeand",
+            "full": "Ry McKeand",
+            "native": null,
+            "userPreferred": "Ry McKeand"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n151665-KMdBXL0Bw34n.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10548,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Leticia",
+        "last": "Macredy",
+        "full": "Leticia Macredy",
+        "native": "レティシャ・マクレディ",
+        "userPreferred": "Leticia Macredy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10548-IuFnfqUxwsrP.png",
+      "voiceActors": [
+        {
+          "id": 95093,
+          "language": "Japanese",
+          "name": {
+            "first": "Shizuka",
+            "last": "Itou",
+            "full": "Shizuka Itou",
+            "native": "伊藤静",
+            "userPreferred": "Shizuka Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95093-MApaH7qqtmVN.jpg"
+        },
+        {
+          "id": 119697,
+          "language": "English",
+          "name": {
+            "first": "Mallorie",
+            "last": "Rodak",
+            "full": "Mallorie Rodak",
+            "native": null,
+            "userPreferred": "Mallorie Rodak"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/24697-qQBZowFoHEye.jpg"
+        }
+      ]
+    },
+    {
+      "id": 229300,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Istersiva",
+        "last": null,
+        "full": "Istersiva",
+        "native": "イスターシバ",
+        "userPreferred": "Istersiva"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b229300-s4kpVR1LyJ79.png",
+      "voiceActors": []
+    },
+    {
+      "id": 1406,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Volkan",
+        "last": null,
+        "full": "Volkan",
+        "native": "ボルカン",
+        "userPreferred": "Volkan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1406.jpg",
+      "voiceActors": [
+        {
+          "id": 151335,
+          "language": "Japanese",
+          "name": {
+            "first": "Marie",
+            "last": "Mizuno",
+            "full": "Marie Mizuno",
+            "native": "水野まりえ",
+            "userPreferred": "Marie Mizuno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n151335-cEvPPtEI720m.jpg"
+        },
+        {
+          "id": 95414,
+          "language": "English",
+          "name": {
+            "first": "Brittney",
+            "last": "Karbowski",
+            "full": "Brittney Karbowski",
+            "native": null,
+            "userPreferred": "Brittney Karbowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/414.jpg"
+        }
+      ]
+    },
+    {
+      "id": 152247,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Komikuron",
+        "last": null,
+        "full": "Komikuron",
+        "native": "コミクロン",
+        "userPreferred": "Komikuron"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b152247-kGcjqAlvRRKA.png",
+      "voiceActors": [
+        {
+          "id": 128786,
+          "language": "Japanese",
+          "name": {
+            "first": "Rikuya",
+            "last": "Yasuda",
+            "full": "Rikuya Yasuda",
+            "native": "安田陸矢",
+            "userPreferred": "Rikuya Yasuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n128786-52fsMpv7qvCl.png"
+        },
+        {
+          "id": 120210,
+          "language": "English",
+          "name": {
+            "first": "Dallas",
+            "last": "Reid",
+            "full": "Dallas Reid",
+            "native": null,
+            "userPreferred": "Dallas Reid"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/25210-PTiFY10eR40X.jpg"
+        }
+      ]
+    },
+    {
+      "id": 229299,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Salua",
+        "last": null,
+        "full": "Salua",
+        "native": "サルア",
+        "userPreferred": "Salua"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b229299-QYcxmm9AbOD5.png",
+      "voiceActors": [
+        {
+          "id": 118985,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshiyuki",
+            "last": "Shimozuma",
+            "full": "Yoshiyuki Shimozuma",
+            "native": "下妻由幸",
+            "userPreferred": "Yoshiyuki Shimozuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118985-0pGtsWEQ0uXK.png"
+        }
+      ]
+    },
+    {
+      "id": 152249,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Swain",
+        "last": null,
+        "full": "Swain",
+        "native": "スエイン",
+        "userPreferred": "Swain"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b152249-ZDuTyjbcaHkD.png",
+      "voiceActors": [
+        {
+          "id": 95270,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuhiko",
+            "last": "Okamoto",
+            "full": "Nobuhiko Okamoto",
+            "native": "岡本信彦",
+            "userPreferred": "Nobuhiko Okamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95270-LqNIF238L59u.png"
+        },
+        {
+          "id": 127748,
+          "language": "English",
+          "name": {
+            "first": "Josh",
+            "last": "Bangle",
+            "full": "Josh Bangle",
+            "native": null,
+            "userPreferred": "Josh Bangle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n127748-u3HPb1cuCo8o.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1407,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dortin",
+        "last": null,
+        "full": "Dortin",
+        "native": "ドーチン",
+        "userPreferred": "Dortin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1407-T2MBA450E3Zm.png",
+      "voiceActors": [
+        {
+          "id": 104593,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Fuchigami",
+            "full": "Mai Fuchigami",
+            "native": "渕上舞",
+            "userPreferred": "Mai Fuchigami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104593-yZz5rvm3oIXH.png"
+        },
+        {
+          "id": 111643,
+          "language": "English",
+          "name": {
+            "first": "Apphia",
+            "last": "Yu",
+            "full": "Apphia Yu",
+            "native": null,
+            "userPreferred": "Apphia Yu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111643-sUnmaZ8MeT1S.jpg"
+        }
+      ]
+    },
+    {
+      "id": 152250,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hydrant",
+        "last": null,
+        "full": "Hydrant",
+        "native": "ハイドラント",
+        "userPreferred": "Hydrant"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b152250-FCej1y8hOnKA.png",
+      "voiceActors": [
+        {
+          "id": 95283,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroyuki",
+            "last": "Yoshino",
+            "full": "Hiroyuki Yoshino",
+            "native": "吉野裕行",
+            "userPreferred": "Hiroyuki Yoshino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95283-g76zV4YacFfm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 152251,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Uoar",
+        "last": "Curlaine",
+        "full": "Uoar Curlaine",
+        "native": "ウオール・カーレン",
+        "userPreferred": "Uoar Curlaine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b152251-ST0RO68WO9VZ.png",
+      "voiceActors": [
+        {
+          "id": 95591,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenjirou",
+            "last": "Tsuda",
+            "full": "Kenjirou Tsuda",
+            "native": "津田健次郎",
+            "userPreferred": "Kenjirou Tsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95591-WQGdD3ubbeoq.jpg"
+        },
+        {
+          "id": 95480,
+          "language": "English",
+          "name": {
+            "first": "R. Bruce",
+            "last": "Elliott",
+            "full": "R. Bruce Elliott",
+            "native": null,
+            "userPreferred": "R. Bruce Elliott"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/480.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40254,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Childman",
+        "last": "Powderfield",
+        "full": "Childman Powderfield",
+        "native": "チャイルドマン・パウダーフィールド",
+        "userPreferred": "Childman Powderfield"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40254.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        },
+        {
+          "id": 96602,
+          "language": "English",
+          "name": {
+            "first": "J. Michael",
+            "last": "Tatum",
+            "full": "J. Michael Tatum",
+            "native": "John Michael Tatum",
+            "userPreferred": "J. Michael Tatum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96602-ztTfuo3nzu5t.png"
+        }
+      ]
+    },
+    {
+      "id": 153415,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Forte",
+        "last": "Packingham",
+        "full": "Forte Packingham",
+        "native": "フォルテ・ パッキンガム",
+        "userPreferred": "Forte Packingham"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b153415-OeJbiw8VQufg.png",
+      "voiceActors": [
+        {
+          "id": 96489,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoaki",
+            "last": "Maeno",
+            "full": "Tomoaki Maeno",
+            "native": "前野智昭",
+            "userPreferred": "Tomoaki Maeno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96489-xTzYxgdC9g9l.png"
+        },
+        {
+          "id": 104087,
+          "language": "English",
+          "name": {
+            "first": "Ian",
+            "last": "Sinclair",
+            "full": "Ian Sinclair",
+            "native": null,
+            "userPreferred": "Ian Sinclair"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104087-3g10GTeSoeuW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5759,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Heartia",
+        "last": "Allenford",
+        "full": "Heartia Allenford",
+        "native": "ハーティア・ アーレンフォード",
+        "userPreferred": "Heartia Allenford"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5759.jpg",
+      "voiceActors": [
+        {
+          "id": 151336,
+          "language": "Japanese",
+          "name": {
+            "first": "Taito",
+            "last": "Ban",
+            "full": "Taito Ban",
+            "native": "坂泰斗",
+            "userPreferred": "Taito Ban"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n151336-UiJpyoiQHAOU.png"
+        },
+        {
+          "id": 96047,
+          "language": "English",
+          "name": {
+            "first": "Jessie James",
+            "last": "Grelle",
+            "full": "Jessie James Grelle",
+            "native": null,
+            "userPreferred": "Jessie James Grelle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96047-E9nBWn3YL0Tn.jpg"
+        }
+      ]
+    },
+    {
+      "id": 166653,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tishtiny",
+        "last": "Everlasting",
+        "full": "Tishtiny Everlasting",
+        "native": "ティシティニー",
+        "userPreferred": "Tishtiny Everlasting"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b166653-c4jui9FKhneF.png",
+      "voiceActors": [
+        {
+          "id": 159491,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Sano",
+            "full": "Megumi Sano",
+            "native": "佐野愛",
+            "userPreferred": "Megumi Sano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n159491-1GmAgeVXeMEs.png"
+        }
+      ]
+    },
+    {
+      "id": 9685,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Azalie",
+        "last": "Cait-Sith",
+        "full": "Azalie Cait-Sith",
+        "native": "アザリー・ ケットシー",
+        "userPreferred": "Azalie Cait-Sith"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9685-Vayp0r3pJsBG.png",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        },
+        {
+          "id": 105881,
+          "language": "English",
+          "name": {
+            "first": "Lindsay",
+            "last": "Seidel",
+            "full": "Lindsay Seidel",
+            "native": null,
+            "userPreferred": "Lindsay Seidel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105881-R2gLLpOtfReq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 203937,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Mura no Otokotachi",
+        "last": "",
+        "full": "Mura no Otokotachi",
+        "native": "村の男たち",
+        "userPreferred": "Mura no Otokotachi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b203937-dvhXFB3RQIGR.png",
+      "voiceActors": [
+        {
+          "id": 127606,
+          "language": "Japanese",
+          "name": {
+            "first": "Satoshi",
+            "last": "Shibasaki",
+            "full": "Satoshi Shibasaki",
+            "native": "柴崎哲志",
+            "userPreferred": "Satoshi Shibasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n127606-VoQYJaafquNw.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1017,
+      "relationType": "ALTERNATIVE",
+      "malId": 1017,
+      "title": {
+        "romaji": "Majutsushi Orphen",
+        "english": "Orphen",
+        "native": "魔術士オーフェン",
+        "userPreferred": "Majutsushi Orphen"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1017-tPKIClRY3XhN.jpg",
+      "color": "#f1a135",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1017-yXTNK95rFOsA.png",
+      "rating": 67
+    },
+    {
+      "id": 69745,
+      "relationType": "ADAPTATION",
+      "malId": 39745,
+      "title": {
+        "romaji": "Majutsushi Orphen",
+        "english": "Sorcerous Stabber Orphen: The Wayward Journey",
+        "native": "魔術士オーフェン",
+        "userPreferred": "Majutsushi Orphen"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx69745-NNIsBqIUHMcY.png",
+      "color": "#ffd635",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/69745-jdPzm9IUIM0D.jpg",
+      "rating": 73
+    },
+    {
+      "id": 115651,
+      "relationType": "SEQUEL",
+      "malId": 41549,
+      "title": {
+        "romaji": "Majutsushi Orphen Hagure Tabi: Tenjin no Isan",
+        "english": "Sorcerous Stabber Orphen: Celestial Artifacts",
+        "native": "魔術士オーフェンはぐれ旅 天人の遺産 ",
+        "userPreferred": "Majutsushi Orphen Hagure Tabi: Tenjin no Isan"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115651-KuMrmCmjkkyh.jpg",
+      "color": "#febb50",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115651-KuMrmCmjkkyh.jpg",
+      "rating": 58
+    },
+    {
+      "id": 104143,
+      "relationType": "ALTERNATIVE",
+      "malId": null,
+      "title": {
+        "romaji": "Majutsushi Orphen Hagure Tabi: Waga Yobigoe ni Kotae yo, Shishi",
+        "english": "Sorcerous Stabber Orphen: Heed My Call, Beast!",
+        "native": "魔術士オーフェンはぐれ旅 我が呼び声に応えよ獣",
+        "userPreferred": "Majutsushi Orphen Hagure Tabi: Waga Yobigoe ni Kotae yo, Shishi"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx104143-1aM2u3b4NFbw.jpg",
+      "color": "#bbe4f1",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx104143-1aM2u3b4NFbw.jpg",
+      "rating": 66
+    },
+    {
+      "id": 121032,
+      "relationType": "ALTERNATIVE",
+      "malId": null,
+      "title": {
+        "romaji": "Majutsushi Orphen Haguretabi: Waga Mei ni Shitagae Doll  ",
+        "english": null,
+        "native": "魔術士オーフェンはぐれ旅 我が命にしたがえ機械（ドール）",
+        "userPreferred": "Majutsushi Orphen Haguretabi: Waga Mei ni Shitagae Doll  "
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx121032-okPNHmdufOOz.jpg",
+      "color": "#a1c9e4",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx121032-okPNHmdufOOz.jpg",
+      "rating": 65
+    },
+    {
+      "id": 121033,
+      "relationType": "ALTERNATIVE",
+      "malId": null,
+      "title": {
+        "romaji": "Majutsushi Orphen Haguretabi: Waga Mune de Nemure Bourei",
+        "english": null,
+        "native": "魔術士オーフェンはぐれ旅 我が胸で眠れ亡霊",
+        "userPreferred": "Majutsushi Orphen Haguretabi: Waga Mune de Nemure Bourei"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx121033-o2Emh4TN1BsE.jpg",
+      "color": "#ffe4ae",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx121033-o2Emh4TN1BsE.jpg",
+      "rating": 60
+    }
+  ],
+  "episodes": [
+    {
+      "id": "majutsushi-orphen-hagure-tabi-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101367-8z688YGVx0C3.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-episode-1"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101367-8z688YGVx0C3.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-episode-2"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101367-8z688YGVx0C3.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-episode-3"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101367-8z688YGVx0C3.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-episode-4"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101367-8z688YGVx0C3.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-episode-5"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101367-8z688YGVx0C3.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-episode-6"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101367-8z688YGVx0C3.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-episode-7"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101367-8z688YGVx0C3.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-episode-8"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101367-8z688YGVx0C3.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-episode-9"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101367-8z688YGVx0C3.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-episode-10"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101367-8z688YGVx0C3.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-episode-11"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101367-8z688YGVx0C3.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-episode-12"
+    },
+    {
+      "id": "majutsushi-orphen-hagure-tabi-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101367-8z688YGVx0C3.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//majutsushi-orphen-hagure-tabi-episode-13"
+    }
+  ]
+}

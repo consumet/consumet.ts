@@ -1,0 +1,1213 @@
+{
+  "id": "107993",
+  "title": {
+    "romaji": "SUPER SHIRO",
+    "english": null,
+    "native": "SUPER SHIRO"
+  },
+  "malId": 39183,
+  "synonyms": [
+    "スーパーシロ"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+  "popularity": 1039,
+  "color": "#f1e443",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107993-62dJNGchYGET.jpg",
+  "description": "Shin's pet dog, Shiro, may look normal but he's actually a superhero who protects the world.",
+  "status": "Completed",
+  "releaseDate": 2019,
+  "startDate": {
+    "year": 2019,
+    "month": 10,
+    "day": 14
+  },
+  "endDate": {
+    "year": 2020,
+    "month": 9,
+    "day": 7
+  },
+  "totalEpisodes": 48,
+  "currentEpisode": 48,
+  "rating": 53,
+  "duration": 6,
+  "genres": [],
+  "season": "FALL",
+  "studios": [
+    "Science SARU"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 20057,
+      "malId": 20057,
+      "title": {
+        "romaji": "Space☆Dandy",
+        "english": "Space Dandy",
+        "native": "スペース☆ダンディ",
+        "userPreferred": "Space☆Dandy"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20057-yMtjgvyi8x7w.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20057.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 7785,
+      "malId": 7785,
+      "title": {
+        "romaji": "Yojouhan Shinwa Taikei",
+        "english": "The Tatami Galaxy",
+        "native": "四畳半神話大系",
+        "userPreferred": "Yojouhan Shinwa Taikei"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx7785-TMqYIFkWDCgy.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7785.jpg",
+      "rating": 85,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 7856,
+      "role": "MAIN",
+      "name": {
+        "first": "Shiro",
+        "last": null,
+        "full": "Shiro",
+        "native": "シロ",
+        "userPreferred": "Shiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7856.jpg",
+      "voiceActors": [
+        {
+          "id": 100998,
+          "language": "Japanese",
+          "name": {
+            "first": "Mari",
+            "last": "Mashiba",
+            "full": "Mari Mashiba",
+            "native": "真柴摩利",
+            "userPreferred": "Mari Mashiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5998.jpg"
+        }
+      ]
+    },
+    {
+      "id": 151958,
+      "role": "MAIN",
+      "name": {
+        "first": "Dekapoo",
+        "last": null,
+        "full": "Dekapoo",
+        "native": "デカプー",
+        "userPreferred": "Dekapoo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151958-L0jcgSLQec1k.png",
+      "voiceActors": [
+        {
+          "id": 165939,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshida",
+            "last": "Sousuke",
+            "full": "Yoshida Sousuke",
+            "native": "吉田奏佑",
+            "userPreferred": "Yoshida Sousuke"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n165939-zSuFuWasxjcI.png"
+        },
+        {
+          "id": 95756,
+          "language": "Japanese",
+          "name": {
+            "first": "Anri",
+            "last": "Katsu",
+            "full": "Anri Katsu",
+            "native": "勝杏里",
+            "userPreferred": "Anri Katsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95756-MmmuyQK4Thzl.png"
+        }
+      ]
+    },
+    {
+      "id": 163688,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Info Robot",
+        "last": null,
+        "full": "Info Robot",
+        "native": "インフォロボ",
+        "userPreferred": "Info Robot"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b163688-fhDrhRAAt4Gj.png",
+      "voiceActors": [
+        {
+          "id": 162957,
+          "language": "Japanese",
+          "name": {
+            "first": "Naomi",
+            "last": "Sano",
+            "full": "Naomi Sano",
+            "native": "佐野尚美",
+            "userPreferred": "Naomi Sano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n162957-SUkEaCEXXPIM.png"
+        }
+      ]
+    },
+    {
+      "id": 174682,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kamitsukigame",
+        "last": null,
+        "full": "Kamitsukigame",
+        "native": "カミツキガメ",
+        "userPreferred": "Kamitsukigame"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174682-PTFkmZLyEaGs.png",
+      "voiceActors": [
+        {
+          "id": 174684,
+          "language": "Japanese",
+          "name": {
+            "first": "Akihiro",
+            "last": "Tajima",
+            "full": "Akihiro Tajima",
+            "native": "田島章寛",
+            "userPreferred": "Akihiro Tajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n174684-6XVMWBLjpRUY.png"
+        }
+      ]
+    },
+    {
+      "id": 184415,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Diogenes",
+        "last": null,
+        "full": "Diogenes",
+        "native": "ディオゲネス",
+        "userPreferred": "Diogenes"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b184415-K5grJ9KadXV5.png",
+      "voiceActors": [
+        {
+          "id": 96762,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouhei",
+            "last": "Kimura",
+            "full": "Ryouhei Kimura",
+            "native": "木村良平",
+            "userPreferred": "Ryouhei Kimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96762-DNKMFBA2vWRr.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2951,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shinnosuke",
+        "last": "Nohara",
+        "full": "Shinnosuke Nohara",
+        "native": "野原しんのすけ",
+        "userPreferred": "Shinnosuke Nohara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2951-Bs571jmT5Xym.png",
+      "voiceActors": [
+        {
+          "id": 95539,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumiko",
+            "last": "Kobayashi",
+            "full": "Yumiko Kobayashi",
+            "native": "小林由美子",
+            "userPreferred": "Yumiko Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95539-vFLypMio70hC.png"
+        }
+      ]
+    },
+    {
+      "id": 165933,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Shishou",
+        "full": "Shishou",
+        "native": "師匠",
+        "userPreferred": "Shishou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b165933-ZQzB9tjOLD0D.png",
+      "voiceActors": [
+        {
+          "id": 95861,
+          "language": "Japanese",
+          "name": {
+            "first": "Tadashi",
+            "last": "Miyazawa",
+            "full": "Tadashi Miyazawa",
+            "native": "宮澤正",
+            "userPreferred": "Tadashi Miyazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/861.jpg"
+        }
+      ]
+    },
+    {
+      "id": 177117,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Celeb",
+        "last": null,
+        "full": "Celeb",
+        "native": "セレブ",
+        "userPreferred": "Celeb"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177117-PTzE7XSRG2yJ.png",
+      "voiceActors": [
+        {
+          "id": 110263,
+          "language": "Japanese",
+          "name": {
+            "first": "Miwa",
+            "last": "Kitahara",
+            "full": "Miwa Kitahara",
+            "native": "北原美和",
+            "userPreferred": "Miwa Kitahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15263.jpg"
+        }
+      ]
+    },
+    {
+      "id": 165934,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Keibiin",
+        "full": "Keibiin",
+        "native": "警備員",
+        "userPreferred": "Keibiin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b165934-U1rEqu0g45Q7.png",
+      "voiceActors": [
+        {
+          "id": 165942,
+          "language": "Japanese",
+          "name": {
+            "first": "Takayuki",
+            "last": "Ishii",
+            "full": "Takayuki Ishii",
+            "native": "石井隆之",
+            "userPreferred": "Takayuki Ishii"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n165942-ljGV0xP5kDR7.png"
+        }
+      ]
+    },
+    {
+      "id": 177116,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Risu",
+        "last": null,
+        "full": "Risu",
+        "native": "リス",
+        "userPreferred": "Risu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177116-gCvVt2ZjFX2D.png",
+      "voiceActors": [
+        {
+          "id": 162957,
+          "language": "Japanese",
+          "name": {
+            "first": "Naomi",
+            "last": "Sano",
+            "full": "Naomi Sano",
+            "native": "佐野尚美",
+            "userPreferred": "Naomi Sano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n162957-SUkEaCEXXPIM.png"
+        }
+      ]
+    },
+    {
+      "id": 151959,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Beebo",
+        "last": null,
+        "full": "Beebo",
+        "native": "ビボー",
+        "userPreferred": "Beebo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151959-6Wmps0hxQlxA.png",
+      "voiceActors": [
+        {
+          "id": 95140,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukana",
+            "last": "",
+            "full": "Yukana",
+            "native": "ゆかな",
+            "userPreferred": "Yukana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95140-sFp0uedEmZ9f.png"
+        }
+      ]
+    },
+    {
+      "id": 166630,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuma",
+        "last": null,
+        "full": "Kuma",
+        "native": "クマ",
+        "userPreferred": "Kuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b166630-XU5Mnt8YXirv.png",
+      "voiceActors": [
+        {
+          "id": 165942,
+          "language": "Japanese",
+          "name": {
+            "first": "Takayuki",
+            "last": "Ishii",
+            "full": "Takayuki Ishii",
+            "native": "石井隆之",
+            "userPreferred": "Takayuki Ishii"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n165942-ljGV0xP5kDR7.png"
+        }
+      ]
+    },
+    {
+      "id": 182335,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Monban",
+        "last": null,
+        "full": "Monban",
+        "native": "門番",
+        "userPreferred": "Monban"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b182335-ghA6UWbGOMJy.png",
+      "voiceActors": [
+        {
+          "id": 165942,
+          "language": "Japanese",
+          "name": {
+            "first": "Takayuki",
+            "last": "Ishii",
+            "full": "Takayuki Ishii",
+            "native": "石井隆之",
+            "userPreferred": "Takayuki Ishii"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n165942-ljGV0xP5kDR7.png"
+        }
+      ]
+    },
+    {
+      "id": 167933,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Doberman",
+        "last": null,
+        "full": "Doberman",
+        "native": "ドーベルマン",
+        "userPreferred": "Doberman"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b167933-jMDADRLMEih1.png",
+      "voiceActors": [
+        {
+          "id": 165942,
+          "language": "Japanese",
+          "name": {
+            "first": "Takayuki",
+            "last": "Ishii",
+            "full": "Takayuki Ishii",
+            "native": "石井隆之",
+            "userPreferred": "Takayuki Ishii"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n165942-ljGV0xP5kDR7.png"
+        }
+      ]
+    },
+    {
+      "id": 182336,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Amagaeru",
+        "last": null,
+        "full": "Amagaeru",
+        "native": "アマガエル",
+        "userPreferred": "Amagaeru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b182336-hXB9OA6woHgt.png",
+      "voiceActors": [
+        {
+          "id": 165942,
+          "language": "Japanese",
+          "name": {
+            "first": "Takayuki",
+            "last": "Ishii",
+            "full": "Takayuki Ishii",
+            "native": "石井隆之",
+            "userPreferred": "Takayuki Ishii"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n165942-ljGV0xP5kDR7.png"
+        }
+      ]
+    },
+    {
+      "id": 157156,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "CanCan",
+        "last": null,
+        "full": "CanCan",
+        "native": "キャンキャン",
+        "userPreferred": "CanCan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b157156-RCUgWPKBYLIR.png",
+      "voiceActors": [
+        {
+          "id": 112091,
+          "language": "Japanese",
+          "name": {
+            "first": "Ibuki",
+            "last": "Kido",
+            "full": "Ibuki Kido",
+            "native": "木戸衣吹",
+            "userPreferred": "Ibuki Kido"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112091-aO2WqvCmTFz9.png"
+        }
+      ]
+    },
+    {
+      "id": 7854,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Misae",
+        "last": "Nohara",
+        "full": "Misae Nohara",
+        "native": "野原 美冴",
+        "userPreferred": "Misae Nohara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7854.jpg",
+      "voiceActors": [
+        {
+          "id": 96600,
+          "language": "Japanese",
+          "name": {
+            "first": "Miki",
+            "last": "Narahashi",
+            "full": "Miki Narahashi",
+            "native": "ならはしみき",
+            "userPreferred": "Miki Narahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96600-v6elhY0JP2iR.png"
+        }
+      ]
+    },
+    {
+      "id": 33466,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiroshi",
+        "last": "Nohara",
+        "full": "Hiroshi Nohara",
+        "native": "野原広志",
+        "userPreferred": "Hiroshi Nohara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/33466.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 7855,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Himawari",
+        "last": "Nohara",
+        "full": "Himawari Nohara",
+        "native": "野原 ひまわり",
+        "userPreferred": "Himawari Nohara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7855.jpg",
+      "voiceActors": [
+        {
+          "id": 95470,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Koorogi",
+            "full": "Satomi Koorogi",
+            "native": "こおろぎさとみ",
+            "userPreferred": "Satomi Koorogi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95470-xZYG14WGMlmS.png"
+        }
+      ]
+    },
+    {
+      "id": 183803,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Orla",
+        "last": null,
+        "full": "Orla",
+        "native": "オーラ",
+        "userPreferred": "Orla"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b183803-t4EtINMXX4f7.png",
+      "voiceActors": [
+        {
+          "id": 100222,
+          "language": "Japanese",
+          "name": {
+            "first": "Setsuji",
+            "last": "Satou",
+            "full": "Setsuji Satou",
+            "native": "佐藤せつじ",
+            "userPreferred": "Setsuji Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100222-gpnWqS86W8RW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 162955,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Puppet",
+        "last": null,
+        "full": "Puppet",
+        "native": "パペット",
+        "userPreferred": "Puppet"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b162955-t6BPIRMcAyMm.png",
+      "voiceActors": [
+        {
+          "id": 162957,
+          "language": "Japanese",
+          "name": {
+            "first": "Naomi",
+            "last": "Sano",
+            "full": "Naomi Sano",
+            "native": "佐野尚美",
+            "userPreferred": "Naomi Sano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n162957-SUkEaCEXXPIM.png"
+        }
+      ]
+    },
+    {
+      "id": 183804,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Buchou",
+        "last": null,
+        "full": "Buchou",
+        "native": "部長",
+        "userPreferred": "Buchou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b183804-sVic4lHei9Xf.png",
+      "voiceActors": [
+        {
+          "id": 165942,
+          "language": "Japanese",
+          "name": {
+            "first": "Takayuki",
+            "last": "Ishii",
+            "full": "Takayuki Ishii",
+            "native": "石井隆之",
+            "userPreferred": "Takayuki Ishii"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n165942-ljGV0xP5kDR7.png"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 95146,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Ootsuka",
+            "full": "Akio Ootsuka",
+            "native": "大塚明夫",
+            "userPreferred": "Akio Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95146-T6IEmqXW3xUN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 170184,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Announcer",
+        "last": null,
+        "full": "Announcer",
+        "native": null,
+        "userPreferred": "Announcer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 162957,
+          "language": "Japanese",
+          "name": {
+            "first": "Naomi",
+            "last": "Sano",
+            "full": "Naomi Sano",
+            "native": "佐野尚美",
+            "userPreferred": "Naomi Sano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n162957-SUkEaCEXXPIM.png"
+        }
+      ]
+    },
+    {
+      "id": 170185,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Mushiba Sensor",
+        "last": null,
+        "full": "Mushiba Sensor",
+        "native": "ムシ歯センサー",
+        "userPreferred": "Mushiba Sensor"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 117423,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuya",
+            "last": "Masumoto",
+            "full": "Takuya Masumoto",
+            "native": "増元拓也",
+            "userPreferred": "Takuya Masumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/22423.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 966,
+      "relationType": "PARENT",
+      "malId": 966,
+      "title": {
+        "romaji": "Crayon Shin-chan",
+        "english": "Shin Chan",
+        "native": "クレヨンしんちゃん",
+        "userPreferred": "Crayon Shin-chan"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b966-QUCdKAk4ls9J.jpg",
+      "color": "#e4e428",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/966-J5CwLLTBs4OO.jpg",
+      "rating": 77
+    },
+    {
+      "id": 133117,
+      "relationType": "ADAPTATION",
+      "malId": null,
+      "title": {
+        "romaji": "SUPER SHIRO",
+        "english": null,
+        "native": "SUPER SHIRO",
+        "userPreferred": "SUPER SHIRO"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx133117-JlM8tHlC3nxG.jpg",
+      "color": "#f1c90d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx133117-JlM8tHlC3nxG.jpg",
+      "rating": null
+    }
+  ],
+  "episodes": [
+    {
+      "id": "super-shiro-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-1"
+    },
+    {
+      "id": "super-shiro-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-2"
+    },
+    {
+      "id": "super-shiro-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-3"
+    },
+    {
+      "id": "super-shiro-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-4"
+    },
+    {
+      "id": "super-shiro-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-5"
+    },
+    {
+      "id": "super-shiro-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-6"
+    },
+    {
+      "id": "super-shiro-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-7"
+    },
+    {
+      "id": "super-shiro-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-8"
+    },
+    {
+      "id": "super-shiro-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-9"
+    },
+    {
+      "id": "super-shiro-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-10"
+    },
+    {
+      "id": "super-shiro-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-11"
+    },
+    {
+      "id": "super-shiro-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-12"
+    },
+    {
+      "id": "super-shiro-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-13"
+    },
+    {
+      "id": "super-shiro-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-14"
+    },
+    {
+      "id": "super-shiro-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-15"
+    },
+    {
+      "id": "super-shiro-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-16"
+    },
+    {
+      "id": "super-shiro-episode-17",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 17,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-17"
+    },
+    {
+      "id": "super-shiro-episode-18",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 18,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-18"
+    },
+    {
+      "id": "super-shiro-episode-19",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 19,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-19"
+    },
+    {
+      "id": "super-shiro-episode-20",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 20,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-20"
+    },
+    {
+      "id": "super-shiro-episode-21",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 21,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-21"
+    },
+    {
+      "id": "super-shiro-episode-22",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 22,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-22"
+    },
+    {
+      "id": "super-shiro-episode-23",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 23,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-23"
+    },
+    {
+      "id": "super-shiro-episode-24",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 24,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-24"
+    },
+    {
+      "id": "super-shiro-episode-25",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 25,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-25"
+    },
+    {
+      "id": "super-shiro-episode-26",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 26,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-26"
+    },
+    {
+      "id": "super-shiro-episode-27",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 27,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-27"
+    },
+    {
+      "id": "super-shiro-episode-28",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 28,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-28"
+    },
+    {
+      "id": "super-shiro-episode-29",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 29,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-29"
+    },
+    {
+      "id": "super-shiro-episode-30",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 30,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-30"
+    },
+    {
+      "id": "super-shiro-episode-31",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 31,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-31"
+    },
+    {
+      "id": "super-shiro-episode-32",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 32,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-32"
+    },
+    {
+      "id": "super-shiro-episode-33",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 33,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-33"
+    },
+    {
+      "id": "super-shiro-episode-34",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 34,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-34"
+    },
+    {
+      "id": "super-shiro-episode-35",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 35,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-35"
+    },
+    {
+      "id": "super-shiro-episode-36",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 36,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-36"
+    },
+    {
+      "id": "super-shiro-episode-37",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 37,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-37"
+    },
+    {
+      "id": "super-shiro-episode-38",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 38,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-38"
+    },
+    {
+      "id": "super-shiro-episode-39",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 39,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-39"
+    },
+    {
+      "id": "super-shiro-episode-40",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 40,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-40"
+    },
+    {
+      "id": "super-shiro-episode-41",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 41,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-41"
+    },
+    {
+      "id": "super-shiro-episode-42",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 42,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-42"
+    },
+    {
+      "id": "super-shiro-episode-43",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 43,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-43"
+    },
+    {
+      "id": "super-shiro-episode-44",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 44,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-44"
+    },
+    {
+      "id": "super-shiro-episode-45",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 45,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-45"
+    },
+    {
+      "id": "super-shiro-episode-46",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 46,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-46"
+    },
+    {
+      "id": "super-shiro-episode-47",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 47,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-47"
+    },
+    {
+      "id": "super-shiro-episode-48",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107993-vf1wjusuIlQW.png",
+      "number": 48,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//super-shiro-episode-48"
+    }
+  ]
+}

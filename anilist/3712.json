@@ -1,0 +1,1410 @@
+{
+  "id": "3712",
+  "title": {
+    "romaji": "Zero no Tsukaima: Princesses no Rondo",
+    "english": "The Familiar of Zero: \"Rondo\" of Princesses",
+    "native": "ゼロの使い魔 ～三美姫（プリンセッセ）の輪舞（ロンド）～"
+  },
+  "malId": 3712,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3712-zt0ac4fjixWl.jpg",
+  "popularity": 58699,
+  "color": "#e41a78",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3712-Ji7NQXtiVrV8.jpg",
+  "description": "Following Saito's heroic actions in the War with Albion in season two, Saito &amp; Louise return to Tristain, only to have the runes which bind Saito &amp; Louise disappear. Saito &amp; Louise struggle with a relationship no longer defined as Master &amp; Familiar, as they search for an Elf who has the power to restore the dead to life, and may hold the key to understanding Saito's loss of the Gandalfr's power.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 7,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 9,
+    "day": 22
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 69,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Ecchi",
+    "Fantasy",
+    "Romance"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "J.C. Staff"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 146210,
+      "malId": 51213,
+      "title": {
+        "romaji": "Kinsou no Vermeil: Gakeppuchi Majutsushi wa Saikyou no Yakusai to Mahou Sekai wo Tsuki Susumu",
+        "english": "Vermeil in Gold",
+        "native": "金装のヴェルメイユ～崖っぷち魔術師は最強の厄災と魔法世界を突き進む～",
+        "userPreferred": "Kinsou no Vermeil: Gakeppuchi Majutsushi wa Saikyou no Yakusai to Mahou Sekai wo Tsuki Susumu"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146210-ZnIithxFLLHn.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/146210-JtUyWvjL0PMz.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 142598,
+      "malId": 50582,
+      "title": {
+        "romaji": "Nanatsu no Maken ga Shihai Suru",
+        "english": "Reign of the Seven Spellblades",
+        "native": "七つの魔剣が支配する",
+        "userPreferred": "Nanatsu no Maken ga Shihai Suru"
+      },
+      "status": "Completed",
+      "episodes": 15,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142598-0jpRK2h0v1hd.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/142598-mNFZbRUAxgFV.jpg",
+      "rating": 65,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 136,
+      "role": "MAIN",
+      "name": {
+        "first": "Louise Françoise Le Blanc",
+        "last": "de La Vallière",
+        "full": "Louise Françoise Le Blanc de La Vallière",
+        "native": "ルイズ・フランソワーズ・ル・ブラン・ド・ラ・ヴァリエール",
+        "userPreferred": "Louise Françoise Le Blanc de La Vallière"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136-52i2asse3080.png",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        },
+        {
+          "id": 109771,
+          "language": "Korean",
+          "name": {
+            "first": "Sun-Hee",
+            "last": "Moon",
+            "full": "Sun-Hee Moon",
+            "native": "문선희",
+            "userPreferred": "Sun-Hee Moon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14771.jpg"
+        },
+        {
+          "id": 105710,
+          "language": "German",
+          "name": {
+            "first": "Luisa",
+            "last": "Wietzorek",
+            "full": "Luisa Wietzorek",
+            "native": null,
+            "userPreferred": "Luisa Wietzorek"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10710.jpg"
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "role": "MAIN",
+      "name": {
+        "first": "Saito",
+        "last": "Hiraga",
+        "full": "Saito Hiraga",
+        "native": "平賀才人",
+        "userPreferred": "Saito Hiraga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/137.jpg",
+      "voiceActors": [
+        {
+          "id": 95245,
+          "language": "Japanese",
+          "name": {
+            "first": "Satoshi",
+            "last": "Hino",
+            "full": "Satoshi Hino",
+            "native": "日野聡",
+            "userPreferred": "Satoshi Hino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95245-prBoWpg0HaGX.jpg"
+        },
+        {
+          "id": 109867,
+          "language": "Korean",
+          "name": {
+            "first": "Jang",
+            "last": "Kim",
+            "full": "Jang Kim",
+            "native": "장 김",
+            "userPreferred": "Jang Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14867.jpg"
+        },
+        {
+          "id": 116035,
+          "language": "German",
+          "name": {
+            "first": "Patrick",
+            "last": "Keller",
+            "full": "Patrick Keller",
+            "native": null,
+            "userPreferred": "Patrick Keller"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21035.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4450,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Agnes",
+        "last": "Chevalier de Milan",
+        "full": "Agnes Chevalier de Milan",
+        "native": "アニエス・シュヴァリエ・ド・ミラン",
+        "userPreferred": "Agnes Chevalier de Milan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4450.jpg",
+      "voiceActors": [
+        {
+          "id": 95176,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiko",
+            "last": "Neya",
+            "full": "Michiko Neya",
+            "native": "根谷美智子",
+            "userPreferred": "Michiko Neya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95176-3yZnUwXap7nX.png"
+        },
+        {
+          "id": 140015,
+          "language": "German",
+          "name": {
+            "first": "Magdalena",
+            "last": "Höfner",
+            "full": "Magdalena Höfner",
+            "native": null,
+            "userPreferred": "Magdalena Höfner"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n140015-1f0nUXbpUdyl.png"
+        }
+      ]
+    },
+    {
+      "id": 1286,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kirche Augusta Frederica",
+        "last": "von Anhalt-Zerbst",
+        "full": "Kirche Augusta Frederica von Anhalt-Zerbst",
+        "native": "キュルケ・アウグスタ・フレデリカ・フォン・アンハルツ・ツェルプストー",
+        "userPreferred": "Kirche Augusta Frederica von Anhalt-Zerbst"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1286-1YFiNJwNl1Dx.png",
+      "voiceActors": [
+        {
+          "id": 95534,
+          "language": "Japanese",
+          "name": {
+            "first": "Nanako",
+            "last": "Inoue",
+            "full": "Nanako Inoue",
+            "native": "井上奈々子",
+            "userPreferred": "Nanako Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95534-9WHVNx4kXEWC.png"
+        },
+        {
+          "id": 109927,
+          "language": "Korean",
+          "name": {
+            "first": "Seon Hye",
+            "last": "Kim",
+            "full": "Seon Hye Kim",
+            "native": "선혜 김",
+            "userPreferred": "Seon Hye Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14927.jpg"
+        },
+        {
+          "id": 133020,
+          "language": "German",
+          "name": {
+            "first": "Leonie",
+            "last": "Dubuc",
+            "full": "Leonie Dubuc",
+            "native": null,
+            "userPreferred": "Leonie Dubuc"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n133020-z6I7rNzbt4ms.png"
+        }
+      ]
+    },
+    {
+      "id": 168762,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Marteau",
+        "last": null,
+        "full": "Marteau",
+        "native": "マルトー",
+        "userPreferred": "Marteau"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b168762-9J8qOl8OrYlV.jpg",
+      "voiceActors": [
+        {
+          "id": 165730,
+          "language": "German",
+          "name": {
+            "first": "Marco",
+            "last": "Wittorf",
+            "full": "Marco Wittorf",
+            "native": null,
+            "userPreferred": "Marco Wittorf"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1289,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Henrietta",
+        "last": "de Tristain",
+        "full": "Henrietta de Tristain",
+        "native": "アンリエッタ・ド・トリステイン",
+        "userPreferred": "Henrietta de Tristain"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1289.jpg",
+      "voiceActors": [
+        {
+          "id": 95013,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayako",
+            "last": "Kawasumi",
+            "full": "Ayako Kawasumi",
+            "native": "川澄綾子",
+            "userPreferred": "Ayako Kawasumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95013-cwl64qXuP2r7.png"
+        },
+        {
+          "id": 137083,
+          "language": "German",
+          "name": {
+            "first": "Johanna",
+            "last": "Schmoll",
+            "full": "Johanna Schmoll",
+            "native": null,
+            "userPreferred": "Johanna Schmoll"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3443,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Julio",
+        "last": "Chesaré",
+        "full": "Julio Chesaré",
+        "native": "ジュリオ・チェザーレ",
+        "userPreferred": "Julio Chesaré"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3443.jpg",
+      "voiceActors": [
+        {
+          "id": 95183,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Hirakawa",
+            "full": "Daisuke Hirakawa",
+            "native": "平川大輔",
+            "userPreferred": "Daisuke Hirakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95183-5C42gbrKIP7L.png"
+        },
+        {
+          "id": 110299,
+          "language": "Korean",
+          "name": {
+            "first": "Min Seok",
+            "last": "Kim",
+            "full": "Min Seok Kim",
+            "native": "민석 김",
+            "userPreferred": "Min Seok Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15299.jpg"
+        },
+        {
+          "id": 132513,
+          "language": "German",
+          "name": {
+            "first": "Sebastian",
+            "last": "Kluckert",
+            "full": "Sebastian Kluckert",
+            "native": null,
+            "userPreferred": "Sebastian Kluckert"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n132513-qKjhH89ffAt1.png"
+        }
+      ]
+    },
+    {
+      "id": 15135,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Irukukwu",
+        "last": null,
+        "full": "Irukukwu",
+        "native": "イルククゥ, シルフィード",
+        "userPreferred": "Irukukwu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15135.jpg",
+      "voiceActors": [
+        {
+          "id": 95885,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Iguchi",
+            "full": "Yuka Iguchi",
+            "native": "井口裕香",
+            "userPreferred": "Yuka Iguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95885-8Le2NWyACKNt.png"
+        },
+        {
+          "id": 110135,
+          "language": "Korean",
+          "name": {
+            "first": "Do Yeong",
+            "last": "Song",
+            "full": "Do Yeong Song",
+            "native": "도영송",
+            "userPreferred": "Do Yeong Song"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15135.jpg"
+        },
+        {
+          "id": 102109,
+          "language": "German",
+          "name": {
+            "first": "Jennifer",
+            "last": "Weiß",
+            "full": "Jennifer Weiß",
+            "native": null,
+            "userPreferred": "Jennifer Weiß"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7109.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1287,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Siesta",
+        "last": null,
+        "full": "Siesta",
+        "native": "シエスタ",
+        "userPreferred": "Siesta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1287.jpg",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        },
+        {
+          "id": 136687,
+          "language": "German",
+          "name": {
+            "first": "Moira",
+            "last": "May",
+            "full": "Moira May",
+            "native": null,
+            "userPreferred": "Moira May"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n136687-U24Tthg3kx5r.png"
+        }
+      ]
+    },
+    {
+      "id": 8813,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eléonore Albertine Le Blanc de La Blois",
+        "last": "de La Vallière",
+        "full": "Eléonore Albertine Le Blanc de La Blois de La Vallière",
+        "native": "エレオノール・アルベルティーヌ・ル・ブラン・ド・ラ・ブロワ・ド・ラ・ヴァリエール",
+        "userPreferred": "Eléonore Albertine Le Blanc de La Blois de La Vallière"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8813.jpg",
+      "voiceActors": [
+        {
+          "id": 95195,
+          "language": "Japanese",
+          "name": {
+            "first": "Kikuko",
+            "last": "Inoue",
+            "full": "Kikuko Inoue",
+            "native": "井上喜久子",
+            "userPreferred": "Kikuko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95195-nLvtZl5sCK0D.png"
+        },
+        {
+          "id": 138581,
+          "language": "German",
+          "name": {
+            "first": "Dana",
+            "last": "Friedrich",
+            "full": "Dana Friedrich",
+            "native": null,
+            "userPreferred": "Dana Friedrich"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n138581-rZAIEHSN3pAr.png"
+        }
+      ]
+    },
+    {
+      "id": 8814,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cattleya Yvette La Baume Le Blanc",
+        "last": "de La Fontaine",
+        "full": "Cattleya Yvette La Baume Le Blanc de La Fontaine",
+        "native": "カトレア・イヴェット・ラ・ボーム・ル・ブラン・ド・ラ・フォンティーヌ",
+        "userPreferred": "Cattleya Yvette La Baume Le Blanc de La Fontaine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8814.jpg",
+      "voiceActors": [
+        {
+          "id": 96101,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotomi",
+            "last": "Yamakawa",
+            "full": "Kotomi Yamakawa",
+            "native": "山川琴美",
+            "userPreferred": "Kotomi Yamakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96101-pm0qDcZfXF7u.jpg"
+        },
+        {
+          "id": 109835,
+          "language": "Korean",
+          "name": {
+            "first": "Hyeon-Jin",
+            "last": "Lee",
+            "full": "Hyeon-Jin Lee",
+            "native": "이현진",
+            "userPreferred": "Hyeon-Jin Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14835.jpg"
+        },
+        {
+          "id": 115554,
+          "language": "German",
+          "name": {
+            "first": "Laura",
+            "last": "Oettel",
+            "full": "Laura Oettel",
+            "native": null,
+            "userPreferred": "Laura Oettel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20554.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5409,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tiffania",
+        "last": "Westwood",
+        "full": "Tiffania Westwood",
+        "native": "ティファニア・ウエストウッド",
+        "userPreferred": "Tiffania Westwood"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5409-sumHxdHeq3pB.jpg",
+      "voiceActors": [
+        {
+          "id": 95040,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamiko",
+            "last": "Noto",
+            "full": "Mamiko Noto",
+            "native": "能登麻美子",
+            "userPreferred": "Mamiko Noto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95040-CskhFn4LiOti.jpg"
+        },
+        {
+          "id": 109865,
+          "language": "Korean",
+          "name": {
+            "first": "So-Yeon",
+            "last": "",
+            "full": "So-Yeon",
+            "native": "소연",
+            "userPreferred": "So-Yeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109865-MYklOuRucAAZ.jpg"
+        },
+        {
+          "id": 177272,
+          "language": "German",
+          "name": {
+            "first": "Samina",
+            "last": "König",
+            "full": "Samina König",
+            "native": null,
+            "userPreferred": "Samina König"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n177272-0qqDlY2puMjN.png"
+        }
+      ]
+    },
+    {
+      "id": 21295,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Joseph",
+        "last": null,
+        "full": "Joseph",
+        "native": null,
+        "userPreferred": "Joseph"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21295.jpg",
+      "voiceActors": [
+        {
+          "id": 95237,
+          "language": "Japanese",
+          "name": {
+            "first": "Juurouta",
+            "last": "Kosugi",
+            "full": "Juurouta Kosugi",
+            "native": "小杉十郎太",
+            "userPreferred": "Juurouta Kosugi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95237-nelrZUfvh2FH.png"
+        },
+        {
+          "id": 109767,
+          "language": "Korean",
+          "name": {
+            "first": "Gwang",
+            "last": "Jang",
+            "full": "Gwang Jang",
+            "native": "광 장",
+            "userPreferred": "Gwang Jang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14767.jpg"
+        },
+        {
+          "id": 143170,
+          "language": "German",
+          "name": {
+            "first": "Sebastian Christoph",
+            "last": "Jacob",
+            "full": "Sebastian Christoph Jacob",
+            "native": null,
+            "userPreferred": "Sebastian Christoph Jacob"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15970,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Malicorne",
+        "last": "de Grandple",
+        "full": "Malicorne de Grandple",
+        "native": "マリコルヌ・ド・グランドプレ",
+        "userPreferred": "Malicorne de Grandple"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15970.jpg",
+      "voiceActors": [
+        {
+          "id": 96332,
+          "language": "Japanese",
+          "name": {
+            "first": "Hikaru",
+            "last": "Tokita",
+            "full": "Hikaru Tokita",
+            "native": "時田光",
+            "userPreferred": "Hikaru Tokita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1332.jpg"
+        },
+        {
+          "id": 209034,
+          "language": "German",
+          "name": {
+            "first": "Philipp",
+            "last": "Stiegemann",
+            "full": "Philipp Stiegemann",
+            "native": null,
+            "userPreferred": "Philipp Stiegemann"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16203,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Vitartial",
+        "last": null,
+        "full": "Vitartial",
+        "native": "ビダーシャル",
+        "userPreferred": "Vitartial"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16203.jpg",
+      "voiceActors": [
+        {
+          "id": 95074,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Nojima",
+            "full": "Kenji Nojima",
+            "native": "野島健児",
+            "userPreferred": "Kenji Nojima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95074-ilLCdbpWIgrF.png"
+        },
+        {
+          "id": 165698,
+          "language": "German",
+          "name": {
+            "first": "Nico",
+            "last": "Nothnagel",
+            "full": "Nico Nothnagel",
+            "native": null,
+            "userPreferred": "Nico Nothnagel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8743,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Scarron",
+        "last": null,
+        "full": "Scarron",
+        "native": null,
+        "userPreferred": "Scarron"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8743.jpg",
+      "voiceActors": [
+        {
+          "id": 96358,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuo",
+            "last": "Gotou",
+            "full": "Tetsuo Gotou",
+            "native": "哲夫後藤",
+            "userPreferred": "Tetsuo Gotou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96358-czTMxFPfNNIV.jpg"
+        },
+        {
+          "id": 109863,
+          "language": "Korean",
+          "name": {
+            "first": "Beom Gi",
+            "last": "Hong",
+            "full": "Beom Gi Hong",
+            "native": "범기 홍",
+            "userPreferred": "Beom Gi Hong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14863.jpg"
+        },
+        {
+          "id": 117921,
+          "language": "German",
+          "name": {
+            "first": "Florian",
+            "last": "Hoffmann",
+            "full": "Florian Hoffmann",
+            "native": null,
+            "userPreferred": "Florian Hoffmann"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/22921.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1285,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Guiche",
+        "last": "de Gramont",
+        "full": "Guiche de Gramont",
+        "native": "ギーシュ・ド・グラモン",
+        "userPreferred": "Guiche de Gramont"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1285.jpg",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        },
+        {
+          "id": 109853,
+          "language": "Korean",
+          "name": {
+            "first": "Yong-Woo",
+            "last": "Shin",
+            "full": "Yong-Woo Shin",
+            "native": "신용우",
+            "userPreferred": "Yong-Woo Shin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109853-j96EqRUBocBE.jpg"
+        },
+        {
+          "id": 105706,
+          "language": "German",
+          "name": {
+            "first": "Dirk",
+            "last": "Petrick",
+            "full": "Dirk Petrick",
+            "native": null,
+            "userPreferred": "Dirk Petrick"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10706.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1284,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Charlotte Helene",
+        "last": "Orléans",
+        "full": "Charlotte Helene Orléans",
+        "native": "シャルロット・エレーヌ・オルレアン, タバサ",
+        "userPreferred": "Charlotte Helene Orléans"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1284-INwSdIH21PR4.png",
+      "voiceActors": [
+        {
+          "id": 95246,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Inokuchi",
+            "full": "Yuka Inokuchi",
+            "native": "いのくちゆか",
+            "userPreferred": "Yuka Inokuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95246-SuMvw46iBvbI.png"
+        },
+        {
+          "id": 110135,
+          "language": "Korean",
+          "name": {
+            "first": "Do Yeong",
+            "last": "Song",
+            "full": "Do Yeong Song",
+            "native": "도영송",
+            "userPreferred": "Do Yeong Song"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15135.jpg"
+        },
+        {
+          "id": 138238,
+          "language": "German",
+          "name": {
+            "first": "Melinda",
+            "last": "Rachfahl",
+            "full": "Melinda Rachfahl",
+            "native": null,
+            "userPreferred": "Melinda Rachfahl"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n138238-91AAoUEBzO2e.png"
+        }
+      ]
+    },
+    {
+      "id": 14024,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Derflinger",
+        "last": null,
+        "full": "Derflinger",
+        "native": "デルフリンガー",
+        "userPreferred": "Derflinger"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14024-iOJI1QAZ1Qdv.png",
+      "voiceActors": [
+        {
+          "id": 96358,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuo",
+            "last": "Gotou",
+            "full": "Tetsuo Gotou",
+            "native": "哲夫後藤",
+            "userPreferred": "Tetsuo Gotou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96358-czTMxFPfNNIV.jpg"
+        },
+        {
+          "id": 103491,
+          "language": "English",
+          "name": {
+            "first": "Kaiji",
+            "last": "Tang",
+            "full": "Kaiji Tang",
+            "native": null,
+            "userPreferred": "Kaiji Tang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103491-m720HzpwMA2o.jpg"
+        },
+        {
+          "id": 109857,
+          "language": "Korean",
+          "name": {
+            "first": "Tae Yeol",
+            "last": "Jeon",
+            "full": "Tae Yeol Jeon",
+            "native": "태열 전",
+            "userPreferred": "Tae Yeol Jeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14857.jpg"
+        },
+        {
+          "id": 112089,
+          "language": "German",
+          "name": {
+            "first": "Santiago",
+            "last": "Ziesmer",
+            "full": "Santiago Ziesmer",
+            "native": null,
+            "userPreferred": "Santiago Ziesmer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/17089.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1288,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Montmorency Margarita la Fère",
+        "last": "de Montmorency",
+        "full": "Montmorency Margarita la Fère de Montmorency",
+        "native": "モンモランシー・マルガリタ・ラ・フェール・ド・モンモランシ",
+        "userPreferred": "Montmorency Margarita la Fère de Montmorency"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1288.jpg",
+      "voiceActors": [
+        {
+          "id": 95132,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Takahashi",
+            "full": "Mikako Takahashi",
+            "native": "高橋美佳子",
+            "userPreferred": "Mikako Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95132-TpIFKL0tJg84.jpg"
+        },
+        {
+          "id": 110129,
+          "language": "Korean",
+          "name": {
+            "first": "Sin Jeong",
+            "last": "Han",
+            "full": "Sin Jeong Han",
+            "native": "신정 한",
+            "userPreferred": "Sin Jeong Han"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15129.jpg"
+        },
+        {
+          "id": 102705,
+          "language": "German",
+          "name": {
+            "first": "Birte",
+            "last": "Baumgardt",
+            "full": "Birte Baumgardt",
+            "native": null,
+            "userPreferred": "Birte Baumgardt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7705.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11746,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sheffield",
+        "last": null,
+        "full": "Sheffield",
+        "native": "シェフィールド",
+        "userPreferred": "Sheffield"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11746.jpg",
+      "voiceActors": [
+        {
+          "id": 95342,
+          "language": "Japanese",
+          "name": {
+            "first": "Masako",
+            "last": "Katsuki",
+            "full": "Masako Katsuki",
+            "native": "勝生真沙子",
+            "userPreferred": "Masako Katsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95342-pC8tGadzfTNb.jpg"
+        },
+        {
+          "id": 143117,
+          "language": "German",
+          "name": {
+            "first": "Dina",
+            "last": "Kürten",
+            "full": "Dina Kürten",
+            "native": null,
+            "userPreferred": "Dina Kürten"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n143117-MUs7Gu6leao5.png"
+        }
+      ]
+    },
+    {
+      "id": 1291,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jean",
+        "last": "Colbert",
+        "full": "Jean Colbert",
+        "native": "ジャン・コルベール",
+        "userPreferred": "Jean Colbert"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1291.jpg",
+      "voiceActors": [
+        {
+          "id": 101981,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuma",
+            "last": "Suzuki",
+            "full": "Takuma Suzuki",
+            "native": "鈴木琢磨",
+            "userPreferred": "Takuma Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101981-M1QHNfoBLovs.png"
+        },
+        {
+          "id": 103491,
+          "language": "English",
+          "name": {
+            "first": "Kaiji",
+            "last": "Tang",
+            "full": "Kaiji Tang",
+            "native": null,
+            "userPreferred": "Kaiji Tang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103491-m720HzpwMA2o.jpg"
+        },
+        {
+          "id": 109779,
+          "language": "Korean",
+          "name": {
+            "first": "Gi hyeon",
+            "last": "Kim",
+            "full": "Gi hyeon Kim",
+            "native": "기현 김",
+            "userPreferred": "Gi hyeon Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14779.jpg"
+        },
+        {
+          "id": 141181,
+          "language": "German",
+          "name": {
+            "first": "Stefan",
+            "last": "Bergel",
+            "full": "Stefan Bergel",
+            "native": null,
+            "userPreferred": "Stefan Bergel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1290,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Osmond",
+        "last": null,
+        "full": "Osmond",
+        "native": null,
+        "userPreferred": "Osmond"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1290.jpg",
+      "voiceActors": [
+        {
+          "id": 95142,
+          "language": "Japanese",
+          "name": {
+            "first": "Takeshi",
+            "last": "Aono",
+            "full": "Takeshi Aono",
+            "native": "青野武",
+            "userPreferred": "Takeshi Aono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95142-73E1XmGOOmhG.png"
+        },
+        {
+          "id": 109861,
+          "language": "Korean",
+          "name": {
+            "first": "Won Je",
+            "last": "Tak",
+            "full": "Won Je Tak",
+            "native": "원제 탁",
+            "userPreferred": "Won Je Tak"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14861.jpg"
+        },
+        {
+          "id": 140884,
+          "language": "German",
+          "name": {
+            "first": "Frank",
+            "last": "Ciazynski",
+            "full": "Frank Ciazynski",
+            "native": null,
+            "userPreferred": "Frank Ciazynski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14576,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Beatrice Yvonne von",
+        "last": "Guldenhorf",
+        "full": "Beatrice Yvonne von Guldenhorf",
+        "native": "ベアトリス・イヴォンヌ・フォン・クルデンホルフ",
+        "userPreferred": "Beatrice Yvonne von Guldenhorf"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14576.jpg",
+      "voiceActors": [
+        {
+          "id": 95383,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Tsuji",
+            "full": "Ayumi Tsuji",
+            "native": "辻あゆみ",
+            "userPreferred": "Ayumi Tsuji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95383-O5zWdJKKcPAq.png"
+        },
+        {
+          "id": 142571,
+          "language": "German",
+          "name": {
+            "first": "Eleni",
+            "last": "Möller",
+            "full": "Eleni Möller",
+            "native": null,
+            "userPreferred": "Eleni Möller"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n142571-qzIytVYs1v0o.png"
+        }
+      ]
+    },
+    {
+      "id": 31992,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jessica",
+        "last": null,
+        "full": "Jessica",
+        "native": "ジェシカ",
+        "userPreferred": "Jessica"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31992.jpg",
+      "voiceActors": [
+        {
+          "id": 106478,
+          "language": "Japanese",
+          "name": {
+            "first": "Akari",
+            "last": "Higuchi",
+            "full": "Akari Higuchi",
+            "native": "樋口あかり",
+            "userPreferred": "Akari Higuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11478.jpg"
+        },
+        {
+          "id": 130890,
+          "language": "German",
+          "name": {
+            "first": "Julia",
+            "last": "Bautz",
+            "full": "Julia Bautz",
+            "native": null,
+            "userPreferred": "Julia Bautz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n130890-5X0OmuoadTGE.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1840,
+      "relationType": "PREQUEL",
+      "malId": 1840,
+      "title": {
+        "romaji": "Zero no Tsukaima: Futatsuki no Kishi",
+        "english": "The Familiar of Zero: Knight of the Twin Moons",
+        "native": "ゼロの使い魔 ～双月の騎士～",
+        "userPreferred": "Zero no Tsukaima: Futatsuki no Kishi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1840-AYZXdXUCpqpR.jpg",
+      "color": "#e4c9a1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1840-dJnYA5qtz0Th.jpg",
+      "rating": 70
+    },
+    {
+      "id": 11319,
+      "relationType": "SEQUEL",
+      "malId": 11319,
+      "title": {
+        "romaji": "Zero no Tsukaima F",
+        "english": "The Familiar of Zero F",
+        "native": "ゼロの使い魔F",
+        "userPreferred": "Zero no Tsukaima F"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11319-6PwRxZiVChQo.jpg",
+      "color": "#e49350",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11319-CubAC5VJW1or.jpg",
+      "rating": 70
+    },
+    {
+      "id": 5764,
+      "relationType": "SIDE_STORY",
+      "malId": 5764,
+      "title": {
+        "romaji": "Zero no Tsukaima: Princesses no Rondo - Yuuwaku no Sunahama",
+        "english": "The Familiar of Zero: \"Rondo\" of Princesses - Seductive Beach",
+        "native": "ゼロの使い魔 ～三美姫（プリンセッセ）の輪舞（ロンド）～ 誘惑の砂浜",
+        "userPreferred": "Zero no Tsukaima: Princesses no Rondo - Yuuwaku no Sunahama"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5764.jpg",
+      "color": "#e4bb5d",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5764.jpg",
+      "rating": 67
+    },
+    {
+      "id": 6489,
+      "relationType": "SPIN_OFF",
+      "malId": 6489,
+      "title": {
+        "romaji": "Zero no Tsukaima: Princesses no Rondo Picture Drama",
+        "english": null,
+        "native": "ゼロの使い魔～三美姫の輪舞～ ピクチャードラマ",
+        "userPreferred": "Zero no Tsukaima: Princesses no Rondo Picture Drama"
+      },
+      "status": "Completed",
+      "episodes": 7,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6489.jpg",
+      "color": "#f19350",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6489.jpg",
+      "rating": 62
+    }
+  ],
+  "episodes": [
+    {
+      "id": "zero-no-tsukaima-princess-no-rondo-episode-1",
+      "title": "The Familiar's Mark",
+      "image": "https://media.kitsu.io/episodes/thumbnails/54176/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:25:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//zero-no-tsukaima-princess-no-rondo-episode-1"
+    },
+    {
+      "id": "zero-no-tsukaima-princess-no-rondo-episode-2",
+      "title": "The Fairy of the Forest",
+      "image": "https://media.kitsu.io/episodes/thumbnails/54177/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:25:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//zero-no-tsukaima-princess-no-rondo-episode-2"
+    },
+    {
+      "id": "zero-no-tsukaima-princess-no-rondo-episode-3",
+      "title": "Return of the Hero",
+      "image": "https://media.kitsu.io/episodes/thumbnails/54178/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:25:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//zero-no-tsukaima-princess-no-rondo-episode-3"
+    },
+    {
+      "id": "zero-no-tsukaima-princess-no-rondo-episode-4",
+      "title": "The Conspicuous New Student",
+      "image": "https://media.kitsu.io/episodes/thumbnails/54179/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:25:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//zero-no-tsukaima-princess-no-rondo-episode-4"
+    },
+    {
+      "id": "zero-no-tsukaima-princess-no-rondo-episode-5",
+      "title": "The Alluring Girl’s Bath",
+      "image": "https://media.kitsu.io/episodes/thumbnails/54180/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:25:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//zero-no-tsukaima-princess-no-rondo-episode-5"
+    },
+    {
+      "id": "zero-no-tsukaima-princess-no-rondo-episode-6",
+      "title": "Forbidden Magic Powder",
+      "image": "https://media.kitsu.io/episodes/thumbnails/54181/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:25:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//zero-no-tsukaima-princess-no-rondo-episode-6"
+    },
+    {
+      "id": "zero-no-tsukaima-princess-no-rondo-episode-7",
+      "title": "The Sleipnir Ball",
+      "image": "https://media.kitsu.io/episodes/thumbnails/54182/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:25:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//zero-no-tsukaima-princess-no-rondo-episode-7"
+    },
+    {
+      "id": "zero-no-tsukaima-princess-no-rondo-episode-8",
+      "title": "Pursuit Aboard the Ostland",
+      "image": "https://media.kitsu.io/episodes/thumbnails/54183/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:25:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//zero-no-tsukaima-princess-no-rondo-episode-8"
+    },
+    {
+      "id": "zero-no-tsukaima-princess-no-rondo-episode-9",
+      "title": "Tabitha’s Little Sister",
+      "image": "https://media.kitsu.io/episodes/thumbnails/54184/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:25:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//zero-no-tsukaima-princess-no-rondo-episode-9"
+    },
+    {
+      "id": "zero-no-tsukaima-princess-no-rondo-episode-10",
+      "title": "Mountain Pass On the Border",
+      "image": "https://media.kitsu.io/episodes/thumbnails/54185/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:25:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//zero-no-tsukaima-princess-no-rondo-episode-10"
+    },
+    {
+      "id": "zero-no-tsukaima-princess-no-rondo-episode-11",
+      "title": "Captive in Alhambra",
+      "image": "https://media.kitsu.io/episodes/thumbnails/54186/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:25:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//zero-no-tsukaima-princess-no-rondo-episode-11"
+    },
+    {
+      "id": "zero-no-tsukaima-princess-no-rondo-episode-12",
+      "title": "Wings of Freedom",
+      "image": "https://media.kitsu.io/episodes/thumbnails/54187/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:25:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//zero-no-tsukaima-princess-no-rondo-episode-12"
+    }
+  ]
+}

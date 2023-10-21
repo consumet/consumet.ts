@@ -1,0 +1,619 @@
+{
+  "id": "3859",
+  "title": {
+    "romaji": "Himitsu: Top Secret - The Revelation",
+    "english": null,
+    "native": "秘密 トップ・シークレット"
+  },
+  "malId": 3859,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+  "popularity": 3447,
+  "color": "#bb9335",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n3859-NAmumvkGBCts.jpg",
+  "description": "The story takes place five decades from now, when brain scanners have been perfected to the point that the government can retrieve up to five years' worth of memories from people's minds — even if they are dead. The investigators of the National Research Institute of Police Science's 9th Forensics Laboratory must weigh the ethical choices in the ultimate invasion of privacy as they delve into people's minds to solve crimes.<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 4,
+    "day": 9
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 10,
+    "day": 1
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 66,
+  "duration": 22,
+  "genres": [
+    "Mystery",
+    "Psychological",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "MADHOUSE"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 467,
+      "malId": 467,
+      "title": {
+        "romaji": "Koukaku Kidoutai: STAND ALONE COMPLEX",
+        "english": "Ghost in the Shell: Stand Alone Complex",
+        "native": "攻殻機動隊 STAND ALONE COMPLEX",
+        "userPreferred": "Koukaku Kidoutai: STAND ALONE COMPLEX"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx467-mBTtIoR13qs2.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/467-n0kTT3ecHMrG.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 13601,
+      "malId": 13601,
+      "title": {
+        "romaji": "PSYCHO-PASS",
+        "english": "PSYCHO-PASS",
+        "native": "PSYCHO-PASS サイコパス",
+        "userPreferred": "PSYCHO-PASS"
+      },
+      "status": "Completed",
+      "episodes": 22,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx13601-tgjUlf4eQOyx.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/13601-YrCmS1oY4uBZ.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 110350,
+      "malId": 40046,
+      "title": {
+        "romaji": "ID: INVADED",
+        "english": "ID: INVADED",
+        "native": "イド：インヴェイデッド",
+        "userPreferred": "ID: INVADED"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110350-uchN78wglmhN.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110350-kJfEuQ4Cx4j1.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 100388,
+      "malId": 36649,
+      "title": {
+        "romaji": "BANANA FISH",
+        "english": "BANANA FISH",
+        "native": "BANANA FISH",
+        "userPreferred": "BANANA FISH"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100388-pMwL9vwAdqxr.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100388-CR4PUEz1Nzsl.jpg",
+      "rating": 83,
+      "type": "TV"
+    },
+    {
+      "id": 3614,
+      "malId": 3614,
+      "title": {
+        "romaji": "Yakushiji Ryouko no Kaiki Jikenbo",
+        "english": "Ryoko's Case File",
+        "native": "薬師寺涼子の怪奇事件簿",
+        "userPreferred": "Yakushiji Ryouko no Kaiki Jikenbo"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3614-W6pFCNZcXiFX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3614-W6pFCNZcXiFX.jpg",
+      "rating": 65,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 10162,
+      "role": "MAIN",
+      "name": {
+        "first": "Tsuyoshi",
+        "last": "Maki",
+        "full": "Tsuyoshi Maki",
+        "native": "薪剛",
+        "userPreferred": "Tsuyoshi Maki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10162-OB9E8OdjwGgp.png",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        }
+      ]
+    },
+    {
+      "id": 10163,
+      "role": "MAIN",
+      "name": {
+        "first": "Ikkou",
+        "last": "Aoki",
+        "full": "Ikkou Aoki",
+        "native": "青木一行",
+        "userPreferred": "Ikkou Aoki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10163.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        }
+      ]
+    },
+    {
+      "id": 46601,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yasufumi",
+        "last": "Okabe",
+        "full": "Yasufumi Okabe",
+        "native": "岡部 靖文",
+        "userPreferred": "Yasufumi Okabe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/46601.jpg",
+      "voiceActors": [
+        {
+          "id": 96257,
+          "language": "Japanese",
+          "name": {
+            "first": "Kousuke",
+            "last": "Meguro",
+            "full": "Kousuke Meguro",
+            "native": "光祐目黒",
+            "userPreferred": "Kousuke Meguro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96257-lkzwczq2KxLN.png"
+        }
+      ]
+    },
+    {
+      "id": 10164,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nanako",
+        "last": "Amaichi",
+        "full": "Nanako Amaichi",
+        "native": null,
+        "userPreferred": "Nanako Amaichi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10164.jpg",
+      "voiceActors": [
+        {
+          "id": 95032,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Nonaka",
+            "full": "Ai Nonaka",
+            "native": "野中藍",
+            "userPreferred": "Ai Nonaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95032-P8Hvtz5iaaoI.png"
+        }
+      ]
+    },
+    {
+      "id": 38703,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyouko",
+        "last": "Satonaka",
+        "full": "Kyouko Satonaka",
+        "native": "里中 恭子",
+        "userPreferred": "Kyouko Satonaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38703.jpg",
+      "voiceActors": [
+        {
+          "id": 95040,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamiko",
+            "last": "Noto",
+            "full": "Mamiko Noto",
+            "native": "能登麻美子",
+            "userPreferred": "Mamiko Noto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95040-CskhFn4LiOti.jpg"
+        }
+      ]
+    },
+    {
+      "id": 46603,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ikuhide",
+        "last": "Soga",
+        "full": "Ikuhide Soga",
+        "native": "曽我育秀",
+        "userPreferred": "Ikuhide Soga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/46603.jpg",
+      "voiceActors": [
+        {
+          "id": 95371,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Hamada",
+            "full": "Kenji Hamada",
+            "native": "浜田賢二",
+            "userPreferred": "Kenji Hamada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95371-nyA7w7nPrlPr.png"
+        }
+      ]
+    },
+    {
+      "id": 13137,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Onokida",
+        "last": "Hijiri",
+        "full": "Onokida Hijiri",
+        "native": null,
+        "userPreferred": "Onokida Hijiri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13137.jpg",
+      "voiceActors": [
+        {
+          "id": 95394,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuaki",
+            "last": "Madono",
+            "full": "Mitsuaki Madono",
+            "native": "真殿光昭",
+            "userPreferred": "Mitsuaki Madono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95394-BMiqrbgY0gIp.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42516,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yukiko",
+        "last": "Miyoshi",
+        "full": "Yukiko Miyoshi",
+        "native": "三好 雪子",
+        "userPreferred": "Yukiko Miyoshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42516.jpg",
+      "voiceActors": [
+        {
+          "id": 95438,
+          "language": "Japanese",
+          "name": {
+            "first": "Emi",
+            "last": "Shinohara",
+            "full": "Emi Shinohara",
+            "native": "篠原恵美",
+            "userPreferred": "Emi Shinohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95438-dNxTPna4mfhR.jpg"
+        }
+      ]
+    },
+    {
+      "id": 46597,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Michiru",
+        "last": "Sendou",
+        "full": "Michiru Sendou",
+        "native": "仙道 みちる",
+        "userPreferred": "Michiru Sendou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/46597.jpg",
+      "voiceActors": [
+        {
+          "id": 95523,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Sendai",
+            "full": "Eri Sendai",
+            "native": "仙台エリ",
+            "userPreferred": "Eri Sendai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95523-Z2mIzxl8NgnE.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 34018,
+      "relationType": "ADAPTATION",
+      "malId": 4018,
+      "title": {
+        "romaji": "Himitsu: Top Secret",
+        "english": null,
+        "native": "秘密 －トップ・シークレット－",
+        "userPreferred": "Himitsu: Top Secret"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx34018-Rca2CGkpvOEE.png",
+      "color": "#e4a15d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/34018-VmnaK545UUwx.jpg",
+      "rating": 82
+    }
+  ],
+  "episodes": [
+    {
+      "id": "himitsu-the-revelation-episode-1",
+      "title": "The Brain and Man's Journey",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-1"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-2",
+      "title": "Top Secret (Part One)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-2"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-3",
+      "title": "Top Secret (Part Two)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-3"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-4",
+      "title": "Joyful Song",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-4"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-5",
+      "title": "Kinuko (Part One)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-5"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-6",
+      "title": "Kinuko (Part two)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-6"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-7",
+      "title": "Hidden Face",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-7"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-8",
+      "title": " Remodeling ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-8"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-9",
+      "title": "* (Asterisk)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-9"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-10",
+      "title": "Wind Inside the Box",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-10"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-11",
+      "title": "Don't Reach for That Neck",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-11"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-12",
+      "title": "Client (Part One)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-12"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-13",
+      "title": "Client (Part Two)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-13"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-14",
+      "title": "The Woman with Red High-Heels",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-14"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-15",
+      "title": "Lament",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-15"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-16",
+      "title": "Final Take",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-16"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-17",
+      "title": "Eye-Witness",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-17"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-18",
+      "title": "No One Is Watching (Part One)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-18"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-19",
+      "title": "No One Is Watching (Part Two)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-19"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-20",
+      "title": "No One Is Watching (Part Three)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-20"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-21",
+      "title": "infringement",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-21"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-22",
+      "title": "Countdown",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-22"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-23",
+      "title": "Search. My Body (Part One)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-23"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-24",
+      "title": "Search. My Body (Part Two)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-24"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-25",
+      "title": "Sacrifice",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-25"
+    },
+    {
+      "id": "himitsu-the-revelation-episode-26",
+      "title": "Paradise",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3859-vVJrx02pHzHm.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:25:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//himitsu-the-revelation-episode-26"
+    }
+  ]
+}

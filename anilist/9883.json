@@ -1,0 +1,1469 @@
+{
+  "id": "9883",
+  "title": {
+    "romaji": "Osomatsu-kun (1988)",
+    "english": null,
+    "native": "おそ松くん (1988)"
+  },
+  "malId": 9883,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+  "popularity": 1607,
+  "color": "#e4bb35",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+  "description": "The would-be hijinks of the mischievous Matsuno sextuplets are hijacked from episode one by colorful buck-toothed con man Iyami and Chibita, his bald munchkin sidekick. Nearly every episode is a standalone comedy cavalcade with the above cast as well as other quirky locals who show up in a number of different roles as the series shifts effortlessly between time periods and genres, but in most cases, Iyami and Chibita are front and center as partners in crime, a couple of sad sacks scraping by but carrying out scammy schemes in order to get rich quick. <br><br>\n(Source: Discotek Media)",
+  "status": "Completed",
+  "releaseDate": 1988,
+  "startDate": {
+    "year": 1988,
+    "month": 2,
+    "day": 13
+  },
+  "endDate": {
+    "year": 1989,
+    "month": 12,
+    "day": 30
+  },
+  "totalEpisodes": 86,
+  "currentEpisode": 86,
+  "rating": 62,
+  "duration": 24,
+  "genres": [
+    "Comedy"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Studio Pierrot"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 3006,
+      "malId": 3006,
+      "title": {
+        "romaji": "Atashin'chi",
+        "english": null,
+        "native": "あたしンち",
+        "userPreferred": "Atashin'chi"
+      },
+      "status": "Completed",
+      "episodes": 330,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3006.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3006.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 101580,
+      "malId": 37662,
+      "title": {
+        "romaji": "Shinya! Tensai Bakabon",
+        "english": "Late night! The Genius Bakabon",
+        "native": "深夜! 天才バカボン",
+        "userPreferred": "Shinya! Tensai Bakabon"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101580-5dYddOjA9r5U.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101580-5dYddOjA9r5U.jpg",
+      "rating": 57,
+      "type": "TV"
+    },
+    {
+      "id": 6071,
+      "malId": 6071,
+      "title": {
+        "romaji": "11 Piki no Neko",
+        "english": "Eleven Cats",
+        "native": "１１ぴきのねこ",
+        "userPreferred": "11 Piki no Neko"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6071.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6071.jpg",
+      "rating": 54,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 89284,
+      "role": "MAIN",
+      "name": {
+        "first": "Osomatsu",
+        "last": "Matsuno",
+        "full": "Osomatsu Matsuno",
+        "native": "松野おそ松",
+        "userPreferred": "Osomatsu Matsuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89284-PS9MiNutefpm.jpg",
+      "voiceActors": [
+        {
+          "id": 96066,
+          "language": "Japanese",
+          "name": {
+            "first": "You",
+            "last": "Inoue",
+            "full": "You Inoue",
+            "native": "井上瑤",
+            "userPreferred": "You Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1066.jpg"
+        }
+      ]
+    },
+    {
+      "id": 89286,
+      "role": "MAIN",
+      "name": {
+        "first": "Iyami",
+        "last": null,
+        "full": "Iyami",
+        "native": "井矢見 / イヤミ",
+        "userPreferred": "Iyami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89286-lZJ7KrYsAXY5.jpg",
+      "voiceActors": [
+        {
+          "id": 96237,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaneta",
+            "last": "Kimotsuki",
+            "full": "Kaneta Kimotsuki",
+            "native": "肝付兼太",
+            "userPreferred": "Kaneta Kimotsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96237-GFQBOo52IOXm.png"
+        }
+      ]
+    },
+    {
+      "id": 89285,
+      "role": "MAIN",
+      "name": {
+        "first": "Chibita",
+        "last": null,
+        "full": "Chibita",
+        "native": "チビ太",
+        "userPreferred": "Chibita"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89285-XQfKpmHfGW4A.jpg",
+      "voiceActors": [
+        {
+          "id": 95075,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayumi",
+            "last": "Tanaka",
+            "full": "Mayumi Tanaka",
+            "native": "田中真弓",
+            "userPreferred": "Mayumi Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95075-1qD4TeW1ON92.png"
+        }
+      ]
+    },
+    {
+      "id": 89279,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jyushimatsu",
+        "last": "Matsuno",
+        "full": "Jyushimatsu Matsuno",
+        "native": "松野十四松",
+        "userPreferred": "Jyushimatsu Matsuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89279-cSBHMBqqOJLV.jpg",
+      "voiceActors": [
+        {
+          "id": 95516,
+          "language": "Japanese",
+          "name": {
+            "first": "Naoko",
+            "last": "Matsui",
+            "full": "Naoko Matsui",
+            "native": "松井菜桜子",
+            "userPreferred": "Naoko Matsui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95516-N94jWbOCyDd7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 89281,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Todomatsu",
+        "last": "Matsuno",
+        "full": "Todomatsu Matsuno",
+        "native": "松野トド松",
+        "userPreferred": "Todomatsu Matsuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89281-8cXUC1XRLQjy.jpg",
+      "voiceActors": [
+        {
+          "id": 95014,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Hayashibara",
+            "full": "Megumi Hayashibara",
+            "native": "林原めぐみ",
+            "userPreferred": "Megumi Hayashibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95014-VqxNuufY94V3.png"
+        }
+      ]
+    },
+    {
+      "id": 164416,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Honkan-san",
+        "last": null,
+        "full": "Honkan-san",
+        "native": "本官さん",
+        "userPreferred": "Honkan-san"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b164416-PWwkN7iYX2Pv.png",
+      "voiceActors": [
+        {
+          "id": 95255,
+          "language": "Japanese",
+          "name": {
+            "first": "Shigeru",
+            "last": "Chiba",
+            "full": "Shigeru Chiba",
+            "native": "千葉繁",
+            "userPreferred": "Shigeru Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95255-VOwYfPMZuZGQ.png"
+        }
+      ]
+    },
+    {
+      "id": 89283,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Karamatsu",
+        "last": "Matsuno",
+        "full": "Karamatsu Matsuno",
+        "native": "松野カラ松",
+        "userPreferred": "Karamatsu Matsuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89283-OoDi0NDKca10.jpg",
+      "voiceActors": [
+        {
+          "id": 100998,
+          "language": "Japanese",
+          "name": {
+            "first": "Mari",
+            "last": "Mashiba",
+            "full": "Mari Mashiba",
+            "native": "真柴摩利",
+            "userPreferred": "Mari Mashiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5998.jpg"
+        }
+      ]
+    },
+    {
+      "id": 89289,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Totoko",
+        "last": "Yowai",
+        "full": "Totoko Yowai",
+        "native": "弱井 魚魚子",
+        "userPreferred": "Totoko Yowai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89289-P9otLuuwCUix.jpg",
+      "voiceActors": [
+        {
+          "id": 95516,
+          "language": "Japanese",
+          "name": {
+            "first": "Naoko",
+            "last": "Matsui",
+            "full": "Naoko Matsui",
+            "native": "松井菜桜子",
+            "userPreferred": "Naoko Matsui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95516-N94jWbOCyDd7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 89809,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kemunpas",
+        "last": null,
+        "full": "Kemunpas",
+        "native": "ケムンパス",
+        "userPreferred": "Kemunpas"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89809-Rye5JnDPwx2a.jpg",
+      "voiceActors": [
+        {
+          "id": 115965,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuzou",
+            "last": "Kamiyama",
+            "full": "Takuzou Kamiyama",
+            "native": "神山卓三",
+            "userPreferred": "Takuzou Kamiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20965.jpg"
+        }
+      ]
+    },
+    {
+      "id": 89287,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dayon",
+        "last": null,
+        "full": "Dayon",
+        "native": "ダヨーン",
+        "userPreferred": "Dayon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89287-7rJazFo0GDBH.jpg",
+      "voiceActors": [
+        {
+          "id": 115965,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuzou",
+            "last": "Kamiyama",
+            "full": "Takuzou Kamiyama",
+            "native": "神山卓三",
+            "userPreferred": "Takuzou Kamiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20965.jpg"
+        },
+        {
+          "id": 95481,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Ogata",
+            "full": "Kenichi Ogata",
+            "native": "緒方賢一",
+            "userPreferred": "Kenichi Ogata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95481-1dPQbwMpvjul.png"
+        }
+      ]
+    },
+    {
+      "id": 89288,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dekapan",
+        "last": null,
+        "full": "Dekapan",
+        "native": "デカパン",
+        "userPreferred": "Dekapan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89288-07g5oBk3ISja.jpg",
+      "voiceActors": [
+        {
+          "id": 100430,
+          "language": "Japanese",
+          "name": {
+            "first": "Tooru",
+            "last": "Oohira",
+            "full": "Tooru Oohira",
+            "native": "大平透",
+            "userPreferred": "Tooru Oohira"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100430-avSEX6ZE0Q8i.jpg"
+        }
+      ]
+    },
+    {
+      "id": 89290,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hatabou",
+        "last": null,
+        "full": "Hatabou",
+        "native": "ハタ坊",
+        "userPreferred": "Hatabou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89290-l6syv2ZmVMLl.jpg",
+      "voiceActors": [
+        {
+          "id": 100998,
+          "language": "Japanese",
+          "name": {
+            "first": "Mari",
+            "last": "Mashiba",
+            "full": "Mari Mashiba",
+            "native": "真柴摩利",
+            "userPreferred": "Mari Mashiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5998.jpg"
+        }
+      ]
+    },
+    {
+      "id": 89292,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Matsuzou",
+        "last": "Matsuno",
+        "full": "Matsuzou Matsuno",
+        "native": "松野 松造",
+        "userPreferred": "Matsuzou Matsuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89292-4XOZGBND9B1o.jpg",
+      "voiceActors": [
+        {
+          "id": 106821,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuo",
+            "last": "Mizutori",
+            "full": "Tetsuo Mizutori",
+            "native": "水鳥鐵夫",
+            "userPreferred": "Tetsuo Mizutori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11821.jpg"
+        }
+      ]
+    },
+    {
+      "id": 89291,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Matsuyo",
+        "last": "Matsuno",
+        "full": "Matsuyo Matsuno",
+        "native": "松野 松代",
+        "userPreferred": "Matsuyo Matsuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89291-agrZNG8okiti.jpg",
+      "voiceActors": [
+        {
+          "id": 104472,
+          "language": "Japanese",
+          "name": {
+            "first": "Mari",
+            "last": "Yokoo",
+            "full": "Mari Yokoo",
+            "native": "横尾まり",
+            "userPreferred": "Mari Yokoo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104472-lwGxYMW80n8P.png"
+        }
+      ]
+    },
+    {
+      "id": 89280,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ichimatsu",
+        "last": "Matsuno",
+        "full": "Ichimatsu Matsuno",
+        "native": "松野一松",
+        "userPreferred": "Ichimatsu Matsuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89280-sqBIW0hvVIcm.jpg",
+      "voiceActors": [
+        {
+          "id": 104472,
+          "language": "Japanese",
+          "name": {
+            "first": "Mari",
+            "last": "Yokoo",
+            "full": "Mari Yokoo",
+            "native": "横尾まり",
+            "userPreferred": "Mari Yokoo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104472-lwGxYMW80n8P.png"
+        }
+      ]
+    },
+    {
+      "id": 89282,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Choromatsu",
+        "last": "Matsuno",
+        "full": "Choromatsu Matsuno",
+        "native": "松野チョロ松",
+        "userPreferred": "Choromatsu Matsuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89282-cANUgjkRZi1V.jpg",
+      "voiceActors": [
+        {
+          "id": 95678,
+          "language": "Japanese",
+          "name": {
+            "first": "Rika",
+            "last": "Matsumoto",
+            "full": "Rika Matsumoto",
+            "native": "松本梨香",
+            "userPreferred": "Rika Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95678-U0iKFbhteND6.png"
+        }
+      ]
+    },
+    {
+      "id": 164414,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nyarome",
+        "last": null,
+        "full": "Nyarome",
+        "native": "ニャロメ",
+        "userPreferred": "Nyarome"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b164414-8w2dSSUXMdQU.jpg",
+      "voiceActors": [
+        {
+          "id": 95255,
+          "language": "Japanese",
+          "name": {
+            "first": "Shigeru",
+            "last": "Chiba",
+            "full": "Shigeru Chiba",
+            "native": "千葉繁",
+            "userPreferred": "Shigeru Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95255-VOwYfPMZuZGQ.png"
+        }
+      ]
+    },
+    {
+      "id": 164415,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Beshi",
+        "last": null,
+        "full": "Beshi",
+        "native": "ベシ",
+        "userPreferred": "Beshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b164415-GLO5FRrZRuO8.jpg",
+      "voiceActors": [
+        {
+          "id": 106821,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuo",
+            "last": "Mizutori",
+            "full": "Tetsuo Mizutori",
+            "native": "水鳥鐵夫",
+            "userPreferred": "Tetsuo Mizutori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11821.jpg"
+        }
+      ]
+    },
+    {
+      "id": 51533,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Rerere no Oji-san",
+        "last": null,
+        "full": "Rerere no Oji-san",
+        "native": "レレレのおじさん",
+        "userPreferred": "Rerere no Oji-san"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/51533.jpg",
+      "voiceActors": [
+        {
+          "id": 95255,
+          "language": "Japanese",
+          "name": {
+            "first": "Shigeru",
+            "last": "Chiba",
+            "full": "Shigeru Chiba",
+            "native": "千葉繁",
+            "userPreferred": "Shigeru Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95255-VOwYfPMZuZGQ.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 9884,
+      "relationType": "ALTERNATIVE",
+      "malId": 9884,
+      "title": {
+        "romaji": "Osomatsu-kun",
+        "english": null,
+        "native": "おそ松くん(1966年版)",
+        "userPreferred": "Osomatsu-kun"
+      },
+      "status": "Completed",
+      "episodes": 56,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9884-CGiD1zldkPwY.png",
+      "color": null,
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9884-R5kZqe0lcBeF.jpg",
+      "rating": 57
+    },
+    {
+      "id": 19879,
+      "relationType": "SIDE_STORY",
+      "malId": 19879,
+      "title": {
+        "romaji": "Osomatsu-kun: Suika no Hoshi kara Konnichiwa zansu!",
+        "english": null,
+        "native": "おそ松くん スイカの星からこんにちわザンス!",
+        "userPreferred": "Osomatsu-kun: Suika no Hoshi kara Konnichiwa zansu!"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19879.jpg",
+      "color": "#e4ae35",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19879.jpg",
+      "rating": 55
+    },
+    {
+      "id": 21261,
+      "relationType": "SEQUEL",
+      "malId": 31174,
+      "title": {
+        "romaji": "Osomatsu-san",
+        "english": "Mr. Osomatsu",
+        "native": "おそ松さん",
+        "userPreferred": "Osomatsu-san"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21261-jLm2IGonsEzU.jpg",
+      "color": "#ffc943",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21261-BMbsmqX9g1M7.jpg",
+      "rating": 76
+    },
+    {
+      "id": 54033,
+      "relationType": "ADAPTATION",
+      "malId": 24033,
+      "title": {
+        "romaji": "Osomatsu-kun",
+        "english": null,
+        "native": "おそ松くん",
+        "userPreferred": "Osomatsu-kun"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx54033-j5St64STuMrs.jpg",
+      "color": "#e46b43",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/54033-zcEWC8rBCGnS.jpg",
+      "rating": 66
+    },
+    {
+      "id": 138871,
+      "relationType": "CHARACTER",
+      "malId": 24373,
+      "title": {
+        "romaji": "Bakabon to Osomatsu no Curry",
+        "english": null,
+        "native": "バカボンおそ松のカレーをたずねて三千里",
+        "userPreferred": "Bakabon to Osomatsu no Curry"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b138871-n9d10hxflBlK.jpg",
+      "color": "#e49328",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b138871-n9d10hxflBlK.jpg",
+      "rating": 44
+    }
+  ],
+  "episodes": [
+    {
+      "id": "osomatsu-kun-1988-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-1"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-2"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-3"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-4"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-5"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-6"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-7"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-8"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-9"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-10"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-11"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-12"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-13"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-14"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-15"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-16"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-17",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 17,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-17"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-18",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 18,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-18"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-19",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 19,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-19"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-20",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 20,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-20"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-21",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 21,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-21"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-22",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 22,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-22"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-23",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 23,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-23"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-24",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 24,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-24"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-25",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 25,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-25"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-26",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 26,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-26"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-27",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 27,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-27"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-28",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 28,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-28"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-29",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 29,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-29"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-30",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 30,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-30"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-31",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 31,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-31"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-32",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 32,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-32"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-33",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 33,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-33"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-34",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 34,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-34"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-35",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 35,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-35"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-36",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 36,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-36"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-37",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 37,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-37"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-38",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 38,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-38"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-39",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 39,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-39"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-40",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 40,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-40"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-41",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 41,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-41"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-42",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 42,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-42"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-43",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 43,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-43"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-44",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 44,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-44"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-45",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 45,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-45"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-46",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 46,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-46"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-47",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 47,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-47"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-48",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 48,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-48"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-49",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 49,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-49"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-50",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 50,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-50"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-51",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 51,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-51"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-52",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 52,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-52"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-53",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 53,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-53"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-54",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 54,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-54"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-55",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 55,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-55"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-56",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 56,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-56"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-57",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 57,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-57"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-58",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 58,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-58"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-59",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 59,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-59"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-60",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 60,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-60"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-61",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 61,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-61"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-62",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 62,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-62"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-63",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 63,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-63"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-64",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 64,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-64"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-65",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 65,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-65"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-66",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 66,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-66"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-67",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 67,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-67"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-68",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 68,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-68"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-69",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 69,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-69"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-70",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 70,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-70"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-71",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 71,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-71"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-72",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 72,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-72"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-73",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 73,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-73"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-74",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 74,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-74"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-75",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 75,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-75"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-76",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 76,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-76"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-77",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 77,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-77"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-78",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 78,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-78"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-79",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 79,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-79"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-80",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 80,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-80"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-81",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 81,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-81"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-82",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 82,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-82"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-83",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 83,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-83"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-84",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 84,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-84"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-85",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 85,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-85"
+    },
+    {
+      "id": "osomatsu-kun-1988-episode-86",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9883-EHMEDXA2uL4Q.jpg",
+      "number": 86,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-kun-1988-episode-86"
+    }
+  ]
+}

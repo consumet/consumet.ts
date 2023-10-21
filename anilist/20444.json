@@ -1,0 +1,508 @@
+{
+  "id": "20444",
+  "title": {
+    "romaji": "Teekyuu 3",
+    "english": "Teekyuu 3",
+    "native": "てーきゅう3"
+  },
+  "malId": 20473,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20444.jpg",
+  "popularity": 8682,
+  "color": "#e48650",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20444.jpg",
+  "description": "Third season of Teekyuu.<br><br>\nTeekyuu is based on a sports comedy manga of the same name featuring four high school girls who belong to a tennis club. Although the amount of tennis they play is questionable.",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 10,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 12,
+    "day": 22
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 66,
+  "duration": 2,
+  "genres": [
+    "Comedy",
+    "Sports"
+  ],
+  "season": "FALL",
+  "studios": [
+    "MAPPA"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 15125,
+      "malId": 15125,
+      "title": {
+        "romaji": "Teekyuu",
+        "english": "Teekyuu",
+        "native": "てーきゅう",
+        "userPreferred": "Teekyuu"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15125-2ngZyS4KrMqA.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15125.jpg",
+      "rating": 63,
+      "type": "TV_SHORT"
+    }
+  ],
+  "characters": [
+    {
+      "id": 67563,
+      "role": "MAIN",
+      "name": {
+        "first": "Marimo",
+        "last": "Bandou",
+        "full": "Marimo Bandou",
+        "native": "板東まりも",
+        "userPreferred": "Marimo Bandou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/67563.jpg",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 67559,
+      "role": "MAIN",
+      "name": {
+        "first": "Kanae",
+        "last": "Shinjou",
+        "full": "Kanae Shinjou",
+        "native": "新庄かなえ",
+        "userPreferred": "Kanae Shinjou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/67559.jpg",
+      "voiceActors": [
+        {
+          "id": 106359,
+          "language": "Japanese",
+          "name": {
+            "first": "Suzuko",
+            "last": "Mimori",
+            "full": "Suzuko Mimori",
+            "native": "三森すずこ",
+            "userPreferred": "Suzuko Mimori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106359-G8dROMWpwlM6.png"
+        }
+      ]
+    },
+    {
+      "id": 67561,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuri",
+        "last": "Oshimoto",
+        "full": "Yuri Oshimoto",
+        "native": "押本 ユリ",
+        "userPreferred": "Yuri Oshimoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/67561.jpg",
+      "voiceActors": [
+        {
+          "id": 106864,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Watanabe",
+            "full": "Yui Watanabe",
+            "native": "渡部優衣",
+            "userPreferred": "Yui Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11864.jpg"
+        }
+      ]
+    },
+    {
+      "id": 67557,
+      "role": "MAIN",
+      "name": {
+        "first": "Nasuno",
+        "last": "Takamiya",
+        "full": "Nasuno Takamiya",
+        "native": "高宮なすの",
+        "userPreferred": "Nasuno Takamiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/67557.jpg",
+      "voiceActors": [
+        {
+          "id": 113455,
+          "language": "Japanese",
+          "name": {
+            "first": "Kyouko",
+            "last": "Narumi",
+            "full": "Kyouko Narumi",
+            "native": "鳴海杏子",
+            "userPreferred": "Kyouko Narumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/18455.jpg"
+        }
+      ]
+    },
+    {
+      "id": 136237,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ayako",
+        "last": "Suzuki",
+        "full": "Ayako Suzuki",
+        "native": "鈴木あやこ",
+        "userPreferred": "Ayako Suzuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136237-ymoyvoVsiPZO.jpg",
+      "voiceActors": [
+        {
+          "id": 136243,
+          "language": "Japanese",
+          "name": {
+            "first": "Izumi",
+            "last": "Araida",
+            "full": "Izumi Araida",
+            "native": "新井田いづみ",
+            "userPreferred": "Izumi Araida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n136243-H3RXOGvjw9yc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 136236,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nishi",
+        "last": "Nishiaraidaishi",
+        "full": "Nishi Nishiaraidaishi",
+        "native": "西新井大師西",
+        "userPreferred": "Nishi Nishiaraidaishi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136236-eWNZZVIZmCrU.jpg",
+      "voiceActors": [
+        {
+          "id": 136241,
+          "language": "Japanese",
+          "name": {
+            "first": "Maria",
+            "last": "Tanijiri",
+            "full": "Maria Tanijiri",
+            "native": "谷尻まりあ",
+            "userPreferred": "Maria Tanijiri"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n136241-nvNAR4MRKZSq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 138683,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Annenkov",
+        "last": "Kondou",
+        "full": "Annenkov Kondou",
+        "native": "近藤 アネンコフ",
+        "userPreferred": "Annenkov Kondou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138683-RWKtIizRFYe2.png",
+      "voiceActors": [
+        {
+          "id": 95413,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Kitamura",
+            "full": "Eri Kitamura",
+            "native": "喜多村英梨",
+            "userPreferred": "Eri Kitamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95413-FwAIrc8Ishpt.png"
+        }
+      ]
+    },
+    {
+      "id": 87816,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Michael",
+        "last": null,
+        "full": "Michael",
+        "native": "マイケルくん",
+        "userPreferred": "Michael"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87816.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 87817,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Youta",
+        "last": "Oshimoto",
+        "full": "Youta Oshimoto",
+        "native": "押本 陽太",
+        "userPreferred": "Youta Oshimoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87817.jpg",
+      "voiceActors": [
+        {
+          "id": 110743,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouta",
+            "last": "Oosaka",
+            "full": "Ryouta Oosaka",
+            "native": "逢坂良太",
+            "userPreferred": "Ryouta Oosaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110743-k2SgQwU0JD33.png"
+        }
+      ]
+    },
+    {
+      "id": 87818,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mika",
+        "last": null,
+        "full": "Mika",
+        "native": "ミカさん",
+        "userPreferred": "Mika"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87818.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 136235,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kurumi",
+        "last": "Satou",
+        "full": "Kurumi Satou",
+        "native": "佐藤くるみ",
+        "userPreferred": "Kurumi Satou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136235-o1jx36fqKAiZ.jpg",
+      "voiceActors": [
+        {
+          "id": 136242,
+          "language": "Japanese",
+          "name": {
+            "first": "Hikaru",
+            "last": "Kotama",
+            "full": "Hikaru Kotama",
+            "native": "小珠ひかる",
+            "userPreferred": "Hikaru Kotama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n136242-8vSKrlz0qCfv.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 18121,
+      "relationType": "PREQUEL",
+      "malId": 18121,
+      "title": {
+        "romaji": "Teekyuu 2",
+        "english": "Teekyuu 2",
+        "native": "てーきゅう2",
+        "userPreferred": "Teekyuu 2"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18121-k8UaPii7p9sl.jpg",
+      "color": "#e48643",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18121.jpg",
+      "rating": 65
+    },
+    {
+      "id": 74949,
+      "relationType": "ADAPTATION",
+      "malId": 44949,
+      "title": {
+        "romaji": "Teekyuu",
+        "english": "Teekyuu",
+        "native": "てーきゅう",
+        "userPreferred": "Teekyuu"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx74949-1JytfeIYEq5y.jpg",
+      "color": "#c9e443",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/44949.jpg",
+      "rating": 70
+    },
+    {
+      "id": 20833,
+      "relationType": "SEQUEL",
+      "malId": 26395,
+      "title": {
+        "romaji": "Teekyuu 4",
+        "english": "Teekyuu 4",
+        "native": "てーきゅう4",
+        "userPreferred": "Teekyuu 4"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20833-ucZRXykHU8FW.jpg",
+      "color": "#5dc9e4",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20833-1fDYCk5jMg2F.jpg",
+      "rating": 66
+    },
+    {
+      "id": 20834,
+      "relationType": "SIDE_STORY",
+      "malId": 22335,
+      "title": {
+        "romaji": "Teekyuu 3 Specials",
+        "english": "Teekyuu 3 Specials",
+        "native": "てーきゅう3 映像特典",
+        "userPreferred": "Teekyuu 3 Specials"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20834.jpg",
+      "color": "#e4865d",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20834-BYtXtWuAWdbA.jpg",
+      "rating": 63
+    }
+  ],
+  "episodes": [
+    {
+      "id": "teekyuu-3-episode-1",
+      "title": "The World is Not Enough with Senpai",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111939/original.jpg",
+      "number": 1,
+      "createdAt": "2013-09-09T00:31:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//teekyuu-3-episode-1"
+    },
+    {
+      "id": "teekyuu-3-episode-2",
+      "title": "Stand By Me with Senpai",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111940/original.jpg",
+      "number": 2,
+      "createdAt": "2013-09-09T00:31:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//teekyuu-3-episode-2"
+    },
+    {
+      "id": "teekyuu-3-episode-3",
+      "title": "Mad Max with Senpai",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111941/original.jpg",
+      "number": 3,
+      "createdAt": "2013-09-09T00:31:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//teekyuu-3-episode-3"
+    },
+    {
+      "id": "teekyuu-3-episode-4",
+      "title": "Scissorhands with Senpai",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111942/original.jpg",
+      "number": 4,
+      "createdAt": "2013-09-09T00:31:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//teekyuu-3-episode-4"
+    },
+    {
+      "id": "teekyuu-3-episode-5",
+      "title": "Hangover with Senpai!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111943/original.jpg",
+      "number": 5,
+      "createdAt": "2013-09-09T00:31:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//teekyuu-3-episode-5"
+    },
+    {
+      "id": "teekyuu-3-episode-6",
+      "title": "8 Mile with Senpai",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111944/original.jpg",
+      "number": 6,
+      "createdAt": "2013-09-09T00:31:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//teekyuu-3-episode-6"
+    },
+    {
+      "id": "teekyuu-3-episode-7",
+      "title": "The Merchant of Venice with Senpai",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111945/original.jpg",
+      "number": 7,
+      "createdAt": "2013-09-09T00:31:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//teekyuu-3-episode-7"
+    },
+    {
+      "id": "teekyuu-3-episode-8",
+      "title": "Rashomon with Senpai",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20444.jpg",
+      "number": 8,
+      "createdAt": "2013-09-09T00:31:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//teekyuu-3-episode-8"
+    },
+    {
+      "id": "teekyuu-3-episode-9",
+      "title": "Constantine with Senpai",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111947/original.jpg",
+      "number": 9,
+      "createdAt": "2013-09-09T00:31:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//teekyuu-3-episode-9"
+    },
+    {
+      "id": "teekyuu-3-episode-10",
+      "title": "Dreamcatcher with Senpai",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111948/original.jpg",
+      "number": 10,
+      "createdAt": "2013-09-09T00:31:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//teekyuu-3-episode-10"
+    },
+    {
+      "id": "teekyuu-3-episode-11",
+      "title": "Tomorrow Never Dies with Senpai",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111949/original.jpg",
+      "number": 11,
+      "createdAt": "2013-09-09T00:31:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//teekyuu-3-episode-11"
+    },
+    {
+      "id": "teekyuu-3-episode-12",
+      "title": "Coach Carter with Senpai",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20444.jpg",
+      "number": 12,
+      "createdAt": "2013-09-09T00:31:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//teekyuu-3-episode-12"
+    }
+  ]
+}

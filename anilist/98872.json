@@ -1,0 +1,310 @@
+{
+  "id": "98872",
+  "title": {
+    "romaji": "Marvel Future Avengers",
+    "english": "Marvel Future Avengers",
+    "native": "マーベル フューチャー・アベンジャーズ"
+  },
+  "malId": 34975,
+  "synonyms": [
+    "Marvel Fremtidige Avengers"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98872-OYzOqXGfOYuG.jpg",
+  "popularity": 1209,
+  "color": "#35a1f1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98872-OYzOqXGfOYuG.jpg",
+  "description": "The anime follows Makoto, a young boy who gains superpowers due to an evil gene manipulation experiment. Makoto and other youths join the Avengers as apprentices named \"Future Avengers.\" The anime shows Makoto and others as they train, fight villains and grow, under Avengers members Iron Man, Captain America, Hulk, Thor, and Wasp. <br></br> \n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2017,
+  "startDate": {
+    "year": 2017,
+    "month": 7,
+    "day": 22
+  },
+  "endDate": {
+    "year": 2018,
+    "month": 1,
+    "day": 20
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 50,
+  "duration": 22,
+  "genres": [
+    "Action"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "MADHOUSE"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 6875,
+      "malId": 6875,
+      "title": {
+        "romaji": "Iron Man",
+        "english": null,
+        "native": "アイアンマン",
+        "userPreferred": "Iron Man"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6875.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6875-rVHFJrKrkqqD.jpg",
+      "rating": 54,
+      "type": "TV"
+    },
+    {
+      "id": 21461,
+      "malId": 34449,
+      "title": {
+        "romaji": "THE REFLECTION WAVE ONE",
+        "english": "The Reflection",
+        "native": "THE REFLECTION WAVE ONE",
+        "userPreferred": "THE REFLECTION WAVE ONE"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21461-uMKVoLchuwUK.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21461-75cDKMAbvFoQ.jpg",
+      "rating": 42,
+      "type": "TV"
+    },
+    {
+      "id": 108815,
+      "malId": 25457,
+      "title": {
+        "romaji": "Avengers Confidential: Black Widow & Punisher",
+        "english": "Avengers Confidential: Black Widow & Punisher",
+        "native": "アベンジャーズ コンフィデンシャル: ブラック・ウィドウ & パニッシャー",
+        "userPreferred": "Avengers Confidential: Black Widow & Punisher"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b108815-VV6kFhrZZ8ma.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b108815-VV6kFhrZZ8ma.png",
+      "rating": 57,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 154720,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Captain America",
+        "last": null,
+        "full": "Captain America",
+        "native": "キャプテン・アメリカ",
+        "userPreferred": "Captain America"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154720-Eq9wBb65RngW.jpg",
+      "voiceActors": [
+        {
+          "id": 112627,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiro",
+            "last": "Nakaya",
+            "full": "Kazuhiro Nakaya",
+            "native": "中谷一博",
+            "userPreferred": "Kazuhiro Nakaya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/17627.jpg"
+        }
+      ]
+    },
+    {
+      "id": 154710,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hulk",
+        "last": null,
+        "full": "Hulk",
+        "native": "ハルク",
+        "userPreferred": "Hulk"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154710-PsuzWXbnROTT.png",
+      "voiceActors": [
+        {
+          "id": 105273,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichirou",
+            "last": "Matsuda",
+            "full": "Kenichirou Matsuda",
+            "native": "松田健一郎",
+            "userPreferred": "Kenichirou Matsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105273-asextl049B2s.png"
+        }
+      ]
+    },
+    {
+      "id": 24033,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Anthony",
+        "last": "Stark",
+        "full": "Anthony Stark",
+        "native": "トニー・スターク",
+        "userPreferred": "Anthony Stark"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24033.jpg",
+      "voiceActors": [
+        {
+          "id": 95804,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiji",
+            "last": "Hanawa",
+            "full": "Eiji Hanawa",
+            "native": "花輪英司",
+            "userPreferred": "Eiji Hanawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95804-plVC2L7kuwTE.png"
+        }
+      ]
+    },
+    {
+      "id": 154721,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Thor",
+        "last": null,
+        "full": "Thor",
+        "native": "ソー",
+        "userPreferred": "Thor"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154721-lYT7DD1mEYBU.png",
+      "voiceActors": [
+        {
+          "id": 95801,
+          "language": "Japanese",
+          "name": {
+            "first": "Yasuyuki",
+            "last": "Kase",
+            "full": "Yasuyuki Kase",
+            "native": "加瀬康之",
+            "userPreferred": "Yasuyuki Kase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95801-Jno6Y2OawOII.png"
+        }
+      ]
+    },
+    {
+      "id": 154713,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Wasp",
+        "last": null,
+        "full": "Wasp",
+        "native": "ワスプ",
+        "userPreferred": "Wasp"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154713-yqbXKrjr2nWf.png",
+      "voiceActors": [
+        {
+          "id": 95156,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Mizuhashi",
+            "full": "Kaori Mizuhashi",
+            "native": "水橋かおり",
+            "userPreferred": "Kaori Mizuhashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95156-7tw0zP396ecG.png"
+        }
+      ]
+    },
+    {
+      "id": 151211,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Wade",
+        "last": "Wilson",
+        "full": "Wade Wilson",
+        "native": "ウェイド・ウィルソン",
+        "userPreferred": "Wade Wilson"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151211-L3DulahwrhKc.jpg",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 20548,
+      "relationType": "ALTERNATIVE",
+      "malId": 21013,
+      "title": {
+        "romaji": "Disk Wars: Avengers",
+        "english": null,
+        "native": "ディスク・ウォーズ：アベンジャーズ",
+        "userPreferred": "Disk Wars: Avengers"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20548.jpg",
+      "color": "#28bbfe",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20548.jpg",
+      "rating": 50
+    },
+    {
+      "id": 101697,
+      "relationType": "SEQUEL",
+      "malId": 37151,
+      "title": {
+        "romaji": "Marvel Future Avengers 2nd Season",
+        "english": "Marvel Future Avengers 2nd Season",
+        "native": "マーベル フューチャー・アベンジャーズ 2nd Season",
+        "userPreferred": "Marvel Future Avengers 2nd Season"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101697-0fHSYzI0rj50.jpg",
+      "color": "#35a1f1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101697-0fHSYzI0rj50.jpg",
+      "rating": 50
+    },
+    {
+      "id": 112631,
+      "relationType": "ALTERNATIVE",
+      "malId": 104698,
+      "title": {
+        "romaji": "Marvel Future Avengers",
+        "english": null,
+        "native": "マーベル フューチャー・アベンジャーズ",
+        "userPreferred": "Marvel Future Avengers"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx112631-9ifUG3138BmW.jpg",
+      "color": "#ffc900",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx112631-9ifUG3138BmW.jpg",
+      "rating": 50
+    }
+  ],
+  "episodes": []
+}

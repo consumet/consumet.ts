@@ -1,0 +1,736 @@
+{
+  "id": "20737",
+  "title": {
+    "romaji": "PERSONA 3 THE MOVIE: #3 Falling Down",
+    "english": "Persona 3 the Movie: #3 Falling Down",
+    "native": "PERSONA3 THE MOVIE —#3 Falling Down—"
+  },
+  "malId": 24543,
+  "synonyms": [
+    "Shin Megami Tensei: Persona 3",
+    "P3M",
+    "ペルソナ3"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b20737-6FybEDNF0P6u.png",
+  "popularity": 16331,
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20737-NzUe1v5MV68F.jpg",
+  "description": "As the season turns to autumn, Makoto and the other members of S.E.E.S. inch ever closer to the end of their battles with the Shadows. Through the battles, some must face the deaths of friends and family, some must notice what precious things must be protected, and some must find meaning in the conflicts that have occurred.",
+  "status": "Completed",
+  "releaseDate": 2015,
+  "startDate": {
+    "year": 2015,
+    "month": 4,
+    "day": 4
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 4,
+    "day": 4
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 74,
+  "duration": 87,
+  "genres": [
+    "Action",
+    "Supernatural"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "A-1 Pictures"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 20713,
+      "malId": 24075,
+      "title": {
+        "romaji": "Persona 4 the Golden Animation",
+        "english": "Persona4 the Golden ANIMATION",
+        "native": "ペルソナ4 ザ・ゴールデンアニメーション",
+        "userPreferred": "Persona 4 the Golden Animation"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20713-hY7sTHuk5845.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20713-AJQxRjRW0rGt.jpg",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 109418,
+      "malId": 39591,
+      "title": {
+        "romaji": "PERSONA5 the Animation: Proof of Justice",
+        "english": null,
+        "native": "PERSONA5 the Animation: Proof of Justice",
+        "userPreferred": "PERSONA5 the Animation: Proof of Justice"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109418-TTNzz5VO7uoJ.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109418-UArzq5aJsR0V.jpg",
+      "rating": 69,
+      "type": "OVA"
+    },
+    {
+      "id": 10588,
+      "malId": 10588,
+      "title": {
+        "romaji": "Persona 4 the Animation",
+        "english": "Persona 4 the Animation",
+        "native": "ペルソナ4アニメーション",
+        "userPreferred": "Persona 4 the Animation"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10588-44oPKE7GRXA2.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10588-uFzRyGezrWji.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 3366,
+      "malId": 3366,
+      "title": {
+        "romaji": "PERSONA -trinity soul-",
+        "english": "Persona -trinity soul-",
+        "native": "PERSONA -trinity soul-",
+        "userPreferred": "PERSONA -trinity soul-"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3366.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3366.jpg",
+      "rating": 59,
+      "type": "TV"
+    },
+    {
+      "id": 3782,
+      "malId": 3782,
+      "title": {
+        "romaji": "Kara no Kyoukai: Satsujin Kousatsu (Zen)",
+        "english": "the Garden of sinners Chapter 2: …and nothing heart. (Murder Speculation Part A)",
+        "native": "空の境界 殺人考察(前)",
+        "userPreferred": "Kara no Kyoukai: Satsujin Kousatsu (Zen)"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3782-b8NzFcoYs9vc.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3782-psXN8gIQVeof.jpg",
+      "rating": 75,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 6207,
+      "role": "MAIN",
+      "name": {
+        "first": "Aigis",
+        "last": null,
+        "full": "Aigis",
+        "native": "アイギス",
+        "userPreferred": "Aigis"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6207-NXtbN975KoQh.jpg",
+      "voiceActors": [
+        {
+          "id": 95090,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Sakamoto",
+            "full": "Maaya Sakamoto",
+            "native": "坂本真綾",
+            "userPreferred": "Maaya Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95090-oARRP42NEhu0.jpg"
+        },
+        {
+          "id": 117901,
+          "language": "German",
+          "name": {
+            "first": "Nina",
+            "last": "Amerschläger",
+            "full": "Nina Amerschläger",
+            "native": null,
+            "userPreferred": "Nina Amerschläger"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/22901.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6205,
+      "role": "MAIN",
+      "name": {
+        "first": "Junpei",
+        "last": "Iori",
+        "full": "Junpei Iori",
+        "native": "伊織順平",
+        "userPreferred": "Junpei Iori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6205-CDPxOt37B3dv.png",
+      "voiceActors": [
+        {
+          "id": 95097,
+          "language": "Japanese",
+          "name": {
+            "first": "Kousuke",
+            "last": "Toriumi",
+            "full": "Kousuke Toriumi",
+            "native": "鳥海浩輔",
+            "userPreferred": "Kousuke Toriumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95097-BhSegy6KBLbE.png"
+        },
+        {
+          "id": 139129,
+          "language": "German",
+          "name": {
+            "first": "Marco Sven",
+            "last": "Reinbold",
+            "full": "Marco Sven Reinbold",
+            "native": null,
+            "userPreferred": "Marco Sven Reinbold"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139129-JzTVzEl2ENC0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9434,
+      "role": "MAIN",
+      "name": {
+        "first": "Ken",
+        "last": "Amada",
+        "full": "Ken Amada",
+        "native": "天田乾",
+        "userPreferred": "Ken Amada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9434-E2Cj9mKgcUgZ.png",
+      "voiceActors": [
+        {
+          "id": 95287,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Ogata",
+            "full": "Megumi Ogata",
+            "native": "緒方恵美",
+            "userPreferred": "Megumi Ogata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95287-3moX16xmYedv.png"
+        }
+      ]
+    },
+    {
+      "id": 6203,
+      "role": "MAIN",
+      "name": {
+        "first": "Makoto",
+        "last": "Yuuki",
+        "full": "Makoto Yuuki",
+        "native": "結城理",
+        "userPreferred": "Makoto Yuuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6203-1GHHULSWESJd.png",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        },
+        {
+          "id": 139139,
+          "language": "German",
+          "name": {
+            "first": "Tom",
+            "last": "Raczko",
+            "full": "Tom Raczko",
+            "native": null,
+            "userPreferred": "Tom Raczko"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139139-jL4W2BX5FEED.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9431,
+      "role": "MAIN",
+      "name": {
+        "first": "Koromaru",
+        "last": null,
+        "full": "Koromaru",
+        "native": "コロマル",
+        "userPreferred": "Koromaru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9431-867rSds0Ya9s.png",
+      "voiceActors": []
+    },
+    {
+      "id": 6204,
+      "role": "MAIN",
+      "name": {
+        "first": "Yukari",
+        "last": "Takeba",
+        "full": "Yukari Takeba",
+        "native": "岳羽ゆかり",
+        "userPreferred": "Yukari Takeba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6204-QdKTiS9Yjb01.png",
+      "voiceActors": [
+        {
+          "id": 95144,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Toyoguchi",
+            "full": "Megumi Toyoguchi",
+            "native": "豊口めぐみ",
+            "userPreferred": "Megumi Toyoguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95144-9Y8CtDVmxogE.jpg"
+        },
+        {
+          "id": 101117,
+          "language": "German",
+          "name": {
+            "first": "Rieke",
+            "last": "Werner",
+            "full": "Rieke Werner",
+            "native": null,
+            "userPreferred": "Rieke Werner"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101117-Owts3TGv6QZn.png"
+        }
+      ]
+    },
+    {
+      "id": 6206,
+      "role": "MAIN",
+      "name": {
+        "first": "Mitsuru",
+        "last": "Kirijou",
+        "full": "Mitsuru Kirijou",
+        "native": "桐条美鶴",
+        "userPreferred": "Mitsuru Kirijou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6206-LCIPnWf6C9AL.png",
+      "voiceActors": [
+        {
+          "id": 95060,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Tanaka",
+            "full": "Rie Tanaka",
+            "native": "田中理恵",
+            "userPreferred": "Rie Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95060-Rw0HZghxH1hF.jpg"
+        },
+        {
+          "id": 139128,
+          "language": "German",
+          "name": {
+            "first": "Milena",
+            "last": "Karas",
+            "full": "Milena Karas",
+            "native": null,
+            "userPreferred": "Milena Karas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139128-o0WgGAI9kiBm.png"
+        }
+      ]
+    },
+    {
+      "id": 9207,
+      "role": "MAIN",
+      "name": {
+        "first": "Fuuka",
+        "last": "Yamagishi",
+        "full": "Fuuka Yamagishi",
+        "native": "山岸風花",
+        "userPreferred": "Fuuka Yamagishi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9207-0Y3gdB6UDUOM.png",
+      "voiceActors": [
+        {
+          "id": 95040,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamiko",
+            "last": "Noto",
+            "full": "Mamiko Noto",
+            "native": "能登麻美子",
+            "userPreferred": "Mamiko Noto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95040-CskhFn4LiOti.jpg"
+        },
+        {
+          "id": 146818,
+          "language": "German",
+          "name": {
+            "first": "Christiane",
+            "last": "Werk",
+            "full": "Christiane Werk",
+            "native": null,
+            "userPreferred": "Christiane Werk"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n146818-zKynlkhpy9GE.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9418,
+      "role": "MAIN",
+      "name": {
+        "first": "Akihiko",
+        "last": "Sanada",
+        "full": "Akihiko Sanada",
+        "native": "真田明彦",
+        "userPreferred": "Akihiko Sanada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9418-scjj32ZqbtKe.jpg",
+      "voiceActors": [
+        {
+          "id": 95112,
+          "language": "Japanese",
+          "name": {
+            "first": "Hikaru",
+            "last": "Midorikawa",
+            "full": "Hikaru Midorikawa",
+            "native": "緑川光",
+            "userPreferred": "Hikaru Midorikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95112-c275OLptkSYO.png"
+        },
+        {
+          "id": 115905,
+          "language": "German",
+          "name": {
+            "first": "Peter",
+            "last": "Lehn",
+            "full": "Peter Lehn",
+            "native": null,
+            "userPreferred": "Peter Lehn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20905.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9978,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shuji",
+        "last": "Ikutsuki",
+        "full": "Shuji Ikutsuki",
+        "native": "幾月 修司",
+        "userPreferred": "Shuji Ikutsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9978.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 9979,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takeharu",
+        "last": "Kirijo",
+        "full": "Takeharu Kirijo",
+        "native": "桐条 武治",
+        "userPreferred": "Takeharu Kirijo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9979.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 9994,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Isako",
+        "last": "Toriumi",
+        "full": "Isako Toriumi",
+        "native": "鳥海 伊佐子",
+        "userPreferred": "Isako Toriumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9994.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 9999,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Natsuki",
+        "last": "Moriyama",
+        "full": "Natsuki Moriyama",
+        "native": "森山 夏紀",
+        "userPreferred": "Natsuki Moriyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9999.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 9992,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hidetoshi",
+        "last": "Odagiri",
+        "full": "Hidetoshi Odagiri",
+        "native": "小田桐秀利",
+        "userPreferred": "Hidetoshi Odagiri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9992-D8c9dWUgg8Ij.png",
+      "voiceActors": []
+    },
+    {
+      "id": 9976,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jin",
+        "last": "Shirato",
+        "full": "Jin Shirato",
+        "native": "白戸陣",
+        "userPreferred": "Jin Shirato"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9976.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 9997,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tanaka",
+        "last": null,
+        "full": "Tanaka",
+        "native": "たなか",
+        "userPreferred": "Tanaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9997.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 9989,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kenji",
+        "last": "Tomochika",
+        "full": "Kenji Tomochika",
+        "native": "友近健二",
+        "userPreferred": "Kenji Tomochika"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9989-Xs8Vw2fCWRwk.png",
+      "voiceActors": []
+    },
+    {
+      "id": 9975,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takaya",
+        "last": "Sakaki",
+        "full": "Takaya Sakaki",
+        "native": "榊貴隆也",
+        "userPreferred": "Takaya Sakaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9975.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 9102,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Igor",
+        "last": null,
+        "full": "Igor",
+        "native": "イゴール",
+        "userPreferred": "Igor"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9102-iocOwQOhmcyF.png",
+      "voiceActors": []
+    },
+    {
+      "id": 9990,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kazushi",
+        "last": "Miyamoto",
+        "full": "Kazushi Miyamoto",
+        "native": "宮本 一志",
+        "userPreferred": "Kazushi Miyamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9990-zxlihVTATQPy.png",
+      "voiceActors": []
+    },
+    {
+      "id": 9436,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Pharos",
+        "last": null,
+        "full": "Pharos",
+        "native": "ファルロス",
+        "userPreferred": "Pharos"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9436.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 9980,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eiichiro",
+        "last": "Takeba",
+        "full": "Eiichiro Takeba",
+        "native": "岳羽 詠一郎",
+        "userPreferred": "Eiichiro Takeba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9980.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 9982,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chihiro",
+        "last": "Fushimi",
+        "full": "Chihiro Fushimi",
+        "native": "伏見千尋",
+        "userPreferred": "Chihiro Fushimi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9982-fwcp5HO2kZ7i.png",
+      "voiceActors": []
+    },
+    {
+      "id": 9977,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chidori",
+        "last": "Yoshino",
+        "full": "Chidori Yoshino",
+        "native": "吉野千鳥",
+        "userPreferred": "Chidori Yoshino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9977-blg7r6SxdXRK.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 6656,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryouji",
+        "last": "Mochizuki",
+        "full": "Ryouji Mochizuki",
+        "native": "望月綾時",
+        "userPreferred": "Ryouji Mochizuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6656-EaxPeTl2LOMe.png",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        },
+        {
+          "id": 144975,
+          "language": "German",
+          "name": {
+            "first": "Kevin",
+            "last": "Kasper",
+            "full": "Kevin Kasper",
+            "native": null,
+            "userPreferred": "Kevin Kasper"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 20736,
+      "relationType": "PREQUEL",
+      "malId": 21473,
+      "title": {
+        "romaji": "PERSONA 3 THE MOVIE: #2 Midsummer Knight's Dream",
+        "english": "Persona 3 the Movie: #2 Midsummer Knight's Dream",
+        "native": "PERSONA3 THE MOVIE —#2 Midsummer Knight's Dream—",
+        "userPreferred": "PERSONA 3 THE MOVIE: #2 Midsummer Knight's Dream"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b20736-jVcCYKzdrwA4.png",
+      "color": "#50f1f1",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20736-FazvOYTrCYRM.jpg",
+      "rating": 74
+    },
+    {
+      "id": 21248,
+      "relationType": "SEQUEL",
+      "malId": 31149,
+      "title": {
+        "romaji": "PERSONA 3 THE MOVIE: #4 Winter of Rebirth",
+        "english": "Persona 3 the Movie: #4 Winter of Rebirth",
+        "native": "PERSONA3 THE MOVIE — #4 Winter of Rebirth —",
+        "userPreferred": "PERSONA 3 THE MOVIE: #4 Winter of Rebirth"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21248-nze05fa3smqI.png",
+      "color": "#1aa1d6",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21248-Ai9B76YIMWDz.jpg",
+      "rating": 79
+    },
+    {
+      "id": 32566,
+      "relationType": "ALTERNATIVE",
+      "malId": 2566,
+      "title": {
+        "romaji": "Persona 3",
+        "english": null,
+        "native": "ペルソナ3",
+        "userPreferred": "Persona 3"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/2566.jpg",
+      "color": "#5daef1",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/2566.jpg",
+      "rating": 75
+    }
+  ],
+  "episodes": [
+    {
+      "id": "persona-3-the-movie-3-falling-down-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b20737-6FybEDNF0P6u.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//persona-3-the-movie-3-falling-down-episode-1"
+    }
+  ]
+}

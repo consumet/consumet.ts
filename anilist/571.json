@@ -1,0 +1,441 @@
+{
+  "id": "571",
+  "title": {
+    "romaji": "Moldiver",
+    "english": null,
+    "native": "モルダイバー"
+  },
+  "malId": 571,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/571.jpg",
+  "popularity": 1067,
+  "color": "#5daee4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n571-IcEncehvqKrD.jpg",
+  "description": "Hiroshi Ozora invents the Mol Unit, a device that makes its user invincible. His plans of becoming a super hero are short lived however when his sister, Mirai, accidently modifies the suit configuration. Now she is forced to save Tokyo by herself from the evil Machinegal and his gang of all-female androids.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 1993,
+  "startDate": {
+    "year": 1993,
+    "month": 2,
+    "day": 25
+  },
+  "endDate": {
+    "year": 1993,
+    "month": 11,
+    "day": 25
+  },
+  "totalEpisodes": 6,
+  "currentEpisode": 6,
+  "rating": 50,
+  "duration": 29,
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Mecha",
+    "Romance",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 2522,
+      "malId": 2522,
+      "title": {
+        "romaji": "Rakushou! Hyper Doll",
+        "english": "Hyper Doll",
+        "native": "楽勝! ハイパードール",
+        "userPreferred": "Rakushou! Hyper Doll"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2522.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2522.jpg",
+      "rating": 54,
+      "type": "OVA"
+    },
+    {
+      "id": 373,
+      "malId": 373,
+      "title": {
+        "romaji": "Bannou Bunka Neko-Musume",
+        "english": "All Purpose Cultural Cat Girl Nuku Nuku",
+        "native": "万能文化猫娘",
+        "userPreferred": "Bannou Bunka Neko-Musume"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx373-8EE4GGNMeXhn.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n373-yZAAEXthlFcg.jpg",
+      "rating": 62,
+      "type": "OVA"
+    },
+    {
+      "id": 1772,
+      "malId": 1772,
+      "title": {
+        "romaji": "Seishoujo Kantai Virgin Fleet",
+        "english": "Virgin Fleet",
+        "native": "聖少女艦隊バージンフリート",
+        "userPreferred": "Seishoujo Kantai Virgin Fleet"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1772-y1CEEODDY22E.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1772-j3wenwOxKwbt.jpg",
+      "rating": 43,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 26497,
+      "role": "MAIN",
+      "name": {
+        "first": "Hiroshi",
+        "last": "Ozora",
+        "full": "Hiroshi Ozora",
+        "native": "大宇宙寛",
+        "userPreferred": "Hiroshi Ozora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26497.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        },
+        {
+          "id": 95692,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Hayter",
+            "full": "David Hayter",
+            "native": null,
+            "userPreferred": "David Hayter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95692-gzzrbsdRGBVc.jpg"
+        },
+        {
+          "id": 113863,
+          "language": "French",
+          "name": {
+            "first": "Cyrille",
+            "last": "Artaux",
+            "full": "Cyrille Artaux",
+            "native": null,
+            "userPreferred": "Cyrille Artaux"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26477,
+      "role": "MAIN",
+      "name": {
+        "first": "Mirai",
+        "last": "Ozora",
+        "full": "Mirai Ozora",
+        "native": null,
+        "userPreferred": "Mirai Ozora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26477.jpg",
+      "voiceActors": [
+        {
+          "id": 95140,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukana",
+            "last": "",
+            "full": "Yukana",
+            "native": "ゆかな",
+            "userPreferred": "Yukana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95140-sFp0uedEmZ9f.png"
+        },
+        {
+          "id": 200360,
+          "language": "English",
+          "name": {
+            "first": "Julia Reyna",
+            "last": "Kato",
+            "full": "Julia Reyna Kato",
+            "native": null,
+            "userPreferred": "Julia Reyna Kato"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 113865,
+          "language": "French",
+          "name": {
+            "first": "Dominique",
+            "last": "Vallée",
+            "full": "Dominique Vallée",
+            "native": null,
+            "userPreferred": "Dominique Vallée"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n113865-s1EqUZQ0ZprX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26499,
+      "role": "MAIN",
+      "name": {
+        "first": "Hiroshi",
+        "last": "Amagi",
+        "full": "Hiroshi Amagi",
+        "native": "天城博士",
+        "userPreferred": "Hiroshi Amagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26499.jpg",
+      "voiceActors": [
+        {
+          "id": 95670,
+          "language": "Japanese",
+          "name": {
+            "first": "Jouji",
+            "last": "Yanami",
+            "full": "Jouji Yanami",
+            "native": "八奈見乗児",
+            "userPreferred": "Jouji Yanami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95670-fTFcKuDyrOjc.png"
+        },
+        {
+          "id": 96035,
+          "language": "English",
+          "name": {
+            "first": "Doug",
+            "last": "Stone",
+            "full": "Doug Stone",
+            "native": null,
+            "userPreferred": "Doug Stone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1035.jpg"
+        },
+        {
+          "id": 158483,
+          "language": "French",
+          "name": {
+            "first": "Michel",
+            "last": "Tureau",
+            "full": "Michel Tureau",
+            "native": null,
+            "userPreferred": "Michel Tureau"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26500,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaoru",
+        "last": "Misaki",
+        "full": "Kaoru Misaki",
+        "native": null,
+        "userPreferred": "Kaoru Misaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95798,
+          "language": "Japanese",
+          "name": {
+            "first": "Kiyoyuki",
+            "last": "Yanada",
+            "full": "Kiyoyuki Yanada",
+            "native": "梁田清之",
+            "userPreferred": "Kiyoyuki Yanada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95798-zbNPAckSWMKV.png"
+        },
+        {
+          "id": 95012,
+          "language": "English",
+          "name": {
+            "first": "Steven",
+            "last": "Blum",
+            "full": "Steven Blum",
+            "native": null,
+            "userPreferred": "Steven Blum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95012-jnlK6VyCTf9P.png"
+        },
+        {
+          "id": 104256,
+          "language": "French",
+          "name": {
+            "first": "Philippe",
+            "last": "Roullier",
+            "full": "Philippe Roullier",
+            "native": null,
+            "userPreferred": "Philippe Roullier"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9256.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26498,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nozomu",
+        "last": "Ozora",
+        "full": "Nozomu Ozora",
+        "native": "大宇宙 望夢",
+        "userPreferred": "Nozomu Ozora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95678,
+          "language": "Japanese",
+          "name": {
+            "first": "Rika",
+            "last": "Matsumoto",
+            "full": "Rika Matsumoto",
+            "native": "松本梨香",
+            "userPreferred": "Rika Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95678-U0iKFbhteND6.png"
+        },
+        {
+          "id": 95367,
+          "language": "English",
+          "name": {
+            "first": "Joshua",
+            "last": "Seth",
+            "full": "Joshua Seth",
+            "native": null,
+            "userPreferred": "Joshua Seth"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95367-lUCb8pOCMGVb.jpg"
+        },
+        {
+          "id": 156094,
+          "language": "French",
+          "name": {
+            "first": "Danièle",
+            "last": "Hazan",
+            "full": "Danièle Hazan",
+            "native": null,
+            "userPreferred": "Danièle Hazan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 124774,
+      "relationType": "ADAPTATION",
+      "malId": null,
+      "title": {
+        "romaji": "Moldiver",
+        "english": null,
+        "native": "モルダイバー",
+        "userPreferred": "Moldiver"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx124774-zAjB3YFYpXLE.jpg",
+      "color": "#f1ae50",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx124774-zAjB3YFYpXLE.jpg",
+      "rating": null
+    },
+    {
+      "id": 135585,
+      "relationType": "SIDE_STORY",
+      "malId": 41822,
+      "title": {
+        "romaji": "Moldiver EX",
+        "english": null,
+        "native": "モルダイバーEX",
+        "userPreferred": "Moldiver EX"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b135585-3trdMWGMZW9x.jpg",
+      "color": "#285d86",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b135585-3trdMWGMZW9x.jpg",
+      "rating": 35
+    }
+  ],
+  "episodes": [
+    {
+      "id": "moldiver-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/571.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//moldiver-episode-1"
+    },
+    {
+      "id": "moldiver-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/571.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//moldiver-episode-2"
+    },
+    {
+      "id": "moldiver-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/571.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//moldiver-episode-3"
+    },
+    {
+      "id": "moldiver-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/571.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//moldiver-episode-4"
+    },
+    {
+      "id": "moldiver-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/571.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//moldiver-episode-5"
+    },
+    {
+      "id": "moldiver-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/571.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//moldiver-episode-6"
+    }
+  ]
+}

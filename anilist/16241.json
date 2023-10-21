@@ -1,0 +1,874 @@
+{
+  "id": "16241",
+  "title": {
+    "romaji": "Yondemasu yo, Azazel-san. Z",
+    "english": "You're Being Summoned, Azazel Z",
+    "native": "よんでますよ、アザゼルさん。Z"
+  },
+  "malId": 16241,
+  "synonyms": [
+    "Yondemasu yo",
+    "Azazel-san. 2nd Season"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/16241.jpg",
+  "popularity": 6169,
+  "color": "#d6861a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/16241.jpg",
+  "description": "The second season of Yondemasu yo, Azazel-san.",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 4,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 6,
+    "day": 30
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 72,
+  "duration": 12,
+  "genres": [
+    "Comedy",
+    "Supernatural"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Production I.G"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 100714,
+      "malId": 36906,
+      "title": {
+        "romaji": "Jashin-chan Dropkick",
+        "english": "Dropkick on My Devil!",
+        "native": "邪神ちゃんドロップキック",
+        "userPreferred": "Jashin-chan Dropkick"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100714-1glYB8znGJ5W.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100714-frMoYtJu32jK.jpg",
+      "rating": 67,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 33171,
+      "role": "MAIN",
+      "name": {
+        "first": "Azazel",
+        "last": null,
+        "full": "Azazel",
+        "native": "アザゼル",
+        "userPreferred": "Azazel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b33171-fGn0RTU3MPAW.png",
+      "voiceActors": [
+        {
+          "id": 95173,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaya",
+            "last": "Onosaka",
+            "full": "Masaya Onosaka",
+            "native": "小野坂昌也",
+            "userPreferred": "Masaya Onosaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95173-LIuN04REF5eA.png"
+        }
+      ]
+    },
+    {
+      "id": 33173,
+      "role": "MAIN",
+      "name": {
+        "first": "",
+        "last": "Akutabe",
+        "full": "Akutabe",
+        "native": "芥辺",
+        "userPreferred": "Akutabe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/33173.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        }
+      ]
+    },
+    {
+      "id": 33172,
+      "role": "MAIN",
+      "name": {
+        "first": "Rinko",
+        "last": "Sakuma",
+        "full": "Rinko Sakuma",
+        "native": "佐隈リん子",
+        "userPreferred": "Rinko Sakuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b33172-T3x7nz2UFEZw.png",
+      "voiceActors": [
+        {
+          "id": 95241,
+          "language": "Japanese",
+          "name": {
+            "first": "Rina",
+            "last": "Satou",
+            "full": "Rina Satou",
+            "native": "佐藤利奈",
+            "userPreferred": "Rina Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95241-4XvR64oguxwS.png"
+        }
+      ]
+    },
+    {
+      "id": 40848,
+      "role": "MAIN",
+      "name": {
+        "first": "Beelzebub",
+        "last": null,
+        "full": "Beelzebub",
+        "native": "ベルゼブブ",
+        "userPreferred": "Beelzebub"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40848.jpg",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        }
+      ]
+    },
+    {
+      "id": 41886,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kiyoko",
+        "last": null,
+        "full": "Kiyoko",
+        "native": null,
+        "userPreferred": "Kiyoko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41886.jpg",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        }
+      ]
+    },
+    {
+      "id": 82673,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nobuki",
+        "last": "Marukome",
+        "full": "Nobuki Marukome",
+        "native": "丸米信希",
+        "userPreferred": "Nobuki Marukome"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/82673.jpg",
+      "voiceActors": [
+        {
+          "id": 95146,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Ootsuka",
+            "full": "Akio Ootsuka",
+            "native": "大塚明夫",
+            "userPreferred": "Akio Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95146-T6IEmqXW3xUN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87245,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Incubus",
+        "last": null,
+        "full": "Incubus",
+        "native": "インキュバス",
+        "userPreferred": "Incubus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87245.jpg",
+      "voiceActors": [
+        {
+          "id": 95600,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Toyonaga",
+            "full": "Toshiyuki Toyonaga",
+            "native": "豊永利行",
+            "userPreferred": "Toshiyuki Toyonaga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95600-giNVqkdeWKuF.png"
+        }
+      ]
+    },
+    {
+      "id": 85941,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "48 Faced Freak",
+        "last": null,
+        "full": "48 Faced Freak",
+        "native": "変人48面相",
+        "userPreferred": "48 Faced Freak"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/85941.jpg",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        }
+      ]
+    },
+    {
+      "id": 40850,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Undine",
+        "last": null,
+        "full": "Undine",
+        "native": "アンダイン",
+        "userPreferred": "Undine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40850.jpg",
+      "voiceActors": [
+        {
+          "id": 95034,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Kobayashi",
+            "full": "Yuu Kobayashi",
+            "native": "小林ゆう",
+            "userPreferred": "Yuu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95034-AwobjrcmkMi9.png"
+        }
+      ]
+    },
+    {
+      "id": 82671,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Reika",
+        "last": "Kikukawa",
+        "full": "Reika Kikukawa",
+        "native": "麗華",
+        "userPreferred": "Reika Kikukawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/82671.jpg",
+      "voiceActors": [
+        {
+          "id": 95720,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenta",
+            "last": "Miyake",
+            "full": "Kenta Miyake",
+            "native": "三宅健太",
+            "userPreferred": "Kenta Miyake"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95720-enxx6kZKuwGi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 86233,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mayu",
+        "last": "Hanasaki",
+        "full": "Mayu Hanasaki",
+        "native": "花崎まゆ",
+        "userPreferred": "Mayu Hanasaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/86233.jpg",
+      "voiceActors": [
+        {
+          "id": 95070,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Koshimizu",
+            "full": "Ami Koshimizu",
+            "native": "小清水亜美",
+            "userPreferred": "Ami Koshimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95070-klkIfKz1VItS.png"
+        }
+      ]
+    },
+    {
+      "id": 82669,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eurinome",
+        "last": null,
+        "full": "Eurinome",
+        "native": null,
+        "userPreferred": "Eurinome"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/82669.jpg",
+      "voiceActors": [
+        {
+          "id": 95196,
+          "language": "Japanese",
+          "name": {
+            "first": "Kishou",
+            "last": "Taniyama",
+            "full": "Kishou Taniyama",
+            "native": "谷山紀章",
+            "userPreferred": "Kishou Taniyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95196-t2vbxQMee0ci.png"
+        }
+      ]
+    },
+    {
+      "id": 82075,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Moloch II",
+        "last": null,
+        "full": "Moloch II",
+        "native": "モロク二世",
+        "userPreferred": "Moloch II"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/82075.jpg",
+      "voiceActors": [
+        {
+          "id": 95761,
+          "language": "Japanese",
+          "name": {
+            "first": "Tesshou",
+            "last": "Genda",
+            "full": "Tesshou Genda",
+            "native": "玄田哲章",
+            "userPreferred": "Tesshou Genda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95761-nwndYRCqJxno.png"
+        }
+      ]
+    },
+    {
+      "id": 43909,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "God",
+        "last": null,
+        "full": "God",
+        "native": "神",
+        "userPreferred": "God"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43909.jpg",
+      "voiceActors": [
+        {
+          "id": 95237,
+          "language": "Japanese",
+          "name": {
+            "first": "Juurouta",
+            "last": "Kosugi",
+            "full": "Juurouta Kosugi",
+            "native": "小杉十郎太",
+            "userPreferred": "Juurouta Kosugi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95237-nelrZUfvh2FH.png"
+        }
+      ]
+    },
+    {
+      "id": 82077,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ose",
+        "last": null,
+        "full": "Ose",
+        "native": "オセ",
+        "userPreferred": "Ose"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b82077-Etlpfp5H6R6P.png",
+      "voiceActors": [
+        {
+          "id": 95989,
+          "language": "Japanese",
+          "name": {
+            "first": "Tarou",
+            "last": "Yamaguchi",
+            "full": "Tarou Yamaguchi",
+            "native": "山口太郎",
+            "userPreferred": "Tarou Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95989-SwsXqIywUZXc.png"
+        }
+      ]
+    },
+    {
+      "id": 86231,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Souji",
+        "last": "Hashiba",
+        "full": "Souji Hashiba",
+        "native": "羽柴総司",
+        "userPreferred": "Souji Hashiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/86231.jpg",
+      "voiceActors": [
+        {
+          "id": 95113,
+          "language": "Japanese",
+          "name": {
+            "first": "Rikiya",
+            "last": "Koyama",
+            "full": "Rikiya Koyama",
+            "native": "小山力也",
+            "userPreferred": "Rikiya Koyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95113-z9eyYjTKSTX4.png"
+        }
+      ]
+    },
+    {
+      "id": 43910,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Michael",
+        "last": null,
+        "full": "Michael",
+        "native": "ミカエル",
+        "userPreferred": "Michael"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43910.jpg",
+      "voiceActors": [
+        {
+          "id": 96443,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Suzuki",
+            "full": "Akiko Suzuki",
+            "native": "鈴木晶子",
+            "userPreferred": "Akiko Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96443-Wgn4p8Wt8lrH.png"
+        }
+      ]
+    },
+    {
+      "id": 86139,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sargatanas",
+        "last": null,
+        "full": "Sargatanas",
+        "native": "サルガタナス",
+        "userPreferred": "Sargatanas"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/86139.jpg",
+      "voiceActors": [
+        {
+          "id": 95272,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Kaneda",
+            "full": "Tomoko Kaneda",
+            "native": "金田朋子",
+            "userPreferred": "Tomoko Kaneda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95272-qfGnqI0gkKK5.png"
+        }
+      ]
+    },
+    {
+      "id": 43913,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Raphael",
+        "last": null,
+        "full": "Raphael",
+        "native": "ラファエル",
+        "userPreferred": "Raphael"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43913.jpg",
+      "voiceActors": [
+        {
+          "id": 106716,
+          "language": "Japanese",
+          "name": {
+            "first": "Sakiko",
+            "last": "Uran",
+            "full": "Sakiko Uran",
+            "native": "雨蘭咲木子",
+            "userPreferred": "Sakiko Uran"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106716-xyIur3ZCW8cR.png"
+        }
+      ]
+    },
+    {
+      "id": 40849,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Salamander",
+        "last": null,
+        "full": "Salamander",
+        "native": "サラマンダー",
+        "userPreferred": "Salamander"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40849.jpg",
+      "voiceActors": [
+        {
+          "id": 95123,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuya",
+            "last": "Nakai",
+            "full": "Kazuya Nakai",
+            "native": "中井和哉",
+            "userPreferred": "Kazuya Nakai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95123-qdVFNraYmQ5K.png"
+        }
+      ]
+    },
+    {
+      "id": 42857,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Koutarou",
+        "last": "Douchin",
+        "full": "Koutarou Douchin",
+        "native": "堂珍光太郎",
+        "userPreferred": "Koutarou Douchin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42857.jpg",
+      "voiceActors": [
+        {
+          "id": 95348,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shiraishi",
+            "full": "Ryouko Shiraishi",
+            "native": "白石涼子",
+            "userPreferred": "Ryouko Shiraishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95348-sLIy7IMrgZeA.png"
+        }
+      ]
+    },
+    {
+      "id": 43912,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gabriel",
+        "last": null,
+        "full": "Gabriel",
+        "native": "ガブリエル",
+        "userPreferred": "Gabriel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43912.jpg",
+      "voiceActors": [
+        {
+          "id": 107678,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Fukushima",
+            "full": "Ami Fukushima",
+            "native": "福島亜美",
+            "userPreferred": "Ami Fukushima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12678.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42780,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sariel",
+        "last": null,
+        "full": "Sariel",
+        "native": "サリエル",
+        "userPreferred": "Sariel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42780.jpg",
+      "voiceActors": [
+        {
+          "id": 95134,
+          "language": "Japanese",
+          "name": {
+            "first": "Takeshi",
+            "last": "Kusao",
+            "full": "Takeshi Kusao",
+            "native": "草尾毅",
+            "userPreferred": "Takeshi Kusao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95134-OZzRIDS8eAUd.png"
+        }
+      ]
+    },
+    {
+      "id": 43911,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Uriel",
+        "last": null,
+        "full": "Uriel",
+        "native": "ウリエル",
+        "userPreferred": "Uriel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43911.jpg",
+      "voiceActors": [
+        {
+          "id": 95428,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Kaida",
+            "full": "Yuuko Kaida",
+            "native": "甲斐田裕子",
+            "userPreferred": "Yuuko Kaida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95428-1e4kSvr5fkmQ.png"
+        }
+      ]
+    },
+    {
+      "id": 84239,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gaghiel",
+        "last": null,
+        "full": "Gaghiel",
+        "native": "ガギエル",
+        "userPreferred": "Gaghiel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/84239.jpg",
+      "voiceActors": [
+        {
+          "id": 110743,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouta",
+            "last": "Oosaka",
+            "full": "Ryouta Oosaka",
+            "native": "逢坂良太",
+            "userPreferred": "Ryouta Oosaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110743-k2SgQwU0JD33.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 10216,
+      "relationType": "PREQUEL",
+      "malId": 10216,
+      "title": {
+        "romaji": "Yondemasu yo, Azazel-san. (TV)",
+        "english": "You're Being Summoned, Azazel",
+        "native": "よんでますよ、アザゼルさん。",
+        "userPreferred": "Yondemasu yo, Azazel-san. (TV)"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10216.jpg",
+      "color": "#e4ae5d",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10216.jpg",
+      "rating": 72
+    },
+    {
+      "id": 52114,
+      "relationType": "ADAPTATION",
+      "malId": 22114,
+      "title": {
+        "romaji": "Yondemasu yo, Azazel-san.",
+        "english": "You're Being Summoned",
+        "native": "よんでますよ、アザゼルさん。",
+        "userPreferred": "Yondemasu yo, Azazel-san."
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/22114.jpg",
+      "color": "#e46b35",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/22114.jpg",
+      "rating": 70
+    }
+  ],
+  "episodes": [
+    {
+      "id": "yondemasuyo-azazel-san-z-episode-1",
+      "title": "Foolish Older Brother, Wise Younger Brother",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105518/original.jpg",
+      "number": 1,
+      "createdAt": "2013-04-13T12:30:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yondemasuyo-azazel-san-z-episode-1"
+    },
+    {
+      "id": "yondemasuyo-azazel-san-z-episode-2",
+      "title": "The Cow Witnesses!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105519/original.jpg",
+      "number": 2,
+      "createdAt": "2013-04-13T12:30:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yondemasuyo-azazel-san-z-episode-2"
+    },
+    {
+      "id": "yondemasuyo-azazel-san-z-episode-3",
+      "title": "The Icon of Hemorrhoids",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105520/original.jpg",
+      "number": 3,
+      "createdAt": "2013-04-13T12:30:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yondemasuyo-azazel-san-z-episode-3"
+    },
+    {
+      "id": "yondemasuyo-azazel-san-z-episode-4",
+      "title": "Eurynome of Despair",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105521/original.jpg",
+      "number": 4,
+      "createdAt": "2013-04-13T12:30:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yondemasuyo-azazel-san-z-episode-4"
+    },
+    {
+      "id": "yondemasuyo-azazel-san-z-episode-5",
+      "title": "Megumi Makes a Move",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105522/original.jpg",
+      "number": 5,
+      "createdAt": "2013-04-13T12:30:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yondemasuyo-azazel-san-z-episode-5"
+    },
+    {
+      "id": "yondemasuyo-azazel-san-z-episode-6",
+      "title": "Pure Angel, Baby",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105523/original.jpg",
+      "number": 6,
+      "createdAt": "2013-04-13T12:30:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yondemasuyo-azazel-san-z-episode-6"
+    },
+    {
+      "id": "yondemasuyo-azazel-san-z-episode-7",
+      "title": "Dragon Lake Murder Mystery (Part 1)",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105524/original.jpg",
+      "number": 7,
+      "createdAt": "2013-04-13T12:30:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yondemasuyo-azazel-san-z-episode-7"
+    },
+    {
+      "id": "yondemasuyo-azazel-san-z-episode-8",
+      "title": "Dragon Lake Murder Mystery (Part 2)",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105525/original.jpg",
+      "number": 8,
+      "createdAt": "2013-04-13T12:30:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yondemasuyo-azazel-san-z-episode-8"
+    },
+    {
+      "id": "yondemasuyo-azazel-san-z-episode-9",
+      "title": "Welcome to the Museum",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105526/original.jpg",
+      "number": 9,
+      "createdAt": "2013-04-13T12:30:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yondemasuyo-azazel-san-z-episode-9"
+    },
+    {
+      "id": "yondemasuyo-azazel-san-z-episode-10",
+      "title": "The End of Son",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105527/original.jpg",
+      "number": 10,
+      "createdAt": "2013-04-13T12:30:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yondemasuyo-azazel-san-z-episode-10"
+    },
+    {
+      "id": "yondemasuyo-azazel-san-z-episode-11",
+      "title": "Acchan's Reality",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105528/original.jpg",
+      "number": 11,
+      "createdAt": "2013-04-13T12:30:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yondemasuyo-azazel-san-z-episode-11"
+    },
+    {
+      "id": "yondemasuyo-azazel-san-z-episode-12",
+      "title": "Demon",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105529/original.jpg",
+      "number": 12,
+      "createdAt": "2013-04-13T12:30:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yondemasuyo-azazel-san-z-episode-12"
+    },
+    {
+      "id": "yondemasuyo-azazel-san-z-episode-13",
+      "title": "Darkness",
+      "image": "https://media.kitsu.io/episodes/thumbnails/105530/original.jpg",
+      "number": 13,
+      "createdAt": "2013-04-13T12:30:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yondemasuyo-azazel-san-z-episode-13"
+    }
+  ]
+}

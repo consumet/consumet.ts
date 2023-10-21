@@ -1,0 +1,993 @@
+{
+  "id": "8287",
+  "title": {
+    "romaji": "SD Gundam Sangokuden Brave Battle Warriors",
+    "english": null,
+    "native": "SDガンダム三国伝 Brave Battle Warriors"
+  },
+  "malId": 8287,
+  "synonyms": [
+    "BB Senshi"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+  "popularity": 919,
+  "color": "#e47850",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+  "description": "A Romance of the Three Kingdoms retelling using SD Gundams.",
+  "status": "Completed",
+  "releaseDate": 2010,
+  "startDate": {
+    "year": 2010,
+    "month": 4,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2011,
+    "month": 3,
+    "day": 19
+  },
+  "totalEpisodes": 51,
+  "currentEpisode": 51,
+  "rating": 53,
+  "duration": 12,
+  "genres": [
+    "Action",
+    "Mecha"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Sunrise"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 108041,
+      "malId": 38715,
+      "title": {
+        "romaji": "SD Gundam World Sangoku Soketsuden",
+        "english": "SD Gundam World Sangoku Soketsuden",
+        "native": "SDガンダムワールド 三国創傑伝",
+        "userPreferred": "SD Gundam World Sangoku Soketsuden"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108041-KVoSyXKJ6ftj.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108041-KVoSyXKJ6ftj.jpg",
+      "rating": 48,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 83857,
+      "role": "MAIN",
+      "name": {
+        "first": "Kan-u",
+        "last": "Gundam",
+        "full": "Kan-u Gundam",
+        "native": "関羽ガンダム",
+        "userPreferred": "Kan-u Gundam"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/83857-wqpMkZ8oAho7.png",
+      "voiceActors": [
+        {
+          "id": 95025,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Yasumoto",
+            "full": "Hiroki Yasumoto",
+            "native": "安元洋貴",
+            "userPreferred": "Hiroki Yasumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95025-LGHr4VufmfCc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 83859,
+      "role": "MAIN",
+      "name": {
+        "first": "Chouhi",
+        "last": "Gundam",
+        "full": "Chouhi Gundam",
+        "native": "張飛ガンダム",
+        "userPreferred": "Chouhi Gundam"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/83859-9d5MBvU1eCtV.png",
+      "voiceActors": [
+        {
+          "id": 95102,
+          "language": "Japanese",
+          "name": {
+            "first": "Masayuki",
+            "last": "Katou",
+            "full": "Masayuki Katou",
+            "native": "加藤将之 ",
+            "userPreferred": "Masayuki Katou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95102-3YCVzrTvVhou.png"
+        }
+      ]
+    },
+    {
+      "id": 83873,
+      "role": "MAIN",
+      "name": {
+        "first": "Sousou",
+        "last": "Gundam",
+        "full": "Sousou Gundam",
+        "native": "曹操ガンダム",
+        "userPreferred": "Sousou Gundam"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/83873.jpg",
+      "voiceActors": [
+        {
+          "id": 95299,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Nomura",
+            "full": "Kenji Nomura",
+            "native": "乃村健次",
+            "userPreferred": "Kenji Nomura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95299-emNsgDYS4DBi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 83855,
+      "role": "MAIN",
+      "name": {
+        "first": "Ryuubi",
+        "last": "Gundam",
+        "full": "Ryuubi Gundam",
+        "native": "劉備ガンダム",
+        "userPreferred": "Ryuubi Gundam"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/83855-t1wYvRJNPjYb.png",
+      "voiceActors": [
+        {
+          "id": 95672,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Kaji",
+            "full": "Yuuki Kaji",
+            "native": "梶裕貴",
+            "userPreferred": "Yuuki Kaji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95672-RN4nm0OFwCyU.png"
+        }
+      ]
+    },
+    {
+      "id": 83869,
+      "role": "MAIN",
+      "name": {
+        "first": "Ryofu",
+        "last": "Tallgeese",
+        "full": "Ryofu Tallgeese",
+        "native": "呂布トールギス",
+        "userPreferred": "Ryofu Tallgeese"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/83869-IPNfInQIchVf.png",
+      "voiceActors": [
+        {
+          "id": 102699,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Miyauchi",
+            "full": "Atsushi Miyauchi",
+            "native": "宮内敦士",
+            "userPreferred": "Atsushi Miyauchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7699.jpg"
+        }
+      ]
+    },
+    {
+      "id": 83977,
+      "role": "MAIN",
+      "name": {
+        "first": "Sonken",
+        "last": "Gundam",
+        "full": "Sonken Gundam",
+        "native": "孫権ガンダム",
+        "userPreferred": "Sonken Gundam"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/83977.jpg",
+      "voiceActors": [
+        {
+          "id": 105989,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobunaga",
+            "last": "Shimazaki",
+            "full": "Nobunaga Shimazaki",
+            "native": "島崎信長",
+            "userPreferred": "Nobunaga Shimazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105989-96etzH1dLNug.jpg"
+        }
+      ]
+    },
+    {
+      "id": 83867,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Koumei",
+        "last": "Re-GZ",
+        "full": "Koumei Re-GZ",
+        "native": "孔明リ・ガズィ",
+        "userPreferred": "Koumei Re-GZ"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/83867.jpg",
+      "voiceActors": [
+        {
+          "id": 110707,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazutaka",
+            "last": "Ishii",
+            "full": "Kazutaka Ishii",
+            "native": "石井一貴",
+            "userPreferred": "Kazutaka Ishii"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15707.jpg"
+        }
+      ]
+    },
+    {
+      "id": 83871,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chou-sen",
+        "last": "Qubeley",
+        "full": "Chou-sen Qubeley",
+        "native": "貂蝉キュベレイ",
+        "userPreferred": "Chou-sen Qubeley"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/83871.jpg",
+      "voiceActors": [
+        {
+          "id": 96504,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Tsunematsu",
+            "full": "Ayumi Tsunematsu",
+            "native": "恒松あゆみ",
+            "userPreferred": "Ayumi Tsunematsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96504-uR5BYvPwmSWR.png"
+        }
+      ]
+    },
+    {
+      "id": 84217,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rikuson",
+        "last": "Zetaplus",
+        "full": "Rikuson Zetaplus",
+        "native": "陸遜ゼータプラス",
+        "userPreferred": "Rikuson Zetaplus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/84217-rNcnInbAzwuN.png",
+      "voiceActors": [
+        {
+          "id": 95356,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiro",
+            "last": "Shimono",
+            "full": "Hiro Shimono",
+            "native": "下野紘",
+            "userPreferred": "Hiro Shimono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95356-PFaZRlI9oJ56.png"
+        }
+      ]
+    },
+    {
+      "id": 83875,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sonshoukou",
+        "last": "Gerbera",
+        "full": "Sonshoukou Gerbera",
+        "native": "孫尚香ガーベラ",
+        "userPreferred": "Sonshoukou Gerbera"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/83875.jpg",
+      "voiceActors": [
+        {
+          "id": 95239,
+          "language": "Japanese",
+          "name": {
+            "first": "Akemi",
+            "last": "Kanda",
+            "full": "Akemi Kanda",
+            "native": "神田朱未",
+            "userPreferred": "Akemi Kanda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/239.jpg"
+        }
+      ]
+    },
+    {
+      "id": 84167,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sonken",
+        "last": "Zephyranthes",
+        "full": "Sonken Zephyranthes",
+        "native": "孫堅ゼフィランサス",
+        "userPreferred": "Sonken Zephyranthes"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/84167.jpg",
+      "voiceActors": [
+        {
+          "id": 96260,
+          "language": "Japanese",
+          "name": {
+            "first": "Takashi",
+            "last": "Nagasako",
+            "full": "Takashi Nagasako",
+            "native": "長嶝高士",
+            "userPreferred": "Takashi Nagasako"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96260-IhjrEBKbw8aN.png"
+        }
+      ]
+    },
+    {
+      "id": 84215,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sonsaku",
+        "last": "Physalis Gundam",
+        "full": "Sonsaku Physalis Gundam",
+        "native": "孫策サイサリスガンダム",
+        "userPreferred": "Sonsaku Physalis Gundam"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/84215.jpg",
+      "voiceActors": [
+        {
+          "id": 101908,
+          "language": "Japanese",
+          "name": {
+            "first": "Riki",
+            "last": "Kitazawa",
+            "full": "Riki Kitazawa",
+            "native": "北沢力",
+            "userPreferred": "Riki Kitazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101908-SEetTrfmLIP3.png"
+        }
+      ]
+    },
+    {
+      "id": 83863,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kounsonsan",
+        "last": "Ez-8",
+        "full": "Kounsonsan Ez-8",
+        "native": "公孫瓚イージーエイト",
+        "userPreferred": "Kounsonsan Ez-8"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/83863.jpg",
+      "voiceActors": [
+        {
+          "id": 117219,
+          "language": "Japanese",
+          "name": {
+            "first": "Satoru",
+            "last": "Inoue",
+            "full": "Satoru Inoue",
+            "native": "井上悟",
+            "userPreferred": "Satoru Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n117219-TQiSVO7Icmog.png"
+        }
+      ]
+    },
+    {
+      "id": 84225,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Toutaku",
+        "last": "Zaku",
+        "full": "Toutaku Zaku",
+        "native": "董卓ザク",
+        "userPreferred": "Toutaku Zaku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/84225.jpg",
+      "voiceActors": [
+        {
+          "id": 96682,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuo",
+            "last": "Komura",
+            "full": "Tetsuo Komura",
+            "native": "小村哲生",
+            "userPreferred": "Tetsuo Komura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1682.jpg"
+        }
+      ]
+    },
+    {
+      "id": 83865,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chou-un",
+        "last": "Gundam",
+        "full": "Chou-un Gundam",
+        "native": "趙雲ガンダム",
+        "userPreferred": "Chou-un Gundam"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/83865.jpg",
+      "voiceActors": [
+        {
+          "id": 96154,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Ono",
+            "full": "Yuuki Ono",
+            "native": "小野友樹",
+            "userPreferred": "Yuuki Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96154-B8GAO9wm1Fbd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 84227,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Enshou",
+        "last": "Bawoo",
+        "full": "Enshou Bawoo",
+        "native": "袁紹バウ",
+        "userPreferred": "Enshou Bawoo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/84227.jpg",
+      "voiceActors": [
+        {
+          "id": 95634,
+          "language": "Japanese",
+          "name": {
+            "first": "Yousuke",
+            "last": "Akimoto",
+            "full": "Yousuke Akimoto",
+            "native": "秋元羊介",
+            "userPreferred": "Yousuke Akimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95634-q6SacvhRo9Pq.jpg"
+        },
+        {
+          "id": 106102,
+          "language": "English",
+          "name": {
+            "first": "Michael",
+            "last": "Pizzuto",
+            "full": "Michael Pizzuto",
+            "native": null,
+            "userPreferred": "Michael Pizzuto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106102-JYTB5zVsEBoR.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 80,
+      "relationType": "PARENT",
+      "malId": 80,
+      "title": {
+        "romaji": "Kidou Senshi Gundam",
+        "english": "Mobile Suit Gundam",
+        "native": "機動戦士ガンダム",
+        "userPreferred": "Kidou Senshi Gundam"
+      },
+      "status": "Completed",
+      "episodes": 43,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx80-HKQTjSNuFlHu.jpg",
+      "color": "#934328",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/80-LcQhJ600WeDn.jpg",
+      "rating": 76
+    },
+    {
+      "id": 8132,
+      "relationType": "SIDE_STORY",
+      "malId": 8132,
+      "title": {
+        "romaji": "Chou Deneiban SD Gundam Sangokuden Brave Battle Warriors",
+        "english": null,
+        "native": "超電影版SDガンダム三国伝 Brave Battle Warriors",
+        "userPreferred": "Chou Deneiban SD Gundam Sangokuden Brave Battle Warriors"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8132.jpg",
+      "color": "#f17850",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8132.jpg",
+      "rating": 50
+    }
+  ],
+  "episodes": [
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-1",
+      "title": "Birth of a Hero",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-1"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-2",
+      "title": "Encounter",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-2"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-3",
+      "title": "For The People",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-3"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-4",
+      "title": "Assassin",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-4"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-5",
+      "title": "The Rivals Gather",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-5"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-6",
+      "title": "Capture Hu Lao Gate",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-6"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-7",
+      "title": "The Clash of Cao Cao and Lu Bu",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-7"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-8",
+      "title": "The Fearsome Generals Battle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-8"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-9",
+      "title": "A Capital Engulfed In Flames",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-9"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-10",
+      "title": "A Tiger Falls",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-10"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-11",
+      "title": "Zhao Yun Visits",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-11"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-12",
+      "title": "On The Eve Of Battle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-12"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-13",
+      "title": "The Celestial Armor Descends",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-13"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-14",
+      "title": "Liu Bei Steps Out",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-14"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-15",
+      "title": "Rulers And Subject",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-15"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-16",
+      "title": "Mirage Of Terror",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-16"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-17",
+      "title": "A New World",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-17"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-18",
+      "title": "Little Conqueror of Jiang Dong",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-18"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-19",
+      "title": "Emperor declared",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-19"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-20",
+      "title": "Xuzhou fall",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-20"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-21",
+      "title": "Liu Bei Selection",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-21"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-22",
+      "title": "Castle Of Betrayal",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-22"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-23",
+      "title": "Heaven And Earth",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-23"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-24",
+      "title": "Challenge Of The Little Conqueror",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-24"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-25",
+      "title": "Farewell! Sun Ce",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-25"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-26",
+      "title": "Courage Of Truth",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-26"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-27",
+      "title": "Meet The Son Of A Gun!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 27,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-27"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-28",
+      "title": "Blue-eyed Children Of Jiang Dong",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 28,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-28"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-29",
+      "title": "Feedback Of Liu Bei",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 29,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-29"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-30",
+      "title": "Reunion, Yuushu",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 30,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-30"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-31",
+      "title": "Fierce Fighting White Stallion",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 31,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-31"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-32",
+      "title": "Guan Yu Roars",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 32,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-32"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-33",
+      "title": "Ji Zhou's Million Troops",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 33,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-33"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-34",
+      "title": "Twilight Over Yijing Fortress",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 34,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-34"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-35",
+      "title": "Advance On Guandu",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 35,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-35"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-36",
+      "title": "The Battle Of Guandu",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 36,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-36"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-37",
+      "title": "Opposing Force",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 37,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-37"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-38",
+      "title": "The Chosen Conqueror",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 38,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-38"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-39",
+      "title": "Shura Challenges The Heaven",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 39,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-39"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-40",
+      "title": "Bonds Beyond A Thousand Miles",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 40,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-40"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-41",
+      "title": "The Sleeping Dragon Takes Flight",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 41,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-41"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-42",
+      "title": "Inherited Courage",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 42,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-42"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-43",
+      "title": "The Three Kingdoms Strategem",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 43,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-43"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-44",
+      "title": "The Dragon Emperor's Sword Descent",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 44,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-44"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-45",
+      "title": "Clash at Changban Bridge",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 45,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-45"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-46",
+      "title": "Sun Quan's Ascent",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 46,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-46"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-47",
+      "title": "The Celestial Cannon",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 47,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-47"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-48",
+      "title": "The Battle Of Red Cliffs",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 48,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-48"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-49",
+      "title": "The Enflamed Chang River",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 49,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-49"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-50",
+      "title": "Radiance Of The Dragon",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 50,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-50"
+    },
+    {
+      "id": "sd-gundam-sangokuden-brave-battle-warriors--episode-51",
+      "title": "Legacy Of The Three Kingdoms",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+      "number": 51,
+      "createdAt": "2013-02-20T18:27:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//sd-gundam-sangokuden-brave-battle-warriors--episode-51"
+    }
+  ]
+}

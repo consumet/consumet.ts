@@ -1,0 +1,472 @@
+{
+  "id": "98529",
+  "title": {
+    "romaji": "Ramen Daisuki Koizumi-san",
+    "english": "Ms. Koizumi Loves Ramen Noodles",
+    "native": "ラーメン大好き小泉さん"
+  },
+  "malId": 35298,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "qHpxdnZyloU",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/qHpxdnZyloU/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98529-EwZwzKGNaU8b.jpg",
+  "popularity": 15817,
+  "color": "#50aef1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98529-Yv5xHKj1kIVM.jpg",
+  "description": "The gourmet comedy follows the daily life of Koizumi, a high school girl who looks like a cool beauty at first glance, but actually has an unexpected side of her that loves ramen.<br><br>\n\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2018,
+  "startDate": {
+    "year": 2018,
+    "month": 1,
+    "day": 4
+  },
+  "endDate": {
+    "year": 2018,
+    "month": 3,
+    "day": 22
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 61,
+  "duration": 23,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Studio Gokumi",
+    "AXsiZ"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 20923,
+      "malId": 28171,
+      "title": {
+        "romaji": "Shokugeki no Souma",
+        "english": "Food Wars!",
+        "native": "食戟のソーマ",
+        "userPreferred": "Shokugeki no Souma"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20923-BPzRptpHC9Mw.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20923-9tFdZ5hIrRiF.png",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 20744,
+      "malId": 24629,
+      "title": {
+        "romaji": "Koufuku Graffiti",
+        "english": "Gourmet Girl Graffiti",
+        "native": "幸腹グラフィティ",
+        "userPreferred": "Koufuku Graffiti"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20744-efsZNvz4iPQ3.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20744-IrS4vvwiGhhQ.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 97873,
+      "malId": 34420,
+      "title": {
+        "romaji": "Isekai Izakaya: Koto Aitheria no Izakaya Nobu.",
+        "english": "Isekai Izakaya: Japanese Food From Another World",
+        "native": "異世界居酒屋～古都アイテーリアの居酒屋のぶ～",
+        "userPreferred": "Isekai Izakaya: Koto Aitheria no Izakaya Nobu."
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97873-jYQ3dPoaOLxX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97873-XWts5ea1rs1n.jpg",
+      "rating": 70,
+      "type": "ONA"
+    },
+    {
+      "id": 132806,
+      "malId": 48804,
+      "title": {
+        "romaji": "Isekai Shokudou 2",
+        "english": "Restaurant to Another World 2",
+        "native": "異世界食堂２",
+        "userPreferred": "Isekai Shokudou 2"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx132806-fuOSzS2YOpIt.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/132806-9lleLtCkUw2N.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 99366,
+      "malId": 35821,
+      "title": {
+        "romaji": "Chio-chan no Tsuugakuro",
+        "english": "Chio's School Road",
+        "native": "ちおちゃんの通学路",
+        "userPreferred": "Chio-chan no Tsuugakuro"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99366-niYV5CEsEhnc.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n99366-LJAdZ5GKxFaQ.jpg",
+      "rating": 71,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 124569,
+      "role": "MAIN",
+      "name": {
+        "first": "Koizumi",
+        "last": null,
+        "full": "Koizumi",
+        "native": "小泉さん",
+        "userPreferred": "Koizumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/124569-bP7EKIvjpoqV.jpg",
+      "voiceActors": [
+        {
+          "id": 101996,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayana",
+            "last": "Taketatsu",
+            "full": "Ayana Taketatsu",
+            "native": "竹達彩奈",
+            "userPreferred": "Ayana Taketatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101996-W14XnDV34VpO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 124570,
+      "role": "MAIN",
+      "name": {
+        "first": "Misa",
+        "last": "Nakamura",
+        "full": "Misa Nakamura",
+        "native": "中村美沙",
+        "userPreferred": "Misa Nakamura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/124570-QQMr0vMnPd0r.jpg",
+      "voiceActors": [
+        {
+          "id": 119722,
+          "language": "Japanese",
+          "name": {
+            "first": "Akari",
+            "last": "Kitou",
+            "full": "Akari Kitou",
+            "native": "鬼頭明里",
+            "userPreferred": "Akari Kitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119722-5dLCvvv1Rbcc.png"
+        }
+      ]
+    },
+    {
+      "id": 124571,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuu",
+        "last": "Oosawa",
+        "full": "Yuu Oosawa",
+        "native": "大澤悠",
+        "userPreferred": "Yuu Oosawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/124571-AXTcEzLhMKnU.jpg",
+      "voiceActors": [
+        {
+          "id": 106622,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayane",
+            "last": "Sakura",
+            "full": "Ayane Sakura",
+            "native": "佐倉綾音",
+            "userPreferred": "Ayane Sakura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106622-yemj6ymLz4lY.png"
+        }
+      ]
+    },
+    {
+      "id": 124572,
+      "role": "MAIN",
+      "name": {
+        "first": "Jun",
+        "last": "Takahashi",
+        "full": "Jun Takahashi",
+        "native": "高橋潤",
+        "userPreferred": "Jun Takahashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/124572-yqIKuhsKTp0e.jpg",
+      "voiceActors": [
+        {
+          "id": 107016,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Hara",
+            "full": "Yumi Hara",
+            "native": "原由実",
+            "userPreferred": "Yumi Hara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107016-5zuMmFy8rzor.png"
+        }
+      ]
+    },
+    {
+      "id": 136253,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hannah",
+        "last": null,
+        "full": "Hannah",
+        "native": "ハナ",
+        "userPreferred": "Hannah"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136253-ZAvrpHptpcyA.png",
+      "voiceActors": [
+        {
+          "id": 113511,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Kakuma",
+            "full": "Ai Kakuma",
+            "native": "加隈亜衣",
+            "userPreferred": "Ai Kakuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n113511-9zlSX9E2ne5G.jpg"
+        }
+      ]
+    },
+    {
+      "id": 247032,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shuu",
+        "last": "Oosawa",
+        "full": "Shuu Oosawa",
+        "native": "大澤修",
+        "userPreferred": "Shuu Oosawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b247032-BT3XswgBwimZ.jpg",
+      "voiceActors": [
+        {
+          "id": 95513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Nakamura",
+            "full": "Yuuichi Nakamura",
+            "native": "中村悠一",
+            "userPreferred": "Yuuichi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95513-up9ZDuocHgRs.png"
+        }
+      ]
+    },
+    {
+      "id": 247033,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ayane",
+        "last": "Oosawa",
+        "full": "Ayane Oosawa",
+        "native": "大澤絢音",
+        "userPreferred": "Ayane Oosawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b247033-EqOlZPQds1RM.png",
+      "voiceActors": [
+        {
+          "id": 95116,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Ueda",
+            "full": "Kana Ueda",
+            "native": "植田佳奈",
+            "userPreferred": "Kana Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95116-NvhEn6vNMiAq.png"
+        }
+      ]
+    },
+    {
+      "id": 247037,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yamada-sensei",
+        "last": null,
+        "full": "Yamada-sensei",
+        "native": "山田先生",
+        "userPreferred": "Yamada-sensei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b247037-FQwgG4hjQZwk.png",
+      "voiceActors": [
+        {
+          "id": 95599,
+          "language": "Japanese",
+          "name": {
+            "first": "Aki",
+            "last": "Toyosaki",
+            "full": "Aki Toyosaki",
+            "native": "豊崎愛生",
+            "userPreferred": "Aki Toyosaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95599-XDGiluZB7IXL.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 86472,
+      "relationType": "ADAPTATION",
+      "malId": 82773,
+      "title": {
+        "romaji": "Ramen Daisuki Koizumi-san",
+        "english": "Ms. Koizumi Loves Ramen Noodles",
+        "native": "ラーメン大好き小泉さん",
+        "userPreferred": "Ramen Daisuki Koizumi-san"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx86472-XoEORvNxtkqQ.jpg",
+      "color": "#fee40d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/86472-xBjago9mpMS1.jpg",
+      "rating": 67
+    }
+  ],
+  "episodes": [
+    {
+      "id": "ramen-daisuki-koizumi-san-episode-1",
+      "title": "Garlic With Extra Vegetables / Maayu / Rich",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98529-EwZwzKGNaU8b.jpg",
+      "number": 1,
+      "createdAt": "2018-03-22T17:14:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ramen-daisuki-koizumi-san-episode-1"
+    },
+    {
+      "id": "ramen-daisuki-koizumi-san-episode-2",
+      "title": "Hokkyoku / K-K-K-K-Koizumi-san",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98529-EwZwzKGNaU8b.jpg",
+      "number": 2,
+      "createdAt": "2018-03-22T17:14:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ramen-daisuki-koizumi-san-episode-2"
+    },
+    {
+      "id": "ramen-daisuki-koizumi-san-episode-3",
+      "title": "Saimin / Flavor Concentration Counter / Instant Noodles",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98529-EwZwzKGNaU8b.jpg",
+      "number": 3,
+      "createdAt": "2018-03-22T17:14:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ramen-daisuki-koizumi-san-episode-3"
+    },
+    {
+      "id": "ramen-daisuki-koizumi-san-episode-4",
+      "title": "Western Restaurant / Red or White / Convenience Store",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98529-EwZwzKGNaU8b.jpg",
+      "number": 4,
+      "createdAt": "2018-03-22T17:14:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ramen-daisuki-koizumi-san-episode-4"
+    },
+    {
+      "id": "ramen-daisuki-koizumi-san-episode-5",
+      "title": "Tomato Ramen / Euglena / Huge Line",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98529-EwZwzKGNaU8b.jpg",
+      "number": 5,
+      "createdAt": "2018-03-22T17:14:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ramen-daisuki-koizumi-san-episode-5"
+    },
+    {
+      "id": "ramen-daisuki-koizumi-san-episode-6",
+      "title": "Morning Ramen / Hiyashi / Museum",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98529-EwZwzKGNaU8b.jpg",
+      "number": 6,
+      "createdAt": "2018-03-22T17:14:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ramen-daisuki-koizumi-san-episode-6"
+    },
+    {
+      "id": "ramen-daisuki-koizumi-san-episode-7",
+      "title": "Nationwide",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98529-EwZwzKGNaU8b.jpg",
+      "number": 7,
+      "createdAt": "2018-03-22T17:14:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ramen-daisuki-koizumi-san-episode-7"
+    },
+    {
+      "id": "ramen-daisuki-koizumi-san-episode-8",
+      "title": "Local Instant Noodles / Iekei",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98529-EwZwzKGNaU8b.jpg",
+      "number": 8,
+      "createdAt": "2018-03-22T17:14:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ramen-daisuki-koizumi-san-episode-8"
+    },
+    {
+      "id": "ramen-daisuki-koizumi-san-episode-9",
+      "title": "Mountain / Pork Guy / Back Fat",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98529-EwZwzKGNaU8b.jpg",
+      "number": 9,
+      "createdAt": "2018-03-22T17:14:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ramen-daisuki-koizumi-san-episode-9"
+    },
+    {
+      "id": "ramen-daisuki-koizumi-san-episode-10",
+      "title": "Ramen With Unknown Flavor / Conveyor Belt Ramen / Accepting Challenges!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98529-EwZwzKGNaU8b.jpg",
+      "number": 10,
+      "createdAt": "2018-03-22T17:14:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ramen-daisuki-koizumi-san-episode-10"
+    },
+    {
+      "id": "ramen-daisuki-koizumi-san-episode-11",
+      "title": "Tasty Ramen / Osaka",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98529-EwZwzKGNaU8b.jpg",
+      "number": 11,
+      "createdAt": "2018-03-22T17:14:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ramen-daisuki-koizumi-san-episode-11"
+    },
+    {
+      "id": "ramen-daisuki-koizumi-san-episode-12",
+      "title": "Nagoya / Reunion",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98529-EwZwzKGNaU8b.jpg",
+      "number": 12,
+      "createdAt": "2018-03-22T17:14:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ramen-daisuki-koizumi-san-episode-12"
+    }
+  ]
+}

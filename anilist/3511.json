@@ -1,0 +1,113 @@
+{
+  "id": "3511",
+  "title": {
+    "romaji": "Riki-Oh 2: Horobi no Ko",
+    "english": "Riki-Oh 2: Child of Destruction",
+    "native": "力王 2 滅びの子"
+  },
+  "malId": 3511,
+  "synonyms": [
+    "Riki-Ou 2: Horobi no Ko"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3511-TfCF4g9wPwFD.jpg",
+  "popularity": 673,
+  "color": "#f1506b",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3511-TfCF4g9wPwFD.jpg",
+  "description": "Child of Destruction is the sequel to the RIKI-OH OVA Wall of Hell.  Child of Destruction tells us more of Riki's past, as we flash back to his childhood to learn the terrible fate of his mother and how he himself was taken away from his twin brother Nachi during a game of hide-and-seek, with Nachi's plaintive cry of \"Are you ready yet?\" haunting him through the years. Riki has a six-pointed star emblazoned on his hand, while Nachi has a swastika on his, the significance of which go unexplained. Riki finds himself in the town of Misaki, dotted with illegal nuclear power plants and run by a religious fanatic military organization called \"God's Judgment.\" He is taken prisoner and made to fight in gladiatorial matches in a sprawling arena. He finds his brother, whose special powers have given him the name of \"Savior,\" but his reunion with his resentful sibling turns sour rather quickly. Part 2 is much gorier than Part 1, with Riki smashing his fists into numerous soldier opponents with far less restraint.<br><br>\n(Source: IMDb)",
+  "status": "Completed",
+  "releaseDate": 1990,
+  "startDate": {
+    "year": 1990,
+    "month": 8,
+    "day": 24
+  },
+  "endDate": {
+    "year": 1990,
+    "month": 8,
+    "day": 24
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 44,
+  "duration": 45,
+  "genres": [
+    "Action"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Magic Bus"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 7057,
+      "role": "MAIN",
+      "name": {
+        "first": "Riki-Oh",
+        "last": "Saiga",
+        "full": "Riki-Oh Saiga",
+        "native": "雑賀力王",
+        "userPreferred": "Riki-Oh Saiga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7057.jpg",
+      "voiceActors": [
+        {
+          "id": 95651,
+          "language": "Japanese",
+          "name": {
+            "first": "Bin",
+            "last": "Shimada",
+            "full": "Bin Shimada",
+            "native": "島田敏",
+            "userPreferred": "Bin Shimada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95651-6kRo7F4yb6Yt.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 3509,
+      "relationType": "PREQUEL",
+      "malId": 3509,
+      "title": {
+        "romaji": "Riki-Oh: Toukatsu Jigoku",
+        "english": "Riki-Oh: The Wall of Hell",
+        "native": "力王 等括地獄",
+        "userPreferred": "Riki-Oh: Toukatsu Jigoku"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3509.jpg",
+      "color": "#e48650",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3509.jpg",
+      "rating": 53
+    },
+    {
+      "id": 33296,
+      "relationType": "ADAPTATION",
+      "malId": 3296,
+      "title": {
+        "romaji": "Riki-oh",
+        "english": null,
+        "native": "力王",
+        "userPreferred": "Riki-oh"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/3296.jpg",
+      "color": "#d66b1a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/33296-HUeqbdA4zSce.jpg",
+      "rating": 64
+    }
+  ],
+  "episodes": []
+}

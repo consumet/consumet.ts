@@ -1,0 +1,515 @@
+{
+  "id": "18857",
+  "title": {
+    "romaji": "Ore no Imouto ga Konna ni Kawaii Wake ga Nai. (ONA)",
+    "english": "Oreimo 2 (ONA)",
+    "native": "俺の妹がこんなに可愛いわけがない。"
+  },
+  "malId": 18857,
+  "synonyms": [
+    "My Little Sister Can't Be This Cute 2 Specials",
+    "น้องสาวของผมไม่น่ารักขนาดนั้นหรอก ภาค 2 ตอนพิเศษ"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx18857-su3IlKYL3NS8.jpg",
+  "popularity": 30790,
+  "color": "#e4ae50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n18857-srJoMsixYyAL.jpg",
+  "description": "Episodes 14-16 of Oreimo 2, to finish adapting the novels of Oreimo.",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 8,
+    "day": 18
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 8,
+    "day": 18
+  },
+  "totalEpisodes": 3,
+  "currentEpisode": 3,
+  "rating": 59,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Romance",
+    "Slice of Life"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "A-1 Pictures"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 21685,
+      "malId": 32901,
+      "title": {
+        "romaji": "Eromanga Sensei",
+        "english": "Eromanga Sensei",
+        "native": "エロマンガ先生",
+        "userPreferred": "Eromanga Sensei"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21685-h1SrcpaNnrIq.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21685-7qhjceISmSsv.jpg",
+      "rating": 60,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 24543,
+      "role": "MAIN",
+      "name": {
+        "first": "Kyousuke",
+        "last": "Kousaka",
+        "full": "Kyousuke Kousaka",
+        "native": "高坂京介",
+        "userPreferred": "Kyousuke Kousaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n24543-qLUZzy8FKvJY.png",
+      "voiceActors": [
+        {
+          "id": 95513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Nakamura",
+            "full": "Yuuichi Nakamura",
+            "native": "中村悠一",
+            "userPreferred": "Yuuichi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95513-up9ZDuocHgRs.png"
+        }
+      ]
+    },
+    {
+      "id": 24544,
+      "role": "MAIN",
+      "name": {
+        "first": "Kirino",
+        "last": "Kousaka",
+        "full": "Kirino Kousaka",
+        "native": "高坂桐乃",
+        "userPreferred": "Kirino Kousaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24544-LKXbIOoAohx3.png",
+      "voiceActors": [
+        {
+          "id": 101996,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayana",
+            "last": "Taketatsu",
+            "full": "Ayana Taketatsu",
+            "native": "竹達彩奈",
+            "userPreferred": "Ayana Taketatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101996-W14XnDV34VpO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38474,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tamaki",
+        "last": "Gokou",
+        "full": "Tamaki Gokou",
+        "native": "五更 珠希",
+        "userPreferred": "Tamaki Gokou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b38474-duVTR2z35rIJ.png",
+      "voiceActors": [
+        {
+          "id": 105981,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Ogura",
+            "full": "Yui Ogura",
+            "native": "小倉唯",
+            "userPreferred": "Yui Ogura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105981-CDMPx1Q79Aum.png"
+        }
+      ]
+    },
+    {
+      "id": 84603,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouki",
+        "last": "Mikagami",
+        "full": "Kouki Mikagami",
+        "native": "御鏡 光輝",
+        "userPreferred": "Kouki Mikagami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/84603.jpg",
+      "voiceActors": [
+        {
+          "id": 105064,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Iguchi",
+            "full": "Yuuichi Iguchi",
+            "native": "井口祐一",
+            "userPreferred": "Yuuichi Iguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105064-Yi6aG3ZtcyjU.png"
+        }
+      ]
+    },
+    {
+      "id": 31844,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saori",
+        "last": "Makishima",
+        "full": "Saori Makishima",
+        "native": "槇島沙織",
+        "userPreferred": "Saori Makishima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n31844-HNqh1LHbvUVk.png",
+      "voiceActors": [
+        {
+          "id": 95184,
+          "language": "Japanese",
+          "name": {
+            "first": "Hitomi",
+            "last": "Nabatame",
+            "full": "Hitomi Nabatame",
+            "native": "生天目仁美",
+            "userPreferred": "Hitomi Nabatame"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95184-OpXCWNXhJJpg.png"
+        }
+      ]
+    },
+    {
+      "id": 84687,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hinata",
+        "last": "Gokou",
+        "full": "Hinata Gokou",
+        "native": "五更日向",
+        "userPreferred": "Hinata Gokou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n84687-i7rgmQ8MSAdZ.png",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31008,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ruri",
+        "last": "Gokou",
+        "full": "Ruri Gokou",
+        "native": "五更瑠璃",
+        "userPreferred": "Ruri Gokou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n31008-in24egp13bKu.jpg",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38035,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouhei",
+        "last": "Akagi",
+        "full": "Kouhei Akagi",
+        "native": "赤城浩平",
+        "userPreferred": "Kouhei Akagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n38035-fEVJMBQKSBbM.png",
+      "voiceActors": [
+        {
+          "id": 95820,
+          "language": "Japanese",
+          "name": {
+            "first": "Junji",
+            "last": "Majima",
+            "full": "Junji Majima",
+            "native": "間島淳司",
+            "userPreferred": "Junji Majima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95820-5Fuosf1ljdSc.png"
+        }
+      ]
+    },
+    {
+      "id": 82769,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaori",
+        "last": "Makishima",
+        "full": "Kaori Makishima",
+        "native": "槇島香織",
+        "userPreferred": "Kaori Makishima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/82769.jpg",
+      "voiceActors": [
+        {
+          "id": 95057,
+          "language": "Japanese",
+          "name": {
+            "first": "Houko",
+            "last": "Kuwashima",
+            "full": "Houko Kuwashima",
+            "native": "桑島法子",
+            "userPreferred": "Houko Kuwashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95057-nMZEwJet445W.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37303,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kanako",
+        "last": "Kurusu",
+        "full": "Kanako Kurusu",
+        "native": "来栖加奈子",
+        "userPreferred": "Kanako Kurusu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b37303-5YrZsSDoZDt0.jpg",
+      "voiceActors": [
+        {
+          "id": 95027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Tamura",
+            "full": "Yukari Tamura",
+            "native": "田村ゆかり",
+            "userPreferred": "Yukari Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41465,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sena",
+        "last": "Akagi",
+        "full": "Sena Akagi",
+        "native": "赤城 瀬菜",
+        "userPreferred": "Sena Akagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41465.jpg",
+      "voiceActors": [
+        {
+          "id": 95655,
+          "language": "Japanese",
+          "name": {
+            "first": "Mariya",
+            "last": "Ise",
+            "full": "Mariya Ise",
+            "native": "伊瀬茉莉也",
+            "userPreferred": "Mariya Ise"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95655-KbQUnQTroukJ.png"
+        }
+      ]
+    },
+    {
+      "id": 82321,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaede",
+        "last": "Makabe",
+        "full": "Kaede Makabe",
+        "native": "真壁 楓",
+        "userPreferred": "Kaede Makabe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/82321.jpg",
+      "voiceActors": [
+        {
+          "id": 106817,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshitsugu",
+            "last": "Matsuoka",
+            "full": "Yoshitsugu Matsuoka",
+            "native": "松岡禎丞",
+            "userPreferred": "Yoshitsugu Matsuoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106817-mioGQjbTWWQ6.png"
+        }
+      ]
+    },
+    {
+      "id": 31007,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Manami",
+        "last": "Tamura",
+        "full": "Manami Tamura",
+        "native": "田村麻奈実",
+        "userPreferred": "Manami Tamura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n31007-qmjWz1fb7imG.png",
+      "voiceActors": [
+        {
+          "id": 101560,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Satou",
+            "full": "Satomi Satou",
+            "native": "佐藤聡美",
+            "userPreferred": "Satomi Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101560-x0Va6GS2YMeH.png"
+        }
+      ]
+    },
+    {
+      "id": 37302,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ayase",
+        "last": "Aragaki",
+        "full": "Ayase Aragaki",
+        "native": "新垣あやせ",
+        "userPreferred": "Ayase Aragaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n37302-LqFRWJ1Xxv3K.jpg",
+      "voiceActors": [
+        {
+          "id": 95869,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Hayami",
+            "full": "Saori Hayami",
+            "native": "早見沙織",
+            "userPreferred": "Saori Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95869-qCQ0EaWpq1QT.png"
+        }
+      ]
+    },
+    {
+      "id": 40619,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gennosuke",
+        "last": "Miura",
+        "full": "Gennosuke Miura",
+        "native": "三浦 絃之介",
+        "userPreferred": "Gennosuke Miura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40619.jpg",
+      "voiceActors": [
+        {
+          "id": 95527,
+          "language": "Japanese",
+          "name": {
+            "first": "Gou",
+            "last": "Inoue",
+            "full": "Gou Inoue",
+            "native": "井上剛",
+            "userPreferred": "Gou Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/527.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 13659,
+      "relationType": "PREQUEL",
+      "malId": 13659,
+      "title": {
+        "romaji": "Ore no Imouto ga Konna ni Kawaii Wake ga Nai.",
+        "english": "Oreimo 2",
+        "native": "俺の妹がこんなに可愛いわけがない。",
+        "userPreferred": "Ore no Imouto ga Konna ni Kawaii Wake ga Nai."
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13659-dKbA53HH9vwR.png",
+      "color": "#e4ae50",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/13659-B6ohHwj0GbRn.jpg",
+      "rating": 65
+    },
+    {
+      "id": 43667,
+      "relationType": "ADAPTATION",
+      "malId": 13667,
+      "title": {
+        "romaji": "Ore no Imouto ga Konna ni Kawaii Wake ga Nai",
+        "english": null,
+        "native": "俺の妹がこんなに可愛いわけがない",
+        "userPreferred": "Ore no Imouto ga Konna ni Kawaii Wake ga Nai"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx43667-GB6leA3WTeAK.jpg",
+      "color": "#f16b5d",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx43667-GB6leA3WTeAK.jpg",
+      "rating": 72
+    },
+    {
+      "id": 20892,
+      "relationType": "SIDE_STORY",
+      "malId": 23363,
+      "title": {
+        "romaji": "Ore no Imouto ga Konna ni Kawaii Wake ga Nai. Gal Game Animation",
+        "english": "Oreimo 2: My Little Sister Can't Be This Eroge",
+        "native": "俺の妹がこんなにエロゲーなわけがない～逆襲の秋美～　初詣編＆バレンタイン編",
+        "userPreferred": "Ore no Imouto ga Konna ni Kawaii Wake ga Nai. Gal Game Animation"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20892.jpg",
+      "color": "#e4c95d",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20892.jpg",
+      "rating": 61
+    }
+  ],
+  "episodes": []
+}

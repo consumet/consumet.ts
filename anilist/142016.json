@@ -1,0 +1,601 @@
+{
+  "id": "142016",
+  "title": {
+    "romaji": "Yatogame-chan Kansatsu Nikki Yonsatsume",
+    "english": "Yatogame-chan Kansatsu Nikki 4",
+    "native": "八十亀ちゃんかんさつにっき 4さつめ"
+  },
+  "malId": 50438,
+  "synonyms": [
+    "Yatogame-chan Kansatsu Nikki 4 Satsume"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "IKB0ij4w-Hw",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/IKB0ij4w-Hw/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142016-HwbAuLtRYJk1.jpg",
+  "popularity": 2389,
+  "color": "#e4ae28",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142016-HwbAuLtRYJk1.jpg",
+  "description": "The fourth season of <i>Yatogame-chan Kansatsu Nikki</i>.",
+  "status": "Completed",
+  "releaseDate": 2022,
+  "startDate": {
+    "year": 2022,
+    "month": 4,
+    "day": 9
+  },
+  "endDate": {
+    "year": 2022,
+    "month": 6,
+    "day": 11
+  },
+  "totalEpisodes": 10,
+  "currentEpisode": 10,
+  "rating": 60,
+  "duration": 3,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Creators in Pack",
+    "Hayabusa Film"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 156250,
+      "role": "MAIN",
+      "name": {
+        "first": "Yanna",
+        "last": "Sasatsu",
+        "full": "Yanna Sasatsu",
+        "native": "笹津やん菜",
+        "userPreferred": "Yanna Sasatsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b156250-6fsAnD2UKWJP.png",
+      "voiceActors": [
+        {
+          "id": 105071,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Komatsu",
+            "full": "Mikako Komatsu",
+            "native": "小松未可子",
+            "userPreferred": "Mikako Komatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105071-Hcj0X2gcliPq.png"
+        }
+      ]
+    },
+    {
+      "id": 137888,
+      "role": "MAIN",
+      "name": {
+        "first": "Monaka ",
+        "last": "Yatogame",
+        "full": "Monaka  Yatogame",
+        "native": "八十亀最中",
+        "userPreferred": "Monaka  Yatogame"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137888-3dklejziF9nY.jpg",
+      "voiceActors": [
+        {
+          "id": 95890,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Tomatsu",
+            "full": "Haruka Tomatsu",
+            "native": "戸松遥",
+            "userPreferred": "Haruka Tomatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95890-pDWHkOm4ncq0.png"
+        }
+      ]
+    },
+    {
+      "id": 156251,
+      "role": "MAIN",
+      "name": {
+        "first": "Mai",
+        "last": "Tadakusa",
+        "full": "Mai Tadakusa",
+        "native": "只草舞衣",
+        "userPreferred": "Mai Tadakusa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b156251-2m3notGfgt48.png",
+      "voiceActors": [
+        {
+          "id": 122697,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Wakai",
+            "full": "Yuuki Wakai",
+            "native": "若井友希",
+            "userPreferred": "Yuuki Wakai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n122697-kpKnvR4VXxmB.png"
+        }
+      ]
+    },
+    {
+      "id": 137889,
+      "role": "MAIN",
+      "name": {
+        "first": "Kaito",
+        "last": "Jin",
+        "full": "Kaito Jin",
+        "native": "陣界斗",
+        "userPreferred": "Kaito Jin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137889-nikj1F8o55Jl.jpg",
+      "voiceActors": [
+        {
+          "id": 96527,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuhiro",
+            "last": "Ichiki",
+            "full": "Mitsuhiro Ichiki",
+            "native": "市来光弘",
+            "userPreferred": "Mitsuhiro Ichiki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1527.jpg"
+        }
+      ]
+    },
+    {
+      "id": 156252,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Toshika",
+        "last": "Jin",
+        "full": "Toshika Jin",
+        "native": "陣繁華",
+        "userPreferred": "Toshika Jin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b156252-lhJ3onKeLoWi.png",
+      "voiceActors": [
+        {
+          "id": 118400,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisako",
+            "last": "Toujou",
+            "full": "Hisako Toujou",
+            "native": "東城日沙子",
+            "userPreferred": "Hisako Toujou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118400-z4bVC1opOj91.png"
+        }
+      ]
+    },
+    {
+      "id": 204131,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nanaho",
+        "last": "Koshiyasu",
+        "full": "Nanaho Koshiyasu",
+        "native": "輿安七帆",
+        "userPreferred": "Nanaho Koshiyasu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b204131-Rek7sAM2SiIe.png",
+      "voiceActors": [
+        {
+          "id": 118799,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayasa\r\n",
+            "last": "Itou",
+            "full": "Ayasa\r\n Itou",
+            "native": "伊藤彩沙",
+            "userPreferred": "Ayasa\r\n Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118799-Efb6L1viBVjz.png"
+        }
+      ]
+    },
+    {
+      "id": 156258,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lala",
+        "last": "Shonai",
+        "full": "Lala Shonai",
+        "native": "初内ララ",
+        "userPreferred": "Lala Shonai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b156258-PxiCkkbiEhPW.png",
+      "voiceActors": [
+        {
+          "id": 96592,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshino",
+            "last": "Nanjou",
+            "full": "Yoshino Nanjou",
+            "native": "南條愛乃",
+            "userPreferred": "Yoshino Nanjou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96592-yC5OOGtWXv6r.png"
+        }
+      ]
+    },
+    {
+      "id": 208802,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Masahide",
+        "last": "Tsuji",
+        "full": "Masahide Tsuji",
+        "native": "辻優秀",
+        "userPreferred": "Masahide Tsuji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b208802-q0c6Z4zDcEdM.png",
+      "voiceActors": [
+        {
+          "id": 95820,
+          "language": "Japanese",
+          "name": {
+            "first": "Junji",
+            "last": "Majima",
+            "full": "Junji Majima",
+            "native": "間島淳司",
+            "userPreferred": "Junji Majima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95820-5Fuosf1ljdSc.png"
+        }
+      ]
+    },
+    {
+      "id": 206434,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Serura",
+        "last": "Dobe",
+        "full": "Serura Dobe",
+        "native": "土辺世瑠蘭",
+        "userPreferred": "Serura Dobe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b206434-Mup5ZpdTyo07.png",
+      "voiceActors": [
+        {
+          "id": 118923,
+          "language": "Japanese",
+          "name": {
+            "first": "Maria",
+            "last": "Naganawa",
+            "full": "Maria Naganawa",
+            "native": "長縄まりあ",
+            "userPreferred": "Maria Naganawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118923-bYbaw5gwD25l.png"
+        }
+      ]
+    },
+    {
+      "id": 266226,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shou",
+        "last": "Kochikashi",
+        "full": "Shou Kochikashi",
+        "native": "東風樫湘",
+        "userPreferred": "Shou Kochikashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b266226-3YHBhriH3HPQ.jpg",
+      "voiceActors": [
+        {
+          "id": 109441,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumire",
+            "last": "Uesaka",
+            "full": "Sumire Uesaka",
+            "native": "上坂すみれ",
+            "userPreferred": "Sumire Uesaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109441-lVHpd6BN2g16.png"
+        }
+      ]
+    },
+    {
+      "id": 156259,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Teppei",
+        "last": null,
+        "full": "Teppei",
+        "native": "鉄平",
+        "userPreferred": "Teppei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b156259-vrRkPb4gP5VT.png",
+      "voiceActors": [
+        {
+          "id": 102512,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Akabane",
+            "full": "Kenji Akabane",
+            "native": "赤羽根健治",
+            "userPreferred": "Kenji Akabane"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102512-3nVZNCewjZYm.png"
+        }
+      ]
+    },
+    {
+      "id": 266228,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kiina",
+        "last": "Asaka",
+        "full": "Kiina Asaka",
+        "native": "朝霞きぃな",
+        "userPreferred": "Kiina Asaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b266228-wyvzCR5jtitB.jpg",
+      "voiceActors": [
+        {
+          "id": 137053,
+          "language": "Japanese",
+          "name": {
+            "first": "Reo",
+            "last": "Kurachi",
+            "full": "Reo Kurachi",
+            "native": "倉知玲鳳",
+            "userPreferred": "Reo Kurachi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n137053-02B83bHFJESk.jpg"
+        }
+      ]
+    },
+    {
+      "id": 204129,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rin",
+        "last": "Jandara",
+        "full": "Rin Jandara",
+        "native": "雀田来鈴",
+        "userPreferred": "Rin Jandara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b204129-RJ6i73BPbXPL.png",
+      "voiceActors": [
+        {
+          "id": 115835,
+          "language": "Japanese",
+          "name": {
+            "first": "Eriko",
+            "last": "Matsui",
+            "full": "Eriko Matsui",
+            "native": "松井恵理子",
+            "userPreferred": "Eriko Matsui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115835-3uhE3pEKEsEN.png"
+        }
+      ]
+    },
+    {
+      "id": 266227,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kei",
+        "last": "Aonaji",
+        "full": "Kei Aonaji",
+        "native": "青那寺恵",
+        "userPreferred": "Kei Aonaji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b266227-oeQM6sWixAwU.jpg",
+      "voiceActors": [
+        {
+          "id": 106361,
+          "language": "Japanese",
+          "name": {
+            "first": "Sora",
+            "last": "Tokui",
+            "full": "Sora Tokui",
+            "native": "徳井青空",
+            "userPreferred": "Sora Tokui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106361-EMvWLkEKavEM.png"
+        }
+      ]
+    },
+    {
+      "id": 204130,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shiharu",
+        "last": "Itemae",
+        "full": "Shiharu Itemae",
+        "native": "一天前紫春",
+        "userPreferred": "Shiharu Itemae"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b204130-28iaUhE5pF7M.png",
+      "voiceActors": [
+        {
+          "id": 121041,
+          "language": "Japanese",
+          "name": {
+            "first": "Honoka",
+            "last": "Kuroki",
+            "full": "Honoka Kuroki",
+            "native": "黒木ほの香",
+            "userPreferred": "Honoka Kuroki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n121041-ldxejDXegcWE.png"
+        }
+      ]
+    },
+    {
+      "id": 270397,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Serura no Mama",
+        "last": null,
+        "full": "Serura no Mama",
+        "native": "世瑠蘭のママ",
+        "userPreferred": "Serura no Mama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b270397-PVf3L7CmfLIa.png",
+      "voiceActors": [
+        {
+          "id": 95571,
+          "language": "Japanese",
+          "name": {
+            "first": "Mami",
+            "last": "Koyama",
+            "full": "Mami Koyama",
+            "native": "小山茉美",
+            "userPreferred": "Mami Koyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95571-QuL7zlRwRcxa.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 102244,
+      "relationType": "ADAPTATION",
+      "malId": 107935,
+      "title": {
+        "romaji": "Yatogame-chan Kansatsu Nikki",
+        "english": null,
+        "native": "八十亀ちゃんかんさつにっき",
+        "userPreferred": "Yatogame-chan Kansatsu Nikki"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx102244-Fup1acKjV7EA.jpg",
+      "color": "#e4c95d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx102244-Fup1acKjV7EA.jpg",
+      "rating": 47
+    },
+    {
+      "id": 124394,
+      "relationType": "PREQUEL",
+      "malId": 42959,
+      "title": {
+        "romaji": "Yatogame-chan Kansatsu Nikki Sansatsume",
+        "english": "Yatogame-chan Kansatsu Nikki 3",
+        "native": "八十亀ちゃんかんさつにっき 3さつめ",
+        "userPreferred": "Yatogame-chan Kansatsu Nikki Sansatsume"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124394-MDapMYhSwngJ.jpg",
+      "color": "#e4ae28",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124394-MDapMYhSwngJ.jpg",
+      "rating": 62
+    }
+  ],
+  "episodes": [
+    {
+      "id": "yatogame-chan-kansatsu-nikki-4th-season-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142016-HwbAuLtRYJk1.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yatogame-chan-kansatsu-nikki-4th-season-episode-1"
+    },
+    {
+      "id": "yatogame-chan-kansatsu-nikki-4th-season-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142016-HwbAuLtRYJk1.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yatogame-chan-kansatsu-nikki-4th-season-episode-2"
+    },
+    {
+      "id": "yatogame-chan-kansatsu-nikki-4th-season-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142016-HwbAuLtRYJk1.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yatogame-chan-kansatsu-nikki-4th-season-episode-3"
+    },
+    {
+      "id": "yatogame-chan-kansatsu-nikki-4th-season-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142016-HwbAuLtRYJk1.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yatogame-chan-kansatsu-nikki-4th-season-episode-4"
+    },
+    {
+      "id": "yatogame-chan-kansatsu-nikki-4th-season-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142016-HwbAuLtRYJk1.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yatogame-chan-kansatsu-nikki-4th-season-episode-5"
+    },
+    {
+      "id": "yatogame-chan-kansatsu-nikki-4th-season-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142016-HwbAuLtRYJk1.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yatogame-chan-kansatsu-nikki-4th-season-episode-6"
+    },
+    {
+      "id": "yatogame-chan-kansatsu-nikki-4th-season-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142016-HwbAuLtRYJk1.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yatogame-chan-kansatsu-nikki-4th-season-episode-7"
+    },
+    {
+      "id": "yatogame-chan-kansatsu-nikki-4th-season-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142016-HwbAuLtRYJk1.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yatogame-chan-kansatsu-nikki-4th-season-episode-8"
+    },
+    {
+      "id": "yatogame-chan-kansatsu-nikki-4th-season-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142016-HwbAuLtRYJk1.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yatogame-chan-kansatsu-nikki-4th-season-episode-9"
+    },
+    {
+      "id": "yatogame-chan-kansatsu-nikki-4th-season-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142016-HwbAuLtRYJk1.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yatogame-chan-kansatsu-nikki-4th-season-episode-10"
+    }
+  ]
+}

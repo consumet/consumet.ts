@@ -1,0 +1,352 @@
+{
+  "id": "8985",
+  "title": {
+    "romaji": "Yojouhan Shinwa Taikei Specials",
+    "english": "The Tatami Galaxy Specials",
+    "native": "四畳半神話大系"
+  },
+  "malId": 8985,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8985-evIGRMCQrkmE.jpg",
+  "popularity": 8798,
+  "color": "#e42886",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8985-evIGRMCQrkmE.jpg",
+  "description": "DVD/BD specials for Yojouhan Shinwa Taikei.",
+  "status": "Completed",
+  "releaseDate": 2010,
+  "startDate": {
+    "year": 2010,
+    "month": 8,
+    "day": 20
+  },
+  "endDate": {
+    "year": 2010,
+    "month": 11,
+    "day": 26
+  },
+  "totalEpisodes": 3,
+  "currentEpisode": 3,
+  "rating": 62,
+  "duration": 7,
+  "genres": [
+    "Comedy"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "MADHOUSE"
+  ],
+  "subOrDub": "sub",
+  "type": "SPECIAL",
+  "recommendations": [
+    {
+      "id": 1943,
+      "malId": 1943,
+      "title": {
+        "romaji": "Paprika",
+        "english": "Paprika",
+        "native": "パプリカ",
+        "userPreferred": "Paprika"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1943-YyEsHWhYKukN.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1943.jpg",
+      "rating": 78,
+      "type": "MOVIE"
+    },
+    {
+      "id": 97917,
+      "malId": 34537,
+      "title": {
+        "romaji": "Yoru wa Mijikashi Arukeyo Otome",
+        "english": "The Night is Short, Walk on Girl",
+        "native": "夜は短し歩けよ乙女",
+        "userPreferred": "Yoru wa Mijikashi Arukeyo Otome"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97917-bHtHhWkIsdR5.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97917-uCZnoaPrgOrf.jpg",
+      "rating": 81,
+      "type": "MOVIE"
+    },
+    {
+      "id": 20607,
+      "malId": 22135,
+      "title": {
+        "romaji": "Ping Pong THE ANIMATION",
+        "english": "Ping Pong the Animation",
+        "native": "ピンポン THE ANIMATION",
+        "userPreferred": "Ping Pong THE ANIMATION"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20607-naYLIcMOea11.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20607-AYghLMjh7reA.jpg",
+      "rating": 85,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 31522,
+      "role": "MAIN",
+      "name": {
+        "first": "Akashi",
+        "last": null,
+        "full": "Akashi",
+        "native": "明石",
+        "userPreferred": "Akashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b31522-Nkfqv7px3MAv.png",
+      "voiceActors": [
+        {
+          "id": 95090,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Sakamoto",
+            "full": "Maaya Sakamoto",
+            "native": "坂本真綾",
+            "userPreferred": "Maaya Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95090-oARRP42NEhu0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30579,
+      "role": "MAIN",
+      "name": {
+        "first": "Watashi",
+        "last": null,
+        "full": "Watashi",
+        "native": "私",
+        "userPreferred": "Watashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b30579-Idk9XLwfnYft.png",
+      "voiceActors": [
+        {
+          "id": 95186,
+          "language": "Japanese",
+          "name": {
+            "first": "Shintarou",
+            "last": "Asanuma",
+            "full": "Shintarou Asanuma",
+            "native": "浅沼晋太郎",
+            "userPreferred": "Shintarou Asanuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95186-XMdPPqYhMrwN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32556,
+      "role": "MAIN",
+      "name": {
+        "first": "",
+        "last": "Ozu",
+        "full": "Ozu",
+        "native": "小津",
+        "userPreferred": "Ozu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b32556-zXSKPVT6WLHU.png",
+      "voiceActors": [
+        {
+          "id": 95283,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroyuki",
+            "last": "Yoshino",
+            "full": "Hiroyuki Yoshino",
+            "native": "吉野裕行",
+            "userPreferred": "Hiroyuki Yoshino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95283-g76zV4YacFfm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36433,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaori",
+        "last": null,
+        "full": "Kaori",
+        "native": "香織",
+        "userPreferred": "Kaori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36433.jpg",
+      "voiceActors": [
+        {
+          "id": 95040,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamiko",
+            "last": "Noto",
+            "full": "Mamiko Noto",
+            "native": "能登麻美子",
+            "userPreferred": "Mamiko Noto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95040-CskhFn4LiOti.jpg"
+        }
+      ]
+    },
+    {
+      "id": 33023,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryouko",
+        "last": "Hanuki",
+        "full": "Ryouko Hanuki",
+        "native": "羽貫涼子",
+        "userPreferred": "Ryouko Hanuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b33023-egRZFEqFYSHp.png",
+      "voiceActors": [
+        {
+          "id": 95428,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Kaida",
+            "full": "Yuuko Kaida",
+            "native": "甲斐田裕子",
+            "userPreferred": "Yuuko Kaida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95428-1e4kSvr5fkmQ.png"
+        }
+      ]
+    },
+    {
+      "id": 32647,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Seitarou",
+        "last": "Higuchi",
+        "full": "Seitarou Higuchi",
+        "native": "樋口清太郎",
+        "userPreferred": "Seitarou Higuchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b32647-RiwUrmtfZkeT.jpg",
+      "voiceActors": [
+        {
+          "id": 95063,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiji",
+            "last": "Fujiwara",
+            "full": "Keiji Fujiwara",
+            "native": "藤原啓治",
+            "userPreferred": "Keiji Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95063-xAsEUzspuLMG.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32645,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Uranai-baba",
+        "last": null,
+        "full": "Uranai-baba",
+        "native": "占い婆",
+        "userPreferred": "Uranai-baba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b32645-vdrSOsO9PM1Z.png",
+      "voiceActors": [
+        {
+          "id": 100929,
+          "language": "Japanese",
+          "name": {
+            "first": "Ako",
+            "last": "Mayama",
+            "full": "Ako Mayama",
+            "native": "真山亜子",
+            "userPreferred": "Ako Mayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100929-yT4l5qIkOG6v.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32650,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Masaki",
+        "last": "Jougasaki",
+        "full": "Masaki Jougasaki",
+        "native": "城ヶ崎マサキ",
+        "userPreferred": "Masaki Jougasaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b32650-221Mk9iUrlQh.png",
+      "voiceActors": [
+        {
+          "id": 95095,
+          "language": "Japanese",
+          "name": {
+            "first": "Junichi",
+            "last": "Suwabe",
+            "full": "Junichi Suwabe",
+            "native": "諏訪部順一",
+            "userPreferred": "Junichi Suwabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95095-DvSjTQnqcgXP.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 7785,
+      "relationType": "PARENT",
+      "malId": 7785,
+      "title": {
+        "romaji": "Yojouhan Shinwa Taikei",
+        "english": "The Tatami Galaxy",
+        "native": "四畳半神話大系",
+        "userPreferred": "Yojouhan Shinwa Taikei"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx7785-TMqYIFkWDCgy.jpg",
+      "color": "#285d86",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7785.jpg",
+      "rating": 85
+    }
+  ],
+  "episodes": [
+    {
+      "id": "yojouhan-shinwa-taikei-specials-episode-1",
+      "title": "Land Submarine, to the South Pole",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8985-evIGRMCQrkmE.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:28:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yojouhan-shinwa-taikei-specials-episode-1"
+    },
+    {
+      "id": "yojouhan-shinwa-taikei-specials-episode-2",
+      "title": "Land Submarine, to the Women's Bath: The Bedroom Research Group's Pink Quest",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8985-evIGRMCQrkmE.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:28:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yojouhan-shinwa-taikei-specials-episode-2"
+    },
+    {
+      "id": "yojouhan-shinwa-taikei-specials-episode-3",
+      "title": "Land Submarine of Love and Fishing",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8985-evIGRMCQrkmE.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:28:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yojouhan-shinwa-taikei-specials-episode-3"
+    }
+  ]
+}

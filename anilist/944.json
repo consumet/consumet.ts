@@ -1,0 +1,949 @@
+{
+  "id": "944",
+  "title": {
+    "romaji": "The Third: Aoi Hitomi no Shoujo",
+    "english": "The Third: The Girl with the Blue Eye",
+    "native": "ザ・サード 蒼い瞳の少女"
+  },
+  "malId": 944,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+  "popularity": 3133,
+  "color": "#93430d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+  "description": "In the distant future, because of an interplanetary war that had continued on for centuries, civilizations were ruined. Human beings have lost everything, and only 1/5th of the population survived. A strange breed of humans, ''The Third'' is said to have appeared just after the war. They possess a third eye, as their name suggests, that appear as oval-shaped red pupils called \"space eyes'' over their conventional two eyes. Using them, they can control computer systems and so on, and as such, rule the world by their superior power over technology.<br><br>\nIn this world, there is a young woman named Honoka; she is a \"jack-of-all-trades\" sellsword, and she accepts any job except murder. One day, she happens to find and rescue a young man named Ikus in the desert. Entering his world, and accepting a job from him, the adventure begins for Honoka and Ikus.<br><br>\n(Source: BestAnime, modified)",
+  "status": "Completed",
+  "releaseDate": 2006,
+  "startDate": {
+    "year": 2006,
+    "month": 4,
+    "day": 14
+  },
+  "endDate": {
+    "year": 2006,
+    "month": 10,
+    "day": 27
+  },
+  "totalEpisodes": 24,
+  "currentEpisode": 24,
+  "rating": 67,
+  "duration": 23,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Xebec"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 2598,
+      "malId": 2598,
+      "title": {
+        "romaji": "Juusenki L-Gaim",
+        "english": null,
+        "native": "重戦機エルガイム",
+        "userPreferred": "Juusenki L-Gaim"
+      },
+      "status": "Completed",
+      "episodes": 54,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2598-FiRVfaMLFsOH.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2598-M2DivFwfs6lx.jpg",
+      "rating": 64,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 4975,
+      "role": "MAIN",
+      "name": {
+        "first": "Bogie",
+        "last": null,
+        "full": "Bogie",
+        "native": "ボギー",
+        "userPreferred": "Bogie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4975.jpg",
+      "voiceActors": [
+        {
+          "id": 95357,
+          "language": "Japanese",
+          "name": {
+            "first": "Unshou",
+            "last": "Ishizuka",
+            "full": "Unshou Ishizuka",
+            "native": "石塚運昇",
+            "userPreferred": "Unshou Ishizuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95357-umndcceko65h.png"
+        },
+        {
+          "id": 95353,
+          "language": "English",
+          "name": {
+            "first": "Jamieson",
+            "last": "Price",
+            "full": "Jamieson Price",
+            "native": null,
+            "userPreferred": "Jamieson K. Price"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95353-Oe3Ehd7Yo37k.png"
+        }
+      ]
+    },
+    {
+      "id": 4974,
+      "role": "MAIN",
+      "name": {
+        "first": "Iks",
+        "last": null,
+        "full": "Iks",
+        "native": "イクス",
+        "userPreferred": "Iks"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4974.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        },
+        {
+          "id": 95281,
+          "language": "English",
+          "name": {
+            "first": "Steve",
+            "last": "Staley",
+            "full": "Steve Staley",
+            "native": null,
+            "userPreferred": "Steve Staley"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95281-pM54mfq6s7F8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4936,
+      "role": "MAIN",
+      "name": {
+        "first": "Honoka",
+        "last": null,
+        "full": "Honoka",
+        "native": "火乃香",
+        "userPreferred": "Honoka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4936.jpg",
+      "voiceActors": [
+        {
+          "id": 95144,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Toyoguchi",
+            "full": "Megumi Toyoguchi",
+            "native": "豊口めぐみ",
+            "userPreferred": "Megumi Toyoguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95144-9Y8CtDVmxogE.jpg"
+        },
+        {
+          "id": 100908,
+          "language": "English",
+          "name": {
+            "first": "Emlyn",
+            "last": "Morinelli",
+            "full": "Emlyn Morinelli",
+            "native": null,
+            "userPreferred": "Emlyn Morinelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100908-8cGadyzbHqPb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "MAIN",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 95237,
+          "language": "Japanese",
+          "name": {
+            "first": "Juurouta",
+            "last": "Kosugi",
+            "full": "Juurouta Kosugi",
+            "native": "小杉十郎太",
+            "userPreferred": "Juurouta Kosugi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95237-nelrZUfvh2FH.png"
+        },
+        {
+          "id": 96477,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Brimmer",
+            "full": "David Brimmer",
+            "native": null,
+            "userPreferred": "David Brimmer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96477-ktju4bT4kfJA.png"
+        }
+      ]
+    },
+    {
+      "id": 10032,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Joey",
+        "last": "Toy",
+        "full": "Joey Toy",
+        "native": null,
+        "userPreferred": "Joey Toy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10032.jpg",
+      "voiceActors": [
+        {
+          "id": 95058,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Ueda",
+            "full": "Yuuji Ueda",
+            "native": "うえだゆうじ",
+            "userPreferred": "Yuuji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95058-fGnId7E4tgx3.jpg"
+        },
+        {
+          "id": 95669,
+          "language": "English",
+          "name": {
+            "first": "Sam",
+            "last": "Riegel",
+            "full": "Sam Riegel",
+            "native": null,
+            "userPreferred": "Sam Riegel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95669-SRLnXSqkz2iy.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10260,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rona",
+        "last": "Fauna",
+        "full": "Rona Fauna",
+        "native": null,
+        "userPreferred": "Rona Fauna"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10260.jpg",
+      "voiceActors": [
+        {
+          "id": 95184,
+          "language": "Japanese",
+          "name": {
+            "first": "Hitomi",
+            "last": "Nabatame",
+            "full": "Hitomi Nabatame",
+            "native": "生天目仁美",
+            "userPreferred": "Hitomi Nabatame"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95184-OpXCWNXhJJpg.png"
+        },
+        {
+          "id": 96503,
+          "language": "English",
+          "name": {
+            "first": "Rachael",
+            "last": "Lillis",
+            "full": "Rachael Lillis",
+            "native": null,
+            "userPreferred": "Rachael Lillis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96503-BpnE3dFXJnyF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10274,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "STW-9000",
+        "last": null,
+        "full": "STW-9000",
+        "native": null,
+        "userPreferred": "STW-9000"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10274.jpg",
+      "voiceActors": [
+        {
+          "id": 96520,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoyuki",
+            "last": "Shimura",
+            "full": "Tomoyuki Shimura",
+            "native": "志村知幸",
+            "userPreferred": "Tomoyuki Shimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1520.jpg"
+        },
+        {
+          "id": 95317,
+          "language": "English",
+          "name": {
+            "first": "Liam",
+            "last": "O'Brien",
+            "full": "Liam O'Brien",
+            "native": null,
+            "userPreferred": "Liam O'Brien"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95317-1H9A9jxTNsCP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10265,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fila",
+        "last": "Marique",
+        "full": "Fila Marique",
+        "native": null,
+        "userPreferred": "Fila Marique"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10265.jpg",
+      "voiceActors": [
+        {
+          "id": 95060,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Tanaka",
+            "full": "Rie Tanaka",
+            "native": "田中理恵",
+            "userPreferred": "Rie Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95060-Rw0HZghxH1hF.jpg"
+        },
+        {
+          "id": 95664,
+          "language": "English",
+          "name": {
+            "first": "Kirsten",
+            "last": "Potter",
+            "full": "Kirsten Potter",
+            "native": null,
+            "userPreferred": "Kirsten Potter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/664.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10268,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Desert Fairy",
+        "last": null,
+        "full": "Desert Fairy",
+        "native": null,
+        "userPreferred": "Desert Fairy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10268.jpg",
+      "voiceActors": [
+        {
+          "id": 95401,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Matsuki",
+            "full": "Miyu Matsuki",
+            "native": "松来未祐",
+            "userPreferred": "Miyu Matsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95401-2ffju56ewc36.png"
+        },
+        {
+          "id": 96325,
+          "language": "English",
+          "name": {
+            "first": "Michele",
+            "last": "Knotz",
+            "full": "Michele Knotz",
+            "native": null,
+            "userPreferred": "Michele Knotz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1325.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10267,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gravestone",
+        "last": null,
+        "full": "Gravestone",
+        "native": null,
+        "userPreferred": "Gravestone"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10267.jpg",
+      "voiceActors": [
+        {
+          "id": 95094,
+          "language": "Japanese",
+          "name": {
+            "first": "Akeno",
+            "last": "Watanabe",
+            "full": "Akeno Watanabe",
+            "native": "渡边明乃",
+            "userPreferred": "Akeno Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95094-nRPWBG1cVGo5.png"
+        },
+        {
+          "id": 95620,
+          "language": "English",
+          "name": {
+            "first": "Brianne",
+            "last": "Siddall",
+            "full": "Brianne Siddall",
+            "native": null,
+            "userPreferred": "Brianne Siddall"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/620.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17856,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dr. Nor",
+        "last": null,
+        "full": "Dr. Nor",
+        "native": null,
+        "userPreferred": "Dr. Nor"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95481,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Ogata",
+            "full": "Kenichi Ogata",
+            "native": "緒方賢一",
+            "userPreferred": "Kenichi Ogata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95481-1dPQbwMpvjul.png"
+        },
+        {
+          "id": 95493,
+          "language": "English",
+          "name": {
+            "first": "William",
+            "last": "Knight",
+            "full": "William Knight",
+            "native": null,
+            "userPreferred": "William Frederick Knight"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95493-MHsCTykyDyfA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14291,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zankan",
+        "last": null,
+        "full": "Zankan",
+        "native": null,
+        "userPreferred": "Zankan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 96414,
+          "language": "Japanese",
+          "name": {
+            "first": "Masahiko",
+            "last": "Tanaka",
+            "full": "Masahiko Tanaka",
+            "native": "田中正彦",
+            "userPreferred": "Masahiko Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96414-0dvcgzJwFZO4.png"
+        },
+        {
+          "id": 95717,
+          "language": "English",
+          "name": {
+            "first": "Vinnie",
+            "last": "Penna",
+            "full": "Vinnie Penna",
+            "native": null,
+            "userPreferred": "Vinnie Penna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95717-UpQJ4joT0hTb.png"
+        }
+      ]
+    },
+    {
+      "id": 10266,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Paife",
+        "last": null,
+        "full": "Paife",
+        "native": null,
+        "userPreferred": "Paife"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10266.jpg",
+      "voiceActors": [
+        {
+          "id": 95149,
+          "language": "Japanese",
+          "name": {
+            "first": "Sanae",
+            "last": "Kobayashi",
+            "full": "Sanae Kobayashi",
+            "native": "小林沙苗",
+            "userPreferred": "Sanae Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95149-xNDmN92Feq8y.png"
+        },
+        {
+          "id": 102053,
+          "language": "English",
+          "name": {
+            "first": "Carol",
+            "last": "Jacobanis",
+            "full": "Carol Jacobanis",
+            "native": null,
+            "userPreferred": "Carol Jacobanis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7053.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10276,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kevin",
+        "last": null,
+        "full": "Kevin",
+        "native": null,
+        "userPreferred": "Kevin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10276.jpg",
+      "voiceActors": [
+        {
+          "id": 95720,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenta",
+            "last": "Miyake",
+            "full": "Kenta Miyake",
+            "native": "三宅健太",
+            "userPreferred": "Kenta Miyake"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95720-enxx6kZKuwGi.jpg"
+        },
+        {
+          "id": 104587,
+          "language": "English",
+          "name": {
+            "first": "Bill",
+            "last": "Rogers",
+            "full": "Bill Rogers",
+            "native": null,
+            "userPreferred": "Bill Rogers"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104587-bavXnrd9yJ8R.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8949,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jouganki",
+        "last": null,
+        "full": "Jouganki",
+        "native": null,
+        "userPreferred": "Jouganki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8949.jpg",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        },
+        {
+          "id": 95340,
+          "language": "English",
+          "name": {
+            "first": "Patrick",
+            "last": "Seitz",
+            "full": "Patrick Seitz",
+            "native": null,
+            "userPreferred": "Patrick Seitz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95340-W5PAwurtgtXs.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4976,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Millie",
+        "last": null,
+        "full": "Millie",
+        "native": "ミリィ",
+        "userPreferred": "Millie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4976.jpg",
+      "voiceActors": [
+        {
+          "id": 116967,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Sakata",
+            "full": "Yuki Sakata",
+            "native": "坂田有希",
+            "userPreferred": "Yuki Sakata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/116967-0JMkvgjmIcFg.jpg"
+        },
+        {
+          "id": 100127,
+          "language": "English",
+          "name": {
+            "first": "Debora",
+            "last": "Rabbai",
+            "full": "Debora Rabbai",
+            "native": null,
+            "userPreferred": "Debora Rabbai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5127.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10272,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Leon",
+        "last": null,
+        "full": "Leon",
+        "native": null,
+        "userPreferred": "Leon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10272.jpg",
+      "voiceActors": [
+        {
+          "id": 95338,
+          "language": "Japanese",
+          "name": {
+            "first": "Naoya",
+            "last": "Uchida",
+            "full": "Naoya Uchida",
+            "native": "内田直哉",
+            "userPreferred": "Naoya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95338-i2Jdgc5rQNMa.png"
+        },
+        {
+          "id": 95182,
+          "language": "English",
+          "name": {
+            "first": "Troy",
+            "last": "Baker",
+            "full": "Troy Baker",
+            "native": null,
+            "userPreferred": "Troy Baker"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95182-TiZXT6F98sV2.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 77675,
+      "relationType": "ADAPTATION",
+      "malId": 47675,
+      "title": {
+        "romaji": "The Third",
+        "english": null,
+        "native": "ザ・サード",
+        "userPreferred": "The Third"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/47675.jpg",
+      "color": "#28a1fe",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/47675.jpg",
+      "rating": 60
+    }
+  ],
+  "episodes": [
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-1",
+      "title": "Sword Dancer",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-1"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-2",
+      "title": "An Eventful Night",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-2"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-3",
+      "title": "Desert Town",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-3"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-4",
+      "title": "Blue Breaker",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-4"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-5",
+      "title": "The Blue Astral Eye",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-5"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-6",
+      "title": "The Wind That Sweeps the Land",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-6"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-7",
+      "title": "Until Dawn",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-7"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-8",
+      "title": "An Afternoon in Emporium",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-8"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-9",
+      "title": "Paife",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-9"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-10",
+      "title": "Gravestone",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-10"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-11",
+      "title": "Battling Against Illusion",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-11"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-12",
+      "title": "Their Respective Reasons",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-12"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-13",
+      "title": "Desert Folklore",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-13"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-14",
+      "title": "Fairy Visions",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-14"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-15",
+      "title": "Night of the Sandstorm",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-15"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-16",
+      "title": "Life Dancing Wildly",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-16"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-17",
+      "title": "Rona Fauna",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-17"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-18",
+      "title": "Launch",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-18"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-19",
+      "title": "Breaking Through Enemy Lines",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-19"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-20",
+      "title": "Facing Down Death",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-20"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-21",
+      "title": "Emotions That Fall Short",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-21"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-22",
+      "title": "The Mirage of a Soul Never to Return",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-22"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-23",
+      "title": "To the Steel Gorge",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-23"
+    },
+    {
+      "id": "the-third-aoi-hitomi-no-shoujo-episode-24",
+      "title": "The Story That Begins Here",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b944-yqJOuaRagwJJ.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:22:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//the-third-aoi-hitomi-no-shoujo-episode-24"
+    }
+  ]
+}

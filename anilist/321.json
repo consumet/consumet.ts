@@ -1,0 +1,589 @@
+{
+  "id": "321",
+  "title": {
+    "romaji": "Najica Dengeki Sakusen",
+    "english": "Najica Blitz Tactics",
+    "native": "ナジカ電撃作戦"
+  },
+  "malId": 321,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/321.jpg",
+  "popularity": 2246,
+  "color": "#bbe4f1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/321.jpg",
+  "description": "Najica Hiiragi, perfumer and secret agent, is sent out on a number of recovery missions to round up rogue humaritts, androids with combat abilities. Najica is assigned a humaritt partner, Lila, whom Najica is to groom as an agent and receive assistance from along the way. As Najica grows to accept Lila, each new mission they embark on reveals more and more about the capabilities and mysterious origins of the humaritts.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2001,
+  "startDate": {
+    "year": 2001,
+    "month": 10,
+    "day": 5
+  },
+  "endDate": {
+    "year": 2001,
+    "month": 12,
+    "day": 28
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 54,
+  "duration": 23,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Ecchi",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Studio Fantasia",
+    "Amber Film Works"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 366,
+      "malId": 366,
+      "title": {
+        "romaji": "AIKa",
+        "english": "Agent Aika",
+        "native": "ＡＩＫａ",
+        "userPreferred": "AIKa"
+      },
+      "status": "Completed",
+      "episodes": 7,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx366-q4qqaDBuszWH.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/366-80MeFXgmMSvk.jpg",
+      "rating": 56,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 12894,
+      "role": "MAIN",
+      "name": {
+        "first": "Lila",
+        "last": null,
+        "full": "Lila",
+        "native": null,
+        "userPreferred": "Lila"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12894.jpg",
+      "voiceActors": [
+        {
+          "id": 95615,
+          "language": "Japanese",
+          "name": {
+            "first": "Juri",
+            "last": "Ihata",
+            "full": "Juri Ihata",
+            "native": "井端珠里",
+            "userPreferred": "Juri Ihata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95615-5qCo0eycnOIJ.png"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        },
+        {
+          "id": 96212,
+          "language": "German",
+          "name": {
+            "first": "Daniela",
+            "last": "Reidies",
+            "full": "Daniela Reidies",
+            "native": null,
+            "userPreferred": "Daniela Reidies"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1212.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11986,
+      "role": "MAIN",
+      "name": {
+        "first": "Najica",
+        "last": "Hiiragi",
+        "full": "Najica Hiiragi",
+        "native": null,
+        "userPreferred": "Najica Hiiragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11986.jpg",
+      "voiceActors": [
+        {
+          "id": 95435,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Touma",
+            "full": "Yumi Touma",
+            "native": "冬馬由美",
+            "userPreferred": "Yumi Touma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95435-REiTyMQqIfH4.jpg"
+        },
+        {
+          "id": 95162,
+          "language": "English",
+          "name": {
+            "first": "Kira",
+            "last": "Vincent-Davis",
+            "full": "Kira Vincent-Davis",
+            "native": null,
+            "userPreferred": "Kira Vincent-Davis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/162.jpg"
+        },
+        {
+          "id": 96088,
+          "language": "Italian",
+          "name": {
+            "first": "Debora",
+            "last": "Magnaghi",
+            "full": "Debora Magnaghi",
+            "native": null,
+            "userPreferred": "Debora Magnaghi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96088-1Jx4hCFT3624.png"
+        }
+      ]
+    },
+    {
+      "id": 40806,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gento",
+        "last": "Kuraku",
+        "full": "Gento Kuraku",
+        "native": "玖洛玄人",
+        "userPreferred": "Gento Kuraku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95357,
+          "language": "Japanese",
+          "name": {
+            "first": "Unshou",
+            "last": "Ishizuka",
+            "full": "Unshou Ishizuka",
+            "native": "石塚運昇",
+            "userPreferred": "Unshou Ishizuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95357-umndcceko65h.png"
+        },
+        {
+          "id": 95153,
+          "language": "English",
+          "name": {
+            "first": "Andy",
+            "last": "McAvin",
+            "full": "Andy McAvin",
+            "native": null,
+            "userPreferred": "Andy McAvin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/153.jpg"
+        }
+      ]
+    },
+    {
+      "id": 314511,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jin",
+        "last": "Majima",
+        "full": "Jin Majima",
+        "native": null,
+        "userPreferred": "Jin Majima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 96485,
+          "language": "Japanese",
+          "name": {
+            "first": "Iemasa",
+            "last": "Kayumi",
+            "full": "Iemasa Kayumi",
+            "native": "家弓家正",
+            "userPreferred": "Iemasa Kayumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1485.jpg"
+        },
+        {
+          "id": 96604,
+          "language": "English",
+          "name": {
+            "first": "Mike",
+            "last": "Kleinhenz",
+            "full": "Mike Kleinhenz",
+            "native": null,
+            "userPreferred": "Mike Kleinhenz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1604.jpg"
+        }
+      ]
+    },
+    {
+      "id": 314513,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ai",
+        "last": "Irie",
+        "full": "Ai Irie",
+        "native": "入江愛",
+        "userPreferred": "Ai Irie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95995,
+          "language": "Japanese",
+          "name": {
+            "first": "Kyouko",
+            "last": "Hikami",
+            "full": "Kyouko Hikami",
+            "native": "氷上恭子",
+            "userPreferred": "Kyouko Hikami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95995-zZU0UQQIQQ3N.png"
+        },
+        {
+          "id": 95145,
+          "language": "English",
+          "name": {
+            "first": "Tiffany",
+            "last": "Grant",
+            "full": "Tiffany Grant",
+            "native": null,
+            "userPreferred": "Tiffany Lynn Grant"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95145-c3MjV5tshGXX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 46755,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Triple X",
+        "last": null,
+        "full": "Triple X",
+        "native": "XXX",
+        "userPreferred": "Triple X"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/46755.jpg",
+      "voiceActors": [
+        {
+          "id": 95438,
+          "language": "Japanese",
+          "name": {
+            "first": "Emi",
+            "last": "Shinohara",
+            "full": "Emi Shinohara",
+            "native": "篠原恵美",
+            "userPreferred": "Emi Shinohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95438-dNxTPna4mfhR.jpg"
+        },
+        {
+          "id": 101435,
+          "language": "English",
+          "name": {
+            "first": "Kaytha",
+            "last": "Coker",
+            "full": "Kaytha Coker",
+            "native": null,
+            "userPreferred": "Kaytha Coker"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6435.jpg"
+        }
+      ]
+    },
+    {
+      "id": 46757,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cindy",
+        "last": null,
+        "full": "Cindy",
+        "native": "シンディ",
+        "userPreferred": "Cindy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/46757.jpg",
+      "voiceActors": [
+        {
+          "id": 95554,
+          "language": "Japanese",
+          "name": {
+            "first": "Nanaho",
+            "last": "Katsuragi",
+            "full": "Nanaho Katsuragi",
+            "native": "葛城七穂",
+            "userPreferred": "Nanaho Katsuragi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/554.jpg"
+        },
+        {
+          "id": 101435,
+          "language": "English",
+          "name": {
+            "first": "Kaytha",
+            "last": "Coker",
+            "full": "Kaytha Coker",
+            "native": null,
+            "userPreferred": "Kaytha Coker"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6435.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 103906,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaaki",
+            "last": "Yajima",
+            "full": "Masaaki Yajima",
+            "native": "正明矢島",
+            "userPreferred": "Masaaki Yajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8906.jpg"
+        },
+        {
+          "id": 104760,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Tyson",
+            "full": "John Tyson",
+            "native": null,
+            "userPreferred": "John Tyson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104760-zAky5ZOJO3ra.jpg"
+        }
+      ]
+    },
+    {
+      "id": 314510,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kirara",
+        "last": "Mitsuboshi",
+        "full": "Kirara Mitsuboshi",
+        "native": "御津星キララ",
+        "userPreferred": "Kirara Mitsuboshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95136,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsuko",
+            "last": "Kuwatani",
+            "full": "Natsuko Kuwatani",
+            "native": "桑谷夏子",
+            "userPreferred": "Natsuko Kuwatani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95136-8dAGkiwq7Htk.png"
+        },
+        {
+          "id": 95888,
+          "language": "English",
+          "name": {
+            "first": "Mandy",
+            "last": "Clark",
+            "full": "Mandy Clark",
+            "native": null,
+            "userPreferred": "Mandy Clark"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95888-nZ69hqO4TM9w.png"
+        }
+      ]
+    },
+    {
+      "id": 314512,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Reina",
+        "last": "Uzuki",
+        "full": "Reina Uzuki",
+        "native": "海槻玲奈",
+        "userPreferred": "Reina Uzuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95149,
+          "language": "Japanese",
+          "name": {
+            "first": "Sanae",
+            "last": "Kobayashi",
+            "full": "Sanae Kobayashi",
+            "native": "小林沙苗",
+            "userPreferred": "Sanae Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95149-xNDmN92Feq8y.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 32910,
+      "relationType": "ADAPTATION",
+      "malId": 2910,
+      "title": {
+        "romaji": "Najica Dengeki Sakusen",
+        "english": "Najica Blitz Tactics",
+        "native": "ナジカ電撃作戦",
+        "userPreferred": "Najica Dengeki Sakusen"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx32910-p40oIhMiUO0T.jpg",
+      "color": "#e49343",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx32910-p40oIhMiUO0T.jpg",
+      "rating": 53
+    }
+  ],
+  "episodes": [
+    {
+      "id": "najica-dengeki-sakusen-episode-1",
+      "title": "A Magnificent Secret Agent with a Rose in her Hand",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160386/original.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:29:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//najica-dengeki-sakusen-episode-1"
+    },
+    {
+      "id": "najica-dengeki-sakusen-episode-2",
+      "title": "A Pretty Partner with a Gun in her Hands",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160398/original.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//najica-dengeki-sakusen-episode-2"
+    },
+    {
+      "id": "najica-dengeki-sakusen-episode-3",
+      "title": "Ugly Relics in the Jet Black Darkness",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160412/original.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:29:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//najica-dengeki-sakusen-episode-3"
+    },
+    {
+      "id": "najica-dengeki-sakusen-episode-4",
+      "title": "The Fictitious Star with a Sweet Trap-like Perfume",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160423/original.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:29:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//najica-dengeki-sakusen-episode-4"
+    },
+    {
+      "id": "najica-dengeki-sakusen-episode-5",
+      "title": "A Crimson Horizon Appears with an Empty Dream",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160440/original.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:29:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//najica-dengeki-sakusen-episode-5"
+    },
+    {
+      "id": "najica-dengeki-sakusen-episode-6",
+      "title": "The Beautiful Eye of the Wild Beast Appears with the Shadow of Loneliness",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160455/original.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:29:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//najica-dengeki-sakusen-episode-6"
+    },
+    {
+      "id": "najica-dengeki-sakusen-episode-7",
+      "title": "The Bullet of Murderous Intent Appears with a Dry Smilee",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160482/original.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:29:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//najica-dengeki-sakusen-episode-7"
+    },
+    {
+      "id": "najica-dengeki-sakusen-episode-8",
+      "title": "The Sky of the Desire Appears with the Flame by the Battle",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160515/original.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:29:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//najica-dengeki-sakusen-episode-8"
+    },
+    {
+      "id": "najica-dengeki-sakusen-episode-9",
+      "title": "A Brave Lion in the Desert Appears with the Goddess of the Destiny",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160522/original.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:29:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//najica-dengeki-sakusen-episode-9"
+    },
+    {
+      "id": "najica-dengeki-sakusen-episode-10",
+      "title": "The Terminal Station of the Fight Appears with Dangerous Love",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160540/original.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:29:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//najica-dengeki-sakusen-episode-10"
+    },
+    {
+      "id": "najica-dengeki-sakusen-episode-11",
+      "title": "The Sad Parting Mission with Girl's Sincerity",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160560/original.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:29:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//najica-dengeki-sakusen-episode-11"
+    },
+    {
+      "id": "najica-dengeki-sakusen-episode-12",
+      "title": "A Splendid Agent has the Rose of the Encounter in the Mind",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160577/original.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:29:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//najica-dengeki-sakusen-episode-12"
+    }
+  ]
+}

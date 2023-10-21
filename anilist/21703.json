@@ -1,0 +1,986 @@
+{
+  "id": "21703",
+  "title": {
+    "romaji": "Fune wo Amu",
+    "english": "The Great Passage",
+    "native": "舟を編む"
+  },
+  "malId": 32948,
+  "synonyms": [
+    "编舟记"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "XOiIHHxMqE4",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/XOiIHHxMqE4/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21703-rXiXsRgiIO12.jpg",
+  "popularity": 29140,
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21703-3JiMHroUgMTB.jpg",
+  "description": "The series follows the employees at the Genbu Shobō publishing company. Araki, who is a veteran editor for the dictionary department, is looking for a successor now that he's approaching retirement age. After Majime Mitsuya — a salesman who's a poor talker — meets Masashi Nishioka — Araki's coworker who is sociable and frivolous — Araki overhears their conversation and decides to recruit Majime into the department. The story follows \"the awkward humans\" Majime and Masashi as they work together to compile a medium-sized Japanese dictionary titled \"The Great Passage\" (Daitokai). <br><br>\n\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2016,
+  "startDate": {
+    "year": 2016,
+    "month": 10,
+    "day": 14
+  },
+  "endDate": {
+    "year": 2016,
+    "month": 12,
+    "day": 23
+  },
+  "totalEpisodes": 11,
+  "currentEpisode": 11,
+  "rating": 74,
+  "duration": 23,
+  "genres": [
+    "Drama",
+    "Romance",
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [
+    "ZEXCS"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 20972,
+      "malId": 28735,
+      "title": {
+        "romaji": "Shouwa Genroku Rakugo Shinjuu",
+        "english": "Showa Genroku Rakugo Shinju",
+        "native": "昭和元禄落語心中",
+        "userPreferred": "Shouwa Genroku Rakugo Shinjuu"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20972-95dyLz6lkCZ8.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20972-xSI4gHlmzPpK.jpg",
+      "rating": 84,
+      "type": "TV"
+    },
+    {
+      "id": 20812,
+      "malId": 25835,
+      "title": {
+        "romaji": "SHIROBAKO",
+        "english": "SHIROBAKO",
+        "native": "SHIROBAKO",
+        "userPreferred": "SHIROBAKO"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20812-UzCdH72OFcvz.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20812-PFHhuG1CsgHl.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 101903,
+      "malId": 37965,
+      "title": {
+        "romaji": "Kaze ga Tsuyoku Fuiteiru",
+        "english": "Run with the Wind",
+        "native": "風が強く吹いている",
+        "userPreferred": "Kaze ga Tsuyoku Fuiteiru"
+      },
+      "status": "Completed",
+      "episodes": 23,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101903-smbtaZBYXFop.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n101903-Jnoc7x0WFusx.jpg",
+      "rating": 83,
+      "type": "TV"
+    },
+    {
+      "id": 97903,
+      "malId": 34494,
+      "title": {
+        "romaji": "Sakura Quest",
+        "english": "Sakura Quest",
+        "native": "サクラクエスト",
+        "userPreferred": "Sakura Quest"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97903-x34aD15XP8hZ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97903-huMVMwgTMani.png",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 9289,
+      "malId": 9289,
+      "title": {
+        "romaji": "Hanasaku Iroha",
+        "english": "Hanasaku Iroha ~Blossoms for Tomorrow~",
+        "native": "花咲くいろは",
+        "userPreferred": "Hanasaku Iroha"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx9289-2Y14iZ2pMqeX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9289.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 112353,
+      "malId": 40513,
+      "title": {
+        "romaji": "Nami yo Kiitekure",
+        "english": "Wave, Listen to Me!",
+        "native": "波よ聞いてくれ",
+        "userPreferred": "Nami yo Kiitekure"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112353-hAtUOoapou7V.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112353-cyIzHUCz2pML.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 7674,
+      "malId": 7674,
+      "title": {
+        "romaji": "Bakuman.",
+        "english": "Bakuman.",
+        "native": "バクマン。",
+        "userPreferred": "Bakuman."
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7674-DtZsn5IlERGO.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7674-MRQY8iwj5cEP.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 10178,
+      "malId": 10178,
+      "title": {
+        "romaji": "Otona Joshi no Anime Time",
+        "english": null,
+        "native": "大人女子のアニメタイム",
+        "userPreferred": "Otona Joshi no Anime Time"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10178-UnyUzVEPYqsd.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10178-UnyUzVEPYqsd.png",
+      "rating": 71,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 9996,
+      "malId": 9996,
+      "title": {
+        "romaji": "Hyouge Mono",
+        "english": null,
+        "native": "へうげもの",
+        "userPreferred": "Hyouge Mono"
+      },
+      "status": "Completed",
+      "episodes": 39,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9996-wgb7rRx0WNRx.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 20722,
+      "malId": 22789,
+      "title": {
+        "romaji": "Barakamon",
+        "english": "Barakamon",
+        "native": "ばらかもん",
+        "userPreferred": "Barakamon"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20722-mQQHyu4HXpCE.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20722-vjD7BMct1l1n.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 477,
+      "malId": 477,
+      "title": {
+        "romaji": "ARIA The ANIMATION",
+        "english": "ARIA The ANIMATION",
+        "native": "ARIA The ANIMATION",
+        "userPreferred": "ARIA The ANIMATION"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx477-IhmzyyzROh27.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/477.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 1592,
+      "malId": 1592,
+      "title": {
+        "romaji": "Hataraki Man",
+        "english": "Hataraki Man",
+        "native": "働きマン",
+        "userPreferred": "Hataraki Man"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1592-UllYOk5RyPic.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1592-7uON0T9qFh8l.jpg",
+      "rating": 65,
+      "type": "TV"
+    },
+    {
+      "id": 21827,
+      "malId": 33352,
+      "title": {
+        "romaji": "Violet Evergarden",
+        "english": "Violet Evergarden",
+        "native": "ヴァイオレット・エヴァーガーデン",
+        "userPreferred": "Violet Evergarden"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21827-10F6m50H4GJK.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21827-ROucgYiiiSpR.jpg",
+      "rating": 85,
+      "type": "TV"
+    },
+    {
+      "id": 101574,
+      "malId": 37804,
+      "title": {
+        "romaji": "SHIROBAKO Movie",
+        "english": "SHIROBAKO the Movie",
+        "native": "劇場版 SHIROBAKO",
+        "userPreferred": "SHIROBAKO Movie"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101574-JlsavnBJfQaC.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101574-JlsavnBJfQaC.jpg",
+      "rating": 76,
+      "type": "MOVIE"
+    },
+    {
+      "id": 120646,
+      "malId": 42351,
+      "title": {
+        "romaji": "Senpai ga Uzai Kouhai no Hanashi",
+        "english": "My Senpai is Annoying",
+        "native": "先輩がうざい後輩の話",
+        "userPreferred": "Senpai ga Uzai Kouhai no Hanashi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120646-3GUSMpqx0mVw.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120646-RsYJHXzMdnXp.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 98385,
+      "malId": 34984,
+      "title": {
+        "romaji": "Koi wa Ameagari no You ni",
+        "english": "After the Rain",
+        "native": "恋は雨上がりのように",
+        "userPreferred": "Koi wa Ameagari no You ni"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98385-GYmOoxtwWVhz.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n98385-fyGWkx3FbZSh.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 137312,
+      "malId": 49519,
+      "title": {
+        "romaji": "Hakozume: Kouban Joshi no Gyakushuu",
+        "english": "Police in a Pod",
+        "native": "ハコヅメ～交番女子の逆襲～",
+        "userPreferred": "Hakozume: Kouban Joshi no Gyakushuu"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137312-hlWRtCt25oMg.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/137312-fwV7VHcESHuA.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 798,
+      "malId": 798,
+      "title": {
+        "romaji": "Yomigaeru Sora: Rescue Wings",
+        "english": null,
+        "native": "よみがえる空 -Rescue Wings-",
+        "userPreferred": "Yomigaeru Sora: Rescue Wings"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b798-w1FtgXZvXIqX.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/798-k3eYjtLyBIot.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 13585,
+      "malId": 13585,
+      "title": {
+        "romaji": "Natsuyuki Rendezvous",
+        "english": "Natsuyuki Rendezvous",
+        "native": "夏雪ランデブー",
+        "userPreferred": "Natsuyuki Rendezvous"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13585-ra1pAXC5ZiBo.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/13585.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 16662,
+      "malId": 16662,
+      "title": {
+        "romaji": "Kaze Tachinu",
+        "english": "The Wind Rises",
+        "native": "風立ちぬ",
+        "userPreferred": "Kaze Tachinu"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16662-6rqh55mNFY3n.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16662-XLmadbKVsRW2.jpg",
+      "rating": 80,
+      "type": "MOVIE"
+    },
+    {
+      "id": 147885,
+      "malId": 51680,
+      "title": {
+        "romaji": "Cool Doji Danshi",
+        "english": "Play It Cool, Guys",
+        "native": "クールドジ男子",
+        "userPreferred": "Cool Doji Danshi"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx147885-RuqC9lZH9ao6.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/147885-aK0JXzYT5Sig.jpg",
+      "rating": 78,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 155730,
+      "malId": 53379,
+      "title": {
+        "romaji": "Uchi no Kaisha no Chiisai Senpai no Hanashi",
+        "english": "My Tiny Senpai",
+        "native": "うちの会社の小さい先輩の話",
+        "userPreferred": "Uchi no Kaisha no Chiisai Senpai no Hanashi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155730-1dE2C3K8VFdW.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/155730-rmbNc1Zs44Q8.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 147103,
+      "malId": 51552,
+      "title": {
+        "romaji": "Watashi no Shiawase na Kekkon",
+        "english": "My Happy Marriage",
+        "native": "わたしの幸せな結婚",
+        "userPreferred": "Watashi no Shiawase na Kekkon"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx147103-Om2LOXlhHNAe.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/147103-MwFq1R7jphZT.jpg",
+      "rating": 79,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 120278,
+      "role": "MAIN",
+      "name": {
+        "first": "Masashi",
+        "last": "Nishioka",
+        "full": "Masashi Nishioka",
+        "native": "西岡正志",
+        "userPreferred": "Masashi Nishioka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b120278-GwmXXo81zgVN.png",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        }
+      ]
+    },
+    {
+      "id": 120277,
+      "role": "MAIN",
+      "name": {
+        "first": "Mitsuya",
+        "last": "Majime",
+        "full": "Mitsuya Majime",
+        "native": "馬締光也",
+        "userPreferred": "Mitsuya Majime"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b120277-CFrF3HFWhrSN.png",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 253615,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kai-kun",
+        "last": null,
+        "full": "Kai-kun",
+        "native": "海くん",
+        "userPreferred": "Kai-kun"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b253615-lMRdHN8hqkyt.png",
+      "voiceActors": [
+        {
+          "id": 126076,
+          "language": "Japanese",
+          "name": {
+            "first": "Azuki",
+            "last": "Shibuya",
+            "full": "Azuki Shibuya",
+            "native": "澁谷梓希",
+            "userPreferred": "Azuki Shibuya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n126076-wxfzn0WQw8pY.png"
+        }
+      ]
+    },
+    {
+      "id": 253623,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Oda-kyouju",
+        "last": null,
+        "full": "Oda-kyouju",
+        "native": "小田教授",
+        "userPreferred": "Oda-kyouju"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b253623-tgw7KaG5RvB9.png",
+      "voiceActors": [
+        {
+          "id": 95157,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuo",
+            "last": "Tobita",
+            "full": "Nobuo Tobita",
+            "native": "飛田展男",
+            "userPreferred": "Nobuo Tobita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95157-td6WhlGehuDJ.png"
+        }
+      ]
+    },
+    {
+      "id": 120279,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaguya",
+        "last": "Hayashi",
+        "full": "Kaguya Hayashi",
+        "native": "林香具矢",
+        "userPreferred": "Kaguya Hayashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b120279-Qe9zG3HY8Het.png",
+      "voiceActors": [
+        {
+          "id": 95090,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Sakamoto",
+            "full": "Maaya Sakamoto",
+            "native": "坂本真綾",
+            "userPreferred": "Maaya Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95090-oARRP42NEhu0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 253620,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chie",
+        "last": "Matsumoto",
+        "full": "Chie Matsumoto",
+        "native": "松本千恵",
+        "userPreferred": "Chie Matsumoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b253620-XV7oBz7SYQth.png",
+      "voiceActors": [
+        {
+          "id": 104472,
+          "language": "Japanese",
+          "name": {
+            "first": "Mari",
+            "last": "Yokoo",
+            "full": "Mari Yokoo",
+            "native": "横尾まり",
+            "userPreferred": "Mari Yokoo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104472-lwGxYMW80n8P.png"
+        }
+      ]
+    },
+    {
+      "id": 120538,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Remi",
+        "last": "Miyoshi",
+        "full": "Remi Miyoshi",
+        "native": "三好麗美",
+        "userPreferred": "Remi Miyoshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120538-g9hlZPaQ9em0.jpg",
+      "voiceActors": [
+        {
+          "id": 95061,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiwa",
+            "last": "Saitou",
+            "full": "Chiwa Saitou",
+            "native": "斎藤千和",
+            "userPreferred": "Chiwa Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95061-R8YSAYX7UFCO.png"
+        }
+      ]
+    },
+    {
+      "id": 253619,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sen-kun",
+        "last": null,
+        "full": "Sen-kun",
+        "native": "泉くん",
+        "userPreferred": "Sen-kun"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b253619-oLN8uiFt3j8B.png",
+      "voiceActors": [
+        {
+          "id": 119959,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsumi",
+            "last": "Matsuda",
+            "full": "Satsumi Matsuda",
+            "native": "松田颯水",
+            "userPreferred": "Satsumi Matsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119959-dN9jj8PMUmiU.png"
+        }
+      ]
+    },
+    {
+      "id": 120539,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tomoyuu",
+        "last": "Matsumoto",
+        "full": "Tomoyuu Matsumoto",
+        "native": "松本朋佑",
+        "userPreferred": "Tomoyuu Matsumoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120539-cM98todj2Y3S.png",
+      "voiceActors": [
+        {
+          "id": 96436,
+          "language": "Japanese",
+          "name": {
+            "first": "Mugihito",
+            "last": "",
+            "full": "Mugihito",
+            "native": "麦人 ",
+            "userPreferred": "Mugihito"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1436.jpg"
+        }
+      ]
+    },
+    {
+      "id": 253622,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shinichirou",
+        "last": "Miyamoto",
+        "full": "Shinichirou Miyamoto",
+        "native": "宮本慎一郎",
+        "userPreferred": "Shinichirou Miyamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b253622-R5bb5nOl2MVr.png",
+      "voiceActors": [
+        {
+          "id": 95186,
+          "language": "Japanese",
+          "name": {
+            "first": "Shintarou",
+            "last": "Asanuma",
+            "full": "Shintarou Asanuma",
+            "native": "浅沼晋太郎",
+            "userPreferred": "Shintarou Asanuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95186-XMdPPqYhMrwN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120540,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouhei",
+        "last": "Araki",
+        "full": "Kouhei Araki",
+        "native": "荒木公平",
+        "userPreferred": "Kouhei Araki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120540-yrG5PoGrJigE.png",
+      "voiceActors": [
+        {
+          "id": 108715,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuo",
+            "last": "Kanao",
+            "full": "Tetsuo Kanao",
+            "native": "金尾哲夫",
+            "userPreferred": "Tetsuo Kanao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n108715-zjqghhvQm0qv.png"
+        }
+      ]
+    },
+    {
+      "id": 253621,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yamashita-kyokuchou",
+        "last": null,
+        "full": "Yamashita-kyokuchou",
+        "native": "山下局長",
+        "userPreferred": "Yamashita-kyokuchou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b253621-wGkX3C6Bs9AA.png",
+      "voiceActors": [
+        {
+          "id": 101175,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomomichi",
+            "last": "Nishimura",
+            "full": "Tomomichi Nishimura",
+            "native": "西村知道",
+            "userPreferred": "Tomomichi Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6175.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120541,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Midori",
+        "last": "Kishibe",
+        "full": "Midori Kishibe",
+        "native": "岸辺みどり",
+        "userPreferred": "Midori Kishibe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120541-xZtkC6zD7eh7.png",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 253616,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiroshi",
+        "last": null,
+        "full": "Hiroshi",
+        "native": "ヒロシ",
+        "userPreferred": "Hiroshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b253616-a267t97kKvTg.png",
+      "voiceActors": [
+        {
+          "id": 114371,
+          "language": "Japanese",
+          "name": {
+            "first": "Sarah Emi",
+            "last": "Bridcutt",
+            "full": "Sarah Emi Bridcutt",
+            "native": "ブリドカットセーラ恵美",
+            "userPreferred": "Sarah Emi Bridcutt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114371-OEVE30OTFBsk.png"
+        }
+      ]
+    },
+    {
+      "id": 120542,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaoru",
+        "last": "Sasaki",
+        "full": "Kaoru Sasaki",
+        "native": "佐々木薫",
+        "userPreferred": "Kaoru Sasaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120542-aenSgxdQMyel.png",
+      "voiceActors": [
+        {
+          "id": 95362,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshiko",
+            "last": "Sakakibara",
+            "full": "Yoshiko Sakakibara",
+            "native": "榊原良子",
+            "userPreferred": "Yoshiko Sakakibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95362-OdfKlvHimh3b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 253618,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rinta",
+        "last": null,
+        "full": "Rinta",
+        "native": "リン太",
+        "userPreferred": "Rinta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b253618-JEs3DM0WpICy.png",
+      "voiceActors": [
+        {
+          "id": 109251,
+          "language": "Japanese",
+          "name": {
+            "first": "You",
+            "last": "Taichi",
+            "full": "You Taichi",
+            "native": "大地葉",
+            "userPreferred": "You Taichi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109251-ge8rmZwppqxy.png"
+        }
+      ]
+    },
+    {
+      "id": 253617,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Take",
+        "last": "Hayashi",
+        "full": "Take Hayashi",
+        "native": "林タケ",
+        "userPreferred": "Take Hayashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b253617-cW0uTTgtl8rf.png",
+      "voiceActors": [
+        {
+          "id": 100907,
+          "language": "Japanese",
+          "name": {
+            "first": "Ikuko",
+            "last": "Tani",
+            "full": "Ikuko Tani",
+            "native": "谷育子",
+            "userPreferred": "Ikuko Tani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5907.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 109886,
+      "relationType": "ALTERNATIVE",
+      "malId": 108290,
+      "title": {
+        "romaji": "Fune wo Amu",
+        "english": null,
+        "native": "舟を編む",
+        "userPreferred": "Fune wo Amu"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx109886-o9iTXEpJ5Abw.png",
+      "color": "#ffd6bb",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx109886-o9iTXEpJ5Abw.png",
+      "rating": 75
+    }
+  ],
+  "episodes": [
+    {
+      "id": "fune-wo-amu-episode-1",
+      "title": "Vastness",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21703-rXiXsRgiIO12.jpg",
+      "number": 1,
+      "createdAt": "2016-10-03T19:31:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fune-wo-amu-episode-1"
+    },
+    {
+      "id": "fune-wo-amu-episode-2",
+      "title": "Encounter",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21703-rXiXsRgiIO12.jpg",
+      "number": 2,
+      "createdAt": "2016-10-03T19:31:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fune-wo-amu-episode-2"
+    },
+    {
+      "id": "fune-wo-amu-episode-3",
+      "title": "Love",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21703-rXiXsRgiIO12.jpg",
+      "number": 3,
+      "createdAt": "2016-10-03T19:31:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fune-wo-amu-episode-3"
+    },
+    {
+      "id": "fune-wo-amu-episode-4",
+      "title": "Steady Progress",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21703-rXiXsRgiIO12.jpg",
+      "number": 4,
+      "createdAt": "2016-10-03T19:31:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fune-wo-amu-episode-4"
+    },
+    {
+      "id": "fune-wo-amu-episode-5",
+      "title": "Waver",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21703-rXiXsRgiIO12.jpg",
+      "number": 5,
+      "createdAt": "2016-10-03T19:31:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fune-wo-amu-episode-5"
+    },
+    {
+      "id": "fune-wo-amu-episode-6",
+      "title": "Resonance",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21703-rXiXsRgiIO12.jpg",
+      "number": 6,
+      "createdAt": "2016-10-03T19:31:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fune-wo-amu-episode-6"
+    },
+    {
+      "id": "fune-wo-amu-episode-7",
+      "title": "Trust",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21703-rXiXsRgiIO12.jpg",
+      "number": 7,
+      "createdAt": "2016-10-03T19:31:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fune-wo-amu-episode-7"
+    },
+    {
+      "id": "fune-wo-amu-episode-8",
+      "title": "Compile",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21703-rXiXsRgiIO12.jpg",
+      "number": 8,
+      "createdAt": "2016-10-03T19:31:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fune-wo-amu-episode-8"
+    },
+    {
+      "id": "fune-wo-amu-episode-9",
+      "title": "Blood",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21703-rXiXsRgiIO12.jpg",
+      "number": 9,
+      "createdAt": "2016-10-03T19:31:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fune-wo-amu-episode-9"
+    },
+    {
+      "id": "fune-wo-amu-episode-10",
+      "title": "Pride",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21703-rXiXsRgiIO12.jpg",
+      "number": 10,
+      "createdAt": "2016-10-03T19:31:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fune-wo-amu-episode-10"
+    },
+    {
+      "id": "fune-wo-amu-episode-11",
+      "title": "Light",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21703-rXiXsRgiIO12.jpg",
+      "number": 11,
+      "createdAt": "2016-10-03T19:31:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fune-wo-amu-episode-11"
+    }
+  ]
+}

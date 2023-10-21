@@ -1,0 +1,695 @@
+{
+  "id": "110318",
+  "title": {
+    "romaji": "Mugyutto! Black Clover",
+    "english": "Squishy! Black Clover",
+    "native": "むぎゅっと！ブラッククローバー"
+  },
+  "malId": 40031,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110318-VU85YyXhCOoU.jpg",
+  "popularity": 5008,
+  "color": "#f1e45d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110318-VU85YyXhCOoU.jpg",
+  "description": "In a world where magic is everything, Asta, who is the only person who can't use magic, and the magical genius Yuno go all out to become the Wizard King. This is a spin off of the anime series \"Black Clover\" with an unbelievable story and an amazing cast.<br>\n<br>\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2019,
+  "startDate": {
+    "year": 2019,
+    "month": 7,
+    "day": 1
+  },
+  "endDate": {
+    "year": 2019,
+    "month": 8,
+    "day": 19
+  },
+  "totalEpisodes": 8,
+  "currentEpisode": 8,
+  "rating": 61,
+  "duration": 8,
+  "genres": [
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "DLE"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 106223,
+      "malId": 38768,
+      "title": {
+        "romaji": "Black Clover: All Mahou Kishi Kanshasai",
+        "english": "Black Clover: The All Magic Knights Thanksgiving Festa",
+        "native": "ブラッククローバー オール魔法騎士感謝祭",
+        "userPreferred": "Black Clover: All Mahou Kishi Kanshasai"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106223-TfmLcrFbAPK7.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106223-4mazQluA9HsF.jpg",
+      "rating": 61,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 120700,
+      "malId": 42364,
+      "title": {
+        "romaji": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 2nd Season",
+        "english": null,
+        "native": "Re:ゼロから始める休憩時間(ブレイクタイム) 2nd Season",
+        "userPreferred": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 2nd Season"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b120700-buuy9COgsBTa.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b120700-buuy9COgsBTa.jpg",
+      "rating": 68,
+      "type": "ONA"
+    },
+    {
+      "id": 128306,
+      "malId": null,
+      "title": {
+        "romaji": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 2nd Season Part 2",
+        "english": null,
+        "native": "Re:ゼロから始める休憩時間(ブレイクタイム) 2nd Season Part 2",
+        "userPreferred": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 2nd Season Part 2"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b128306-94Zyoqy2fA4X.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b128306-94Zyoqy2fA4X.png",
+      "rating": 70,
+      "type": "ONA"
+    },
+    {
+      "id": 120150,
+      "malId": 42250,
+      "title": {
+        "romaji": "Bungou Stray Dogs Wan!",
+        "english": "Bungo Stray Dogs WAN!",
+        "native": "文豪ストレイドッグス わん！",
+        "userPreferred": "Bungou Stray Dogs Wan!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120150-hxvcRrYzgP2F.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120150-bkyCLDwgKG88.jpg",
+      "rating": 80,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 155017,
+      "malId": 39864,
+      "title": {
+        "romaji": "Petit Clover Advance",
+        "english": null,
+        "native": "プチット・クローバー アドバンス",
+        "userPreferred": "Petit Clover Advance"
+      },
+      "status": "Completed",
+      "episodes": 15,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b155017-bTGlwU7Kcfu0.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b155017-bTGlwU7Kcfu0.jpg",
+      "rating": 66,
+      "type": "SPECIAL"
+    }
+  ],
+  "characters": [
+    {
+      "id": 123284,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuno",
+        "last": null,
+        "full": "Yuno",
+        "native": "ユノ",
+        "userPreferred": "Yuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b123284-w6kIFYnTclMd.png",
+      "voiceActors": [
+        {
+          "id": 105989,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobunaga",
+            "last": "Shimazaki",
+            "full": "Nobunaga Shimazaki",
+            "native": "島崎信長",
+            "userPreferred": "Nobunaga Shimazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105989-96etzH1dLNug.jpg"
+        }
+      ]
+    },
+    {
+      "id": 123285,
+      "role": "MAIN",
+      "name": {
+        "first": "Asta",
+        "last": null,
+        "full": "Asta",
+        "native": "アスタ",
+        "userPreferred": "Asta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b123285-tKijiuQErDS0.png",
+      "voiceActors": [
+        {
+          "id": 123286,
+          "language": "Japanese",
+          "name": {
+            "first": "Gakuto",
+            "last": "Kajiwara",
+            "full": "Gakuto Kajiwara",
+            "native": "梶原岳人",
+            "userPreferred": "Gakuto Kajiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n123286-TfHayiK4hqbk.png"
+        }
+      ]
+    },
+    {
+      "id": 124433,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Finral",
+        "last": "Roulacase",
+        "full": "Finral Roulacase",
+        "native": "フィンラル・ルーラケイス",
+        "userPreferred": "Finral Roulacase"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124433-QyoZrgIUsSpd.png",
+      "voiceActors": [
+        {
+          "id": 95086,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukuyama",
+            "full": "Jun Fukuyama",
+            "native": "福山潤",
+            "userPreferred": "Jun Fukuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95086-cwKYmhOFNtH5.png"
+        }
+      ]
+    },
+    {
+      "id": 124460,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sekke",
+        "last": "Bronzazza",
+        "full": "Sekke Bronzazza",
+        "native": "セッケ・ブロンザッザ",
+        "userPreferred": "Sekke Bronzazza"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124460-EUJVxM0PG7uV.png",
+      "voiceActors": [
+        {
+          "id": 110743,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouta",
+            "last": "Oosaka",
+            "full": "Ryouta Oosaka",
+            "native": "逢坂良太",
+            "userPreferred": "Ryouta Oosaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110743-k2SgQwU0JD33.png"
+        }
+      ]
+    },
+    {
+      "id": 124447,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Charmy",
+        "last": "Pappitson",
+        "full": "Charmy Pappitson",
+        "native": "チャーミー・パピットソン",
+        "userPreferred": "Charmy Pappitson"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124447-2J1PKMgWETNT.png",
+      "voiceActors": [
+        {
+          "id": 107711,
+          "language": "Japanese",
+          "name": {
+            "first": "Kiyono",
+            "last": "Yasuno",
+            "full": "Kiyono Yasuno",
+            "native": "安野希世乃",
+            "userPreferred": "Kiyono Yasuno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107711-xaS7giEK9UIU.png"
+        }
+      ]
+    },
+    {
+      "id": 124519,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sally",
+        "last": null,
+        "full": "Sally",
+        "native": "サリー",
+        "userPreferred": "Sally"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124519-HGSExVAbCiju.png",
+      "voiceActors": [
+        {
+          "id": 106492,
+          "language": "Japanese",
+          "name": {
+            "first": "Minami",
+            "last": "Tsuda",
+            "full": "Minami Tsuda",
+            "native": "津田美波",
+            "userPreferred": "Minami Tsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106492-hNpin1BODjBw.png"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 105273,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichirou",
+            "last": "Matsuda",
+            "full": "Kenichirou Matsuda",
+            "native": "松田健一郎",
+            "userPreferred": "Kenichirou Matsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105273-asextl049B2s.png"
+        }
+      ]
+    },
+    {
+      "id": 123283,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Noelle",
+        "last": "Silva",
+        "full": "Noelle Silva",
+        "native": "ノエル・シルヴァ",
+        "userPreferred": "Noelle Silva"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b123283-7nJHtKha0LSm.png",
+      "voiceActors": [
+        {
+          "id": 118739,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Yuuki",
+            "full": "Kana Yuuki",
+            "native": "優木かな",
+            "userPreferred": "Kana Yuuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118739-hIVuGI5fgL5e.png"
+        }
+      ]
+    },
+    {
+      "id": 124440,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yami",
+        "last": "Sukehiro",
+        "full": "Yami Sukehiro",
+        "native": "ヤミ・スケヒロ",
+        "userPreferred": "Yami Sukehiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124440-Lpdo6y8cljV6.png",
+      "voiceActors": [
+        {
+          "id": 95095,
+          "language": "Japanese",
+          "name": {
+            "first": "Junichi",
+            "last": "Suwabe",
+            "full": "Junichi Suwabe",
+            "native": "諏訪部順一",
+            "userPreferred": "Junichi Suwabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95095-DvSjTQnqcgXP.png"
+        }
+      ]
+    },
+    {
+      "id": 124436,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Vanessa",
+        "last": "Enoteca",
+        "full": "Vanessa Enoteca",
+        "native": "バネッサ・エノテーカ",
+        "userPreferred": "Vanessa Enoteca"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124436-dES6CtprlZNy.png",
+      "voiceActors": [
+        {
+          "id": 95081,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Mizuki",
+            "full": "Nana Mizuki",
+            "native": "水樹奈々",
+            "userPreferred": "Nana Mizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95081-qto4UanYkpQT.png"
+        }
+      ]
+    },
+    {
+      "id": 124446,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gauche",
+        "last": "Adlai",
+        "full": "Gauche Adlai",
+        "native": "ゴーシュ・アドレイ",
+        "userPreferred": "Gauche Adlai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124446-4YXFoCIllCKh.png",
+      "voiceActors": [
+        {
+          "id": 95245,
+          "language": "Japanese",
+          "name": {
+            "first": "Satoshi",
+            "last": "Hino",
+            "full": "Satoshi Hino",
+            "native": "日野聡",
+            "userPreferred": "Satoshi Hino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95245-prBoWpg0HaGX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 124449,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Luck",
+        "last": "Voltia",
+        "full": "Luck Voltia",
+        "native": "ラック・ボルティア",
+        "userPreferred": "Luck Voltia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/124449-M67Ex2GcxmYM.jpg",
+      "voiceActors": [
+        {
+          "id": 110919,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumu",
+            "last": "Murase",
+            "full": "Ayumu Murase",
+            "native": "村瀬歩",
+            "userPreferred": "Ayumu Murase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110919-zz5dq39kyzNC.png"
+        }
+      ]
+    },
+    {
+      "id": 124444,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Grey",
+        "last": null,
+        "full": "Grey",
+        "native": "グレイ",
+        "userPreferred": "Grey"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124444-01PmRKd8Sned.jpg",
+      "voiceActors": [
+        {
+          "id": 117003,
+          "language": "Japanese",
+          "name": {
+            "first": "Minami",
+            "last": "Takahashi",
+            "full": "Minami Takahashi",
+            "native": "髙橋ミナミ",
+            "userPreferred": "Minami Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n117003-UucaZmQjVSV7.png"
+        }
+      ]
+    },
+    {
+      "id": 124448,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gordon",
+        "last": "Agrippa",
+        "full": "Gordon Agrippa",
+        "native": "ゴードン・アグリッパ",
+        "userPreferred": "Gordon Agrippa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124448-YHRpWxJUhNnw.png",
+      "voiceActors": [
+        {
+          "id": 105273,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichirou",
+            "last": "Matsuda",
+            "full": "Kenichirou Matsuda",
+            "native": "松田健一郎",
+            "userPreferred": "Kenichirou Matsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105273-asextl049B2s.png"
+        }
+      ]
+    },
+    {
+      "id": 124439,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Magna",
+        "last": "Swing",
+        "full": "Magna Swing",
+        "native": "マグナ・スウィング",
+        "userPreferred": "Magna Swing"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124439-EqjbyC8GOKW0.jpg",
+      "voiceActors": [
+        {
+          "id": 108055,
+          "language": "Japanese",
+          "name": {
+            "first": "Genki",
+            "last": "Muro",
+            "full": "Genki Muro",
+            "native": "室元気",
+            "userPreferred": "Genki Muro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n108055-xpbp6CAEStk2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 124435,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Julius",
+        "last": "Novachrono",
+        "full": "Julius Novachrono",
+        "native": "ユリウス・ノヴァクロノ",
+        "userPreferred": "Julius Novachrono"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124435-gXFVXWrCcieK.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 124975,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Langris",
+        "last": "Vaude",
+        "full": "Langris Vaude",
+        "native": "ランギルス・ヴォード",
+        "userPreferred": "Langris Vaude"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124975-vRUxV3oIOle7.png",
+      "voiceActors": []
+    },
+    {
+      "id": 124528,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Augustus",
+        "last": "Kira Clover XIII",
+        "full": "Augustus Kira Clover XIII",
+        "native": "アウグストゥス・キーラ・クローバー13世",
+        "userPreferred": "Augustus Kira Clover XIII"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124528-cyB6cHIa4Zlq.png",
+      "voiceActors": []
+    },
+    {
+      "id": 124476,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Marie",
+        "last": "Adlai",
+        "full": "Marie Adlai",
+        "native": "マリー・アドレイ",
+        "userPreferred": "Marie Adlai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124476-bC651i64k8Gr.png",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 97940,
+      "relationType": "PARENT",
+      "malId": 34572,
+      "title": {
+        "romaji": "Black Clover",
+        "english": "Black Clover",
+        "native": "ブラッククローバー",
+        "userPreferred": "Black Clover"
+      },
+      "status": "Completed",
+      "episodes": 170,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97940-O2LWFOG8bK1u.jpg",
+      "color": "#aea135",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97940-1URQdQ4U1a0b.jpg",
+      "rating": 78
+    },
+    {
+      "id": 106223,
+      "relationType": "PARENT",
+      "malId": 38768,
+      "title": {
+        "romaji": "Black Clover: All Mahou Kishi Kanshasai",
+        "english": "Black Clover: The All Magic Knights Thanksgiving Festa",
+        "native": "ブラッククローバー オール魔法騎士感謝祭",
+        "userPreferred": "Black Clover: All Mahou Kishi Kanshasai"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106223-TfmLcrFbAPK7.jpg",
+      "color": "#e45d6b",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106223-4mazQluA9HsF.jpg",
+      "rating": 61
+    }
+  ],
+  "episodes": [
+    {
+      "id": "mugyutto-black-clover-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110318-VU85YyXhCOoU.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mugyutto-black-clover-episode-1"
+    },
+    {
+      "id": "mugyutto-black-clover-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110318-VU85YyXhCOoU.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mugyutto-black-clover-episode-2"
+    },
+    {
+      "id": "mugyutto-black-clover-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110318-VU85YyXhCOoU.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mugyutto-black-clover-episode-3"
+    },
+    {
+      "id": "mugyutto-black-clover-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110318-VU85YyXhCOoU.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mugyutto-black-clover-episode-4"
+    },
+    {
+      "id": "mugyutto-black-clover-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110318-VU85YyXhCOoU.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mugyutto-black-clover-episode-5"
+    },
+    {
+      "id": "mugyutto-black-clover-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110318-VU85YyXhCOoU.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mugyutto-black-clover-episode-6"
+    },
+    {
+      "id": "mugyutto-black-clover-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110318-VU85YyXhCOoU.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mugyutto-black-clover-episode-7"
+    },
+    {
+      "id": "mugyutto-black-clover-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110318-VU85YyXhCOoU.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mugyutto-black-clover-episode-8"
+    }
+  ]
+}

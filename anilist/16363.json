@@ -1,0 +1,510 @@
+{
+  "id": "16363",
+  "title": {
+    "romaji": "Vanquished Queens",
+    "english": null,
+    "native": "ヴァンキッシュド・クイーンズ"
+  },
+  "malId": 16363,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/16363.jpg",
+  "popularity": 2876,
+  "color": "#e4ae93",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/16363.jpg",
+  "description": "The Vanquished Queens OVAs will depicts what happened to various characters who did not make an appearance in the Queen's Blade: Rebellion and what happened to them after the second season.",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 3,
+    "day": 29
+  },
+  "endDate": {
+    "year": 2014,
+    "month": 9,
+    "day": 30
+  },
+  "totalEpisodes": 4,
+  "currentEpisode": 4,
+  "rating": 54,
+  "duration": 22,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Ecchi",
+    "Fantasy"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 20705,
+      "malId": 33834,
+      "title": {
+        "romaji": "sin: Nanatsu no Taizai",
+        "english": "Seven Mortal Sins",
+        "native": "sin 七つの大罪",
+        "userPreferred": "sin: Nanatsu no Taizai"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20705-X2uRDZWD6xGn.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20705-BD0QCm8eyzr5.png",
+      "rating": 51,
+      "type": "TV"
+    },
+    {
+      "id": 4719,
+      "malId": 4719,
+      "title": {
+        "romaji": "Queen's Blade: Rurou no Senshi",
+        "english": "Queen's Blade: The Exiled Virgin",
+        "native": "クイーンズブレイド 流浪の戦士",
+        "userPreferred": "Queen's Blade: Rurou no Senshi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4719-je2iLM7t0jsd.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4719-je2iLM7t0jsd.jpg",
+      "rating": 55,
+      "type": "TV"
+    },
+    {
+      "id": 15377,
+      "malId": 15377,
+      "title": {
+        "romaji": "Hyakka Ryouran: Samurai Bride",
+        "english": "Samurai Bride",
+        "native": "百花繚乱 サムライブライド",
+        "userPreferred": "Hyakka Ryouran: Samurai Bride"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15377-PHthXBKOeheF.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15377-PHthXBKOeheF.png",
+      "rating": 62,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 17346,
+      "role": "MAIN",
+      "name": {
+        "first": "Tomoe",
+        "last": null,
+        "full": "Tomoe",
+        "native": "トモエ",
+        "userPreferred": "Tomoe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17346.jpg",
+      "voiceActors": [
+        {
+          "id": 95040,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamiko",
+            "last": "Noto",
+            "full": "Mamiko Noto",
+            "native": "能登麻美子",
+            "userPreferred": "Mamiko Noto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95040-CskhFn4LiOti.jpg"
+        }
+      ]
+    },
+    {
+      "id": 54257,
+      "role": "MAIN",
+      "name": {
+        "first": "Liliana",
+        "last": null,
+        "full": "Liliana",
+        "native": "キャプテン・リリアナ",
+        "userPreferred": "Liliana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b54257-xnNj7gj9Kedh.jpg",
+      "voiceActors": [
+        {
+          "id": 95093,
+          "language": "Japanese",
+          "name": {
+            "first": "Shizuka",
+            "last": "Itou",
+            "full": "Shizuka Itou",
+            "native": "伊藤静",
+            "userPreferred": "Shizuka Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95093-MApaH7qqtmVN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21732,
+      "role": "MAIN",
+      "name": {
+        "first": "Nowa",
+        "last": null,
+        "full": "Nowa",
+        "native": "ノワ",
+        "userPreferred": "Nowa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21732.jpg",
+      "voiceActors": [
+        {
+          "id": 95132,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Takahashi",
+            "full": "Mikako Takahashi",
+            "native": "高橋美佳子",
+            "userPreferred": "Mikako Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95132-TpIFKL0tJg84.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24618,
+      "role": "MAIN",
+      "name": {
+        "first": "Irma",
+        "last": null,
+        "full": "Irma",
+        "native": "イルマ",
+        "userPreferred": "Irma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24618.jpg",
+      "voiceActors": [
+        {
+          "id": 95682,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Kano",
+            "full": "Yui Kano",
+            "native": "鹿野優以",
+            "userPreferred": "Yui Kano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/682.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21733,
+      "role": "MAIN",
+      "name": {
+        "first": "Airi",
+        "last": null,
+        "full": "Airi",
+        "native": "アイリ",
+        "userPreferred": "Airi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21733.jpg",
+      "voiceActors": [
+        {
+          "id": 95762,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanae",
+            "last": "Itou",
+            "full": "Kanae Itou",
+            "native": "伊藤かな恵",
+            "userPreferred": "Kanae Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95762-qhWmwni3TT6Y.png"
+        }
+      ]
+    },
+    {
+      "id": 23451,
+      "role": "MAIN",
+      "name": {
+        "first": "Aldra",
+        "last": null,
+        "full": "Aldra",
+        "native": "アルドラ",
+        "userPreferred": "Aldra"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23451.jpg",
+      "voiceActors": [
+        {
+          "id": 101996,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayana",
+            "last": "Taketatsu",
+            "full": "Ayana Taketatsu",
+            "native": "竹達彩奈",
+            "userPreferred": "Ayana Taketatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101996-W14XnDV34VpO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 61047,
+      "role": "MAIN",
+      "name": {
+        "first": "Laila",
+        "last": null,
+        "full": "Laila",
+        "native": "ライラ",
+        "userPreferred": "Laila"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/61047.jpg",
+      "voiceActors": [
+        {
+          "id": 101560,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Satou",
+            "full": "Satomi Satou",
+            "native": "佐藤聡美",
+            "userPreferred": "Satomi Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101560-x0Va6GS2YMeH.png"
+        }
+      ]
+    },
+    {
+      "id": 17344,
+      "role": "MAIN",
+      "name": {
+        "first": "Nanael",
+        "last": null,
+        "full": "Nanael",
+        "native": "ナナエル",
+        "userPreferred": "Nanael"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17344.jpg",
+      "voiceActors": [
+        {
+          "id": 95004,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Hirano",
+            "full": "Aya Hirano",
+            "native": "平野綾",
+            "userPreferred": "Aya Hirano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95004-qWQQHGzY3wqr.png"
+        }
+      ]
+    },
+    {
+      "id": 17345,
+      "role": "MAIN",
+      "name": {
+        "first": "Reina",
+        "last": "Vance",
+        "full": "Reina Vance",
+        "native": "レイナ",
+        "userPreferred": "Reina Vance"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17345-BTrD3Xzacw8M.png",
+      "voiceActors": [
+        {
+          "id": 95013,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayako",
+            "last": "Kawasumi",
+            "full": "Ayako Kawasumi",
+            "native": "川澄綾子",
+            "userPreferred": "Ayako Kawasumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95013-cwl64qXuP2r7.png"
+        }
+      ]
+    },
+    {
+      "id": 60787,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Branwen",
+        "last": null,
+        "full": "Branwen",
+        "native": "ブランウェン",
+        "userPreferred": "Branwen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60787.jpg",
+      "voiceActors": [
+        {
+          "id": 95195,
+          "language": "Japanese",
+          "name": {
+            "first": "Kikuko",
+            "last": "Inoue",
+            "full": "Kikuko Inoue",
+            "native": "井上喜久子",
+            "userPreferred": "Kikuko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95195-nLvtZl5sCK0D.png"
+        }
+      ]
+    },
+    {
+      "id": 22553,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Echidna",
+        "last": null,
+        "full": "Echidna",
+        "native": "エキドナ",
+        "userPreferred": "Echidna"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22553.jpg",
+      "voiceActors": [
+        {
+          "id": 95688,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Kaida",
+            "full": "Yuki Kaida",
+            "native": "甲斐田ゆき",
+            "userPreferred": "Yuki Kaida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95688-uK5svGURlbgS.png"
+        }
+      ]
+    },
+    {
+      "id": 314352,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Werbellia",
+        "last": null,
+        "full": "Werbellia",
+        "native": "ウェルベリア",
+        "userPreferred": "Werbellia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b314352-nyynsiDR8XBV.png",
+      "voiceActors": [
+        {
+          "id": 95062,
+          "language": "Japanese",
+          "name": {
+            "first": "Junko",
+            "last": "Minagawa",
+            "full": "Junko Minagawa",
+            "native": "皆川純子",
+            "userPreferred": "Junko Minagawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95062-YMTfpO89SgQp.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17350,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Menace",
+        "last": null,
+        "full": "Menace",
+        "native": "メナス",
+        "userPreferred": "Menace"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17350-4HrPcrT7WfZk.png",
+      "voiceActors": [
+        {
+          "id": 95105,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Gotou",
+            "full": "Yuuko Gotou",
+            "native": "後藤邑子",
+            "userPreferred": "Yuuko Gotou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95105-5r4AYMjJS51Y.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 18231,
+      "relationType": "SIDE_STORY",
+      "malId": 18231,
+      "title": {
+        "romaji": "Vanquished Queens Specials",
+        "english": null,
+        "native": "ヴァンキッシュド・クイーンズ",
+        "userPreferred": "Vanquished Queens Specials"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18231.jpg",
+      "color": "#f14328",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18231.jpg",
+      "rating": 48
+    },
+    {
+      "id": 4719,
+      "relationType": "OTHER",
+      "malId": 4719,
+      "title": {
+        "romaji": "Queen's Blade: Rurou no Senshi",
+        "english": "Queen's Blade: The Exiled Virgin",
+        "native": "クイーンズブレイド 流浪の戦士",
+        "userPreferred": "Queen's Blade: Rurou no Senshi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4719-je2iLM7t0jsd.jpg",
+      "color": "#d6281a",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4719-je2iLM7t0jsd.jpg",
+      "rating": 55
+    }
+  ],
+  "episodes": [
+    {
+      "id": "queen-s-blade-vanquished-queens-ova-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/16363.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//queen-s-blade-vanquished-queens-ova-episode-1"
+    },
+    {
+      "id": "queen-s-blade-vanquished-queens-ova-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/16363.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//queen-s-blade-vanquished-queens-ova-episode-2"
+    },
+    {
+      "id": "queen-s-blade-vanquished-queens-ova-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/16363.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//queen-s-blade-vanquished-queens-ova-episode-3"
+    },
+    {
+      "id": "queen-s-blade-vanquished-queens-ova-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/16363.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//queen-s-blade-vanquished-queens-ova-episode-4"
+    }
+  ]
+}

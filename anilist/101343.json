@@ -1,0 +1,889 @@
+{
+  "id": "101343",
+  "title": {
+    "romaji": "Made in Abyss: Tabidachi no Yoake",
+    "english": "Made in Abyss: Journey's Dawn",
+    "native": "メイドインアビス 旅立ちの夜明け"
+  },
+  "malId": 37514,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101343-E9fMMi4b8fsL.png",
+  "popularity": 27131,
+  "color": "#50a1e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101343-E9fMMi4b8fsL.png",
+  "description": "A compilation film recapping the first half of the anime series.<br>\n<br>\nThe enigmatic Abyss is an unforgiving and deadly place. Despite the dangers, it still captures the imagination of explorers such as Riko who wishes to follow in her mother’s footsteps and trains hard to become a Cave Raider. One day, she receives news that her mother died in the Abyss, yet a mysterious note tells Riko that her mother may still be alive. Vowing to uncover the truth about her mother’s fate, Riko embarks on a journey with a humanoid robot boy named Reg. Together they will discover if they have what it takes to survive where so many others have perished.<br>\n<br>\n(Source: Sentai Filmworks)",
+  "status": "Completed",
+  "releaseDate": 2019,
+  "startDate": {
+    "year": 2019,
+    "month": 1,
+    "day": 4
+  },
+  "endDate": {
+    "year": 2019,
+    "month": 1,
+    "day": 4
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 80,
+  "duration": 120,
+  "genres": [
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Horror",
+    "Mystery",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Kinema Citrus"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 136,
+      "malId": 136,
+      "title": {
+        "romaji": "HUNTER×HUNTER",
+        "english": "Hunter x Hunter",
+        "native": "HUNTER×HUNTER",
+        "userPreferred": "HUNTER×HUNTER"
+      },
+      "status": "Completed",
+      "episodes": 62,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136-gj0bbCpDNrKG.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/136-uHALFo2vGOGd.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 11061,
+      "malId": 11061,
+      "title": {
+        "romaji": "HUNTER×HUNTER (2011)",
+        "english": "Hunter x Hunter (2011)",
+        "native": "HUNTER×HUNTER (2011)",
+        "userPreferred": "HUNTER×HUNTER (2011)"
+      },
+      "status": "Completed",
+      "episodes": 148,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11061-sIpBprNRfzCe.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11061-8WkkTZ6duKpq.jpg",
+      "rating": 89,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 122443,
+      "role": "MAIN",
+      "name": {
+        "first": "Riko",
+        "last": "",
+        "full": "Riko",
+        "native": "リコ",
+        "userPreferred": "Riko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b122443-Md7TtolADEJh.png",
+      "voiceActors": [
+        {
+          "id": 119518,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Tomita",
+            "full": "Miyu Tomita",
+            "native": "富田美憂",
+            "userPreferred": "Miyu Tomita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119518-vZN7TPy12iuu.png"
+        },
+        {
+          "id": 127740,
+          "language": "English",
+          "name": {
+            "first": "Brittany",
+            "last": "Lauda",
+            "full": "Brittany Lauda",
+            "native": null,
+            "userPreferred": "Brittany Lauda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n127740-O7kEd5orxMeM.jpg"
+        },
+        {
+          "id": 197835,
+          "language": "Spanish",
+          "name": {
+            "first": "María José",
+            "last": "Estévez",
+            "full": "María José Estévez",
+            "native": null,
+            "userPreferred": "María José Estévez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197835-tYz9zR3WfN3h.png"
+        }
+      ]
+    },
+    {
+      "id": 122444,
+      "role": "MAIN",
+      "name": {
+        "first": "",
+        "last": "Reg",
+        "full": "Reg",
+        "native": "レグ",
+        "userPreferred": "Reg"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b122444-9rGUpcjwygHD.png",
+      "voiceActors": [
+        {
+          "id": 95655,
+          "language": "Japanese",
+          "name": {
+            "first": "Mariya",
+            "last": "Ise",
+            "full": "Mariya Ise",
+            "native": "伊瀬茉莉也",
+            "userPreferred": "Mariya Ise"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95655-KbQUnQTroukJ.png"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        },
+        {
+          "id": 197833,
+          "language": "Spanish",
+          "name": {
+            "first": "Sebastián",
+            "last": "Reggio",
+            "full": "Sebastián Reggio",
+            "native": null,
+            "userPreferred": "Sebastián Reggio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197833-hKByNIlG8sxI.png"
+        }
+      ]
+    },
+    {
+      "id": 123185,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hablog",
+        "last": null,
+        "full": "Hablog",
+        "native": "ハボルグ",
+        "userPreferred": "Hablog"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b123185-lOJJvAS0tqF0.jpg",
+      "voiceActors": [
+        {
+          "id": 95395,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsu",
+            "last": "Inada",
+            "full": "Tetsu Inada",
+            "native": "稲田徹",
+            "userPreferred": "Tetsu Inada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95395-HpxLuh4ysrzJ.png"
+        },
+        {
+          "id": 95201,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Swasey",
+            "full": "John Swasey",
+            "native": null,
+            "userPreferred": "John Swasey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95201-cas6XbtZmMay.jpg"
+        },
+        {
+          "id": 197842,
+          "language": "Spanish",
+          "name": {
+            "first": "Eduardo",
+            "last": "Wasveiler",
+            "full": "Eduardo Wasveiler",
+            "native": null,
+            "userPreferred": "Eduardo Wasveiler"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197842-0Uov69wMNryl.png"
+        }
+      ]
+    },
+    {
+      "id": 122748,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nat",
+        "last": null,
+        "full": "Nat",
+        "native": "ナット",
+        "userPreferred": "Nat"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/122748-UQiYQ5OjzkGT.jpg",
+      "voiceActors": [
+        {
+          "id": 105013,
+          "language": "Japanese",
+          "name": {
+            "first": "Mutsumi",
+            "last": "Tamura",
+            "full": "Mutsumi Tamura",
+            "native": "田村睦心",
+            "userPreferred": "Mutsumi Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105013-DffN0XN2Zw7G.png"
+        },
+        {
+          "id": 95603,
+          "language": "English",
+          "name": {
+            "first": "Shannon",
+            "last": "Emerick",
+            "full": "Shannon Emerick",
+            "native": null,
+            "userPreferred": "Shannon Emerick"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95603-86oUTjGBLgvi.jpg"
+        },
+        {
+          "id": 197841,
+          "language": "Spanish",
+          "name": {
+            "first": "Ahrid",
+            "last": "Hannaley",
+            "full": "Ahrid Hannaley",
+            "native": null,
+            "userPreferred": "Ahrid Hannaley"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197841-J2m6TvwcDK06.png"
+        }
+      ]
+    },
+    {
+      "id": 122464,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ouzen",
+        "last": "",
+        "full": "Ouzen",
+        "native": "オーゼン",
+        "userPreferred": "Ouzen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b122464-xnYajKbuEa29.jpg",
+      "voiceActors": [
+        {
+          "id": 95092,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Oohara",
+            "full": "Sayaka Oohara",
+            "native": "大原さやか",
+            "userPreferred": "Sayaka Oohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95092-dQXsTFQXLg3o.png"
+        },
+        {
+          "id": 95509,
+          "language": "English",
+          "name": {
+            "first": "Christine",
+            "last": "Auten",
+            "full": "Christine Auten",
+            "native": null,
+            "userPreferred": "Christine Auten"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95509-fSwGUErqAkmA.jpg"
+        },
+        {
+          "id": 197836,
+          "language": "Spanish",
+          "name": {
+            "first": "Jackeline",
+            "last": "Junguito",
+            "full": "Jackeline Junguito",
+            "native": null,
+            "userPreferred": "Jackeline Junguito"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197836-wJVz7Po7vZ0D.png"
+        }
+      ]
+    },
+    {
+      "id": 123188,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jiruo",
+        "last": null,
+        "full": "Jiruo",
+        "native": "ジルオ",
+        "userPreferred": "Jiruo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b123188-9yVeXsmPmtAY.png",
+      "voiceActors": [
+        {
+          "id": 107705,
+          "language": "Japanese",
+          "name": {
+            "first": "Taishi",
+            "last": "Murata",
+            "full": "Taishi Murata",
+            "native": "村田太志",
+            "userPreferred": "Taishi Murata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107705-lVfYRzWY5AFW.jpg"
+        },
+        {
+          "id": 129188,
+          "language": "English",
+          "name": {
+            "first": "Daniel",
+            "last": "Regojo",
+            "full": "Daniel Regojo",
+            "native": null,
+            "userPreferred": "Daniel Regojo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129188-j4sigFmtr1SC.jpg"
+        },
+        {
+          "id": 197834,
+          "language": "Spanish",
+          "name": {
+            "first": "José",
+            "last": "Aparicio",
+            "full": "José Aparicio",
+            "native": null,
+            "userPreferred": "José Aparicio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197834-2AuLiV2qc7PB.png"
+        }
+      ]
+    },
+    {
+      "id": 123145,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Marulk",
+        "last": "",
+        "full": "Marulk",
+        "native": "マルルク",
+        "userPreferred": "Marulk"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/123145-wWYcJ3SOF426.png",
+      "voiceActors": [
+        {
+          "id": 95599,
+          "language": "Japanese",
+          "name": {
+            "first": "Aki",
+            "last": "Toyosaki",
+            "full": "Aki Toyosaki",
+            "native": "豊崎愛生",
+            "userPreferred": "Aki Toyosaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95599-XDGiluZB7IXL.png"
+        },
+        {
+          "id": 129187,
+          "language": "English",
+          "name": {
+            "first": "Kelley",
+            "last": "Peters",
+            "full": "Kelley Peters",
+            "native": null,
+            "userPreferred": "Kelley Peters"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129187-8WOQZ1SHwH5s.jpg"
+        },
+        {
+          "id": 197837,
+          "language": "Spanish",
+          "name": {
+            "first": "Andrea",
+            "last": "Villaverde",
+            "full": "Andrea Villaverde",
+            "native": null,
+            "userPreferred": "Andrea Villaverde"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197837-S14B9O32UKKQ.png"
+        }
+      ]
+    },
+    {
+      "id": 122749,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shiggy",
+        "last": null,
+        "full": "Shiggy",
+        "native": "シギー",
+        "userPreferred": "Shiggy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/122749-moyrPEkfL7gv.jpg",
+      "voiceActors": [
+        {
+          "id": 104973,
+          "language": "Japanese",
+          "name": {
+            "first": "Manami",
+            "last": "Numakura",
+            "full": "Manami Numakura",
+            "native": "沼倉愛美",
+            "userPreferred": "Manami Numakura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104973-rymSxCu8uP0Y.png"
+        },
+        {
+          "id": 104078,
+          "language": "English",
+          "name": {
+            "first": "Terri",
+            "last": "Doty",
+            "full": "Terri Doty",
+            "native": null,
+            "userPreferred": "Terri Doty"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9078.jpg"
+        },
+        {
+          "id": 197838,
+          "language": "Spanish",
+          "name": {
+            "first": "Arianna",
+            "last": "López",
+            "full": "Arianna López",
+            "native": null,
+            "userPreferred": "Arianna López"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197838-IkhWwOW9wzCC.png"
+        }
+      ]
+    },
+    {
+      "id": 153051,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Simred",
+        "last": null,
+        "full": "Simred",
+        "native": "シムラド",
+        "userPreferred": "Simred"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b153051-oZj2GhZmROrK.jpg",
+      "voiceActors": [
+        {
+          "id": 153049,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Shin",
+            "full": "Yuuki Shin",
+            "native": "新祐樹",
+            "userPreferred": "Yuuki Shin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n153049-K0czk9NRoLWz.png"
+        },
+        {
+          "id": 105617,
+          "language": "English",
+          "name": {
+            "first": "Kyle",
+            "last": "Jones",
+            "full": "Kyle Jones",
+            "native": "Kyle Colby Jones",
+            "userPreferred": "Kyle C.  Jones"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105617-5arIxAKK7VvT.png"
+        },
+        {
+          "id": 197839,
+          "language": "Spanish",
+          "name": {
+            "first": "Luis",
+            "last": "Carreño",
+            "full": "Luis Carreño",
+            "native": null,
+            "userPreferred": "Luis Carreño"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197839-WX4hXfQbRcEP.png"
+        }
+      ]
+    },
+    {
+      "id": 158393,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Beruchero",
+        "last": "",
+        "full": "Beruchero",
+        "native": "ベルチェロ",
+        "userPreferred": "Beruchero"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b158393-qppg4MLksXWk.jpg",
+      "voiceActors": [
+        {
+          "id": 95912,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Soumi",
+            "full": "Youko Soumi",
+            "native": "沢海陽子",
+            "userPreferred": "Youko Soumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95912-8ZUpdG5UjcAL.png"
+        },
+        {
+          "id": 251122,
+          "language": "English",
+          "name": {
+            "first": "Julie",
+            "last": "Oliver-Touchstone",
+            "full": "Julie Oliver-Touchstone",
+            "native": null,
+            "userPreferred": "Julie Oliver-Touchstone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n251122-qFHmPTVEJ3p9.png"
+        }
+      ]
+    },
+    {
+      "id": 161856,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Torka",
+        "last": null,
+        "full": "Torka",
+        "native": " トーカ",
+        "userPreferred": "Torka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b161856-dGUiQzIWBDgd.png",
+      "voiceActors": [
+        {
+          "id": 110919,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumu",
+            "last": "Murase",
+            "full": "Ayumu Murase",
+            "native": "村瀬歩",
+            "userPreferred": "Ayumu Murase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110919-zz5dq39kyzNC.png"
+        },
+        {
+          "id": 141573,
+          "language": "English",
+          "name": {
+            "first": "Nathan",
+            "last": "Wilson",
+            "full": "Nathan Wilson",
+            "native": null,
+            "userPreferred": "Nathan Wilson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141573-2fRyvwjcrG5m.jpg"
+        },
+        {
+          "id": 197834,
+          "language": "Spanish",
+          "name": {
+            "first": "José",
+            "last": "Aparicio",
+            "full": "José Aparicio",
+            "native": null,
+            "userPreferred": "José Aparicio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197834-2AuLiV2qc7PB.png"
+        }
+      ]
+    },
+    {
+      "id": 122465,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Lyza",
+        "last": "",
+        "full": "Lyza",
+        "native": "ライザ",
+        "userPreferred": "Lyza"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b122465-YHQVVPnVZZX1.png",
+      "voiceActors": [
+        {
+          "id": 95090,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Sakamoto",
+            "full": "Maaya Sakamoto",
+            "native": "坂本真綾",
+            "userPreferred": "Maaya Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95090-oARRP42NEhu0.jpg"
+        },
+        {
+          "id": 95193,
+          "language": "English",
+          "name": {
+            "first": "Shelley",
+            "last": "Calene-Black",
+            "full": "Shelley Calene-Black",
+            "native": null,
+            "userPreferred": "Shelley Calene-Black"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95193-Nvdjk8BIcEJb.png"
+        },
+        {
+          "id": 197837,
+          "language": "Spanish",
+          "name": {
+            "first": "Andrea",
+            "last": "Villaverde",
+            "full": "Andrea Villaverde",
+            "native": null,
+            "userPreferred": "Andrea Villaverde"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197837-S14B9O32UKKQ.png"
+        }
+      ]
+    },
+    {
+      "id": 158390,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Zapo-jii",
+        "last": null,
+        "full": "Zapo-jii",
+        "native": "ザポ爺",
+        "userPreferred": "Zapo-jii"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b158390-noLe1BQtJaar.jpg",
+      "voiceActors": [
+        {
+          "id": 128195,
+          "language": "Japanese",
+          "name": {
+            "first": "Takayuki",
+            "last": "Nakatsukasa",
+            "full": "Takayuki Nakatsukasa",
+            "native": "中務貴幸",
+            "userPreferred": "Takayuki Nakatsukasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n128195-BMcl9CbZQKGm.jpg"
+        },
+        {
+          "id": 128752,
+          "language": "English",
+          "name": {
+            "first": "James",
+            "last": "Belcher",
+            "full": "James Belcher",
+            "native": null,
+            "userPreferred": "James Belcher"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n128752-q7natzit1V0d.jpg"
+        },
+        {
+          "id": 197839,
+          "language": "Spanish",
+          "name": {
+            "first": "Luis",
+            "last": "Carreño",
+            "full": "Luis Carreño",
+            "native": null,
+            "userPreferred": "Luis Carreño"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197839-WX4hXfQbRcEP.png"
+        }
+      ]
+    },
+    {
+      "id": 158391,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Yelme",
+        "last": null,
+        "full": "Yelme",
+        "native": "イェルム",
+        "userPreferred": "Yelme"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b158391-YBTEHKJjbDpJ.jpg",
+      "voiceActors": [
+        {
+          "id": 95409,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshihisa",
+            "last": "Kawahara",
+            "full": "Yoshihisa Kawahara",
+            "native": "川原慶久",
+            "userPreferred": "Yoshihisa Kawahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95409-87S6L0u8gQNf.jpg"
+        },
+        {
+          "id": 129498,
+          "language": "English",
+          "name": {
+            "first": "Joel",
+            "last": "McCray",
+            "full": "Joel McCray",
+            "native": null,
+            "userPreferred": "Joel McCray"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 197840,
+          "language": "Spanish",
+          "name": {
+            "first": "Ledner",
+            "last": "Belisario",
+            "full": "Ledner Belisario",
+            "native": null,
+            "userPreferred": "Ledner Belisario"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197840-ZwhoTMu5dZXG.png"
+        }
+      ]
+    },
+    {
+      "id": 123186,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Kiwi",
+        "last": null,
+        "full": "Kiwi",
+        "native": "キウイ",
+        "userPreferred": "Kiwi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/123186-lgKM1zM7SB1F.jpg",
+      "voiceActors": [
+        {
+          "id": 123187,
+          "language": "Japanese",
+          "name": {
+            "first": "Manami",
+            "last": "Hanawa",
+            "full": "Manami Hanawa",
+            "native": "塙真奈美",
+            "userPreferred": "Manami Hanawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n123187-64blM4VYtC0R.png"
+        },
+        {
+          "id": 116549,
+          "language": "English",
+          "name": {
+            "first": "Kalin",
+            "last": "Coates",
+            "full": "Kalin Coates",
+            "native": null,
+            "userPreferred": "Kalin Coates"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116549-nixFyeEvSdSp.jpg"
+        },
+        {
+          "id": 197835,
+          "language": "Spanish",
+          "name": {
+            "first": "María José",
+            "last": "Estévez",
+            "full": "María José Estévez",
+            "native": null,
+            "userPreferred": "María José Estévez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197835-tYz9zR3WfN3h.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 97986,
+      "relationType": "PARENT",
+      "malId": 34599,
+      "title": {
+        "romaji": "Made in Abyss",
+        "english": "Made in Abyss",
+        "native": "メイドインアビス",
+        "userPreferred": "Made in Abyss"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97986-8oxwTF84hzue.jpg",
+      "color": "#e4c9ae",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97986-C55UnbJKB7ZF.jpg",
+      "rating": 85
+    },
+    {
+      "id": 101344,
+      "relationType": "SEQUEL",
+      "malId": 37515,
+      "title": {
+        "romaji": "Made in Abyss: Hourou Suru Tasogare",
+        "english": "Made in Abyss: Wandering Twilight",
+        "native": "メイドインアビス 放浪する黄昏",
+        "userPreferred": "Made in Abyss: Hourou Suru Tasogare"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101344-NbEG3Ryria9S.jpg",
+      "color": "#e4d6ae",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101344-NnrAu0hmD2T5.jpg",
+      "rating": 83
+    },
+    {
+      "id": 86551,
+      "relationType": "ADAPTATION",
+      "malId": 91941,
+      "title": {
+        "romaji": "Made in Abyss",
+        "english": "Made in Abyss",
+        "native": "メイドインアビス",
+        "userPreferred": "Made in Abyss"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx86551-BhgDee1i7E8n.jpg",
+      "color": "#f19343",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/86551-oHju7E1ze0Ob.jpg",
+      "rating": 85
+    }
+  ],
+  "episodes": [
+    {
+      "id": "made-in-abyss-movie-1-tabidachi-no-yoake-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101343-E9fMMi4b8fsL.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//made-in-abyss-movie-1-tabidachi-no-yoake-episode-1"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "id": "142826",
+  "title": {
+    "romaji": "Yami Shibai 10",
+    "english": "Theatre of Darkness: Yamishibai 10",
+    "native": "闇芝居 十期"
+  },
+  "malId": 50599,
+  "synonyms": [
+    "เรื่องเล่าผีญี่ปุ่น ภาค 10"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142826-54rQbxGUPayU.jpg",
+  "popularity": 1913,
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142826-54rQbxGUPayU.jpg",
+  "description": "The tenth season of <i>Yami Shibai</i>.",
+  "status": "Completed",
+  "releaseDate": 2022,
+  "startDate": {
+    "year": 2022,
+    "month": 1,
+    "day": 10
+  },
+  "endDate": {
+    "year": 2022,
+    "month": 4,
+    "day": 4
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 56,
+  "duration": 5,
+  "genres": [
+    "Horror",
+    "Supernatural"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "ILCA"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 99940,
+      "malId": 36124,
+      "title": {
+        "romaji": "Itou Junji: Collection",
+        "english": "Junji Ito Collection",
+        "native": "伊藤潤二「コレクション」",
+        "userPreferred": "Itou Junji: Collection"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99940-pxsliSVHi0sj.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99940-A6OUzUuwTFxw.jpg",
+      "rating": 60,
+      "type": "TV"
+    },
+    {
+      "id": 101016,
+      "malId": 36992,
+      "title": {
+        "romaji": "Itou Junji: Collection - Tomie",
+        "english": "Junji Ito Collection: Tomie",
+        "native": "伊藤潤二「コレクション」富江",
+        "userPreferred": "Itou Junji: Collection - Tomie"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b101016-VM4HXz6S5myf.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101016-f5Ocy7TmJocH.jpg",
+      "rating": 62,
+      "type": "OVA"
+    },
+    {
+      "id": 150653,
+      "malId": 52031,
+      "title": {
+        "romaji": "Itou Junji: Maniac",
+        "english": "Junji Ito Maniac: Japanese Tales of the Macabre",
+        "native": "伊藤潤二『マニアック』",
+        "userPreferred": "Itou Junji: Maniac"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx150653-i7vaNr06DoQF.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/150653-T4P5zRw9xYXp.jpg",
+      "rating": 65,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 139456,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Kamishibaiya",
+        "last": null,
+        "full": "Kamishibaiya",
+        "native": "紙芝居屋",
+        "userPreferred": "Kamishibaiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b139456-BAznrkqsl3pC.jpg",
+      "voiceActors": [
+        {
+          "id": 101372,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanji",
+            "last": "Tsuda",
+            "full": "Kanji Tsuda",
+            "native": "津田寛治",
+            "userPreferred": "Kanji Tsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101372-p7f3H459Q6Zq.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 135108,
+      "relationType": "PREQUEL",
+      "malId": 49110,
+      "title": {
+        "romaji": "Yami Shibai 9",
+        "english": "Theatre of Darkness: Yamishibai 9",
+        "native": "闇芝居 9",
+        "userPreferred": "Yami Shibai 9"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135108-K5eosBMnj97L.jpg",
+      "color": "#1a286b",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/135108-MWEMjBH5QGE6.jpg",
+      "rating": 54
+    },
+    {
+      "id": 166829,
+      "relationType": "SEQUEL",
+      "malId": 55166,
+      "title": {
+        "romaji": "Yami Shibai 11",
+        "english": "Theatre of Darkness: Yamishibai 11",
+        "native": "闇芝居 十一期",
+        "userPreferred": "Yami Shibai 11"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166829-gMkHJzTyfd32.png",
+      "color": "#e4a135",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166829-gMkHJzTyfd32.png",
+      "rating": 55
+    }
+  ],
+  "episodes": []
+}

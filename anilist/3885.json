@@ -1,0 +1,752 @@
+{
+  "id": "3885",
+  "title": {
+    "romaji": "Sugar Bunnies",
+    "english": null,
+    "native": "シュガーバニーズ"
+  },
+  "malId": 3885,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3885.jpg",
+  "popularity": 446,
+  "color": "#e49350",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3885.jpg",
+  "description": "Random cutesy edutainment tales aimed at small children, featuring animated speaking plushy toys.",
+  "status": "Completed",
+  "releaseDate": 2007,
+  "startDate": {
+    "year": 2007,
+    "month": 4,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2007,
+    "month": 9,
+    "day": 25
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 51,
+  "duration": 11,
+  "genres": [
+    "Comedy"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Asahi Production"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 21861,
+      "role": "MAIN",
+      "name": {
+        "first": "Shiro",
+        "last": "Usa",
+        "full": "Shiro Usa",
+        "native": "しろうさ",
+        "userPreferred": "Shiro Usa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21861.jpg",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        },
+        {
+          "id": 96663,
+          "language": "Italian",
+          "name": {
+            "first": "Marcella",
+            "last": "Silvestri",
+            "full": "Marcella Silvestri",
+            "native": null,
+            "userPreferred": "Marcella Silvestri"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1663.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21859,
+      "role": "MAIN",
+      "name": {
+        "first": "Sophia",
+        "last": "Cherbourg",
+        "full": "Sophia Cherbourg",
+        "native": null,
+        "userPreferred": "Sophia Cherbourg"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95116,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Ueda",
+            "full": "Kana Ueda",
+            "native": "植田佳奈",
+            "userPreferred": "Kana Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95116-NvhEn6vNMiAq.png"
+        },
+        {
+          "id": 96088,
+          "language": "Italian",
+          "name": {
+            "first": "Debora",
+            "last": "Magnaghi",
+            "full": "Debora Magnaghi",
+            "native": null,
+            "userPreferred": "Debora Magnaghi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96088-1Jx4hCFT3624.png"
+        }
+      ]
+    },
+    {
+      "id": 21860,
+      "role": "MAIN",
+      "name": {
+        "first": "Kuro",
+        "last": "Usa",
+        "full": "Kuro Usa",
+        "native": "くろうさ",
+        "userPreferred": "Kuro Usa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21860.jpg",
+      "voiceActors": [
+        {
+          "id": 95467,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Kimura",
+            "full": "Akiko Kimura",
+            "native": "木村亜希子",
+            "userPreferred": "Akiko Kimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/467.jpg"
+        },
+        {
+          "id": 152876,
+          "language": "Italian",
+          "name": {
+            "first": "Daniela",
+            "last": "Fava",
+            "full": "Daniela Fava",
+            "native": null,
+            "userPreferred": "Daniela Fava"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n152876-wMu4RocIDyqQ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21867,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Latte",
+        "last": "Usa",
+        "full": "Latte Usa",
+        "native": null,
+        "userPreferred": "Latte Usa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95235,
+          "language": "Japanese",
+          "name": {
+            "first": "Keisuke",
+            "last": "Oda",
+            "full": "Keisuke Oda",
+            "native": "織田圭祐",
+            "userPreferred": "Keisuke Oda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/235.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21875,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Komugi",
+        "last": "Usa",
+        "full": "Komugi Usa",
+        "native": null,
+        "userPreferred": "Komugi Usa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95298,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Kakazu",
+            "full": "Yumi Kakazu",
+            "native": "かかずゆみ",
+            "userPreferred": "Yumi Kakazu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95298-wWENaJp9ERf7.jpg"
+        },
+        {
+          "id": 239514,
+          "language": "Italian",
+          "name": {
+            "first": "Maura",
+            "last": "Marenghi",
+            "full": "Maura Marenghi",
+            "native": null,
+            "userPreferred": "Maura Marenghi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21868,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hana",
+        "last": "Usa",
+        "full": "Hana Usa",
+        "native": null,
+        "userPreferred": "Hana Usa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Tamura",
+            "full": "Yukari Tamura",
+            "native": "田村ゆかり",
+            "userPreferred": "Yukari Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21876,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Strawberry",
+        "last": "Usa",
+        "full": "Strawberry Usa",
+        "native": null,
+        "userPreferred": "Strawberry Usa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 104713,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiaki",
+            "last": "Yurin",
+            "full": "Chiaki Yurin",
+            "native": "ユリン千晶",
+            "userPreferred": "Chiaki Yurin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9713.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21862,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Buchi",
+        "last": "Usa",
+        "full": "Buchi Usa",
+        "native": null,
+        "userPreferred": "Buchi Usa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95116,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Ueda",
+            "full": "Kana Ueda",
+            "native": "植田佳奈",
+            "userPreferred": "Kana Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95116-NvhEn6vNMiAq.png"
+        }
+      ]
+    },
+    {
+      "id": 21869,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Momo",
+        "last": "Usa",
+        "full": "Momo Usa",
+        "native": null,
+        "userPreferred": "Momo Usa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Tamura",
+            "full": "Yukari Tamura",
+            "native": "田村ゆかり",
+            "userPreferred": "Yukari Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21870,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Blueberry",
+        "last": "Usa",
+        "full": "Blueberry Usa",
+        "native": null,
+        "userPreferred": "Blueberry Usa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95106,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Masuda",
+            "full": "Yuki Masuda",
+            "native": "増田ゆき",
+            "userPreferred": "Yuki Masuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95106-ZQbE62vyMG9R.png"
+        },
+        {
+          "id": 158646,
+          "language": "Italian",
+          "name": {
+            "first": "Deborah",
+            "last": "Morese",
+            "full": "Deborah Morese",
+            "native": null,
+            "userPreferred": "Deborah Morese"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21866,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Panda",
+        "last": "Usa",
+        "full": "Panda Usa",
+        "native": "ぱんだうさ",
+        "userPreferred": "Panda Usa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21866.jpg",
+      "voiceActors": [
+        {
+          "id": 95751,
+          "language": "Japanese",
+          "name": {
+            "first": "Takeharu",
+            "last": "Onishi",
+            "full": "Takeharu Onishi",
+            "native": "大西健晴",
+            "userPreferred": "Takeharu Onishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/751.jpg"
+        },
+        {
+          "id": 96282,
+          "language": "Italian",
+          "name": {
+            "first": "Paolo",
+            "last": "De Santis",
+            "full": "Paolo De Santis",
+            "native": null,
+            "userPreferred": "Paolo De Santis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1282.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21871,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mint",
+        "last": "Usa",
+        "full": "Mint Usa",
+        "native": null,
+        "userPreferred": "Mint Usa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95106,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Masuda",
+            "full": "Yuki Masuda",
+            "native": "増田ゆき",
+            "userPreferred": "Yuki Masuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95106-ZQbE62vyMG9R.png"
+        },
+        {
+          "id": 104942,
+          "language": "Italian",
+          "name": {
+            "first": "Donatella",
+            "last": "Fanfani",
+            "full": "Donatella Fanfani",
+            "native": null,
+            "userPreferred": "Donatella Fanfani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9942.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21863,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aomimi",
+        "last": "Usa",
+        "full": "Aomimi Usa",
+        "native": null,
+        "userPreferred": "Aomimi Usa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95371,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Hamada",
+            "full": "Kenji Hamada",
+            "native": "浜田賢二",
+            "userPreferred": "Kenji Hamada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95371-nyA7w7nPrlPr.png"
+        }
+      ]
+    },
+    {
+      "id": 21872,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Pierre",
+        "last": "Jeunet",
+        "full": "Pierre Jeunet",
+        "native": null,
+        "userPreferred": "Pierre Jeunet"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95106,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Masuda",
+            "full": "Yuki Masuda",
+            "native": "増田ゆき",
+            "userPreferred": "Yuki Masuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95106-ZQbE62vyMG9R.png"
+        },
+        {
+          "id": 115242,
+          "language": "Italian",
+          "name": {
+            "first": "Stefano",
+            "last": "Pozzi",
+            "full": "Stefano Pozzi",
+            "native": null,
+            "userPreferred": "Stefano Pozzi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20242.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21864,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bernard",
+        "last": "Cherbourg",
+        "full": "Bernard Cherbourg",
+        "native": null,
+        "userPreferred": "Bernard Cherbourg"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95371,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Hamada",
+            "full": "Kenji Hamada",
+            "native": "浜田賢二",
+            "userPreferred": "Kenji Hamada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95371-nyA7w7nPrlPr.png"
+        },
+        {
+          "id": 234102,
+          "language": "Italian",
+          "name": {
+            "first": "Gabriele",
+            "last": "Trentalance",
+            "full": "Gabriele Trentalance",
+            "native": null,
+            "userPreferred": "Gabriele Trentalance"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21873,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cappucino",
+        "last": "Usa",
+        "full": "Cappucino Usa",
+        "native": null,
+        "userPreferred": "Cappucino Usa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95503,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Sasamoto",
+            "full": "Yuuko Sasamoto",
+            "native": "笹本優子",
+            "userPreferred": "Yuuko Sasamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95503-GnKAFk8sIBPc.jpg"
+        },
+        {
+          "id": 106919,
+          "language": "Italian",
+          "name": {
+            "first": "Patrizia",
+            "last": "Mottola",
+            "full": "Patrizia Mottola",
+            "native": null,
+            "userPreferred": "Patrizia Mottola"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106919-yK2xGS8rnYfT.png"
+        }
+      ]
+    },
+    {
+      "id": 21865,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rosalie",
+        "last": "Cherbourg",
+        "full": "Rosalie Cherbourg",
+        "native": null,
+        "userPreferred": "Rosalie Cherbourg"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95106,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Masuda",
+            "full": "Yuki Masuda",
+            "native": "増田ゆき",
+            "userPreferred": "Yuki Masuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95106-ZQbE62vyMG9R.png"
+        },
+        {
+          "id": 279400,
+          "language": "Italian",
+          "name": {
+            "first": "Daniela",
+            "last": "Debolini",
+            "full": "Daniela Debolini",
+            "native": null,
+            "userPreferred": "Daniela Debolini"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n279400-J8VsF2dvj3mb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21874,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Francoise",
+        "last": "Dupont",
+        "full": "Francoise Dupont",
+        "native": null,
+        "userPreferred": "Francoise Dupont"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95503,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Sasamoto",
+            "full": "Yuuko Sasamoto",
+            "native": "笹本優子",
+            "userPreferred": "Yuuko Sasamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95503-GnKAFk8sIBPc.jpg"
+        },
+        {
+          "id": 104993,
+          "language": "Italian",
+          "name": {
+            "first": "Loretta",
+            "last": "Di Pisa",
+            "full": "Loretta Di Pisa",
+            "native": null,
+            "userPreferred": "Loretta Di Pisa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104993-jWWlVaHCcxbB.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 126882,
+      "relationType": "SEQUEL",
+      "malId": 33998,
+      "title": {
+        "romaji": "Sugar Bunnies: Taisetsu na Tomodachi e...",
+        "english": null,
+        "native": "シュガーバニーズ 大切な友達へ…",
+        "userPreferred": "Sugar Bunnies: Taisetsu na Tomodachi e..."
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b126882-O7edqgBSoFH0.jpg",
+      "color": "#e4c986",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b126882-O7edqgBSoFH0.jpg",
+      "rating": 46
+    },
+    {
+      "id": 165088,
+      "relationType": "CHARACTER",
+      "malId": null,
+      "title": {
+        "romaji": "Issho ni Sugar Bunnies",
+        "english": null,
+        "native": "いっしょにシュガーバニーズ",
+        "userPreferred": "Issho ni Sugar Bunnies"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b165088-ibud9Z5mL67D.png",
+      "color": "#e4c950",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b165088-ibud9Z5mL67D.png",
+      "rating": null
+    }
+  ],
+  "episodes": [
+    {
+      "id": "sugar-bunnies-episode-1-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3885.jpg",
+      "number": 1.4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sugar-bunnies-episode-1-4"
+    },
+    {
+      "id": "sugar-bunnies-episode-5-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3885.jpg",
+      "number": 5.9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sugar-bunnies-episode-5-9"
+    },
+    {
+      "id": "sugar-bunnies-episode-10-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3885.jpg",
+      "number": 10.13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sugar-bunnies-episode-10-13"
+    },
+    {
+      "id": "sugar-bunnies-episode-14-18",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3885.jpg",
+      "number": 14.18,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sugar-bunnies-episode-14-18"
+    },
+    {
+      "id": "sugar-bunnies-episode-19-22",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3885.jpg",
+      "number": 19.22,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sugar-bunnies-episode-19-22"
+    },
+    {
+      "id": "sugar-bunnies-episode-23-27",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3885.jpg",
+      "number": 23.27,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sugar-bunnies-episode-23-27"
+    }
+  ]
+}

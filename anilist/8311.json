@@ -1,0 +1,1015 @@
+{
+  "id": "8311",
+  "title": {
+    "romaji": "Tegami Bachi REVERSE",
+    "english": "Letter Bee Reverse",
+    "native": "テガミバチ REVERSE"
+  },
+  "malId": 8311,
+  "synonyms": [
+    "Tegami Bachi 2",
+    "Letter Bee 2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8311.jpg",
+  "popularity": 8732,
+  "color": "#284386",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8311.jpg",
+  "description": "After Niche carries the wounded and stunned Lag back to the Bee Hive, the Letter Bee finally begins to piece the puzzle together. Now he knows what's happened to Gauche, why the Marauders are so focused on stealing mail and the actual intent of the group controlling both, Reverse. However, when he's forbidden to reveal the truth, Lag is soon forced out of the artificial sunlight and back into the world of perpetual night. And soon Reverse's plot to take down the Letter Bees and overthrow the Amberground government begins to accelerate. If things weren't already bad enough, the giant insect creatures called gaichuu are apparently evolving into something new; there may be traitors working within the Hive; and Niche's sister, who's definitely not human friendly, shows up to turn family drama into a full-scale siege! It all spells serious trouble for the Letter Bees, but if anyone can weather the storms and gloom of night, Lag and his team are the ones who'll deliver.<br><br>\n(Source: FUNimation)",
+  "status": "Completed",
+  "releaseDate": 2010,
+  "startDate": {
+    "year": 2010,
+    "month": 10,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2011,
+    "month": 3,
+    "day": 26
+  },
+  "totalEpisodes": 25,
+  "currentEpisode": 25,
+  "rating": 74,
+  "duration": 20,
+  "genres": [
+    "Adventure",
+    "Fantasy",
+    "Supernatural"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Studio Pierrot"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 3588,
+      "malId": 3588,
+      "title": {
+        "romaji": "Soul Eater",
+        "english": "Soul Eater",
+        "native": "ソウルイーター",
+        "userPreferred": "Soul Eater"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3588-CA8LE5gjm9Qx.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3588.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 21827,
+      "malId": 33352,
+      "title": {
+        "romaji": "Violet Evergarden",
+        "english": "Violet Evergarden",
+        "native": "ヴァイオレット・エヴァーガーデン",
+        "userPreferred": "Violet Evergarden"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21827-10F6m50H4GJK.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21827-ROucgYiiiSpR.jpg",
+      "rating": 85,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 14809,
+      "role": "MAIN",
+      "name": {
+        "first": "Lag",
+        "last": "Seeing",
+        "full": "Lag Seeing",
+        "native": "ラグ・シーイング",
+        "userPreferred": "Lag Seeing"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14809.jpg",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12510,
+      "role": "MAIN",
+      "name": {
+        "first": "Steak",
+        "last": null,
+        "full": "Steak",
+        "native": "ステーキ",
+        "userPreferred": "Steak"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12510.jpg",
+      "voiceActors": [
+        {
+          "id": 96037,
+          "language": "Japanese",
+          "name": {
+            "first": "Nao",
+            "last": "Nagasawa",
+            "full": "Nao Nagasawa",
+            "native": "永澤菜教",
+            "userPreferred": "Nao Nagasawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96037-F5vg66XmK4yl.png"
+        }
+      ]
+    },
+    {
+      "id": 12509,
+      "role": "MAIN",
+      "name": {
+        "first": "Niche",
+        "last": null,
+        "full": "Niche",
+        "native": "ニッチ",
+        "userPreferred": "Niche"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b12509-m81awAbRdaPI.jpg",
+      "voiceActors": [
+        {
+          "id": 95247,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Fujimura",
+            "full": "Ayumi Fujimura",
+            "native": "藤村歩",
+            "userPreferred": "Ayumi Fujimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95247-3jzUQFPN8clW.png"
+        }
+      ]
+    },
+    {
+      "id": 12516,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Largo",
+        "last": "Lloyd",
+        "full": "Largo Lloyd",
+        "native": "ラルゴ・ロイド",
+        "userPreferred": "Largo Lloyd"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12516.jpg",
+      "voiceActors": [
+        {
+          "id": 95020,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsuyuki",
+            "last": "Konishi",
+            "full": "Katsuyuki Konishi",
+            "native": "小西克幸",
+            "userPreferred": "Katsuyuki Konishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95020-uOJO2IlwpcX0.png"
+        }
+      ]
+    },
+    {
+      "id": 28635,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Anne",
+        "last": "Seeing",
+        "full": "Anne Seeing",
+        "native": "アヌ・シーイング",
+        "userPreferred": "Anne Seeing"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28635.jpg",
+      "voiceActors": [
+        {
+          "id": 95080,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Hisakawa",
+            "full": "Aya Hisakawa",
+            "native": "久川綾",
+            "userPreferred": "Aya Hisakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95080-7dOAcrnsSghI.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31518,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hunt",
+        "last": null,
+        "full": "Hunt",
+        "native": "ハント",
+        "userPreferred": "Hunt"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31518.jpg",
+      "voiceActors": [
+        {
+          "id": 95260,
+          "language": "Japanese",
+          "name": {
+            "first": "Susumu",
+            "last": "Chiba",
+            "full": "Susumu Chiba",
+            "native": "千葉進歩",
+            "userPreferred": "Susumu Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95260-pKyM0LbhEznc.png"
+        }
+      ]
+    },
+    {
+      "id": 38986,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sunny",
+        "last": null,
+        "full": "Sunny",
+        "native": "サニー",
+        "userPreferred": "Sunny"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38986.jpg",
+      "voiceActors": [
+        {
+          "id": 95616,
+          "language": "Japanese",
+          "name": {
+            "first": "Masayo",
+            "last": "Kurata",
+            "full": "Masayo Kurata",
+            "native": "倉田雅世",
+            "userPreferred": "Masayo Kurata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95616-CmlD2OKyZCss.png"
+        }
+      ]
+    },
+    {
+      "id": 43318,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kimidori",
+        "last": null,
+        "full": "Kimidori",
+        "native": null,
+        "userPreferred": "Kimidori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43318.jpg",
+      "voiceActors": [
+        {
+          "id": 105066,
+          "language": "Japanese",
+          "name": {
+            "first": "Chihiro",
+            "last": "Kusaka",
+            "full": "Chihiro Kusaka",
+            "native": "日下ちひろ",
+            "userPreferred": "Chihiro Kusaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10066.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29816,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Caribs",
+        "last": "Garrard",
+        "full": "Caribs Garrard",
+        "native": "カリブス・ガラード",
+        "userPreferred": "Caribs Garrard"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29816.jpg",
+      "voiceActors": [
+        {
+          "id": 95021,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiko",
+            "last": "Inoue",
+            "full": "Kazuhiko Inoue",
+            "native": "井上和彦",
+            "userPreferred": "Kazuhiko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95021-9qAoAn6GNZ3S.png"
+        }
+      ]
+    },
+    {
+      "id": 12513,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sylvette",
+        "last": "Suede",
+        "full": "Sylvette Suede",
+        "native": "シルベット・スエード",
+        "userPreferred": "Sylvette Suede"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12513.jpg",
+      "voiceActors": [
+        {
+          "id": 95081,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Mizuki",
+            "full": "Nana Mizuki",
+            "native": "水樹奈々",
+            "userPreferred": "Nana Mizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95081-qto4UanYkpQT.png"
+        }
+      ]
+    },
+    {
+      "id": 29817,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hazel",
+        "last": "Valentine",
+        "full": "Hazel Valentine",
+        "native": "ヘイズル・バレンタイン",
+        "userPreferred": "Hazel Valentine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29817.jpg",
+      "voiceActors": [
+        {
+          "id": 95284,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumihiko",
+            "last": "Tachiki",
+            "full": "Fumihiko Tachiki",
+            "native": "立木文彦",
+            "userPreferred": "Fumihiko Tachiki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95284-k97k9dULn4vr.png"
+        }
+      ]
+    },
+    {
+      "id": 40341,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Autobahn",
+        "last": null,
+        "full": "Autobahn",
+        "native": "盗賊・アウトバーン",
+        "userPreferred": "Autobahn"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40341.jpg",
+      "voiceActors": [
+        {
+          "id": 95898,
+          "language": "Japanese",
+          "name": {
+            "first": "Choo",
+            "last": null,
+            "full": "Choo",
+            "native": "チョー ",
+            "userPreferred": "Choo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95898-XHSESV65G8Jv.png"
+        }
+      ]
+    },
+    {
+      "id": 43427,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sandra",
+        "last": "Gobeni",
+        "full": "Sandra Gobeni",
+        "native": "サンドラ・ゴベーニ",
+        "userPreferred": "Sandra Gobeni"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43427.jpg",
+      "voiceActors": [
+        {
+          "id": 107700,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayaka",
+            "last": "Yamashita",
+            "full": "Ayaka Yamashita",
+            "native": "山下亜矢香",
+            "userPreferred": "Ayaka Yamashita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12700.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37562,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ray",
+        "last": "Attlee",
+        "full": "Ray Attlee",
+        "native": "レイ・アトリー",
+        "userPreferred": "Ray Attlee"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37562.jpg",
+      "voiceActors": [
+        {
+          "id": 95024,
+          "language": "Japanese",
+          "name": {
+            "first": "Minami",
+            "last": "Takayama",
+            "full": "Minami Takayama",
+            "native": "高山みなみ",
+            "userPreferred": "Minami Takayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95024-qsZgGp8VHqMP.png"
+        }
+      ]
+    },
+    {
+      "id": 12511,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gauche",
+        "last": "Suede",
+        "full": "Gauche Suede",
+        "native": "ゴーシュ・スエード",
+        "userPreferred": "Gauche Suede"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b12511-oPGymLE5pQbf.png",
+      "voiceActors": [
+        {
+          "id": 95086,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukuyama",
+            "full": "Jun Fukuyama",
+            "native": "福山潤",
+            "userPreferred": "Jun Fukuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95086-cwKYmhOFNtH5.png"
+        }
+      ]
+    },
+    {
+      "id": 43426,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jacob",
+        "last": "Gobeni",
+        "full": "Jacob Gobeni",
+        "native": "ジェイコブ・ゴベーニ",
+        "userPreferred": "Jacob Gobeni"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43426.jpg",
+      "voiceActors": [
+        {
+          "id": 95397,
+          "language": "Japanese",
+          "name": {
+            "first": "Masuo",
+            "last": "Amada",
+            "full": "Masuo Amada",
+            "native": "天田益男",
+            "userPreferred": "Masuo Amada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95397-OIImp0s08L8m.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39541,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Signal",
+        "last": null,
+        "full": "Signal",
+        "native": "シグナル",
+        "userPreferred": "Signal"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39541.jpg",
+      "voiceActors": [
+        {
+          "id": 100541,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiro",
+            "last": "Oguro",
+            "full": "Kazuhiro Oguro",
+            "native": "大黒和広",
+            "userPreferred": "Kazuhiro Oguro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5541.jpg"
+        },
+        {
+          "id": 95991,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Abe",
+            "full": "Atsushi Abe",
+            "native": "阿部敦",
+            "userPreferred": "Atsushi Abe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95991-4u24gUBgqeTA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43482,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Harry",
+        "last": "Tonou",
+        "full": "Harry Tonou",
+        "native": null,
+        "userPreferred": "Harry Tonou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43482.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 12512,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Roda",
+        "last": null,
+        "full": "Roda",
+        "native": "ロダ",
+        "userPreferred": "Roda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12512.jpg",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        }
+      ]
+    },
+    {
+      "id": 14810,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Thunderland Jr.",
+        "full": "Thunderland Jr.",
+        "native": "Dr.サンダーランド",
+        "userPreferred": "Thunderland Jr."
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14810.jpg",
+      "voiceActors": [
+        {
+          "id": 95412,
+          "language": "Japanese",
+          "name": {
+            "first": "Hideo",
+            "last": "Ishikawa",
+            "full": "Hideo Ishikawa",
+            "native": "石川英郎",
+            "userPreferred": "Hideo Ishikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95412-czaGpvAm5pWx.png"
+        }
+      ]
+    },
+    {
+      "id": 43423,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Signales",
+        "last": null,
+        "full": "Signales",
+        "native": "シグナレス",
+        "userPreferred": "Signales"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43423.jpg",
+      "voiceActors": [
+        {
+          "id": 100541,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiro",
+            "last": "Oguro",
+            "full": "Kazuhiro Oguro",
+            "native": "大黒和広",
+            "userPreferred": "Kazuhiro Oguro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5541.jpg"
+        },
+        {
+          "id": 95991,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Abe",
+            "full": "Atsushi Abe",
+            "native": "阿部敦",
+            "userPreferred": "Atsushi Abe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95991-4u24gUBgqeTA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52289,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Emu",
+        "last": null,
+        "full": "Emu",
+        "native": null,
+        "userPreferred": "Emu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52289.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 24260,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Elena",
+        "last": "Blanc",
+        "full": "Elena Blanc",
+        "native": "エレナ・ブラン",
+        "userPreferred": "Elena Blanc"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24260.jpg",
+      "voiceActors": [
+        {
+          "id": 95034,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Kobayashi",
+            "full": "Yuu Kobayashi",
+            "native": "小林ゆう",
+            "userPreferred": "Yuu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95034-AwobjrcmkMi9.png"
+        }
+      ]
+    },
+    {
+      "id": 43322,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Celica",
+        "last": null,
+        "full": "Celica",
+        "native": "セリカ",
+        "userPreferred": "Celica"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43322.jpg",
+      "voiceActors": [
+        {
+          "id": 95116,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Ueda",
+            "full": "Kana Ueda",
+            "native": "植田佳奈",
+            "userPreferred": "Kana Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95116-NvhEn6vNMiAq.png"
+        }
+      ]
+    },
+    {
+      "id": 12519,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zazie",
+        "last": "Winters",
+        "full": "Zazie Winters",
+        "native": "ザジ",
+        "userPreferred": "Zazie Winters"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12519.jpg",
+      "voiceActors": [
+        {
+          "id": 95440,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Kishio",
+            "full": "Daisuke Kishio",
+            "native": "岸尾だいすけ",
+            "userPreferred": "Daisuke Kishio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95440-j4iWV0MGWtBh.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 6444,
+      "relationType": "PREQUEL",
+      "malId": 6444,
+      "title": {
+        "romaji": "Tegami Bachi",
+        "english": "Letter Bee",
+        "native": "テガミバチ",
+        "userPreferred": "Tegami Bachi"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b6444-Eiizf1cvuOg5.jpg",
+      "color": "#865de4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6444-hylyRzjObjKU.jpg",
+      "rating": 72
+    },
+    {
+      "id": 31709,
+      "relationType": "ADAPTATION",
+      "malId": 1709,
+      "title": {
+        "romaji": "Tegami Bachi",
+        "english": "Tegami Bachi: Letter Bee",
+        "native": "テガミバチ",
+        "userPreferred": "Tegami Bachi"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31709-wKDaqXesZpPW.png",
+      "color": "#d6a16b",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/31709-gCGFK3HF9ygL.jpg",
+      "rating": 74
+    },
+    {
+      "id": 9673,
+      "relationType": "SIDE_STORY",
+      "malId": 9673,
+      "title": {
+        "romaji": "Ura Tegami Bachi",
+        "english": "Letter Bee Reverse Specials",
+        "native": "裏テガミバチ",
+        "userPreferred": "Ura Tegami Bachi"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9673.jpg",
+      "color": "#e4bb5d",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9673.jpg",
+      "rating": 66
+    }
+  ],
+  "episodes": [
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-1",
+      "title": "Promise",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171661/original.jpeg",
+      "number": 1,
+      "createdAt": "2014-11-21T13:55:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-1"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-2",
+      "title": "Underpants and Bread",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171681/original.jpeg",
+      "number": 2,
+      "createdAt": "2014-11-21T13:56:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-2"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-3",
+      "title": "The Hydrangea-Colored Picture Letter",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171682/original.jpeg",
+      "number": 3,
+      "createdAt": "2014-11-21T13:56:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-3"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-4",
+      "title": "Lighthouse of Illusions in the Wilderness",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171676/original.jpeg",
+      "number": 4,
+      "createdAt": "2014-11-21T13:56:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-4"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-5",
+      "title": "Reverse World",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171683/original.jpeg",
+      "number": 5,
+      "createdAt": "2014-11-21T13:56:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-5"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-6",
+      "title": "The Little Girl Doll",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171677/original.jpeg",
+      "number": 6,
+      "createdAt": "2014-11-21T13:56:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-6"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-7",
+      "title": "Film Noir",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171662/original.jpeg",
+      "number": 7,
+      "createdAt": "2014-11-21T13:55:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-7"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-8",
+      "title": "Blue Notes Blues",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171678/original.jpeg",
+      "number": 8,
+      "createdAt": "2014-11-21T13:56:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-8"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-9",
+      "title": "200 Years of Loneliness",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171679/original.jpeg",
+      "number": 9,
+      "createdAt": "2014-11-21T13:56:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-9"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-10",
+      "title": "Veritably Abbey",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171671/original.jpeg",
+      "number": 10,
+      "createdAt": "2014-11-21T13:56:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-10"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-11",
+      "title": "Cabernet Attacks",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171672/original.jpeg",
+      "number": 11,
+      "createdAt": "2014-11-21T13:56:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-11"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-12",
+      "title": "Light, Illuminating the Darkness",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171684/original.jpeg",
+      "number": 12,
+      "createdAt": "2014-11-21T13:56:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-12"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-13",
+      "title": "The Scarlet Red Melody",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171663/original.jpeg",
+      "number": 13,
+      "createdAt": "2014-11-21T13:55:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-13"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-14",
+      "title": "Day of Flicker",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171680/original.jpeg",
+      "number": 14,
+      "createdAt": "2014-11-21T13:56:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-14"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-15",
+      "title": "Welcome Home",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171668/original.jpeg",
+      "number": 15,
+      "createdAt": "2014-11-21T13:55:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-15"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-16",
+      "title": "Roda, Wandering",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171685/original.jpeg",
+      "number": 16,
+      "createdAt": "2014-11-21T13:56:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-16"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-17",
+      "title": "Lies and Truth",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171664/original.jpeg",
+      "number": 17,
+      "createdAt": "2014-11-21T13:55:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-17"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-18",
+      "title": "The Lost Heart Bullet",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171673/original.jpeg",
+      "number": 18,
+      "createdAt": "2014-11-21T13:56:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-18"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-19",
+      "title": "Neither Malice, Nor Hatred",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171665/original.jpeg",
+      "number": 19,
+      "createdAt": "2014-11-21T13:55:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-19"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-20",
+      "title": "The Smile of Hope",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171674/original.jpeg",
+      "number": 20,
+      "createdAt": "2014-11-21T13:56:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-20"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-21",
+      "title": "Lawrence's Ambition",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171675/original.jpeg",
+      "number": 21,
+      "createdAt": "2014-11-21T13:56:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-21"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-22",
+      "title": "A Place To Return To",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171666/original.jpeg",
+      "number": 22,
+      "createdAt": "2014-11-21T13:55:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-22"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-23",
+      "title": "To Akatsuki",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171669/original.jpeg",
+      "number": 23,
+      "createdAt": "2014-11-21T13:55:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-23"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-24",
+      "title": "Final Battle! Yuusari Central",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171670/original.jpeg",
+      "number": 24,
+      "createdAt": "2014-11-21T13:55:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-24"
+    },
+    {
+      "id": "tegami-bachi-letter-bee-reverse-episode-25",
+      "title": "Light of the Heart",
+      "image": "https://media.kitsu.io/episodes/thumbnails/171667/original.jpeg",
+      "number": 25,
+      "createdAt": "2014-11-21T13:55:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tegami-bachi-letter-bee-reverse-episode-25"
+    }
+  ]
+}

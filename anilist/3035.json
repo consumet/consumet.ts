@@ -1,0 +1,547 @@
+{
+  "id": "3035",
+  "title": {
+    "romaji": "Chouon Senshi Borgman",
+    "english": null,
+    "native": "超音戦士ボーグマン"
+  },
+  "malId": 3035,
+  "synonyms": [
+    "Sonic Soldier Borgman"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+  "popularity": 966,
+  "color": "#e47850",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+  "description": "Sonic Soldier Borgman is a science fiction that comebines super sentai with non-gattai. It features a sentai-like three members team that fight an organization known as Youma. Features 3 characters with 3 basic ranger colors: Pink, Blue and Green.Featuring three main characters : Chuck,Ryo and Anise, Ryo is the leader, Chuck and Anise are teachers at a public school.Sometimes,the students help or make troubles to the Borgman somehow, some even know the Borgman secret identities. Ryo has a talking \"modern\" blue motorcycle that can upgrade itself. The transformation code is \"Borg. Get On\". Each member has a personal cannon that matches his/her armor color that appears only to finish the monster they fight.",
+  "status": "Completed",
+  "releaseDate": 1988,
+  "startDate": {
+    "year": 1988,
+    "month": 4,
+    "day": 13
+  },
+  "endDate": {
+    "year": 1988,
+    "month": 12,
+    "day": 21
+  },
+  "totalEpisodes": 35,
+  "currentEpisode": 35,
+  "rating": 51,
+  "duration": 20,
+  "genres": [
+    "Action",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 3315,
+      "malId": 3315,
+      "title": {
+        "romaji": "Kikou Keisatsu Metal Jack",
+        "english": "Armored Police Metal Jack",
+        "native": "機甲警察 メタルジャック",
+        "userPreferred": "Kikou Keisatsu Metal Jack"
+      },
+      "status": "Completed",
+      "episodes": 37,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3315-EFEBXDWJLW2h.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n3315-gEYMI6udnJlZ.jpg",
+      "rating": 54,
+      "type": "TV"
+    },
+    {
+      "id": 2688,
+      "malId": 2688,
+      "title": {
+        "romaji": "Akai Koudan Zillion",
+        "english": "Zillion",
+        "native": "赤い光弾ジリオン",
+        "userPreferred": "Akai Koudan Zillion"
+      },
+      "status": "Completed",
+      "episodes": 31,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "rating": 59,
+      "type": "TV"
+    },
+    {
+      "id": 1459,
+      "malId": 1459,
+      "title": {
+        "romaji": "Uchuu no Kishi Tekkaman Blade",
+        "english": "Tekkaman Blade",
+        "native": "テッカマンブレード",
+        "userPreferred": "Uchuu no Kishi Tekkaman Blade"
+      },
+      "status": "Completed",
+      "episodes": 49,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1459-vkdwtG2LNQFU.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n1459-yQQYEwrXfmHO.jpg",
+      "rating": 69,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 86133,
+      "role": "MAIN",
+      "name": {
+        "first": "Chuck",
+        "last": "Sweagar",
+        "full": "Chuck Sweagar",
+        "native": "チャック・スェーガー",
+        "userPreferred": "Chuck Sweagar"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/86133.jpg",
+      "voiceActors": [
+        {
+          "id": 95021,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiko",
+            "last": "Inoue",
+            "full": "Kazuhiko Inoue",
+            "native": "井上和彦",
+            "userPreferred": "Kazuhiko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95021-9qAoAn6GNZ3S.png"
+        },
+        {
+          "id": 157943,
+          "language": "Italian",
+          "name": {
+            "first": "Luca",
+            "last": "Semeraro",
+            "full": "Luca Semeraro",
+            "native": null,
+            "userPreferred": "Luca Semeraro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n157943-aFBeDOdrA36Y.jpg"
+        }
+      ]
+    },
+    {
+      "id": 72915,
+      "role": "MAIN",
+      "name": {
+        "first": "Anice",
+        "last": "Farm",
+        "full": "Anice Farm",
+        "native": "アニス・ファーム",
+        "userPreferred": "Anice Farm"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/72915.jpg",
+      "voiceActors": [
+        {
+          "id": 96057,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshino",
+            "last": "Takamori",
+            "full": "Yoshino Takamori",
+            "native": "鷹森淑乃",
+            "userPreferred": "Yoshino Takamori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96057-sTfYZjMdWTRu.png"
+        },
+        {
+          "id": 167302,
+          "language": "Italian",
+          "name": {
+            "first": "Anna",
+            "last": "Lana",
+            "full": "Anna Lana",
+            "native": null,
+            "userPreferred": "Anna Lana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 72917,
+      "role": "MAIN",
+      "name": {
+        "first": "Ryo",
+        "last": "Hibiki",
+        "full": "Ryo Hibiki",
+        "native": "響 リョウ",
+        "userPreferred": "Ryo Hibiki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b72917-0h5fnMq36UGL.jpg",
+      "voiceActors": [
+        {
+          "id": 95310,
+          "language": "Japanese",
+          "name": {
+            "first": "Yasunori",
+            "last": "Matsumoto",
+            "full": "Yasunori Matsumoto",
+            "native": "松本保典",
+            "userPreferred": "Yasunori Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95310-n59AcIeJBg9W.png"
+        },
+        {
+          "id": 165056,
+          "language": "Italian",
+          "name": {
+            "first": "Gualtiero",
+            "last": "Scola",
+            "full": "Gualtiero Scola",
+            "native": null,
+            "userPreferred": "Gualtiero Scola"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 3762,
+      "relationType": "SEQUEL",
+      "malId": 3762,
+      "title": {
+        "romaji": "Sonic Soldier Borgman: Last Battle",
+        "english": "Sonic Soldier Borgman: Last Battle",
+        "native": "ザ・ボーグマン ラストバトル",
+        "userPreferred": "Sonic Soldier Borgman: Last Battle"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3762-dcV3LsJiNbbB.jpg",
+      "color": "#f18635",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3762-dcV3LsJiNbbB.jpg",
+      "rating": 59
+    }
+  ],
+  "episodes": [
+    {
+      "id": "chouon-senshi-borgman-episode-1",
+      "title": "The Youma has come. Borgman to set off!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-1"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-2",
+      "title": "Who's that? The 3rd Borgman",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-2"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-3",
+      "title": "Destroy the bad dreams, Sonic Power!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-3"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-4",
+      "title": "The Strongest Enemy! Dust Jead",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-4"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-5",
+      "title": "Super Thunder, attack!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-5"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-6",
+      "title": "Super Thunder versus Soulful Biker",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-6"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-7",
+      "title": "A Youma's Mysterious World",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-7"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-8",
+      "title": "Attack of the flowers! A girl saw a flower sprite!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-8"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-9",
+      "title": "Water race of Screaming Demons",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-9"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-10",
+      "title": "Youma weapon! Youth from the past",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-10"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-11",
+      "title": "Strongest power! Metal warrior appears",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-11"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-12",
+      "title": "Escape from the Youma Stone",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-12"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-13",
+      "title": "Bloody battle! The day of Ryou's death",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-13"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-14",
+      "title": "Stand up, Ryou! Borgman's assasination",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-14"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-15",
+      "title": "I saw it! Our teacher is a borgman",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-15"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-16",
+      "title": "Beauty Trap! A film star's big pinch",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-16"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-17",
+      "title": "Pierrot laughs! Strange occurances on Youma Land",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-17"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-18",
+      "title": "Mystery of Mesh! When the Red Star falls",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-18"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-19",
+      "title": "Youma City! Strange Country Anisu",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-19"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-20",
+      "title": "The Warriors of Doctor Memory",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-20"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-21",
+      "title": "Nightmare of a midsummer's night! A present from the Youma",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-21"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-22",
+      "title": "Terror from the Sea! Our Adventure",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-22"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-23",
+      "title": "Rescue Shinji! Borgman Base under Attack",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-23"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-24",
+      "title": "Clash! Phantom Swat VS Borgman",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-24"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-25",
+      "title": "rap of Terror, Death Match! Youma World",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-25"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-26",
+      "title": "Desperate Escape! Youma General, the strongest enemy, appears",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-26"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-27",
+      "title": "Prelude of Destruction!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 27,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-27"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-28",
+      "title": "Annie's Decision! I will protect these children",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 28,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-28"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-29",
+      "title": "Day of Destruction! Megalocity Crisis",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 29,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-29"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-30",
+      "title": "Urgent Orders! Mobile Base Initiated",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 30,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-30"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-31",
+      "title": "Desperation! Memory Confined",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 31,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-31"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-32",
+      "title": "Episode 32",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 32,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-32"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-33",
+      "title": "Youma Tower Appears! Countdown to the End",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 33,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-33"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-34",
+      "title": "Cry out to the Sky! Dust Jead Dies",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 34,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-34"
+    },
+    {
+      "id": "chouon-senshi-borgman-episode-35",
+      "title": "Youma King Resurrects! Goodbye, Borgman",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "number": 35,
+      "createdAt": "2013-02-20T18:24:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//chouon-senshi-borgman-episode-35"
+    }
+  ]
+}

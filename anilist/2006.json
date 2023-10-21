@@ -1,0 +1,342 @@
+{
+  "id": "2006",
+  "title": {
+    "romaji": "Yu☆Gi☆Oh! (Movie)",
+    "english": null,
+    "native": "遊☆戯☆王 (Movie)"
+  },
+  "malId": 2006,
+  "synonyms": [
+    "YuGiOh",
+    "Yuu Gi Ou",
+    "Yuugiou"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2006.jpg",
+  "popularity": 9299,
+  "color": "#e48635",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n2006-0znabqdd2nLG.jpg",
+  "description": "\"Blue Eyes White Dragon will bring victory\" while \"Red Eyes Black Dragon will bring the potential of victory\". A shy duelist stumbles upon the legendary Red Eyes Black Dragon, with that card in his possession, he must learn to bring out his confidence to duel.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 1999,
+  "startDate": {
+    "year": 1999,
+    "month": 3,
+    "day": 6
+  },
+  "endDate": {
+    "year": 1999,
+    "month": 3,
+    "day": 6
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 66,
+  "duration": 30,
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 1894,
+      "malId": 1894,
+      "title": {
+        "romaji": "Yu☆Gi☆Oh!: Hikari no Pyramid",
+        "english": "Yu-Gi-Oh! The Movie: Pyramid of Light",
+        "native": "遊☆戯☆王　デュエルモンスターズ　光のピラミッド",
+        "userPreferred": "Yu☆Gi☆Oh!: Hikari no Pyramid"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1894.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1894-h1wdlOMVyVBT.png",
+      "rating": 63,
+      "type": "MOVIE"
+    },
+    {
+      "id": 6951,
+      "malId": 6951,
+      "title": {
+        "romaji": "Yu☆Gi☆Oh!: Chou Yuugou! Toki wo Koeta Kizuna",
+        "english": "Yu-Gi-Oh! 3D: Bonds Beyond Time",
+        "native": "劇場版 遊☆戯☆王 ～超融合! 時空を越えた絆～",
+        "userPreferred": "Yu☆Gi☆Oh!: Chou Yuugou! Toki wo Koeta Kizuna"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6951-v1SyAUSXOJXD.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6951-MEnJ8PCCwDHK.jpg",
+      "rating": 68,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 1377,
+      "role": "MAIN",
+      "name": {
+        "first": "Katsuya",
+        "last": "Jonouchi",
+        "full": "Katsuya Jonouchi",
+        "native": "城之内 克也",
+        "userPreferred": "Katsuya Jonouchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1377-QpO3YtEaEMa4.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 1378,
+      "role": "MAIN",
+      "name": {
+        "first": "Seto",
+        "last": "Kaiba",
+        "full": "Seto Kaiba",
+        "native": "海馬瀬人",
+        "userPreferred": "Seto Kaiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1378-PVWGuLucDP44.jpg",
+      "voiceActors": [
+        {
+          "id": 95112,
+          "language": "Japanese",
+          "name": {
+            "first": "Hikaru",
+            "last": "Midorikawa",
+            "full": "Hikaru Midorikawa",
+            "native": "緑川光",
+            "userPreferred": "Hikaru Midorikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95112-c275OLptkSYO.png"
+        }
+      ]
+    },
+    {
+      "id": 1374,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuugi",
+        "last": "Mutou",
+        "full": "Yuugi Mutou",
+        "native": "武藤遊戯",
+        "userPreferred": "Yuugi Mutou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1374-fROi4BLLH6UY.jpg",
+      "voiceActors": [
+        {
+          "id": 95287,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Ogata",
+            "full": "Megumi Ogata",
+            "native": "緒方恵美",
+            "userPreferred": "Megumi Ogata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95287-3moX16xmYedv.png"
+        }
+      ]
+    },
+    {
+      "id": 1375,
+      "role": "MAIN",
+      "name": {
+        "first": "Yami no Yuugi",
+        "last": null,
+        "full": "Yami no Yuugi",
+        "native": "闇の遊戯",
+        "userPreferred": "Yami no Yuugi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1375-K4TOnE2oREH3.png",
+      "voiceActors": [
+        {
+          "id": 95287,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Ogata",
+            "full": "Megumi Ogata",
+            "native": "緒方恵美",
+            "userPreferred": "Megumi Ogata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95287-3moX16xmYedv.png"
+        }
+      ]
+    },
+    {
+      "id": 12390,
+      "role": "MAIN",
+      "name": {
+        "first": "Shougo",
+        "last": "Aoyama",
+        "full": "Shougo Aoyama",
+        "native": "青山翔吾",
+        "userPreferred": "Shougo Aoyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12390.jpg",
+      "voiceActors": [
+        {
+          "id": 100763,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiko",
+            "last": "Yamada",
+            "full": "Eiko Yamada",
+            "native": "山田栄子",
+            "userPreferred": "Eiko Yamada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100763-V7UZZ6qFEOeP.png"
+        }
+      ]
+    },
+    {
+      "id": 1501,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miho",
+        "last": "Nosaka",
+        "full": "Miho Nosaka",
+        "native": "野坂 ミホ",
+        "userPreferred": "Miho Nosaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1501.jpg",
+      "voiceActors": [
+        {
+          "id": 95140,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukana",
+            "last": "",
+            "full": "Yukana",
+            "native": "ゆかな",
+            "userPreferred": "Yukana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95140-sFp0uedEmZ9f.png"
+        }
+      ]
+    },
+    {
+      "id": 1380,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiroto",
+        "last": "Honda",
+        "full": "Hiroto Honda",
+        "native": "本田ヒロト",
+        "userPreferred": "Hiroto Honda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1380-ZVPdeDAoizoK.png",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        }
+      ]
+    },
+    {
+      "id": 1379,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Anzu",
+        "last": "Mazaki",
+        "full": "Anzu Mazaki",
+        "native": "真崎杏子",
+        "userPreferred": "Anzu Mazaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1379-9rgYwHTOpv0x.png",
+      "voiceActors": [
+        {
+          "id": 95298,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Kakazu",
+            "full": "Yumi Kakazu",
+            "native": "かかずゆみ",
+            "userPreferred": "Yumi Kakazu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95298-wWENaJp9ERf7.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 550,
+      "relationType": "PREQUEL",
+      "malId": 550,
+      "title": {
+        "romaji": "Yu☆Gi☆Oh!",
+        "english": null,
+        "native": "遊☆戯☆王",
+        "userPreferred": "Yu☆Gi☆Oh!"
+      },
+      "status": "Completed",
+      "episodes": 27,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx550-aXb7NoghEGab.png",
+      "color": "#e4a15d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/550-L8m6B6BFUtpH.jpg",
+      "rating": 69
+    },
+    {
+      "id": 30054,
+      "relationType": "ADAPTATION",
+      "malId": 54,
+      "title": {
+        "romaji": "Yu☆Gi☆Oh!",
+        "english": "Yu-Gi-Oh!",
+        "native": "遊☆戯☆王",
+        "userPreferred": "Yu☆Gi☆Oh!"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30054-cUkmb6qcrhTG.jpg",
+      "color": "#e42878",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/30054-RMVApZoem66m.jpg",
+      "rating": 76
+    }
+  ],
+  "episodes": [
+    {
+      "id": "yugioh-movie-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2006.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yugioh-movie-episode-1"
+    }
+  ]
+}

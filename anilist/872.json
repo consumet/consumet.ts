@@ -1,0 +1,878 @@
+{
+  "id": "872",
+  "title": {
+    "romaji": "Mahou Shoujo Tai Arusu",
+    "english": "Tweeny Witches",
+    "native": "魔法少女隊アルス"
+  },
+  "malId": 872,
+  "synonyms": [
+    "Mahou Shoujo Tai Alice",
+    "Mahou Shoujotai",
+    "Magic-Girl Squad - Alice",
+    "Magical Girl Squad Arusu"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b872-6KgaLK9RoUA4.png",
+  "popularity": 6218,
+  "color": "#f19350",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/872-l4LGoKGrRPOG.jpg",
+  "description": "Alice believes in magic. With all her heart, she believes that magic is possible and that it can be used for good deeds and fun games. But suddenly, she finds herself transported into another world, ruled by a mysterious elite of witches - and these witches don't seem to be in it for the fun. They're hard at work capturing sprites, the native magical beings of the world, and forcing them into slavery. Once Alice realizes that her new surroundings aren't just a dream, she sets out to change things.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2004,
+  "startDate": {
+    "year": 2004,
+    "month": 4,
+    "day": 9
+  },
+  "endDate": {
+    "year": 2005,
+    "month": 3,
+    "day": 4
+  },
+  "totalEpisodes": 40,
+  "currentEpisode": 40,
+  "rating": 64,
+  "duration": 9,
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Studio 4°C"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 14349,
+      "malId": 14349,
+      "title": {
+        "romaji": "Little Witch Academia",
+        "english": "Little Witch Academia",
+        "native": "リトルウィッチアカデミア",
+        "userPreferred": "Little Witch Academia"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx14349-zvSfbgjZr4LW.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14349-5pTzcH4MLf2g.jpg",
+      "rating": 76,
+      "type": "MOVIE"
+    },
+    {
+      "id": 21858,
+      "malId": 33489,
+      "title": {
+        "romaji": "Little Witch Academia (TV)",
+        "english": "Little Witch Academia (TV)",
+        "native": "リトルウィッチアカデミア (TV)",
+        "userPreferred": "Little Witch Academia (TV)"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21858-Pfp8zrJEfPrd.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21858-eyzQxmTRxtYO.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 3588,
+      "malId": 3588,
+      "title": {
+        "romaji": "Soul Eater",
+        "english": "Soul Eater",
+        "native": "ソウルイーター",
+        "userPreferred": "Soul Eater"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3588-CA8LE5gjm9Qx.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3588.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 1642,
+      "malId": 1642,
+      "title": {
+        "romaji": "Sugar Sugar Rune",
+        "english": null,
+        "native": "シュガシュガルーン",
+        "userPreferred": "Sugar Sugar Rune"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1642-eWXnuvqhfQWM.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1642-Q99zioGExW3P.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 513,
+      "malId": 513,
+      "title": {
+        "romaji": "Tenkuu no Shiro Laputa",
+        "english": "Castle in the Sky",
+        "native": "天空の城ラピュタ",
+        "userPreferred": "Tenkuu no Shiro Laputa"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx513-G47zqEhndFBY.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/513-3zMLMyA0qH5n.jpg",
+      "rating": 80,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 7118,
+      "role": "MAIN",
+      "name": {
+        "first": "Sheila",
+        "last": null,
+        "full": "Sheila",
+        "native": "シーラ",
+        "userPreferred": "Sheila"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7118.jpg",
+      "voiceActors": [
+        {
+          "id": 95057,
+          "language": "Japanese",
+          "name": {
+            "first": "Houko",
+            "last": "Kuwashima",
+            "full": "Houko Kuwashima",
+            "native": "桑島法子",
+            "userPreferred": "Houko Kuwashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95057-nMZEwJet445W.jpg"
+        },
+        {
+          "id": 95733,
+          "language": "English",
+          "name": {
+            "first": "Cindy",
+            "last": "Robinson",
+            "full": "Cindy Robinson",
+            "native": null,
+            "userPreferred": "Cindy Robinson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95733-34PimWRfaPKr.jpg"
+        },
+        {
+          "id": 109851,
+          "language": "Korean",
+          "name": {
+            "first": "Jeong Mi",
+            "last": "Bae",
+            "full": "Jeong Mi Bae",
+            "native": "정미 배",
+            "userPreferred": "Jeong Mi Bae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14851.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7120,
+      "role": "MAIN",
+      "name": {
+        "first": "Eva",
+        "last": null,
+        "full": "Eva",
+        "native": "エバ",
+        "userPreferred": "Eva"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7120.jpg",
+      "voiceActors": [
+        {
+          "id": 95111,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryou",
+            "last": "Hirohashi",
+            "full": "Ryou Hirohashi",
+            "native": "広橋涼",
+            "userPreferred": "Ryou Hirohashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95111-iw76EbsupYkS.jpg"
+        },
+        {
+          "id": 96862,
+          "language": "English",
+          "name": {
+            "first": "Mela",
+            "last": "Lee",
+            "full": "Mela Lee",
+            "native": null,
+            "userPreferred": "Mela Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1862.jpg"
+        },
+        {
+          "id": 110135,
+          "language": "Korean",
+          "name": {
+            "first": "Do Yeong",
+            "last": "Song",
+            "full": "Do Yeong Song",
+            "native": "도영송",
+            "userPreferred": "Do Yeong Song"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15135.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7117,
+      "role": "MAIN",
+      "name": {
+        "first": "Arusu",
+        "last": null,
+        "full": "Arusu",
+        "native": "アルス",
+        "userPreferred": "Arusu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7117.jpg",
+      "voiceActors": [
+        {
+          "id": 95276,
+          "language": "Japanese",
+          "name": {
+            "first": "Sachiko",
+            "last": "Kojima",
+            "full": "Sachiko Kojima",
+            "native": "小島幸子",
+            "userPreferred": "Sachiko Kojima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95276-uj7NdE0RLmEU.png"
+        },
+        {
+          "id": 96065,
+          "language": "English",
+          "name": {
+            "first": "Julie",
+            "last": "Maddalena",
+            "full": "Julie Maddalena",
+            "native": null,
+            "userPreferred": "Julie Maddalena"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1065.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26918,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Barun",
+        "last": null,
+        "full": "Barun",
+        "native": null,
+        "userPreferred": "Barun"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26918.jpg",
+      "voiceActors": [
+        {
+          "id": 95041,
+          "language": "Japanese",
+          "name": {
+            "first": "Takako",
+            "last": "Honda",
+            "full": "Takako Honda",
+            "native": "本田貴子",
+            "userPreferred": "Takako Honda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/41.jpg"
+        },
+        {
+          "id": 102993,
+          "language": "English",
+          "name": {
+            "first": "Lauren",
+            "last": "Landa",
+            "full": "Lauren Landa",
+            "native": null,
+            "userPreferred": "Lauren Landa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102993-gxDKjC1EvJ4S.jpg"
+        },
+        {
+          "id": 110593,
+          "language": "Korean",
+          "name": {
+            "first": "Mun Ja",
+            "last": "Choi",
+            "full": "Mun Ja Choi",
+            "native": "문자 최",
+            "userPreferred": "Mun Ja Choi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15593.jpg"
+        }
+      ]
+    },
+    {
+      "id": 72939,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Grande",
+        "last": null,
+        "full": "Grande",
+        "native": "グランデ",
+        "userPreferred": "Grande"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/72939.jpg",
+      "voiceActors": [
+        {
+          "id": 95091,
+          "language": "Japanese",
+          "name": {
+            "first": "Jouji",
+            "last": "Nakata",
+            "full": "Jouji Nakata",
+            "native": "中田譲治",
+            "userPreferred": "Jouji Nakata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95091-idoMaN26z80B.png"
+        },
+        {
+          "id": 95353,
+          "language": "English",
+          "name": {
+            "first": "Jamieson",
+            "last": "Price",
+            "full": "Jamieson Price",
+            "native": null,
+            "userPreferred": "Jamieson K. Price"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95353-Oe3Ehd7Yo37k.png"
+        }
+      ]
+    },
+    {
+      "id": 219621,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Will",
+        "last": null,
+        "full": "Will",
+        "native": "ウィル",
+        "userPreferred": "Will"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219621-YeNI29mF5veR.jpg",
+      "voiceActors": [
+        {
+          "id": 104037,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumito",
+            "last": "Yamano",
+            "full": "Fumito Yamano",
+            "native": "山野史人",
+            "userPreferred": "Fumito Yamano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9037.jpg"
+        },
+        {
+          "id": 102095,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Snyder",
+            "full": "John Snyder",
+            "native": null,
+            "userPreferred": "John Snyder"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102095-hiTu942cMfWJ.png"
+        }
+      ]
+    },
+    {
+      "id": 12683,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ateria",
+        "last": null,
+        "full": "Ateria",
+        "native": null,
+        "userPreferred": "Ateria"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12683.jpg",
+      "voiceActors": [
+        {
+          "id": 95100,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsuko",
+            "last": "Tanaka",
+            "full": "Atsuko Tanaka",
+            "native": "田中敦子",
+            "userPreferred": "Atsuko Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95100-QZdjWZLCoWkf.png"
+        },
+        {
+          "id": 107531,
+          "language": "English",
+          "name": {
+            "first": "Jessica Gee",
+            "last": "George",
+            "full": "Jessica Gee George",
+            "native": null,
+            "userPreferred": "Jessica Gee George"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107531-xFWMj3vpgFv6.jpg"
+        },
+        {
+          "id": 110593,
+          "language": "Korean",
+          "name": {
+            "first": "Mun Ja",
+            "last": "Choi",
+            "full": "Mun Ja Choi",
+            "native": "문자 최",
+            "userPreferred": "Mun Ja Choi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15593.jpg"
+        }
+      ]
+    },
+    {
+      "id": 219623,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Qoo",
+        "last": null,
+        "full": "Qoo",
+        "native": "クー",
+        "userPreferred": "Qoo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219623-oaUqoYvl9B4A.png",
+      "voiceActors": [
+        {
+          "id": 99613,
+          "language": "Japanese",
+          "name": {
+            "first": "Kikumi",
+            "last": "Umeda",
+            "full": "Kikumi Umeda",
+            "native": "梅田貴公美",
+            "userPreferred": "Kikumi Umeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/4613.jpg"
+        },
+        {
+          "id": 102992,
+          "language": "English",
+          "name": {
+            "first": "Marin",
+            "last": "Miller",
+            "full": "Marin Miller",
+            "native": null,
+            "userPreferred": "Marin Miller"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102992-kUemjnp5GMo2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 219622,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Menow",
+        "last": null,
+        "full": "Menow",
+        "native": "メノウ",
+        "userPreferred": "Menow"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219622-JB2uduF8ROUw.png",
+      "voiceActors": [
+        {
+          "id": 103872,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinobu",
+            "last": "Adachi",
+            "full": "Shinobu Adachi",
+            "native": "安達忍",
+            "userPreferred": "Shinobu Adachi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8872.jpg"
+        },
+        {
+          "id": 95536,
+          "language": "English",
+          "name": {
+            "first": "Barbara",
+            "last": "Goodson",
+            "full": "Barbara Goodson",
+            "native": null,
+            "userPreferred": "Barbara Goodson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95536-jKbTvYfcrPaM.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12860,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Renon",
+        "last": null,
+        "full": "Renon",
+        "native": "レノン",
+        "userPreferred": "Renon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12860.jpg",
+      "voiceActors": [
+        {
+          "id": 95220,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Tai",
+            "full": "Yuuki Tai",
+            "native": "泰勇気",
+            "userPreferred": "Yuuki Tai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/220.jpg"
+        },
+        {
+          "id": 95620,
+          "language": "English",
+          "name": {
+            "first": "Brianne",
+            "last": "Siddall",
+            "full": "Brianne Siddall",
+            "native": null,
+            "userPreferred": "Brianne Siddall"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/620.jpg"
+        }
+      ]
+    },
+    {
+      "id": 219624,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Youko",
+        "last": "",
+        "full": "Youko",
+        "native": "ヨーコ",
+        "userPreferred": "Youko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219624-G839q5qNy4Z1.png",
+      "voiceActors": [
+        {
+          "id": 102001,
+          "language": "Japanese",
+          "name": {
+            "first": "Yurika",
+            "last": "Hino",
+            "full": "Yurika Hino",
+            "native": "日野由利加",
+            "userPreferred": "Yurika Hino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102001-T8ryqiXT5Na8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12682,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sigma",
+        "last": null,
+        "full": "Sigma",
+        "native": null,
+        "userPreferred": "Sigma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12682.jpg",
+      "voiceActors": [
+        {
+          "id": 95283,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroyuki",
+            "last": "Yoshino",
+            "full": "Hiroyuki Yoshino",
+            "native": "吉野裕行",
+            "userPreferred": "Hiroyuki Yoshino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95283-g76zV4YacFfm.jpg"
+        },
+        {
+          "id": 232342,
+          "language": "English",
+          "name": {
+            "first": "Phil",
+            "last": "Meyers",
+            "full": "Phil Meyers",
+            "native": null,
+            "userPreferred": "Phil Meyers"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19458,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Grand Master",
+        "last": null,
+        "full": "Grand Master",
+        "native": "グランドマスター",
+        "userPreferred": "Grand Master"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19458.jpg",
+      "voiceActors": [
+        {
+          "id": 102235,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Kinomiya",
+            "full": "Ryouko Kinomiya",
+            "native": "来宮良子",
+            "userPreferred": "Ryouko Kinomiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102235-2aogkMkb80UU.png"
+        },
+        {
+          "id": 111777,
+          "language": "English",
+          "name": {
+            "first": "Catherine",
+            "last": "Battistone",
+            "full": "Catherine Battistone",
+            "native": null,
+            "userPreferred": "Catherine Battistone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/16777.jpg"
+        },
+        {
+          "id": 110135,
+          "language": "Korean",
+          "name": {
+            "first": "Do Yeong",
+            "last": "Song",
+            "full": "Do Yeong Song",
+            "native": "도영송",
+            "userPreferred": "Do Yeong Song"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15135.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 3991,
+      "relationType": "SIDE_STORY",
+      "malId": 3991,
+      "title": {
+        "romaji": "Mahou Shoujo Tai Arusu THE ADVENTURE",
+        "english": "Tweeny Witches: Alice Adventures",
+        "native": "魔法少女隊アルス THE ADVENTURE",
+        "userPreferred": "Mahou Shoujo Tai Arusu THE ADVENTURE"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3991-qb67k1GY2TSy.png",
+      "color": "#e4935d",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3991-qb67k1GY2TSy.png",
+      "rating": 64
+    }
+  ],
+  "episodes": [
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-1",
+      "title": "Country of Witches",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15075/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-1"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-2",
+      "title": "One-Hundred Sprites",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15076/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-2"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-3",
+      "title": "Magic Broom",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15077/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-3"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-4",
+      "title": "Spirte-War",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15078/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-4"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-5",
+      "title": "Demon led Book",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15079/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-5"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-6",
+      "title": "Griffon's Feather",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15080/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-6"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-7",
+      "title": "Pisky's Tusk",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15081/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-7"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-8",
+      "title": "Forest of No Return",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15082/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-8"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-9",
+      "title": "Petrification Spell",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15083/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-9"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-10",
+      "title": "Large Flood",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15084/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-10"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-11",
+      "title": "Witch Tradition",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15085/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-11"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-12",
+      "title": "Happy Birthday",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15086/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-12"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-13",
+      "title": "Witch Sigma",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15087/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-13"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-14",
+      "title": "Sheila's Doubts",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15088/original.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-14"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-15",
+      "title": "Cursed Magic",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15089/original.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-15"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-16",
+      "title": "Ava's Courage",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15090/original.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-16"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-17",
+      "title": "Infiltration! Demon World",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15091/original.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-17"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-18",
+      "title": "True Wizard",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15092/original.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-18"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-19",
+      "title": "Desperate Situation",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15093/original.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-19"
+    },
+    {
+      "id": "mahou-shoujo-tai-arusu-episode-20",
+      "title": "Magic-Girl Squad",
+      "image": "https://media.kitsu.io/episodes/thumbnails/15094/original.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mahou-shoujo-tai-arusu-episode-20"
+    }
+  ]
+}

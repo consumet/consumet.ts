@@ -1,0 +1,280 @@
+{
+  "id": "123803",
+  "title": {
+    "romaji": "Munou na Nana: Mini Anime",
+    "english": null,
+    "native": "無能なナナ ミニアニメ"
+  },
+  "malId": 42831,
+  "synonyms": [
+    "Talentless Nana Mini Anime"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b123803-frGulQh4dlMH.png",
+  "popularity": 1538,
+  "color": "#e45078",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b123803-frGulQh4dlMH.png",
+  "description": "Mini anime for <i>Munou na Nana</i> released weekly on the official Twitter and website.\n<br><br>",
+  "status": "Completed",
+  "releaseDate": 2020,
+  "startDate": {
+    "year": 2020,
+    "month": 10,
+    "day": 9
+  },
+  "endDate": {
+    "year": 2020,
+    "month": 12,
+    "day": 25
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 54,
+  "duration": 3,
+  "genres": [
+    "Comedy"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Bridge"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 120700,
+      "malId": 42364,
+      "title": {
+        "romaji": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 2nd Season",
+        "english": null,
+        "native": "Re:ゼロから始める休憩時間(ブレイクタイム) 2nd Season",
+        "userPreferred": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 2nd Season"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b120700-buuy9COgsBTa.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b120700-buuy9COgsBTa.jpg",
+      "rating": 68,
+      "type": "ONA"
+    },
+    {
+      "id": 120150,
+      "malId": 42250,
+      "title": {
+        "romaji": "Bungou Stray Dogs Wan!",
+        "english": "Bungo Stray Dogs WAN!",
+        "native": "文豪ストレイドッグス わん！",
+        "userPreferred": "Bungou Stray Dogs Wan!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120150-hxvcRrYzgP2F.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120150-bkyCLDwgKG88.jpg",
+      "rating": 80,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 132096,
+      "malId": 48590,
+      "title": {
+        "romaji": "Kobayashi-san Chi no Maidragon S: Mini Dra",
+        "english": "Miss Kobayashi's Dragon Maid S: Miniature Dragon",
+        "native": "小林さんちのメイドラゴンＳミニドラ",
+        "userPreferred": "Kobayashi-san Chi no Maidragon S: Mini Dra"
+      },
+      "status": "Completed",
+      "episodes": 16,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx132096-ypUvQZ7e4hmq.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/132096-wKKR80gDgpSm.jpg",
+      "rating": 74,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 166102,
+      "role": "MAIN",
+      "name": {
+        "first": "Nana",
+        "last": "Hiiragi",
+        "full": "Nana Hiiragi",
+        "native": "柊ナナ",
+        "userPreferred": "Nana Hiiragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b166102-mv0gaP8QVFLz.png",
+      "voiceActors": [
+        {
+          "id": 107041,
+          "language": "Japanese",
+          "name": {
+            "first": "Rumi",
+            "last": "Ookubo",
+            "full": "Rumi Ookubo",
+            "native": "大久保瑠美",
+            "userPreferred": "Rumi Ookubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107041-ZqPloXZhcuQw.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 117343,
+      "relationType": "PARENT",
+      "malId": 41619,
+      "title": {
+        "romaji": "Munou na Nana",
+        "english": "Talentless Nana",
+        "native": "無能なナナ",
+        "userPreferred": "Munou na Nana"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx117343-NgCLZTaxallv.jpg",
+      "color": "#f1ae5d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/117343-w0m2gfOlQphZ.jpg",
+      "rating": 70
+    },
+    {
+      "id": 157172,
+      "relationType": "SEQUEL",
+      "malId": 55005,
+      "title": {
+        "romaji": "Munou na Nana Mini Anime: Yaminabe Party",
+        "english": null,
+        "native": "無能なナナ ミニアニメ「やみなべぱーてぃー」",
+        "userPreferred": "Munou na Nana Mini Anime: Yaminabe Party"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx157172-hNyuKSjvn3lg.jpg",
+      "color": "#e4285d",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx157172-hNyuKSjvn3lg.jpg",
+      "rating": 52
+    }
+  ],
+  "episodes": [
+    {
+      "id": "munou-na-nana-mini-anime-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b123803-frGulQh4dlMH.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//munou-na-nana-mini-anime-episode-1"
+    },
+    {
+      "id": "munou-na-nana-mini-anime-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b123803-frGulQh4dlMH.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//munou-na-nana-mini-anime-episode-2"
+    },
+    {
+      "id": "munou-na-nana-mini-anime-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b123803-frGulQh4dlMH.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//munou-na-nana-mini-anime-episode-3"
+    },
+    {
+      "id": "munou-na-nana-mini-anime-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b123803-frGulQh4dlMH.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//munou-na-nana-mini-anime-episode-4"
+    },
+    {
+      "id": "munou-na-nana-mini-anime-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b123803-frGulQh4dlMH.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//munou-na-nana-mini-anime-episode-5"
+    },
+    {
+      "id": "munou-na-nana-mini-anime-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b123803-frGulQh4dlMH.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//munou-na-nana-mini-anime-episode-6"
+    },
+    {
+      "id": "munou-na-nana-mini-anime-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b123803-frGulQh4dlMH.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//munou-na-nana-mini-anime-episode-7"
+    },
+    {
+      "id": "munou-na-nana-mini-anime-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b123803-frGulQh4dlMH.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//munou-na-nana-mini-anime-episode-8"
+    },
+    {
+      "id": "munou-na-nana-mini-anime-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b123803-frGulQh4dlMH.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//munou-na-nana-mini-anime-episode-9"
+    },
+    {
+      "id": "munou-na-nana-mini-anime-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b123803-frGulQh4dlMH.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//munou-na-nana-mini-anime-episode-10"
+    },
+    {
+      "id": "munou-na-nana-mini-anime-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b123803-frGulQh4dlMH.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//munou-na-nana-mini-anime-episode-11"
+    },
+    {
+      "id": "munou-na-nana-mini-anime-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b123803-frGulQh4dlMH.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//munou-na-nana-mini-anime-episode-12"
+    },
+    {
+      "id": "munou-na-nana-mini-anime-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b123803-frGulQh4dlMH.png",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//munou-na-nana-mini-anime-episode-13"
+    }
+  ]
+}

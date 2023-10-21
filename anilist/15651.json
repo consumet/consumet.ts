@@ -1,0 +1,959 @@
+{
+  "id": "15651",
+  "title": {
+    "romaji": "Phi Brain: Kami no Puzzle 3rd Season",
+    "english": "Phi-Brain ~ Puzzle of God Season 3",
+    "native": "ファイ・ブレイン 〜神のパズル 第3シリーズ"
+  },
+  "malId": 15651,
+  "synonyms": [
+    "Phi Brain: Kami no Puzzle Dai 3",
+    " Phi Brain: Kami no Puzzle Third Season",
+    "Phi Brain: Kami no Puzzle - Shukuteki! Rätsel-hen"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15651.jpg",
+  "popularity": 5686,
+  "color": "#50aee4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15651.jpg",
+  "description": "\"Are puzzles really necessary in this world?\"\r\n\r\nIn order to restore Jin's memory, Kaito and his friends go on a puzzle-viewing journey to England. As they're walking through the underground maze beneath the church, where young Kaito and Rook first met Jin, a mysterious girl appears in front of them.\r\n\r\nJin calls the girl by the name \"Raetsel\". It seems they know each other. However, she suddenly disappears and takes Jin with her. What's more, the traps in the underground maze are activated and start coming after Kaito and his friends.\r\n\r\n(Source: www9.nhk.or.jp)",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 10,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2014,
+    "month": 3,
+    "day": 23
+  },
+  "totalEpisodes": 25,
+  "currentEpisode": 25,
+  "rating": 69,
+  "duration": 25,
+  "genres": [
+    "Action"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Sunrise"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 43616,
+      "role": "MAIN",
+      "name": {
+        "first": "Ana",
+        "last": "Gram",
+        "full": "Ana Gram",
+        "native": "アナ・グラム",
+        "userPreferred": "Ana Gram"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43616.jpg",
+      "voiceActors": [
+        {
+          "id": 95003,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsuki",
+            "last": "Yukino",
+            "full": "Satsuki Yukino",
+            "native": "ゆきのさつき",
+            "userPreferred": "Satsuki Yukino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95003-Du7wb5JJzb8P.png"
+        }
+      ]
+    },
+    {
+      "id": 43610,
+      "role": "MAIN",
+      "name": {
+        "first": "Kaito",
+        "last": "Daimon",
+        "full": "Kaito Daimon",
+        "native": "大門カイト",
+        "userPreferred": "Kaito Daimon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b43610-en5kZEQSZtlc.png",
+      "voiceActors": [
+        {
+          "id": 95186,
+          "language": "Japanese",
+          "name": {
+            "first": "Shintarou",
+            "last": "Asanuma",
+            "full": "Shintarou Asanuma",
+            "native": "浅沼晋太郎",
+            "userPreferred": "Shintarou Asanuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95186-XMdPPqYhMrwN.jpg"
+        },
+        {
+          "id": 95061,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiwa",
+            "last": "Saitou",
+            "full": "Chiwa Saitou",
+            "native": "斎藤千和",
+            "userPreferred": "Chiwa Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95061-R8YSAYX7UFCO.png"
+        }
+      ]
+    },
+    {
+      "id": 43609,
+      "role": "MAIN",
+      "name": {
+        "first": "Gammon",
+        "last": "Sakanoue",
+        "full": "Gammon Sakanoue",
+        "native": "逆之上ギャモン",
+        "userPreferred": "Gammon Sakanoue"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43609.jpg",
+      "voiceActors": [
+        {
+          "id": 95086,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukuyama",
+            "full": "Jun Fukuyama",
+            "native": "福山潤",
+            "userPreferred": "Jun Fukuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95086-cwKYmhOFNtH5.png"
+        }
+      ]
+    },
+    {
+      "id": 43612,
+      "role": "MAIN",
+      "name": {
+        "first": "Nonoha",
+        "last": "Itou",
+        "full": "Nonoha Itou",
+        "native": "井藤ノノハ",
+        "userPreferred": "Nonoha Itou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43612.jpg",
+      "voiceActors": [
+        {
+          "id": 95169,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Shimizu",
+            "full": "Kaori Shimizu",
+            "native": "清水香里",
+            "userPreferred": "Kaori Shimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95169-EfU6qQdPxHRv.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43614,
+      "role": "MAIN",
+      "name": {
+        "first": "Cubic",
+        "last": "Galois",
+        "full": "Cubic Galois",
+        "native": "キュービック・G",
+        "userPreferred": "Cubic Galois"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43614.jpg",
+      "voiceActors": [
+        {
+          "id": 95344,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouki",
+            "last": "Miyata",
+            "full": "Kouki Miyata",
+            "native": "宮田幸季",
+            "userPreferred": "Kouki Miyata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95344-wYgLhxYeWEp4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60761,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Freecell",
+        "last": null,
+        "full": "Freecell",
+        "native": "フリーセル",
+        "userPreferred": "Freecell"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60761.jpg",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        }
+      ]
+    },
+    {
+      "id": 60767,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Doubt",
+        "last": null,
+        "full": "Doubt",
+        "native": "ダウト",
+        "userPreferred": "Doubt"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60767.jpg",
+      "voiceActors": [
+        {
+          "id": 95212,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Ono",
+            "full": "Daisuke Ono",
+            "native": "小野大輔",
+            "userPreferred": "Daisuke Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95212-wX1M4LJN96q2.png"
+        }
+      ]
+    },
+    {
+      "id": 43611,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Souji",
+        "last": "Jikukawa",
+        "full": "Souji Jikukawa",
+        "native": "軸川ソウジ",
+        "userPreferred": "Souji Jikukawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43611.jpg",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        }
+      ]
+    },
+    {
+      "id": 87135,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Reitzell",
+        "last": null,
+        "full": "Reitzell",
+        "native": "レイツェル",
+        "userPreferred": "Reitzell"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87135.jpg",
+      "voiceActors": [
+        {
+          "id": 95053,
+          "language": "Japanese",
+          "name": {
+            "first": "Minori",
+            "last": "Chihara",
+            "full": "Minori Chihara",
+            "native": "茅原実里",
+            "userPreferred": "Minori Chihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95053-wN1MdNMSGTMn.png"
+        }
+      ]
+    },
+    {
+      "id": 52947,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Elena",
+        "last": "Himekawa",
+        "full": "Elena Himekawa",
+        "native": "姫川 エレナ",
+        "userPreferred": "Elena Himekawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52947.jpg",
+      "voiceActors": [
+        {
+          "id": 96105,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Nakajima",
+            "full": "Megumi Nakajima",
+            "native": "中島愛",
+            "userPreferred": "Megumi Nakajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96105-KqV1Jn0RelZg.jpg"
+        }
+      ]
+    },
+    {
+      "id": 61533,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tamaki",
+        "last": "Chieno",
+        "full": "Tamaki Chieno",
+        "native": "千枝乃タマキ",
+        "userPreferred": "Tamaki Chieno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/61533.jpg",
+      "voiceActors": [
+        {
+          "id": 95241,
+          "language": "Japanese",
+          "name": {
+            "first": "Rina",
+            "last": "Satou",
+            "full": "Rina Satou",
+            "native": "佐藤利奈",
+            "userPreferred": "Rina Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95241-4XvR64oguxwS.png"
+        }
+      ]
+    },
+    {
+      "id": 264922,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lovushka",
+        "last": null,
+        "full": "Lovushka",
+        "native": "ラヴーシュカ",
+        "userPreferred": "Lovushka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b264922-3TkIfMaUZyqQ.png",
+      "voiceActors": [
+        {
+          "id": 95057,
+          "language": "Japanese",
+          "name": {
+            "first": "Houko",
+            "last": "Kuwashima",
+            "full": "Houko Kuwashima",
+            "native": "桑島法子",
+            "userPreferred": "Houko Kuwashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95057-nMZEwJet445W.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43617,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rook Banjou",
+        "last": "Crossfield",
+        "full": "Rook Banjou Crossfield",
+        "native": "ルーク・盤城・クロスフィールド",
+        "userPreferred": "Rook Banjou Crossfield"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43617.jpg",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 64587,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Naoki",
+        "last": "Takeda",
+        "full": "Naoki Takeda",
+        "native": "武田ナオキ",
+        "userPreferred": "Naoki Takeda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/64587.jpg",
+      "voiceActors": [
+        {
+          "id": 95884,
+          "language": "Japanese",
+          "name": {
+            "first": "Masahito",
+            "last": "Yabe",
+            "full": "Masahito Yabe",
+            "native": "矢部雅史",
+            "userPreferred": "Masahito Yabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/884.jpg"
+        }
+      ]
+    },
+    {
+      "id": 55277,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Herbert",
+        "last": "Müller",
+        "full": "Herbert Müller",
+        "native": "ヘルベルト･ミューラー",
+        "userPreferred": "Herbert Müller"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/55277.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 60765,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Melancholy",
+        "last": null,
+        "full": "Melancholy",
+        "native": "メランコリィ",
+        "userPreferred": "Melancholy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60765.jpg",
+      "voiceActors": [
+        {
+          "id": 95172,
+          "language": "Japanese",
+          "name": {
+            "first": "Momoko",
+            "last": "Saitou",
+            "full": "Momoko Saitou",
+            "native": "斎藤桃子",
+            "userPreferred": "Momoko Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/172.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87137,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Enigma",
+        "last": null,
+        "full": "Enigma",
+        "native": "エニグマ",
+        "userPreferred": "Enigma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87137.jpg",
+      "voiceActors": [
+        {
+          "id": 95091,
+          "language": "Japanese",
+          "name": {
+            "first": "Jouji",
+            "last": "Nakata",
+            "full": "Jouji Nakata",
+            "native": "中田譲治",
+            "userPreferred": "Jouji Nakata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95091-idoMaN26z80B.png"
+        }
+      ]
+    },
+    {
+      "id": 64589,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuichi",
+        "last": "Aizawa",
+        "full": "Yuuichi Aizawa",
+        "native": "相沢ユウイチ",
+        "userPreferred": "Yuuichi Aizawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/64589.jpg",
+      "voiceActors": [
+        {
+          "id": 95440,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Kishio",
+            "full": "Daisuke Kishio",
+            "native": "岸尾だいすけ",
+            "userPreferred": "Daisuke Kishio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95440-j4iWV0MGWtBh.png"
+        }
+      ]
+    },
+    {
+      "id": 50853,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jin",
+        "last": "Makata",
+        "full": "Jin Makata",
+        "native": "真方ジン, 青年X",
+        "userPreferred": "Jin Makata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/50853.jpg",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 64575,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Airi",
+        "last": "Mizutani",
+        "full": "Airi Mizutani",
+        "native": "水谷アイリ",
+        "userPreferred": "Airi Mizutani"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/64575.jpg",
+      "voiceActors": [
+        {
+          "id": 100281,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Gotou",
+            "full": "Mai Gotou",
+            "native": "後藤麻衣",
+            "userPreferred": "Mai Gotou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5281.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60777,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Pinochle",
+        "last": null,
+        "full": "Pinochle",
+        "native": "ピノクル",
+        "userPreferred": "Pinochle"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60777.jpg",
+      "voiceActors": [
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        }
+      ]
+    },
+    {
+      "id": 43615,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bishop",
+        "last": null,
+        "full": "Bishop",
+        "native": "ビショップ",
+        "userPreferred": "Bishop"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43615.jpg",
+      "voiceActors": [
+        {
+          "id": 95065,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamoru",
+            "last": "Miyano",
+            "full": "Mamoru Miyano",
+            "native": "宮野真守",
+            "userPreferred": "Mamoru Miyano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95065-eyynywrhombR.png"
+        }
+      ]
+    },
+    {
+      "id": 64585,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shizuka",
+        "last": "Daimon",
+        "full": "Shizuka Daimon",
+        "native": "大門 シズカ",
+        "userPreferred": "Shizuka Daimon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/64585.jpg",
+      "voiceActors": [
+        {
+          "id": 96420,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazusa",
+            "last": "Murai",
+            "full": "Kazusa Murai",
+            "native": "村井かずさ",
+            "userPreferred": "Kazusa Murai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1420.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43613,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Baron",
+        "last": "Kaidou",
+        "full": "Baron Kaidou",
+        "native": "解道 バロン",
+        "userPreferred": "Baron Kaidou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43613.jpg",
+      "voiceActors": [
+        {
+          "id": 95063,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiji",
+            "last": "Fujiwara",
+            "full": "Keiji Fujiwara",
+            "native": "藤原啓治",
+            "userPreferred": "Keiji Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95063-xAsEUzspuLMG.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60773,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mizerka",
+        "last": null,
+        "full": "Mizerka",
+        "native": "ミゼルカ",
+        "userPreferred": "Mizerka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60773.jpg",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 12753,
+      "relationType": "PREQUEL",
+      "malId": 12753,
+      "title": {
+        "romaji": "Phi Brain: Kami no Puzzle 2nd Season",
+        "english": "Phi Brain ~ Puzzle of God: The Opheus Order",
+        "native": "ファイ・ブレイン 〜神のパズル 第2シリーズ",
+        "userPreferred": "Phi Brain: Kami no Puzzle 2nd Season"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12753-ykS2mm08alDd.jpg",
+      "color": "#5d5de4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12753-ykS2mm08alDd.jpg",
+      "rating": 68
+    }
+  ],
+  "episodes": [
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-1",
+      "title": "Raetsel",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165065/original.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:41:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-1"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-2",
+      "title": "You Don’t Know Anything",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165074/original.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:41:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-2"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-3",
+      "title": "Even So, I Believe in Him",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165090/original.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:41:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-3"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-4",
+      "title": "A Good Meal can Resolve Most Problems",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165101/original.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:41:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-4"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-5",
+      "title": "I Get that Feeling",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165115/original.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:41:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-5"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-6",
+      "title": "Rae-Rae is a Feline Friend",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165135/original.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:41:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-6"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-7",
+      "title": "Would You Also Like Some Flowers",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165165/original.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:41:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-7"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-8",
+      "title": "Farewell Forever",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165178/original.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:42:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-8"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-9",
+      "title": "Let's Go to That Place",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165185/original.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:42:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-9"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-10",
+      "title": "What Is Your Real Dream?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165198/original.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:42:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-10"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-11",
+      "title": "Just Now, I Was Thinking of Someone",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165211/original.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:42:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-11"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-12",
+      "title": "Is That What You Thought I’d Say?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165223/original.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:42:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-12"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-13",
+      "title": "She’s Too Shallow",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165235/original.jpg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:42:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-13"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-14",
+      "title": "If it were the Us of Then",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165246/original.jpg",
+      "number": 14,
+      "createdAt": "2014-11-16T20:42:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-14"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-15",
+      "title": "I Want to Make a World With Full Bellies",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165256/original.jpg",
+      "number": 15,
+      "createdAt": "2014-11-16T20:42:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-15"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-16",
+      "title": "The Journey Ends",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165265/original.jpg",
+      "number": 16,
+      "createdAt": "2014-11-16T20:42:15Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-16"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-17",
+      "title": "Become a Phi-Brain",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165279/original.jpg",
+      "number": 17,
+      "createdAt": "2014-11-16T20:42:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-17"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-18",
+      "title": "It’s Okay If I Can’t Solve Puzzles",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165292/original.jpg",
+      "number": 18,
+      "createdAt": "2014-11-16T20:42:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-18"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-19",
+      "title": "Because You Were Watching",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165305/original.jpg",
+      "number": 19,
+      "createdAt": "2014-11-16T20:42:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-19"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-20",
+      "title": "Cheers to 100-Star Jin",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165317/original.jpg",
+      "number": 20,
+      "createdAt": "2014-11-16T20:42:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-20"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-21",
+      "title": "Kaito, You've Lost",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165332/original.jpg",
+      "number": 21,
+      "createdAt": "2014-11-16T20:42:24Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-21"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-22",
+      "title": "That's Why You Mustn't Hesitate",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165343/original.jpg",
+      "number": 22,
+      "createdAt": "2014-11-16T20:42:26Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-22"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-23",
+      "title": "The Two of Us!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165355/original.jpg",
+      "number": 23,
+      "createdAt": "2014-11-16T20:42:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-23"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-24",
+      "title": "Even If Something’s Missing",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165370/original.jpg",
+      "number": 24,
+      "createdAt": "2014-11-16T20:42:31Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-24"
+    },
+    {
+      "id": "phi-brain-kami-puzzle-3-episode-25",
+      "title": "It's Insanely Fun to Be Alive",
+      "image": "https://media.kitsu.io/episodes/thumbnails/165379/original.jpg",
+      "number": 25,
+      "createdAt": "2014-11-16T20:42:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//phi-brain-kami-puzzle-3-episode-25"
+    }
+  ]
+}

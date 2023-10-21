@@ -1,0 +1,828 @@
+{
+  "id": "21666",
+  "title": {
+    "romaji": "Nobunaga no Shinobi",
+    "english": "Ninja Girl & Samurai Master",
+    "native": "信長の忍び"
+  },
+  "malId": 32829,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+  "popularity": 6559,
+  "color": "#e4ae50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21666-G7oxeVAVS1cv.jpg",
+  "description": "The gag manga centers on a young female ninja named Chidori, whose dream is to help the Warring States-era warlord Oda Nobunaga to achieve his goals.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2016,
+  "startDate": {
+    "year": 2016,
+    "month": 10,
+    "day": 5
+  },
+  "endDate": {
+    "year": 2017,
+    "month": 3,
+    "day": 28
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 67,
+  "duration": 4,
+  "genres": [
+    "Comedy"
+  ],
+  "season": "FALL",
+  "studios": [
+    "TMS Entertainment"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 8337,
+      "malId": 8337,
+      "title": {
+        "romaji": "Shoka",
+        "english": null,
+        "native": "書家",
+        "userPreferred": "Shoka"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8337.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8337.jpg",
+      "rating": 54,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 20,
+      "malId": 20,
+      "title": {
+        "romaji": "NARUTO",
+        "english": "Naruto",
+        "native": "NARUTO -ナルト-",
+        "userPreferred": "NARUTO"
+      },
+      "status": "Completed",
+      "episodes": 220,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20-YJvLbgJQPCoI.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20-HHxhPj5JD13a.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 1292,
+      "malId": 1292,
+      "title": {
+        "romaji": "Afro Samurai",
+        "english": null,
+        "native": "アフロサムライ",
+        "userPreferred": "Afro Samurai"
+      },
+      "status": "Completed",
+      "episodes": 5,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1292-FcyYgq7Ly34H.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1292-eucruhMiEZxx.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 138714,
+      "malId": 49738,
+      "title": {
+        "romaji": "Heike Monogatari",
+        "english": "The Heike Story",
+        "native": "平家物語",
+        "userPreferred": "Heike Monogatari"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx138714-dLyXT5qyTYbr.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/138714-XnVrQIlHvu9J.jpg",
+      "rating": 76,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 154601,
+      "role": "MAIN",
+      "name": {
+        "first": "Chidori",
+        "last": null,
+        "full": "Chidori",
+        "native": "千鳥",
+        "userPreferred": "Chidori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154601-RKssPyWaiD8V.jpg",
+      "voiceActors": [
+        {
+          "id": 106297,
+          "language": "Japanese",
+          "name": {
+            "first": "Inori",
+            "last": "Minase",
+            "full": "Inori Minase",
+            "native": "水瀬いのり",
+            "userPreferred": "Inori Minase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106297-KnzvgfxB1byY.png"
+        }
+      ]
+    },
+    {
+      "id": 154599,
+      "role": "MAIN",
+      "name": {
+        "first": "Nobunaga",
+        "last": "Oda",
+        "full": "Nobunaga Oda",
+        "native": "織田信長",
+        "userPreferred": "Nobunaga Oda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154599-cMc18AS36Ua0.jpg",
+      "voiceActors": [
+        {
+          "id": 95098,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Hatano",
+            "full": "Wataru Hatano",
+            "native": "羽多野渉",
+            "userPreferred": "Wataru Hatano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95098-x6T2xOTuvkuY.jpg"
+        }
+      ]
+    },
+    {
+      "id": 154604,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sukezou",
+        "last": null,
+        "full": "Sukezou",
+        "native": "助蔵",
+        "userPreferred": "Sukezou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154604-EHCtfVzAAwob.jpg",
+      "voiceActors": [
+        {
+          "id": 110919,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumu",
+            "last": "Murase",
+            "full": "Ayumu Murase",
+            "native": "村瀬歩",
+            "userPreferred": "Ayumu Murase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110919-zz5dq39kyzNC.png"
+        }
+      ]
+    },
+    {
+      "id": 154610,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kichou",
+        "last": null,
+        "full": "Kichou",
+        "native": "帰蝶",
+        "userPreferred": "Kichou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154610-CpPSMQfr9yIt.png",
+      "voiceActors": [
+        {
+          "id": 95584,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiaki",
+            "last": "Takahashi",
+            "full": "Chiaki Takahashi",
+            "native": "たかはし智秋",
+            "userPreferred": "Chiaki Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95584-TgaiagGVcsSp.jpg"
+        }
+      ]
+    },
+    {
+      "id": 154600,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hanbee",
+        "last": "Takenaka",
+        "full": "Hanbee Takenaka",
+        "native": "竹中半兵衛",
+        "userPreferred": "Hanbee Takenaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154600-Em4oAyQfte8Z.jpg",
+      "voiceActors": [
+        {
+          "id": 95183,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Hirakawa",
+            "full": "Daisuke Hirakawa",
+            "native": "平川大輔",
+            "userPreferred": "Daisuke Hirakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95183-5C42gbrKIP7L.png"
+        }
+      ]
+    },
+    {
+      "id": 154602,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hideyoshi",
+        "last": "Kinoshita",
+        "full": "Hideyoshi Kinoshita",
+        "native": "木下秀吉",
+        "userPreferred": "Hideyoshi Kinoshita"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154602-OSRLswbcRlkK.png",
+      "voiceActors": [
+        {
+          "id": 95067,
+          "language": "Japanese",
+          "name": {
+            "first": "Kappei",
+            "last": "Yamaguchi",
+            "full": "Kappei Yamaguchi",
+            "native": "山口勝平",
+            "userPreferred": "Kappei Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95067-hqIpNxMfAuN2.png"
+        }
+      ]
+    },
+    {
+      "id": 154605,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yoshinari",
+        "last": "Mori",
+        "full": "Yoshinari Mori",
+        "native": "森可成",
+        "userPreferred": "Yoshinari Mori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154605-y2c6RjDZq2Ny.jpg",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        }
+      ]
+    },
+    {
+      "id": 154613,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nene",
+        "last": null,
+        "full": "Nene",
+        "native": "ねね",
+        "userPreferred": "Nene"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154613-rZgcwNGT8iyI.jpg",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        }
+      ]
+    },
+    {
+      "id": 154609,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Oichi",
+        "last": null,
+        "full": "Oichi",
+        "native": "お市",
+        "userPreferred": "Oichi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154609-NLkMrKdWj7Ai.png",
+      "voiceActors": [
+        {
+          "id": 106359,
+          "language": "Japanese",
+          "name": {
+            "first": "Suzuko",
+            "last": "Mimori",
+            "full": "Suzuko Mimori",
+            "native": "三森すずこ",
+            "userPreferred": "Suzuko Mimori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106359-G8dROMWpwlM6.png"
+        }
+      ]
+    },
+    {
+      "id": 154603,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bokuzen",
+        "last": "Ujiie",
+        "full": "Bokuzen Ujiie",
+        "native": "氏家卜全",
+        "userPreferred": "Bokuzen Ujiie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154603-MY4j5hU3mywJ.jpg",
+      "voiceActors": [
+        {
+          "id": 105148,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinya",
+            "last": "Takahashi",
+            "full": "Shinya Takahashi",
+            "native": "高橋伸也",
+            "userPreferred": "Shinya Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105148-X6NTB0Q8Yxs8.png"
+        }
+      ]
+    },
+    {
+      "id": 154606,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Mitsuhide",
+        "last": "Akechi",
+        "full": "Mitsuhide Akechi",
+        "native": "明智光秀",
+        "userPreferred": "Mitsuhide Akechi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154606-usuO886WEnx5.jpg",
+      "voiceActors": [
+        {
+          "id": 95792,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinnosuke",
+            "last": "Tachibana",
+            "full": "Shinnosuke Tachibana",
+            "native": "立花慎之介",
+            "userPreferred": "Shinnosuke Tachibana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95792-5413Ip70mSdV.jpg"
+        }
+      ]
+    },
+    {
+      "id": 154608,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Matsu",
+        "last": null,
+        "full": "Matsu",
+        "native": "まつ",
+        "userPreferred": "Matsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154608-Bu45zAcBXE2K.jpg",
+      "voiceActors": [
+        {
+          "id": 95516,
+          "language": "Japanese",
+          "name": {
+            "first": "Naoko",
+            "last": "Matsui",
+            "full": "Naoko Matsui",
+            "native": "松井菜桜子",
+            "userPreferred": "Naoko Matsui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95516-N94jWbOCyDd7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 154614,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Gyuuichi",
+        "last": "Oota",
+        "full": "Gyuuichi Oota",
+        "native": "太田牛一",
+        "userPreferred": "Gyuuichi Oota"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154614-adRUjJOrVieR.jpg",
+      "voiceActors": [
+        {
+          "id": 106743,
+          "language": "Japanese",
+          "name": {
+            "first": "Shuuta",
+            "last": "Morishima",
+            "full": "Shuuta Morishima",
+            "native": "森嶋秀太",
+            "userPreferred": "Shuuta Morishima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106743-a37RvMZbYnfP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 154611,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Ittetsu",
+        "last": "Inaba",
+        "full": "Ittetsu Inaba",
+        "native": "稲葉一鉄",
+        "userPreferred": "Ittetsu Inaba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154611-qnQCzCmnYenD.jpg",
+      "voiceActors": [
+        {
+          "id": 106743,
+          "language": "Japanese",
+          "name": {
+            "first": "Shuuta",
+            "last": "Morishima",
+            "full": "Shuuta Morishima",
+            "native": "森嶋秀太",
+            "userPreferred": "Shuuta Morishima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106743-a37RvMZbYnfP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 154615,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Hanzou",
+        "last": "Hattori",
+        "full": "Hanzou Hattori",
+        "native": "服部半蔵",
+        "userPreferred": "Hanzou Hattori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154615-ArTtMIXzMSFC.jpg",
+      "voiceActors": [
+        {
+          "id": 154616,
+          "language": "Japanese",
+          "name": {
+            "first": "VALSHE",
+            "last": null,
+            "full": "VALSHE",
+            "native": "バルシェ",
+            "userPreferred": "VALSHE"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n154616-23tm516Wgdqi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 154612,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Hisamasa",
+        "last": "Azai",
+        "full": "Hisamasa Azai",
+        "native": "浅井久政",
+        "userPreferred": "Hisamasa Azai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154612-rrf9eIoRHjlj.jpg",
+      "voiceActors": [
+        {
+          "id": 95685,
+          "language": "Japanese",
+          "name": {
+            "first": "Takashi",
+            "last": "Matsuyama",
+            "full": "Takashi Matsuyama",
+            "native": "松山鷹志",
+            "userPreferred": "Takashi Matsuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95685-hBzFgdWzq43x.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 86954,
+      "relationType": "ADAPTATION",
+      "malId": 92079,
+      "title": {
+        "romaji": "Nobunaga no Shinobi",
+        "english": null,
+        "native": "信長の忍び",
+        "userPreferred": "Nobunaga no Shinobi"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/56954-mGuoJe7Ofdli.jpg",
+      "color": "#e4865d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/56954-mGuoJe7Ofdli.jpg",
+      "rating": 64
+    },
+    {
+      "id": 97969,
+      "relationType": "PREQUEL",
+      "malId": 34283,
+      "title": {
+        "romaji": "Nobunaga no Shinobi: Nobunaga to Minarai Shinobi",
+        "english": "Ninja Girl & Samurai Master: Episode 0",
+        "native": "信長の忍び 第0話",
+        "userPreferred": "Nobunaga no Shinobi: Nobunaga to Minarai Shinobi"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97969-Maz2GgYX8uT8.jpg",
+      "color": "#e46b1a",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97969-Maz2GgYX8uT8.jpg",
+      "rating": 66
+    },
+    {
+      "id": 98420,
+      "relationType": "SEQUEL",
+      "malId": 34978,
+      "title": {
+        "romaji": "Nobunaga no Shinobi: Ise Kanegasaki-hen",
+        "english": "Ninja Girl & Samurai Master 2nd ",
+        "native": "信長の忍び~伊勢・金ヶ崎篇~",
+        "userPreferred": "Nobunaga no Shinobi: Ise Kanegasaki-hen"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98420-H1TO0kISDd7M.jpg",
+      "color": "#fea128",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98420-H1TO0kISDd7M.jpg",
+      "rating": 68
+    }
+  ],
+  "episodes": [
+    {
+      "id": "nobunaga-no-shinobi",
+      "title": "Let's Go See Nobunaga-sama",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 0,
+      "createdAt": "2017-06-30T08:08:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-1",
+      "title": "The Oda Clan and Their Merry Friends",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 1,
+      "createdAt": "2017-06-30T08:08:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-1"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-2",
+      "title": "Attack!! Imagawa-san Next Door",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 2,
+      "createdAt": "2017-06-30T08:08:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-2"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-3",
+      "title": "The Monkey and the Tsundere Girl",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 3,
+      "createdAt": "2017-06-30T08:08:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-3"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-4",
+      "title": "The Imagawa Army Arrives",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 4,
+      "createdAt": "2017-06-30T08:08:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-4"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-5",
+      "title": "Chidori, Like a Bird",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 5,
+      "createdAt": "2017-06-30T08:08:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-5"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-6",
+      "title": "In the Center of Okehazama, Yoshimoto Yells",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 6,
+      "createdAt": "2017-06-30T08:08:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-6"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-7",
+      "title": "History Is Full Of People",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 7,
+      "createdAt": "2017-06-30T08:08:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-7"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-8",
+      "title": "The Kiyosu Alliance and Motoyasu's Shinobi",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 8,
+      "createdAt": "2017-06-30T08:08:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-8"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-9",
+      "title": "The One Who Rules Mino Rules the Land",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 9,
+      "createdAt": "2017-06-30T08:08:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-9"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-10",
+      "title": "If Your Boss Doesn't Favor You",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 10,
+      "createdAt": "2017-06-30T08:08:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-10"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-11",
+      "title": "The Genius Is Sickly",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 11,
+      "createdAt": "2017-06-30T08:08:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-11"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-12",
+      "title": "The Situation at Inabayama Castle!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 12,
+      "createdAt": "2017-06-30T08:08:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-12"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-13",
+      "title": "Moving Up in the World Is Hard",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 13,
+      "createdAt": "2016-10-11T00:39:24Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-13"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-14",
+      "title": "Let's All Build Sunomata Castle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 14,
+      "createdAt": "2016-10-11T00:39:24Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-14"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-15",
+      "title": "Let's Just Say It Got Built Overnight!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 15,
+      "createdAt": "2016-10-11T00:39:24Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-15"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-16",
+      "title": "Notice of the End of Being a Shut-In",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 16,
+      "createdAt": "2016-10-11T00:39:24Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-16"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-17",
+      "title": "Kyo Is Calling Me",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 17,
+      "createdAt": "2016-10-11T00:39:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-17"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-18",
+      "title": "We Got Takenaka Hanbee!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 18,
+      "createdAt": "2016-10-11T00:39:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-18"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-19",
+      "title": "My Little Sister",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 19,
+      "createdAt": "2016-10-11T00:39:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-19"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-20",
+      "title": "Someday I Want to Be the Shogun!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 20,
+      "createdAt": "2016-10-11T00:39:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-20"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-21",
+      "title": "The Straight Man Appears",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 21,
+      "createdAt": "2016-10-11T00:39:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-21"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-22",
+      "title": "Nobunaga!! Behind You!! Behind You!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 22,
+      "createdAt": "2016-10-11T00:39:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-22"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-23",
+      "title": "The Legend of the Shadow",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 23,
+      "createdAt": "2016-10-11T00:39:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-23"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-24",
+      "title": "We Took the Castle!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 24,
+      "createdAt": "2016-10-11T00:39:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-24"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-25",
+      "title": "Welcome to Kyo",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 25,
+      "createdAt": "2016-10-11T00:39:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-25"
+    },
+    {
+      "id": "nobunaga-no-shinobi-episode-26",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21666-baW0VO0JDg3n.jpg",
+      "number": 26,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//nobunaga-no-shinobi-episode-26"
+    }
+  ]
+}

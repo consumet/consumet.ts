@@ -1,0 +1,498 @@
+{
+  "id": "138788",
+  "title": {
+    "romaji": "Under Ninja",
+    "english": "UNDER NINJA",
+    "native": "アンダーニンジャ"
+  },
+  "malId": 49766,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "Pj10YbNVWpQ",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/Pj10YbNVWpQ/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx138788-CXUvAraN1xha.jpg",
+  "popularity": 10797,
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx138788-CXUvAraN1xha.jpg",
+  "description": "Ninjas still exist in Japan today. They number around 200,000. The ninja organization NIN (National Intelligence of NINJA) is not controlled by the civilian government, with its elite members performing assassinations and sabotage in secret. There is an organization that opposes NIN: UN (Under Ninja). Ninja versus ninja: What lies waiting at the end of this shadowy feud?<br>\n<br>\n(Source: Crunchyroll)",
+  "status": "Ongoing",
+  "releaseDate": 2023,
+  "startDate": {
+    "year": 2023,
+    "month": 10,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2023,
+    "month": 12,
+    "day": 22
+  },
+  "nextAiringEpisode": {
+    "airingTime": 1698337680,
+    "timeUntilAiring": 523441,
+    "episode": 4
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 3,
+  "rating": 61,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Comedy"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Tezuka Productions"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 97922,
+      "malId": 34542,
+      "title": {
+        "romaji": "Inuyashiki",
+        "english": "INUYASHIKI LAST HERO",
+        "native": "いぬやしき",
+        "userPreferred": "Inuyashiki"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97922-qrGn5fkQinDs.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97922-j6ba0Zmq8xOa.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 99699,
+      "malId": 36028,
+      "title": {
+        "romaji": "Golden Kamuy",
+        "english": "Golden Kamuy",
+        "native": "ゴールデンカムイ",
+        "userPreferred": "Golden Kamuy"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99699-mBCjpoWpAVGX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99699-95D2XWA6eWAH.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 127230,
+      "malId": 44511,
+      "title": {
+        "romaji": "Chainsaw Man",
+        "english": "Chainsaw Man",
+        "native": "チェンソーマン",
+        "userPreferred": "Chainsaw Man"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127230-FlochcFsyoF4.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127230-o8IRwCGVr9KW.jpg",
+      "rating": 85,
+      "type": "TV"
+    },
+    {
+      "id": 100332,
+      "malId": 36548,
+      "title": {
+        "romaji": "Kokkoku",
+        "english": "KOKKOKU",
+        "native": "刻刻",
+        "userPreferred": "Kokkoku"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100332-5saXfqfB8nvF.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100332-YwLWtHAyqobZ.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 2251,
+      "malId": 2251,
+      "title": {
+        "romaji": "Baccano!",
+        "english": "Baccano!",
+        "native": "バッカーノ！",
+        "userPreferred": "Baccano!"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx2251-kSIwMbTZQDrQ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2251-FVSbYyJhQPj2.jpg",
+      "rating": 81,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 255626,
+      "role": "MAIN",
+      "name": {
+        "first": "Kurou",
+        "last": "Kumogakure",
+        "full": "Kurou Kumogakure",
+        "native": "雲隠九郎",
+        "userPreferred": "Kurou Kumogakure"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b255626-LUubIp17UYM3.png",
+      "voiceActors": [
+        {
+          "id": 151336,
+          "language": "Japanese",
+          "name": {
+            "first": "Taito",
+            "last": "Ban",
+            "full": "Taito Ban",
+            "native": "坂泰斗",
+            "userPreferred": "Taito Ban"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n151336-UiJpyoiQHAOU.png"
+        }
+      ]
+    },
+    {
+      "id": 310922,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Noguchi",
+        "last": null,
+        "full": "Noguchi",
+        "native": "野口",
+        "userPreferred": "Noguchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b310922-CQyJmsBXcZgI.jpg",
+      "voiceActors": [
+        {
+          "id": 106361,
+          "language": "Japanese",
+          "name": {
+            "first": "Sora",
+            "last": "Tokui",
+            "full": "Sora Tokui",
+            "native": "徳井青空",
+            "userPreferred": "Sora Tokui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106361-EMvWLkEKavEM.png"
+        }
+      ]
+    },
+    {
+      "id": 305368,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Katou",
+        "last": null,
+        "full": "Katou",
+        "native": "加藤",
+        "userPreferred": "Katou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b305368-w9qq2C5lBzcm.jpg",
+      "voiceActors": [
+        {
+          "id": 102242,
+          "language": "Japanese",
+          "name": {
+            "first": "Tarusuke",
+            "last": "Shingaki",
+            "full": "Tarusuke Shingaki",
+            "native": "新垣樽助",
+            "userPreferred": "Tarusuke Shingaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102242-bx8hrisiHiSK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 316589,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ozu",
+        "last": null,
+        "full": "Ozu",
+        "native": "小津",
+        "userPreferred": "Ozu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b316589-A9iUITKQfOBG.png",
+      "voiceActors": [
+        {
+          "id": 113545,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouichi",
+            "last": "Souma",
+            "full": "Kouichi Souma",
+            "native": "相馬康一",
+            "userPreferred": "Kouichi Souma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n113545-AiM4kzCRQROf.png"
+        }
+      ]
+    },
+    {
+      "id": 305369,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miracle",
+        "last": "Hibi",
+        "full": "Miracle Hibi",
+        "native": "日比奇跡",
+        "userPreferred": "Miracle Hibi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b305369-XzM8VcG0dKlP.jpg",
+      "voiceActors": [
+        {
+          "id": 107018,
+          "language": "Japanese",
+          "name": {
+            "first": "Tasuku",
+            "last": "Hatanaka",
+            "full": "Tasuku Hatanaka",
+            "native": "畠中祐",
+            "userPreferred": "Tasuku Hatanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107018-UwRPnTdllbPT.png"
+        }
+      ]
+    },
+    {
+      "id": 316969,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Junna",
+        "last": null,
+        "full": "Junna",
+        "native": "純粋愛",
+        "userPreferred": "Junna"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b316969-OyPq9SyvR6uz.png",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        }
+      ]
+    },
+    {
+      "id": 305371,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shion",
+        "last": "Hachiya",
+        "full": "Shion Hachiya",
+        "native": "蜂谷紫音",
+        "userPreferred": "Shion Hachiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b305371-Kyh8XIRbV1LN.jpg",
+      "voiceActors": [
+        {
+          "id": 116971,
+          "language": "Japanese",
+          "name": {
+            "first": "Daiki",
+            "last": "Yamashita",
+            "full": "Daiki Yamashita",
+            "native": "山下大輝",
+            "userPreferred": "Daiki Yamashita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116971-r6Yn9mDyzBqU.png"
+        }
+      ]
+    },
+    {
+      "id": 317166,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mako",
+        "last": null,
+        "full": "Mako",
+        "native": "マコ",
+        "userPreferred": "Mako"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b317166-KDcRELR0mdBb.png",
+      "voiceActors": [
+        {
+          "id": 127542,
+          "language": "Japanese",
+          "name": {
+            "first": "Maki",
+            "last": "Kawase",
+            "full": "Maki Kawase",
+            "native": "河瀬茉希",
+            "userPreferred": "Maki Kawase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n127542-rHFIx0NCHfsU.png"
+        }
+      ]
+    },
+    {
+      "id": 305370,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Suzuki",
+        "last": null,
+        "full": "Suzuki",
+        "native": "鈴木",
+        "userPreferred": "Suzuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b305370-KbRwucRKOanz.jpg",
+      "voiceActors": [
+        {
+          "id": 112215,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsumi",
+            "last": "Tanezaki",
+            "full": "Atsumi Tanezaki",
+            "native": "種﨑敦美",
+            "userPreferred": "Atsumi Tanezaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112215-kfABGD8W2YSJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 310914,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kawado",
+        "last": null,
+        "full": "Kawado",
+        "native": "川戸",
+        "userPreferred": "Kawado"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b310914-kV58Mz5AOXPd.jpg",
+      "voiceActors": [
+        {
+          "id": 106030,
+          "language": "Japanese",
+          "name": {
+            "first": "Chika",
+            "last": "Anzai",
+            "full": "Chika Anzai",
+            "native": "安済知佳",
+            "userPreferred": "Chika Anzai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106030-oz4RUJZ3D9v9.png"
+        }
+      ]
+    },
+    {
+      "id": 310913,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eita",
+        "last": null,
+        "full": "Eita",
+        "native": "瑛太",
+        "userPreferred": "Eita"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b310913-6vgRlwklaiLt.jpg",
+      "voiceActors": [
+        {
+          "id": 162833,
+          "language": "Japanese",
+          "name": {
+            "first": "Shuuichi",
+            "last": "Uchida",
+            "full": "Shuuichi Uchida",
+            "native": "内田修一",
+            "userPreferred": "Shuuichi Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n162833-lIRcWnPo20UV.png"
+        }
+      ]
+    },
+    {
+      "id": 310915,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Oono",
+        "last": null,
+        "full": "Oono",
+        "native": "大野",
+        "userPreferred": "Oono"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b310915-FSEtEtBYG49j.jpg",
+      "voiceActors": [
+        {
+          "id": 95898,
+          "language": "Japanese",
+          "name": {
+            "first": "Choo",
+            "last": null,
+            "full": "Choo",
+            "native": "チョー ",
+            "userPreferred": "Choo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95898-XHSESV65G8Jv.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 103890,
+      "relationType": "ADAPTATION",
+      "malId": 114939,
+      "title": {
+        "romaji": "Under Ninja",
+        "english": "Under Ninja",
+        "native": "アンダーニンジャ",
+        "userPreferred": "Under Ninja"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx103890-jUpMZluhZceu.png",
+      "color": "#35bb93",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx103890-jUpMZluhZceu.png",
+      "rating": 69
+    }
+  ],
+  "episodes": [
+    {
+      "id": "under-ninja-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx138788-CXUvAraN1xha.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//under-ninja-episode-1"
+    },
+    {
+      "id": "under-ninja-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx138788-CXUvAraN1xha.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//under-ninja-episode-2"
+    },
+    {
+      "id": "under-ninja-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx138788-CXUvAraN1xha.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//under-ninja-episode-3"
+    }
+  ]
+}

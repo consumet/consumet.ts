@@ -1,0 +1,438 @@
+{
+  "id": "6636",
+  "title": {
+    "romaji": "Chou Kousoku Galvion",
+    "english": "Super High Speed Galvion",
+    "native": "超攻速ガルビオン"
+  },
+  "malId": 6636,
+  "synonyms": [
+    "Galvion",
+    "Cho Kosoku Galvion"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+  "popularity": 683,
+  "color": "#f1a150",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6636-dvjmtYsAXKUH.jpg",
+  "description": "Super High Speed Galvion features mecha designs by Ohata Koichi (of Gunbuster fame). In the 23rd century billionaire Midoriyama Rei creates a secret organization called Circus to combat a hidden group called Shadow that is taking over the world. When she can't find qualified pilots for Circus' main mecha, the Galvion, she cuts a deal with two convicts, Mu and Maya, to lead the fight against Shadow.",
+  "status": "Completed",
+  "releaseDate": 1984,
+  "startDate": {
+    "year": 1984,
+    "month": 2,
+    "day": 3
+  },
+  "endDate": {
+    "year": 1984,
+    "month": 4,
+    "day": 29
+  },
+  "totalEpisodes": 22,
+  "currentEpisode": 22,
+  "rating": 49,
+  "duration": 25,
+  "genres": [
+    "Action",
+    "Mecha"
+  ],
+  "season": "WINTER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 3486,
+      "malId": 3486,
+      "title": {
+        "romaji": "Yuusha Tokkyuu Might Gaine",
+        "english": "The Brave Express Might Gaine",
+        "native": "勇者特急マイトガイン",
+        "userPreferred": "Yuusha Tokkyuu Might Gaine"
+      },
+      "status": "Completed",
+      "episodes": 47,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3486-4rN0JJRd8pOd.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3486-4rN0JJRd8pOd.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 3969,
+      "malId": 3969,
+      "title": {
+        "romaji": "Thunderbirds 2086",
+        "english": "Thunderbirds 2086",
+        "native": "科学救助隊テクノボイジャー",
+        "userPreferred": "Thunderbirds 2086"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3969.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3969.jpg",
+      "rating": 48,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 30445,
+      "role": "MAIN",
+      "name": {
+        "first": "Maya",
+        "last": null,
+        "full": "Maya",
+        "native": null,
+        "userPreferred": "Maya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30445.jpg",
+      "voiceActors": [
+        {
+          "id": 95572,
+          "language": "Japanese",
+          "name": {
+            "first": "Hirotaka",
+            "last": "Suzuoki",
+            "full": "Hirotaka Suzuoki",
+            "native": "鈴置洋孝",
+            "userPreferred": "Hirotaka Suzuoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95572-H6tkZ7SsId5E.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30446,
+      "role": "MAIN",
+      "name": {
+        "first": "Mu",
+        "last": null,
+        "full": "Mu",
+        "native": null,
+        "userPreferred": "Mu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30446.jpg",
+      "voiceActors": [
+        {
+          "id": 95837,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouichi",
+            "last": "Hashimoto",
+            "full": "Kouichi Hashimoto",
+            "native": "橋本晃一",
+            "userPreferred": "Kouichi Hashimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95837-bikmUoB3B6B9.jpg"
+        }
+      ]
+    },
+    {
+      "id": 250885,
+      "role": "MAIN",
+      "name": {
+        "first": "Rei",
+        "last": "Midoriyama",
+        "full": "Rei Midoriyama",
+        "native": "レイ緑山",
+        "userPreferred": "Rei Midoriyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b250885-o6IBENHb2tJK.png",
+      "voiceActors": [
+        {
+          "id": 96449,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiko",
+            "last": "Yokozawa",
+            "full": "Keiko Yokozawa",
+            "native": "横沢啓子",
+            "userPreferred": "Keiko Yokozawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1449.jpg"
+        }
+      ]
+    },
+    {
+      "id": 250882,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Remi",
+        "last": null,
+        "full": "Remi",
+        "native": "レミ",
+        "userPreferred": "Remi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b250882-bVJKWoJ0jvPG.png",
+      "voiceActors": [
+        {
+          "id": 95387,
+          "language": "Japanese",
+          "name": {
+            "first": "Chika",
+            "last": "Sakamoto",
+            "full": "Chika Sakamoto",
+            "native": "坂本千夏",
+            "userPreferred": "Chika Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95387-CLYs2OZwhe9c.png"
+        }
+      ]
+    },
+    {
+      "id": 250883,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Inka",
+        "last": null,
+        "full": "Inka",
+        "native": "インカ",
+        "userPreferred": "Inka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b250883-HVqBQi7Z5kHE.png",
+      "voiceActors": [
+        {
+          "id": 101688,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuri",
+            "last": "Nashiwa",
+            "full": "Yuri Nashiwa",
+            "native": "侑里 梨羽",
+            "userPreferred": "Yuri Nashiwa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6688.jpg"
+        }
+      ]
+    },
+    {
+      "id": 250884,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Terry",
+        "last": null,
+        "full": "Terry",
+        "native": "テリー",
+        "userPreferred": "Terry"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b250884-KkQP6uwYTPlA.png",
+      "voiceActors": [
+        {
+          "id": 100764,
+          "language": "Japanese",
+          "name": {
+            "first": "Kyouko",
+            "last": "Tonguu",
+            "full": "Kyouko Tonguu",
+            "native": "頓宮恭子",
+            "userPreferred": "Kyouko Tonguu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5764.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "chou-kousoku-galvion-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-1"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-2"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-3"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-4"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-5"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-6"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-7"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-8"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-9"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-10"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-11"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-12"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-13"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-14"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-15"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-16"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-17",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 17,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-17"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-18",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 18,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-18"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-19",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 19,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-19"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-20",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 20,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-20"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-21",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 21,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-21"
+    },
+    {
+      "id": "chou-kousoku-galvion-episode-22",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6636-B6cJus0tnRL8.png",
+      "number": 22,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//chou-kousoku-galvion-episode-22"
+    }
+  ]
+}

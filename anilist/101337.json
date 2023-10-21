@@ -1,0 +1,738 @@
+{
+  "id": "101337",
+  "title": {
+    "romaji": "W'z",
+    "english": null,
+    "native": "W’ｚ《ウィズ》"
+  },
+  "malId": 37509,
+  "synonyms": [
+    "wìð"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "TMPbrFRrFi0",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/TMPbrFRrFi0/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101337-I2ZudqRGHaYT.jpg",
+  "popularity": 6350,
+  "color": "#e450bb",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n101337-WzFt9Tqcs9Jv.jpg",
+  "description": "The anime centers on Yukiya, who is \"probably\" 14 years old. He spends his time DJ-ing alone. Due to his father's influence, he's listened to house music since he was young, and he uploads videos online. He wants to convey something to someone. He wants to be recognized, and become important. But getting hurt is scary. One day, while trying to get more views, he does something that can't be undone. And he sees a live broadcast from \"that world.\" Yukiya believes he can't do anything alone, but that he could accomplish something if he were doing it together with someone else.<br><br>\n\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2019,
+  "startDate": {
+    "year": 2019,
+    "month": 1,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2019,
+    "month": 3,
+    "day": 31
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 47,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Music"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "GoHands"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 14467,
+      "malId": 14467,
+      "title": {
+        "romaji": "K",
+        "english": "K",
+        "native": "K",
+        "userPreferred": "K"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx14467-emaCgr1KNGGI.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14467-jG939pd2036a.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 123785,
+      "malId": 42825,
+      "title": {
+        "romaji": "Praeter no Kizu",
+        "english": "Scar on the Praeter",
+        "native": "プレイタの傷",
+        "userPreferred": "Praeter no Kizu"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx123785-ciGZuIesWH7l.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/123785-RPyFqAw3o3Nx.jpg",
+      "rating": 50,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 133042,
+      "role": "MAIN",
+      "name": {
+        "first": "Yukiya",
+        "last": "Araki",
+        "full": "Yukiya Araki",
+        "native": "荒城幸也",
+        "userPreferred": "Yukiya Araki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133042-rcQuewqFKrs5.png",
+      "voiceActors": [
+        {
+          "id": 122731,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsumi",
+            "last": "Fukuhara",
+            "full": "Katsumi Fukuhara",
+            "native": "福原かつみ",
+            "userPreferred": "Katsumi Fukuhara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n122731-nAnzixFo0dLS.jpg"
+        },
+        {
+          "id": 142046,
+          "language": "German",
+          "name": {
+            "first": "Philip",
+            "last": "Süß",
+            "full": "Philip Süß",
+            "native": null,
+            "userPreferred": "Philip Süß"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n142046-o2Fy63DWz1Jd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 133043,
+      "role": "MAIN",
+      "name": {
+        "first": "Haruka",
+        "last": "Tosabori",
+        "full": "Haruka Tosabori",
+        "native": "土佐堀遥",
+        "userPreferred": "Haruka Tosabori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133043-0JLQqNRaxCwn.png",
+      "voiceActors": [
+        {
+          "id": 116155,
+          "language": "Japanese",
+          "name": {
+            "first": "Akane",
+            "last": "Fujita",
+            "full": "Akane Fujita",
+            "native": "藤田茜",
+            "userPreferred": "Akane Fujita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116155-5H5Dqe2oQyId.png"
+        },
+        {
+          "id": 181698,
+          "language": "German",
+          "name": {
+            "first": "Francis",
+            "last": "Dichmann",
+            "full": "Francis Dichmann",
+            "native": null,
+            "userPreferred": "Francis Dichmann"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n181698-hSir5orx8Zkc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120951,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chizuru",
+        "last": "Mitsudera",
+        "full": "Chizuru Mitsudera",
+        "native": "三津寺千鶴",
+        "userPreferred": "Chizuru Mitsudera"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120951-bHhIM7aGFmuh.jpg",
+      "voiceActors": [
+        {
+          "id": 109441,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumire",
+            "last": "Uesaka",
+            "full": "Sumire Uesaka",
+            "native": "上坂すみれ",
+            "userPreferred": "Sumire Uesaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109441-lVHpd6BN2g16.png"
+        },
+        {
+          "id": 216182,
+          "language": "German",
+          "name": {
+            "first": "Julia",
+            "last": "Koep",
+            "full": "Julia Koep",
+            "native": null,
+            "userPreferred": "Julia Koep"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120948,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hayate",
+        "last": "Azuma",
+        "full": "Hayate Azuma",
+        "native": "東颯",
+        "userPreferred": "Hayate Azuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120948-HZpEfP5diJzk.jpg",
+      "voiceActors": [
+        {
+          "id": 115156,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaito",
+            "last": "Ishikawa",
+            "full": "Kaito Ishikawa",
+            "native": "石川界人",
+            "userPreferred": "Kaito Ishikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115156-ngYfqBazlxYQ.png"
+        },
+        {
+          "id": 181696,
+          "language": "German",
+          "name": {
+            "first": "Julian",
+            "last": "Horeyseck",
+            "full": "Julian Horeyseck",
+            "native": null,
+            "userPreferred": "Julian Horeyseck"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120953,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bind",
+        "last": "",
+        "full": "Bind",
+        "native": "バインド",
+        "userPreferred": "Bind"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120953-x9iB731y4Vtr.jpg",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        },
+        {
+          "id": 96002,
+          "language": "German",
+          "name": {
+            "first": "Corinna",
+            "last": "Dorenkamp",
+            "full": "Corinna Dorenkamp",
+            "native": null,
+            "userPreferred": "Corinna Dorenkamp"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1002.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120946,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Masaru",
+        "last": "Houjou",
+        "full": "Masaru Houjou",
+        "native": "北条勝",
+        "userPreferred": "Masaru Houjou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120946-Iyt3UmuB0m4A.jpg",
+      "voiceActors": [
+        {
+          "id": 110919,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumu",
+            "last": "Murase",
+            "full": "Ayumu Murase",
+            "native": "村瀬歩",
+            "userPreferred": "Ayumu Murase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110919-zz5dq39kyzNC.png"
+        },
+        {
+          "id": 199522,
+          "language": "German",
+          "name": {
+            "first": "Benedikt",
+            "last": "Hahn",
+            "full": "Benedikt Hahn",
+            "native": null,
+            "userPreferred": "Benedikt Hahn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 136165,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Daichi",
+        "last": "Nagaoka",
+        "full": "Daichi Nagaoka",
+        "native": "長岡大地",
+        "userPreferred": "Daichi Nagaoka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136165-WTO9b0CsRzpY.jpg",
+      "voiceActors": [
+        {
+          "id": 95591,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenjirou",
+            "last": "Tsuda",
+            "full": "Kenjirou Tsuda",
+            "native": "津田健次郎",
+            "userPreferred": "Kenjirou Tsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95591-WQGdD3ubbeoq.jpg"
+        },
+        {
+          "id": 96694,
+          "language": "German",
+          "name": {
+            "first": "Stephan",
+            "last": "Schleberger",
+            "full": "Stephan Schleberger",
+            "native": null,
+            "userPreferred": "Stephan Schleberger"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120943,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tazuna",
+        "last": "Takatsuki",
+        "full": "Tazuna Takatsuki",
+        "native": "高槻手綱",
+        "userPreferred": "Tazuna Takatsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120943-EYjRPDFoFn0S.jpg",
+      "voiceActors": [
+        {
+          "id": 113227,
+          "language": "Japanese",
+          "name": {
+            "first": "Souma",
+            "last": "Saitou",
+            "full": "Souma Saitou",
+            "native": "斉藤壮馬",
+            "userPreferred": "Souma Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n113227-x0UXLNL6v08X.png"
+        },
+        {
+          "id": 136685,
+          "language": "German",
+          "name": {
+            "first": "Benjamin",
+            "last": "Stolz",
+            "full": "Benjamin Stolz",
+            "native": null,
+            "userPreferred": "Benjamin Stolz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n136685-KX5vWKNzW6NV.png"
+        }
+      ]
+    },
+    {
+      "id": 215222,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nielsen",
+        "last": "Fumiyuki",
+        "full": "Nielsen Fumiyuki",
+        "native": "文幸＝ニールセン",
+        "userPreferred": "Nielsen Fumiyuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b215222-OlT4oEgiS1z1.png",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        },
+        {
+          "id": 117899,
+          "language": "German",
+          "name": {
+            "first": "Markus",
+            "last": "Haase",
+            "full": "Markus Haase",
+            "native": null,
+            "userPreferred": "Markus Haase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/22899.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120944,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Koyori",
+        "last": "Akutagawa",
+        "full": "Koyori Akutagawa",
+        "native": "芥川小代理",
+        "userPreferred": "Koyori Akutagawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120944-kBGpOXjv6NVY.jpg",
+      "voiceActors": [
+        {
+          "id": 106404,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumire",
+            "last": "Morohoshi",
+            "full": "Sumire Morohoshi",
+            "native": "諸星すみれ",
+            "userPreferred": "Sumire Morohoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106404-uodatsBbsnJh.png"
+        },
+        {
+          "id": 141260,
+          "language": "German",
+          "name": {
+            "first": "Lisa",
+            "last": "Dzyadyk",
+            "full": "Lisa Dzyadyk",
+            "native": null,
+            "userPreferred": "Lisa Dzyadyk"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141260-0xZuO2Jgn4yf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120947,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Break",
+        "last": "",
+        "full": "Break",
+        "native": "ブレイク",
+        "userPreferred": "Break"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120947-XDxvEaEyaMSi.jpg",
+      "voiceActors": [
+        {
+          "id": 95086,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukuyama",
+            "full": "Jun Fukuyama",
+            "native": "福山潤",
+            "userPreferred": "Jun Fukuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95086-cwKYmhOFNtH5.png"
+        },
+        {
+          "id": 102026,
+          "language": "German",
+          "name": {
+            "first": "Dennis",
+            "last": "Saemann",
+            "full": "Dennis Saemann",
+            "native": null,
+            "userPreferred": "Dennis Saemann"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7026.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120945,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Riri",
+        "last": "Houjou",
+        "full": "Riri Houjou",
+        "native": "北条璃々",
+        "userPreferred": "Riri Houjou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120945-42QMxLrnF7Nn.jpg",
+      "voiceActors": [
+        {
+          "id": 105765,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Kayano",
+            "full": "Ai Kayano",
+            "native": "茅野愛衣",
+            "userPreferred": "Ai Kayano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105765-DDK94me8axVv.png"
+        },
+        {
+          "id": 112135,
+          "language": "German",
+          "name": {
+            "first": "Nicole",
+            "last": "Hise",
+            "full": "Nicole Hise",
+            "native": null,
+            "userPreferred": "Nicole Hise"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/17135.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120950,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Makihara",
+        "last": "",
+        "full": "Makihara",
+        "native": "マキハラ",
+        "userPreferred": "Makihara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120950-Pv83mkwx62ur.jpg",
+      "voiceActors": [
+        {
+          "id": 95178,
+          "language": "Japanese",
+          "name": {
+            "first": "Shoutarou",
+            "last": "Morikubo",
+            "full": "Shoutarou Morikubo",
+            "native": "森久保祥太郎",
+            "userPreferred": "Shoutarou Morikubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95178-8R9Itg3Y1v24.png"
+        },
+        {
+          "id": 103589,
+          "language": "German",
+          "name": {
+            "first": "Lars",
+            "last": "Schmidtke",
+            "full": "Lars Schmidtke",
+            "native": null,
+            "userPreferred": "Lars Schmidtke"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8589.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 105245,
+      "relationType": "SIDE_STORY",
+      "malId": 38667,
+      "title": {
+        "romaji": "W'z OVA",
+        "english": null,
+        "native": null,
+        "userPreferred": "W'z OVA"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx105245-j8bbOawSxVgX.jpg",
+      "color": "#d61a28",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx105245-j8bbOawSxVgX.jpg",
+      "rating": 52
+    },
+    {
+      "id": 21731,
+      "relationType": "PREQUEL",
+      "malId": 32981,
+      "title": {
+        "romaji": "Hand Shakers",
+        "english": "Hand Shakers",
+        "native": "ハンドシェイカー",
+        "userPreferred": "Hand Shakers"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21731-jhhJdeuCnFjB.jpg",
+      "color": "#0d6bf1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21731-Lbf7R7OdN9Xa.jpg",
+      "rating": 42
+    }
+  ],
+  "episodes": [
+    {
+      "id": "wz-episode-1",
+      "title": "EYE'S Y'S Shout",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257496/original.jpg",
+      "number": 1,
+      "createdAt": "2018-12-05T15:29:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//wz-episode-1"
+    },
+    {
+      "id": "wz-episode-2",
+      "title": "ShE SaW Soul",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257497/original.jpg",
+      "number": 2,
+      "createdAt": "2018-12-05T15:29:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//wz-episode-2"
+    },
+    {
+      "id": "wz-episode-3",
+      "title": "Café CUP PUCk",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257498/original.jpg",
+      "number": 3,
+      "createdAt": "2018-12-05T15:29:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//wz-episode-3"
+    },
+    {
+      "id": "wz-episode-4",
+      "title": "FOuR FOR FORce",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257499/original.jpg",
+      "number": 4,
+      "createdAt": "2018-12-05T15:29:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//wz-episode-4"
+    },
+    {
+      "id": "wz-episode-5",
+      "title": "Turn Time gear",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257500/original.jpg",
+      "number": 5,
+      "createdAt": "2018-12-05T15:29:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//wz-episode-5"
+    },
+    {
+      "id": "wz-episode-6",
+      "title": "Cherry lily Cam",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257501/original.jpg",
+      "number": 6,
+      "createdAt": "2018-12-05T15:29:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//wz-episode-6"
+    },
+    {
+      "id": "wz-episode-7",
+      "title": "Get back boys",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257502/original.jpg",
+      "number": 7,
+      "createdAt": "2018-12-05T15:29:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//wz-episode-7"
+    },
+    {
+      "id": "wz-episode-8",
+      "title": "NO kNOw Noise",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257503/original.jpg",
+      "number": 8,
+      "createdAt": "2018-12-05T15:29:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//wz-episode-8"
+    },
+    {
+      "id": "wz-episode-9",
+      "title": "GReen GROss GROOvy",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257504/original.jpg",
+      "number": 9,
+      "createdAt": "2018-12-05T15:29:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//wz-episode-9"
+    },
+    {
+      "id": "wz-episode-10",
+      "title": "DUDDY bUDDY riDe",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257505/original.jpg",
+      "number": 10,
+      "createdAt": "2018-12-05T15:29:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//wz-episode-10"
+    },
+    {
+      "id": "wz-episode-11",
+      "title": "CHurch CHat Chat!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257506/original.jpg",
+      "number": 11,
+      "createdAt": "2018-12-05T15:29:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//wz-episode-11"
+    },
+    {
+      "id": "wz-episode-12",
+      "title": "Hi HOO HOOligan!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257507/original.jpg",
+      "number": 12,
+      "createdAt": "2018-12-05T15:29:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//wz-episode-12"
+    },
+    {
+      "id": "wz-episode-13",
+      "title": "My wish is surely…",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257508/original.jpg",
+      "number": 13,
+      "createdAt": "2018-12-05T15:29:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//wz-episode-13"
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "id": "1081",
+  "title": {
+    "romaji": "SPACE PIRATE CAPTAIN HERLOCK: OUTSIDE LEGEND - The Endless Odyssey",
+    "english": null,
+    "native": "SPACE PIRATE CAPTAIN HERLOCK OUTSIDE LEGEND 〜The Endless Odyssey〜"
+  },
+  "malId": 1081,
+  "synonyms": [
+    "Space Pirate Captain Herlock: The Endless Odyssey"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1081-FW0DHatfkBma.jpg",
+  "popularity": 1727,
+  "color": "#f1c9bb",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1081-FW0DHatfkBma.jpg",
+  "description": "On an archaelogical mission to the end of the known universe, Professor Daiba unwitting unleashes an ancient horror from its confines. Five years later the malevolent alien force sets in motion a plan which reunites the various crewmembers of the Arcadia to sail the stars once more as well as bring Tadashi Daiba to meet Harlock for the first time (again). <br><br>\n(Source: Anime News Network) ",
+  "status": "Completed",
+  "releaseDate": 2002,
+  "startDate": {
+    "year": 2002,
+    "month": 12,
+    "day": 21
+  },
+  "endDate": {
+    "year": 2003,
+    "month": 12,
+    "day": 21
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 66,
+  "duration": 25,
+  "genres": [
+    "Action",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "MADHOUSE"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 2888,
+      "role": "MAIN",
+      "name": {
+        "first": "Captain Harlock",
+        "last": "",
+        "full": "Captain Harlock",
+        "native": "キャプテン・ハーロック",
+        "userPreferred": "Captain Harlock"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2888.jpg",
+      "voiceActors": [
+        {
+          "id": 95011,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouichi",
+            "last": "Yamadera",
+            "full": "Kouichi Yamadera",
+            "native": "山寺宏一",
+            "userPreferred": "Kouichi Yamadera"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95011-2RfLzncNyvbR.png"
+        },
+        {
+          "id": 106101,
+          "language": "English",
+          "name": {
+            "first": "Russell",
+            "last": "Wait",
+            "full": "Russell Wait",
+            "native": null,
+            "userPreferred": "Russell Wait"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106101-KprCq2TspE3V.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24156,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kei",
+        "last": "Yuki",
+        "full": "Kei Yuki",
+        "native": "有紀蛍",
+        "userPreferred": "Kei Yuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24156.jpg",
+      "voiceActors": [
+        {
+          "id": 96111,
+          "language": "Japanese",
+          "name": {
+            "first": "Rei",
+            "last": "Sakuma",
+            "full": "Rei Sakuma",
+            "native": "佐久間レイ ",
+            "userPreferred": "Rei Sakuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96111-69cAO9T9llGo.png"
+        }
+      ]
+    },
+    {
+      "id": 25028,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miime",
+        "last": null,
+        "full": "Miime",
+        "native": "ミーメ ",
+        "userPreferred": "Miime"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25028.jpg",
+      "voiceActors": [
+        {
+          "id": 95170,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Minaguchi",
+            "full": "Yuuko Minaguchi",
+            "native": "皆口裕子",
+            "userPreferred": "Yuuko Minaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95170-oAiTh7t2T1J0.png"
+        }
+      ]
+    },
+    {
+      "id": 7951,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tochiro",
+        "last": "Ooyama",
+        "full": "Tochiro Ooyama",
+        "native": "大山トチロー",
+        "userPreferred": "Tochiro Ooyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7951.jpg",
+      "voiceActors": [
+        {
+          "id": 95067,
+          "language": "Japanese",
+          "name": {
+            "first": "Kappei",
+            "last": "Yamaguchi",
+            "full": "Kappei Yamaguchi",
+            "native": "山口勝平",
+            "userPreferred": "Kappei Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95067-hqIpNxMfAuN2.png"
+        }
+      ]
+    },
+    {
+      "id": 25025,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tadashi",
+        "last": "Daiba",
+        "full": "Tadashi Daiba",
+        "native": "台場正",
+        "userPreferred": "Tadashi Daiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25025.jpg",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1000,
+      "relationType": "PARENT",
+      "malId": 1000,
+      "title": {
+        "romaji": "Uchuu Kaizoku Captain Harlock",
+        "english": "Space Pirate Captain Harlock",
+        "native": "宇宙海賊キャプテンハーロック",
+        "userPreferred": "Uchuu Kaizoku Captain Harlock"
+      },
+      "status": "Completed",
+      "episodes": 42,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1000-dxR1NyPZXVbm.png",
+      "color": "#93351a",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1000-bRbPiTJ2PAYp.jpg",
+      "rating": 72
+    }
+  ],
+  "episodes": [
+    {
+      "id": "space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1081-FW0DHatfkBma.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-1"
+    },
+    {
+      "id": "space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1081-FW0DHatfkBma.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-2"
+    },
+    {
+      "id": "space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1081-FW0DHatfkBma.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-3"
+    },
+    {
+      "id": "space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1081-FW0DHatfkBma.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-4"
+    },
+    {
+      "id": "space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1081-FW0DHatfkBma.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-5"
+    },
+    {
+      "id": "space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1081-FW0DHatfkBma.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-6"
+    },
+    {
+      "id": "space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1081-FW0DHatfkBma.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-7"
+    },
+    {
+      "id": "space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1081-FW0DHatfkBma.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-8"
+    },
+    {
+      "id": "space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1081-FW0DHatfkBma.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-9"
+    },
+    {
+      "id": "space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1081-FW0DHatfkBma.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-10"
+    },
+    {
+      "id": "space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1081-FW0DHatfkBma.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-11"
+    },
+    {
+      "id": "space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1081-FW0DHatfkBma.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-12"
+    },
+    {
+      "id": "space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1081-FW0DHatfkBma.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//space-pirate-captain-herlock-outside-legend-the-endless-odyssey-episode-13"
+    }
+  ]
+}

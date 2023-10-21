@@ -1,0 +1,282 @@
+{
+  "id": "97890",
+  "title": {
+    "romaji": "Yami Shibai 4",
+    "english": "Theatre of Darkness: Yamishibai 4",
+    "native": "闇芝居 4"
+  },
+  "malId": 34467,
+  "synonyms": [
+    "Yamishibai: Japanese Ghost Stories 4",
+    "เรื่องเล่าผีญี่ปุ่น ภาค 4"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97890-vLA7FAi8EbgO.jpg",
+  "popularity": 6161,
+  "color": "#d6861a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97890-OBkk8NWEHLsc.jpg",
+  "description": "The fourth season of <i>Yami Shibai</i>.<br><br>\n\nA picture-story style of animation whose motif is surrounded and based off the rumors, and urban legends throughout the history of Japan.<br><br>\n\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2017,
+  "startDate": {
+    "year": 2017,
+    "month": 1,
+    "day": 16
+  },
+  "endDate": {
+    "year": 2017,
+    "month": 3,
+    "day": 27
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 53,
+  "duration": 5,
+  "genres": [
+    "Horror",
+    "Supernatural"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "ILCA"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 21224,
+      "malId": 30948,
+      "title": {
+        "romaji": "Kowabon",
+        "english": null,
+        "native": "こわぼん",
+        "userPreferred": "Kowabon"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21224-eQoxsSrPZEA2.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21224-RJYgu9dgRkCr.jpg",
+      "rating": 47,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 136264,
+      "malId": 30463,
+      "title": {
+        "romaji": "Kyoufu Shinbun (2014)",
+        "english": null,
+        "native": "恐怖新聞 (2014)",
+        "userPreferred": "Kyoufu Shinbun (2014)"
+      },
+      "status": "Completed",
+      "episodes": 16,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b136264-7Z5tPL8EE4W1.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b136264-7Z5tPL8EE4W1.jpg",
+      "rating": 44,
+      "type": "ONA"
+    },
+    {
+      "id": 150653,
+      "malId": 52031,
+      "title": {
+        "romaji": "Itou Junji: Maniac",
+        "english": "Junji Ito Maniac: Japanese Tales of the Macabre",
+        "native": "伊藤潤二『マニアック』",
+        "userPreferred": "Itou Junji: Maniac"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx150653-i7vaNr06DoQF.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/150653-T4P5zRw9xYXp.jpg",
+      "rating": 65,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 139456,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Kamishibaiya",
+        "last": null,
+        "full": "Kamishibaiya",
+        "native": "紙芝居屋",
+        "userPreferred": "Kamishibaiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b139456-BAznrkqsl3pC.jpg",
+      "voiceActors": [
+        {
+          "id": 101372,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanji",
+            "last": "Tsuda",
+            "full": "Kanji Tsuda",
+            "native": "津田寛治",
+            "userPreferred": "Kanji Tsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101372-p7f3H459Q6Zq.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 21473,
+      "relationType": "PREQUEL",
+      "malId": 31994,
+      "title": {
+        "romaji": "Yami Shibai 3",
+        "english": "Theatre of Darkness: Yamishibai 3",
+        "native": "闇芝居 3",
+        "userPreferred": "Yami Shibai 3"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21473-A7nx5Cd7wW3J.jpg",
+      "color": "#ae9328",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21473-KLckNI12BNTx.jpg",
+      "rating": 58
+    },
+    {
+      "id": 98978,
+      "relationType": "SEQUEL",
+      "malId": 35714,
+      "title": {
+        "romaji": "Yami Shibai 5",
+        "english": "Theatre of Darkness: Yamishibai 5",
+        "native": "闇芝居 5",
+        "userPreferred": "Yami Shibai 5"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98978-YtfFTv9qgU1Q.jpg",
+      "color": "#c9286b",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98978-iZ11QjTFSOth.jpg",
+      "rating": 58
+    }
+  ],
+  "episodes": [
+    {
+      "id": "yami-shibai-4-episode-1",
+      "title": "Tongue",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97890-vLA7FAi8EbgO.jpg",
+      "number": 1,
+      "createdAt": "2017-06-30T15:26:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-4-episode-1"
+    },
+    {
+      "id": "yami-shibai-4-episode-2",
+      "title": "Fish Tank",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97890-vLA7FAi8EbgO.jpg",
+      "number": 2,
+      "createdAt": "2017-06-30T15:26:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-4-episode-2"
+    },
+    {
+      "id": "yami-shibai-4-episode-3",
+      "title": "Sewing Shears",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97890-vLA7FAi8EbgO.jpg",
+      "number": 3,
+      "createdAt": "2017-06-30T15:26:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-4-episode-3"
+    },
+    {
+      "id": "yami-shibai-4-episode-4",
+      "title": "Red High Heel",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97890-vLA7FAi8EbgO.jpg",
+      "number": 4,
+      "createdAt": "2017-06-30T15:26:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-4-episode-4"
+    },
+    {
+      "id": "yami-shibai-4-episode-5",
+      "title": "Night Bus",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97890-vLA7FAi8EbgO.jpg",
+      "number": 5,
+      "createdAt": "2017-06-30T15:26:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-4-episode-5"
+    },
+    {
+      "id": "yami-shibai-4-episode-6",
+      "title": "Guess Who?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97890-vLA7FAi8EbgO.jpg",
+      "number": 6,
+      "createdAt": "2017-06-30T15:26:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-4-episode-6"
+    },
+    {
+      "id": "yami-shibai-4-episode-7",
+      "title": "Footsteps",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97890-vLA7FAi8EbgO.jpg",
+      "number": 7,
+      "createdAt": "2017-06-30T15:26:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-4-episode-7"
+    },
+    {
+      "id": "yami-shibai-4-episode-8",
+      "title": "Cassette Tape",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97890-vLA7FAi8EbgO.jpg",
+      "number": 8,
+      "createdAt": "2017-06-30T15:26:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-4-episode-8"
+    },
+    {
+      "id": "yami-shibai-4-episode-9",
+      "title": "Grinding Teeth",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97890-vLA7FAi8EbgO.jpg",
+      "number": 9,
+      "createdAt": "2017-06-30T15:26:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-4-episode-9"
+    },
+    {
+      "id": "yami-shibai-4-episode-10",
+      "title": "Calling Crane",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97890-vLA7FAi8EbgO.jpg",
+      "number": 10,
+      "createdAt": "2017-06-30T15:26:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-4-episode-10"
+    },
+    {
+      "id": "yami-shibai-4-episode-11",
+      "title": "White Line",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97890-vLA7FAi8EbgO.jpg",
+      "number": 11,
+      "createdAt": "2017-06-30T15:26:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-4-episode-11"
+    },
+    {
+      "id": "yami-shibai-4-episode-12",
+      "title": "Snow Hut",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97890-vLA7FAi8EbgO.jpg",
+      "number": 12,
+      "createdAt": "2017-06-30T15:26:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-4-episode-12"
+    },
+    {
+      "id": "yami-shibai-4-episode-13",
+      "title": "Underground Walkway",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97890-vLA7FAi8EbgO.jpg",
+      "number": 13,
+      "createdAt": "2017-06-30T15:26:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yami-shibai-4-episode-13"
+    }
+  ]
+}

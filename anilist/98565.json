@@ -1,0 +1,778 @@
+{
+  "id": "98565",
+  "title": {
+    "romaji": "Osomatsu-san 2",
+    "english": "Mr. Osomatsu 2nd season",
+    "native": "おそ松さん 2"
+  },
+  "malId": 35067,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "M06J7P1yCHI",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/M06J7P1yCHI/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+  "popularity": 11656,
+  "color": "#5086e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98565-Km46w3GXIMOX.jpg",
+  "description": "The second season of Osomatsu-san.",
+  "status": "Completed",
+  "releaseDate": 2017,
+  "startDate": {
+    "year": 2017,
+    "month": 10,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2018,
+    "month": 3,
+    "day": 27
+  },
+  "totalEpisodes": 25,
+  "currentEpisode": 25,
+  "rating": 73,
+  "duration": 25,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Studio Pierrot"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 918,
+      "malId": 918,
+      "title": {
+        "romaji": "Gintama",
+        "english": "Gintama",
+        "native": "銀魂",
+        "userPreferred": "Gintama"
+      },
+      "status": "Completed",
+      "episodes": 201,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/918-bljqHE1PFArH.jpg",
+      "rating": 85,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 89283,
+      "role": "MAIN",
+      "name": {
+        "first": "Karamatsu",
+        "last": "Matsuno",
+        "full": "Karamatsu Matsuno",
+        "native": "松野カラ松",
+        "userPreferred": "Karamatsu Matsuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89283-OoDi0NDKca10.jpg",
+      "voiceActors": [
+        {
+          "id": 95513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Nakamura",
+            "full": "Yuuichi Nakamura",
+            "native": "中村悠一",
+            "userPreferred": "Yuuichi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95513-up9ZDuocHgRs.png"
+        }
+      ]
+    },
+    {
+      "id": 89284,
+      "role": "MAIN",
+      "name": {
+        "first": "Osomatsu",
+        "last": "Matsuno",
+        "full": "Osomatsu Matsuno",
+        "native": "松野おそ松",
+        "userPreferred": "Osomatsu Matsuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89284-PS9MiNutefpm.jpg",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 89282,
+      "role": "MAIN",
+      "name": {
+        "first": "Choromatsu",
+        "last": "Matsuno",
+        "full": "Choromatsu Matsuno",
+        "native": "松野チョロ松",
+        "userPreferred": "Choromatsu Matsuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89282-cANUgjkRZi1V.jpg",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        }
+      ]
+    },
+    {
+      "id": 89280,
+      "role": "MAIN",
+      "name": {
+        "first": "Ichimatsu",
+        "last": "Matsuno",
+        "full": "Ichimatsu Matsuno",
+        "native": "松野一松",
+        "userPreferred": "Ichimatsu Matsuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89280-sqBIW0hvVIcm.jpg",
+      "voiceActors": [
+        {
+          "id": 95086,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukuyama",
+            "full": "Jun Fukuyama",
+            "native": "福山潤",
+            "userPreferred": "Jun Fukuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95086-cwKYmhOFNtH5.png"
+        }
+      ]
+    },
+    {
+      "id": 89279,
+      "role": "MAIN",
+      "name": {
+        "first": "Jyushimatsu",
+        "last": "Matsuno",
+        "full": "Jyushimatsu Matsuno",
+        "native": "松野十四松",
+        "userPreferred": "Jyushimatsu Matsuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89279-cSBHMBqqOJLV.jpg",
+      "voiceActors": [
+        {
+          "id": 95212,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Ono",
+            "full": "Daisuke Ono",
+            "native": "小野大輔",
+            "userPreferred": "Daisuke Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95212-wX1M4LJN96q2.png"
+        }
+      ]
+    },
+    {
+      "id": 89281,
+      "role": "MAIN",
+      "name": {
+        "first": "Todomatsu",
+        "last": "Matsuno",
+        "full": "Todomatsu Matsuno",
+        "native": "松野トド松",
+        "userPreferred": "Todomatsu Matsuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89281-8cXUC1XRLQjy.jpg",
+      "voiceActors": [
+        {
+          "id": 95088,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Irino",
+            "full": "Miyu Irino",
+            "native": "入野自由",
+            "userPreferred": "Miyu Irino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95088-BHyqnkadBEqi.png"
+        }
+      ]
+    },
+    {
+      "id": 89286,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Iyami",
+        "last": null,
+        "full": "Iyami",
+        "native": "井矢見 / イヤミ",
+        "userPreferred": "Iyami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89286-lZJ7KrYsAXY5.jpg",
+      "voiceActors": [
+        {
+          "id": 95005,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Suzumura",
+            "full": "Kenichi Suzumura",
+            "native": "鈴村健一",
+            "userPreferred": "Kenichi Suzumura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95005-SkoVN02iOglr.png"
+        }
+      ]
+    },
+    {
+      "id": 89288,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dekapan",
+        "last": null,
+        "full": "Dekapan",
+        "native": "デカパン",
+        "userPreferred": "Dekapan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89288-07g5oBk3ISja.jpg",
+      "voiceActors": [
+        {
+          "id": 95926,
+          "language": "Japanese",
+          "name": {
+            "first": "Youji",
+            "last": "Ueda",
+            "full": "Youji Ueda",
+            "native": "上田燿司",
+            "userPreferred": "Youji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95926-IzwXTUF5tUJD.png"
+        }
+      ]
+    },
+    {
+      "id": 89289,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Totoko",
+        "last": "Yowai",
+        "full": "Totoko Yowai",
+        "native": "弱井 魚魚子",
+        "userPreferred": "Totoko Yowai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89289-P9otLuuwCUix.jpg",
+      "voiceActors": [
+        {
+          "id": 95054,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Endou",
+            "full": "Aya Endou",
+            "native": "遠藤綾",
+            "userPreferred": "Aya Endou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95054-8VgnlGK5QX2A.png"
+        }
+      ]
+    },
+    {
+      "id": 89285,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chibita",
+        "last": null,
+        "full": "Chibita",
+        "native": "チビ太",
+        "userPreferred": "Chibita"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89285-XQfKpmHfGW4A.jpg",
+      "voiceActors": [
+        {
+          "id": 100997,
+          "language": "Japanese",
+          "name": {
+            "first": "Sachi",
+            "last": "Kokuryuu",
+            "full": "Sachi Kokuryuu",
+            "native": "國立幸",
+            "userPreferred": "Sachi Kokuryuu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100997-LpXQJVqFUVpW.png"
+        }
+      ]
+    },
+    {
+      "id": 89287,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dayon",
+        "last": null,
+        "full": "Dayon",
+        "native": "ダヨーン",
+        "userPreferred": "Dayon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89287-7rJazFo0GDBH.jpg",
+      "voiceActors": [
+        {
+          "id": 95157,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuo",
+            "last": "Tobita",
+            "full": "Nobuo Tobita",
+            "native": "飛田展男",
+            "userPreferred": "Nobuo Tobita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95157-td6WhlGehuDJ.png"
+        }
+      ]
+    },
+    {
+      "id": 205469,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nyaa",
+        "last": "Hashimoto",
+        "full": "Nyaa Hashimoto",
+        "native": "橋本にゃー",
+        "userPreferred": "Nyaa Hashimoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b205469-QHLzdrsT3Ec7.png",
+      "voiceActors": [
+        {
+          "id": 118472,
+          "language": "Japanese",
+          "name": {
+            "first": "Nanami",
+            "last": "Yamashita",
+            "full": "Nanami Yamashita",
+            "native": "山下七海",
+            "userPreferred": "Nanami Yamashita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118472-YEwaeltqQmPc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 89292,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Matsuzou",
+        "last": "Matsuno",
+        "full": "Matsuzou Matsuno",
+        "native": "松野 松造",
+        "userPreferred": "Matsuzou Matsuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89292-4XOZGBND9B1o.jpg",
+      "voiceActors": [
+        {
+          "id": 95021,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiko",
+            "last": "Inoue",
+            "full": "Kazuhiko Inoue",
+            "native": "井上和彦",
+            "userPreferred": "Kazuhiko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95021-9qAoAn6GNZ3S.png"
+        }
+      ]
+    },
+    {
+      "id": 89291,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Matsuyo",
+        "last": "Matsuno",
+        "full": "Matsuyo Matsuno",
+        "native": "松野 松代",
+        "userPreferred": "Matsuyo Matsuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89291-agrZNG8okiti.jpg",
+      "voiceActors": [
+        {
+          "id": 95103,
+          "language": "Japanese",
+          "name": {
+            "first": "Kujira",
+            "last": "",
+            "full": "Kujira",
+            "native": "くじら",
+            "userPreferred": "Kujira"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95103-u0gfczhE9neg.png"
+        }
+      ]
+    },
+    {
+      "id": 245522,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Kamimatsu",
+        "last": "Matsuno",
+        "full": "Kamimatsu Matsuno",
+        "native": "松野神松",
+        "userPreferred": "Kamimatsu Matsuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 245520,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Akumatsu",
+        "last": null,
+        "full": "Akumatsu",
+        "native": "悪松",
+        "userPreferred": "Akumatsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b245520-ByQG18PMF6MV.png",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 21261,
+      "relationType": "PREQUEL",
+      "malId": 31174,
+      "title": {
+        "romaji": "Osomatsu-san",
+        "english": "Mr. Osomatsu",
+        "native": "おそ松さん",
+        "userPreferred": "Osomatsu-san"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21261-jLm2IGonsEzU.jpg",
+      "color": "#ffc943",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21261-BMbsmqX9g1M7.jpg",
+      "rating": 76
+    },
+    {
+      "id": 87010,
+      "relationType": "ADAPTATION",
+      "malId": 95212,
+      "title": {
+        "romaji": "Osomatsu-san",
+        "english": null,
+        "native": "おそ松さん",
+        "userPreferred": "Osomatsu-san"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx87010-Y2XMF0qQCHuB.jpg",
+      "color": "#c9e450",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx87010-Y2XMF0qQCHuB.jpg",
+      "rating": 74
+    },
+    {
+      "id": 120851,
+      "relationType": "SEQUEL",
+      "malId": 42391,
+      "title": {
+        "romaji": "Osomatsu-san 3",
+        "english": "Mr. Osomatsu 3rd season",
+        "native": "おそ松さん 3",
+        "userPreferred": "Osomatsu-san 3"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120851-94u8CMlI599g.jpg",
+      "color": "#43aef1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120851-7qSabfmAvkkU.jpg",
+      "rating": 73
+    },
+    {
+      "id": 135166,
+      "relationType": "ALTERNATIVE",
+      "malId": 96597,
+      "title": {
+        "romaji": "Osomatsu-san",
+        "english": null,
+        "native": "おそ松さん",
+        "userPreferred": "Osomatsu-san"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx135166-Gfc5zSuUpyoY.jpg",
+      "color": null,
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx135166-Gfc5zSuUpyoY.jpg",
+      "rating": 70
+    },
+    {
+      "id": 145985,
+      "relationType": "SIDE_STORY",
+      "malId": 36761,
+      "title": {
+        "romaji": "Osomatsu-san 2 Short Film Series",
+        "english": null,
+        "native": "おそ松さん 第2期ショートフィルムシリーズ",
+        "userPreferred": "Osomatsu-san 2 Short Film Series"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx145985-yIeSw33Stvnx.jpg",
+      "color": null,
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx145985-yIeSw33Stvnx.jpg",
+      "rating": 54
+    }
+  ],
+  "episodes": [
+    {
+      "id": "osomatsu-san-2-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-1"
+    },
+    {
+      "id": "osomatsu-san-2-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-2"
+    },
+    {
+      "id": "osomatsu-san-2-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-3"
+    },
+    {
+      "id": "osomatsu-san-2-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-4"
+    },
+    {
+      "id": "osomatsu-san-2-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-5"
+    },
+    {
+      "id": "osomatsu-san-2-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-6"
+    },
+    {
+      "id": "osomatsu-san-2-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-7"
+    },
+    {
+      "id": "osomatsu-san-2-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-8"
+    },
+    {
+      "id": "osomatsu-san-2-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-9"
+    },
+    {
+      "id": "osomatsu-san-2-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-10"
+    },
+    {
+      "id": "osomatsu-san-2-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-11"
+    },
+    {
+      "id": "osomatsu-san-2-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-12"
+    },
+    {
+      "id": "osomatsu-san-2-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-13"
+    },
+    {
+      "id": "osomatsu-san-2-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-14"
+    },
+    {
+      "id": "osomatsu-san-2-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-15"
+    },
+    {
+      "id": "osomatsu-san-2-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-16"
+    },
+    {
+      "id": "osomatsu-san-2-episode-17",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 17,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-17"
+    },
+    {
+      "id": "osomatsu-san-2-episode-18",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 18,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-18"
+    },
+    {
+      "id": "osomatsu-san-2-episode-19",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 19,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-19"
+    },
+    {
+      "id": "osomatsu-san-2-episode-20",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 20,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-20"
+    },
+    {
+      "id": "osomatsu-san-2-episode-21",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 21,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-21"
+    },
+    {
+      "id": "osomatsu-san-2-episode-22",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 22,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-22"
+    },
+    {
+      "id": "osomatsu-san-2-episode-23",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 23,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-23"
+    },
+    {
+      "id": "osomatsu-san-2-episode-24",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 24,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-24"
+    },
+    {
+      "id": "osomatsu-san-2-episode-25",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98565-SflMvnfkJY82.jpg",
+      "number": 25,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osomatsu-san-2-episode-25"
+    }
+  ]
+}

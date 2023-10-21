@@ -1,0 +1,594 @@
+{
+  "id": "868",
+  "title": {
+    "romaji": "Slayers Great",
+    "english": null,
+    "native": "スレーヤーズぐれえと"
+  },
+  "malId": 868,
+  "synonyms": [
+    "Slayers Movie 3"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx868-R4rOWMZVjjvR.png",
+  "popularity": 3121,
+  "color": "#d61a1a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx868-R4rOWMZVjjvR.png",
+  "description": "Laia Einburg wants for her father Galia, who is a talented golom maker, and her equally ambitious brother Huey to end a long running feud. But her luck changes for the worse when Lina Inverse and Naga the Serpent save Laia from a rampaging golem. <br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 1997,
+  "startDate": {
+    "year": 1997,
+    "month": 8,
+    "day": 2
+  },
+  "endDate": {
+    "year": 1997,
+    "month": 8,
+    "day": 2
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 68,
+  "duration": 59,
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "J.C. Staff"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 1045,
+      "malId": 1045,
+      "title": {
+        "romaji": "Elf wo Karu Mono-tachi",
+        "english": "Those Who Hunt Elves",
+        "native": "エルフを狩るモノたち",
+        "userPreferred": "Elf wo Karu Mono-tachi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1045-JFyFjdbqX0o3.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n1045-Vo3VqvbYrGgP.jpg",
+      "rating": 65,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 1169,
+      "role": "MAIN",
+      "name": {
+        "first": "Lina",
+        "last": "Inverse",
+        "full": "Lina Inverse",
+        "native": "リナ・インバース",
+        "userPreferred": "Lina Inverse"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1169-tIWNE5shc8pF.png",
+      "voiceActors": [
+        {
+          "id": 95014,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Hayashibara",
+            "full": "Megumi Hayashibara",
+            "native": "林原めぐみ",
+            "userPreferred": "Megumi Hayashibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95014-VqxNuufY94V3.png"
+        },
+        {
+          "id": 95721,
+          "language": "English",
+          "name": {
+            "first": "Cynthia",
+            "last": "Martinez",
+            "full": "Cynthia Martinez",
+            "native": null,
+            "userPreferred": "Cynthia Martinez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95721-4wGzyO12bXAP.jpg"
+        },
+        {
+          "id": 96090,
+          "language": "Italian",
+          "name": {
+            "first": "Emanuela",
+            "last": "Pacotto",
+            "full": "Emanuela Pacotto",
+            "native": null,
+            "userPreferred": "Emanuela Pacotto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96090-UnDifVZ6rNS2.png"
+        },
+        {
+          "id": 100032,
+          "language": "German",
+          "name": {
+            "first": "Shandra",
+            "last": "Schadt",
+            "full": "Shandra Schadt",
+            "native": null,
+            "userPreferred": "Shandra Schadt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5032.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3365,
+      "role": "MAIN",
+      "name": {
+        "first": "Gracia Ul Naga",
+        "last": "Saillune",
+        "full": "Gracia Ul Naga Saillune",
+        "native": "白蛇のナーガ",
+        "userPreferred": "Gracia Ul Naga Saillune"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3365.jpg",
+      "voiceActors": [
+        {
+          "id": 96295,
+          "language": "Japanese",
+          "name": {
+            "first": "Maria",
+            "last": "Kawamura",
+            "full": "Maria Kawamura",
+            "native": "川村万梨阿",
+            "userPreferred": "Maria Kawamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96295-i8Ve82EZ373Y.png"
+        },
+        {
+          "id": 95607,
+          "language": "English",
+          "name": {
+            "first": "Kelly",
+            "last": "Manison",
+            "full": "Kelly Manison",
+            "native": null,
+            "userPreferred": "Kelly Manison"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/607.jpg"
+        },
+        {
+          "id": 96663,
+          "language": "Italian",
+          "name": {
+            "first": "Marcella",
+            "last": "Silvestri",
+            "full": "Marcella Silvestri",
+            "native": null,
+            "userPreferred": "Marcella Silvestri"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1663.jpg"
+        },
+        {
+          "id": 104072,
+          "language": "German",
+          "name": {
+            "first": "Veronika Aryana",
+            "last": "Neugebauer",
+            "full": "Veronika Aryana Neugebauer",
+            "native": null,
+            "userPreferred": "Veronika Aryana Neugebauer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9072.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41880,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lord Granion",
+        "last": null,
+        "full": "Lord Granion",
+        "native": null,
+        "userPreferred": "Lord Granion"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41880.jpg",
+      "voiceActors": [
+        {
+          "id": 95084,
+          "language": "Japanese",
+          "name": {
+            "first": "Norio",
+            "last": "Wakamoto",
+            "full": "Norio Wakamoto",
+            "native": "若本規夫",
+            "userPreferred": "Norio Wakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95084-RTrZSU38POPF.png"
+        },
+        {
+          "id": 158619,
+          "language": "Italian",
+          "name": {
+            "first": "Marcello",
+            "last": "Cortese",
+            "full": "Marcello Cortese",
+            "native": null,
+            "userPreferred": "Marcello Cortese"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 145189,
+          "language": "German",
+          "name": {
+            "first": "Ulf Jürgen",
+            "last": "Söhmisch",
+            "full": "Ulf Jürgen Söhmisch",
+            "native": null,
+            "userPreferred": "Ulf Jürgen Söhmisch"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41878,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Laia",
+        "last": "Einburg",
+        "full": "Laia Einburg",
+        "native": null,
+        "userPreferred": "Laia Einburg"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41878.jpg",
+      "voiceActors": [
+        {
+          "id": 95195,
+          "language": "Japanese",
+          "name": {
+            "first": "Kikuko",
+            "last": "Inoue",
+            "full": "Kikuko Inoue",
+            "native": "井上喜久子",
+            "userPreferred": "Kikuko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95195-nLvtZl5sCK0D.png"
+        },
+        {
+          "id": 95151,
+          "language": "English",
+          "name": {
+            "first": "Hilary",
+            "last": "Haag",
+            "full": "Hilary Haag",
+            "native": null,
+            "userPreferred": "Hilary Haag"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/151.jpg"
+        },
+        {
+          "id": 96280,
+          "language": "Italian",
+          "name": {
+            "first": "Elisabetta",
+            "last": "Spinelli",
+            "full": "Elisabetta Spinelli",
+            "native": null,
+            "userPreferred": "Elisabetta Spinelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96280-Z4a9OF7HxJ75.jpg"
+        },
+        {
+          "id": 100894,
+          "language": "German",
+          "name": {
+            "first": "Beate",
+            "last": "Pfeiffer",
+            "full": "Beate Pfeiffer",
+            "native": null,
+            "userPreferred": "Beate Pfeiffer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100894-tee291yihGcV.png"
+        }
+      ]
+    },
+    {
+      "id": 41879,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Huey",
+        "last": "Einburg",
+        "full": "Huey Einburg",
+        "native": null,
+        "userPreferred": "Huey Einburg"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41879.jpg",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        },
+        {
+          "id": 95153,
+          "language": "English",
+          "name": {
+            "first": "Andy",
+            "last": "McAvin",
+            "full": "Andy McAvin",
+            "native": null,
+            "userPreferred": "Andy McAvin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/153.jpg"
+        },
+        {
+          "id": 96268,
+          "language": "Italian",
+          "name": {
+            "first": "Patrizio",
+            "last": "Prata",
+            "full": "Patrizio Prata",
+            "native": null,
+            "userPreferred": "Patrizio Prata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96268-zO83Agjsj8HU.png"
+        },
+        {
+          "id": 180208,
+          "language": "German",
+          "name": {
+            "first": "Florian",
+            "last": "Bauer",
+            "full": "Florian Bauer",
+            "native": null,
+            "userPreferred": "Florian Bauer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41882,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Galia",
+        "last": "Einburg",
+        "full": "Galia Einburg",
+        "native": null,
+        "userPreferred": "Galia Einburg"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41882.jpg",
+      "voiceActors": [
+        {
+          "id": 96036,
+          "language": "Japanese",
+          "name": {
+            "first": "Seizou",
+            "last": "Katou",
+            "full": "Seizou Katou",
+            "native": "加藤精三",
+            "userPreferred": "Seizou Katou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96036-i2L5KwYbS8KR.jpg"
+        },
+        {
+          "id": 104760,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Tyson",
+            "full": "John Tyson",
+            "native": null,
+            "userPreferred": "John Tyson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104760-zAky5ZOJO3ra.jpg"
+        },
+        {
+          "id": 157831,
+          "language": "Italian",
+          "name": {
+            "first": "Stefano",
+            "last": "Albertini",
+            "full": "Stefano Albertini",
+            "native": null,
+            "userPreferred": "Stefano Albertini"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 140284,
+          "language": "German",
+          "name": {
+            "first": "Dieter",
+            "last": "Memel",
+            "full": "Dieter Memel",
+            "native": null,
+            "userPreferred": "Dieter Memel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n140284-N1e7jSW7VdfK.png"
+        }
+      ]
+    },
+    {
+      "id": 41881,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lord Haizen",
+        "last": null,
+        "full": "Lord Haizen",
+        "native": null,
+        "userPreferred": "Lord Haizen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41881.jpg",
+      "voiceActors": [
+        {
+          "id": 100699,
+          "language": "Japanese",
+          "name": {
+            "first": "Kiyoshi",
+            "last": "Kawakubo",
+            "full": "Kiyoshi Kawakubo",
+            "native": "川久保潔",
+            "userPreferred": "Kiyoshi Kawakubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100699-smg48DdDVIJJ.png"
+        },
+        {
+          "id": 96240,
+          "language": "Italian",
+          "name": {
+            "first": "Mario",
+            "last": "Scarabelli",
+            "full": "Mario Scarabelli",
+            "native": null,
+            "userPreferred": "Mario Scarabelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96240-skGulG7kauYH.png"
+        },
+        {
+          "id": 116361,
+          "language": "German",
+          "name": {
+            "first": "Claus",
+            "last": "Brockmeyer",
+            "full": "Claus Brockmeyer",
+            "native": null,
+            "userPreferred": "Claus Brockmeyer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21361.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41883,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Granion's Aid",
+        "last": null,
+        "full": "Granion's Aid",
+        "native": null,
+        "userPreferred": "Granion's Aid"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41883.jpg",
+      "voiceActors": [
+        {
+          "id": 95424,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaneto",
+            "last": "Shiozawa",
+            "full": "Kaneto Shiozawa",
+            "native": "塩沢兼人",
+            "userPreferred": "Kaneto Shiozawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95424-Zd7vHDVhSWKs.jpg"
+        },
+        {
+          "id": 106921,
+          "language": "Italian",
+          "name": {
+            "first": "Pino",
+            "last": "Pirovano",
+            "full": "Pino Pirovano",
+            "native": null,
+            "userPreferred": "Pino Pirovano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106921-RETH1foEtb5G.jpg"
+        },
+        {
+          "id": 185072,
+          "language": "German",
+          "name": {
+            "first": "Alexander",
+            "last": "Wangler",
+            "full": "Alexander Wangler",
+            "native": null,
+            "userPreferred": "Alexander Wangler"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 869,
+      "relationType": "PREQUEL",
+      "malId": 869,
+      "title": {
+        "romaji": "Slayers RETURN",
+        "english": null,
+        "native": "スレイヤーズRETURN",
+        "userPreferred": "Slayers RETURN"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx869-QTbtFWkoKzWl.png",
+      "color": "#e47850",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx869-QTbtFWkoKzWl.png",
+      "rating": 69
+    },
+    {
+      "id": 867,
+      "relationType": "SEQUEL",
+      "malId": 867,
+      "title": {
+        "romaji": "Slayers Gorgeous",
+        "english": "Slayers Gorgeous",
+        "native": "スレイヤーズごぅじゃす",
+        "userPreferred": "Slayers Gorgeous"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx867-7KYmDWP4S43Q.png",
+      "color": "#e45d28",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n867-BZvH7F54dreC.jpg",
+      "rating": 69
+    },
+    {
+      "id": 50871,
+      "relationType": "ADAPTATION",
+      "malId": 20871,
+      "title": {
+        "romaji": "Slayers Original",
+        "english": null,
+        "native": "スレイヤーズおりぢなる",
+        "userPreferred": "Slayers Original"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/20871.jpg",
+      "color": "#ae5d35",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/20871.jpg",
+      "rating": 68
+    }
+  ],
+  "episodes": [
+    {
+      "id": "slayers-great-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx868-R4rOWMZVjjvR.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//slayers-great-episode-1"
+    }
+  ]
+}

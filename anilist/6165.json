@@ -1,0 +1,504 @@
+{
+  "id": "6165",
+  "title": {
+    "romaji": "WHITE ALBUM 2nd Season",
+    "english": null,
+    "native": "WHITE ALBUM 第2期"
+  },
+  "malId": 6165,
+  "synonyms": [
+    "White Album Second Season",
+    "White Album the Latter Half"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6165.jpg",
+  "popularity": 9185,
+  "color": "#e4a150",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6165.jpg",
+  "description": "The second season of White Album, also known as episodes 14-26.",
+  "status": "Completed",
+  "releaseDate": 2009,
+  "startDate": {
+    "year": 2009,
+    "month": 10,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2009,
+    "month": 12,
+    "day": 24
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 63,
+  "duration": 25,
+  "genres": [
+    "Drama",
+    "Music",
+    "Romance"
+  ],
+  "season": "FALL",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 18245,
+      "malId": 18245,
+      "title": {
+        "romaji": "WHITE ALBUM 2",
+        "english": "White Album 2",
+        "native": "WHITE ALBUM 2",
+        "userPreferred": "WHITE ALBUM 2"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18245-q7Z7kXaQyck7.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18245-kcqQvFqQmMg2.jpg",
+      "rating": 74,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 16522,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuki",
+        "last": "Morikawa",
+        "full": "Yuki Morikawa",
+        "native": "森川由綺",
+        "userPreferred": "Yuki Morikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16522.jpg",
+      "voiceActors": [
+        {
+          "id": 95004,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Hirano",
+            "full": "Aya Hirano",
+            "native": "平野綾",
+            "userPreferred": "Aya Hirano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95004-qWQQHGzY3wqr.png"
+        }
+      ]
+    },
+    {
+      "id": 15514,
+      "role": "MAIN",
+      "name": {
+        "first": "Touya",
+        "last": "Fujii",
+        "full": "Touya Fujii",
+        "native": "藤井 冬弥",
+        "userPreferred": "Touya Fujii"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15514.jpg",
+      "voiceActors": [
+        {
+          "id": 96489,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoaki",
+            "last": "Maeno",
+            "full": "Tomoaki Maeno",
+            "native": "前野智昭",
+            "userPreferred": "Tomoaki Maeno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96489-xTzYxgdC9g9l.png"
+        }
+      ]
+    },
+    {
+      "id": 16523,
+      "role": "MAIN",
+      "name": {
+        "first": "Rina",
+        "last": "Ogata",
+        "full": "Rina Ogata",
+        "native": "緒方理奈",
+        "userPreferred": "Rina Ogata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16523.jpg",
+      "voiceActors": [
+        {
+          "id": 95081,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Mizuki",
+            "full": "Nana Mizuki",
+            "native": "水樹奈々",
+            "userPreferred": "Nana Mizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95081-qto4UanYkpQT.png"
+        }
+      ]
+    },
+    {
+      "id": 18205,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mana",
+        "last": "Mizuki",
+        "full": "Mana Mizuki",
+        "native": "観月 マナ",
+        "userPreferred": "Mana Mizuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18205.jpg",
+      "voiceActors": [
+        {
+          "id": 95890,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Tomatsu",
+            "full": "Haruka Tomatsu",
+            "native": "戸松遥",
+            "userPreferred": "Haruka Tomatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95890-pDWHkOm4ncq0.png"
+        }
+      ]
+    },
+    {
+      "id": 18203,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Misaki",
+        "last": "Sawakura",
+        "full": "Misaki Sawakura",
+        "native": "澤倉 美咲",
+        "userPreferred": "Misaki Sawakura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18203.jpg",
+      "voiceActors": [
+        {
+          "id": 95046,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Takamoto",
+            "full": "Megumi Takamoto",
+            "native": "高本めぐみ",
+            "userPreferred": "Megumi Takamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95046-3vW0I3zKOpfW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18204,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haruka",
+        "last": "Kawashima",
+        "full": "Haruka Kawashima",
+        "native": "河島 はるか",
+        "userPreferred": "Haruka Kawashima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18204.jpg",
+      "voiceActors": [
+        {
+          "id": 96500,
+          "language": "Japanese",
+          "name": {
+            "first": "Nozomi",
+            "last": "Masu",
+            "full": "Nozomi Masu",
+            "native": "望 升",
+            "userPreferred": "Nozomi Masu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1500.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18206,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yayoi",
+        "last": "Shinozuka",
+        "full": "Yayoi Shinozuka",
+        "native": "篠塚弥生",
+        "userPreferred": "Yayoi Shinozuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b18206-k1e1DlQ8awwT.jpg",
+      "voiceActors": [
+        {
+          "id": 95082,
+          "language": "Japanese",
+          "name": {
+            "first": "Romi",
+            "last": "Park",
+            "full": "Romi Park",
+            "native": "朴璐美",
+            "userPreferred": "Romi Park"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95082-pNGbnYv4cHAK.png"
+        }
+      ]
+    },
+    {
+      "id": 18209,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Frank",
+        "last": "Nagase",
+        "full": "Frank Nagase",
+        "native": "フランク長瀬",
+        "userPreferred": "Frank Nagase"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b18209-XpHe3yFEObrq.png",
+      "voiceActors": []
+    },
+    {
+      "id": 28377,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tamaru",
+        "last": null,
+        "full": "Tamaru",
+        "native": "田丸",
+        "userPreferred": "Tamaru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28377.jpg",
+      "voiceActors": [
+        {
+          "id": 95123,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuya",
+            "last": "Nakai",
+            "full": "Kazuya Nakai",
+            "native": "中井和哉",
+            "userPreferred": "Kazuya Nakai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95123-qdVFNraYmQ5K.png"
+        }
+      ]
+    },
+    {
+      "id": 18208,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eiji",
+        "last": "Ogata",
+        "full": "Eiji Ogata",
+        "native": "緒方 英二",
+        "userPreferred": "Eiji Ogata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18208.jpg",
+      "voiceActors": [
+        {
+          "id": 95137,
+          "language": "Japanese",
+          "name": {
+            "first": "Shou",
+            "last": "Hayami",
+            "full": "Shou Hayami",
+            "native": "速水奨",
+            "userPreferred": "Shou Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95137-2Q5l3Br9G7sk.png"
+        }
+      ]
+    },
+    {
+      "id": 18207,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akira",
+        "last": "Nanase",
+        "full": "Akira Nanase",
+        "native": "七瀬 彰",
+        "userPreferred": "Akira Nanase"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18207.jpg",
+      "voiceActors": [
+        {
+          "id": 95278,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Sakaguchi",
+            "full": "Daisuke Sakaguchi",
+            "native": "阪口大助",
+            "userPreferred": "Daisuke Sakaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95278-IrUPhIvJCsF9.png"
+        }
+      ]
+    },
+    {
+      "id": 20805,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Menou",
+        "last": "Matsuyama",
+        "full": "Menou Matsuyama",
+        "native": "松山めのう",
+        "userPreferred": "Menou Matsuyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20805.jpg",
+      "voiceActors": [
+        {
+          "id": 95709,
+          "language": "Japanese",
+          "name": {
+            "first": "Rumi",
+            "last": "Shishido",
+            "full": "Rumi Shishido",
+            "native": "宍戸留美",
+            "userPreferred": "Rumi Shishido"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95709-1rUYsS5GXdN3.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 4720,
+      "relationType": "PREQUEL",
+      "malId": 4720,
+      "title": {
+        "romaji": "WHITE ALBUM",
+        "english": "White Album",
+        "native": "WHITE ALBUM",
+        "userPreferred": "WHITE ALBUM"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4720-5wuPkrYXAyMV.jpg",
+      "color": "#e4ae5d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4720-kuH3bRSfgnKg.jpg",
+      "rating": 60
+    }
+  ],
+  "episodes": [
+    {
+      "id": "white-album-2nd-season-episode-1",
+      "title": "There was never an instance where the tuning matched. I have come to think that there exists a better spot out there.",
+      "image": "https://media.kitsu.io/episodes/thumbnails/73080/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:27:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//white-album-2nd-season-episode-1"
+    },
+    {
+      "id": "white-album-2nd-season-episode-2",
+      "title": "The things hidden from view are destroying everything around it. Since it was never there, nothing can be done to deal with it.",
+      "image": "https://media.kitsu.io/episodes/thumbnails/73081/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:27:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//white-album-2nd-season-episode-2"
+    },
+    {
+      "id": "white-album-2nd-season-episode-3",
+      "title": "I do writhe in embarrassment when I reminisce my childhood. Moreover so if I make comparisons.",
+      "image": "https://media.kitsu.io/episodes/thumbnails/73082/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:27:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//white-album-2nd-season-episode-3"
+    },
+    {
+      "id": "white-album-2nd-season-episode-4",
+      "title": "I have lies that I want to expose. I have truths that I do not wish to believe. I have one of these each.",
+      "image": "https://media.kitsu.io/episodes/thumbnails/73083/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:27:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//white-album-2nd-season-episode-4"
+    },
+    {
+      "id": "white-album-2nd-season-episode-5",
+      "title": "Aren't you taking too much for granted? Complaining that you are claustrophobic while you are hiding in your own shell.",
+      "image": "https://media.kitsu.io/episodes/thumbnails/73084/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:27:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//white-album-2nd-season-episode-5"
+    },
+    {
+      "id": "white-album-2nd-season-episode-6",
+      "title": "I move on as I am losing interest. Most of the time though, I seem to have already lost interest before I move on.",
+      "image": "https://media.kitsu.io/episodes/thumbnails/73085/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:27:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//white-album-2nd-season-episode-6"
+    },
+    {
+      "id": "white-album-2nd-season-episode-7",
+      "title": "Love is beyond reason. Lovers who say this to one another are poets, critics, philosophers.",
+      "image": "https://media.kitsu.io/episodes/thumbnails/73086/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:27:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//white-album-2nd-season-episode-7"
+    },
+    {
+      "id": "white-album-2nd-season-episode-8",
+      "title": "I think I want to return to the crossroad. Would have been better if I had chosen the right one. That journey filled only with regret.",
+      "image": "https://media.kitsu.io/episodes/thumbnails/73087/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:27:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//white-album-2nd-season-episode-8"
+    },
+    {
+      "id": "white-album-2nd-season-episode-9",
+      "title": "Having troubles expressing yourself? Try to strike a conversation with your eyes and you'll soon find yourself in the mood for a chat.",
+      "image": "https://media.kitsu.io/episodes/thumbnails/73088/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:27:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//white-album-2nd-season-episode-9"
+    },
+    {
+      "id": "white-album-2nd-season-episode-10",
+      "title": "I have come to desire catching a cold in anticipation of the nursing and the home-cooked dishes. I didn't include the later part suffering in my imagination at all.",
+      "image": "https://media.kitsu.io/episodes/thumbnails/73089/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:27:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//white-album-2nd-season-episode-10"
+    },
+    {
+      "id": "white-album-2nd-season-episode-11",
+      "title": "Nightfall did not bring about anything at all. It was the fault of the sun that the colors faded.",
+      "image": "https://media.kitsu.io/episodes/thumbnails/73090/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:27:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//white-album-2nd-season-episode-11"
+    },
+    {
+      "id": "white-album-2nd-season-episode-12",
+      "title": "It's the fault of others. I'm not at fault. All the fault lies in others. Only I myself am―",
+      "image": "https://media.kitsu.io/episodes/thumbnails/73091/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:27:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//white-album-2nd-season-episode-12"
+    },
+    {
+      "id": "white-album-2nd-season-episode-13",
+      "title": "We were sitting together all night long, not even being able to move a single inch.",
+      "image": "https://media.kitsu.io/episodes/thumbnails/73092/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:27:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//white-album-2nd-season-episode-13"
+    }
+  ]
+}

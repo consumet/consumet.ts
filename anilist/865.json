@@ -1,0 +1,808 @@
+{
+  "id": "865",
+  "title": {
+    "romaji": "Kikou Senki Dragonar",
+    "english": "Metal Armor Dragonar",
+    "native": "機甲戦記ドラグナー"
+  },
+  "malId": 865,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+  "popularity": 1748,
+  "color": "#e47843",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+  "description": " A.D. 2087 - the United Lunar Empire Giganos wages war on the Earth Federation Military to take control of the planet and establish a \"rebirth\" of the human race. During an invasion of a colony by Giganos' forces, three civilian men stumble upon a trio of top-secret Metal Armor units called \"Dragonars\" and pilot them to combat the enemy forces. <br>",
+  "status": "Completed",
+  "releaseDate": 1987,
+  "startDate": {
+    "year": 1987,
+    "month": 2,
+    "day": 7
+  },
+  "endDate": {
+    "year": 1988,
+    "month": 1,
+    "day": 30
+  },
+  "totalEpisodes": 48,
+  "currentEpisode": 48,
+  "rating": 57,
+  "duration": 24,
+  "genres": [
+    "Adventure",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Sunrise"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 80,
+      "malId": 80,
+      "title": {
+        "romaji": "Kidou Senshi Gundam",
+        "english": "Mobile Suit Gundam",
+        "native": "機動戦士ガンダム",
+        "userPreferred": "Kidou Senshi Gundam"
+      },
+      "status": "Completed",
+      "episodes": 43,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx80-HKQTjSNuFlHu.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/80-LcQhJ600WeDn.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 2987,
+      "malId": 2987,
+      "title": {
+        "romaji": "Ginga Hyouryuu Vifam",
+        "english": "Round Vernian Vifam",
+        "native": "銀河漂流バイファム",
+        "userPreferred": "Ginga Hyouryuu Vifam"
+      },
+      "status": "Completed",
+      "episodes": 46,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2987-utRU1wq9ZLNv.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2987-xdFZAohhvIRk.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 15863,
+      "malId": 15863,
+      "title": {
+        "romaji": "Ginga Kikoutai Majestic Prince",
+        "english": "Majestic Prince",
+        "native": "銀河機攻隊 マジェスティックプリンス",
+        "userPreferred": "Ginga Kikoutai Majestic Prince"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15863-QskWXArq9Gqh.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15863-kUDzWFB2DXp3.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 2255,
+      "malId": 2255,
+      "title": {
+        "romaji": "Choujuu Kishin Dancougar",
+        "english": "Dancouga: Super Beast Machine God",
+        "native": "超獣機神ダンクーガ",
+        "userPreferred": "Choujuu Kishin Dancougar"
+      },
+      "status": "Completed",
+      "episodes": 38,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2255.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2255.jpg",
+      "rating": 63,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 27995,
+      "role": "MAIN",
+      "name": {
+        "first": "Light",
+        "last": "Newman",
+        "full": "Light Newman",
+        "native": "ライト・ニューマン",
+        "userPreferred": "Light Newman"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27995.jpg",
+      "voiceActors": [
+        {
+          "id": 95262,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenyuu",
+            "last": "Horiuchi",
+            "full": "Kenyuu Horiuchi",
+            "native": "堀内賢雄",
+            "userPreferred": "Kenyuu Horiuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/262.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3720,
+      "role": "MAIN",
+      "name": {
+        "first": "Tapp",
+        "last": "Oceano",
+        "full": "Tapp Oceano",
+        "native": "タップ・オセアノ",
+        "userPreferred": "Tapp Oceano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3720.jpg",
+      "voiceActors": [
+        {
+          "id": 95337,
+          "language": "Japanese",
+          "name": {
+            "first": "Houchuu",
+            "last": "Ootsuka",
+            "full": "Houchuu Ootsuka",
+            "native": "大塚芳忠",
+            "userPreferred": "Houchuu Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95337-NnvEQEBKV2dR.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27996,
+      "role": "MAIN",
+      "name": {
+        "first": "Kaine",
+        "last": "Wakaba",
+        "full": "Kaine Wakaba",
+        "native": "ケーン・ワカバ",
+        "userPreferred": "Kaine Wakaba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27996.jpg",
+      "voiceActors": [
+        {
+          "id": 95488,
+          "language": "Japanese",
+          "name": {
+            "first": "Masami",
+            "last": "Kikuchi",
+            "full": "Masami Kikuchi",
+            "native": "菊池正美",
+            "userPreferred": "Masami Kikuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95488-XPg4VA6rW4jJ.png"
+        }
+      ]
+    },
+    {
+      "id": 27999,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rose",
+        "last": "Pattenton",
+        "full": "Rose Pattenton",
+        "native": "ローズ・パテントン",
+        "userPreferred": "Rose Pattenton"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27999.jpg",
+      "voiceActors": [
+        {
+          "id": 95066,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Hiramatsu",
+            "full": "Akiko Hiramatsu",
+            "native": "平松晶子",
+            "userPreferred": "Akiko Hiramatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95066-oCD0liGFKqlH.png"
+        }
+      ]
+    },
+    {
+      "id": 27998,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Linda",
+        "last": "Plato",
+        "full": "Linda Plato",
+        "native": "リンダ・プラート",
+        "userPreferred": "Linda Plato"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27998.jpg",
+      "voiceActors": [
+        {
+          "id": 105105,
+          "language": "Japanese",
+          "name": {
+            "first": "Kayoko",
+            "last": "Fujii",
+            "full": "Kayoko Fujii",
+            "native": "藤井佳代子",
+            "userPreferred": "Kayoko Fujii"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10105.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27997,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Meio",
+        "last": "Plato",
+        "full": "Meio Plato",
+        "native": "マイヨ・プラート",
+        "userPreferred": "Meio Plato"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27997.jpg",
+      "voiceActors": [
+        {
+          "id": 95237,
+          "language": "Japanese",
+          "name": {
+            "first": "Juurouta",
+            "last": "Kosugi",
+            "full": "Juurouta Kosugi",
+            "native": "小杉十郎太",
+            "userPreferred": "Juurouta Kosugi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95237-nelrZUfvh2FH.png"
+        }
+      ]
+    },
+    {
+      "id": 28428,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lang",
+        "last": "Plato",
+        "full": "Lang Plato",
+        "native": "ラング・プラート",
+        "userPreferred": "Lang Plato"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28428.jpg",
+      "voiceActors": [
+        {
+          "id": 113335,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouichi",
+            "last": "Chiba",
+            "full": "Kouichi Chiba",
+            "native": "千葉耕市",
+            "userPreferred": "Kouichi Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/18335.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28000,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Diane",
+        "last": "Lance",
+        "full": "Diane Lance",
+        "native": "ダイアン・ランス",
+        "userPreferred": "Diane Lance"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28000.jpg",
+      "voiceActors": [
+        {
+          "id": 95342,
+          "language": "Japanese",
+          "name": {
+            "first": "Masako",
+            "last": "Katsuki",
+            "full": "Masako Katsuki",
+            "native": "勝生真沙子",
+            "userPreferred": "Masako Katsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95342-pC8tGadzfTNb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28001,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lee Sue",
+        "last": "Min",
+        "full": "Lee Sue Min",
+        "native": "リー・スー・ミン",
+        "userPreferred": "Lee Sue Min"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28001.jpg",
+      "voiceActors": [
+        {
+          "id": 95957,
+          "language": "Japanese",
+          "name": {
+            "first": "Saeko",
+            "last": "Shimazu",
+            "full": "Saeko Shimazu",
+            "native": "島津冴子",
+            "userPreferred": "Saeko Shimazu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/957.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28427,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ben",
+        "last": "Rooney",
+        "full": "Ben Rooney",
+        "native": "ベン・ルーニー",
+        "userPreferred": "Ben Rooney"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28427.jpg",
+      "voiceActors": [
+        {
+          "id": 101087,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Shimaka",
+            "full": "Yuu Shimaka",
+            "native": "島香裕",
+            "userPreferred": "Yuu Shimaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101087-ySTK8Wu7KIvH.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "kikou-senki-dragonar-episode-1",
+      "title": "Day of Fire",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-1"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-2",
+      "title": "Battle in the Ruins",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-2"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-3",
+      "title": "The Blue Eagle of Giganos",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-3"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-4",
+      "title": "The Men's Battlefield",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-4"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-5",
+      "title": "Battle of Promise",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-5"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-6",
+      "title": "Training for Warriors",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-6"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-7",
+      "title": "Goodbye Japther",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-7"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-8",
+      "title": "Battle: Retrieve Prisoners [Part One]",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-8"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-9",
+      "title": "Battle: Retrieve Prisoners [Part Two]",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-9"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-10",
+      "title": "Intense Battle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-10"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-11",
+      "title": "Land of Feverish Hope",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-11"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-12",
+      "title": "To Each Their Own Path",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-12"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-13",
+      "title": "Countdown to Mass Driver",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-13"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-14",
+      "title": "A New Journey",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-14"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-15",
+      "title": "Dragonar's Close Shave",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-15"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-16",
+      "title": "Trap of the Replenishment Base",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-16"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-17",
+      "title": "Destruction Grant",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-17"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-18",
+      "title": "The Blue Eagle's Suprise Attack",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-18"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-19",
+      "title": "Flight Weapon D (Dragonar)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-19"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-20",
+      "title": "Meeting Again on the Ocean",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-20"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-21",
+      "title": "Enemy MA (Metal Armor) Capture Maneuvers",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-21"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-22",
+      "title": "Giganos Fortress Destruction Order",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-22"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-23",
+      "title": "Confrontation with Maio Plato",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-23"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-24",
+      "title": " \t Large Shanghai Flight",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-24"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-25",
+      "title": "D-Weapon Re-Planning",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-25"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-26",
+      "title": "Fear of Gun Jiem",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-26"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-27",
+      "title": "Seeing! Dragonar Guerrilla Warfare Party",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 27,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-27"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-28",
+      "title": "The Threatening Viper Unit",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 28,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-28"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-29",
+      "title": "Disappearance! Rescue Linda",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 29,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-29"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-30",
+      "title": "Necessary Shooting! Chain Saw Attack",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 30,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-30"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-31",
+      "title": "Assassins from the Moon",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 31,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-31"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-32",
+      "title": "Sniper of Vengeance",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 32,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-32"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-33",
+      "title": "Betrayal of Giganos",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 33,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-33"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-34",
+      "title": "Close Attack! Earth Spider Maneuvers",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 34,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-34"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-35",
+      "title": "Fear! Infinite Movement Gun",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 35,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-35"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-36",
+      "title": " Super Attack! Gun Jiem's Anger",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 36,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-36"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-37",
+      "title": "Overthrow! Viper Seiryuu sword",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 37,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-37"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-38",
+      "title": "Appearance! Ultimate MA (Metal Armor)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 38,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-38"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-39",
+      "title": "Heroic! Gun Jiem's Last Moments",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 39,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-39"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-40",
+      "title": "Cunning! Major Haidel Nekken",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 40,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-40"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-41",
+      "title": "Revival! Blue Eagle of Giganos",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 41,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-41"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-42",
+      "title": "Move! Giganos' Invincible Fortress",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 42,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-42"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-43",
+      "title": "Decision! Enormous Fortress Attack Order",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 43,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-43"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-44",
+      "title": "Heartless! Dragonar vs. Dragonar",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 44,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-44"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-45",
+      "title": "Special Attack! Blue Eagle's Vengeance",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 45,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-45"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-46",
+      "title": "Break In! Rescue Aoi Wakaba",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 46,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-46"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-47",
+      "title": "Pressing Hard! Captain Min's Pursuit",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 47,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-47"
+    },
+    {
+      "id": "kikou-senki-dragonar-episode-48",
+      "title": "The Universal (Heavenly) Victory",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx865-izgThpRMbYaK.jpg",
+      "number": 48,
+      "createdAt": "2013-02-20T18:21:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kikou-senki-dragonar-episode-48"
+    }
+  ]
+}

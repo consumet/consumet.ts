@@ -1,0 +1,844 @@
+{
+  "id": "3654",
+  "title": {
+    "romaji": "Macademi WAsshoi!",
+    "english": null,
+    "native": "まかでみWAっしょい！"
+  },
+  "malId": 3654,
+  "synonyms": [
+    "The Magician's Academy",
+    "MA Project"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "XMpXohKzitc",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/XMpXohKzitc/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3654.jpg",
+  "popularity": 5726,
+  "color": "#e4ae50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3654.jpg",
+  "description": "Magician's Academy revolves around Takuto Hasegawa, who attends a magic academy that is not marked on any map. During a summoning spell exam, he accidentally creates a girl named Tanarot, who happens to hold enough magical power to destroy his country, but fortunately Tanarot professes undying loyalty to her \"creator.\"\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 10,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 12,
+    "day": 22
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 62,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Ecchi",
+    "Fantasy",
+    "Romance",
+    "Supernatural"
+  ],
+  "season": "FALL",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 3577,
+      "malId": 3577,
+      "title": {
+        "romaji": "Kyouran Kazoku Nikki",
+        "english": null,
+        "native": "狂乱家族日記",
+        "userPreferred": "Kyouran Kazoku Nikki"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3577-NcHhhGJk3kcz.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3577-NcHhhGJk3kcz.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 3464,
+      "malId": 3464,
+      "title": {
+        "romaji": "Kemeko DX",
+        "english": null,
+        "native": "ケメコデラックス！",
+        "userPreferred": "Kemeko DX"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3464.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3464.jpg",
+      "rating": 60,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 16270,
+      "role": "MAIN",
+      "name": {
+        "first": "Takuto",
+        "last": "Hasegawa",
+        "full": "Takuto Hasegawa",
+        "native": "羽瀬川拓人",
+        "userPreferred": "Takuto Hasegawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16270.jpg",
+      "voiceActors": [
+        {
+          "id": 95070,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Koshimizu",
+            "full": "Ami Koshimizu",
+            "native": "小清水亜美",
+            "userPreferred": "Ami Koshimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95070-klkIfKz1VItS.png"
+        },
+        {
+          "id": 109757,
+          "language": "Korean",
+          "name": {
+            "first": "Won Hyeong",
+            "last": "Choi",
+            "full": "Won Hyeong Choi",
+            "native": "원형 최",
+            "userPreferred": "Won Hyeong Choi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14757.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16271,
+      "role": "MAIN",
+      "name": {
+        "first": "Tanarotte",
+        "last": "Unthirteen",
+        "full": "Tanarotte Unthirteen",
+        "native": "タナロット",
+        "userPreferred": "Tanarotte Unthirteen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16271.jpg",
+      "voiceActors": [
+        {
+          "id": 95655,
+          "language": "Japanese",
+          "name": {
+            "first": "Mariya",
+            "last": "Ise",
+            "full": "Mariya Ise",
+            "native": "伊瀬茉莉也",
+            "userPreferred": "Mariya Ise"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95655-KbQUnQTroukJ.png"
+        },
+        {
+          "id": 109823,
+          "language": "Korean",
+          "name": {
+            "first": "Mi Na",
+            "last": "Yun",
+            "full": "Mi Na Yun",
+            "native": "미나 윤",
+            "userPreferred": "Mi Na Yun"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14823.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16273,
+      "role": "MAIN",
+      "name": {
+        "first": "Suzuho",
+        "last": "Hasegawa",
+        "full": "Suzuho Hasegawa",
+        "native": "羽瀬川鈴穂",
+        "userPreferred": "Suzuho Hasegawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16273.jpg",
+      "voiceActors": [
+        {
+          "id": 95309,
+          "language": "Japanese",
+          "name": {
+            "first": "Ui",
+            "last": "Miyazaki",
+            "full": "Ui Miyazaki",
+            "native": "羽衣 宮崎",
+            "userPreferred": "Ui Miyazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/309.jpg"
+        },
+        {
+          "id": 109755,
+          "language": "Korean",
+          "name": {
+            "first": "Jeong-Hwa",
+            "last": "Yang",
+            "full": "Jeong-Hwa Yang",
+            "native": "정화 양",
+            "userPreferred": "Jeong-Hwa Yang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14755.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16297,
+      "role": "MAIN",
+      "name": {
+        "first": "Falce",
+        "last": null,
+        "full": "Falce",
+        "native": "ファルチェ",
+        "userPreferred": "Falce"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16297.jpg",
+      "voiceActors": [
+        {
+          "id": 95359,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Fukui",
+            "full": "Yukari Fukui",
+            "native": "福井裕佳梨",
+            "userPreferred": "Yukari Fukui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95359-ZgCbzadpH4g4.png"
+        },
+        {
+          "id": 109993,
+          "language": "Korean",
+          "name": {
+            "first": "Ji Yeong",
+            "last": "Lee",
+            "full": "Ji Yeong Lee",
+            "native": "이지영",
+            "userPreferred": "Ji Yeong Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109993-WIQ4T5SCuW8X.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16272,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eneus",
+        "last": null,
+        "full": "Eneus",
+        "native": "エーネウス・ザ・バージェスト",
+        "userPreferred": "Eneus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16272.jpg",
+      "voiceActors": [
+        {
+          "id": 95013,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayako",
+            "last": "Kawasumi",
+            "full": "Ayako Kawasumi",
+            "native": "川澄綾子",
+            "userPreferred": "Ayako Kawasumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95013-cwl64qXuP2r7.png"
+        }
+      ]
+    },
+    {
+      "id": 21632,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mariera",
+        "last": null,
+        "full": "Mariera",
+        "native": null,
+        "userPreferred": "Mariera"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21632.jpg",
+      "voiceActors": [
+        {
+          "id": 95158,
+          "language": "Japanese",
+          "name": {
+            "first": "Marina",
+            "last": "Inoue",
+            "full": "Marina Inoue",
+            "native": "井上麻里奈",
+            "userPreferred": "Marina Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95158-OLhgs8zv5xsp.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16274,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Trincia",
+        "last": null,
+        "full": "Trincia",
+        "native": "トリンシア",
+        "userPreferred": "Trincia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16274.jpg",
+      "voiceActors": [
+        {
+          "id": 95467,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Kimura",
+            "full": "Akiko Kimura",
+            "native": "木村亜希子",
+            "userPreferred": "Akiko Kimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/467.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21629,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Synclavia",
+        "last": null,
+        "full": "Synclavia",
+        "native": null,
+        "userPreferred": "Synclavia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21629.jpg",
+      "voiceActors": [
+        {
+          "id": 95034,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Kobayashi",
+            "full": "Yuu Kobayashi",
+            "native": "小林ゆう",
+            "userPreferred": "Yuu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95034-AwobjrcmkMi9.png"
+        }
+      ]
+    },
+    {
+      "id": 21628,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miyabi",
+        "last": null,
+        "full": "Miyabi",
+        "native": null,
+        "userPreferred": "Miyabi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21628.jpg",
+      "voiceActors": [
+        {
+          "id": 95184,
+          "language": "Japanese",
+          "name": {
+            "first": "Hitomi",
+            "last": "Nabatame",
+            "full": "Hitomi Nabatame",
+            "native": "生天目仁美",
+            "userPreferred": "Hitomi Nabatame"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95184-OpXCWNXhJJpg.png"
+        }
+      ]
+    },
+    {
+      "id": 17161,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eitarou",
+        "last": "Sakuma",
+        "full": "Eitarou Sakuma",
+        "native": null,
+        "userPreferred": "Eitarou Sakuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17161.jpg",
+      "voiceActors": [
+        {
+          "id": 95494,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuma",
+            "last": "Terashima",
+            "full": "Takuma Terashima",
+            "native": "寺島拓篤",
+            "userPreferred": "Takuma Terashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95494-HetCpJKbDy1B.png"
+        }
+      ]
+    },
+    {
+      "id": 16309,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Futaba",
+        "last": "Kirishima",
+        "full": "Futaba Kirishima",
+        "native": null,
+        "userPreferred": "Futaba Kirishima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16309.jpg",
+      "voiceActors": [
+        {
+          "id": 95241,
+          "language": "Japanese",
+          "name": {
+            "first": "Rina",
+            "last": "Satou",
+            "full": "Rina Satou",
+            "native": "佐藤利奈",
+            "userPreferred": "Rina Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95241-4XvR64oguxwS.png"
+        }
+      ]
+    },
+    {
+      "id": 21630,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Finea",
+        "last": null,
+        "full": "Finea",
+        "native": null,
+        "userPreferred": "Finea"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21630.jpg",
+      "voiceActors": [
+        {
+          "id": 95094,
+          "language": "Japanese",
+          "name": {
+            "first": "Akeno",
+            "last": "Watanabe",
+            "full": "Akeno Watanabe",
+            "native": "渡边明乃",
+            "userPreferred": "Akeno Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95094-nRPWBG1cVGo5.png"
+        }
+      ]
+    },
+    {
+      "id": 22094,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Frankram",
+        "last": "Stein",
+        "full": "Frankram Stein",
+        "native": "フランクラム・シュタイン教授 ",
+        "userPreferred": "Frankram Stein"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22094.jpg",
+      "voiceActors": [
+        {
+          "id": 95257,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuyuki",
+            "last": "Hiyama",
+            "full": "Nobuyuki Hiyama",
+            "native": "檜山修之",
+            "userPreferred": "Nobuyuki Hiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95257-PgYwsBplRSJa.png"
+        }
+      ]
+    },
+    {
+      "id": 24283,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Paltia",
+        "last": null,
+        "full": "Paltia",
+        "native": "パルティア",
+        "userPreferred": "Paltia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24283.jpg",
+      "voiceActors": [
+        {
+          "id": 95823,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayahi",
+            "last": "Takagaki",
+            "full": "Ayahi Takagaki",
+            "native": "高垣彩陽",
+            "userPreferred": "Ayahi Takagaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95823-gJC6Tr9HDOqy.png"
+        }
+      ]
+    },
+    {
+      "id": 25301,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Metalys",
+        "last": null,
+        "full": "Metalys",
+        "native": null,
+        "userPreferred": "Metalys"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25301.jpg",
+      "voiceActors": [
+        {
+          "id": 95094,
+          "language": "Japanese",
+          "name": {
+            "first": "Akeno",
+            "last": "Watanabe",
+            "full": "Akeno Watanabe",
+            "native": "渡边明乃",
+            "userPreferred": "Akeno Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95094-nRPWBG1cVGo5.png"
+        }
+      ]
+    },
+    {
+      "id": 26618,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "George",
+        "last": null,
+        "full": "George",
+        "native": null,
+        "userPreferred": "George"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26618.jpg",
+      "voiceActors": [
+        {
+          "id": 105660,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuhiro",
+            "last": "Sakamaki",
+            "full": "Mitsuhiro Sakamaki",
+            "native": "酒巻光宏",
+            "userPreferred": "Mitsuhiro Sakamaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105660-TAnAAoaKvBOG.png"
+        }
+      ]
+    },
+    {
+      "id": 26391,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Agaliarept",
+        "last": null,
+        "full": "Agaliarept",
+        "native": null,
+        "userPreferred": "Agaliarept"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26391.jpg",
+      "voiceActors": [
+        {
+          "id": 95095,
+          "language": "Japanese",
+          "name": {
+            "first": "Junichi",
+            "last": "Suwabe",
+            "full": "Junichi Suwabe",
+            "native": "諏訪部順一",
+            "userPreferred": "Junichi Suwabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95095-DvSjTQnqcgXP.png"
+        }
+      ]
+    },
+    {
+      "id": 18588,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Professor Sagami",
+        "last": null,
+        "full": "Professor Sagami",
+        "native": null,
+        "userPreferred": "Professor Sagami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18588.jpg",
+      "voiceActors": [
+        {
+          "id": 95323,
+          "language": "Japanese",
+          "name": {
+            "first": "Omi",
+            "last": "Minami",
+            "full": "Omi Minami",
+            "native": "南央美",
+            "userPreferred": "Omi Minami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95323-IEzYhIR4WaHK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26617,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tanarotte",
+        "last": null,
+        "full": "Tanarotte",
+        "native": null,
+        "userPreferred": "Tanarotte"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26617.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 26619,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hazuki",
+        "last": "Kirishima",
+        "full": "Hazuki Kirishima",
+        "native": null,
+        "userPreferred": "Hazuki Kirishima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26619.jpg",
+      "voiceActors": [
+        {
+          "id": 95123,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuya",
+            "last": "Nakai",
+            "full": "Kazuya Nakai",
+            "native": "中井和哉",
+            "userPreferred": "Kazuya Nakai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95123-qdVFNraYmQ5K.png"
+        }
+      ]
+    },
+    {
+      "id": 19002,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hapsiel",
+        "last": null,
+        "full": "Hapsiel",
+        "native": "ハプシエル",
+        "userPreferred": "Hapsiel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19002.jpg",
+      "voiceActors": [
+        {
+          "id": 95157,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuo",
+            "last": "Tobita",
+            "full": "Nobuo Tobita",
+            "native": "飛田展男",
+            "userPreferred": "Nobuo Tobita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95157-td6WhlGehuDJ.png"
+        }
+      ]
+    },
+    {
+      "id": 21631,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gabriel",
+        "last": null,
+        "full": "Gabriel",
+        "native": null,
+        "userPreferred": "Gabriel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21631.jpg",
+      "voiceActors": [
+        {
+          "id": 95401,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Matsuki",
+            "full": "Miyu Matsuki",
+            "native": "松来未祐",
+            "userPreferred": "Miyu Matsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95401-2ffju56ewc36.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 38663,
+      "relationType": "ADAPTATION",
+      "malId": 8663,
+      "title": {
+        "romaji": "The Magician's Academy",
+        "english": "The Magician's Academy",
+        "native": "まじしゃんず・あかでみい",
+        "userPreferred": "The Magician's Academy"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/8663.jpg",
+      "color": "#f19335",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/8663.jpg",
+      "rating": 74
+    },
+    {
+      "id": 91902,
+      "relationType": "ADAPTATION",
+      "malId": 73941,
+      "title": {
+        "romaji": "Magician's Academy",
+        "english": null,
+        "native": "まじしゃんず・あかでみい",
+        "userPreferred": "Magician's Academy"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/91902-yRHEmEyI1c4g.jpg",
+      "color": "#f19300",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/91902-yRHEmEyI1c4g.jpg",
+      "rating": 75
+    }
+  ],
+  "episodes": [
+    {
+      "id": "macademi-wasshoi-episode-1",
+      "title": "Somehow a Girl Came Out",
+      "image": "https://media.kitsu.io/episodes/thumbnails/53305/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:25:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//macademi-wasshoi-episode-1"
+    },
+    {
+      "id": "macademi-wasshoi-episode-2",
+      "title": "Somehow, What You're Doing Became a Serious Case.",
+      "image": "https://media.kitsu.io/episodes/thumbnails/53306/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:25:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//macademi-wasshoi-episode-2"
+    },
+    {
+      "id": "macademi-wasshoi-episode-3",
+      "title": "We Somehow Even Got a Demon Lord Coming Out",
+      "image": "https://media.kitsu.io/episodes/thumbnails/53307/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:25:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//macademi-wasshoi-episode-3"
+    },
+    {
+      "id": "macademi-wasshoi-episode-4",
+      "title": "This is Somewhat Like a Crime",
+      "image": "https://media.kitsu.io/episodes/thumbnails/53308/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:25:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//macademi-wasshoi-episode-4"
+    },
+    {
+      "id": "macademi-wasshoi-episode-5",
+      "title": "The Love Of The Two",
+      "image": "https://media.kitsu.io/episodes/thumbnails/53309/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:25:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//macademi-wasshoi-episode-5"
+    },
+    {
+      "id": "macademi-wasshoi-episode-6",
+      "title": "It's Blue Angel Happening",
+      "image": "https://media.kitsu.io/episodes/thumbnails/53310/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:25:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//macademi-wasshoi-episode-6"
+    },
+    {
+      "id": "macademi-wasshoi-episode-7",
+      "title": "It's Somehow A Fashion Show",
+      "image": "https://media.kitsu.io/episodes/thumbnails/53311/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:25:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//macademi-wasshoi-episode-7"
+    },
+    {
+      "id": "macademi-wasshoi-episode-8",
+      "title": "It's Somehow a Maid, a Ghost and a Mecha",
+      "image": "https://media.kitsu.io/episodes/thumbnails/53312/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:25:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//macademi-wasshoi-episode-8"
+    },
+    {
+      "id": "macademi-wasshoi-episode-9",
+      "title": "Somehow, a Sister Came & It's a Date",
+      "image": "https://media.kitsu.io/episodes/thumbnails/53313/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:25:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//macademi-wasshoi-episode-9"
+    },
+    {
+      "id": "macademi-wasshoi-episode-10",
+      "title": "Somehow, the Vacant, Snowy Peaks Invite Multitudes",
+      "image": "https://media.kitsu.io/episodes/thumbnails/53314/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:25:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//macademi-wasshoi-episode-10"
+    },
+    {
+      "id": "macademi-wasshoi-episode-11",
+      "title": "It's Somehow a Matter of Possibilities",
+      "image": "https://media.kitsu.io/episodes/thumbnails/53315/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:25:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//macademi-wasshoi-episode-11"
+    },
+    {
+      "id": "macademi-wasshoi-episode-12",
+      "title": "It's Somehow a Rampage on the Holy Night",
+      "image": "https://media.kitsu.io/episodes/thumbnails/53316/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:25:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//macademi-wasshoi-episode-12"
+    }
+  ]
+}

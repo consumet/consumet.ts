@@ -1,0 +1,785 @@
+{
+  "id": "9934",
+  "title": {
+    "romaji": "Nekogami Yaoyorozu",
+    "english": "The Everyday Tales of a Cat God",
+    "native": "猫神やおよろず"
+  },
+  "malId": 9934,
+  "synonyms": [
+    "Cat God"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9934.jpg",
+  "popularity": 4468,
+  "color": "#e4785d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9934.jpg",
+  "description": "Koyama Yuzu is running an antique shop. Mayu, a cat god (nekogami), is living off Yuzu and leads an idle life playing games. Lots of other gods visit Mayu and enjoy merrymaking.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2011,
+  "startDate": {
+    "year": 2011,
+    "month": 7,
+    "day": 9
+  },
+  "endDate": {
+    "year": 2011,
+    "month": 9,
+    "day": 24
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 61,
+  "duration": 23,
+  "genres": [
+    "Comedy",
+    "Slice of Life",
+    "Supernatural"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "AIC Plus+"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 18411,
+      "malId": 18411,
+      "title": {
+        "romaji": "Gingitsune",
+        "english": "Gingitsune: Messenger Fox of the Gods",
+        "native": "ぎんぎつね",
+        "userPreferred": "Gingitsune"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18411-yKvlUayZ6Bz2.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18411-ySg2FAEpbQYU.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 98976,
+      "malId": null,
+      "title": {
+        "romaji": "Enmusubi no Youko-chan",
+        "english": "Fox Spirit Matchmaker",
+        "native": "縁結びの妖狐ちゃん",
+        "userPreferred": "Enmusubi no Youko-chan"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98976-OkSpjfO79OHN.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98976-G3JT4Gs15Mdg.jpg",
+      "rating": 65,
+      "type": "TV"
+    },
+    {
+      "id": 943,
+      "malId": 943,
+      "title": {
+        "romaji": "Yume Tsukai",
+        "english": null,
+        "native": "夢使い",
+        "userPreferred": "Yume Tsukai"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx943-9Hpks0AUkgog.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/943-B4FL7sjnZTpI.jpg",
+      "rating": 57,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 44191,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuzu",
+        "last": "Komiya",
+        "full": "Yuzu Komiya",
+        "native": "古宮 柚子",
+        "userPreferred": "Yuzu Komiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44191.jpg",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        }
+      ]
+    },
+    {
+      "id": 44190,
+      "role": "MAIN",
+      "name": {
+        "first": "Mayu",
+        "last": null,
+        "full": "Mayu",
+        "native": "繭",
+        "userPreferred": "Mayu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44190.jpg",
+      "voiceActors": [
+        {
+          "id": 95890,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Tomatsu",
+            "full": "Haruka Tomatsu",
+            "native": "戸松遥",
+            "userPreferred": "Haruka Tomatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95890-pDWHkOm4ncq0.png"
+        }
+      ]
+    },
+    {
+      "id": 44234,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Supermarket clerk",
+        "last": null,
+        "full": "Supermarket clerk",
+        "native": "スーパーの店員",
+        "userPreferred": "Supermarket clerk"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44234.jpg",
+      "voiceActors": [
+        {
+          "id": 95020,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsuyuki",
+            "last": "Konishi",
+            "full": "Katsuyuki Konishi",
+            "native": "小西克幸",
+            "userPreferred": "Katsuyuki Konishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95020-uOJO2IlwpcX0.png"
+        }
+      ]
+    },
+    {
+      "id": 44216,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gonta",
+        "last": null,
+        "full": "Gonta",
+        "native": "ゴン太",
+        "userPreferred": "Gonta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44216.jpg",
+      "voiceActors": [
+        {
+          "id": 95407,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Sanpei",
+            "full": "Yuuko Sanpei",
+            "native": "三瓶由布子",
+            "userPreferred": "Yuuko Sanpei"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95407-u8MV6kcAJNV6.png"
+        }
+      ]
+    },
+    {
+      "id": 44226,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hasumi",
+        "last": "Shirasaki",
+        "full": "Hasumi Shirasaki",
+        "native": "白崎 蓮美",
+        "userPreferred": "Hasumi Shirasaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44226.jpg",
+      "voiceActors": [
+        {
+          "id": 96696,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Shimoda",
+            "full": "Asami Shimoda",
+            "native": "下田麻美",
+            "userPreferred": "Asami Shimoda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96696-nWJbm04iuOWW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44217,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shamo",
+        "last": null,
+        "full": "Shamo",
+        "native": "しゃも",
+        "userPreferred": "Shamo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b44217-781Ufj41NkdW.png",
+      "voiceActors": [
+        {
+          "id": 95599,
+          "language": "Japanese",
+          "name": {
+            "first": "Aki",
+            "last": "Toyosaki",
+            "full": "Aki Toyosaki",
+            "native": "豊崎愛生",
+            "userPreferred": "Aki Toyosaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95599-XDGiluZB7IXL.png"
+        }
+      ]
+    },
+    {
+      "id": 44214,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Meiko",
+        "last": null,
+        "full": "Meiko",
+        "native": "メイ子",
+        "userPreferred": "Meiko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44214.jpg",
+      "voiceActors": [
+        {
+          "id": 101996,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayana",
+            "last": "Taketatsu",
+            "full": "Ayana Taketatsu",
+            "native": "竹達彩奈",
+            "userPreferred": "Ayana Taketatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101996-W14XnDV34VpO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44229,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Oomikami",
+        "last": "Amaterasu",
+        "full": "Oomikami Amaterasu",
+        "native": "天照 大神",
+        "userPreferred": "Oomikami Amaterasu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44229.jpg",
+      "voiceActors": [
+        {
+          "id": 95060,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Tanaka",
+            "full": "Rie Tanaka",
+            "native": "田中理恵",
+            "userPreferred": "Rie Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95060-Rw0HZghxH1hF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44221,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Amane",
+        "last": null,
+        "full": "Amane",
+        "native": "天音",
+        "userPreferred": "Amane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44221.jpg",
+      "voiceActors": [
+        {
+          "id": 95762,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanae",
+            "last": "Itou",
+            "full": "Kanae Itou",
+            "native": "伊藤かな恵",
+            "userPreferred": "Kanae Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95762-qhWmwni3TT6Y.png"
+        }
+      ]
+    },
+    {
+      "id": 44233,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Katoru",
+        "last": "Teonana",
+        "full": "Katoru Teonana",
+        "native": "テオナナ・カトル",
+        "userPreferred": "Katoru Teonana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44233.jpg",
+      "voiceActors": [
+        {
+          "id": 103555,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisako",
+            "last": "Kanemoto",
+            "full": "Hisako Kanemoto",
+            "native": "金元寿子",
+            "userPreferred": "Hisako Kanemoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103555-2ZtBwZfy9DTi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44231,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ama-no-kura-no-moriakari-no-hime",
+        "last": null,
+        "full": "Ama-no-kura-no-moriakari-no-hime",
+        "native": "灯媛",
+        "userPreferred": "Ama-no-kura-no-moriakari-no-hime"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44231.jpg",
+      "voiceActors": [
+        {
+          "id": 95124,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Arai",
+            "full": "Satomi Arai",
+            "native": "新井里美",
+            "userPreferred": "Satomi Arai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95124-8C0BORTX7Bfd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44215,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yoshino",
+        "last": null,
+        "full": "Yoshino",
+        "native": "芳乃",
+        "userPreferred": "Yoshino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b44215-9fFoeL0Rirtx.png",
+      "voiceActors": [
+        {
+          "id": 95785,
+          "language": "Japanese",
+          "name": {
+            "first": "MAKO",
+            "last": "",
+            "full": "MAKO",
+            "native": "まこ ",
+            "userPreferred": "MAKO"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95785-rtTs0DYcpx1a.png"
+        }
+      ]
+    },
+    {
+      "id": 44213,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sasana",
+        "last": "Shousouin",
+        "full": "Sasana Shousouin",
+        "native": "正倉院笹鳴",
+        "userPreferred": "Sasana Shousouin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b44213-hViGIYOBJwdm.png",
+      "voiceActors": [
+        {
+          "id": 105765,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Kayano",
+            "full": "Ai Kayano",
+            "native": "茅野愛衣",
+            "userPreferred": "Ai Kayano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105765-DDK94me8axVv.png"
+        }
+      ]
+    },
+    {
+      "id": 44223,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yukina",
+        "last": "Kamo",
+        "full": "Yukina Kamo",
+        "native": "賀茂 雪那",
+        "userPreferred": "Yukina Kamo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44223.jpg",
+      "voiceActors": [
+        {
+          "id": 95156,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Mizuhashi",
+            "full": "Kaori Mizuhashi",
+            "native": "水橋かおり",
+            "userPreferred": "Kaori Mizuhashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95156-7tw0zP396ecG.png"
+        }
+      ]
+    },
+    {
+      "id": 44225,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yurara",
+        "last": "Makuragi",
+        "full": "Yurara Makuragi",
+        "native": "枕木夕楽々",
+        "userPreferred": "Yurara Makuragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b44225-CT5fSlA70pv7.png",
+      "voiceActors": [
+        {
+          "id": 95823,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayahi",
+            "last": "Takagaki",
+            "full": "Ayahi Takagaki",
+            "native": "高垣彩陽",
+            "userPreferred": "Ayahi Takagaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95823-gJC6Tr9HDOqy.png"
+        }
+      ]
+    },
+    {
+      "id": 44228,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsukuyomi",
+        "last": null,
+        "full": "Tsukuyomi",
+        "native": "ツクヨミ",
+        "userPreferred": "Tsukuyomi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44228.jpg",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        }
+      ]
+    },
+    {
+      "id": 44230,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gen",
+        "last": null,
+        "full": "Gen",
+        "native": "玄",
+        "userPreferred": "Gen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44230.jpg",
+      "voiceActors": [
+        {
+          "id": 95293,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryou",
+            "last": "Naitou",
+            "full": "Ryou Naitou",
+            "native": "内藤玲",
+            "userPreferred": "Ryou Naitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95293-WMdddQNhHOt1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44227,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gozen",
+        "last": "Shizuka",
+        "full": "Gozen Shizuka",
+        "native": "鎮葉 御前",
+        "userPreferred": "Gozen Shizuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44227.jpg",
+      "voiceActors": [
+        {
+          "id": 96132,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Tanaka",
+            "full": "Ryouko Tanaka",
+            "native": "田中涼子",
+            "userPreferred": "Ryouko Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96132-zxza4Qnd5otA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44224,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuroe",
+        "last": null,
+        "full": "Kuroe",
+        "native": "クロエ",
+        "userPreferred": "Kuroe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44224.jpg",
+      "voiceActors": [
+        {
+          "id": 95324,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Tokunaga",
+            "full": "Ai Tokunaga",
+            "native": "徳永愛",
+            "userPreferred": "Ai Tokunaga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95324-9xp475jdsgJS.png"
+        }
+      ]
+    },
+    {
+      "id": 44222,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haruka",
+        "last": null,
+        "full": "Haruka",
+        "native": "遥",
+        "userPreferred": "Haruka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b44222-6BSUHSgQp5Ai.png",
+      "voiceActors": [
+        {
+          "id": 96592,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshino",
+            "last": "Nanjou",
+            "full": "Yoshino Nanjou",
+            "native": "南條愛乃",
+            "userPreferred": "Yoshino Nanjou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96592-yC5OOGtWXv6r.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 40617,
+      "relationType": "ADAPTATION",
+      "malId": 10617,
+      "title": {
+        "romaji": "Nekogami Yaoyorozu",
+        "english": null,
+        "native": "猫神やおよろず",
+        "userPreferred": "Nekogami Yaoyorozu"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx40617-CUAe2W3ITvnz.jpg",
+      "color": "#43e4a1",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx40617-CUAe2W3ITvnz.jpg",
+      "rating": 52
+    },
+    {
+      "id": 10936,
+      "relationType": "SIDE_STORY",
+      "malId": 10936,
+      "title": {
+        "romaji": "Nekogami Yaoyorozu: Ohanami Ghostbusters",
+        "english": "Cat God: Ohanami Ghostbusters",
+        "native": "猫神やおよろず お花見ゴーストバスターズ",
+        "userPreferred": "Nekogami Yaoyorozu: Ohanami Ghostbusters"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10936.jpg",
+      "color": "#e4bb93",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10936.jpg",
+      "rating": 65
+    },
+    {
+      "id": 13681,
+      "relationType": "SIDE_STORY",
+      "malId": 13681,
+      "title": {
+        "romaji": "Nekogami Yaoyorozu Specials",
+        "english": null,
+        "native": "猫神やおよろず",
+        "userPreferred": "Nekogami Yaoyorozu Specials"
+      },
+      "status": "Completed",
+      "episodes": 7,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13681.jpg",
+      "color": "#f1e4bb",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13681.jpg",
+      "rating": 58
+    }
+  ],
+  "episodes": [
+    {
+      "id": "nekogami-yaoyorozu-episode-1",
+      "title": "The God of Poverty's Inspect+",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163149/original.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:36:31Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nekogami-yaoyorozu-episode-1"
+    },
+    {
+      "id": "nekogami-yaoyorozu-episode-2",
+      "title": "Sakura Front Overture",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163161/original.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:36:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nekogami-yaoyorozu-episode-2"
+    },
+    {
+      "id": "nekogami-yaoyorozu-episode-3",
+      "title": "Desperate Deadline",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163170/original.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:36:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nekogami-yaoyorozu-episode-3"
+    },
+    {
+      "id": "nekogami-yaoyorozu-episode-4",
+      "title": "Memory Halation Summer",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163182/original.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:36:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nekogami-yaoyorozu-episode-4"
+    },
+    {
+      "id": "nekogami-yaoyorozu-episode-5",
+      "title": "Typhoon God Overrun",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163192/original.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:36:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nekogami-yaoyorozu-episode-5"
+    },
+    {
+      "id": "nekogami-yaoyorozu-episode-6",
+      "title": "Recollection of the Antiquity",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163199/original.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:36:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nekogami-yaoyorozu-episode-6"
+    },
+    {
+      "id": "nekogami-yaoyorozu-episode-7",
+      "title": "Summer Thriller Night",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163206/original.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:36:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nekogami-yaoyorozu-episode-7"
+    },
+    {
+      "id": "nekogami-yaoyorozu-episode-8",
+      "title": "Mukoubuchi Dice Roll",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163212/original.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:36:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nekogami-yaoyorozu-episode-8"
+    },
+    {
+      "id": "nekogami-yaoyorozu-episode-9",
+      "title": "Rainy Rainy",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163219/original.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:36:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nekogami-yaoyorozu-episode-9"
+    },
+    {
+      "id": "nekogami-yaoyorozu-episode-10",
+      "title": "Stray Cat on the Earth",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163230/original.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:36:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nekogami-yaoyorozu-episode-10"
+    },
+    {
+      "id": "nekogami-yaoyorozu-episode-11",
+      "title": "Dirty Cat Run After",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163237/original.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:36:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nekogami-yaoyorozu-episode-11"
+    },
+    {
+      "id": "nekogami-yaoyorozu-episode-12",
+      "title": "Strange Coincidence Fate Contention",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163250/original.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:36:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//nekogami-yaoyorozu-episode-12"
+    }
+  ]
+}

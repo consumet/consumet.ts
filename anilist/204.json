@@ -1,0 +1,539 @@
+{
+  "id": "204",
+  "title": {
+    "romaji": "Yumeria",
+    "english": null,
+    "native": "ゆめりあ"
+  },
+  "malId": 204,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/204.jpg",
+  "popularity": 3388,
+  "color": "#d6c91a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/204.jpg",
+  "description": "On his 16th birthday, Tomokazu Mikuri had a realistic dream where he sees a girl battling a giant floating monstrosity. When he wakes up, he is surprised that the girl is actually sleeping next to him... Whenever he sleeps from now on, he ends up back at the dream world, and more and more people that he knows keep showing up there too. He finds out from a mysterious masked woman in the dream world named Silk that they are fighting against one named Faydoom, and he is the one who provides the powers to those girls so that they can fight these monsters. And so it goes...<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2004,
+  "startDate": {
+    "year": 2004,
+    "month": 1,
+    "day": 9
+  },
+  "endDate": {
+    "year": 2004,
+    "month": 3,
+    "day": 26
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 53,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Ecchi"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Studio DEEN"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 3312,
+      "role": "MAIN",
+      "name": {
+        "first": "Mizuki",
+        "last": "Agatsuma",
+        "full": "Mizuki Agatsuma",
+        "native": "吾妻みづき",
+        "userPreferred": "Mizuki Agatsuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3312.jpg",
+      "voiceActors": [
+        {
+          "id": 95077,
+          "language": "Japanese",
+          "name": {
+            "first": "Masumi",
+            "last": "Asano",
+            "full": "Masumi Asano",
+            "native": "浅野真澄",
+            "userPreferred": "Masumi Asano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95077-d2OK4xiiRWAu.png"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        }
+      ]
+    },
+    {
+      "id": 3310,
+      "role": "MAIN",
+      "name": {
+        "first": "Tomokazu",
+        "last": "Mikuri",
+        "full": "Tomokazu Mikuri",
+        "native": "三栗智和",
+        "userPreferred": "Tomokazu Mikuri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3310.jpg",
+      "voiceActors": [
+        {
+          "id": 95098,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Hatano",
+            "full": "Wataru Hatano",
+            "native": "羽多野渉",
+            "userPreferred": "Wataru Hatano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95098-x6T2xOTuvkuY.jpg"
+        },
+        {
+          "id": 95190,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Patton",
+            "full": "Chris Patton",
+            "native": null,
+            "userPreferred": "Chris Patton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95190-Ht5ukZFcl0PX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3315,
+      "role": "MAIN",
+      "name": {
+        "first": "Neneko",
+        "last": null,
+        "full": "Neneko",
+        "native": "ねねこ",
+        "userPreferred": "Neneko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3315.jpg",
+      "voiceActors": [
+        {
+          "id": 96061,
+          "language": "Japanese",
+          "name": {
+            "first": "Tamaki",
+            "last": "Nakanishi",
+            "full": "Tamaki Nakanishi",
+            "native": "仲西環",
+            "userPreferred": "Tamaki Nakanishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96061-CZaHxtXOsJtt.png"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3313,
+      "role": "MAIN",
+      "name": {
+        "first": "Nanase",
+        "last": "Senjou",
+        "full": "Nanase Senjou",
+        "native": "千条七瀬",
+        "userPreferred": "Nanase Senjou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3313.jpg",
+      "voiceActors": [
+        {
+          "id": 95195,
+          "language": "Japanese",
+          "name": {
+            "first": "Kikuko",
+            "last": "Inoue",
+            "full": "Kikuko Inoue",
+            "native": "井上喜久子",
+            "userPreferred": "Kikuko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95195-nLvtZl5sCK0D.png"
+        },
+        {
+          "id": 95928,
+          "language": "English",
+          "name": {
+            "first": "Nancy",
+            "last": "Novotny",
+            "full": "Nancy Novotny",
+            "native": null,
+            "userPreferred": "Nancy Novotny"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95928-TWiUny7lqanh.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3314,
+      "role": "MAIN",
+      "name": {
+        "first": "Kuyou",
+        "last": "Senjou",
+        "full": "Kuyou Senjou",
+        "native": "千条九葉",
+        "userPreferred": "Kuyou Senjou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3314.jpg",
+      "voiceActors": [
+        {
+          "id": 96425,
+          "language": "Japanese",
+          "name": {
+            "first": "Sara",
+            "last": "Nakayama",
+            "full": "Sara Nakayama",
+            "native": "中山さら",
+            "userPreferred": "Sara Nakayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96425-WlEn79iYg3FO.png"
+        },
+        {
+          "id": 95199,
+          "language": "English",
+          "name": {
+            "first": "Jessica",
+            "last": "Boone",
+            "full": "Jessica Boone",
+            "native": null,
+            "userPreferred": "Jessica Boone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95199-0ArwCGT722iO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3311,
+      "role": "MAIN",
+      "name": {
+        "first": "Mone",
+        "last": null,
+        "full": "Mone",
+        "native": "モネ",
+        "userPreferred": "Mone"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3311.jpg",
+      "voiceActors": [
+        {
+          "id": 101285,
+          "language": "Japanese",
+          "name": {
+            "first": "Moyu",
+            "last": "Arishima",
+            "full": "Moyu Arishima",
+            "native": "有島モユ",
+            "userPreferred": "Moyu Arishima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101285-9ueUoEGcG6Xj.png"
+        },
+        {
+          "id": 95414,
+          "language": "English",
+          "name": {
+            "first": "Brittney",
+            "last": "Karbowski",
+            "full": "Brittney Karbowski",
+            "native": null,
+            "userPreferred": "Brittney Karbowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/414.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24749,
+      "role": "MAIN",
+      "name": {
+        "first": "Neito",
+        "last": null,
+        "full": "Neito",
+        "native": "ネイト",
+        "userPreferred": "Neito"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24749.jpg",
+      "voiceActors": [
+        {
+          "id": 96426,
+          "language": "Japanese",
+          "name": {
+            "first": "Mariko",
+            "last": "Suzuki",
+            "full": "Mariko Suzuki",
+            "native": "鈴木麻里子",
+            "userPreferred": "Mariko Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1426.jpg"
+        },
+        {
+          "id": 299283,
+          "language": "English",
+          "name": {
+            "first": "Tiffany",
+            "last": "Salinas",
+            "full": "Tiffany Salinas",
+            "native": null,
+            "userPreferred": "Tiffany Salinas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15568,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Head of the Family",
+        "last": null,
+        "full": "Head of the Family",
+        "native": "宗主",
+        "userPreferred": "Head of the Family"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 102886,
+          "language": "Japanese",
+          "name": {
+            "first": "Masashi",
+            "last": "Hirose",
+            "full": "Masashi Hirose",
+            "native": "広瀬正志",
+            "userPreferred": "Masashi Hirose"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7886.jpg"
+        },
+        {
+          "id": 95191,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Ayres",
+            "full": "Chris Ayres",
+            "native": null,
+            "userPreferred": "Chris Ayres"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95191-Aw9ipWm83bS8.png"
+        }
+      ]
+    },
+    {
+      "id": 15567,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tomoko",
+        "last": "Mikuri",
+        "full": "Tomoko Mikuri",
+        "native": "三栗 朋子",
+        "userPreferred": "Tomoko Mikuri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15567.jpg",
+      "voiceActors": [
+        {
+          "id": 102954,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Shioyama",
+            "full": "Yuka Shioyama",
+            "native": "塩山由佳",
+            "userPreferred": "Yuka Shioyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7954.jpg"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15569,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mister",
+        "last": "Ishikari",
+        "full": "Mister Ishikari",
+        "native": null,
+        "userPreferred": "Mister Ishikari"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15569.jpg",
+      "voiceActors": [
+        {
+          "id": 95395,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsu",
+            "last": "Inada",
+            "full": "Tetsu Inada",
+            "native": "稲田徹",
+            "userPreferred": "Tetsu Inada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95395-HpxLuh4ysrzJ.png"
+        },
+        {
+          "id": 95473,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Gremillion",
+            "full": "John Gremillion",
+            "native": null,
+            "userPreferred": "John Gremillion"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/473.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "yumeria-episode-1",
+      "title": "16th Birthday",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163087/original.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:36:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yumeria-episode-1"
+    },
+    {
+      "id": "yumeria-episode-2",
+      "title": "Tomokazu Zero Points",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163093/original.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:36:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yumeria-episode-2"
+    },
+    {
+      "id": "yumeria-episode-3",
+      "title": "Bloomer V",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163104/original.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:36:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yumeria-episode-3"
+    },
+    {
+      "id": "yumeria-episode-4",
+      "title": "Operation School Swimsuit",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163114/original.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:36:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yumeria-episode-4"
+    },
+    {
+      "id": "yumeria-episode-5",
+      "title": "Girl-Watching At The Dream Beach",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163124/original.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:36:26Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yumeria-episode-5"
+    },
+    {
+      "id": "yumeria-episode-6",
+      "title": "The Yukata Master",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163134/original.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:36:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yumeria-episode-6"
+    },
+    {
+      "id": "yumeria-episode-7",
+      "title": "The Reverse Reincarnating Woman",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163143/original.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:36:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yumeria-episode-7"
+    },
+    {
+      "id": "yumeria-episode-8",
+      "title": "Our Reason (For Refusing)",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163154/original.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:36:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yumeria-episode-8"
+    },
+    {
+      "id": "yumeria-episode-9",
+      "title": "Bunny-Man",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163169/original.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:36:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yumeria-episode-9"
+    },
+    {
+      "id": "yumeria-episode-10",
+      "title": "The Taste Of Katsudon",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163181/original.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:36:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yumeria-episode-10"
+    },
+    {
+      "id": "yumeria-episode-11",
+      "title": "Destiny Transformation",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163198/original.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:36:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yumeria-episode-11"
+    },
+    {
+      "id": "yumeria-episode-12",
+      "title": "Tomokazu, 100 Points",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163210/original.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:36:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yumeria-episode-12"
+    }
+  ]
+}

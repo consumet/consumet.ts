@@ -1,0 +1,96 @@
+{
+  "id": "153493",
+  "title": {
+    "romaji": "Xi Xing Ji: Nian Fan",
+    "english": null,
+    "native": "西行纪 年番"
+  },
+  "malId": 56157,
+  "synonyms": [
+    "The Westward Annual Broadcast",
+    "Xixing Ji 5",
+    "西行纪 第5季",
+    "The Westward 5"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153493-fOohrWTD6pGt.jpg",
+  "popularity": 101,
+  "color": "#e4930d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153493-fOohrWTD6pGt.jpg",
+  "description": "The fifth season of <i>Xixing Ji</i>.",
+  "status": "Ongoing",
+  "releaseDate": 2023,
+  "startDate": {
+    "year": 2023,
+    "month": 8,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2024,
+    "month": 7,
+    "day": 10
+  },
+  "nextAiringEpisode": {
+    "airingTime": 1698199200,
+    "timeUntilAiring": 385123,
+    "episode": 15
+  },
+  "totalEpisodes": 52,
+  "currentEpisode": 14,
+  "rating": null,
+  "duration": null,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "season": null,
+  "studios": [
+    "BYMENT"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [],
+  "relations": [
+    {
+      "id": 137736,
+      "relationType": "PREQUEL",
+      "malId": 51791,
+      "title": {
+        "romaji": "Xi Xing Ji 4",
+        "english": null,
+        "native": "西行纪 第4季",
+        "userPreferred": "Xi Xing Ji 4"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137736-jjk1BKZihGo6.png",
+      "color": "#e4935d",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137736-jjk1BKZihGo6.png",
+      "rating": 74
+    },
+    {
+      "id": 102196,
+      "relationType": "ADAPTATION",
+      "malId": 109143,
+      "title": {
+        "romaji": "Xi Xing Ji",
+        "english": null,
+        "native": "西行纪",
+        "userPreferred": "Xi Xing Ji"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx102196-MUEQZeLjcCrx.jpg",
+      "color": "#d6861a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/102196-HrYgFMeWoc60.jpg",
+      "rating": 74
+    }
+  ],
+  "episodes": []
+}

@@ -1,0 +1,885 @@
+{
+  "id": "19199",
+  "title": {
+    "romaji": "Tokyo ESP",
+    "english": "Tokyo ESP",
+    "native": "東京ESP"
+  },
+  "malId": 21353,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19199-4fdT3ZNTPepS.jpg",
+  "popularity": 28282,
+  "color": "#e4865d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/19199-ivN24DyVPuVw.jpg",
+  "description": "Rinka is a financially struggling high school girl living with her single father in Tokyo. One day, while going home from school, she sees a penguin flying in the sky towards the Tokyo Sky Tree. She chases after it only to find fish swimming in the air! One of the fish goes through Rinka and causes her to pass out. She wakes up to find that she has developed the ability to slip through solid objects.<br><br>(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2014,
+  "startDate": {
+    "year": 2014,
+    "month": 7,
+    "day": 12
+  },
+  "endDate": {
+    "year": 2014,
+    "month": 9,
+    "day": 27
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 60,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Fantasy",
+    "Supernatural"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Xebec"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 6213,
+      "malId": 6213,
+      "title": {
+        "romaji": "Toaru Kagaku no Railgun",
+        "english": "A Certain Scientific Railgun",
+        "native": "とある科学の超電磁砲",
+        "userPreferred": "Toaru Kagaku no Railgun"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6213-fhxlHtKji46D.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6213-utGqTxmP6U2F.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 4725,
+      "malId": 4725,
+      "title": {
+        "romaji": "Ga-Rei-Zero",
+        "english": "Ga-Rei-Zero",
+        "native": "喰霊-零-",
+        "userPreferred": "Ga-Rei-Zero"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4725-LWoB14AbUyaA.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4725-XfHi5n4hywb2.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 21459,
+      "malId": 31964,
+      "title": {
+        "romaji": "Boku no Hero Academia",
+        "english": "My Hero Academia",
+        "native": "僕のヒーローアカデミア",
+        "userPreferred": "Boku no Hero Academia"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21459-DUKLgasrgeNO.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21459-yeVkolGKdGUV.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 16005,
+      "malId": 16005,
+      "title": {
+        "romaji": "Zettai Karen Children: THE UNLIMITED - Hyoubu Kyousuke",
+        "english": "Unlimited Psychic Squad",
+        "native": "絶対可憐チルドレン THE UNLIMITED 兵部京介",
+        "userPreferred": "Zettai Karen Children: THE UNLIMITED - Hyoubu Kyousuke"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16005-79QCNJTaNHqK.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16005-XwxgHASYhjtp.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 20521,
+      "malId": 20689,
+      "title": {
+        "romaji": "Hamatora THE ANIMATION",
+        "english": "Hamatora",
+        "native": "ハマトラ THE ANIMATION",
+        "userPreferred": "Hamatora THE ANIMATION"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20521-OJZxnuU1uvkN.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20521-yo39TmRV7cMn.jpg",
+      "rating": 68,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 33265,
+      "role": "MAIN",
+      "name": {
+        "first": "Rinka",
+        "last": "Urushiba",
+        "full": "Rinka Urushiba",
+        "native": "漆葉リンカ",
+        "userPreferred": "Rinka Urushiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/33265.jpg",
+      "voiceActors": [
+        {
+          "id": 112091,
+          "language": "Japanese",
+          "name": {
+            "first": "Ibuki",
+            "last": "Kido",
+            "full": "Ibuki Kido",
+            "native": "木戸衣吹",
+            "userPreferred": "Ibuki Kido"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112091-aO2WqvCmTFz9.png"
+        },
+        {
+          "id": 119619,
+          "language": "English",
+          "name": {
+            "first": "Sarah",
+            "last": "Wiedenheft",
+            "full": "Sarah Wiedenheft",
+            "native": null,
+            "userPreferred": "Sarah Wiedenheft"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119619-ozgAK9to6Ijy.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40585,
+      "role": "MAIN",
+      "name": {
+        "first": "Kyoutarou",
+        "last": "Azuma",
+        "full": "Kyoutarou Azuma",
+        "native": "東京太郎",
+        "userPreferred": "Kyoutarou Azuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40585.jpg",
+      "voiceActors": [
+        {
+          "id": 112915,
+          "language": "Japanese",
+          "name": {
+            "first": "Keisuke",
+            "last": "Koumoto",
+            "full": "Keisuke Koumoto",
+            "native": "河本啓佑",
+            "userPreferred": "Keisuke Koumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112915-t6QiS4ax1wkO.png"
+        },
+        {
+          "id": 157237,
+          "language": "English",
+          "name": {
+            "first": "Adam",
+            "last": "Dahlberg",
+            "full": "Adam Dahlberg",
+            "native": null,
+            "userPreferred": "Adam Dahlberg"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n157237-eYE9dJ3G5Pi7.png"
+        }
+      ]
+    },
+    {
+      "id": 141865,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saira",
+        "last": "Azuma",
+        "full": "Saira Azuma",
+        "native": "東西羅",
+        "userPreferred": "Saira Azuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141865-ZS1KTYDeBpbU.jpg",
+      "voiceActors": [
+        {
+          "id": 95080,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Hisakawa",
+            "full": "Aya Hisakawa",
+            "native": "久川綾",
+            "userPreferred": "Aya Hisakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95080-7dOAcrnsSghI.jpg"
+        },
+        {
+          "id": 95511,
+          "language": "English",
+          "name": {
+            "first": "Lydia",
+            "last": "Mackay",
+            "full": "Lydia Mackay",
+            "native": null,
+            "userPreferred": "Lydia Mackay"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/511.jpg"
+        }
+      ]
+    },
+    {
+      "id": 141871,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kozuki",
+        "last": "Kuroi",
+        "full": "Kozuki Kuroi",
+        "native": "黒井弧月",
+        "userPreferred": "Kozuki Kuroi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141871-YwYPw2S8xLUJ.jpg",
+      "voiceActors": [
+        {
+          "id": 95056,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiromi",
+            "last": "Konno",
+            "full": "Hiromi Konno",
+            "native": "今野宏美",
+            "userPreferred": "Hiromi Konno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95056-QAsT1PIBuIh3.jpg"
+        },
+        {
+          "id": 105881,
+          "language": "English",
+          "name": {
+            "first": "Lindsay",
+            "last": "Seidel",
+            "full": "Lindsay Seidel",
+            "native": null,
+            "userPreferred": "Lindsay Seidel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105881-R2gLLpOtfReq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 141872,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hokusai",
+        "last": "Azuma",
+        "full": "Hokusai Azuma",
+        "native": "東北斎",
+        "userPreferred": "Hokusai Azuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141872-B75pQaEv0fQ2.jpg",
+      "voiceActors": [
+        {
+          "id": 95409,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshihisa",
+            "last": "Kawahara",
+            "full": "Yoshihisa Kawahara",
+            "native": "川原慶久",
+            "userPreferred": "Yoshihisa Kawahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95409-87S6L0u8gQNf.jpg"
+        },
+        {
+          "id": 163653,
+          "language": "English",
+          "name": {
+            "first": "Jeffrey",
+            "last": "Schmidt",
+            "full": "Jeffrey Schmidt",
+            "native": null,
+            "userPreferred": "Jeffrey Schmidt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163653-xpgi3vTn0iAf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38412,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rindou",
+        "last": "Urushiba",
+        "full": "Rindou Urushiba",
+        "native": "漆葉竜胆",
+        "userPreferred": "Rindou Urushiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b38412-4U8he2XKoGJg.jpg",
+      "voiceActors": [
+        {
+          "id": 95395,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsu",
+            "last": "Inada",
+            "full": "Tetsu Inada",
+            "native": "稲田徹",
+            "userPreferred": "Tetsu Inada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95395-HpxLuh4ysrzJ.png"
+        },
+        {
+          "id": 102151,
+          "language": "English",
+          "name": {
+            "first": "Bryan",
+            "last": "Massey",
+            "full": "Bryan Massey",
+            "native": null,
+            "userPreferred": "Bryan Massey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7151.jpg"
+        }
+      ]
+    },
+    {
+      "id": 141866,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Minami",
+        "last": "Azuma",
+        "full": "Minami Azuma",
+        "native": "東美奈実",
+        "userPreferred": "Minami Azuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141866-PXXM2BrpNZR7.jpg",
+      "voiceActors": [
+        {
+          "id": 102337,
+          "language": "Japanese",
+          "name": {
+            "first": "Sachika",
+            "last": "Misawa",
+            "full": "Sachika Misawa",
+            "native": "三澤紗千香",
+            "userPreferred": "Sachika Misawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102337-iHJMCOTE1eVT.jpg"
+        },
+        {
+          "id": 119697,
+          "language": "English",
+          "name": {
+            "first": "Mallorie",
+            "last": "Rodak",
+            "full": "Mallorie Rodak",
+            "native": null,
+            "userPreferred": "Mallorie Rodak"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/24697-qQBZowFoHEye.jpg"
+        }
+      ]
+    },
+    {
+      "id": 233137,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ayumu",
+        "last": "Oozora",
+        "full": "Ayumu Oozora",
+        "native": "大空歩",
+        "userPreferred": "Ayumu Oozora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b233137-7XKQs3eKPGXj.png",
+      "voiceActors": [
+        {
+          "id": 95287,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Ogata",
+            "full": "Megumi Ogata",
+            "native": "緒方恵美",
+            "userPreferred": "Megumi Ogata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95287-3moX16xmYedv.png"
+        },
+        {
+          "id": 120246,
+          "language": "English",
+          "name": {
+            "first": "Morgan",
+            "last": "Berry",
+            "full": "Morgan Berry",
+            "native": null,
+            "userPreferred": "Morgan Berry"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120246-G6NPhgCxKDg5.png"
+        }
+      ]
+    },
+    {
+      "id": 141867,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Roushi",
+        "last": "Youdani",
+        "full": "Roushi Youdani",
+        "native": "養谷老師",
+        "userPreferred": "Roushi Youdani"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141867-BkJtbCB6KJPH.jpg",
+      "voiceActors": [
+        {
+          "id": 95021,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiko",
+            "last": "Inoue",
+            "full": "Kazuhiko Inoue",
+            "native": "井上和彦",
+            "userPreferred": "Kazuhiko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95021-9qAoAn6GNZ3S.png"
+        },
+        {
+          "id": 95480,
+          "language": "English",
+          "name": {
+            "first": "R. Bruce",
+            "last": "Elliott",
+            "full": "R. Bruce Elliott",
+            "native": null,
+            "userPreferred": "R. Bruce Elliott"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/480.jpg"
+        }
+      ]
+    },
+    {
+      "id": 233138,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sukezaburou",
+        "last": null,
+        "full": "Sukezaburou",
+        "native": "助三郎",
+        "userPreferred": "Sukezaburou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b233138-sVh8s6TEpYW6.jpg",
+      "voiceActors": [
+        {
+          "id": 96436,
+          "language": "Japanese",
+          "name": {
+            "first": "Mugihito",
+            "last": "",
+            "full": "Mugihito",
+            "native": "麦人 ",
+            "userPreferred": "Mugihito"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1436.jpg"
+        },
+        {
+          "id": 116247,
+          "language": "English",
+          "name": {
+            "first": "Philip",
+            "last": "Weber",
+            "full": "Philip Weber",
+            "native": null,
+            "userPreferred": "Philip Weber"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21247.jpg"
+        }
+      ]
+    },
+    {
+      "id": 141868,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kobushi",
+        "last": "Kuroi",
+        "full": "Kobushi Kuroi",
+        "native": "黒井小節",
+        "userPreferred": "Kobushi Kuroi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141868-hHLjTBEuSVls.jpg",
+      "voiceActors": [
+        {
+          "id": 95581,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Aizawa",
+            "full": "Mai Aizawa",
+            "native": "相沢舞",
+            "userPreferred": "Mai Aizawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95581-gWE4vp0f75q0.png"
+        },
+        {
+          "id": 195211,
+          "language": "English",
+          "name": {
+            "first": "Jenny",
+            "last": "Ledel",
+            "full": "Jenny Ledel",
+            "native": null,
+            "userPreferred": "Jenny Ledel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 233143,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lin",
+        "last": "Lianjie",
+        "full": "Lin Lianjie",
+        "native": "リン・リンチェイ",
+        "userPreferred": "Lin Lianjie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b233143-n0M5TXzfio1o.jpg",
+      "voiceActors": [
+        {
+          "id": 95073,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Matsuoka",
+            "full": "Yuki Matsuoka",
+            "native": "松岡由貴",
+            "userPreferred": "Yuki Matsuoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95073-HIjUyhssrxGs.png"
+        },
+        {
+          "id": 96804,
+          "language": "English",
+          "name": {
+            "first": "Trina",
+            "last": "Nishimura",
+            "full": "Trina Nishimura",
+            "native": null,
+            "userPreferred": "Trina Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96804-0OKQgacznkZ4.png"
+        }
+      ]
+    },
+    {
+      "id": 141869,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Murasaki",
+        "last": "Edoyama",
+        "full": "Murasaki Edoyama",
+        "native": "江戸山 紫",
+        "userPreferred": "Murasaki Edoyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141869-ybpCpGBWyygX.jpg",
+      "voiceActors": [
+        {
+          "id": 112297,
+          "language": "Japanese",
+          "name": {
+            "first": "Azusa",
+            "last": "Tadokoro",
+            "full": "Azusa Tadokoro",
+            "native": "田所あずさ",
+            "userPreferred": "Azusa Tadokoro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112297-seUP8O4obuYO.png"
+        },
+        {
+          "id": 110441,
+          "language": "English",
+          "name": {
+            "first": "Lara",
+            "last": "Woodhull",
+            "full": "Lara Woodhull",
+            "native": null,
+            "userPreferred": "Lara Woodhull"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15441.jpg"
+        }
+      ]
+    },
+    {
+      "id": 233144,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Amie",
+        "last": "Namuro",
+        "full": "Amie Namuro",
+        "native": "奈室亜美江",
+        "userPreferred": "Amie Namuro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b233144-q9nd8Hs6LUMl.jpg",
+      "voiceActors": [
+        {
+          "id": 103030,
+          "language": "Japanese",
+          "name": {
+            "first": "Hitomi",
+            "last": "Harada",
+            "full": "Hitomi Harada",
+            "native": "原田ひとみ",
+            "userPreferred": "Hitomi Harada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103030-CqmMNYO3QRCv.jpg"
+        },
+        {
+          "id": 119700,
+          "language": "English",
+          "name": {
+            "first": "Bryn",
+            "last": "Apprill",
+            "full": "Bryn Apprill",
+            "native": null,
+            "userPreferred": "Bryn Apprill"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119700-wRlpXjJevNVi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 141870,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Peggy",
+        "last": "",
+        "full": "Peggy",
+        "native": "ペギー",
+        "userPreferred": "Peggy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141870-eQ5bUeGdjzO2.jpg",
+      "voiceActors": [
+        {
+          "id": 95579,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaoru",
+            "last": "Mizuhara",
+            "full": "Kaoru Mizuhara",
+            "native": "水原薫",
+            "userPreferred": "Kaoru Mizuhara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95579-5ZsNx7VamyqG.png"
+        },
+        {
+          "id": 129302,
+          "language": "English",
+          "name": {
+            "first": "Heather",
+            "last": "Walker",
+            "full": "Heather Walker",
+            "native": null,
+            "userPreferred": "Heather Walker"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129302-wNSfYBozMHlY.jpg"
+        }
+      ]
+    },
+    {
+      "id": 233146,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kakunoshin",
+        "last": "",
+        "full": "Kakunoshin",
+        "native": "格之進",
+        "userPreferred": "Kakunoshin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b233146-X1OUtK1ADky4.jpg",
+      "voiceActors": [
+        {
+          "id": 95179,
+          "language": "Japanese",
+          "name": {
+            "first": "Masashi",
+            "last": "Ebara",
+            "full": "Masashi Ebara",
+            "native": "江原正士",
+            "userPreferred": "Masashi Ebara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95179-ZXxATX9muGcD.png"
+        },
+        {
+          "id": 127750,
+          "language": "English",
+          "name": {
+            "first": "Ray",
+            "last": "Hurd",
+            "full": "Ray Hurd",
+            "native": null,
+            "userPreferred": "Ray Hurd"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n127750-FqxrVPwDMwav.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 48619,
+      "relationType": "ADAPTATION",
+      "malId": 18619,
+      "title": {
+        "romaji": "Tokyo ESP",
+        "english": null,
+        "native": "東京ESP",
+        "userPreferred": "Tokyo ESP"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx48619-DPnr59TJCTo2.png",
+      "color": null,
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx48619-DPnr59TJCTo2.png",
+      "rating": 71
+    },
+    {
+      "id": 95657,
+      "relationType": "ALTERNATIVE",
+      "malId": 91740,
+      "title": {
+        "romaji": "Tokyo ESP",
+        "english": null,
+        "native": "東京ＥＳＰ",
+        "userPreferred": "Tokyo ESP"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx95657-TM4z41j7Z9Z4.jpg",
+      "color": "#e40d78",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx95657-TM4z41j7Z9Z4.jpg",
+      "rating": 64
+    }
+  ],
+  "episodes": [
+    {
+      "id": "tokyo-esp-episode-1",
+      "title": "White Girl",
+      "image": "https://media.kitsu.io/episodes/thumbnails/115945/original.jpg",
+      "number": 1,
+      "createdAt": "2014-07-20T15:31:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-esp-episode-1"
+    },
+    {
+      "id": "tokyo-esp-episode-2",
+      "title": "Girl Meets Boy",
+      "image": "https://media.kitsu.io/episodes/thumbnails/115946/original.jpg",
+      "number": 2,
+      "createdAt": "2014-07-20T15:31:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-esp-episode-2"
+    },
+    {
+      "id": "tokyo-esp-episode-3",
+      "title": "Penguin and Girl",
+      "image": "https://media.kitsu.io/episodes/thumbnails/115947/original.jpg",
+      "number": 3,
+      "createdAt": "2014-07-20T15:31:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-esp-episode-3"
+    },
+    {
+      "id": "tokyo-esp-episode-4",
+      "title": "The Rain, Ring, and Girl",
+      "image": "https://media.kitsu.io/episodes/thumbnails/115948/original.jpg",
+      "number": 4,
+      "createdAt": "2014-07-20T15:31:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-esp-episode-4"
+    },
+    {
+      "id": "tokyo-esp-episode-5",
+      "title": "Meeting, Phantom and Girl",
+      "image": "https://media.kitsu.io/episodes/thumbnails/115949/original.jpg",
+      "number": 5,
+      "createdAt": "2014-07-20T15:31:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-esp-episode-5"
+    },
+    {
+      "id": "tokyo-esp-episode-6",
+      "title": "Each Girl, Each Desire",
+      "image": "https://media.kitsu.io/episodes/thumbnails/115950/original.jpg",
+      "number": 6,
+      "createdAt": "2014-07-20T15:31:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-esp-episode-6"
+    },
+    {
+      "id": "tokyo-esp-episode-7",
+      "title": "Girls in the Rain",
+      "image": "https://media.kitsu.io/episodes/thumbnails/115951/original.jpg",
+      "number": 7,
+      "createdAt": "2014-07-20T15:31:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-esp-episode-7"
+    },
+    {
+      "id": "tokyo-esp-episode-8",
+      "title": "Fruition, Girls Set into Motion",
+      "image": "https://media.kitsu.io/episodes/thumbnails/115952/original.jpg",
+      "number": 8,
+      "createdAt": "2014-07-20T15:31:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-esp-episode-8"
+    },
+    {
+      "id": "tokyo-esp-episode-9",
+      "title": "Attack, ESP Girls",
+      "image": "https://media.kitsu.io/episodes/thumbnails/115953/original.jpg",
+      "number": 9,
+      "createdAt": "2014-07-20T15:31:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-esp-episode-9"
+    },
+    {
+      "id": "tokyo-esp-episode-10",
+      "title": "In Bitter Lament...",
+      "image": "https://media.kitsu.io/episodes/thumbnails/115954/original.jpg",
+      "number": 10,
+      "createdAt": "2014-07-20T15:31:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-esp-episode-10"
+    },
+    {
+      "id": "tokyo-esp-episode-11",
+      "title": "Tokyo Girls War",
+      "image": "https://media.kitsu.io/episodes/thumbnails/115955/original.jpg",
+      "number": 11,
+      "createdAt": "2014-07-20T15:31:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-esp-episode-11"
+    },
+    {
+      "id": "tokyo-esp-episode-12",
+      "title": "Tokyo ESP Girl",
+      "image": "https://media.kitsu.io/episodes/thumbnails/115956/original.jpg",
+      "number": 12,
+      "createdAt": "2014-07-20T15:31:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tokyo-esp-episode-12"
+    }
+  ]
+}

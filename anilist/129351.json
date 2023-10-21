@@ -1,0 +1,122 @@
+{
+  "id": "129351",
+  "title": {
+    "romaji": "Douluo Dalu: Hanhai Qiankun",
+    "english": null,
+    "native": "斗罗大陆 瀚海乾坤"
+  },
+  "synonyms": [
+    "斗罗大陆 第七部分",
+    "Douluo Dalu Part 7",
+    "Soul Land Part 7"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129351-9SZKw96PJyzY.png",
+  "popularity": 1252,
+  "color": "#5d86e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129351-9SZKw96PJyzY.png",
+  "description": "The seventh part of <i>Douluo Dalu</i>.\n<br><br>\n<i>Note: Episodes 131 to 143.</i>",
+  "status": "Completed",
+  "releaseDate": 2020,
+  "startDate": {
+    "year": 2020,
+    "month": 11,
+    "day": 21
+  },
+  "endDate": {
+    "year": 2021,
+    "month": 2,
+    "day": 13
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 78,
+  "duration": 20,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Romance",
+    "Supernatural"
+  ],
+  "season": null,
+  "studios": [
+    "Sparkly Key Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 117012,
+      "malId": 44218,
+      "title": {
+        "romaji": "Tunshi Xingkong",
+        "english": "Swallowed Star",
+        "native": "吞噬星空",
+        "userPreferred": "Tunshi Xingkong"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx117012-l2rktMbQbn0Z.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/117012-SVUMvVnJiOWt.jpg",
+      "rating": 80,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 142011,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chenxiang",
+        "last": "Bai",
+        "full": "Chenxiang Bai",
+        "native": "白沉香",
+        "userPreferred": "Chenxiang Bai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b142011-jk0PgTjoHcdD.png",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 129350,
+      "relationType": "PREQUEL",
+      "malId": null,
+      "title": {
+        "romaji": "Douluo Dalu: Xingdou Xianji",
+        "english": null,
+        "native": "斗罗大陆 星斗献祭",
+        "userPreferred": "Douluo Dalu: Xingdou Xianji"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129350-pacPQReq3nWl.png",
+      "color": "#e4a135",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129350-pacPQReq3nWl.png",
+      "rating": 82
+    },
+    {
+      "id": 129946,
+      "relationType": "SEQUEL",
+      "malId": null,
+      "title": {
+        "romaji": "Douluo Dalu: Haishen Zhi Guang",
+        "english": null,
+        "native": "斗罗大陆 海神之光",
+        "userPreferred": "Douluo Dalu: Haishen Zhi Guang"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129946-pF2Ofp9nFEHD.png",
+      "color": "#5d86e4",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129946-pF2Ofp9nFEHD.png",
+      "rating": 82
+    }
+  ],
+  "episodes": []
+}

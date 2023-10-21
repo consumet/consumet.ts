@@ -1,0 +1,532 @@
+{
+  "id": "3593",
+  "title": {
+    "romaji": "Utawarerumono OVA",
+    "english": null,
+    "native": "うたわれるもの OVA"
+  },
+  "malId": 3593,
+  "synonyms": [
+    "Utawareru Mono OVA",
+    "The One Being Sung OVA"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3593-lrUl1POvVtKT.png",
+  "popularity": 4161,
+  "color": "#f15043",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3593-lrUl1POvVtKT.png",
+  "description": "A three part OVA of Utawarerumono. The animation work will be done by the same staff that did the opening of the game the show was based on. The story will cover parts that weren't shown in the anime series. <br><br>\n(Source: Moon Phase)",
+  "status": "Completed",
+  "releaseDate": 2009,
+  "startDate": {
+    "year": 2009,
+    "month": 6,
+    "day": 5
+  },
+  "endDate": {
+    "year": 2010,
+    "month": 6,
+    "day": 23
+  },
+  "totalEpisodes": 3,
+  "currentEpisode": 3,
+  "rating": 68,
+  "duration": 29,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "SUMMER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 288,
+      "role": "MAIN",
+      "name": {
+        "first": "Hakuoro",
+        "last": null,
+        "full": "Hakuoro",
+        "native": "ハクオロ",
+        "userPreferred": "Hakuoro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b288-cb1mdNHr6v0Z.png",
+      "voiceActors": [
+        {
+          "id": 95113,
+          "language": "Japanese",
+          "name": {
+            "first": "Rikiya",
+            "last": "Koyama",
+            "full": "Rikiya Koyama",
+            "native": "小山力也",
+            "userPreferred": "Rikiya Koyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95113-z9eyYjTKSTX4.png"
+        }
+      ]
+    },
+    {
+      "id": 289,
+      "role": "MAIN",
+      "name": {
+        "first": "Eruruu",
+        "last": null,
+        "full": "Eruruu",
+        "native": "エルルゥ",
+        "userPreferred": "Eruruu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/289.jpg",
+      "voiceActors": [
+        {
+          "id": 95141,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouka",
+            "last": "Yuzuki",
+            "full": "Ryouka Yuzuki",
+            "native": "柚木涼香",
+            "userPreferred": "Ryouka Yuzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95141-RUTdfZUbNcUv.png"
+        }
+      ]
+    },
+    {
+      "id": 297,
+      "role": "MAIN",
+      "name": {
+        "first": "Urtori",
+        "last": null,
+        "full": "Urtori",
+        "native": "ウルトリィ",
+        "userPreferred": "Urtori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/297.jpg",
+      "voiceActors": [
+        {
+          "id": 95092,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Oohara",
+            "full": "Sayaka Oohara",
+            "native": "大原さやか",
+            "userPreferred": "Sayaka Oohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95092-dQXsTFQXLg3o.png"
+        }
+      ]
+    },
+    {
+      "id": 294,
+      "role": "MAIN",
+      "name": {
+        "first": "Touka",
+        "last": null,
+        "full": "Touka",
+        "native": "トウカ",
+        "userPreferred": "Touka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b294-MClQE3cgJwlf.png",
+      "voiceActors": [
+        {
+          "id": 95604,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaya",
+            "last": "Miyake",
+            "full": "Kaya Miyake",
+            "native": "三宅華也",
+            "userPreferred": "Kaya Miyake"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95604-nyVQR1bSGUZP.png"
+        }
+      ]
+    },
+    {
+      "id": 290,
+      "role": "MAIN",
+      "name": {
+        "first": "Aruruu",
+        "last": null,
+        "full": "Aruruu",
+        "native": "アルルゥ",
+        "userPreferred": "Aruruu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b290-tE1LEmJOZuFQ.png",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        }
+      ]
+    },
+    {
+      "id": 296,
+      "role": "MAIN",
+      "name": {
+        "first": "Karura",
+        "last": null,
+        "full": "Karura",
+        "native": "カルラ (カルラゥアツゥレイ)",
+        "userPreferred": "Karura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b296-8kx79VHpVf07.jpg",
+      "voiceActors": [
+        {
+          "id": 95100,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsuko",
+            "last": "Tanaka",
+            "full": "Atsuko Tanaka",
+            "native": "田中敦子",
+            "userPreferred": "Atsuko Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95100-QZdjWZLCoWkf.png"
+        }
+      ]
+    },
+    {
+      "id": 298,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Camyu",
+        "last": null,
+        "full": "Camyu",
+        "native": "カミュ",
+        "userPreferred": "Camyu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b298-2trfsfHZVGd4.png",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        }
+      ]
+    },
+    {
+      "id": 295,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuzuha",
+        "last": null,
+        "full": "Yuzuha",
+        "native": "ユズハ",
+        "userPreferred": "Yuzuha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b295-YiOBpeyz3ha4.png",
+      "voiceActors": [
+        {
+          "id": 95031,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Nakahara",
+            "full": "Mai Nakahara",
+            "native": "中原麻衣",
+            "userPreferred": "Mai Nakahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95031-tipPIz2k0Ncw.png"
+        }
+      ]
+    },
+    {
+      "id": 291,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Oboro",
+        "last": null,
+        "full": "Oboro",
+        "native": "オボロ",
+        "userPreferred": "Oboro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b291-AYDPuGAC1Osa.png",
+      "voiceActors": [
+        {
+          "id": 95114,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Kirii",
+            "full": "Daisuke Kirii",
+            "native": "桐井大介",
+            "userPreferred": "Daisuke Kirii"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/114.jpg"
+        }
+      ]
+    },
+    {
+      "id": 292,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Benawi",
+        "last": null,
+        "full": "Benawi",
+        "native": "ベナウィ",
+        "userPreferred": "Benawi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b292-M4UXZAWXRMuT.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        }
+      ]
+    },
+    {
+      "id": 293,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kurou",
+        "last": null,
+        "full": "Kurou",
+        "native": "クロウ",
+        "userPreferred": "Kurou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/293.jpg",
+      "voiceActors": [
+        {
+          "id": 95285,
+          "language": "Japanese",
+          "name": {
+            "first": "Tsuyoshi",
+            "last": "Koyama",
+            "full": "Tsuyoshi Koyama",
+            "native": "小山剛志",
+            "userPreferred": "Tsuyoshi Koyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95285-SCcRgHqau6Q9.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2437,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dorii",
+        "last": null,
+        "full": "Dorii",
+        "native": "ドリィ",
+        "userPreferred": "Dorii"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2437.jpg",
+      "voiceActors": [
+        {
+          "id": 95094,
+          "language": "Japanese",
+          "name": {
+            "first": "Akeno",
+            "last": "Watanabe",
+            "full": "Akeno Watanabe",
+            "native": "渡边明乃",
+            "userPreferred": "Akeno Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95094-nRPWBG1cVGo5.png"
+        }
+      ]
+    },
+    {
+      "id": 29312,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Guraa",
+        "last": null,
+        "full": "Guraa",
+        "native": "グラァ",
+        "userPreferred": "Guraa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29312.jpg",
+      "voiceActors": [
+        {
+          "id": 95094,
+          "language": "Japanese",
+          "name": {
+            "first": "Akeno",
+            "last": "Watanabe",
+            "full": "Akeno Watanabe",
+            "native": "渡边明乃",
+            "userPreferred": "Akeno Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95094-nRPWBG1cVGo5.png"
+        }
+      ]
+    },
+    {
+      "id": 11708,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mukkuru",
+        "last": null,
+        "full": "Mukkuru",
+        "native": "ムックル",
+        "userPreferred": "Mukkuru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11708.jpg",
+      "voiceActors": [
+        {
+          "id": 105022,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshimitsu",
+            "last": "Shimoyama",
+            "full": "Yoshimitsu Shimoyama",
+            "native": "下山吉光",
+            "userPreferred": "Yoshimitsu Shimoyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10022.jpg"
+        }
+      ]
+    },
+    {
+      "id": 265095,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nopon",
+        "last": null,
+        "full": "Nopon",
+        "native": "ノポン",
+        "userPreferred": "Nopon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b265095-8iL91hh6NlTY.png",
+      "voiceActors": [
+        {
+          "id": 105022,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshimitsu",
+            "last": "Shimoyama",
+            "full": "Yoshimitsu Shimoyama",
+            "native": "下山吉光",
+            "userPreferred": "Yoshimitsu Shimoyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10022.jpg"
+        }
+      ]
+    },
+    {
+      "id": 265094,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gomuta",
+        "last": null,
+        "full": "Gomuta",
+        "native": "ゴムタ",
+        "userPreferred": "Gomuta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b265094-a9g8l4BUtgpS.png",
+      "voiceActors": [
+        {
+          "id": 95820,
+          "language": "Japanese",
+          "name": {
+            "first": "Junji",
+            "last": "Majima",
+            "full": "Junji Majima",
+            "native": "間島淳司",
+            "userPreferred": "Junji Majima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95820-5Fuosf1ljdSc.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 6743,
+      "relationType": "SIDE_STORY",
+      "malId": 6743,
+      "title": {
+        "romaji": "Utawarerumono Picture Drama",
+        "english": null,
+        "native": "うたわれるもの",
+        "userPreferred": "Utawarerumono Picture Drama"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6743.jpg",
+      "color": "#e4ae5d",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6743.jpg",
+      "rating": 60
+    },
+    {
+      "id": 856,
+      "relationType": "PARENT",
+      "malId": 856,
+      "title": {
+        "romaji": "Utawarerumono",
+        "english": "Utawarerumono",
+        "native": "うたわれるもの",
+        "userPreferred": "Utawarerumono"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx856-lawtNdvqvgwd.png",
+      "color": "#e46b35",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/856-JL1pQXtwQHRJ.jpg",
+      "rating": 73
+    }
+  ],
+  "episodes": [
+    {
+      "id": "utawarerumono-ova-episode-1",
+      "title": "The Lullaby of the Watchtower",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3593-lrUl1POvVtKT.png",
+      "number": 1,
+      "createdAt": "2013-02-20T18:25:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//utawarerumono-ova-episode-1"
+    },
+    {
+      "id": "utawarerumono-ova-episode-2",
+      "title": "The Prescription of Secret Love",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3593-lrUl1POvVtKT.png",
+      "number": 2,
+      "createdAt": "2013-02-20T18:25:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//utawarerumono-ova-episode-2"
+    },
+    {
+      "id": "utawarerumono-ova-episode-3",
+      "title": "The Sword Guard Sound in Deep Mountain",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3593-lrUl1POvVtKT.png",
+      "number": 3,
+      "createdAt": "2013-02-20T18:25:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//utawarerumono-ova-episode-3"
+    }
+  ]
+}

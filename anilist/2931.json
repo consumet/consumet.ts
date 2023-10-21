@@ -1,0 +1,915 @@
+{
+  "id": "2931",
+  "title": {
+    "romaji": "Mokke",
+    "english": null,
+    "native": "もっけ"
+  },
+  "malId": 2931,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+  "popularity": 3424,
+  "color": "#e4c943",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+  "description": "This is a story about two sisters: Shizuru, is a high school student who is able to see ghosts while her younger sister, Mizuki, is haunted by these apparitions. Frustrated by their abilities, their parents decided to entrust the sisters into the care of their grandparents who live in the countryside. As they adapt to life in the countryside, Shizuru and Mizuki begin to learn about the importance of coexisting nature with these apparitions.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2007,
+  "startDate": {
+    "year": 2007,
+    "month": 10,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 3,
+    "day": 16
+  },
+  "totalEpisodes": 24,
+  "currentEpisode": 24,
+  "rating": 63,
+  "duration": 24,
+  "genres": [
+    "Mystery",
+    "Slice of Life",
+    "Supernatural"
+  ],
+  "season": "FALL",
+  "studios": [
+    "MADHOUSE"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 4081,
+      "malId": 4081,
+      "title": {
+        "romaji": "Natsume Yuujinchou",
+        "english": "Natsume's Book of Friends",
+        "native": "夏目友人帳",
+        "userPreferred": "Natsume Yuujinchou"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4081-33BLrdaPdZjP.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4081-dbeE4uMExtgc.jpg",
+      "rating": 80,
+      "type": "TV"
+    },
+    {
+      "id": 457,
+      "malId": 457,
+      "title": {
+        "romaji": "Mushishi",
+        "english": "MUSHI-SHI",
+        "native": "蟲師",
+        "userPreferred": "Mushishi"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx457-Si9avlyStAXj.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n457-sWOJfqYC7s2I.jpg",
+      "rating": 85,
+      "type": "TV"
+    },
+    {
+      "id": 477,
+      "malId": 477,
+      "title": {
+        "romaji": "ARIA The ANIMATION",
+        "english": "ARIA The ANIMATION",
+        "native": "ARIA The ANIMATION",
+        "userPreferred": "ARIA The ANIMATION"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx477-IhmzyyzROh27.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/477.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 861,
+      "malId": 861,
+      "title": {
+        "romaji": "xxxHOLiC",
+        "english": "xxxHOLiC",
+        "native": "XXX ホリック",
+        "userPreferred": "xxxHOLiC"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx861-rbZNhIXwS4JE.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/861-9LoNqdFERLvT.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 15731,
+      "malId": 15731,
+      "title": {
+        "romaji": "Tamayura: More Aggressive",
+        "english": null,
+        "native": "たまゆら ～もあぐれっしぶ～",
+        "userPreferred": "Tamayura: More Aggressive"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15731-RCmSh1eqgZxI.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15731-LsLdfmc1hBt1.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 131083,
+      "malId": 48483,
+      "title": {
+        "romaji": "Mieruko-chan",
+        "english": "Mieruko-chan",
+        "native": "見える子ちゃん",
+        "userPreferred": "Mieruko-chan"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131083-fMWFyOFgp6vb.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131083-MYE8c1cuzO6C.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 126897,
+      "malId": 44387,
+      "title": {
+        "romaji": "Sankaku Mado no Sotogawa wa Yoru",
+        "english": "The Night Beyond the Tricornered Window",
+        "native": "さんかく窓の外側は夜",
+        "userPreferred": "Sankaku Mado no Sotogawa wa Yoru"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126897-at1dtnI047XP.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/126897-xNk8oIDPRNy7.jpg",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 2004,
+      "malId": 2004,
+      "title": {
+        "romaji": "Hanada Shounen-shi",
+        "english": null,
+        "native": "花田少年史",
+        "userPreferred": "Hanada Shounen-shi"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2004-oLBclDWKkroa.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2004-Udh8FHfvDgvU.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 123779,
+      "malId": 42822,
+      "title": {
+        "romaji": "Kai Byoui Ramune",
+        "english": "Dr. Ramune -Mysterious Disease Specialist-",
+        "native": "怪病医ラムネ",
+        "userPreferred": "Kai Byoui Ramune"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx123779-AbSom3C7nPQn.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/123779-Ck1nQb0mZ8zJ.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 3077,
+      "malId": 3077,
+      "title": {
+        "romaji": "Warau Salesman",
+        "english": "Laughing Salesman",
+        "native": "笑ゥせぇるすまん",
+        "userPreferred": "Warau Salesman"
+      },
+      "status": "Completed",
+      "episodes": 104,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3077-r93tm0fXWl46.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3077-r93tm0fXWl46.jpg",
+      "rating": 65,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 98239,
+      "malId": 34550,
+      "title": {
+        "romaji": "Warau Salesman New",
+        "english": "The Laughing Salesman",
+        "native": "笑ゥせぇるすまんNew",
+        "userPreferred": "Warau Salesman New"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98239-TfA5HDdAciC6.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98239-H0axcO42rZrW.jpg",
+      "rating": 57,
+      "type": "TV"
+    },
+    {
+      "id": 943,
+      "malId": 943,
+      "title": {
+        "romaji": "Yume Tsukai",
+        "english": null,
+        "native": "夢使い",
+        "userPreferred": "Yume Tsukai"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx943-9Hpks0AUkgog.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/943-B4FL7sjnZTpI.jpg",
+      "rating": 57,
+      "type": "TV"
+    },
+    {
+      "id": 308,
+      "malId": 308,
+      "title": {
+        "romaji": "Zettai Shounen",
+        "english": null,
+        "native": "絶対少年",
+        "userPreferred": "Zettai Shounen"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx308-vl9t9ZoJ51qT.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/308-Gq0g980shP08.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 1214,
+      "malId": 1214,
+      "title": {
+        "romaji": "Binbou Shimai Monogatari",
+        "english": null,
+        "native": "貧乏姉妹物語",
+        "userPreferred": "Binbou Shimai Monogatari"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1214-GZ9zwSWH5Oy6.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1214-6iythSeIfBI9.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 2141,
+      "malId": 2141,
+      "title": {
+        "romaji": "Oseam",
+        "english": null,
+        "native": "오세암",
+        "userPreferred": "Oseam"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2141-FkAzq0kM53W4.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2141-FkAzq0kM53W4.jpg",
+      "rating": 65,
+      "type": "MOVIE"
+    },
+    {
+      "id": 152802,
+      "malId": 52505,
+      "title": {
+        "romaji": "Dark Gathering",
+        "english": "Dark Gathering",
+        "native": "ダークギャザリング",
+        "userPreferred": "Dark Gathering"
+      },
+      "status": "Ongoing",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx152802-qpOnEtQDbppP.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/152802-7iZxNsDwWjVs.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 612,
+      "malId": 612,
+      "title": {
+        "romaji": "PetoPeto-san",
+        "english": null,
+        "native": "ぺとぺとさん",
+        "userPreferred": "PetoPeto-san"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx612-K2ouolYnPysL.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx612-K2ouolYnPysL.png",
+      "rating": 59,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 5352,
+      "role": "MAIN",
+      "name": {
+        "first": "Shizuru",
+        "last": "Hibara",
+        "full": "Shizuru Hibara",
+        "native": null,
+        "userPreferred": "Shizuru Hibara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5352.jpg",
+      "voiceActors": [
+        {
+          "id": 95013,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayako",
+            "last": "Kawasumi",
+            "full": "Ayako Kawasumi",
+            "native": "川澄綾子",
+            "userPreferred": "Ayako Kawasumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95013-cwl64qXuP2r7.png"
+        }
+      ]
+    },
+    {
+      "id": 5353,
+      "role": "MAIN",
+      "name": {
+        "first": "Mizuki",
+        "last": "Hibara",
+        "full": "Mizuki Hibara",
+        "native": null,
+        "userPreferred": "Mizuki Hibara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5353.jpg",
+      "voiceActors": [
+        {
+          "id": 95081,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Mizuki",
+            "full": "Nana Mizuki",
+            "native": "水樹奈々",
+            "userPreferred": "Nana Mizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95081-qto4UanYkpQT.png"
+        }
+      ]
+    },
+    {
+      "id": 38411,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Reiko",
+        "last": "Nagasawa",
+        "full": "Reiko Nagasawa",
+        "native": null,
+        "userPreferred": "Reiko Nagasawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38411.jpg",
+      "voiceActors": [
+        {
+          "id": 95004,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Hirano",
+            "full": "Aya Hirano",
+            "native": "平野綾",
+            "userPreferred": "Aya Hirano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95004-qWQQHGzY3wqr.png"
+        }
+      ]
+    },
+    {
+      "id": 34475,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shintaro",
+        "last": "Arita",
+        "full": "Shintaro Arita",
+        "native": null,
+        "userPreferred": "Shintaro Arita"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34475.jpg",
+      "voiceActors": [
+        {
+          "id": 95278,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Sakaguchi",
+            "full": "Daisuke Sakaguchi",
+            "native": "阪口大助",
+            "userPreferred": "Daisuke Sakaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95278-IrUPhIvJCsF9.png"
+        }
+      ]
+    },
+    {
+      "id": 38047,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takatsu",
+        "last": null,
+        "full": "Takatsu",
+        "native": null,
+        "userPreferred": "Takatsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38047.jpg",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        }
+      ]
+    },
+    {
+      "id": 5356,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ojii-chan",
+        "last": null,
+        "full": "Ojii-chan",
+        "native": null,
+        "userPreferred": "Ojii-chan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5356.jpg",
+      "voiceActors": [
+        {
+          "id": 95325,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsunosuke",
+            "last": "Hori",
+            "full": "Katsunosuke Hori",
+            "native": "堀勝之祐",
+            "userPreferred": "Katsunosuke Hori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95325-eNtFhowXlTGP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5357,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chitose",
+        "last": "Hibara",
+        "full": "Chitose Hibara",
+        "native": null,
+        "userPreferred": "Chitose Hibara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5357.jpg",
+      "voiceActors": [
+        {
+          "id": 95009,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotono",
+            "last": "Mitsuishi",
+            "full": "Kotono Mitsuishi",
+            "native": "三石琴乃",
+            "userPreferred": "Kotono Mitsuishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95009-d01Dg8mMwcg6.png"
+        }
+      ]
+    },
+    {
+      "id": 38050,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Takanashi",
+        "full": "Takanashi",
+        "native": null,
+        "userPreferred": "Takanashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38050.jpg",
+      "voiceActors": [
+        {
+          "id": 95513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Nakamura",
+            "full": "Yuuichi Nakamura",
+            "native": "中村悠一",
+            "userPreferred": "Yuuichi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95513-up9ZDuocHgRs.png"
+        }
+      ]
+    },
+    {
+      "id": 34158,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fumi",
+        "last": "Matsunaga",
+        "full": "Fumi Matsunaga",
+        "native": null,
+        "userPreferred": "Fumi Matsunaga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34158.jpg",
+      "voiceActors": [
+        {
+          "id": 95802,
+          "language": "Japanese",
+          "name": {
+            "first": "Arisa",
+            "last": "Ogasawara",
+            "full": "Arisa Ogasawara",
+            "native": "小笠原亜里沙",
+            "userPreferred": "Arisa Ogasawara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95802-IWZwHQjai8Ld.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12468,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saho",
+        "last": "Katsuragi",
+        "full": "Saho Katsuragi",
+        "native": null,
+        "userPreferred": "Saho Katsuragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12468.jpg",
+      "voiceActors": [
+        {
+          "id": 95057,
+          "language": "Japanese",
+          "name": {
+            "first": "Houko",
+            "last": "Kuwashima",
+            "full": "Houko Kuwashima",
+            "native": "桑島法子",
+            "userPreferred": "Houko Kuwashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95057-nMZEwJet445W.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5355,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Obaa-chan",
+        "last": null,
+        "full": "Obaa-chan",
+        "native": null,
+        "userPreferred": "Obaa-chan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5355.jpg",
+      "voiceActors": [
+        {
+          "id": 95927,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisako",
+            "last": "Kyouda",
+            "full": "Hisako Kyouda",
+            "native": "京田尚子",
+            "userPreferred": "Hisako Kyouda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95927-kFsZv4EhvQZy.png"
+        }
+      ]
+    },
+    {
+      "id": 6494,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kasama",
+        "last": null,
+        "full": "Kasama",
+        "native": null,
+        "userPreferred": "Kasama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6494.jpg",
+      "voiceActors": [
+        {
+          "id": 95061,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiwa",
+            "last": "Saitou",
+            "full": "Chiwa Saitou",
+            "native": "斎藤千和",
+            "userPreferred": "Chiwa Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95061-R8YSAYX7UFCO.png"
+        }
+      ]
+    },
+    {
+      "id": 34071,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aki",
+        "last": null,
+        "full": "Aki",
+        "native": null,
+        "userPreferred": "Aki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34071.jpg",
+      "voiceActors": [
+        {
+          "id": 95140,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukana",
+            "last": "",
+            "full": "Yukana",
+            "native": "ゆかな",
+            "userPreferred": "Yukana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95140-sFp0uedEmZ9f.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 34561,
+      "relationType": "ADAPTATION",
+      "malId": 4561,
+      "title": {
+        "romaji": "Mokke",
+        "english": null,
+        "native": "もっけ",
+        "userPreferred": "Mokke"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/4561.jpg",
+      "color": "#f1c928",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/4561.jpg",
+      "rating": 75
+    },
+    {
+      "id": 4202,
+      "relationType": "SIDE_STORY",
+      "malId": 4202,
+      "title": {
+        "romaji": "Mokke Specials",
+        "english": "Mokke Special Episodes",
+        "native": "もっけ",
+        "userPreferred": "Mokke Specials"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4202.jpg",
+      "color": "#e4a15d",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4202.jpg",
+      "rating": 66
+    }
+  ],
+  "episodes": [
+    {
+      "id": "mokke-episode-1",
+      "title": "Mikoshi",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:46:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-1"
+    },
+    {
+      "id": "mokke-episode-2",
+      "title": "Nagareizuna",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:46:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-2"
+    },
+    {
+      "id": "mokke-episode-3",
+      "title": "Okurimono",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:46:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-3"
+    },
+    {
+      "id": "mokke-episode-4",
+      "title": "Waraiyami",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:46:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-4"
+    },
+    {
+      "id": "mokke-episode-5",
+      "title": "Hiyorimoushi",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:46:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-5"
+    },
+    {
+      "id": "mokke-episode-6",
+      "title": "Keseran Paseran",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:46:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-6"
+    },
+    {
+      "id": "mokke-episode-7",
+      "title": "Jatai",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:46:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-7"
+    },
+    {
+      "id": "mokke-episode-8",
+      "title": "Yamauba",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:46:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-8"
+    },
+    {
+      "id": "mokke-episode-9",
+      "title": "Enenra",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:46:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-9"
+    },
+    {
+      "id": "mokke-episode-10",
+      "title": "Kamaitachi",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:46:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-10"
+    },
+    {
+      "id": "mokke-episode-11",
+      "title": "Daimanako",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:46:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-11"
+    },
+    {
+      "id": "mokke-episode-12",
+      "title": "Majimon",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:46:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-12"
+    },
+    {
+      "id": "mokke-episode-13",
+      "title": "Mame Otoko",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:46:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-13"
+    },
+    {
+      "id": "mokke-episode-14",
+      "title": "Tsuezakura",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 14,
+      "createdAt": "2014-11-16T20:46:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-14"
+    },
+    {
+      "id": "mokke-episode-15",
+      "title": "Minomushi",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 15,
+      "createdAt": "2014-11-16T20:46:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-15"
+    },
+    {
+      "id": "mokke-episode-16",
+      "title": "Sorabayashi",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 16,
+      "createdAt": "2014-11-16T20:46:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-16"
+    },
+    {
+      "id": "mokke-episode-17",
+      "title": "Sudama ga Eshi",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 17,
+      "createdAt": "2014-11-16T20:46:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-17"
+    },
+    {
+      "id": "mokke-episode-18",
+      "title": "Bata Bata",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 18,
+      "createdAt": "2014-11-16T20:46:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-18"
+    },
+    {
+      "id": "mokke-episode-19",
+      "title": "Mekurabe",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 19,
+      "createdAt": "2014-11-16T20:46:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-19"
+    },
+    {
+      "id": "mokke-episode-20",
+      "title": "Kaminarigari",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 20,
+      "createdAt": "2014-11-16T20:46:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-20"
+    },
+    {
+      "id": "mokke-episode-21",
+      "title": "Teoimono",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 21,
+      "createdAt": "2014-11-16T20:46:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-21"
+    },
+    {
+      "id": "mokke-episode-22",
+      "title": "Inabayama",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 22,
+      "createdAt": "2014-11-16T20:46:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-22"
+    },
+    {
+      "id": "mokke-episode-23",
+      "title": "Rokusan",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 23,
+      "createdAt": "2014-11-16T20:46:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-23"
+    },
+    {
+      "id": "mokke-episode-24",
+      "title": "Omokage",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2931.jpg",
+      "number": 24,
+      "createdAt": "2014-11-16T20:46:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mokke-episode-24"
+    }
+  ]
+}

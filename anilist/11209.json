@@ -1,0 +1,518 @@
+{
+  "id": "11209",
+  "title": {
+    "romaji": "Maken-Ki! OVA",
+    "english": null,
+    "native": "マケン姫っ！ OVA"
+  },
+  "malId": 11209,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/11209.jpg",
+  "popularity": 11542,
+  "color": "#5d86e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11209-qWrD6bLxiPzT.jpg",
+  "description": "OVA episodes bundled with the 8th and 11th volumes of the manga.",
+  "status": "Completed",
+  "releaseDate": 2012,
+  "startDate": {
+    "year": 2012,
+    "month": 3,
+    "day": 1
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 9,
+    "day": 25
+  },
+  "totalEpisodes": 2,
+  "currentEpisode": 2,
+  "rating": 61,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Ecchi"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 11617,
+      "malId": 11617,
+      "title": {
+        "romaji": "High School DxD",
+        "english": "High School DxD",
+        "native": "ハイスクールD×D",
+        "userPreferred": "High School DxD"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx11617-nmxMU9Zh3H5R.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11617-oLkTAGcyAwcU.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 107961,
+      "malId": 39326,
+      "title": {
+        "romaji": "Kawaikereba Hentai demo Suki ni Natte Kuremasu ka?",
+        "english": "Hensuki: Are you willing to fall in love with a pervert, as long as she’s a cutie?",
+        "native": "可愛ければ変態でも好きになってくれますか？",
+        "userPreferred": "Kawaikereba Hentai demo Suki ni Natte Kuremasu ka?"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107961-8aQlUDwwRpQS.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107961-n4S7m1LqtUO8.jpg",
+      "rating": 62,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 13390,
+      "role": "MAIN",
+      "name": {
+        "first": "Haruko",
+        "last": "Amaya",
+        "full": "Haruko Amaya",
+        "native": "天谷 春恋",
+        "userPreferred": "Haruko Amaya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13390.jpg",
+      "voiceActors": [
+        {
+          "id": 95120,
+          "language": "Japanese",
+          "name": {
+            "first": "Noriko",
+            "last": "Shitaya",
+            "full": "Noriko Shitaya",
+            "native": "下屋則子",
+            "userPreferred": "Noriko Shitaya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95120-XwX1WdxBi5C2.png"
+        }
+      ]
+    },
+    {
+      "id": 13389,
+      "role": "MAIN",
+      "name": {
+        "first": "Takeru",
+        "last": "Ohyama",
+        "full": "Takeru Ohyama",
+        "native": "大山 タケル",
+        "userPreferred": "Takeru Ohyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13389.jpg",
+      "voiceActors": [
+        {
+          "id": 96489,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoaki",
+            "last": "Maeno",
+            "full": "Tomoaki Maeno",
+            "native": "前野智昭",
+            "userPreferred": "Tomoaki Maeno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96489-xTzYxgdC9g9l.png"
+        }
+      ]
+    },
+    {
+      "id": 19606,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Furan",
+        "last": "Takaki",
+        "full": "Furan Takaki",
+        "native": "高貴 楓蘭",
+        "userPreferred": "Furan Takaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19606.jpg",
+      "voiceActors": [
+        {
+          "id": 103929,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiharu",
+            "last": "Kitaoka",
+            "full": "Chiharu Kitaoka",
+            "native": "喜多丘千陽",
+            "userPreferred": "Chiharu Kitaoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8929.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13391,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kodama",
+        "last": "Himegami",
+        "full": "Kodama Himegami",
+        "native": "姫神 コダマ",
+        "userPreferred": "Kodama Himegami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13391.jpg",
+      "voiceActors": [
+        {
+          "id": 95380,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayuri",
+            "last": "Yahagi",
+            "full": "Sayuri Yahagi",
+            "native": "矢作紗友里",
+            "userPreferred": "Sayuri Yahagi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95380-mOdqKPb6xYnI.png"
+        }
+      ]
+    },
+    {
+      "id": 19603,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Minori",
+        "last": "Rokujo",
+        "full": "Minori Rokujo",
+        "native": "六条 実",
+        "userPreferred": "Minori Rokujo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b19603-yP0pOeWMh0PJ.png",
+      "voiceActors": [
+        {
+          "id": 103930,
+          "language": "Japanese",
+          "name": {
+            "first": "Mina ",
+            "last": "Kasai",
+            "full": "Mina  Kasai",
+            "native": "葛西美名",
+            "userPreferred": "Mina  Kasai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8930.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39893,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Celia",
+        "last": "Ootsuka",
+        "full": "Celia Ootsuka",
+        "native": "シリア 大塚",
+        "userPreferred": "Celia Ootsuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39893.jpg",
+      "voiceActors": [
+        {
+          "id": 95655,
+          "language": "Japanese",
+          "name": {
+            "first": "Mariya",
+            "last": "Ise",
+            "full": "Mariya Ise",
+            "native": "伊瀬茉莉也",
+            "userPreferred": "Mariya Ise"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95655-KbQUnQTroukJ.png"
+        }
+      ]
+    },
+    {
+      "id": 13392,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Inaho",
+        "last": "Kushiya",
+        "full": "Inaho Kushiya",
+        "native": "櫛八 イナホ",
+        "userPreferred": "Inaho Kushiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13392.jpg",
+      "voiceActors": [
+        {
+          "id": 103956,
+          "language": "Japanese",
+          "name": {
+            "first": "Iori",
+            "last": "Nomizu",
+            "full": "Iori Nomizu",
+            "native": "野水伊織",
+            "userPreferred": "Iori Nomizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103956-SBfEe7v8hV4r.png"
+        }
+      ]
+    },
+    {
+      "id": 19607,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuka",
+        "last": "Amado",
+        "full": "Yuuka Amado",
+        "native": "雨渡 穣華",
+        "userPreferred": "Yuuka Amado"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19607.jpg",
+      "voiceActors": [
+        {
+          "id": 106659,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsumi",
+            "last": "Takamori",
+            "full": "Natsumi Takamori",
+            "native": "高森奈津美",
+            "userPreferred": "Natsumi Takamori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106659-3LfNtHDY3P0Z.png"
+        }
+      ]
+    },
+    {
+      "id": 54989,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kengo",
+        "last": "Usui",
+        "full": "Kengo Usui",
+        "native": "碓健悟",
+        "userPreferred": "Kengo Usui"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/54989.jpg",
+      "voiceActors": [
+        {
+          "id": 100539,
+          "language": "Japanese",
+          "name": {
+            "first": "Satoshi",
+            "last": "Tsuruoka",
+            "full": "Satoshi Tsuruoka",
+            "native": "鶴岡聡",
+            "userPreferred": "Satoshi Tsuruoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100539-6vHCO7o7EtmV.jpg"
+        }
+      ]
+    },
+    {
+      "id": 56677,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Uruchi",
+        "last": "Minaya",
+        "full": "Uruchi Minaya",
+        "native": "水屋うるち",
+        "userPreferred": "Uruchi Minaya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/56677.jpg",
+      "voiceActors": [
+        {
+          "id": 107144,
+          "language": "Japanese",
+          "name": {
+            "first": "Shizuka",
+            "last": "Furuya",
+            "full": "Shizuka Furuya",
+            "native": "静佳古谷",
+            "userPreferred": "Shizuka Furuya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107144-T1wKIAjq0Huv.png"
+        }
+      ]
+    },
+    {
+      "id": 19604,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aki",
+        "last": "Nijou",
+        "full": "Aki Nijou",
+        "native": "二条 秋",
+        "userPreferred": "Aki Nijou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b19604-OwZuYPREZcPm.png",
+      "voiceActors": [
+        {
+          "id": 103030,
+          "language": "Japanese",
+          "name": {
+            "first": "Hitomi",
+            "last": "Harada",
+            "full": "Hitomi Harada",
+            "native": "原田ひとみ",
+            "userPreferred": "Hitomi Harada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103030-CqmMNYO3QRCv.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14674,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kimi",
+        "last": "Satou",
+        "full": "Kimi Satou",
+        "native": "砂藤 季美",
+        "userPreferred": "Kimi Satou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14674-VBtG1fzj6zFw.png",
+      "voiceActors": [
+        {
+          "id": 107759,
+          "language": "Japanese",
+          "name": {
+            "first": "Misato",
+            "last": "",
+            "full": "Misato",
+            "native": "味里 ",
+            "userPreferred": "Misato"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107759-OBOxjvk9SSnb.png"
+        }
+      ]
+    },
+    {
+      "id": 19605,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chacha",
+        "last": "Akaza",
+        "full": "Chacha Akaza",
+        "native": "藜 チャチャ",
+        "userPreferred": "Chacha Akaza"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19605.jpg",
+      "voiceActors": [
+        {
+          "id": 103650,
+          "language": "Japanese",
+          "name": {
+            "first": "Saeko",
+            "last": "Zougou",
+            "full": "Saeko Zougou",
+            "native": "紗恵子藏合",
+            "userPreferred": "Saeko Zougou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8650.jpg"
+        }
+      ]
+    },
+    {
+      "id": 47903,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Azuki",
+        "last": "Shinatsu",
+        "full": "Azuki Shinatsu",
+        "native": "志那都 アズキ",
+        "userPreferred": "Azuki Shinatsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b47903-0hsXXHHQYhRs.png",
+      "voiceActors": [
+        {
+          "id": 103806,
+          "language": "Japanese",
+          "name": {
+            "first": "Misuzu",
+            "last": "Togashi",
+            "full": "Misuzu Togashi",
+            "native": "富樫美鈴",
+            "userPreferred": "Misuzu Togashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103806-LwylGxcXA0km.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 9936,
+      "relationType": "PREQUEL",
+      "malId": 9936,
+      "title": {
+        "romaji": "Maken-Ki!",
+        "english": "Maken-Ki! Battling Venus",
+        "native": "マケン姫っ！",
+        "userPreferred": "Maken-Ki!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9936.jpg",
+      "color": "#e4505d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9936-TxE1ElPknoOw.png",
+      "rating": 58
+    },
+    {
+      "id": 15565,
+      "relationType": "SEQUEL",
+      "malId": 15565,
+      "title": {
+        "romaji": "Maken-Ki! Tsuu",
+        "english": "Maken-Ki! Battling Venus 2",
+        "native": "マケン姫っ！通",
+        "userPreferred": "Maken-Ki! Tsuu"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b15565-2nDrmF9RMTwP.jpg",
+      "color": "#e4865d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15565-maADKC9vlpH9.png",
+      "rating": 57
+    },
+    {
+      "id": 37186,
+      "relationType": "ADAPTATION",
+      "malId": 7186,
+      "title": {
+        "romaji": "Maken-Ki!",
+        "english": "Maken-Ki!",
+        "native": "マケン姫っ！",
+        "userPreferred": "Maken-Ki!"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx37186-PceZKqLKoEJz.jpg",
+      "color": "#e45d6b",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/37186-FXuavxevLn66.jpg",
+      "rating": 63
+    }
+  ],
+  "episodes": [
+    {
+      "id": "maken-ki-ova--episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/11209.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//maken-ki-ova--episode-1"
+    },
+    {
+      "id": "maken-ki-ova--episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/11209.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//maken-ki-ova--episode-2"
+    }
+  ]
+}

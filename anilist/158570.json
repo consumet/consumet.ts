@@ -1,0 +1,82 @@
+{
+  "id": "158570",
+  "title": {
+    "romaji": "Obake Zukan!",
+    "english": "Obake Zukan 2nd Season",
+    "native": "おばけずかん！"
+  },
+  "malId": 52319,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b158570-mCym2nWxK4iT.jpg",
+  "popularity": 82,
+  "color": "#50aef1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b158570-mCym2nWxK4iT.jpg",
+  "description": "The second season of <i>Obake Zukan</i>.",
+  "status": "Completed",
+  "releaseDate": 2022,
+  "startDate": {
+    "year": 2022,
+    "month": 10,
+    "day": 5
+  },
+  "endDate": {
+    "year": 2023,
+    "month": 3,
+    "day": 29
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": null,
+  "duration": 3,
+  "genres": [
+    "Comedy",
+    "Fantasy",
+    "Supernatural"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Fanworks"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 165389,
+      "role": "MAIN",
+      "name": {
+        "first": "Hiroshi",
+        "last": null,
+        "full": "Hiroshi",
+        "native": "ヒロシ",
+        "userPreferred": "Hiroshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b165389-OqAy39ifWpQY.jpg",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 116259,
+      "relationType": "PREQUEL",
+      "malId": 41383,
+      "title": {
+        "romaji": "Obake Zukan",
+        "english": null,
+        "native": "おばけずかん",
+        "userPreferred": "Obake Zukan"
+      },
+      "status": "Completed",
+      "episodes": 39,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116259-xm1SLrhBB3mg.jpg",
+      "color": "#ffc935",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116259-xm1SLrhBB3mg.jpg",
+      "rating": 43
+    }
+  ],
+  "episodes": []
+}

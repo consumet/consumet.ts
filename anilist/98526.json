@@ -1,0 +1,551 @@
+{
+  "id": "98526",
+  "title": {
+    "romaji": "ROBOMASTERS THE ANIMATED SERIES",
+    "english": null,
+    "native": "ROBOMASTERS THE ANIMATED SERIES"
+  },
+  "malId": 34903,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "ahQRAjDYsvw",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/ahQRAjDYsvw/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98526-VKJSGv2walfo.jpg",
+  "popularity": 2845,
+  "color": "#43a1f1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98526-VKJSGv2walfo.jpg",
+  "description": "Anime based on the DJI-hosted RoboMasters competition, which is the world's biggest student robotics competition.",
+  "status": "Completed",
+  "releaseDate": 2017,
+  "startDate": {
+    "year": 2017,
+    "month": 10,
+    "day": 13
+  },
+  "endDate": {
+    "year": 2017,
+    "month": 11,
+    "day": 17
+  },
+  "totalEpisodes": 6,
+  "currentEpisode": 6,
+  "rating": 57,
+  "duration": 25,
+  "genres": [
+    "Action",
+    "Drama"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Dandelion Animation Studio"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 176183,
+      "role": "MAIN",
+      "name": {
+        "first": "Shou",
+        "last": null,
+        "full": "Shou",
+        "native": "ショウ",
+        "userPreferred": "Shou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176183-KrdoWy9jVrY0.jpg",
+      "voiceActors": [
+        {
+          "id": 118806,
+          "language": "Japanese",
+          "name": {
+            "first": "Lynn",
+            "last": "",
+            "full": "Lynn",
+            "native": "Lynn",
+            "userPreferred": "Lynn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118806-AlHvdje5aHje.png"
+        }
+      ]
+    },
+    {
+      "id": 176184,
+      "role": "MAIN",
+      "name": {
+        "first": "Tantan",
+        "last": null,
+        "full": "Tantan",
+        "native": "タンタン",
+        "userPreferred": "Tantan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176184-2PEDJzqht39y.jpg",
+      "voiceActors": [
+        {
+          "id": 116971,
+          "language": "Japanese",
+          "name": {
+            "first": "Daiki",
+            "last": "Yamashita",
+            "full": "Daiki Yamashita",
+            "native": "山下大輝",
+            "userPreferred": "Daiki Yamashita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116971-r6Yn9mDyzBqU.png"
+        }
+      ]
+    },
+    {
+      "id": 176185,
+      "role": "MAIN",
+      "name": {
+        "first": "Tei",
+        "last": null,
+        "full": "Tei",
+        "native": "テイ",
+        "userPreferred": "Tei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176185-mq9a7w3eowyy.jpg",
+      "voiceActors": [
+        {
+          "id": 118908,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichirou",
+            "last": "Umehara",
+            "full": "Yuuichirou Umehara",
+            "native": "梅原裕一郎",
+            "userPreferred": "Yuuichirou Umehara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/118908-f16PugVCnZfT.jpg"
+        }
+      ]
+    },
+    {
+      "id": 176186,
+      "role": "MAIN",
+      "name": {
+        "first": "Xiao",
+        "last": "Ai",
+        "full": "Xiao Ai",
+        "native": "シャオアイ",
+        "userPreferred": "Xiao Ai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176186-CibF5csInleR.jpg",
+      "voiceActors": [
+        {
+          "id": 107041,
+          "language": "Japanese",
+          "name": {
+            "first": "Rumi",
+            "last": "Ookubo",
+            "full": "Rumi Ookubo",
+            "native": "大久保瑠美",
+            "userPreferred": "Rumi Ookubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107041-ZqPloXZhcuQw.jpg"
+        }
+      ]
+    },
+    {
+      "id": 176191,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Katrina",
+        "last": null,
+        "full": "Katrina",
+        "native": "カトリーナ",
+        "userPreferred": "Katrina"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176191-wol29XOlKPte.jpg",
+      "voiceActors": [
+        {
+          "id": 119922,
+          "language": "Japanese",
+          "name": {
+            "first": "Ruriko",
+            "last": "Aoki",
+            "full": "Ruriko Aoki",
+            "native": "青木瑠璃子",
+            "userPreferred": "Ruriko Aoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/24922-GZMYC1vTwn4W.jpg"
+        }
+      ]
+    },
+    {
+      "id": 176199,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "You-sensei",
+        "last": null,
+        "full": "You-sensei",
+        "native": "楊先生",
+        "userPreferred": "You-sensei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176199-Z3o6LPO2l5vb.png",
+      "voiceActors": [
+        {
+          "id": 111749,
+          "language": "Japanese",
+          "name": {
+            "first": "Masafumi",
+            "last": "Mima",
+            "full": "Masafumi Mima",
+            "native": "三間雅文",
+            "userPreferred": "Masafumi Mima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111749-xD6V05u2FQig.png"
+        }
+      ]
+    },
+    {
+      "id": 176192,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Koukin",
+        "last": null,
+        "full": "Koukin",
+        "native": "コウキン",
+        "userPreferred": "Koukin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176192-eLkJsf16WRDc.jpg",
+      "voiceActors": [
+        {
+          "id": 132809,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiko",
+            "last": "Shiraishi",
+            "full": "Keiko Shiraishi",
+            "native": "白石慶子",
+            "userPreferred": "Keiko Shiraishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n132809-ADgs0imkM2A5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 176193,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyou",
+        "last": null,
+        "full": "Kyou",
+        "native": "キョウ",
+        "userPreferred": "Kyou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176193-pxVnTPnry0cu.jpg",
+      "voiceActors": [
+        {
+          "id": 101602,
+          "language": "Japanese",
+          "name": {
+            "first": "Hideyuki",
+            "last": "Umezu",
+            "full": "Hideyuki Umezu",
+            "native": "梅津秀行",
+            "userPreferred": "Hideyuki Umezu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101602-wUvWtCkvNGNB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 176194,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lee",
+        "last": null,
+        "full": "Lee",
+        "native": "リー",
+        "userPreferred": "Lee"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176194-Pkj9EPD4EDkV.jpg",
+      "voiceActors": [
+        {
+          "id": 107480,
+          "language": "Japanese",
+          "name": {
+            "first": "Subaru",
+            "last": "Kimura",
+            "full": "Subaru Kimura",
+            "native": "木村昴",
+            "userPreferred": "Subaru Kimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107480-h2RgLXNP7hcj.png"
+        }
+      ]
+    },
+    {
+      "id": 176187,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chinmei",
+        "last": null,
+        "full": "Chinmei",
+        "native": "チンメイ",
+        "userPreferred": "Chinmei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 123038,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsuhiro",
+            "last": "Tokuishi",
+            "full": "Katsuhiro Tokuishi",
+            "native": "徳石勝大",
+            "userPreferred": "Katsuhiro Tokuishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n123038-zQ92mgm40umT.jpg"
+        }
+      ]
+    },
+    {
+      "id": 176195,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Luu",
+        "last": null,
+        "full": "Luu",
+        "native": "ルー",
+        "userPreferred": "Luu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 128193,
+          "language": "Japanese",
+          "name": {
+            "first": "Takumi",
+            "last": "Watanabe",
+            "full": "Takumi Watanabe",
+            "native": "渡辺拓海 ",
+            "userPreferred": "Takumi Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n128193-pzfJaNfRUjE1.png"
+        }
+      ]
+    },
+    {
+      "id": 176188,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chou",
+        "last": null,
+        "full": "Chou",
+        "native": "チョウ",
+        "userPreferred": "Chou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176188-ibNaf0FKDt6N.jpg",
+      "voiceActors": [
+        {
+          "id": 110457,
+          "language": "Japanese",
+          "name": {
+            "first": "Takashi",
+            "last": "Onozuka",
+            "full": "Takashi Onozuka",
+            "native": "小野塚貴志",
+            "userPreferred": "Takashi Onozuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110457-0uMrhHbGj9Gd.png"
+        }
+      ]
+    },
+    {
+      "id": 176196,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mou",
+        "last": null,
+        "full": "Mou",
+        "native": "モウ",
+        "userPreferred": "Mou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176196-bjx7fXVThDqz.jpg",
+      "voiceActors": [
+        {
+          "id": 119185,
+          "language": "Japanese",
+          "name": {
+            "first": "Shunsuke",
+            "last": "Takeuchi",
+            "full": "Shunsuke Takeuchi",
+            "native": "武内駿輔",
+            "userPreferred": "Shunsuke Takeuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119185-65kkxuTRxAgo.png"
+        }
+      ]
+    },
+    {
+      "id": 176189,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Han",
+        "last": null,
+        "full": "Han",
+        "native": "ハン",
+        "userPreferred": "Han"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 119155,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Sekine",
+            "full": "Akira Sekine",
+            "native": "関根明良",
+            "userPreferred": "Akira Sekine"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119155-DCKagRHcI95J.png"
+        }
+      ]
+    },
+    {
+      "id": 176197,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Raowan",
+        "last": null,
+        "full": "Raowan",
+        "native": "ラオワン",
+        "userPreferred": "Raowan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176197-8H3c0DF2weGt.jpg",
+      "voiceActors": [
+        {
+          "id": 120263,
+          "language": "Japanese",
+          "name": {
+            "first": "Daiki",
+            "last": "Hamano",
+            "full": "Daiki Hamano",
+            "native": "濱野大輝",
+            "userPreferred": "Daiki Hamano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120263-v4Hq7oOv7act.png"
+        }
+      ]
+    },
+    {
+      "id": 176190,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Wang",
+        "last": "Jun",
+        "full": "Wang Jun",
+        "native": "王俊",
+        "userPreferred": "Wang Jun"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176190-y8mUDNZ22DZI.jpg",
+      "voiceActors": [
+        {
+          "id": 119506,
+          "language": "Japanese",
+          "name": {
+            "first": "Fukushi",
+            "last": "Ochiai",
+            "full": "Fukushi Ochiai",
+            "native": "福嗣 落合",
+            "userPreferred": "Fukushi Ochiai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119506-kCsXHHjcQca6.png"
+        }
+      ]
+    },
+    {
+      "id": 176198,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sou",
+        "last": null,
+        "full": "Sou",
+        "native": "ソウ",
+        "userPreferred": "Sou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 127804,
+          "language": "Japanese",
+          "name": {
+            "first": "Reiou",
+            "last": "Tsuchida",
+            "full": "Reiou Tsuchida",
+            "native": "土田玲央",
+            "userPreferred": "Reiou Tsuchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n127804-AGN0PO0F77fz.png"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "robomasters-the-animated-series-episode-1",
+      "title": "Episode 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98526-VKJSGv2walfo.jpg",
+      "number": 1,
+      "createdAt": "2018-02-04T00:06:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//robomasters-the-animated-series-episode-1"
+    },
+    {
+      "id": "robomasters-the-animated-series-episode-2",
+      "title": "Episode 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98526-VKJSGv2walfo.jpg",
+      "number": 2,
+      "createdAt": "2018-02-04T00:06:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//robomasters-the-animated-series-episode-2"
+    },
+    {
+      "id": "robomasters-the-animated-series-episode-3",
+      "title": "Episode 3",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98526-VKJSGv2walfo.jpg",
+      "number": 3,
+      "createdAt": "2018-02-04T00:06:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//robomasters-the-animated-series-episode-3"
+    },
+    {
+      "id": "robomasters-the-animated-series-episode-4",
+      "title": "Episode 4",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98526-VKJSGv2walfo.jpg",
+      "number": 4,
+      "createdAt": "2018-02-04T00:06:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//robomasters-the-animated-series-episode-4"
+    },
+    {
+      "id": "robomasters-the-animated-series-episode-5",
+      "title": "Episode 5",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98526-VKJSGv2walfo.jpg",
+      "number": 5,
+      "createdAt": "2018-02-04T00:06:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//robomasters-the-animated-series-episode-5"
+    },
+    {
+      "id": "robomasters-the-animated-series-episode-6",
+      "title": "Episode 6",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98526-VKJSGv2walfo.jpg",
+      "number": 6,
+      "createdAt": "2018-02-04T00:06:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//robomasters-the-animated-series-episode-6"
+    }
+  ]
+}

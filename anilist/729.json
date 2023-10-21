@@ -1,0 +1,950 @@
+{
+  "id": "729",
+  "title": {
+    "romaji": "Hiatari Ryoukou!",
+    "english": "Sunny Ryoko",
+    "native": "陽あたり良好！"
+  },
+  "malId": 729,
+  "synonyms": [
+    "Hiatari Ryoukou",
+    "Questa allegra gioventù",
+    "Une Vie Nouvelle",
+    "Alegre juventud",
+    "Kul i Plugget",
+    "Koulussa"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+  "popularity": 1605,
+  "color": "#f1ae78",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/729-nk1dY6IZxpqa.jpg",
+  "description": "Kishimoto Kasumi, a 15-year-old girl, was supposed to live at her auntie's house in order to go to high school since April. However, when she moved to the house she was surprised with the fact that there were already four new male students living in the same house. To make the matter worse, that day while she was taking a bath, Takasugi Yusaku, one of those boys, came into the bath and saw her naked. This is how Kasumi's troublesome high school days started. <br><br>\n(Source: AniDB)",
+  "status": "Completed",
+  "releaseDate": 1987,
+  "startDate": {
+    "year": 1987,
+    "month": 3,
+    "day": 29
+  },
+  "endDate": {
+    "year": 1988,
+    "month": 3,
+    "day": 20
+  },
+  "totalEpisodes": 48,
+  "currentEpisode": 48,
+  "rating": 63,
+  "duration": 25,
+  "genres": [
+    "Comedy",
+    "Romance",
+    "Sports"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Group TAC"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 1065,
+      "malId": 1065,
+      "title": {
+        "romaji": "Touch",
+        "english": null,
+        "native": "タッチ",
+        "userPreferred": "Touch"
+      },
+      "status": "Completed",
+      "episodes": 101,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1065-kwtHZDN5cAOG.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n1065-4tE9AuI1vAKX.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 2231,
+      "malId": 2231,
+      "title": {
+        "romaji": "Miyuki",
+        "english": null,
+        "native": "みゆき",
+        "userPreferred": "Miyuki"
+      },
+      "status": "Completed",
+      "episodes": 37,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2231.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2231-SJm0GHYFVamw.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 1453,
+      "malId": 1453,
+      "title": {
+        "romaji": "Maison Ikkoku",
+        "english": null,
+        "native": "めぞん一刻",
+        "userPreferred": "Maison Ikkoku"
+      },
+      "status": "Completed",
+      "episodes": 96,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1453-mghhMKzxEVcQ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1453-sC5wVW5UoeHi.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 386,
+      "malId": 386,
+      "title": {
+        "romaji": "H2",
+        "english": null,
+        "native": "H2",
+        "userPreferred": "H2"
+      },
+      "status": "Completed",
+      "episodes": 41,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx386-8uZoKAYem0Kn.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx386-8uZoKAYem0Kn.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 390,
+      "malId": 390,
+      "title": {
+        "romaji": "Suzuka",
+        "english": "Suzuka",
+        "native": "涼風",
+        "userPreferred": "Suzuka"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx390-rO6Vj8DyKcLb.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/390-eTGNftg7UsKD.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 5941,
+      "malId": 5941,
+      "title": {
+        "romaji": "Cross Game",
+        "english": "Cross Game",
+        "native": "クロスゲーム",
+        "userPreferred": "Cross Game"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5941-Rl3qnxfiRCy1.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5941-1VflQ6JuIkUA.jpg",
+      "rating": 81,
+      "type": "TV"
+    },
+    {
+      "id": 1087,
+      "malId": 1087,
+      "title": {
+        "romaji": "Kimagure Orange☆Road",
+        "english": null,
+        "native": "きまぐれオレンジ☆ロード",
+        "userPreferred": "Kimagure Orange☆Road"
+      },
+      "status": "Completed",
+      "episodes": 48,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1087-zqIJ1FZjwilM.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1087-ibInHaGwOFPg.jpg",
+      "rating": 71,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 13910,
+      "role": "MAIN",
+      "name": {
+        "first": "Kasumi",
+        "last": "Kishimoto",
+        "full": "Kasumi Kishimoto",
+        "native": "岸本 かすみ",
+        "userPreferred": "Kasumi Kishimoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13910-oLyKWQ1dzf80.png",
+      "voiceActors": [
+        {
+          "id": 103899,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Morio",
+            "full": "Yumi Morio",
+            "native": "由美森尾",
+            "userPreferred": "Yumi Morio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103899-vcP9xW2CUPrZ.png"
+        },
+        {
+          "id": 104942,
+          "language": "Italian",
+          "name": {
+            "first": "Donatella",
+            "last": "Fanfani",
+            "full": "Donatella Fanfani",
+            "native": null,
+            "userPreferred": "Donatella Fanfani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9942.jpg"
+        }
+      ]
+    },
+    {
+      "id": 59113,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keiko",
+        "last": "Seki",
+        "full": "Keiko Seki",
+        "native": "関 圭子",
+        "userPreferred": "Keiko Seki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/59113.jpg",
+      "voiceActors": [
+        {
+          "id": 95354,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiromi",
+            "last": "Tsuru",
+            "full": "Hiromi Tsuru",
+            "native": "鶴ひろみ",
+            "userPreferred": "Hiromi Tsuru"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95354-Ds90swc530OH.jpg"
+        }
+      ]
+    },
+    {
+      "id": 59111,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takashi",
+        "last": "Ariyama",
+        "full": "Takashi Ariyama",
+        "native": "有山高志",
+        "userPreferred": "Takashi Ariyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/59111.jpg",
+      "voiceActors": [
+        {
+          "id": 105299,
+          "language": "Japanese",
+          "name": {
+            "first": "Shouzou",
+            "last": "Hayashiya",
+            "full": "Shouzou Hayashiya",
+            "native": "林家正蔵",
+            "userPreferred": "Shouzou Hayashiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10299.jpg"
+        }
+      ]
+    },
+    {
+      "id": 59103,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shin",
+        "last": "Mikimoto",
+        "full": "Shin Mikimoto",
+        "native": "美樹本 伸",
+        "userPreferred": "Shin Mikimoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/59103.jpg",
+      "voiceActors": [
+        {
+          "id": 95424,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaneto",
+            "last": "Shiozawa",
+            "full": "Kaneto Shiozawa",
+            "native": "塩沢兼人",
+            "userPreferred": "Kaneto Shiozawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95424-Zd7vHDVhSWKs.jpg"
+        }
+      ]
+    },
+    {
+      "id": 59107,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Makoto",
+        "last": "Nakaoka",
+        "full": "Makoto Nakaoka",
+        "native": "相戸 誠",
+        "userPreferred": "Makoto Nakaoka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/59107.jpg",
+      "voiceActors": [
+        {
+          "id": 145749,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsuhiko",
+            "last": "Nanba",
+            "full": "Katsuhiko Nanba",
+            "native": "難波克弘",
+            "userPreferred": "Katsuhiko Nanba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145749-4D2rfmFGKGG1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 59115,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Masato",
+        "last": "Seki",
+        "full": "Masato Seki",
+        "native": "関真人",
+        "userPreferred": "Masato Seki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/59115.jpg",
+      "voiceActors": [
+        {
+          "id": 95572,
+          "language": "Japanese",
+          "name": {
+            "first": "Hirotaka",
+            "last": "Suzuoki",
+            "full": "Hirotaka Suzuoki",
+            "native": "鈴置洋孝",
+            "userPreferred": "Hirotaka Suzuoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95572-H6tkZ7SsId5E.jpg"
+        }
+      ]
+    },
+    {
+      "id": 282871,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Katsuhiko",
+        "last": "Muraki",
+        "full": "Katsuhiko Muraki",
+        "native": "村木克彦",
+        "userPreferred": "Katsuhiko Muraki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b282871-cnAZydefnUUj.png",
+      "voiceActors": [
+        {
+          "id": 95021,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiko",
+            "last": "Inoue",
+            "full": "Kazuhiko Inoue",
+            "native": "井上和彦",
+            "userPreferred": "Kazuhiko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95021-9qAoAn6GNZ3S.png"
+        }
+      ]
+    },
+    {
+      "id": 59109,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuusaku",
+        "last": "Takasugi",
+        "full": "Yuusaku Takasugi",
+        "native": "高杉勇作",
+        "userPreferred": "Yuusaku Takasugi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/59109.jpg",
+      "voiceActors": [
+        {
+          "id": 95874,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Mitsuya",
+            "full": "Yuuji Mitsuya",
+            "native": "三ツ矢雄二",
+            "userPreferred": "Yuuji Mitsuya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95874-grd6XzrNhfoP.png"
+        },
+        {
+          "id": 96293,
+          "language": "Italian",
+          "name": {
+            "first": "Gabriele",
+            "last": "Calindri",
+            "full": "Gabriele Calindri",
+            "native": null,
+            "userPreferred": "Gabriele Calindri"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96293-QmhYngY200fT.jpg"
+        }
+      ]
+    },
+    {
+      "id": 59117,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyoko",
+        "last": "Enomoto",
+        "full": "Kyoko Enomoto",
+        "native": "榎本京子",
+        "userPreferred": "Kyoko Enomoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/59117.jpg",
+      "voiceActors": [
+        {
+          "id": 95957,
+          "language": "Japanese",
+          "name": {
+            "first": "Saeko",
+            "last": "Shimazu",
+            "full": "Saeko Shimazu",
+            "native": "島津冴子",
+            "userPreferred": "Saeko Shimazu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/957.jpg"
+        }
+      ]
+    },
+    {
+      "id": 59101,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chigusa",
+        "last": "Mizusawa",
+        "full": "Chigusa Mizusawa",
+        "native": "水沢 千草",
+        "userPreferred": "Chigusa Mizusawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/59101.jpg",
+      "voiceActors": [
+        {
+          "id": 95962,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazue",
+            "last": "Komiya",
+            "full": "Kazue Komiya",
+            "native": "小宮和枝",
+            "userPreferred": "Kazue Komiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95962-3cAh1ES54qUK.png"
+        }
+      ]
+    },
+    {
+      "id": 59137,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kodama",
+        "last": null,
+        "full": "Kodama",
+        "native": "児玉",
+        "userPreferred": "Kodama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/59137.jpg",
+      "voiceActors": [
+        {
+          "id": 96026,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiichi",
+            "last": "Nanba",
+            "full": "Keiichi Nanba",
+            "native": "難波圭一",
+            "userPreferred": "Keiichi Nanba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96026-lC6TRnpmiqpU.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 33168,
+      "relationType": "ADAPTATION",
+      "malId": 3168,
+      "title": {
+        "romaji": "Hiatari Ryoukou!",
+        "english": null,
+        "native": "陽あたり良好!",
+        "userPreferred": "Hiatari Ryoukou!"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx33168-3d5qlXaQncb3.jpg",
+      "color": "#f14393",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/33168-2XxmR8dJ2mxO.jpg",
+      "rating": 66
+    },
+    {
+      "id": 1552,
+      "relationType": "SIDE_STORY",
+      "malId": 1552,
+      "title": {
+        "romaji": "Hiatari Ryoukou! KA SU MI: Yume no Naka ni Kimi ga Ita",
+        "english": "Sunny Ryoko! You Were There in a Dream",
+        "native": "陽あたり良好！ KA・SU・MI 夢の中に君がいた",
+        "userPreferred": "Hiatari Ryoukou! KA SU MI: Yume no Naka ni Kimi ga Ita"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1552-vuZ5K04nffMA.png",
+      "color": "#d6bb6b",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1552-vuZ5K04nffMA.png",
+      "rating": 54
+    }
+  ],
+  "episodes": [
+    {
+      "id": "hiatari-ryoukou-episode-1",
+      "title": "Episode 01",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 1,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-1"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-2",
+      "title": "Episode 02",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 2,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-2"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-3",
+      "title": "Episode 03",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 3,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-3"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-4",
+      "title": "Episode 04",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 4,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-4"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-5",
+      "title": "Episode 05",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 5,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-5"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-6",
+      "title": "Episode 06",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 6,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-6"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-7",
+      "title": "Episode 07",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 7,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-7"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-8",
+      "title": "Episode 08",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 8,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-8"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-9",
+      "title": "Episode 09",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 9,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-9"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-10",
+      "title": "Episode 10",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 10,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-10"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-11",
+      "title": "Episode 11",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 11,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-11"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-12",
+      "title": "Episode 12",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 12,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-12"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-13",
+      "title": "Episode 13",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 13,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-13"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-14",
+      "title": "Episode 14",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 14,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-14"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-15",
+      "title": "Episode 15",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 15,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-15"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-16",
+      "title": "Episode 16",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 16,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-16"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-17",
+      "title": "Episode 17",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 17,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-17"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-18",
+      "title": "Episode 18",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 18,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-18"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-19",
+      "title": "Episode 19",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 19,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-19"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-20",
+      "title": "Episode 20",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 20,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-20"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-21",
+      "title": "Episode 21",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 21,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-21"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-22",
+      "title": "Episode 22",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 22,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-22"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-23",
+      "title": "Episode 23",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 23,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-23"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-24",
+      "title": "Episode 24",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 24,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-24"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-25",
+      "title": "Episode 25",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 25,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-25"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-26",
+      "title": "Episode 26",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 26,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-26"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-27",
+      "title": "Episode 27",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 27,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-27"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-28",
+      "title": "Episode 28",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 28,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-28"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-29",
+      "title": "Episode 29",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 29,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-29"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-30",
+      "title": "Episode 30",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 30,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-30"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-31",
+      "title": "Episode 31",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 31,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-31"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-32",
+      "title": "Episode 32",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 32,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-32"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-33",
+      "title": "Episode 33",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 33,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-33"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-34",
+      "title": "Episode 34",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 34,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-34"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-35",
+      "title": "Episode 35",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 35,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-35"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-36",
+      "title": "Episode 36",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 36,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-36"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-37",
+      "title": "Episode 37",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 37,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-37"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-38",
+      "title": "Episode 38",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 38,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-38"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-39",
+      "title": "Episode 39",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 39,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-39"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-40",
+      "title": "Episode 40",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 40,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-40"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-41",
+      "title": "Episode 41",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 41,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-41"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-42",
+      "title": "Episode 42",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 42,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-42"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-43",
+      "title": "Episode 43",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 43,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-43"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-44",
+      "title": "Episode 44",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 44,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-44"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-45",
+      "title": "Episode 45",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 45,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-45"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-46",
+      "title": "Episode 46",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 46,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-46"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-47",
+      "title": "Episode 47",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 47,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-47"
+    },
+    {
+      "id": "hiatari-ryoukou-episode-48",
+      "title": "Episode 48",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx729-PPuU5qAjDF9F.png",
+      "number": 48,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hiatari-ryoukou-episode-48"
+    }
+  ]
+}

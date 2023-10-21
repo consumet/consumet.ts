@@ -1,0 +1,805 @@
+{
+  "id": "9745",
+  "title": {
+    "romaji": "Sengoku BASARA: The Last Party",
+    "english": "Sengoku Basara - Samurai Kings: The Movie",
+    "native": "劇場版 戦国BASARA -The Last Party-"
+  },
+  "malId": 9745,
+  "synonyms": [
+    "Gekijouban Sengoku Basara: The Last Party"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9745-2IUfJems8Asg.jpg",
+  "popularity": 4600,
+  "color": "#5da1f1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9745-2IUfJems8Asg.jpg",
+  "description": "The story of the film is set after the conflict instigated by Toyotomi Hideyoshi ended, but not before the Battle of Sekigahara determines who shall be the Shogun of Japan.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2011,
+  "startDate": {
+    "year": 2011,
+    "month": 6,
+    "day": 4
+  },
+  "endDate": {
+    "year": 2011,
+    "month": 6,
+    "day": 4
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 71,
+  "duration": 93,
+  "genres": [
+    "Action"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 36615,
+      "role": "MAIN",
+      "name": {
+        "first": "Mitsunari",
+        "last": "Ishida",
+        "full": "Mitsunari Ishida",
+        "native": "石田三成",
+        "userPreferred": "Mitsunari Ishida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36615.jpg",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        },
+        {
+          "id": 95182,
+          "language": "English",
+          "name": {
+            "first": "Troy",
+            "last": "Baker",
+            "full": "Troy Baker",
+            "native": null,
+            "userPreferred": "Troy Baker"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95182-TiZXT6F98sV2.png"
+        }
+      ]
+    },
+    {
+      "id": 16302,
+      "role": "MAIN",
+      "name": {
+        "first": "Masamune",
+        "last": "Date",
+        "full": "Masamune Date",
+        "native": "伊達 政宗",
+        "userPreferred": "Masamune Date"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16302.jpg",
+      "voiceActors": [
+        {
+          "id": 95123,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuya",
+            "last": "Nakai",
+            "full": "Kazuya Nakai",
+            "native": "中井和哉",
+            "userPreferred": "Kazuya Nakai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95123-qdVFNraYmQ5K.png"
+        },
+        {
+          "id": 95666,
+          "language": "English",
+          "name": {
+            "first": "Robert",
+            "last": "McCollum",
+            "full": "Robert McCollum",
+            "native": null,
+            "userPreferred": "Robert McCollum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95666-er3JLtqV1TLy.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16301,
+      "role": "MAIN",
+      "name": {
+        "first": "Yukimura",
+        "last": "Sanada",
+        "full": "Yukimura Sanada",
+        "native": "真田幸村",
+        "userPreferred": "Yukimura Sanada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16301.jpg",
+      "voiceActors": [
+        {
+          "id": 95030,
+          "language": "Japanese",
+          "name": {
+            "first": "Souichirou",
+            "last": "Hoshi",
+            "full": "Souichirou Hoshi",
+            "native": "保志総一朗",
+            "userPreferred": "Souichirou Hoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95030-kj64Uy6Zr3bq.png"
+        },
+        {
+          "id": 95010,
+          "language": "English",
+          "name": {
+            "first": "Johnny Yong",
+            "last": "Bosch",
+            "full": "Johnny Yong Bosch",
+            "native": null,
+            "userPreferred": "Johnny Yong Bosch"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95010-56EByXYI2PjI.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24922,
+      "role": "MAIN",
+      "name": {
+        "first": "Ieyasu",
+        "last": "Tokugawa",
+        "full": "Ieyasu Tokugawa",
+        "native": "徳川 家康",
+        "userPreferred": "Ieyasu Tokugawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24922.jpg",
+      "voiceActors": [
+        {
+          "id": 95243,
+          "language": "Japanese",
+          "name": {
+            "first": "Tooru",
+            "last": "Ookawa",
+            "full": "Tooru Ookawa",
+            "native": "大川透",
+            "userPreferred": "Tooru Ookawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95243-zhk18RRqSAmx.png"
+        },
+        {
+          "id": 95317,
+          "language": "English",
+          "name": {
+            "first": "Liam",
+            "last": "O'Brien",
+            "full": "Liam O'Brien",
+            "native": null,
+            "userPreferred": "Liam O'Brien"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95317-1H9A9jxTNsCP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19616,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nagamasa",
+        "last": "Azai",
+        "full": "Nagamasa Azai",
+        "native": "浅井長政",
+        "userPreferred": "Nagamasa Azai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19616.jpg",
+      "voiceActors": [
+        {
+          "id": 95427,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Tsujitani",
+            "full": "Kouji Tsujitani",
+            "native": "辻谷耕史",
+            "userPreferred": "Kouji Tsujitani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95427-g0bwNKDLlROd.png"
+        },
+        {
+          "id": 95610,
+          "language": "English",
+          "name": {
+            "first": "Christopher",
+            "last": "Bevins",
+            "full": "Christopher Bevins",
+            "native": null,
+            "userPreferred": "Christopher Bevins"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95610-4FScrXVJmH3V.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17815,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kojuurou",
+        "last": "Katakura",
+        "full": "Kojuurou Katakura",
+        "native": "片倉小十郎",
+        "userPreferred": "Kojuurou Katakura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17815.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        },
+        {
+          "id": 95026,
+          "language": "English",
+          "name": {
+            "first": "Travis",
+            "last": "Willingham",
+            "full": "Travis Willingham",
+            "native": null,
+            "userPreferred": "Travis Willingham"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95026-8rP8eX7zsekz.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18972,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sasuke",
+        "last": "Sarutobi",
+        "full": "Sasuke Sarutobi",
+        "native": "猿飛佐助",
+        "userPreferred": "Sasuke Sarutobi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18972.jpg",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        },
+        {
+          "id": 95833,
+          "language": "English",
+          "name": {
+            "first": "Michael",
+            "last": "Sinterniklaas",
+            "full": "Michael Sinterniklaas",
+            "native": null,
+            "userPreferred": "Michael Sinterniklaas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/833.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20871,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Motonari",
+        "last": "Mouri",
+        "full": "Motonari Mouri",
+        "native": "毛利 元就",
+        "userPreferred": "Motonari Mouri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20871.jpg",
+      "voiceActors": [
+        {
+          "id": 95445,
+          "language": "Japanese",
+          "name": {
+            "first": "Shigeru",
+            "last": "Nakahara",
+            "full": "Shigeru Nakahara",
+            "native": "中原茂",
+            "userPreferred": "Shigeru Nakahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/445.jpg"
+        },
+        {
+          "id": 95669,
+          "language": "English",
+          "name": {
+            "first": "Sam",
+            "last": "Riegel",
+            "full": "Sam Riegel",
+            "native": null,
+            "userPreferred": "Sam Riegel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95669-SRLnXSqkz2iy.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28478,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hideyoshi",
+        "last": "Toyotomi",
+        "full": "Hideyoshi Toyotomi",
+        "native": null,
+        "userPreferred": "Hideyoshi Toyotomi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28478.jpg",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        },
+        {
+          "id": 95253,
+          "language": "English",
+          "name": {
+            "first": "Christopher",
+            "last": "Sabat",
+            "full": "Christopher Sabat",
+            "native": null,
+            "userPreferred": "Christopher Sabat"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95253-Z7Yqog73M7E8.png"
+        }
+      ]
+    },
+    {
+      "id": 19617,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Oichi",
+        "last": "Nobunaga",
+        "full": "Oichi Nobunaga",
+        "native": "お市",
+        "userPreferred": "Oichi Nobunaga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b19617-KGrlaNwl0fI6.jpg",
+      "voiceActors": [
+        {
+          "id": 95040,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamiko",
+            "last": "Noto",
+            "full": "Mamiko Noto",
+            "native": "能登麻美子",
+            "userPreferred": "Mamiko Noto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95040-CskhFn4LiOti.jpg"
+        },
+        {
+          "id": 95187,
+          "language": "English",
+          "name": {
+            "first": "Laura",
+            "last": "Bailey",
+            "full": "Laura Bailey",
+            "native": null,
+            "userPreferred": "Laura Bailey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95187-QeezFM0GP4tu.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18969,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shingen",
+        "last": "Takeda",
+        "full": "Shingen Takeda",
+        "native": "武田信玄",
+        "userPreferred": "Shingen Takeda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18969.jpg",
+      "voiceActors": [
+        {
+          "id": 95761,
+          "language": "Japanese",
+          "name": {
+            "first": "Tesshou",
+            "last": "Genda",
+            "full": "Tesshou Genda",
+            "native": "玄田哲章",
+            "userPreferred": "Tesshou Genda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95761-nwndYRCqJxno.png"
+        },
+        {
+          "id": 95191,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Ayres",
+            "full": "Chris Ayres",
+            "native": null,
+            "userPreferred": "Chris Ayres"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95191-Aw9ipWm83bS8.png"
+        }
+      ]
+    },
+    {
+      "id": 19619,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mitsuhide",
+        "last": "Akechi",
+        "full": "Mitsuhide Akechi",
+        "native": "明智光秀",
+        "userPreferred": "Mitsuhide Akechi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19619.jpg",
+      "voiceActors": [
+        {
+          "id": 95137,
+          "language": "Japanese",
+          "name": {
+            "first": "Shou",
+            "last": "Hayami",
+            "full": "Shou Hayami",
+            "native": "速水奨",
+            "userPreferred": "Shou Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95137-2Q5l3Br9G7sk.png"
+        },
+        {
+          "id": 95043,
+          "language": "English",
+          "name": {
+            "first": "Vic",
+            "last": "Mignogna",
+            "full": "Vic Mignogna",
+            "native": "Victor Joseph Mignogna",
+            "userPreferred": "Vic Mignogna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95043-cgQunZolvkPW.png"
+        }
+      ]
+    },
+    {
+      "id": 20286,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keiji",
+        "last": "Maeda",
+        "full": "Keiji Maeda",
+        "native": "前田慶次",
+        "userPreferred": "Keiji Maeda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20286.jpg",
+      "voiceActors": [
+        {
+          "id": 95205,
+          "language": "Japanese",
+          "name": {
+            "first": "Masakazu",
+            "last": "Morita",
+            "full": "Masakazu Morita",
+            "native": "森田成一",
+            "userPreferred": "Masakazu Morita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95205-5P3tKe3eTG9n.jpg"
+        },
+        {
+          "id": 95312,
+          "language": "English",
+          "name": {
+            "first": "Eric",
+            "last": "Vale",
+            "full": "Eric Vale",
+            "native": null,
+            "userPreferred": "Eric Vale"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95312-lixmVhwE8AXE.png"
+        }
+      ]
+    },
+    {
+      "id": 18970,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kenshin",
+        "last": "Uesugi",
+        "full": "Kenshin Uesugi",
+        "native": "上杉 謙信",
+        "userPreferred": "Kenshin Uesugi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18970.jpg",
+      "voiceActors": [
+        {
+          "id": 95082,
+          "language": "Japanese",
+          "name": {
+            "first": "Romi",
+            "last": "Park",
+            "full": "Romi Park",
+            "native": "朴璐美",
+            "userPreferred": "Romi Park"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95082-pNGbnYv4cHAK.png"
+        },
+        {
+          "id": 95192,
+          "language": "English",
+          "name": {
+            "first": "Greg",
+            "last": "Ayres",
+            "full": "Greg Ayres",
+            "native": null,
+            "userPreferred": "Greg Ayres"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95192-igLHZjSO4eE0.png"
+        }
+      ]
+    },
+    {
+      "id": 17814,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nobunaga",
+        "last": "Oda",
+        "full": "Nobunaga Oda",
+        "native": "織田信長",
+        "userPreferred": "Nobunaga Oda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17814.jpg",
+      "voiceActors": [
+        {
+          "id": 95084,
+          "language": "Japanese",
+          "name": {
+            "first": "Norio",
+            "last": "Wakamoto",
+            "full": "Norio Wakamoto",
+            "native": "若本規夫",
+            "userPreferred": "Norio Wakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95084-RTrZSU38POPF.png"
+        },
+        {
+          "id": 95201,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Swasey",
+            "full": "John Swasey",
+            "native": null,
+            "userPreferred": "John Swasey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95201-cas6XbtZmMay.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39646,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yoshitsugu",
+        "last": "Otani",
+        "full": "Yoshitsugu Otani",
+        "native": "大谷吉継",
+        "userPreferred": "Yoshitsugu Otani"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39646.jpg",
+      "voiceActors": [
+        {
+          "id": 95284,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumihiko",
+            "last": "Tachiki",
+            "full": "Fumihiko Tachiki",
+            "native": "立木文彦",
+            "userPreferred": "Fumihiko Tachiki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95284-k97k9dULn4vr.png"
+        },
+        {
+          "id": 95474,
+          "language": "English",
+          "name": {
+            "first": "Mark",
+            "last": "Stoddard",
+            "full": "Mark Stoddard",
+            "native": null,
+            "userPreferred": "Mark Stoddard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/474.jpg"
+        }
+      ]
+    },
+    {
+      "id": 49557,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hideaki",
+        "last": "Kobayakawa",
+        "full": "Hideaki Kobayakawa",
+        "native": "小早川秀秋",
+        "userPreferred": "Hideaki Kobayakawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/49557.jpg",
+      "voiceActors": [
+        {
+          "id": 95086,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukuyama",
+            "full": "Jun Fukuyama",
+            "native": "福山潤",
+            "userPreferred": "Jun Fukuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95086-cwKYmhOFNtH5.png"
+        },
+        {
+          "id": 95654,
+          "language": "English",
+          "name": {
+            "first": "Tony",
+            "last": "Oliver",
+            "full": "Tony Oliver",
+            "native": "Rafael Antonio Olivier",
+            "userPreferred": "Tony Oliver"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95654-iX4zn8eYCaRS.png"
+        }
+      ]
+    },
+    {
+      "id": 20872,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Motochika",
+        "last": "Chousokabe",
+        "full": "Motochika Chousokabe",
+        "native": "長宗我部元親",
+        "userPreferred": "Motochika Chousokabe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20872.jpg",
+      "voiceActors": [
+        {
+          "id": 95679,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryuuzou",
+            "last": "Ishino",
+            "full": "Ryuuzou Ishino",
+            "native": "石野竜三",
+            "userPreferred": "Ryuuzou Ishino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95679-vT6wLZlpBsWI.jpg"
+        },
+        {
+          "id": 95340,
+          "language": "English",
+          "name": {
+            "first": "Patrick",
+            "last": "Seitz",
+            "full": "Patrick Seitz",
+            "native": null,
+            "userPreferred": "Patrick Seitz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95340-W5PAwurtgtXs.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 105179,
+          "language": "Japanese",
+          "name": {
+            "first": "Hideo",
+            "last": "Watanabe",
+            "full": "Hideo Watanabe",
+            "native": "渡辺英雄",
+            "userPreferred": "Hideo Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105179-EkKyd7C9a9Zy.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 6634,
+      "relationType": "PREQUEL",
+      "malId": 6634,
+      "title": {
+        "romaji": "Sengoku BASARA Ni",
+        "english": "Sengoku Basara: Samurai Kings 2",
+        "native": "戦国BASARA弐",
+        "userPreferred": "Sengoku BASARA Ni"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6634-vIE3Zufsz2bP.png",
+      "color": "#e42843",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6634-vIE3Zufsz2bP.png",
+      "rating": 72
+    },
+    {
+      "id": 18549,
+      "relationType": "SIDE_STORY",
+      "malId": 18549,
+      "title": {
+        "romaji": "Sengoku BASARA Movie: 4-koma Gekijou - Another Last Party",
+        "english": null,
+        "native": "劇場版 戦国BASARA ４コマ劇場 -Another Last Party-",
+        "userPreferred": "Sengoku BASARA Movie: 4-koma Gekijou - Another Last Party"
+      },
+      "status": "Completed",
+      "episodes": 5,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18549.jpg",
+      "color": "#e4c993",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18549.jpg",
+      "rating": 58
+    }
+  ],
+  "episodes": [
+    {
+      "id": "sengoku-basara-the-last-party-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9745-2IUfJems8Asg.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sengoku-basara-the-last-party-episode-1"
+    }
+  ]
+}

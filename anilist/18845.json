@@ -1,0 +1,195 @@
+{
+  "id": "18845",
+  "title": {
+    "romaji": "Ninja Hattori-kun (2012)",
+    "english": null,
+    "native": "忍者ハットリくん （2012年版）"
+  },
+  "malId": 18845,
+  "synonyms": [
+    "นินจาฮัทโตริ"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18845.jpg",
+  "popularity": 942,
+  "color": "#e42828",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18845.jpg",
+  "description": "Remake of the Ninja Hattori-kun series.",
+  "status": "Completed",
+  "releaseDate": 2012,
+  "startDate": {
+    "year": 2012,
+    "month": 5,
+    "day": 13
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 2,
+    "day": 16
+  },
+  "totalEpisodes": 52,
+  "currentEpisode": 52,
+  "rating": 62,
+  "duration": 24,
+  "genres": [
+    "Comedy"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 501,
+      "malId": 501,
+      "title": {
+        "romaji": "Doraemon",
+        "english": null,
+        "native": "ドラえもん",
+        "userPreferred": "Doraemon"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/501.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/501.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 10250,
+      "malId": 10250,
+      "title": {
+        "romaji": "Ultra B",
+        "english": null,
+        "native": "ウルトラ B",
+        "userPreferred": "Ultra B"
+      },
+      "status": "Completed",
+      "episodes": 119,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10250.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10250.jpg",
+      "rating": 56,
+      "type": "TV"
+    },
+    {
+      "id": 8687,
+      "malId": 8687,
+      "title": {
+        "romaji": "Doraemon (2005)",
+        "english": null,
+        "native": "ドラえもん (2005)",
+        "userPreferred": "Doraemon (2005)"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8687.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8687-aa3QbJjGfy3B.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 3806,
+      "malId": 3806,
+      "title": {
+        "romaji": "Sasuga no Sarutobi",
+        "english": "Amazing Sarutobi",
+        "native": "さすがの猿飛",
+        "userPreferred": "Sasuga no Sarutobi"
+      },
+      "status": "Completed",
+      "episodes": 69,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3806.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3806.jpg",
+      "rating": 52,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 23936,
+      "role": "MAIN",
+      "name": {
+        "first": "Hattori",
+        "last": "Kanzo",
+        "full": "Hattori Kanzo",
+        "native": "服部 貫蔵 (ハットリ カンゾウ)",
+        "userPreferred": "Hattori Kanzo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23936.jpg",
+      "voiceActors": [
+        {
+          "id": 101453,
+          "language": "Japanese",
+          "name": {
+            "first": "Junko",
+            "last": "Hori",
+            "full": "Junko Hori",
+            "native": "堀絢子",
+            "userPreferred": "Junko Hori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101453-pAwpxoveMbbg.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 51407,
+      "relationType": "ADAPTATION",
+      "malId": 21407,
+      "title": {
+        "romaji": "Ninja Hattori-kun",
+        "english": null,
+        "native": "忍者ハットリくん",
+        "userPreferred": "Ninja Hattori-kun"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx51407-FB3KFNQi1LJR.jpg",
+      "color": "#f1f143",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx51407-FB3KFNQi1LJR.jpg",
+      "rating": 70
+    },
+    {
+      "id": 4936,
+      "relationType": "ALTERNATIVE",
+      "malId": 4936,
+      "title": {
+        "romaji": "Ninja Hattori-kun",
+        "english": null,
+        "native": "忍者ハットリくん",
+        "userPreferred": "Ninja Hattori-kun"
+      },
+      "status": "Completed",
+      "episodes": 694,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4936.jpg",
+      "color": "#fed650",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4936.jpg",
+      "rating": 66
+    }
+  ],
+  "episodes": [
+    {
+      "id": "ninja-hattori-kun-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18845.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ninja-hattori-kun-episode-1"
+    },
+    {
+      "id": "ninja-hattori-kun-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18845.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ninja-hattori-kun-episode-2"
+    }
+  ]
+}

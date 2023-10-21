@@ -1,0 +1,815 @@
+{
+  "id": "1426",
+  "title": {
+    "romaji": "Lupin III: Part III",
+    "english": "Lupin the Third Part 3",
+    "native": "ルパン三世 - Part III"
+  },
+  "malId": 1426,
+  "synonyms": [
+    "Rupan Sansei: Part III",
+    "Lupin, l'incorreggibile Lupin"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1426-DOXCZNxTn7f0.jpg",
+  "popularity": 5992,
+  "color": "#f1e435",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1426-11KpXpbcFlU0.jpg",
+  "description": "Lupin III chronicles the adventures of Arsene Lupin III, the world's greatest thief, and his partners in crime: master marksman Daisuke Jigen, beautiful and scheming Fujiko Mine and stoic samurai Goemon Ishikawa XIII. Lupin and his gang travel around the globe in search of the world's greatest treasures and riches and always keeping one step ahead of the tireless Inspector Zenigata, who has vowed to bring Lupin to justice. <br><br>\n(Source: AnimeNewsNetwork)",
+  "status": "Completed",
+  "releaseDate": 1984,
+  "startDate": {
+    "year": 1984,
+    "month": 3,
+    "day": 3
+  },
+  "endDate": {
+    "year": 1985,
+    "month": 9,
+    "day": 28
+  },
+  "totalEpisodes": 50,
+  "currentEpisode": 50,
+  "rating": 68,
+  "duration": 24,
+  "genres": [
+    "Adventure",
+    "Comedy"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Tokyo Movie Shinsha"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 2043,
+      "malId": 2043,
+      "title": {
+        "romaji": "Cat's♥Eye",
+        "english": "Cat's Eye",
+        "native": "キャッツ♥アイ",
+        "userPreferred": "Cat's♥Eye"
+      },
+      "status": "Completed",
+      "episodes": 36,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2043-3utzsFtcHE3a.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n2043-HshGQr8FynR3.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 155925,
+      "malId": 53414,
+      "title": {
+        "romaji": "LUPIN ZERO",
+        "english": "Lupin ZERO",
+        "native": "ルパンゼロ",
+        "userPreferred": "LUPIN ZERO"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155925-FWI4G2QSweAz.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/155925-vJgoUSzo2RAe.jpg",
+      "rating": 74,
+      "type": "ONA"
+    },
+    {
+      "id": 162983,
+      "malId": 54790,
+      "title": {
+        "romaji": "Undead Girl Murder Farce",
+        "english": "Undead Murder Farce",
+        "native": "アンデッドガール・マーダーファルス",
+        "userPreferred": "Undead Girl Murder Farce"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162983-T3nZyk6sUlEj.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/162983-EyEfvGopoWLx.jpg",
+      "rating": 79,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 1045,
+      "role": "MAIN",
+      "name": {
+        "first": "Daisuke",
+        "last": "Jigen",
+        "full": "Daisuke Jigen",
+        "native": "次元大介",
+        "userPreferred": "Daisuke Jigen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1045-5VLjexUmCT6p.jpg",
+      "voiceActors": [
+        {
+          "id": 95339,
+          "language": "Japanese",
+          "name": {
+            "first": "Kiyoshi",
+            "last": "Kobayashi",
+            "full": "Kiyoshi Kobayashi",
+            "native": "小林清志 ",
+            "userPreferred": "Kiyoshi Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95339-lEIGi2vIa2hN.png"
+        },
+        {
+          "id": 96594,
+          "language": "Italian",
+          "name": {
+            "first": "Sandro",
+            "last": "Pellegrini",
+            "full": "Sandro Pellegrini",
+            "native": null,
+            "userPreferred": "Sandro Pellegrini"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96594-myEeTOQs3cwg.png"
+        }
+      ]
+    },
+    {
+      "id": 1044,
+      "role": "MAIN",
+      "name": {
+        "first": "Arsène",
+        "last": "Lupin III",
+        "full": "Arsène Lupin III",
+        "native": "ルパン三世",
+        "userPreferred": "Arsène Lupin III"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1044-UriNGSc2CKPO.jpg",
+      "voiceActors": [
+        {
+          "id": 95530,
+          "language": "Japanese",
+          "name": {
+            "first": "Yasuo",
+            "last": "Yamada",
+            "full": "Yasuo Yamada",
+            "native": "山田康雄",
+            "userPreferred": "Yasuo Yamada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/530.jpg"
+        },
+        {
+          "id": 96186,
+          "language": "Italian",
+          "name": {
+            "first": "Roberto",
+            "last": "Del Giudice",
+            "full": "Roberto Del Giudice",
+            "native": null,
+            "userPreferred": "Roberto Del Giudice"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96186-ZOxRIIMLOaFH.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1046,
+      "role": "MAIN",
+      "name": {
+        "first": "Goemon",
+        "last": "Ishikawa XIII",
+        "full": "Goemon Ishikawa XIII",
+        "native": "石川五ェ門",
+        "userPreferred": "Goemon Ishikawa XIII"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1046-kFemmr8KkgFb.png",
+      "voiceActors": [
+        {
+          "id": 96148,
+          "language": "Japanese",
+          "name": {
+            "first": "Makio",
+            "last": "Inoue",
+            "full": "Makio Inoue",
+            "native": "井上真樹夫",
+            "userPreferred": "Makio Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96148-1qMEEmg8Ev8R.jpg"
+        },
+        {
+          "id": 96229,
+          "language": "Italian",
+          "name": {
+            "first": "Vittorio",
+            "last": "Guerrieri",
+            "full": "Vittorio Guerrieri",
+            "native": null,
+            "userPreferred": "Vittorio Guerrieri"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96229-OxzoZS8xqZL5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1047,
+      "role": "MAIN",
+      "name": {
+        "first": "Fujiko",
+        "last": "Mine",
+        "full": "Fujiko Mine",
+        "native": "峰不二子",
+        "userPreferred": "Fujiko Mine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1047-3VgNXvRjylHV.png",
+      "voiceActors": [
+        {
+          "id": 96157,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiko",
+            "last": "Masuyama",
+            "full": "Eiko Masuyama",
+            "native": "増山江威子",
+            "userPreferred": "Eiko Masuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96157-0nZkq8xrko3y.jpg"
+        },
+        {
+          "id": 144774,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandra",
+            "last": "Korompay",
+            "full": "Alessandra Korompay",
+            "native": null,
+            "userPreferred": "Alessandra Korompay"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144774-NXwEs5Rm4nn4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1048,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouichi",
+        "last": "Zenigata",
+        "full": "Kouichi Zenigata",
+        "native": "銭形幸一",
+        "userPreferred": "Kouichi Zenigata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1048-GDlCKww1le0Q.jpg",
+      "voiceActors": [
+        {
+          "id": 95528,
+          "language": "Japanese",
+          "name": {
+            "first": "Gorou",
+            "last": "Naya",
+            "full": "Gorou Naya",
+            "native": "納谷悟朗",
+            "userPreferred": "Gorou Naya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95528-dTJE6VLgUOHo.jpg"
+        },
+        {
+          "id": 109891,
+          "language": "Italian",
+          "name": {
+            "first": "Enzo",
+            "last": "Consoli",
+            "full": "Enzo Consoli",
+            "native": null,
+            "userPreferred": "Enzo Consoli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109891-6dwtCEFXcuhW.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1425,
+      "relationType": "PREQUEL",
+      "malId": 1425,
+      "title": {
+        "romaji": "Lupin III: Part II",
+        "english": "Lupin the 3rd Part 2",
+        "native": "新・ルパン三世",
+        "userPreferred": "Lupin III: Part II"
+      },
+      "status": "Completed",
+      "episodes": 155,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1425.jpg",
+      "color": "#e4c9a1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1425-h2pu8v9xaVbM.jpg",
+      "rating": 75
+    },
+    {
+      "id": 20906,
+      "relationType": "SEQUEL",
+      "malId": 27947,
+      "title": {
+        "romaji": "Lupin III: PART IV",
+        "english": "Lupin the 3rd Part IV",
+        "native": "ルパン三世 PART IV",
+        "userPreferred": "Lupin III: PART IV"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20906-6hK5SuAB4MmV.png",
+      "color": "#5da1e4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20906-EWiCqF6vySRT.jpg",
+      "rating": 77
+    },
+    {
+      "id": 116975,
+      "relationType": "ADAPTATION",
+      "malId": null,
+      "title": {
+        "romaji": "SEXY Lupin III",
+        "english": null,
+        "native": "SEXYルパンIII",
+        "userPreferred": "SEXY Lupin III"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx116975-Yob52DnogXkL.jpg",
+      "color": null,
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/116975-d9JWrr6BIrU9.jpg",
+      "rating": 65
+    },
+    {
+      "id": 35733,
+      "relationType": "ADAPTATION",
+      "malId": 5733,
+      "title": {
+        "romaji": "Shin Lupin III",
+        "english": "Lupin III: World's Most Wanted",
+        "native": "新ルパン三世",
+        "userPreferred": "Shin Lupin III"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx35733-TyRLWfkytasx.jpg",
+      "color": "#e4d643",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/35733-qtSRVH0eqUw8.jpg",
+      "rating": 73
+    }
+  ],
+  "episodes": [
+    {
+      "id": "lupin-iii-series-3-episode-1",
+      "title": "The Gold Is Beckoning Lupin",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23117/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-1"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-2",
+      "title": "Expose the Great Trap",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23118/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-2"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-3",
+      "title": "Hello, Hell's Angel",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23119/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-3"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-4",
+      "title": "Telepathy Is Love's Signal",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23120/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-4"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-5",
+      "title": "Goemon, the Invincible",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23121/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-5"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-6",
+      "title": "Here Comes Lupin in a Tank",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23122/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-6"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-7",
+      "title": "Garb, the Grim Reaper",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23123/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-7"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-8",
+      "title": "Operation Mother Mary Getaway",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23124/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-8"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-9",
+      "title": "Clones Will  Cost You",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23125/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-9"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-10",
+      "title": "A Treasure That Smells Like a Trap",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23126/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-10"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-11",
+      "title": "The Ruby Sheds Tears of Blood",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23127/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-11"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-12",
+      "title": "The Prisoner Inside the Baltan Manor",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23128/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-12"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-13",
+      "title": "Musical Variation of Monkey Business",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23129/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-13"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-14",
+      "title": "Care to Play a Kidnapping Game?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23130/original.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-14"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-15",
+      "title": "The Killer Comes Silently",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23131/original.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-15"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-16",
+      "title": "A Golden Apple Has Its Poison",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23132/original.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-16"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-17",
+      "title": "Are You Really Getting Married?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23133/original.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-17"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-18",
+      "title": "Showtime Smells Of Death",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23134/original.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-18"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-19",
+      "title": "Walk The Wilderness Of Betrayal",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23135/original.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-19"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-20",
+      "title": "The Man Who Erased His Past",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23136/original.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-20"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-21",
+      "title": "Farewell, Golden Legend",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23137/original.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-21"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-22",
+      "title": "Fire Doesn't Suit A Diamond",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23138/original.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-22"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-23",
+      "title": "Operation Beirut Mobile Bank Heist",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23139/original.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-23"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-24",
+      "title": "Rest In Peace, My Friend",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23140/original.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-24"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-25",
+      "title": "We're No Angels",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23141/original.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-25"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-26",
+      "title": "The Ghost Of New York",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23142/original.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-26"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-27",
+      "title": "Code Name Is The Star Of Alaska",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23143/original.jpg",
+      "number": 27,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-27"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-28",
+      "title": "The Star of Alaska Is A Ticket To Hell",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23144/original.jpg",
+      "number": 28,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-28"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-29",
+      "title": "A Honeymoon To The Moon",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1426-DOXCZNxTn7f0.jpg",
+      "number": 29,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-29"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-30",
+      "title": "The Name Of The Cocktail Is Revenge",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23146/original.jpg",
+      "number": 30,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-30"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-31",
+      "title": "Reversal, Reversal, And Another Reversal",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23147/original.jpg",
+      "number": 31,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-31"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-32",
+      "title": "The 10 Million Dollar Key",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23148/original.jpg",
+      "number": 32,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-32"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-33",
+      "title": "Boy Genius Plays A Dangerous Game",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23149/original.jpg",
+      "number": 33,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-33"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-34",
+      "title": "Manhattan Crisis",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23150/original.jpg",
+      "number": 34,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-34"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-35",
+      "title": "The Target Beyond The Snowy Field",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23151/original.jpg",
+      "number": 35,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-35"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-36",
+      "title": "When The Eagle Descends",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23152/original.jpg",
+      "number": 36,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-36"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-37",
+      "title": "Pops Rages With Anger",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23153/original.jpg",
+      "number": 37,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-37"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-38",
+      "title": "Letizia Who Loved Me",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23154/original.jpg",
+      "number": 38,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-38"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-39",
+      "title": "Give The Gold To My Rival",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23155/original.jpg",
+      "number": 39,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-39"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-40",
+      "title": "Lottery Ticket Mayhem",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23156/original.jpg",
+      "number": 40,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-40"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-41",
+      "title": "The Night Under Martial Law",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23157/original.jpg",
+      "number": 41,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-41"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-42",
+      "title": "Steal The Pyramid's Insurance Money",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23158/original.jpg",
+      "number": 42,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-42"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-43",
+      "title": "Farewell, Cinderella",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23159/original.jpg",
+      "number": 43,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-43"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-44",
+      "title": "Our Daddies Are A Thief",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23160/original.jpg",
+      "number": 44,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-44"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-45",
+      "title": "A Toast To The Con Game",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23161/original.jpg",
+      "number": 45,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-45"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-46",
+      "title": "My Scrap Metal Wings",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1426-DOXCZNxTn7f0.jpg",
+      "number": 46,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-46"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-47",
+      "title": "The Sinuous Painting",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23163/original.jpg",
+      "number": 47,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-47"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-48",
+      "title": "Hades' Tear",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23164/original.jpg",
+      "number": 48,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-48"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-49",
+      "title": "The Day Pops Was Adopted",
+      "image": "https://media.kitsu.io/episodes/thumbnails/23165/original.jpg",
+      "number": 49,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-49"
+    },
+    {
+      "id": "lupin-iii-series-3-episode-50",
+      "title": "Destroy Ivanov, The Atomic Submarine",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1426-DOXCZNxTn7f0.jpg",
+      "number": 50,
+      "createdAt": "2013-02-20T18:22:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lupin-iii-series-3-episode-50"
+    }
+  ]
+}

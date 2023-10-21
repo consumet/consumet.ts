@@ -1,0 +1,894 @@
+{
+  "id": "16123",
+  "title": {
+    "romaji": "Saki: Zenkoku-hen",
+    "english": "Saki: The Nationals",
+    "native": "咲-Saki-全国編"
+  },
+  "malId": 16123,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "wfTvHYjFFjA",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/wfTvHYjFFjA/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16123-75d67lQpU80z.png",
+  "popularity": 8645,
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16123-n9vKZiyHdCN1.jpg",
+  "description": "After their success in the regional tournament, the Kiyosumi High School mahjong team faces off against a whole new level of competition at the National Tournament in Tokyo.<br><br>(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2014,
+  "startDate": {
+    "year": 2014,
+    "month": 1,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2014,
+    "month": 4,
+    "day": 6
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 72,
+  "duration": 24,
+  "genres": [
+    "Slice of Life",
+    "Sports"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Studio Gokumi"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 17276,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuuki",
+        "last": "Kataoka",
+        "full": "Yuuki Kataoka",
+        "native": "片岡優希",
+        "userPreferred": "Yuuki Kataoka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17276-uofZBLkKSTVY.jpg",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        }
+      ]
+    },
+    {
+      "id": 17279,
+      "role": "MAIN",
+      "name": {
+        "first": "Mako",
+        "last": "Someya",
+        "full": "Mako Someya",
+        "native": "染谷まこ",
+        "userPreferred": "Mako Someya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17279.jpg",
+      "voiceActors": [
+        {
+          "id": 95348,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shiraishi",
+            "full": "Ryouko Shiraishi",
+            "native": "白石涼子",
+            "userPreferred": "Ryouko Shiraishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95348-sLIy7IMrgZeA.png"
+        }
+      ]
+    },
+    {
+      "id": 17275,
+      "role": "MAIN",
+      "name": {
+        "first": "Nodoka",
+        "last": "Haramura",
+        "full": "Nodoka Haramura",
+        "native": "原村和",
+        "userPreferred": "Nodoka Haramura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17275.jpg",
+      "voiceActors": [
+        {
+          "id": 95070,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Koshimizu",
+            "full": "Ami Koshimizu",
+            "native": "小清水亜美",
+            "userPreferred": "Ami Koshimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95070-klkIfKz1VItS.png"
+        }
+      ]
+    },
+    {
+      "id": 17278,
+      "role": "MAIN",
+      "name": {
+        "first": "Hisa",
+        "last": "Takei",
+        "full": "Hisa Takei",
+        "native": "竹井久",
+        "userPreferred": "Hisa Takei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17278-3IAnaiYMNvCu.jpg",
+      "voiceActors": [
+        {
+          "id": 95093,
+          "language": "Japanese",
+          "name": {
+            "first": "Shizuka",
+            "last": "Itou",
+            "full": "Shizuka Itou",
+            "native": "伊藤静",
+            "userPreferred": "Shizuka Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95093-MApaH7qqtmVN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17274,
+      "role": "MAIN",
+      "name": {
+        "first": "Saki",
+        "last": "Miyanaga",
+        "full": "Saki Miyanaga",
+        "native": "宮永咲",
+        "userPreferred": "Saki Miyanaga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17274.jpg",
+      "voiceActors": [
+        {
+          "id": 95116,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Ueda",
+            "full": "Kana Ueda",
+            "native": "植田佳奈",
+            "userPreferred": "Kana Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95116-NvhEn6vNMiAq.png"
+        }
+      ]
+    },
+    {
+      "id": 48727,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kurumi",
+        "last": "Kakura",
+        "full": "Kurumi Kakura",
+        "native": "鹿倉 胡桃",
+        "userPreferred": "Kurumi Kakura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/48727.jpg",
+      "voiceActors": [
+        {
+          "id": 118398,
+          "language": "Japanese",
+          "name": {
+            "first": "Moe",
+            "last": "Toyota",
+            "full": "Moe Toyota",
+            "native": "豊田萌絵",
+            "userPreferred": "Moe Toyota"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118398-zJucBJqURpw2.png"
+        }
+      ]
+    },
+    {
+      "id": 48709,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Suzu",
+        "last": "Ueshige",
+        "full": "Suzu Ueshige",
+        "native": "上重 漫",
+        "userPreferred": "Suzu Ueshige"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/48709.jpg",
+      "voiceActors": [
+        {
+          "id": 122873,
+          "language": "Japanese",
+          "name": {
+            "first": "Arisa",
+            "last": "Date",
+            "full": "Arisa Date",
+            "native": "伊達朱里紗",
+            "userPreferred": "Arisa Date"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n122873-eLTO6DMilxbj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23042,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Satomi",
+        "last": "Kanbara",
+        "full": "Satomi Kanbara",
+        "native": "蒲原智美",
+        "userPreferred": "Satomi Kanbara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23042.jpg",
+      "voiceActors": [
+        {
+          "id": 95136,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsuko",
+            "last": "Kuwatani",
+            "full": "Natsuko Kuwatani",
+            "native": "桑谷夏子",
+            "userPreferred": "Natsuko Kuwatani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95136-8dAGkiwq7Htk.png"
+        }
+      ]
+    },
+    {
+      "id": 23040,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yumi",
+        "last": "Kajiki",
+        "full": "Yumi Kajiki",
+        "native": "加治木ゆみ",
+        "userPreferred": "Yumi Kajiki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23040.jpg",
+      "voiceActors": [
+        {
+          "id": 95034,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Kobayashi",
+            "full": "Yuu Kobayashi",
+            "native": "小林ゆう",
+            "userPreferred": "Yuu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95034-AwobjrcmkMi9.png"
+        }
+      ]
+    },
+    {
+      "id": 48629,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sumire",
+        "last": "Hirose",
+        "full": "Sumire Hirose",
+        "native": "弘世菫",
+        "userPreferred": "Sumire Hirose"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/48629.jpg",
+      "voiceActors": [
+        {
+          "id": 95197,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuki",
+            "last": "Saiga",
+            "full": "Mitsuki Saiga",
+            "native": "斎賀みつき",
+            "userPreferred": "Mitsuki Saiga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95197-gcTFdBK9oPtY.png"
+        }
+      ]
+    },
+    {
+      "id": 48621,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shuuichirou",
+        "last": "Oonuma",
+        "full": "Shuuichirou Oonuma",
+        "native": "大沼 秋一郎",
+        "userPreferred": "Shuuichirou Oonuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/48621.jpg",
+      "voiceActors": [
+        {
+          "id": 95784,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiji",
+            "last": "Miyashita",
+            "full": "Eiji Miyashita",
+            "native": "宮下栄治",
+            "userPreferred": "Eiji Miyashita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/784.jpg"
+        }
+      ]
+    },
+    {
+      "id": 48565,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouko",
+        "last": "Fukuyo",
+        "full": "Kouko Fukuyo",
+        "native": "福与 恒子",
+        "userPreferred": "Kouko Fukuyo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/48565.jpg",
+      "voiceActors": [
+        {
+          "id": 95032,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Nonaka",
+            "full": "Ai Nonaka",
+            "native": "野中藍",
+            "userPreferred": "Ai Nonaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95032-P8Hvtz5iaaoI.png"
+        }
+      ]
+    },
+    {
+      "id": 48619,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takako",
+        "last": "Kubo",
+        "full": "Takako Kubo",
+        "native": "久保 貴子",
+        "userPreferred": "Takako Kubo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/48619.jpg",
+      "voiceActors": [
+        {
+          "id": 95501,
+          "language": "Japanese",
+          "name": {
+            "first": "Miho",
+            "last": "Yamada",
+            "full": "Miho Yamada",
+            "native": "美穂 山田",
+            "userPreferred": "Miho Yamada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/501.jpg"
+        }
+      ]
+    },
+    {
+      "id": 48561,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Komaki",
+        "last": "Jindai",
+        "full": "Komaki Jindai",
+        "native": "神代 小蒔",
+        "userPreferred": "Komaki Jindai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/48561.jpg",
+      "voiceActors": [
+        {
+          "id": 95869,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Hayami",
+            "full": "Saori Hayami",
+            "native": "早見沙織",
+            "userPreferred": "Saori Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95869-qCQ0EaWpq1QT.png"
+        }
+      ]
+    },
+    {
+      "id": 48729,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sae",
+        "last": "Usuzawa",
+        "full": "Sae Usuzawa",
+        "native": "臼沢 塞",
+        "userPreferred": "Sae Usuzawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/48729.jpg",
+      "voiceActors": [
+        {
+          "id": 95241,
+          "language": "Japanese",
+          "name": {
+            "first": "Rina",
+            "last": "Satou",
+            "full": "Rina Satou",
+            "native": "佐藤利奈",
+            "userPreferred": "Rina Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95241-4XvR64oguxwS.png"
+        }
+      ]
+    },
+    {
+      "id": 18297,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mihoko",
+        "last": "Fukuji",
+        "full": "Mihoko Fukuji",
+        "native": "福路美穂子",
+        "userPreferred": "Mihoko Fukuji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18297.jpg",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        }
+      ]
+    },
+    {
+      "id": 18305,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tomoki",
+        "last": "Sawamura",
+        "full": "Tomoki Sawamura",
+        "native": "沢村智紀",
+        "userPreferred": "Tomoki Sawamura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18305.jpg",
+      "voiceActors": [
+        {
+          "id": 100938,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayuru",
+            "last": "Ohashi",
+            "full": "Ayuru Ohashi",
+            "native": "大橋歩夕",
+            "userPreferred": "Ayuru Ohashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100938-2lFwKy8LViBl.png"
+        }
+      ]
+    },
+    {
+      "id": 24468,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Teru",
+        "last": "Miyanaga",
+        "full": "Teru Miyanaga",
+        "native": "宮永照",
+        "userPreferred": "Teru Miyanaga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b24468-fKiNl3D9WqW0.png",
+      "voiceActors": [
+        {
+          "id": 95031,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Nakahara",
+            "full": "Mai Nakahara",
+            "native": "中原麻衣",
+            "userPreferred": "Mai Nakahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95031-tipPIz2k0Ncw.png"
+        }
+      ]
+    },
+    {
+      "id": 75180,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Risa",
+        "last": "Noyori",
+        "full": "Risa Noyori",
+        "native": "野依 理沙",
+        "userPreferred": "Risa Noyori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/75180.jpg",
+      "voiceActors": [
+        {
+          "id": 95141,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouka",
+            "last": "Yuzuki",
+            "full": "Ryouka Yuzuki",
+            "native": "柚木涼香",
+            "userPreferred": "Ryouka Yuzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95141-RUTdfZUbNcUv.png"
+        }
+      ]
+    },
+    {
+      "id": 48733,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Toshi",
+        "last": "Kumakura",
+        "full": "Toshi Kumakura",
+        "native": "熊倉 トシ",
+        "userPreferred": "Toshi Kumakura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/48733.jpg",
+      "voiceActors": [
+        {
+          "id": 95975,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaoru",
+            "last": "Morota",
+            "full": "Kaoru Morota",
+            "native": "茂呂田かおる",
+            "userPreferred": "Kaoru Morota"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/975.jpg"
+        }
+      ]
+    },
+    {
+      "id": 48627,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tomoe",
+        "last": "Karijuku",
+        "full": "Tomoe Karijuku",
+        "native": "狩宿 巴",
+        "userPreferred": "Tomoe Karijuku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/48627.jpg",
+      "voiceActors": [
+        {
+          "id": 107652,
+          "language": "Japanese",
+          "name": {
+            "first": "Chinatsu",
+            "last": "Akasaki",
+            "full": "Chinatsu Akasaki",
+            "native": "赤﨑千夏",
+            "userPreferred": "Chinatsu Akasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107652-wHdkKzhetbiH.jpg"
+        }
+      ]
+    },
+    {
+      "id": 48495,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuu",
+        "last": "Matsumi",
+        "full": "Yuu Matsumi",
+        "native": "松実 宥",
+        "userPreferred": "Yuu Matsumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/48495.jpg",
+      "voiceActors": [
+        {
+          "id": 95785,
+          "language": "Japanese",
+          "name": {
+            "first": "MAKO",
+            "last": "",
+            "full": "MAKO",
+            "native": "まこ ",
+            "userPreferred": "MAKO"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95785-rtTs0DYcpx1a.png"
+        }
+      ]
+    },
+    {
+      "id": 18307,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Touka",
+        "last": "Ryuumonbuchi",
+        "full": "Touka Ryuumonbuchi",
+        "native": "龍門渕透華",
+        "userPreferred": "Touka Ryuumonbuchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18307.jpg",
+      "voiceActors": [
+        {
+          "id": 95053,
+          "language": "Japanese",
+          "name": {
+            "first": "Minori",
+            "last": "Chihara",
+            "full": "Minori Chihara",
+            "native": "茅原実里",
+            "userPreferred": "Minori Chihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95053-wN1MdNMSGTMn.png"
+        }
+      ]
+    },
+    {
+      "id": 23044,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miharu",
+        "last": "Yoshitome",
+        "full": "Miharu Yoshitome",
+        "native": "吉留未春",
+        "userPreferred": "Miharu Yoshitome"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23044.jpg",
+      "voiceActors": [
+        {
+          "id": 102084,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiro",
+            "last": "Kanzaki",
+            "full": "Chiro Kanzaki",
+            "native": "ちろ 神崎",
+            "userPreferred": "Chiro Kanzaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7084.jpg"
+        }
+      ]
+    },
+    {
+      "id": 48721,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ikuno",
+        "last": "Akasaka",
+        "full": "Ikuno Akasaka",
+        "native": "赤坂 生野",
+        "userPreferred": "Ikuno Akasaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/48721.jpg",
+      "voiceActors": [
+        {
+          "id": 95277,
+          "language": "Japanese",
+          "name": {
+            "first": "Junko",
+            "last": "Noda",
+            "full": "Junko Noda",
+            "native": "野田順子",
+            "userPreferred": "Junko Noda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95277-hcE9l52SPjNP.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 5671,
+      "relationType": "PREQUEL",
+      "malId": 5671,
+      "title": {
+        "romaji": "Saki",
+        "english": "Saki",
+        "native": "咲-Saki-",
+        "userPreferred": "Saki"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5671-Hpvvpl5cncbf.png",
+      "color": "#935d28",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5671-D3biSQOjNrzC.jpg",
+      "rating": 72
+    },
+    {
+      "id": 36310,
+      "relationType": "ADAPTATION",
+      "malId": 6310,
+      "title": {
+        "romaji": "Saki",
+        "english": "Saki",
+        "native": "咲 -Saki-",
+        "userPreferred": "Saki"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx36310-RSFrpBMqZuNZ.jpg",
+      "color": "#6bc9d6",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/36310-E32GFb3ZEa3Y.jpg",
+      "rating": 73
+    },
+    {
+      "id": 10884,
+      "relationType": "SIDE_STORY",
+      "malId": 10884,
+      "title": {
+        "romaji": "Saki: Achiga-hen - episode of side-A",
+        "english": "Saki -  Episode of Side A",
+        "native": "咲-Saki-阿知賀編 episode of side-A",
+        "userPreferred": "Saki: Achiga-hen - episode of side-A"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10884-vx44EUBnCBUU.png",
+      "color": "#e4ae5d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10884-be0Y9xMO0lWJ.jpg",
+      "rating": 72
+    },
+    {
+      "id": 15989,
+      "relationType": "SIDE_STORY",
+      "malId": 15989,
+      "title": {
+        "romaji": "Saki: Achiga-hen - episode of side-A Specials",
+        "english": "Saki - Episode of Side A Specials",
+        "native": "咲-Saki-阿知賀編 episode of side-A スペシャルエピソード 13話～16話",
+        "userPreferred": "Saki: Achiga-hen - episode of side-A Specials"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15989-RHAaDyzOL5mf.png",
+      "color": "#d6781a",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15989-AYNj2dSSsOSz.jpg",
+      "rating": 74
+    }
+  ],
+  "episodes": [
+    {
+      "id": "saki-zenkoku-hen-episode-1",
+      "title": "Hand 1: To Tokyo",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113271/original.jpg",
+      "number": 1,
+      "createdAt": "2014-01-02T19:53:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saki-zenkoku-hen-episode-1"
+    },
+    {
+      "id": "saki-zenkoku-hen-episode-2",
+      "title": "Hand 2: Support",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113272/original.jpg",
+      "number": 2,
+      "createdAt": "2014-01-02T19:53:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saki-zenkoku-hen-episode-2"
+    },
+    {
+      "id": "saki-zenkoku-hen-episode-3",
+      "title": "Hand 3: Start",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113273/original.jpg",
+      "number": 3,
+      "createdAt": "2014-01-02T19:53:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saki-zenkoku-hen-episode-3"
+    },
+    {
+      "id": "saki-zenkoku-hen-episode-4",
+      "title": "Hand 4: East Wind",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113274/original.jpg",
+      "number": 4,
+      "createdAt": "2014-01-02T19:53:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saki-zenkoku-hen-episode-4"
+    },
+    {
+      "id": "saki-zenkoku-hen-episode-5",
+      "title": "Hand 5: Gods and Demons",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113275/original.jpg",
+      "number": 5,
+      "createdAt": "2014-01-02T19:53:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saki-zenkoku-hen-episode-5"
+    },
+    {
+      "id": "saki-zenkoku-hen-episode-6",
+      "title": "Hand 6: Withering",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113276/original.jpg",
+      "number": 6,
+      "createdAt": "2014-01-02T19:53:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saki-zenkoku-hen-episode-6"
+    },
+    {
+      "id": "saki-zenkoku-hen-episode-7",
+      "title": "Hand 7: Attention",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113277/original.jpg",
+      "number": 7,
+      "createdAt": "2014-01-02T19:53:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saki-zenkoku-hen-episode-7"
+    },
+    {
+      "id": "saki-zenkoku-hen-episode-8",
+      "title": "Hand 8: Fortress",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113278/original.jpg",
+      "number": 8,
+      "createdAt": "2014-01-02T19:53:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saki-zenkoku-hen-episode-8"
+    },
+    {
+      "id": "saki-zenkoku-hen-episode-9",
+      "title": "Hand 9: Sortie",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113279/original.jpg",
+      "number": 9,
+      "createdAt": "2014-01-02T19:53:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saki-zenkoku-hen-episode-9"
+    },
+    {
+      "id": "saki-zenkoku-hen-episode-10",
+      "title": "Hand 10: Friends",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113280/original.jpg",
+      "number": 10,
+      "createdAt": "2014-01-02T19:53:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saki-zenkoku-hen-episode-10"
+    },
+    {
+      "id": "saki-zenkoku-hen-episode-11",
+      "title": "Hand 11: Threat",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113281/original.jpg",
+      "number": 11,
+      "createdAt": "2014-01-02T19:53:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saki-zenkoku-hen-episode-11"
+    },
+    {
+      "id": "saki-zenkoku-hen-episode-12",
+      "title": "Hand 12: Truth",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113282/original.jpg",
+      "number": 12,
+      "createdAt": "2014-01-02T19:53:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saki-zenkoku-hen-episode-12"
+    },
+    {
+      "id": "saki-zenkoku-hen-episode-13",
+      "title": "Hand 13: Old Friends",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113283/original.jpg",
+      "number": 13,
+      "createdAt": "2014-01-02T19:53:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//saki-zenkoku-hen-episode-13"
+    }
+  ]
+}

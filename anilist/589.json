@@ -1,0 +1,941 @@
+{
+  "id": "589",
+  "title": {
+    "romaji": "Ginga: Nagareboshi Gin",
+    "english": null,
+    "native": "銀牙 -流れ星 銀-"
+  },
+  "malId": 589,
+  "synonyms": [
+    "Silver Fang",
+    "Hopeanuoli"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b589-H6dhNw4ssJCK.jpg",
+  "popularity": 4756,
+  "color": "#e4ae5d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/589-9KYFh6K7PIxX.jpg",
+  "description": "Gin is a silver Tora-ge named after his coat color. Shortly after being born, he watches his father, Riki, get killed by Akakabuto, a bear that terrorizes everything in its path. Being the third-generation of bear-dogs to try to stand up against Akakabuto, he ventures out to find wild dogs to join him in his fight.",
+  "status": "Completed",
+  "releaseDate": 1986,
+  "startDate": {
+    "year": 1986,
+    "month": 4,
+    "day": 7
+  },
+  "endDate": {
+    "year": 1986,
+    "month": 8,
+    "day": 22
+  },
+  "totalEpisodes": 21,
+  "currentEpisode": 21,
+  "rating": 73,
+  "duration": 23,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Drama"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 5267,
+      "malId": 5267,
+      "title": {
+        "romaji": "Gamba no Bouken",
+        "english": "Gamba's Adventure",
+        "native": "ガンバの冒険",
+        "userPreferred": "Gamba no Bouken"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5267-fuVRXlljXTVm.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5267-WcnTBJin3S9s.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 2556,
+      "malId": 2556,
+      "title": {
+        "romaji": "Jungle Taitei (1989)",
+        "english": "The New Adventures of Kimba The White Lion",
+        "native": "ジャングル大帝",
+        "userPreferred": "Jungle Taitei (1989)"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2556-5hxl9W0Qi4xd.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2556-nYkVXjMug6QU.jpg",
+      "rating": 61,
+      "type": "TV"
+    },
+    {
+      "id": 6202,
+      "malId": 6202,
+      "title": {
+        "romaji": "Daisetsusan no Yuusha Kibaou",
+        "english": "King Fang",
+        "native": "大雪山の勇者 牙王",
+        "userPreferred": "Daisetsusan no Yuusha Kibaou"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6202-pbnXhwDXHplV.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6202-pbnXhwDXHplV.png",
+      "rating": 58,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 202,
+      "malId": 202,
+      "title": {
+        "romaji": "Wolf's Rain",
+        "english": "Wolf's Rain",
+        "native": "ウルフズレイン",
+        "userPreferred": "Wolf's Rain"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx202-876AzCrdWaZ7.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/202-3Ud0fKK0ithq.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 4074,
+      "malId": 4074,
+      "title": {
+        "romaji": "Arano no Sakebi Koe: Howl Buck",
+        "english": null,
+        "native": "荒野の叫び声 吠えろバック",
+        "userPreferred": "Arano no Sakebi Koe: Howl Buck"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4074.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4074.jpg",
+      "rating": 49,
+      "type": "SPECIAL"
+    }
+  ],
+  "characters": [
+    {
+      "id": 9212,
+      "role": "MAIN",
+      "name": {
+        "first": "Ben",
+        "last": null,
+        "full": "Ben",
+        "native": "ベン",
+        "userPreferred": "Ben"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9212.jpg",
+      "voiceActors": [
+        {
+          "id": 95234,
+          "language": "Japanese",
+          "name": {
+            "first": "Hideyuki",
+            "last": "Tanaka",
+            "full": "Hideyuki Tanaka",
+            "native": "田中秀幸",
+            "userPreferred": "Hideyuki Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95234-YAu7XmoSIIS7.png"
+        },
+        {
+          "id": 109767,
+          "language": "Korean",
+          "name": {
+            "first": "Gwang",
+            "last": "Jang",
+            "full": "Gwang Jang",
+            "native": "광 장",
+            "userPreferred": "Gwang Jang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14767.jpg"
+        },
+        {
+          "id": 217365,
+          "language": "Norwegian",
+          "name": {
+            "first": "Ivar Trygve",
+            "last": "Nørve",
+            "full": "Ivar Trygve Nørve",
+            "native": null,
+            "userPreferred": "Ivar Trygve Nørve"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217365-0hvJeAikAp8w.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9079,
+      "role": "MAIN",
+      "name": {
+        "first": "Riki",
+        "last": null,
+        "full": "Riki",
+        "native": "リキ",
+        "userPreferred": "Riki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9079-sPlhY80sPrb0.png",
+      "voiceActors": [
+        {
+          "id": 95330,
+          "language": "Japanese",
+          "name": {
+            "first": "Banjou",
+            "last": "Ginga",
+            "full": "Banjou Ginga",
+            "native": "銀河万丈",
+            "userPreferred": "Banjou Ginga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95330-PHDm9uDhKAsT.png"
+        },
+        {
+          "id": 218925,
+          "language": "Norwegian",
+          "name": {
+            "first": "Harald",
+            "last": "Mæle",
+            "full": "Harald Mæle",
+            "native": null,
+            "userPreferred": "Harald Mæle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n218925-nehpDFwGohzj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3187,
+      "role": "MAIN",
+      "name": {
+        "first": "Gin",
+        "last": null,
+        "full": "Gin",
+        "native": "銀",
+        "userPreferred": "Gin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b3187-2tk4A1WzLApK.png",
+      "voiceActors": [
+        {
+          "id": 100763,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiko",
+            "last": "Yamada",
+            "full": "Eiko Yamada",
+            "native": "山田栄子",
+            "userPreferred": "Eiko Yamada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100763-V7UZZ6qFEOeP.png"
+        },
+        {
+          "id": 266478,
+          "language": "Norwegian",
+          "name": {
+            "first": "Kari-Ann",
+            "last": "Grønsund",
+            "full": "Kari-Ann Grønsund",
+            "native": null,
+            "userPreferred": "Kari-Ann Grønsund"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n266478-89VAwB0YgmdW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13734,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bill",
+        "last": null,
+        "full": "Bill",
+        "native": "ビル",
+        "userPreferred": "Bill"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13734.jpg",
+      "voiceActors": [
+        {
+          "id": 95018,
+          "language": "Japanese",
+          "name": {
+            "first": "Hidekatsu",
+            "last": "Shibata",
+            "full": "Hidekatsu Shibata",
+            "native": "柴田秀勝",
+            "userPreferred": "Hidekatsu Shibata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95018-HXJMMED74SVO.png"
+        }
+      ]
+    },
+    {
+      "id": 13726,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Wilson",
+        "last": null,
+        "full": "Wilson",
+        "native": "ウィルソン",
+        "userPreferred": "Wilson"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13726-kqJfP0M4b4Dr.png",
+      "voiceActors": [
+        {
+          "id": 95837,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouichi",
+            "last": "Hashimoto",
+            "full": "Kouichi Hashimoto",
+            "native": "橋本晃一",
+            "userPreferred": "Kouichi Hashimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95837-bikmUoB3B6B9.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13742,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Oliver",
+        "last": null,
+        "full": "Oliver",
+        "native": "オリバー",
+        "userPreferred": "Oliver"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13742-WC4b8nUOEZN3.png",
+      "voiceActors": [
+        {
+          "id": 100247,
+          "language": "Japanese",
+          "name": {
+            "first": "Masashi",
+            "last": "Hironaka",
+            "full": "Masashi Hironaka",
+            "native": "広中雅志",
+            "userPreferred": "Masashi Hironaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100247-uWf2j7cd0JG6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13736,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Musashi",
+        "last": null,
+        "full": "Musashi",
+        "native": "武蔵",
+        "userPreferred": "Musashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13736.jpg",
+      "voiceActors": [
+        {
+          "id": 100768,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiko",
+            "last": "Kishino",
+            "full": "Kazuhiko Kishino",
+            "native": "一彦 岸野",
+            "userPreferred": "Kazuhiko Kishino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5768.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9851,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Benizakura",
+        "last": null,
+        "full": "Benizakura",
+        "native": "紅桜",
+        "userPreferred": "Benizakura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9851.jpg",
+      "voiceActors": [
+        {
+          "id": 95142,
+          "language": "Japanese",
+          "name": {
+            "first": "Takeshi",
+            "last": "Aono",
+            "full": "Takeshi Aono",
+            "native": "青野武",
+            "userPreferred": "Takeshi Aono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95142-73E1XmGOOmhG.png"
+        }
+      ]
+    },
+    {
+      "id": 13729,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kisaragi",
+        "last": null,
+        "full": "Kisaragi",
+        "native": "如月",
+        "userPreferred": "Kisaragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13729.jpg",
+      "voiceActors": [
+        {
+          "id": 95137,
+          "language": "Japanese",
+          "name": {
+            "first": "Shou",
+            "last": "Hayami",
+            "full": "Shou Hayami",
+            "native": "速水奨",
+            "userPreferred": "Shou Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95137-2Q5l3Br9G7sk.png"
+        }
+      ]
+    },
+    {
+      "id": 9830,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chutora",
+        "last": null,
+        "full": "Chutora",
+        "native": "中虎",
+        "userPreferred": "Chutora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9830.jpg",
+      "voiceActors": [
+        {
+          "id": 95906,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouzou",
+            "last": "Shioya",
+            "full": "Kouzou Shioya",
+            "native": "塩屋浩三",
+            "userPreferred": "Kouzou Shioya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95906-6f6glTy4TkXf.png"
+        }
+      ]
+    },
+    {
+      "id": 13733,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Terry",
+        "last": null,
+        "full": "Terry",
+        "native": "テリー",
+        "userPreferred": "Terry"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13733.jpg",
+      "voiceActors": [
+        {
+          "id": 100386,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaharu",
+            "last": "Satou",
+            "full": "Masaharu Satou",
+            "native": "佐藤正治",
+            "userPreferred": "Masaharu Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5386.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9386,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kurojaki",
+        "last": null,
+        "full": "Kurojaki",
+        "native": null,
+        "userPreferred": "Kurojaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9386.jpg",
+      "voiceActors": [
+        {
+          "id": 100769,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Nakata",
+            "full": "Kouji Nakata",
+            "native": "中田浩二",
+            "userPreferred": "Kouji Nakata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5769.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9836,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jaguar",
+        "last": null,
+        "full": "Jaguar",
+        "native": "ジャガー ",
+        "userPreferred": "Jaguar"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9836.jpg",
+      "voiceActors": [
+        {
+          "id": 95906,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouzou",
+            "last": "Shioya",
+            "full": "Kouzou Shioya",
+            "native": "塩屋浩三",
+            "userPreferred": "Kouzou Shioya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95906-6f6glTy4TkXf.png"
+        }
+      ]
+    },
+    {
+      "id": 14266,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kirikaze",
+        "last": null,
+        "full": "Kirikaze",
+        "native": "霧風",
+        "userPreferred": "Kirikaze"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14266.jpg",
+      "voiceActors": [
+        {
+          "id": 100386,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaharu",
+            "last": "Satou",
+            "full": "Masaharu Satou",
+            "native": "佐藤正治",
+            "userPreferred": "Masaharu Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5386.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9837,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Great",
+        "last": null,
+        "full": "Great",
+        "native": "グレート ",
+        "userPreferred": "Great"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9837.jpg",
+      "voiceActors": [
+        {
+          "id": 100770,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuusaku",
+            "last": "Yara",
+            "full": "Yuusaku Yara",
+            "native": "屋良有作",
+            "userPreferred": "Yuusaku Yara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100770-UwcMoND5FIgC.png"
+        },
+        {
+          "id": 218925,
+          "language": "Norwegian",
+          "name": {
+            "first": "Harald",
+            "last": "Mæle",
+            "full": "Harald Mæle",
+            "native": null,
+            "userPreferred": "Harald Mæle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n218925-nehpDFwGohzj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9833,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "John",
+        "last": null,
+        "full": "John",
+        "native": "ジョン",
+        "userPreferred": "John"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9833.jpg",
+      "voiceActors": [
+        {
+          "id": 96027,
+          "language": "Japanese",
+          "name": {
+            "first": "Hideyuki",
+            "last": "Hori",
+            "full": "Hideyuki Hori",
+            "native": "堀秀行",
+            "userPreferred": "Hideyuki Hori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96027-mDC23xjXMdC5.png"
+        },
+        {
+          "id": 218925,
+          "language": "Norwegian",
+          "name": {
+            "first": "Harald",
+            "last": "Mæle",
+            "full": "Harald Mæle",
+            "native": null,
+            "userPreferred": "Harald Mæle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n218925-nehpDFwGohzj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9832,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sniper",
+        "last": null,
+        "full": "Sniper",
+        "native": "スナイパー",
+        "userPreferred": "Sniper"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9832.jpg",
+      "voiceActors": [
+        {
+          "id": 100437,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Yada",
+            "full": "Kouji Yada",
+            "native": "矢田耕司",
+            "userPreferred": "Kouji Yada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100437-mEsOQrDIzjth.png"
+        }
+      ]
+    },
+    {
+      "id": 9854,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hyena",
+        "last": null,
+        "full": "Hyena",
+        "native": "ハイエナ",
+        "userPreferred": "Hyena"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9854.jpg",
+      "voiceActors": [
+        {
+          "id": 100794,
+          "language": "Japanese",
+          "name": {
+            "first": "Shigeharu",
+            "last": "Matsuda",
+            "full": "Shigeharu Matsuda",
+            "native": "重治松田",
+            "userPreferred": "Shigeharu Matsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9831,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cross",
+        "last": null,
+        "full": "Cross",
+        "native": "クロス",
+        "userPreferred": "Cross"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9831.jpg",
+      "voiceActors": [
+        {
+          "id": 95354,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiromi",
+            "last": "Tsuru",
+            "full": "Hiromi Tsuru",
+            "native": "鶴ひろみ",
+            "userPreferred": "Hiromi Tsuru"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95354-Ds90swc530OH.jpg"
+        },
+        {
+          "id": 273359,
+          "language": "Norwegian",
+          "name": {
+            "first": "Lise",
+            "last": "Fjeldstad",
+            "full": "Lise Fjeldstad",
+            "native": null,
+            "userPreferred": "Lise Barbra Skappel Fjeldstad"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n273359-R8VclyA3RRaO.png"
+        }
+      ]
+    },
+    {
+      "id": 9077,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akame",
+        "last": null,
+        "full": "Akame",
+        "native": "赤目",
+        "userPreferred": "Akame"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9077.jpg",
+      "voiceActors": [
+        {
+          "id": 96075,
+          "language": "Japanese",
+          "name": {
+            "first": "Michihiro",
+            "last": "Ikemizu",
+            "full": "Michihiro Ikemizu",
+            "native": "池水通洋",
+            "userPreferred": "Michihiro Ikemizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96075-pKIYt8gerJmJ.png"
+        }
+      ]
+    },
+    {
+      "id": 13727,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Loid",
+        "last": null,
+        "full": "Loid",
+        "native": null,
+        "userPreferred": "Loid"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13727.jpg",
+      "voiceActors": [
+        {
+          "id": 100795,
+          "language": "Japanese",
+          "name": {
+            "first": "Masato",
+            "last": "Hirano",
+            "full": "Masato Hirano",
+            "native": "平野正人",
+            "userPreferred": "Masato Hirano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100795-vfXmbcIlRD6T.png"
+        }
+      ]
+    },
+    {
+      "id": 9081,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Daisuke",
+        "last": null,
+        "full": "Daisuke",
+        "native": "大輔",
+        "userPreferred": "Daisuke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9081.jpg",
+      "voiceActors": [
+        {
+          "id": 95387,
+          "language": "Japanese",
+          "name": {
+            "first": "Chika",
+            "last": "Sakamoto",
+            "full": "Chika Sakamoto",
+            "native": "坂本千夏",
+            "userPreferred": "Chika Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95387-CLYs2OZwhe9c.png"
+        },
+        {
+          "id": 266478,
+          "language": "Norwegian",
+          "name": {
+            "first": "Kari-Ann",
+            "last": "Grønsund",
+            "full": "Kari-Ann Grønsund",
+            "native": null,
+            "userPreferred": "Kari-Ann Grønsund"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n266478-89VAwB0YgmdW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9828,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akatora",
+        "last": null,
+        "full": "Akatora",
+        "native": "赤虎",
+        "userPreferred": "Akatora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9828.jpg",
+      "voiceActors": [
+        {
+          "id": 96523,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Totani",
+            "full": "Kouji Totani",
+            "native": "戸谷公次",
+            "userPreferred": "Kouji Totani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96523-TTfykOzdDdLJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9838,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Smith",
+        "last": null,
+        "full": "Smith",
+        "native": "スミス",
+        "userPreferred": "Smith"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9838.jpg",
+      "voiceActors": [
+        {
+          "id": 100764,
+          "language": "Japanese",
+          "name": {
+            "first": "Kyouko",
+            "last": "Tonguu",
+            "full": "Kyouko Tonguu",
+            "native": "頓宮恭子",
+            "userPreferred": "Kyouko Tonguu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5764.jpg"
+        },
+        {
+          "id": 217365,
+          "language": "Norwegian",
+          "name": {
+            "first": "Ivar Trygve",
+            "last": "Nørve",
+            "full": "Ivar Trygve Nørve",
+            "native": null,
+            "userPreferred": "Ivar Trygve Nørve"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217365-0hvJeAikAp8w.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 100177,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiichi",
+            "last": "Noda",
+            "full": "Keiichi Noda",
+            "native": "野田圭一",
+            "userPreferred": "Keiichi Noda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100177-ZfGV5vhrDCEB.png"
+        },
+        {
+          "id": 218925,
+          "language": "Norwegian",
+          "name": {
+            "first": "Harald",
+            "last": "Mæle",
+            "full": "Harald Mæle",
+            "native": null,
+            "userPreferred": "Harald Mæle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n218925-nehpDFwGohzj.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 915,
+      "relationType": "SEQUEL",
+      "malId": 915,
+      "title": {
+        "romaji": "Ginga Densetsu Weed",
+        "english": null,
+        "native": "銀牙伝説ウィード",
+        "userPreferred": "Ginga Densetsu Weed"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "color": "#28935d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "rating": 67
+    },
+    {
+      "id": 34945,
+      "relationType": "ADAPTATION",
+      "malId": 4945,
+      "title": {
+        "romaji": "Ginga: Nagareboshi Gin",
+        "english": "Silver Fang – The Shooting Star Gin –",
+        "native": "銀牙ー流れ星銀ー",
+        "userPreferred": "Ginga: Nagareboshi Gin"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx34945-Ji8i8xAbXS1e.jpg",
+      "color": "#f16b1a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/34945-txSuqyKrrGxq.jpg",
+      "rating": 74
+    }
+  ],
+  "episodes": []
+}

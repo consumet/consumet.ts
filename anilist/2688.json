@@ -1,0 +1,853 @@
+{
+  "id": "2688",
+  "title": {
+    "romaji": "Akai Koudan Zillion",
+    "english": "Zillion",
+    "native": "赤い光弾ジリオン"
+  },
+  "malId": 2688,
+  "synonyms": [
+    "Red Photon Zillion"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+  "popularity": 1521,
+  "color": "#ae5035",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+  "description": "The story takes place on the planet Maris in the year 2387. Around this time, the Nozas started to genocidally kill all humans in order to lay eggs and reproduce on the planet. Three mysterious guns dubbed the \"Zillion Weapon System\" appear and three teens (JJ, Champ, and Apple) are chosen to wield them as the White Knights in order to fight back against the Nozas.",
+  "status": "Completed",
+  "releaseDate": 1987,
+  "startDate": {
+    "year": 1987,
+    "month": 4,
+    "day": 12
+  },
+  "endDate": {
+    "year": 1987,
+    "month": 12,
+    "day": 13
+  },
+  "totalEpisodes": 31,
+  "currentEpisode": 31,
+  "rating": 56,
+  "duration": 24,
+  "genres": [
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Tatsunoko Production"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 1261,
+      "malId": 1261,
+      "title": {
+        "romaji": "Cat Ninden Teyandee",
+        "english": "Samurai Pizza Cats",
+        "native": "キャッ党忍伝てやんでえ",
+        "userPreferred": "Cat Ninden Teyandee"
+      },
+      "status": "Completed",
+      "episodes": 54,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1261-nsSWUSKoqaDr.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1261-l8LTuAbNjM4O.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 3035,
+      "malId": 3035,
+      "title": {
+        "romaji": "Chouon Senshi Borgman",
+        "english": null,
+        "native": "超音戦士ボーグマン",
+        "userPreferred": "Chouon Senshi Borgman"
+      },
+      "status": "Completed",
+      "episodes": 35,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3035-dy1WxQLLdWHa.jpg",
+      "rating": 55,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 28632,
+      "role": "MAIN",
+      "name": {
+        "first": "Champ",
+        "last": null,
+        "full": "Champ",
+        "native": "チャンプ",
+        "userPreferred": "Champ"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28632.jpg",
+      "voiceActors": [
+        {
+          "id": 95021,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiko",
+            "last": "Inoue",
+            "full": "Kazuhiko Inoue",
+            "native": "井上和彦",
+            "userPreferred": "Kazuhiko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95021-9qAoAn6GNZ3S.png"
+        },
+        {
+          "id": 110849,
+          "language": "English",
+          "name": {
+            "first": "Kerrigan",
+            "last": "Mahan",
+            "full": "Kerrigan Mahan",
+            "native": null,
+            "userPreferred": "Kerrigan Mahan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15849.jpg"
+        },
+        {
+          "id": 104774,
+          "language": "Spanish",
+          "name": {
+            "first": "Carlos Hugo",
+            "last": "Hidalgo",
+            "full": "Carlos Hugo Hidalgo",
+            "native": null,
+            "userPreferred": "Carlos Hugo Hidalgo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104774-BYTjmcfWmbRJ.png"
+        },
+        {
+          "id": 102351,
+          "language": "Portuguese",
+          "name": {
+            "first": "Gilberto",
+            "last": "Baroli",
+            "full": "Gilberto Baroli",
+            "native": null,
+            "userPreferred": "Gilberto Baroli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7351.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28585,
+      "role": "MAIN",
+      "name": {
+        "first": "JJ",
+        "last": null,
+        "full": "JJ",
+        "native": null,
+        "userPreferred": "JJ"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28585.jpg",
+      "voiceActors": [
+        {
+          "id": 95129,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshihiko",
+            "last": "Seki",
+            "full": "Toshihiko Seki",
+            "native": "関俊彦",
+            "userPreferred": "Toshihiko Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95129-AAL7kfwAPpgR.jpg"
+        },
+        {
+          "id": 96035,
+          "language": "English",
+          "name": {
+            "first": "Doug",
+            "last": "Stone",
+            "full": "Doug Stone",
+            "native": null,
+            "userPreferred": "Doug Stone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1035.jpg"
+        },
+        {
+          "id": 109925,
+          "language": "Korean",
+          "name": {
+            "first": "Won Il",
+            "last": "Son",
+            "full": "Won Il Son",
+            "native": "원일 손",
+            "userPreferred": "Won Il Son"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14925.jpg"
+        },
+        {
+          "id": 116345,
+          "language": "Portuguese",
+          "name": {
+            "first": "Carlos",
+            "last": "Laranjeira",
+            "full": "Carlos Laranjeira",
+            "native": null,
+            "userPreferred": "Carlos Laranjeira"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28584,
+      "role": "MAIN",
+      "name": {
+        "first": "Baron Riks",
+        "last": null,
+        "full": "Baron Riks",
+        "native": "バロン・リックス",
+        "userPreferred": "Baron Riks"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28584.jpg",
+      "voiceActors": [
+        {
+          "id": 95137,
+          "language": "Japanese",
+          "name": {
+            "first": "Shou",
+            "last": "Hayami",
+            "full": "Shou Hayami",
+            "native": "速水奨",
+            "userPreferred": "Shou Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95137-2Q5l3Br9G7sk.png"
+        },
+        {
+          "id": 96035,
+          "language": "English",
+          "name": {
+            "first": "Doug",
+            "last": "Stone",
+            "full": "Doug Stone",
+            "native": null,
+            "userPreferred": "Doug Stone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1035.jpg"
+        },
+        {
+          "id": 292990,
+          "language": "Portuguese",
+          "name": {
+            "first": "Mário",
+            "last": "Vilela",
+            "full": "Mário Vilela",
+            "native": null,
+            "userPreferred": "Mário Vilela"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41736,
+      "role": "MAIN",
+      "name": {
+        "first": "Apple",
+        "last": null,
+        "full": "Apple",
+        "native": "アップル",
+        "userPreferred": "Apple"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b41736-KygI81QBgw5p.png",
+      "voiceActors": [
+        {
+          "id": 95485,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Mizutani",
+            "full": "Yuuko Mizutani",
+            "native": "水谷優子",
+            "userPreferred": "Yuuko Mizutani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95485-fKXiqJdcVHHs.png"
+        },
+        {
+          "id": 95536,
+          "language": "English",
+          "name": {
+            "first": "Barbara",
+            "last": "Goodson",
+            "full": "Barbara Goodson",
+            "native": null,
+            "userPreferred": "Barbara Goodson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95536-jKbTvYfcrPaM.jpg"
+        },
+        {
+          "id": 292991,
+          "language": "Portuguese",
+          "name": {
+            "first": "Neusa Maria",
+            "last": "Faro",
+            "full": "Neusa Maria Faro",
+            "native": null,
+            "userPreferred": "Neusa Maria Faro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 292992,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gordon Choukan",
+        "last": null,
+        "full": "Gordon Choukan",
+        "native": "ゴード長官",
+        "userPreferred": "Gordon Choukan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 101455,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuzuru",
+            "last": "Fujimoto",
+            "full": "Yuzuru Fujimoto",
+            "native": "藤本譲",
+            "userPreferred": "Yuzuru Fujimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6455.jpg"
+        },
+        {
+          "id": 95834,
+          "language": "English",
+          "name": {
+            "first": "Michael",
+            "last": "Forest",
+            "full": "Michael Forest",
+            "native": null,
+            "userPreferred": "Michael Forest"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/834.jpg"
+        }
+      ]
+    },
+    {
+      "id": 33771,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Anthony",
+        "last": null,
+        "full": "Anthony",
+        "native": "アントニー",
+        "userPreferred": "Anthony"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95286,
+          "language": "Japanese",
+          "name": {
+            "first": "Nozomu",
+            "last": "Sasaki",
+            "full": "Nozomu Sasaki",
+            "native": "佐々木望",
+            "userPreferred": "Nozomu Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95286-1RlrFeFKx3jn.png"
+        }
+      ]
+    },
+    {
+      "id": 79661,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Amy",
+        "last": "Harrison",
+        "full": "Amy Harrison",
+        "native": "エイミ・ハリソン",
+        "userPreferred": "Amy Harrison"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/79661.jpg",
+      "voiceActors": [
+        {
+          "id": 95677,
+          "language": "Japanese",
+          "name": {
+            "first": "Chieko",
+            "last": "Honda",
+            "full": "Chieko Honda",
+            "native": "本多知恵子",
+            "userPreferred": "Chieko Honda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95677-5luaaavs3b8I.jpg"
+        },
+        {
+          "id": 95036,
+          "language": "English",
+          "name": {
+            "first": "Wendee",
+            "last": "Lee",
+            "full": "Wendee Lee",
+            "native": null,
+            "userPreferred": "Wendee Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95036-UkyIYVtEhoPk.png"
+        }
+      ]
+    },
+    {
+      "id": 80829,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ady",
+        "last": null,
+        "full": "Ady",
+        "native": "アディ",
+        "userPreferred": "Ady"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/80829.jpg",
+      "voiceActors": [
+        {
+          "id": 96518,
+          "language": "Japanese",
+          "name": {
+            "first": "Chie",
+            "last": "Koujiro",
+            "full": "Chie Koujiro",
+            "native": "神代知衣",
+            "userPreferred": "Chie Koujiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96518-zUTotiOtaogJ.png"
+        },
+        {
+          "id": 107558,
+          "language": "English",
+          "name": {
+            "first": "Lisa",
+            "last": "Michelson",
+            "full": "Lisa Michelson",
+            "native": null,
+            "userPreferred": "Lisa Michelson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107558-C6KjQ5paOsjN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28633,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dave",
+        "last": null,
+        "full": "Dave",
+        "native": "デイブ",
+        "userPreferred": "Dave"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28633.jpg",
+      "voiceActors": [
+        {
+          "id": 101207,
+          "language": "Japanese",
+          "name": {
+            "first": "Daiki",
+            "last": "Nakamura",
+            "full": "Daiki Nakamura",
+            "native": "中村大樹",
+            "userPreferred": "Daiki Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101207-auZVaqSt1LfQ.png"
+        },
+        {
+          "id": 95952,
+          "language": "English",
+          "name": {
+            "first": "Eddie",
+            "last": "Frierson",
+            "full": "Eddie Frierson",
+            "native": null,
+            "userPreferred": "Eddie Frierson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/952.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 105373,
+          "language": "Japanese",
+          "name": {
+            "first": "Osamu",
+            "last": "Kobayashi",
+            "full": "Osamu Kobayashi",
+            "native": "小林修",
+            "userPreferred": "Osamu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105373-2mxzOFcpxjUM.png"
+        },
+        {
+          "id": 96498,
+          "language": "English",
+          "name": {
+            "first": "Tom",
+            "last": "Wyner",
+            "full": "Tom Wyner",
+            "native": null,
+            "userPreferred": "Tom Wyner"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96498-4vM2F6nFUINv.jpg"
+        },
+        {
+          "id": 292989,
+          "language": "Portuguese",
+          "name": {
+            "first": "Nair",
+            "last": "Silva",
+            "full": "Nair Silva",
+            "native": null,
+            "userPreferred": "Nair Silva"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 17167,
+      "relationType": "SIDE_STORY",
+      "malId": 17167,
+      "title": {
+        "romaji": "Akai Koudan Zillion Specials",
+        "english": "Zillion Specials",
+        "native": "JJ対リックス·宿命の対決",
+        "userPreferred": "Akai Koudan Zillion Specials"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17167.jpg",
+      "color": "#e44350",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17167.jpg",
+      "rating": 45
+    },
+    {
+      "id": 2689,
+      "relationType": "SPIN_OFF",
+      "malId": 2689,
+      "title": {
+        "romaji": "Akai Koudan Zillion: Burning Night",
+        "english": "Zillion: Burning Night",
+        "native": "赤い光弾ジリオン 歌姫夜曲",
+        "userPreferred": "Akai Koudan Zillion: Burning Night"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2689-IJZ8PVBAp783.png",
+      "color": "#f1e4c9",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2689-IJZ8PVBAp783.png",
+      "rating": 49
+    }
+  ],
+  "episodes": [
+    {
+      "id": "akai-koudan-zillion-episode-1",
+      "title": "The codename is J.J.",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:31:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-1"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-2",
+      "title": "Attack the enemy of the high skies",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:31:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-2"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-3",
+      "title": "The chance is 0.1 second!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:31:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-3"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-4",
+      "title": "Trap of the shapeless ninja squadron",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:31:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-4"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-5",
+      "title": "Apple order violation!?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:31:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-5"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-6",
+      "title": "Take off, Tricharger",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:31:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-6"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-7",
+      "title": "Struggle till death! J.J. Versus Ricks",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:31:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-7"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-8",
+      "title": "Strike the oceanfloor base!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:31:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-8"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-9",
+      "title": "Stolen Zillion",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:31:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-9"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-10",
+      "title": "Flames! Ricks' counterattack",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:31:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-10"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-11",
+      "title": "Birth of new zillion!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:31:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-11"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-12",
+      "title": "Attack! Triple shoot",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:31:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-12"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-13",
+      "title": "Angry shutter chance",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:31:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-13"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-14",
+      "title": "Nightingale of the battlefield",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 14,
+      "createdAt": "2014-11-16T20:31:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-14"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-15",
+      "title": "Life Or Death!? Confrontation of fate - Part I",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 15,
+      "createdAt": "2014-11-16T20:31:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-15"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-16",
+      "title": "Life Or Death!? Confrontation of fate - Part II",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 16,
+      "createdAt": "2014-11-16T20:31:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-16"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-17",
+      "title": "Tears! Let's search J.J.",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 17,
+      "createdAt": "2014-11-16T20:31:15Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-17"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-18",
+      "title": "The beautiful noza's challenge",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 18,
+      "createdAt": "2014-11-16T20:31:15Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-18"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-19",
+      "title": "Match! Let's throw the coin",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 19,
+      "createdAt": "2014-11-16T20:31:15Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-19"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-20",
+      "title": "Kick with a broken heart",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 20,
+      "createdAt": "2014-11-16T20:31:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-20"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-21",
+      "title": "Clash! The sniper",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 21,
+      "createdAt": "2014-11-16T20:31:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-21"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-22",
+      "title": "Great victory from a lie!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 22,
+      "createdAt": "2014-11-16T20:31:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-22"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-23",
+      "title": "Terror! Demon's bio weapon",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 23,
+      "createdAt": "2014-11-16T20:31:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-23"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-24",
+      "title": "Great adventure! Warrior Opa-Opa",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 24,
+      "createdAt": "2014-11-16T20:31:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-24"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-25",
+      "title": "Gentle fugitive Apple",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 25,
+      "createdAt": "2014-11-16T20:31:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-25"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-26",
+      "title": "Revenge demon ninja!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 26,
+      "createdAt": "2014-11-16T20:31:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-26"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-27",
+      "title": "Extraordinary Rebel Ricks",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 27,
+      "createdAt": "2014-11-16T20:31:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-27"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-28",
+      "title": "Mystery!? Zillion power",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 28,
+      "createdAt": "2014-11-16T20:31:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-28"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-29",
+      "title": "Heroic! Ricks dies!?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 29,
+      "createdAt": "2014-11-16T20:31:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-29"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-30",
+      "title": "Planet Maris on the corner!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 30,
+      "createdAt": "2014-11-16T20:31:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-30"
+    },
+    {
+      "id": "akai-koudan-zillion-episode-31",
+      "title": "Last shoot for victory",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2688.jpg",
+      "number": 31,
+      "createdAt": "2014-11-16T20:31:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//akai-koudan-zillion-episode-31"
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "id": "109280",
+  "title": {
+    "romaji": "Puso Ni Comi",
+    "english": null,
+    "native": "ぷそ煮コミ"
+  },
+  "malId": 38837,
+  "synonyms": [
+    "Phantasy Star Online 2 Comic "
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "5XdtqDKM37Q",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/5XdtqDKM37Q/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+  "popularity": 513,
+  "color": "#e49328",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109280-SOjpJx7nSDk6.jpg",
+  "description": "An anime adaptation of Sega's Phantasy Star Online 2 game's official web manga Puso Ni Comi: Phantasy Star Online 2 Comic. The story follows the lax, less than weighty daily life of the ARKS force members. ",
+  "status": "Completed",
+  "releaseDate": 2019,
+  "startDate": {
+    "year": 2019,
+    "month": 1,
+    "day": 8
+  },
+  "endDate": {
+    "year": 2019,
+    "month": 5,
+    "day": 21
+  },
+  "totalEpisodes": 20,
+  "currentEpisode": 20,
+  "rating": 57,
+  "duration": 3,
+  "genres": [
+    "Comedy",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 20795,
+      "malId": 23229,
+      "title": {
+        "romaji": "Meshimase Lodoss-tou Senki: Sorette Oishii no?",
+        "english": null,
+        "native": "召しませロードス島戦記～それっておいしいの？～",
+        "userPreferred": "Meshimase Lodoss-tou Senki: Sorette Oishii no?"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20795.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20795.jpg",
+      "rating": 49,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 20538,
+      "malId": 21427,
+      "title": {
+        "romaji": "Minna Atsumare! Falcom Gakuen",
+        "english": null,
+        "native": "みんな集まれ！ファルコム学園",
+        "userPreferred": "Minna Atsumare! Falcom Gakuen"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20538.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20538-u1ZFFiFilLj1.jpg",
+      "rating": 58,
+      "type": "TV_SHORT"
+    }
+  ],
+  "characters": [
+    {
+      "id": 166609,
+      "role": "MAIN",
+      "name": {
+        "first": "Makino",
+        "last": null,
+        "full": "Makino",
+        "native": "牧野",
+        "userPreferred": "Makino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 119616,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Senbongi",
+            "full": "Sayaka Senbongi",
+            "native": "千本木彩花",
+            "userPreferred": "Sayaka Senbongi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119616-Dakq7gsUo2ja.png"
+        }
+      ]
+    },
+    {
+      "id": 166610,
+      "role": "MAIN",
+      "name": {
+        "first": "Zect",
+        "last": null,
+        "full": "Zect",
+        "native": "ゼクト",
+        "userPreferred": "Zect"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 118551,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomohiro\r\n",
+            "last": "Satou",
+            "full": "Tomohiro\r\n Satou",
+            "native": "佐藤友啓",
+            "userPreferred": "Tomohiro\r\n Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/23551.jpg"
+        }
+      ]
+    },
+    {
+      "id": 166612,
+      "role": "MAIN",
+      "name": {
+        "first": "Tetra",
+        "last": null,
+        "full": "Tetra",
+        "native": "テトラ",
+        "userPreferred": "Tetra"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 124802,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Hikisaka",
+            "full": "Rie Hikisaka",
+            "native": "引坂理絵",
+            "userPreferred": "Rie Hikisaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n124802-VNbDkz25pnAd.png"
+        }
+      ]
+    },
+    {
+      "id": 166613,
+      "role": "MAIN",
+      "name": {
+        "first": "Ichika",
+        "last": null,
+        "full": "Ichika",
+        "native": "イチカ",
+        "userPreferred": "Ichika"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95930,
+          "language": "Japanese",
+          "name": {
+            "first": "Aki",
+            "last": "Kanada",
+            "full": "Aki Kanada",
+            "native": "金田アキ",
+            "userPreferred": "Aki Kanada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95930-tn7fNp6AXwUY.png"
+        }
+      ]
+    },
+    {
+      "id": 166611,
+      "role": "MAIN",
+      "name": {
+        "first": "Mitarashi",
+        "last": null,
+        "full": "Mitarashi",
+        "native": "みたらし",
+        "userPreferred": "Mitarashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 118444,
+          "language": "Japanese",
+          "name": {
+            "first": "Rui",
+            "last": "Tanabe",
+            "full": "Rui Tanabe",
+            "native": "田辺留依",
+            "userPreferred": "Rui Tanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118444-ftV3GueuH2WQ.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 117325,
+      "relationType": "SEQUEL",
+      "malId": 41634,
+      "title": {
+        "romaji": "Puso Ni Comi: Okawari",
+        "english": null,
+        "native": "ぷそ煮コミおかわり",
+        "userPreferred": "Puso Ni Comi: Okawari"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx117325-f1ijlg6Ow73I.png",
+      "color": "#fea128",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/117325-n2oEKX5VEFB1.jpg",
+      "rating": 66
+    },
+    {
+      "id": 21264,
+      "relationType": "PARENT",
+      "malId": 31223,
+      "title": {
+        "romaji": "Phantasy Star Online 2: The Animation",
+        "english": "Phantasy Star Online 2 The Animation",
+        "native": "ファンタシースターオンライン２ ジ アニメーション",
+        "userPreferred": "Phantasy Star Online 2: The Animation"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21264-vn4ZxC67Fb4A.jpg",
+      "color": "#5daee4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21264-roXLR8nt93AF.png",
+      "rating": 57
+    },
+    {
+      "id": 108358,
+      "relationType": "PARENT",
+      "malId": 39506,
+      "title": {
+        "romaji": "PHANTASY STAR ONLINE 2: EPISODE ORACLE",
+        "english": "Phantasy Star Online 2: Episode Oracle",
+        "native": "PHANTASY STAR ONLINE 2 EPISODE ORACLE",
+        "userPreferred": "PHANTASY STAR ONLINE 2: EPISODE ORACLE"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108358-9Y0qXz0o101z.png",
+      "color": "#e4506b",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108358-9Y0qXz0o101z.png",
+      "rating": 60
+    },
+    {
+      "id": 117326,
+      "relationType": "ADAPTATION",
+      "malId": 117030,
+      "title": {
+        "romaji": "Phantasy Star Online 2: Puso Ni Comi",
+        "english": null,
+        "native": "ファンタシースターオンライン2 ぷそ煮コミ",
+        "userPreferred": "Phantasy Star Online 2: Puso Ni Comi"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx117326-Yw6BGJ5KnEnq.jpg",
+      "color": "#f1930d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/117326-AKRFC6Nqo1Ph.jpg",
+      "rating": 75
+    }
+  ],
+  "episodes": [
+    {
+      "id": "puso-ni-comi-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-1"
+    },
+    {
+      "id": "puso-ni-comi-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-2"
+    },
+    {
+      "id": "puso-ni-comi-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-3"
+    },
+    {
+      "id": "puso-ni-comi-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-4"
+    },
+    {
+      "id": "puso-ni-comi-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-5"
+    },
+    {
+      "id": "puso-ni-comi-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-6"
+    },
+    {
+      "id": "puso-ni-comi-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-7"
+    },
+    {
+      "id": "puso-ni-comi-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-8"
+    },
+    {
+      "id": "puso-ni-comi-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-9"
+    },
+    {
+      "id": "puso-ni-comi-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-10"
+    },
+    {
+      "id": "puso-ni-comi-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-11"
+    },
+    {
+      "id": "puso-ni-comi-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-12"
+    },
+    {
+      "id": "puso-ni-comi-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-13"
+    },
+    {
+      "id": "puso-ni-comi-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-14"
+    },
+    {
+      "id": "puso-ni-comi-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-15"
+    },
+    {
+      "id": "puso-ni-comi-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-16"
+    },
+    {
+      "id": "puso-ni-comi-episode-17",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 17,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-17"
+    },
+    {
+      "id": "puso-ni-comi-episode-18",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 18,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-18"
+    },
+    {
+      "id": "puso-ni-comi-episode-19",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 19,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-19"
+    },
+    {
+      "id": "puso-ni-comi-episode-20",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109280-jYgZRiu7Gync.jpg",
+      "number": 20,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//puso-ni-comi-episode-20"
+    }
+  ]
+}
