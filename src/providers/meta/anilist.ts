@@ -533,10 +533,11 @@ class Anilist extends AnimeParser {
           range({ from: 1940, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate!)))
       ) {
         try {
-          const anifyInfo = await new Anify().fetchAnimeInfo(
-            id,
+          const anifyInfo = await new Anify(
+            this.proxyConfig,
+            this.adapter,
             this.provider.name.toLowerCase() as 'gogoanime' | 'zoro' | 'animepahe' | '9anime'
-          );
+          ).fetchAnimeInfo(id);
           animeInfo.mappings = anifyInfo.mappings;
           animeInfo.artwork = anifyInfo.artwork;
           animeInfo.episodes = anifyInfo.episodes?.map((item: any) => ({
@@ -650,8 +651,7 @@ class Anilist extends AnimeParser {
    */
   override fetchEpisodeSources = async (episodeId: string, ...args: any): Promise<ISource> => {
     try {
-      if (episodeId.includes('/') && this.provider instanceof Anify)
-        return new Anify().fetchEpisodeSources(episodeId, args[0], args[1]);
+      if (this.provider instanceof Anify) return new Anify().fetchEpisodeSources(episodeId, args[0], args[1]);
       return this.provider.fetchEpisodeSources(episodeId, ...args);
     } catch (err) {
       throw new Error(`Failed to fetch episode sources from ${this.provider.name}: ${err}`);
@@ -2177,8 +2177,9 @@ class Anilist extends AnimeParser {
 }
 
 // (async () => {
-//   const ani = new Anilist();
-//   const anime = await ani.fetchAnimeInfo('1');
+//   const ani = new Anilist(new Zoro());
+//   const anime = await ani.fetchAnimeInfo('21');
+//   console.log(anime.episodes);
 //   const sources = await ani.fetchEpisodeSources(anime.episodes![0].id, anime.episodes![0].number, anime.id);
 //   console.log(sources);
 // })();
