@@ -650,7 +650,7 @@ class Anilist extends AnimeParser {
    */
   override fetchEpisodeSources = async (episodeId: string, ...args: any): Promise<ISource> => {
     try {
-      if (episodeId.includes('/') && this.provider instanceof Anify)
+      if (this.provider instanceof Anify)
         return new Anify().fetchEpisodeSources(episodeId, args[0], args[1]);
       return this.provider.fetchEpisodeSources(episodeId, ...args);
     } catch (err) {
@@ -2178,7 +2178,8 @@ class Anilist extends AnimeParser {
 
 // (async () => {
 //   const ani = new Anilist();
-//   const anime = await ani.fetchAnimeInfo('1');
+//   const anime = await ani.fetchAnimeInfo('21');
+//   console.log(anime.episodes)
 //   const sources = await ani.fetchEpisodeSources(anime.episodes![0].id, anime.episodes![0].number, anime.id);
 //   console.log(sources);
 // })();

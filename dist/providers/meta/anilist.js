@@ -550,7 +550,7 @@ class Anilist extends models_1.AnimeParser {
          */
         this.fetchEpisodeSources = async (episodeId, ...args) => {
             try {
-                if (episodeId.includes('/') && this.provider instanceof anify_1.default)
+                if (this.provider instanceof anify_1.default)
                     return new anify_1.default().fetchEpisodeSources(episodeId, args[0], args[1]);
                 return this.provider.fetchEpisodeSources(episodeId, ...args);
             }
@@ -1096,7 +1096,7 @@ class Anilist extends models_1.AnimeParser {
          */
         this.fetchRecentEpisodes = async (provider = 'gogoanime', page = 1) => {
             try {
-                const { data: { data, meta }, } = await this.client.get(`${this.anifyUrl}/recent?page=${page}`);
+                const { data: { data, meta }, } = await this.client.get(`${this.anifyUrl}/recent?page=${page}&type=anime`);
                 let results = data.map((item) => {
                     var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l;
                     return ({
@@ -1623,7 +1623,7 @@ Anilist.Manga = class Manga {
                 query: (0, utils_1.anilistSearchQuery)(query, page, perPage, 'MANGA'),
             };
             try {
-                const { data } = await axios_1.default.post(new _a().anilistGraphqlUrl, options);
+                const { data } = await axios_1.default.post(new Anilist().anilistGraphqlUrl, options);
                 const res = {
                     currentPage: data.data.Page.pageInfo.currentPage,
                     hasNextPage: data.data.Page.pageInfo.hasNextPage,
@@ -1692,7 +1692,7 @@ Anilist.Manga = class Manga {
                 query: (0, utils_1.anilistMediaDetailQuery)(id),
             };
             try {
-                const { data } = await axios_1.default.post(new _a().anilistGraphqlUrl, options).catch(err => {
+                const { data } = await axios_1.default.post(new Anilist().anilistGraphqlUrl, options).catch(err => {
                     throw new Error('Media not found');
                 });
                 mangaInfo.malId = data.data.Media.idMal;
@@ -1824,7 +1824,7 @@ Anilist.Manga = class Manga {
                         rating: item.node.meanScore,
                     });
                 });
-                mangaInfo.chapters = await new _a().findManga(this.provider, {
+                mangaInfo.chapters = await new Anilist().findManga(this.provider, {
                     english: mangaInfo.title.english,
                     romaji: mangaInfo.title.romaji,
                 }, mangaInfo.malId);
@@ -1840,7 +1840,8 @@ Anilist.Manga = class Manga {
 };
 // (async () => {
 //   const ani = new Anilist();
-//   const anime = await ani.fetchAnimeInfo('1');
+//   const anime = await ani.fetchAnimeInfo('21');
+//   console.log(anime.episodes)
 //   const sources = await ani.fetchEpisodeSources(anime.episodes![0].id, anime.episodes![0].number, anime.id);
 //   console.log(sources);
 // })();

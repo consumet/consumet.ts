@@ -2,7 +2,7 @@ import { ANIME } from '../../src/providers';
 
 jest.setTimeout(120000);
 
-const enime = new ANIME.Enime();
+const enime = new ANIME.Anify();
 
 test('returns a filled array of anime list', async () => {
   const data = await enime.search('spy x family');
