@@ -460,7 +460,7 @@ class Anilist extends models_1.AnimeParser {
                     (animeInfo.status === models_1.MediaStatus.ONGOING ||
                         (0, utils_1.range)({ from: 1940, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate)))) {
                     try {
-                        const anifyInfo = await new anify_1.default().fetchAnimeInfo(id, this.provider.name.toLowerCase());
+                        const anifyInfo = await new anify_1.default(this.proxyConfig, this.adapter, this.provider.name.toLowerCase()).fetchAnimeInfo(id);
                         animeInfo.mappings = anifyInfo.mappings;
                         animeInfo.artwork = anifyInfo.artwork;
                         animeInfo.episodes = (_54 = anifyInfo.episodes) === null || _54 === void 0 ? void 0 : _54.map((item) => {
@@ -1839,9 +1839,9 @@ Anilist.Manga = class Manga {
     }
 };
 // (async () => {
-//   const ani = new Anilist();
+//   const ani = new Anilist(new Zoro());
 //   const anime = await ani.fetchAnimeInfo('21');
-//   console.log(anime.episodes)
+//   console.log(anime.episodes);
 //   const sources = await ani.fetchEpisodeSources(anime.episodes![0].id, anime.episodes![0].number, anime.id);
 //   console.log(sources);
 // })();

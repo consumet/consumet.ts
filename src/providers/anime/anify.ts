@@ -10,6 +10,8 @@ import {
   IVideo,
   MediaFormat,
 } from '../../models';
+import { AxiosAdapter } from 'axios';
+import { ProxyConfig } from '../../models';
 
 type ProviderId = '9anime' | 'animepahe' | 'zoro' | 'gogoanime';
 
@@ -18,11 +20,33 @@ class Anify extends AnimeParser {
   protected override baseUrl = 'https://api.anify.tv';
   protected override classPath = 'ANIME.Anify';
 
-  private readonly actions: {[k: string]: {format: (episodeId: string) => string, unformat: (episodeId: string) => string}} = {
+  private readonly actions: {
+    [k: string]: { format: (episodeId: string) => string; unformat: (episodeId: string) => string };
+  } = {
     gogoanime: {
       format: (episodeId: string) => `/${episodeId}`,
       unformat: (episodeId: string) => episodeId.replace('/', ''),
-    }
+    },
+    zoro: {
+      format: (episodeId: string) => `watch/${episodeId.replace('$episode$', '?ep=')}`,
+      unformat: (episodeId: string) => episodeId.replace('?ep=', '$episode$').split('watch/')[1] + '$sub',
+    },
+    animepahe: {
+      format: (episodeId: string) => episodeId,
+      unformat: (episodeId: string) => episodeId,
+    },
+    '9anime': {
+      format: (episodeId: string) => episodeId,
+      unformat: (episodeId: string) => episodeId,
+    },
+  };
+
+  constructor(
+    protected proxyConfig?: ProxyConfig,
+    protected adapter?: AxiosAdapter,
+    protected providerId: ProviderId = 'gogoanime'
+  ) {
+    super(proxyConfig, adapter);
   }
 
   /**
@@ -38,17 +62,16 @@ class Anify extends AnimeParser {
    * @param query Search query
    * @param page Page number (optional)
    */
-  override search = async (
-    query: string,
-    page: number = 1
-  ): Promise<ISearch<IAnimeResult>> => {
+  override search = async (query: string, page: number = 1): Promise<ISearch<IAnimeResult>> => {
     const res = {
       currentPage: page,
       hasNextPage: false,
       results: [],
     };
 
-    const { data } = await this.client.get(`${this.baseUrl}/search-advanced?type=anime&query=${query}&page=${page}`);
+    const { data } = await this.client.get(
+      `${this.baseUrl}/search-advanced?type=anime&query=${query}&page=${page}`
+    );
 
     if (data.currentPage !== res.currentPage) res.hasNextPage = true;
 
@@ -72,8 +95,7 @@ class Anify extends AnimeParser {
   /**
    * @param id Anime id
    */
-  override fetchAnimeInfo = async (id: string, providerId: '9anime' | 'animepahe' | 'zoro' | 'gogoanime' = 'gogoanime'
-  ): Promise<IAnimeInfo> => {
+  override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
     const animeInfo: IAnimeInfo = {
       id: id,
       title: '',
@@ -83,7 +105,6 @@ class Anify extends AnimeParser {
       throw new Error('Anime not found. Please use a valid id!');
     });
 
- 
     animeInfo.anilistId = data.id;
     animeInfo.title = data.title.english ?? data.title.romaji ?? data.title.native;
     animeInfo.image = data.coverImage;
@@ -105,11 +126,11 @@ class Anify extends AnimeParser {
       providerId: 'tvdb' | 'kitsu' | 'anilist';
     }[];
 
-    const providerData = data.episodes.data.filter((e: any) => e.providerId === providerId)[0];
+    const providerData = data.episodes.data.filter((e: any) => e.providerId === this.providerId)[0];
 
     animeInfo.episodes = providerData.episodes.map(
       (episode: any): IAnimeEpisode => ({
-        id: this.actions[providerId].unformat(episode.id),
+        id: this.actions[this.providerId].unformat(episode.id),
         number: episode.number,
         isFiller: episode.isFiller,
         title: episode.title,
@@ -136,19 +157,24 @@ class Anify extends AnimeParser {
   fetchAnimeInfoByAnilistId = async (
     id: string,
     providerId: '9anime' | 'animepahe' | 'zoro' | 'gogoanime' = 'gogoanime'
-  ): Promise<IAnimeInfo> => await this.fetchAnimeInfo(id, providerId);
+  ): Promise<IAnimeInfo> => await this.fetchAnimeInfo(id);
 
   override fetchEpisodeSources = async (
     episodeId: string,
     episodeNumber: number,
-    id: number,
-    providerId: ProviderId = 'gogoanime'
+    id: number
   ): Promise<ISource> => {
-    const { data } = await this.client.get(
-      `${this.baseUrl}/sources?providerId=${providerId}&watchId=${this.actions[providerId].format(episodeId)}&episodeNumber=${episodeNumber}&id=${id}&subType=sub&server=gogocdn`
-    );
+    try {
+      const { data } = await this.client.get(
+        `${this.baseUrl}/sources?providerId=${this.providerId}&watchId=${this.actions[this.providerId].format(
+          episodeId
+        )}&episodeNumber=${episodeNumber}&id=${id}&subType=sub`
+      );
 
-    return data;
+      return data;
+    } catch (err) {
+      throw new Error('Episode not found!\n' + err);
+    }
   };
 
   /**
@@ -163,6 +189,8 @@ export default Anify;
 
 // (async () => {
 //   const anify = new Anify();
-//   const res = await anify.search('na', 1);
+//   const res = await anify.fetchAnimeInfo('1');
 //   console.log(res);
+//   const souces = await anify.fetchEpisodeSources(res.episodes![0].id, 1, 1);
+//   console.log(souces);
 // })();
