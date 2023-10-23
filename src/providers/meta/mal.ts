@@ -191,10 +191,11 @@ class Myanimelist extends AnimeParser {
       ) {
         try {
           animeInfo.episodes = (
-            await new Anify().fetchAnimeInfo(
-              animeId,
-              this.provider.name.toLowerCase() as 'gogoanime' | 'zoro'
-            )
+            await new Anify(
+              this.proxyConfig,
+              this.adapter,
+              this.provider.name.toLowerCase() as 'gogoanime' | 'zoro' | '9anime' | 'animepahe'
+            ).fetchAnimeInfo(animeId)
           ).episodes?.map((item: any) => ({
             id: item.slug,
             title: item.title,
