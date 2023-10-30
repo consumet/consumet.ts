@@ -1303,48 +1303,51 @@ class Anilist extends AnimeParser {
    */
   fetchRecentEpisodes = async (
     provider: 'gogoanime' | 'zoro' = 'gogoanime',
-    page: number = 1
+    page: number = 1,
+    perPage: number = 25
   ): Promise<ISearch<IAnimeResult>> => {
     try {
-      const {
-        data: { data, meta },
-      } = await this.client.get(`${this.anifyUrl}/recent?page=${page}&type=anime`);
-
-      let results: IAnimeInfo[] = data.map((item: any) => ({
-        id: item.anime.anilistId.toString(),
-        malId: item.anime.mappings?.mal,
-        title: {
-          romaji: item.anime.title?.romaji,
-          english: item.anime.title?.english,
-          native: item.anime.title?.native,
-          userPreferred: item.anime.title?.userPreferred,
-        },
-        image: item.anime.coverImage ?? item.anime.bannerImage,
-        rating: item.anime.averageScore,
-        color: item.anime?.color,
-        episodeId: `${
-          provider === 'gogoanime'
-            ? item.sources.find((source: any) => source.website.toLowerCase() === 'gogoanime')?.id
-            : item.sources.find((source: any) => source.website.toLowerCase() === 'zoro')?.id
-        }`,
-        episodeTitle: item.title ?? `Episode ${item.number}`,
-        episodeNumber: item.number,
-        genres: item.anime.genre,
-        type: item.anime.format,
-      }));
-
-      results = results.filter(
-        (item: any) =>
-          item.episodeNumber !== 0 &&
-          item.episodeId.replace('-enime', '').length > 0 &&
-          item.episodeId.replace('-enime', '') !== 'undefined'
+      const { data } = await this.client.get(
+        `${this.anifyUrl}/recent?page=${page}&perPage=${perPage}&type=anime`
       );
 
+      const results: IAnimeInfo[] = data?.map((item: any) => {
+        return {
+          id: item.id.toString(),
+          malId: item.mappings.find((item: any) => item.providerType === 'META' && item.providerId === 'mal')
+            ?.id,
+          title: {
+            romaji: item.title?.romaji,
+            english: item.title?.english,
+            native: item.title?.native,
+            // userPreferred: (_f = item.title) === null || _f === void 0 ? void 0 : _f.userPreferred,
+          },
+          image: item.coverImage ?? item.bannerImage,
+          rating: item.averageScore,
+          color: item.anime?.color,
+          episodeId: `${
+            provider === 'gogoanime'
+              ? item.episodes.data
+                  .find((source: any) => source.providerId.toLowerCase() === 'gogoanime')
+                  ?.episodes.pop()?.id
+              : item.episodes.data
+                  .find((source: any) => source.providerId.toLowerCase() === 'zoro')
+                  ?.episodes.pop()?.id
+          }`,
+          episodeTitle: item.episodes.latest.latestTitle ?? `Episode ${item.currentEpisode}`,
+          episodeNumber: item.currentEpisode,
+          genres: item.genre,
+          type: item.format,
+        };
+      });
+      // results = results.filter((item) => item.episodeNumber !== 0 &&
+      //     item.episodeId.replace('-enime', '').length > 0 &&
+      //     item.episodeId.replace('-enime', '') !== 'undefined');
       return {
         currentPage: page,
-        hasNextPage: meta.lastPage !== page,
-        totalPages: meta.lastPage,
-        totalResults: meta.total,
+        // hasNextPage: meta.lastPage !== page,
+        // totalPages: meta.lastPage,
+        totalResults: results?.length,
         results: results,
       };
     } catch (err) {
