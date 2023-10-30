@@ -1311,7 +1311,7 @@ class Anilist extends AnimeParser {
         `${this.anifyUrl}/recent?page=${page}&perPage=${perPage}&type=anime`
       );
 
-      let results: IAnimeInfo[] = data?.map((item: any) => {
+      const results: IAnimeInfo[] = data?.map((item: any) => {
         return {
           id: item.id.toString(),
           malId: item.mappings.find((item: any) => item.providerType === 'META' && item.providerId === 'mal')
