@@ -189,7 +189,7 @@ class AnimePahe extends AnimeParser {
     return [
       ...epData.map(
         (item: any): IAnimeEpisode => ({
-          id: item.anime_id,
+          id: `${session}/${item.session}`,
           number: item.episode,
           title: item.title,
           image: item.snapshot,
