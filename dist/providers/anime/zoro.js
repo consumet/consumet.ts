@@ -139,9 +139,10 @@ class Zoro extends models_1.AnimeParser {
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
-                    case models_1.StreamingServers.VidStreaming:
                     case models_1.StreamingServers.VidCloud:
-                        return Object.assign({}, (await new utils_1.RapidCloud(this.proxyConfig, this.adapter).extract(serverUrl)));
+                      return Object.assign({ headers: { Referer: serverUrl.href } }, (await new utils_1.VidCloud(this.proxyConfig, this.adapter).extract(serverUrl)));
+                    case models_1.StreamingServers.VidStreaming:
+                        return Object.assign({}, (await new utils_1.VidStreaming(this.proxyConfig, this.adapter).extract(serverUrl)));
                     case models_1.StreamingServers.StreamSB:
                         return {
                             headers: {
@@ -158,7 +159,7 @@ class Zoro extends models_1.AnimeParser {
                         };
                     default:
                     case models_1.StreamingServers.VidCloud:
-                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new utils_1.RapidCloud(this.proxyConfig, this.adapter).extract(serverUrl)));
+                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new utils_1.VidCloud(this.proxyConfig, this.adapter).extract(serverUrl)));
                 }
             }
             if (!episodeId.includes('$episode$'))
@@ -267,7 +268,7 @@ class Zoro extends models_1.AnimeParser {
 //   const zoro = new Zoro();
 //   const anime = await zoro.search('classroom of the elite');
 //   const info = await zoro.fetchAnimeInfo(anime.results[0].id);
-//   const sources = await zoro.fetchEpisodeSources(info.episodes![0].id);
+//   const sources = await zoro.fetchEpisodeSources(info.episodes[0].id);
 //   console.log(sources);
 // })();
 exports.default = Zoro;

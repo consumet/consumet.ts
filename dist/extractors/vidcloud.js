@@ -11,85 +11,103 @@ class VidCloud extends models_1.VideoExtractor {
         super(...arguments);
         this.serverName = 'VidCloud';
         this.sources = [];
-        this.host = 'https://dokicloud.one';
+        this.host = 'https://megacloud.tv';
         this.host2 = 'https://rabbitstream.net';
         this.extract = async (videoUrl, isAlternative = false) => {
-            var _a;
-            const result = {
-                sources: [],
-                subtitles: [],
-            };
-            try {
-                const id = (_a = videoUrl.href.split('/').pop()) === null || _a === void 0 ? void 0 : _a.split('?')[0];
-                const options = {
-                    headers: {
-                        'X-Requested-With': 'XMLHttpRequest',
-                        Referer: videoUrl.href,
-                        'User-Agent': utils_1.USER_AGENT,
-                    },
-                };
-                let res = undefined;
-                let sources = undefined;
-                res = await this.client.get(`${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`, options);
-                if (!(0, utils_1.isJson)(res.data.sources)) {
-                    let { data: key } = await this.client.get('https://github.com/enimax-anime/key/blob/e4/key.txt');
-                    key = (0, utils_1.substringBefore)((0, utils_1.substringAfter)(key, '"blob-code blob-code-inner js-file-line">'), '</td>');
-                    if (!key) {
-                        key = await (await this.client.get('https://raw.githubusercontent.com/enimax-anime/key/e4/key.txt')).data;
-                    }
-                    const sourcesArray = res.data.sources.split('');
-                    let extractedKey = '';
-                    for (const index of key) {
-                        for (let i = index[0]; i < index[1]; i++) {
-                            extractedKey += res.data.sources[i];
-                            sourcesArray[i] = '';
-                        }
-                    }
-                    key = extractedKey;
-                    res.data.sources = sourcesArray.join('');
-                    const decryptedVal = crypto_js_1.default.AES.decrypt(res.data.sources, key).toString(crypto_js_1.default.enc.Utf8);
-                    sources = (0, utils_1.isJson)(decryptedVal) ? JSON.parse(decryptedVal) : res.data.sources;
-                }
-                this.sources = sources.map((s) => ({
-                    url: s.file,
-                    isM3U8: s.file.includes('.m3u8'),
-                }));
-                result.sources.push(...this.sources);
-                result.sources = [];
-                this.sources = [];
-                for (const source of sources) {
-                    const { data } = await this.client.get(source.file, options);
-                    const urls = data.split('\n').filter((line) => line.includes('.m3u8'));
-                    const qualities = data.split('\n').filter((line) => line.includes('RESOLUTION='));
-                    const TdArray = qualities.map((s, i) => {
-                        const f1 = s.split('x')[1];
-                        const f2 = urls[i];
-                        return [f1, f2];
-                    });
-                    for (const [f1, f2] of TdArray) {
-                        this.sources.push({
-                            url: f2,
-                            quality: f1,
-                            isM3U8: f2.includes('.m3u8'),
-                        });
-                    }
-                    result.sources.push(...this.sources);
-                }
-                result.sources.push({
-                    url: sources[0].file,
-                    isM3U8: sources[0].file.includes('.m3u8'),
-                    quality: 'auto',
-                });
-                result.subtitles = res.data.tracks.map((s) => ({
-                    url: s.file,
-                    lang: s.label ? s.label : 'Default (maybe)',
-                }));
-                return result;
-            }
-            catch (err) {
-                throw err;
-            }
-        };
+          const result = {
+              sources: [],
+              subtitles: [],
+              intro: {},
+              outro: {},
+          };
+
+          try {
+              const id = videoUrl.href.split('/').pop()?.split('?')[0];
+              const options = {
+                  headers: {
+                      'X-Requested-With': 'XMLHttpRequest',
+                      Referer: videoUrl.href,
+                      'User-Agent': utils_1.USER_AGENT,
+                  },
+              };
+
+              const res = await this.client.get(`${isAlternative ? this.host2 : this.host}/embed-2/ajax/e-1/getSources?id=${id}`, options);
+
+              let sources = [];
+
+              if (!(0, utils_1.isJson)(res.data.sources)) {
+                  let { data: key } = await this.client.get('https://github.com/enimax-anime/key/blob/e6/key.txt');
+                  key = (0, utils_1.substringBefore)((0, utils_1.substringAfter)(key, '"blob-code blob-code-inner js-file-line">'), '</td>');
+                  if (!key) {
+                      key = await (await this.client.get('https://raw.githubusercontent.com/enimax-anime/key/e6/key.txt')).data;
+                  }
+
+                  const sourcesArray = res.data.sources.split("");
+                  let extractedKey = "";
+
+                  for (const index of key) {
+                      for (let i = Number(index[0]); i < Number(index[1]); i++) {
+                          extractedKey += sourcesArray[i];
+                          sourcesArray[i] = "";
+                      }
+                  }
+
+                  key = extractedKey;
+                  res.data.sources = sourcesArray.join("");
+
+                  const decryptedVal = crypto_js_1.default.AES.decrypt(res.data.sources, key).toString(crypto_js_1.default.enc.Utf8);
+                  sources = (0, utils_1.isJson)(decryptedVal) ? JSON.parse(decryptedVal) : [{ file: res.data.sources }];
+              } else {
+                  sources = JSON.parse(res.data.sources);
+              }
+
+              for (const source of sources) {
+                  if (source.type === "hls") {
+                      const { data } = await this.client.get(source.file);
+                      const resolutions = data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
+
+                      resolutions?.forEach((res) => {
+                          const index = source.file.lastIndexOf("/");
+                          const quality = res.split("\n")[0].split("x")[1].split(",")[0];
+                          const url = source.file.slice(0, index);
+
+                          result.sources.push({
+                              url: url + "/" + res.split("\n")[1],
+                              quality: quality + "p",
+                          });
+                      });
+                  }
+              }
+
+              if (res.data.intro.end > 1) {
+                  result.intro = {
+                      start: res.data.intro.start,
+                      end: res.data.intro.end,
+                  };
+              }
+
+              if (res.data.outro.end > 1) {
+                  result.outro = {
+                      start: res.data.outro.start,
+                      end: res.data.outro.end,
+                  };
+              }
+
+              result.sources.push({
+                  url: sources[0].file,
+                  quality: "auto",
+              });
+
+              result.subtitles = res.data.tracks?.map((s) => ({
+                  url: s.file,
+                  lang: s.label ? s.label : "Thumbnails",
+              }));
+
+              return result;
+          } catch (err) {
+              throw err;
+          }
+      };
     }
 }
 exports.default = VidCloud;
