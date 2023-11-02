@@ -6,6 +6,7 @@ var _a;
 Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../../models");
+const { default: Gogoanime } = require("../../providers/anime/gogoanime");
 const utils_1 = require("../../utils");
 const gogoanime_1 = __importDefault(require("../../providers/anime/gogoanime"));
 const anify_1 = __importDefault(require("../anime/anify"));
@@ -1841,11 +1842,9 @@ Anilist.Manga = class Manga {
     }
 };
 // (async () => {
-//   const ani = new Anilist(new Zoro());
-//   const anime = await ani.fetchAnimeInfo('21');
-//   console.log(anime.episodes);
-//   const sources = await ani.fetchEpisodeSources(anime.episodes![0].id, anime.episodes![0].number, anime.id);
-//   console.log(sources);
+//   const ani = new Anilist();
+//   const anime = await ani.fetchEpisodesListById('1735');
+//   console.log(anime);
 // })();
 exports.default = Anilist;
 //# sourceMappingURL=anilist.js.map
