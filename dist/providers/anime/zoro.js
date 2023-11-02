@@ -139,26 +139,9 @@ class Zoro extends models_1.AnimeParser {
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
-                    case models_1.StreamingServers.VidStreaming:
-                    case models_1.StreamingServers.VidCloud:
-                        return Object.assign({}, (await new utils_1.RapidCloud(this.proxyConfig, this.adapter).extract(serverUrl)));
-                    case models_1.StreamingServers.StreamSB:
-                        return {
-                            headers: {
-                                Referer: serverUrl.href,
-                                watchsb: 'streamsb',
-                                'User-Agent': utils_2.USER_AGENT,
-                            },
-                            sources: await new utils_1.StreamSB(this.proxyConfig, this.adapter).extract(serverUrl, true),
-                        };
-                    case models_1.StreamingServers.StreamTape:
-                        return {
-                            headers: { Referer: serverUrl.href, 'User-Agent': utils_2.USER_AGENT },
-                            sources: await new utils_1.StreamTape(this.proxyConfig, this.adapter).extract(serverUrl),
-                        };
                     default:
                     case models_1.StreamingServers.VidCloud:
-                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new utils_1.RapidCloud(this.proxyConfig, this.adapter).extract(serverUrl)));
+                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new utils_1.VidCloud(this.proxyConfig, this.adapter).extract(serverUrl)));
                 }
             }
             if (!episodeId.includes('$episode$'))
@@ -241,7 +224,7 @@ class Zoro extends models_1.AnimeParser {
                         image: $(el).find('div.film-poster > img').attr('data-src'),
                         title: $(el).find('div.film-poster > img').attr('alt'),
                         url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-                        episode: parseInt($(el).find('div.tick-eps').text().replace(/\s/g, '').replace('Ep', '').split('/')[0]),
+                        episode: parseInt($(el).find('div.tick-sub').text().replace(/\s/g, '').replace('Ep', '').split('/')[0]),
                     });
                 });
                 return {
