@@ -43,8 +43,8 @@ class RapidCloud extends models_1.VideoExtractor {
                         let extractedKey = '';
                         let currentIndex = 0;
                         for (const index of decryptKey) {
-                            let start = index[0] + currentIndex;
-                            let end = start + index[1];
+                            const start = index[0] + currentIndex;
+                            const end = start + index[1];
                             for (let i = start; i < end; i++) {
                                 extractedKey += res.data.sources[i];
                                 sourcesArray[i] = '';
