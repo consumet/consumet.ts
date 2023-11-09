@@ -1097,7 +1097,7 @@ class Anilist extends models_1.AnimeParser {
         this.fetchRecentEpisodes = async (provider = 'gogoanime', page = 1, perPage = 25) => {
             try {
                 const { data } = await this.client.get(`${this.anifyUrl}/recent?page=${page}&perPage=${perPage}&type=anime`);
-                let results = data === null || data === void 0 ? void 0 : data.map((item) => {
+                const results = data === null || data === void 0 ? void 0 : data.map((item) => {
                     var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
                     return {
                         id: item.id.toString(),
