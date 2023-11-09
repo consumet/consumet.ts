@@ -51,14 +51,15 @@ class VidCloud extends VideoExtractor {
 
         let currentIndex = 0;
         for (const index of key) {
-            let start = index[0] + currentIndex;
-            let end = start + index[1];
-            for (let i = start; i < end; i++) {
-                extractedKey += res.data.sources[i];
-                sourcesArray[i] = '';
-            }
-            currentIndex += index[1];
+          let start = index[0] + currentIndex;
+          let end = start + index[1];
+          for (let i = start; i < end; i++) {
+            extractedKey += res.data.sources[i];
+            sourcesArray[i] = '';
+          }
+          currentIndex += index[1];
         }
+
         key = extractedKey;
         res.data.sources = sourcesArray.join('');
 

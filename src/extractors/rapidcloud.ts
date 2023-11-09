@@ -58,13 +58,13 @@ class RapidCloud extends VideoExtractor {
           let extractedKey = '';
           let currentIndex = 0;
           for (const index of decryptKey) {
-              let start = index[0] + currentIndex;
-              let end = start + index[1];
-              for (let i = start; i < end; i++) {
-                  extractedKey += res.data.sources[i];
-                  sourcesArray[i] = '';
-              }
-              currentIndex += index[1];
+            let start = index[0] + currentIndex;
+            let end = start + index[1];
+            for (let i = start; i < end; i++) {
+              extractedKey += res.data.sources[i];
+              sourcesArray[i] = '';
+            }
+            currentIndex += index[1];
           }
 
           decryptKey = extractedKey;
@@ -130,9 +130,9 @@ class RapidCloud extends VideoExtractor {
         .map((s: any) =>
           s.file
             ? {
-                url: s.file,
-                lang: s.label ? s.label : 'Thumbnails',
-              }
+              url: s.file,
+              lang: s.label ? s.label : 'Thumbnails',
+            }
             : null
         )
         .filter((s: any) => s);
