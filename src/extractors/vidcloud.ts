@@ -7,7 +7,7 @@ class VidCloud extends VideoExtractor {
   protected override serverName = 'VidCloud';
   protected override sources: IVideo[] = [];
 
-  private readonly host = 'https://dokicloud.one';
+  private readonly host = 'https://megacloud.tv';
   private readonly host2 = 'https://rabbitstream.net';
 
   override extract = async (
@@ -31,7 +31,7 @@ class VidCloud extends VideoExtractor {
       let sources = undefined;
 
       res = await this.client.get(
-        `${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`,
+        `${isAlternative ? this.host2 : this.host}/embed-2/ajax/e-1/getSources?id=${id}`,
         options
       );
 
@@ -42,7 +42,7 @@ class VidCloud extends VideoExtractor {
 
         if (!key) {
           key = await (
-            await this.client.get('https://raw.githubusercontent.com/enimax-anime/key/e4/key.txt')
+            await this.client.get('https://cdn.jsdelivr.net/gh/Claudemirovsky/keys@e4/key')
           ).data;
         }
 
