@@ -35,7 +35,7 @@ class RapidCloud extends VideoExtractor {
       } = res;
 
       let decryptKey = await (
-        await this.client.get('https://github.com/enimax-anime/key/blob/e6/key.txt')
+        await this.client.get('https://raw.githubusercontent.com/theonlymo/keys/e1/key')
       ).data;
 
       decryptKey = substringBefore(
@@ -45,7 +45,7 @@ class RapidCloud extends VideoExtractor {
 
       if (!decryptKey) {
         decryptKey = await (
-          await this.client.get('https://raw.githubusercontent.com/enimax-anime/key/e6/key.txt')
+          await this.client.get('https://raw.githubusercontent.com/theonlymo/keys/e1/key')
         ).data;
       }
 
@@ -54,13 +54,17 @@ class RapidCloud extends VideoExtractor {
       try {
         if (encrypted) {
           const sourcesArray = sources.split('');
-          let extractedKey = '';
 
+          let extractedKey = '';
+          let currentIndex = 0;
           for (const index of decryptKey) {
-            for (let i = index[0]; i < index[1]; i++) {
-              extractedKey += sources[i];
+            const start = index[0] + currentIndex;
+            const end = start + index[1];
+            for (let i = start; i < end; i++) {
+              extractedKey += res.data.sources[i];
               sourcesArray[i] = '';
             }
+            currentIndex += index[1];
           }
 
           decryptKey = extractedKey;
@@ -126,9 +130,9 @@ class RapidCloud extends VideoExtractor {
         .map((s: any) =>
           s.file
             ? {
-                url: s.file,
-                lang: s.label ? s.label : 'Thumbnails',
-              }
+              url: s.file,
+              lang: s.label ? s.label : 'Thumbnails',
+            }
             : null
         )
         .filter((s: any) => s);

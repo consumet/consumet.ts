@@ -30,10 +30,10 @@ class RapidCloud extends models_1.VideoExtractor {
                 let res = null;
                 res = await this.client.get(`https://${videoUrl.hostname}/embed-2/ajax/e-1/getSources?id=${id}`, options);
                 let { data: { sources, tracks, intro, encrypted }, } = res;
-                let decryptKey = await (await this.client.get('https://github.com/enimax-anime/key/blob/e6/key.txt')).data;
+                let decryptKey = await (await this.client.get('https://raw.githubusercontent.com/theonlymo/keys/e1/key')).data;
                 decryptKey = (0, utils_1.substringBefore)((0, utils_1.substringAfter)(decryptKey, '"blob-code blob-code-inner js-file-line">'), '</td>');
                 if (!decryptKey) {
-                    decryptKey = await (await this.client.get('https://raw.githubusercontent.com/enimax-anime/key/e6/key.txt')).data;
+                    decryptKey = await (await this.client.get('https://raw.githubusercontent.com/theonlymo/keys/e1/key')).data;
                 }
                 if (!decryptKey)
                     decryptKey = this.fallbackKey;
@@ -41,11 +41,15 @@ class RapidCloud extends models_1.VideoExtractor {
                     if (encrypted) {
                         const sourcesArray = sources.split('');
                         let extractedKey = '';
+                        let currentIndex = 0;
                         for (const index of decryptKey) {
-                            for (let i = index[0]; i < index[1]; i++) {
-                                extractedKey += sources[i];
+                            const start = index[0] + currentIndex;
+                            const end = start + index[1];
+                            for (let i = start; i < end; i++) {
+                                extractedKey += res.data.sources[i];
                                 sourcesArray[i] = '';
                             }
+                            currentIndex += index[1];
                         }
                         decryptKey = extractedKey;
                         sources = sourcesArray.join('');

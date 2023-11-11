@@ -32,18 +32,22 @@ class VidCloud extends models_1.VideoExtractor {
                 let sources = undefined;
                 res = await this.client.get(`${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`, options);
                 if (!(0, utils_1.isJson)(res.data.sources)) {
-                    let { data: key } = await this.client.get('https://github.com/enimax-anime/key/blob/e4/key.txt');
+                    let { data: key } = await this.client.get('https://raw.githubusercontent.com/theonlymo/keys/e4/key');
                     key = (0, utils_1.substringBefore)((0, utils_1.substringAfter)(key, '"blob-code blob-code-inner js-file-line">'), '</td>');
                     if (!key) {
-                        key = await (await this.client.get('https://raw.githubusercontent.com/enimax-anime/key/e4/key.txt')).data;
+                        key = await (await this.client.get('https://raw.githubusercontent.com/theonlymo/keys/e4/key')).data;
                     }
                     const sourcesArray = res.data.sources.split('');
                     let extractedKey = '';
+                    let currentIndex = 0;
                     for (const index of key) {
-                        for (let i = index[0]; i < index[1]; i++) {
+                        const start = index[0] + currentIndex;
+                        const end = start + index[1];
+                        for (let i = start; i < end; i++) {
                             extractedKey += res.data.sources[i];
                             sourcesArray[i] = '';
                         }
+                        currentIndex += index[1];
                     }
                     key = extractedKey;
                     res.data.sources = sourcesArray.join('');

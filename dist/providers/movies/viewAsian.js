@@ -115,6 +115,8 @@ class ViewAsian extends models_1.MovieParser {
             episodeId = `${episodeId.replace('$episode$', '?ep=')}`;
             // return episodeId;
             try {
+                if (!episodeId.startsWith(this.baseUrl))
+                    episodeId = `${this.baseUrl}/${episodeId}`;
                 const { data } = await this.client.get(episodeId);
                 const $ = (0, cheerio_1.load)(data);
                 let serverUrl = '';
@@ -122,7 +124,7 @@ class ViewAsian extends models_1.MovieParser {
                     // asianload is the same as the standard server
                     case models_1.StreamingServers.AsianLoad:
                         serverUrl = `https:${$('.anime:contains(Asianload)').attr('data-video')}`;
-                        if (!serverUrl.includes('asian'))
+                        if (!serverUrl.includes('draplay2'))
                             throw new Error('Try another server');
                         break;
                     case models_1.StreamingServers.MixDrop:
