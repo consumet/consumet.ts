@@ -147,7 +147,7 @@ class AnimePahe extends models_1.AnimeParser {
             const epData = res.data.data;
             return [
                 ...epData.map((item) => ({
-                    id: item.anime_id,
+                    id: `${session}/${item.session}`,
                     number: item.episode,
                     title: item.title,
                     image: item.snapshot,
