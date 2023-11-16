@@ -56,7 +56,7 @@ class Anify extends AnimeParser {
   rawSearch = async (query: string, page: number = 1): Promise<any> => {
     const { data } = await this.client.get(`${this.baseUrl}/search/anime/${query}?page=${page}`);
 
-    return data;
+    return data.results;
   };
   /**
    * @param query Search query
@@ -75,7 +75,27 @@ class Anify extends AnimeParser {
 
     if (data.currentPage !== res.currentPage) res.hasNextPage = true;
 
-    res.results = data?.map((anime: any) => ({
+    res.results = data?.results.map((anime: {
+      id: string;
+      title: {
+        english: string;
+        romaji: string;
+        native: string;
+      };
+      coverImage: string | null;
+      bannerImage: string | null;
+      year: number;
+      description: string | null;
+      genres: string[];
+      rating: {
+        anilist: number;
+      };
+      status: string;
+      mappings: {
+        [k: string]: string;
+      };
+      type: string;
+    }) => ({
       id: anime.id,
       anilistId: anime.id,
       title: anime.title.english ?? anime.title.romaji ?? anime.title.native,
@@ -129,7 +149,15 @@ class Anify extends AnimeParser {
     const providerData = data.episodes.data.filter((e: any) => e.providerId === this.providerId)[0];
 
     animeInfo.episodes = providerData.episodes.map(
-      (episode: any): IAnimeEpisode => ({
+      (episode: {
+        id: string;
+        number: number;
+        isFiller: boolean;
+        title: string;
+        description?: string;
+        img?: string;
+        rating: number | null;
+      }): IAnimeEpisode => ({
         id: this.actions[this.providerId].unformat(episode.id),
         number: episode.number,
         isFiller: episode.isFiller,
@@ -157,7 +185,59 @@ class Anify extends AnimeParser {
   fetchAnimeInfoByAnilistId = async (
     id: string,
     providerId: '9anime' | 'animepahe' | 'zoro' | 'gogoanime' = 'gogoanime'
-  ): Promise<IAnimeInfo> => await this.fetchAnimeInfo(id);
+  ): Promise<IAnimeInfo> => {
+    const animeInfo: IAnimeInfo = {
+      id: id,
+      title: '',
+    };
+
+    const { data } = await this.client.get(`${this.baseUrl}/media?providerId=${providerId}&id=${id}`);
+
+    animeInfo.anilistId = data.id;
+    animeInfo.title = data.title.english ?? data.title.romaji ?? data.title.native;
+    animeInfo.image = data.coverImage;
+    animeInfo.cover = data.bannerImage;
+    animeInfo.season = data.season;
+    animeInfo.releaseDate = data.year;
+    animeInfo.duration = data.duration;
+    animeInfo.popularity = data.popularity.anilist;
+    animeInfo.description = data.description;
+    animeInfo.genres = data.genres;
+    animeInfo.rating = data.rating.anilist;
+    animeInfo.status = data.status as MediaStatus;
+    animeInfo.synonyms = data.synonyms;
+    animeInfo.mappings = data.mappings;
+    animeInfo.type = data.type as MediaFormat;
+    animeInfo.artwork = data.artwork as {
+      type: 'poster' | 'banner' | 'top_banner' | 'poster' | 'icon' | 'clear_art' | 'clear_logo';
+      img: string;
+      providerId: 'tvdb' | 'kitsu' | 'anilist';
+    }[];
+
+    const providerData = data.episodes.data.filter((e: any) => e.providerId === this.providerId)[0];
+
+    animeInfo.episodes = providerData.episodes.map(
+      (episode: {
+        id: string;
+        number: number;
+        isFiller: boolean;
+        title: string;
+        description?: string;
+        img?: string;
+        rating: number | null;
+      }): IAnimeEpisode => ({
+        id: this.actions[this.providerId].unformat(episode.id),
+        number: episode.number,
+        isFiller: episode.isFiller,
+        title: episode.title,
+        description: episode.description,
+        image: episode.img,
+        rating: episode.rating,
+      })
+    );
+
+    return animeInfo;
+  }
 
   override fetchEpisodeSources = async (
     episodeId: string,
