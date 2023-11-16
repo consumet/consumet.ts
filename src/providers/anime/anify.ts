@@ -75,7 +75,27 @@ class Anify extends AnimeParser {
 
     if (data.currentPage !== res.currentPage) res.hasNextPage = true;
 
-    res.results = data?.results.map((anime: any) => ({
+    res.results = data?.results.map((anime: {
+      id: string;
+      title: {
+        english: string;
+        romaji: string;
+        native: string;
+      };
+      coverImage: string | null;
+      bannerImage: string | null;
+      year: number;
+      description: string | null;
+      genres: string[];
+      rating: {
+        anilist: number;
+      };
+      status: string;
+      mappings: {
+        [k: string]: string;
+      };
+      type: string;
+    }) => ({
       id: anime.id,
       anilistId: anime.id,
       title: anime.title.english ?? anime.title.romaji ?? anime.title.native,
@@ -129,7 +149,15 @@ class Anify extends AnimeParser {
     const providerData = data.episodes.data.filter((e: any) => e.providerId === this.providerId)[0];
 
     animeInfo.episodes = providerData.episodes.map(
-      (episode: any): IAnimeEpisode => ({
+      (episode: {
+        id: string;
+        number: number;
+        isFiller: boolean;
+        title: string;
+        description?: string;
+        img?: string;
+        rating: number | null;
+      }): IAnimeEpisode => ({
         id: this.actions[this.providerId].unformat(episode.id),
         number: episode.number,
         isFiller: episode.isFiller,
@@ -189,7 +217,15 @@ class Anify extends AnimeParser {
     const providerData = data.episodes.data.filter((e: any) => e.providerId === this.providerId)[0];
 
     animeInfo.episodes = providerData.episodes.map(
-      (episode: any): IAnimeEpisode => ({
+      (episode: {
+        id: string;
+        number: number;
+        isFiller: boolean;
+        title: string;
+        description?: string;
+        img?: string;
+        rating: number | null;
+      }): IAnimeEpisode => ({
         id: this.actions[this.providerId].unformat(episode.id),
         number: episode.number,
         isFiller: episode.isFiller,
