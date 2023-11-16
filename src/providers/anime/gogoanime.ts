@@ -140,8 +140,7 @@ class Gogoanime extends AnimeParser {
       const alias = $('#alias_anime').attr('value');
 
       const html = await this.client.get(
-        `${
-          this.ajaxUrl
+        `${this.ajaxUrl
         }/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`
       );
       const $$ = load(html.data);
@@ -381,6 +380,24 @@ class Gogoanime extends AnimeParser {
       throw new Error('Something went wrong. Please try again later.');
     }
   };
+
+  fetchGenreList = async (): Promise<string[]> => {
+    try {
+      const res = await this.client.get(`${this.baseUrl}/`);
+
+      const $ = load(res.data);
+
+      const genres: string[] = [];
+
+      $('nav.menu_series.genre.right > ul > li').each((_index, element) => {
+        genres.push($(element).find('a').attr('title')!)
+      })
+
+      return genres;
+    } catch (err) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  }
 }
 
 // (async () => {

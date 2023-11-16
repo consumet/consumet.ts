@@ -316,6 +316,20 @@ class Gogoanime extends models_1.AnimeParser {
                 throw new Error('Something went wrong. Please try again later.');
             }
         };
+        this.fetchGenreList = async () => {
+            try {
+                const res = await this.client.get(`${this.baseUrl}/`);
+                const $ = (0, cheerio_1.load)(res.data);
+                const genres = [];
+                $('nav.menu_series.genre.right > ul > li').each((_index, element) => {
+                    genres.push($(element).find('a').attr('title'));
+                });
+                return genres;
+            }
+            catch (err) {
+                throw new Error('Something went wrong. Please try again later.');
+            }
+        };
     }
 }
 // (async () => {
