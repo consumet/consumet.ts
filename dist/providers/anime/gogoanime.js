@@ -24,7 +24,7 @@ class Gogoanime extends models_1.AnimeParser {
                 results: [],
             };
             try {
-                const res = await this.client.get(`${this.baseUrl}/search.html?keyword=${encodeURIComponent(query)}&page=${page}`);
+                const res = await this.client.get(`${this.baseUrl}/filter.html?keyword=${encodeURIComponent(query)}&page=${page}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 searchResult.hasNextPage =
                     $('div.anime_name.new_series > div > div > ul > li.selected').next().length > 0;
@@ -318,7 +318,7 @@ class Gogoanime extends models_1.AnimeParser {
         };
         this.fetchGenreList = async () => {
             try {
-                const res = await this.client.get(`${this.baseUrl}/`);
+                const res = await this.client.get(`${this.baseUrl}/home.html`);
                 const $ = (0, cheerio_1.load)(res.data);
                 const genres = [];
                 $('nav.menu_series.genre.right > ul > li').each((_index, element) => {

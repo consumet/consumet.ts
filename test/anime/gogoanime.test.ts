@@ -33,3 +33,8 @@ test('returns a filled array of available genres', async () => {
   const data = await gogoanime.fetchGenreList();
   expect(data).not.toEqual([]);
 });
+
+test('returns a filled array of recent episodes', async () => {
+  const data = await gogoanime.fetchRecentEpisodes();
+  expect(data).not.toEqual([]);
+});
