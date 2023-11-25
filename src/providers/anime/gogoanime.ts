@@ -20,7 +20,7 @@ import { GogoCDN, StreamSB } from '../../extractors';
 
 class Gogoanime extends AnimeParser {
   override readonly name = 'Gogoanime';
-  protected override baseUrl = 'https://gogoanimehd.io';
+  protected override baseUrl = 'https://anitaku.to';
   protected override logo =
     'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
   protected override classPath = 'ANIME.Gogoanime';
@@ -39,7 +39,7 @@ class Gogoanime extends AnimeParser {
     };
     try {
       const res = await this.client.get(
-        `${this.baseUrl}/search.html?keyword=${encodeURIComponent(query)}&page=${page}`
+        `${this.baseUrl}/filter.html?keyword=${encodeURIComponent(query)}&page=${page}`
       );
 
       const $ = load(res.data);
@@ -140,7 +140,8 @@ class Gogoanime extends AnimeParser {
       const alias = $('#alias_anime').attr('value');
 
       const html = await this.client.get(
-        `${this.ajaxUrl
+        `${
+          this.ajaxUrl
         }/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`
       );
       const $$ = load(html.data);
@@ -383,21 +384,21 @@ class Gogoanime extends AnimeParser {
 
   fetchGenreList = async (): Promise<string[]> => {
     try {
-      const res = await this.client.get(`${this.baseUrl}/`);
+      const res = await this.client.get(`${this.baseUrl}/home.html`);
 
       const $ = load(res.data);
 
       const genres: string[] = [];
 
       $('nav.menu_series.genre.right > ul > li').each((_index, element) => {
-        genres.push($(element).find('a').attr('title')!)
-      })
+        genres.push($(element).find('a').attr('title')!);
+      });
 
       return genres;
     } catch (err) {
       throw new Error('Something went wrong. Please try again later.');
     }
-  }
+  };
 }
 
 // (async () => {

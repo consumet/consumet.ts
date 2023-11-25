@@ -8,7 +8,7 @@ class Gogoanime extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
         this.name = 'Gogoanime';
-        this.baseUrl = 'https://gogoanimehd.io';
+        this.baseUrl = 'https://anitaku.to';
         this.logo = 'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
         this.classPath = 'ANIME.Gogoanime';
         this.ajaxUrl = 'https://ajax.gogo-load.com/ajax';
@@ -24,7 +24,7 @@ class Gogoanime extends models_1.AnimeParser {
                 results: [],
             };
             try {
-                const res = await this.client.get(`${this.baseUrl}/search.html?keyword=${encodeURIComponent(query)}&page=${page}`);
+                const res = await this.client.get(`${this.baseUrl}/filter.html?keyword=${encodeURIComponent(query)}&page=${page}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 searchResult.hasNextPage =
                     $('div.anime_name.new_series > div > div > ul > li.selected').next().length > 0;
@@ -318,7 +318,7 @@ class Gogoanime extends models_1.AnimeParser {
         };
         this.fetchGenreList = async () => {
             try {
-                const res = await this.client.get(`${this.baseUrl}/`);
+                const res = await this.client.get(`${this.baseUrl}/home.html`);
                 const $ = (0, cheerio_1.load)(res.data);
                 const genres = [];
                 $('nav.menu_series.genre.right > ul > li').each((_index, element) => {

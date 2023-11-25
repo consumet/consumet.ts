@@ -34,7 +34,7 @@ class Anify extends models_1.AnimeParser {
          */
         this.rawSearch = async (query, page = 1) => {
             const { data } = await this.client.get(`${this.baseUrl}/search/anime/${query}?page=${page}`);
-            return data;
+            return data.results;
         };
         /**
          * @param query Search query
@@ -49,7 +49,7 @@ class Anify extends models_1.AnimeParser {
             const { data } = await this.client.get(`${this.baseUrl}/search-advanced?type=anime&query=${query}&page=${page}`);
             if (data.currentPage !== res.currentPage)
                 res.hasNextPage = true;
-            res.results = data === null || data === void 0 ? void 0 : data.map((anime) => {
+            res.results = data === null || data === void 0 ? void 0 : data.results.map((anime) => {
                 var _a, _b;
                 return ({
                     id: anime.id,
@@ -117,7 +117,41 @@ class Anify extends models_1.AnimeParser {
         /**
          * @param id anilist id
          */
-        this.fetchAnimeInfoByAnilistId = async (id, providerId = 'gogoanime') => await this.fetchAnimeInfo(id);
+        this.fetchAnimeInfoByAnilistId = async (id, providerId = 'gogoanime') => {
+            var _a, _b;
+            const animeInfo = {
+                id: id,
+                title: '',
+            };
+            const { data } = await this.client.get(`${this.baseUrl}/media?providerId=${providerId}&id=${id}`);
+            animeInfo.anilistId = data.id;
+            animeInfo.title = (_b = (_a = data.title.english) !== null && _a !== void 0 ? _a : data.title.romaji) !== null && _b !== void 0 ? _b : data.title.native;
+            animeInfo.image = data.coverImage;
+            animeInfo.cover = data.bannerImage;
+            animeInfo.season = data.season;
+            animeInfo.releaseDate = data.year;
+            animeInfo.duration = data.duration;
+            animeInfo.popularity = data.popularity.anilist;
+            animeInfo.description = data.description;
+            animeInfo.genres = data.genres;
+            animeInfo.rating = data.rating.anilist;
+            animeInfo.status = data.status;
+            animeInfo.synonyms = data.synonyms;
+            animeInfo.mappings = data.mappings;
+            animeInfo.type = data.type;
+            animeInfo.artwork = data.artwork;
+            const providerData = data.episodes.data.filter((e) => e.providerId === this.providerId)[0];
+            animeInfo.episodes = providerData.episodes.map((episode) => ({
+                id: this.actions[this.providerId].unformat(episode.id),
+                number: episode.number,
+                isFiller: episode.isFiller,
+                title: episode.title,
+                description: episode.description,
+                image: episode.img,
+                rating: episode.rating,
+            }));
+            return animeInfo;
+        };
         this.fetchEpisodeSources = async (episodeId, episodeNumber, id) => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/sources?providerId=${this.providerId}&watchId=${this.actions[this.providerId].format(episodeId)}&episodeNumber=${episodeNumber}&id=${id}&subType=sub`);
