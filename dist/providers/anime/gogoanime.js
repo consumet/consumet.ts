@@ -8,7 +8,7 @@ class Gogoanime extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
         this.name = 'Gogoanime';
-        this.baseUrl = 'https://gogoanimehd.io';
+        this.baseUrl = 'https://anitaku.to';
         this.logo = 'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
         this.classPath = 'ANIME.Gogoanime';
         this.ajaxUrl = 'https://ajax.gogo-load.com/ajax';
