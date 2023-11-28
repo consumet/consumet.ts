@@ -322,7 +322,8 @@ class Gogoanime extends models_1.AnimeParser {
                 const $ = (0, cheerio_1.load)(res.data);
                 const genres = [];
                 $('nav.menu_series.genre.right > ul > li').each((_index, element) => {
-                    genres.push($(element).find('a').attr('title'));
+                    var _a;
+                    genres.push({ 'id': (_a = $(element).find('a').attr('href')) === null || _a === void 0 ? void 0 : _a.replace('/genre/', ''), title: $(element).find('a').attr('title') });
                 });
                 return genres;
             }

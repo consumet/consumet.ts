@@ -382,16 +382,16 @@ class Gogoanime extends AnimeParser {
     }
   };
 
-  fetchGenreList = async (): Promise<string[]> => {
+  fetchGenreList = async (): Promise<object[]> => {
     try {
       const res = await this.client.get(`${this.baseUrl}/home.html`);
 
       const $ = load(res.data);
 
-      const genres: string[] = [];
+      const genres: object[] = [];
 
       $('nav.menu_series.genre.right > ul > li').each((_index, element) => {
-        genres.push($(element).find('a').attr('title')!);
+        genres.push({'id': $(element).find('a').attr('href')?.replace('/genre/', ''), title: $(element).find('a').attr('title')}!);
       });
 
       return genres;
