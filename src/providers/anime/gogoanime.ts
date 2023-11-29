@@ -391,7 +391,8 @@ class Gogoanime extends AnimeParser {
       const genres: object[] = [];
 
       $('nav.menu_series.genre.right > ul > li').each((_index, element) => {
-        genres.push({'id': $(element).find('a').attr('href')?.replace('/genre/', ''), title: $(element).find('a').attr('title')}!);
+        const genre = $(element).find('a');
+        genres.push({'id': genre.attr('href')?.replace('/genre/', ''), title: genre.attr('title')}!);
       });
 
       return genres;
