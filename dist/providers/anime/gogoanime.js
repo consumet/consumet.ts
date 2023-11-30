@@ -8,7 +8,7 @@ class Gogoanime extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
         this.name = 'Gogoanime';
-        this.baseUrl = 'https://anitaku.to';
+        this.baseUrl = 'https://gogoanime3.net';
         this.logo = 'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
         this.classPath = 'ANIME.Gogoanime';
         this.ajaxUrl = 'https://ajax.gogo-load.com/ajax';
@@ -317,12 +317,25 @@ class Gogoanime extends models_1.AnimeParser {
             }
         };
         this.fetchGenreList = async () => {
+            const genres = [];
+            let res = null;
             try {
-                const res = await this.client.get(`${this.baseUrl}/home.html`);
+                res = await this.client.get(`${this.baseUrl}/home.html`);
+            }
+            catch (err) {
+                try {
+                    res = await this.client.get(`${this.baseUrl}/`);
+                }
+                catch (error) {
+                    throw new Error('Something went wrong. Please try again later.');
+                }
+            }
+            try {
                 const $ = (0, cheerio_1.load)(res.data);
-                const genres = [];
                 $('nav.menu_series.genre.right > ul > li').each((_index, element) => {
-                    genres.push($(element).find('a').attr('title'));
+                    var _a;
+                    const genre = $(element).find('a');
+                    genres.push({ id: (_a = genre.attr('href')) === null || _a === void 0 ? void 0 : _a.replace('/genre/', ''), title: genre.attr('title') });
                 });
                 return genres;
             }

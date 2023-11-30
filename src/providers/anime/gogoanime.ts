@@ -20,7 +20,7 @@ import { GogoCDN, StreamSB } from '../../extractors';
 
 class Gogoanime extends AnimeParser {
   override readonly name = 'Gogoanime';
-  protected override baseUrl = 'https://anitaku.to';
+  protected override baseUrl = 'https://gogoanime3.net';
   protected override logo =
     'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
   protected override classPath = 'ANIME.Gogoanime';
@@ -382,18 +382,24 @@ class Gogoanime extends AnimeParser {
     }
   };
 
-  fetchGenreList = async (): Promise<string[]> => {
+  fetchGenreList = async (): Promise<{ id: string | undefined; title: string | undefined }[]> => {
+    const genres: { id: string | undefined; title: string | undefined }[] = [];
+    let res = null;
     try {
-      const res = await this.client.get(`${this.baseUrl}/home.html`);
-
+      res = await this.client.get(`${this.baseUrl}/home.html`);
+    } catch (err) {
+      try {
+        res = await this.client.get(`${this.baseUrl}/`);
+      } catch (error) {
+        throw new Error('Something went wrong. Please try again later.');
+      }
+    }
+    try {
       const $ = load(res.data);
-
-      const genres: string[] = [];
-
       $('nav.menu_series.genre.right > ul > li').each((_index, element) => {
-        genres.push($(element).find('a').attr('title')!);
+        const genre = $(element).find('a');
+        genres.push({ id: genre.attr('href')?.replace('/genre/', ''), title: genre.attr('title') }!);
       });
-
       return genres;
     } catch (err) {
       throw new Error('Something went wrong. Please try again later.');

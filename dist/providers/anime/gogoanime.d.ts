@@ -39,6 +39,9 @@ declare class Gogoanime extends AnimeParser {
     fetchRecentEpisodes: (page?: number, type?: number) => Promise<ISearch<IAnimeResult>>;
     fetchGenreInfo: (genre: string, page?: number) => Promise<ISearch<IAnimeResult>>;
     fetchTopAiring: (page?: number) => Promise<ISearch<IAnimeResult>>;
-    fetchGenreList: () => Promise<string[]>;
+    fetchGenreList: () => Promise<{
+        id: string | undefined;
+        title: string | undefined;
+    }[]>;
 }
 export default Gogoanime;
