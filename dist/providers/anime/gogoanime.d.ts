@@ -40,6 +40,7 @@ declare class Gogoanime extends AnimeParser {
     fetchGenreInfo: (genre: string, page?: number) => Promise<ISearch<IAnimeResult>>;
     fetchTopAiring: (page?: number) => Promise<ISearch<IAnimeResult>>;
     fetchRecentMovies: (page?: number) => Promise<ISearch<IAnimeResult>>;
+    fetchPopular: (page?: number) => Promise<ISearch<IAnimeResult>>;
     fetchGenreList: () => Promise<{
         id: string | undefined;
         title: string | undefined;

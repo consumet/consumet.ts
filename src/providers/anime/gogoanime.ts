@@ -416,6 +416,41 @@ class Gogoanime extends AnimeParser {
     }
   };
 
+  fetchPopular = async (page: number = 1): Promise<ISearch<IAnimeResult>> => {
+    try {
+      const res = await this.client.get(`${this.baseUrl}/popular.html?page=${page}`);
+
+      const $ = load(res.data);
+
+      const recentMovies: IAnimeResult[] = [];
+
+      $('div.last_episodes > ul > li').each((i, el) => {
+        const a = $(el).find('p.name > a');
+        const pRelease = $(el).find('p.released');
+        const pName = $(el).find('p.name > a');
+
+        recentMovies.push({
+          id: a.attr('href')?.replace(`/category/`, '')!,
+          title: pName.attr('title')!,
+          releaseDate: pRelease.text().replace('Released: ', '').trim(),
+          image: $(el).find('div > a > img').attr('src'),
+          url: `${this.baseUrl}${a.attr('href')}`
+        });
+      });
+
+      const hasNextPage = !$('div.anime_name.anime_movies > div > div > ul > li').last().hasClass('selected');
+
+      return {
+        currentPage: page,
+        hasNextPage: hasNextPage,
+        results: recentMovies,
+      };
+    } catch (err) {
+      console.log(err);
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  };
+
   fetchGenreList = async (): Promise<{ id: string | undefined; title: string | undefined }[]> => {
     const genres: { id: string | undefined; title: string | undefined }[] = [];
     let res = null;
