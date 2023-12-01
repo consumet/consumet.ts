@@ -316,6 +316,36 @@ class Gogoanime extends models_1.AnimeParser {
                 throw new Error('Something went wrong. Please try again later.');
             }
         };
+        this.fetchRecentMovies = async (page = 1) => {
+            try {
+                const res = await this.client.get(`${this.baseUrl}/anime-movies.html?aph&page=${page}`);
+                const $ = (0, cheerio_1.load)(res.data);
+                const recentMovies = [];
+                $('div.last_episodes > ul > li').each((i, el) => {
+                    var _a;
+                    const a = $(el).find('p.name > a');
+                    const pRelease = $(el).find('p.released');
+                    const pName = $(el).find('p.name > a');
+                    recentMovies.push({
+                        id: (_a = a.attr('href')) === null || _a === void 0 ? void 0 : _a.replace(`/category/`, ''),
+                        title: pName.attr('title'),
+                        releaseDate: pRelease.text().replace('Released: ', '').trim(),
+                        image: $(el).find('div > a > img').attr('src'),
+                        url: `${this.baseUrl}${a.attr('href')}`
+                    });
+                });
+                const hasNextPage = !$('div.anime_name.anime_movies > div > div > ul > li').last().hasClass('selected');
+                return {
+                    currentPage: page,
+                    hasNextPage: hasNextPage,
+                    results: recentMovies,
+                };
+            }
+            catch (err) {
+                console.log(err);
+                throw new Error('Something went wrong. Please try again later.');
+            }
+        };
         this.fetchGenreList = async () => {
             const genres = [];
             let res = null;

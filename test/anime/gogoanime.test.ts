@@ -38,3 +38,8 @@ test('returns a filled array of recent episodes', async () => {
   const data = await gogoanime.fetchRecentEpisodes();
   expect(data).not.toEqual([]);
 });
+
+test('returns a filled array of recent movies', async () => {
+  const data = await gogoanime.fetchRecentMovies();
+  expect(data).not.toEqual([]);
+});
