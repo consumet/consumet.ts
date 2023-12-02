@@ -140,8 +140,7 @@ class Gogoanime extends AnimeParser {
       const alias = $('#alias_anime').attr('value');
 
       const html = await this.client.get(
-        `${
-          this.ajaxUrl
+        `${this.ajaxUrl
         }/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`
       );
       const $$ = load(html.data);
@@ -378,6 +377,76 @@ class Gogoanime extends AnimeParser {
         results: topAiring,
       };
     } catch (err) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  };
+
+  fetchRecentMovies = async (page: number = 1): Promise<ISearch<IAnimeResult>> => {
+    try {
+      const res = await this.client.get(`${this.baseUrl}/anime-movies.html?aph&page=${page}`);
+
+      const $ = load(res.data);
+
+      const recentMovies: IAnimeResult[] = [];
+
+      $('div.last_episodes > ul > li').each((i, el) => {
+        const a = $(el).find('p.name > a');
+        const pRelease = $(el).find('p.released');
+        const pName = $(el).find('p.name > a');
+
+        recentMovies.push({
+          id: a.attr('href')?.replace(`/category/`, '')!,
+          title: pName.attr('title')!,
+          releaseDate: pRelease.text().replace('Released: ', '').trim(),
+          image: $(el).find('div > a > img').attr('src'),
+          url: `${this.baseUrl}${a.attr('href')}`
+        });
+      });
+
+      const hasNextPage = !$('div.anime_name.anime_movies > div > div > ul > li').last().hasClass('selected');
+
+      return {
+        currentPage: page,
+        hasNextPage: hasNextPage,
+        results: recentMovies,
+      };
+    } catch (err) {
+      console.log(err);
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  };
+
+  fetchPopular = async (page: number = 1): Promise<ISearch<IAnimeResult>> => {
+    try {
+      const res = await this.client.get(`${this.baseUrl}/popular.html?page=${page}`);
+
+      const $ = load(res.data);
+
+      const recentMovies: IAnimeResult[] = [];
+
+      $('div.last_episodes > ul > li').each((i, el) => {
+        const a = $(el).find('p.name > a');
+        const pRelease = $(el).find('p.released');
+        const pName = $(el).find('p.name > a');
+
+        recentMovies.push({
+          id: a.attr('href')?.replace(`/category/`, '')!,
+          title: pName.attr('title')!,
+          releaseDate: pRelease.text().replace('Released: ', '').trim(),
+          image: $(el).find('div > a > img').attr('src'),
+          url: `${this.baseUrl}${a.attr('href')}`
+        });
+      });
+
+      const hasNextPage = !$('div.anime_name.anime_movies > div > div > ul > li').last().hasClass('selected');
+
+      return {
+        currentPage: page,
+        hasNextPage: hasNextPage,
+        results: recentMovies,
+      };
+    } catch (err) {
+      console.log(err);
       throw new Error('Something went wrong. Please try again later.');
     }
   };
