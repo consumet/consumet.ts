@@ -36,13 +36,13 @@ class VidCloud extends VideoExtractor {
       );
 
       if (!isJson(res.data.sources)) {
-        let { data: key } = await this.client.get('https://raw.githubusercontent.com/cinemaxhq/keys/e1/key');
+        let { data: key } = await this.client.get('https://raw.githubusercontent.com/cinemaxhq/keys/e4/key');
 
         key = substringBefore(substringAfter(key, '"blob-code blob-code-inner js-file-line">'), '</td>');
 
         if (!key) {
           key = await (
-            await this.client.get('https://raw.githubusercontent.com/cinemaxhq/keys/e1/key')
+            await this.client.get('https://raw.githubusercontent.com/cinemaxhq/keys/e4/key')
           ).data;
         }
 
