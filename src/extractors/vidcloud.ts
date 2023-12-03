@@ -36,13 +36,13 @@ class VidCloud extends VideoExtractor {
       );
 
       if (!isJson(res.data.sources)) {
-        let { data: key } = await this.client.get('https://raw.githubusercontent.com/theonlymo/keys/e4/key');
+        let { data: key } = await this.client.get('http://zoro-keys.freedns.org/keys/e4/key.txt');
 
         key = substringBefore(substringAfter(key, '"blob-code blob-code-inner js-file-line">'), '</td>');
 
         if (!key) {
           key = await (
-            await this.client.get('https://raw.githubusercontent.com/theonlymo/keys/e4/key')
+            await this.client.get('http://zoro-keys.freedns.org/keys/e4/key.txt')
           ).data;
         }
 
