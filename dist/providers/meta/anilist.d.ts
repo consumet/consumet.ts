@@ -134,7 +134,7 @@ declare class Anilist extends AnimeParser {
             alternativeSpoiler: any;
         };
         image: any;
-        imageHash: string | undefined;
+        imageHash: string;
         description: any;
         gender: any;
         dateOfBirth: {

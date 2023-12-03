@@ -166,20 +166,15 @@ const substringBeforeLast = (str, toFind) => {
 };
 exports.substringBeforeLast = substringBeforeLast;
 const getHashFromImage = (url) => {
-    if (typeof url === "string") {
-        const image = new Image();
-        const canvas = document.createElement("canvas");
-        const context = canvas.getContext("2d");
-        image.src = url;
-        canvas.width = image.width;
-        canvas.height = image.height;
-        context.drawImage(image, 0, 0);
-        let data = context.getImageData(0, 0, image.width, image.height);
-        return blurhash.encode(data.data, data.width, data.height, 4, 3);
-    }
-    else {
-        return undefined;
-    }
+    const image = new Image();
+    const canvas = document.createElement("canvas");
+    const context = canvas.getContext("2d");
+    image.src = url;
+    canvas.width = image.width;
+    canvas.height = image.height;
+    context.drawImage(image, 0, 0);
+    let data = context.getImageData(0, 0, image.width, image.height);
+    return blurhash.encode(data.data, data.width, data.height, 4, 3);
 };
 exports.getHashFromImage = getHashFromImage;
 //# sourceMappingURL=utils.js.map

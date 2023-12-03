@@ -389,7 +389,7 @@ interface INews {
   /** thumbnail image URL of the news */
   thumbnail: string;
   /** thumbnail image blurhash code of the news */
-  thumbnailHash: string | null;
+  thumbnailHash: string;
   /** URL of the news */
   url: string;
 }

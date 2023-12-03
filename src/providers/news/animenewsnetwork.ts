@@ -11,9 +11,9 @@ class NewsFeed implements INewsFeed {
     public topics: Topics[],
     public preview: INewsFeed['preview'],
     public thumbnail: string,
-    public thumbnailHash: string | null,
+    public thumbnailHash: string,
     public url: string
-  ) {}
+  ) { }
 
   public async getInfo(): Promise<INewsInfo> {
     return await scrapNewsInfo(this.url).catch((err: Error) => {
@@ -35,9 +35,9 @@ async function scrapNewsInfo(url: string): Promise<INewsInfo> {
     ? `https://animenewsnetwork.com${thumbnailSlug}`
     : 'https://i.imgur.com/KkkVr1g.png';
 
-    const thumbnailHash = getHashFromImage(thumbnailSlug
-      ? `https://animenewsnetwork.com${thumbnailSlug}`
-      : 'https://i.imgur.com/KkkVr1g.png');
+  const thumbnailHash = getHashFromImage(thumbnailSlug
+    ? `https://animenewsnetwork.com${thumbnailSlug}`
+    : 'https://i.imgur.com/KkkVr1g.png');
 
   return {
     id: url.split('news/')[1],
