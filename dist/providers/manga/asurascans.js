@@ -46,7 +46,7 @@ class AsuraScans extends models_1.MangaParser {
             };
             try {
                 const data = await cloudscraper(options).then((response) => response);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const seriesTitleSelector = 'h1.entry-title';
                 const seriesArtistSelector = ".infotable tr:icontains('artist') td:last-child, .tsinfo .imptdt:icontains('artist') i, .fmed b:icontains('artist')+span, span:icontains('artist')";
                 const seriesAuthorSelector = ".infotable tr:icontains('author') td:last-child, .tsinfo .imptdt:icontains('author') i, .fmed b:icontains('author')+span, span:icontains('author')";
@@ -126,7 +126,7 @@ class AsuraScans extends models_1.MangaParser {
             };
             try {
                 const data = await cloudscraper(options).then((response) => response);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const pageSelector = 'div#readerarea img';
                 const pages = $(pageSelector)
                     .map((i, el) => ({
@@ -163,7 +163,7 @@ class AsuraScans extends models_1.MangaParser {
                     gzip: true,
                 };
                 const data = await cloudscraper(options).then((response) => response);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const searchMangaSelector = '.utao .uta .imgu, .listupd .bs .bsx, .listo .bs .bsx';
                 const results = $(searchMangaSelector)
                     .map((i, el) => {

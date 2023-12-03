@@ -24,7 +24,7 @@ class Goku extends models_1.MovieParser {
             };
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/search?keyword=${query.replace(/[\W_]+/g, '-')}&page=${page}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 searchResult.hasNextPage =
                     $('.page-link').length > 0 ? $('.page-link').last().attr('title') === 'Last' : false;
                 $('div.section-items > div.item').each((i, el) => {
@@ -77,7 +77,7 @@ class Goku extends models_1.MovieParser {
             }
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/${mediaId}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const mediaInfo = {
                     id: mediaId,
                     title: '',
@@ -106,7 +106,7 @@ class Goku extends models_1.MovieParser {
                 mediaInfo.duration = $("div.name:contains('Duration:')").siblings().text().split('\n').join('').trim();
                 if (mediaInfo.type === models_1.TvType.TVSERIES) {
                     const { data } = await this.client.get(`${this.baseUrl}/ajax/movie/seasons/${mediaInfo.id.split('-').pop()}`);
-                    const $$ = (0, cheerio_1.load)(data);
+                    const $$ = cheerio_1.load(data);
                     const seasonsIds = $$('.dropdown-menu > a')
                         .map((i, el) => {
                         const seasonsId = $(el).text().replace('Season', '').trim();
@@ -119,7 +119,7 @@ class Goku extends models_1.MovieParser {
                     mediaInfo.episodes = [];
                     for (const season of seasonsIds) {
                         const { data } = await this.client.get(`${this.baseUrl}/ajax/movie/season/episodes/${season.id}`);
-                        const $$$ = (0, cheerio_1.load)(data);
+                        const $$$ = cheerio_1.load(data);
                         $$$('.item')
                             .map((i, el) => {
                             var _a, _b, _c, _d, _e;
@@ -203,7 +203,7 @@ class Goku extends models_1.MovieParser {
             try {
                 const epsiodeServers = [];
                 const { data } = await this.client.get(`${this.baseUrl}/ajax/movie/episode/servers/${episodeId}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const servers = $('.dropdown-menu > a')
                     .map((i, ele) => {
                     var _a;
@@ -229,7 +229,7 @@ class Goku extends models_1.MovieParser {
         this.fetchRecentMovies = async () => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/home`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const movies = $('.section-last')
                     .first()
                     .find('.item')
@@ -259,7 +259,7 @@ class Goku extends models_1.MovieParser {
         this.fetchRecentTvShows = async () => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/home`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const tvShowes = $('.section-last')
                     .last()
                     .find('.item')
@@ -298,7 +298,7 @@ class Goku extends models_1.MovieParser {
         this.fetchTrendingMovies = async () => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/home`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const movies = $('#trending-movies')
                     .find('.item')
                     .map((i, ele) => {
@@ -327,7 +327,7 @@ class Goku extends models_1.MovieParser {
         this.fetchTrendingTvShows = async () => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/home`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const tvShowes = $('#trending-series')
                     .find('.item')
                     .map((i, ele) => {

@@ -25,7 +25,7 @@ class SmashyStream extends models_1.MovieParser {
                     url = `${this.baseUrl}/playere.php?tmdb=${tmdbId}&season=${season}&episode=${episode}`;
                 }
                 const { data } = await this.client.get(url);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 await Promise.all($('div#_default-servers a.server')
                     .map(async (i, el) => {
                     var _a;

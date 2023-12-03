@@ -17,7 +17,7 @@ class FlameScans extends models_1.MangaParser {
         this.search = async (query) => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/series/?title=${query.replace(/ /g, '%20')}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const searchMangaSelector = '.utao .uta .imgu, .listupd .bs .bsx, .listo .bs .bsx';
                 const results = $(searchMangaSelector)
                     .map((i, el) => {
@@ -44,7 +44,7 @@ class FlameScans extends models_1.MangaParser {
             };
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/manga/${mangaId}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 // base from https://github.com/tachiyomiorg/tachiyomi-extensions/blob/661311c13b3b550e3fa906c1130b77a037ef7a11/multisrc/src/main/java/eu/kanade/tachiyomi/multisrc/mangathemesia/MangaThemesia.kt#L233
                 const seriesTitleSelector = 'h1.entry-title';
                 const seriesArtistSelector = ".infotable tr:icontains('artist') td:last-child, .tsinfo .imptdt:icontains('artist') i, .fmed b:icontains('artist')+span, span:icontains('artist')";
@@ -111,7 +111,7 @@ class FlameScans extends models_1.MangaParser {
         this.fetchChapterPages = async (chapterId) => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/${chapterId}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const pageSelector = 'div#readerarea img, #readerarea div.figure_container div.composed_figure';
                 const pages = $(pageSelector)
                     .map((i, el) => ({

@@ -26,7 +26,7 @@ class MangaDex extends models_1.MangaParser {
                     themes: data.data.attributes.tags
                         .filter((tag) => tag.attributes.group === 'theme')
                         .map((tag) => tag.attributes.name.en),
-                    status: (0, utils_1.capitalizeFirstLetter)(data.data.attributes.status),
+                    status: utils_1.capitalizeFirstLetter(data.data.attributes.status),
                     releaseDate: data.data.attributes.year,
                     chapters: [],
                 };
@@ -61,7 +61,7 @@ class MangaDex extends models_1.MangaParser {
                 for (const id of res.data.chapter.data) {
                     pages.push({
                         img: `${res.data.baseUrl}/data/${res.data.chapter.hash}/${id}`,
-                        page: parseInt((0, utils_1.substringBefore)(id, '-').replace(/[^0-9.]/g, '')),
+                        page: parseInt(utils_1.substringBefore(id, '-').replace(/[^0-9.]/g, '')),
                     });
                 }
                 return pages;
@@ -83,7 +83,7 @@ class MangaDex extends models_1.MangaParser {
             if (limit * (page - 1) >= 10000)
                 throw new Error('not enough results');
             try {
-                const res = await this.client.get(`${this.apiUrl}/manga?limit=${limit}&title=${(0, ascii_url_encoder_1.encode)(query)}&limit=${limit}&offset=${limit * (page - 1)}&order[relevance]=desc`);
+                const res = await this.client.get(`${this.apiUrl}/manga?limit=${limit}&title=${ascii_url_encoder_1.encode(query)}&limit=${limit}&offset=${limit * (page - 1)}&order[relevance]=desc`);
                 if (res.data.result == 'ok') {
                     const results = {
                         currentPage: page,

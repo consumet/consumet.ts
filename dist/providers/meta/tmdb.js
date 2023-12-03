@@ -235,8 +235,8 @@ class TMDB extends models_1.MovieParser {
                     secondTitle = b.title;
                 else
                     secondTitle = (_b = b === null || b === void 0 ? void 0 : b.title) !== null && _b !== void 0 ? _b : '';
-                const firstRating = (0, utils_1.compareTwoStrings)(targetTitle, firstTitle.toLowerCase());
-                const secondRating = (0, utils_1.compareTwoStrings)(targetTitle, secondTitle.toLowerCase());
+                const firstRating = utils_1.compareTwoStrings(targetTitle, firstTitle.toLowerCase());
+                const secondRating = utils_1.compareTwoStrings(targetTitle, secondTitle.toLowerCase());
                 // Sort in descending order
                 return secondRating - firstRating;
             });

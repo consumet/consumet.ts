@@ -6,8 +6,9 @@ declare class NewsFeed implements INewsFeed {
     topics: Topics[];
     preview: INewsFeed['preview'];
     thumbnail: string;
+    thumbnailHash: string | null;
     url: string;
-    constructor(title: string, id: string, uploadedAt: string, topics: Topics[], preview: INewsFeed['preview'], thumbnail: string, url: string);
+    constructor(title: string, id: string, uploadedAt: string, topics: Topics[], preview: INewsFeed['preview'], thumbnail: string, thumbnailHash: string | null, url: string);
     getInfo(): Promise<INewsInfo>;
 }
 declare class AnimeNewsNetwork extends NewsParser {
@@ -18,7 +19,7 @@ declare class AnimeNewsNetwork extends NewsParser {
     /**
      * @param topic Topic for fetching the feeds
      */
-    fetchNewsFeeds: (topic?: Topics) => Promise<NewsFeed[]>;
+    fetchNewsFeeds: (topic?: Topics | undefined) => Promise<NewsFeed[]>;
     /**
      * @param id ID of the news from Anime News Network
      * @example

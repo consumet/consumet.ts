@@ -1,7 +1,27 @@
 "use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.substringBeforeLast = exports.substringAfterLast = exports.substringBefore = exports.substringAfter = exports.compareTwoStrings = exports.convertDuration = exports.isJson = exports.getDays = exports.capitalizeFirstLetter = exports.range = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.days = exports.USER_AGENT = void 0;
+exports.getHashFromImage = exports.substringBeforeLast = exports.substringAfterLast = exports.substringBefore = exports.substringAfter = exports.compareTwoStrings = exports.convertDuration = exports.isJson = exports.getDays = exports.capitalizeFirstLetter = exports.range = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.days = exports.USER_AGENT = void 0;
 const cheerio_1 = require("cheerio");
+const blurhash = __importStar(require("blurhash"));
 exports.USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36';
 exports.days = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
 const splitAuthor = (authors) => {
@@ -39,7 +59,7 @@ exports.formatTitle = formatTitle;
 const genElement = (s, e) => {
     if (s == '')
         return;
-    const $ = (0, cheerio_1.load)(e);
+    const $ = cheerio_1.load(e);
     let i = 0;
     let str = '';
     let el = $();
@@ -69,8 +89,8 @@ exports.range = range;
 const capitalizeFirstLetter = (s) => (s === null || s === void 0 ? void 0 : s.charAt(0).toUpperCase()) + s.slice(1);
 exports.capitalizeFirstLetter = capitalizeFirstLetter;
 const getDays = (day1, day2) => {
-    const day1Index = exports.days.indexOf((0, exports.capitalizeFirstLetter)(day1)) - 1;
-    const day2Index = exports.days.indexOf((0, exports.capitalizeFirstLetter)(day2)) - 1;
+    const day1Index = exports.days.indexOf(exports.capitalizeFirstLetter(day1)) - 1;
+    const day2Index = exports.days.indexOf(exports.capitalizeFirstLetter(day2)) - 1;
     const now = new Date();
     const day1Date = new Date();
     const day2Date = new Date();
@@ -145,4 +165,21 @@ const substringBeforeLast = (str, toFind) => {
     return index == -1 ? '' : str.substring(0, index);
 };
 exports.substringBeforeLast = substringBeforeLast;
+const getHashFromImage = (url) => {
+    if (typeof url === "string") {
+        const image = new Image();
+        const canvas = document.createElement("canvas");
+        const context = canvas.getContext("2d");
+        image.src = url;
+        canvas.width = image.width;
+        canvas.height = image.height;
+        context.drawImage(image, 0, 0);
+        let data = context.getImageData(0, 0, image.width, image.height);
+        return blurhash.encode(data.data, data.width, data.height, 4, 3);
+    }
+    else {
+        return undefined;
+    }
+};
+exports.getHashFromImage = getHashFromImage;
 //# sourceMappingURL=utils.js.map

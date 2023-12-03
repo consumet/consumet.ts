@@ -7,7 +7,7 @@ declare class SmashyStream extends MovieParser {
     supportedTypes: Set<TvType>;
     search: () => Promise<ISearch<IMovieResult>>;
     fetchMediaInfo: () => Promise<IMovieInfo>;
-    fetchEpisodeServers: (tmdbId: string, season?: number, episode?: number) => Promise<IEpisodeServer[]>;
-    fetchEpisodeSources: (tmdbId: string, season?: number, episode?: number, server?: string) => Promise<ISource>;
+    fetchEpisodeServers: (tmdbId: string, season?: number | undefined, episode?: number | undefined) => Promise<IEpisodeServer[]>;
+    fetchEpisodeSources: (tmdbId: string, season?: number | undefined, episode?: number | undefined, server?: string | undefined) => Promise<ISource>;
 }
 export default SmashyStream;

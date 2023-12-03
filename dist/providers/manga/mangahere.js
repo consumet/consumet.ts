@@ -20,7 +20,7 @@ class MangaHere extends models_1.MangaParser {
                         cookie: 'isAdult=1',
                     },
                 });
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 mangaInfo.title = $('span.detail-info-right-title-font').text();
                 mangaInfo.description = $('div.detail-info-right > p.fullcontent').text();
                 mangaInfo.headers = { Referer: this.baseUrl };
@@ -69,7 +69,7 @@ class MangaHere extends models_1.MangaParser {
                         cookie: 'isAdult=1',
                     },
                 });
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const copyrightHandle = $('p.detail-block-content').text().match('Dear user') ||
                     $('p.detail-block-content').text().match('blocked');
                 if (copyrightHandle) {
@@ -140,7 +140,7 @@ class MangaHere extends models_1.MangaParser {
             };
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/search?title=${query}&page=${page}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 searchRes.hasNextPage = $('div.pager-list-left > a.active').next().text() !== '>';
                 searchRes.results = $('div.container > div > div > ul > li')
                     .map((i, el) => {

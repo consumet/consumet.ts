@@ -31,7 +31,7 @@ class RapidCloud extends models_1.VideoExtractor {
                 res = await this.client.get(`https://${videoUrl.hostname}/embed-2/ajax/e-1/getSources?id=${id}`, options);
                 let { data: { sources, tracks, intro, encrypted }, } = res;
                 let decryptKey = await (await this.client.get('https://raw.githubusercontent.com/theonlymo/keys/e1/key')).data;
-                decryptKey = (0, utils_1.substringBefore)((0, utils_1.substringAfter)(decryptKey, '"blob-code blob-code-inner js-file-line">'), '</td>');
+                decryptKey = utils_1.substringBefore(utils_1.substringAfter(decryptKey, '"blob-code blob-code-inner js-file-line">'), '</td>');
                 if (!decryptKey) {
                     decryptKey = await (await this.client.get('https://raw.githubusercontent.com/theonlymo/keys/e1/key')).data;
                 }
@@ -125,7 +125,7 @@ class RapidCloud extends models_1.VideoExtractor {
             const v = data === null || data === void 0 ? void 0 : data.substring(data.indexOf('/releases/'), data.lastIndexOf('/recaptcha')).split('/releases/')[1];
             //TODO: NEED to fix the co (domain) parameter to work with every domain
             const anchor = `https://www.google.com/recaptcha/api2/anchor?ar=1&hl=en&size=invisible&cb=kr42069kr&k=${key}&co=aHR0cHM6Ly9yYXBpZC1jbG91ZC5ydTo0NDM.&v=${v}`;
-            const c = (0, cheerio_1.load)((await this.client.get(anchor)).data)('#recaptcha-token').attr('value');
+            const c = cheerio_1.load((await this.client.get(anchor)).data)('#recaptcha-token').attr('value');
             // currently its not returning proper response. not sure why
             const res = await this.client.post(`https://www.google.com/recaptcha/api2/reload?k=${key}`, {
                 v: v,

@@ -31,9 +31,9 @@ class VidCloud extends models_1.VideoExtractor {
                 let res = undefined;
                 let sources = undefined;
                 res = await this.client.get(`${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`, options);
-                if (!(0, utils_1.isJson)(res.data.sources)) {
+                if (!utils_1.isJson(res.data.sources)) {
                     let { data: key } = await this.client.get('https://raw.githubusercontent.com/theonlymo/keys/e4/key');
-                    key = (0, utils_1.substringBefore)((0, utils_1.substringAfter)(key, '"blob-code blob-code-inner js-file-line">'), '</td>');
+                    key = utils_1.substringBefore(utils_1.substringAfter(key, '"blob-code blob-code-inner js-file-line">'), '</td>');
                     if (!key) {
                         key = await (await this.client.get('https://raw.githubusercontent.com/theonlymo/keys/e4/key')).data;
                     }
@@ -52,7 +52,7 @@ class VidCloud extends models_1.VideoExtractor {
                     key = extractedKey;
                     res.data.sources = sourcesArray.join('');
                     const decryptedVal = crypto_js_1.default.AES.decrypt(res.data.sources, key).toString(crypto_js_1.default.enc.Utf8);
-                    sources = (0, utils_1.isJson)(decryptedVal) ? JSON.parse(decryptedVal) : res.data.sources;
+                    sources = utils_1.isJson(decryptedVal) ? JSON.parse(decryptedVal) : res.data.sources;
                 }
                 this.sources = sources.map((s) => ({
                     url: s.file,
