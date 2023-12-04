@@ -1,4 +1,5 @@
 import { load } from 'cheerio';
+import * as blurhash from 'blurhash';
 import { ProxyConfig } from '../models';
 import axios, { AxiosRequestConfig } from 'axios';
 
@@ -150,4 +151,16 @@ export const substringAfterLast = (str: string, toFind: string) => {
 export const substringBeforeLast = (str: string, toFind: string) => {
   const index = str.lastIndexOf(toFind);
   return index == -1 ? '' : str.substring(0, index);
+};
+
+export const getHashFromImage = (url: string) => {
+  const image = new Image();
+  const canvas = document.createElement('canvas');
+  const context = canvas.getContext('2d');
+  image.src = url;
+  canvas.width = image.width;
+  canvas.height = image.height;
+  context!.drawImage(image, 0, 0);
+  const data = context!.getImageData(0, 0, image.width, image.height);
+  return blurhash.encode(data.data, data.width, data.height, 4, 3);
 };

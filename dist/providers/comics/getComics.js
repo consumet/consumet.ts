@@ -14,7 +14,7 @@ class getComics extends models_1.ComicParser {
         this.search = async (query, page = 1) => {
             query = encodeURIComponent(query);
             const { data } = await this.client.get(`${this.baseUrl}/page/${page ? page : 1}/?s=${query}`);
-            const $ = (0, cheerio_1.load)(data);
+            const $ = cheerio_1.load(data);
             const lastPage = $('section section nav:eq(1) ul li:last').text();
             const res = {
                 containers: [],
@@ -22,7 +22,7 @@ class getComics extends models_1.ComicParser {
             };
             $('article').each((i, el) => {
                 const container = new models_1.GetComicsComicsObject();
-                const vals = (0, utils_1.parsePostInfo)($(el).children('div.post-info').text());
+                const vals = utils_1.parsePostInfo($(el).children('div.post-info').text());
                 container.image =
                     $(el).children('div.post-header-image').children('a').children('img').attr('src') || '';
                 container.title = $(el).children('div.post-info').children('h1').text();
@@ -37,7 +37,7 @@ class getComics extends models_1.ComicParser {
             for (const container of res.containers) {
                 if (container.ufile != '') {
                     const { data } = await this.client.get(container.ufile);
-                    const $ = (0, cheerio_1.load)(data);
+                    const $ = cheerio_1.load(data);
                     container.download = $('.aio-red[title="Download Now"]').attr('href') || '';
                     container.readOnline = $('.aio-red[title="Read Online"]').attr('href') || '';
                     container.ufile = $('.aio-blue').attr('href') || '';

@@ -14,7 +14,7 @@ class Mangapark extends models_1.MangaParser {
             const url = `${this.baseUrl}/manga/${mangaId}`;
             try {
                 const { data } = await this.client.get(url);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 mangaInfo.title = $('div.pb-1.mb-2.line-b-f.hd h2 a').text();
                 mangaInfo.image = $('img.w-100').attr('src');
                 mangaInfo.description = $('.limit-html.summary').text();
@@ -66,7 +66,7 @@ class Mangapark extends models_1.MangaParser {
             const url = `${this.baseUrl}/search?q=${query}&page=${page}`;
             try {
                 const { data } = await this.client.get(url);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const results = $('.item')
                     .get()
                     .map(item => {

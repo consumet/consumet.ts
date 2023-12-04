@@ -18,7 +18,7 @@ class Ummangurau extends models_1.MovieParser {
             };
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 searchResult.hasNextPage =
                     $("nav[area-label='Page navigation']").html() === null
                         ? false
@@ -51,7 +51,7 @@ class Ummangurau extends models_1.MovieParser {
             };
             try {
                 const { data } = await this.client.get(mediaId);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 movieInfo.title = `${$('.heading-name a').text()}`;
                 movieInfo.image = `${$('img.film-poster-img').attr('src')}`;
                 movieInfo.description = `${$('.description').text()}`;

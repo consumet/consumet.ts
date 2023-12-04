@@ -24,7 +24,7 @@ class FlixHQ extends models_1.MovieParser {
             };
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const navSelector = 'div.pre-pagination:nth-child(3) > nav:nth-child(1) > ul:nth-child(1)';
                 searchResult.hasNextPage =
                     $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
@@ -65,7 +65,7 @@ class FlixHQ extends models_1.MovieParser {
             };
             try {
                 const { data } = await this.client.get(mediaId);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const recommendationsArray = [];
                 $('div.movie_information > div.container > div.m_i-related > div.film-related > section.block_area > div.block_area-content > div.film_list-wrap > div.flw-item').each((i, el) => {
                     var _a, _b, _c;
@@ -104,7 +104,7 @@ class FlixHQ extends models_1.MovieParser {
                 const ajaxReqUrl = (id, type, isSeasons = false) => `${this.baseUrl}/ajax/${type === 'movie' ? type : `v2/${type}`}/${isSeasons ? 'seasons' : 'episodes'}/${id}`;
                 if (movieInfo.type === models_1.TvType.TVSERIES) {
                     const { data } = await this.client.get(ajaxReqUrl(uid, 'tv', true));
-                    const $$ = (0, cheerio_1.load)(data);
+                    const $$ = cheerio_1.load(data);
                     const seasonsIds = $$('.dropdown-menu > a')
                         .map((i, el) => $(el).attr('data-id'))
                         .get();
@@ -112,7 +112,7 @@ class FlixHQ extends models_1.MovieParser {
                     let season = 1;
                     for (const id of seasonsIds) {
                         const { data } = await this.client.get(ajaxReqUrl(id, 'season'));
-                        const $$$ = (0, cheerio_1.load)(data);
+                        const $$$ = cheerio_1.load(data);
                         $$$('.nav > li')
                             .map((i, el) => {
                             var _a;
@@ -196,7 +196,7 @@ class FlixHQ extends models_1.MovieParser {
                 episodeId = `${this.baseUrl}/ajax/movie/episodes/${episodeId}`;
             try {
                 const { data } = await this.client.get(episodeId);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const servers = $('.nav > li')
                     .map((i, el) => {
                     const server = {
@@ -219,7 +219,7 @@ class FlixHQ extends models_1.MovieParser {
         this.fetchRecentMovies = async () => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/home`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const movies = $('section.block_area:contains("Latest Movies") > div:nth-child(2) > div:nth-child(1) > div.flw-item')
                     .map((i, el) => {
                     var _a;
@@ -247,7 +247,7 @@ class FlixHQ extends models_1.MovieParser {
         this.fetchRecentTvShows = async () => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/home`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const tvshows = $('section.block_area:contains("Latest TV Shows") > div:nth-child(2) > div:nth-child(1) > div.flw-item')
                     .map((i, el) => {
                     var _a;
@@ -274,7 +274,7 @@ class FlixHQ extends models_1.MovieParser {
         this.fetchTrendingMovies = async () => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/home`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const movies = $('div#trending-movies div.film_list-wrap div.flw-item')
                     .map((i, el) => {
                     var _a;
@@ -302,7 +302,7 @@ class FlixHQ extends models_1.MovieParser {
         this.fetchTrendingTvShows = async () => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/home`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const tvshows = $('div#trending-tv div.film_list-wrap div.flw-item')
                     .map((i, el) => {
                     var _a;

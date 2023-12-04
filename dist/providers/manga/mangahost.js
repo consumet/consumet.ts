@@ -16,7 +16,7 @@ class MangaHost extends models_1.MangaParser {
             };
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/manga/${mangaId}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 mangaInfo.title = $('article.ejeCg > h1.title').text();
                 mangaInfo.altTitles = $('article.ejeCg > h3.subtitle').text();
                 mangaInfo.description = $('div.text > div.paragraph > p').text().replace(/\n/g, '').trim();
@@ -63,7 +63,7 @@ class MangaHost extends models_1.MangaParser {
             try {
                 const url = `${this.baseUrl}/manga/${mangaId}/${chapterId}`;
                 const { data } = await this.client.get(url);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const pages = $('section#imageWrapper > div > div.read-slideshow > a > img')
                     .map((i, el) => ({
                     img: $(el).attr('src'),
@@ -85,7 +85,7 @@ class MangaHost extends models_1.MangaParser {
         this.search = async (query) => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/find/${query.replace(/ /g, '+')}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const results = $('body > div.w-container > main > table > tbody > tr')
                     .map((i, row) => {
                     var _a;

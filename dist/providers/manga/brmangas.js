@@ -16,7 +16,7 @@ class BRMangas extends models_1.MangaParser {
             };
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/manga/${mangaId}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const title = $('body > div.scroller-inner > div.wrapper > main > section > div > h1.titulo').text();
                 const descriptionAndAltTitles = $('body > div.scroller-inner > div.wrapper > main > div > div > div.col > div.serie-texto > div > p:nth-child(3)')
                     .text()
@@ -60,7 +60,7 @@ class BRMangas extends models_1.MangaParser {
             try {
                 const url = `${this.baseUrl}/ler/${chapterId}`;
                 const { data } = await this.client.get(url);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const script = $('script');
                 const pageURLs = JSON.parse(script
                     .filter((i, el) => $(el).text().includes('imageArray'))
@@ -88,7 +88,7 @@ class BRMangas extends models_1.MangaParser {
         this.search = async (query) => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/?s=${query.replace(/ /g, '+')}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const results = $('body > div.scroller-inner > div.wrapper > main > div.container > div.listagem > div.col')
                     .map((i, row) => {
                     var _a;

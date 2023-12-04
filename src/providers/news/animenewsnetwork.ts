@@ -1,5 +1,6 @@
 import { load } from 'cheerio';
 import axios from 'axios';
+import { getHashFromImage } from '../../utils/utils';
 import { NewsParser, INewsFeed, Topics, INewsInfo } from '../../models';
 
 class NewsFeed implements INewsFeed {
@@ -10,6 +11,7 @@ class NewsFeed implements INewsFeed {
     public topics: Topics[],
     public preview: INewsFeed['preview'],
     public thumbnail: string,
+    public thumbnailHash: string,
     public url: string
   ) {}
 
@@ -33,6 +35,10 @@ async function scrapNewsInfo(url: string): Promise<INewsInfo> {
     ? `https://animenewsnetwork.com${thumbnailSlug}`
     : 'https://i.imgur.com/KkkVr1g.png';
 
+  const thumbnailHash = getHashFromImage(
+    thumbnailSlug ? `https://animenewsnetwork.com${thumbnailSlug}` : 'https://i.imgur.com/KkkVr1g.png'
+  );
+
   return {
     id: url.split('news/')[1],
     title,
@@ -40,6 +46,7 @@ async function scrapNewsInfo(url: string): Promise<INewsInfo> {
     intro,
     description,
     thumbnail,
+    thumbnailHash,
     url,
   };
 }
@@ -64,6 +71,9 @@ class AnimeNewsNetwork extends NewsParser {
         $('.herald.box.news').each((i, el) => {
           const thumbnailSlug = $(el).find('.thumbnail').attr('data-src');
           const thumbnail = thumbnailSlug ? `${this.baseUrl}${thumbnailSlug}` : this.logo;
+          const thumbnailHash = getHashFromImage(
+            thumbnailSlug ? `${this.baseUrl}${thumbnailSlug}` : this.logo
+          );
           const title = $(el).find('h3').text().trim();
           const slug = $(el).find('h3 > a').attr('href') || '';
           const url = `${this.baseUrl}${slug}`;
@@ -78,7 +88,18 @@ class AnimeNewsNetwork extends NewsParser {
             intro: El.find('.intro').text().trim(),
             full: El.find('.full').text().replace('―', '').trim(),
           };
-          feeds.push(new NewsFeed(title, slug.replace('/news/', ''), time, topics, preview, thumbnail, url));
+          feeds.push(
+            new NewsFeed(
+              title,
+              slug.replace('/news/', ''),
+              time,
+              topics,
+              preview,
+              thumbnail,
+              thumbnailHash,
+              url
+            )
+          );
         });
         return feeds;
       })

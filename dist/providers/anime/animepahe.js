@@ -44,7 +44,7 @@ class AnimePahe extends models_1.AnimeParser {
             };
             try {
                 const res = await this.client.get(`${this.baseUrl}/anime/${id.split('/')[1]}?anime_id=${id.split('/')[0]}`);
-                const $ = (0, cheerio_1.load)(res.data);
+                const $ = cheerio_1.load(res.data);
                 animeInfo.title = $('div.title-wrapper > h1 > span').first().text();
                 animeInfo.image = $('div.anime-poster a').attr('href');
                 animeInfo.cover = `https:${$('div.anime-cover').attr('data-src')}`;
@@ -118,7 +118,7 @@ class AnimePahe extends models_1.AnimeParser {
                         Referer: `${this.baseUrl}`,
                     },
                 });
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const links = $('div#resolutionMenu > button').map((i, el) => ({
                     url: $(el).attr('data-src'),
                     quality: $(el).text(),

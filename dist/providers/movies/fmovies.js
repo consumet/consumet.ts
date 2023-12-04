@@ -30,7 +30,7 @@ class Fmovies extends models_1.MovieParser {
                 query = query.replace(/[\W_]+/g, '+');
                 const vrf = await this.ev(query);
                 const { data } = await this.client.get(`${this.baseUrl}/search?keyword=${query}&vrf=${vrf}&page=${page}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 searchResult.hasNextPage = (_a = $('.pagination')) === null || _a === void 0 ? void 0 : _a.find('.active').next().hasClass('disabled');
                 $('.filmlist > div.item').each((i, el) => {
                     const releaseDate = $(el).find('.meta').text();
@@ -66,7 +66,7 @@ class Fmovies extends models_1.MovieParser {
             };
             try {
                 const { data } = await this.client.get(mediaId);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const uid = $('#watch').attr('data-id');
                 // TODO
                 // const recommendationsArray: IMovieResult[] = [];
@@ -86,7 +86,7 @@ class Fmovies extends models_1.MovieParser {
                 //     });
                 // });
                 const container = $('.watch-extra');
-                movieInfo.cover = (0, utils_1.substringBeforeLast)((0, utils_1.substringAfter)((_b = (_a = $('#watch').find('.play')) === null || _a === void 0 ? void 0 : _a.attr('style')) !== null && _b !== void 0 ? _b : '', 'url('), ')');
+                movieInfo.cover = utils_1.substringBeforeLast(utils_1.substringAfter((_b = (_a = $('#watch').find('.play')) === null || _a === void 0 ? void 0 : _a.attr('style')) !== null && _b !== void 0 ? _b : '', 'url('), ')');
                 movieInfo.title = container.find(`h1[itemprop="name"]`).text();
                 movieInfo.image = container.find(`img[itemprop="image"]`).attr('src');
                 movieInfo.description = (_d = (_c = container.find('div[itemprop="description"]')) === null || _c === void 0 ? void 0 : _c.text()) === null || _d === void 0 ? void 0 : _d.trim();
@@ -109,7 +109,7 @@ class Fmovies extends models_1.MovieParser {
                 // movieInfo.rating = parseFloat($('span.item:nth-child(2)').text());
                 // movieInfo.recommendations = recommendationsArray as any;
                 const ajaxData = (await this.client.get(await this.ajaxReqUrl(uid))).data;
-                const $$ = (0, cheerio_1.load)(ajaxData.html);
+                const $$ = cheerio_1.load(ajaxData.html);
                 movieInfo.episodes = [];
                 $$('.episode').each((i, el) => {
                     var _a, _b, _c, _d, _e;
@@ -176,11 +176,11 @@ class Fmovies extends models_1.MovieParser {
             }
             try {
                 const { data } = await this.client.get(mediaId);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const uid = $('#watch').attr('data-id');
                 const epsiodeServers = [];
                 const ajaxData = (await this.client.get(await this.ajaxReqUrl(uid))).data;
-                const $$ = (0, cheerio_1.load)(ajaxData.html);
+                const $$ = cheerio_1.load(ajaxData.html);
                 const servers = {};
                 $$('.server').each((i, el) => {
                     const serverId = $(el).attr('data-id');

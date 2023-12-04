@@ -75,40 +75,42 @@ class Anify extends AnimeParser {
 
     if (data.currentPage !== res.currentPage) res.hasNextPage = true;
 
-    res.results = data?.results.map((anime: {
-      id: string;
-      title: {
-        english: string;
-        romaji: string;
-        native: string;
-      };
-      coverImage: string | null;
-      bannerImage: string | null;
-      year: number;
-      description: string | null;
-      genres: string[];
-      rating: {
-        anilist: number;
-      };
-      status: string;
-      mappings: {
-        [k: string]: string;
-      };
-      type: string;
-    }) => ({
-      id: anime.id,
-      anilistId: anime.id,
-      title: anime.title.english ?? anime.title.romaji ?? anime.title.native,
-      image: anime.coverImage,
-      cover: anime.bannerImage,
-      releaseDate: anime.year,
-      description: anime.description,
-      genres: anime.genres,
-      rating: anime.rating.anilist,
-      status: anime.status as MediaStatus,
-      mappings: anime.mappings,
-      type: anime.type as MediaFormat,
-    }));
+    res.results = data?.results.map(
+      (anime: {
+        id: string;
+        title: {
+          english: string;
+          romaji: string;
+          native: string;
+        };
+        coverImage: string | null;
+        bannerImage: string | null;
+        year: number;
+        description: string | null;
+        genres: string[];
+        rating: {
+          anilist: number;
+        };
+        status: string;
+        mappings: {
+          [k: string]: string;
+        };
+        type: string;
+      }) => ({
+        id: anime.id,
+        anilistId: anime.id,
+        title: anime.title.english ?? anime.title.romaji ?? anime.title.native,
+        image: anime.coverImage,
+        cover: anime.bannerImage,
+        releaseDate: anime.year,
+        description: anime.description,
+        genres: anime.genres,
+        rating: anime.rating.anilist,
+        status: anime.status as MediaStatus,
+        mappings: anime.mappings,
+        type: anime.type as MediaFormat,
+      })
+    );
     return res;
   };
 
@@ -237,7 +239,7 @@ class Anify extends AnimeParser {
     );
 
     return animeInfo;
-  }
+  };
 
   override fetchEpisodeSources = async (
     episodeId: string,

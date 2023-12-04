@@ -16,7 +16,7 @@ class MangaReader extends models_1.MangaParser {
         this.search = async (query) => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/search?keyword=${query}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const results = $('div.manga_list-sbs div.mls-wrap div.item')
                     .map((i, el) => {
                     var _a;
@@ -47,7 +47,7 @@ class MangaReader extends models_1.MangaParser {
             };
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/${mangaId}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const container = $('div.container');
                 mangaInfo.title = container.find('div.anisc-detail h2.manga-name').text().trim();
                 mangaInfo.image = container.find('img.manga-poster-img').attr('src');
@@ -76,14 +76,14 @@ class MangaReader extends models_1.MangaParser {
         this.fetchChapterPages = async (chapterId) => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/read/${chapterId}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const readingId = $('div#wrapper').attr('data-reading-id');
                 if (!readingId) {
                     throw new Error('Unable to find pages');
                 }
                 const ajaxURL = `https://mangareader.to/ajax/image/list/chap/${readingId}?mode=vertical&quality=high`;
                 const { data: pagesData } = await this.client.get(ajaxURL);
-                const $PagesHTML = (0, cheerio_1.load)(pagesData.html);
+                const $PagesHTML = cheerio_1.load(pagesData.html);
                 const pagesSelector = $PagesHTML('div#main-wrapper div.container-reader-chapter div.iv-card');
                 const pages = pagesSelector
                     .map((i, el) => ({

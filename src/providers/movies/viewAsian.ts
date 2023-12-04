@@ -142,8 +142,7 @@ class ViewAsian extends MovieParser {
 
     // return episodeId;
     try {
-      if (!episodeId.startsWith(this.baseUrl))
-        episodeId = `${this.baseUrl}/${episodeId}`;
+      if (!episodeId.startsWith(this.baseUrl)) episodeId = `${this.baseUrl}/${episodeId}`;
 
       const { data } = await this.client.get(episodeId);
 

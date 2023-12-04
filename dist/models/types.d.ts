@@ -19,7 +19,9 @@ export interface IAnimeResult {
     title: string | ITitle;
     url?: string;
     image?: string;
+    imageHash?: string;
     cover?: string;
+    coverHash?: string;
     status?: MediaStatus;
     rating?: number;
     type?: MediaFormat;
@@ -40,6 +42,7 @@ export interface Trailer {
     id: string;
     site?: string;
     thumbnail?: string;
+    thumbnailHash?: string | null;
 }
 export interface FuzzyDate {
     year?: number;
@@ -97,6 +100,7 @@ export interface IAnimeEpisodeV2 {
         season_number: number;
         title: string;
         image: string;
+        imageHash: string;
         description: string;
         releaseDate: string;
         isHD: boolean;
@@ -114,6 +118,7 @@ export interface IAnimeEpisode {
     isFiller?: boolean;
     url?: string;
     image?: string;
+    imageHash?: string;
     releaseDate?: string;
     [x: string]: unknown;
 }
@@ -350,6 +355,8 @@ interface INews {
     uploadedAt: string;
     /** thumbnail image URL of the news */
     thumbnail: string;
+    /** thumbnail image blurhash code of the news */
+    thumbnailHash: string;
     /** URL of the news */
     url: string;
 }

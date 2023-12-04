@@ -39,7 +39,7 @@ declare class Anilist extends AnimeParser {
      * @param status Status (optional) (options: `RELEASING`, `FINISHED`, `NOT_YET_RELEASED`, `CANCELLED`, `HIATUS`)
      * @param season Season (optional) (options: `WINTER`, `SPRING`, `SUMMER`, `FALL`)
      */
-    advancedSearch: (query?: string, type?: string, page?: number, perPage?: number, format?: string, sort?: string[], genres?: Genres[] | string[], id?: string | number, year?: number, status?: string, season?: string) => Promise<ISearch<IAnimeResult>>;
+    advancedSearch: (query?: string | undefined, type?: string, page?: number, perPage?: number, format?: string | undefined, sort?: string[] | undefined, genres?: string[] | Genres[] | undefined, id?: string | number | undefined, year?: number | undefined, status?: string | undefined, season?: string | undefined) => Promise<ISearch<IAnimeResult>>;
     /**
      *
      * @param id Anime id
@@ -134,6 +134,7 @@ declare class Anilist extends AnimeParser {
             alternativeSpoiler: any;
         };
         image: any;
+        imageHash: string;
         description: any;
         gender: any;
         dateOfBirth: {
@@ -168,7 +169,7 @@ declare class Anilist extends AnimeParser {
      * Anilist Manga Class
      */
     static Manga: {
-        new (provider?: MangaParser): {
+        new (provider?: MangaParser | undefined): {
             provider: MangaParser;
             /**
              *

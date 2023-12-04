@@ -41,9 +41,7 @@ class VidCloud extends VideoExtractor {
         key = substringBefore(substringAfter(key, '"blob-code blob-code-inner js-file-line">'), '</td>');
 
         if (!key) {
-          key = await (
-            await this.client.get('https://raw.githubusercontent.com/theonlymo/keys/e4/key')
-          ).data;
+          key = await (await this.client.get('https://raw.githubusercontent.com/theonlymo/keys/e4/key')).data;
         }
 
         const sourcesArray = res.data.sources.split('');

@@ -19,7 +19,7 @@ class ViewAsian extends models_1.MovieParser {
             };
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/movie/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const navSelector = 'div#pagination > nav:nth-child(1) > ul:nth-child(1)';
                 searchResult.hasNextPage =
                     $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
@@ -56,7 +56,7 @@ class ViewAsian extends models_1.MovieParser {
             };
             try {
                 const { data } = await this.client.get(mediaId);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 mediaInfo.id = realMediaId;
                 mediaInfo.title = $('.detail-mod h3').text();
                 mediaInfo.banner = $('.detail-mod > dm-thumb > img').attr('src');
@@ -118,7 +118,7 @@ class ViewAsian extends models_1.MovieParser {
                 if (!episodeId.startsWith(this.baseUrl))
                     episodeId = `${this.baseUrl}/${episodeId}`;
                 const { data } = await this.client.get(episodeId);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 let serverUrl = '';
                 switch (server) {
                     // asianload is the same as the standard server

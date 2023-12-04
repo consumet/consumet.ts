@@ -16,7 +16,7 @@ class MangaPill extends models_1.MangaParser {
         this.search = async (query) => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/search?q=${encodeURIComponent(query)}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const results = $('div.container div.my-3.justify-end > div')
                     .map((i, el) => {
                     var _a;
@@ -43,7 +43,7 @@ class MangaPill extends models_1.MangaParser {
             };
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/manga/${mangaId}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 mangaInfo.title = $('div.container div.my-3 div.flex-col div.mb-3 h1').text().trim();
                 mangaInfo.description = $('div.container div.my-3  div.flex-col p.text--secondary')
                     .text()
@@ -77,7 +77,7 @@ class MangaPill extends models_1.MangaParser {
         this.fetchChapterPages = async (chapterId) => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/chapters/${chapterId}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const chapterSelector = $('chapter-page');
                 const pages = chapterSelector
                     .map((i, el) => ({

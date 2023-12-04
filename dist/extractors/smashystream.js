@@ -18,7 +18,7 @@ class SmashyStream extends models_1.VideoExtractor {
             try {
                 const result = [];
                 const { data } = await this.client.get(videoUrl.href);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const sourceUrls = $('.dropdown-menu a[data-id]')
                     .map((_, el) => $(el).attr('data-id'))
                     .get()
