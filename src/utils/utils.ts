@@ -161,6 +161,6 @@ export const getHashFromImage = (url: string) => {
   canvas.width = image.width;
   canvas.height = image.height;
   context!.drawImage(image, 0, 0);
-  let data = context!.getImageData(0, 0, image.width, image.height);
+  const data = context!.getImageData(0, 0, image.width, image.height);
   return blurhash.encode(data.data, data.width, data.height, 4, 3);
 };
