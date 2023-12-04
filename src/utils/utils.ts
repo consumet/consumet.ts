@@ -155,8 +155,8 @@ export const substringBeforeLast = (str: string, toFind: string) => {
 
 export const getHashFromImage = (url: string) => {
   const image = new Image();
-  const canvas = document.createElement("canvas");
-  const context = canvas.getContext("2d");
+  const canvas = document.createElement('canvas');
+  const context = canvas.getContext('2d');
   image.src = url;
   canvas.width = image.width;
   canvas.height = image.height;

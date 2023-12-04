@@ -47,7 +47,7 @@ export interface Trailer {
   id: string;
   site?: string;
   thumbnail?: string;
-  thumbnailHash?: string|null;
+  thumbnailHash?: string | null;
 }
 
 export interface FuzzyDate {

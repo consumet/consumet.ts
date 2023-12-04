@@ -1232,8 +1232,7 @@ class Anilist extends models_1.AnimeParser {
                     possibleAnimeEpisodes = possibleAnimeEpisodes === null || possibleAnimeEpisodes === void 0 ? void 0 : possibleAnimeEpisodes.map((episode) => {
                         var _a, _b, _c, _d;
                         if (!episode.image) {
-                            episode.image =
-                                (_b = (_a = Media.coverImage.extraLarge) !== null && _a !== void 0 ? _a : Media.coverImage.large) !== null && _b !== void 0 ? _b : Media.coverImage.medium;
+                            episode.image = (_b = (_a = Media.coverImage.extraLarge) !== null && _a !== void 0 ? _a : Media.coverImage.large) !== null && _b !== void 0 ? _b : Media.coverImage.medium;
                             episode.imageHash = utils_2.getHashFromImage((_d = (_c = Media.coverImage.extraLarge) !== null && _c !== void 0 ? _c : Media.coverImage.large) !== null && _d !== void 0 ? _d : Media.coverImage.medium);
                         }
                         return episode;
@@ -1255,8 +1254,7 @@ class Anilist extends models_1.AnimeParser {
             possibleAnimeEpisodes = possibleAnimeEpisodes === null || possibleAnimeEpisodes === void 0 ? void 0 : possibleAnimeEpisodes.map((episode) => {
                 var _a, _b, _c, _d;
                 if (!episode.image) {
-                    episode.image =
-                        (_b = (_a = Media.coverImage.extraLarge) !== null && _a !== void 0 ? _a : Media.coverImage.large) !== null && _b !== void 0 ? _b : Media.coverImage.medium;
+                    episode.image = (_b = (_a = Media.coverImage.extraLarge) !== null && _a !== void 0 ? _a : Media.coverImage.large) !== null && _b !== void 0 ? _b : Media.coverImage.medium;
                     episode.imageHash = utils_2.getHashFromImage((_d = (_c = Media.coverImage.extraLarge) !== null && _c !== void 0 ? _c : Media.coverImage.large) !== null && _d !== void 0 ? _d : Media.coverImage.medium);
                 }
                 if (fetchFiller && (fillerEpisodes === null || fillerEpisodes === void 0 ? void 0 : fillerEpisodes.length) > 0 && (fillerEpisodes === null || fillerEpisodes === void 0 ? void 0 : fillerEpisodes.length) >= Media.episodes) {
@@ -1385,7 +1383,7 @@ class Anilist extends models_1.AnimeParser {
                         image: (_b = (_a = item.node.mediaRecommendation.coverImage.extraLarge) !== null && _a !== void 0 ? _a : item.node.mediaRecommendation.coverImage.large) !== null && _b !== void 0 ? _b : item.node.mediaRecommendation.coverImage.medium,
                         imageHash: utils_2.getHashFromImage((_d = (_c = item.node.mediaRecommendation.coverImage.extraLarge) !== null && _c !== void 0 ? _c : item.node.mediaRecommendation.coverImage.large) !== null && _d !== void 0 ? _d : item.node.mediaRecommendation.coverImage.medium),
                         cover: (_g = (_f = (_e = item.node.mediaRecommendation.bannerImage) !== null && _e !== void 0 ? _e : item.node.mediaRecommendation.coverImage.extraLarge) !== null && _f !== void 0 ? _f : item.node.mediaRecommendation.coverImage.large) !== null && _g !== void 0 ? _g : item.node.mediaRecommendation.coverImage.medium,
-                        coverHash: ((_k = (_j = (_h = item.node.mediaRecommendation.bannerImage) !== null && _h !== void 0 ? _h : item.node.mediaRecommendation.coverImage.extraLarge) !== null && _j !== void 0 ? _j : item.node.mediaRecommendation.coverImage.large) !== null && _k !== void 0 ? _k : item.node.mediaRecommendation.coverImage.medium),
+                        coverHash: (_k = (_j = (_h = item.node.mediaRecommendation.bannerImage) !== null && _h !== void 0 ? _h : item.node.mediaRecommendation.coverImage.extraLarge) !== null && _j !== void 0 ? _j : item.node.mediaRecommendation.coverImage.large) !== null && _k !== void 0 ? _k : item.node.mediaRecommendation.coverImage.medium,
                         rating: item.node.mediaRecommendation.meanScore,
                         type: item.node.mediaRecommendation.format,
                     });

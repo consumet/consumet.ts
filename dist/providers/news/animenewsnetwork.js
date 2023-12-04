@@ -35,9 +35,7 @@ async function scrapNewsInfo(url) {
     const thumbnail = thumbnailSlug
         ? `https://animenewsnetwork.com${thumbnailSlug}`
         : 'https://i.imgur.com/KkkVr1g.png';
-    const thumbnailHash = utils_1.getHashFromImage(thumbnailSlug
-        ? `https://animenewsnetwork.com${thumbnailSlug}`
-        : 'https://i.imgur.com/KkkVr1g.png');
+    const thumbnailHash = utils_1.getHashFromImage(thumbnailSlug ? `https://animenewsnetwork.com${thumbnailSlug}` : 'https://i.imgur.com/KkkVr1g.png');
     return {
         id: url.split('news/')[1],
         title,

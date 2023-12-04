@@ -331,7 +331,7 @@ class Gogoanime extends models_1.AnimeParser {
                         title: pName.attr('title'),
                         releaseDate: pRelease.text().replace('Released: ', '').trim(),
                         image: $(el).find('div > a > img').attr('src'),
-                        url: `${this.baseUrl}${a.attr('href')}`
+                        url: `${this.baseUrl}${a.attr('href')}`,
                     });
                 });
                 const hasNextPage = !$('div.anime_name.anime_movies > div > div > ul > li').last().hasClass('selected');
@@ -361,7 +361,7 @@ class Gogoanime extends models_1.AnimeParser {
                         title: pName.attr('title'),
                         releaseDate: pRelease.text().replace('Released: ', '').trim(),
                         image: $(el).find('div > a > img').attr('src'),
-                        url: `${this.baseUrl}${a.attr('href')}`
+                        url: `${this.baseUrl}${a.attr('href')}`,
                     });
                 });
                 const hasNextPage = !$('div.anime_name.anime_movies > div > div > ul > li').last().hasClass('selected');
