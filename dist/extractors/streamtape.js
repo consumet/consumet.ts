@@ -13,7 +13,7 @@ class StreamTape extends models_1.VideoExtractor {
                 const { data } = await this.client.get(videoUrl.href).catch(() => {
                     throw new Error('Video not found');
                 });
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 let [fh, sh] = (_a = $.html()) === null || _a === void 0 ? void 0 : _a.match(/robotlink'\).innerHTML = (.*)'/)[1].split("+ ('");
                 sh = sh.substring(3);
                 fh = fh.replace(/\'/g, '');

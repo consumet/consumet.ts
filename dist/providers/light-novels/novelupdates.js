@@ -31,7 +31,7 @@ class NovelUpdates extends models_1.LightNovelParser {
                         Referer: lightNovelUrl,
                     },
                 });
-                const $ = cheerio_1.load(await page.text());
+                const $ = (0, cheerio_1.load)(await page.text());
                 if ($('title').html() === 'Just a moment...' ||
                     $('title').html() === 'Attention Required! | Cloudflare') {
                     throw new Error('Client is blocked from accessing the site.');
@@ -76,7 +76,7 @@ class NovelUpdates extends models_1.LightNovelParser {
                 },
                 body: `action=nd_getchapters&mypostid=${postId}&mypostid2=0`,
             })).text()).substring(1);
-            const $ = cheerio_1.load(chapterData);
+            const $ = (0, cheerio_1.load)(chapterData);
             $('li.sp_li_chp a[data-id]').each((index, el) => {
                 const id = $(el).attr('data-id');
                 const title = $(el).find('span').text();
@@ -104,7 +104,7 @@ class NovelUpdates extends models_1.LightNovelParser {
             try {
                 const page = await fetch(`${this.proxyURL}${encodeURIComponent(chapterId)}`);
                 const data = await page.text();
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 contents.novelTitle = $('title').text();
                 contents.chapterTitle = $('title').text();
                 contents.text = data;
@@ -126,7 +126,7 @@ class NovelUpdates extends models_1.LightNovelParser {
                         Referer: this.baseUrl,
                     },
                 });
-                const $ = cheerio_1.load(await res.text());
+                const $ = (0, cheerio_1.load)(await res.text());
                 $('div.search_main_box_nu').each((i, el) => {
                     var _a;
                     result.results.push({

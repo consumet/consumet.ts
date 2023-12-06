@@ -26,7 +26,7 @@ class NewsFeed {
 }
 async function scrapNewsInfo(url) {
     const { data } = await axios_1.default.get(url);
-    const $ = cheerio_1.load(data);
+    const $ = (0, cheerio_1.load)(data);
     const title = $('#page_header').text().replace('News', '').trim();
     const intro = $('.intro').first().text().trim();
     const description = $('.meat > p').text().trim().split('\n\n').join('\n');
@@ -35,7 +35,7 @@ async function scrapNewsInfo(url) {
     const thumbnail = thumbnailSlug
         ? `https://animenewsnetwork.com${thumbnailSlug}`
         : 'https://i.imgur.com/KkkVr1g.png';
-    const thumbnailHash = utils_1.getHashFromImage(thumbnailSlug ? `https://animenewsnetwork.com${thumbnailSlug}` : 'https://i.imgur.com/KkkVr1g.png');
+    const thumbnailHash = (0, utils_1.getHashFromImage)(thumbnailSlug ? `https://animenewsnetwork.com${thumbnailSlug}` : 'https://i.imgur.com/KkkVr1g.png');
     return {
         id: url.split('news/')[1],
         title,
@@ -60,12 +60,12 @@ class AnimeNewsNetwork extends models_1.NewsParser {
         this.fetchNewsFeeds = async (topic) => await axios_1.default
             .get(`${this.baseUrl}/news${topic && Object.values(models_1.Topics).includes(topic) ? `/?topic=${topic}` : ''}`)
             .then(({ data }) => {
-            const $ = cheerio_1.load(data);
+            const $ = (0, cheerio_1.load)(data);
             const feeds = [];
             $('.herald.box.news').each((i, el) => {
                 const thumbnailSlug = $(el).find('.thumbnail').attr('data-src');
                 const thumbnail = thumbnailSlug ? `${this.baseUrl}${thumbnailSlug}` : this.logo;
-                const thumbnailHash = utils_1.getHashFromImage(thumbnailSlug ? `${this.baseUrl}${thumbnailSlug}` : this.logo);
+                const thumbnailHash = (0, utils_1.getHashFromImage)(thumbnailSlug ? `${this.baseUrl}${thumbnailSlug}` : this.logo);
                 const title = $(el).find('h3').text().trim();
                 const slug = $(el).find('h3 > a').attr('href') || '';
                 const url = `${this.baseUrl}${slug}`;

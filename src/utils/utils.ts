@@ -1,3 +1,5 @@
+import sharp from 'sharp';
+import sizeOf from 'image-size';
 import { load } from 'cheerio';
 import * as blurhash from 'blurhash';
 import { ProxyConfig } from '../models';
@@ -153,14 +155,26 @@ export const substringBeforeLast = (str: string, toFind: string) => {
   return index == -1 ? '' : str.substring(0, index);
 };
 
+const generateHash = async (url: string) => {
+  let returnedBuffer;
+
+  const response = await fetch(url);
+  const arrayBuffer = await response.arrayBuffer();
+  returnedBuffer = Buffer.from(arrayBuffer);
+
+  const { info, data } = await sharp(returnedBuffer).ensureAlpha().raw().toBuffer({
+    resolveWithObject: true,
+  });
+
+  return blurhash.encode(new Uint8ClampedArray(data), info.width, info.height, 4, 3);
+};
+
 export const getHashFromImage = (url: string) => {
-  const image = new Image();
-  const canvas = document.createElement('canvas');
-  const context = canvas.getContext('2d');
-  image.src = url;
-  canvas.width = image.width;
-  canvas.height = image.height;
-  context!.drawImage(image, 0, 0);
-  const data = context!.getImageData(0, 0, image.width, image.height);
-  return blurhash.encode(data.data, data.width, data.height, 4, 3);
+  if (url.length === 0 || url === null) {
+    return '';
+  } else {
+    let hash!: string;
+    generateHash(url).then(hashKey => (hash = hashKey));
+    return hash;
+  }
 };

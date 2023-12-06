@@ -19,9 +19,9 @@ class Mangasee123 extends models_1.MangaParser {
             const url = `${this.baseUrl}/manga`;
             try {
                 const { data } = await this.client.get(`${url}/${mangaId}`);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 const schemaScript = $('body > script:nth-child(15)').get()[0].children[0];
-                if (domhandler_1.isText(schemaScript)) {
+                if ((0, domhandler_1.isText)(schemaScript)) {
                     const mainEntity = JSON.parse(schemaScript.data)['mainEntity'];
                     mangaInfo.title = mainEntity['name'];
                     mangaInfo.altTitles = mainEntity['alternateName'];
@@ -31,7 +31,7 @@ class Mangasee123 extends models_1.MangaParser {
                 mangaInfo.headerForImage = { Referer: this.baseUrl };
                 mangaInfo.description = $('.top-5 .Content').text();
                 const contentScript = $('body > script:nth-child(16)').get()[0].children[0];
-                if (domhandler_1.isText(contentScript)) {
+                if ((0, domhandler_1.isText)(contentScript)) {
                     const chaptersData = this.processScriptTagVariable(contentScript.data, 'vm.Chapters = ');
                     mangaInfo.chapters = chaptersData.map((i) => {
                         var _a;
@@ -53,9 +53,9 @@ class Mangasee123 extends models_1.MangaParser {
             const url = `${this.baseUrl}/read-online/${chapterId}-page-1.html`;
             try {
                 const { data } = await this.client.get(`${url}`);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 const chapterScript = $('body > script:nth-child(19)').get()[0].children[0];
-                if (domhandler_1.isText(chapterScript)) {
+                if ((0, domhandler_1.isText)(chapterScript)) {
                     const curChapter = this.processScriptTagVariable(chapterScript.data, 'vm.CurChapter = ');
                     const imageHost = this.processScriptTagVariable(chapterScript.data, 'vm.CurPathName = ');
                     const curChapterLength = Number(curChapter['Page']);

@@ -29,7 +29,7 @@ class NineAnime extends models_1.AnimeParser {
         try {
             const vrf = await this.searchVrf(query);
             const res = await this.client.get(`${this.baseUrl}/filter?keyword=${encodeURIComponent(query).replace(/%20/g, '+')}&vrf=${encodeURIComponent(vrf)}&page=${page}`);
-            const $ = cheerio_1.load(res.data);
+            const $ = (0, cheerio_1.load)(res.data);
             searchResult.hasNextPage =
                 $(`ul.pagination`).length > 0
                     ? $('ul.pagination > li').last().hasClass('disabled')
@@ -86,7 +86,7 @@ class NineAnime extends models_1.AnimeParser {
         };
         try {
             const res = await this.client.get(animeUrl);
-            const $ = cheerio_1.load(res.data);
+            const $ = (0, cheerio_1.load)(res.data);
             animeInfo.id = new URL(`${this.baseUrl}/animeUrl`).pathname.split('/')[2];
             animeInfo.title = $('h1.title').text();
             animeInfo.jpTitle = $('h1.title').attr('data-jp');
@@ -154,7 +154,7 @@ class NineAnime extends models_1.AnimeParser {
             const id = $('#watch-main').attr('data-id');
             const vrf = await this.ev(id);
             const { data: { result }, } = await this.client.get(`${this.baseUrl}/ajax/episode/list/${id}?vrf=${encodeURIComponent(vrf)}`);
-            const $$ = cheerio_1.load(result);
+            const $$ = (0, cheerio_1.load)(result);
             animeInfo.totalEpisodes = $$('div.episodes > ul > li > a').length;
             animeInfo.episodes = [];
             const episodes = [];
@@ -265,7 +265,7 @@ class NineAnime extends models_1.AnimeParser {
         if (!episodeId.startsWith(this.baseUrl))
             episodeId = `${this.baseUrl}/ajax/server/list/${episodeId}?vrf=${encodeURIComponent(await this.ev(episodeId))}`;
         const { data: { result }, } = await this.client.get(episodeId);
-        const $ = cheerio_1.load(result);
+        const $ = (0, cheerio_1.load)(result);
         const servers = [];
         $('.type > ul > li').each((i, el) => {
             const serverId = $(el).attr('data-link-id');

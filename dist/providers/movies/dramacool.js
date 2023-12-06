@@ -19,7 +19,7 @@ class DramaCool extends models_1.MovieParser {
                     results: [],
                 };
                 const { data } = await this.client.get(`${this.baseUrl}/search?keyword=${query.replace(/[\W_]+/g, '-')}&page=${page}`);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 const navSelector = 'ul.pagination';
                 searchResult.hasNextPage =
                     $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('selected') : false;
@@ -48,7 +48,7 @@ class DramaCool extends models_1.MovieParser {
                     title: '',
                 };
                 const { data } = await this.client.get(mediaId);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 mediaInfo.id = realMediaId;
                 mediaInfo.title = $('.info > h1:nth-child(1)').text();
                 mediaInfo.otherNames = $('.other_name > a')
@@ -125,7 +125,7 @@ class DramaCool extends models_1.MovieParser {
             if (!episodeId.includes('.html'))
                 episodeId = `${this.baseUrl}/${episodeId}.html`;
             const { data } = await this.client.get(episodeId);
-            const $ = cheerio_1.load(data);
+            const $ = (0, cheerio_1.load)(data);
             $('div.anime_muti_link > ul > li').map(async (i, ele) => {
                 const url = $(ele).attr('data-video');
                 let name = $(ele).attr('class').replace('selected', '').trim();

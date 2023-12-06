@@ -1,7 +1,7 @@
 import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer } from '../../models';
 import { AxiosAdapter } from 'axios';
 import { ProxyConfig } from '../../models';
-declare type ProviderId = '9anime' | 'animepahe' | 'zoro' | 'gogoanime';
+type ProviderId = '9anime' | 'animepahe' | 'zoro' | 'gogoanime';
 declare class Anify extends AnimeParser {
     protected proxyConfig?: ProxyConfig | undefined;
     protected adapter?: AxiosAdapter | undefined;

@@ -19,7 +19,7 @@ declare class AnimeNewsNetwork extends NewsParser {
     /**
      * @param topic Topic for fetching the feeds
      */
-    fetchNewsFeeds: (topic?: Topics | undefined) => Promise<NewsFeed[]>;
+    fetchNewsFeeds: (topic?: Topics) => Promise<NewsFeed[]>;
     /**
      * @param id ID of the news from Anime News Network
      * @example

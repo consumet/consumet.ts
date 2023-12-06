@@ -18,7 +18,7 @@ class AsianLoad extends models_1.VideoExtractor {
         this.extract = async (videoUrl) => {
             var _a, _b, _c;
             const res = await this.client.get(videoUrl.href);
-            const $ = cheerio_1.load(res.data);
+            const $ = (0, cheerio_1.load)(res.data);
             const encyptedParams = await this.generateEncryptedAjaxParams($, (_a = videoUrl.searchParams.get('id')) !== null && _a !== void 0 ? _a : '');
             const encryptedData = await this.client.get(`${videoUrl.protocol}//${videoUrl.hostname}/encrypt-ajax.php?${encyptedParams}`, {
                 headers: {

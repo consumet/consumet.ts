@@ -17,7 +17,7 @@ class MangaKakalot extends models_1.MangaParser {
             const url = mangaId.includes('read') ? this.baseUrl : 'https://readmanganato.com';
             try {
                 const { data } = await this.client.get(`${url}/${mangaId}`);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 if (url.includes('mangakakalot')) {
                     mangaInfo.title = $('div.manga-info-top > ul > li:nth-child(1) > h1').text();
                     mangaInfo.altTitles = $('div.manga-info-top > ul > li:nth-child(1) > h2')
@@ -117,7 +117,7 @@ class MangaKakalot extends models_1.MangaParser {
                     ? `${this.baseUrl}/chapter/${chapterId}`
                     : `https://readmanganato.com/${chapterId.replace('$$READMANGANATO', '')}`;
                 const { data } = await this.client.get(url);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 const pages = $('div.container-chapter-reader > img')
                     .map((i, el) => {
                     var _a;
@@ -143,7 +143,7 @@ class MangaKakalot extends models_1.MangaParser {
         this.search = async (query) => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/search/story/${query.replace(/ /g, '_')}`);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 const results = $('div.daily-update > div > div')
                     .map((i, el) => {
                     var _a;

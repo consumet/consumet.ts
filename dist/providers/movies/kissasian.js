@@ -23,7 +23,7 @@ class KissAsian extends models_1.MovieParser {
                         'Content-Type': 'application/x-www-form-urlencoded',
                     },
                 });
-                const $ = cheerio_1.load(response.data);
+                const $ = (0, cheerio_1.load)(response.data);
                 $('div.item-list > div.list').each((i, el) => {
                     var _a;
                     searchResult.results.push({
@@ -62,7 +62,7 @@ class KissAsian extends models_1.MovieParser {
                         'Content-Type': 'application/x-www-form-urlencoded',
                     },
                 });
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 mediaInfo.id = realMediaId;
                 mediaInfo.title = $('div.content').first().find('div.heading > h3').text().trim();
                 mediaInfo.image = `${this.baseUrl}${$('div.content').first().find('div.cover > img').attr('src')}`;
@@ -157,7 +157,7 @@ class KissAsian extends models_1.MovieParser {
                     'Content-Type': 'application/x-www-form-urlencoded',
                 },
             });
-            const $ = cheerio_1.load(data);
+            const $ = (0, cheerio_1.load)(data);
             episodeServers.push({
                 name: $('ul.mirrorTab > li > a.actived').text().trim(),
                 url: $('iframe#mVideo').attr('src'),
@@ -168,7 +168,7 @@ class KissAsian extends models_1.MovieParser {
                         'Content-Type': 'application/x-www-form-urlencoded',
                     },
                 });
-                const $$ = cheerio_1.load(data);
+                const $$ = (0, cheerio_1.load)(data);
                 if ($$('ul.mirrorTab > li > a.actived').text().trim()) {
                     const url = $$('iframe#mVideo').attr('src');
                     episodeServers.push({

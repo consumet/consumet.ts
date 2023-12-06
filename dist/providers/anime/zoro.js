@@ -25,7 +25,7 @@ class Zoro extends models_1.AnimeParser {
             };
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 res.hasNextPage =
                     $('.pagination > li').length > 0
                         ? $('.pagination li.active').length > 0
@@ -76,7 +76,7 @@ class Zoro extends models_1.AnimeParser {
             };
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/watch/${id}`);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 const { mal_id, anilist_id } = JSON.parse($('#syncData').text());
                 info.malID = Number(mal_id);
                 info.alID = Number(anilist_id);
@@ -105,7 +105,7 @@ class Zoro extends models_1.AnimeParser {
                         Referer: `${this.baseUrl}/watch/${id}`,
                     },
                 });
-                const $$ = cheerio_1.load(episodesAjax.data.html);
+                const $$ = (0, cheerio_1.load)(episodesAjax.data.html);
                 info.totalEpisodes = $$('div.detail-infor-content > div > a').length;
                 info.episodes = [];
                 $$('div.detail-infor-content > div > a').each((i, el) => {
@@ -171,7 +171,7 @@ class Zoro extends models_1.AnimeParser {
                 .replace(/\$auto|\$sub|\$dub/gi, '')}`;
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/ajax/v2/episode/servers?episodeId=${episodeId.split('?ep=')[1]}`);
-                const $ = cheerio_1.load(data.html);
+                const $ = (0, cheerio_1.load)(data.html);
                 /**
                  * vidtreaming -> 4
                  * rapidcloud  -> 1
@@ -227,7 +227,7 @@ class Zoro extends models_1.AnimeParser {
         this.fetchRecentEpisodes = async (page = 1) => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/recently-updated?page=${page}`);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 const hasNextPage = $('.pagination > li').length > 0
                     ? $('.pagination > li').last().hasClass('active')
                         ? false

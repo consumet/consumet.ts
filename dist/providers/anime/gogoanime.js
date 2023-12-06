@@ -25,7 +25,7 @@ class Gogoanime extends models_1.AnimeParser {
             };
             try {
                 const res = await this.client.get(`${this.baseUrl}/filter.html?keyword=${encodeURIComponent(query)}&page=${page}`);
-                const $ = cheerio_1.load(res.data);
+                const $ = (0, cheerio_1.load)(res.data);
                 searchResult.hasNextPage =
                     $('div.anime_name.new_series > div > div > ul > li.selected').next().length > 0;
                 $('div.last_episodes > ul > li').each((i, el) => {
@@ -63,7 +63,7 @@ class Gogoanime extends models_1.AnimeParser {
             };
             try {
                 const res = await this.client.get(id);
-                const $ = cheerio_1.load(res.data);
+                const $ = (0, cheerio_1.load)(res.data);
                 animeInfo.id = new URL(id).pathname.split('/')[2];
                 animeInfo.title = $('section.content_left > div.main_body > div:nth-child(2) > div.anime_info_body_bg > h1')
                     .text()
@@ -111,7 +111,7 @@ class Gogoanime extends models_1.AnimeParser {
                 const movie_id = $('#movie_id').attr('value');
                 const alias = $('#alias_anime').attr('value');
                 const html = await this.client.get(`${this.ajaxUrl}/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`);
-                const $$ = cheerio_1.load(html.data);
+                const $$ = (0, cheerio_1.load)(html.data);
                 animeInfo.episodes = [];
                 $$('#episode_related > li').each((i, el) => {
                     var _a, _b, _c;
@@ -164,7 +164,7 @@ class Gogoanime extends models_1.AnimeParser {
             }
             try {
                 const res = await this.client.get(`${this.baseUrl}/${episodeId}`);
-                const $ = cheerio_1.load(res.data);
+                const $ = (0, cheerio_1.load)(res.data);
                 let serverUrl;
                 switch (server) {
                     case models_1.StreamingServers.GogoCDN:
@@ -196,7 +196,7 @@ class Gogoanime extends models_1.AnimeParser {
                 if (!episodeId.startsWith(this.baseUrl))
                     episodeId = `${this.baseUrl}/${episodeId}`;
                 const res = await this.client.get(episodeId);
-                const $ = cheerio_1.load(res.data);
+                const $ = (0, cheerio_1.load)(res.data);
                 const servers = [];
                 $('div.anime_video_body > div.anime_muti_link > ul > li').each((i, el) => {
                     let url = $(el).find('a').attr('data-video');
@@ -222,7 +222,7 @@ class Gogoanime extends models_1.AnimeParser {
                 if (!episodeId.startsWith(this.baseUrl))
                     episodeId = `${this.baseUrl}/${episodeId}`;
                 const res = await this.client.get(episodeId);
-                const $ = cheerio_1.load(res.data);
+                const $ = (0, cheerio_1.load)(res.data);
                 return $('#wrapper_bg > section > section.content_left > div:nth-child(1) > div.anime_video_body > div.anime_video_body_cate > div.anime-info > a').attr('href').split('/')[2];
             }
             catch (err) {
@@ -236,7 +236,7 @@ class Gogoanime extends models_1.AnimeParser {
         this.fetchRecentEpisodes = async (page = 1, type = 1) => {
             try {
                 const res = await this.client.get(`${this.ajaxUrl}/page-recent-release.html?page=${page}&type=${type}`);
-                const $ = cheerio_1.load(res.data);
+                const $ = (0, cheerio_1.load)(res.data);
                 const recentEpisodes = [];
                 $('div.last_episodes.loaddub > ul > li').each((i, el) => {
                     var _a, _b, _c, _d;
@@ -263,7 +263,7 @@ class Gogoanime extends models_1.AnimeParser {
         this.fetchGenreInfo = async (genre, page = 1) => {
             try {
                 const res = await this.client.get(`${this.baseUrl}/genre/${genre}?page=${page}`);
-                const $ = cheerio_1.load(res.data);
+                const $ = (0, cheerio_1.load)(res.data);
                 const genreInfo = [];
                 $('div.last_episodes > ul > li').each((i, elem) => {
                     var _a;
@@ -290,7 +290,7 @@ class Gogoanime extends models_1.AnimeParser {
         this.fetchTopAiring = async (page = 1) => {
             try {
                 const res = await this.client.get(`${this.ajaxUrl}/page-recent-release-ongoing.html?page=${page}`);
-                const $ = cheerio_1.load(res.data);
+                const $ = (0, cheerio_1.load)(res.data);
                 const topAiring = [];
                 $('div.added_series_body.popular > ul > li').each((i, el) => {
                     var _a, _b;
@@ -319,7 +319,7 @@ class Gogoanime extends models_1.AnimeParser {
         this.fetchRecentMovies = async (page = 1) => {
             try {
                 const res = await this.client.get(`${this.baseUrl}/anime-movies.html?aph&page=${page}`);
-                const $ = cheerio_1.load(res.data);
+                const $ = (0, cheerio_1.load)(res.data);
                 const recentMovies = [];
                 $('div.last_episodes > ul > li').each((i, el) => {
                     var _a;
@@ -349,7 +349,7 @@ class Gogoanime extends models_1.AnimeParser {
         this.fetchPopular = async (page = 1) => {
             try {
                 const res = await this.client.get(`${this.baseUrl}/popular.html?page=${page}`);
-                const $ = cheerio_1.load(res.data);
+                const $ = (0, cheerio_1.load)(res.data);
                 const recentMovies = [];
                 $('div.last_episodes > ul > li').each((i, el) => {
                     var _a;
@@ -391,7 +391,7 @@ class Gogoanime extends models_1.AnimeParser {
                 }
             }
             try {
-                const $ = cheerio_1.load(res.data);
+                const $ = (0, cheerio_1.load)(res.data);
                 $('nav.menu_series.genre.right > ul > li').each((_index, element) => {
                     var _a;
                     const genre = $(element).find('a');
