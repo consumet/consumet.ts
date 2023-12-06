@@ -1,5 +1,4 @@
 import sharp from 'sharp';
-import sizeOf from 'image-size';
 import { load } from 'cheerio';
 import * as blurhash from 'blurhash';
 import { ProxyConfig } from '../models';
