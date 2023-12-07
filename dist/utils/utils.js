@@ -1,7 +1,11 @@
 "use strict";
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
 }) : (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
@@ -18,8 +22,12 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getHashFromImage = exports.substringBeforeLast = exports.substringAfterLast = exports.substringBefore = exports.substringAfter = exports.compareTwoStrings = exports.convertDuration = exports.isJson = exports.getDays = exports.capitalizeFirstLetter = exports.range = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.days = exports.USER_AGENT = void 0;
+const sharp_1 = __importDefault(require("sharp"));
 const cheerio_1 = require("cheerio");
 const blurhash = __importStar(require("blurhash"));
 exports.USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36';
@@ -59,7 +67,7 @@ exports.formatTitle = formatTitle;
 const genElement = (s, e) => {
     if (s == '')
         return;
-    const $ = cheerio_1.load(e);
+    const $ = (0, cheerio_1.load)(e);
     let i = 0;
     let str = '';
     let el = $();
@@ -89,8 +97,8 @@ exports.range = range;
 const capitalizeFirstLetter = (s) => (s === null || s === void 0 ? void 0 : s.charAt(0).toUpperCase()) + s.slice(1);
 exports.capitalizeFirstLetter = capitalizeFirstLetter;
 const getDays = (day1, day2) => {
-    const day1Index = exports.days.indexOf(exports.capitalizeFirstLetter(day1)) - 1;
-    const day2Index = exports.days.indexOf(exports.capitalizeFirstLetter(day2)) - 1;
+    const day1Index = exports.days.indexOf((0, exports.capitalizeFirstLetter)(day1)) - 1;
+    const day2Index = exports.days.indexOf((0, exports.capitalizeFirstLetter)(day2)) - 1;
     const now = new Date();
     const day1Date = new Date();
     const day2Date = new Date();
@@ -165,16 +173,25 @@ const substringBeforeLast = (str, toFind) => {
     return index == -1 ? '' : str.substring(0, index);
 };
 exports.substringBeforeLast = substringBeforeLast;
+const generateHash = async (url) => {
+    let returnedBuffer;
+    const response = await fetch(url);
+    const arrayBuffer = await response.arrayBuffer();
+    returnedBuffer = Buffer.from(arrayBuffer);
+    const { info, data } = await (0, sharp_1.default)(returnedBuffer).ensureAlpha().raw().toBuffer({
+        resolveWithObject: true,
+    });
+    return blurhash.encode(new Uint8ClampedArray(data), info.width, info.height, 4, 3);
+};
 const getHashFromImage = (url) => {
-    const image = new Image();
-    const canvas = document.createElement('canvas');
-    const context = canvas.getContext('2d');
-    image.src = url;
-    canvas.width = image.width;
-    canvas.height = image.height;
-    context.drawImage(image, 0, 0);
-    const data = context.getImageData(0, 0, image.width, image.height);
-    return blurhash.encode(data.data, data.width, data.height, 4, 3);
+    if (url.length === 0 || url === null) {
+        return '';
+    }
+    else {
+        let hash;
+        generateHash(url).then(hashKey => (hash = hashKey));
+        return hash;
+    }
 };
 exports.getHashFromImage = getHashFromImage;
 //# sourceMappingURL=utils.js.map

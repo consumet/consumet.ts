@@ -17,7 +17,7 @@ class AnimeFox extends models_1.AnimeParser {
         this.search = async (query, page = 1) => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 const hasNextPage = $('.pagination > nav > ul > li').last().hasClass('disabled') ? false : true;
                 const searchResults = [];
                 $('div.film_list-wrap > div').each((i, el) => {
@@ -69,7 +69,7 @@ class AnimeFox extends models_1.AnimeParser {
             };
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/anime/${id}`);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 info.title = $('h2.film-name').attr('data-jname');
                 info.image = $('img.film-poster-img').attr('data-src');
                 info.description = $('div.anisc-info > div:nth-child(1) > div').text().trim();
@@ -132,7 +132,7 @@ class AnimeFox extends models_1.AnimeParser {
         this.fetchRecentEpisodes = async (page = 1) => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/latest-added?page=${page}`);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 const hasNextPage = $('.pagination > nav > ul > li').last().hasClass('disabled') ? false : true;
                 const recentEpisodes = [];
                 $('div.film_list-wrap > div').each((i, el) => {
@@ -162,7 +162,7 @@ class AnimeFox extends models_1.AnimeParser {
         this.fetchEpisodeSources = async (episodeId) => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/watch/${episodeId}`);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 const iframe = $('#iframe-to-load').attr('src') || '';
                 const streamUrl = `https://goload.io/streaming.php?id=${iframe.split('=')[1]}`;
                 return {

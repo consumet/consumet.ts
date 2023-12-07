@@ -35,7 +35,7 @@ class ReadLightNovels extends models_1.LightNovelParser {
                         Referer: lightNovelUrl,
                     },
                 });
-                const $ = cheerio_1.load(page.data);
+                const $ = (0, cheerio_1.load)(page.data);
                 const novelId = parseInt($('#id_post').val());
                 lightNovelInfo.title = $('div.col-xs-12.col-sm-8.col-md-8.desc > h3').text();
                 lightNovelInfo.image = $('div.col-xs-12.col-sm-4.col-md-4.info-holder > div.books > div > img').attr('src');
@@ -97,7 +97,7 @@ class ReadLightNovels extends models_1.LightNovelParser {
                     'user-agent': utils_1.USER_AGENT,
                 },
             });
-            const $ = cheerio_1.load(page.data.list_chap);
+            const $ = (0, cheerio_1.load)(page.data.list_chap);
             for (const chapter of $('ul.list-chapter > li')) {
                 const subId = (_a = $(chapter).find('a').attr('href').split('/')) === null || _a === void 0 ? void 0 : _a.pop().replace('.html', '');
                 const id = $(chapter).find('a').attr('href').split('/')[3];
@@ -132,7 +132,7 @@ class ReadLightNovels extends models_1.LightNovelParser {
             };
             try {
                 const page = await this.client.get(chapterId);
-                const $ = cheerio_1.load(page.data);
+                const $ = (0, cheerio_1.load)(page.data);
                 contents.novelTitle = $('.truyen-title').text();
                 contents.chapterTitle = $('.chapter-title').text();
                 for (const line of $('div.chapter-content > p')) {
@@ -154,7 +154,7 @@ class ReadLightNovels extends models_1.LightNovelParser {
             const result = { results: [] };
             try {
                 const res = await this.client.post(`${this.baseUrl}/?s=${query}`);
-                const $ = cheerio_1.load(res.data);
+                const $ = (0, cheerio_1.load)(res.data);
                 $('div.col-xs-12.col-sm-12.col-md-9.col-truyen-main > div:nth-child(1) > div > div:nth-child(2) > div.col-md-3.col-sm-6.col-xs-6.home-truyendecu').each((i, el) => {
                     var _a;
                     result.results.push({

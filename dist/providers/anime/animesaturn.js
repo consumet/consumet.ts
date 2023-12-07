@@ -16,7 +16,7 @@ class AnimeSaturn extends models_1.AnimeParser {
         this.search = async (query) => {
             // baseUrl/animelist?search={query}
             const data = await this.client.get(`${this.baseUrl}animelist?search=${query}`);
-            const $ = await cheerio_1.load(data.data);
+            const $ = await (0, cheerio_1.load)(data.data);
             if (!$)
                 return { results: [] };
             const res = {
@@ -43,7 +43,7 @@ class AnimeSaturn extends models_1.AnimeParser {
         this.fetchAnimeInfo = async (id) => {
             var _a, _b, _c, _d, _e, _f, _g, _h;
             const data = await this.client.get(`${this.baseUrl}anime/${id}`);
-            const $ = await cheerio_1.load(data.data);
+            const $ = await (0, cheerio_1.load)(data.data);
             const info = {
                 id,
                 title: $('div.container.anime-title-as> b').text(),
@@ -81,12 +81,12 @@ class AnimeSaturn extends models_1.AnimeParser {
         this.fetchEpisodeSources = async (episodeId) => {
             var _a;
             const fakeData = await this.client.get(`${this.baseUrl}ep/${episodeId}`);
-            const $2 = await cheerio_1.load(fakeData.data);
+            const $2 = await (0, cheerio_1.load)(fakeData.data);
             const serverOneUrl = $2("div > a:contains('Streaming')").attr('href'); // scrape from server 1 (m3u8 and mp4 urls)
             if (serverOneUrl == null)
                 throw new Error('Invalid url');
             let data = await this.client.get(serverOneUrl);
-            let $ = await cheerio_1.load(data.data);
+            let $ = await (0, cheerio_1.load)(data.data);
             const sources = {
                 headers: {},
                 subtitles: [],
@@ -130,7 +130,7 @@ class AnimeSaturn extends models_1.AnimeParser {
             // STREAMTAPE
             const serverTwoUrl = serverOneUrl + '&server=1'; // scrape from server 2 (streamtape)
             data = await this.client.get(serverTwoUrl);
-            $ = await cheerio_1.load(data.data);
+            $ = await (0, cheerio_1.load)(data.data);
             const videoUrl = $('.embed-container > iframe').attr('src');
             const serverTwoSource = await new utils_1.StreamTape(this.proxyConfig, this.adapter).extract(new URL(videoUrl));
             if (!serverTwoSource)

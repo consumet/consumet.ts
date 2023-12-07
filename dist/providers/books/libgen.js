@@ -26,7 +26,7 @@ class Libgen extends models_1.BookParser {
             bookUrl = encodeURIComponent(bookUrl);
             const container = new models_1.LibgenBookObject();
             const { data } = await this.client.get(bookUrl);
-            const $ = cheerio_1.load(data);
+            const $ = (0, cheerio_1.load)(data);
             let rawAuthor = '';
             $('tbody > tr:eq(10)')
                 .children()
@@ -37,7 +37,7 @@ class Libgen extends models_1.BookParser {
                         break;
                 }
             });
-            container.authors = utils_1.splitAuthor(rawAuthor);
+            container.authors = (0, utils_1.splitAuthor)(rawAuthor);
             let publisher = '';
             $('tbody > tr:eq(12)')
                 .children()
@@ -198,7 +198,7 @@ class Libgen extends models_1.BookParser {
                     break;
                 }
             }
-            container.link = `${this.downloadIP}/main/${utils_1.floorID(container.id)}/${realLink.toLowerCase()}/${ascii_url_encoder_1.encode(`${container.series == '' ? '' : `(${container.series})`} ${rawAuthor} - ${container.title}-${container.publisher} (${container.year}).${container.format}`)}`;
+            container.link = `${this.downloadIP}/main/${(0, utils_1.floorID)(container.id)}/${realLink.toLowerCase()}/${(0, ascii_url_encoder_1.encode)(`${container.series == '' ? '' : `(${container.series})`} ${rawAuthor} - ${container.title}-${container.publisher} (${container.year}).${container.format}`)}`;
             return container;
         };
         /**
@@ -213,7 +213,7 @@ class Libgen extends models_1.BookParser {
             const workingExtension = this.extensions[0];
             const containers = [];
             const { data } = await this.client.get(`${this.baseUrl}.rs/search.php?req=${query}&view=simple&res=25&sort=def&sortmode=ASC&page=${page}`);
-            const $ = cheerio_1.load(data);
+            const $ = (0, cheerio_1.load)(data);
             let rawAuthor = '';
             $('table tbody tr').each((i, e) => {
                 const container = new models_1.LibgenBookObject();
@@ -226,7 +226,7 @@ class Libgen extends models_1.BookParser {
                             break;
                         case 2:
                             rawAuthor = $(e).text();
-                            container.authors = utils_1.splitAuthor(rawAuthor);
+                            container.authors = (0, utils_1.splitAuthor)(rawAuthor);
                             break;
                         case 4:
                             let potLink = '';
@@ -273,7 +273,7 @@ class Libgen extends models_1.BookParser {
                     continue;
                 }
                 const data = await this.client.get(containers[i].link);
-                const $ = cheerio_1.load(data.data);
+                const $ = (0, cheerio_1.load)(data.data);
                 let tempTitle = '';
                 let tempVolume = '';
                 $('tbody > tr:eq(1)')
@@ -381,7 +381,7 @@ class Libgen extends models_1.BookParser {
                         break;
                     }
                 }
-                containers[i].link = `${this.downloadIP}/main/${utils_1.floorID(containers[i].id)}/${realLink.toLowerCase()}/${ascii_url_encoder_1.encode(`${containers[i].series == '' ? '' : `(${containers[i].series})`} ${rawAuthor} - ${containers[i].title}-${containers[i].publisher} (${containers[i].year}).${containers[i].format}`)}`;
+                containers[i].link = `${this.downloadIP}/main/${(0, utils_1.floorID)(containers[i].id)}/${realLink.toLowerCase()}/${(0, ascii_url_encoder_1.encode)(`${containers[i].series == '' ? '' : `(${containers[i].series})`} ${rawAuthor} - ${containers[i].title}-${containers[i].publisher} (${containers[i].year}).${containers[i].format}`)}`;
             }
             return {
                 result: containers,

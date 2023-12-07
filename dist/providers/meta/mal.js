@@ -39,7 +39,7 @@ class Myanimelist extends models_1.AnimeParser {
                     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35',
                 },
             });
-            const $ = cheerio_1.load(data);
+            const $ = (0, cheerio_1.load)(data);
             const pages = $('.normal_header').find('span').children();
             const maxPage = parseInt(pages.last().text());
             const hasNextPage = page < maxPage;
@@ -102,7 +102,7 @@ class Myanimelist extends models_1.AnimeParser {
                 if ((this.provider instanceof zoro_1.default || this.provider instanceof gogoanime_1.default) &&
                     !dub &&
                     (animeInfo.status === models_1.MediaStatus.ONGOING ||
-                        utils_1.range({ from: 2000, to: new Date().getFullYear() + 1 }).includes((_a = animeInfo.startDate) === null || _a === void 0 ? void 0 : _a.year))) {
+                        (0, utils_1.range)({ from: 2000, to: new Date().getFullYear() + 1 }).includes((_a = animeInfo.startDate) === null || _a === void 0 ? void 0 : _a.year))) {
                     try {
                         animeInfo.episodes = (_b = (await new anify_1.default(this.proxyConfig, this.adapter, this.provider.name.toLowerCase()).fetchAnimeInfo(animeId)).episodes) === null || _b === void 0 ? void 0 : _b.map((item) => ({
                             id: item.slug,
@@ -199,8 +199,8 @@ class Myanimelist extends models_1.AnimeParser {
                     secondTitle = b.title;
                 else
                     secondTitle = (_d = (_c = b.title.english) !== null && _c !== void 0 ? _c : b.title.romaji) !== null && _d !== void 0 ? _d : '';
-                const firstRating = utils_1.compareTwoStrings(targetTitle, firstTitle.toLowerCase());
-                const secondRating = utils_1.compareTwoStrings(targetTitle, secondTitle.toLowerCase());
+                const firstRating = (0, utils_1.compareTwoStrings)(targetTitle, firstTitle.toLowerCase());
+                const secondRating = (0, utils_1.compareTwoStrings)(targetTitle, secondTitle.toLowerCase());
                 // Sort in descending order
                 return secondRating - firstRating;
             });
@@ -237,8 +237,8 @@ class Myanimelist extends models_1.AnimeParser {
                     sites = sites.flat();
                     sites.sort((a, b) => {
                         const targetTitle = malAsyncReq.data.title.toLowerCase();
-                        const firstRating = utils_1.compareTwoStrings(targetTitle, a.title.toLowerCase());
-                        const secondRating = utils_1.compareTwoStrings(targetTitle, b.title.toLowerCase());
+                        const firstRating = (0, utils_1.compareTwoStrings)(targetTitle, a.title.toLowerCase());
+                        const secondRating = (0, utils_1.compareTwoStrings)(targetTitle, b.title.toLowerCase());
                         // Sort in descending order
                         return secondRating - firstRating;
                     });
@@ -304,7 +304,7 @@ class Myanimelist extends models_1.AnimeParser {
                 return possibleProviderEpisodes;
             const options = {
                 headers: { 'Content-Type': 'application/json' },
-                query: utils_1.kitsuSearchQuery(slug),
+                query: (0, utils_1.kitsuSearchQuery)(slug),
             };
             const newEpisodeList = await this.findKitsuAnime(possibleProviderEpisodes, options, season, startDate);
             return newEpisodeList;
@@ -384,7 +384,7 @@ class Myanimelist extends models_1.AnimeParser {
                     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35',
                 },
             });
-            const $ = cheerio_1.load(data);
+            const $ = (0, cheerio_1.load)(data);
             const episodes = [];
             const desc = $('[itemprop="description"]').first().text();
             const imageElem = $('[itemprop="image"]').first();
@@ -427,9 +427,9 @@ class Myanimelist extends models_1.AnimeParser {
                 const style = $(teaserDOM).attr('style');
                 if (teaserURL) {
                     animeInfo.trailer = {
-                        id: utils_1.substringAfter(teaserURL, 'embed/').split('?')[0],
+                        id: (0, utils_1.substringAfter)(teaserURL, 'embed/').split('?')[0],
                         site: 'https://youtube.com/watch?v=',
-                        thumbnail: style ? utils_1.substringBefore(utils_1.substringAfter(style, "url('"), "'") : '',
+                        thumbnail: style ? (0, utils_1.substringBefore)((0, utils_1.substringAfter)(style, "url('"), "'") : '',
                     };
                 }
             }
@@ -499,7 +499,7 @@ class Myanimelist extends models_1.AnimeParser {
                 var _a;
                 const text = $(elem).text().toLowerCase().trim();
                 const key = text.split(':')[0];
-                const value = utils_1.substringAfter(text, `${key}:`).trim();
+                const value = (0, utils_1.substringAfter)(text, `${key}:`).trim();
                 switch (key) {
                     case 'status':
                         animeInfo.status = this.malStatusToMediaStatus(value);
@@ -574,7 +574,7 @@ class Myanimelist extends models_1.AnimeParser {
                 },
             });
             let hasEpisodes = false;
-            const $ = cheerio_1.load(data);
+            const $ = (0, cheerio_1.load)(data);
             for (const elem of $('.video-list').toArray()) {
                 const href = $(elem).attr('href');
                 const image = $(elem).find('img').attr('data-src');

@@ -24,7 +24,7 @@ class MovieHdWatch extends models_1.MovieParser {
             };
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 const navSelector = 'div.pre-pagination:nth-child(3) > nav:nth-child(1) > ul:nth-child(1)';
                 searchResult.hasNextPage =
                     $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
@@ -62,7 +62,7 @@ class MovieHdWatch extends models_1.MovieParser {
             }
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/${mediaId}`);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 const recommendationsArray = [];
                 const movieInfo = {
                     id: mediaId,
@@ -133,7 +133,7 @@ class MovieHdWatch extends models_1.MovieParser {
                 const ajaxReqUrl = (id, type, isSeasons = false) => `${this.baseUrl}/ajax/${type === 'movie' ? type : `v2/${type}`}/${isSeasons ? 'seasons' : 'episodes'}/${id}`;
                 if (movieInfo.type === models_1.TvType.TVSERIES) {
                     const { data } = await this.client.get(ajaxReqUrl(uid, 'tv', true));
-                    const $$ = cheerio_1.load(data);
+                    const $$ = (0, cheerio_1.load)(data);
                     const seasonsIds = $$('.dropdown-menu > a')
                         .map((i, el) => $(el).attr('data-id'))
                         .get();
@@ -141,7 +141,7 @@ class MovieHdWatch extends models_1.MovieParser {
                     let season = 1;
                     for (const id of seasonsIds) {
                         const { data } = await this.client.get(ajaxReqUrl(id, 'season'));
-                        const $$$ = cheerio_1.load(data);
+                        const $$$ = (0, cheerio_1.load)(data);
                         $$$('.nav > li')
                             .map((i, el) => {
                             var _a;
@@ -224,7 +224,7 @@ class MovieHdWatch extends models_1.MovieParser {
                 episodeId = `${this.baseUrl}/ajax/movie/episodes/${episodeId}`;
             try {
                 const { data } = await this.client.get(episodeId);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 const servers = [];
                 await Promise.all($('.nav > li').map(async (i, el) => {
                     const server = {
@@ -247,7 +247,7 @@ class MovieHdWatch extends models_1.MovieParser {
         this.fetchRecentMovies = async () => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/home`);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 const movies = $('.section-id-02')
                     .find('div.flw-item')
                     .map((i, el) => {
@@ -277,7 +277,7 @@ class MovieHdWatch extends models_1.MovieParser {
         this.fetchRecentTvShows = async () => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/home`);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 const tvshows = $('.section-id-03')
                     .find('div.flw-item')
                     .map((i, el) => {
@@ -307,7 +307,7 @@ class MovieHdWatch extends models_1.MovieParser {
         this.fetchTrendingMovies = async () => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/home`);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 const movies = $('#trending-movies')
                     .find('div.flw-item')
                     .map((i, el) => {
@@ -337,7 +337,7 @@ class MovieHdWatch extends models_1.MovieParser {
         this.fetchTrendingTvShows = async () => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/home`);
-                const $ = cheerio_1.load(data);
+                const $ = (0, cheerio_1.load)(data);
                 const tvshows = $('#trending-tv')
                     .find('div.flw-item')
                     .map((i, el) => {
