@@ -19,4 +19,4 @@ export declare const substringAfter: (str: string, toFind: string) => string;
 export declare const substringBefore: (str: string, toFind: string) => string;
 export declare const substringAfterLast: (str: string, toFind: string) => string;
 export declare const substringBeforeLast: (str: string, toFind: string) => string;
-export declare const getHashFromImage: (url: string) => string;
+export declare const getHashFromImage: (url: string) => "" | "hash";
