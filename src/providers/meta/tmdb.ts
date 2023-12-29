@@ -72,7 +72,7 @@ class TMDB extends MovieParser {
       result.totalResults = data.total_results;
       result.totalPages = data.total_pages;
 
-      data.results.forEach((result: any) => {
+      result.results = data.results.map((result: any) => {
         if (result.media_type !== 'person') {
           const date = new Date(result?.release_date || result?.first_air_date);
 
@@ -85,7 +85,7 @@ class TMDB extends MovieParser {
             releaseDate: `${date.getFullYear()}` || '0',
           };
 
-          return result.results.push(movie);
+          return movie;
         } else {
           const user: IPeopleResult = {
             id: result.id,
@@ -95,7 +95,7 @@ class TMDB extends MovieParser {
             movies: [],
           };
 
-          result['known_for'].forEach((movie: any) => {
+          user.movies = result['known_for'].map((movie: any) => {
             const date = new Date(movie?.release_date || movie?.first_air_date);
 
             const xmovie: IMovieResult = {
@@ -107,10 +107,10 @@ class TMDB extends MovieParser {
               releaseDate: `${date.getFullYear()}` || '0',
             };
 
-            return user.movies.push(xmovie);
+            return xmovie;
           });
 
-          return result.results.push(user);
+          return user;
         }
       });
 

@@ -42,7 +42,7 @@ class TMDB extends models_1.MovieParser {
                 result.currentPage = page;
                 result.totalResults = data.total_results;
                 result.totalPages = data.total_pages;
-                data.results.forEach((result) => {
+                result.results = data.results.map((result) => {
                     if (result.media_type !== 'person') {
                         const date = new Date((result === null || result === void 0 ? void 0 : result.release_date) || (result === null || result === void 0 ? void 0 : result.first_air_date));
                         const movie = {
@@ -53,7 +53,7 @@ class TMDB extends models_1.MovieParser {
                             rating: (result === null || result === void 0 ? void 0 : result.vote_average) || 0,
                             releaseDate: `${date.getFullYear()}` || '0',
                         };
-                        return result.results.push(movie);
+                        return movie;
                     }
                     else {
                         const user = {
@@ -63,7 +63,7 @@ class TMDB extends models_1.MovieParser {
                             image: `https://image.tmdb.org/t/p/original${result === null || result === void 0 ? void 0 : result.profile_path}`,
                             movies: [],
                         };
-                        result['known_for'].forEach((movie) => {
+                        user.movies = result['known_for'].map((movie) => {
                             const date = new Date((movie === null || movie === void 0 ? void 0 : movie.release_date) || (movie === null || movie === void 0 ? void 0 : movie.first_air_date));
                             const xmovie = {
                                 id: movie.id,
@@ -73,9 +73,9 @@ class TMDB extends models_1.MovieParser {
                                 rating: (movie === null || movie === void 0 ? void 0 : movie.vote_average) || 0,
                                 releaseDate: `${date.getFullYear()}` || '0',
                             };
-                            return user.movies.push(xmovie);
+                            return xmovie;
                         });
-                        return result.results.push(user);
+                        return user;
                     }
                 });
                 return result;
