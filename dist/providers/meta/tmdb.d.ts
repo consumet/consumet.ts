@@ -11,6 +11,12 @@ declare class TMDB extends MovieParser {
     private provider;
     constructor(apiKey?: string, provider?: MovieParser, proxyConfig?: ProxyConfig, adapter?: AxiosAdapter);
     /**
+     * @param type trending type: tv series, movie, people or all
+     * @param timePeriod trending time period day or week
+     * @param page page number
+     */
+    fetchTrending: (type: TvType.MOVIE | TvType.TVSERIES | TvType.PEOPLE | 'all', timePeriod?: 'day' | 'week', page?: number) => Promise<unknown>;
+    /**
      * @param query search query
      * @param page page number
      */

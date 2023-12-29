@@ -57,6 +57,7 @@ var TvType;
     TvType["TVSERIES"] = "TV Series";
     TvType["MOVIE"] = "Movie";
     TvType["ANIME"] = "Anime";
+    TvType["PEOPLE"] = "People";
 })(TvType || (exports.TvType = TvType = {}));
 var Genres;
 (function (Genres) {
