@@ -22,11 +22,11 @@ class TMDB extends models_1.MovieParser {
          * @param page page number
          */
         this.fetchTrending = async (type, timePeriod = 'day', page = 1) => {
-            const trendingUrl = `${this.apiUrl}/trending/${type === models_1.TvType.MOVIE
+            const trendingUrl = `${this.apiUrl}/trending/${type.toLowerCase() === models_1.TvType.MOVIE.toLowerCase()
                 ? 'movie'
-                : type === models_1.TvType.TVSERIES
+                : type.toLowerCase() === models_1.TvType.TVSERIES.toLowerCase()
                     ? 'tv'
-                    : type === models_1.TvType.PEOPLE
+                    : type.toLowerCase() === models_1.TvType.PEOPLE.toLowerCase()
                         ? 'person'
                         : 'all'}/${timePeriod}?page=${page}&api_key=${this.apiKey}&language=en-US`;
             const result = {

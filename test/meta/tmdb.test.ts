@@ -1,3 +1,4 @@
+import { TvType } from '../../src/models';
 import { META } from '../../src/providers';
 
 jest.setTimeout(120000);
@@ -8,6 +9,26 @@ const tmdb = new META.TMDB();
 
 test('returns a filled array of movie list', async () => {
   const data = await tmdb.search('the flash');
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of trending movie list', async () => {
+  const data = await tmdb.fetchTrending('movie');
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of trending tv-series list', async () => {
+  const data = await tmdb.fetchTrending('TV Series');
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of trending people list', async () => {
+  const data = await tmdb.fetchTrending('People');
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of all trending list', async () => {
+  const data = await tmdb.fetchTrending('all');
   expect(data.results).not.toEqual([]);
 });
 

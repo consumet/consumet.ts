@@ -1,4 +1,5 @@
 import { ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer, MovieParser, TvType, IMovieResult, IMovieInfo, ProxyConfig } from '../../models';
+import { IPeopleResult } from '../../models/types';
 import { AxiosAdapter } from 'axios';
 declare class TMDB extends MovieParser {
     private apiKey;
@@ -15,7 +16,7 @@ declare class TMDB extends MovieParser {
      * @param timePeriod trending time period day or week
      * @param page page number
      */
-    fetchTrending: (type: TvType.MOVIE | TvType.TVSERIES | TvType.PEOPLE | 'all', timePeriod?: 'day' | 'week', page?: number) => Promise<unknown>;
+    fetchTrending: (type: string | 'all', timePeriod?: 'day' | 'week', page?: number) => Promise<ISearch<IMovieResult | IAnimeResult | IPeopleResult>>;
     /**
      * @param query search query
      * @param page page number

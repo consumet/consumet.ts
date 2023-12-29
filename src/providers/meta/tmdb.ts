@@ -42,16 +42,16 @@ class TMDB extends MovieParser {
    * @param page page number
    */
   fetchTrending = async (
-    type: TvType.MOVIE | TvType.TVSERIES | TvType.PEOPLE | 'all',
+    type: string | 'all',
     timePeriod: 'day' | 'week' = 'day',
     page: number = 1
-  ): Promise<unknown> => {
+  ): Promise<ISearch<IMovieResult | IAnimeResult | IPeopleResult>> => {
     const trendingUrl = `${this.apiUrl}/trending/${
-      type === TvType.MOVIE
+      type.toLowerCase() === TvType.MOVIE.toLowerCase()
         ? 'movie'
-        : type === TvType.TVSERIES
+        : type.toLowerCase() === TvType.TVSERIES.toLowerCase()
         ? 'tv'
-        : type === TvType.PEOPLE
+        : type.toLowerCase() === TvType.PEOPLE.toLowerCase()
         ? 'person'
         : 'all'
     }/${timePeriod}?page=${page}&api_key=${this.apiKey}&language=en-US`;
