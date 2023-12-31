@@ -89,8 +89,8 @@ class RapidCloud extends models_1.VideoExtractor {
                         result.sources.push(...this.sources);
                     }
                 }
-                result.intro = intro.end > 1 ? { start: intro.start, end: intro.end } : undefined;
-                result.outro = outro.end > 1 ? { start: outro.start, end: outro.end } : undefined;
+                result.intro = (intro === null || intro === void 0 ? void 0 : intro.end) > 1 ? { start: intro.start, end: intro.end } : undefined;
+                result.outro = (outro === null || outro === void 0 ? void 0 : outro.end) > 1 ? { start: outro.start, end: outro.end } : undefined;
                 result.sources.push({
                     url: sources[0].file,
                     isM3U8: sources[0].file.includes('.m3u8'),

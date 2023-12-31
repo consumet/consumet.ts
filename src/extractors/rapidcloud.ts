@@ -113,8 +113,8 @@ class RapidCloud extends VideoExtractor {
         }
       }
 
-      result.intro = intro.end > 1 ? { start: intro.start, end: intro.end } : undefined;
-      result.outro = outro.end > 1 ? { start: outro.start, end: outro.end } : undefined;
+      result.intro = intro?.end > 1 ? { start: intro.start, end: intro.end } : undefined;
+      result.outro = outro?.end > 1 ? { start: outro.start, end: outro.end } : undefined;
 
       result.sources.push({
         url: sources[0].file,
