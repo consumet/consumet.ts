@@ -26,7 +26,7 @@ class AnimeUnity extends AnimeParser {
 
             if (!$) return { results: [] };
 
-            let items = JSON.parse("" + $('archivio').attr('records') + "")
+            const items = JSON.parse("" + $('archivio').attr('records') + "")
 
             const searchResult: {
                 hasNextPage: boolean;
@@ -36,7 +36,7 @@ class AnimeUnity extends AnimeParser {
                 results: [],
             };
 
-            for (let i in items) {
+            for (const i in items) {
                 searchResult.results.push({
                     id: `${items[i].id}-${items[i].slug}`,
                     title: items[i].title ?? items[i].title_eng,
@@ -59,7 +59,7 @@ class AnimeUnity extends AnimeParser {
      * @param id Anime id
      */
     override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
-        let url = `${this.baseUrl}/anime/${id}`
+        const url = `${this.baseUrl}/anime/${id}`
 
         try {
             const res = await this.client.get(url);
@@ -82,9 +82,9 @@ class AnimeUnity extends AnimeParser {
                 episodes: []
             }
 
-            let items = JSON.parse("" + $('video-player').attr('episodes') + "")
+            const items = JSON.parse("" + $('video-player').attr('episodes') + "")
 
-            for(let i in items) {
+            for(const i in items) {
                 animeInfo.episodes?.push({
                     id: `${id}/${items[i].id}`,
                     number: parseInt(items[i].number),
@@ -107,23 +107,23 @@ class AnimeUnity extends AnimeParser {
             const res = await this.client.get(`${this.baseUrl}/anime/${episodeId}`);
             const $ = load(res.data);
             
-            let episodeSources: ISource = {
+            const episodeSources: ISource = {
                 sources: []
             }
 
-            let streamUrl = $('video-player').attr('embed_url')
+            const streamUrl = $('video-player').attr('embed_url')
             
             if(streamUrl) {
                 const res = await this.client.get(streamUrl);
                 const $ = load(res.data);
 
-                let domain = $('script:contains("window.video")').text()?.match(/url: '(.*)'/)![1]
-                let token = $('script:contains("window.video")').text()?.match(/token': '(.*)'/)![1]
-                let token360p = $('script:contains("window.video")').text()?.match(/token360p': '(.*)'/)![1]
-                let token480p = $('script:contains("window.video")').text()?.match(/token480p': '(.*)'/)![1]
-                let token720p = $('script:contains("window.video")').text()?.match(/token720p': '(.*)'/)![1]
-                let token1080p = $('script:contains("window.video")').text()?.match(/token1080p': '(.*)'/)![1]
-                let expires = $('script:contains("window.video")').text()?.match(/expires': '(.*)'/)![1]
+                const domain = $('script:contains("window.video")').text()?.match(/url: '(.*)'/)![1]
+                const token = $('script:contains("window.video")').text()?.match(/token': '(.*)'/)![1]
+                const token360p = $('script:contains("window.video")').text()?.match(/token360p': '(.*)'/)![1]
+                const token480p = $('script:contains("window.video")').text()?.match(/token480p': '(.*)'/)![1]
+                const token720p = $('script:contains("window.video")').text()?.match(/token720p': '(.*)'/)![1]
+                const token1080p = $('script:contains("window.video")').text()?.match(/token1080p': '(.*)'/)![1]
+                const expires = $('script:contains("window.video")').text()?.match(/expires': '(.*)'/)![1]
 
                 episodeSources.sources.push({
                     url: `${domain}?token=${token}&token360p=${token360p}&token480p=${token480p}&token720p=${token720p}&token1080p=${token1080p}&referer=&expires=${expires}`,
