@@ -39,6 +39,7 @@ This list is in alphabetical order. (except the sub bullet points)
 - [AnimeFox](../providers/animefox.md)
 - [AnimePahe](../providers/animepahe.md)
 - [AnimeSaturn](../providers/animesaturn.md)
+- [AnimeUnity](../providers/animeunity.md)
 - [Gogoanime](../providers/gogoanime.md)
 - [Zoro.to](../providers/zoro.md)
 
