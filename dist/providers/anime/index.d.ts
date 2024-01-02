@@ -8,6 +8,7 @@ import Crunchyroll from './crunchyroll';
 import Bilibili from './bilibili';
 import Marin from './marin';
 import AnimeSaturn from './animesaturn';
+import AnimeUnity from './animeunity';
 declare const _default: {
     Gogoanime: typeof Gogoanime;
     NineAnime: typeof NineAnime;
@@ -19,5 +20,6 @@ declare const _default: {
     Bilibili: typeof Bilibili;
     Marin: typeof Marin;
     AnimeSaturn: typeof AnimeSaturn;
+    AnimeUnity: typeof AnimeUnity;
 };
 export default _default;
