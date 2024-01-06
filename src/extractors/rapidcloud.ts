@@ -11,7 +11,7 @@ class RapidCloud extends VideoExtractor {
   private readonly host = 'https://rapid-cloud.co';
 
   override extract = async (videoUrl: URL): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
-    const result: { sources: IVideo[]; subtitles: ISubtitle[]; intro?: Intro } = {
+    const result: { sources: IVideo[]; subtitles: ISubtitle[]; intro?: Intro; outro?: Intro } = {
       sources: [],
       subtitles: [],
     };
@@ -31,7 +31,7 @@ class RapidCloud extends VideoExtractor {
       );
 
       let {
-        data: { sources, tracks, intro, encrypted },
+        data: { sources, tracks, intro, outro, encrypted },
       } = res;
 
       let decryptKey = await (
@@ -113,12 +113,8 @@ class RapidCloud extends VideoExtractor {
         }
       }
 
-      if (intro?.end > 1) {
-        result.intro = {
-          start: intro.start,
-          end: intro.end,
-        };
-      }
+      result.intro = intro?.end > 1 ? { start: intro.start, end: intro.end } : undefined;
+      result.outro = outro?.end > 1 ? { start: outro.start, end: outro.end } : undefined;
 
       result.sources.push({
         url: sources[0].file,

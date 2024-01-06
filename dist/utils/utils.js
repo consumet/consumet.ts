@@ -157,7 +157,7 @@ exports.substringBeforeLast = substringBeforeLast;
 //   return blurhash.encode(new Uint8ClampedArray(data), info.width, info.height, 4, 3);
 // };
 const getHashFromImage = (url) => {
-    if (url.length === 0 || url === null) {
+    if ((url === null || url === void 0 ? void 0 : url.length) === 0) {
         return '';
     }
     else {
