@@ -341,6 +341,7 @@ export enum TvType {
   TVSERIES = 'TV Series',
   MOVIE = 'Movie',
   ANIME = 'Anime',
+  PEOPLE = 'People',
 }
 
 export interface IMovieEpisode {
@@ -362,6 +363,15 @@ export interface IMovieResult {
   image?: string;
   releaseDate?: string;
   type?: TvType;
+  [x: string]: unknown; // other unkown fields
+}
+
+export interface IPeopleResult {
+  id: string;
+  name: string;
+  rating?: string;
+  image?: string;
+  movies: IMovieResult[];
   [x: string]: unknown; // other unkown fields
 }
 

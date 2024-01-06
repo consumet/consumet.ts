@@ -17,6 +17,74 @@ class TMDB extends models_1.MovieParser {
         this.classPath = 'META.TMDB';
         this.supportedTypes = new Set([models_1.TvType.MOVIE, models_1.TvType.TVSERIES, models_1.TvType.ANIME]);
         /**
+         * @param type trending type: tv series, movie, people or all
+         * @param timePeriod trending time period day or week
+         * @param page page number
+         */
+        this.fetchTrending = async (type, timePeriod = 'day', page = 1) => {
+            const trendingUrl = `${this.apiUrl}/trending/${type.toLowerCase() === models_1.TvType.MOVIE.toLowerCase()
+                ? 'movie'
+                : type.toLowerCase() === models_1.TvType.TVSERIES.toLowerCase()
+                    ? 'tv'
+                    : type.toLowerCase() === models_1.TvType.PEOPLE.toLowerCase()
+                        ? 'person'
+                        : 'all'}/${timePeriod}?page=${page}&api_key=${this.apiKey}&language=en-US`;
+            const result = {
+                currentPage: page,
+                hasNextPage: false,
+                results: [],
+            };
+            try {
+                const { data } = await this.client.get(trendingUrl);
+                if (data.results.length < 1)
+                    return result;
+                result.hasNextPage = page + 1 <= data.total_pages;
+                result.currentPage = page;
+                result.totalResults = data.total_results;
+                result.totalPages = data.total_pages;
+                result.results = data.results.map((result) => {
+                    if (result.media_type !== 'person') {
+                        const date = new Date((result === null || result === void 0 ? void 0 : result.release_date) || (result === null || result === void 0 ? void 0 : result.first_air_date));
+                        const movie = {
+                            id: result.id,
+                            title: (result === null || result === void 0 ? void 0 : result.title) || (result === null || result === void 0 ? void 0 : result.name),
+                            image: `https://image.tmdb.org/t/p/original${result === null || result === void 0 ? void 0 : result.poster_path}`,
+                            type: result.media_type === 'movie' ? models_1.TvType.MOVIE : models_1.TvType.TVSERIES,
+                            rating: (result === null || result === void 0 ? void 0 : result.vote_average) || 0,
+                            releaseDate: `${date.getFullYear()}` || '0',
+                        };
+                        return movie;
+                    }
+                    else {
+                        const user = {
+                            id: result.id,
+                            name: result.name,
+                            rating: result.popularity,
+                            image: `https://image.tmdb.org/t/p/original${result === null || result === void 0 ? void 0 : result.profile_path}`,
+                            movies: [],
+                        };
+                        user.movies = result['known_for'].map((movie) => {
+                            const date = new Date((movie === null || movie === void 0 ? void 0 : movie.release_date) || (movie === null || movie === void 0 ? void 0 : movie.first_air_date));
+                            const xmovie = {
+                                id: movie.id,
+                                title: (movie === null || movie === void 0 ? void 0 : movie.title) || (movie === null || movie === void 0 ? void 0 : movie.name),
+                                image: `https://image.tmdb.org/t/p/original${movie === null || movie === void 0 ? void 0 : movie.poster_path}`,
+                                type: movie.media_type === 'movie' ? models_1.TvType.MOVIE : models_1.TvType.TVSERIES,
+                                rating: (movie === null || movie === void 0 ? void 0 : movie.vote_average) || 0,
+                                releaseDate: `${date.getFullYear()}` || '0',
+                            };
+                            return xmovie;
+                        });
+                        return user;
+                    }
+                });
+                return result;
+            }
+            catch (err) {
+                throw new Error(err.message);
+            }
+        };
+        /**
          * @param query search query
          * @param page page number
          */
