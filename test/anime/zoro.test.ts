@@ -9,17 +9,47 @@ test('returns a filled array of anime list', async () => {
   expect(data.results).not.toEqual([]);
 });
 
+test('returns a filled array of anime list', async () => {
+  const data = await zoro.fetchTopAiring();
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of anime list', async () => {
+  const data = await zoro.fetchMostPopular();
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of anime list', async () => {
+  const data = await zoro.fetchMostFavorite();
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of anime list', async () => {
+  const data = await zoro.fetchLatestCompleted();
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of anime list', async () => {
+  const data = await zoro.fetchRecentlyUpdated();
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of anime list', async () => {
+  const data = await zoro.fetchRecentlyAdded();
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of anime list', async () => {
+  const data = await zoro.fetchTopUpcoming();
+  expect(data.results).not.toEqual([]);
+});
+
 test('returns a filled object of anime data', async () => {
   const res = await zoro.search('Overlord IV');
   const data = await zoro.fetchAnimeInfo(res.results[3].id); // Overlord IV id
   expect(data).not.toBeNull();
   expect(data.description).not.toBeNull();
   expect(data.episodes).not.toEqual([]);
-});
-
-test('returns a filled array of recent animes', async () => {
-  const data = await zoro.fetchRecentEpisodes();
-  expect(data.results).not.toEqual([]);
 });
 
 test('returns a filled object of episode sources', async () => {
