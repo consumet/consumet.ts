@@ -302,11 +302,11 @@ class Zoro extends AnimeParser {
 
       const pagination = $('ul.pagination');
       res.currentPage = parseInt(pagination.find('.page-item.active')?.text());
-      let nextPage = pagination.find('a[title=Next]')?.attr('href');
+      const nextPage = pagination.find('a[title=Next]')?.attr('href');
       if (nextPage != undefined || nextPage != '') {
         res.hasNextPage = true;
       }
-      let totalPages = pagination.find('a[title=Last]').attr('href')?.split('=').pop();
+      const totalPages = pagination.find('a[title=Last]').attr('href')?.split('=').pop();
       if (totalPages === undefined || totalPages === '') {
         res.totalPages = res.currentPage;
       } else {
