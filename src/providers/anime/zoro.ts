@@ -317,14 +317,20 @@ class Zoro extends AnimeParser {
         const card = $(ele);
         const atag = card.find('.film-name a');
         const id = atag.attr('href')?.split('/')[1].split('?')[0];
+        const type = card
+          .find('.fdi-item')
+          ?.first()
+          ?.text()
+          .replace(' (? eps)', '')
+          .replace(/\s\(\d+ eps\)/g, '');
         res.results.push({
           id: id!,
           title: atag.text(),
           url: `${this.baseUrl}${atag.attr('href')}`,
           image: card.find('img')?.attr('data-src'),
-          type: card.find('.fdi-item')?.first()?.text() as MediaFormat,
           duration: card.find('.fdi-duration')?.text(),
           japaneseTitle: atag.attr('data-jname'),
+          type: type as MediaFormat,
           nsfw: card.find('.tick-rate')?.text() === '18+' ? true : false,
           sub: parseInt(card.find('.tick-item.tick-sub')?.text()) || 0,
           dub: parseInt(card.find('.tick-item.tick-dub')?.text()) || 0,

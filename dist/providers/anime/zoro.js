@@ -198,14 +198,16 @@ class Zoro extends models_1.AnimeParser {
                     const card = $(ele);
                     const atag = card.find('.film-name a');
                     const id = (_a = atag.attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
+                    const type = (_c = (_b = card
+                        .find('.fdi-item')) === null || _b === void 0 ? void 0 : _b.first()) === null || _c === void 0 ? void 0 : _c.text().replace(' (? eps)', '').replace(/\s\(\d+ eps\)/g, '');
                     res.results.push({
                         id: id,
                         title: atag.text(),
                         url: `${this.baseUrl}${atag.attr('href')}`,
-                        image: (_b = card.find('img')) === null || _b === void 0 ? void 0 : _b.attr('data-src'),
-                        type: (_d = (_c = card.find('.fdi-item')) === null || _c === void 0 ? void 0 : _c.first()) === null || _d === void 0 ? void 0 : _d.text(),
+                        image: (_d = card.find('img')) === null || _d === void 0 ? void 0 : _d.attr('data-src'),
                         duration: (_e = card.find('.fdi-duration')) === null || _e === void 0 ? void 0 : _e.text(),
                         japaneseTitle: atag.attr('data-jname'),
+                        type: type,
                         nsfw: ((_f = card.find('.tick-rate')) === null || _f === void 0 ? void 0 : _f.text()) === '18+' ? true : false,
                         sub: parseInt((_g = card.find('.tick-item.tick-sub')) === null || _g === void 0 ? void 0 : _g.text()) || 0,
                         dub: parseInt((_h = card.find('.tick-item.tick-dub')) === null || _h === void 0 ? void 0 : _h.text()) || 0,

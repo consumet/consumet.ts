@@ -9,50 +9,13 @@ const zoro = new ANIME.Zoro();
 - [search](#search)
 - [fetchAnimeInfo](#fetchanimeinfo)
 - [fetchEpisodeSources](#fetchepisodesources)
-- [fetchRecentEpisodes](#fetchrecentepisodes)
-
-### fetchRecentEpisodes
-> Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
-
-
-<h4>Parameters</h4>
-
-| Parameter | Type     | Description                                                              |
-| --------- | -------- | ------------------------------------------------------------------------ |
-| page (optional) | `number` | page number (default 1) |
-
-```ts
-zoro.fetchRecentEpisodes().then(data => {
-  console.log(data);
-})
-```
-
-returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
-output:
-```js
-{
-  currentPage: 1,
-  hasNextPage: false,
-  results: [ 
-    {
-      id: 'when-will-ayumu-make-his-move-17444',
-      image: 'https://img.zorores.com/_r/300x400/100/ae/f2/aef2fb998beeb3bbb56f2ba93d8d5d11/aef2fb998beeb3bbb56f2ba93d8d5d11.jpg',
-      title: 'When Will Ayumu Make His Move?',
-      url: 'https://zoro.to/when-will-ayumu-make-his-move-17444',
-      episodeNumber: 5
-    },
-    {
-      id: 'when-will-ayumu-make-his-move-17444',
-      image: 'https://img.zorores.com/_r/300x400/100/ae/f2/aef2fb998beeb3bbb56f2ba93d8d5d11/aef2fb998beeb3bbb56f2ba93d8d5d11.jpg',
-      title: 'When Will Ayumu Make His Move?',
-      url: 'https://zoro.to/when-will-ayumu-make-his-move-17444',
-      episodeNumber: 5
-    },
-    {...}
-    ...
-  ]
-}
-```
+- [fetchTopAiring](#fetchTopAiring)
+- [fetchMostPopular](#fetchMostPopular)
+- [fetchMostFavorite](#fetchMostFavorite)
+- [fetchLatestCompleted](#fetchLatestCompleted)
+- [fetchRecentlyUpdated](#fetchRecentlyUpdated)
+- [fetchRecentlyAdded](#fetchRecentlyAdded)
+- [fetchTopUpcoming](#fetchTopUpcoming)
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
@@ -62,10 +25,10 @@ output:
 
 | Parameter | Type     | Description                                                              |
 | --------- | -------- | ------------------------------------------------------------------------ |
-| query     | `string` | query to search for. (*In this case, We're searching for `Overlord IV`*) |
+| query     | `string` | query to search for. (*In this case, We're searching for `Spy x Family`*) |
 
 ```ts
-zoro.search("Overlord IV").then(data => {
+zoro.search("spy x family").then(data => {
   console.log(data);
 })
 ```
@@ -75,21 +38,31 @@ output:
 ```js
 {
   currentPage: 1,
-  hasNextPage: false,
-  results: [    // zoro.to Searching seems a little strange, and I have nothing to do with it. Ask them why it's so horrible.
+  hasNextPage: true,
+  totalPages: 3,
+  results: [
     {
-      id: 'overlord-ple-ple-pleiades-3543',
-      title: 'Overlord: Ple Ple Pleiades',
-      type: 'Special',
-      image: 'https://img.zorores.com/_r/300x400/100/ae/75/ae756952b89f86eb13279babe6d0f85b/ae756952b89f86eb13279babe6d0f85b.jpg',
-      url: 'https://zoro.to/overlord-ple-ple-pleiades-3543?ref=search'
+      id: 'spy-x-family-17977',
+      title: 'Spy x Family',                           url: 'https://aniwatch.to/spy-x-family-17977?ref=search',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/88/bd/88bd17534dc4884f23027035d23d74e5/88bd17534dc4884f23027035d23d74e5.jpg',
+      type: 'TV',
+      duration: '24m',
+      japaneseTitle: 'Spy x Family',
+      nsfw: false,
+      sub: 12,
+      dub: 12,
+      episodes: 12
     },
     {
-      id: 'overlord-movie-1-the-undead-king-1190',
-      title: 'Overlord Movie 1: The Undead King',
-      type: 'Movie',
-      image: 'https://img.zorores.com/_r/300x400/100/d8/80/d88084810d68914ea90cdf060c590a29/d88084810d68914ea90cdf060c590a29.jpg',
-      url: 'https://zoro.to/overlord-movie-1-the-undead-king-1190?ref=search'
+      id: 'spy-x-family-part-2-18152',                title: 'Spy x Family, Part 2',
+      url: 'https://aniwatch.to/spy-x-family-part-2-18152?ref=search',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/53/d2/53d283223e562b22a14023d8dc1e934d/53d283223e562b22a14023d8dc1e934d.jpg',
+      type: 'TV',
+      duration: '23m',                                 japaneseTitle: 'Spy x Family Part 2',
+      nsfw: false,
+      sub: 13,
+      dub: 13,
+      episodes: 13
     },
     {...}
     ...
@@ -207,6 +180,382 @@ output:
       url: 'https://preview.zorores.com/53/531eb74affebbec2613a6ba0883754f3/thumbnails/sprite.vtt',
       lang: 'Default (maybe)'
     }
+  ]
+}
+```
+
+### fetchTopAiring
+
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                                                              |
+| --------- | -------- | ------------------------------------------------------------------------ |
+| page (optional) | `number` | page number (default 1) |
+
+```ts
+zoro.fetchTopAiring().then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{                                                        currentPage: 1,
+  hasNextPage: true,
+  totalPages: 9,
+  results: [
+    {
+      id: 'one-piece-100',
+      title: 'One Piece',
+      url: 'https://aniwatch.to/one-piece-100',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/54/90/5490cb32786d4f7fef0f40d7266df532/5490cb32786d4f7fef0f40d7266df532.jpg',
+      type: 'TV',
+      duration: '24m',
+      japaneseTitle: 'One Piece',
+      nsfw: false,
+      sub: 1089,
+      dub: 1048,
+      episodes: 0
+    },
+    {
+      id: 'attack-on-titan-the-final-season-part-3-1839',
+      title: 'Attack on Titan: The Final Season Part 3',
+      url: 'https://aniwatch.to/attack-on-titan-the-final-season-part-3-18329',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/54/d3/54d3f59bcc7caf1539c701eb0a064ec9/54d3f59bcc7caf1539c701eb0a064ec9.png',
+      type: 'TV',
+      duration: '61m',
+      japaneseTitle: 'Shingeki no Kyojin: The Final Season - Kanketsu-hen',
+      nsfw: true,
+      sub: 2,
+      dub: 2,
+      episodes: 0
+    },
+    {...}
+    ...
+  ]
+}
+```
+
+### fetchMostPopular
+
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                                                              |
+| --------- | -------- | ------------------------------------------------------------------------ |
+| page (optional) | `number` | page number (default 1) |
+
+```ts
+zoro.fetchMostPopular().then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{                                                        currentPage: 1,
+  hasNextPage: true,
+  totalPages: 50,
+  results: [
+    {
+      id: 'one-piece-100',
+      title: 'One Piece',
+      url: 'https://aniwatch.to/one-piece-100',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/54/90/5490cb32786d4f7fef0f40d7266df532/5490cb32786d4f7fef0f40d7266df532.jpg',
+      type: 'TV',
+      duration: '24m',
+      japaneseTitle: 'One Piece',
+      nsfw: false,
+      sub: 1089,
+      dub: 1048,
+      episodes: 0
+    },
+    {
+      id: 'naruto-shippuden-355',
+      title: 'Naruto: Shippuden',
+      url: 'https://aniwatch.to/naruto-shippuden-355',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/9c/bc/9cbcf87f54194742e7686119089478f8/9cbcf87f54194742e7686119089478f8.jpg',
+      type: 'TV',
+      duration: '23m',
+      japaneseTitle: 'Naruto: Shippuuden',
+      nsfw: false,
+      sub: 500,
+      dub: 500,
+      episodes: 500
+    },
+    {...}
+    ...
+  ]
+}
+```
+
+### fetchMostFavorite
+
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                                                              |
+| --------- | -------- | ------------------------------------------------------------------------ |
+| page (optional) | `number` | page number (default 1) |
+
+```ts
+zoro.fetchMostFavorite().then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{
+  currentPage: 1,
+  hasNextPage: true,
+  totalPages: 166,
+  results: [
+    {
+      id: 'one-piece-100',
+      title: 'One Piece',
+      url: 'https://aniwatch.to/one-piece-100',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/54/90/5490cb32786d4f7fef0f40d7266df532/5490cb32786d4f7fef0f40d7266df532.jpg',
+      type: 'TV',
+      duration: '24m',
+      japaneseTitle: 'One Piece',
+      nsfw: false,
+      sub: 1089,
+      dub: 1048,
+      episodes: 0
+    },
+    {
+      id: 'chainsaw-man-17406',
+      title: 'Chainsaw Man',
+      url: 'https://aniwatch.to/chainsaw-man-17406',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/b3/da/b3da1326e07269ddd8d73475c5dabf2c/b3da1326e07269ddd8d73475c5dabf2c.jpg',
+      type: 'TV',
+      duration: '24m',
+      japaneseTitle: 'Chainsaw Man',
+      nsfw: true,
+      sub: 12,
+      dub: 12,
+      episodes: 12
+    },
+    {...}
+    ...
+  ]
+}
+```
+
+### fetchLatestCompleted
+
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                                                              |
+| --------- | -------- | ------------------------------------------------------------------------ |
+| page (optional) | `number` | page number (default 1) |
+
+```ts
+zoro.fetchLatestCompleted().then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{
+  currentPage: 1,
+  hasNextPage: true,
+  totalPages: 162,
+  results: [
+    {
+      id: 'love-flops-18173',
+      title: 'Love Flops',
+      url: 'https://aniwatch.to/love-flops-18173',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/8c/08/8c08b4fd12e27ac4e1dc4e72af8e9568/8c08b4fd12e27ac4e1dc4e72af8e9568.jpg',
+      type: 'TV',
+      duration: '24m',
+      japaneseTitle: 'Renai Flops',
+      nsfw: true,
+      sub: 12,
+      dub: 7,
+      episodes: 12
+    },
+    {
+      id: 'nurarihyon-no-mago-gekitou-dai-futsal-taikai-nuragumi-w-cup-5796',
+      title: 'Nurarihyon no Mago: Gekitou Dai Futsal Taikai! Nuragumi W Cup!!',
+      url: 'https://aniwatch.to/nurarihyon-no-mago-gekitou-dai-futsal-taikai-nuragumi-w-cup-5796',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/bd/72/bd722d8e64272fb484a7f48e75eb9716/bd722d8e64272fb484a7f48e75eb9716.jpg',
+      type: 'Special',
+      duration: '13m',
+      japaneseTitle: 'Nurarihyon no Mago: Gekitou Dai Futsal Taikai! Nuragumi W Cup!!',
+      nsfw: false,
+      sub: 1,
+      dub: 0,
+      episodes: 0
+    },
+    {...}
+    ...
+  ]
+}
+```
+
+### fetchRecentlyUpdated
+
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                                                              |
+| --------- | -------- | ------------------------------------------------------------------------ |
+| page (optional) | `number` | page number (default 1) |
+
+```ts
+zoro.fetchRecentlyUpdated().then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{
+  currentPage: 1,
+  hasNextPage: true,
+  totalPages: 166,
+  results: [
+    {
+      id: 'pokemon-horizons-the-series-18397',
+      title: 'Pokémon Horizons: The Series',
+      url: 'https://aniwatch.to/pokemon-horizons-the-series-18397',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/4b/14/4b145f650126e400b69e783e3d6cdd2a/4b145f650126e400b69e783e3d6cdd2a.jpg',
+      type: 'TV',
+      duration: '24m',
+      japaneseTitle: 'Pokemon (2023)',
+      nsfw: false,
+      sub: 35,
+      dub: 0,
+      episodes: 0
+    },
+    {
+      id: 'bang-brave-bang-bravern-18733',
+      title: 'Bang Brave Bang Bravern',
+      url: 'https://aniwatch.to/bang-brave-bang-bravern-18733',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/ad/1d/ad1d79d4c929278f23b91f2e787e5a50/ad1d79d4c929278f23b91f2e787e5a50.jpg',
+      type: 'TV',
+      duration: '25m',
+      japaneseTitle: 'Yuuki Bakuhatsu Bang Bravern',
+      nsfw: false,
+      sub: 1,
+      dub: 0,
+      episodes: 0
+    },
+    {...}
+    ...
+  ]
+}
+```
+
+### fetchRecentlyAdded
+
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                                                              |
+| --------- | -------- | ------------------------------------------------------------------------ |
+| page (optional) | `number` | page number (default 1) |
+
+```ts
+zoro.fetchRecentlyAdded().then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{
+  currentPage: 1,
+  hasNextPage: true,
+  totalPages: 162,
+  results: [
+    {
+      id: 'love-flops-18173',
+      title: 'Love Flops',
+      url: 'https://aniwatch.to/love-flops-18173',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/8c/08/8c08b4fd12e27ac4e1dc4e72af8e9568/8c08b4fd12e27ac4e1dc4e72af8e9568.jpg',
+      type: 'TV',
+      duration: '24m',
+      japaneseTitle: 'Renai Flops',
+      nsfw: true,
+      sub: 12,
+      dub: 7,
+      episodes: 12
+    },
+    {
+      id: 'nurarihyon-no-mago-gekitou-dai-futsal-taikai-nuragumi-w-cup-5796',
+      title: 'Nurarihyon no Mago: Gekitou Dai Futsal Taikai! Nuragumi W Cup!!',
+      url: 'https://aniwatch.to/nurarihyon-no-mago-gekitou-dai-futsal-taikai-nuragumi-w-cup-5796',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/bd/72/bd722d8e64272fb484a7f48e75eb9716/bd722d8e64272fb484a7f48e75eb9716.jpg',
+      type: 'Special',
+      duration: '13m',
+      japaneseTitle: 'Nurarihyon no Mago: Gekitou Dai Futsal Taikai! Nuragumi W Cup!!',
+      nsfw: false,
+      sub: 1,
+      dub: 0,
+      episodes: 0
+    },
+    {...}
+    ...
+  ]
+}
+```
+
+### fetchTopUpcoming
+
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                                                              |
+| --------- | -------- | ------------------------------------------------------------------------ |
+| page (optional) | `number` | page number (default 1) |
+
+```ts
+zoro.fetchTopUpcoming().then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{
+  currentPage: 1,
+  hasNextPage: true,
+  totalPages: 6,
+  results: [
+    {
+      id: 'bucchigiri-18781',
+      title: 'Bucchigiri?!',
+      url: 'https://aniwatch.to/bucchigiri-18781',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/72/bf/72bfde46c44a200ff11d82049005d3c8/72bfde46c44a200ff11d82049005d3c8.jpg',
+      type: 'TV',
+      duration: 'Jan 13, 2024',
+      japaneseTitle: 'Bucchigiri?!',
+      nsfw: false,
+      sub: 0,
+      dub: 0,
+      episodes: 0
+    },
+    {
+      id: 'dead-dead-demons-dededede-destruction-18925',
+      title: 'Dead Dead Demons Dededede Destruction',
+      url: 'https://aniwatch.to/dead-dead-demons-dededede-destruction-18925',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/8d/11/8d112670f41684d97015004293a087dc/8d112670f41684d97015004293a087dc.jpg',
+      type: 'Movie',
+      duration: 'Mar 22, 2024',
+      japaneseTitle: 'Dead Dead Demons Dededede Destruction',
+      nsfw: false,
+      sub: 0,
+      dub: 0,
+      episodes: 0
+    },
+    {...}
+    ...
   ]
 }
 ```
