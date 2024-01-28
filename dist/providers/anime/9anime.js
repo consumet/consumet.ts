@@ -13,7 +13,7 @@ class NineAnime extends models_1.AnimeParser {
         this.name = '9Anime';
         this.nineAnimeResolver = '';
         this.apiKey = '';
-        this.baseUrl = 'https://9anime.pl';
+        this.baseUrl = 'https://aniwave.to';
         this.logo = 'https://d1nxzqpcg2bym0.cloudfront.net/google_play/com.my.nineanime/87b2fe48-9c36-11eb-8292-21241b1c199b/128x128';
         this.classPath = 'ANIME.NineAnime';
         this.isWorking = false;
