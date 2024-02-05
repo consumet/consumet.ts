@@ -12,61 +12,6 @@ class Zoro extends models_1.AnimeParser {
         this.logo = 'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
         this.classPath = 'ANIME.Zoro';
         /**
-         * @param query Search query
-         * @param page Page number (optional)
-         */
-        this.search = async (query, page = 1) => {
-            var _a, _b, _c, _d, _e;
-            const res = {
-                currentPage: page,
-                hasNextPage: false,
-                totalPages: 0,
-                results: [],
-            };
-            try {
-                const { data } = await this.client.get(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
-                const $ = (0, cheerio_1.load)(data);
-                res.hasNextPage =
-                    $('.pagination > li').length > 0
-                        ? $('.pagination li.active').length > 0
-                            ? $('.pagination > li').last().hasClass('active')
-                                ? false
-                                : true
-                            : false
-                        : false;
-                res.totalPages =
-                    parseInt((_c = (_b = (_a = $('.pagination > .page-item a[title="Last"]')) === null || _a === void 0 ? void 0 : _a.attr('href')) === null || _b === void 0 ? void 0 : _b.split('=').pop()) !== null && _c !== void 0 ? _c : (_e = (_d = $('.pagination > .page-item.active a')) === null || _d === void 0 ? void 0 : _d.text()) === null || _e === void 0 ? void 0 : _e.trim()) || 0;
-                if (res.totalPages === 0 && !res.hasNextPage)
-                    res.totalPages = 1;
-                $('.film_list-wrap > div.flw-item').each((i, el) => {
-                    var _a;
-                    const id = (_a = $(el)
-                        .find('div:nth-child(1) > a.film-poster-ahref')
-                        .attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
-                    const title = $(el).find('div.film-detail > h3.film-name > a.dynamic-name').attr('title');
-                    // Movie, TV, OVA, ONA, Special, Music
-                    const type = $(el).find('div:nth-child(2) > div:nth-child(2) > span:nth-child(1)').text();
-                    const image = $(el).find('div:nth-child(1) > img.film-poster-img').attr('data-src');
-                    const url = this.baseUrl + $(el).find('div:nth-child(1) > a').last().attr('href');
-                    res.results.push({
-                        id: id,
-                        title: title,
-                        type: type.toUpperCase(),
-                        image: image,
-                        url: url,
-                    });
-                });
-                if (res.results.length === 0) {
-                    res.totalPages = 0;
-                    res.hasNextPage = false;
-                }
-                return res;
-            }
-            catch (err) {
-                throw new Error(err);
-            }
-        };
-        /**
          * @param id Anime id
          */
         this.fetchAnimeInfo = async (id) => {
@@ -222,33 +167,59 @@ class Zoro extends models_1.AnimeParser {
                 .attr('data-id');
         };
         /**
-         * @param page Page number
+         * @param url string
          */
-        this.fetchRecentEpisodes = async (page = 1) => {
+        this.scrapeCard = async (url) => {
+            var _a, _b, _c;
             try {
-                const { data } = await this.client.get(`${this.baseUrl}/recently-updated?page=${page}`);
-                const $ = (0, cheerio_1.load)(data);
-                const hasNextPage = $('.pagination > li').length > 0
-                    ? $('.pagination > li').last().hasClass('active')
-                        ? false
-                        : true
-                    : false;
-                const recentEpisodes = [];
-                $('div.film_list-wrap > div').each((i, el) => {
-                    var _a;
-                    recentEpisodes.push({
-                        id: (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.replace('/', ''),
-                        image: $(el).find('div.film-poster > img').attr('data-src'),
-                        title: $(el).find('div.film-poster > img').attr('alt'),
-                        url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-                        episode: parseInt($(el).find('div.tick-eps').text().replace(/\s/g, '').replace('Ep', '').split('/')[0]),
-                    });
-                });
-                return {
-                    currentPage: page,
-                    hasNextPage: hasNextPage,
-                    results: recentEpisodes,
+                const res = {
+                    currentPage: 0,
+                    hasNextPage: false,
+                    totalPages: 0,
+                    results: [],
                 };
+                const { data } = await this.client.get(url);
+                const $ = (0, cheerio_1.load)(data);
+                const pagination = $('ul.pagination');
+                res.currentPage = parseInt((_a = pagination.find('.page-item.active')) === null || _a === void 0 ? void 0 : _a.text());
+                let nextPage = (_b = pagination.find('a[title=Next]')) === null || _b === void 0 ? void 0 : _b.attr('href');
+                if (nextPage != undefined || nextPage != '') {
+                    res.hasNextPage = true;
+                }
+                let totalPages = (_c = pagination.find('a[title=Last]').attr('href')) === null || _c === void 0 ? void 0 : _c.split('=').pop();
+                if (totalPages === undefined || totalPages === '') {
+                    res.totalPages = res.currentPage;
+                }
+                else {
+                    res.totalPages = parseInt(totalPages);
+                }
+                const card = $('.flw-item').each((i, ele) => {
+                    var _a, _b, _c, _d, _e, _f, _g, _h, _j;
+                    const card = $(ele);
+                    const atag = card.find('.film-name a');
+                    const id = (_a = atag.attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
+                    const type = (_c = (_b = card
+                        .find('.fdi-item')) === null || _b === void 0 ? void 0 : _b.first()) === null || _c === void 0 ? void 0 : _c.text().replace(' (? eps)', '').replace(/\s\(\d+ eps\)/g, '');
+                    res.results.push({
+                        id: id,
+                        title: atag.text(),
+                        url: `${this.baseUrl}${atag.attr('href')}`,
+                        image: (_d = card.find('img')) === null || _d === void 0 ? void 0 : _d.attr('data-src'),
+                        duration: (_e = card.find('.fdi-duration')) === null || _e === void 0 ? void 0 : _e.text(),
+                        japaneseTitle: atag.attr('data-jname'),
+                        type: type,
+                        nsfw: ((_f = card.find('.tick-rate')) === null || _f === void 0 ? void 0 : _f.text()) === '18+' ? true : false,
+                        sub: parseInt((_g = card.find('.tick-item.tick-sub')) === null || _g === void 0 ? void 0 : _g.text()) || 0,
+                        dub: parseInt((_h = card.find('.tick-item.tick-dub')) === null || _h === void 0 ? void 0 : _h.text()) || 0,
+                        episodes: parseInt((_j = card.find('.tick-item.tick-eps')) === null || _j === void 0 ? void 0 : _j.text()) || 0,
+                    });
+                    if (res.results.length === 0) {
+                        res.currentPage = 0;
+                        res.hasNextPage = false;
+                        res.totalPages = 0;
+                    }
+                });
+                return res;
             }
             catch (err) {
                 throw new Error('Something went wrong. Please try again later.');
@@ -261,6 +232,79 @@ class Zoro extends models_1.AnimeParser {
         this.fetchEpisodeServers = (episodeId) => {
             throw new Error('Method not implemented.');
         };
+    }
+    /**
+     * @param query Search query
+     * @param page Page number (optional)
+     */
+    search(query, page = 1) {
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCard(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
+    }
+    /**
+     * @param page number
+     */
+    fetchTopAiring(page = 1) {
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCard(`${this.baseUrl}/top-airing?page=${page}`);
+    }
+    /**
+     * @param page number
+     */
+    fetchMostPopular(page = 1) {
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCard(`${this.baseUrl}/most-popular?page=${page}`);
+    }
+    /**
+     * @param page number
+     */
+    fetchMostFavorite(page = 1) {
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCard(`${this.baseUrl}/most-favorite?page=${page}`);
+    }
+    /**
+     * @param page number
+     */
+    fetchLatestCompleted(page = 1) {
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCard(`${this.baseUrl}/completed?page=${page}`);
+    }
+    /**
+     * @param page number
+     */
+    fetchRecentlyUpdated(page = 1) {
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCard(`${this.baseUrl}/recently-updated?page=${page}`);
+    }
+    /**
+     * @param page number
+     */
+    fetchRecentlyAdded(page = 1) {
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCard(`${this.baseUrl}/recently-added?page=${page}`);
+    }
+    /**
+     * @param page number
+     */
+    fetchTopUpcoming(page = 1) {
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCard(`${this.baseUrl}/top-upcoming?page=${page}`);
     }
 }
 // (async () => {

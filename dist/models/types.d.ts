@@ -312,7 +312,8 @@ export interface ISource {
 export declare enum TvType {
     TVSERIES = "TV Series",
     MOVIE = "Movie",
-    ANIME = "Anime"
+    ANIME = "Anime",
+    PEOPLE = "People"
 }
 export interface IMovieEpisode {
     id: string;
@@ -332,6 +333,14 @@ export interface IMovieResult {
     image?: string;
     releaseDate?: string;
     type?: TvType;
+    [x: string]: unknown;
+}
+export interface IPeopleResult {
+    id: string;
+    name: string;
+    rating?: string;
+    image?: string;
+    movies: IMovieResult[];
     [x: string]: unknown;
 }
 export interface INewsFeed extends INews {

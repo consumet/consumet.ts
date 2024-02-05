@@ -8,7 +8,35 @@ declare class Zoro extends AnimeParser {
      * @param query Search query
      * @param page Page number (optional)
      */
-    search: (query: string, page?: number) => Promise<ISearch<IAnimeResult>>;
+    search(query: string, page?: number): Promise<ISearch<IAnimeResult>>;
+    /**
+     * @param page number
+     */
+    fetchTopAiring(page?: number): Promise<ISearch<IAnimeResult>>;
+    /**
+     * @param page number
+     */
+    fetchMostPopular(page?: number): Promise<ISearch<IAnimeResult>>;
+    /**
+     * @param page number
+     */
+    fetchMostFavorite(page?: number): Promise<ISearch<IAnimeResult>>;
+    /**
+     * @param page number
+     */
+    fetchLatestCompleted(page?: number): Promise<ISearch<IAnimeResult>>;
+    /**
+     * @param page number
+     */
+    fetchRecentlyUpdated(page?: number): Promise<ISearch<IAnimeResult>>;
+    /**
+     * @param page number
+     */
+    fetchRecentlyAdded(page?: number): Promise<ISearch<IAnimeResult>>;
+    /**
+     * @param page number
+     */
+    fetchTopUpcoming(page?: number): Promise<ISearch<IAnimeResult>>;
     /**
      * @param id Anime id
      */
@@ -20,9 +48,9 @@ declare class Zoro extends AnimeParser {
     fetchEpisodeSources: (episodeId: string, server?: StreamingServers) => Promise<ISource>;
     private retrieveServerId;
     /**
-     * @param page Page number
+     * @param url string
      */
-    fetchRecentEpisodes: (page?: number) => Promise<ISearch<IAnimeResult>>;
+    private scrapeCard;
     /**
      * @deprecated
      * @param episodeId Episode id

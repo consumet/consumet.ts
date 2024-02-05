@@ -11,6 +11,7 @@ import {
   ProxyConfig,
   IMovieEpisode,
 } from '../../models';
+import { IPeopleResult } from '../../models/types';
 import { compareTwoStrings } from '../../utils';
 import FlixHQ from '../movies/flixhq';
 import { AxiosAdapter } from 'axios';
@@ -34,6 +35,90 @@ class TMDB extends MovieParser {
     super(proxyConfig, adapter);
     this.provider = provider || new FlixHQ();
   }
+
+  /**
+   * @param type trending type: tv series, movie, people or all
+   * @param timePeriod trending time period day or week
+   * @param page page number
+   */
+  fetchTrending = async (
+    type: string | 'all',
+    timePeriod: 'day' | 'week' = 'day',
+    page: number = 1
+  ): Promise<ISearch<IMovieResult | IAnimeResult | IPeopleResult>> => {
+    const trendingUrl = `${this.apiUrl}/trending/${
+      type.toLowerCase() === TvType.MOVIE.toLowerCase()
+        ? 'movie'
+        : type.toLowerCase() === TvType.TVSERIES.toLowerCase()
+        ? 'tv'
+        : type.toLowerCase() === TvType.PEOPLE.toLowerCase()
+        ? 'person'
+        : 'all'
+    }/${timePeriod}?page=${page}&api_key=${this.apiKey}&language=en-US`;
+
+    const result: ISearch<IMovieResult | IAnimeResult | IPeopleResult> = {
+      currentPage: page,
+      hasNextPage: false,
+      results: [],
+    };
+
+    try {
+      const { data } = await this.client.get(trendingUrl);
+
+      if (data.results.length < 1) return result;
+
+      result.hasNextPage = page + 1 <= data.total_pages;
+      result.currentPage = page;
+      result.totalResults = data.total_results;
+      result.totalPages = data.total_pages;
+
+      result.results = data.results.map((result: any) => {
+        if (result.media_type !== 'person') {
+          const date = new Date(result?.release_date || result?.first_air_date);
+
+          const movie: IMovieResult = {
+            id: result.id,
+            title: result?.title || result?.name,
+            image: `https://image.tmdb.org/t/p/original${result?.poster_path}`,
+            type: result.media_type === 'movie' ? TvType.MOVIE : TvType.TVSERIES,
+            rating: result?.vote_average || 0,
+            releaseDate: `${date.getFullYear()}` || '0',
+          };
+
+          return movie;
+        } else {
+          const user: IPeopleResult = {
+            id: result.id,
+            name: result.name,
+            rating: result.popularity,
+            image: `https://image.tmdb.org/t/p/original${result?.profile_path}`,
+            movies: [],
+          };
+
+          user.movies = result['known_for'].map((movie: any) => {
+            const date = new Date(movie?.release_date || movie?.first_air_date);
+
+            const xmovie: IMovieResult = {
+              id: movie.id,
+              title: movie?.title || movie?.name,
+              image: `https://image.tmdb.org/t/p/original${movie?.poster_path}`,
+              type: movie.media_type === 'movie' ? TvType.MOVIE : TvType.TVSERIES,
+              rating: movie?.vote_average || 0,
+              releaseDate: `${date.getFullYear()}` || '0',
+            };
+
+            return xmovie;
+          });
+
+          return user;
+        }
+      });
+
+      return result;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  };
 
   /**
    * @param query search query

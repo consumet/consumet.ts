@@ -169,7 +169,7 @@ export const substringBeforeLast = (str: string, toFind: string) => {
 // };
 
 export const getHashFromImage = (url: string) => {
-  if (url.length === 0 || url === null) {
+  if (url?.length === 0) {
     return '';
   } else {
     let hash!: string;
