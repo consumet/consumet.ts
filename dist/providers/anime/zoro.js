@@ -182,11 +182,11 @@ class Zoro extends models_1.AnimeParser {
                 const $ = (0, cheerio_1.load)(data);
                 const pagination = $('ul.pagination');
                 res.currentPage = parseInt((_a = pagination.find('.page-item.active')) === null || _a === void 0 ? void 0 : _a.text());
-                let nextPage = (_b = pagination.find('a[title=Next]')) === null || _b === void 0 ? void 0 : _b.attr('href');
+                const nextPage = (_b = pagination.find('a[title=Next]')) === null || _b === void 0 ? void 0 : _b.attr('href');
                 if (nextPage != undefined || nextPage != '') {
                     res.hasNextPage = true;
                 }
-                let totalPages = (_c = pagination.find('a[title=Last]').attr('href')) === null || _c === void 0 ? void 0 : _c.split('=').pop();
+                const totalPages = (_c = pagination.find('a[title=Last]').attr('href')) === null || _c === void 0 ? void 0 : _c.split('=').pop();
                 if (totalPages === undefined || totalPages === '') {
                     res.totalPages = res.currentPage;
                 }
