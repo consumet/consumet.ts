@@ -36,14 +36,14 @@ class VidCloud extends VideoExtractor {
       );
 
       if (!isJson(res.data.sources)) {
-        let { data: key } = await this.client.get('https://flixquest.beamlak.dev/keys.txt');
+        let { data: key } = await this.client.get('https://keys4.fun');
 
         key = substringBefore(substringAfter(key, '"blob-code blob-code-inner js-file-line">'), '</td>');
 
         if (!key) {
           key = await (
-            await this.client.get('https://flixquest.beamlak.dev/keys.txt'')
-          ).data;
+            await this.client.get('https://keys4.fun')
+          ).data.rabbitstream.keys;
         }
 
         const sourcesArray = res.data.sources.split('');
