@@ -36,33 +36,14 @@ class VidCloud extends VideoExtractor {
       );
 
       if (!isJson(res.data.sources)) {
-        let { data: key } = await this.client.get('https://raw.githubusercontent.com/theonlymo/keys/e4/key');
+        const keys = await (await this.client.get('https://keys4.fun')).data["rabbitstream"]["keys"];
+                    const keyString = btoa(String.fromCharCode.apply(null, Array.from(new Uint8Array(keys))));
+                    const decryptedVal = CryptoJS.AES.decrypt(res.data.sources, keyString).toString(CryptoJS.enc.Utf8);
+                    sources = JSON.parse(CryptoJS.AES.decrypt(res.data.sources, keyString).toString(CryptoJS.enc.Utf8));        
 
-        key = substringBefore(substringAfter(key, '"blob-code blob-code-inner js-file-line">'), '</td>');
 
-        if (!key) {
-          key = await (await this.client.get('https://raw.githubusercontent.com/theonlymo/keys/e4/key')).data;
-        }
-
-        const sourcesArray = res.data.sources.split('');
-        let extractedKey = '';
-
-        let currentIndex = 0;
-        for (const index of key) {
-          const start = index[0] + currentIndex;
-          const end = start + index[1];
-          for (let i = start; i < end; i++) {
-            extractedKey += res.data.sources[i];
-            sourcesArray[i] = '';
-          }
-          currentIndex += index[1];
-        }
-
-        key = extractedKey;
-        res.data.sources = sourcesArray.join('');
-
-        const decryptedVal = CryptoJS.AES.decrypt(res.data.sources, key).toString(CryptoJS.enc.Utf8);
         sources = isJson(decryptedVal) ? JSON.parse(decryptedVal) : res.data.sources;
+        
       }
 
       this.sources = sources.map((s: any) => ({
