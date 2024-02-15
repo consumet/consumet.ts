@@ -13,6 +13,7 @@ const crunchyroll_1 = __importDefault(require("./crunchyroll"));
 const bilibili_1 = __importDefault(require("./bilibili"));
 const marin_1 = __importDefault(require("./marin"));
 const animesaturn_1 = __importDefault(require("./animesaturn"));
+const animeunity_1 = __importDefault(require("./animeunity"));
 exports.default = {
     Gogoanime: gogoanime_1.default,
     NineAnime: _9anime_1.default,
@@ -24,5 +25,6 @@ exports.default = {
     Bilibili: bilibili_1.default,
     Marin: marin_1.default,
     AnimeSaturn: animesaturn_1.default,
+    AnimeUnity: animeunity_1.default
 };
 //# sourceMappingURL=index.js.map

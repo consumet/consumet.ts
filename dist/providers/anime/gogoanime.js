@@ -8,7 +8,7 @@ class Gogoanime extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
         this.name = 'Gogoanime';
-        this.baseUrl = 'https://gogoanime3.net';
+        this.baseUrl = 'https://gogoanime3.co';
         this.logo = 'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
         this.classPath = 'ANIME.Gogoanime';
         this.ajaxUrl = 'https://ajax.gogo-load.com/ajax';
@@ -331,7 +331,7 @@ class Gogoanime extends models_1.AnimeParser {
                         title: pName.attr('title'),
                         releaseDate: pRelease.text().replace('Released: ', '').trim(),
                         image: $(el).find('div > a > img').attr('src'),
-                        url: `${this.baseUrl}${a.attr('href')}`
+                        url: `${this.baseUrl}${a.attr('href')}`,
                     });
                 });
                 const hasNextPage = !$('div.anime_name.anime_movies > div > div > ul > li').last().hasClass('selected');
@@ -361,7 +361,7 @@ class Gogoanime extends models_1.AnimeParser {
                         title: pName.attr('title'),
                         releaseDate: pRelease.text().replace('Released: ', '').trim(),
                         image: $(el).find('div > a > img').attr('src'),
-                        url: `${this.baseUrl}${a.attr('href')}`
+                        url: `${this.baseUrl}${a.attr('href')}`,
                     });
                 });
                 const hasNextPage = !$('div.anime_name.anime_movies > div > div > ul > li').last().hasClass('selected');

@@ -30,68 +30,76 @@ class Zoro extends AnimeParser {
    * @param query Search query
    * @param page Page number (optional)
    */
-  override search = async (query: string, page: number = 1): Promise<ISearch<IAnimeResult>> => {
-    const res: ISearch<IAnimeResult> = {
-      currentPage: page,
-      hasNextPage: false,
-      totalPages: 0,
-      results: [],
-    };
-
-    try {
-      const { data } = await this.client.get(
-        `${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`
-      );
-      const $ = load(data);
-
-      res.hasNextPage =
-        $('.pagination > li').length > 0
-          ? $('.pagination li.active').length > 0
-            ? $('.pagination > li').last().hasClass('active')
-              ? false
-              : true
-            : false
-          : false;
-
-      res.totalPages =
-        parseInt(
-          $('.pagination > .page-item a[title="Last"]')?.attr('href')?.split('=').pop() ??
-            $('.pagination > .page-item.active a')?.text()?.trim()
-        ) || 0;
-
-      if (res.totalPages === 0 && !res.hasNextPage) res.totalPages = 1;
-
-      $('.film_list-wrap > div.flw-item').each((i, el) => {
-        const id = $(el)
-          .find('div:nth-child(1) > a.film-poster-ahref')
-          .attr('href')
-          ?.split('/')[1]
-          .split('?')[0];
-        const title = $(el).find('div.film-detail > h3.film-name > a.dynamic-name').attr('title')!;
-        // Movie, TV, OVA, ONA, Special, Music
-        const type = $(el).find('div:nth-child(2) > div:nth-child(2) > span:nth-child(1)').text();
-        const image = $(el).find('div:nth-child(1) > img.film-poster-img').attr('data-src');
-        const url = this.baseUrl + $(el).find('div:nth-child(1) > a').last().attr('href');
-
-        res.results.push({
-          id: id!,
-          title: title,
-          type: type.toUpperCase() as MediaFormat,
-          image: image,
-          url: url,
-        });
-      });
-
-      if (res.results.length === 0) {
-        res.totalPages = 0;
-        res.hasNextPage = false;
-      }
-
-      return res;
-    } catch (err: any) {
-      throw new Error(err);
+  override search(query: string, page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
     }
-  };
+    return this.scrapeCard(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
+  }
+
+  /**
+   * @param page number
+   */
+  fetchTopAiring(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCard(`${this.baseUrl}/top-airing?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchMostPopular(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCard(`${this.baseUrl}/most-popular?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchMostFavorite(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCard(`${this.baseUrl}/most-favorite?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchLatestCompleted(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCard(`${this.baseUrl}/completed?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchRecentlyUpdated(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCard(`${this.baseUrl}/recently-updated?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchRecentlyAdded(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCard(`${this.baseUrl}/recently-added?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchTopUpcoming(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCard(`${this.baseUrl}/top-upcoming?page=${page}`);
+  }
 
   /**
    * @param id Anime id
@@ -279,39 +287,63 @@ class Zoro extends AnimeParser {
   };
 
   /**
-   * @param page Page number
+   * @param url string
    */
-  fetchRecentEpisodes = async (page: number = 1): Promise<ISearch<IAnimeResult>> => {
+  private scrapeCard = async (url: string): Promise<ISearch<IAnimeResult>> => {
     try {
-      const { data } = await this.client.get(`${this.baseUrl}/recently-updated?page=${page}`);
+      const res: ISearch<IAnimeResult> = {
+        currentPage: 0,
+        hasNextPage: false,
+        totalPages: 0,
+        results: [],
+      };
+      const { data } = await this.client.get(url);
       const $ = load(data);
 
-      const hasNextPage =
-        $('.pagination > li').length > 0
-          ? $('.pagination > li').last().hasClass('active')
-            ? false
-            : true
-          : false;
+      const pagination = $('ul.pagination');
+      res.currentPage = parseInt(pagination.find('.page-item.active')?.text());
+      const nextPage = pagination.find('a[title=Next]')?.attr('href');
+      if (nextPage != undefined || nextPage != '') {
+        res.hasNextPage = true;
+      }
+      const totalPages = pagination.find('a[title=Last]').attr('href')?.split('=').pop();
+      if (totalPages === undefined || totalPages === '') {
+        res.totalPages = res.currentPage;
+      } else {
+        res.totalPages = parseInt(totalPages);
+      }
 
-      const recentEpisodes: IAnimeResult[] = [];
-
-      $('div.film_list-wrap > div').each((i, el) => {
-        recentEpisodes.push({
-          id: $(el).find('div.film-poster > a').attr('href')?.replace('/', '')!,
-          image: $(el).find('div.film-poster > img').attr('data-src')!,
-          title: $(el).find('div.film-poster > img').attr('alt')!,
-          url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-          episode: parseInt(
-            $(el).find('div.tick-eps').text().replace(/\s/g, '').replace('Ep', '').split('/')[0]
-          ),
+      const card = $('.flw-item').each((i, ele) => {
+        const card = $(ele);
+        const atag = card.find('.film-name a');
+        const id = atag.attr('href')?.split('/')[1].split('?')[0];
+        const type = card
+          .find('.fdi-item')
+          ?.first()
+          ?.text()
+          .replace(' (? eps)', '')
+          .replace(/\s\(\d+ eps\)/g, '');
+        res.results.push({
+          id: id!,
+          title: atag.text(),
+          url: `${this.baseUrl}${atag.attr('href')}`,
+          image: card.find('img')?.attr('data-src'),
+          duration: card.find('.fdi-duration')?.text(),
+          japaneseTitle: atag.attr('data-jname'),
+          type: type as MediaFormat,
+          nsfw: card.find('.tick-rate')?.text() === '18+' ? true : false,
+          sub: parseInt(card.find('.tick-item.tick-sub')?.text()) || 0,
+          dub: parseInt(card.find('.tick-item.tick-dub')?.text()) || 0,
+          episodes: parseInt(card.find('.tick-item.tick-eps')?.text()) || 0,
         });
-      });
 
-      return {
-        currentPage: page,
-        hasNextPage: hasNextPage,
-        results: recentEpisodes,
-      };
+        if (res.results.length === 0) {
+          res.currentPage = 0;
+          res.hasNextPage = false;
+          res.totalPages = 0;
+        }
+      });
+      return res;
     } catch (err) {
       throw new Error('Something went wrong. Please try again later.');
     }

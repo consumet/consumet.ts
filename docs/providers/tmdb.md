@@ -9,9 +9,62 @@ const tmdb = new META.TMDB();
 
 <h2>Methods</h2>
 
+- [fetchTrending](#fetchtrending)
 - [search](#search)
 - [fetchMediaInfo](#fetchmediainfo)
 - [fetchEpisodeSources](#fetchepisodesources)
+
+### fetchTrending
+
+<h4>Parameters</h4>
+
+| Parameter             | Type     | Description                                                                         |
+| --------------------- | -------- | ----------------------------------------------------------------------------------- |
+| type                  | `string` | type of trending option we want('movie', 'tv series', 'people' or 'all')            |
+| timePeriod (optional) | `string` | the duration of trending we want ('day' or 'week')                                  |
+| page (optional)       | `number` | page number to search for.                                                          |
+
+```ts
+tmdb.fetchTrending("the flash").then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<(IMovieResult | IAnimeResult | IPeopleResult)[]>>`](https://github.com/consumet/consumet.ts/blob/master/src/models/types.ts#L328-L336)*)\
+output:
+```js
+{
+  currentPage: 1,
+  results: [
+        {
+          id: 848326,
+          title: 'Rebel Moon - Part One: A Child of Fire',
+          image: 'https://image.tmdb.org/t/p/original/ui4DrH1cKk2vkHshcUcGt2lKxCm.jpg',
+          type: 'Movie',
+          rating: 6.457,
+          releaseDate: '2023'
+        },
+        {
+          id: 572802,
+          title: 'Aquaman and the Lost Kingdom',
+          image: 'https://image.tmdb.org/t/p/original/8xV47NDrjdZDpkVcCFqkdHa3T0C.jpg',
+          type: 'Movie',
+          rating: 6.551,
+          releaseDate: '2023'
+        },
+        {
+          id: 930564,
+          title: 'Saltburn',
+          image: 'https://image.tmdb.org/t/p/original/qjhahNLSZ705B5JP92YMEYPocPz.jpg',
+          type: 'Movie',
+          rating: 7.2,
+          releaseDate: '2023'
+        },
+        {...}
+        ...
+  ]
+}
+```
 
 ### search
 

@@ -20,7 +20,7 @@ import { GogoCDN, StreamSB } from '../../extractors';
 
 class Gogoanime extends AnimeParser {
   override readonly name = 'Gogoanime';
-  protected override baseUrl = 'https://gogoanime3.net';
+  protected override baseUrl = 'https://gogoanime3.co';
   protected override logo =
     'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
   protected override classPath = 'ANIME.Gogoanime';
@@ -140,7 +140,8 @@ class Gogoanime extends AnimeParser {
       const alias = $('#alias_anime').attr('value');
 
       const html = await this.client.get(
-        `${this.ajaxUrl
+        `${
+          this.ajaxUrl
         }/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`
       );
       const $$ = load(html.data);
@@ -399,7 +400,7 @@ class Gogoanime extends AnimeParser {
           title: pName.attr('title')!,
           releaseDate: pRelease.text().replace('Released: ', '').trim(),
           image: $(el).find('div > a > img').attr('src'),
-          url: `${this.baseUrl}${a.attr('href')}`
+          url: `${this.baseUrl}${a.attr('href')}`,
         });
       });
 
@@ -434,7 +435,7 @@ class Gogoanime extends AnimeParser {
           title: pName.attr('title')!,
           releaseDate: pRelease.text().replace('Released: ', '').trim(),
           image: $(el).find('div > a > img').attr('src'),
-          url: `${this.baseUrl}${a.attr('href')}`
+          url: `${this.baseUrl}${a.attr('href')}`,
         });
       });
 
