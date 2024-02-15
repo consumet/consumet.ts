@@ -42,7 +42,6 @@ class VidCloud extends VideoExtractor {
                     sources = JSON.parse(CryptoJS.AES.decrypt(res.data.sources, keyString).toString(CryptoJS.enc.Utf8));        
 
         sources = isJson(decryptedVal) ? JSON.parse(decryptedVal) : res.data.sources;
-        console.log("SOURCES: "  + sources);
         
       }
 

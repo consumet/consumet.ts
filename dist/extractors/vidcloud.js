@@ -37,7 +37,6 @@ class VidCloud extends models_1.VideoExtractor {
                     const decryptedVal = crypto_js_1.default.AES.decrypt(res.data.sources, keyString).toString(crypto_js_1.default.enc.Utf8);
                     sources = JSON.parse(crypto_js_1.default.AES.decrypt(res.data.sources, keyString).toString(crypto_js_1.default.enc.Utf8));
                     sources = (0, utils_1.isJson)(decryptedVal) ? JSON.parse(decryptedVal) : res.data.sources;
-                    console.log("SOURCES: " + sources);
                 }
                 this.sources = sources.map((s) => ({
                     url: s.file,
