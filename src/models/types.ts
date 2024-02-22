@@ -32,7 +32,7 @@ export interface IAnimeResult {
   [x: string]: any; // other fields
 }
 
-export interface ISearch<T> {
+export interface Pagination<T> {
   currentPage?: number;
   hasNextPage?: boolean;
   totalPages?: number;
@@ -42,6 +42,10 @@ export interface ISearch<T> {
   totalResults?: number;
   results: T[];
 }
+
+export interface ISearch<T> extends Pagination<T> {}
+
+export interface IByCountry<T> extends Pagination<T> {}
 
 export interface Trailer {
   id: string;

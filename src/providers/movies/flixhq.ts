@@ -12,6 +12,7 @@ import {
   ISearch,
 } from '../../models';
 import { MixDrop, VidCloud } from '../../extractors';
+import { IByCountry } from '../../models/types';
 
 class FlixHQ extends MovieParser {
   override readonly name = 'FlixHQ';
@@ -384,14 +385,24 @@ class FlixHQ extends MovieParser {
     }
   };
 
-  fetchByCountry = async (country: string): Promise<IMovieResult[]> => {
+  fetchByCountry = async (country: string, page: number = 1): Promise<IByCountry<IMovieResult>> => {
+    const result: IByCountry<IMovieResult> = {
+      currentPage: page,
+      hasNextPage: false,
+      results: [],
+    };
+    const navSelector = 'div.pre-pagination:nth-child(3) > nav:nth-child(1) > ul:nth-child(1)';
+
     try {
-      const { data } = await this.client.get(`${this.baseUrl}/country/${country}`);
+      const { data } = await this.client.get(`${this.baseUrl}/country/${country}/?page=${page}`);
       const $ = load(data);
 
-      const movies = $('div.container > section.block_area > div.block_area-content > div.film_list-wrap > div.flw-item')
-        .map((i, el) => {
-          const movie = {
+      result.hasNextPage =
+        $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
+
+      $('div.container > section.block_area > div.block_area-content > div.film_list-wrap > div.flw-item')
+        .each((i, el) => {
+          result.results.push({
             id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
             title: $(el).find('div.film-detail > h2.film-name > a').attr('title')!,
             url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
@@ -403,11 +414,10 @@ class FlixHQ extends MovieParser {
                 ? TvType.MOVIE
                 : TvType.TVSERIES,
 
-          }
-          return movie
+          })
         })
         .get();
-      return movies;
+      return result;
     } catch (err) {
       throw new Error((err as Error).message);
     }
@@ -415,11 +425,11 @@ class FlixHQ extends MovieParser {
 }
 
 // (async () => {
-//   const movie = new FlixHQ();
+// const movie = new FlixHQ();
 //   const search = await movie.search('the flash');
 //   // const movieInfo = await movie.fetchEpisodeSources('1168337', 'tv/watch-vincenzo-67955');
 //   // const recentTv = await movie.fetchTrendingTvShows();
-//   console.log(search);
+// console.log(search);
 // })();
 
 export default FlixHQ;
