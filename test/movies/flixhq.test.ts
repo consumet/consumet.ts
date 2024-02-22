@@ -19,3 +19,8 @@ test('returns a filled object of streaming sources', async () => {
   const episodeSources = await flixhq.fetchEpisodeSources('1167571', 'tv/watch-vincenzo-67955');
   expect(episodeSources.sources).not.toEqual([]);
 });
+
+test('returns a filled object of movies/tv data by country', async () => {
+  const data = await flixhq.fetchByCountry('KR');
+  expect(data).not.toEqual([]);
+});
