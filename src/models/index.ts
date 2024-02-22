@@ -11,6 +11,7 @@ import NewsParser from './news-parser';
 import {
   IProviderStats,
   ISearch,
+  IByCountry,
   IAnimeEpisode,
   IAnimeInfo,
   IAnimeResult,
@@ -80,6 +81,7 @@ export {
   GetComicsComicsObject,
   ComicRes,
   ISearch,
+  IByCountry,
   IMangaChapterPage,
   TvType,
   MovieParser,

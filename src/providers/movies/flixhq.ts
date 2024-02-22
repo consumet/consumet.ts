@@ -1,5 +1,4 @@
 import { load } from 'cheerio';
-import { AxiosAdapter } from 'axios';
 
 import {
   MovieParser,
@@ -10,9 +9,9 @@ import {
   ISource,
   IMovieResult,
   ISearch,
+  IByCountry,
 } from '../../models';
 import { MixDrop, VidCloud } from '../../extractors';
-import { IByCountry } from '../../models/types';
 
 class FlixHQ extends MovieParser {
   override readonly name = 'FlixHQ';
