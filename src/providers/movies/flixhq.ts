@@ -383,6 +383,35 @@ class FlixHQ extends MovieParser {
       throw new Error((err as Error).message);
     }
   };
+
+  fetchByCountry = async (country: string): Promise<IMovieResult[]> => {
+    try {
+      const { data } = await this.client.get(`${this.baseUrl}/country/${country}`);
+      const $ = load(data);
+
+      const movies = $('div.container > section.block_area > div.block_area-content > div.film_list-wrap > div.flw-item')
+        .map((i, el) => {
+          const movie = {
+            id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
+            title: $(el).find('div.film-detail > h2.film-name > a').attr('title')!,
+            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+            image: $(el).find('div.film-poster > img').attr('data-src'),
+            season: $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text(),
+            latestEpisode: $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() || null,
+            type:
+              $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
+                ? TvType.MOVIE
+                : TvType.TVSERIES,
+
+          }
+          return movie
+        })
+        .get();
+      return movies;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  };
 }
 
 // (async () => {
