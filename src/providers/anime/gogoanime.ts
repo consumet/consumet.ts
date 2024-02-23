@@ -481,11 +481,7 @@ class Gogoanime extends AnimeParser {
     try {
       res = await this.client.get(`${this.baseUrl}/anime-list.html?page=${page}`);
     } catch (err) {
-      try {
-        res = await this.client.get(`${this.baseUrl}/`);
-      } catch (error) {
-        throw new Error('Something went wrong. Please try again later.');
-      }
+      throw new Error('Something went wrong. Please try again later.');
     }
     try {
       const $ = load(res.data);
