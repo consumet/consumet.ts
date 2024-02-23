@@ -408,29 +408,29 @@ class Gogoanime extends models_1.AnimeParser {
             let res = null;
             try {
                 res = await this.client.get(`${this.baseUrl}/anime-list.html?page=${page}`);
-            }
-            catch (err) {
-                throw new Error('Something went wrong. Please try again later.');
-            }
-            try {
-                const $ = (0, cheerio_1.load)(res.data);
-                $('.anime_list_body .listing li').each((_index, element) => {
-                    var _a;
-                    const img = $('div', $(element).attr('title'));
-                    const a = $(element).find('a');
-                    animeList.push({
-                        id: (_a = a.attr('href')) === null || _a === void 0 ? void 0 : _a.replace(`/category/`, ''),
-                        title: a.text(),
-                        image: $(img).find('img').attr('src'),
-                        url: `${this.baseUrl}${a.attr('href')}`,
+                try {
+                    const $ = (0, cheerio_1.load)(res.data);
+                    $('.anime_list_body .listing li').each((_index, element) => {
+                        var _a;
+                        const img = $('div', $(element).attr('title'));
+                        const a = $(element).find('a');
+                        animeList.push({
+                            id: (_a = a.attr('href')) === null || _a === void 0 ? void 0 : _a.replace(`/category/`, ''),
+                            title: a.text(),
+                            image: $(img).find('img').attr('src'),
+                            url: `${this.baseUrl}${a.attr('href')}`,
+                        });
                     });
-                });
-                const hasNextPage = !$('div.anime_name.anime_list > div > div > ul > li').last().hasClass('selected');
-                return {
-                    currentPage: page,
-                    hasNextPage: hasNextPage,
-                    results: animeList,
-                };
+                    const hasNextPage = !$('div.anime_name.anime_list > div > div > ul > li').last().hasClass('selected');
+                    return {
+                        currentPage: page,
+                        hasNextPage: hasNextPage,
+                        results: animeList,
+                    };
+                }
+                catch (err) {
+                    throw new Error('Something went wrong. Please try again later.');
+                }
             }
             catch (err) {
                 throw new Error('Something went wrong. Please try again later.');
