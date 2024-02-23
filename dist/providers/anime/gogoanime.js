@@ -410,12 +410,7 @@ class Gogoanime extends models_1.AnimeParser {
                 res = await this.client.get(`${this.baseUrl}/anime-list.html?page=${page}`);
             }
             catch (err) {
-                try {
-                    res = await this.client.get(`${this.baseUrl}/`);
-                }
-                catch (error) {
-                    throw new Error('Something went wrong. Please try again later.');
-                }
+                throw new Error('Something went wrong. Please try again later.');
             }
             try {
                 const $ = (0, cheerio_1.load)(res.data);
