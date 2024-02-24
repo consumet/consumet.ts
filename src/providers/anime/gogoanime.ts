@@ -93,11 +93,11 @@ class Gogoanime extends AnimeParser {
         .trim();
       animeInfo.url = id;
       animeInfo.image = $('div.anime_info_body_bg > img').attr('src');
-      animeInfo.releaseDate = $('div.anime_info_body_bg > p:nth-child(7)')
+      animeInfo.releaseDate = $('div.anime_info_body_bg > p:nth-child(8)')
         .text()
         .trim()
         .split('Released: ')[1];
-      animeInfo.description = $('div.anime_info_body_bg > p:nth-child(5)')
+      animeInfo.description = $('div.anime_info_body_bg > div:nth-child(6)')
         .text()
         .trim()
         .replace('Plot Summary: ', '');
@@ -111,7 +111,7 @@ class Gogoanime extends AnimeParser {
 
       animeInfo.status = MediaStatus.UNKNOWN;
 
-      switch ($('div.anime_info_body_bg > p:nth-child(8) > a').text().trim()) {
+      switch ($('div.anime_info_body_bg > p:nth-child(9) > a').text().trim()) {
         case 'Ongoing':
           animeInfo.status = MediaStatus.ONGOING;
           break;
@@ -125,12 +125,12 @@ class Gogoanime extends AnimeParser {
           animeInfo.status = MediaStatus.UNKNOWN;
           break;
       }
-      animeInfo.otherName = $('div.anime_info_body_bg > p:nth-child(9)')
+      animeInfo.otherName = $('div.anime_info_body_bg > p:nth-child(10)')
         .text()
         .replace('Other name: ', '')
         .replace(/;/g, ',');
 
-      $('div.anime_info_body_bg > p:nth-child(6) > a').each((i, el) => {
+      $('div.anime_info_body_bg > p:nth-child(7) > a').each((i, el) => {
         animeInfo.genres?.push($(el).attr('title')!.toString());
       });
 
