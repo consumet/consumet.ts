@@ -480,29 +480,25 @@ class Gogoanime extends AnimeParser {
     let res = null;
     try {
       res = await this.client.get(`${this.baseUrl}/anime-list.html?page=${page}`);
-      try {
-        const $ = load(res.data);
-        $('.anime_list_body .listing li').each((_index, element) => {
-          const img = $('div', $(element).attr('title')!);
-          const a = $(element).find('a');
-          animeList.push(
-            {
-              id: a.attr('href')?.replace(`/category/`, '')!,
-              title: a.text(),
-              image: $(img).find('img').attr('src'),
-              url: `${this.baseUrl}${a.attr('href')}`,
-            }
-          );
-        });
-        const hasNextPage = !$('div.anime_name.anime_list > div > div > ul > li').last().hasClass('selected');
-        return {
-          currentPage: page,
-          hasNextPage: hasNextPage,
-          results: animeList,
-        };
-      } catch (err) {
-        throw new Error('Something went wrong. Please try again later.');
-      }
+      const $ = load(res.data);
+      $('.anime_list_body .listing li').each((_index, element) => {
+        const img = $('div', $(element).attr('title')!);
+        const a = $(element).find('a');
+        animeList.push(
+          {
+            id: a.attr('href')?.replace(`/category/`, '')!,
+            title: a.text(),
+            image: $(img).find('img').attr('src'),
+            url: `${this.baseUrl}${a.attr('href')}`,
+          }
+        );
+      });
+      const hasNextPage = !$('div.anime_name.anime_list > div > div > ul > li').last().hasClass('selected');
+      return {
+        currentPage: page,
+        hasNextPage: hasNextPage,
+        results: animeList,
+      };
     } catch (err) {
       throw new Error('Something went wrong. Please try again later.');
     }
