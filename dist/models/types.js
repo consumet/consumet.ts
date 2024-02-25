@@ -13,7 +13,7 @@ var MediaFormat;
     MediaFormat["MANGA"] = "MANGA";
     MediaFormat["NOVEL"] = "NOVEL";
     MediaFormat["ONE_SHOT"] = "ONE_SHOT";
-})(MediaFormat || (exports.MediaFormat = MediaFormat = {}));
+})(MediaFormat = exports.MediaFormat || (exports.MediaFormat = {}));
 var StreamingServers;
 (function (StreamingServers) {
     StreamingServers["AsianLoad"] = "asianload";
@@ -33,7 +33,7 @@ var StreamingServers;
     StreamingServers["StreamHub"] = "streamhub";
     StreamingServers["StreamWish"] = "streamwish";
     StreamingServers["VidMoly"] = "vidmoly";
-})(StreamingServers || (exports.StreamingServers = StreamingServers = {}));
+})(StreamingServers = exports.StreamingServers || (exports.StreamingServers = {}));
 var MediaStatus;
 (function (MediaStatus) {
     MediaStatus["ONGOING"] = "Ongoing";
@@ -42,13 +42,13 @@ var MediaStatus;
     MediaStatus["CANCELLED"] = "Cancelled";
     MediaStatus["NOT_YET_AIRED"] = "Not yet aired";
     MediaStatus["UNKNOWN"] = "Unknown";
-})(MediaStatus || (exports.MediaStatus = MediaStatus = {}));
+})(MediaStatus = exports.MediaStatus || (exports.MediaStatus = {}));
 var SubOrSub;
 (function (SubOrSub) {
     SubOrSub["SUB"] = "sub";
     SubOrSub["DUB"] = "dub";
     SubOrSub["BOTH"] = "both";
-})(SubOrSub || (exports.SubOrSub = SubOrSub = {}));
+})(SubOrSub = exports.SubOrSub || (exports.SubOrSub = {}));
 /**
  * Used **only** for movie/tvshow providers
  */
@@ -58,7 +58,7 @@ var TvType;
     TvType["MOVIE"] = "Movie";
     TvType["ANIME"] = "Anime";
     TvType["PEOPLE"] = "People";
-})(TvType || (exports.TvType = TvType = {}));
+})(TvType = exports.TvType || (exports.TvType = {}));
 var Genres;
 (function (Genres) {
     Genres["ACTION"] = "Action";
@@ -79,7 +79,7 @@ var Genres;
     Genres["SPORTS"] = "Sports";
     Genres["SUPERNATURAL"] = "Supernatural";
     Genres["THRILLER"] = "Thriller";
-})(Genres || (exports.Genres = Genres = {}));
+})(Genres = exports.Genres || (exports.Genres = {}));
 var Topics;
 (function (Topics) {
     Topics["ANIME"] = "anime";
@@ -94,5 +94,5 @@ var Topics;
     Topics["PEOPLE"] = "people";
     Topics["MERCH"] = "merch";
     Topics["EVENTS"] = "events";
-})(Topics || (exports.Topics = Topics = {}));
+})(Topics = exports.Topics || (exports.Topics = {}));
 //# sourceMappingURL=types.js.map
