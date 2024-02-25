@@ -70,11 +70,11 @@ class Gogoanime extends models_1.AnimeParser {
                     .trim();
                 animeInfo.url = id;
                 animeInfo.image = $('div.anime_info_body_bg > img').attr('src');
-                animeInfo.releaseDate = $('div.anime_info_body_bg > p:nth-child(7)')
+                animeInfo.releaseDate = $('div.anime_info_body_bg > p:nth-child(8)')
                     .text()
                     .trim()
                     .split('Released: ')[1];
-                animeInfo.description = $('div.anime_info_body_bg > p:nth-child(5)')
+                animeInfo.description = $('div.anime_info_body_bg > div:nth-child(6)')
                     .text()
                     .trim()
                     .replace('Plot Summary: ', '');
@@ -84,7 +84,7 @@ class Gogoanime extends models_1.AnimeParser {
                     .trim()
                     .toUpperCase();
                 animeInfo.status = models_1.MediaStatus.UNKNOWN;
-                switch ($('div.anime_info_body_bg > p:nth-child(8) > a').text().trim()) {
+                switch ($('div.anime_info_body_bg > p:nth-child(9) > a').text().trim()) {
                     case 'Ongoing':
                         animeInfo.status = models_1.MediaStatus.ONGOING;
                         break;
@@ -98,11 +98,11 @@ class Gogoanime extends models_1.AnimeParser {
                         animeInfo.status = models_1.MediaStatus.UNKNOWN;
                         break;
                 }
-                animeInfo.otherName = $('div.anime_info_body_bg > p:nth-child(9)')
+                animeInfo.otherName = $('div.anime_info_body_bg > p:nth-child(10)')
                     .text()
                     .replace('Other name: ', '')
                     .replace(/;/g, ',');
-                $('div.anime_info_body_bg > p:nth-child(6) > a').each((i, el) => {
+                $('div.anime_info_body_bg > p:nth-child(7) > a').each((i, el) => {
                     var _a;
                     (_a = animeInfo.genres) === null || _a === void 0 ? void 0 : _a.push($(el).attr('title').toString());
                 });
