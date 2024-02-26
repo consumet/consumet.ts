@@ -10,8 +10,9 @@ declare class AnimeUnity extends AnimeParser {
     search: (query: string) => Promise<ISearch<IAnimeResult>>;
     /**
      * @param id Anime id
+     * @param page Page number
      */
-    fetchAnimeInfo: (id: string) => Promise<IAnimeInfo>;
+    fetchAnimeInfo: (id: string, page?: number) => Promise<IAnimeInfo>;
     /**
      *
      * @param episodeId Episode id
