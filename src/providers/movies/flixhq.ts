@@ -9,7 +9,6 @@ import {
   ISource,
   IMovieResult,
   ISearch,
-  IByCountry,
 } from '../../models';
 import { MixDrop, VidCloud } from '../../extractors';
 
@@ -384,8 +383,8 @@ class FlixHQ extends MovieParser {
     }
   };
 
-  fetchByCountry = async (country: string, page: number = 1): Promise<IByCountry<IMovieResult>> => {
-    const result: IByCountry<IMovieResult> = {
+  fetchByCountry = async (country: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
+    const result: ISearch<IMovieResult> = {
       currentPage: page,
       hasNextPage: false,
       results: [],
@@ -428,7 +427,8 @@ class FlixHQ extends MovieParser {
 //   const search = await movie.search('the flash');
 //   // const movieInfo = await movie.fetchEpisodeSources('1168337', 'tv/watch-vincenzo-67955');
 //   // const recentTv = await movie.fetchTrendingTvShows();
-// console.log(search);
-// })();
+//   // const search = await movie.fetchByCountry('KR')
+//   // console.log(search);
+//})();
 
 export default FlixHQ;
