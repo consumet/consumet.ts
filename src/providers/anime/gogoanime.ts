@@ -299,7 +299,7 @@ class Gogoanime extends AnimeParser {
         recentEpisodes.push({
           id: $(el).find('a').attr('href')?.split('/')[1]?.split('-episode')[0]!,
           episodeId: $(el).find('a').attr('href')?.split('/')[1]!,
-          episodeNumber: parseInt($(el).find('p.episode').text().replace('Episode ', '')),
+          episodeNumber: parseFloat($(el).find('p.episode').text().replace('Episode ', '')),
           title: $(el).find('p.name > a').attr('title')!,
           image: $(el).find('div > a > img').attr('src'),
           url: `${this.baseUrl}${$(el).find('a').attr('href')?.trim()}`,
