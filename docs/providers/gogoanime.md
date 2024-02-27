@@ -9,6 +9,7 @@ const gogoanime = new ANIME.Gogoanime();
 - [search](#search)
 - [fetchRecentEpisodes](#fetchrecentepisodes)
 - [fetchTopAiring](#fetchtopairing)
+- [fetchAnimeList](#fetchanimelist)
 - [fetchAnimeInfo](#fetchanimeinfo)
 - [fetchEpisodeSources](#fetchepisodesources)
 - [fetchEpisodeServers](#fetchepisodeservers)
@@ -122,6 +123,42 @@ output:
       image: 'https://gogocdn.net/cover/overlord-iv.png',
       url: 'https://gogoanime.gg/category/overlord-iv',
       genres: [ 'Action', 'Fantasy', 'Game', 'Magic', 'Supernatural' ]
+    }
+    {...}
+    ...
+  ]
+}
+```
+
+### fetchAnimeList
+
+return gogo anime list.
+
+<h4>Parameters</h4>
+
+| Parameter       | Type     | Description              |
+| --------------- | -------- | ------------------------ |
+| page (optional) | `number` | page number (default: 1) |
+
+```ts
+gogoanime.fetchAnimeList().then(data => {
+  console.log(data);
+})
+```
+
+output:
+```js
+{
+  currentPage: 1,
+  hasNextPage: true,
+  results: [
+    {
+      id: 'hackgu-returner',
+      title: '.Hack//G.U. Returner',
+      image: 'https://gogocdn.net/images/anime/5745.jpg',
+      url: 'https://gogoanime3.co/category/hackgu-returner',
+      genres: [ 'Adventure', 'Drama', 'Game', 'Harem', 'Martial Arts', 'Seinen' ],
+      releaseDate: 'Released: 2007'
     }
     {...}
     ...

@@ -482,6 +482,15 @@ class Gogoanime extends AnimeParser {
       res = await this.client.get(`${this.baseUrl}/anime-list.html?page=${page}`);
       const $ = load(res.data);
       $('.anime_list_body .listing li').each((_index, element) => {
+        const genres: string[] = [];
+        const entryBody = $('p.type', $(element).attr('title')!);
+        const genresEl = entryBody.first();
+        genresEl.find('a').each((_idx, genreAnchor) => {
+          genres.push($(genreAnchor).attr('title')!);
+        });
+
+        const releaseDate = $(entryBody.get(1)).text();
+
         const img = $('div', $(element).attr('title')!);
         const a = $(element).find('a');
         animeList.push(
@@ -490,6 +499,8 @@ class Gogoanime extends AnimeParser {
             title: a.text(),
             image: $(img).find('img').attr('src'),
             url: `${this.baseUrl}${a.attr('href')}`,
+            genres,
+            releaseDate
           }
         );
       });
