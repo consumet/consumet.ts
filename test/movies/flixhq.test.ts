@@ -24,3 +24,8 @@ test('returns a filled object of movies/tv data by country', async () => {
   const data = await flixhq.fetchByCountry('KR');
   expect(data.results).not.toEqual([]);
 });
+
+test('returns a filled object of movies/tv data by genre', async () => {
+  const data = await flixhq.fetchByGenre('drama');
+  expect(data.results).not.toEqual([]);
+});
