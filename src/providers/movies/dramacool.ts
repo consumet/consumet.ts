@@ -71,10 +71,10 @@ class DramaCool extends MovieParser {
 
       mediaInfo.id = realMediaId;     
 
-      let duration = $('div.details div.info p:contains("Duration:")').first().text().trim(); 
+      const duration = $('div.details div.info p:contains("Duration:")').first().text().trim(); 
       if ( duration != "" ) 
         mediaInfo.duration = duration.replace("Duration:", "").trim();   
-      let status = $('div.details div.info p:contains("Status:")').find('a').first().text().trim();
+      const status = $('div.details div.info p:contains("Status:")').find('a').first().text().trim();
       switch (status) {
           case 'Ongoing':
               mediaInfo.status = MediaStatus.ONGOING;
@@ -87,7 +87,7 @@ class DramaCool extends MovieParser {
               break;
       }     
       mediaInfo.genres = [];
-      let genres = $('div.details div.info p:contains("Genre:")');
+      const genres = $('div.details div.info p:contains("Genre:")');
       genres.each((_index, element) => {
           $(element).find('a').each((_, anchorElement) => {
               mediaInfo.genres?.push($(anchorElement).text());
