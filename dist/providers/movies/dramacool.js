@@ -50,12 +50,34 @@ class DramaCool extends models_1.MovieParser {
                 const { data } = await this.client.get(mediaId);
                 const $ = (0, cheerio_1.load)(data);
                 mediaInfo.id = realMediaId;
+                let duration = $('div.details div.info p:contains("Duration:")').text().trim();
+                if (duration != "")
+                    mediaInfo.duration = duration.replace("Duration:", "").trim();
+                let status = $('div.details div.info p:contains("Status:")').find('a').first().text().trim();
+                switch (status) {
+                    case 'Ongoing':
+                        mediaInfo.status = models_1.MediaStatus.ONGOING;
+                        break;
+                    case 'Completed':
+                        mediaInfo.status = models_1.MediaStatus.COMPLETED;
+                        break;
+                    default:
+                        mediaInfo.status = models_1.MediaStatus.UNKNOWN;
+                        break;
+                }
+                mediaInfo.genres = [];
+                let genres = $('div.details div.info p:contains("Genre:")');
+                genres.each((_index, element) => {
+                    $(element).find('a').each((_, anchorElement) => {
+                        var _a;
+                        (_a = mediaInfo.genres) === null || _a === void 0 ? void 0 : _a.push($(anchorElement).text());
+                    });
+                });
                 mediaInfo.title = $('.info > h1:nth-child(1)').text();
                 mediaInfo.otherNames = $('.other_name > a')
                     .map((i, el) => $(el).text().trim())
                     .get();
                 mediaInfo.image = $('div.details > div.img > img').attr('src');
-                // get the 3rd p tag
                 mediaInfo.description = $('div.details div.info p:nth-child(6)').text();
                 mediaInfo.releaseDate = this.removeContainsFromString($('div.details div.info p:contains("Released:")').text(), 'Released');
                 mediaInfo.episodes = [];

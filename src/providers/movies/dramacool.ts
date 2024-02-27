@@ -11,6 +11,7 @@ import {
   IMovieResult,
   ISearch,
   ProxyConfig,
+  MediaStatus,
 } from '../../models';
 import { MixDrop, AsianLoad, StreamTape, StreamSB } from '../../extractors';
 
@@ -68,13 +69,36 @@ class DramaCool extends MovieParser {
       const { data } = await this.client.get(mediaId);
       const $ = load(data);
 
-      mediaInfo.id = realMediaId;
+      mediaInfo.id = realMediaId;     
+
+      let duration = $('div.details div.info p:contains("Duration:")').text().trim(); 
+      if ( duration != "" ) 
+        mediaInfo.duration = duration.replace("Duration:", "").trim();   
+      let status = $('div.details div.info p:contains("Status:")').find('a').first().text().trim();
+      switch (status) {
+          case 'Ongoing':
+              mediaInfo.status = MediaStatus.ONGOING;
+              break;
+          case 'Completed':
+              mediaInfo.status = MediaStatus.COMPLETED;
+              break;
+          default:
+              mediaInfo.status = MediaStatus.UNKNOWN;
+              break;
+      }     
+      mediaInfo.genres = [];
+      let genres = $('div.details div.info p:contains("Genre:")');
+      genres.each((_index, element) => {
+          $(element).find('a').each((_, anchorElement) => {
+              mediaInfo.genres?.push($(anchorElement).text());
+          });
+      });
+
       mediaInfo.title = $('.info > h1:nth-child(1)').text();
       mediaInfo.otherNames = $('.other_name > a')
         .map((i, el) => $(el).text().trim())
         .get();
       mediaInfo.image = $('div.details > div.img > img').attr('src');
-      // get the 3rd p tag
       mediaInfo.description = $('div.details div.info p:nth-child(6)').text();
       mediaInfo.releaseDate = this.removeContainsFromString(
         $('div.details div.info p:contains("Released:")').text(),
