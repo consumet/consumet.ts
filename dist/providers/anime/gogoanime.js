@@ -411,6 +411,13 @@ class Gogoanime extends models_1.AnimeParser {
                 const $ = (0, cheerio_1.load)(res.data);
                 $('.anime_list_body .listing li').each((_index, element) => {
                     var _a;
+                    const genres = [];
+                    const entryBody = $('p.type', $(element).attr('title'));
+                    const genresEl = entryBody.first();
+                    genresEl.find('a').each((_idx, genreAnchor) => {
+                        genres.push($(genreAnchor).attr('title'));
+                    });
+                    const releaseDate = $(entryBody.get(1)).text();
                     const img = $('div', $(element).attr('title'));
                     const a = $(element).find('a');
                     animeList.push({
@@ -418,6 +425,8 @@ class Gogoanime extends models_1.AnimeParser {
                         title: a.text(),
                         image: $(img).find('img').attr('src'),
                         url: `${this.baseUrl}${a.attr('href')}`,
+                        genres,
+                        releaseDate
                     });
                 });
                 const hasNextPage = !$('div.anime_name.anime_list > div > div > ul > li').last().hasClass('selected');
