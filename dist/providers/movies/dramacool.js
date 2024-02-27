@@ -50,7 +50,7 @@ class DramaCool extends models_1.MovieParser {
                 const { data } = await this.client.get(mediaId);
                 const $ = (0, cheerio_1.load)(data);
                 mediaInfo.id = realMediaId;
-                let duration = $('div.details div.info p:contains("Duration:")').text().trim();
+                let duration = $('div.details div.info p:contains("Duration:")').first().text().trim();
                 if (duration != "")
                     mediaInfo.duration = duration.replace("Duration:", "").trim();
                 let status = $('div.details div.info p:contains("Status:")').find('a').first().text().trim();

@@ -71,7 +71,7 @@ class DramaCool extends MovieParser {
 
       mediaInfo.id = realMediaId;     
 
-      let duration = $('div.details div.info p:contains("Duration:")').text().trim(); 
+      let duration = $('div.details div.info p:contains("Duration:")').first().text().trim(); 
       if ( duration != "" ) 
         mediaInfo.duration = duration.replace("Duration:", "").trim();   
       let status = $('div.details div.info p:contains("Status:")').find('a').first().text().trim();
