@@ -11,6 +11,7 @@
         "prepare": "husky install",
         "test": "jest",
         "test:gogoanime": "jest ./test/anime/gogoanime.test.ts",
+        "test:animeunity": "jest ./test/anime/animeunity.test.ts",
         "test:anime": "jest ./test/anime",
         "test:books": "jest ./test/books/libgen.test.ts",
         "test:comics": "jest ./test/comics",
@@ -56,7 +57,7 @@
     "dependencies": {
         "ascii-url-encoder": "^1.2.0",
         "axios": "^0.27.2",
-        "cheerio": "1.0.0-rc.12",
+        "cheerio": "^1.0.0-rc.12",
         "crypto-js": "^4.1.1",
         "form-data": "^4.0.0"
     },

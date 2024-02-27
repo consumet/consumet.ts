@@ -57,15 +57,29 @@ class AnimeUnity extends AnimeParser {
 
     /**
      * @param id Anime id
+     * @param page Page number
      */
-    override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
+    override fetchAnimeInfo = async (id: string, page: number = 1): Promise<IAnimeInfo> => {
         const url = `${this.baseUrl}/anime/${id}`
-
+        const episodesPerPage = 120
+        const lastPageEpisode = page*episodesPerPage
+        const firstPageEpisode = lastPageEpisode-119
+        const url2 = `${this.baseUrl}/info_api/${id}/1?start_range=${firstPageEpisode}&end_range=${lastPageEpisode}`
+        
         try {
             const res = await this.client.get(url);
             const $ = load(res.data);
+            
+            const totalEpisodes = parseInt($('video-player')?.attr('episodes_count') ?? '0')
+            const totalPages = Math.round(totalEpisodes/120) + 1
+
+            if(page < 1 || page > totalPages)
+                throw new Error(`Argument 'page' for ${id} must be between 1 and ${totalPages}!`);
 
             const animeInfo: IAnimeInfo = {
+                currentPage: page,
+                hasNextPage: totalPages > page,
+                totalPages: totalPages,
                 id: id,
                 title: $('h1.title')?.text().trim(),
                 url: url,
@@ -74,7 +88,7 @@ class AnimeUnity extends AnimeParser {
                     $('.info-wrapper.pt-3.pb-3 small')?.map((i, element): string => {
                         return $(element).text().replace(',', '').trim()
                     }).toArray() ?? undefined,
-                totalEpisodes: parseInt($('video-player')?.attr('episodes_count') ?? '0'),
+                totalEpisodes: totalEpisodes,
                 image: $('img.cover')?.attr('src'),
                 // image: $('meta[property="og:image"]')?.attr('content'),
                 cover: $('.banner')?.attr('src') ?? $('.banner')?.attr('style')?.replace('background: url(', ''),
@@ -82,7 +96,12 @@ class AnimeUnity extends AnimeParser {
                 episodes: []
             }
 
-            const items = JSON.parse("" + $('video-player').attr('episodes') + "")
+            // fetch episodes method 1 (only first page can be fetchedd)
+            // const items = JSON.parse("" + $('video-player').attr('episodes') + "")
+
+            // fetch episodes method 2 (all pages can be fetched)
+            const res2 = await this.client.get(url2);
+            const items = res2.data.episodes
 
             for(const i in items) {
                 animeInfo.episodes?.push({
