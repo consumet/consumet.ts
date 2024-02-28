@@ -10,14 +10,13 @@ import {
   ISource,
   IMovieResult,
   ISearch,
-  ProxyConfig,
   MediaStatus,
 } from '../../models';
 import { MixDrop, AsianLoad, StreamTape, StreamSB } from '../../extractors';
 
 class DramaCool extends MovieParser {
   override readonly name = 'DramaCool';
-  protected override baseUrl = 'https://dramacool.hr';
+  protected override baseUrl = 'https://dramacool.com.pa';
   protected override logo =
     'https://play-lh.googleusercontent.com/IaCb2JXII0OV611MQ-wSA8v_SAs9XF6E3TMDiuxGGXo4wp9bI60GtDASIqdERSTO5XU';
   protected override classPath = 'MOVIES.DramaCool';
@@ -27,6 +26,7 @@ class DramaCool extends MovieParser {
     try {
       const searchResult: ISearch<IMovieResult> = {
         currentPage: page,
+        totalPages: page,
         hasNextPage: false,
         results: [],
       };
@@ -41,6 +41,17 @@ class DramaCool extends MovieParser {
 
       searchResult.hasNextPage =
         $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('selected') : false;
+
+      const lastPage = $(navSelector).children().last().find('a').attr('href');
+      if ( lastPage != undefined && lastPage != "" && lastPage.includes("page=") ) 
+      {
+          const maxPage = new URLSearchParams(lastPage).get("page");
+          if (maxPage != null && !isNaN(parseInt(maxPage)))
+              searchResult.totalPages = parseInt(maxPage);   
+          else if (searchResult.hasNextPage) 
+              searchResult.totalPages = page + 1;                 
+      }else if (searchResult.hasNextPage)                 
+          searchResult.totalPages = page + 1;       
 
       $('div.block > div.tab-content > ul.list-episode-item > li').each((i, el) => {
         searchResult.results.push({

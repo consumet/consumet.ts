@@ -7,7 +7,7 @@ class DramaCool extends models_1.MovieParser {
     constructor() {
         super(...arguments);
         this.name = 'DramaCool';
-        this.baseUrl = 'https://dramacool.hr';
+        this.baseUrl = 'https://dramacool.com.pa';
         this.logo = 'https://play-lh.googleusercontent.com/IaCb2JXII0OV611MQ-wSA8v_SAs9XF6E3TMDiuxGGXo4wp9bI60GtDASIqdERSTO5XU';
         this.classPath = 'MOVIES.DramaCool';
         this.supportedTypes = new Set([models_1.TvType.MOVIE, models_1.TvType.TVSERIES]);
@@ -15,6 +15,7 @@ class DramaCool extends models_1.MovieParser {
             try {
                 const searchResult = {
                     currentPage: page,
+                    totalPages: page,
                     hasNextPage: false,
                     results: [],
                 };
@@ -23,6 +24,16 @@ class DramaCool extends models_1.MovieParser {
                 const navSelector = 'ul.pagination';
                 searchResult.hasNextPage =
                     $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('selected') : false;
+                const lastPage = $(navSelector).children().last().find('a').attr('href');
+                if (lastPage != undefined && lastPage != "" && lastPage.includes("page=")) {
+                    const maxPage = new URLSearchParams(lastPage).get("page");
+                    if (maxPage != null && !isNaN(parseInt(maxPage)))
+                        searchResult.totalPages = parseInt(maxPage);
+                    else if (searchResult.hasNextPage)
+                        searchResult.totalPages = page + 1;
+                }
+                else if (searchResult.hasNextPage)
+                    searchResult.totalPages = page + 1;
                 $('div.block > div.tab-content > ul.list-episode-item > li').each((i, el) => {
                     var _a;
                     searchResult.results.push({

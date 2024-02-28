@@ -40,3 +40,8 @@ test('fetchMediaInfo: returns duration (if available) when given a mediaId.', as
   const data = await dramaCool.fetchMediaInfo('drama-detail/kimi-ga-kokoro-wo-kuretakara');
   expect(data.duration).not.toEqual(undefined);
 });
+
+test('Search: returns totalPages when search: Love.', async () => {
+  const data = await dramaCool.search('Love');
+  expect(data.totalPages).not.toEqual(1);
+});
