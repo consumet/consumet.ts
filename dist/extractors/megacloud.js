@@ -5,7 +5,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const crypto_1 = __importDefault(require("crypto"));
-const http_errors_1 = __importDefault(require("http-errors"));
 // https://megacloud.tv/embed-2/e-1/dBqCr5BcOhnD?k=1
 const megacloud = {
     script: "https://megacloud.tv/js/player/a/prod/e1-player.min.js?v=",
@@ -40,7 +39,7 @@ class MegaCloud {
                 },
             });
             if (!srcsData) {
-                throw http_errors_1.default.NotFound("Url may have an invalid video id");
+                throw new Error("Url may have an invalid video id");
             }
             // console.log(JSON.stringify(srcsData, null, 2));
             const encryptedString = srcsData.sources;
@@ -60,7 +59,7 @@ class MegaCloud {
             console.log("\n data: ", megacloud.script.concat(Date.now().toString()));
             text = data;
             if (!text) {
-                throw http_errors_1.default.InternalServerError("Couldn't fetch script to decrypt resource");
+                throw new Error("Couldn't fetch script to decrypt resource");
             }
             const vars = this.extractVariables(text, "MEGACLOUD");
             console.log("\n vars: ", vars);
@@ -78,7 +77,7 @@ class MegaCloud {
                 return extractedData;
             }
             catch (error) {
-                throw http_errors_1.default.InternalServerError("Failed to decrypt resource");
+                throw new Error("Failed to decrypt resource");
             }
         }
         catch (err) {

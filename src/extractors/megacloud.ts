@@ -1,6 +1,5 @@
 import axios from "axios";
 import crypto from "crypto";
-import createHttpError from "http-errors";
 
 // https://megacloud.tv/embed-2/e-1/dBqCr5BcOhnD?k=1
 
@@ -72,7 +71,7 @@ class MegaCloud {
         }
       );
       if (!srcsData) {
-        throw createHttpError.NotFound("Url may have an invalid video id");
+        throw new Error("Url may have an invalid video id");
       }
 
       // console.log(JSON.stringify(srcsData, null, 2));
@@ -101,7 +100,7 @@ class MegaCloud {
 
       text = data;
       if (!text) {
-        throw createHttpError.InternalServerError(
+        throw new Error(
           "Couldn't fetch script to decrypt resource"
         );
       }
@@ -127,7 +126,7 @@ class MegaCloud {
 
         return extractedData;
       } catch (error) {
-        throw createHttpError.InternalServerError("Failed to decrypt resource");
+        throw new Error("Failed to decrypt resource");
       }
     } catch (err) {
       // console.log(err);
