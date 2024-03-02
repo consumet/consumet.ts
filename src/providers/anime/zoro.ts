@@ -5,15 +5,12 @@ import {
   AnimeParser,
   ISearch,
   IAnimeInfo,
-  MediaStatus,
   IAnimeResult,
   ISource,
-  IAnimeEpisode,
   IEpisodeServer,
   StreamingServers,
   MediaFormat,
   SubOrSub,
-  ProxyConfig,
 } from '../../models';
 
 import { StreamSB, RapidCloud, MegaCloud, StreamTape } from '../../utils';
