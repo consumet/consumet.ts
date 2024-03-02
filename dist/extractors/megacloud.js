@@ -5,32 +5,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const crypto_1 = __importDefault(require("crypto"));
-// https://megacloud.tv/embed-2/e-1/dBqCr5BcOhnD?k=1
 const megacloud = {
     script: "https://megacloud.tv/js/player/a/prod/e1-player.min.js?v=",
     sources: "https://megacloud.tv/embed-2/ajax/e-1/getSources?id=",
 };
 class MegaCloud {
-    constructor() {
-        this.serverName = "megacloud";
-    }
     async extract(videoUrl) {
         var _a, _b, _c;
         try {
-            /*
-            const extractedData: ExtractedData = {
-              tracks: [],
-              intro: {
-                start: 0,
-                end: 0,
-              },
-              outro: {
-                start: 0,
-                end: 0,
-              },
-              sources: [],
-            };
-            */
             const extractedData = {
                 sources: [],
                 subtitles: [],
@@ -47,14 +29,13 @@ class MegaCloud {
             if (!srcsData) {
                 throw new Error("Url may have an invalid video id");
             }
-            // console.log(JSON.stringify(srcsData, null, 2));
             const encryptedString = srcsData.sources;
             if (srcsData.encrypted && Array.isArray(encryptedString)) {
                 extractedData.intro = srcsData.intro;
                 extractedData.outro = srcsData.outro;
                 extractedData.subtitles = srcsData.tracks.map((s) => ({
                     url: s.file,
-                    lang: s.type,
+                    lang: s.label,
                 }));
                 extractedData.sources = encryptedString.map((s) => ({
                     url: s.file,
@@ -62,26 +43,22 @@ class MegaCloud {
                 }));
                 return extractedData;
             }
-            console.log("\n encryptedString: ", encryptedString);
             let text;
             const { data } = await axios_1.default.get(megacloud.script.concat(Date.now().toString()));
-            console.log("\n data: ", megacloud.script.concat(Date.now().toString()));
             text = data;
             if (!text) {
                 throw new Error("Couldn't fetch script to decrypt resource");
             }
             const vars = this.extractVariables(text, "MEGACLOUD");
-            console.log("\n vars: ", vars);
             const { secret, encryptedSource } = this.getSecret(encryptedString, vars);
             const decrypted = this.decrypt(encryptedSource, secret);
             try {
                 const sources = JSON.parse(decrypted);
                 extractedData.intro = srcsData.intro;
                 extractedData.outro = srcsData.outro;
-                //extractedData.tracks = srcsData.tracks;
                 extractedData.subtitles = srcsData.tracks.map((s) => ({
                     url: s.file,
-                    lang: s.type,
+                    lang: s.label,
                 }));
                 extractedData.sources = sources.map((s) => ({
                     url: s.file,
@@ -95,13 +72,11 @@ class MegaCloud {
             }
         }
         catch (err) {
-            // console.log(err);
             throw err;
         }
     }
     extractVariables(text, sourceName) {
         var _a, _b, _c, _d;
-        // extract needed variables
         let allvars;
         if (sourceName !== "MEGACLOUD") {
             allvars =
@@ -113,7 +88,6 @@ class MegaCloud {
                 (_d = (_c = text
                     .match(/const \w{1,2}=new URLSearchParams.+?;(?=function)/gm)) === null || _c === void 0 ? void 0 : _c.at(-1)) !== null && _d !== void 0 ? _d : "";
         }
-        // and convert their values into an array of numbers
         const vars = allvars
             .slice(0, -1)
             .split("=")
@@ -171,7 +145,6 @@ class MegaCloud {
             contents = encrypted;
         }
         else {
-            // copied from 'https://github.com/brix/crypto-js/issues/468'
             const cypher = Buffer.from(encrypted, "base64");
             const salt = cypher.subarray(8, 16);
             const password = Buffer.concat([

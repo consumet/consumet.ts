@@ -1,6 +1,5 @@
 import { IVideo, ISubtitle, Intro } from '../models';
 declare class MegaCloud {
-    private serverName;
     extract(videoUrl: URL): Promise<{
         sources: IVideo[];
         subtitles: ISubtitle[];

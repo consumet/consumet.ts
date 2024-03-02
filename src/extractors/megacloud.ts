@@ -2,8 +2,6 @@ import axios from "axios";
 import crypto from "crypto";
 import { IVideo, ISubtitle, Intro } from '../models';
 
-// https://megacloud.tv/embed-2/e-1/dBqCr5BcOhnD?k=1
-
 const megacloud = {
   script: "https://megacloud.tv/js/player/a/prod/e1-player.min.js?v=",
   sources: "https://megacloud.tv/embed-2/ajax/e-1/getSources?id=",
@@ -35,31 +33,9 @@ type extractedSrc = {
   server: number;
 };
 
-interface ExtractedData
-  extends Pick<extractedSrc, "intro" | "outro" | "tracks"> {
-  sources: { url: string; type: string }[];
-}
-
 class MegaCloud {
-  private serverName = "megacloud";
-
   async extract(videoUrl: URL) {
-    try {
-      /*
-      const extractedData: ExtractedData = {
-        tracks: [],
-        intro: {
-          start: 0,
-          end: 0,
-        },
-        outro: {
-          start: 0,
-          end: 0,
-        },
-        sources: [],
-      };
-      */
-
+    try {      
       const extractedData: { 
         sources: IVideo[]; 
         subtitles: ISubtitle[]; 
@@ -87,15 +63,13 @@ class MegaCloud {
         throw new Error("Url may have an invalid video id");
       }
 
-      // console.log(JSON.stringify(srcsData, null, 2));
-
       const encryptedString = srcsData.sources;
       if (srcsData.encrypted && Array.isArray(encryptedString)) {
         extractedData.intro = srcsData.intro;
         extractedData.outro = srcsData.outro;
         extractedData.subtitles = srcsData.tracks.map((s: any) => ({
           url: s.file,
-          lang: s.type,
+          lang: s.label,
         }));
         extractedData.sources = encryptedString.map((s) => ({
           url: s.file,
@@ -105,14 +79,10 @@ class MegaCloud {
         return extractedData;
       }
 
-      console.log("\n encryptedString: ", encryptedString);
-
       let text: string;
       const { data } = await axios.get(
         megacloud.script.concat(Date.now().toString())
       );
-
-      console.log("\n data: ", megacloud.script.concat(Date.now().toString()));
 
       text = data;
       if (!text) {
@@ -123,8 +93,6 @@ class MegaCloud {
 
       const vars = this.extractVariables(text, "MEGACLOUD");
 
-      console.log("\n vars: ", vars);
-
       const { secret, encryptedSource } = this.getSecret(
         encryptedString as string,
         vars
@@ -134,10 +102,9 @@ class MegaCloud {
         const sources = JSON.parse(decrypted);
         extractedData.intro = srcsData.intro;
         extractedData.outro = srcsData.outro;
-        //extractedData.tracks = srcsData.tracks;
         extractedData.subtitles = srcsData.tracks.map((s: any) => ({
           url: s.file,
-          lang: s.type,
+          lang: s.label,
         }));
         extractedData.sources = sources.map((s: any) => ({
           url: s.file,
@@ -150,13 +117,11 @@ class MegaCloud {
         throw new Error("Failed to decrypt resource");
       }
     } catch (err) {
-      // console.log(err);
       throw err;
     }
   }
 
   extractVariables(text: string, sourceName: string) {
-    // extract needed variables
     let allvars;
     if (sourceName !== "MEGACLOUD") {
       allvars =
@@ -171,7 +136,6 @@ class MegaCloud {
           .match(/const \w{1,2}=new URLSearchParams.+?;(?=function)/gm)
           ?.at(-1) ?? "";
     }
-    // and convert their values into an array of numbers
     const vars = allvars
       .slice(0, -1)
       .split("=")
@@ -239,7 +203,6 @@ class MegaCloud {
       iv = maybe_iv;
       contents = encrypted;
     } else {
-      // copied from 'https://github.com/brix/crypto-js/issues/468'
       const cypher = Buffer.from(encrypted, "base64");
       const salt = cypher.subarray(8, 16);
       const password = Buffer.concat([

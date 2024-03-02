@@ -81,7 +81,6 @@ class Zoro extends models_1.AnimeParser {
          */
         this.fetchEpisodeSources = async (episodeId, server = models_1.StreamingServers.VidCloud) => {
             var _a;
-            console.log("3. LINK: ", episodeId);
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
@@ -117,7 +116,6 @@ class Zoro extends models_1.AnimeParser {
                 .replace(/\$auto|\$sub|\$dub/gi, '')}`;
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/ajax/v2/episode/servers?episodeId=${episodeId.split('?ep=')[1]}`);
-                console.log("1. URL: " + `${this.baseUrl}/ajax/v2/episode/servers?episodeId=${episodeId.split('?ep=')[1]}`);
                 const $ = (0, cheerio_1.load)(data.html);
                 /**
                  * vidtreaming -> 4
@@ -127,30 +125,25 @@ class Zoro extends models_1.AnimeParser {
                  */
                 let serverId = '';
                 try {
-                    console.log("Server: " + server);
                     switch (server) {
                         case models_1.StreamingServers.VidCloud:
-                            console.log("- Server: " + "VidCloud");
                             serverId = this.retrieveServerId($, 1, subOrDub);
                             // zoro's vidcloud server is rapidcloud
                             if (!serverId)
                                 throw new Error('RapidCloud not found');
                             break;
                         case models_1.StreamingServers.VidStreaming:
-                            console.log("- Server: " + "VidStreaming");
                             serverId = this.retrieveServerId($, 4, subOrDub);
                             // zoro's vidcloud server is rapidcloud
                             if (!serverId)
                                 throw new Error('vidtreaming not found');
                             break;
                         case models_1.StreamingServers.StreamSB:
-                            console.log("- Server: " + "StreamSB");
                             serverId = this.retrieveServerId($, 5, subOrDub);
                             if (!serverId)
                                 throw new Error('StreamSB not found');
                             break;
                         case models_1.StreamingServers.StreamTape:
-                            console.log("- Server: " + "StreamTape");
                             serverId = this.retrieveServerId($, 3, subOrDub);
                             if (!serverId)
                                 throw new Error('StreamTape not found');
@@ -161,7 +154,6 @@ class Zoro extends models_1.AnimeParser {
                     throw new Error("Couldn't find server. Try another server");
                 }
                 const { data: { link }, } = await this.client.get(`${this.baseUrl}/ajax/v2/episode/sources?id=${serverId}`);
-                console.log("2. LINK: " + `${this.baseUrl}/ajax/v2/episode/sources?id=${serverId}`);
                 return await this.fetchEpisodeSources(link, server);
             }
             catch (err) {
