@@ -55,6 +55,7 @@
     },
     "homepage": "https://github.com/consumet/consumet.ts#readme",
     "dependencies": {
+        "@types/http-errors": "^2.0.4",
         "ascii-url-encoder": "^1.2.0",
         "axios": "^0.27.2",
         "cheerio": "^1.0.0-rc.12",
