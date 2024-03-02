@@ -35,11 +35,12 @@ class MegaCloud {
                 extractedData.outro = srcsData.outro;
                 extractedData.subtitles = srcsData.tracks.map((s) => ({
                     url: s.file,
-                    lang: s.label,
+                    lang: s.label ? s.label : 'Thumbnails',
                 }));
                 extractedData.sources = encryptedString.map((s) => ({
                     url: s.file,
                     type: s.type,
+                    isM3U8: s.file.includes('.m3u8'),
                 }));
                 return extractedData;
             }
@@ -58,7 +59,7 @@ class MegaCloud {
                 extractedData.outro = srcsData.outro;
                 extractedData.subtitles = srcsData.tracks.map((s) => ({
                     url: s.file,
-                    lang: s.label,
+                    lang: s.label ? s.label : 'Thumbnails',
                 }));
                 extractedData.sources = sources.map((s) => ({
                     url: s.file,
