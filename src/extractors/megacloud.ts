@@ -1,5 +1,6 @@
 import axios from "axios";
 import crypto from "crypto";
+import { IVideo, ISubtitle, Intro } from '../models';
 
 // https://megacloud.tv/embed-2/e-1/dBqCr5BcOhnD?k=1
 
@@ -44,6 +45,7 @@ class MegaCloud {
 
   async extract(videoUrl: URL) {
     try {
+      /*
       const extractedData: ExtractedData = {
         tracks: [],
         intro: {
@@ -55,6 +57,17 @@ class MegaCloud {
           end: 0,
         },
         sources: [],
+      };
+      */
+
+      const extractedData: { 
+        sources: IVideo[]; 
+        subtitles: ISubtitle[]; 
+        intro?: Intro; 
+        outro?: Intro 
+      } = {
+        sources: [],
+        subtitles: [],
       };
 
       const videoId = videoUrl?.href?.split("/")?.pop()?.split("?")[0];
@@ -80,7 +93,10 @@ class MegaCloud {
       if (srcsData.encrypted && Array.isArray(encryptedString)) {
         extractedData.intro = srcsData.intro;
         extractedData.outro = srcsData.outro;
-        extractedData.tracks = srcsData.tracks;
+        extractedData.subtitles = srcsData.tracks.map((s: any) => ({
+          url: s.file,
+          lang: s.type,
+        }));
         extractedData.sources = encryptedString.map((s) => ({
           url: s.file,
           type: s.type,
@@ -118,10 +134,15 @@ class MegaCloud {
         const sources = JSON.parse(decrypted);
         extractedData.intro = srcsData.intro;
         extractedData.outro = srcsData.outro;
-        extractedData.tracks = srcsData.tracks;
+        //extractedData.tracks = srcsData.tracks;
+        extractedData.subtitles = srcsData.tracks.map((s: any) => ({
+          url: s.file,
+          lang: s.type,
+        }));
         extractedData.sources = sources.map((s: any) => ({
           url: s.file,
           type: s.type,
+          isM3U8: s.file.includes('.m3u8'),
         }));
 
         return extractedData;

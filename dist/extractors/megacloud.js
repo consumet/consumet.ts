@@ -17,17 +17,23 @@ class MegaCloud {
     async extract(videoUrl) {
         var _a, _b, _c;
         try {
+            /*
+            const extractedData: ExtractedData = {
+              tracks: [],
+              intro: {
+                start: 0,
+                end: 0,
+              },
+              outro: {
+                start: 0,
+                end: 0,
+              },
+              sources: [],
+            };
+            */
             const extractedData = {
-                tracks: [],
-                intro: {
-                    start: 0,
-                    end: 0,
-                },
-                outro: {
-                    start: 0,
-                    end: 0,
-                },
                 sources: [],
+                subtitles: [],
             };
             const videoId = (_c = (_b = (_a = videoUrl === null || videoUrl === void 0 ? void 0 : videoUrl.href) === null || _a === void 0 ? void 0 : _a.split("/")) === null || _b === void 0 ? void 0 : _b.pop()) === null || _c === void 0 ? void 0 : _c.split("?")[0];
             const { data: srcsData } = await axios_1.default.get(megacloud.sources.concat(videoId || ""), {
@@ -46,7 +52,10 @@ class MegaCloud {
             if (srcsData.encrypted && Array.isArray(encryptedString)) {
                 extractedData.intro = srcsData.intro;
                 extractedData.outro = srcsData.outro;
-                extractedData.tracks = srcsData.tracks;
+                extractedData.subtitles = srcsData.tracks.map((s) => ({
+                    url: s.file,
+                    lang: s.type,
+                }));
                 extractedData.sources = encryptedString.map((s) => ({
                     url: s.file,
                     type: s.type,
@@ -69,10 +78,15 @@ class MegaCloud {
                 const sources = JSON.parse(decrypted);
                 extractedData.intro = srcsData.intro;
                 extractedData.outro = srcsData.outro;
-                extractedData.tracks = srcsData.tracks;
+                //extractedData.tracks = srcsData.tracks;
+                extractedData.subtitles = srcsData.tracks.map((s) => ({
+                    url: s.file,
+                    lang: s.type,
+                }));
                 extractedData.sources = sources.map((s) => ({
                     url: s.file,
                     type: s.type,
+                    isM3U8: s.file.includes('.m3u8'),
                 }));
                 return extractedData;
             }
