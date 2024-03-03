@@ -115,7 +115,7 @@ class MangaDex extends models_1.MangaParser {
                 throw new Error(err.message);
             }
         };
-        this.fetchrandom = async () => {
+        this.fetchRandom = async () => {
             try {
                 const res = await this.client.get(`${this.apiUrl}/manga/random`);
                 if (res.data.result == 'ok') {
@@ -218,7 +218,7 @@ class MangaDex extends models_1.MangaParser {
                 throw new Error(err.message);
             }
         };
-        this.fetchpopular = async (page = 1, limit = 20) => {
+        this.fetchPopular = async (page = 1, limit = 20) => {
             if (page <= 0)
                 throw new Error('Page number must be greater than 0');
             if (limit > 100)

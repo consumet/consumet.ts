@@ -128,7 +128,7 @@ class MangaDex extends MangaParser {
       throw new Error((err as Error).message);
     }
   };
-  fetchrandom = async (
+  fetchRandom = async (
   ): Promise<ISearch<IMangaResult>> => {
     try {
       const res = await this.client.get(
@@ -249,7 +249,7 @@ class MangaDex extends MangaParser {
       throw new Error((err as Error).message);
     }
   };
-  fetchpopular = async (
+  fetchPopular = async (
     page: number = 1,
     limit: number = 20
   ): Promise<ISearch<IMangaResult>> => {

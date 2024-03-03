@@ -9,10 +9,10 @@ const mangadex = new MANGA.MangaDex();
 - [search](#search)
 - [fetchMangaInfo](#fetchmangainfo)
 - [fetchChapterPages](#fetchchapterpages)
-- [fetchpopular](#fetchpopular)
+- [fetchPopular](#fetchpopular)
 - [fetchRecentlyAdded](#fetchRecentlyAdded)
 - [fetchLatestUpdates](#fetchLatestUpdates)
-- [fetchrandom](#fetchrandom)
+- [fetchRandom](#fetchrandom)
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
