@@ -139,7 +139,7 @@ output:
 ]
 ```
 
-### fetchpopular
+### fetchPopular
 
 <h4>Parameters</h4>
 
@@ -149,7 +149,7 @@ output:
 | limit (optional) | `number` | limit of results (default: 20)                                               |
 
 ```ts
-mangadex.fetchpopular().then(data => {
+mangadex.fetchPopular().then(data => {
   console.log(data);
 })
 ```
@@ -260,7 +260,7 @@ output:
 }
 ```
 
-### fetchrandom
+### fetchRandom
 
 <h4>Parameters</h4>
 
@@ -269,7 +269,7 @@ output:
 
 
 ```ts
-mangadex.fetchrandom().then(data => {
+mangadex.fetchRandom().then(data => {
   console.log(data);
 })
 ```
