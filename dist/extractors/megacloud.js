@@ -3,22 +3,27 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const crypto_1 = __importDefault(require("crypto"));
+const models_1 = require("../models");
 const megacloud = {
     script: "https://megacloud.tv/js/player/a/prod/e1-player.min.js?v=",
     sources: "https://megacloud.tv/embed-2/ajax/e-1/getSources?id=",
 };
-class MegaCloud {
+class MegaCloud extends models_1.VideoExtractor {
+    constructor() {
+        super(...arguments);
+        this.serverName = 'MegaCloud';
+        this.sources = [];
+    }
     async extract(videoUrl) {
         var _a, _b, _c;
         try {
-            const extractedData = {
+            const result = {
                 sources: [],
                 subtitles: [],
             };
             const videoId = (_c = (_b = (_a = videoUrl === null || videoUrl === void 0 ? void 0 : videoUrl.href) === null || _a === void 0 ? void 0 : _a.split("/")) === null || _b === void 0 ? void 0 : _b.pop()) === null || _c === void 0 ? void 0 : _c.split("?")[0];
-            const { data: srcsData } = await axios_1.default.get(megacloud.sources.concat(videoId || ""), {
+            const { data: srcsData } = await this.client.get(megacloud.sources.concat(videoId || ""), {
                 headers: {
                     Accept: "*/*",
                     "X-Requested-With": "XMLHttpRequest",
@@ -31,42 +36,40 @@ class MegaCloud {
             }
             const encryptedString = srcsData.sources;
             if (srcsData.encrypted && Array.isArray(encryptedString)) {
-                extractedData.intro = srcsData.intro;
-                extractedData.outro = srcsData.outro;
-                extractedData.subtitles = srcsData.tracks.map((s) => ({
+                result.intro = srcsData.intro;
+                result.outro = srcsData.outro;
+                result.subtitles = srcsData.tracks.map((s) => ({
                     url: s.file,
                     lang: s.label ? s.label : 'Thumbnails',
                 }));
-                extractedData.sources = encryptedString.map((s) => ({
+                result.sources = encryptedString.map((s) => ({
                     url: s.file,
                     type: s.type,
                     isM3U8: s.file.includes('.m3u8'),
                 }));
-                return extractedData;
+                return result;
             }
-            let text;
-            const { data } = await axios_1.default.get(megacloud.script.concat(Date.now().toString()));
-            text = data;
-            if (!text) {
+            const { data } = await this.client.get(megacloud.script.concat(Date.now().toString()));
+            const text = data;
+            if (!text)
                 throw new Error("Couldn't fetch script to decrypt resource");
-            }
             const vars = this.extractVariables(text, "MEGACLOUD");
             const { secret, encryptedSource } = this.getSecret(encryptedString, vars);
             const decrypted = this.decrypt(encryptedSource, secret);
             try {
                 const sources = JSON.parse(decrypted);
-                extractedData.intro = srcsData.intro;
-                extractedData.outro = srcsData.outro;
-                extractedData.subtitles = srcsData.tracks.map((s) => ({
+                result.intro = srcsData.intro;
+                result.outro = srcsData.outro;
+                result.subtitles = srcsData.tracks.map((s) => ({
                     url: s.file,
                     lang: s.label ? s.label : 'Thumbnails',
                 }));
-                extractedData.sources = sources.map((s) => ({
+                result.sources = sources.map((s) => ({
                     url: s.file,
                     type: s.type,
                     isM3U8: s.file.includes('.m3u8'),
                 }));
-                return extractedData;
+                return result;
             }
             catch (error) {
                 throw new Error("Failed to decrypt resource");

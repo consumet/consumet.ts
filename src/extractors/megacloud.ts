@@ -1,42 +1,40 @@
-import axios from "axios";
 import crypto from "crypto";
-import { IVideo, ISubtitle, Intro } from '../models';
+import { IVideo, ISubtitle, Intro, VideoExtractor } from '../models';
 
 const megacloud = {
   script: "https://megacloud.tv/js/player/a/prod/e1-player.min.js?v=",
   sources: "https://megacloud.tv/embed-2/ajax/e-1/getSources?id=",
 } as const;
 
-type track = {
+type tracks = {
   file: string;
   kind: string;
   label?: string;
   default?: boolean;
 };
 
-type intro_outro = {
-  start: number;
-  end: number;
-};
-
-type unencryptedSrc = {
+type unencrypSources = {
   file: string;
   type: string;
 };
 
-type extractedSrc = {
-  sources: string | unencryptedSrc[];
-  tracks: track[];
+type apiFormat = {
+  sources: string | unencrypSources[];
+  tracks: tracks[];
   encrypted: boolean;
-  intro: intro_outro;
-  outro: intro_outro;
+  intro: Intro;
+  outro: Intro;
   server: number;
 };
 
-class MegaCloud {
-  async extract(videoUrl: URL) {
+class MegaCloud extends VideoExtractor {
+
+  protected override serverName = 'MegaCloud';
+  protected override sources: IVideo[] = [];
+
+  async extract(videoUrl: URL)  {
     try {      
-      const extractedData: { 
+      const result: { 
         sources: IVideo[]; 
         subtitles: ISubtitle[]; 
         intro?: Intro; 
@@ -47,7 +45,7 @@ class MegaCloud {
       };
 
       const videoId = videoUrl?.href?.split("/")?.pop()?.split("?")[0];
-      const { data: srcsData } = await axios.get<extractedSrc>(
+      const { data: srcsData } = await this.client.get<apiFormat>(
         megacloud.sources.concat(videoId || ""),
         {
           headers: {
@@ -65,32 +63,28 @@ class MegaCloud {
 
       const encryptedString = srcsData.sources;
       if (srcsData.encrypted && Array.isArray(encryptedString)) {
-        extractedData.intro = srcsData.intro;
-        extractedData.outro = srcsData.outro;
-        extractedData.subtitles = srcsData.tracks.map((s: any) => ({
+        result.intro = srcsData.intro;
+        result.outro = srcsData.outro;
+        result.subtitles = srcsData.tracks.map((s: any) => ({
           url: s.file,
           lang: s.label ? s.label : 'Thumbnails',
         }));
-        extractedData.sources = encryptedString.map((s) => ({
+        result.sources = encryptedString.map((s) => ({
           url: s.file,
           type: s.type,
           isM3U8: s.file.includes('.m3u8'),
         }));
 
-        return extractedData;
+        return result;
       }
 
-      let text: string;
-      const { data } = await axios.get(
+      const { data } = await this.client.get(
         megacloud.script.concat(Date.now().toString())
       );
 
-      text = data;
-      if (!text) {
-        throw new Error(
-          "Couldn't fetch script to decrypt resource"
-        );
-      }
+      const text = data;
+      if (!text) 
+        throw new Error("Couldn't fetch script to decrypt resource");      
 
       const vars = this.extractVariables(text, "MEGACLOUD");
 
@@ -101,19 +95,19 @@ class MegaCloud {
       const decrypted = this.decrypt(encryptedSource, secret);
       try {
         const sources = JSON.parse(decrypted);
-        extractedData.intro = srcsData.intro;
-        extractedData.outro = srcsData.outro;
-        extractedData.subtitles = srcsData.tracks.map((s: any) => ({
+        result.intro = srcsData.intro;
+        result.outro = srcsData.outro;
+        result.subtitles = srcsData.tracks.map((s: any) => ({
           url: s.file,
           lang: s.label ? s.label : 'Thumbnails',
         }));
-        extractedData.sources = sources.map((s: any) => ({
+        result.sources = sources.map((s: any) => ({
           url: s.file,
           type: s.type,
           isM3U8: s.file.includes('.m3u8'),
         }));
 
-        return extractedData;
+        return result;
       } catch (error) {
         throw new Error("Failed to decrypt resource");
       }
