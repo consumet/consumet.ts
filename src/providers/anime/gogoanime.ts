@@ -24,7 +24,7 @@ class Gogoanime extends AnimeParser {
   protected override logo =
     'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
   protected override classPath = 'ANIME.Gogoanime';
-  private readonly ajaxUrl = 'https://ajax.gogo-load.com/ajax';
+  private readonly ajaxUrl = 'https://ajax.gogocdn.net/ajax';
 
   /**
    *
