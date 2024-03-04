@@ -11,7 +11,7 @@ class Gogoanime extends models_1.AnimeParser {
         this.baseUrl = 'https://gogoanime3.co';
         this.logo = 'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
         this.classPath = 'ANIME.Gogoanime';
-        this.ajaxUrl = 'https://ajax.gogo-load.com/ajax';
+        this.ajaxUrl = 'https://ajax.gogocdn.net/ajax';
         /**
          *
          * @param query search query string
