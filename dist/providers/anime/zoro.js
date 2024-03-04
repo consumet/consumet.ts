@@ -8,7 +8,7 @@ class Zoro extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
         this.name = 'Zoro';
-        this.baseUrl = 'https://aniwatch.to';
+        this.baseUrl = 'https://hianime.to';
         this.logo = 'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
         this.classPath = 'ANIME.Zoro';
         /**
@@ -86,7 +86,7 @@ class Zoro extends models_1.AnimeParser {
                 switch (server) {
                     case models_1.StreamingServers.VidStreaming:
                     case models_1.StreamingServers.VidCloud:
-                        return Object.assign({}, (await new utils_1.RapidCloud(this.proxyConfig, this.adapter).extract(serverUrl)));
+                        return Object.assign({}, (await new utils_1.MegaCloud().extract(serverUrl)));
                     case models_1.StreamingServers.StreamSB:
                         return {
                             headers: {
@@ -103,7 +103,7 @@ class Zoro extends models_1.AnimeParser {
                         };
                     default:
                     case models_1.StreamingServers.VidCloud:
-                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new utils_1.RapidCloud(this.proxyConfig, this.adapter).extract(serverUrl)));
+                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new utils_1.MegaCloud().extract(serverUrl)));
                 }
             }
             if (!episodeId.includes('$episode$'))
@@ -161,7 +161,7 @@ class Zoro extends models_1.AnimeParser {
             }
         };
         this.retrieveServerId = ($, index, subOrDub) => {
-            return $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
+            return $(`.ps_-block.ps_-block-sub.servers-${subOrDub} > .ps__-list .server-item`)
                 .map((i, el) => ($(el).attr('data-server-id') == `${index}` ? $(el) : null))
                 .get()[0]
                 .attr('data-id');

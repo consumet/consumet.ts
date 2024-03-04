@@ -5,23 +5,20 @@ import {
   AnimeParser,
   ISearch,
   IAnimeInfo,
-  MediaStatus,
   IAnimeResult,
   ISource,
-  IAnimeEpisode,
   IEpisodeServer,
   StreamingServers,
   MediaFormat,
   SubOrSub,
-  ProxyConfig,
 } from '../../models';
 
-import { StreamSB, RapidCloud, StreamTape } from '../../utils';
+import { StreamSB, RapidCloud, MegaCloud, StreamTape } from '../../utils';
 import { USER_AGENT } from '../../utils';
 
 class Zoro extends AnimeParser {
   override readonly name = 'Zoro';
-  protected override baseUrl = 'https://aniwatch.to';
+  protected override baseUrl = 'https://hianime.to';
   protected override logo =
     'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
   protected override classPath = 'ANIME.Zoro';
@@ -185,14 +182,14 @@ class Zoro extends AnimeParser {
   override fetchEpisodeSources = async (
     episodeId: string,
     server: StreamingServers = StreamingServers.VidCloud
-  ): Promise<ISource> => {
+  ): Promise<ISource> => {    
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
       switch (server) {
         case StreamingServers.VidStreaming:
         case StreamingServers.VidCloud:
           return {
-            ...(await new RapidCloud(this.proxyConfig, this.adapter).extract(serverUrl)),
+            ...(await new MegaCloud().extract(serverUrl)),
           };
         case StreamingServers.StreamSB:
           return {
@@ -212,7 +209,7 @@ class Zoro extends AnimeParser {
         case StreamingServers.VidCloud:
           return {
             headers: { Referer: serverUrl.href },
-            ...(await new RapidCloud(this.proxyConfig, this.adapter).extract(serverUrl)),
+            ...(await new MegaCloud().extract(serverUrl)),
           };
       }
     }
@@ -273,6 +270,7 @@ class Zoro extends AnimeParser {
       const {
         data: { link },
       } = await this.client.get(`${this.baseUrl}/ajax/v2/episode/sources?id=${serverId}`);
+
       return await this.fetchEpisodeSources(link, server);
     } catch (err) {
       throw err;
@@ -280,7 +278,7 @@ class Zoro extends AnimeParser {
   };
 
   private retrieveServerId = ($: any, index: number, subOrDub: 'sub' | 'dub') => {
-    return $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
+    return $(`.ps_-block.ps_-block-sub.servers-${subOrDub} > .ps__-list .server-item`)
       .map((i: any, el: any) => ($(el).attr('data-server-id') == `${index}` ? $(el) : null))
       .get()[0]
       .attr('data-id')!;
