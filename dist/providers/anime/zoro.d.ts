@@ -38,6 +38,13 @@ declare class Zoro extends AnimeParser {
      */
     fetchTopUpcoming(page?: number): Promise<ISearch<IAnimeResult>>;
     /**
+     *
+     * @param studio studio id
+     * @param page page number (optional) `default 1`
+     * @returns
+     */
+    fetchStudio(studio: string, page?: number): Promise<ISearch<IAnimeResult>>;
+    /**
      * @param id Anime id
      */
     fetchAnimeInfo: (id: string) => Promise<IAnimeInfo>;

@@ -306,6 +306,18 @@ class Zoro extends models_1.AnimeParser {
         }
         return this.scrapeCard(`${this.baseUrl}/top-upcoming?page=${page}`);
     }
+    /**
+     *
+     * @param studio studio id
+     * @param page page number (optional) `default 1`
+     * @returns
+     */
+    fetchStudio(studio, page = 1) {
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCard(`${this.baseUrl}/producer/${studio}?page=${page}`);
+    }
 }
 // (async () => {
 //   const zoro = new Zoro();
