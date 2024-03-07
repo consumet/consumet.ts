@@ -560,6 +560,61 @@ output:
 }
 ```
 
+### fetchStudio
+
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                                                              |
+| --------- | -------- | ------------------------------------------------------------------------ |
+| studio    | `string` | studio name |
+| page (optional) | `number` | page number (default 1) |
+
+```ts
+zoro.fetchStudio('toei-animation').then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{                                                        currentPage: 1,
+  hasNextPage: true,
+  totalPages: 9,
+  results: [
+    {
+      id: 'one-piece-100',
+      title: 'One Piece',
+      url: 'https://aniwatch.to/one-piece-100',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/54/90/5490cb32786d4f7fef0f40d7266df532/5490cb32786d4f7fef0f40d7266df532.jpg',
+      type: 'TV',
+      duration: '24m',
+      japaneseTitle: 'One Piece',
+      nsfw: false,
+      sub: 1089,
+      dub: 1048,
+      episodes: 0
+    },
+    {
+      id: 'attack-on-titan-the-final-season-part-3-1839',
+      title: 'Attack on Titan: The Final Season Part 3',
+      url: 'https://aniwatch.to/attack-on-titan-the-final-season-part-3-18329',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/54/d3/54d3f59bcc7caf1539c701eb0a064ec9/54d3f59bcc7caf1539c701eb0a064ec9.png',
+      type: 'TV',
+      duration: '61m',
+      japaneseTitle: 'Shingeki no Kyojin: The Final Season - Kanketsu-hen',
+      nsfw: true,
+      sub: 2,
+      dub: 2,
+      episodes: 0
+    },
+    {...}
+    ...
+  ]
+}
+```
+
+
 Make sure to check the `headers` property of the returned object. It contains the referer header, which might be needed to bypass the 403 error and allow you to stream the video without any issues.
 
 <p align="end">(<a href="https://github.com/consumet/extensions/blob/master/docs/guides/anime.md#">back to anime providers list</a>)</p>
