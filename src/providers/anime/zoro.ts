@@ -137,7 +137,7 @@ class Zoro extends AnimeParser {
     } catch (err) {
       throw new Error('Something went wrong. Please try again later.');
     }
-  };
+  }
 
   /**
    * @param id Anime id
