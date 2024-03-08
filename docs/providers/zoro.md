@@ -566,7 +566,7 @@ output:
 
 | Parameter | Type     | Description                                                              |
 | --------- | -------- | ------------------------------------------------------------------------ |
-| studio    | `string` | studio name |
+| studio    | `string` | studio id, e.g. "toei-animation" |
 | page (optional) | `number` | page number (default 1) |
 
 ```ts

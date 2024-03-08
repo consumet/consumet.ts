@@ -98,7 +98,7 @@ class Zoro extends AnimeParser {
     return this.scrapeCard(`${this.baseUrl}/top-upcoming?page=${page}`);
   }
   /**
-   * @param studio studio id
+   * @param studio Studio id, e.g. "toei-animation"
    * @param page page number (optional) `default 1`
    */
   fetchStudio(studio: string, page: number = 1): Promise<ISearch<IAnimeResult>> {
