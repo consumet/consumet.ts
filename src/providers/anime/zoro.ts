@@ -182,7 +182,7 @@ class Zoro extends AnimeParser {
   override fetchEpisodeSources = async (
     episodeId: string,
     server: StreamingServers = StreamingServers.VidCloud
-  ): Promise<ISource> => {    
+  ): Promise<ISource> => {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
       switch (server) {
@@ -301,7 +301,7 @@ class Zoro extends AnimeParser {
       const pagination = $('ul.pagination');
       res.currentPage = parseInt(pagination.find('.page-item.active')?.text());
       const nextPage = pagination.find('a[title=Next]')?.attr('href');
-      if (nextPage != undefined || nextPage != '') {
+      if (nextPage != undefined && nextPage != '') {
         res.hasNextPage = true;
       }
       const totalPages = pagination.find('a[title=Last]').attr('href')?.split('=').pop();
