@@ -116,6 +116,7 @@ class Zoro extends AnimeParser {
         const title = card.find('.film-name');
 
         const id = card.find("a.tsl-link").attr('href')?.split('/')[1].split('?')[0];
+        const airingTime = card.find("div.time").text().replace("\n", "").trim();
         const airingEpisode = card.find("div.film-detail div.fd-play button").text().replace("\n", "").trim();
         res.results.push({
           id: id!,
@@ -123,6 +124,7 @@ class Zoro extends AnimeParser {
           japaneseTitle: title.attr('data-jname'),
           url: `${this.baseUrl}/${id}`,
           airingEpisode: airingEpisode,
+          airingTime: airingTime,
         });
       })
 

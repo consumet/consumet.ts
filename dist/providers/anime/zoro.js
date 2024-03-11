@@ -323,6 +323,7 @@ class Zoro extends models_1.AnimeParser {
                 const card = $(ele);
                 const title = card.find('.film-name');
                 const id = (_a = card.find("a.tsl-link").attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
+                const airingTime = card.find("div.time").text().replace("\n", "").trim();
                 const airingEpisode = card.find("div.film-detail div.fd-play button").text().replace("\n", "").trim();
                 res.results.push({
                     id: id,
@@ -330,6 +331,7 @@ class Zoro extends models_1.AnimeParser {
                     japaneseTitle: title.attr('data-jname'),
                     url: `${this.baseUrl}/${id}`,
                     airingEpisode: airingEpisode,
+                    airingTime: airingTime,
                 });
             });
             return res;
