@@ -306,6 +306,39 @@ class Zoro extends models_1.AnimeParser {
         }
         return this.scrapeCard(`${this.baseUrl}/top-upcoming?page=${page}`);
     }
+    /**
+       * Fetches the schedule for a given date.
+       * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
+       * @returns A promise that resolves to an object containing the search results.
+       */
+    async fetchSchedule(date = new Date().toISOString().slice(0, 10)) {
+        try {
+            const res = {
+                results: [],
+            };
+            const { data: { html } } = await this.client.get(`${this.baseUrl}/ajax/schedule/list?tzOffset=360&date=${date}`);
+            const $ = (0, cheerio_1.load)(html);
+            $('li').each((i, ele) => {
+                var _a;
+                const card = $(ele);
+                const title = card.find('.film-name');
+                const id = (_a = card.find("a.tsl-link").attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
+                const airingEpisode = card.find("div.film-detail div.fd-play button").text().replace("\n", "").trim();
+                res.results.push({
+                    id: id,
+                    title: title.text(),
+                    japaneseTitle: title.attr('data-jname'),
+                    url: `${this.baseUrl}/${id}`,
+                    airingEpisode: airingEpisode,
+                });
+            });
+            return res;
+        }
+        catch (err) {
+            throw new Error('Something went wrong. Please try again later.');
+        }
+    }
+    ;
 }
 // (async () => {
 //   const zoro = new Zoro();

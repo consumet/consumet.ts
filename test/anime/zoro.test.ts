@@ -44,6 +44,11 @@ test('returns a filled array of anime list', async () => {
   expect(data.results).not.toEqual([]);
 });
 
+test('returns a filled array of anime list', async () => {
+  const data = await zoro.fetchSchedule();
+  expect(data.results).not.toEqual([]);
+});
+
 test('returns a filled object of anime data', async () => {
   const res = await zoro.search('Overlord IV');
   const data = await zoro.fetchAnimeInfo(res.results[3].id); // Overlord IV id
