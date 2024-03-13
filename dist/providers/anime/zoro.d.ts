@@ -38,6 +38,11 @@ declare class Zoro extends AnimeParser {
      */
     fetchTopUpcoming(page?: number): Promise<ISearch<IAnimeResult>>;
     /**
+     * @param studio Studio id, e.g. "toei-animation"
+     * @param page page number (optional) `default 1`
+     */
+    fetchStudio(studio: string, page?: number): Promise<ISearch<IAnimeResult>>;
+    /**
      * @param id Anime id
      */
     fetchAnimeInfo: (id: string) => Promise<IAnimeInfo>;

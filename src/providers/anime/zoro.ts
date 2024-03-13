@@ -97,6 +97,16 @@ class Zoro extends AnimeParser {
     }
     return this.scrapeCard(`${this.baseUrl}/top-upcoming?page=${page}`);
   }
+  /**
+   * @param studio Studio id, e.g. "toei-animation"
+   * @param page page number (optional) `default 1`
+   */
+  fetchStudio(studio: string, page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCard(`${this.baseUrl}/producer/${studio}?page=${page}`);
+  }
 
   /**
    * @param id Anime id
@@ -182,7 +192,7 @@ class Zoro extends AnimeParser {
   override fetchEpisodeSources = async (
     episodeId: string,
     server: StreamingServers = StreamingServers.VidCloud
-  ): Promise<ISource> => {    
+  ): Promise<ISource> => {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
       switch (server) {
