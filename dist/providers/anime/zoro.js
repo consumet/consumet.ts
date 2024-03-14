@@ -183,7 +183,7 @@ class Zoro extends models_1.AnimeParser {
                 const pagination = $('ul.pagination');
                 res.currentPage = parseInt((_a = pagination.find('.page-item.active')) === null || _a === void 0 ? void 0 : _a.text());
                 const nextPage = (_b = pagination.find('a[title=Next]')) === null || _b === void 0 ? void 0 : _b.attr('href');
-                if (nextPage != undefined || nextPage != '') {
+                if (nextPage != undefined && nextPage != '') {
                     res.hasNextPage = true;
                 }
                 const totalPages = (_c = pagination.find('a[title=Last]').attr('href')) === null || _c === void 0 ? void 0 : _c.split('=').pop();
@@ -315,6 +315,40 @@ class Zoro extends models_1.AnimeParser {
             page = 1;
         }
         return this.scrapeCard(`${this.baseUrl}/producer/${studio}?page=${page}`);
+    }
+    /**
+       * Fetches the schedule for a given date.
+       * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
+       * @returns A promise that resolves to an object containing the search results.
+       */
+    async fetchSchedule(date = new Date().toISOString().slice(0, 10)) {
+        try {
+            const res = {
+                results: [],
+            };
+            const { data: { html } } = await this.client.get(`${this.baseUrl}/ajax/schedule/list?tzOffset=360&date=${date}`);
+            const $ = (0, cheerio_1.load)(html);
+            $('li').each((i, ele) => {
+                var _a;
+                const card = $(ele);
+                const title = card.find('.film-name');
+                const id = (_a = card.find("a.tsl-link").attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
+                const airingTime = card.find("div.time").text().replace("\n", "").trim();
+                const airingEpisode = card.find("div.film-detail div.fd-play button").text().replace("\n", "").trim();
+                res.results.push({
+                    id: id,
+                    title: title.text(),
+                    japaneseTitle: title.attr('data-jname'),
+                    url: `${this.baseUrl}/${id}`,
+                    airingEpisode: airingEpisode,
+                    airingTime: airingTime,
+                });
+            });
+            return res;
+        }
+        catch (err) {
+            throw new Error('Something went wrong. Please try again later.');
+        }
     }
 }
 // (async () => {
