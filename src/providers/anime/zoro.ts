@@ -109,6 +109,41 @@ class Zoro extends AnimeParser {
   }
 
   /**
+     * Fetches the schedule for a given date.
+     * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
+     * @returns A promise that resolves to an object containing the search results.
+     */
+  async fetchSchedule(date: string = new Date().toISOString().slice(0, 10)): Promise<ISearch<IAnimeResult>> {
+    try {
+      const res: ISearch<IAnimeResult> = {
+        results: [],
+      };
+      const { data: { html } } = await this.client.get(`${this.baseUrl}/ajax/schedule/list?tzOffset=360&date=${date}`);
+      const $ = load(html);
+
+      $('li').each((i, ele) => {
+        const card = $(ele);
+        const title = card.find('.film-name');
+
+        const id = card.find("a.tsl-link").attr('href')?.split('/')[1].split('?')[0];
+        const airingTime = card.find("div.time").text().replace("\n", "").trim();
+        const airingEpisode = card.find("div.film-detail div.fd-play button").text().replace("\n", "").trim();
+        res.results.push({
+          id: id!,
+          title: title.text(),
+          japaneseTitle: title.attr('data-jname'),
+          url: `${this.baseUrl}/${id}`,
+          airingEpisode: airingEpisode,
+          airingTime: airingTime,
+        });
+      })
+
+      return res;
+    } catch (err) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  }
+  /**
    * @param id Anime id
    */
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {

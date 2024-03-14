@@ -559,6 +559,76 @@ output:
   ]
 }
 ```
+### fetchSchedule
+
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                                                              |
+| --------- | -------- | ------------------------------------------------------------------------ |
+| date    | `string` | Date in format 'YYYY-MM-DD'. Defaults to the current date. |
+
+```ts
+zoro.fetchSchedule('2024-03-11').then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{
+  results: [
+    {
+      id: 'high-card-season-2-18820',
+      title: 'High Card Season 2',
+      japaneseTitle: 'High Card Season 2',
+      url: 'https://hianime.to/high-card-season-2-18820',
+      airingEpisode: 'Episode 10',
+      airingTime: '07:30'
+    },
+    {
+      id: 'tsukimichi-moonlit-fantasy-season-2-18877',
+      title: 'Tsukimichi -Moonlit Fantasy- Season 2',
+      japaneseTitle: 'Tsuki ga Michibiku Isekai Douchuu 2nd Season',
+      url: 'https://hianime.to/tsukimichi-moonlit-fantasy-season-2-18877',
+      airingEpisode: 'Episode 10',
+      airingTime: '09:00'
+    },
+    {
+      id: 'the-foolish-angel-dances-with-the-devil-18832',
+      title: 'The Foolish Angel Dances with the Devil',
+      japaneseTitle: 'Oroka na Tenshi wa Akuma to Odoru',
+      url: 'https://hianime.to/the-foolish-angel-dances-with-the-devil-18832',
+      airingEpisode: 'Episode 10',
+      airingTime: '10:30'
+    },
+    {
+      id: 'synduality-noir-part-2-18754',
+      title: 'Synduality: Noir Part 2',
+      japaneseTitle: 'Synduality: Noir Part 2',
+      url: 'https://hianime.to/synduality-noir-part-2-18754',
+      airingEpisode: 'Episode 10',
+      airingTime: '10:30'
+    },
+    {
+      id: 'tis-time-for-torture-princess-18778',
+      title: 'Tis Time for "Torture," Princess',
+      japaneseTitle: 'Himesama "Goumon" no Jikan desu',
+      url: 'https://hianime.to/tis-time-for-torture-princess-18778',
+      airingEpisode: 'Episode 10',
+      airingTime: '11:30'
+    },
+    {
+      id: 'hokkaido-gals-are-super-adorable-18853',
+      title: 'Hokkaido Gals Are Super Adorable!',
+      japaneseTitle: 'Dosanko Gal wa Namara Menkoi',
+      url: 'https://hianime.to/hokkaido-gals-are-super-adorable-18853',
+      airingEpisode: 'Episode 10',
+      airingTime: '11:45'
+    }
+  ]
+}
+```
 
 ### fetchStudio
 
@@ -613,8 +683,6 @@ output:
   ]
 }
 ```
-
-
 Make sure to check the `headers` property of the returned object. It contains the referer header, which might be needed to bypass the 403 error and allow you to stream the video without any issues.
 
 <p align="end">(<a href="https://github.com/consumet/extensions/blob/master/docs/guides/anime.md#">back to anime providers list</a>)</p>
