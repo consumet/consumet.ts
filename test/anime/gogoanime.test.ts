@@ -64,7 +64,6 @@ test('returns a filled array of anime list', async () => {
   expect(data).not.toEqual([]);
 
   const resultSample = data.results[0];
-  info(resultSample);
   expect(resultSample).toHaveProperty('genres');
   expect(resultSample).toHaveProperty('episodeNumber');
   expect(resultSample).toHaveProperty('episodeId');
