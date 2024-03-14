@@ -46,12 +46,16 @@ test('returns a filled array of anime list', async () => {
 
 test('returns a filled array of anime list', async () => {
   const data = await zoro.fetchStudio('studio-pierrot')
-  console.log(data.results.length);
   expect(data.results).not.toEqual([]);
 })
 
 test('returns a filled array of anime list', async () => {
   const data = await zoro.fetchSchedule();
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of anime list', async () => {
+  const data = await zoro.fetchSpotlight();
   expect(data.results).not.toEqual([]);
 });
 
