@@ -97,6 +97,16 @@ class Zoro extends AnimeParser {
     }
     return this.scrapeCard(`${this.baseUrl}/top-upcoming?page=${page}`);
   }
+  /**
+   * @param studio Studio id, e.g. "toei-animation"
+   * @param page page number (optional) `default 1`
+   */
+  fetchStudio(studio: string, page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCard(`${this.baseUrl}/producer/${studio}?page=${page}`);
+  }
 
   /**
      * Fetches the schedule for a given date.
@@ -336,7 +346,7 @@ class Zoro extends AnimeParser {
       const pagination = $('ul.pagination');
       res.currentPage = parseInt(pagination.find('.page-item.active')?.text());
       const nextPage = pagination.find('a[title=Next]')?.attr('href');
-      if (nextPage != undefined || nextPage != '') {
+      if (nextPage != undefined && nextPage != '') {
         res.hasNextPage = true;
       }
       const totalPages = pagination.find('a[title=Last]').attr('href')?.split('=').pop();

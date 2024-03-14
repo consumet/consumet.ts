@@ -183,7 +183,7 @@ class Zoro extends models_1.AnimeParser {
                 const pagination = $('ul.pagination');
                 res.currentPage = parseInt((_a = pagination.find('.page-item.active')) === null || _a === void 0 ? void 0 : _a.text());
                 const nextPage = (_b = pagination.find('a[title=Next]')) === null || _b === void 0 ? void 0 : _b.attr('href');
-                if (nextPage != undefined || nextPage != '') {
+                if (nextPage != undefined && nextPage != '') {
                     res.hasNextPage = true;
                 }
                 const totalPages = (_c = pagination.find('a[title=Last]').attr('href')) === null || _c === void 0 ? void 0 : _c.split('=').pop();
@@ -307,6 +307,16 @@ class Zoro extends models_1.AnimeParser {
         return this.scrapeCard(`${this.baseUrl}/top-upcoming?page=${page}`);
     }
     /**
+     * @param studio Studio id, e.g. "toei-animation"
+     * @param page page number (optional) `default 1`
+     */
+    fetchStudio(studio, page = 1) {
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCard(`${this.baseUrl}/producer/${studio}?page=${page}`);
+    }
+    /**
        * Fetches the schedule for a given date.
        * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
        * @returns A promise that resolves to an object containing the search results.
@@ -340,7 +350,6 @@ class Zoro extends models_1.AnimeParser {
             throw new Error('Something went wrong. Please try again later.');
         }
     }
-    ;
 }
 // (async () => {
 //   const zoro = new Zoro();
