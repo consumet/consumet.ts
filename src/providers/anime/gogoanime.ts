@@ -366,6 +366,8 @@ class Gogoanime extends AnimeParser {
             .find('p.genres > a')
             .map((i, el) => $(el).attr('title'))
             .get(),
+          episodeId: $(el).find('p:nth-of-type(2) > a').attr('title')!,
+          episodeNumber: parseFloat($(el).find('p:nth-of-type(2) > a').text().replace('Episode ', '')),
         });
       });
 
