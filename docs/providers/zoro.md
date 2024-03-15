@@ -16,6 +16,9 @@ const zoro = new ANIME.Zoro();
 - [fetchRecentlyUpdated](#fetchRecentlyUpdated)
 - [fetchRecentlyAdded](#fetchRecentlyAdded)
 - [fetchTopUpcoming](#fetchTopUpcoming)
+- [fetchSchedule](#fetchSchedule)
+- [fetchStudio](#fetchStudio)
+- [fetchSpotlight](#fetchSpotlight)
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
@@ -648,7 +651,8 @@ zoro.fetchStudio('toei-animation').then(data => {
 returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
 output:
 ```js
-{                                                        currentPage: 1,
+{
+  currentPage: 1,
   hasNextPage: true,
   totalPages: 9,
   results: [
@@ -683,6 +687,44 @@ output:
   ]
 }
 ```
+
+### fetchSpotlight
+
+```ts
+zoro.fetchSpotlight().then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{
+  
+  results: [
+    {
+      id: 'delicious-in-dungeon-18506',
+      title: 'Delicious in Dungeon',
+      japaneseTitle: 'Dungeon Meshi',
+      banner: 'https://cdn.noitatnemucod.net/thumbnail/1366x768/100/50affe2ea9a02c36d5a7c0532c1b7ef9.jpeg',
+      rank: 1,
+      url: 'https://hianime.to/delicious-in-dungeon-18506',
+      type: 'TV',
+      duration: '23m',
+      releaseDate: 'Jan 4, 2024',
+      quality: 'HD',
+      sub: 11,
+      dub: 10,
+      episodes: 0,
+      description: "After the Golden Kingdom is sunk underground by an insane magician, its king emerges, promising all of his treasure to any who defeat the magician, before crumbling to dust. Guilds are spurred on by this promise, traversing the labyrinthine dungeon in search of the magician. Laios, the leader of one such guild, encounters a dragon that wipes out his party and devours his sister Falin. Despite having lost the entirety of their supplies and belongings, Laios along with Marcille, an elven healer, and Chilchuck, a halfling thief, immediately reenter the dungeon, determined to save Falin.  Time being of the essence, Laios suggests the taboo of eating the monsters of the dungeon as a means of gathering supplies. Upon the preparation of their first meal in the dungeon, they are stopped by an onlooking dwarf named Senshi. An enthusiast of monster cooking, he helps them prepare their monster ingredients for safe consumption. After learning of Laios' circumstances, Senshi expresses his desire to cook a dragon and joins their guild, thus beginning their food-filled foray into the dungeon together."
+    },
+    {...}
+    ...
+  ]
+}
+```
+
+
 Make sure to check the `headers` property of the returned object. It contains the referer header, which might be needed to bypass the 403 error and allow you to stream the video without any issues.
 
 <p align="end">(<a href="https://github.com/consumet/extensions/blob/master/docs/guides/anime.md#">back to anime providers list</a>)</p>

@@ -12,6 +12,7 @@
         "test": "jest",
         "test:gogoanime": "jest ./test/anime/gogoanime.test.ts",
         "test:animeunity": "jest ./test/anime/animeunity.test.ts",
+        "test:zoro": "jest ./test/anime/zoro.test.ts",
         "test:anime": "jest ./test/anime",
         "test:books": "jest ./test/books/libgen.test.ts",
         "test:comics": "jest ./test/comics",

@@ -143,6 +143,41 @@ class Zoro extends AnimeParser {
       throw new Error('Something went wrong. Please try again later.');
     }
   }
+
+  async fetchSpotlight(): Promise<ISearch<IAnimeResult>> {
+    try {
+      const res: ISearch<IAnimeResult> = { results: [] };
+      const { data } = await this.client.get(`${this.baseUrl}/home`);
+      const $ = load(data);
+
+      $('#slider div.swiper-wrapper div.swiper-slide').each((i, el) => {
+        const card = $(el);
+        const titleElement = card.find('div.desi-head-title');
+        const id = card.find('div.desi-buttons .btn-secondary').attr('href')?.match(/\/([^/]+)$/)?.[1] || null;
+        res.results.push({
+          id: id!,
+          title: titleElement.text(),
+          japaneseTitle: titleElement.attr('data-jname'),
+          banner: card.find('deslide-cover-img img').attr('data-src') || null,
+          rank: parseInt( card.find('.desi-sub-text').text().match(/(\d+)/g)?.[0]!),
+          url: `${this.baseUrl}/${id}`,
+          type: card.find('div.sc-detail .scd-item:nth-child(1)').text().trim() as MediaFormat,
+          duration: card.find('div.sc-detail > div:nth-child(2)').text().trim(),
+          releaseDate: card.find('div.sc-detail > div:nth-child(3)').text().trim(),
+          quality: card.find('div.sc-detail > div:nth-child(4)').text().trim(),
+          sub: parseInt(card.find('div.sc-detail div.tick-sub').text().trim()) || 0,
+          dub: parseInt(card.find('div.sc-detail div.tick-dub').text().trim()) || 0,
+          episodes: parseInt(card.find('div.sc-detail div.tick-eps').text()) || 0,
+          description: card.find('div.desi-description').text().trim()
+        });
+      });
+
+      return res;
+    } catch (error) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  }
+
   /**
    * @param id Anime id
    */
