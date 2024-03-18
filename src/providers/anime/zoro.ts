@@ -201,6 +201,23 @@ class Zoro extends AnimeParser {
       info.type = $('span.item').last().prev().prev().text().toUpperCase() as MediaFormat;
       info.url = `${this.baseUrl}/${id}`;
       info.recommendations = await this.scrapeCard($);
+      info.relatedAnime = [];
+      $("#main-sidebar section:nth-child(1) div.anif-block-ul li").each((i, ele) => {
+        const card = $(ele);
+        const aTag = card.find('.film-name a');
+        const id = aTag.attr('href')?.split('/')[1].split('?')[0];
+        info.relatedAnime.push({
+          id: id!,
+          title: aTag.text(),
+          url: `${this.baseUrl}${aTag.attr('href')}`,
+          image: card.find('img')?.attr('data-src'),
+          japaneseTitle: aTag.attr('data-jname'),
+          type: card.find(".tick").contents().last()?.text()?.trim() as MediaFormat,
+          sub: parseInt(card.find('.tick-item.tick-sub')?.text()) || 0,
+          dub: parseInt(card.find('.tick-item.tick-dub')?.text()) || 0,
+          episodes: parseInt(card.find('.tick-item.tick-eps')?.text()) || 0,
+        });
+      });
       const hasSub: boolean = $('div.film-stats div.tick div.tick-item.tick-sub').length > 0;
       const hasDub: boolean = $('div.film-stats div.tick div.tick-item.tick-dub').length > 0;
 

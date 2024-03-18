@@ -33,6 +33,24 @@ class Zoro extends models_1.AnimeParser {
                 info.type = $('span.item').last().prev().prev().text().toUpperCase();
                 info.url = `${this.baseUrl}/${id}`;
                 info.recommendations = await this.scrapeCard($);
+                info.relatedAnime = [];
+                $("#main-sidebar section:nth-child(1) div.anif-block-ul li").each((i, ele) => {
+                    var _a, _b, _c, _d, _e, _f, _g;
+                    const card = $(ele);
+                    const aTag = card.find('.film-name a');
+                    const id = (_a = aTag.attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
+                    info.relatedAnime.push({
+                        id: id,
+                        title: aTag.text(),
+                        url: `${this.baseUrl}${aTag.attr('href')}`,
+                        image: (_b = card.find('img')) === null || _b === void 0 ? void 0 : _b.attr('data-src'),
+                        japaneseTitle: aTag.attr('data-jname'),
+                        type: (_d = (_c = card.find(".tick").contents().last()) === null || _c === void 0 ? void 0 : _c.text()) === null || _d === void 0 ? void 0 : _d.trim(),
+                        sub: parseInt((_e = card.find('.tick-item.tick-sub')) === null || _e === void 0 ? void 0 : _e.text()) || 0,
+                        dub: parseInt((_f = card.find('.tick-item.tick-dub')) === null || _f === void 0 ? void 0 : _f.text()) || 0,
+                        episodes: parseInt((_g = card.find('.tick-item.tick-eps')) === null || _g === void 0 ? void 0 : _g.text()) || 0,
+                    });
+                });
                 const hasSub = $('div.film-stats div.tick div.tick-item.tick-sub').length > 0;
                 const hasDub = $('div.film-stats div.tick div.tick-item.tick-dub').length > 0;
                 if (hasSub) {
