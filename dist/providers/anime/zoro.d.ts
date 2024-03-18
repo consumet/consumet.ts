@@ -62,6 +62,10 @@ declare class Zoro extends AnimeParser {
     /**
      * @param url string
      */
+    private scrapeCardPage;
+    /**
+     * @param $ cheerio instance
+     */
     private scrapeCard;
     /**
      * @deprecated
