@@ -26,11 +26,13 @@ class Zoro extends models_1.AnimeParser {
                 info.malID = Number(mal_id);
                 info.alID = Number(anilist_id);
                 info.title = $('h2.film-name > a.text-white').text();
+                info.japaneseTitle = $('div.anisc-info div:nth-child(2) span.name').text();
                 info.image = $('img.film-poster-img').attr('src');
                 info.description = $('div.film-description').text().trim();
                 // Movie, TV, OVA, ONA, Special, Music
                 info.type = $('span.item').last().prev().prev().text().toUpperCase();
                 info.url = `${this.baseUrl}/${id}`;
+                info.recommendations = await this.scrapeCard($);
                 const hasSub = $('div.film-stats div.tick div.tick-item.tick-sub').length > 0;
                 const hasDub = $('div.film-stats div.tick div.tick-item.tick-dub').length > 0;
                 if (hasSub) {
