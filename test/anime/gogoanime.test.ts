@@ -1,3 +1,4 @@
+import { info } from 'console';
 import { ANIME } from '../../src/providers';
 
 jest.setTimeout(120000);
@@ -56,4 +57,14 @@ test('returns a filled array of recent movies', async () => {
 test('returns a filled array of popular anime', async () => {
   const data = await gogoanime.fetchPopular();
   expect(data).not.toEqual([]);
+});
+
+test('returns a filled array of anime list', async () => {
+  const data = await gogoanime.fetchTopAiring();
+  expect(data).not.toEqual([]);
+
+  const resultSample = data.results[0];
+  expect(resultSample).toHaveProperty('genres');
+  expect(resultSample).toHaveProperty('episodeNumber');
+  expect(resultSample).toHaveProperty('episodeId');
 });

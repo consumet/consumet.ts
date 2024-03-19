@@ -118,11 +118,13 @@ output:
   hasNextPage: true,
   results: [
     {
-      id: 'overlord-iv',
-      title: 'Overlord IV',
-      image: 'https://gogocdn.net/cover/overlord-iv.png',
-      url: 'https://gogoanime.gg/category/overlord-iv',
-      genres: [ 'Action', 'Fantasy', 'Game', 'Magic', 'Supernatural' ]
+      id: 'ore-dake-level-up-na-ken',
+      title: 'Ore dake Level Up na Ken',
+      image: 'https://gogocdn.net/cover/ore-dake-level-up-na-ken-1708917521.png',
+      url: 'https://gogoanime3.co/category/ore-dake-level-up-na-ken',
+      genres: [ 'Action', 'Adventure', 'Fantasy' ],
+      episodeId: 'ore-dake-level-up-na-ken-episode-9',
+      episodeNumber: 9
     }
     {...}
     ...

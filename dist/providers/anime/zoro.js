@@ -169,7 +169,7 @@ class Zoro extends models_1.AnimeParser {
         /**
          * @param url string
          */
-        this.scrapeCard = async (url) => {
+        this.scrapeCardPage = async (url) => {
             var _a, _b, _c;
             try {
                 const res = {
@@ -183,7 +183,7 @@ class Zoro extends models_1.AnimeParser {
                 const pagination = $('ul.pagination');
                 res.currentPage = parseInt((_a = pagination.find('.page-item.active')) === null || _a === void 0 ? void 0 : _a.text());
                 const nextPage = (_b = pagination.find('a[title=Next]')) === null || _b === void 0 ? void 0 : _b.attr('href');
-                if (nextPage != undefined || nextPage != '') {
+                if (nextPage != undefined && nextPage != '') {
                     res.hasNextPage = true;
                 }
                 const totalPages = (_c = pagination.find('a[title=Last]').attr('href')) === null || _c === void 0 ? void 0 : _c.split('=').pop();
@@ -193,14 +193,32 @@ class Zoro extends models_1.AnimeParser {
                 else {
                     res.totalPages = parseInt(totalPages);
                 }
-                const card = $('.flw-item').each((i, ele) => {
+                res.results = await this.scrapeCard($);
+                if (res.results.length === 0) {
+                    res.currentPage = 0;
+                    res.hasNextPage = false;
+                    res.totalPages = 0;
+                }
+                return res;
+            }
+            catch (err) {
+                throw new Error('Something went wrong. Please try again later.');
+            }
+        };
+        /**
+         * @param $ cheerio instance
+         */
+        this.scrapeCard = async ($) => {
+            try {
+                const results = [];
+                $('.flw-item').each((i, ele) => {
                     var _a, _b, _c, _d, _e, _f, _g, _h, _j;
                     const card = $(ele);
                     const atag = card.find('.film-name a');
                     const id = (_a = atag.attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
                     const type = (_c = (_b = card
                         .find('.fdi-item')) === null || _b === void 0 ? void 0 : _b.first()) === null || _c === void 0 ? void 0 : _c.text().replace(' (? eps)', '').replace(/\s\(\d+ eps\)/g, '');
-                    res.results.push({
+                    results.push({
                         id: id,
                         title: atag.text(),
                         url: `${this.baseUrl}${atag.attr('href')}`,
@@ -213,13 +231,8 @@ class Zoro extends models_1.AnimeParser {
                         dub: parseInt((_h = card.find('.tick-item.tick-dub')) === null || _h === void 0 ? void 0 : _h.text()) || 0,
                         episodes: parseInt((_j = card.find('.tick-item.tick-eps')) === null || _j === void 0 ? void 0 : _j.text()) || 0,
                     });
-                    if (res.results.length === 0) {
-                        res.currentPage = 0;
-                        res.hasNextPage = false;
-                        res.totalPages = 0;
-                    }
                 });
-                return res;
+                return results;
             }
             catch (err) {
                 throw new Error('Something went wrong. Please try again later.');
@@ -241,7 +254,7 @@ class Zoro extends models_1.AnimeParser {
         if (0 >= page) {
             page = 1;
         }
-        return this.scrapeCard(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
+        return this.scrapeCardPage(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
     }
     /**
      * @param page number
@@ -250,7 +263,7 @@ class Zoro extends models_1.AnimeParser {
         if (0 >= page) {
             page = 1;
         }
-        return this.scrapeCard(`${this.baseUrl}/top-airing?page=${page}`);
+        return this.scrapeCardPage(`${this.baseUrl}/top-airing?page=${page}`);
     }
     /**
      * @param page number
@@ -259,7 +272,7 @@ class Zoro extends models_1.AnimeParser {
         if (0 >= page) {
             page = 1;
         }
-        return this.scrapeCard(`${this.baseUrl}/most-popular?page=${page}`);
+        return this.scrapeCardPage(`${this.baseUrl}/most-popular?page=${page}`);
     }
     /**
      * @param page number
@@ -268,7 +281,7 @@ class Zoro extends models_1.AnimeParser {
         if (0 >= page) {
             page = 1;
         }
-        return this.scrapeCard(`${this.baseUrl}/most-favorite?page=${page}`);
+        return this.scrapeCardPage(`${this.baseUrl}/most-favorite?page=${page}`);
     }
     /**
      * @param page number
@@ -277,7 +290,7 @@ class Zoro extends models_1.AnimeParser {
         if (0 >= page) {
             page = 1;
         }
-        return this.scrapeCard(`${this.baseUrl}/completed?page=${page}`);
+        return this.scrapeCardPage(`${this.baseUrl}/completed?page=${page}`);
     }
     /**
      * @param page number
@@ -286,7 +299,7 @@ class Zoro extends models_1.AnimeParser {
         if (0 >= page) {
             page = 1;
         }
-        return this.scrapeCard(`${this.baseUrl}/recently-updated?page=${page}`);
+        return this.scrapeCardPage(`${this.baseUrl}/recently-updated?page=${page}`);
     }
     /**
      * @param page number
@@ -295,7 +308,7 @@ class Zoro extends models_1.AnimeParser {
         if (0 >= page) {
             page = 1;
         }
-        return this.scrapeCard(`${this.baseUrl}/recently-added?page=${page}`);
+        return this.scrapeCardPage(`${this.baseUrl}/recently-added?page=${page}`);
     }
     /**
      * @param page number
@@ -304,7 +317,84 @@ class Zoro extends models_1.AnimeParser {
         if (0 >= page) {
             page = 1;
         }
-        return this.scrapeCard(`${this.baseUrl}/top-upcoming?page=${page}`);
+        return this.scrapeCardPage(`${this.baseUrl}/top-upcoming?page=${page}`);
+    }
+    /**
+     * @param studio Studio id, e.g. "toei-animation"
+     * @param page page number (optional) `default 1`
+     */
+    fetchStudio(studio, page = 1) {
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCardPage(`${this.baseUrl}/producer/${studio}?page=${page}`);
+    }
+    /**
+       * Fetches the schedule for a given date.
+       * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
+       * @returns A promise that resolves to an object containing the search results.
+       */
+    async fetchSchedule(date = new Date().toISOString().slice(0, 10)) {
+        try {
+            const res = {
+                results: [],
+            };
+            const { data: { html } } = await this.client.get(`${this.baseUrl}/ajax/schedule/list?tzOffset=360&date=${date}`);
+            const $ = (0, cheerio_1.load)(html);
+            $('li').each((i, ele) => {
+                var _a;
+                const card = $(ele);
+                const title = card.find('.film-name');
+                const id = (_a = card.find("a.tsl-link").attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
+                const airingTime = card.find("div.time").text().replace("\n", "").trim();
+                const airingEpisode = card.find("div.film-detail div.fd-play button").text().replace("\n", "").trim();
+                res.results.push({
+                    id: id,
+                    title: title.text(),
+                    japaneseTitle: title.attr('data-jname'),
+                    url: `${this.baseUrl}/${id}`,
+                    airingEpisode: airingEpisode,
+                    airingTime: airingTime,
+                });
+            });
+            return res;
+        }
+        catch (err) {
+            throw new Error('Something went wrong. Please try again later.');
+        }
+    }
+    async fetchSpotlight() {
+        try {
+            const res = { results: [] };
+            const { data } = await this.client.get(`${this.baseUrl}/home`);
+            const $ = (0, cheerio_1.load)(data);
+            $('#slider div.swiper-wrapper div.swiper-slide').each((i, el) => {
+                var _a, _b, _c;
+                const card = $(el);
+                const titleElement = card.find('div.desi-head-title');
+                const id = ((_b = (_a = card.find('div.desi-buttons .btn-secondary').attr('href')) === null || _a === void 0 ? void 0 : _a.match(/\/([^/]+)$/)) === null || _b === void 0 ? void 0 : _b[1]) || null;
+                res.results.push({
+                    id: id,
+                    title: titleElement.text(),
+                    japaneseTitle: titleElement.attr('data-jname'),
+                    banner: card.find('deslide-cover-img img').attr('data-src') || null,
+                    rank: parseInt((_c = card.find('.desi-sub-text').text().match(/(\d+)/g)) === null || _c === void 0 ? void 0 : _c[0]),
+                    url: `${this.baseUrl}/${id}`,
+                    type: card.find('div.sc-detail .scd-item:nth-child(1)').text().trim(),
+                    duration: card.find('div.sc-detail > div:nth-child(2)').text().trim(),
+                    releaseDate: card.find('div.sc-detail > div:nth-child(3)').text().trim(),
+                    quality: card.find('div.sc-detail > div:nth-child(4)').text().trim(),
+                    sub: parseInt(card.find('div.sc-detail div.tick-sub').text().trim()) || 0,
+                    dub: parseInt(card.find('div.sc-detail div.tick-dub').text().trim()) || 0,
+                    episodes: parseInt(card.find('div.sc-detail div.tick-eps').text()) || 0,
+                    description: card.find('div.desi-description').text().trim()
+                });
+            });
+            return res;
+        }
+        catch (error) {
+            throw new Error('Something went wrong. Please try again later.');
+        }
     }
 }
 // (async () => {

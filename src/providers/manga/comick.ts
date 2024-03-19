@@ -7,7 +7,7 @@ class ComicK extends MangaParser {
   protected override logo = 'https://th.bing.com/th/id/OIP.fw4WrmAoA2PmKitiyMzUIgAAAA?pid=ImgDet&rs=1';
   protected override classPath = 'MANGA.ComicK';
 
-  private readonly apiUrl = 'https://api.comick.app';
+  private readonly apiUrl = 'https://api.comick.io';
 
   private _axios() {
     return axios.create({

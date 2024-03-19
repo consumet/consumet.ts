@@ -1,5 +1,5 @@
 import { AxiosAdapter } from 'axios';
-import { load } from 'cheerio';
+import { CheerioAPI, load } from 'cheerio';
 
 import {
   AnimeParser,
@@ -31,7 +31,7 @@ class Zoro extends AnimeParser {
     if (0 >= page) {
       page = 1;
     }
-    return this.scrapeCard(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
+    return this.scrapeCardPage(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
   }
 
   /**
@@ -41,7 +41,7 @@ class Zoro extends AnimeParser {
     if (0 >= page) {
       page = 1;
     }
-    return this.scrapeCard(`${this.baseUrl}/top-airing?page=${page}`);
+    return this.scrapeCardPage(`${this.baseUrl}/top-airing?page=${page}`);
   }
   /**
    * @param page number
@@ -50,7 +50,7 @@ class Zoro extends AnimeParser {
     if (0 >= page) {
       page = 1;
     }
-    return this.scrapeCard(`${this.baseUrl}/most-popular?page=${page}`);
+    return this.scrapeCardPage(`${this.baseUrl}/most-popular?page=${page}`);
   }
   /**
    * @param page number
@@ -59,7 +59,7 @@ class Zoro extends AnimeParser {
     if (0 >= page) {
       page = 1;
     }
-    return this.scrapeCard(`${this.baseUrl}/most-favorite?page=${page}`);
+    return this.scrapeCardPage(`${this.baseUrl}/most-favorite?page=${page}`);
   }
   /**
    * @param page number
@@ -68,7 +68,7 @@ class Zoro extends AnimeParser {
     if (0 >= page) {
       page = 1;
     }
-    return this.scrapeCard(`${this.baseUrl}/completed?page=${page}`);
+    return this.scrapeCardPage(`${this.baseUrl}/completed?page=${page}`);
   }
   /**
    * @param page number
@@ -77,7 +77,7 @@ class Zoro extends AnimeParser {
     if (0 >= page) {
       page = 1;
     }
-    return this.scrapeCard(`${this.baseUrl}/recently-updated?page=${page}`);
+    return this.scrapeCardPage(`${this.baseUrl}/recently-updated?page=${page}`);
   }
   /**
    * @param page number
@@ -86,7 +86,7 @@ class Zoro extends AnimeParser {
     if (0 >= page) {
       page = 1;
     }
-    return this.scrapeCard(`${this.baseUrl}/recently-added?page=${page}`);
+    return this.scrapeCardPage(`${this.baseUrl}/recently-added?page=${page}`);
   }
   /**
    * @param page number
@@ -95,7 +95,87 @@ class Zoro extends AnimeParser {
     if (0 >= page) {
       page = 1;
     }
-    return this.scrapeCard(`${this.baseUrl}/top-upcoming?page=${page}`);
+    return this.scrapeCardPage(`${this.baseUrl}/top-upcoming?page=${page}`);
+  }
+  /**
+   * @param studio Studio id, e.g. "toei-animation"
+   * @param page page number (optional) `default 1`
+   */
+  fetchStudio(studio: string, page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCardPage(`${this.baseUrl}/producer/${studio}?page=${page}`);
+  }
+
+  /**
+     * Fetches the schedule for a given date.
+     * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
+     * @returns A promise that resolves to an object containing the search results.
+     */
+  async fetchSchedule(date: string = new Date().toISOString().slice(0, 10)): Promise<ISearch<IAnimeResult>> {
+    try {
+      const res: ISearch<IAnimeResult> = {
+        results: [],
+      };
+      const { data: { html } } = await this.client.get(`${this.baseUrl}/ajax/schedule/list?tzOffset=360&date=${date}`);
+      const $ = load(html);
+
+      $('li').each((i, ele) => {
+        const card = $(ele);
+        const title = card.find('.film-name');
+
+        const id = card.find("a.tsl-link").attr('href')?.split('/')[1].split('?')[0];
+        const airingTime = card.find("div.time").text().replace("\n", "").trim();
+        const airingEpisode = card.find("div.film-detail div.fd-play button").text().replace("\n", "").trim();
+        res.results.push({
+          id: id!,
+          title: title.text(),
+          japaneseTitle: title.attr('data-jname'),
+          url: `${this.baseUrl}/${id}`,
+          airingEpisode: airingEpisode,
+          airingTime: airingTime,
+        });
+      })
+
+      return res;
+    } catch (err) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  }
+
+  async fetchSpotlight(): Promise<ISearch<IAnimeResult>> {
+    try {
+      const res: ISearch<IAnimeResult> = { results: [] };
+      const { data } = await this.client.get(`${this.baseUrl}/home`);
+      const $ = load(data);
+
+      $('#slider div.swiper-wrapper div.swiper-slide').each((i, el) => {
+        const card = $(el);
+        const titleElement = card.find('div.desi-head-title');
+        const id = card.find('div.desi-buttons .btn-secondary').attr('href')?.match(/\/([^/]+)$/)?.[1] || null;
+        res.results.push({
+          id: id!,
+          title: titleElement.text(),
+          japaneseTitle: titleElement.attr('data-jname'),
+          banner: card.find('deslide-cover-img img').attr('data-src') || null,
+          rank: parseInt(card.find('.desi-sub-text').text().match(/(\d+)/g)?.[0]!),
+          url: `${this.baseUrl}/${id}`,
+          type: card.find('div.sc-detail .scd-item:nth-child(1)').text().trim() as MediaFormat,
+          duration: card.find('div.sc-detail > div:nth-child(2)').text().trim(),
+          releaseDate: card.find('div.sc-detail > div:nth-child(3)').text().trim(),
+          quality: card.find('div.sc-detail > div:nth-child(4)').text().trim(),
+          sub: parseInt(card.find('div.sc-detail div.tick-sub').text().trim()) || 0,
+          dub: parseInt(card.find('div.sc-detail div.tick-dub').text().trim()) || 0,
+          episodes: parseInt(card.find('div.sc-detail div.tick-eps').text()) || 0,
+          description: card.find('div.desi-description').text().trim()
+        });
+      });
+
+      return res;
+    } catch (error) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
   }
 
   /**
@@ -182,7 +262,7 @@ class Zoro extends AnimeParser {
   override fetchEpisodeSources = async (
     episodeId: string,
     server: StreamingServers = StreamingServers.VidCloud
-  ): Promise<ISource> => {    
+  ): Promise<ISource> => {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
       switch (server) {
@@ -287,7 +367,7 @@ class Zoro extends AnimeParser {
   /**
    * @param url string
    */
-  private scrapeCard = async (url: string): Promise<ISearch<IAnimeResult>> => {
+  private scrapeCardPage = async (url: string): Promise<ISearch<IAnimeResult>> => {
     try {
       const res: ISearch<IAnimeResult> = {
         currentPage: 0,
@@ -301,7 +381,7 @@ class Zoro extends AnimeParser {
       const pagination = $('ul.pagination');
       res.currentPage = parseInt(pagination.find('.page-item.active')?.text());
       const nextPage = pagination.find('a[title=Next]')?.attr('href');
-      if (nextPage != undefined || nextPage != '') {
+      if (nextPage != undefined && nextPage != '') {
         res.hasNextPage = true;
       }
       const totalPages = pagination.find('a[title=Last]').attr('href')?.split('=').pop();
@@ -311,7 +391,26 @@ class Zoro extends AnimeParser {
         res.totalPages = parseInt(totalPages);
       }
 
-      const card = $('.flw-item').each((i, ele) => {
+      res.results = await this.scrapeCard($);
+      if (res.results.length === 0) {
+        res.currentPage = 0;
+        res.hasNextPage = false;
+        res.totalPages = 0;
+      }
+      return res;
+    } catch (err) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  };
+
+  /**
+   * @param $ cheerio instance
+   */
+  private scrapeCard = async ($: CheerioAPI): Promise<IAnimeResult[]> => {
+    try {
+      const results: IAnimeResult[] = [];
+
+      $('.flw-item').each((i, ele) => {
         const card = $(ele);
         const atag = card.find('.film-name a');
         const id = atag.attr('href')?.split('/')[1].split('?')[0];
@@ -321,7 +420,7 @@ class Zoro extends AnimeParser {
           ?.text()
           .replace(' (? eps)', '')
           .replace(/\s\(\d+ eps\)/g, '');
-        res.results.push({
+        results.push({
           id: id!,
           title: atag.text(),
           url: `${this.baseUrl}${atag.attr('href')}`,
@@ -335,13 +434,8 @@ class Zoro extends AnimeParser {
           episodes: parseInt(card.find('.tick-item.tick-eps')?.text()) || 0,
         });
 
-        if (res.results.length === 0) {
-          res.currentPage = 0;
-          res.hasNextPage = false;
-          res.totalPages = 0;
-        }
       });
-      return res;
+      return results;
     } catch (err) {
       throw new Error('Something went wrong. Please try again later.');
     }
