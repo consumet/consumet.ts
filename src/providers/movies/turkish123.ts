@@ -9,10 +9,10 @@ export default class Turkish extends MovieParser {
   supportedTypes: Set<TvType> = new Set([TvType.TVSERIES]);
 
   async fetchMediaInfo(mediaId: string, type?: string | undefined): Promise<IMovieInfo | IAnimeInfo> {
-    var info: IMovieInfo = { id: mediaId, title: '' };
+    const info: IMovieInfo = { id: mediaId, title: '' };
 
     try {
-      var { data } = await this.client(this.baseUrl + mediaId, {
+      const { data } = await this.client(this.baseUrl + mediaId, {
         headers: {
           'User-Agent':
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
@@ -46,9 +46,9 @@ export default class Turkish extends MovieParser {
     return info;
   }
   async fetchEpisodeSources(episodeId: string, ...args: any): Promise<ISource> {
-    var source: ISource = { sources: [{ url: '' }], headers: { Referer: 'https://tukipasti.com' } };
+    const source: ISource = { sources: [{ url: '' }], headers: { Referer: 'https://tukipasti.com' } };
     try {
-      var { data } = await this.client(this.baseUrl + episodeId, {
+      const { data } = await this.client(this.baseUrl + episodeId, {
         headers: {
           'User-Agent':
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
@@ -65,9 +65,9 @@ export default class Turkish extends MovieParser {
     throw new Error('Method not implemented.');
   }
   async search(q: string, ...args: any[]): Promise<IMovieInfo[]> {
-    var params = `wp-admin/admin-ajax.php?s=${q}&action=searchwp_live_search&swpengine=default&swpquery=${q}`;
+    const params = `wp-admin/admin-ajax.php?s=${q}&action=searchwp_live_search&swpengine=default&swpquery=${q}`;
     try {
-      var { data } = await this.client(this.baseUrl + params, {
+      const { data } = await this.client(this.baseUrl + params, {
         headers: {
           'User-Agent':
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
@@ -76,7 +76,7 @@ export default class Turkish extends MovieParser {
         },
       });
       const $ = load(data);
-      var result: IMovieInfo[] = [];
+      const result: IMovieInfo[] = [];
       $('li')
         .not('.ss-bottom')
         .each((_, ele) => {
