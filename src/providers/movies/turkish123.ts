@@ -8,7 +8,7 @@ export default class Turkish extends MovieParser {
   protected classPath: string = 'MOVIES.Turkish';
   supportedTypes: Set<TvType> = new Set([TvType.TVSERIES]);
 
-  async fetchMediaInfo(mediaId: string, type?: string | undefined): Promise<IMovieInfo | IAnimeInfo> {
+  async fetchMediaInfo(mediaId: string): Promise<IMovieInfo | IAnimeInfo> {
     const info: IMovieInfo = { id: mediaId, title: '' };
 
     try {
@@ -45,7 +45,7 @@ export default class Turkish extends MovieParser {
     } catch (error) {}
     return info;
   }
-  async fetchEpisodeSources(episodeId: string, ...args: any): Promise<ISource> {
+  async fetchEpisodeSources(episodeId: string): Promise<ISource> {
     const source: ISource = { sources: [{ url: '' }], headers: { Referer: 'https://tukipasti.com' } };
     try {
       const { data } = await this.client(this.baseUrl + episodeId, {
@@ -56,15 +56,15 @@ export default class Turkish extends MovieParser {
           Referer: this.baseUrl,
         },
       });
-      const resp = await (await axios(data.match(/"(https:\/\/tukipasti.com\/t\/.*?)"/)![1])).data;
+      const resp = (await this.client(data.match(/"(https:\/\/tukipasti.com\/t\/.*?)"/)![1])).data;
       source.sources[0].url = resp.match(/var urlPlay = '(.*?)'/)![1];
     } catch (error) {}
     return source;
   }
-  fetchEpisodeServers(episodeId: string, ...args: any): Promise<IEpisodeServer[]> {
+  fetchEpisodeServers(): Promise<IEpisodeServer[]> {
     throw new Error('Method not implemented.');
   }
-  async search(q: string, ...args: any[]): Promise<IMovieInfo[]> {
+  async search(q: string): Promise<IMovieInfo[]> {
     const params = `wp-admin/admin-ajax.php?s=${q}&action=searchwp_live_search&swpengine=default&swpquery=${q}`;
     try {
       const { data } = await this.client(this.baseUrl + params, {
