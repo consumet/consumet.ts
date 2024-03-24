@@ -16,6 +16,7 @@
         "test:anime": "jest ./test/anime",
         "test:books": "jest ./test/books/libgen.test.ts",
         "test:comics": "jest ./test/comics",
+        "test:flixhq": "jest ./test/movies/flixhq.test.ts",
         "test:movies": "jest ./test/movies",
         "test:manga": "jest ./test/manga",
         "test:lightnovels": "jest ./test/light-novels",

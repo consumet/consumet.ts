@@ -35,5 +35,7 @@ declare class FlixHQ extends MovieParser {
     fetchTrendingTvShows: () => Promise<IMovieResult[]>;
     fetchByCountry: (country: string, page?: number) => Promise<ISearch<IMovieResult>>;
     fetchByGenre: (genre: string, page?: number) => Promise<ISearch<IMovieResult>>;
+    private scrapeCardPage;
+    private scrapeCard;
 }
 export default FlixHQ;
