@@ -153,7 +153,7 @@ class ViewAsian extends MovieParser {
         // asianload is the same as the standard server
         case StreamingServers.AsianLoad:
           serverUrl = `https:${$('.anime:contains(Asianload)').attr('data-video')}`;
-          if (!serverUrl.includes('draplay2')) throw new Error('Try another server');
+          if (!serverUrl.includes('pladrac')) throw new Error('Try another server');
           break;
         case StreamingServers.MixDrop:
           serverUrl = $('.mixdrop').attr('data-video') as string;
