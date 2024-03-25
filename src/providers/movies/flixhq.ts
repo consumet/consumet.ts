@@ -42,7 +42,21 @@ class FlixHQ extends MovieParser {
       searchResult.hasNextPage =
         $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
 
-      searchResult.results = this.scrapeCard($, '.film_list-wrap > div.flw-item') as any;
+      $('.film_list-wrap > div.flw-item').each((i, el) => {
+        const releaseDate = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
+        searchResult.results.push({
+          id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
+          title: $(el).find('div.film-detail > h2 > a').attr('title')!,
+          url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+          image: $(el).find('div.film-poster > img').attr('data-src'),
+          releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
+          seasons: releaseDate.includes('SS') ? parseInt(releaseDate.split('SS')[1]) : undefined,
+          type:
+            $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
+              ? TvType.MOVIE
+              : TvType.TVSERIES,
+        });
+      });
 
       return searchResult;
     } catch (err) {
@@ -67,7 +81,23 @@ class FlixHQ extends MovieParser {
     try {
       const { data } = await this.client.get(mediaId);
       const $ = load(data);
-      const recommendationsArray = this.scrapeCard($, 'div.movie_information > div.container > div.m_i-related > div.film-related > section.block_area > div.block_area-content > div.film_list-wrap > div.flw-item');
+      const recommendationsArray: IMovieResult[] = [];
+
+      $(
+        'div.movie_information > div.container > div.m_i-related > div.film-related > section.block_area > div.block_area-content > div.film_list-wrap > div.flw-item'
+      ).each((i, el) => {
+        recommendationsArray.push({
+          id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
+          title: $(el).find('div.film-detail > h3.film-name > a').text(),
+          image: $(el).find('div.film-poster > img').attr('data-src'),
+          duration:
+            $(el).find('div.film-detail > div.fd-infor > span.fdi-duration').text().replace('m', '') ?? null,
+          type:
+            $(el).find('div.film-detail > div.fd-infor > span.fdi-type').text().toLowerCase() === 'tv'
+              ? TvType.TVSERIES
+              : TvType.MOVIE ?? null,
+        });
+      });
 
       const uid = $('.watch_block').attr('data-id')!;
       movieInfo.cover = $('div.w_b-cover').attr('style')?.slice(22).replace(')', '').replace(';', '');
@@ -238,8 +268,26 @@ class FlixHQ extends MovieParser {
       const { data } = await this.client.get(`${this.baseUrl}/home`);
       const $ = load(data);
 
-      const movies = this.scrapeCard($, 'section.block_area:contains("Latest Movies") > div:nth-child(2) > div:nth-child(1) > div.flw-item')
-
+      const movies = $(
+        'section.block_area:contains("Latest Movies") > div:nth-child(2) > div:nth-child(1) > div.flw-item'
+      )
+        .map((i, el) => {
+          const releaseDate = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
+          const movie: any = {
+            id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
+            title: $(el).find('div.film-detail > h3.film-name > a').attr('title')!,
+            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+            image: $(el).find('div.film-poster > img').attr('data-src'),
+            releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
+            duration: $(el).find('div.film-detail > div.fd-infor > span.fdi-duration').text() || null,
+            type:
+              $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
+                ? TvType.MOVIE
+                : TvType.TVSERIES,
+          };
+          return movie;
+        })
+        .get();
       return movies;
     } catch (err) {
       throw new Error((err as Error).message);
@@ -251,7 +299,25 @@ class FlixHQ extends MovieParser {
       const { data } = await this.client.get(`${this.baseUrl}/home`);
       const $ = load(data);
 
-      const tvshows = this.scrapeCard($, 'section.block_area:contains("Latest TV Shows") > div:nth-child(2) > div:nth-child(1) > div.flw-item');
+      const tvshows = $(
+        'section.block_area:contains("Latest TV Shows") > div:nth-child(2) > div:nth-child(1) > div.flw-item'
+      )
+        .map((i, el) => {
+          const tvshow = {
+            id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
+            title: $(el).find('div.film-detail > h3.film-name > a').attr('title')!,
+            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+            image: $(el).find('div.film-poster > img').attr('data-src'),
+            season: $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text(),
+            latestEpisode: $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() || null,
+            type:
+              $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
+                ? TvType.MOVIE
+                : TvType.TVSERIES,
+          };
+          return tvshow;
+        })
+        .get();
       return tvshows;
     } catch (err) {
       throw new Error((err as Error).message);
@@ -263,7 +329,24 @@ class FlixHQ extends MovieParser {
       const { data } = await this.client.get(`${this.baseUrl}/home`);
       const $ = load(data);
 
-      const movies = this.scrapeCard($, "div#trending-movies div.film_list-wrap div.flw-item");
+      const movies = $('div#trending-movies div.film_list-wrap div.flw-item')
+        .map((i, el) => {
+          const releaseDate = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
+          const movie: any = {
+            id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
+            title: $(el).find('div.film-detail > h3.film-name > a').attr('title')!,
+            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+            image: $(el).find('div.film-poster > img').attr('data-src'),
+            releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
+            duration: $(el).find('div.film-detail > div.fd-infor > span.fdi-duration').text() || null,
+            type:
+              $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
+                ? TvType.MOVIE
+                : TvType.TVSERIES,
+          };
+          return movie;
+        })
+        .get();
       return movies;
     } catch (err) {
       throw new Error((err as Error).message);
@@ -274,7 +357,24 @@ class FlixHQ extends MovieParser {
     try {
       const { data } = await this.client.get(`${this.baseUrl}/home`);
       const $ = load(data);
-      const tvshows = await this.scrapeCard($, 'div#trending-tv div.film_list-wrap div.flw-item');
+
+      const tvshows = $('div#trending-tv div.film_list-wrap div.flw-item')
+        .map((i, el) => {
+          const tvshow = {
+            id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
+            title: $(el).find('div.film-detail > h3.film-name > a').attr('title')!,
+            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+            image: $(el).find('div.film-poster > img').attr('data-src'),
+            season: $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text(),
+            latestEpisode: $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() || null,
+            type:
+              $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
+                ? TvType.MOVIE
+                : TvType.TVSERIES,
+          };
+          return tvshow;
+        })
+        .get();
       return tvshows;
     } catch (err) {
       throw new Error((err as Error).message);
@@ -282,15 +382,16 @@ class FlixHQ extends MovieParser {
   };
 
   fetchByCountry = async (country: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
-    if (page < 1) page = 1;
-    return this.scrapeCardPage(`${this.baseUrl}/country/${country}/?page=${page}`, page)
+      if (page < 1) page = 1;
+      return this.scrapeCardPage(`${this.baseUrl}/country/${country}/?page=${page}`, page);
   };
 
   fetchByGenre = async (genre: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
     if (page < 1) page = 1;
     return this.scrapeCardPage(`${this.baseUrl}/genre/${genre}?page=${page}`, page)
-  };
 
+  };
+  
   private scrapeCardPage = async (url: string, page: number): Promise<ISearch<IMovieResult>> => {
     const result: ISearch<IMovieResult> = {
       currentPage: page,
@@ -323,8 +424,8 @@ class FlixHQ extends MovieParser {
         title: $(el).find('div.film-detail > h2.film-name > a').attr('title') ?? '',
         url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
         image: $(el).find('div.film-poster > img').attr('data-src'),
-        year_season: $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text(),
-        duration_episode: $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() ?? null,
+        year: $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text(),
+        duration: $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() ?? null,
         type:
           $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
             ? TvType.MOVIE
@@ -335,6 +436,7 @@ class FlixHQ extends MovieParser {
       .get();
     return results;
   };
+
 }
 
 // (async () => {
