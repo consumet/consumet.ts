@@ -107,7 +107,34 @@ class Zoro extends AnimeParser {
     }
     return this.scrapeCardPage(`${this.baseUrl}/producer/${studio}?page=${page}`);
   }
-
+  /**
+   * Fetches trending anime
+   */
+  async fetchTrending(): Promise<ISearch<IAnimeResult>> {
+    try {
+      var _a;
+      const res = { results: [] };
+      const { data } = await this.client.get(`${this.baseUrl}/home`);
+      const $ = (0, cheerio_1.load)(data);
+      $('.trending-list div .swiper-wrapper .swiper-slide').each((i, el) => {
+        const card = $(el).find('.item');
+        const titleElement = card.find('.film-title');
+        const id = (_a = card.find(".film-poster").attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
+        res.results.push({
+          id: id,
+          title: titleElement.text(),
+          japaneseTitle: titleElement.attr('data-jname'),
+          image: card.find('.film-poster img').attr('data-src') || null,
+          url: `${this.baseUrl}/${id}`,
+          rank: i + 1
+        });
+      });
+      return res;
+    }
+    catch (error) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  }
   /**
      * Fetches the schedule for a given date.
      * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
@@ -118,7 +145,7 @@ class Zoro extends AnimeParser {
       const res: ISearch<IAnimeResult> = {
         results: [],
       };
-      const { data: { html } } = await this.client.get(`${this.baseUrl}/ajax/schedule/list?tzOffset=360&date=${date}`);
+      const { data: { html } } = await this.client.get(`${this.baseUrl}/ajax/schedule/list?tzOffset=-480&date=${date}`);
       const $ = load(html);
 
       $('li').each((i, ele) => {
@@ -158,7 +185,7 @@ class Zoro extends AnimeParser {
           id: id!,
           title: titleElement.text(),
           japaneseTitle: titleElement.attr('data-jname'),
-          banner: card.find('deslide-cover-img img').attr('data-src') || null,
+          banner: card.find('.deslide-cover-img img').attr('data-src') || null,
           rank: parseInt(card.find('.desi-sub-text').text().match(/(\d+)/g)?.[0]!),
           url: `${this.baseUrl}/${id}`,
           type: card.find('div.sc-detail .scd-item:nth-child(1)').text().trim() as MediaFormat,
@@ -187,19 +214,33 @@ class Zoro extends AnimeParser {
       title: '',
     };
     try {
-      const { data } = await this.client.get(`${this.baseUrl}/watch/${id}`);
+      const { data } = await this.client.get(`${this.baseUrl}/${id}`);
       const $ = load(data);
 
       const { mal_id, anilist_id } = JSON.parse($('#syncData').text());
       info.malID = Number(mal_id);
       info.alID = Number(anilist_id);
-      info.title = $('h2.film-name > a.text-white').text();
+      info.title = $('h2.film-name').text();
       info.japaneseTitle = $('div.anisc-info div:nth-child(2) span.name').text();
       info.image = $('img.film-poster-img').attr('src');
       info.description = $('div.film-description').text().trim();
       // Movie, TV, OVA, ONA, Special, Music
       info.type = $('span.item').last().prev().prev().text().toUpperCase() as MediaFormat;
       info.url = `${this.baseUrl}/${id}`;
+      info.character = [];
+      $('div.block-actors-content div.bac-list-wrap div.bac-item').each((i, el) => {
+        const card = $(el);
+        info.character.push({
+            characterID: card.find('div.per-info:nth-child(1) a.pi-avatar').attr('href').replace('/character/', '') || null,
+            name: card.find('div.per-info:nth-child(1) div.pi-detail h4.pi-name a').text() || null,
+            role: card.find('div.per-info:nth-child(1) div.pi-detail span.pi-cast').text() || null,
+            characterImage: card.find('div.per-info:nth-child(1) a.pi-avatar img').attr('data-src') || null,
+            actorID: card.find('div.per-info:nth-child(2) a.pi-avatar').attr('href').replace('/people/', '') || null,
+            voiceActor: card.find('div.per-info:nth-child(2) div.pi-detail h4.pi-name a').text() || null,
+            voice: card.find('div.per-info:nth-child(2) div.pi-detail span.pi-cast').text() || null,
+            ActorImage: card.find('div.per-info:nth-child(2) a.pi-avatar img').attr('data-src') || null
+        });
+      });
       info.recommendations = await this.scrapeCard($);
       info.relatedAnime = [];
       $("#main-sidebar section:nth-child(1) div.anif-block-ul li").each((i, ele) => {
@@ -279,7 +320,7 @@ class Zoro extends AnimeParser {
    */
   override fetchEpisodeSources = async (
     episodeId: string,
-    server: StreamingServers = StreamingServers.VidCloud
+    server: StreamingServers = StreamingServers.VidStreaming
   ): Promise<ISource> => {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
