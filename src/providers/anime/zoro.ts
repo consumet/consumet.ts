@@ -112,7 +112,7 @@ class Zoro extends AnimeParser {
    */
   async fetchTrending(): Promise<ISearch<IAnimeResult>> {
     try {
-      var _a;
+      let _a;
       const res = { results: [] };
       const { data } = await this.client.get(`${this.baseUrl}/home`);
       const $ = (0, cheerio_1.load)(data);
