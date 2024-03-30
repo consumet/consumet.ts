@@ -20,18 +20,32 @@ class Zoro extends models_1.AnimeParser {
                 title: '',
             };
             try {
-                const { data } = await this.client.get(`${this.baseUrl}/watch/${id}`);
+                const { data } = await this.client.get(`${this.baseUrl}/${id}`);
                 const $ = (0, cheerio_1.load)(data);
                 const { mal_id, anilist_id } = JSON.parse($('#syncData').text());
                 info.malID = Number(mal_id);
                 info.alID = Number(anilist_id);
-                info.title = $('h2.film-name > a.text-white').text();
+                info.title = $('h2.film-name').text();
                 info.japaneseTitle = $('div.anisc-info div:nth-child(2) span.name').text();
                 info.image = $('img.film-poster-img').attr('src');
                 info.description = $('div.film-description').text().trim();
                 // Movie, TV, OVA, ONA, Special, Music
                 info.type = $('span.item').last().prev().prev().text().toUpperCase();
                 info.url = `${this.baseUrl}/${id}`;
+                info.character = [];
+                $('div.block-actors-content div.bac-list-wrap div.bac-item').each((i, el) => {
+                  const card = $(el);
+                  info.character.push({
+                      characterID: card.find('div.per-info:nth-child(1) a.pi-avatar').attr('href').replace('/character/', '') || null,
+                      name: card.find('div.per-info:nth-child(1) div.pi-detail h4.pi-name a').text() || null,
+                      role: card.find('div.per-info:nth-child(1) div.pi-detail span.pi-cast').text() || null,
+                      characterImage: card.find('div.per-info:nth-child(1) a.pi-avatar img').attr('data-src') || null,
+                      actorID: card.find('div.per-info:nth-child(2) a.pi-avatar').attr('href').replace('/people/', '') || null,
+                      voiceActor: card.find('div.per-info:nth-child(2) div.pi-detail h4.pi-name a').text() || null,
+                      voice: card.find('div.per-info:nth-child(2) div.pi-detail span.pi-cast').text() || null,
+                      ActorImage: card.find('div.per-info:nth-child(2) a.pi-avatar img').attr('data-src') || null
+                  });
+                });
                 info.recommendations = await this.scrapeCard($);
                 info.relatedAnime = [];
                 $("#main-sidebar section:nth-child(1) div.anif-block-ul li").each((i, ele) => {
@@ -99,7 +113,7 @@ class Zoro extends models_1.AnimeParser {
          *
          * @param episodeId Episode id
          */
-        this.fetchEpisodeSources = async (episodeId, server = models_1.StreamingServers.VidCloud) => {
+        this.fetchEpisodeSources = async (episodeId, server = models_1.StreamingServers.VidStreaming) => {
             var _a;
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
@@ -122,7 +136,6 @@ class Zoro extends models_1.AnimeParser {
                             sources: await new utils_1.StreamTape(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     default:
-                    case models_1.StreamingServers.VidCloud:
                         return Object.assign({ headers: { Referer: serverUrl.href } }, (await new utils_1.MegaCloud().extract(serverUrl)));
                 }
             }
@@ -359,7 +372,7 @@ class Zoro extends models_1.AnimeParser {
             const res = {
                 results: [],
             };
-            const { data: { html } } = await this.client.get(`${this.baseUrl}/ajax/schedule/list?tzOffset=360&date=${date}`);
+            const { data: { html } } = await this.client.get(`${this.baseUrl}/ajax/schedule/list?tzOffset=-480&date=${date}`);
             const $ = (0, cheerio_1.load)(html);
             $('li').each((i, ele) => {
                 var _a;
@@ -397,7 +410,7 @@ class Zoro extends models_1.AnimeParser {
                     id: id,
                     title: titleElement.text(),
                     japaneseTitle: titleElement.attr('data-jname'),
-                    banner: card.find('deslide-cover-img img').attr('data-src') || null,
+                    banner: card.find('.deslide-cover-img img').attr('data-src') || null,
                     rank: parseInt((_c = card.find('.desi-sub-text').text().match(/(\d+)/g)) === null || _c === void 0 ? void 0 : _c[0]),
                     url: `${this.baseUrl}/${id}`,
                     type: card.find('div.sc-detail .scd-item:nth-child(1)').text().trim(),
@@ -415,6 +428,31 @@ class Zoro extends models_1.AnimeParser {
         catch (error) {
             throw new Error('Something went wrong. Please try again later.');
         }
+    }
+    async fetchTrending() {
+      try {
+        var _a;
+        const res = { results: [] };
+        const { data } = await this.client.get(`${this.baseUrl}/home`);
+        const $ = (0, cheerio_1.load)(data);
+        $('.trending-list div .swiper-wrapper .swiper-slide').each((i, el) => {
+          const card = $(el).find('.item');
+          const titleElement = card.find('.film-title');
+          const id = (_a = card.find(".film-poster").attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
+          res.results.push({
+            id: id,
+            title: titleElement.text(),
+            japaneseTitle: titleElement.attr('data-jname'),
+            image: card.find('.film-poster img').attr('data-src') || null,
+            url: `${this.baseUrl}/${id}`,
+            rank: i + 1
+          });
+        });
+        return res;
+      }
+      catch (error) {
+        throw new Error('Something went wrong. Please try again later.');
+      }
     }
 }
 // (async () => {

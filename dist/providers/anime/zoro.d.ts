@@ -48,6 +48,7 @@ declare class Zoro extends AnimeParser {
        * @returns A promise that resolves to an object containing the search results.
        */
     fetchSchedule(date?: string): Promise<ISearch<IAnimeResult>>;
+    fetchTrending(): Promise<ISearch<IAnimeResult>>;
     fetchSpotlight(): Promise<ISearch<IAnimeResult>>;
     /**
      * @param id Anime id
