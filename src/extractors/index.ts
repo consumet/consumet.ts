@@ -18,6 +18,7 @@ import VidCloud from './vidcloud';
 import VidMoly from './vidmoly';
 import VizCloud from './vizcloud';
 import Voe from './voe';
+import Vidsrc from './vidsrc';
 
 export {
   AsianLoad,
@@ -40,4 +41,5 @@ export {
   VidMoly,
   VizCloud,
   Voe,
+  Vidsrc
 };

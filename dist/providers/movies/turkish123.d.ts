@@ -8,4 +8,9 @@ export default class Turkish extends MovieParser {
     fetchEpisodeSources(episodeId: string): Promise<ISource>;
     fetchEpisodeServers(): Promise<IEpisodeServer[]>;
     search(q: string): Promise<IMovieInfo[]>;
+    homeData(): Promise<{
+        trending: IMovieInfo[];
+        recent: IMovieInfo[];
+        popular: IMovieInfo[];
+    }>;
 }

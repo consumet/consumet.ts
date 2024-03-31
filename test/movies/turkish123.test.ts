@@ -19,3 +19,8 @@ test('returns a m3u8 links', async () => {
   const data = await turk.fetchEpisodeSources('sen-cal-kapimi-episode-2');
   expect(data.sources[0].url).not.toEqual('');
 });
+
+test('returns a home data ', async () => {
+  const data = await turk.homeData();
+  expect(data).not.toEqual([]);
+});

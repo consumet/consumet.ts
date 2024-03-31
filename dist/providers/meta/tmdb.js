@@ -3,6 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+const extractors_1 = require("../../extractors");
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const flixhq_1 = __importDefault(require("../movies/flixhq"));
@@ -342,8 +343,17 @@ class TMDB extends models_1.MovieParser {
          * @param id media id (anime or movie/tv)
          * @param args optional arguments
          */
-        this.fetchEpisodeSources = async (id, ...args) => {
-            return this.provider.fetchEpisodeSources(id, ...args);
+        this.fetchEpisodeSources = async (id, type, season = 1, episode = 1, ...args) => {
+            try {
+                const url = new URL(type == 'tv'
+                    ? `https://vidsrc.xyz/embed/tv?tmdb=${id}&season=${season}&episode=${episode}`
+                    : `https://vidsrc.xyz/embed/movie?tmdb=${id}`);
+                var result = { sources: await new extractors_1.Vidsrc().extract(url) };
+                return result;
+            }
+            catch (err) {
+                throw new Error(err.message);
+            }
         };
         /**
          * @param episodeId episode id

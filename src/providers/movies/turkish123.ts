@@ -1,6 +1,5 @@
 import { load } from 'cheerio';
 import { IAnimeInfo, IEpisodeServer, IMovieInfo, ISource, MovieParser, TvType } from '../../models';
-import axios from 'axios';
 
 export default class Turkish extends MovieParser {
   name: string = 'Turkish123';
@@ -101,5 +100,68 @@ export default class Turkish extends MovieParser {
       console.log(error);
     }
     return [];
+  }
+
+  async homeData(): Promise<{
+    trending: IMovieInfo[];
+    recent: IMovieInfo[];
+    popular: IMovieInfo[];
+  }> {
+    var result: { trending: IMovieInfo[]; recent: IMovieInfo[]; popular: IMovieInfo[] } = {
+      trending: [],
+      recent: [],
+      popular: [],
+    };
+    try {
+      const { data } = await this.client(this.baseUrl + 'home', {
+        headers: {
+          'User-Agent':
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+          'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+          Referer: this.baseUrl,
+        },
+      });
+      const $ = load(data);
+      result.trending = $('#slider > .swiper-wrapper .swiper-slide')
+        .map(
+          (_, e): IMovieInfo => ({
+            id: $(e).find('.slide-link').attr('href')!.replace(this.baseUrl, '').replace('/', ''),
+            title: $(e).find('.slide-caption > h2').text(),
+            description: $(e).find('.sc-desc').next().text(),
+            image:
+              $(e)
+                .attr('style')!
+                .match(/(https.*?)'/)![1] ?? '',
+            genres: $(e)
+              .find('.slide-caption-info > div:first > a')
+              .map((_, ele) => $(ele).text())
+              .get(),
+            releaseDate: $(e).find('.slide-caption-info > div:nth-child(3)').text().split(':').pop(),
+          })
+        )
+        .get();
+      result.recent = $('.main-content > .movies-list-wrap:first > .movies-list > .ml-item')
+        .map(
+          (_, e): IMovieInfo => ({
+            id: $(e).find('a').attr('href')!.replace(this.baseUrl, '').split('-episode-')[0],
+            title: $(e).find('.mli-info').text().split(RegExp('[^a-z A-Z]'))[0].trim(),
+            image: $(e).find('img').attr('src'),
+            totalEpisodes: Number.parseFloat($(e).find('.mli-eps > i').text()),
+            episodeId: $(e).find('a').attr('href')!.replace(this.baseUrl, '').replace('/', ''),
+          })
+        )
+        .get();
+      result.popular = $('.main-content > .movies-list-wrap:nth-child(3) > .movies-list > .ml-item')
+        .map(
+          (_, e): IMovieInfo => ({
+            id: $(e).find('a').attr('href')!.replace(this.baseUrl, '').split('-episode-')[0],
+            title: $(e).find('.mli-info').text().split(RegExp('[^a-z A-Z]'))[0].trim(),
+            image: $(e).find('img').attr('src'),
+          })
+        )
+        .get();
+    } catch (error) {}
+
+    return result;
   }
 }

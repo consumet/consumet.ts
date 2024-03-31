@@ -1,3 +1,4 @@
+import { Vidsrc } from '../../extractors';
 import {
   ISearch,
   IAnimeInfo,
@@ -11,7 +12,7 @@ import {
   ProxyConfig,
   IMovieEpisode,
 } from '../../models';
-import { IPeopleResult } from '../../models/types';
+import { IPeopleResult, IVideo } from '../../models/types';
 import { compareTwoStrings } from '../../utils';
 import FlixHQ from '../movies/flixhq';
 import { AxiosAdapter } from 'axios';
@@ -429,8 +430,24 @@ class TMDB extends MovieParser {
    * @param id media id (anime or movie/tv)
    * @param args optional arguments
    */
-  override fetchEpisodeSources = async (id: string, ...args: any): Promise<ISource> => {
-    return this.provider.fetchEpisodeSources(id, ...args);
+  override fetchEpisodeSources = async (
+    id: string,
+    type: string,
+    season = 1,
+    episode = 1,
+    ...args: any
+  ): Promise<ISource> => {
+    try {
+      const url = new URL(
+        type == 'tv'
+          ? `https://vidsrc.xyz/embed/tv?tmdb=${id}&season=${season}&episode=${episode}`
+          : `https://vidsrc.xyz/embed/movie?tmdb=${id}`
+      );
+      var result: ISource = { sources: await new Vidsrc().extract(url) };
+      return result;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
   };
 
   /**

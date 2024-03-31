@@ -38,7 +38,7 @@ declare class TMDB extends MovieParser {
      * @param id media id (anime or movie/tv)
      * @param args optional arguments
      */
-    fetchEpisodeSources: (id: string, ...args: any) => Promise<ISource>;
+    fetchEpisodeSources: (id: string, type: string, season?: number, episode?: number, ...args: any) => Promise<ISource>;
     /**
      * @param episodeId episode id
      * @param args optional arguments
