@@ -25,6 +25,6 @@ exports.default = {
     Bilibili: bilibili_1.default,
     Marin: marin_1.default,
     AnimeSaturn: animesaturn_1.default,
-    AnimeUnity: animeunity_1.default
+    AnimeUnity: animeunity_1.default,
 };
 //# sourceMappingURL=index.js.map

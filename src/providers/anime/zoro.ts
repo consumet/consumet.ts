@@ -109,25 +109,27 @@ class Zoro extends AnimeParser {
   }
 
   /**
-     * Fetches the schedule for a given date.
-     * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
-     * @returns A promise that resolves to an object containing the search results.
-     */
+   * Fetches the schedule for a given date.
+   * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
+   * @returns A promise that resolves to an object containing the search results.
+   */
   async fetchSchedule(date: string = new Date().toISOString().slice(0, 10)): Promise<ISearch<IAnimeResult>> {
     try {
       const res: ISearch<IAnimeResult> = {
         results: [],
       };
-      const { data: { html } } = await this.client.get(`${this.baseUrl}/ajax/schedule/list?tzOffset=360&date=${date}`);
+      const {
+        data: { html },
+      } = await this.client.get(`${this.baseUrl}/ajax/schedule/list?tzOffset=360&date=${date}`);
       const $ = load(html);
 
       $('li').each((i, ele) => {
         const card = $(ele);
         const title = card.find('.film-name');
 
-        const id = card.find("a.tsl-link").attr('href')?.split('/')[1].split('?')[0];
-        const airingTime = card.find("div.time").text().replace("\n", "").trim();
-        const airingEpisode = card.find("div.film-detail div.fd-play button").text().replace("\n", "").trim();
+        const id = card.find('a.tsl-link').attr('href')?.split('/')[1].split('?')[0];
+        const airingTime = card.find('div.time').text().replace('\n', '').trim();
+        const airingEpisode = card.find('div.film-detail div.fd-play button').text().replace('\n', '').trim();
         res.results.push({
           id: id!,
           title: title.text(),
@@ -136,7 +138,7 @@ class Zoro extends AnimeParser {
           airingEpisode: airingEpisode,
           airingTime: airingTime,
         });
-      })
+      });
 
       return res;
     } catch (err) {
@@ -153,7 +155,11 @@ class Zoro extends AnimeParser {
       $('#slider div.swiper-wrapper div.swiper-slide').each((i, el) => {
         const card = $(el);
         const titleElement = card.find('div.desi-head-title');
-        const id = card.find('div.desi-buttons .btn-secondary').attr('href')?.match(/\/([^/]+)$/)?.[1] || null;
+        const id =
+          card
+            .find('div.desi-buttons .btn-secondary')
+            .attr('href')
+            ?.match(/\/([^/]+)$/)?.[1] || null;
         res.results.push({
           id: id!,
           title: titleElement.text(),
@@ -168,7 +174,7 @@ class Zoro extends AnimeParser {
           sub: parseInt(card.find('div.sc-detail div.tick-sub').text().trim()) || 0,
           dub: parseInt(card.find('div.sc-detail div.tick-dub').text().trim()) || 0,
           episodes: parseInt(card.find('div.sc-detail div.tick-eps').text()) || 0,
-          description: card.find('div.desi-description').text().trim()
+          description: card.find('div.desi-description').text().trim(),
         });
       });
 
@@ -202,7 +208,7 @@ class Zoro extends AnimeParser {
       info.url = `${this.baseUrl}/${id}`;
       info.recommendations = await this.scrapeCard($);
       info.relatedAnime = [];
-      $("#main-sidebar section:nth-child(1) div.anif-block-ul li").each((i, ele) => {
+      $('#main-sidebar section:nth-child(1) div.anif-block-ul li').each((i, ele) => {
         const card = $(ele);
         const aTag = card.find('.film-name a');
         const id = aTag.attr('href')?.split('/')[1].split('?')[0];
@@ -212,7 +218,7 @@ class Zoro extends AnimeParser {
           url: `${this.baseUrl}${aTag.attr('href')}`,
           image: card.find('img')?.attr('data-src'),
           japaneseTitle: aTag.attr('data-jname'),
-          type: card.find(".tick").contents().last()?.text()?.trim() as MediaFormat,
+          type: card.find('.tick').contents().last()?.text()?.trim() as MediaFormat,
           sub: parseInt(card.find('.tick-item.tick-sub')?.text()) || 0,
           dub: parseInt(card.find('.tick-item.tick-dub')?.text()) || 0,
           episodes: parseInt(card.find('.tick-item.tick-eps')?.text()) || 0,
@@ -451,7 +457,6 @@ class Zoro extends AnimeParser {
           dub: parseInt(card.find('.tick-item.tick-dub')?.text()) || 0,
           episodes: parseInt(card.find('.tick-item.tick-eps')?.text()) || 0,
         });
-
       });
       return results;
     } catch (err) {

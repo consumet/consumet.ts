@@ -41,5 +41,5 @@ export {
   VidMoly,
   VizCloud,
   Voe,
-  Vidsrc
+  Vidsrc,
 };

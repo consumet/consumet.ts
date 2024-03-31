@@ -8,7 +8,7 @@ import Crunchyroll from './crunchyroll';
 import Bilibili from './bilibili';
 import Marin from './marin';
 import AnimeSaturn from './animesaturn';
-import AnimeUnity from './animeunity'
+import AnimeUnity from './animeunity';
 
 export default {
   Gogoanime,
@@ -21,5 +21,5 @@ export default {
   Bilibili,
   Marin,
   AnimeSaturn,
-  AnimeUnity
+  AnimeUnity,
 };

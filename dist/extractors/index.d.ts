@@ -19,4 +19,4 @@ import VidMoly from './vidmoly';
 import VizCloud from './vizcloud';
 import Voe from './voe';
 import Vidsrc from './vidsrc';
-export { AsianLoad, BilibiliExtractor, Filemoon, GogoCDN, Kwik, MixDrop, Mp4Player, Mp4Upload, RapidCloud, MegaCloud, SmashyStream, StreamHub, StreamLare, StreamSB, StreamTape, StreamWish, VidCloud, VidMoly, VizCloud, Voe, Vidsrc };
+export { AsianLoad, BilibiliExtractor, Filemoon, GogoCDN, Kwik, MixDrop, Mp4Player, Mp4Upload, RapidCloud, MegaCloud, SmashyStream, StreamHub, StreamLare, StreamSB, StreamTape, StreamWish, VidCloud, VidMoly, VizCloud, Voe, Vidsrc, };

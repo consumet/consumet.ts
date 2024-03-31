@@ -1,9 +1,9 @@
-import crypto from "crypto";
+import crypto from 'crypto';
 import { IVideo, ISubtitle, Intro, VideoExtractor } from '../models';
 
 const megacloud = {
-  script: "https://megacloud.tv/js/player/a/prod/e1-player.min.js?v=",
-  sources: "https://megacloud.tv/embed-2/ajax/e-1/getSources?id=",
+  script: 'https://megacloud.tv/js/player/a/prod/e1-player.min.js?v=',
+  sources: 'https://megacloud.tv/embed-2/ajax/e-1/getSources?id=',
 } as const;
 
 type tracks = {
@@ -28,37 +28,33 @@ type apiFormat = {
 };
 
 class MegaCloud extends VideoExtractor {
-
   protected override serverName = 'MegaCloud';
   protected override sources: IVideo[] = [];
 
-  async extract(videoUrl: URL)  {
-    try {      
-      const result: { 
-        sources: IVideo[]; 
-        subtitles: ISubtitle[]; 
-        intro?: Intro; 
-        outro?: Intro 
+  async extract(videoUrl: URL) {
+    try {
+      const result: {
+        sources: IVideo[];
+        subtitles: ISubtitle[];
+        intro?: Intro;
+        outro?: Intro;
       } = {
         sources: [],
         subtitles: [],
       };
 
-      const videoId = videoUrl?.href?.split("/")?.pop()?.split("?")[0];
-      const { data: srcsData } = await this.client.get<apiFormat>(
-        megacloud.sources.concat(videoId || ""),
-        {
-          headers: {
-            Accept: "*/*",
-            "X-Requested-With": "XMLHttpRequest",
-            "User-Agent":
-              "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
-            Referer: videoUrl.href,
-          },
-        }
-      );
+      const videoId = videoUrl?.href?.split('/')?.pop()?.split('?')[0];
+      const { data: srcsData } = await this.client.get<apiFormat>(megacloud.sources.concat(videoId || ''), {
+        headers: {
+          Accept: '*/*',
+          'X-Requested-With': 'XMLHttpRequest',
+          'User-Agent':
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
+          Referer: videoUrl.href,
+        },
+      });
       if (!srcsData) {
-        throw new Error("Url may have an invalid video id");
+        throw new Error('Url may have an invalid video id');
       }
 
       const encryptedString = srcsData.sources;
@@ -69,7 +65,7 @@ class MegaCloud extends VideoExtractor {
           url: s.file,
           lang: s.label ? s.label : 'Thumbnails',
         }));
-        result.sources = encryptedString.map((s) => ({
+        result.sources = encryptedString.map(s => ({
           url: s.file,
           type: s.type,
           isM3U8: s.file.includes('.m3u8'),
@@ -78,20 +74,14 @@ class MegaCloud extends VideoExtractor {
         return result;
       }
 
-      const { data } = await this.client.get(
-        megacloud.script.concat(Date.now().toString())
-      );
+      const { data } = await this.client.get(megacloud.script.concat(Date.now().toString()));
 
       const text = data;
-      if (!text) 
-        throw new Error("Couldn't fetch script to decrypt resource");      
+      if (!text) throw new Error("Couldn't fetch script to decrypt resource");
 
-      const vars = this.extractVariables(text, "MEGACLOUD");
+      const vars = this.extractVariables(text, 'MEGACLOUD');
 
-      const { secret, encryptedSource } = this.getSecret(
-        encryptedString as string,
-        vars
-      );
+      const { secret, encryptedSource } = this.getSecret(encryptedString as string, vars);
       const decrypted = this.decrypt(encryptedSource, secret);
       try {
         const sources = JSON.parse(decrypted);
@@ -109,7 +99,7 @@ class MegaCloud extends VideoExtractor {
 
         return result;
       } catch (error) {
-        throw new Error("Failed to decrypt resource");
+        throw new Error('Failed to decrypt resource');
       }
     } catch (err) {
       throw err;
@@ -118,31 +108,24 @@ class MegaCloud extends VideoExtractor {
 
   extractVariables(text: string, sourceName: string) {
     let allvars;
-    if (sourceName !== "MEGACLOUD") {
+    if (sourceName !== 'MEGACLOUD') {
       allvars =
-        text
-          .match(
-            /const (?:\w{1,2}=(?:'.{0,50}?'|\w{1,2}\(.{0,20}?\)).{0,20}?,){7}.+?;/gm
-          )
-          ?.at(-1) ?? "";
+        text.match(/const (?:\w{1,2}=(?:'.{0,50}?'|\w{1,2}\(.{0,20}?\)).{0,20}?,){7}.+?;/gm)?.at(-1) ?? '';
     } else {
-      allvars =
-        text
-          .match(/const \w{1,2}=new URLSearchParams.+?;(?=function)/gm)
-          ?.at(-1) ?? "";
+      allvars = text.match(/const \w{1,2}=new URLSearchParams.+?;(?=function)/gm)?.at(-1) ?? '';
     }
     const vars = allvars
       .slice(0, -1)
-      .split("=")
+      .split('=')
       .slice(1)
-      .map((pair) => Number(pair.split(",").at(0)))
-      .filter((num) => num === 0 || num);
+      .map(pair => Number(pair.split(',').at(0)))
+      .filter(num => num === 0 || num);
 
     return vars;
   }
 
   getSecret(encryptedString: string, values: number[]) {
-    let secret = "",
+    let secret = '',
       encryptedSource = encryptedString,
       totalInc = 0;
 
@@ -179,10 +162,7 @@ class MegaCloud extends VideoExtractor {
       const from = start! + totalInc,
         to = from + inc!;
       (secret += encryptedString.slice(from, to)),
-        (encryptedSource = encryptedSource.replace(
-          encryptedString.substring(from, to),
-          ""
-        )),
+        (encryptedSource = encryptedSource.replace(encryptedString.substring(from, to), '')),
         (totalInc += inc!);
     }
 
@@ -198,16 +178,13 @@ class MegaCloud extends VideoExtractor {
       iv = maybe_iv;
       contents = encrypted;
     } else {
-      const cypher = Buffer.from(encrypted, "base64");
+      const cypher = Buffer.from(encrypted, 'base64');
       const salt = cypher.subarray(8, 16);
-      const password = Buffer.concat([
-        Buffer.from(keyOrSecret, "binary"),
-        salt,
-      ]);
+      const password = Buffer.concat([Buffer.from(keyOrSecret, 'binary'), salt]);
       const md5Hashes = [];
       let digest = password;
       for (let i = 0; i < 3; i++) {
-        md5Hashes[i] = crypto.createHash("md5").update(digest).digest();
+        md5Hashes[i] = crypto.createHash('md5').update(digest).digest();
         digest = Buffer.concat([md5Hashes[i], password]);
       }
       key = Buffer.concat([md5Hashes[0], md5Hashes[1]]);
@@ -215,13 +192,10 @@ class MegaCloud extends VideoExtractor {
       contents = cypher.subarray(16);
     }
 
-    const decipher = crypto.createDecipheriv("aes-256-cbc", key, iv);
+    const decipher = crypto.createDecipheriv('aes-256-cbc', key, iv);
     const decrypted =
-      decipher.update(
-        contents as any,
-        typeof contents === "string" ? "base64" : undefined,
-        "utf8"
-      ) + decipher.final();
+      decipher.update(contents as any, typeof contents === 'string' ? 'base64' : undefined, 'utf8') +
+      decipher.final();
 
     return decrypted;
   }

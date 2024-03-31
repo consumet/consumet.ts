@@ -19,7 +19,7 @@ class AnimeUnity extends models_1.AnimeParser {
                 const $ = (0, cheerio_1.load)(res.data);
                 if (!$)
                     return { results: [] };
-                const items = JSON.parse("" + $('archivio').attr('records') + "");
+                const items = JSON.parse('' + $('archivio').attr('records') + '');
                 const searchResult = {
                     hasNextPage: false,
                     results: [],
@@ -31,9 +31,7 @@ class AnimeUnity extends models_1.AnimeParser {
                         url: `${this.baseUrl}/anime/${items[i].id}-${items[i].slug}`,
                         image: `${items[i].imageurl}`,
                         cover: `${items[i].imageurl_cover}`,
-                        subOrDub: `${items[i].dub
-                            ? models_1.SubOrSub.DUB
-                            : models_1.SubOrSub.SUB}`
+                        subOrDub: `${items[i].dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB}`,
                     });
                 }
                 return searchResult;
@@ -76,7 +74,7 @@ class AnimeUnity extends models_1.AnimeParser {
                     // image: $('meta[property="og:image"]')?.attr('content'),
                     cover: (_m = (_l = $('.banner')) === null || _l === void 0 ? void 0 : _l.attr('src')) !== null && _m !== void 0 ? _m : (_p = (_o = $('.banner')) === null || _o === void 0 ? void 0 : _o.attr('style')) === null || _p === void 0 ? void 0 : _p.replace('background: url(', ''),
                     description: $('.description').text().trim(),
-                    episodes: []
+                    episodes: [],
                 };
                 // fetch episodes method 1 (only first page can be fetchedd)
                 // const items = JSON.parse("" + $('video-player').attr('episodes') + "")
@@ -106,24 +104,32 @@ class AnimeUnity extends models_1.AnimeParser {
                 const res = await this.client.get(`${this.baseUrl}/anime/${episodeId}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 const episodeSources = {
-                    sources: []
+                    sources: [],
                 };
                 const streamUrl = $('video-player').attr('embed_url');
                 if (streamUrl) {
                     const res = await this.client.get(streamUrl);
                     const $ = (0, cheerio_1.load)(res.data);
-                    const domain = (_a = $('script:contains("window.video")').text()) === null || _a === void 0 ? void 0 : _a.match(/url: '(.*)'/)[1];
-                    const token = (_b = $('script:contains("window.video")').text()) === null || _b === void 0 ? void 0 : _b.match(/token': '(.*)'/)[1];
-                    const token360p = (_c = $('script:contains("window.video")').text()) === null || _c === void 0 ? void 0 : _c.match(/token360p': '(.*)'/)[1];
-                    const token480p = (_d = $('script:contains("window.video")').text()) === null || _d === void 0 ? void 0 : _d.match(/token480p': '(.*)'/)[1];
-                    const token720p = (_e = $('script:contains("window.video")').text()) === null || _e === void 0 ? void 0 : _e.match(/token720p': '(.*)'/)[1];
-                    const token1080p = (_f = $('script:contains("window.video")').text()) === null || _f === void 0 ? void 0 : _f.match(/token1080p': '(.*)'/)[1];
-                    const expires = (_g = $('script:contains("window.video")').text()) === null || _g === void 0 ? void 0 : _g.match(/expires': '(.*)'/)[1];
+                    const domain = (_a = $('script:contains("window.video")')
+                        .text()) === null || _a === void 0 ? void 0 : _a.match(/url: '(.*)'/)[1];
+                    const token = (_b = $('script:contains("window.video")')
+                        .text()) === null || _b === void 0 ? void 0 : _b.match(/token': '(.*)'/)[1];
+                    const token360p = (_c = $('script:contains("window.video")')
+                        .text()) === null || _c === void 0 ? void 0 : _c.match(/token360p': '(.*)'/)[1];
+                    const token480p = (_d = $('script:contains("window.video")')
+                        .text()) === null || _d === void 0 ? void 0 : _d.match(/token480p': '(.*)'/)[1];
+                    const token720p = (_e = $('script:contains("window.video")')
+                        .text()) === null || _e === void 0 ? void 0 : _e.match(/token720p': '(.*)'/)[1];
+                    const token1080p = (_f = $('script:contains("window.video")')
+                        .text()) === null || _f === void 0 ? void 0 : _f.match(/token1080p': '(.*)'/)[1];
+                    const expires = (_g = $('script:contains("window.video")')
+                        .text()) === null || _g === void 0 ? void 0 : _g.match(/expires': '(.*)'/)[1];
                     episodeSources.sources.push({
                         url: `${domain}?token=${token}&token360p=${token360p}&token480p=${token480p}&token720p=${token720p}&token1080p=${token1080p}&referer=&expires=${expires}`,
-                        isM3U8: true
+                        isM3U8: true,
                     });
-                    episodeSources.download = (_j = (_h = $('script:contains("window.downloadUrl ")').text()) === null || _h === void 0 ? void 0 : _h.match(/downloadUrl = '(.*)'/)[1]) === null || _j === void 0 ? void 0 : _j.toString();
+                    episodeSources.download = (_j = (_h = $('script:contains("window.downloadUrl ")')
+                        .text()) === null || _h === void 0 ? void 0 : _h.match(/downloadUrl = '(.*)'/)[1]) === null || _j === void 0 ? void 0 : _j.toString();
                 }
                 return episodeSources;
             }
