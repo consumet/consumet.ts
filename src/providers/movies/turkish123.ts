@@ -107,7 +107,7 @@ export default class Turkish extends MovieParser {
     recent: IMovieInfo[];
     popular: IMovieInfo[];
   }> {
-    var result: { trending: IMovieInfo[]; recent: IMovieInfo[]; popular: IMovieInfo[] } = {
+    const result: { trending: IMovieInfo[]; recent: IMovieInfo[]; popular: IMovieInfo[] } = {
       trending: [],
       recent: [],
       popular: [],

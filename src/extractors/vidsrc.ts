@@ -6,7 +6,7 @@ class Vidsrc extends VideoExtractor {
   protected EmmbedURL = 'http://vidsrc.stream';
   protected override sources: IVideo[] = [];
 
-  protected deobfstr = async (data: String, id: String) => {
+  protected deobfstr = async (data: string, id: string) => {
     id = id.toString();
     let src = '';
 

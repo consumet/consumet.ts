@@ -443,7 +443,7 @@ class TMDB extends MovieParser {
           ? `https://vidsrc.xyz/embed/tv?tmdb=${id}&season=${season}&episode=${episode}`
           : `https://vidsrc.xyz/embed/movie?tmdb=${id}`
       );
-      var result: ISource = { sources: await new Vidsrc().extract(url) };
+      const result: ISource = { sources: await new Vidsrc().extract(url) };
       return result;
     } catch (err) {
       throw new Error((err as Error).message);
