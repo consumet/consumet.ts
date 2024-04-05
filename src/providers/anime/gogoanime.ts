@@ -179,7 +179,7 @@ class Gogoanime extends AnimeParser {
           return {
             headers: { Referer: serverUrl.href },
             sources: await new GogoCDN(this.proxyConfig, this.adapter).extract(serverUrl),
-            download: `https://gogohd.net/download${serverUrl.search}`,
+            download: `https://${serverUrl.host}/download${serverUrl.search}`,
           };
         case StreamingServers.StreamSB:
           return {
@@ -476,7 +476,7 @@ class Gogoanime extends AnimeParser {
       throw new Error('Something went wrong. Please try again later.');
     }
   };
-  fetchDirectDownloadLink = async (downloadUrl: string, captchaToken: string?): Promise<{ source: string | undefined; link: string | undefined }[]> => {
+  fetchDirectDownloadLink = async (downloadUrl: string, captchaToken: string): Promise<{ source: string | undefined; link: string | undefined }[]> => {
     const downloadLinks: { source: string | undefined; link: string | undefined }[] = [];
 
     const baseUrl = downloadUrl.split('?')[0];
