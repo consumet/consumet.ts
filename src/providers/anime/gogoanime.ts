@@ -476,7 +476,7 @@ class Gogoanime extends AnimeParser {
       throw new Error('Something went wrong. Please try again later.');
     }
   };
-  fetchDirectDownloadLink = async (downloadUrl: string, captchaToken: string?): Promise<{ source: string | undefined; link: string | undefined }[]> => {
+  fetchDirectDownloadLink = async (downloadUrl: string, captchaToken: string | undefined): Promise<{ source: string | undefined; link: string | undefined }[]> => {
     const downloadLinks: { source: string | undefined; link: string | undefined }[] = [];
 
     const baseUrl = downloadUrl.split('?')[0];
