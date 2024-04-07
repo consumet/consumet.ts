@@ -16,6 +16,10 @@ declare class MangaDex extends MangaParser {
      * @param limit limit of results to return (default: 20) (max: 100) (min: 1)
      */
     search: (query: string, page?: number, limit?: number) => Promise<ISearch<IMangaResult>>;
+    fetchRandom: () => Promise<ISearch<IMangaResult>>;
+    fetchRecentlyAdded: (page?: number, limit?: number) => Promise<ISearch<IMangaResult>>;
+    fetchLatestUpdates: (page?: number, limit?: number) => Promise<ISearch<IMangaResult>>;
+    fetchPopular: (page?: number, limit?: number) => Promise<ISearch<IMangaResult>>;
     private fetchAllChapters;
     private fetchCoverImage;
 }

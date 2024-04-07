@@ -1,3 +1,4 @@
+import { info } from 'console';
 import { ANIME } from '../../src/providers';
 
 jest.setTimeout(120000);
@@ -34,6 +35,15 @@ test('returns a filled array of available genres', async () => {
   expect(data).not.toEqual([]);
 });
 
+test('returns a filled array of anime list', async () => {
+  const data = await gogoanime.fetchAnimeList();
+  expect(data).not.toEqual([]);
+
+  const resultSample = data.results[0];
+  expect(resultSample).toHaveProperty('genres');
+  expect(resultSample).toHaveProperty('releaseDate');
+});
+
 test('returns a filled array of recent episodes', async () => {
   const data = await gogoanime.fetchRecentEpisodes();
   expect(data).not.toEqual([]);
@@ -46,5 +56,20 @@ test('returns a filled array of recent movies', async () => {
 
 test('returns a filled array of popular anime', async () => {
   const data = await gogoanime.fetchPopular();
+  expect(data).not.toEqual([]);
+});
+
+test('returns a filled array of anime list', async () => {
+  const data = await gogoanime.fetchTopAiring();
+  expect(data).not.toEqual([]);
+
+  const resultSample = data.results[0];
+  expect(resultSample).toHaveProperty('genres');
+  expect(resultSample).toHaveProperty('episodeNumber');
+  expect(resultSample).toHaveProperty('episodeId');
+});
+
+test('returns a filled array of direct download link', async () => {
+  const data = await gogoanime.fetchDirectDownloadLink('https://embtaku.pro/download?id=MjE4NTQ2&token=-uq9s5PsPto2lD8SC6NBqQ&expires=1711622781');
   expect(data).not.toEqual([]);
 });

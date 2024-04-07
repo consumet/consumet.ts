@@ -326,14 +326,82 @@ class FlixHQ extends models_1.MovieParser {
                 throw new Error(err.message);
             }
         };
+        this.fetchByCountry = async (country, page = 1) => {
+            const result = {
+                currentPage: page,
+                hasNextPage: false,
+                results: [],
+            };
+            const navSelector = 'div.pre-pagination:nth-child(3) > nav:nth-child(1) > ul:nth-child(1)';
+            try {
+                const { data } = await this.client.get(`${this.baseUrl}/country/${country}/?page=${page}`);
+                const $ = (0, cheerio_1.load)(data);
+                result.hasNextPage =
+                    $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
+                $('div.container > section.block_area > div.block_area-content > div.film_list-wrap > div.flw-item')
+                    .each((i, el) => {
+                    var _a, _b, _c, _d;
+                    result.results.push({
+                        id: (_b = (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1)) !== null && _b !== void 0 ? _b : '',
+                        title: (_c = $(el).find('div.film-detail > h2.film-name > a').attr('title')) !== null && _c !== void 0 ? _c : '',
+                        url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+                        image: $(el).find('div.film-poster > img').attr('data-src'),
+                        season: $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text(),
+                        latestEpisode: (_d = $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text()) !== null && _d !== void 0 ? _d : null,
+                        type: $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
+                            ? models_1.TvType.MOVIE
+                            : models_1.TvType.TVSERIES,
+                    });
+                })
+                    .get();
+                return result;
+            }
+            catch (err) {
+                throw new Error(err.message);
+            }
+        };
+        this.fetchByGenre = async (genre, page = 1) => {
+            const result = {
+                currentPage: page,
+                hasNextPage: false,
+                results: [],
+            };
+            try {
+                const { data } = await this.client.get(`${this.baseUrl}/genre/${genre}?page=${page}`);
+                const $ = (0, cheerio_1.load)(data);
+                const navSelector = 'div.pre-pagination:nth-child(3) > nav:nth-child(1) > ul:nth-child(1)';
+                result.hasNextPage =
+                    $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
+                $('.film_list-wrap > div.flw-item').each((i, el) => {
+                    var _a, _b, _c;
+                    const releaseDate = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
+                    result.results.push({
+                        id: (_b = (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1)) !== null && _b !== void 0 ? _b : '',
+                        title: (_c = $(el).find('div.film-detail > h2 > a').attr('title')) !== null && _c !== void 0 ? _c : '',
+                        url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+                        image: $(el).find('div.film-poster > img').attr('data-src'),
+                        releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
+                        seasons: releaseDate.includes('SS') ? parseInt(releaseDate.split('SS')[1]) : undefined,
+                        type: $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
+                            ? models_1.TvType.MOVIE
+                            : models_1.TvType.TVSERIES,
+                    });
+                });
+                return result;
+            }
+            catch (err) {
+                throw new Error(err.message);
+            }
+        };
     }
 }
 // (async () => {
-//   const movie = new FlixHQ();
+//    const movie = new FlixHQ();
 //   const search = await movie.search('the flash');
 //   // const movieInfo = await movie.fetchEpisodeSources('1168337', 'tv/watch-vincenzo-67955');
 //   // const recentTv = await movie.fetchTrendingTvShows();
-//   console.log(search);
+//   //  const genre = await movie.fetchByCountry('KR')
+//   //  console.log(genre)
 // })();
 exports.default = FlixHQ;
 //# sourceMappingURL=flixhq.js.map

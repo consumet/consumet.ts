@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.VidMoly = exports.compareTwoStrings = exports.substringBefore = exports.substringAfter = exports.AsianLoad = exports.BilibiliExtractor = exports.convertDuration = exports.isJson = exports.days = exports.getDays = exports.anilistCharacterQuery = exports.Filemoon = exports.anilistSiteStatisticsQuery = exports.anilistAdvancedQuery = exports.anilistGenresQuery = exports.anilistAiringScheduleQuery = exports.anilistPopularQuery = exports.anilistTrendingQuery = exports.VizCloud = exports.StreamTape = exports.RapidCloud = exports.range = exports.kitsuSearchQuery = exports.anilistMediaDetailQuery = exports.anilistSearchQuery = exports.Kwik = exports.MixDrop = exports.VidCloud = exports.capitalizeFirstLetter = exports.genElement = exports.parsePostInfo = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.StreamHub = exports.SmashyStream = exports.StreamSB = exports.GogoCDN = exports.USER_AGENT = void 0;
+exports.VidMoly = exports.compareTwoStrings = exports.substringBefore = exports.substringAfter = exports.AsianLoad = exports.BilibiliExtractor = exports.convertDuration = exports.isJson = exports.days = exports.getDays = exports.anilistCharacterQuery = exports.Filemoon = exports.anilistSiteStatisticsQuery = exports.anilistAdvancedQuery = exports.anilistGenresQuery = exports.anilistAiringScheduleQuery = exports.anilistPopularQuery = exports.anilistTrendingQuery = exports.VizCloud = exports.StreamTape = exports.MegaCloud = exports.RapidCloud = exports.range = exports.kitsuSearchQuery = exports.anilistMediaDetailQuery = exports.anilistSearchQuery = exports.Kwik = exports.MixDrop = exports.VidCloud = exports.capitalizeFirstLetter = exports.genElement = exports.parsePostInfo = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.StreamHub = exports.SmashyStream = exports.StreamSB = exports.GogoCDN = exports.USER_AGENT = void 0;
 const extractors_1 = require("../extractors");
 Object.defineProperty(exports, "GogoCDN", { enumerable: true, get: function () { return extractors_1.GogoCDN; } });
 Object.defineProperty(exports, "StreamSB", { enumerable: true, get: function () { return extractors_1.StreamSB; } });
@@ -8,6 +8,7 @@ Object.defineProperty(exports, "VidCloud", { enumerable: true, get: function () 
 Object.defineProperty(exports, "MixDrop", { enumerable: true, get: function () { return extractors_1.MixDrop; } });
 Object.defineProperty(exports, "Kwik", { enumerable: true, get: function () { return extractors_1.Kwik; } });
 Object.defineProperty(exports, "RapidCloud", { enumerable: true, get: function () { return extractors_1.RapidCloud; } });
+Object.defineProperty(exports, "MegaCloud", { enumerable: true, get: function () { return extractors_1.MegaCloud; } });
 Object.defineProperty(exports, "StreamTape", { enumerable: true, get: function () { return extractors_1.StreamTape; } });
 Object.defineProperty(exports, "VizCloud", { enumerable: true, get: function () { return extractors_1.VizCloud; } });
 Object.defineProperty(exports, "Filemoon", { enumerable: true, get: function () { return extractors_1.Filemoon; } });

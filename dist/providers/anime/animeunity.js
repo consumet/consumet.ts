@@ -19,12 +19,12 @@ class AnimeUnity extends models_1.AnimeParser {
                 const $ = (0, cheerio_1.load)(res.data);
                 if (!$)
                     return { results: [] };
-                let items = JSON.parse("" + $('archivio').attr('records') + "");
+                const items = JSON.parse("" + $('archivio').attr('records') + "");
                 const searchResult = {
                     hasNextPage: false,
                     results: [],
                 };
-                for (let i in items) {
+                for (const i in items) {
                     searchResult.results.push({
                         id: `${items[i].id}-${items[i].slug}`,
                         title: (_a = items[i].title) !== null && _a !== void 0 ? _a : items[i].title_eng,
@@ -44,30 +44,46 @@ class AnimeUnity extends models_1.AnimeParser {
         };
         /**
          * @param id Anime id
+         * @param page Page number
          */
-        this.fetchAnimeInfo = async (id) => {
+        this.fetchAnimeInfo = async (id, page = 1) => {
             var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q;
-            let url = `${this.baseUrl}/anime/${id}`;
+            const url = `${this.baseUrl}/anime/${id}`;
+            const episodesPerPage = 120;
+            const lastPageEpisode = page * episodesPerPage;
+            const firstPageEpisode = lastPageEpisode - 119;
+            const url2 = `${this.baseUrl}/info_api/${id}/1?start_range=${firstPageEpisode}&end_range=${lastPageEpisode}`;
             try {
                 const res = await this.client.get(url);
                 const $ = (0, cheerio_1.load)(res.data);
+                const totalEpisodes = parseInt((_b = (_a = $('video-player')) === null || _a === void 0 ? void 0 : _a.attr('episodes_count')) !== null && _b !== void 0 ? _b : '0');
+                const totalPages = Math.round(totalEpisodes / 120) + 1;
+                if (page < 1 || page > totalPages)
+                    throw new Error(`Argument 'page' for ${id} must be between 1 and ${totalPages}!`);
                 const animeInfo = {
+                    currentPage: page,
+                    hasNextPage: totalPages > page,
+                    totalPages: totalPages,
                     id: id,
-                    title: (_a = $('h1.title')) === null || _a === void 0 ? void 0 : _a.text().trim(),
+                    title: (_c = $('h1.title')) === null || _c === void 0 ? void 0 : _c.text().trim(),
                     url: url,
-                    alID: (_e = (_d = (_c = (_b = $('.banner')) === null || _b === void 0 ? void 0 : _b.attr('style')) === null || _c === void 0 ? void 0 : _c.split('/')) === null || _d === void 0 ? void 0 : _d.pop()) === null || _e === void 0 ? void 0 : _e.split('-')[0],
-                    genres: (_g = (_f = $('.info-wrapper.pt-3.pb-3 small')) === null || _f === void 0 ? void 0 : _f.map((i, element) => {
+                    alID: (_g = (_f = (_e = (_d = $('.banner')) === null || _d === void 0 ? void 0 : _d.attr('style')) === null || _e === void 0 ? void 0 : _e.split('/')) === null || _f === void 0 ? void 0 : _f.pop()) === null || _g === void 0 ? void 0 : _g.split('-')[0],
+                    genres: (_j = (_h = $('.info-wrapper.pt-3.pb-3 small')) === null || _h === void 0 ? void 0 : _h.map((i, element) => {
                         return $(element).text().replace(',', '').trim();
-                    }).toArray()) !== null && _g !== void 0 ? _g : undefined,
-                    totalEpisodes: parseInt((_j = (_h = $('video-player')) === null || _h === void 0 ? void 0 : _h.attr('episodes_count')) !== null && _j !== void 0 ? _j : '0'),
+                    }).toArray()) !== null && _j !== void 0 ? _j : undefined,
+                    totalEpisodes: totalEpisodes,
                     image: (_k = $('img.cover')) === null || _k === void 0 ? void 0 : _k.attr('src'),
                     // image: $('meta[property="og:image"]')?.attr('content'),
                     cover: (_m = (_l = $('.banner')) === null || _l === void 0 ? void 0 : _l.attr('src')) !== null && _m !== void 0 ? _m : (_p = (_o = $('.banner')) === null || _o === void 0 ? void 0 : _o.attr('style')) === null || _p === void 0 ? void 0 : _p.replace('background: url(', ''),
                     description: $('.description').text().trim(),
                     episodes: []
                 };
-                let items = JSON.parse("" + $('video-player').attr('episodes') + "");
-                for (let i in items) {
+                // fetch episodes method 1 (only first page can be fetchedd)
+                // const items = JSON.parse("" + $('video-player').attr('episodes') + "")
+                // fetch episodes method 2 (all pages can be fetched)
+                const res2 = await this.client.get(url2);
+                const items = res2.data.episodes;
+                for (const i in items) {
                     (_q = animeInfo.episodes) === null || _q === void 0 ? void 0 : _q.push({
                         id: `${id}/${items[i].id}`,
                         number: parseInt(items[i].number),
@@ -89,20 +105,20 @@ class AnimeUnity extends models_1.AnimeParser {
             try {
                 const res = await this.client.get(`${this.baseUrl}/anime/${episodeId}`);
                 const $ = (0, cheerio_1.load)(res.data);
-                let episodeSources = {
+                const episodeSources = {
                     sources: []
                 };
-                let streamUrl = $('video-player').attr('embed_url');
+                const streamUrl = $('video-player').attr('embed_url');
                 if (streamUrl) {
                     const res = await this.client.get(streamUrl);
                     const $ = (0, cheerio_1.load)(res.data);
-                    let domain = (_a = $('script:contains("window.video")').text()) === null || _a === void 0 ? void 0 : _a.match(/url: '(.*)'/)[1];
-                    let token = (_b = $('script:contains("window.video")').text()) === null || _b === void 0 ? void 0 : _b.match(/token': '(.*)'/)[1];
-                    let token360p = (_c = $('script:contains("window.video")').text()) === null || _c === void 0 ? void 0 : _c.match(/token360p': '(.*)'/)[1];
-                    let token480p = (_d = $('script:contains("window.video")').text()) === null || _d === void 0 ? void 0 : _d.match(/token480p': '(.*)'/)[1];
-                    let token720p = (_e = $('script:contains("window.video")').text()) === null || _e === void 0 ? void 0 : _e.match(/token720p': '(.*)'/)[1];
-                    let token1080p = (_f = $('script:contains("window.video")').text()) === null || _f === void 0 ? void 0 : _f.match(/token1080p': '(.*)'/)[1];
-                    let expires = (_g = $('script:contains("window.video")').text()) === null || _g === void 0 ? void 0 : _g.match(/expires': '(.*)'/)[1];
+                    const domain = (_a = $('script:contains("window.video")').text()) === null || _a === void 0 ? void 0 : _a.match(/url: '(.*)'/)[1];
+                    const token = (_b = $('script:contains("window.video")').text()) === null || _b === void 0 ? void 0 : _b.match(/token': '(.*)'/)[1];
+                    const token360p = (_c = $('script:contains("window.video")').text()) === null || _c === void 0 ? void 0 : _c.match(/token360p': '(.*)'/)[1];
+                    const token480p = (_d = $('script:contains("window.video")').text()) === null || _d === void 0 ? void 0 : _d.match(/token480p': '(.*)'/)[1];
+                    const token720p = (_e = $('script:contains("window.video")').text()) === null || _e === void 0 ? void 0 : _e.match(/token720p': '(.*)'/)[1];
+                    const token1080p = (_f = $('script:contains("window.video")').text()) === null || _f === void 0 ? void 0 : _f.match(/token1080p': '(.*)'/)[1];
+                    const expires = (_g = $('script:contains("window.video")').text()) === null || _g === void 0 ? void 0 : _g.match(/expires': '(.*)'/)[1];
                     episodeSources.sources.push({
                         url: `${domain}?token=${token}&token360p=${token360p}&token480p=${token480p}&token720p=${token720p}&token1080p=${token1080p}&referer=&expires=${expires}`,
                         isM3U8: true

@@ -35,7 +35,7 @@ class RapidCloud extends VideoExtractor {
       } = res;
 
       let decryptKey = await (
-        await this.client.get('https://raw.githubusercontent.com/theonlymo/keys/e1/key')
+        await this.client.get('https://raw.githubusercontent.com/cinemaxhq/keys/e1/key')
       ).data;
 
       decryptKey = substringBefore(
@@ -45,7 +45,7 @@ class RapidCloud extends VideoExtractor {
 
       if (!decryptKey) {
         decryptKey = await (
-          await this.client.get('https://raw.githubusercontent.com/theonlymo/keys/e1/key')
+          await this.client.get('https://raw.githubusercontent.com/cinemaxhq/keys/e1/key')
         ).data;
       }
 

@@ -12,7 +12,7 @@ class ComicK extends models_1.MangaParser {
         this.baseUrl = 'https://comick.app';
         this.logo = 'https://th.bing.com/th/id/OIP.fw4WrmAoA2PmKitiyMzUIgAAAA?pid=ImgDet&rs=1';
         this.classPath = 'MANGA.ComicK';
-        this.apiUrl = 'https://api.comick.app';
+        this.apiUrl = 'https://api.comick.io';
         /**
          * @description Fetches info about the manga
          * @param mangaId Comic slug
