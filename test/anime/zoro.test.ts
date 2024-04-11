@@ -61,7 +61,7 @@ test('returns a filled array of anime list', async () => {
 
 test('returns a filled object of anime data', async () => {
   const res = await zoro.search('Overlord IV');
-  const data = await zoro.fetchAnimeInfo(res.results[3].id); // Overlord IV id
+  const data = await zoro.fetchAnimeInfo("one-piece-100"); // Overlord IV id
   expect(data).not.toBeNull();
   expect(data.description).not.toBeNull();
   expect(data.episodes).not.toEqual([]);

@@ -10,6 +10,7 @@ const goku_1 = __importDefault(require("./goku"));
 const kissasian_1 = __importDefault(require("./kissasian"));
 const movidhdwatch_1 = __importDefault(require("./movidhdwatch"));
 const smashystream_1 = __importDefault(require("./smashystream"));
+const turkish123_1 = __importDefault(require("./turkish123"));
 const viewAsian_1 = __importDefault(require("./viewAsian"));
 exports.default = {
     DramaCool: dramacool_1.default,
@@ -20,5 +21,6 @@ exports.default = {
     MovieHdWatch: movidhdwatch_1.default,
     SmashyStream: smashystream_1.default,
     ViewAsian: viewAsian_1.default,
+    Turkish: turkish123_1.default,
 };
 //# sourceMappingURL=index.js.map
