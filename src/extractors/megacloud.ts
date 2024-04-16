@@ -33,12 +33,12 @@ class MegaCloud extends VideoExtractor {
   protected override sources: IVideo[] = [];
 
   async extract(videoUrl: URL)  {
-    try {      
-      const result: { 
-        sources: IVideo[]; 
-        subtitles: ISubtitle[]; 
-        intro?: Intro; 
-        outro?: Intro 
+    try {
+      const result: {
+        sources: IVideo[];
+        subtitles: ISubtitle[];
+        intro?: Intro;
+        outro?: Intro
       } = {
         sources: [],
         subtitles: [],
@@ -83,8 +83,8 @@ class MegaCloud extends VideoExtractor {
       );
 
       const text = data;
-      if (!text) 
-        throw new Error("Couldn't fetch script to decrypt resource");      
+      if (!text)
+        throw new Error("Couldn't fetch script to decrypt resource");
 
       const vars = this.extractVariables(text, "MEGACLOUD");
 
@@ -128,7 +128,7 @@ class MegaCloud extends VideoExtractor {
     } else {
       allvars =
         text
-          .match(/const \w{1,2}=new URLSearchParams.+?;(?=function)/gm)
+          .match(/\w{1,2}=new URLSearchParams.+?;(?=function)/gm)
           ?.at(-1) ?? "";
     }
     const vars = allvars
