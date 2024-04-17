@@ -90,7 +90,7 @@ class MegaCloud extends models_1.VideoExtractor {
         else {
             allvars =
                 (_d = (_c = text
-                    .match(/\w{1,2}=new URLSearchParams.+?;(?=function)/gm)) === null || _c === void 0 ? void 0 : _c.at(-1)) !== null && _d !== void 0 ? _d : "";
+                    .match(/\w{1,2}=new URLSearchParams.+?;(?=function)/gm)) === null || _c === void 0 ? void 0 : _c.at(1)) !== null && _d !== void 0 ? _d : "";
         }
         const vars = allvars
             .slice(0, -1)

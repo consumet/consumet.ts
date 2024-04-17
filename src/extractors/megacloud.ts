@@ -129,7 +129,7 @@ class MegaCloud extends VideoExtractor {
       allvars =
         text
           .match(/\w{1,2}=new URLSearchParams.+?;(?=function)/gm)
-          ?.at(-1) ?? "";
+          ?.at(1) ?? "";
     }
     const vars = allvars
       .slice(0, -1)
