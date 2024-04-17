@@ -152,7 +152,7 @@ class Gogoanime extends models_1.AnimeParser {
                                 'User-Agent': utils_1.USER_AGENT,
                             },
                             sources: await new extractors_1.StreamSB(this.proxyConfig, this.adapter).extract(serverUrl),
-                            download: `https://${serverUrl.host}t/download${serverUrl.search}`,
+                            download: `https://${serverUrl.host}/download${serverUrl.search}`,
                         };
                     default:
                         return {
