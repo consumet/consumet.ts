@@ -33,7 +33,7 @@ test('returns a filled array of all trending list', async () => {
 });
 
 test('returns a filled object of anime data', async () => {
-  const data = await tmdb.fetchMediaInfo('60735', 'tv');
+  const data = await tmdb.fetchMediaInfo('85937', 'tv');
   expect(data).not.toBeNull();
   expect(data.episodes).not.toEqual([]);
   expect(data.description).not.toBeNull();
