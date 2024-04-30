@@ -17,8 +17,7 @@
         "test:manga": "jest ./test/manga",
         "test:lightnovels": "jest ./test/light-novels",
         "test:news": "jest ./test/news",
-        "test:meta": "jest ./test/meta",
-        "test:demon": "jest ./test/meta/demon.test.ts"
+        "test:meta": "jest ./test/meta"
     },
     "pre-commit": [
         "lint",
