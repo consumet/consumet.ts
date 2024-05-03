@@ -17,11 +17,19 @@ import { StreamSB, RapidCloud, MegaCloud, StreamTape } from '../../utils';
 import { USER_AGENT } from '../../utils';
 
 class Zoro extends AnimeParser {
+  // constructor(customBaseURL)
   override readonly name = 'Zoro';
   protected override baseUrl = 'https://hianime.to';
   protected override logo =
     'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
   protected override classPath = 'ANIME.Zoro';
+
+  constructor(
+    customBaseURL?: string
+  ) {
+    super(...arguments);
+    this.baseUrl = customBaseURL ? `https://${customBaseURL}` : this.baseUrl;
+  }
 
   /**
    * @param query Search query

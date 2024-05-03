@@ -65,9 +65,9 @@ class Anilist extends AnimeParser {
    * @param proxyConfig proxy config (optional)
    * @param adapter axios adapter (optional)
    */
-  constructor(provider?: AnimeParser, public proxyConfig?: ProxyConfig, adapter?: AxiosAdapter) {
+  constructor(provider?: AnimeParser, public proxyConfig?: ProxyConfig, adapter?: AxiosAdapter, customBaseURL?:string) {
     super(proxyConfig, adapter);
-    this.provider = provider || new Gogoanime(proxyConfig);
+    this.provider = provider || new Gogoanime(customBaseURL , proxyConfig);
   }
 
   /**

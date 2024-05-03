@@ -5,8 +5,9 @@ const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const utils_2 = require("../../utils");
 class Zoro extends models_1.AnimeParser {
-    constructor() {
+    constructor(customBaseURL) {
         super(...arguments);
+        // constructor(customBaseURL)
         this.name = 'Zoro';
         this.baseUrl = 'https://hianime.to';
         this.logo = 'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
@@ -265,6 +266,7 @@ class Zoro extends models_1.AnimeParser {
         this.fetchEpisodeServers = (episodeId) => {
             throw new Error('Method not implemented.');
         };
+        this.baseUrl = customBaseURL ? `https://${customBaseURL}` : this.baseUrl;
     }
     /**
      * @param query Search query
