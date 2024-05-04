@@ -18,7 +18,7 @@ declare class Anilist extends AnimeParser {
      * @param proxyConfig proxy config (optional)
      * @param adapter axios adapter (optional)
      */
-    constructor(provider?: AnimeParser, proxyConfig?: ProxyConfig | undefined, adapter?: AxiosAdapter);
+    constructor(provider?: AnimeParser, proxyConfig?: ProxyConfig | undefined, adapter?: AxiosAdapter, customBaseURL?: string);
     /**
      * @param query Search query
      * @param page Page number (optional)

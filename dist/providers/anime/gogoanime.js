@@ -5,10 +5,10 @@ const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const extractors_1 = require("../../extractors");
 class Gogoanime extends models_1.AnimeParser {
-    constructor() {
+    constructor(customBaseURL, proxy, adapter) {
         super(...arguments);
         this.name = 'Gogoanime';
-        this.baseUrl = 'https://gogoanime3.co';
+        this.baseUrl = 'https://anitaku.to';
         this.logo = 'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
         this.classPath = 'ANIME.Gogoanime';
         this.ajaxUrl = 'https://ajax.gogocdn.net/ajax';
@@ -470,6 +470,15 @@ class Gogoanime extends models_1.AnimeParser {
                 throw new Error('Something went wrong. Please try again later.');
             }
         };
+        this.baseUrl = customBaseURL ? `https://${customBaseURL}` : this.baseUrl;
+        if (proxy) {
+            // Initialize proxyConfig if provided
+            this.setProxy(proxy);
+        }
+        if (adapter) {
+            // Initialize adapter if provided
+            this.setAxiosAdapter(adapter);
+        }
     }
 }
 // (async () => {

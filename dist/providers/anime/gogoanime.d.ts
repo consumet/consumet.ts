@@ -1,10 +1,12 @@
-import { AnimeParser, ISearch, IAnimeInfo, IEpisodeServer, StreamingServers, IAnimeResult, ISource } from '../../models';
+import { AxiosAdapter } from 'axios';
+import { AnimeParser, ISearch, IAnimeInfo, IEpisodeServer, StreamingServers, IAnimeResult, ISource, ProxyConfig } from '../../models';
 declare class Gogoanime extends AnimeParser {
     readonly name = "Gogoanime";
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
     private readonly ajaxUrl;
+    constructor(customBaseURL?: string, proxy?: ProxyConfig, adapter?: AxiosAdapter);
     /**
      *
      * @param query search query string

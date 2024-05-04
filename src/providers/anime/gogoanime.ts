@@ -20,11 +20,29 @@ import { GogoCDN, StreamSB } from '../../extractors';
 
 class Gogoanime extends AnimeParser {
   override readonly name = 'Gogoanime';
-  protected override baseUrl = 'https://gogoanime3.co';
+  protected override baseUrl = 'https://anitaku.to';
   protected override logo =
     'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
   protected override classPath = 'ANIME.Gogoanime';
   private readonly ajaxUrl = 'https://ajax.gogocdn.net/ajax';
+
+  
+  constructor(
+    customBaseURL?: string,
+    proxy?: ProxyConfig,
+    adapter?: AxiosAdapter
+  ) {
+    super(...arguments);
+    this.baseUrl = customBaseURL ? `https://${customBaseURL}` : this.baseUrl;
+    if (proxy) {
+      // Initialize proxyConfig if provided
+      this.setProxy(proxy);
+  }
+  if (adapter) {
+      // Initialize adapter if provided
+      this.setAxiosAdapter(adapter);
+  }
+  }
 
   /**
    *
