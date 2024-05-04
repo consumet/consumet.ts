@@ -5,6 +5,7 @@ import Goku from './goku';
 import KissAsian from './kissasian';
 import MovieHdWatch from './movidhdwatch';
 import SmashyStream from './smashystream';
+import Turkish from './turkish123';
 import ViewAsian from './viewAsian';
 declare const _default: {
     DramaCool: typeof DramaCool;
@@ -15,5 +16,6 @@ declare const _default: {
     MovieHdWatch: typeof MovieHdWatch;
     SmashyStream: typeof SmashyStream;
     ViewAsian: typeof ViewAsian;
+    Turkish: typeof Turkish;
 };
 export default _default;

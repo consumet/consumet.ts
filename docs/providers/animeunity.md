@@ -21,7 +21,7 @@ const animeunity = new ANIME.AnimeUnity();
 | query     | `string` | query to search for. (*In this case, We're searching for `Jujutsu Kaisen 2`*) |
 
 ```ts
-animeunity.search("Jujutsu Kaisen 2").then(data => {
+animeunity.search("One Piece").then(data => {
   console.log(data);
 })
 ```
@@ -33,21 +33,23 @@ output:
     hasNextPage: false,
     results: [
         {
-            id: '4197-jujutsu-kaisen-2',
-            title: 'Jujutsu Kaisen 2',
-            url: 'https://www.animeunity.to/anime/4197-jujutsu-kaisen-2',
-            image: 'https://cdn.myanimelist.net/images/anime/1732/139397.jpg',
-            cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/145064-S7qAgxf6kMrW.jpg',
+            id: '12-one-piece',
+            title: 'One Piece',
+            url: 'https://www.animeunity.to/anime/12-one-piece',
+            image: 'https://cdn.myanimelist.net/images/anime/1810/139965.jpg',
+            cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg',
             subOrDub: 'sub'
         },
         {
-            id: '4786-jujutsu-kaisen-2-ita',
-            title: 'Jujutsu Kaisen 2 (ITA)',
-            url: 'https://www.animeunity.to/anime/4786-jujutsu-kaisen-2-ita',
-            image: 'https://cdn.myanimelist.net/images/anime/1732/139397.jpg',
-            cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/145064-kH9vbOEitIhl.jpg',
-            subOrDub: 'dub'
-        }
+            id: '4123-one-piece-film-red',
+            title: 'One Piece Movie 15: Red',
+            url: 'https://www.animeunity.to/anime/4123-one-piece-film-red',
+            image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx141902-fTyoTk8F8qOl.jpg',
+            cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/141902-SvnRSXnN7DWC.jpg',
+            subOrDub: 'sub'
+        },
+        {...},
+        ...
     ]
 }
 ```
@@ -59,10 +61,16 @@ output:
 | Parameter | Type     | Description                                                                                               |
 | --------- | -------- | --------------------------------------------------------------------------------------------------------- |
 | id        | `string` | takes anime id as a parameter. (*anime id can be found in the anime search results or anime info object*) |
+| page?     | `number` | takes page number as a parameter                                                                          |
 
+Why page number? AnimeUnity provides only 120 episodes at a time, how to use:
+- page: 1, you'll get episodes info from 1 to 120;
+- page: 4, you'll get episodes info from 361 to 480.
+
+If no page number is passed, the first page will be fetched.
 
 ```ts
-animesaturn.fetchAnimeInfo("4197-jujutsu-kaisen-2").then(data => {
+animesaturn.fetchAnimeInfo("12-one-piece", 3).then(data => {
   console.log(data);
 })
 ```
@@ -71,25 +79,28 @@ returns a promise which resolves into an anime info object (including the episod
 output:
 ```js
 {
-    id: '4197-jujutsu-kaisen-2',
-    title: 'Jujutsu Kaisen 2',
-    url: 'https://www.animeunity.to/anime/4197-jujutsu-kaisen-2',
-    alID: '145064',
-    genres: [ 'Action', 'Drama', 'Fantasy', 'School', 'Shounen', 'Supernatural' ],
-    totalEpisodes: 23,
-    image: 'https://img.animeunity.to/anime/139397.jpg',
-    cover: 'https://img.animeunity.to/anime/145064-S7qAgxf6kMrW.jpg',
-    description: 'Seconda stagione di Jujutsu Kaisen',
+    currentPage: 3,
+    hasNextPage: true,
+    totalPages: 10,
+    id: '12-one-piece',
+    title: 'One Piece',
+    url: 'https://www.animeunity.to/anime/12-one-piece',
+    alID: '21',
+    genres: [ 'Action', 'Adventure', 'Comedy', 'Drama', 'Fantasy', 'Shounen' ],
+    totalEpisodes: 1095,
+    image: 'https://img.animeunity.to/anime/139965.jpg',
+    cover: 'https://img.animeunity.to/anime/21-wf37VakJmZqs.jpg',
+    description: `Monkey D. Rufy è un giovane pirata sognatore che...`,
     episodes: [
         {
-            id: '4197-jujutsu-kaisen-2/71631',
-            number: 1,
-            url: 'https://www.animeunity.to/anime/4197-jujutsu-kaisen-2/71631'
+            id: '12-one-piece/6225',
+            number: 241,
+            url: 'https://www.animeunity.to/anime/12-one-piece/6225'
         },
         {
-            id: '4197-jujutsu-kaisen-2/71717',
-            number: 2,
-            url: 'https://www.animeunity.to/anime/4197-jujutsu-kaisen-2/71717'
+            id: '12-one-piece/6226',
+            number: 242,
+            url: 'https://www.animeunity.to/anime/12-one-piece/6226'
         },
         {...},
         ...
@@ -108,7 +119,7 @@ output:
 
 In this example, we're getting the sources for the first episode of Jujutsu Kaisen 2.
 ```ts
-animesaturn.fetchEpisodeSources("4197-jujutsu-kaisen-2/71631").then(data => {
+animesaturn.fetchEpisodeSources("12-one-piece/6225").then(data => {
   console.log(data);
 })
 ```
@@ -119,11 +130,11 @@ output:
 {
     sources: [
         {
-            url: 'https://vixcloud.co/playlist/159548?token=EgLqNTtoByEjBWoxBnjRhA&token360p=&token480p=SqM7OBHTk2W6iebd18uvrg&token720p=sg9FbKumN1aPHyb1XA0F8w&token1080p=&referer=&expires=1709384998',
+            url: 'https://vixcloud.co/playlist/163605?token=k3foZ2UVnW80vOgGNXswJA&token360p=&token480p=1JYOeJihE4a9IzvY93O4Fg&token720p=a99ZCcvPp2r-dPhU0vGJ3g&token1080p=&referer=&expires=1714101108',
             isM3U8: true
         }
     ],
-    download: 'https://au-d1-03.scws-content.net/download/3/d/15/d15d70b0-0fe6-46f8-81bd-5a190dae685b/720p.mp4?token=Dzy4_BKCpk1N5bwQQQc8yg&expires=1704287398&filename=JujutsuKaisen2_Ep_01_SUB_ITA.mp4'
+    download: 'https://au-d1-01.scws-content.net/download/33/4/05/405f82d3-ff5f-47c6-a907-389f2fc65509/720p.mp4?token=B6Nf0xOc17nc1K5y19r-nQ&expires=1709003508&filename=OnePiece_Ep_0241_SUB_ITA.mp4'
 }
 ```
 

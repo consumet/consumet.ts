@@ -20,11 +20,29 @@ import { GogoCDN, StreamSB } from '../../extractors';
 
 class Gogoanime extends AnimeParser {
   override readonly name = 'Gogoanime';
-  protected override baseUrl = 'https://gogoanime3.net';
+  protected override baseUrl = 'https://anitaku.to';
   protected override logo =
     'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
   protected override classPath = 'ANIME.Gogoanime';
-  private readonly ajaxUrl = 'https://ajax.gogo-load.com/ajax';
+  private readonly ajaxUrl = 'https://ajax.gogocdn.net/ajax';
+
+  
+  constructor(
+    customBaseURL?: string,
+    proxy?: ProxyConfig,
+    adapter?: AxiosAdapter
+  ) {
+    super(...arguments);
+    this.baseUrl = customBaseURL ? `https://${customBaseURL}` : this.baseUrl;
+    if (proxy) {
+      // Initialize proxyConfig if provided
+      this.setProxy(proxy);
+  }
+  if (adapter) {
+      // Initialize adapter if provided
+      this.setAxiosAdapter(adapter);
+  }
+  }
 
   /**
    *
@@ -93,11 +111,11 @@ class Gogoanime extends AnimeParser {
         .trim();
       animeInfo.url = id;
       animeInfo.image = $('div.anime_info_body_bg > img').attr('src');
-      animeInfo.releaseDate = $('div.anime_info_body_bg > p:nth-child(7)')
+      animeInfo.releaseDate = $('div.anime_info_body_bg > p:nth-child(8)')
         .text()
         .trim()
         .split('Released: ')[1];
-      animeInfo.description = $('div.anime_info_body_bg > p:nth-child(5)')
+      animeInfo.description = $('div.anime_info_body_bg > div:nth-child(6)')
         .text()
         .trim()
         .replace('Plot Summary: ', '');
@@ -111,7 +129,7 @@ class Gogoanime extends AnimeParser {
 
       animeInfo.status = MediaStatus.UNKNOWN;
 
-      switch ($('div.anime_info_body_bg > p:nth-child(8) > a').text().trim()) {
+      switch ($('div.anime_info_body_bg > p:nth-child(9) > a').text().trim()) {
         case 'Ongoing':
           animeInfo.status = MediaStatus.ONGOING;
           break;
@@ -125,12 +143,12 @@ class Gogoanime extends AnimeParser {
           animeInfo.status = MediaStatus.UNKNOWN;
           break;
       }
-      animeInfo.otherName = $('div.anime_info_body_bg > p:nth-child(9)')
+      animeInfo.otherName = $('div.anime_info_body_bg > p:nth-child(10)')
         .text()
         .replace('Other name: ', '')
         .replace(/;/g, ',');
 
-      $('div.anime_info_body_bg > p:nth-child(6) > a').each((i, el) => {
+      $('div.anime_info_body_bg > p:nth-child(7) > a').each((i, el) => {
         animeInfo.genres?.push($(el).attr('title')!.toString());
       });
 
@@ -140,8 +158,7 @@ class Gogoanime extends AnimeParser {
       const alias = $('#alias_anime').attr('value');
 
       const html = await this.client.get(
-        `${
-          this.ajaxUrl
+        `${this.ajaxUrl
         }/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`
       );
       const $$ = load(html.data);
@@ -180,7 +197,7 @@ class Gogoanime extends AnimeParser {
           return {
             headers: { Referer: serverUrl.href },
             sources: await new GogoCDN(this.proxyConfig, this.adapter).extract(serverUrl),
-            download: `https://gogohd.net/download${serverUrl.search}`,
+            download: `https://${serverUrl.host}/download${serverUrl.search}`,
           };
         case StreamingServers.StreamSB:
           return {
@@ -190,13 +207,13 @@ class Gogoanime extends AnimeParser {
               'User-Agent': USER_AGENT,
             },
             sources: await new StreamSB(this.proxyConfig, this.adapter).extract(serverUrl),
-            download: `https://gogohd.net/download${serverUrl.search}`,
+            download: `https://${serverUrl.host}/download${serverUrl.search}`,
           };
         default:
           return {
             headers: { Referer: serverUrl.href },
             sources: await new GogoCDN(this.proxyConfig, this.adapter).extract(serverUrl),
-            download: `https://gogohd.net/download${serverUrl.search}`,
+            download: `https://${serverUrl.host}/download${serverUrl.search}`,
           };
       }
     }
@@ -300,7 +317,7 @@ class Gogoanime extends AnimeParser {
         recentEpisodes.push({
           id: $(el).find('a').attr('href')?.split('/')[1]?.split('-episode')[0]!,
           episodeId: $(el).find('a').attr('href')?.split('/')[1]!,
-          episodeNumber: parseInt($(el).find('p.episode').text().replace('Episode ', '')),
+          episodeNumber: parseFloat($(el).find('p.episode').text().replace('Episode ', '')),
           title: $(el).find('p.name > a').attr('title')!,
           image: $(el).find('div > a > img').attr('src'),
           url: `${this.baseUrl}${$(el).find('a').attr('href')?.trim()}`,
@@ -367,6 +384,8 @@ class Gogoanime extends AnimeParser {
             .find('p.genres > a')
             .map((i, el) => $(el).attr('title'))
             .get(),
+          episodeId: $(el).find('p:nth-of-type(2) > a').attr('title')!,
+          episodeNumber: parseFloat($(el).find('p:nth-of-type(2) > a').text().replace('Episode ', '')),
         });
       });
 
@@ -471,6 +490,74 @@ class Gogoanime extends AnimeParser {
         genres.push({ id: genre.attr('href')?.replace('/genre/', ''), title: genre.attr('title') }!);
       });
       return genres;
+    } catch (err) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  };
+  fetchDirectDownloadLink = async (downloadUrl: string, captchaToken?: string): Promise<{ source: string | undefined; link: string | undefined }[]> => {
+    const downloadLinks: { source: string | undefined; link: string | undefined }[] = [];
+
+    const baseUrl = downloadUrl.split('?')[0];
+    const idParam = downloadUrl.match(/[?&]id=([^&]+)/);
+    const animeID = idParam ? idParam[1] : null;
+    if (captchaToken)
+      captchaToken = '03AFcWeA5zy7DBK82U_tctVKelJ6L2duTWac5at2zXjHLX8XqUm8tI6NKWMxGd2gjh1vi2hnEyRhVgbMhdb9WjexRsJkxTt-C-_iIIZ5yC3E5I19G5Q0buSTcIQIZS6tskrz-mDn-d37aWxAJtqbg0Yoo1XsdVc5Yf4sB-9iQxQK-W_9YLep_QaAz8uL17gMMlCz5WZM3dbBEEGmk_qPbJu_pZ8kk-lFPDzd6iBobcpyIDRZgTgD4bYUnby5WZc11i00mrRiRS3m-qSY0lprGaBqoyY1BbRkQZ25AGPp5al4kSwBZqpcVgLrs3bjdo8XVWAe73_XLa8HhqLWbz_m5Ebyl5F9awwL7w4qikGj-AK7v2G8pgjT22kDLIeenQ_ss4jYpmSzgnuTItur9pZVzpPkpqs4mzr6y274AmJjzppRTDH4VFtta_E02-R7Hc1rUD2kCYt9BqsD7kDjmetnvLtBm97q5XgBS8rQfeH4P-xqiTAsJwXlcrPybSjnwPEptqYCPX5St_BSj4NQfSuzZowXu_qKsP4hAaE9L2W36MvqePPlEm6LChBT3tnqUwcEYNe5k7lkAAbunxx8q_X5Q3iEdcFqt9_0GWHebRBd5abEbjbmoqqCoQeZt7AUvkXCRfBDne-bf25ypyTtwgyuvYMYXau3zGUjgPUO9WIotZwyKyrYmjsZJ7TiM';
+    
+    let res = null;
+    try {
+      res = await this.client.get(`${baseUrl}?id=${animeID}&captcha_v3=${captchaToken}`);
+    } catch (err) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+    try {
+      const $ = load(res.data);
+      $('.dowload').each((_index, element) => {
+        const link = $(element).find('a');
+        if(link.attr('target') != '_blank'){
+          downloadLinks.push({ source: link.text(), link: link.attr('href') }!);
+        }
+      });
+      return downloadLinks;
+    } catch (err) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  };
+
+  fetchAnimeList = async (page: number = 1): Promise<ISearch<IAnimeResult>> => {
+    const animeList: IAnimeResult[] = [];
+    let res = null;
+    try {
+      res = await this.client.get(`${this.baseUrl}/anime-list.html?page=${page}`);
+      const $ = load(res.data);
+      $('.anime_list_body .listing li').each((_index, element) => {
+        const genres: string[] = [];
+        const entryBody = $('p.type', $(element).attr('title')!);
+        const genresEl = entryBody.first();
+        genresEl.find('a').each((_idx, genreAnchor) => {
+          genres.push($(genreAnchor).attr('title')!);
+        });
+
+        const releaseDate = $(entryBody.get(1)).text();
+
+        const img = $('div', $(element).attr('title')!);
+        const a = $(element).find('a');
+        animeList.push(
+          {
+            id: a.attr('href')?.replace(`/category/`, '')!,
+            title: a.text(),
+            image: $(img).find('img').attr('src'),
+            url: `${this.baseUrl}${a.attr('href')}`,
+            genres,
+            releaseDate
+          }
+        );
+      });
+      const hasNextPage = !$('div.anime_name.anime_list > div > div > ul > li').last().hasClass('selected');
+      return {
+        currentPage: page,
+        hasNextPage: hasNextPage,
+        results: animeList,
+      };
     } catch (err) {
       throw new Error('Something went wrong. Please try again later.');
     }

@@ -4,6 +4,7 @@ declare class Zoro extends AnimeParser {
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
+    constructor(customBaseURL?: string);
     /**
      * @param query Search query
      * @param page Page number (optional)
@@ -38,6 +39,18 @@ declare class Zoro extends AnimeParser {
      */
     fetchTopUpcoming(page?: number): Promise<ISearch<IAnimeResult>>;
     /**
+     * @param studio Studio id, e.g. "toei-animation"
+     * @param page page number (optional) `default 1`
+     */
+    fetchStudio(studio: string, page?: number): Promise<ISearch<IAnimeResult>>;
+    /**
+       * Fetches the schedule for a given date.
+       * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
+       * @returns A promise that resolves to an object containing the search results.
+       */
+    fetchSchedule(date?: string): Promise<ISearch<IAnimeResult>>;
+    fetchSpotlight(): Promise<ISearch<IAnimeResult>>;
+    /**
      * @param id Anime id
      */
     fetchAnimeInfo: (id: string) => Promise<IAnimeInfo>;
@@ -49,6 +62,10 @@ declare class Zoro extends AnimeParser {
     private retrieveServerId;
     /**
      * @param url string
+     */
+    private scrapeCardPage;
+    /**
+     * @param $ cheerio instance
      */
     private scrapeCard;
     /**

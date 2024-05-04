@@ -16,6 +16,9 @@ const zoro = new ANIME.Zoro();
 - [fetchRecentlyUpdated](#fetchRecentlyUpdated)
 - [fetchRecentlyAdded](#fetchRecentlyAdded)
 - [fetchTopUpcoming](#fetchTopUpcoming)
+- [fetchSchedule](#fetchSchedule)
+- [fetchStudio](#fetchStudio)
+- [fetchSpotlight](#fetchSpotlight)
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
@@ -559,6 +562,168 @@ output:
   ]
 }
 ```
+### fetchSchedule
+
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                                                              |
+| --------- | -------- | ------------------------------------------------------------------------ |
+| date    | `string` | Date in format 'YYYY-MM-DD'. Defaults to the current date. |
+
+```ts
+zoro.fetchSchedule('2024-03-11').then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{
+  results: [
+    {
+      id: 'high-card-season-2-18820',
+      title: 'High Card Season 2',
+      japaneseTitle: 'High Card Season 2',
+      url: 'https://hianime.to/high-card-season-2-18820',
+      airingEpisode: 'Episode 10',
+      airingTime: '07:30'
+    },
+    {
+      id: 'tsukimichi-moonlit-fantasy-season-2-18877',
+      title: 'Tsukimichi -Moonlit Fantasy- Season 2',
+      japaneseTitle: 'Tsuki ga Michibiku Isekai Douchuu 2nd Season',
+      url: 'https://hianime.to/tsukimichi-moonlit-fantasy-season-2-18877',
+      airingEpisode: 'Episode 10',
+      airingTime: '09:00'
+    },
+    {
+      id: 'the-foolish-angel-dances-with-the-devil-18832',
+      title: 'The Foolish Angel Dances with the Devil',
+      japaneseTitle: 'Oroka na Tenshi wa Akuma to Odoru',
+      url: 'https://hianime.to/the-foolish-angel-dances-with-the-devil-18832',
+      airingEpisode: 'Episode 10',
+      airingTime: '10:30'
+    },
+    {
+      id: 'synduality-noir-part-2-18754',
+      title: 'Synduality: Noir Part 2',
+      japaneseTitle: 'Synduality: Noir Part 2',
+      url: 'https://hianime.to/synduality-noir-part-2-18754',
+      airingEpisode: 'Episode 10',
+      airingTime: '10:30'
+    },
+    {
+      id: 'tis-time-for-torture-princess-18778',
+      title: 'Tis Time for "Torture," Princess',
+      japaneseTitle: 'Himesama "Goumon" no Jikan desu',
+      url: 'https://hianime.to/tis-time-for-torture-princess-18778',
+      airingEpisode: 'Episode 10',
+      airingTime: '11:30'
+    },
+    {
+      id: 'hokkaido-gals-are-super-adorable-18853',
+      title: 'Hokkaido Gals Are Super Adorable!',
+      japaneseTitle: 'Dosanko Gal wa Namara Menkoi',
+      url: 'https://hianime.to/hokkaido-gals-are-super-adorable-18853',
+      airingEpisode: 'Episode 10',
+      airingTime: '11:45'
+    }
+  ]
+}
+```
+
+### fetchStudio
+
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                                                              |
+| --------- | -------- | ------------------------------------------------------------------------ |
+| studio    | `string` | studio id, e.g. "toei-animation" |
+| page (optional) | `number` | page number (default 1) |
+
+```ts
+zoro.fetchStudio('toei-animation').then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{
+  currentPage: 1,
+  hasNextPage: true,
+  totalPages: 9,
+  results: [
+    {
+      id: 'one-piece-100',
+      title: 'One Piece',
+      url: 'https://aniwatch.to/one-piece-100',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/54/90/5490cb32786d4f7fef0f40d7266df532/5490cb32786d4f7fef0f40d7266df532.jpg',
+      type: 'TV',
+      duration: '24m',
+      japaneseTitle: 'One Piece',
+      nsfw: false,
+      sub: 1089,
+      dub: 1048,
+      episodes: 0
+    },
+    {
+      id: 'attack-on-titan-the-final-season-part-3-1839',
+      title: 'Attack on Titan: The Final Season Part 3',
+      url: 'https://aniwatch.to/attack-on-titan-the-final-season-part-3-18329',
+      image: 'https://img.flawlessfiles.com/_r/300x400/100/54/d3/54d3f59bcc7caf1539c701eb0a064ec9/54d3f59bcc7caf1539c701eb0a064ec9.png',
+      type: 'TV',
+      duration: '61m',
+      japaneseTitle: 'Shingeki no Kyojin: The Final Season - Kanketsu-hen',
+      nsfw: true,
+      sub: 2,
+      dub: 2,
+      episodes: 0
+    },
+    {...}
+    ...
+  ]
+}
+```
+
+### fetchSpotlight
+
+```ts
+zoro.fetchSpotlight().then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{
+  
+  results: [
+    {
+      id: 'delicious-in-dungeon-18506',
+      title: 'Delicious in Dungeon',
+      japaneseTitle: 'Dungeon Meshi',
+      banner: 'https://cdn.noitatnemucod.net/thumbnail/1366x768/100/50affe2ea9a02c36d5a7c0532c1b7ef9.jpeg',
+      rank: 1,
+      url: 'https://hianime.to/delicious-in-dungeon-18506',
+      type: 'TV',
+      duration: '23m',
+      releaseDate: 'Jan 4, 2024',
+      quality: 'HD',
+      sub: 11,
+      dub: 10,
+      episodes: 0,
+      description: "After the Golden Kingdom is sunk underground by an insane magician, its king emerges, promising all of his treasure to any who defeat the magician, before crumbling to dust. Guilds are spurred on by this promise, traversing the labyrinthine dungeon in search of the magician. Laios, the leader of one such guild, encounters a dragon that wipes out his party and devours his sister Falin. Despite having lost the entirety of their supplies and belongings, Laios along with Marcille, an elven healer, and Chilchuck, a halfling thief, immediately reenter the dungeon, determined to save Falin.  Time being of the essence, Laios suggests the taboo of eating the monsters of the dungeon as a means of gathering supplies. Upon the preparation of their first meal in the dungeon, they are stopped by an onlooking dwarf named Senshi. An enthusiast of monster cooking, he helps them prepare their monster ingredients for safe consumption. After learning of Laios' circumstances, Senshi expresses his desire to cook a dragon and joins their guild, thus beginning their food-filled foray into the dungeon together."
+    },
+    {...}
+    ...
+  ]
+}
+```
+
 
 Make sure to check the `headers` property of the returned object. It contains the referer header, which might be needed to bypass the 403 error and allow you to stream the video without any issues.
 

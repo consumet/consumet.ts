@@ -7,7 +7,7 @@ class DramaCool extends models_1.MovieParser {
     constructor() {
         super(...arguments);
         this.name = 'DramaCool';
-        this.baseUrl = 'https://dramacool.hr';
+        this.baseUrl = 'https://dramacool.com.pa';
         this.logo = 'https://play-lh.googleusercontent.com/IaCb2JXII0OV611MQ-wSA8v_SAs9XF6E3TMDiuxGGXo4wp9bI60GtDASIqdERSTO5XU';
         this.classPath = 'MOVIES.DramaCool';
         this.supportedTypes = new Set([models_1.TvType.MOVIE, models_1.TvType.TVSERIES]);
@@ -15,6 +15,7 @@ class DramaCool extends models_1.MovieParser {
             try {
                 const searchResult = {
                     currentPage: page,
+                    totalPages: page,
                     hasNextPage: false,
                     results: [],
                 };
@@ -23,6 +24,16 @@ class DramaCool extends models_1.MovieParser {
                 const navSelector = 'ul.pagination';
                 searchResult.hasNextPage =
                     $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('selected') : false;
+                const lastPage = $(navSelector).children().last().find('a').attr('href');
+                if (lastPage != undefined && lastPage != "" && lastPage.includes("page=")) {
+                    const maxPage = new URLSearchParams(lastPage).get("page");
+                    if (maxPage != null && !isNaN(parseInt(maxPage)))
+                        searchResult.totalPages = parseInt(maxPage);
+                    else if (searchResult.hasNextPage)
+                        searchResult.totalPages = page + 1;
+                }
+                else if (searchResult.hasNextPage)
+                    searchResult.totalPages = page + 1;
                 $('div.block > div.tab-content > ul.list-episode-item > li').each((i, el) => {
                     var _a;
                     searchResult.results.push({
@@ -50,12 +61,34 @@ class DramaCool extends models_1.MovieParser {
                 const { data } = await this.client.get(mediaId);
                 const $ = (0, cheerio_1.load)(data);
                 mediaInfo.id = realMediaId;
+                const duration = $('div.details div.info p:contains("Duration:")').first().text().trim();
+                if (duration != "")
+                    mediaInfo.duration = duration.replace("Duration:", "").trim();
+                const status = $('div.details div.info p:contains("Status:")').find('a').first().text().trim();
+                switch (status) {
+                    case 'Ongoing':
+                        mediaInfo.status = models_1.MediaStatus.ONGOING;
+                        break;
+                    case 'Completed':
+                        mediaInfo.status = models_1.MediaStatus.COMPLETED;
+                        break;
+                    default:
+                        mediaInfo.status = models_1.MediaStatus.UNKNOWN;
+                        break;
+                }
+                mediaInfo.genres = [];
+                const genres = $('div.details div.info p:contains("Genre:")');
+                genres.each((_index, element) => {
+                    $(element).find('a').each((_, anchorElement) => {
+                        var _a;
+                        (_a = mediaInfo.genres) === null || _a === void 0 ? void 0 : _a.push($(anchorElement).text());
+                    });
+                });
                 mediaInfo.title = $('.info > h1:nth-child(1)').text();
                 mediaInfo.otherNames = $('.other_name > a')
                     .map((i, el) => $(el).text().trim())
                     .get();
                 mediaInfo.image = $('div.details > div.img > img').attr('src');
-                // get the 3rd p tag
                 mediaInfo.description = $('div.details div.info p:nth-child(6)').text();
                 mediaInfo.releaseDate = this.removeContainsFromString($('div.details div.info p:contains("Released:")').text(), 'Released');
                 mediaInfo.episodes = [];

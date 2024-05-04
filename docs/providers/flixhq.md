@@ -364,3 +364,93 @@ output:
   {...},
 ]
 ```
+
+### fetchByCountry
+
+<h4>Parameters</h4>
+
+| Parameter       | Type     | Description                                                             |
+| --------------- | -------- | ----------------------------------------------------------------------- |
+| country         | `string` | param to filter by country. (*In this case, We're filtering by `KR`*)   |
+| page (optional) | `number` | page number (default: 1)                                                |
+
+```ts
+flixhq.fetchByCountry('KR').then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of movies/tv series. (*[`Promise<ISearch<IMovieResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L233-L241)*)\
+output:
+```js
+{
+  currentPage: 1,
+  hasNextPage: true,
+  results: [
+    {
+      id: 'tv/watch-wedding-impossible-106609',
+      title: 'Wedding Impossible',
+      url: 'https://flixhq.to/tv/watch-wedding-impossible-106609',
+      image: 'https://img.flixhq.to/xxrz/250x400/379/d1/8c/d18c569318ce319a57ba681c69b01d73/d18c569318ce319a57ba681c69b01d73.jpg',
+      season: 'SS 1',
+      latestEpisode: 'EPS 1',
+      type: 'TV Series'
+    },
+    {
+      id: 'tv/watch-a-killer-paradox-106036',
+      title: 'A Killer Paradox',
+      url: 'https://flixhq.to/tv/watch-a-killer-paradox-106036',
+      image: 'https://img.flixhq.to/xxrz/250x400/379/89/a0/89a0eede251cff2c9acf24fe64e2fe01/89a0eede251cff2c9acf24fe64e2fe01.jpg',
+      season: 'SS 1',
+      latestEpisode: 'EPS 8',
+      type: 'TV Series'
+    },
+    {...}
+  ]
+}
+```
+
+### fetchByGenre
+
+<h4>Parameters</h4>
+
+| Parameter       | Type     | Description                                                            |
+| --------------- | -------- | ---------------------------------------------------------------------- |
+| genre           | `string` | param to filter by genre. (*In this case, We're filtering by `drama`*) |
+| page (optional) | `number` | page number (default: 1)                                               |
+
+```ts
+flixhq.fetchByGenre('drama').then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of movies/tv series. (*[`Promise<ISearch<IMovieResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L233-L241)*)\
+output:
+```js
+{
+  currentPage: 1,
+  hasNextPage: true,
+  results: [
+    {
+      id: 'movie/watch-no-new-friends-105202',
+      title: 'No New Friends',
+      url: 'https://flixhq.to/movie/watch-no-new-friends-105202',
+      image: 'https://img.flixhq.to/xxrz/250x400/379/16/30/16304d1c6302e6b078f6b74d5ff58347/16304d1c6302e6b078f6b74d5ff58347.jpg',
+      releaseDate: '2024',
+      seasons: undefined,
+      type: 'Movie'
+    },
+    {
+      id: 'tv/watch-shogun-106618',
+      title: 'Shōgun',
+      url: 'https://flixhq.to/tv/watch-shogun-106618',
+      image: 'https://img.flixhq.to/xxrz/250x400/379/a7/fc/a7fca6a36c98856de5e71d120a16e521/a7fca6a36c98856de5e71d120a16e521.jpg',
+      releaseDate: undefined,
+      seasons: 1,
+      type: 'TV Series'
+    },
+    {...}
+  ]
+}
+```

@@ -1,10 +1,12 @@
-import { AnimeParser, ISearch, IAnimeInfo, IEpisodeServer, StreamingServers, IAnimeResult, ISource } from '../../models';
+import { AxiosAdapter } from 'axios';
+import { AnimeParser, ISearch, IAnimeInfo, IEpisodeServer, StreamingServers, IAnimeResult, ISource, ProxyConfig } from '../../models';
 declare class Gogoanime extends AnimeParser {
     readonly name = "Gogoanime";
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
     private readonly ajaxUrl;
+    constructor(customBaseURL?: string, proxy?: ProxyConfig, adapter?: AxiosAdapter);
     /**
      *
      * @param query search query string
@@ -45,5 +47,10 @@ declare class Gogoanime extends AnimeParser {
         id: string | undefined;
         title: string | undefined;
     }[]>;
+    fetchDirectDownloadLink: (downloadUrl: string, captchaToken?: string) => Promise<{
+        source: string | undefined;
+        link: string | undefined;
+    }[]>;
+    fetchAnimeList: (page?: number) => Promise<ISearch<IAnimeResult>>;
 }
 export default Gogoanime;

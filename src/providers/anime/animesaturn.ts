@@ -113,7 +113,7 @@ class AnimeSaturn extends AnimeParser {
     const fakeData = await this.client.get(`${this.baseUrl}ep/${episodeId}`);
     const $2 = await load(fakeData.data);
 
-    const serverOneUrl = $2("div > a:contains('Streaming')").attr('href'); // scrape from server 1 (m3u8 and mp4 urls)
+    const serverOneUrl = $2("div > a:contains('Guarda lo streaming')").attr('href'); // scrape from server 1 (m3u8 and mp4 urls)
     if (serverOneUrl == null) throw new Error('Invalid url');
 
     let data = await this.client.get(serverOneUrl);

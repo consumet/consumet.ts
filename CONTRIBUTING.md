@@ -85,16 +85,20 @@ You are welcome to add anything to the abstract class that you believe will be b
 
    ```mermaid
    classDiagram
-         ProviderBase <|-- BaseParser
-         ProviderBase : +String name
-         ProviderBase : +String baseUrl
-         ProviderBase: +toString()
+         Proxy <|-- BaseProvider
+         BaseProvider <|-- BaseParser
+         BaseProvider : +String name
+         BaseProvider : +String baseUrl
+         BaseProvider: +toString()
          BaseParser <|-- AnimeParser
          BaseParser <|-- BookParser
          BaseParser <|-- MangaParser
          BaseParser <|-- LightNovelParser
          BaseParser <|-- ComicParser
          BaseParser <|-- MovieParser
+         class Proxy{
+            ProxyConfig
+         }
          class BaseParser{
             +search(String query)
          }
