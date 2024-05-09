@@ -7,10 +7,7 @@ class StreamWish extends VideoExtractor {
   override extract = async (videoUrl: URL): Promise<IVideo[]> => {
     try {
       const { data } = await this.client.get(videoUrl.href);
-
-      const unPackagedData = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)![2]);
-      const links = unPackagedData.match(/file:\s*"([^"]+)"/);
-
+      const links = data.match(/file:\s*"([^"]+)"/);
       this.sources.push({
         quality: 'auto',
         url: links[1],
