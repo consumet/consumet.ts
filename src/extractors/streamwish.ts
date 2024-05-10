@@ -9,7 +9,7 @@ class StreamWish extends VideoExtractor {
       const { data } = await this.client.get(videoUrl.href);
       const links = data.match(/file:\s*"([^"]+)"/);
       this.sources.push({
-        quality: 'auto',
+        quality: 'default',
         url: links[1],
         isM3U8: links[1].includes('.m3u8'),
       });
