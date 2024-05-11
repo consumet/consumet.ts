@@ -12,6 +12,9 @@ class StreamWish extends models_1.VideoExtractor {
                 const links = data.match(/file:\s*"([^"]+)"/);
                 let lastLink = null;
                 links.forEach((link) => {
+                    if (link.includes('file:"')) {
+                        link = link.replace('file:"', '').replace('"', '');
+                    }
                     this.sources.push({
                         quality: lastLink ? 'backup' : 'default',
                         url: link,
