@@ -11,7 +11,7 @@ class StreamWish extends VideoExtractor {
       let lastLink = null;
       links.forEach((link: string) => {
         if(link.includes('file:"')){
-          link = link.replace('file:"', '').replace('"', '');
+          link = link.replace('file:"', '').replace(new RegExp('"', 'g'), '');
         }
         this.sources.push({
           quality: lastLink! ? 'backup' : 'default',
