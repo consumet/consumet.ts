@@ -68,7 +68,7 @@ class Gogoanime extends AnimeParser {
       $('div.last_episodes > ul > li').each((i, el) => {
         searchResult.results.push({
           id: $(el).find('p.name > a').attr('href')?.split('/')[2]!,
-          title: $(el).find('p.name > a').attr('title')!,
+          title: $(el).find('p.name > a').text(),
           url: `${this.baseUrl}/${$(el).find('p.name > a').attr('href')}`,
           image: $(el).find('div > a > img').attr('src'),
           releaseDate: $(el).find('p.released').text().trim(),
