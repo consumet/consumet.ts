@@ -1,20 +1,29 @@
 import { VideoExtractor, IVideo } from '../models';
-
+import { USER_AGENT } from '../utils';
 class StreamWish extends VideoExtractor {
   protected override serverName = 'streamwish';
   protected override sources: IVideo[] = [];
 
   override extract = async (videoUrl: URL): Promise<IVideo[]> => {
     try {
-      const { data } = await this.client.get(videoUrl.href);
-
-      const unPackagedData = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)![2]);
-      const links = unPackagedData.match(/file:\s*"([^"]+)"/);
-
-      this.sources.push({
-        quality: 'auto',
-        url: links[1],
-        isM3U8: links[1].includes('.m3u8'),
+      const options = {
+        headers: {
+            'User-Agent': USER_AGENT,
+        },
+      };
+      const { data } = await this.client.get(videoUrl.href, options);
+      const links = data.match(/file:\s*"([^"]+)"/);
+      let lastLink = null;
+      links.forEach((link: string) => {
+        if(link.includes('file:"')){
+          link = link.replace('file:"', '').replace(new RegExp('"', 'g'), '');
+        }
+        this.sources.push({
+          quality: lastLink! ? 'backup' : 'default',
+          url: link,
+          isM3U8: link.includes('.m3u8'),
+        });
+        lastLink = link;
       });
 
       const m3u8Content = await this.client.get(links[1], {

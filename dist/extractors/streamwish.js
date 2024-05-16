@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const models_1 = require("../models");
+const utils_1 = require("../utils");
 class StreamWish extends models_1.VideoExtractor {
     constructor() {
         super(...arguments);
@@ -8,13 +9,24 @@ class StreamWish extends models_1.VideoExtractor {
         this.sources = [];
         this.extract = async (videoUrl) => {
             try {
-                const { data } = await this.client.get(videoUrl.href);
-                const unPackagedData = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)[2]);
-                const links = unPackagedData.match(/file:\s*"([^"]+)"/);
-                this.sources.push({
-                    quality: 'auto',
-                    url: links[1],
-                    isM3U8: links[1].includes('.m3u8'),
+                const options = {
+                    headers: {
+                        'User-Agent': utils_1.USER_AGENT,
+                    },
+                };
+                const { data } = await this.client.get(videoUrl.href, options);
+                const links = data.match(/file:\s*"([^"]+)"/);
+                let lastLink = null;
+                links.forEach((link) => {
+                    if (link.includes('file:"')) {
+                        link = link.replace('file:"', '').replace(new RegExp('"', 'g'), '');
+                    }
+                    this.sources.push({
+                        quality: lastLink ? 'backup' : 'default',
+                        url: link,
+                        isM3U8: link.includes('.m3u8'),
+                    });
+                    lastLink = link;
                 });
                 const m3u8Content = await this.client.get(links[1], {
                     headers: {
