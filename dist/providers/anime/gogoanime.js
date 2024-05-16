@@ -32,7 +32,7 @@ class Gogoanime extends models_1.AnimeParser {
                     var _a;
                     searchResult.results.push({
                         id: (_a = $(el).find('p.name > a').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2],
-                        title: $(el).find('p.name > a').attr('title'),
+                        title: $(el).find('p.name > a').text(),
                         url: `${this.baseUrl}/${$(el).find('p.name > a').attr('href')}`,
                         image: $(el).find('div > a > img').attr('src'),
                         releaseDate: $(el).find('p.released').text().trim(),
