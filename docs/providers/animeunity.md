@@ -130,7 +130,7 @@ output:
 {
     sources: [
         {
-            url: 'https://vixcloud.co/playlist/163605?token=k3foZ2UVnW80vOgGNXswJA&token360p=&token480p=1JYOeJihE4a9IzvY93O4Fg&token720p=a99ZCcvPp2r-dPhU0vGJ3g&token1080p=&referer=&expires=1714101108',
+            url: 'https://vixcloud.co/playlist/163605?token=53f25c6ee1ce01882fb480dd695c67fe&referer=&expires=1721057658&h=1',
             isM3U8: true
         }
     ],
