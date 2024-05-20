@@ -325,14 +325,13 @@ class TMDB extends models_1.MovieParser {
                 });
             }
             // console.log({ test1: findMedia.results });
-            // check if the result contains the total number of seasons and compare it to the extraData by 1 up or down and make sure that its a number
+            // Check if the result contains the total number of seasons and compare it to the extraData.
+            // Allow for a range of ±2 seasons and ensure that the seasons value is a number.
             if (extraData && extraData.totalSeasons && extraData.type === models_1.TvType.TVSERIES) {
                 findMedia.results = findMedia.results.filter(result => {
                     const totalSeasons = result.seasons || 0;
                     const extraDataSeasons = extraData.totalSeasons || 0;
-                    return (totalSeasons === extraDataSeasons ||
-                        totalSeasons === extraDataSeasons + 1 ||
-                        totalSeasons === extraDataSeasons - 1);
+                    return totalSeasons >= extraDataSeasons - 2 && totalSeasons <= extraDataSeasons + 2;
                 });
             }
             // console.log(findMedia.results);
