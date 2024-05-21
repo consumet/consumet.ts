@@ -185,6 +185,45 @@ class Zoro extends AnimeParser {
     }
   }
 
+  async fetchSearchSuggestions(query: string): Promise<ISearch<IAnimeResult>> {
+    try {
+      const encodedQuery = encodeURIComponent(query);
+      const { data } = await this.client.get(`${this.baseUrl}/ajax/search/suggest?keyword=${encodedQuery}`);
+      const $ = load(data.html);
+      const res: ISearch<IAnimeResult> = {
+        results: [],
+      };
+
+      $('.nav-item').each((i, el) => {
+        const card = $(el);
+        if (!card.hasClass("nav-bottom")) {
+          const image = card.find('.film-poster img').attr('data-src');
+          const title = card.find('.film-name');
+          const id = card.attr('href')?.split('/')[1].split('?')[0];
+          
+          const duration = card.find(".film-infor span").last().text().trim();
+          const releaseDate = card.find(".film-infor span:nth-child(1)").text().trim();
+          const type = card.find(".film-infor").find("span, i").remove().end().text().trim();
+          res.results.push({
+            image: image,
+            id: id!,
+            title: title.text(),
+            japaneseTitle: title.attr('data-jname'),
+            aliasTitle: card.find(".alias-name").text(),
+            releaseDate: releaseDate,
+            type: type as MediaFormat,
+            duration: duration,
+            url: `${this.baseUrl}/${id}`,
+          });
+        }
+      });
+
+      return res;
+    } catch (error) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  }
+
   /**
    * @param id Anime id
    */
