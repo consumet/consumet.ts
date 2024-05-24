@@ -454,7 +454,6 @@ class Zoro extends models_1.AnimeParser {
             throw new Error('Something went wrong. Please try again later.');
         }
     }
-    ;
 }
 // (async () => {
 //   const zoro = new Zoro();
