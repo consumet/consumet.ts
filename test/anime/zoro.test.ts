@@ -61,7 +61,6 @@ test('returns a filled array of anime list', async () => {
 
 test('returns a filled array of anime list', async () => {
   const data = await zoro.fetchSearchSuggestions("one piece");
-  console.log(data);
   expect(data.results).not.toEqual([]);
 })
 
