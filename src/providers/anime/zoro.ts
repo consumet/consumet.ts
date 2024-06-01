@@ -15,6 +15,19 @@ import {
 
 import { StreamSB, RapidCloud, MegaCloud, StreamTape } from '../../utils';
 import { USER_AGENT } from '../../utils';
+interface SearchParams {
+  query?: string;
+  type?: string;
+  status?: string;
+  rated?: string;
+  score?: number;
+  season?: string;
+  language?: string;
+  startDate?: string;
+  endDate?: string;
+  sort?: string;
+  genres?: string[];
+}
 
 class Zoro extends AnimeParser {
   override readonly name = 'Zoro';
@@ -23,9 +36,7 @@ class Zoro extends AnimeParser {
     'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
   protected override classPath = 'ANIME.Zoro';
 
-  constructor(
-    customBaseURL?: string
-  ) {
+  constructor(customBaseURL?: string) {
     super(...arguments);
     this.baseUrl = customBaseURL ? `https://${customBaseURL}` : this.baseUrl;
   }
@@ -41,6 +52,163 @@ class Zoro extends AnimeParser {
     return this.scrapeCardPage(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
   }
 
+  /**
+   *
+   * @param query Search query (optional)
+   * @param type Media type (optional) (options: `movie`, `tv`, `ova`, `ona`, `special`, `music`)
+   * @param status Status (optional) (options: `finished_airing`, `currently_airing`, `not_yet_aired`)
+   * @param rated Rated (optional) (options: `g`, `pg`, `pg_13`, `r`, `r_plus`, `rx`)
+   * @param score Score (optional)
+   * @param season Season (optional) (options: `winter`, `spring`, `summer`, `fall`)
+   * @param language Language (optional) (options: `sub`, `dub`, `sub_dub`)
+   * @param startDate Start Date (optional) format: `YYYY-MM-DD`
+   * @param endDate End Date (optional) format: `YYYY-MM-DD`
+   * @param sort Sort (optional) (options: `default`, `recently_added`, `recently_updated`, `score`, `name_az`, `released_date`, `most_watched`)
+   * @param genres Genres (optional)
+   * @returns 
+   */
+  fetchAdvanceSearch(query?: string, page = 1, filterOptions?: SearchParams): Promise<ISearch<IAnimeResult>> {
+    const { type, status, rated, score, season, language, startDate, endDate, sort = 'default', genres } = filterOptions || {};
+
+    const types: Array<[string, string]> = [
+      ['1', 'movie'],
+      ['2', 'tv'],
+      ['3', 'ova'],
+      ['4', 'ona'],
+      ['5', 'special'],
+      ['6', 'music'],
+    ];
+    const statuses: Array<[string, string]> = [
+      ['1', 'finished_airing'],
+      ['2', 'currently_airing'],
+      ['3', 'not_yet_aired'],
+    ];
+    const ratedOptions: Array<[string, string]> = [
+      ['1', 'g'],
+      ['2', 'pg'],
+      ['3', 'pg_13'],
+      ['4', 'r'],
+      ['5', 'r_plus'],
+      ['6', 'rx'],
+    ];
+    const seasonOptions: Array<[string, string]> = [
+      ['1', 'spring'],
+      ['2', 'summer'],
+      ['3', 'fall'],
+      ['4', 'winter'],
+    ];
+    const languageOptions: Array<[string, string]> = [
+      ['1', 'sub'],
+      ['2', 'dub'],
+      ['3', 'sub_dub'],
+    ];
+    const genreOptions: Record<string, string> = {
+      'action': '1',
+      'adventure': '2',
+      'cars': '3',
+      'comedy': '4',
+      'dementia': '5',
+      'demons': '6',
+      'drama': '8',
+      'ecchi': '9',
+      'fantasy': '10',
+      'game': '11',
+      'harem': '35',
+      'historical': '13',
+      'horror': '14',
+      'isekai': '44',
+      'josei': '43',
+      'kids': '15',
+      'magic': '16',
+      'martial_arts': '17',
+      'mecha': '18',
+      'military': '38',
+      'music': '19',
+      'mystery': '7',
+      'parody': '20',
+      'police': '39',
+      'psychological': '40',
+      'romance': '22',
+      'samurai': '21',
+      'school': '23',
+      'sci-fi': '24',
+      'seinen': '42',
+      'shoujo': '25',
+      'shoujo_ai': '26',
+      'shounen': '27',
+      'shounen_ai': '28',
+      'slice_of_life': '36',
+      'space': '29',
+      'sports': '30',
+      'super_power': '31',
+      'supernatural': '37',
+      'thriller': '41',
+      'vampire': '32',
+    };
+    // Validate enumerated types
+    const validateEnum = (value: string, options: Array<[string, string]>): string => {
+      const found = options.find(option => option[1] === value);
+      if (!found) throw new Error(`Invalid value for parameter: ${value}`);
+      return found[0];
+    };
+  
+    // Validate score
+    if (score !== undefined && (score < 1 || score > 10)) {
+      throw new Error('Score must be between 1 and 10.');
+    }
+  
+    // Validate dates
+    const validateDate = (date: string) => {
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+        throw new Error('Date must be in YYYY-MM-DD format.');
+      }
+    };
+    if (startDate) validateDate(startDate);
+    if (endDate) validateDate(endDate);
+    if (startDate && endDate && startDate > endDate) {
+      throw new Error('Start date cannot be later than end date.');
+    }
+  
+    // Setup URL search parameters
+    const params = new URLSearchParams();
+    if (query) params.append('keyword', query);
+    if (type) params.append('type', validateEnum(type, types));
+    if (status) params.append('status', validateEnum(status, statuses));
+    if (rated) params.append('rated', validateEnum(rated, ratedOptions));
+    if (score) params.append('score', score.toString());
+    if (season) params.append('season', validateEnum(season, seasonOptions));
+    if (language) params.append('language', validateEnum(language, languageOptions));
+  
+    // Validate and append genres
+    if (genres) {
+      const genreIds = genres.map(genre => {
+        const id = genreOptions[genre.toLowerCase()];
+        if (!id) throw new Error(`Genre '${genre}' is not valid`);
+        return id;
+      }).join(',');
+      if (genreIds) params.append('genres', genreIds);
+    }
+  
+    // Append date components
+    if (startDate) {
+      const [year, month, day] = startDate.split('-');
+      params.append('sy', year);
+      params.append('sm', month);
+      params.append('sd', day);
+    }
+    if (endDate) {
+      const [year, month, day] = endDate.split('-');
+      params.append('ey', year);
+      params.append('em', month);
+      params.append('ed', day);
+    }
+    params.append('sort', sort);
+  
+    // Construct and return the search URL
+    const url = `${this.baseUrl}/${query ? 'search' : 'filter'}?${params.toString()}`;
+    return this.scrapeCardPage(url);
+  }
+  
   /**
    * @param page number
    */
@@ -116,25 +284,27 @@ class Zoro extends AnimeParser {
   }
 
   /**
-     * Fetches the schedule for a given date.
-     * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
-     * @returns A promise that resolves to an object containing the search results.
-     */
+   * Fetches the schedule for a given date.
+   * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
+   * @returns A promise that resolves to an object containing the search results.
+   */
   async fetchSchedule(date: string = new Date().toISOString().slice(0, 10)): Promise<ISearch<IAnimeResult>> {
     try {
       const res: ISearch<IAnimeResult> = {
         results: [],
       };
-      const { data: { html } } = await this.client.get(`${this.baseUrl}/ajax/schedule/list?tzOffset=360&date=${date}`);
+      const {
+        data: { html },
+      } = await this.client.get(`${this.baseUrl}/ajax/schedule/list?tzOffset=360&date=${date}`);
       const $ = load(html);
 
       $('li').each((i, ele) => {
         const card = $(ele);
         const title = card.find('.film-name');
 
-        const id = card.find("a.tsl-link").attr('href')?.split('/')[1].split('?')[0];
-        const airingTime = card.find("div.time").text().replace("\n", "").trim();
-        const airingEpisode = card.find("div.film-detail div.fd-play button").text().replace("\n", "").trim();
+        const id = card.find('a.tsl-link').attr('href')?.split('/')[1].split('?')[0];
+        const airingTime = card.find('div.time').text().replace('\n', '').trim();
+        const airingEpisode = card.find('div.film-detail div.fd-play button').text().replace('\n', '').trim();
         res.results.push({
           id: id!,
           title: title.text(),
@@ -143,7 +313,7 @@ class Zoro extends AnimeParser {
           airingEpisode: airingEpisode,
           airingTime: airingTime,
         });
-      })
+      });
 
       return res;
     } catch (err) {
@@ -160,7 +330,11 @@ class Zoro extends AnimeParser {
       $('#slider div.swiper-wrapper div.swiper-slide').each((i, el) => {
         const card = $(el);
         const titleElement = card.find('div.desi-head-title');
-        const id = card.find('div.desi-buttons .btn-secondary').attr('href')?.match(/\/([^/]+)$/)?.[1] || null;
+        const id =
+          card
+            .find('div.desi-buttons .btn-secondary')
+            .attr('href')
+            ?.match(/\/([^/]+)$/)?.[1] || null;
         res.results.push({
           id: id!,
           title: titleElement.text(),
@@ -175,7 +349,7 @@ class Zoro extends AnimeParser {
           sub: parseInt(card.find('div.sc-detail div.tick-sub').text().trim()) || 0,
           dub: parseInt(card.find('div.sc-detail div.tick-dub').text().trim()) || 0,
           episodes: parseInt(card.find('div.sc-detail div.tick-eps').text()) || 0,
-          description: card.find('div.desi-description').text().trim()
+          description: card.find('div.desi-description').text().trim(),
         });
       });
 
@@ -196,20 +370,20 @@ class Zoro extends AnimeParser {
 
       $('.nav-item').each((i, el) => {
         const card = $(el);
-        if (!card.hasClass("nav-bottom")) {
+        if (!card.hasClass('nav-bottom')) {
           const image = card.find('.film-poster img').attr('data-src');
           const title = card.find('.film-name');
           const id = card.attr('href')?.split('/')[1].split('?')[0];
-          
-          const duration = card.find(".film-infor span").last().text().trim();
-          const releaseDate = card.find(".film-infor span:nth-child(1)").text().trim();
-          const type = card.find(".film-infor").find("span, i").remove().end().text().trim();
+
+          const duration = card.find('.film-infor span').last().text().trim();
+          const releaseDate = card.find('.film-infor span:nth-child(1)').text().trim();
+          const type = card.find('.film-infor').find('span, i').remove().end().text().trim();
           res.results.push({
             image: image,
             id: id!,
             title: title.text(),
             japaneseTitle: title.attr('data-jname'),
-            aliasTitle: card.find(".alias-name").text(),
+            aliasTitle: card.find('.alias-name').text(),
             releaseDate: releaseDate,
             type: type as MediaFormat,
             duration: duration,
@@ -248,7 +422,7 @@ class Zoro extends AnimeParser {
       info.url = `${this.baseUrl}/${id}`;
       info.recommendations = await this.scrapeCard($);
       info.relatedAnime = [];
-      $("#main-sidebar section:nth-child(1) div.anif-block-ul li").each((i, ele) => {
+      $('#main-sidebar section:nth-child(1) div.anif-block-ul li').each((i, ele) => {
         const card = $(ele);
         const aTag = card.find('.film-name a');
         const id = aTag.attr('href')?.split('/')[1].split('?')[0];
@@ -258,7 +432,7 @@ class Zoro extends AnimeParser {
           url: `${this.baseUrl}${aTag.attr('href')}`,
           image: card.find('img')?.attr('data-src'),
           japaneseTitle: aTag.attr('data-jname'),
-          type: card.find(".tick").contents().last()?.text()?.trim() as MediaFormat,
+          type: card.find('.tick').contents().last()?.text()?.trim() as MediaFormat,
           sub: parseInt(card.find('.tick-item.tick-sub')?.text()) || 0,
           dub: parseInt(card.find('.tick-item.tick-dub')?.text()) || 0,
           episodes: parseInt(card.find('.tick-item.tick-eps')?.text()) || 0,
@@ -497,7 +671,6 @@ class Zoro extends AnimeParser {
           dub: parseInt(card.find('.tick-item.tick-dub')?.text()) || 0,
           episodes: parseInt(card.find('.tick-item.tick-eps')?.text()) || 0,
         });
-
       });
       return results;
     } catch (err) {

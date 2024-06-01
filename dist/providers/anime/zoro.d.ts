@@ -1,4 +1,17 @@
 import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer, StreamingServers } from '../../models';
+interface SearchParams {
+    query?: string;
+    type?: string;
+    status?: string;
+    rated?: string;
+    score?: number;
+    season?: string;
+    language?: string;
+    startDate?: string;
+    endDate?: string;
+    sort?: string;
+    genres?: string[];
+}
 declare class Zoro extends AnimeParser {
     readonly name = "Zoro";
     protected baseUrl: string;
@@ -10,6 +23,22 @@ declare class Zoro extends AnimeParser {
      * @param page Page number (optional)
      */
     search(query: string, page?: number): Promise<ISearch<IAnimeResult>>;
+    /**
+     *
+     * @param query Search query (optional)
+     * @param type Media type (optional) (options: `movie`, `tv`, `ova`, `ona`, `special`, `music`)
+     * @param status Status (optional) (options: `finished_airing`, `currently_airing`, `not_yet_aired`)
+     * @param rated Rated (optional) (options: `g`, `pg`, `pg_13`, `r`, `r_plus`, `rx`)
+     * @param score Score (optional)
+     * @param season Season (optional) (options: `winter`, `spring`, `summer`, `fall`)
+     * @param language Language (optional) (options: `sub`, `dub`, `sub_dub`)
+     * @param startDate Start Date (optional) format: `YYYY-MM-DD`
+     * @param endDate End Date (optional) format: `YYYY-MM-DD`
+     * @param sort Sort (optional) (options: `default`, `recently_added`, `recently_updated`, `score`, `name_az`, `released_date`, `most_watched`)
+     * @param genres Genres (optional)
+     * @returns
+     */
+    fetchAdvanceSearch(query?: string, page?: number, filterOptions?: SearchParams): Promise<ISearch<IAnimeResult>>;
     /**
      * @param page number
      */
@@ -44,10 +73,10 @@ declare class Zoro extends AnimeParser {
      */
     fetchStudio(studio: string, page?: number): Promise<ISearch<IAnimeResult>>;
     /**
-       * Fetches the schedule for a given date.
-       * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
-       * @returns A promise that resolves to an object containing the search results.
-       */
+     * Fetches the schedule for a given date.
+     * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
+     * @returns A promise that resolves to an object containing the search results.
+     */
     fetchSchedule(date?: string): Promise<ISearch<IAnimeResult>>;
     fetchSpotlight(): Promise<ISearch<IAnimeResult>>;
     fetchSearchSuggestions(query: string): Promise<ISearch<IAnimeResult>>;

@@ -11,6 +11,7 @@
         "prepare": "husky install",
         "test": "jest",
         "test:anime": "jest ./test/anime",
+        "test:zoro": "jest ./test/anime/zoro.test.ts",
         "test:books": "jest ./test/books/libgen.test.ts",
         "test:comics": "jest ./test/comics",
         "test:movies": "jest ./test/movies",

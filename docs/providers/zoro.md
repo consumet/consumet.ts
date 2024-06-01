@@ -7,6 +7,7 @@ const zoro = new ANIME.Zoro();
 <h2>Methods</h2>
 
 - [search](#search)
+- [fetchAdvancedSearch](#fetchAdvancedSearch)
 - [fetchAnimeInfo](#fetchanimeinfo)
 - [fetchEpisodeSources](#fetchepisodesources)
 - [fetchTopAiring](#fetchTopAiring)
@@ -19,7 +20,7 @@ const zoro = new ANIME.Zoro();
 - [fetchSchedule](#fetchSchedule)
 - [fetchStudio](#fetchStudio)
 - [fetchSpotlight](#fetchSpotlight)
-- [fetchSearchSuggestions] (#fetchSearchSuggestions)
+- [fetchSearchSuggestions](#fetchSearchSuggestions)
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
@@ -73,6 +74,81 @@ output:
   ]
 }
 ```
+
+### fetchAdvancedSearch
+
+Performs an advanced search based on various filtering options, allowing users to find anime series that match specific criteria.
+
+#### Parameters
+
+| Parameter     | Type            | Description                                                                                         |
+|---------------|-----------------|-----------------------------------------------------------------------------------------------------|
+| query         | `string`        | The search query string. Optional.                                                                  |
+| page          | `number`        | The page number for pagination. Defaults to 1 if not provided.                                      |
+| filterOptions | `SearchParams`  | An object containing filter options such as `type`, `status`, `rated`, etc. All fields are optional.|
+
+#### `SearchParams` Structure
+
+| Key        | Type     | Description                                                                                               |
+|------------|----------|-----------------------------------------------------------------------------------------------------------|
+| type       | `string` | Filter by media type (`movie`, `tv`, `ova`, etc.).                                                        |
+| status     | `string` | Filter by airing status (`currently_airing`, `finished_airing`, `not_yet_aired`).                         |
+| rated      | `string` | Filter by age rating (`g`, `pg`, `pg_13`, `r`, etc.).                                                     |
+| score      | `number` | Filter by score (scale of 1-10).                                                                          |
+| season     | `string` | Filter by season (`spring`, `summer`, `fall`, `winter`).                                                  |
+| language   | `string` | Preferred language (`sub`, `dub`, `sub_dub`).                                                             |
+| startDate  | `string` | Filter shows that started on or after a specific date (`YYYY-MM-DD`).                                    |
+| endDate    | `string` | Filter shows that ended on or before a specific date (`YYYY-MM-DD`).                                     |
+| sort       | `string` | Sort order (`default`, `recently_added`, `recently_updated`, `score`, `name_az`, `released_date`, etc.). |
+| genres     | `string[]`| Filter by list of genres (`action`, `comedy`, etc.).                                                     |
+
+#### Usage Example
+
+```typescript
+const filterOptions = {
+  type: 'tv',
+  status: 'currently_airing',
+  rated: 'pg_13',
+  score: 8,
+  season: 'spring',
+  language: 'sub',
+  startDate: '2021-01-01',
+  endDate: '2021-12-31',
+  sort: 'score',
+  genres: ['action', 'adventure']
+};
+
+zoro.fetchAdvancedSearch("Naruto", 1, filterOptions).then(data => {
+  console.log(data);
+});
+```
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{
+  "currentPage": 1,
+  "hasNextPage": true,
+  "totalPages": 3,
+  "results": [
+    {
+        "id": 'naruto-shippuden-355',
+        "title": 'Naruto: Shippuden',
+        "url": 'https://hianime.to/naruto-shippuden-355?ref=search',
+        "image": 'https://cdn.noitatnemucod.net/thumbnail/300x400/100/9cbcf87f54194742e7686119089478f8.jpg',
+        "duration": '23m',
+        "japaneseTitle": 'Naruto: Shippuuden',
+        "type": 'TV',
+        "nsfw": false,
+        "sub": 500,
+        "dub": 500,
+        "episodes": 500
+    },
+    // More results...
+  ]
+}
+
+```
+
 
 ### fetchAnimeInfo
 

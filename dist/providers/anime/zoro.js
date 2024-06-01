@@ -34,7 +34,7 @@ class Zoro extends models_1.AnimeParser {
                 info.url = `${this.baseUrl}/${id}`;
                 info.recommendations = await this.scrapeCard($);
                 info.relatedAnime = [];
-                $("#main-sidebar section:nth-child(1) div.anif-block-ul li").each((i, ele) => {
+                $('#main-sidebar section:nth-child(1) div.anif-block-ul li').each((i, ele) => {
                     var _a, _b, _c, _d, _e, _f, _g;
                     const card = $(ele);
                     const aTag = card.find('.film-name a');
@@ -45,7 +45,7 @@ class Zoro extends models_1.AnimeParser {
                         url: `${this.baseUrl}${aTag.attr('href')}`,
                         image: (_b = card.find('img')) === null || _b === void 0 ? void 0 : _b.attr('data-src'),
                         japaneseTitle: aTag.attr('data-jname'),
-                        type: (_d = (_c = card.find(".tick").contents().last()) === null || _c === void 0 ? void 0 : _c.text()) === null || _d === void 0 ? void 0 : _d.trim(),
+                        type: (_d = (_c = card.find('.tick').contents().last()) === null || _c === void 0 ? void 0 : _c.text()) === null || _d === void 0 ? void 0 : _d.trim(),
                         sub: parseInt((_e = card.find('.tick-item.tick-sub')) === null || _e === void 0 ? void 0 : _e.text()) || 0,
                         dub: parseInt((_f = card.find('.tick-item.tick-dub')) === null || _f === void 0 ? void 0 : _f.text()) || 0,
                         episodes: parseInt((_g = card.find('.tick-item.tick-eps')) === null || _g === void 0 ? void 0 : _g.text()) || 0,
@@ -278,6 +278,167 @@ class Zoro extends models_1.AnimeParser {
         return this.scrapeCardPage(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
     }
     /**
+     *
+     * @param query Search query (optional)
+     * @param type Media type (optional) (options: `movie`, `tv`, `ova`, `ona`, `special`, `music`)
+     * @param status Status (optional) (options: `finished_airing`, `currently_airing`, `not_yet_aired`)
+     * @param rated Rated (optional) (options: `g`, `pg`, `pg_13`, `r`, `r_plus`, `rx`)
+     * @param score Score (optional)
+     * @param season Season (optional) (options: `winter`, `spring`, `summer`, `fall`)
+     * @param language Language (optional) (options: `sub`, `dub`, `sub_dub`)
+     * @param startDate Start Date (optional) format: `YYYY-MM-DD`
+     * @param endDate End Date (optional) format: `YYYY-MM-DD`
+     * @param sort Sort (optional) (options: `default`, `recently_added`, `recently_updated`, `score`, `name_az`, `released_date`, `most_watched`)
+     * @param genres Genres (optional)
+     * @returns
+     */
+    fetchAdvanceSearch(query, page = 1, filterOptions) {
+        const { type, status, rated, score, season, language, startDate, endDate, sort = 'default', genres } = filterOptions || {};
+        const types = [
+            ['1', 'movie'],
+            ['2', 'tv'],
+            ['3', 'ova'],
+            ['4', 'ona'],
+            ['5', 'special'],
+            ['6', 'music'],
+        ];
+        const statuses = [
+            ['1', 'finished_airing'],
+            ['2', 'currently_airing'],
+            ['3', 'not_yet_aired'],
+        ];
+        const ratedOptions = [
+            ['1', 'g'],
+            ['2', 'pg'],
+            ['3', 'pg_13'],
+            ['4', 'r'],
+            ['5', 'r_plus'],
+            ['6', 'rx'],
+        ];
+        const seasonOptions = [
+            ['1', 'spring'],
+            ['2', 'summer'],
+            ['3', 'fall'],
+            ['4', 'winter'],
+        ];
+        const languageOptions = [
+            ['1', 'sub'],
+            ['2', 'dub'],
+            ['3', 'sub_dub'],
+        ];
+        const genreOptions = {
+            'action': '1',
+            'adventure': '2',
+            'cars': '3',
+            'comedy': '4',
+            'dementia': '5',
+            'demons': '6',
+            'drama': '8',
+            'ecchi': '9',
+            'fantasy': '10',
+            'game': '11',
+            'harem': '35',
+            'historical': '13',
+            'horror': '14',
+            'isekai': '44',
+            'josei': '43',
+            'kids': '15',
+            'magic': '16',
+            'martial_arts': '17',
+            'mecha': '18',
+            'military': '38',
+            'music': '19',
+            'mystery': '7',
+            'parody': '20',
+            'police': '39',
+            'psychological': '40',
+            'romance': '22',
+            'samurai': '21',
+            'school': '23',
+            'sci-fi': '24',
+            'seinen': '42',
+            'shoujo': '25',
+            'shoujo_ai': '26',
+            'shounen': '27',
+            'shounen_ai': '28',
+            'slice_of_life': '36',
+            'space': '29',
+            'sports': '30',
+            'super_power': '31',
+            'supernatural': '37',
+            'thriller': '41',
+            'vampire': '32',
+        };
+        // Validate enumerated types
+        const validateEnum = (value, options) => {
+            const found = options.find(option => option[1] === value);
+            if (!found)
+                throw new Error(`Invalid value for parameter: ${value}`);
+            return found[0];
+        };
+        // Validate score
+        if (score !== undefined && (score < 1 || score > 10)) {
+            throw new Error('Score must be between 1 and 10.');
+        }
+        // Validate dates
+        const validateDate = (date) => {
+            if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+                throw new Error('Date must be in YYYY-MM-DD format.');
+            }
+        };
+        if (startDate)
+            validateDate(startDate);
+        if (endDate)
+            validateDate(endDate);
+        if (startDate && endDate && startDate > endDate) {
+            throw new Error('Start date cannot be later than end date.');
+        }
+        // Setup URL search parameters
+        const params = new URLSearchParams();
+        if (query)
+            params.append('keyword', query);
+        if (type)
+            params.append('type', validateEnum(type, types));
+        if (status)
+            params.append('status', validateEnum(status, statuses));
+        if (rated)
+            params.append('rated', validateEnum(rated, ratedOptions));
+        if (score)
+            params.append('score', score.toString());
+        if (season)
+            params.append('season', validateEnum(season, seasonOptions));
+        if (language)
+            params.append('language', validateEnum(language, languageOptions));
+        // Validate and append genres
+        if (genres) {
+            const genreIds = genres.map(genre => {
+                const id = genreOptions[genre.toLowerCase()];
+                if (!id)
+                    throw new Error(`Genre '${genre}' is not valid`);
+                return id;
+            }).join(',');
+            if (genreIds)
+                params.append('genres', genreIds);
+        }
+        // Append date components
+        if (startDate) {
+            const [year, month, day] = startDate.split('-');
+            params.append('sy', year);
+            params.append('sm', month);
+            params.append('sd', day);
+        }
+        if (endDate) {
+            const [year, month, day] = endDate.split('-');
+            params.append('ey', year);
+            params.append('em', month);
+            params.append('ed', day);
+        }
+        params.append('sort', sort);
+        // Construct and return the search URL
+        const url = `${this.baseUrl}/${query ? 'search' : 'filter'}?${params.toString()}`;
+        return this.scrapeCardPage(url);
+    }
+    /**
      * @param page number
      */
     fetchTopAiring(page = 1) {
@@ -351,24 +512,24 @@ class Zoro extends models_1.AnimeParser {
         return this.scrapeCardPage(`${this.baseUrl}/producer/${studio}?page=${page}`);
     }
     /**
-       * Fetches the schedule for a given date.
-       * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
-       * @returns A promise that resolves to an object containing the search results.
-       */
+     * Fetches the schedule for a given date.
+     * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
+     * @returns A promise that resolves to an object containing the search results.
+     */
     async fetchSchedule(date = new Date().toISOString().slice(0, 10)) {
         try {
             const res = {
                 results: [],
             };
-            const { data: { html } } = await this.client.get(`${this.baseUrl}/ajax/schedule/list?tzOffset=360&date=${date}`);
+            const { data: { html }, } = await this.client.get(`${this.baseUrl}/ajax/schedule/list?tzOffset=360&date=${date}`);
             const $ = (0, cheerio_1.load)(html);
             $('li').each((i, ele) => {
                 var _a;
                 const card = $(ele);
                 const title = card.find('.film-name');
-                const id = (_a = card.find("a.tsl-link").attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
-                const airingTime = card.find("div.time").text().replace("\n", "").trim();
-                const airingEpisode = card.find("div.film-detail div.fd-play button").text().replace("\n", "").trim();
+                const id = (_a = card.find('a.tsl-link').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
+                const airingTime = card.find('div.time').text().replace('\n', '').trim();
+                const airingEpisode = card.find('div.film-detail div.fd-play button').text().replace('\n', '').trim();
                 res.results.push({
                     id: id,
                     title: title.text(),
@@ -393,7 +554,9 @@ class Zoro extends models_1.AnimeParser {
                 var _a, _b, _c;
                 const card = $(el);
                 const titleElement = card.find('div.desi-head-title');
-                const id = ((_b = (_a = card.find('div.desi-buttons .btn-secondary').attr('href')) === null || _a === void 0 ? void 0 : _a.match(/\/([^/]+)$/)) === null || _b === void 0 ? void 0 : _b[1]) || null;
+                const id = ((_b = (_a = card
+                    .find('div.desi-buttons .btn-secondary')
+                    .attr('href')) === null || _a === void 0 ? void 0 : _a.match(/\/([^/]+)$/)) === null || _b === void 0 ? void 0 : _b[1]) || null;
                 res.results.push({
                     id: id,
                     title: titleElement.text(),
@@ -408,7 +571,7 @@ class Zoro extends models_1.AnimeParser {
                     sub: parseInt(card.find('div.sc-detail div.tick-sub').text().trim()) || 0,
                     dub: parseInt(card.find('div.sc-detail div.tick-dub').text().trim()) || 0,
                     episodes: parseInt(card.find('div.sc-detail div.tick-eps').text()) || 0,
-                    description: card.find('div.desi-description').text().trim()
+                    description: card.find('div.desi-description').text().trim(),
                 });
             });
             return res;
@@ -428,19 +591,19 @@ class Zoro extends models_1.AnimeParser {
             $('.nav-item').each((i, el) => {
                 var _a;
                 const card = $(el);
-                if (!card.hasClass("nav-bottom")) {
+                if (!card.hasClass('nav-bottom')) {
                     const image = card.find('.film-poster img').attr('data-src');
                     const title = card.find('.film-name');
                     const id = (_a = card.attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
-                    const duration = card.find(".film-infor span").last().text().trim();
-                    const releaseDate = card.find(".film-infor span:nth-child(1)").text().trim();
-                    const type = card.find(".film-infor").find("span, i").remove().end().text().trim();
+                    const duration = card.find('.film-infor span').last().text().trim();
+                    const releaseDate = card.find('.film-infor span:nth-child(1)').text().trim();
+                    const type = card.find('.film-infor').find('span, i').remove().end().text().trim();
                     res.results.push({
                         image: image,
                         id: id,
                         title: title.text(),
                         japaneseTitle: title.attr('data-jname'),
-                        aliasTitle: card.find(".alias-name").text(),
+                        aliasTitle: card.find('.alias-name').text(),
                         releaseDate: releaseDate,
                         type: type,
                         duration: duration,
@@ -454,7 +617,6 @@ class Zoro extends models_1.AnimeParser {
             throw new Error('Something went wrong. Please try again later.');
         }
     }
-    ;
 }
 // (async () => {
 //   const zoro = new Zoro();
