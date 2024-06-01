@@ -203,6 +203,7 @@ class Zoro extends AnimeParser {
       params.append('ed', day);
     }
     params.append('sort', sort);
+    params.append('page', page.toString());
   
     // Construct and return the search URL
     const url = `${this.baseUrl}/${query ? 'search' : 'filter'}?${params.toString()}`;
