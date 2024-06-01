@@ -74,7 +74,7 @@ class AnimeUnity extends AnimeParser {
             const totalPages = Math.round(totalEpisodes/120) + 1
 
             if(page < 1 || page > totalPages)
-                throw new Error(`Argument 'page' for ${id} must be between 1 and ${totalPages}!`);
+                throw new Error(`Argument 'page' for ${id} must be between 1 and ${totalPages}! (You passed ${page})`);
 
             const animeInfo: IAnimeInfo = {
                 currentPage: page,
@@ -85,7 +85,7 @@ class AnimeUnity extends AnimeParser {
                 url: url,
                 alID: $('.banner')?.attr('style')?.split('/')?.pop()?.split('-')[0],
                 genres:
-                    $('.info-wrapper.pt-3.pb-3 small')?.map((i, element): string => {
+                    $('.info-wrapper.pt-3.pb-3 small')?.map((_, element): string => {
                         return $(element).text().replace(',', '').trim()
                     }).toArray() ?? undefined,
                 totalEpisodes: totalEpisodes,
@@ -138,16 +138,32 @@ class AnimeUnity extends AnimeParser {
 
                 const domain = $('script:contains("window.video")').text()?.match(/url: '(.*)'/)![1]
                 const token = $('script:contains("window.video")').text()?.match(/token': '(.*)'/)![1]
-                const token360p = $('script:contains("window.video")').text()?.match(/token360p': '(.*)'/)![1]
-                const token480p = $('script:contains("window.video")').text()?.match(/token480p': '(.*)'/)![1]
-                const token720p = $('script:contains("window.video")').text()?.match(/token720p': '(.*)'/)![1]
-                const token1080p = $('script:contains("window.video")').text()?.match(/token1080p': '(.*)'/)![1]
                 const expires = $('script:contains("window.video")').text()?.match(/expires': '(.*)'/)![1]
 
+                const defaultUrl = `${domain}?token=${token}&referer=&expires=${expires}&h=1`
+                const m3u8Content = await this.client.get(defaultUrl)
+
+                if (m3u8Content.data.includes('EXTM3U')) {
+                  const videoList = m3u8Content.data.split('#EXT-X-STREAM-INF:');
+                  for (const video of videoList ?? []) {
+                    if (video.includes('BANDWIDTH')) {
+                      const url = video.split('\n')[1];
+                      const quality = video.split('RESOLUTION=')[1].split('\n')[0].split('x')[1];
+          
+                      episodeSources.sources.push({
+                        url: url,
+                        quality: `${quality}p`,
+                        isM3U8: true,
+                      });
+                    }
+                  }
+                }
+
                 episodeSources.sources.push({
-                    url: `${domain}?token=${token}&token360p=${token360p}&token480p=${token480p}&token720p=${token720p}&token1080p=${token1080p}&referer=&expires=${expires}`,
-                    isM3U8: true
-                })
+                  url: defaultUrl,
+                  quality: `default`,
+                  isM3U8: true,
+                });
 
                 episodeSources.download = $('script:contains("window.downloadUrl ")').text()?.match(/downloadUrl = '(.*)'/)![1]?.toString()
             }
@@ -168,3 +184,19 @@ class AnimeUnity extends AnimeParser {
 }
 
 export default AnimeUnity
+
+/**
+ * old episode sources fetching method, keep it here.
+ */
+// const domain = $('script:contains("window.video")').text()?.match(/url: '(.*)'/)![1]
+// const token = $('script:contains("window.video")').text()?.match(/token': '(.*)'/)![1]
+// const token360p = $('script:contains("window.video")').text()?.match(/token360p': '(.*)'/)![1]
+// const token480p = $('script:contains("window.video")').text()?.match(/token480p': '(.*)'/)![1]
+// const token720p = $('script:contains("window.video")').text()?.match(/token720p': '(.*)'/)![1]
+// const token1080p = $('script:contains("window.video")').text()?.match(/token1080p': '(.*)'/)![1]
+// const expires = $('script:contains("window.video")').text()?.match(/expires': '(.*)'/)![1]
+
+// episodeSources.sources.push({
+//     url: `${domain}?token=${token}&token360p=${token360p}&token480p=${token480p}&token720p=${token720p}&token1080p=${token1080p}&referer=&expires=${expires}`,
+//     isM3U8: true
+// })

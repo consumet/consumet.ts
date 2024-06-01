@@ -5,7 +5,7 @@ const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const utils_2 = require("../../utils");
 class Zoro extends models_1.AnimeParser {
-    constructor() {
+    constructor(customBaseURL) {
         super(...arguments);
         this.name = 'Zoro';
         this.baseUrl = 'https://hianime.to';
@@ -265,6 +265,7 @@ class Zoro extends models_1.AnimeParser {
         this.fetchEpisodeServers = (episodeId) => {
             throw new Error('Method not implemented.');
         };
+        this.baseUrl = customBaseURL ? `https://${customBaseURL}` : this.baseUrl;
     }
     /**
      * @param query Search query
@@ -416,6 +417,44 @@ class Zoro extends models_1.AnimeParser {
             throw new Error('Something went wrong. Please try again later.');
         }
     }
+    async fetchSearchSuggestions(query) {
+        try {
+            const encodedQuery = encodeURIComponent(query);
+            const { data } = await this.client.get(`${this.baseUrl}/ajax/search/suggest?keyword=${encodedQuery}`);
+            const $ = (0, cheerio_1.load)(data.html);
+            const res = {
+                results: [],
+            };
+            $('.nav-item').each((i, el) => {
+                var _a;
+                const card = $(el);
+                if (!card.hasClass("nav-bottom")) {
+                    const image = card.find('.film-poster img').attr('data-src');
+                    const title = card.find('.film-name');
+                    const id = (_a = card.attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
+                    const duration = card.find(".film-infor span").last().text().trim();
+                    const releaseDate = card.find(".film-infor span:nth-child(1)").text().trim();
+                    const type = card.find(".film-infor").find("span, i").remove().end().text().trim();
+                    res.results.push({
+                        image: image,
+                        id: id,
+                        title: title.text(),
+                        japaneseTitle: title.attr('data-jname'),
+                        aliasTitle: card.find(".alias-name").text(),
+                        releaseDate: releaseDate,
+                        type: type,
+                        duration: duration,
+                        url: `${this.baseUrl}/${id}`,
+                    });
+                }
+            });
+            return res;
+        }
+        catch (error) {
+            throw new Error('Something went wrong. Please try again later.');
+        }
+    }
+    ;
 }
 // (async () => {
 //   const zoro = new Zoro();

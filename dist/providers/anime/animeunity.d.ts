@@ -25,3 +25,6 @@ declare class AnimeUnity extends AnimeParser {
     fetchEpisodeServers: (episodeId: string) => Promise<IEpisodeServer[]>;
 }
 export default AnimeUnity;
+/**
+ * old episode sources fetching method, keep it here.
+ */

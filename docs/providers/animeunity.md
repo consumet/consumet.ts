@@ -21,7 +21,7 @@ const animeunity = new ANIME.AnimeUnity();
 | query     | `string` | query to search for. (*In this case, We're searching for `Jujutsu Kaisen 2`*) |
 
 ```ts
-animeunity.search("One Piece").then(data => {
+animeunity.search("Demon Slayer: Kimetsu no Yaiba Hashira Training Arc").then(data => {
   console.log(data);
 })
 ```
@@ -33,21 +33,13 @@ output:
     hasNextPage: false,
     results: [
         {
-            id: '12-one-piece',
-            title: 'One Piece',
-            url: 'https://www.animeunity.to/anime/12-one-piece',
-            image: 'https://cdn.myanimelist.net/images/anime/1810/139965.jpg',
-            cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg',
+            id: '5167-demon-slayer-kimetsu-no-yaiba-hashira-training-arc',
+            title: 'Kimetsu no Yaiba: Hashira Geiko-hen',
+            url: 'https://www.animeunity.to/anime/5167-demon-slayer-kimetsu-no-yaiba-hashira-training-arc',
+            image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166240-bGHsLoWmJmiL.png',
+            cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/166240-YdxoEhrfwNk0.jpg',
             subOrDub: 'sub'
-        },
-        {
-            id: '4123-one-piece-film-red',
-            title: 'One Piece Movie 15: Red',
-            url: 'https://www.animeunity.to/anime/4123-one-piece-film-red',
-            image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx141902-fTyoTk8F8qOl.jpg',
-            cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/141902-SvnRSXnN7DWC.jpg',
-            subOrDub: 'sub'
-        },
+        }
         {...},
         ...
     ]
@@ -70,7 +62,7 @@ Why page number? AnimeUnity provides only 120 episodes at a time, how to use:
 If no page number is passed, the first page will be fetched.
 
 ```ts
-animesaturn.fetchAnimeInfo("12-one-piece", 3).then(data => {
+animesaturn.fetchAnimeInfo("5167-demon-slayer-kimetsu-no-yaiba-hashira-training-arc", 1).then(data => {
   console.log(data);
 })
 ```
@@ -79,28 +71,31 @@ returns a promise which resolves into an anime info object (including the episod
 output:
 ```js
 {
-    currentPage: 3,
-    hasNextPage: true,
-    totalPages: 10,
-    id: '12-one-piece',
-    title: 'One Piece',
-    url: 'https://www.animeunity.to/anime/12-one-piece',
-    alID: '21',
-    genres: [ 'Action', 'Adventure', 'Comedy', 'Drama', 'Fantasy', 'Shounen' ],
-    totalEpisodes: 1095,
-    image: 'https://img.animeunity.to/anime/139965.jpg',
-    cover: 'https://img.animeunity.to/anime/21-wf37VakJmZqs.jpg',
-    description: `Monkey D. Rufy è un giovane pirata sognatore che...`,
+    currentPage: 1,
+    hasNextPage: false,
+    totalPages: 1,
+    id: '5167-demon-slayer-kimetsu-no-yaiba-hashira-training-arc',
+    title: 'Demon Slayer: Kimetsu no Yaiba Hashira Training Arc',
+    url: 'https://www.animeunity.to/anime/5167-demon-slayer-kimetsu-no-yaiba-hashira-training-arc',
+    alID: '166240',
+    genres: [
+        'Action',
+        'Adventure',
+        'Drama',
+        'Fantasy',
+        'Historical',
+        'Shounen',
+        'Supernatural'
+    ],
+    totalEpisodes: 1,
+    image: 'https://img.animeunity.to/anime/bx166240-bGHsLoWmJmiL.png',
+    cover: 'https://img.animeunity.to/anime/166240-YdxoEhrfwNk0.jpg',
+    description: "Adattamento animato dell'arco Hashira Training",
     episodes: [
         {
-            id: '12-one-piece/6225',
-            number: 241,
-            url: 'https://www.animeunity.to/anime/12-one-piece/6225'
-        },
-        {
-            id: '12-one-piece/6226',
-            number: 242,
-            url: 'https://www.animeunity.to/anime/12-one-piece/6226'
+            id: '5167-demon-slayer-kimetsu-no-yaiba-hashira-training-arc/80480',
+            number: 1,
+            url: 'https://www.animeunity.to/anime/5167-demon-slayer-kimetsu-no-yaiba-hashira-training-arc/80480'
         },
         {...},
         ...
@@ -117,9 +112,9 @@ output:
 | episodeId | `string` | takes episode id as a parameter. (*episode id can be found in the anime info object*) |
 
 
-In this example, we're getting the sources for the first episode of Jujutsu Kaisen 2.
+In this example, we're getting the sources for the first episode of Demon Slayer: Kimetsu no Yaiba Hashira Training Arc.
 ```ts
-animesaturn.fetchEpisodeSources("12-one-piece/6225").then(data => {
+animesaturn.fetchEpisodeSources("5167-demon-slayer-kimetsu-no-yaiba-hashira-training-arc/80480").then(data => {
   console.log(data);
 })
 ```
@@ -130,11 +125,27 @@ output:
 {
     sources: [
         {
-            url: 'https://vixcloud.co/playlist/163605?token=k3foZ2UVnW80vOgGNXswJA&token360p=&token480p=1JYOeJihE4a9IzvY93O4Fg&token720p=a99ZCcvPp2r-dPhU0vGJ3g&token1080p=&referer=&expires=1714101108',
+            url: 'https://vixcloud.co/playlist/226038?type=video&rendition=480p&token=3PBuZDfjsMTHY94nq6fjkg&expires=1721216219&edge=au-u1-01',
+            quality: '480p',
+            isM3U8: true
+        },
+        {
+            url: 'https://vixcloud.co/playlist/226038?type=video&rendition=720p&token=9gqvFqv8EznuX3U6RuISZg&expires=1721216219&edge=au-u1-01',
+            quality: '720p',
+            isM3U8: true
+        },
+        {
+            url: 'https://vixcloud.co/playlist/226038?type=video&rendition=1080p&token=zCuz2Jg81JGq5Dokyvw8zg&expires=1721216219&edge=au-u1-01',
+            quality: '1080p',
+            isM3U8: true
+        },
+        {
+            url: 'https://vixcloud.co/playlist/226038?token=dc6d3b04327aa3f0c21d53b444d4d0cb&referer=&expires=1721216219&h=1',
+            quality: 'default',
             isM3U8: true
         }
-    ],
-    download: 'https://au-d1-01.scws-content.net/download/33/4/05/405f82d3-ff5f-47c6-a907-389f2fc65509/720p.mp4?token=B6Nf0xOc17nc1K5y19r-nQ&expires=1709003508&filename=OnePiece_Ep_0241_SUB_ITA.mp4'
+      ],
+      download: 'https://au-d1-01.scws-content.net/download/22/f/3a/f3ad66d6-262b-45e6-ba26-5225fdac18e4/1080p.mp4?token=q4oELFDSbkxeo6zh84zoIQ&expires=1716118619&filename=KimetsunoYaiba%3AHashiraGeiko-hen_Ep_01_SUB_ITA.mp4'
 }
 ```
 

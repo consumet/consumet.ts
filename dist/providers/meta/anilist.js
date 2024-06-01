@@ -23,7 +23,7 @@ class Anilist extends models_1.AnimeParser {
      * @param proxyConfig proxy config (optional)
      * @param adapter axios adapter (optional)
      */
-    constructor(provider, proxyConfig, adapter) {
+    constructor(provider, proxyConfig, adapter, customBaseURL) {
         super(proxyConfig, adapter);
         this.proxyConfig = proxyConfig;
         this.name = 'Anilist';
@@ -1652,7 +1652,7 @@ class Anilist extends models_1.AnimeParser {
             const englishPossibleEpisodes = this.findMangaSlug(provider, title.english, malId);
             return englishPossibleEpisodes;
         };
-        this.provider = provider || new gogoanime_1.default(proxyConfig);
+        this.provider = provider || new gogoanime_1.default(customBaseURL, proxyConfig);
     }
 }
 _a = Anilist;
@@ -1684,7 +1684,7 @@ Anilist.Manga = class Manga {
                 query: (0, utils_1.anilistSearchQuery)(query, page, perPage, 'MANGA'),
             };
             try {
-                const { data } = await axios_1.default.post(new Anilist().anilistGraphqlUrl, options);
+                const { data } = await axios_1.default.post(new _a().anilistGraphqlUrl, options);
                 const res = {
                     currentPage: data.data.Page.pageInfo.currentPage,
                     hasNextPage: data.data.Page.pageInfo.hasNextPage,
@@ -1755,7 +1755,7 @@ Anilist.Manga = class Manga {
                 query: (0, utils_1.anilistMediaDetailQuery)(id),
             };
             try {
-                const { data } = await axios_1.default.post(new Anilist().anilistGraphqlUrl, options).catch(err => {
+                const { data } = await axios_1.default.post(new _a().anilistGraphqlUrl, options).catch(err => {
                     throw new Error('Media not found');
                 });
                 mangaInfo.malId = data.data.Media.idMal;
@@ -1895,7 +1895,7 @@ Anilist.Manga = class Manga {
                         rating: item.node.meanScore,
                     });
                 });
-                mangaInfo.chapters = await new Anilist().findManga(this.provider, {
+                mangaInfo.chapters = await new _a().findManga(this.provider, {
                     english: mangaInfo.title.english,
                     romaji: mangaInfo.title.romaji,
                 }, mangaInfo.malId);

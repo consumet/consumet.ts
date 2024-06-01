@@ -2,7 +2,7 @@ import { ANIME } from '../../src/providers';
 
 jest.setTimeout(120000);
 
-const zoro = new ANIME.Zoro();
+const zoro = new ANIME.Zoro("hianime.to");
 
 test('returns a filled array of anime list', async () => {
   const data = await zoro.search('Overlord IV');
@@ -58,6 +58,12 @@ test('returns a filled array of anime list', async () => {
   const data = await zoro.fetchSpotlight();
   expect(data.results).not.toEqual([]);
 });
+
+test('returns a filled array of anime list', async () => {
+  const data = await zoro.fetchSearchSuggestions("one piece");
+  console.log(data);
+  expect(data.results).not.toEqual([]);
+})
 
 test('returns a filled object of anime data', async () => {
   const res = await zoro.search('Overlord IV');

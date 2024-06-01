@@ -59,7 +59,7 @@ class AnimeUnity extends models_1.AnimeParser {
                 const totalEpisodes = parseInt((_b = (_a = $('video-player')) === null || _a === void 0 ? void 0 : _a.attr('episodes_count')) !== null && _b !== void 0 ? _b : '0');
                 const totalPages = Math.round(totalEpisodes / 120) + 1;
                 if (page < 1 || page > totalPages)
-                    throw new Error(`Argument 'page' for ${id} must be between 1 and ${totalPages}!`);
+                    throw new Error(`Argument 'page' for ${id} must be between 1 and ${totalPages}! (You passed ${page})`);
                 const animeInfo = {
                     currentPage: page,
                     hasNextPage: totalPages > page,
@@ -68,7 +68,7 @@ class AnimeUnity extends models_1.AnimeParser {
                     title: (_c = $('h1.title')) === null || _c === void 0 ? void 0 : _c.text().trim(),
                     url: url,
                     alID: (_g = (_f = (_e = (_d = $('.banner')) === null || _d === void 0 ? void 0 : _d.attr('style')) === null || _e === void 0 ? void 0 : _e.split('/')) === null || _f === void 0 ? void 0 : _f.pop()) === null || _g === void 0 ? void 0 : _g.split('-')[0],
-                    genres: (_j = (_h = $('.info-wrapper.pt-3.pb-3 small')) === null || _h === void 0 ? void 0 : _h.map((i, element) => {
+                    genres: (_j = (_h = $('.info-wrapper.pt-3.pb-3 small')) === null || _h === void 0 ? void 0 : _h.map((_, element) => {
                         return $(element).text().replace(',', '').trim();
                     }).toArray()) !== null && _j !== void 0 ? _j : undefined,
                     totalEpisodes: totalEpisodes,
@@ -101,7 +101,7 @@ class AnimeUnity extends models_1.AnimeParser {
          * @param episodeId Episode id
          */
         this.fetchEpisodeSources = async (episodeId) => {
-            var _a, _b, _c, _d, _e, _f, _g, _h, _j;
+            var _a, _b, _c, _d, _e;
             try {
                 const res = await this.client.get(`${this.baseUrl}/anime/${episodeId}`);
                 const $ = (0, cheerio_1.load)(res.data);
@@ -114,16 +114,29 @@ class AnimeUnity extends models_1.AnimeParser {
                     const $ = (0, cheerio_1.load)(res.data);
                     const domain = (_a = $('script:contains("window.video")').text()) === null || _a === void 0 ? void 0 : _a.match(/url: '(.*)'/)[1];
                     const token = (_b = $('script:contains("window.video")').text()) === null || _b === void 0 ? void 0 : _b.match(/token': '(.*)'/)[1];
-                    const token360p = (_c = $('script:contains("window.video")').text()) === null || _c === void 0 ? void 0 : _c.match(/token360p': '(.*)'/)[1];
-                    const token480p = (_d = $('script:contains("window.video")').text()) === null || _d === void 0 ? void 0 : _d.match(/token480p': '(.*)'/)[1];
-                    const token720p = (_e = $('script:contains("window.video")').text()) === null || _e === void 0 ? void 0 : _e.match(/token720p': '(.*)'/)[1];
-                    const token1080p = (_f = $('script:contains("window.video")').text()) === null || _f === void 0 ? void 0 : _f.match(/token1080p': '(.*)'/)[1];
-                    const expires = (_g = $('script:contains("window.video")').text()) === null || _g === void 0 ? void 0 : _g.match(/expires': '(.*)'/)[1];
+                    const expires = (_c = $('script:contains("window.video")').text()) === null || _c === void 0 ? void 0 : _c.match(/expires': '(.*)'/)[1];
+                    const defaultUrl = `${domain}?token=${token}&referer=&expires=${expires}&h=1`;
+                    const m3u8Content = await this.client.get(defaultUrl);
+                    if (m3u8Content.data.includes('EXTM3U')) {
+                        const videoList = m3u8Content.data.split('#EXT-X-STREAM-INF:');
+                        for (const video of videoList !== null && videoList !== void 0 ? videoList : []) {
+                            if (video.includes('BANDWIDTH')) {
+                                const url = video.split('\n')[1];
+                                const quality = video.split('RESOLUTION=')[1].split('\n')[0].split('x')[1];
+                                episodeSources.sources.push({
+                                    url: url,
+                                    quality: `${quality}p`,
+                                    isM3U8: true,
+                                });
+                            }
+                        }
+                    }
                     episodeSources.sources.push({
-                        url: `${domain}?token=${token}&token360p=${token360p}&token480p=${token480p}&token720p=${token720p}&token1080p=${token1080p}&referer=&expires=${expires}`,
-                        isM3U8: true
+                        url: defaultUrl,
+                        quality: `default`,
+                        isM3U8: true,
                     });
-                    episodeSources.download = (_j = (_h = $('script:contains("window.downloadUrl ")').text()) === null || _h === void 0 ? void 0 : _h.match(/downloadUrl = '(.*)'/)[1]) === null || _j === void 0 ? void 0 : _j.toString();
+                    episodeSources.download = (_e = (_d = $('script:contains("window.downloadUrl ")').text()) === null || _d === void 0 ? void 0 : _d.match(/downloadUrl = '(.*)'/)[1]) === null || _e === void 0 ? void 0 : _e.toString();
                 }
                 return episodeSources;
             }
@@ -141,4 +154,18 @@ class AnimeUnity extends models_1.AnimeParser {
     }
 }
 exports.default = AnimeUnity;
+/**
+ * old episode sources fetching method, keep it here.
+ */
+// const domain = $('script:contains("window.video")').text()?.match(/url: '(.*)'/)![1]
+// const token = $('script:contains("window.video")').text()?.match(/token': '(.*)'/)![1]
+// const token360p = $('script:contains("window.video")').text()?.match(/token360p': '(.*)'/)![1]
+// const token480p = $('script:contains("window.video")').text()?.match(/token480p': '(.*)'/)![1]
+// const token720p = $('script:contains("window.video")').text()?.match(/token720p': '(.*)'/)![1]
+// const token1080p = $('script:contains("window.video")').text()?.match(/token1080p': '(.*)'/)![1]
+// const expires = $('script:contains("window.video")').text()?.match(/expires': '(.*)'/)![1]
+// episodeSources.sources.push({
+//     url: `${domain}?token=${token}&token360p=${token360p}&token480p=${token480p}&token720p=${token720p}&token1080p=${token1080p}&referer=&expires=${expires}`,
+//     isM3U8: true
+// })
 //# sourceMappingURL=animeunity.js.map

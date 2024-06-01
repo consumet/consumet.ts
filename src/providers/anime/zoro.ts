@@ -23,6 +23,13 @@ class Zoro extends AnimeParser {
     'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
   protected override classPath = 'ANIME.Zoro';
 
+  constructor(
+    customBaseURL?: string
+  ) {
+    super(...arguments);
+    this.baseUrl = customBaseURL ? `https://${customBaseURL}` : this.baseUrl;
+  }
+
   /**
    * @param query Search query
    * @param page Page number (optional)
@@ -170,6 +177,45 @@ class Zoro extends AnimeParser {
           episodes: parseInt(card.find('div.sc-detail div.tick-eps').text()) || 0,
           description: card.find('div.desi-description').text().trim()
         });
+      });
+
+      return res;
+    } catch (error) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  }
+
+  async fetchSearchSuggestions(query: string): Promise<ISearch<IAnimeResult>> {
+    try {
+      const encodedQuery = encodeURIComponent(query);
+      const { data } = await this.client.get(`${this.baseUrl}/ajax/search/suggest?keyword=${encodedQuery}`);
+      const $ = load(data.html);
+      const res: ISearch<IAnimeResult> = {
+        results: [],
+      };
+
+      $('.nav-item').each((i, el) => {
+        const card = $(el);
+        if (!card.hasClass("nav-bottom")) {
+          const image = card.find('.film-poster img').attr('data-src');
+          const title = card.find('.film-name');
+          const id = card.attr('href')?.split('/')[1].split('?')[0];
+          
+          const duration = card.find(".film-infor span").last().text().trim();
+          const releaseDate = card.find(".film-infor span:nth-child(1)").text().trim();
+          const type = card.find(".film-infor").find("span, i").remove().end().text().trim();
+          res.results.push({
+            image: image,
+            id: id!,
+            title: title.text(),
+            japaneseTitle: title.attr('data-jname'),
+            aliasTitle: card.find(".alias-name").text(),
+            releaseDate: releaseDate,
+            type: type as MediaFormat,
+            duration: duration,
+            url: `${this.baseUrl}/${id}`,
+          });
+        }
       });
 
       return res;

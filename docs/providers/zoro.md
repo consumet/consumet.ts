@@ -19,6 +19,7 @@ const zoro = new ANIME.Zoro();
 - [fetchSchedule](#fetchSchedule)
 - [fetchStudio](#fetchStudio)
 - [fetchSpotlight](#fetchSpotlight)
+- [fetchSearchSuggestions] (#fetchSearchSuggestions)
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
@@ -720,6 +721,77 @@ output:
     },
     {...}
     ...
+  ]
+}
+```
+### fetchSearchSuggestions
+
+```ts
+zoro.fetchSearchSuggestions("One Piece").then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{
+  results: [
+    {
+      image: 'https://cdn.noitatnemucod.net/thumbnail/300x400/100/ff736656ba002e0dd51363c3d889d9ff.jpg',
+      id: 'one-piece-movie-1-3096',
+      title: 'One Piece Movie 1',
+      japaneseTitle: 'One Piece Movie 1',
+      aliasTitle: 'One Piece Movie 1',
+      releaseDate: 'Mar 4, 2000',
+      type: 'Movie',
+      duration: '50m',
+      url: 'https://hianime.to/one-piece-movie-1-3096'
+    },
+    {
+      image: 'https://cdn.noitatnemucod.net/thumbnail/300x400/100/bcd84731a3eda4f4a306250769675065.jpg',
+      id: 'one-piece-100',
+      title: 'One Piece',
+      japaneseTitle: 'One Piece',
+      aliasTitle: 'One Piece',
+      releaseDate: 'Oct 20, 1999',
+      type: 'TV',
+      duration: '24m',
+      url: 'https://hianime.to/one-piece-100'
+    },
+    {
+      image: 'https://cdn.noitatnemucod.net/thumbnail/300x400/100/a1e98b07e290cd9653b41a895342a377.jpg',
+      id: 'one-piece-film-red-18236',
+      title: 'One Piece Film: Red',
+      japaneseTitle: 'One Piece Film: Red',
+      aliasTitle: 'One Piece Film: Red',
+      releaseDate: 'Aug 6, 2022',
+      type: 'Movie',
+      duration: '1h 55m',
+      url: 'https://hianime.to/one-piece-film-red-18236'
+    },
+    {
+      image: 'https://cdn.noitatnemucod.net/thumbnail/300x400/100/7156c377053c230cc42b66bbf7260325.jpg',
+      id: 'one-piece-the-movie-13-film-gold-550',
+      title: 'One Piece: The Movie 13 - Film: Gold',
+      japaneseTitle: 'One Piece Film: Gold',
+      aliasTitle: 'One Piece Film: Gold',
+      releaseDate: 'Jul 23, 2016',
+      type: 'Movie',
+      duration: '1h 30m',
+      url: 'https://hianime.to/one-piece-the-movie-13-film-gold-550'
+    },
+    {
+      image: 'https://cdn.noitatnemucod.net/thumbnail/300x400/100/14f2be76eee4a497ad81a5039425ff06.jpg',
+      id: 'one-room-third-season-6959',
+      title: 'One Room Third Season',
+      japaneseTitle: 'One Room Third Season',
+      aliasTitle: 'One Room Third Season',
+      releaseDate: 'Oct 6, 2020',
+      type: 'TV',
+      duration: '4m',
+      url: 'https://hianime.to/one-room-third-season-6959'
+    }
   ]
 }
 ```

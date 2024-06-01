@@ -4,6 +4,7 @@ declare class Zoro extends AnimeParser {
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
+    constructor(customBaseURL?: string);
     /**
      * @param query Search query
      * @param page Page number (optional)
@@ -49,6 +50,7 @@ declare class Zoro extends AnimeParser {
        */
     fetchSchedule(date?: string): Promise<ISearch<IAnimeResult>>;
     fetchSpotlight(): Promise<ISearch<IAnimeResult>>;
+    fetchSearchSuggestions(query: string): Promise<ISearch<IAnimeResult>>;
     /**
      * @param id Anime id
      */
