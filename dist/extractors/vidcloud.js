@@ -23,8 +23,8 @@ class VidCloud extends models_1.VideoExtractor {
                         'User-Agent': utils_1.USER_AGENT,
                     },
                 };
-                let res = await (0, rabbit_1.main)(id);
-                let sources = res.sources;
+                const res = await (0, rabbit_1.main)(id);
+                const sources = res.sources;
                 this.sources = sources.map((s) => ({
                     url: s.file,
                     isM3U8: s.file.includes('.m3u8'),

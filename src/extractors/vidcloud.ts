@@ -25,8 +25,8 @@ class VidCloud extends VideoExtractor {
         },
       };
 
-      let res = await main(id);
-      let sources = res.sources;
+      const res = await main(id);
+      const sources = res.sources;
 
       this.sources = sources.map((s: any) => ({
         url: s.file,
