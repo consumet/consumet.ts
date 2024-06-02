@@ -5,7 +5,7 @@ async function main() {
   console.log("test start");
   let vidCloud = new VidCloud();
   console.log("vidCloud object created!");
-  let url = new URL("https://rabbitstream.net/v2/embed-4/0Ztsm3o12oCm?z=");
+  let url = new URL("https://rabbitstream.net/v2/embed-4/x21Ne4cJOFWC?z=");
   console.log("url created!");
   console.log("extract called!");
   try {
