@@ -62,7 +62,7 @@ class MegaCloud extends VideoExtractor {
       }
 
       const encryptedString = srcsData.sources;
-      if (srcsData.encrypted && Array.isArray(encryptedString)) {
+      if (!srcsData.encrypted && Array.isArray(encryptedString)) {
         result.intro = srcsData.intro;
         result.outro = srcsData.outro;
         result.subtitles = srcsData.tracks.map((s: any) => ({
@@ -74,7 +74,6 @@ class MegaCloud extends VideoExtractor {
           type: s.type,
           isM3U8: s.file.includes('.m3u8'),
         }));
-
         return result;
       }
 
@@ -86,8 +85,7 @@ class MegaCloud extends VideoExtractor {
       if (!text)
         throw new Error("Couldn't fetch script to decrypt resource");
 
-      const vars = this.extractVariables(text, "MEGACLOUD");
-
+      const vars = this.extractVariables(text);
       const { secret, encryptedSource } = this.getSecret(
         encryptedString as string,
         vars
@@ -116,75 +114,42 @@ class MegaCloud extends VideoExtractor {
     }
   }
 
-  extractVariables(text: string, sourceName: string) {
-    let allvars;
-    if (sourceName !== "MEGACLOUD") {
-      allvars =
-        text
-          .match(
-            /const (?:\w{1,2}=(?:'.{0,50}?'|\w{1,2}\(.{0,20}?\)).{0,20}?,){7}.+?;/gm
-          )
-          ?.at(-1) ?? "";
-    } else {
-      allvars =
-        text
-          .match(/\w{1,2}=new URLSearchParams.+?;(?=function)/gm)
-          ?.at(1) ?? "";
-    }
-    const vars = allvars
-      .slice(0, -1)
-      .split("=")
-      .slice(1)
-      .map((pair) => Number(pair.split(",").at(0)))
-      .filter((num) => num === 0 || num);
+  extractVariables(text: string) {
+    // copied from github issue #30 'https://github.com/ghoshRitesh12/aniwatch-api/issues/30'
+    const regex =
+      /case\s*0x[0-9a-f]+:(?![^;]*=partKey)\s*\w+\s*=\s*(\w+)\s*,\s*\w+\s*=\s*(\w+);/g;
+    const matches = text.matchAll(regex);
+    const vars = Array.from(matches, (match) => {
+      const matchKey1 = this.matchingKey(match[1], text);
+      const matchKey2 = this.matchingKey(match[2], text);
+      try {
+        return [parseInt(matchKey1, 16), parseInt(matchKey2, 16)];
+      } catch (e) {
+        return [];
+      }
+    }).filter((pair) => pair.length > 0);
 
     return vars;
   }
 
-  getSecret(encryptedString: string, values: number[]) {
+  getSecret(encryptedString: string, values: number[][]) {
     let secret = "",
-      encryptedSource = encryptedString,
-      totalInc = 0;
+      encryptedSource = "",
+      encryptedSourceArray = encryptedString.split(""),
+      currentIndex = 0;
 
-    for (let i = 0; i < values[0]!; i++) {
-      let start, inc;
-      switch (i) {
-        case 0:
-          (start = values[2]), (inc = values[1]);
-          break;
-        case 1:
-          (start = values[4]), (inc = values[3]);
-          break;
-        case 2:
-          (start = values[6]), (inc = values[5]);
-          break;
-        case 3:
-          (start = values[8]), (inc = values[7]);
-          break;
-        case 4:
-          (start = values[10]), (inc = values[9]);
-          break;
-        case 5:
-          (start = values[12]), (inc = values[11]);
-          break;
-        case 6:
-          (start = values[14]), (inc = values[13]);
-          break;
-        case 7:
-          (start = values[16]), (inc = values[15]);
-          break;
-        case 8:
-          (start = values[18]), (inc = values[17]);
+    for (const index of values) {
+      const start = index[0] + currentIndex;
+      const end = start + index[1];
+
+      for (let i = start; i < end; i++) {
+        secret += encryptedString[i];
+        encryptedSourceArray[i] = "";
       }
-      const from = start! + totalInc,
-        to = from + inc!;
-      (secret += encryptedString.slice(from, to)),
-        (encryptedSource = encryptedSource.replace(
-          encryptedString.substring(from, to),
-          ""
-        )),
-        (totalInc += inc!);
+      currentIndex += index[1];
     }
+
+    encryptedSource = encryptedSourceArray.join("");
 
     return { secret, encryptedSource };
   }
@@ -198,6 +163,7 @@ class MegaCloud extends VideoExtractor {
       iv = maybe_iv;
       contents = encrypted;
     } else {
+      // copied from 'https://github.com/brix/crypto-js/issues/468'
       const cypher = Buffer.from(encrypted, "base64");
       const salt = cypher.subarray(8, 16);
       const password = Buffer.concat([
@@ -225,6 +191,18 @@ class MegaCloud extends VideoExtractor {
 
     return decrypted;
   }
+
+  // function copied from github issue #30 'https://github.com/ghoshRitesh12/aniwatch-api/issues/30'
+  matchingKey(value: string, script: string) {
+    const regex = new RegExp(`,${value}=((?:0x)?([0-9a-fA-F]+))`);
+    const match = script.match(regex);
+    if (match) {
+      return match[1].replace(/^0x/, "");
+    } else {
+      throw new Error("Failed to match the key");
+    }
+  }
+  
 }
 
 export default MegaCloud;
