@@ -601,8 +601,3 @@ const main = async (xrax: any) => {
 }
 
 export { main };
-
-
-
-
-

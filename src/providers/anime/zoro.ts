@@ -161,11 +161,12 @@ class Zoro extends AnimeParser {
         const card = $(el);
         const titleElement = card.find('div.desi-head-title');
         const id = card.find('div.desi-buttons .btn-secondary').attr('href')?.match(/\/([^/]+)$/)?.[1] || null;
+        const img = card.find('img.film-poster-img');
         res.results.push({
           id: id!,
           title: titleElement.text(),
           japaneseTitle: titleElement.attr('data-jname'),
-          banner: card.find('deslide-cover-img img').attr('data-src') || null,
+          banner: img.attr('data-src') || img.attr('src') || null,
           rank: parseInt(card.find('.desi-sub-text').text().match(/(\d+)/g)?.[0]!),
           url: `${this.baseUrl}/${id}`,
           type: card.find('div.sc-detail .scd-item:nth-child(1)').text().trim() as MediaFormat,
@@ -200,7 +201,7 @@ class Zoro extends AnimeParser {
           const image = card.find('.film-poster img').attr('data-src');
           const title = card.find('.film-name');
           const id = card.attr('href')?.split('/')[1].split('?')[0];
-          
+
           const duration = card.find(".film-infor span").last().text().trim();
           const releaseDate = card.find(".film-infor span:nth-child(1)").text().trim();
           const type = card.find(".film-infor").find("span, i").remove().end().text().trim();

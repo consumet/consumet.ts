@@ -394,11 +394,12 @@ class Zoro extends models_1.AnimeParser {
                 const card = $(el);
                 const titleElement = card.find('div.desi-head-title');
                 const id = ((_b = (_a = card.find('div.desi-buttons .btn-secondary').attr('href')) === null || _a === void 0 ? void 0 : _a.match(/\/([^/]+)$/)) === null || _b === void 0 ? void 0 : _b[1]) || null;
+                const img = card.find('img.film-poster-img');
                 res.results.push({
                     id: id,
                     title: titleElement.text(),
                     japaneseTitle: titleElement.attr('data-jname'),
-                    banner: card.find('deslide-cover-img img').attr('data-src') || null,
+                    banner: img.attr('data-src') || img.attr('src') || null,
                     rank: parseInt((_c = card.find('.desi-sub-text').text().match(/(\d+)/g)) === null || _c === void 0 ? void 0 : _c[0]),
                     url: `${this.baseUrl}/${id}`,
                     type: card.find('div.sc-detail .scd-item:nth-child(1)').text().trim(),
