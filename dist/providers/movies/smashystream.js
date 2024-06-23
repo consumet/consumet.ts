@@ -51,25 +51,46 @@ class SmashyStream extends models_1.MovieParser {
                     if (season) {
                         url = `${this.baseUrl}/playere.php?tmdb=${tmdbId}&season=${season}&episode=${episode}`;
                     }
-                    return Object.assign({ headers: { Referer: this.baseUrl } }, (await new extractors_1.SmashyStream(this.proxyConfig, this.adapter).extract(new URL(url))));
+                    return {
+                        headers: { Referer: this.baseUrl },
+                        ...(await new extractors_1.SmashyStream(this.proxyConfig, this.adapter).extract(new URL(url))),
+                    };
                 }
                 if (selectedServer.url.includes('/ffix')) {
-                    return Object.assign({ headers: { Referer: this.baseUrl } }, (await new extractors_1.SmashyStream(this.proxyConfig, this.adapter).extractSmashyFfix(selectedServer.url)));
+                    return {
+                        headers: { Referer: this.baseUrl },
+                        ...(await new extractors_1.SmashyStream(this.proxyConfig, this.adapter).extractSmashyFfix(selectedServer.url)),
+                    };
                 }
                 if (selectedServer.url.includes('/watchx')) {
-                    return Object.assign({ headers: { Referer: this.baseUrl } }, (await new extractors_1.SmashyStream(this.proxyConfig, this.adapter).extractSmashyWatchX(selectedServer.url)));
+                    return {
+                        headers: { Referer: this.baseUrl },
+                        ...(await new extractors_1.SmashyStream(this.proxyConfig, this.adapter).extractSmashyWatchX(selectedServer.url)),
+                    };
                 }
                 if (selectedServer.url.includes('/nflim')) {
-                    return Object.assign({ headers: { Referer: this.baseUrl } }, (await new extractors_1.SmashyStream(this.proxyConfig, this.adapter).extractSmashyNFlim(selectedServer.url)));
+                    return {
+                        headers: { Referer: this.baseUrl },
+                        ...(await new extractors_1.SmashyStream(this.proxyConfig, this.adapter).extractSmashyNFlim(selectedServer.url)),
+                    };
                 }
                 if (selectedServer.url.includes('/fx')) {
-                    return Object.assign({ headers: { Referer: this.baseUrl } }, (await new extractors_1.SmashyStream(this.proxyConfig, this.adapter).extractSmashyFX(selectedServer.url)));
+                    return {
+                        headers: { Referer: this.baseUrl },
+                        ...(await new extractors_1.SmashyStream(this.proxyConfig, this.adapter).extractSmashyFX(selectedServer.url)),
+                    };
                 }
                 if (selectedServer.url.includes('/cf')) {
-                    return Object.assign({ headers: { Referer: this.baseUrl } }, (await new extractors_1.SmashyStream(this.proxyConfig, this.adapter).extractSmashyCF(selectedServer.url)));
+                    return {
+                        headers: { Referer: this.baseUrl },
+                        ...(await new extractors_1.SmashyStream(this.proxyConfig, this.adapter).extractSmashyCF(selectedServer.url)),
+                    };
                 }
                 if (selectedServer.url.includes('/eemovie')) {
-                    return Object.assign({ headers: { Referer: this.baseUrl } }, (await new extractors_1.SmashyStream(this.proxyConfig, this.adapter).extractSmashyEEMovie(selectedServer.url)));
+                    return {
+                        headers: { Referer: this.baseUrl },
+                        ...(await new extractors_1.SmashyStream(this.proxyConfig, this.adapter).extractSmashyEEMovie(selectedServer.url)),
+                    };
                 }
                 return await this.fetchEpisodeSources(selectedServer.url, season, episode, server);
             }

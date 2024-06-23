@@ -106,7 +106,9 @@ class Zoro extends models_1.AnimeParser {
                 switch (server) {
                     case models_1.StreamingServers.VidStreaming:
                     case models_1.StreamingServers.VidCloud:
-                        return Object.assign({}, (await new utils_1.MegaCloud().extract(serverUrl)));
+                        return {
+                            ...(await new utils_1.MegaCloud().extract(serverUrl)),
+                        };
                     case models_1.StreamingServers.StreamSB:
                         return {
                             headers: {
@@ -123,7 +125,10 @@ class Zoro extends models_1.AnimeParser {
                         };
                     default:
                     case models_1.StreamingServers.VidCloud:
-                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new utils_1.MegaCloud().extract(serverUrl)));
+                        return {
+                            headers: { Referer: serverUrl.href },
+                            ...(await new utils_1.MegaCloud().extract(serverUrl)),
+                        };
                 }
             }
             if (!episodeId.includes('$episode$'))
