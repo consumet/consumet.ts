@@ -18,7 +18,7 @@ import { StreamTape, VizCloud } from '../../extractors';
 
 class Fmovies extends MovieParser {
   override readonly name = 'Fmovies';
-  protected override baseUrl = 'https://fmovies.to';
+  protected override baseUrl = 'https://fmovies24.to';
   protected override logo = 'https://s1.bunnycdn.ru/assets/sites/fmovies/logo2.png';
   protected override classPath = 'MOVIES.Fmovies';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
