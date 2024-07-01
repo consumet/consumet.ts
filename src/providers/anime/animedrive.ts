@@ -108,8 +108,8 @@ class AnimeDrive extends AnimeParser {
           info.status = MediaStatus.UNKNOWN;
           break;
       }
-      let totalEpisodesWithSlash = $('table.animeSpecs.right td:contains("RÉSZEK:")').next('td').text().trim();
-      let totalEpisodesWithoutSlash = totalEpisodesWithSlash.split('/')[0].trim();
+      const totalEpisodesWithSlash = $('table.animeSpecs.right td:contains("RÉSZEK:")').next('td').text().trim();
+      const totalEpisodesWithoutSlash = totalEpisodesWithSlash.split('/')[0].trim();
       info.totalEpisodes = parseInt(
         totalEpisodesWithoutSlash
       )!;
@@ -192,7 +192,7 @@ class AnimeDrive extends AnimeParser {
       const htmlData = response.data;
 
       const sourcesDataMatch = /sources:\s*\[\s*(.*?)\s*\],?\s*poster:/.exec(htmlData);
-      let sources: watchAnime[] = [];
+      const sources: watchAnime[] = [];
 
       if (sourcesDataMatch) {
         const sourcesData = sourcesDataMatch[1];
