@@ -12,16 +12,16 @@ test('returns a filled array of anime list', async () => {
 });
 
 test('returns a filled object of anime data', async () => {
-  const res = await animedrive.search('Steins;Gate');
+  const res = await animedrive.search('ZOMBIE LAND SAGA');
   const data = await animedrive.fetchAnimeInfo(res.results[0].id);
-  console.log(data);
+  // console.log(data);
   expect(data).not.toBeNull();
   expect(data.description).not.toBeNull();
   expect(data.episodes).not.toEqual([]);
 });
 
 test('returns a filled object of episode sources', async () => {
-  const data = await animedrive.fetchEpisodeSources('?id=366&ep=23');
+  const data = await animedrive.fetchEpisodeSources('?id=974&ep=12');
   // console.log(data);
   expect(data.sources).not.toEqual([]);
 });
