@@ -161,11 +161,12 @@ class Zoro extends AnimeParser {
         const card = $(el);
         const titleElement = card.find('div.desi-head-title');
         const id = card.find('div.desi-buttons .btn-secondary').attr('href')?.match(/\/([^/]+)$/)?.[1] || null;
+        const img = card.find('img.film-poster-img');
         res.results.push({
           id: id!,
           title: titleElement.text(),
           japaneseTitle: titleElement.attr('data-jname'),
-          banner: card.find('deslide-cover-img img').attr('data-src') || null,
+          banner: img.attr('data-src') || img.attr('src') || null,
           rank: parseInt(card.find('.desi-sub-text').text().match(/(\d+)/g)?.[0]!),
           url: `${this.baseUrl}/${id}`,
           type: card.find('div.sc-detail .scd-item:nth-child(1)').text().trim() as MediaFormat,
@@ -177,6 +178,45 @@ class Zoro extends AnimeParser {
           episodes: parseInt(card.find('div.sc-detail div.tick-eps').text()) || 0,
           description: card.find('div.desi-description').text().trim()
         });
+      });
+
+      return res;
+    } catch (error) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  }
+
+  async fetchSearchSuggestions(query: string): Promise<ISearch<IAnimeResult>> {
+    try {
+      const encodedQuery = encodeURIComponent(query);
+      const { data } = await this.client.get(`${this.baseUrl}/ajax/search/suggest?keyword=${encodedQuery}`);
+      const $ = load(data.html);
+      const res: ISearch<IAnimeResult> = {
+        results: [],
+      };
+
+      $('.nav-item').each((i, el) => {
+        const card = $(el);
+        if (!card.hasClass("nav-bottom")) {
+          const image = card.find('.film-poster img').attr('data-src');
+          const title = card.find('.film-name');
+          const id = card.attr('href')?.split('/')[1].split('?')[0];
+
+          const duration = card.find(".film-infor span").last().text().trim();
+          const releaseDate = card.find(".film-infor span:nth-child(1)").text().trim();
+          const type = card.find(".film-infor").find("span, i").remove().end().text().trim();
+          res.results.push({
+            image: image,
+            id: id!,
+            title: title.text(),
+            japaneseTitle: title.attr('data-jname'),
+            aliasTitle: card.find(".alias-name").text(),
+            releaseDate: releaseDate,
+            type: type as MediaFormat,
+            duration: duration,
+            url: `${this.baseUrl}/${id}`,
+          });
+        }
       });
 
       return res;

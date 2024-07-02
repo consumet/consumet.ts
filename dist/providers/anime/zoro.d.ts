@@ -50,6 +50,7 @@ declare class Zoro extends AnimeParser {
        */
     fetchSchedule(date?: string): Promise<ISearch<IAnimeResult>>;
     fetchSpotlight(): Promise<ISearch<IAnimeResult>>;
+    fetchSearchSuggestions(query: string): Promise<ISearch<IAnimeResult>>;
     /**
      * @param id Anime id
      */

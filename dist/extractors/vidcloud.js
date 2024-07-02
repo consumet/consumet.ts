@@ -1,9 +1,6 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const crypto_js_1 = __importDefault(require("crypto-js"));
+const rabbit_1 = require("./rabbit");
 const models_1 = require("../models");
 const utils_1 = require("../utils");
 class VidCloud extends models_1.VideoExtractor {
@@ -11,9 +8,7 @@ class VidCloud extends models_1.VideoExtractor {
         super(...arguments);
         this.serverName = 'VidCloud';
         this.sources = [];
-        this.host = 'https://dokicloud.one';
-        this.host2 = 'https://rabbitstream.net';
-        this.extract = async (videoUrl, isAlternative = false) => {
+        this.extract = async (videoUrl, _) => {
             var _a;
             const result = {
                 sources: [],
@@ -28,15 +23,8 @@ class VidCloud extends models_1.VideoExtractor {
                         'User-Agent': utils_1.USER_AGENT,
                     },
                 };
-                let res = undefined;
-                let sources = undefined;
-                res = await this.client.get(`${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`, options);
-                if (!(0, utils_1.isJson)(res.data.sources)) {
-                    const keys = await (await this.client.get('https://raw.githubusercontent.com/eatmynerds/key/e4/key.txt')).data;
-                    const keyString = btoa(String.fromCharCode.apply(null, Array.from(new Uint8Array(JSON.parse(JSON.stringify(keys))))));
-                    const decryptedVal = crypto_js_1.default.AES.decrypt(res.data.sources, keyString).toString(crypto_js_1.default.enc.Utf8);
-                    sources = (0, utils_1.isJson)(decryptedVal) ? JSON.parse(decryptedVal) : res.data.sources;
-                }
+                const res = await (0, rabbit_1.main)(id);
+                const sources = res.sources;
                 this.sources = sources.map((s) => ({
                     url: s.file,
                     isM3U8: s.file.includes('.m3u8'),
@@ -67,7 +55,7 @@ class VidCloud extends models_1.VideoExtractor {
                     isM3U8: sources[0].file.includes('.m3u8'),
                     quality: 'auto',
                 });
-                result.subtitles = res.data.tracks.map((s) => ({
+                result.subtitles = res.tracks.map((s) => ({
                     url: s.file,
                     lang: s.label ? s.label : 'Default (maybe)',
                 }));

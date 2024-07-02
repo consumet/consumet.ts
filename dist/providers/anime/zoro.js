@@ -7,7 +7,6 @@ const utils_2 = require("../../utils");
 class Zoro extends models_1.AnimeParser {
     constructor(customBaseURL) {
         super(...arguments);
-        // constructor(customBaseURL)
         this.name = 'Zoro';
         this.baseUrl = 'https://hianime.to';
         this.logo = 'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
@@ -107,7 +106,9 @@ class Zoro extends models_1.AnimeParser {
                 switch (server) {
                     case models_1.StreamingServers.VidStreaming:
                     case models_1.StreamingServers.VidCloud:
-                        return Object.assign({}, (await new utils_1.MegaCloud().extract(serverUrl)));
+                        return {
+                            ...(await new utils_1.MegaCloud().extract(serverUrl)),
+                        };
                     case models_1.StreamingServers.StreamSB:
                         return {
                             headers: {
@@ -124,7 +125,10 @@ class Zoro extends models_1.AnimeParser {
                         };
                     default:
                     case models_1.StreamingServers.VidCloud:
-                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new utils_1.MegaCloud().extract(serverUrl)));
+                        return {
+                            headers: { Referer: serverUrl.href },
+                            ...(await new utils_1.MegaCloud().extract(serverUrl)),
+                        };
                 }
             }
             if (!episodeId.includes('$episode$'))
@@ -395,11 +399,12 @@ class Zoro extends models_1.AnimeParser {
                 const card = $(el);
                 const titleElement = card.find('div.desi-head-title');
                 const id = ((_b = (_a = card.find('div.desi-buttons .btn-secondary').attr('href')) === null || _a === void 0 ? void 0 : _a.match(/\/([^/]+)$/)) === null || _b === void 0 ? void 0 : _b[1]) || null;
+                const img = card.find('img.film-poster-img');
                 res.results.push({
                     id: id,
                     title: titleElement.text(),
                     japaneseTitle: titleElement.attr('data-jname'),
-                    banner: card.find('deslide-cover-img img').attr('data-src') || null,
+                    banner: img.attr('data-src') || img.attr('src') || null,
                     rank: parseInt((_c = card.find('.desi-sub-text').text().match(/(\d+)/g)) === null || _c === void 0 ? void 0 : _c[0]),
                     url: `${this.baseUrl}/${id}`,
                     type: card.find('div.sc-detail .scd-item:nth-child(1)').text().trim(),
@@ -411,6 +416,43 @@ class Zoro extends models_1.AnimeParser {
                     episodes: parseInt(card.find('div.sc-detail div.tick-eps').text()) || 0,
                     description: card.find('div.desi-description').text().trim()
                 });
+            });
+            return res;
+        }
+        catch (error) {
+            throw new Error('Something went wrong. Please try again later.');
+        }
+    }
+    async fetchSearchSuggestions(query) {
+        try {
+            const encodedQuery = encodeURIComponent(query);
+            const { data } = await this.client.get(`${this.baseUrl}/ajax/search/suggest?keyword=${encodedQuery}`);
+            const $ = (0, cheerio_1.load)(data.html);
+            const res = {
+                results: [],
+            };
+            $('.nav-item').each((i, el) => {
+                var _a;
+                const card = $(el);
+                if (!card.hasClass("nav-bottom")) {
+                    const image = card.find('.film-poster img').attr('data-src');
+                    const title = card.find('.film-name');
+                    const id = (_a = card.attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
+                    const duration = card.find(".film-infor span").last().text().trim();
+                    const releaseDate = card.find(".film-infor span:nth-child(1)").text().trim();
+                    const type = card.find(".film-infor").find("span, i").remove().end().text().trim();
+                    res.results.push({
+                        image: image,
+                        id: id,
+                        title: title.text(),
+                        japaneseTitle: title.attr('data-jname'),
+                        aliasTitle: card.find(".alias-name").text(),
+                        releaseDate: releaseDate,
+                        type: type,
+                        duration: duration,
+                        url: `${this.baseUrl}/${id}`,
+                    });
+                }
             });
             return res;
         }

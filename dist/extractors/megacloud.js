@@ -35,7 +35,7 @@ class MegaCloud extends models_1.VideoExtractor {
                 throw new Error("Url may have an invalid video id");
             }
             const encryptedString = srcsData.sources;
-            if (srcsData.encrypted && Array.isArray(encryptedString)) {
+            if (!srcsData.encrypted && Array.isArray(encryptedString)) {
                 result.intro = srcsData.intro;
                 result.outro = srcsData.outro;
                 result.subtitles = srcsData.tracks.map((s) => ({
@@ -53,7 +53,7 @@ class MegaCloud extends models_1.VideoExtractor {
             const text = data;
             if (!text)
                 throw new Error("Couldn't fetch script to decrypt resource");
-            const vars = this.extractVariables(text, "MEGACLOUD");
+            const vars = this.extractVariables(text);
             const { secret, encryptedSource } = this.getSecret(encryptedString, vars);
             const decrypted = this.decrypt(encryptedSource, secret);
             try {
@@ -79,64 +79,34 @@ class MegaCloud extends models_1.VideoExtractor {
             throw err;
         }
     }
-    extractVariables(text, sourceName) {
-        var _a, _b, _c, _d;
-        let allvars;
-        if (sourceName !== "MEGACLOUD") {
-            allvars =
-                (_b = (_a = text
-                    .match(/const (?:\w{1,2}=(?:'.{0,50}?'|\w{1,2}\(.{0,20}?\)).{0,20}?,){7}.+?;/gm)) === null || _a === void 0 ? void 0 : _a.at(-1)) !== null && _b !== void 0 ? _b : "";
-        }
-        else {
-            allvars =
-                (_d = (_c = text
-                    .match(/\w{1,2}=new URLSearchParams.+?;(?=function)/gm)) === null || _c === void 0 ? void 0 : _c.at(1)) !== null && _d !== void 0 ? _d : "";
-        }
-        const vars = allvars
-            .slice(0, -1)
-            .split("=")
-            .slice(1)
-            .map((pair) => Number(pair.split(",").at(0)))
-            .filter((num) => num === 0 || num);
+    extractVariables(text) {
+        // copied from github issue #30 'https://github.com/ghoshRitesh12/aniwatch-api/issues/30'
+        const regex = /case\s*0x[0-9a-f]+:(?![^;]*=partKey)\s*\w+\s*=\s*(\w+)\s*,\s*\w+\s*=\s*(\w+);/g;
+        const matches = text.matchAll(regex);
+        const vars = Array.from(matches, (match) => {
+            const matchKey1 = this.matchingKey(match[1], text);
+            const matchKey2 = this.matchingKey(match[2], text);
+            try {
+                return [parseInt(matchKey1, 16), parseInt(matchKey2, 16)];
+            }
+            catch (e) {
+                return [];
+            }
+        }).filter((pair) => pair.length > 0);
         return vars;
     }
     getSecret(encryptedString, values) {
-        let secret = "", encryptedSource = encryptedString, totalInc = 0;
-        for (let i = 0; i < values[0]; i++) {
-            let start, inc;
-            switch (i) {
-                case 0:
-                    (start = values[2]), (inc = values[1]);
-                    break;
-                case 1:
-                    (start = values[4]), (inc = values[3]);
-                    break;
-                case 2:
-                    (start = values[6]), (inc = values[5]);
-                    break;
-                case 3:
-                    (start = values[8]), (inc = values[7]);
-                    break;
-                case 4:
-                    (start = values[10]), (inc = values[9]);
-                    break;
-                case 5:
-                    (start = values[12]), (inc = values[11]);
-                    break;
-                case 6:
-                    (start = values[14]), (inc = values[13]);
-                    break;
-                case 7:
-                    (start = values[16]), (inc = values[15]);
-                    break;
-                case 8:
-                    (start = values[18]), (inc = values[17]);
+        let secret = "", encryptedSource = "", encryptedSourceArray = encryptedString.split(""), currentIndex = 0;
+        for (const index of values) {
+            const start = index[0] + currentIndex;
+            const end = start + index[1];
+            for (let i = start; i < end; i++) {
+                secret += encryptedString[i];
+                encryptedSourceArray[i] = "";
             }
-            const from = start + totalInc, to = from + inc;
-            (secret += encryptedString.slice(from, to)),
-                (encryptedSource = encryptedSource.replace(encryptedString.substring(from, to), "")),
-                (totalInc += inc);
+            currentIndex += index[1];
         }
+        encryptedSource = encryptedSourceArray.join("");
         return { secret, encryptedSource };
     }
     decrypt(encrypted, keyOrSecret, maybe_iv) {
@@ -149,6 +119,7 @@ class MegaCloud extends models_1.VideoExtractor {
             contents = encrypted;
         }
         else {
+            // copied from 'https://github.com/brix/crypto-js/issues/468'
             const cypher = Buffer.from(encrypted, "base64");
             const salt = cypher.subarray(8, 16);
             const password = Buffer.concat([
@@ -168,6 +139,17 @@ class MegaCloud extends models_1.VideoExtractor {
         const decipher = crypto_1.default.createDecipheriv("aes-256-cbc", key, iv);
         const decrypted = decipher.update(contents, typeof contents === "string" ? "base64" : undefined, "utf8") + decipher.final();
         return decrypted;
+    }
+    // function copied from github issue #30 'https://github.com/ghoshRitesh12/aniwatch-api/issues/30'
+    matchingKey(value, script) {
+        const regex = new RegExp(`,${value}=((?:0x)?([0-9a-fA-F]+))`);
+        const match = script.match(regex);
+        if (match) {
+            return match[1].replace(/^0x/, "");
+        }
+        else {
+            throw new Error("Failed to match the key");
+        }
     }
 }
 exports.default = MegaCloud;

@@ -3,7 +3,7 @@ import { ANIME } from '../../src/providers';
 
 jest.setTimeout(120000);
 
-const gogoanime = new ANIME.Gogoanime("anitaku.to");
+const gogoanime = new ANIME.Gogoanime();
 
 test('returns a filled array of anime list', async () => {
   const data = await gogoanime.search('spy x family');
