@@ -5,8 +5,8 @@ declare class MegaCloud extends VideoExtractor {
     extract(videoUrl: URL): Promise<{
         sources: IVideo[];
         subtitles: ISubtitle[];
-        intro?: Intro | undefined;
-        outro?: Intro | undefined;
+        intro?: Intro;
+        outro?: Intro;
     }>;
     extractVariables(text: string): number[][];
     getSecret(encryptedString: string, values: number[][]): {
