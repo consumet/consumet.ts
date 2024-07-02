@@ -10,6 +10,7 @@ import AsuraScans from './asurascans';
 import FlameScans from './flamescans';
 import MangaHost from './mangahost';
 import BRMangas from './brmangas';
+import ReadManga from './readmanga';
 declare const _default: {
     MangaDex: typeof MangaDex;
     ComicK: typeof ComicK;
@@ -23,5 +24,6 @@ declare const _default: {
     FlameScans: typeof FlameScans;
     MangaHost: typeof MangaHost;
     BRMangas: typeof BRMangas;
+    ReadManga: typeof ReadManga;
 };
 export default _default;

@@ -1684,7 +1684,7 @@ Anilist.Manga = class Manga {
                 query: (0, utils_1.anilistSearchQuery)(query, page, perPage, 'MANGA'),
             };
             try {
-                const { data } = await axios_1.default.post(new Anilist().anilistGraphqlUrl, options);
+                const { data } = await axios_1.default.post(new _a().anilistGraphqlUrl, options);
                 const res = {
                     currentPage: data.data.Page.pageInfo.currentPage,
                     hasNextPage: data.data.Page.pageInfo.hasNextPage,
@@ -1755,7 +1755,7 @@ Anilist.Manga = class Manga {
                 query: (0, utils_1.anilistMediaDetailQuery)(id),
             };
             try {
-                const { data } = await axios_1.default.post(new Anilist().anilistGraphqlUrl, options).catch(err => {
+                const { data } = await axios_1.default.post(new _a().anilistGraphqlUrl, options).catch(err => {
                     throw new Error('Media not found');
                 });
                 mangaInfo.malId = data.data.Media.idMal;
@@ -1895,7 +1895,7 @@ Anilist.Manga = class Manga {
                         rating: item.node.meanScore,
                     });
                 });
-                mangaInfo.chapters = await new Anilist().findManga(this.provider, {
+                mangaInfo.chapters = await new _a().findManga(this.provider, {
                     english: mangaInfo.title.english,
                     romaji: mangaInfo.title.romaji,
                 }, mangaInfo.malId);

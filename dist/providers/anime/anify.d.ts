@@ -29,7 +29,7 @@ declare class Anify extends AnimeParser {
     /**
      * @param id anilist id
      */
-    fetchAnimeInfoByAnilistId: (id: string, providerId?: '9anime' | 'animepahe' | 'zoro' | 'gogoanime') => Promise<IAnimeInfo>;
+    fetchAnimeInfoByAnilistId: (id: string, providerId?: "9anime" | "animepahe" | "zoro" | "gogoanime") => Promise<IAnimeInfo>;
     fetchEpisodeSources: (episodeId: string, episodeNumber: number, id: number) => Promise<ISource>;
     /**
      * @deprecated
