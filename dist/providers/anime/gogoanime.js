@@ -36,7 +36,7 @@ class Gogoanime extends models_1.AnimeParser {
                         url: `${this.baseUrl}/${$(el).find('p.name > a').attr('href')}`,
                         image: $(el).find('div > a > img').attr('src'),
                         releaseDate: $(el).find('p.released').text().trim(),
-                        subOrDub: $(el).find('p.name > a').text().toLowerCase().includes('dub')
+                        subOrDub: $(el).find('p.name > a').text().toLowerCase().includes('(dub)')
                             ? models_1.SubOrSub.DUB
                             : models_1.SubOrSub.SUB,
                     });
