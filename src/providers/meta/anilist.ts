@@ -44,7 +44,7 @@ import Mangasee123 from '../manga/mangasee123';
 import Crunchyroll from '../anime/crunchyroll';
 import Bilibili from '../anime/bilibili';
 import NineAnime from '../anime/9anime';
-import { compareTwoStrings, getHashFromImage } from '../../utils/utils';
+import { ANIFY_URL, compareTwoStrings, getHashFromImage } from '../../utils/utils';
 
 class Anilist extends AnimeParser {
   override readonly name = 'Anilist';
@@ -55,7 +55,7 @@ class Anilist extends AnimeParser {
   private readonly anilistGraphqlUrl = 'https://graphql.anilist.co';
   private readonly kitsuGraphqlUrl = 'https://kitsu.io/api/graphql';
   private readonly malSyncUrl = 'https://api.malsync.moe';
-  private readonly anifyUrl = 'https://anify.eltik.cc';
+  private readonly anifyUrl = ANIFY_URL;
   provider: AnimeParser;
 
   /**
