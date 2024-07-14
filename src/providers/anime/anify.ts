@@ -12,12 +12,13 @@ import {
 } from '../../models';
 import { AxiosAdapter } from 'axios';
 import { ProxyConfig } from '../../models';
+import { ANIFY_URL } from '../../utils/utils';
 
 type ProviderId = '9anime' | 'animepahe' | 'zoro' | 'gogoanime';
 
 class Anify extends AnimeParser {
   override readonly name = 'Anify';
-  protected override baseUrl = 'https://anify.eltik.cc';
+  protected override baseUrl = ANIFY_URL;
   protected override classPath = 'ANIME.Anify';
 
   private readonly actions: {
