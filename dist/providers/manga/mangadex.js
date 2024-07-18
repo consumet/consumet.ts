@@ -127,6 +127,9 @@ class MangaDex extends models_1.MangaParser {
                         currentPage: 1,
                         results: [],
                     };
+                    const findCoverArt = res.data.data.relationships.find((item) => item.type === 'cover_art');
+                    const coverArtId = findCoverArt ? findCoverArt.id : null;
+                    const coverArt = await this.fetchCoverImage(coverArtId === null || coverArtId === void 0 ? void 0 : coverArtId);
                     results.results.push({
                         id: res.data.data.id,
                         title: Object.values(res.data.data.attributes.title)[0],
@@ -137,6 +140,7 @@ class MangaDex extends models_1.MangaParser {
                         contentRating: res.data.data.attributes.contentRating,
                         lastVolume: res.data.data.attributes.lastVolume,
                         lastChapter: res.data.data.attributes.lastChapter,
+                        image: `${this.baseUrl}/covers/${res.data.data.id}/${coverArt}`
                     });
                     return results;
                 }
@@ -163,6 +167,9 @@ class MangaDex extends models_1.MangaParser {
                         results: [],
                     };
                     for (const manga of res.data.data) {
+                        const findCoverArt = manga.relationships.find((item) => item.type === 'cover_art');
+                        const coverArtId = findCoverArt ? findCoverArt.id : null;
+                        const coverArt = await this.fetchCoverImage(coverArtId === null || coverArtId === void 0 ? void 0 : coverArtId);
                         results.results.push({
                             id: manga.id,
                             title: Object.values(manga.attributes.title)[0],
@@ -173,6 +180,7 @@ class MangaDex extends models_1.MangaParser {
                             contentRating: manga.attributes.contentRating,
                             lastVolume: manga.attributes.lastVolume,
                             lastChapter: manga.attributes.lastChapter,
+                            image: `${this.baseUrl}/covers/${manga.id}/${coverArt}`
                         });
                     }
                     return results;
@@ -200,6 +208,9 @@ class MangaDex extends models_1.MangaParser {
                         results: [],
                     };
                     for (const manga of res.data.data) {
+                        const findCoverArt = manga.relationships.find((item) => item.type === 'cover_art');
+                        const coverArtId = findCoverArt ? findCoverArt.id : null;
+                        const coverArt = await this.fetchCoverImage(coverArtId === null || coverArtId === void 0 ? void 0 : coverArtId);
                         results.results.push({
                             id: manga.id,
                             title: Object.values(manga.attributes.title)[0],
@@ -210,6 +221,7 @@ class MangaDex extends models_1.MangaParser {
                             contentRating: manga.attributes.contentRating,
                             lastVolume: manga.attributes.lastVolume,
                             lastChapter: manga.attributes.lastChapter,
+                            image: `${this.baseUrl}/covers/${manga.id}/${coverArt}`
                         });
                     }
                     return results;
@@ -237,6 +249,9 @@ class MangaDex extends models_1.MangaParser {
                         results: [],
                     };
                     for (const manga of res.data.data) {
+                        const findCoverArt = manga.relationships.find((item) => item.type === 'cover_art');
+                        const coverArtId = findCoverArt ? findCoverArt.id : null;
+                        const coverArt = await this.fetchCoverImage(coverArtId === null || coverArtId === void 0 ? void 0 : coverArtId);
                         results.results.push({
                             id: manga.id,
                             title: Object.values(manga.attributes.title)[0],
@@ -247,6 +262,7 @@ class MangaDex extends models_1.MangaParser {
                             contentRating: manga.attributes.contentRating,
                             lastVolume: manga.attributes.lastVolume,
                             lastChapter: manga.attributes.lastChapter,
+                            image: `${this.baseUrl}/covers/${manga.id}/${coverArt}`
                         });
                     }
                     return results;
