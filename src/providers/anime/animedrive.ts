@@ -194,7 +194,7 @@ class AnimeDrive extends AnimeParser {
       const htmlData = response.data;
 
       const sourcesDataMatch = /sources:\s*\[\s*(.*?)\s*\],?\s*poster:/.exec(htmlData);
-      let sources: WatchAnime[] = []; 
+      const sources: WatchAnime[] = []; 
 
       if (sourcesDataMatch) {
         const sourcesData = sourcesDataMatch[1];
