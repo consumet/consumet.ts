@@ -35,7 +35,8 @@ output:
           id: '1031',
           title: 'Yofukashi no Uta',
           image: 'https://animedrive.hu/cover/1031.webp',
-          url: 'https://animedrive.hu/anime/?id=1031'
+          url: 'https://animedrive.hu/anime/?id=1031',
+          subOrDub: 'sub'
         }
         {...},
         ...
@@ -106,23 +107,28 @@ output:
       sources: [
         {
           url: 'https://hugh.cdn.rumble.cloud/video/s8/2/p/A/k/5/pAk5o.oaa.mp4',
-          quality: '240p'
+          quality: '240p',
+          isM3U8: false
         },
         {
           url: 'https://hugh.cdn.rumble.cloud/video/s8/2/p/A/k/5/pAk5o.baa.mp4',
-          quality: '360p'
+          quality: '360p',
+          isM3U8: false
         },
         {
           url: 'https://hugh.cdn.rumble.cloud/video/s8/2/p/A/k/5/pAk5o.caa.mp4',
-          quality: '480p'
+          quality: '480p',
+          isM3U8: false
         },
         {
           url: 'https://hugh.cdn.rumble.cloud/video/s8/2/p/A/k/5/pAk5o.gaa.mp4',
-          quality: '720p'
+          quality: '720p',
+          isM3U8: false
         },
         {
           url: 'https://hugh.cdn.rumble.cloud/video/s8/2/p/A/k/5/pAk5o.haa.mp4',
-          quality: '1080p'
+          quality: '1080p',
+          isM3U8: false
         }
     ]
 }
