@@ -20,7 +20,7 @@ import { GogoCDN, StreamSB, StreamWish } from '../../extractors';
 
 class Gogoanime extends AnimeParser {
   override readonly name = 'Gogoanime';
-  protected override baseUrl = 'https://anitaku.so';
+  protected override baseUrl = 'https://anitaku.pe';
   protected override logo =
     'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
   protected override classPath = 'ANIME.Gogoanime';
@@ -188,7 +188,8 @@ class Gogoanime extends AnimeParser {
    */
   override fetchEpisodeSources = async (
     episodeId: string,
-    server: StreamingServers = StreamingServers.VidStreaming
+    server: StreamingServers = StreamingServers.VidStreaming,
+    downloadUrl: string|undefined = undefined
   ): Promise<ISource> => {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
@@ -197,7 +198,7 @@ class Gogoanime extends AnimeParser {
           return {
             headers: { Referer: serverUrl.href },
             sources: await new GogoCDN(this.proxyConfig, this.adapter).extract(serverUrl),
-            download: `https://${serverUrl.host}/download${serverUrl.search}`,
+            download: downloadUrl ? downloadUrl : `https://${serverUrl.host}/download${serverUrl.search}`,
           };
         case StreamingServers.StreamSB:
           return {
@@ -207,7 +208,7 @@ class Gogoanime extends AnimeParser {
               'User-Agent': USER_AGENT,
             },
             sources: await new StreamSB(this.proxyConfig, this.adapter).extract(serverUrl),
-            download: `https://${serverUrl.host}/download${serverUrl.search}`,
+            download: downloadUrl ? downloadUrl : `https://${serverUrl.host}/download${serverUrl.search}`,
           };
         case StreamingServers.StreamWish:
           return {
@@ -215,13 +216,13 @@ class Gogoanime extends AnimeParser {
               Referer: serverUrl.href,
             },
             sources: await new StreamWish(this.proxyConfig, this.adapter).extract(serverUrl),
-            download: `https://${serverUrl.host}/download${serverUrl.search}`,
+            download: downloadUrl ? downloadUrl : `https://${serverUrl.host}/download${serverUrl.search}`,
           };
         default:
           return {
             headers: { Referer: serverUrl.href },
             sources: await new GogoCDN(this.proxyConfig, this.adapter).extract(serverUrl),
-            download: `https://${serverUrl.host}/download${serverUrl.search}`,
+            download: downloadUrl ? downloadUrl : `https://${serverUrl.host}/download${serverUrl.search}`,
           };
       }
     }
@@ -257,7 +258,11 @@ class Gogoanime extends AnimeParser {
           break;
       }
 
-      return await this.fetchEpisodeSources(serverUrl.href, server);
+      const downloadLink = `${$('.dowloads > a').attr('href')}`;
+
+      return downloadLink ?
+      await this.fetchEpisodeSources(serverUrl.href, server, downloadLink)
+      : await this.fetchEpisodeSources(serverUrl.href, server);
     } catch (err) {
       console.log(err);
       throw new Error('Episode not found.');
