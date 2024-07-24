@@ -19,7 +19,7 @@ class AnimeUnity extends models_1.AnimeParser {
                 const $ = (0, cheerio_1.load)(res.data);
                 if (!$)
                     return { results: [] };
-                const items = JSON.parse("" + $('archivio').attr('records') + "");
+                const items = JSON.parse('' + $('archivio').attr('records') + '');
                 const searchResult = {
                     hasNextPage: false,
                     results: [],
@@ -31,9 +31,7 @@ class AnimeUnity extends models_1.AnimeParser {
                         url: `${this.baseUrl}/anime/${items[i].id}-${items[i].slug}`,
                         image: `${items[i].imageurl}`,
                         cover: `${items[i].imageurl_cover}`,
-                        subOrDub: `${items[i].dub
-                            ? models_1.SubOrSub.DUB
-                            : models_1.SubOrSub.SUB}`
+                        subOrDub: `${items[i].dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB}`,
                     });
                 }
                 return searchResult;
@@ -76,7 +74,7 @@ class AnimeUnity extends models_1.AnimeParser {
                     // image: $('meta[property="og:image"]')?.attr('content'),
                     cover: (_m = (_l = $('.banner')) === null || _l === void 0 ? void 0 : _l.attr('src')) !== null && _m !== void 0 ? _m : (_p = (_o = $('.banner')) === null || _o === void 0 ? void 0 : _o.attr('style')) === null || _p === void 0 ? void 0 : _p.replace('background: url(', ''),
                     description: $('.description').text().trim(),
-                    episodes: []
+                    episodes: [],
                 };
                 // fetch episodes method 1 (only first page can be fetchedd)
                 // const items = JSON.parse("" + $('video-player').attr('episodes') + "")
@@ -106,15 +104,18 @@ class AnimeUnity extends models_1.AnimeParser {
                 const res = await this.client.get(`${this.baseUrl}/anime/${episodeId}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 const episodeSources = {
-                    sources: []
+                    sources: [],
                 };
                 const streamUrl = $('video-player').attr('embed_url');
                 if (streamUrl) {
                     const res = await this.client.get(streamUrl);
                     const $ = (0, cheerio_1.load)(res.data);
-                    const domain = (_a = $('script:contains("window.video")').text()) === null || _a === void 0 ? void 0 : _a.match(/url: '(.*)'/)[1];
-                    const token = (_b = $('script:contains("window.video")').text()) === null || _b === void 0 ? void 0 : _b.match(/token': '(.*)'/)[1];
-                    const expires = (_c = $('script:contains("window.video")').text()) === null || _c === void 0 ? void 0 : _c.match(/expires': '(.*)'/)[1];
+                    const domain = (_a = $('script:contains("window.video")')
+                        .text()) === null || _a === void 0 ? void 0 : _a.match(/url: '(.*)'/)[1];
+                    const token = (_b = $('script:contains("window.video")')
+                        .text()) === null || _b === void 0 ? void 0 : _b.match(/token': '(.*)'/)[1];
+                    const expires = (_c = $('script:contains("window.video")')
+                        .text()) === null || _c === void 0 ? void 0 : _c.match(/expires': '(.*)'/)[1];
                     const defaultUrl = `${domain}?token=${token}&referer=&expires=${expires}&h=1`;
                     const m3u8Content = await this.client.get(defaultUrl);
                     if (m3u8Content.data.includes('EXTM3U')) {
@@ -136,7 +137,8 @@ class AnimeUnity extends models_1.AnimeParser {
                         quality: `default`,
                         isM3U8: true,
                     });
-                    episodeSources.download = (_e = (_d = $('script:contains("window.downloadUrl ")').text()) === null || _d === void 0 ? void 0 : _d.match(/downloadUrl = '(.*)'/)[1]) === null || _e === void 0 ? void 0 : _e.toString();
+                    episodeSources.download = (_e = (_d = $('script:contains("window.downloadUrl ")')
+                        .text()) === null || _d === void 0 ? void 0 : _d.match(/downloadUrl = '(.*)'/)[1]) === null || _e === void 0 ? void 0 : _e.toString();
                 }
                 return episodeSources;
             }

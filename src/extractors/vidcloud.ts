@@ -1,4 +1,4 @@
-import { main } from './rabbit'
+import { main } from './rabbit';
 import { VideoExtractor, IVideo, ISubtitle, Intro } from '../models';
 import { USER_AGENT } from '../utils';
 
@@ -6,10 +6,9 @@ class VidCloud extends VideoExtractor {
   protected override serverName = 'VidCloud';
   protected override sources: IVideo[] = [];
 
-
   override extract = async (
     videoUrl: URL,
-    _?: boolean,
+    _?: boolean
   ): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
     const result: { sources: IVideo[]; subtitles: ISubtitle[]; intro?: Intro } = {
       sources: [],

@@ -25,8 +25,8 @@ class DramaCool extends models_1.MovieParser {
                 searchResult.hasNextPage =
                     $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('selected') : false;
                 const lastPage = $(navSelector).children().last().find('a').attr('href');
-                if (lastPage != undefined && lastPage != "" && lastPage.includes("page=")) {
-                    const maxPage = new URLSearchParams(lastPage).get("page");
+                if (lastPage != undefined && lastPage != '' && lastPage.includes('page=')) {
+                    const maxPage = new URLSearchParams(lastPage).get('page');
                     if (maxPage != null && !isNaN(parseInt(maxPage)))
                         searchResult.totalPages = parseInt(maxPage);
                     else if (searchResult.hasNextPage)
@@ -62,8 +62,8 @@ class DramaCool extends models_1.MovieParser {
                 const $ = (0, cheerio_1.load)(data);
                 mediaInfo.id = realMediaId;
                 const duration = $('div.details div.info p:contains("Duration:")').first().text().trim();
-                if (duration != "")
-                    mediaInfo.duration = duration.replace("Duration:", "").trim();
+                if (duration != '')
+                    mediaInfo.duration = duration.replace('Duration:', '').trim();
                 const status = $('div.details div.info p:contains("Status:")').find('a').first().text().trim();
                 switch (status) {
                     case 'Ongoing':
@@ -79,7 +79,9 @@ class DramaCool extends models_1.MovieParser {
                 mediaInfo.genres = [];
                 const genres = $('div.details div.info p:contains("Genre:")');
                 genres.each((_index, element) => {
-                    $(element).find('a').each((_, anchorElement) => {
+                    $(element)
+                        .find('a')
+                        .each((_, anchorElement) => {
                         var _a;
                         (_a = mediaInfo.genres) === null || _a === void 0 ? void 0 : _a.push($(anchorElement).text());
                     });

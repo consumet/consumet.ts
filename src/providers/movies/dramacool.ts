@@ -43,15 +43,11 @@ class DramaCool extends MovieParser {
         $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('selected') : false;
 
       const lastPage = $(navSelector).children().last().find('a').attr('href');
-      if ( lastPage != undefined && lastPage != "" && lastPage.includes("page=") ) 
-      {
-          const maxPage = new URLSearchParams(lastPage).get("page");
-          if (maxPage != null && !isNaN(parseInt(maxPage)))
-              searchResult.totalPages = parseInt(maxPage);   
-          else if (searchResult.hasNextPage) 
-              searchResult.totalPages = page + 1;                 
-      }else if (searchResult.hasNextPage)                 
-          searchResult.totalPages = page + 1;       
+      if (lastPage != undefined && lastPage != '' && lastPage.includes('page=')) {
+        const maxPage = new URLSearchParams(lastPage).get('page');
+        if (maxPage != null && !isNaN(parseInt(maxPage))) searchResult.totalPages = parseInt(maxPage);
+        else if (searchResult.hasNextPage) searchResult.totalPages = page + 1;
+      } else if (searchResult.hasNextPage) searchResult.totalPages = page + 1;
 
       $('div.block > div.tab-content > ul.list-episode-item > li').each((i, el) => {
         searchResult.results.push({
@@ -80,28 +76,29 @@ class DramaCool extends MovieParser {
       const { data } = await this.client.get(mediaId);
       const $ = load(data);
 
-      mediaInfo.id = realMediaId;     
+      mediaInfo.id = realMediaId;
 
-      const duration = $('div.details div.info p:contains("Duration:")').first().text().trim(); 
-      if ( duration != "" ) 
-        mediaInfo.duration = duration.replace("Duration:", "").trim();   
+      const duration = $('div.details div.info p:contains("Duration:")').first().text().trim();
+      if (duration != '') mediaInfo.duration = duration.replace('Duration:', '').trim();
       const status = $('div.details div.info p:contains("Status:")').find('a').first().text().trim();
       switch (status) {
-          case 'Ongoing':
-              mediaInfo.status = MediaStatus.ONGOING;
-              break;
-          case 'Completed':
-              mediaInfo.status = MediaStatus.COMPLETED;
-              break;
-          default:
-              mediaInfo.status = MediaStatus.UNKNOWN;
-              break;
-      }     
+        case 'Ongoing':
+          mediaInfo.status = MediaStatus.ONGOING;
+          break;
+        case 'Completed':
+          mediaInfo.status = MediaStatus.COMPLETED;
+          break;
+        default:
+          mediaInfo.status = MediaStatus.UNKNOWN;
+          break;
+      }
       mediaInfo.genres = [];
       const genres = $('div.details div.info p:contains("Genre:")');
       genres.each((_index, element) => {
-          $(element).find('a').each((_, anchorElement) => {
-              mediaInfo.genres?.push($(anchorElement).text());
+        $(element)
+          .find('a')
+          .each((_, anchorElement) => {
+            mediaInfo.genres?.push($(anchorElement).text());
           });
       });
 

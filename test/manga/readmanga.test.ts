@@ -7,8 +7,8 @@ jest.setTimeout(120000);
 const readManga = new MANGA.ReadManga();
 
 test('Search: returns a filled array of manga.', async () => {
-    const data = await readManga.search('another');
-    expect(data.results).not.toEqual([]);
+  const data = await readManga.search('another');
+  expect(data.results).not.toEqual([]);
 });
 
 test('fetchMangaInfo: returns filled manga info when given a mangaId.', async () => {

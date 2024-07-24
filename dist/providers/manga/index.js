@@ -29,6 +29,6 @@ exports.default = {
     FlameScans: flamescans_1.default,
     MangaHost: mangahost_1.default,
     BRMangas: brmangas_1.default,
-    ReadManga: readmanga_1.default
+    ReadManga: readmanga_1.default,
 };
 //# sourceMappingURL=index.js.map

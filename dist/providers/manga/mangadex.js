@@ -103,7 +103,7 @@ class MangaDex extends models_1.MangaParser {
                             contentRating: manga.attributes.contentRating,
                             lastVolume: manga.attributes.lastVolume,
                             lastChapter: manga.attributes.lastChapter,
-                            image: `${this.baseUrl}/covers/${manga.id}/${coverArt}`
+                            image: `${this.baseUrl}/covers/${manga.id}/${coverArt}`,
                         });
                     }
                     return results;
@@ -140,7 +140,7 @@ class MangaDex extends models_1.MangaParser {
                         contentRating: res.data.data.attributes.contentRating,
                         lastVolume: res.data.data.attributes.lastVolume,
                         lastChapter: res.data.data.attributes.lastChapter,
-                        image: `${this.baseUrl}/covers/${res.data.data.id}/${coverArt}`
+                        image: `${this.baseUrl}/covers/${res.data.data.id}/${coverArt}`,
                     });
                     return results;
                 }
@@ -180,7 +180,7 @@ class MangaDex extends models_1.MangaParser {
                             contentRating: manga.attributes.contentRating,
                             lastVolume: manga.attributes.lastVolume,
                             lastChapter: manga.attributes.lastChapter,
-                            image: `${this.baseUrl}/covers/${manga.id}/${coverArt}`
+                            image: `${this.baseUrl}/covers/${manga.id}/${coverArt}`,
                         });
                     }
                     return results;
@@ -221,7 +221,7 @@ class MangaDex extends models_1.MangaParser {
                             contentRating: manga.attributes.contentRating,
                             lastVolume: manga.attributes.lastVolume,
                             lastChapter: manga.attributes.lastChapter,
-                            image: `${this.baseUrl}/covers/${manga.id}/${coverArt}`
+                            image: `${this.baseUrl}/covers/${manga.id}/${coverArt}`,
                         });
                     }
                     return results;
@@ -262,7 +262,7 @@ class MangaDex extends models_1.MangaParser {
                             contentRating: manga.attributes.contentRating,
                             lastVolume: manga.attributes.lastVolume,
                             lastChapter: manga.attributes.lastChapter,
-                            image: `${this.baseUrl}/covers/${manga.id}/${coverArt}`
+                            image: `${this.baseUrl}/covers/${manga.id}/${coverArt}`,
                         });
                     }
                     return results;

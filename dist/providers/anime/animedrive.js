@@ -23,9 +23,13 @@ class AnimeDrive extends models_1.AnimeParser {
                 const $ = (0, cheerio_1.load)(data);
                 const hasNextPage = $('.nk-pagination.nk-pagination-center > nav > a.nk-pagination-current-white').next('a').length > 0;
                 const searchResults = [];
-                $('div.row.row--grid .card').slice(1).each((i, el) => {
+                $('div.row.row--grid .card')
+                    .slice(1)
+                    .each((i, el) => {
                     var _a;
-                    const id = (_a = $(el).find('div.card__content > h3.card__title > a').attr('href')) === null || _a === void 0 ? void 0 : _a.replace('https://animedrive.hu/anime/?id=', '');
+                    const id = (_a = $(el)
+                        .find('div.card__content > h3.card__title > a')
+                        .attr('href')) === null || _a === void 0 ? void 0 : _a.replace('https://animedrive.hu/anime/?id=', '');
                     const title = $(el).find('div.card__content > h3.card__title > a').text();
                     const image = $(el).find('div.card__cover > div.nk-image-box-1-a > img').attr('src');
                     const url = $(el).find('div.card__content > h3.card__title > a').attr('href');
@@ -63,7 +67,10 @@ class AnimeDrive extends models_1.AnimeParser {
                 info.releaseYear = $('table.animeSpecs.left td:contains("KIADÁS:")').next('td').text().trim();
                 const statusText = $('table.animeSpecs.left td:contains("STÁTUSZ:")').next('td').text().trim();
                 info.status = this.parseStatus(statusText);
-                const totalEpisodesWithSlash = $('table.animeSpecs.right td:contains("RÉSZEK:")').next('td').text().trim();
+                const totalEpisodesWithSlash = $('table.animeSpecs.right td:contains("RÉSZEK:")')
+                    .next('td')
+                    .text()
+                    .trim();
                 const totalEpisodesWithoutSlash = totalEpisodesWithSlash.split('/')[0].trim();
                 info.totalEpisodes = parseInt(totalEpisodesWithoutSlash);
                 info.url = `${this.baseUrl}/anime/?id=${id}`;
@@ -120,10 +127,10 @@ class AnimeDrive extends models_1.AnimeParser {
          */
         this.fetchEpisodeSources = async (episodeId) => {
             const headers = {
-                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+                Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
                 'Accept-Language': 'en-US,en;q=0.9',
-                'Dnt': '1',
-                'Referer': 'https://animedrive.hu/',
+                Dnt: '1',
+                Referer: 'https://animedrive.hu/',
                 'Sec-Ch-Ua': '"Not(A:Brand";v="24", "Chromium";v="122"',
                 'Sec-Ch-Ua-Mobile': '?0',
                 'Sec-Ch-Ua-Platform': '"Windows"',
@@ -131,7 +138,7 @@ class AnimeDrive extends models_1.AnimeParser {
                 'Sec-Fetch-Mode': 'navigate',
                 'Sec-Fetch-Site': 'same-site',
                 'Upgrade-Insecure-Requests': '1',
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
             };
             try {
                 const response = await axios_1.default.get(`https://player.animedrive.hu/player_v1.5.php${episodeId}`, { headers });
@@ -151,7 +158,11 @@ class AnimeDrive extends models_1.AnimeParser {
                         sources.push({ url: url, quality: quality, isM3U8: isM3U8 });
                     }
                 }
-                const convertedSources = sources.map(wa => ({ url: wa.url, quality: wa.quality, isM3U8: wa.isM3U8 }));
+                const convertedSources = sources.map(wa => ({
+                    url: wa.url,
+                    quality: wa.quality,
+                    isM3U8: wa.isM3U8,
+                }));
                 return { sources: convertedSources }; // Ensure sources matches ISource's definition
             }
             catch (err) {

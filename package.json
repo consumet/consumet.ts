@@ -8,7 +8,7 @@
     "build": "rimraf dist && tsc -p tsconfig.json",
     "version": "auto-changelog -p && git add CHANGELOG.md",
     "lint": "prettier --write .",
-    "prepare": "husky install",
+    "prepare": "husky || true",
     "test": "jest",
     "test:anime": "jest ./test/anime",
     "test:anime:gogoanime": "jest ./test/anime/gogoanime.test.ts",
@@ -58,8 +58,7 @@
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.12",
     "crypto-js": "^4.1.1",
-    "form-data": "^4.0.0",
-    "husky": "^9.0.11"
+    "form-data": "^4.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.3",
