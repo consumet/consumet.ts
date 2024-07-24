@@ -101,20 +101,26 @@ class MangaDex extends MangaParser {
           currentPage: page,
           results: [],
         };
-
+        
         for (const manga of res.data.data) {
+
+          const findCoverArt = manga.relationships.find((item: any) => item.type === 'cover_art');
+          const coverArtId = findCoverArt ? findCoverArt.id : null;
+          const coverArt = await this.fetchCoverImage(coverArtId === null || coverArtId === void 0 ? void 0 : coverArtId);
+
           results.results.push({
-            id: manga.id,
-            title: Object.values(manga.attributes.title)[0] as string,
-            altTitles: manga.attributes.altTitles,
-            description: Object.values(manga.attributes.description)[0] as string,
-            status: manga.attributes.status,
-            releaseDate: manga.attributes.year,
-            contentRating: manga.attributes.contentRating,
-            lastVolume: manga.attributes.lastVolume,
-            lastChapter: manga.attributes.lastChapter,
+              id: manga.id,
+              title: Object.values(manga.attributes.title)[0] as string,
+              altTitles: manga.attributes.altTitles,
+              description: Object.values(manga.attributes.description)[0] as string,
+              status: manga.attributes.status,
+              releaseDate: manga.attributes.year,
+              contentRating: manga.attributes.contentRating,
+              lastVolume: manga.attributes.lastVolume,
+              lastChapter: manga.attributes.lastChapter,
+              image: `${this.baseUrl}/covers/${manga.id}/${coverArt}`
           });
-        }
+      }
 
         return results;
       } else {
@@ -140,6 +146,9 @@ class MangaDex extends MangaParser {
           currentPage: 1,
           results: [],
         };
+          const findCoverArt = res.data.data.relationships.find((item: any) => item.type === 'cover_art');
+          const coverArtId = findCoverArt ? findCoverArt.id : null;
+          const coverArt = await this.fetchCoverImage(coverArtId === null || coverArtId === void 0 ? void 0 : coverArtId);
 
           results.results.push({
             id: res.data.data.id,
@@ -151,6 +160,7 @@ class MangaDex extends MangaParser {
             contentRating: res.data.data.attributes.contentRating,
             lastVolume: res.data.data.attributes.lastVolume,
             lastChapter: res.data.data.attributes.lastChapter,
+            image: `${this.baseUrl}/covers/${res.data.data.id}/${coverArt}`
           });
         
 
@@ -184,6 +194,9 @@ class MangaDex extends MangaParser {
         };
 
         for (const manga of res.data.data) {
+          const findCoverArt = manga.relationships.find((item: any) => item.type === 'cover_art');
+          const coverArtId = findCoverArt ? findCoverArt.id : null;
+          const coverArt = await this.fetchCoverImage(coverArtId === null || coverArtId === void 0 ? void 0 : coverArtId);
           results.results.push({
             id: manga.id,
             title: Object.values(manga.attributes.title)[0] as string,
@@ -194,6 +207,7 @@ class MangaDex extends MangaParser {
             contentRating: manga.attributes.contentRating,
             lastVolume: manga.attributes.lastVolume,
             lastChapter: manga.attributes.lastChapter,
+            image: `${this.baseUrl}/covers/${manga.id}/${coverArt}`
           });
         }
 
@@ -228,6 +242,10 @@ class MangaDex extends MangaParser {
         };
 
         for (const manga of res.data.data) {
+          const findCoverArt = manga.relationships.find((item: any) => item.type === 'cover_art');
+          const coverArtId = findCoverArt ? findCoverArt.id : null;
+          const coverArt = await this.fetchCoverImage(coverArtId === null || coverArtId === void 0 ? void 0 : coverArtId);
+
           results.results.push({
             id: manga.id,
             title: Object.values(manga.attributes.title)[0] as string,
@@ -238,6 +256,7 @@ class MangaDex extends MangaParser {
             contentRating: manga.attributes.contentRating,
             lastVolume: manga.attributes.lastVolume,
             lastChapter: manga.attributes.lastChapter,
+            image: `${this.baseUrl}/covers/${manga.id}/${coverArt}`
           });
         }
 
@@ -271,6 +290,10 @@ class MangaDex extends MangaParser {
         };
 
         for (const manga of res.data.data) {
+          const findCoverArt = manga.relationships.find((item: any) => item.type === 'cover_art');
+          const coverArtId = findCoverArt ? findCoverArt.id : null;
+          const coverArt = await this.fetchCoverImage(coverArtId === null || coverArtId === void 0 ? void 0 : coverArtId);
+
           results.results.push({
             id: manga.id,
             title: Object.values(manga.attributes.title)[0] as string,
@@ -281,6 +304,7 @@ class MangaDex extends MangaParser {
             contentRating: manga.attributes.contentRating,
             lastVolume: manga.attributes.lastVolume,
             lastChapter: manga.attributes.lastChapter,
+            image: `${this.baseUrl}/covers/${manga.id}/${coverArt}`
           });
         }
 
