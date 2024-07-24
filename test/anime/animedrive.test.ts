@@ -22,6 +22,5 @@ test('returns a filled object of anime data', async () => {
 
 test('returns a filled object of episode sources', async () => {
   const data = await animedrive.fetchEpisodeSources('?id=974&ep=12');
-  // console.log(data);
   expect(data.sources).not.toEqual([]);
 });
