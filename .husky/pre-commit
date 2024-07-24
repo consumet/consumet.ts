@@ -1,2 +1,2 @@
 
-yarn build && git add dist && yarn lint
+yarn lint && yarn build && git add .
