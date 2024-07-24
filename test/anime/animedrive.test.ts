@@ -14,7 +14,6 @@ test('returns a filled array of anime list', async () => {
 test('returns a filled object of anime data', async () => {
   const res = await animedrive.search('ZOMBIE LAND SAGA');
   const data = await animedrive.fetchAnimeInfo(res.results[0].id);
-  // console.log(data);
   expect(data).not.toBeNull();
   expect(data.description).not.toBeNull();
   expect(data.episodes).not.toEqual([]);
