@@ -17,7 +17,7 @@ type ProviderId = '9anime' | 'animepahe' | 'zoro' | 'gogoanime';
 
 class Anify extends AnimeParser {
   override readonly name = 'Anify';
-  protected override baseUrl = 'https://api.anify.tv';
+  protected override baseUrl = 'https://anify.eltik.cc';
   protected override classPath = 'ANIME.Anify';
 
   private readonly actions: {
