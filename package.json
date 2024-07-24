@@ -11,7 +11,6 @@
     "prepare": "husky || true",
     "test": "jest",
     "test:anime": "jest ./test/anime",
-    "test:anime:gogoanime": "jest ./test/anime/gogoanime.test.ts",
     "test:books": "jest ./test/books/libgen.test.ts",
     "test:comics": "jest ./test/comics",
     "test:movies": "jest ./test/movies",
