@@ -129,7 +129,7 @@ class DramaCool extends MovieParser {
         'Original Network'
       ));
       
-      let trailerIframe = $('div.trailer').find('iframe').attr('src');
+      const trailerIframe = $('div.trailer').find('iframe').attr('src');
       mediaInfo.trailer = {
         url: trailerIframe,
         id: trailerIframe?.split('embed/')[1]?.split('?')[0],
