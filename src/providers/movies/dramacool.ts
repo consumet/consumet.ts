@@ -138,12 +138,12 @@ class DramaCool extends MovieParser {
       $('div.slider-star > div.item').each((i, el) => {
         const url = `${this.baseUrl}${$(el).find('a.img').attr('href')}`;
         const imageUrl = $(el).find('img').attr('src');
-        const title = $(el).find('h3.title').text().trim();
+        const name = $(el).find('h3.title').text().trim();
 
         (mediaInfo.characters as any[]).push({
           url,
           imageUrl,
-          title,
+          name,
         });
       });
 
