@@ -51,7 +51,7 @@ class StreamWish extends models_1.VideoExtractor {
                         const quality = video.split('RESOLUTION=')[1].split(',')[0].split('x')[1];
                         this.sources.push({
                             url: url,
-                            quality: `${quality}`,
+                            quality: `${quality}p`,
                             isM3U8: url.includes('.m3u8'),
                         });
                     }
