@@ -51,7 +51,7 @@ class StreamWish extends VideoExtractor {
 
           this.sources.push({
             url: url,
-            quality: `${quality}`,
+            quality: `${quality}p`,
             isM3U8: url.includes('.m3u8'),
           });
         }
