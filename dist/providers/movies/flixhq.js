@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
+const axios = require('axios');
 class FlixHQ extends models_1.MovieParser {
     constructor() {
         super(...arguments);
@@ -11,6 +12,20 @@ class FlixHQ extends models_1.MovieParser {
         this.logo = 'https://upload.wikimedia.org/wikipedia/commons/7/7a/MyAnimeList_Logo.png';
         this.classPath = 'MOVIES.FlixHQ';
         this.supportedTypes = new Set([models_1.TvType.MOVIE, models_1.TvType.TVSERIES]);
+
+        // Function to fetch and convert image to Base64
+        async function getBase64ImageFromUrl(imageUrl) {
+            try {
+                const image = await axios.get(imageUrl, { responseType: 'arraybuffer' });
+                const buffer = Buffer.from(image.data, 'binary');
+                const base64Image = buffer.toString('base64');
+                return `data:image/jpeg;base64,${base64Image}`;
+            } catch (error) {
+                console.error('Error fetching image:', error);
+                return null;
+            }
+        }
+
         /**
          *
          * @param query search query string
@@ -24,28 +39,43 @@ class FlixHQ extends models_1.MovieParser {
             };
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
-                const $ = (0, cheerio_1.load)(data);
+                const $ = cheerio_1.load(data);
                 const navSelector = 'div.pre-pagination:nth-child(3) > nav:nth-child(1) > ul:nth-child(1)';
                 searchResult.hasNextPage =
                     $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
+
+                // Array to hold promises for image fetching
+                const imagePromises = [];
+
                 $('.film_list-wrap > div.flw-item').each((i, el) => {
                     var _a;
                     const releaseDate = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
-                    searchResult.results.push({
-                        id: (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
-                        title: $(el).find('div.film-detail > h2 > a').attr('title'),
-                        url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-                        image: $(el).find('div.film-poster > img').attr('data-src'),
-                        releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
-                        seasons: releaseDate.includes('SS') ? parseInt(releaseDate.split('SS')[1]) : undefined,
-                        type: $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
-                            ? models_1.TvType.MOVIE
-                            : models_1.TvType.TVSERIES,
-                    });
+                    const imageUrl = $(el).find('div.film-poster > img').attr('data-src');
+
+                    // Push the promise to the array
+                    imagePromises.push(getBase64ImageFromUrl(imageUrl).then((base64Image) => {
+                        return {
+                            id: (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
+                            title: $(el).find('div.film-detail > h2 > a').attr('title'),
+                            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+                            image: base64Image,
+                            releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
+                            seasons: releaseDate.includes('SS') ? parseInt(releaseDate.split('SS')[1]) : undefined,
+                            type: $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
+                                ? models_1.TvType.MOVIE
+                                : models_1.TvType.TVSERIES,
+                        };
+                    }));
                 });
+
+                // Wait for all image fetching promises to resolve
+                const results = await Promise.all(imagePromises);
+
+                // Add the resolved results to the searchResult
+                searchResult.results.push(...results);
+
                 return searchResult;
-            }
-            catch (err) {
+            } catch (err) {
                 throw new Error(err.message);
             }
         };
@@ -115,16 +145,16 @@ class FlixHQ extends models_1.MovieParser {
                         const $$$ = (0, cheerio_1.load)(data);
                         $$$('.nav > li')
                             .map((i, el) => {
-                            var _a;
-                            const episode = {
-                                id: $$$(el).find('a').attr('id').split('-')[1],
-                                title: $$$(el).find('a').attr('title'),
-                                number: parseInt($$$(el).find('a').attr('title').split(':')[0].slice(3).trim()),
-                                season: season,
-                                url: `${this.baseUrl}/ajax/v2/episode/servers/${$$$(el).find('a').attr('id').split('-')[1]}`,
-                            };
-                            (_a = movieInfo.episodes) === null || _a === void 0 ? void 0 : _a.push(episode);
-                        })
+                                var _a;
+                                const episode = {
+                                    id: $$$(el).find('a').attr('id').split('-')[1],
+                                    title: $$$(el).find('a').attr('title'),
+                                    number: parseInt($$$(el).find('a').attr('title').split(':')[0].slice(3).trim()),
+                                    season: season,
+                                    url: `${this.baseUrl}/ajax/v2/episode/servers/${$$$(el).find('a').attr('id').split('-')[1]}`,
+                                };
+                                (_a = movieInfo.episodes) === null || _a === void 0 ? void 0 : _a.push(episode);
+                            })
                             .get();
                         season++;
                     }
@@ -205,16 +235,16 @@ class FlixHQ extends models_1.MovieParser {
                 const $ = (0, cheerio_1.load)(data);
                 const servers = $('.nav > li')
                     .map((i, el) => {
-                    const server = {
-                        name: mediaId.includes('movie')
-                            ? $(el).find('a').attr('title').toLowerCase()
-                            : $(el).find('a').attr('title').slice(6).trim().toLowerCase(),
-                        url: `${this.baseUrl}/${mediaId}.${!mediaId.includes('movie')
-                            ? $(el).find('a').attr('data-id')
-                            : $(el).find('a').attr('data-linkid')}`.replace(!mediaId.includes('movie') ? /\/tv\// : /\/movie\//, !mediaId.includes('movie') ? '/watch-tv/' : '/watch-movie/'),
-                    };
-                    return server;
-                })
+                        const server = {
+                            name: mediaId.includes('movie')
+                                ? $(el).find('a').attr('title').toLowerCase()
+                                : $(el).find('a').attr('title').slice(6).trim().toLowerCase(),
+                            url: `${this.baseUrl}/${mediaId}.${!mediaId.includes('movie')
+                                ? $(el).find('a').attr('data-id')
+                                : $(el).find('a').attr('data-linkid')}`.replace(!mediaId.includes('movie') ? /\/tv\// : /\/movie\//, !mediaId.includes('movie') ? '/watch-tv/' : '/watch-movie/'),
+                        };
+                        return server;
+                    })
                     .get();
                 return servers;
             }
@@ -228,21 +258,21 @@ class FlixHQ extends models_1.MovieParser {
                 const $ = (0, cheerio_1.load)(data);
                 const movies = $('section.block_area:contains("Latest Movies") > div:nth-child(2) > div:nth-child(1) > div.flw-item')
                     .map((i, el) => {
-                    var _a;
-                    const releaseDate = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
-                    const movie = {
-                        id: (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
-                        title: $(el).find('div.film-detail > h3.film-name > a').attr('title'),
-                        url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-                        image: $(el).find('div.film-poster > img').attr('data-src'),
-                        releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
-                        duration: $(el).find('div.film-detail > div.fd-infor > span.fdi-duration').text() || null,
-                        type: $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
-                            ? models_1.TvType.MOVIE
-                            : models_1.TvType.TVSERIES,
-                    };
-                    return movie;
-                })
+                        var _a;
+                        const releaseDate = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
+                        const movie = {
+                            id: (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
+                            title: $(el).find('div.film-detail > h3.film-name > a').attr('title'),
+                            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+                            image: $(el).find('div.film-poster > img').attr('data-src'),
+                            releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
+                            duration: $(el).find('div.film-detail > div.fd-infor > span.fdi-duration').text() || null,
+                            type: $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
+                                ? models_1.TvType.MOVIE
+                                : models_1.TvType.TVSERIES,
+                        };
+                        return movie;
+                    })
                     .get();
                 return movies;
             }
@@ -256,20 +286,20 @@ class FlixHQ extends models_1.MovieParser {
                 const $ = (0, cheerio_1.load)(data);
                 const tvshows = $('section.block_area:contains("Latest TV Shows") > div:nth-child(2) > div:nth-child(1) > div.flw-item')
                     .map((i, el) => {
-                    var _a;
-                    const tvshow = {
-                        id: (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
-                        title: $(el).find('div.film-detail > h3.film-name > a').attr('title'),
-                        url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-                        image: $(el).find('div.film-poster > img').attr('data-src'),
-                        season: $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text(),
-                        latestEpisode: $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() || null,
-                        type: $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
-                            ? models_1.TvType.MOVIE
-                            : models_1.TvType.TVSERIES,
-                    };
-                    return tvshow;
-                })
+                        var _a;
+                        const tvshow = {
+                            id: (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
+                            title: $(el).find('div.film-detail > h3.film-name > a').attr('title'),
+                            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+                            image: $(el).find('div.film-poster > img').attr('data-src'),
+                            season: $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text(),
+                            latestEpisode: $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() || null,
+                            type: $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
+                                ? models_1.TvType.MOVIE
+                                : models_1.TvType.TVSERIES,
+                        };
+                        return tvshow;
+                    })
                     .get();
                 return tvshows;
             }
@@ -283,21 +313,21 @@ class FlixHQ extends models_1.MovieParser {
                 const $ = (0, cheerio_1.load)(data);
                 const movies = $('div#trending-movies div.film_list-wrap div.flw-item')
                     .map((i, el) => {
-                    var _a;
-                    const releaseDate = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
-                    const movie = {
-                        id: (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
-                        title: $(el).find('div.film-detail > h3.film-name > a').attr('title'),
-                        url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-                        image: $(el).find('div.film-poster > img').attr('data-src'),
-                        releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
-                        duration: $(el).find('div.film-detail > div.fd-infor > span.fdi-duration').text() || null,
-                        type: $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
-                            ? models_1.TvType.MOVIE
-                            : models_1.TvType.TVSERIES,
-                    };
-                    return movie;
-                })
+                        var _a;
+                        const releaseDate = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
+                        const movie = {
+                            id: (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
+                            title: $(el).find('div.film-detail > h3.film-name > a').attr('title'),
+                            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+                            image: $(el).find('div.film-poster > img').attr('data-src'),
+                            releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
+                            duration: $(el).find('div.film-detail > div.fd-infor > span.fdi-duration').text() || null,
+                            type: $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
+                                ? models_1.TvType.MOVIE
+                                : models_1.TvType.TVSERIES,
+                        };
+                        return movie;
+                    })
                     .get();
                 return movies;
             }
@@ -311,20 +341,20 @@ class FlixHQ extends models_1.MovieParser {
                 const $ = (0, cheerio_1.load)(data);
                 const tvshows = $('div#trending-tv div.film_list-wrap div.flw-item')
                     .map((i, el) => {
-                    var _a;
-                    const tvshow = {
-                        id: (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
-                        title: $(el).find('div.film-detail > h3.film-name > a').attr('title'),
-                        url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-                        image: $(el).find('div.film-poster > img').attr('data-src'),
-                        season: $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text(),
-                        latestEpisode: $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() || null,
-                        type: $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
-                            ? models_1.TvType.MOVIE
-                            : models_1.TvType.TVSERIES,
-                    };
-                    return tvshow;
-                })
+                        var _a;
+                        const tvshow = {
+                            id: (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
+                            title: $(el).find('div.film-detail > h3.film-name > a').attr('title'),
+                            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+                            image: $(el).find('div.film-poster > img').attr('data-src'),
+                            season: $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text(),
+                            latestEpisode: $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() || null,
+                            type: $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
+                                ? models_1.TvType.MOVIE
+                                : models_1.TvType.TVSERIES,
+                        };
+                        return tvshow;
+                    })
                     .get();
                 return tvshows;
             }
@@ -346,19 +376,19 @@ class FlixHQ extends models_1.MovieParser {
                     $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
                 $('div.container > section.block_area > div.block_area-content > div.film_list-wrap > div.flw-item')
                     .each((i, el) => {
-                    var _a, _b, _c, _d;
-                    result.results.push({
-                        id: (_b = (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1)) !== null && _b !== void 0 ? _b : '',
-                        title: (_c = $(el).find('div.film-detail > h2.film-name > a').attr('title')) !== null && _c !== void 0 ? _c : '',
-                        url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-                        image: $(el).find('div.film-poster > img').attr('data-src'),
-                        season: $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text(),
-                        latestEpisode: (_d = $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text()) !== null && _d !== void 0 ? _d : null,
-                        type: $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
-                            ? models_1.TvType.MOVIE
-                            : models_1.TvType.TVSERIES,
-                    });
-                })
+                        var _a, _b, _c, _d;
+                        result.results.push({
+                            id: (_b = (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1)) !== null && _b !== void 0 ? _b : '',
+                            title: (_c = $(el).find('div.film-detail > h2.film-name > a').attr('title')) !== null && _c !== void 0 ? _c : '',
+                            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+                            image: $(el).find('div.film-poster > img').attr('data-src'),
+                            season: $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text(),
+                            latestEpisode: (_d = $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text()) !== null && _d !== void 0 ? _d : null,
+                            type: $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
+                                ? models_1.TvType.MOVIE
+                                : models_1.TvType.TVSERIES,
+                        });
+                    })
                     .get();
                 return result;
             }
