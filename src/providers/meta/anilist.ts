@@ -19,6 +19,7 @@ import {
   ProxyConfig,
   MediaFormat,
   ITitle,
+  IStaffInfo,
 } from '../../models';
 import {
   anilistSearchQuery,
@@ -31,6 +32,7 @@ import {
   anilistAdvancedQuery,
   anilistSiteStatisticsQuery,
   anilistCharacterQuery,
+  anilistStaffInfoQuery,
   range,
   getDays,
   days,
@@ -1820,12 +1822,52 @@ class Anilist extends AnimeParser {
   };
 
   /**
-   * TODO: finish this (got lazy)
+   * To get Staff details by anilistId
    * @param id staff id from anilist
    *
    */
   fetchStaffById = async (id: number) => {
-    throw new Error('Not implemented yet');
+    const staffInfo: IStaffInfo = {
+      id: String(id),
+      name: { first: '', last: '', native: '', full: '' },
+    };
+
+    const options = {
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      query: anilistStaffInfoQuery(id),
+    };
+
+    try {
+      const { data } = await this.client.post(this.anilistGraphqlUrl, options).catch(err => {
+        throw new Error((err as Error).message);
+      });
+      const staff = data.data.Staff;
+
+      staffInfo.id = staff?.id;
+      staffInfo.name = staff?.name;
+      staffInfo.image = staff?.image;
+      staffInfo.description = staff?.description;
+      staffInfo.siteUrl = staff?.siteUrl;
+
+      staffInfo.roles = staff?.staffMedia.edges.map((media: any) => ({
+        id: media?.node?.id,
+        title: media?.node?.title,
+        type: media?.node?.type,
+        image: {
+          extraLarge: media?.node?.coverImage?.extraLarge,
+          large: media?.node?.coverImage?.large,
+          medium: media?.node?.coverImage?.medium,
+        },
+        color: media?.node?.coverImage?.color,
+      }));
+
+      return staffInfo;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
   };
 
   /**

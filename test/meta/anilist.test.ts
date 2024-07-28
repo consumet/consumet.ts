@@ -51,4 +51,9 @@ test('returns a filled array of airing schedule', async () => {
   const data = await anilist.fetchAiringSchedule(1, 20, weekStart, weekStart + 604800, true);
   expect(data.results).not.toEqual([]);
 });
+
+test('returns object of staff information', async () => {
+  const data = await anilist.fetchStaffById(97410);
+  expect(data.id).not.toBeUndefined();
+});
 ('');

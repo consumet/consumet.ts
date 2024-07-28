@@ -443,4 +443,31 @@ export interface ProxyConfig {
      */
     rotateInterval?: number;
 }
+export interface IRoles {
+    id: string;
+    title: ITitle;
+    type?: string;
+    image: {
+        extraLarge?: string;
+        large?: string;
+        medium?: string;
+    };
+    color?: string;
+}
+export interface IStaffInfo {
+    id: string;
+    name: {
+        first?: string;
+        last?: string;
+        native?: string;
+        full?: string;
+    };
+    image?: {
+        large?: string;
+        medium?: string;
+    };
+    description?: string;
+    siteUrl?: string;
+    roles?: IRoles[];
+}
 export {};
