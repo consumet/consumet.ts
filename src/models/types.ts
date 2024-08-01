@@ -479,7 +479,7 @@ export interface ProxyConfig {
   rotateInterval?: number;
 }
 
-export interface IRoles {
+export interface IStaff {
   id: string;
   title: ITitle;
   type?: string;
@@ -505,5 +505,5 @@ export interface IStaffInfo {
   };
   description?: string;
   siteUrl?: string;
-  roles?: IRoles[];
+  roles?: IStaff[];
 }
