@@ -19,7 +19,7 @@ import {
   ProxyConfig,
   MediaFormat,
   ITitle,
-  IStaffInfo,
+  IStaff,
 } from '../../models';
 import {
   anilistSearchQuery,
@@ -1827,7 +1827,7 @@ class Anilist extends AnimeParser {
    *
    */
   fetchStaffById = async (id: number) => {
-    const staffInfo: IStaffInfo = {
+    const staffInfo: IStaff = {
       id: String(id),
       name: { first: '', last: '', native: '', full: '' },
     };

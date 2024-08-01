@@ -443,7 +443,7 @@ export interface ProxyConfig {
      */
     rotateInterval?: number;
 }
-export interface IStaff {
+export interface IRoles {
     id: string;
     title: ITitle;
     type?: string;
@@ -454,7 +454,7 @@ export interface IStaff {
     };
     color?: string;
 }
-export interface IStaffInfo {
+export interface IStaff {
     id: string;
     name: {
         first?: string;
@@ -468,6 +468,6 @@ export interface IStaffInfo {
     };
     description?: string;
     siteUrl?: string;
-    roles?: IStaff[];
+    roles?: IRoles[];
 }
 export {};

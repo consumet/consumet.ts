@@ -45,7 +45,7 @@ import {
   ITitle,
   MediaFormat,
   ProxyConfig,
-  IStaffInfo,
+  IStaff,
 } from './types';
 import { LibgenBookObject, GetComicsComicsObject } from './type-objects';
 
@@ -98,5 +98,5 @@ export {
   ITitle,
   MediaFormat,
   ProxyConfig,
-  IStaffInfo,
+  IStaff,
 };
