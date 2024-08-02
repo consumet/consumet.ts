@@ -29,8 +29,8 @@ jobs:
       - name: Check Diff
         id: check_diff
         run: |
-          git diff --exit-code
-          if [ $? -eq 0 ]
+          git diff --quiet || status=$?
+          if [ $status -eq 0 ];
           then
             echo "push_changes=false" >> $GITHUB_OUTPUT
           else

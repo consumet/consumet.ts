@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const models_1 = require("../../models");
+const utils_1 = require("../../utils/utils");
 class Anify extends models_1.AnimeParser {
     constructor(proxyConfig, adapter, providerId = 'gogoanime') {
         super(proxyConfig, adapter);
@@ -8,7 +9,7 @@ class Anify extends models_1.AnimeParser {
         this.adapter = adapter;
         this.providerId = providerId;
         this.name = 'Anify';
-        this.baseUrl = 'https://api.anify.tv';
+        this.baseUrl = utils_1.ANIFY_URL;
         this.classPath = 'ANIME.Anify';
         this.actions = {
             gogoanime: {

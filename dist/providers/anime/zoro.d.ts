@@ -44,10 +44,10 @@ declare class Zoro extends AnimeParser {
      */
     fetchStudio(studio: string, page?: number): Promise<ISearch<IAnimeResult>>;
     /**
-       * Fetches the schedule for a given date.
-       * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
-       * @returns A promise that resolves to an object containing the search results.
-       */
+     * Fetches the schedule for a given date.
+     * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
+     * @returns A promise that resolves to an object containing the search results.
+     */
     fetchSchedule(date?: string): Promise<ISearch<IAnimeResult>>;
     fetchSpotlight(): Promise<ISearch<IAnimeResult>>;
     fetchSearchSuggestions(query: string): Promise<ISearch<IAnimeResult>>;

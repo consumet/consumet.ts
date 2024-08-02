@@ -33,7 +33,7 @@ class Anilist extends models_1.AnimeParser {
         this.anilistGraphqlUrl = 'https://graphql.anilist.co';
         this.kitsuGraphqlUrl = 'https://kitsu.io/api/graphql';
         this.malSyncUrl = 'https://api.malsync.moe';
-        this.anifyUrl = 'https://api.anify.tv';
+        this.anifyUrl = utils_2.ANIFY_URL;
         /**
          * @param query Search query
          * @param page Page number (optional)

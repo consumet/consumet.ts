@@ -25,5 +25,5 @@ export default {
   FlameScans,
   MangaHost,
   BRMangas,
-  ReadManga
+  ReadManga,
 };

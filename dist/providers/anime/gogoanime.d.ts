@@ -23,7 +23,7 @@ declare class Gogoanime extends AnimeParser {
      * @param episodeId episode id
      * @param server server type (default 'GogoCDN') (optional)
      */
-    fetchEpisodeSources: (episodeId: string, server?: StreamingServers) => Promise<ISource>;
+    fetchEpisodeSources: (episodeId: string, server?: StreamingServers, downloadUrl?: string | undefined) => Promise<ISource>;
     /**
      *
      * @param episodeId episode link or episode id

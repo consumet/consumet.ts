@@ -8,6 +8,7 @@ const _9anime_1 = __importDefault(require("./9anime"));
 const animepahe_1 = __importDefault(require("./animepahe"));
 const zoro_1 = __importDefault(require("./zoro"));
 const animefox_1 = __importDefault(require("./animefox"));
+const animedrive_1 = __importDefault(require("./animedrive"));
 const anify_1 = __importDefault(require("./anify"));
 const crunchyroll_1 = __importDefault(require("./crunchyroll"));
 const bilibili_1 = __importDefault(require("./bilibili"));
@@ -20,11 +21,12 @@ exports.default = {
     AnimePahe: animepahe_1.default,
     Zoro: zoro_1.default,
     AnimeFox: animefox_1.default,
+    AnimeDrive: animedrive_1.default,
     Anify: anify_1.default,
     Crunchyroll: crunchyroll_1.default,
     Bilibili: bilibili_1.default,
     Marin: marin_1.default,
     AnimeSaturn: animesaturn_1.default,
-    AnimeUnity: animeunity_1.default
+    AnimeUnity: animeunity_1.default,
 };
 //# sourceMappingURL=index.js.map
