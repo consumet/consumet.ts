@@ -124,11 +124,13 @@ class DramaCool extends MovieParser {
         $('div.details div.info p:contains("Director:")').text(),
         'Director'
       );
-      mediaInfo.originalNetwork = this.cleanUpText(this.removeContainsFromString(
-        $('div.details div.info p:contains("Original Network:")').text().trim(),
-        'Original Network'
-      ));
-      
+      mediaInfo.originalNetwork = this.cleanUpText(
+        this.removeContainsFromString(
+          $('div.details div.info p:contains("Original Network:")').text().trim(),
+          'Original Network'
+        )
+      );
+
       const trailerIframe = $('div.trailer').find('iframe').attr('src');
       mediaInfo.trailer = {
         url: trailerIframe,

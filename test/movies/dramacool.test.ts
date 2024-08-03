@@ -46,12 +46,12 @@ test('Search: returns totalPages when search: Love.', async () => {
   expect(data.totalPages).not.toEqual(1);
 });
 
-test('fetchPopular: returns a filled array of popular movies/TV.',async () => {
+test('fetchPopular: returns a filled array of popular movies/TV.', async () => {
   const data = await dramaCool.fetchPopular();
   expect(data.results).not.toEqual([]);
 });
 
-test('fetchMediaInfo:returns content-rating, airs-on, director, original-network,trailer, characters',async () => {
+test('fetchMediaInfo:returns content-rating, airs-on, director, original-network,trailer, characters', async () => {
   const data = await dramaCool.fetchMediaInfo('drama-detail/vincenzo');
   expect(data.contentRating).not.toEqual(undefined);
   expect(data.airsOn).not.toEqual(undefined);
@@ -59,4 +59,4 @@ test('fetchMediaInfo:returns content-rating, airs-on, director, original-network
   expect(data.originalNetwork).not.toEqual(undefined);
   expect(data.trailer).not.toEqual(undefined);
   expect(data.characters).not.toEqual([]);
-})
+});
