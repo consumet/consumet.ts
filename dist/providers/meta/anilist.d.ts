@@ -1,5 +1,5 @@
 import { AxiosAdapter } from 'axios';
-import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IAnimeEpisode, IEpisodeServer, Genres, MangaParser, IMangaChapterPage, IMangaInfo, IMangaResult, ProxyConfig } from '../../models';
+import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IAnimeEpisode, IEpisodeServer, Genres, MangaParser, IMangaChapterPage, IMangaInfo, IMangaResult, ProxyConfig, IStaff } from '../../models';
 declare class Anilist extends AnimeParser {
     proxyConfig?: ProxyConfig | undefined;
     readonly name = "Anilist";
@@ -113,11 +113,11 @@ declare class Anilist extends AnimeParser {
      */
     fetchAnilistInfoById: (id: string) => Promise<IAnimeInfo>;
     /**
-     * TODO: finish this (got lazy)
+     * To get Staff details by anilistId
      * @param id staff id from anilist
      *
      */
-    fetchStaffById: (id: number) => Promise<never>;
+    fetchStaffById: (id: number) => Promise<IStaff>;
     /**
      *
      * @param id character id from anilist
