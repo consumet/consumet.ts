@@ -485,7 +485,11 @@ class Gogoanime extends models_1.AnimeParser {
                 throw new Error('Something went wrong. Please try again later.');
             }
         };
-        this.baseUrl = customBaseURL ? `https://${customBaseURL}` : this.baseUrl;
+        this.baseUrl = customBaseURL
+            ? customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')
+                ? customBaseURL
+                : `http://${customBaseURL}`
+            : this.baseUrl;
         if (proxy) {
             // Initialize proxyConfig if provided
             this.setProxy(proxy);
