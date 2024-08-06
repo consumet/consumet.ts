@@ -11,6 +11,19 @@ class StreamWish extends models_1.VideoExtractor {
             try {
                 const options = {
                     headers: {
+                        'Accept-Language': 'en-US,en;q=0.9',
+                        'Cache-Control': 'max-age=0',
+                        Priority: 'u=0, i',
+                        'Sec-Ch-Ua': 'Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126',
+                        'Sec-Ch-Ua-Mobile': '?0',
+                        'Sec-Ch-Ua-Platform': 'Windows',
+                        'Sec-Fetch-Dest': 'document',
+                        'Sec-Fetch-Mode': 'navigate',
+                        'Sec-Fetch-Site': 'none',
+                        'Sec-Fetch-User': '?1',
+                        'Upgrade-Insecure-Requests': '1',
+                        'Referrer-Policy': 'no-referrer-when-downgrade',
+                        Referer: videoUrl.href,
                         'User-Agent': utils_1.USER_AGENT,
                     },
                 };
@@ -28,11 +41,7 @@ class StreamWish extends models_1.VideoExtractor {
                     });
                     lastLink = link;
                 });
-                const m3u8Content = await this.client.get(links[1], {
-                    headers: {
-                        Referer: videoUrl.href,
-                    },
-                });
+                const m3u8Content = await this.client.get(links[1], options);
                 if (m3u8Content.data.includes('EXTM3U')) {
                     const videoList = m3u8Content.data.split('#EXT-X-STREAM-INF:');
                     for (const video of videoList !== null && videoList !== void 0 ? videoList : []) {
@@ -42,7 +51,7 @@ class StreamWish extends models_1.VideoExtractor {
                         const quality = video.split('RESOLUTION=')[1].split(',')[0].split('x')[1];
                         this.sources.push({
                             url: url,
-                            quality: `${quality}`,
+                            quality: `${quality}p`,
                             isM3U8: url.includes('.m3u8'),
                         });
                     }

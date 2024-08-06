@@ -1,6 +1,6 @@
 {
   "name": "@consumet/extensions",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Nodejs library that provides high-level APIs for obtaining information on various entertainment media such as books, movies, comic books, anime, manga, and so on.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,7 @@
     "build": "rimraf dist && tsc -p tsconfig.json",
     "version": "auto-changelog -p && git add CHANGELOG.md",
     "lint": "prettier --write .",
-    "prepare": "husky install",
+    "prepare": "husky || true",
     "test": "jest",
     "test:anime": "jest ./test/anime",
     "test:books": "jest ./test/books/libgen.test.ts",
@@ -58,7 +58,7 @@
     "cheerio": "^1.0.0-rc.12",
     "crypto-js": "^4.1.1",
     "form-data": "^4.0.0",
-    "husky": "^9.0.11"
+    "husky": "^9.1.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.3",

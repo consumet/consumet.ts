@@ -20,7 +20,7 @@ import { GogoCDN, StreamSB, StreamWish } from '../../extractors';
 
 class Gogoanime extends AnimeParser {
   override readonly name = 'Gogoanime';
-  protected override baseUrl = 'https://anitaku.so';
+  protected override baseUrl = 'https://anitaku.pe';
   protected override logo =
     'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
   protected override classPath = 'ANIME.Gogoanime';
@@ -188,7 +188,8 @@ class Gogoanime extends AnimeParser {
    */
   override fetchEpisodeSources = async (
     episodeId: string,
-    server: StreamingServers = StreamingServers.VidStreaming
+    server: StreamingServers = StreamingServers.VidStreaming,
+    downloadUrl: string | undefined = undefined
   ): Promise<ISource> => {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
@@ -197,7 +198,7 @@ class Gogoanime extends AnimeParser {
           return {
             headers: { Referer: serverUrl.href },
             sources: await new GogoCDN(this.proxyConfig, this.adapter).extract(serverUrl),
-            download: `https://${serverUrl.host}/download${serverUrl.search}`,
+            download: downloadUrl ? downloadUrl : `https://${serverUrl.host}/download${serverUrl.search}`,
           };
         case StreamingServers.StreamSB:
           return {
@@ -207,7 +208,7 @@ class Gogoanime extends AnimeParser {
               'User-Agent': USER_AGENT,
             },
             sources: await new StreamSB(this.proxyConfig, this.adapter).extract(serverUrl),
-            download: `https://${serverUrl.host}/download${serverUrl.search}`,
+            download: downloadUrl ? downloadUrl : `https://${serverUrl.host}/download${serverUrl.search}`,
           };
         case StreamingServers.StreamWish:
           return {
@@ -215,13 +216,13 @@ class Gogoanime extends AnimeParser {
               Referer: serverUrl.href,
             },
             sources: await new StreamWish(this.proxyConfig, this.adapter).extract(serverUrl),
-            download: `https://${serverUrl.host}/download${serverUrl.search}`,
+            download: downloadUrl ? downloadUrl : `https://${serverUrl.host}/download${serverUrl.search}`,
           };
         default:
           return {
             headers: { Referer: serverUrl.href },
             sources: await new GogoCDN(this.proxyConfig, this.adapter).extract(serverUrl),
-            download: `https://${serverUrl.host}/download${serverUrl.search}`,
+            download: downloadUrl ? downloadUrl : `https://${serverUrl.host}/download${serverUrl.search}`,
           };
       }
     }
@@ -257,7 +258,11 @@ class Gogoanime extends AnimeParser {
           break;
       }
 
-      return await this.fetchEpisodeSources(serverUrl.href, server);
+      const downloadLink = `${$('.dowloads > a').attr('href')}`;
+
+      return downloadLink
+        ? await this.fetchEpisodeSources(serverUrl.href, server, downloadLink)
+        : await this.fetchEpisodeSources(serverUrl.href, server);
     } catch (err) {
       console.log(err);
       throw new Error('Episode not found.');
@@ -331,7 +336,7 @@ class Gogoanime extends AnimeParser {
           id: $(el).find('a').attr('href')?.split('/')[1]?.split('-episode')[0]!,
           episodeId: $(el).find('a').attr('href')?.split('/')[1]!,
           episodeNumber: parseFloat($(el).find('p.episode').text().replace('Episode ', '')),
-          title: $(el).find('p.name > a').attr('title')!,
+          title: $(el).find('p.name > a').text()!,
           image: $(el).find('div > a > img').attr('src'),
           url: `${this.baseUrl}${$(el).find('a').attr('href')?.trim()}`,
         });
@@ -360,7 +365,7 @@ class Gogoanime extends AnimeParser {
       $('div.last_episodes > ul > li').each((i, elem) => {
         genreInfo.push({
           id: $(elem).find('p.name > a').attr('href')?.split('/')[2] as string,
-          title: $(elem).find('p.name > a').attr('title') as string,
+          title: $(elem).find('p.name > a').text() as string,
           image: $(elem).find('div > a > img').attr('src'),
           released: $(elem).find('p.released').text().replace('Released: ', '').trim(),
           url: this.baseUrl + '/' + $(elem).find('p.name > a').attr('href'),
@@ -390,7 +395,7 @@ class Gogoanime extends AnimeParser {
       $('div.added_series_body.popular > ul > li').each((i, el) => {
         topAiring.push({
           id: $(el).find('a:nth-child(1)').attr('href')?.split('/')[2]!,
-          title: $(el).find('a:nth-child(1)').attr('title')!,
+          title: $(el).find('a:nth-child(2)').text().trim().split(',')[0].trim()!,
           image: $(el).find('a:nth-child(1) > div').attr('style')?.match('(https?://.*.(?:png|jpg))')![0],
           url: `${this.baseUrl}${$(el).find('a:nth-child(1)').attr('href')}`,
           genres: $(el)
@@ -429,7 +434,7 @@ class Gogoanime extends AnimeParser {
 
         recentMovies.push({
           id: a.attr('href')?.replace(`/category/`, '')!,
-          title: pName.attr('title')!,
+          title: pName.text()!,
           releaseDate: pRelease.text().replace('Released: ', '').trim(),
           image: $(el).find('div > a > img').attr('src'),
           url: `${this.baseUrl}${a.attr('href')}`,
@@ -464,7 +469,7 @@ class Gogoanime extends AnimeParser {
 
         recentMovies.push({
           id: a.attr('href')?.replace(`/category/`, '')!,
-          title: pName.attr('title')!,
+          title: pName.text()!,
           releaseDate: pRelease.text().replace('Released: ', '').trim(),
           image: $(el).find('div > a > img').attr('src'),
           url: `${this.baseUrl}${a.attr('href')}`,

@@ -8,14 +8,27 @@ class StreamWish extends VideoExtractor {
     try {
       const options = {
         headers: {
-            'User-Agent': USER_AGENT,
+          'Accept-Language': 'en-US,en;q=0.9',
+          'Cache-Control': 'max-age=0',
+          Priority: 'u=0, i',
+          'Sec-Ch-Ua': 'Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126',
+          'Sec-Ch-Ua-Mobile': '?0',
+          'Sec-Ch-Ua-Platform': 'Windows',
+          'Sec-Fetch-Dest': 'document',
+          'Sec-Fetch-Mode': 'navigate',
+          'Sec-Fetch-Site': 'none',
+          'Sec-Fetch-User': '?1',
+          'Upgrade-Insecure-Requests': '1',
+          'Referrer-Policy': 'no-referrer-when-downgrade',
+          Referer: videoUrl.href,
+          'User-Agent': USER_AGENT,
         },
       };
       const { data } = await this.client.get(videoUrl.href, options);
       const links = data.match(/file:\s*"([^"]+)"/);
       let lastLink = null;
       links.forEach((link: string) => {
-        if(link.includes('file:"')){
+        if (link.includes('file:"')) {
           link = link.replace('file:"', '').replace(new RegExp('"', 'g'), '');
         }
         this.sources.push({
@@ -26,11 +39,7 @@ class StreamWish extends VideoExtractor {
         lastLink = link;
       });
 
-      const m3u8Content = await this.client.get(links[1], {
-        headers: {
-          Referer: videoUrl.href,
-        },
-      });
+      const m3u8Content = await this.client.get(links[1], options);
 
       if (m3u8Content.data.includes('EXTM3U')) {
         const videoList = m3u8Content.data.split('#EXT-X-STREAM-INF:');
@@ -42,7 +51,7 @@ class StreamWish extends VideoExtractor {
 
           this.sources.push({
             url: url,
-            quality: `${quality}`,
+            quality: `${quality}p`,
             isM3U8: url.includes('.m3u8'),
           });
         }

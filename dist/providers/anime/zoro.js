@@ -34,7 +34,7 @@ class Zoro extends models_1.AnimeParser {
                 info.url = `${this.baseUrl}/${id}`;
                 info.recommendations = await this.scrapeCard($);
                 info.relatedAnime = [];
-                $("#main-sidebar section:nth-child(1) div.anif-block-ul li").each((i, ele) => {
+                $('#main-sidebar section:nth-child(1) div.anif-block-ul li').each((i, ele) => {
                     var _a, _b, _c, _d, _e, _f, _g;
                     const card = $(ele);
                     const aTag = card.find('.film-name a');
@@ -45,7 +45,7 @@ class Zoro extends models_1.AnimeParser {
                         url: `${this.baseUrl}${aTag.attr('href')}`,
                         image: (_b = card.find('img')) === null || _b === void 0 ? void 0 : _b.attr('data-src'),
                         japaneseTitle: aTag.attr('data-jname'),
-                        type: (_d = (_c = card.find(".tick").contents().last()) === null || _c === void 0 ? void 0 : _c.text()) === null || _d === void 0 ? void 0 : _d.trim(),
+                        type: (_d = (_c = card.find('.tick').contents().last()) === null || _c === void 0 ? void 0 : _c.text()) === null || _d === void 0 ? void 0 : _d.trim(),
                         sub: parseInt((_e = card.find('.tick-item.tick-sub')) === null || _e === void 0 ? void 0 : _e.text()) || 0,
                         dub: parseInt((_f = card.find('.tick-item.tick-dub')) === null || _f === void 0 ? void 0 : _f.text()) || 0,
                         episodes: parseInt((_g = card.find('.tick-item.tick-eps')) === null || _g === void 0 ? void 0 : _g.text()) || 0,
@@ -356,24 +356,24 @@ class Zoro extends models_1.AnimeParser {
         return this.scrapeCardPage(`${this.baseUrl}/producer/${studio}?page=${page}`);
     }
     /**
-       * Fetches the schedule for a given date.
-       * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
-       * @returns A promise that resolves to an object containing the search results.
-       */
+     * Fetches the schedule for a given date.
+     * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
+     * @returns A promise that resolves to an object containing the search results.
+     */
     async fetchSchedule(date = new Date().toISOString().slice(0, 10)) {
         try {
             const res = {
                 results: [],
             };
-            const { data: { html } } = await this.client.get(`${this.baseUrl}/ajax/schedule/list?tzOffset=360&date=${date}`);
+            const { data: { html }, } = await this.client.get(`${this.baseUrl}/ajax/schedule/list?tzOffset=360&date=${date}`);
             const $ = (0, cheerio_1.load)(html);
             $('li').each((i, ele) => {
                 var _a;
                 const card = $(ele);
                 const title = card.find('.film-name');
-                const id = (_a = card.find("a.tsl-link").attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
-                const airingTime = card.find("div.time").text().replace("\n", "").trim();
-                const airingEpisode = card.find("div.film-detail div.fd-play button").text().replace("\n", "").trim();
+                const id = (_a = card.find('a.tsl-link').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
+                const airingTime = card.find('div.time').text().replace('\n', '').trim();
+                const airingEpisode = card.find('div.film-detail div.fd-play button').text().replace('\n', '').trim();
                 res.results.push({
                     id: id,
                     title: title.text(),
@@ -398,7 +398,9 @@ class Zoro extends models_1.AnimeParser {
                 var _a, _b, _c;
                 const card = $(el);
                 const titleElement = card.find('div.desi-head-title');
-                const id = ((_b = (_a = card.find('div.desi-buttons .btn-secondary').attr('href')) === null || _a === void 0 ? void 0 : _a.match(/\/([^/]+)$/)) === null || _b === void 0 ? void 0 : _b[1]) || null;
+                const id = ((_b = (_a = card
+                    .find('div.desi-buttons .btn-secondary')
+                    .attr('href')) === null || _a === void 0 ? void 0 : _a.match(/\/([^/]+)$/)) === null || _b === void 0 ? void 0 : _b[1]) || null;
                 const img = card.find('img.film-poster-img');
                 res.results.push({
                     id: id,
@@ -414,7 +416,7 @@ class Zoro extends models_1.AnimeParser {
                     sub: parseInt(card.find('div.sc-detail div.tick-sub').text().trim()) || 0,
                     dub: parseInt(card.find('div.sc-detail div.tick-dub').text().trim()) || 0,
                     episodes: parseInt(card.find('div.sc-detail div.tick-eps').text()) || 0,
-                    description: card.find('div.desi-description').text().trim()
+                    description: card.find('div.desi-description').text().trim(),
                 });
             });
             return res;
@@ -434,19 +436,19 @@ class Zoro extends models_1.AnimeParser {
             $('.nav-item').each((i, el) => {
                 var _a;
                 const card = $(el);
-                if (!card.hasClass("nav-bottom")) {
+                if (!card.hasClass('nav-bottom')) {
                     const image = card.find('.film-poster img').attr('data-src');
                     const title = card.find('.film-name');
                     const id = (_a = card.attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
-                    const duration = card.find(".film-infor span").last().text().trim();
-                    const releaseDate = card.find(".film-infor span:nth-child(1)").text().trim();
-                    const type = card.find(".film-infor").find("span, i").remove().end().text().trim();
+                    const duration = card.find('.film-infor span').last().text().trim();
+                    const releaseDate = card.find('.film-infor span:nth-child(1)').text().trim();
+                    const type = card.find('.film-infor').find('span, i').remove().end().text().trim();
                     res.results.push({
                         image: image,
                         id: id,
                         title: title.text(),
                         japaneseTitle: title.attr('data-jname'),
-                        aliasTitle: card.find(".alias-name").text(),
+                        aliasTitle: card.find('.alias-name').text(),
                         releaseDate: releaseDate,
                         type: type,
                         duration: duration,

@@ -8,7 +8,7 @@ class Fmovies extends models_1.MovieParser {
     constructor(fmoviesResolver, proxyConfig, apiKey, adapter) {
         super(proxyConfig && proxyConfig.url ? proxyConfig : undefined, adapter);
         this.name = 'Fmovies';
-        this.baseUrl = 'https://fmovies.to';
+        this.baseUrl = 'https://fmovies24.to';
         this.logo = 'https://s1.bunnycdn.ru/assets/sites/fmovies/logo2.png';
         this.classPath = 'MOVIES.Fmovies';
         this.supportedTypes = new Set([models_1.TvType.MOVIE, models_1.TvType.TVSERIES]);

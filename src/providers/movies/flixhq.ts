@@ -411,8 +411,7 @@ class FlixHQ extends MovieParser {
               $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
                 ? TvType.MOVIE
                 : TvType.TVSERIES,
-
-          })
+          });
         })
         .get();
       return result;
@@ -420,7 +419,7 @@ class FlixHQ extends MovieParser {
       throw new Error((err as Error).message);
     }
   };
-  
+
   fetchByGenre = async (genre: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
     const result: ISearch<IMovieResult> = {
       currentPage: page,
@@ -428,9 +427,7 @@ class FlixHQ extends MovieParser {
       results: [],
     };
     try {
-      const { data } = await this.client.get(
-        `${this.baseUrl}/genre/${genre}?page=${page}`
-      );
+      const { data } = await this.client.get(`${this.baseUrl}/genre/${genre}?page=${page}`);
 
       const $ = load(data);
 
