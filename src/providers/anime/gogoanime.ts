@@ -28,7 +28,11 @@ class Gogoanime extends AnimeParser {
 
   constructor(customBaseURL?: string, proxy?: ProxyConfig, adapter?: AxiosAdapter) {
     super(...arguments);
-    this.baseUrl = customBaseURL ? `https://${customBaseURL}` : this.baseUrl;
+    this.baseUrl = customBaseURL
+      ? customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')
+        ? customBaseURL
+        : `http://${customBaseURL}`
+      : this.baseUrl;
     if (proxy) {
       // Initialize proxyConfig if provided
       this.setProxy(proxy);

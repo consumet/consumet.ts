@@ -270,7 +270,7 @@ class Zoro extends models_1.AnimeParser {
         this.fetchEpisodeServers = (episodeId) => {
             throw new Error('Method not implemented.');
         };
-        this.baseUrl = customBaseURL ? `https://${customBaseURL}` : this.baseUrl;
+        this.baseUrl = customBaseURL ? (customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://') ? customBaseURL : `http://${customBaseURL}`) : this.baseUrl;
     }
     /**
      * @param query Search query
