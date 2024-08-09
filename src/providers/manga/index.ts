@@ -27,5 +27,5 @@ export default {
   MangaHost,
   BRMangas,
   ReadManga,
-  VyvyManga
+  VyvyManga,
 };
