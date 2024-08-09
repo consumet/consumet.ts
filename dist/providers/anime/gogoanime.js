@@ -98,10 +98,7 @@ class Gogoanime extends models_1.AnimeParser {
                         animeInfo.status = models_1.MediaStatus.UNKNOWN;
                         break;
                 }
-                animeInfo.otherName = $('div.anime_info_body_bg > p:nth-child(10)')
-                    .text()
-                    .replace('Other name: ', '')
-                    .replace(/;/g, ',');
+                animeInfo.otherName = $('.other-name a').text().trim();
                 $('div.anime_info_body_bg > p:nth-child(7) > a').each((i, el) => {
                     var _a;
                     (_a = animeInfo.genres) === null || _a === void 0 ? void 0 : _a.push($(el).attr('title').toString());

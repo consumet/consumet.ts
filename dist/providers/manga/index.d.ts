@@ -11,6 +11,7 @@ import FlameScans from './flamescans';
 import MangaHost from './mangahost';
 import BRMangas from './brmangas';
 import ReadManga from './readmanga';
+import VyvyManga from './vyvymanga';
 declare const _default: {
     MangaDex: typeof MangaDex;
     ComicK: typeof ComicK;
@@ -25,5 +26,6 @@ declare const _default: {
     MangaHost: typeof MangaHost;
     BRMangas: typeof BRMangas;
     ReadManga: typeof ReadManga;
+    VyvyManga: typeof VyvyManga;
 };
 export default _default;

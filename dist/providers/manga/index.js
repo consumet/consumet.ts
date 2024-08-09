@@ -16,6 +16,7 @@ const flamescans_1 = __importDefault(require("./flamescans"));
 const mangahost_1 = __importDefault(require("./mangahost"));
 const brmangas_1 = __importDefault(require("./brmangas"));
 const readmanga_1 = __importDefault(require("./readmanga"));
+const vyvymanga_1 = __importDefault(require("./vyvymanga"));
 exports.default = {
     MangaDex: mangadex_1.default,
     ComicK: comick_1.default,
@@ -30,5 +31,6 @@ exports.default = {
     MangaHost: mangahost_1.default,
     BRMangas: brmangas_1.default,
     ReadManga: readmanga_1.default,
+    VyvyManga: vyvymanga_1.default,
 };
 //# sourceMappingURL=index.js.map

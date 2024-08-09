@@ -25,7 +25,11 @@ class Zoro extends AnimeParser {
 
   constructor(customBaseURL?: string) {
     super(...arguments);
-    this.baseUrl = customBaseURL ? (customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://') ? customBaseURL : `http://${customBaseURL}`) : this.baseUrl;
+    this.baseUrl = customBaseURL
+      ? customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')
+        ? customBaseURL
+        : `http://${customBaseURL}`
+      : this.baseUrl;
   }
 
   /**
