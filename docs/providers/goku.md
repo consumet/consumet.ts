@@ -14,6 +14,8 @@ const goku = new MOVIES.Goku();
 - [fetchRecentTvShows](#fetchrecenttvshows)
 - [fetchTrendingMovies](#fetchtrendingmovies)
 - [fetchTrendingTvShows](#fetchtrendingtvshows)
+- [fetchByCountry](#fetchbycountry)
+- [fetchByGenre](#fetchbygenre)
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
@@ -368,4 +370,82 @@ output:
   },
   {...},
 ]
+```
+
+### fetchByCountry
+
+```ts
+goku.fetchByCountrty('india-105').then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of tv shows. (*[`Promise<ISearch<IMovieResult>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L328-L336)*)\
+output:
+
+```js
+{
+  currentPage: 1,
+  hasNextPage: true,
+  results: [
+    {
+      id: 'movie/watch-bloody-ishq-112024',
+      title: 'Bloody Ishq',
+      url: 'https://goku.sx/movie/watch-bloody-ishq-112024',
+      image: 'https://img.goku.sx/xxrz/250x400/576/c4/14/c414870b61993b268593d962994d15a8/c414870b61993b268593d962994d15a8.jpg',
+      type: 'Movie',
+      releaseDate: '2024',
+      duration: '138min'
+    },
+    {
+      id: 'movie/watch-wild-wild-punjab-111226',
+      title: 'Wild Wild Punjab',
+      url: 'https://goku.sx/movie/watch-wild-wild-punjab-111226',
+      image: 'https://img.goku.sx/xxrz/250x400/576/ec/d7/ecd7abd2c25ef985c1cbd55fa62a97b8/ecd7abd2c25ef985c1cbd55fa62a97b8.jpg',
+      type: 'Movie',
+      releaseDate: '2024',
+      duration: '111min'
+    },
+    {...},
+  ]
+}
+```
+
+### fetchByGenre
+
+```ts
+goku.fetchByGenre('action-1').then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of tv shows. (*[`Promise<ISearch<IMovieResult>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L328-L336)*)\
+output:
+
+```js
+{
+  currentPage: 1,
+  hasNextPage: true,
+  results: [
+    {
+      id: 'movie/watch-the-pastor-111166',
+      title: 'The Pastor',
+      url: 'https://goku.sx/movie/watch-the-pastor-111166',
+      image: 'https://img.goku.sx/xxrz/250x400/576/cf/98/cf98db6049fd31178a415817f2de796b/cf98db6049fd31178a415817f2de796b.jpg',
+      type: 'Movie',
+      releaseDate: '2024',
+      duration: '88min'
+    },
+    {
+      id: 'movie/watch-ang-pintor-at-ang-paraluman-112501',
+      title: 'Ang Pintor At Ang Paraluman',
+      url: 'https://goku.sx/movie/watch-ang-pintor-at-ang-paraluman-112501',
+      image: 'https://img.goku.sx/xxrz/250x400/576/4a/0f/4a0f7df9c4a0d91ae81330d37e8f551e/4a0f7df9c4a0d91ae81330d37e8f551e.jpg',
+      type: 'Movie',
+      releaseDate: '2024',
+      duration: '104min'
+    },
+    {...},
+  ]
+}
 ```
