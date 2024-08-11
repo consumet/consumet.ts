@@ -440,8 +440,8 @@ class MovieHdWatch extends MovieParser {
               ? TvType.MOVIE
               : TvType.TVSERIES,
           }
-          let season = $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text()
-          let latestEpisode = $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text() ?? null
+          const season = $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text()
+          const latestEpisode = $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text() ?? null
           if (resultItem.type===TvType.TVSERIES) {
             resultItem.season = season
             resultItem.latestEpisode = latestEpisode
@@ -485,8 +485,8 @@ class MovieHdWatch extends MovieParser {
             ? TvType.MOVIE
             : TvType.TVSERIES,
         }
-        let season = $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text()
-        let latestEpisode = $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text() ?? null
+        const season = $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text()
+        const latestEpisode = $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text() ?? null
         if (resultItem.type===TvType.TVSERIES) {
           resultItem.season = season
           resultItem.latestEpisode = latestEpisode

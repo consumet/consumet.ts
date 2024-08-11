@@ -410,8 +410,8 @@ class FlixHQ extends MovieParser {
                 ? TvType.MOVIE
                 : TvType.TVSERIES,
           }
-          let season = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text()
-          let latestEpisode = $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() ?? null
+          const season = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text()
+          const latestEpisode = $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() ?? null
           if (resultItem.type === TvType.TVSERIES) {
             resultItem.season = season
             resultItem.latestEpisode = latestEpisode
@@ -456,8 +456,8 @@ class FlixHQ extends MovieParser {
               ? TvType.MOVIE
               : TvType.TVSERIES,
         }
-        let season = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text()
-          let latestEpisode = $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() ?? null
+        const season = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text()
+          const latestEpisode = $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() ?? null
         if (resultItem.type === TvType.TVSERIES) {
           resultItem.season = season
           resultItem.latestEpisode = latestEpisode
