@@ -33,5 +33,7 @@ declare class MovieHdWatch extends MovieParser {
     fetchRecentTvShows: () => Promise<IMovieResult[]>;
     fetchTrendingMovies: () => Promise<IMovieResult[]>;
     fetchTrendingTvShows: () => Promise<IMovieResult[]>;
+    fetchByCountry: (country: string, page?: number) => Promise<ISearch<IMovieResult>>;
+    fetchByGenre: (genre: string, page?: number) => Promise<ISearch<IMovieResult>>;
 }
 export default MovieHdWatch;
