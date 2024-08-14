@@ -51,6 +51,16 @@ test('fetchPopular: returns a filled array of popular movies/TV.', async () => {
   expect(data.results).not.toEqual([]);
 });
 
+test('fetchRecentMovies: returns a filled array of recent movies.', async () => {
+  const data = await dramaCool.fetchRecentMovies();
+  expect(data.results).not.toEqual([]);
+});
+
+test('fetchRecentTvShows: returns a filled array of recent tv-shows.', async () => {
+  const data = await dramaCool.fetchRecentTvShows();
+  expect(data.results).not.toEqual([]);
+});
+
 test('fetchMediaInfo:returns content-rating, airs-on, director, original-network,trailer, characters', async () => {
   const data = await dramaCool.fetchMediaInfo('drama-detail/vincenzo');
   expect(data.contentRating).not.toEqual(undefined);

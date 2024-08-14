@@ -11,6 +11,8 @@ const dramacool = new MOVIES.DramaCool();
 - [fetchEpisodeSources](#fetchepisodesources)
 - [fetchEpisodeServers](#fetchepisodeservers)
 - [fetchPopular](#fetchpopular)
+- [fetchRecentMovies](#fetchrecentmovies)
+- [fetchRecentTvShows](#fetchrecenttvshows)
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
@@ -139,7 +141,8 @@ output:
       url: 'https://asiancdn.com/images/db287e9dc37d8c5b67c2498e3ef07c5a/1.vtt',
       lang: 'Default (maybe)'
     }
-  ]
+  ],
+  download: 'https://asianbxkiun.pro/download?id=MjMwOTI2&title=Vincenzo+%282021%29+episode+1&typesub=SUB' //only for AsianLoad
 }
 ```
 
@@ -209,6 +212,76 @@ output:
       title: 'No Way Out: The Roulette (2024)',
       url: 'https://dramacool.com.pa/drama-detail/open-murder-contract',
       image: 'https://asianimg.pro/cover/open-murder-contract-1720405656.png'
+    },
+    {...}
+  ]
+}
+```
+
+
+### fetchRecentMovies
+
+```ts
+dramacool.fetchRecentMovies.then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of movies. (*[`Promise<ISearch<IMovieResult>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L328-L336)*)\
+output:
+```js
+{
+  currentPage: 1,
+  totalPages: 207,
+  hasNextPage: true,
+  results: [
+    {
+      id: 'drama-detail/cross-',
+      title: 'Mission Cross (2024)',
+      url: 'https://dramacool.com.pa/mission-cross-2024-episode-1.html',
+      image: 'https://asianimg.pro/cover/cross--1723170340.png'
+    },
+    {
+      id: 'drama-detail/mentalese-express-2023',
+      title: 'Mentalese Express (2023)',
+      url: 'https://dramacool.com.pa/mentalese-express-2023-episode-1.html',
+      image: 'https://asianimg.pro/cover/mentalese-express-2023-1723173905.png'
+    },
+    {...}
+  ]
+}
+```
+
+
+### fetchRecentTvShows
+
+```ts
+dramacool.fetchRecentTvShows.then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of movies. (*[`Promise<ISearch<IMovieResult>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L328-L336)*)\
+output:
+```js
+{
+  currentPage: 1,
+  totalPages: 376,
+  hasNextPage: true,
+  results: [
+    {
+      id: 'drama-detail/kimi-to-yukite-saku-shinsengumi-seishunroku',
+      title: 'Kimi to Yukite Saku: Shinsengumi Seishunroku (2024)',
+      url: 'https://dramacool.com.pa/kimi-to-yukite-saku-shinsengumi-seishunroku-2024-episode-12.html',
+      image: 'https://asianimg.pro/cover/kimi-to-yukite-saku-shinsengumi-seishunroku-1711089348.png',
+      episodeNumber: '12'
+    },
+    {
+      id: 'drama-detail/ayaka-chan-wa-hiroko-senpai-ni-koishiteru',
+      title: 'Ayaka-chan wa Hiroko-senpai ni Koishiteru (2024)',
+      url: 'https://dramacool.com.pa/ayaka-chan-wa-hiroko-senpai-ni-koishiteru-2024-episode-6.html',
+      image: 'https://asianimg.pro/cover/ayaka-chan-wa-hiroko-senpai-ni-koishiteru-2024-1719580986.png',
+      episodeNumber: '6'
     },
     {...}
   ]
