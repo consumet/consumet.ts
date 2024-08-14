@@ -25,7 +25,7 @@ class Myanimelist extends models_1.AnimeParser {
         this.logo = 'https://en.wikipedia.org/wiki/MyAnimeList#/media/File:MyAnimeList.png';
         this.classPath = 'META.Myanimelist';
         this.anilistGraphqlUrl = 'https://graphql.anilist.co';
-        this.kitsuGraphqlUrl = 'https://kitsu.io/api/graphql';
+        this.kitsuGraphqlUrl = 'https://kitsu.app/api/graphql';
         this.malSyncUrl = 'https://api.malsync.moe';
         this.anifyUrl = utils_2.ANIFY_URL;
         this.search = async (query, page = 1) => {

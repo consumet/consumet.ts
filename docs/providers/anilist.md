@@ -265,7 +265,7 @@ output:
     {
       id: 'youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-episode-12',
       title: 'What is evil? Whatever springs from weakness.',
-      image: 'https://media.kitsu.io/episodes/thumbnails/228542/original.jpg',
+      image: 'https://media.kitsu.app/episodes/thumbnails/228542/original.jpg',
       number: 12,
       description: "Melancholy, unmotivated Ayanokoji Kiyotaka attends his first day at Tokyo Metropoiltan Advanced Nuturing High School, ...",
       url: '...'
