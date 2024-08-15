@@ -276,16 +276,8 @@ class Goku extends models_1.MovieParser {
                         title: $(ele).find('.movie-name').text(),
                         url: `${this.baseUrl}${$(ele).find('.is-watch > a').attr('href')}`,
                         image: $(ele).find('.movie-thumbnail > a > img').attr('src'),
-                        season: $(ele)
-                            .find('.info-split > div:nth-child(2)')
-                            .text()
-                            .split('/')[0]
-                            .trim(),
-                        latestEpisode: $(ele)
-                            .find('.info-split > div:nth-child(2)')
-                            .text()
-                            .split('/')[1]
-                            .trim(),
+                        season: $(ele).find('.info-split > div:nth-child(2)').text().split('/')[0].trim(),
+                        latestEpisode: $(ele).find('.info-split > div:nth-child(2)').text().split('/')[1].trim(),
                         type: ((_c = (_b = $(ele).find('.is-watch > a').attr('href')) === null || _b === void 0 ? void 0 : _b.indexOf('watch-series')) !== null && _c !== void 0 ? _c : -1 > -1)
                             ? models_1.TvType.TVSERIES
                             : models_1.TvType.MOVIE,
@@ -341,16 +333,8 @@ class Goku extends models_1.MovieParser {
                         title: $(ele).find('.movie-name').text(),
                         url: `${this.baseUrl}${$(ele).find('.is-watch > a').attr('href')}`,
                         image: $(ele).find('.movie-thumbnail > a > img').attr('src'),
-                        season: $(ele)
-                            .find('.info-split > div:nth-child(2)')
-                            .text()
-                            .split('/')[0]
-                            .trim(),
-                        latestEpisode: $(ele)
-                            .find('.info-split > div:nth-child(2)')
-                            .text()
-                            .split('/')[1]
-                            .trim(),
+                        season: $(ele).find('.info-split > div:nth-child(2)').text().split('/')[0].trim(),
+                        latestEpisode: $(ele).find('.info-split > div:nth-child(2)').text().split('/')[1].trim(),
                         type: ((_c = (_b = $(ele).find('.is-watch > a').attr('href')) === null || _b === void 0 ? void 0 : _b.indexOf('watch-series')) !== null && _c !== void 0 ? _c : -1 > -1)
                             ? models_1.TvType.TVSERIES
                             : models_1.TvType.MOVIE,
@@ -373,8 +357,10 @@ class Goku extends models_1.MovieParser {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/country/${country}/?page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
-                result.hasNextPage = $('.page-link').length > 0 ? $('.page-link').last().attr('title') === 'Last' : false;
-                $('div.section-items.section-items-default > div.item').each((i, el) => {
+                result.hasNextPage =
+                    $('.page-link').length > 0 ? $('.page-link').last().attr('title') === 'Last' : false;
+                $('div.section-items.section-items-default > div.item')
+                    .each((i, el) => {
                     var _a, _b, _c, _d;
                     const resultItem = {
                         id: (_b = (_a = $(el).find('div.movie-thumbnail > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1)) !== null && _b !== void 0 ? _b : '',
@@ -386,8 +372,16 @@ class Goku extends models_1.MovieParser {
                             : models_1.TvType.TVSERIES,
                     };
                     if (resultItem.type === models_1.TvType.TVSERIES) {
-                        resultItem.season = $(el).find('div.movie-info > div.info-split > div:nth-child(2)').text().split('/')[0].trim();
-                        resultItem.latestEpisode = $(el).find('div.movie-info > div.info-split > div:nth-child(2)').text().split('/')[1].trim();
+                        resultItem.season = $(el)
+                            .find('div.movie-info > div.info-split > div:nth-child(2)')
+                            .text()
+                            .split('/')[0]
+                            .trim();
+                        resultItem.latestEpisode = $(el)
+                            .find('div.movie-info > div.info-split > div:nth-child(2)')
+                            .text()
+                            .split('/')[1]
+                            .trim();
                     }
                     else {
                         resultItem.releaseDate = $(el).find('div.movie-info > div.info-split > div:nth-child(1)').text();
@@ -411,8 +405,10 @@ class Goku extends models_1.MovieParser {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/genre/${genre}?page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
-                result.hasNextPage = $('.page-link').length > 0 ? $('.page-link').last().attr('title') === 'Last' : false;
-                $('div.section-items.section-items-default > div.item').each((i, el) => {
+                result.hasNextPage =
+                    $('.page-link').length > 0 ? $('.page-link').last().attr('title') === 'Last' : false;
+                $('div.section-items.section-items-default > div.item')
+                    .each((i, el) => {
                     var _a, _b, _c, _d;
                     const resultItem = {
                         id: (_b = (_a = $(el).find('div.movie-thumbnail > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1)) !== null && _b !== void 0 ? _b : '',
@@ -424,8 +420,16 @@ class Goku extends models_1.MovieParser {
                             : models_1.TvType.TVSERIES,
                     };
                     if (resultItem.type === models_1.TvType.TVSERIES) {
-                        resultItem.season = $(el).find('div.movie-info > div.info-split > div:nth-child(2)').text().split('/')[0].trim();
-                        resultItem.latestEpisode = $(el).find('div.movie-info > div.info-split > div:nth-child(2)').text().split('/')[1].trim();
+                        resultItem.season = $(el)
+                            .find('div.movie-info > div.info-split > div:nth-child(2)')
+                            .text()
+                            .split('/')[0]
+                            .trim();
+                        resultItem.latestEpisode = $(el)
+                            .find('div.movie-info > div.info-split > div:nth-child(2)')
+                            .text()
+                            .split('/')[1]
+                            .trim();
                     }
                     else {
                         resultItem.releaseDate = $(el).find('div.movie-info > div.info-split > div:nth-child(1)').text();

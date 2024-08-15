@@ -140,7 +140,7 @@ class DramaCool extends models_1.MovieParser {
                     case models_1.StreamingServers.AsianLoad:
                         return {
                             ...(await new extractors_1.AsianLoad(this.proxyConfig, this.adapter).extract(serverUrl)),
-                            download: this.downloadLink(episodeId)
+                            download: this.downloadLink(episodeId),
                         };
                     case models_1.StreamingServers.MixDrop:
                         return {
@@ -242,7 +242,9 @@ class DramaCool extends models_1.MovieParser {
                     image: $(el).find('img').attr('data-original'),
                 };
                 if (isTvShow || isMovies) {
-                    result.id = result.image ? result.image.replace(/^https:\/\/[^\/]+\/[^\/]+\/(.+?)-\d+\.\w+$/, "drama-detail/$1") : '';
+                    result.id = result.image
+                        ? result.image.replace(/^https:\/\/[^\/]+\/[^\/]+\/(.+?)-\d+\.\w+$/, 'drama-detail/$1')
+                        : '';
                 }
                 if (isTvShow) {
                     result.episodeNumber = parseFloat($(el).find('span.ep').text().trim().split(' ')[1]);
@@ -250,7 +252,8 @@ class DramaCool extends models_1.MovieParser {
                 results.results.push(result);
             });
             const navSelector = 'ul.pagination';
-            results.hasNextPage = $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('selected') : false;
+            results.hasNextPage =
+                $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('selected') : false;
             const lastPage = $(navSelector).children().last().find('a').attr('href');
             if (lastPage != undefined && lastPage != '' && lastPage.includes('page=')) {
                 const maxPage = new URLSearchParams(lastPage).get('page');

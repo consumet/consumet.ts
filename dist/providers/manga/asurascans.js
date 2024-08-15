@@ -6,43 +6,60 @@ class AsuraScans extends models_1.MangaParser {
     constructor() {
         super(...arguments);
         this.name = 'AsuraScans';
-        this.baseUrl = "https://asuracomic.net";
-        this.logo = "https://asuracomic.net/images/logo.png";
+        this.baseUrl = 'https://asuracomic.net';
+        this.logo = 'https://asuracomic.net/images/logo.png';
         this.classPath = 'MANGA.AsuraScans';
         this.fetchMangaInfo = async (mangaId) => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/${mangaId}`);
                 const $ = (0, cheerio_1.load)(data);
                 const dom = $('html');
-                const topInfoWrapper = dom.find(".relative.col-span-12.space-y-3.px-6");
+                const topInfoWrapper = dom.find('.relative.col-span-12.space-y-3.px-6');
                 const info = {
                     id: mangaId,
-                    title: dom.find(".text-xl.font-bold:nth-child(1)").text().trim(),
-                    image: $(topInfoWrapper).find("img").attr("src"),
-                    rating: $(topInfoWrapper).find("div > div.px-2.py-1 > p").text().trim(),
-                    status: this.determineMediaState($(topInfoWrapper).find("div > div.flex.flex-row > div:nth-child(1) > h3:nth-child(2)").text().trim()),
-                    description: dom.find("span.font-medium.text-sm").text().trim(),
-                    authors: dom.find(".grid.grid-cols-1.gap-5.mt-8 > div:nth-child(2) > h3:nth-child(2)").text().trim().split("/").map(ele => ele.trim()),
-                    artist: dom.find(".grid.grid-cols-1.gap-5.mt-8 > div:nth-child(3) > h3:nth-child(2)").text().trim(),
-                    updatedOn: dom.find(".grid.grid-cols-1.gap-5.mt-8 > div:nth-child(5) > h3:nth-child(2)").text().trim(),
-                    genres: dom.find(".space-y-1.pt-4 > div > button").map((index, ele) => $(ele).text().trim()).get(),
-                    chapters: dom.find(".pl-4.pr-2.pb-4.overflow-y-auto > div").map((index, ele) => {
+                    title: dom.find('.text-xl.font-bold:nth-child(1)').text().trim(),
+                    image: $(topInfoWrapper).find('img').attr('src'),
+                    rating: $(topInfoWrapper).find('div > div.px-2.py-1 > p').text().trim(),
+                    status: this.determineMediaState($(topInfoWrapper).find('div > div.flex.flex-row > div:nth-child(1) > h3:nth-child(2)').text().trim()),
+                    description: dom.find('span.font-medium.text-sm').text().trim(),
+                    authors: dom
+                        .find('.grid.grid-cols-1.gap-5.mt-8 > div:nth-child(2) > h3:nth-child(2)')
+                        .text()
+                        .trim()
+                        .split('/')
+                        .map(ele => ele.trim()),
+                    artist: dom.find('.grid.grid-cols-1.gap-5.mt-8 > div:nth-child(3) > h3:nth-child(2)').text().trim(),
+                    updatedOn: dom
+                        .find('.grid.grid-cols-1.gap-5.mt-8 > div:nth-child(5) > h3:nth-child(2)')
+                        .text()
+                        .trim(),
+                    genres: dom
+                        .find('.space-y-1.pt-4 > div > button')
+                        .map((index, ele) => $(ele).text().trim())
+                        .get(),
+                    chapters: dom
+                        .find('.pl-4.pr-2.pb-4.overflow-y-auto > div')
+                        .map((index, ele) => {
                         return {
-                            id: $(ele).find("h3:nth-child(1) > a").attr("href"),
-                            title: $(ele).find("h3:nth-child(1) > a").text().trim(),
-                            releaseDate: $(ele).find("h3:nth-child(2)").text().trim()
+                            id: $(ele).find('h3:nth-child(1) > a').attr('href'),
+                            title: $(ele).find('h3:nth-child(1) > a').text().trim(),
+                            releaseDate: $(ele).find('h3:nth-child(2)').text().trim(),
                         };
-                    }).get(),
-                    recommendations: dom.find(".grid.grid-cols-2.gap-3.p-4 > a").map((index, ele) => {
+                    })
+                        .get(),
+                    recommendations: dom
+                        .find('.grid.grid-cols-2.gap-3.p-4 > a')
+                        .map((index, ele) => {
                         return {
-                            id: $(ele).attr("href"),
-                            title: $(ele).find("div > h2.font-bold").text().trim(),
-                            image: $(ele).find("div > div > img").attr("src"),
-                            latestChapter: $(ele).find("div > h2:nth-child(3)").text().trim(),
-                            status: this.determineMediaState($(ele).find("div > div:nth-child(1) > span").text().trim()),
-                            rating: $(ele).find("div > div.block > span > label").text().trim()
+                            id: $(ele).attr('href'),
+                            title: $(ele).find('div > h2.font-bold').text().trim(),
+                            image: $(ele).find('div > div > img').attr('src'),
+                            latestChapter: $(ele).find('div > h2:nth-child(3)').text().trim(),
+                            status: this.determineMediaState($(ele).find('div > div:nth-child(1) > span').text().trim()),
+                            rating: $(ele).find('div > div.block > span > label').text().trim(),
                         };
-                    }).get()
+                    })
+                        .get(),
                 };
                 return info;
             }
@@ -55,12 +72,15 @@ class AsuraScans extends models_1.MangaParser {
                 const { data } = await this.client.get(`${this.baseUrl}/series/${chapterId}`);
                 const $ = (0, cheerio_1.load)(data);
                 const dom = $('html');
-                const pages = dom.find(".w-full.mx-auto.center > img").map((index, ele) => {
+                const pages = dom
+                    .find('.w-full.mx-auto.center > img')
+                    .map((index, ele) => {
                     return {
-                        img: $(ele).attr("src"),
-                        page: index + 1
+                        img: $(ele).attr('src'),
+                        page: index + 1,
                     };
-                }).get();
+                })
+                    .get();
                 return pages;
             }
             catch (err) {
@@ -77,20 +97,27 @@ class AsuraScans extends models_1.MangaParser {
                 const { data } = await this.client.get(`${this.baseUrl}/series?page=${page}&name=${formattedQuery}`);
                 const $ = (0, cheerio_1.load)(data);
                 const dom = $('html');
-                const results = dom.find(".grid.grid-cols-2.gap-3.p-4 > a").map((index, ele) => {
+                const results = dom
+                    .find('.grid.grid-cols-2.gap-3.p-4 > a')
+                    .map((index, ele) => {
                     return {
-                        id: $(ele).attr("href"),
-                        title: $(ele).find("div > div > div:nth-child(2) > span:nth-child(1)").text().trim(),
-                        image: $(ele).find("div > div > div:nth-child(1) > img").attr("src"),
-                        status: this.determineMediaState($(ele).find("div > div > div:nth-child(1) > span").text().trim()),
-                        latestChapter: $(ele).find("div > div > div:nth-child(2) > span:nth-child(2)").text().trim(),
-                        rating: $(ele).find("div > div > div:nth-child(2) > span:nth-child(3) > label").text().trim()
+                        id: $(ele).attr('href'),
+                        title: $(ele).find('div > div > div:nth-child(2) > span:nth-child(1)').text().trim(),
+                        image: $(ele).find('div > div > div:nth-child(1) > img').attr('src'),
+                        status: this.determineMediaState($(ele).find('div > div > div:nth-child(1) > span').text().trim()),
+                        latestChapter: $(ele).find('div > div > div:nth-child(2) > span:nth-child(2)').text().trim(),
+                        rating: $(ele).find('div > div > div:nth-child(2) > span:nth-child(3) > label').text().trim(),
                     };
-                }).get();
+                })
+                    .get();
                 const searchResults = {
                     currentPage: page,
-                    hasNextPage: dom.find(".flex.items-center.justify-center > a").attr("style").split("pointer-events:")[1].slice(1, -1) === "auto" ? true : false,
-                    results: results
+                    hasNextPage: dom.find('.flex.items-center.justify-center > a').attr('style')
+                        .split('pointer-events:')[1]
+                        .slice(1, -1) === 'auto'
+                        ? true
+                        : false,
+                    results: results,
                 };
                 return searchResults;
             }

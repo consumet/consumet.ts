@@ -317,16 +317,8 @@ class Goku extends MovieParser {
             title: $(ele).find('.movie-name').text(),
             url: `${this.baseUrl}${$(ele).find('.is-watch > a').attr('href')}`,
             image: $(ele).find('.movie-thumbnail > a > img').attr('src'),
-            season: $(ele)
-              .find('.info-split > div:nth-child(2)')
-              .text()
-              .split('/')[0]
-              .trim(),
-            latestEpisode: $(ele)
-              .find('.info-split > div:nth-child(2)')
-              .text()
-              .split('/')[1]
-              .trim(),
+            season: $(ele).find('.info-split > div:nth-child(2)').text().split('/')[0].trim(),
+            latestEpisode: $(ele).find('.info-split > div:nth-child(2)').text().split('/')[1].trim(),
             type:
               $(ele).find('.is-watch > a').attr('href')?.indexOf('watch-series') ?? -1 > -1
                 ? TvType.TVSERIES
@@ -384,16 +376,8 @@ class Goku extends MovieParser {
             title: $(ele).find('.movie-name').text(),
             url: `${this.baseUrl}${$(ele).find('.is-watch > a').attr('href')}`,
             image: $(ele).find('.movie-thumbnail > a > img').attr('src'),
-            season: $(ele)
-              .find('.info-split > div:nth-child(2)')
-              .text()
-              .split('/')[0]
-              .trim(),
-            latestEpisode: $(ele)
-              .find('.info-split > div:nth-child(2)')
-              .text()
-              .split('/')[1]
-              .trim(),
+            season: $(ele).find('.info-split > div:nth-child(2)').text().split('/')[0].trim(),
+            latestEpisode: $(ele).find('.info-split > div:nth-child(2)').text().split('/')[1].trim(),
             type:
               $(ele).find('.is-watch > a').attr('href')?.indexOf('watch-series') ?? -1 > -1
                 ? TvType.TVSERIES
@@ -419,29 +403,38 @@ class Goku extends MovieParser {
       const { data } = await this.client.get(`${this.baseUrl}/country/${country}/?page=${page}`);
       const $ = load(data);
 
-      result.hasNextPage =$('.page-link').length > 0 ? $('.page-link').last().attr('title') === 'Last' : false
+      result.hasNextPage =
+        $('.page-link').length > 0 ? $('.page-link').last().attr('title') === 'Last' : false;
 
-      $('div.section-items.section-items-default > div.item').each((i, el) => {
-        const resultItem: IMovieResult = {
-          id: $(el).find('div.movie-thumbnail > a').attr('href')?.slice(1) ?? '',
-          title: $(el).find('div.movie-info > a > h3.movie-name').text().trim() ?? '',
-          url: `${this.baseUrl}${$(el).find('div.movie-info > a').attr('href')}`,
-          image: $(el).find('div.movie-thumbnail > a > img').attr('src'),
-          type: $(el).find('div.movie-info > a').attr('href')?.includes('movie/')
-            ? TvType.MOVIE
-            : TvType.TVSERIES,
-        }
-        
-        if (resultItem.type===TvType.TVSERIES) {
-          resultItem.season = $(el).find('div.movie-info > div.info-split > div:nth-child(2)').text().split('/')[0].trim()
-          resultItem.latestEpisode = $(el).find('div.movie-info > div.info-split > div:nth-child(2)').text().split('/')[1].trim()
-        } else {
-          resultItem.releaseDate = $(el).find('div.movie-info > div.info-split > div:nth-child(1)').text()
-          resultItem.duration =  $(el).find('div.movie-info > div.info-split > div:nth-child(3)').text()
-        }
-        result.results.push(resultItem)
+      $('div.section-items.section-items-default > div.item')
+        .each((i, el) => {
+          const resultItem: IMovieResult = {
+            id: $(el).find('div.movie-thumbnail > a').attr('href')?.slice(1) ?? '',
+            title: $(el).find('div.movie-info > a > h3.movie-name').text().trim() ?? '',
+            url: `${this.baseUrl}${$(el).find('div.movie-info > a').attr('href')}`,
+            image: $(el).find('div.movie-thumbnail > a > img').attr('src'),
+            type: $(el).find('div.movie-info > a').attr('href')?.includes('movie/')
+              ? TvType.MOVIE
+              : TvType.TVSERIES,
+          };
 
-      })
+          if (resultItem.type === TvType.TVSERIES) {
+            resultItem.season = $(el)
+              .find('div.movie-info > div.info-split > div:nth-child(2)')
+              .text()
+              .split('/')[0]
+              .trim();
+            resultItem.latestEpisode = $(el)
+              .find('div.movie-info > div.info-split > div:nth-child(2)')
+              .text()
+              .split('/')[1]
+              .trim();
+          } else {
+            resultItem.releaseDate = $(el).find('div.movie-info > div.info-split > div:nth-child(1)').text();
+            resultItem.duration = $(el).find('div.movie-info > div.info-split > div:nth-child(3)').text();
+          }
+          result.results.push(resultItem);
+        })
         .get();
       return result;
     } catch (err) {
@@ -460,30 +453,39 @@ class Goku extends MovieParser {
 
       const $ = load(data);
 
-      result.hasNextPage =$('.page-link').length > 0 ? $('.page-link').last().attr('title') === 'Last' : false
+      result.hasNextPage =
+        $('.page-link').length > 0 ? $('.page-link').last().attr('title') === 'Last' : false;
 
-      $('div.section-items.section-items-default > div.item').each((i, el) => {
-        const resultItem: IMovieResult = {
-          id: $(el).find('div.movie-thumbnail > a').attr('href')?.slice(1) ?? '',
-          title: $(el).find('div.movie-info > a > h3.movie-name').text().trim() ?? '',
-          url: `${this.baseUrl}${$(el).find('div.movie-info > a').attr('href')}`,
-          image: $(el).find('div.movie-thumbnail > a > img').attr('src'),
-          type: $(el).find('div.movie-info > a').attr('href')?.includes('movie/')
-            ? TvType.MOVIE
-            : TvType.TVSERIES,
-        }
-        
-        if (resultItem.type===TvType.TVSERIES) {
-          resultItem.season = $(el).find('div.movie-info > div.info-split > div:nth-child(2)').text().split('/')[0].trim()
-          resultItem.latestEpisode = $(el).find('div.movie-info > div.info-split > div:nth-child(2)').text().split('/')[1].trim()
-        } else {
-          resultItem.releaseDate = $(el).find('div.movie-info > div.info-split > div:nth-child(1)').text()
-          resultItem.duration =  $(el).find('div.movie-info > div.info-split > div:nth-child(3)').text()
-        }
-        result.results.push(resultItem)
+      $('div.section-items.section-items-default > div.item')
+        .each((i, el) => {
+          const resultItem: IMovieResult = {
+            id: $(el).find('div.movie-thumbnail > a').attr('href')?.slice(1) ?? '',
+            title: $(el).find('div.movie-info > a > h3.movie-name').text().trim() ?? '',
+            url: `${this.baseUrl}${$(el).find('div.movie-info > a').attr('href')}`,
+            image: $(el).find('div.movie-thumbnail > a > img').attr('src'),
+            type: $(el).find('div.movie-info > a').attr('href')?.includes('movie/')
+              ? TvType.MOVIE
+              : TvType.TVSERIES,
+          };
 
-      })
-      .get();
+          if (resultItem.type === TvType.TVSERIES) {
+            resultItem.season = $(el)
+              .find('div.movie-info > div.info-split > div:nth-child(2)')
+              .text()
+              .split('/')[0]
+              .trim();
+            resultItem.latestEpisode = $(el)
+              .find('div.movie-info > div.info-split > div:nth-child(2)')
+              .text()
+              .split('/')[1]
+              .trim();
+          } else {
+            resultItem.releaseDate = $(el).find('div.movie-info > div.info-split > div:nth-child(1)').text();
+            resultItem.duration = $(el).find('div.movie-info > div.info-split > div:nth-child(3)').text();
+          }
+          result.results.push(resultItem);
+        })
+        .get();
 
       return result;
     } catch (err) {
