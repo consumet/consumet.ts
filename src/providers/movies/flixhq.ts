@@ -157,7 +157,7 @@ class FlixHQ extends MovieParser {
         movieInfo.episodes = [
           {
             id: uid,
-            title: movieInfo.title + ' Movie',
+            title: movieInfo.title,
             url: `${this.baseUrl}/ajax/movie/episodes/${uid}`,
           },
         ];
@@ -400,18 +400,27 @@ class FlixHQ extends MovieParser {
 
       $('div.container > section.block_area > div.block_area-content > div.film_list-wrap > div.flw-item')
         .each((i, el) => {
-          result.results.push({
+          const resultItem: IMovieResult = {
             id: $(el).find('div.film-poster > a').attr('href')?.slice(1) ?? '',
             title: $(el).find('div.film-detail > h2.film-name > a').attr('title') ?? '',
             url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
             image: $(el).find('div.film-poster > img').attr('data-src'),
-            season: $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text(),
-            latestEpisode: $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() ?? null,
             type:
               $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
                 ? TvType.MOVIE
                 : TvType.TVSERIES,
-          });
+          }
+          const season = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text()
+          const latestEpisode = $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() ?? null
+          if (resultItem.type === TvType.TVSERIES) {
+            resultItem.season = season
+            resultItem.latestEpisode = latestEpisode
+          } else {
+            resultItem.releaseDate = season
+            resultItem.duration = latestEpisode
+          }
+          result.results.push(resultItem)
+
         })
         .get();
       return result;
@@ -437,20 +446,29 @@ class FlixHQ extends MovieParser {
         $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
 
       $('.film_list-wrap > div.flw-item').each((i, el) => {
-        const releaseDate = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
-        result.results.push({
+        const resultItem: IMovieResult = {
           id: $(el).find('div.film-poster > a').attr('href')?.slice(1) ?? '',
           title: $(el).find('div.film-detail > h2 > a').attr('title') ?? '',
           url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
           image: $(el).find('div.film-poster > img').attr('data-src'),
-          releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
-          seasons: releaseDate.includes('SS') ? parseInt(releaseDate.split('SS')[1]) : undefined,
           type:
             $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
               ? TvType.MOVIE
               : TvType.TVSERIES,
-        });
-      });
+        }
+        const season = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text()
+        const latestEpisode = $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() ?? null
+        if (resultItem.type === TvType.TVSERIES) {
+          resultItem.season = season
+          resultItem.latestEpisode = latestEpisode
+        } else {
+          resultItem.releaseDate = season
+          resultItem.duration = latestEpisode
+        }
+        result.results.push(resultItem)
+
+      })
+        .get();
 
       return result;
     } catch (err) {
@@ -461,11 +479,11 @@ class FlixHQ extends MovieParser {
 
 // (async () => {
 //    const movie = new FlixHQ();
-//   const search = await movie.search('the flash');
+//   // const search = await movie.search('the flash');
 //   // const movieInfo = await movie.fetchEpisodeSources('1168337', 'tv/watch-vincenzo-67955');
 //   // const recentTv = await movie.fetchTrendingTvShows();
-//   //  const genre = await movie.fetchByCountry('KR')
-//   //  console.log(genre)
+//    const genre = await movie.fetchByGenre('drama')
+//    console.log(genre)
 // })();
 
 export default FlixHQ;

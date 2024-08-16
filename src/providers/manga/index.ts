@@ -11,6 +11,7 @@ import FlameScans from './flamescans';
 import MangaHost from './mangahost';
 import BRMangas from './brmangas';
 import ReadManga from './readmanga';
+import VyvyManga from './vyvymanga';
 
 export default {
   MangaDex,
@@ -26,4 +27,5 @@ export default {
   MangaHost,
   BRMangas,
   ReadManga,
+  VyvyManga,
 };

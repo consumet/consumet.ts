@@ -14,6 +14,8 @@ const flixhq = new MOVIES.FlixHQ();
 - [fetchRecentTvShows](#fetchrecenttvshows)
 - [fetchTrendingMovies](#fetchtrendingmovies)
 - [fetchTrendingTvShows](#fetchtrendingtvshows)
+- [fetchByCountry](#fetchbycountry)
+- [fetchByGenre](#fetchbygenre)
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
@@ -433,22 +435,22 @@ output:
   hasNextPage: true,
   results: [
     {
-      id: 'movie/watch-no-new-friends-105202',
-      title: 'No New Friends',
-      url: 'https://flixhq.to/movie/watch-no-new-friends-105202',
-      image: 'https://img.flixhq.to/xxrz/250x400/379/16/30/16304d1c6302e6b078f6b74d5ff58347/16304d1c6302e6b078f6b74d5ff58347.jpg',
-      releaseDate: '2024',
-      seasons: undefined,
-      type: 'Movie'
+      id: 'tv/watch-are-you-sure-112516',
+      title: 'Are You Sure?!',
+      url: 'https://flixhq.to/tv/watch-are-you-sure-112516',
+      image: 'https://img.flixhq.to/xxrz/250x400/379/56/5f/565fad67a9c9343acf4260994f565e62/565fad67a9c9343acf4260994f565e62.jpg',
+      type: 'TV Series',
+      season: 'SS 1',
+      latestEpisode: 'EPS 2'
     },
     {
-      id: 'tv/watch-shogun-106618',
-      title: 'Shōgun',
-      url: 'https://flixhq.to/tv/watch-shogun-106618',
-      image: 'https://img.flixhq.to/xxrz/250x400/379/a7/fc/a7fca6a36c98856de5e71d120a16e521/a7fca6a36c98856de5e71d120a16e521.jpg',
-      releaseDate: undefined,
-      seasons: 1,
-      type: 'TV Series'
+      id: 'movie/watch-mission-cross-112537',
+      title: 'Mission: Cross',
+      url: 'https://flixhq.to/movie/watch-mission-cross-112537',
+      image: 'https://img.flixhq.to/xxrz/250x400/379/b6/24/b62476092851e487dbf78d75162e2be9/b62476092851e487dbf78d75162e2be9.jpg',
+      type: 'Movie',
+      releaseDate: '2024',
+      duration: '100m'
     },
     {...}
   ]

@@ -42,6 +42,7 @@ import {
   anilistAdvancedQuery,
   anilistSiteStatisticsQuery,
   anilistCharacterQuery,
+  anilistStaffInfoQuery,
 } from './queries';
 import { parsePostInfo } from './getComics';
 
@@ -74,6 +75,7 @@ export {
   anilistGenresQuery,
   anilistAdvancedQuery,
   anilistSiteStatisticsQuery,
+  anilistStaffInfoQuery,
   Filemoon,
   anilistCharacterQuery,
   getDays,

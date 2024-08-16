@@ -9,6 +9,12 @@ declare class DramaCool extends MovieParser {
     fetchMediaInfo: (mediaId: string) => Promise<IMovieInfo>;
     fetchEpisodeServers(episodeId: string, ...args: any): Promise<IEpisodeServer[]>;
     fetchEpisodeSources: (episodeId: string, server?: StreamingServers) => Promise<ISource>;
+    fetchPopular: (page?: number) => Promise<ISearch<IMovieResult>>;
+    fetchRecentTvShows: (page?: number) => Promise<ISearch<IMovieResult>>;
+    fetchRecentMovies: (page?: number) => Promise<ISearch<IMovieResult>>;
+    private fetchData;
+    private downloadLink;
     private removeContainsFromString;
+    private cleanUpText;
 }
 export default DramaCool;

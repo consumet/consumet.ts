@@ -45,6 +45,7 @@ export interface ISearch<T> {
 
 export interface Trailer {
   id: string;
+  url?: string;
   site?: string;
   thumbnail?: string;
   thumbnailHash?: string | null;
@@ -423,6 +424,7 @@ export interface IMovieInfo extends IMovieResult {
   casts?: string[];
   tags?: string[];
   totalEpisodes?: number;
+  trailer?: Trailer;
   seasons?: { season: number; image?: string; episodes: IMovieEpisode[] }[];
   episodes?: IMovieEpisode[];
 }
@@ -477,4 +479,33 @@ export interface ProxyConfig {
    * The proxy rotation interval in milliseconds. (default: 5000)
    */
   rotateInterval?: number;
+}
+
+export interface IRoles {
+  id: string;
+  title: ITitle;
+  type?: string;
+  image: {
+    extraLarge?: string;
+    large?: string;
+    medium?: string;
+  };
+  color?: string;
+}
+
+export interface IStaff {
+  id: string;
+  name: {
+    first?: string;
+    last?: string;
+    native?: string;
+    full?: string;
+  };
+  image?: {
+    large?: string;
+    medium?: string;
+  };
+  description?: string;
+  siteUrl?: string;
+  roles?: IRoles[];
 }

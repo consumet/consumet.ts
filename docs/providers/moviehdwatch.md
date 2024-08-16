@@ -14,6 +14,8 @@ const moviesHd = new MOVIES.MovieHdWatch();
 - [fetchRecentTvShows](#fetchrecenttvshows)
 - [fetchTrendingMovies](#fetchtrendingmovies)
 - [fetchTrendingTvShows](#fetchtrendingtvshows)
+- [fetchByCountry](#fetchbycountry)
+- [fetchByGenre](#fetchbygenre)
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
@@ -433,4 +435,82 @@ output:
   },
   {...},
 ]
+```
+
+### fetchByCountry
+
+```ts
+moviesHd.fetchByCountrty('KR').then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of tv shows. (*[`Promise<ISearch<IMovieResult>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L328-L336)*)\
+output:
+
+```js
+{
+  currentPage: 1,
+  hasNextPage: true,
+  results: [
+    {
+      id: 'tv/watch-are-you-sure-online-112516',
+      title: 'Are You Sure?!',
+      url: 'https://movieshd.watch/tv/watch-are-you-sure-online-112516',
+      image: 'https://img.movieshd.watch/xxrz/250x400/391/56/5f/565fad67a9c9343acf4260994f565e62/565fad67a9c9343acf4260994f565e62.jpg',
+      type: 'TV Series',
+      season: 'SS 1',
+      latestEpisode: 'EPS 2'
+    },
+    {
+      id: 'movie/watch-mission-cross-online-112537',
+      title: 'Mission: Cross',
+      url: 'https://movieshd.watch/movie/watch-mission-cross-online-112537',
+      image: 'https://img.movieshd.watch/xxrz/250x400/391/b6/24/b62476092851e487dbf78d75162e2be9/b62476092851e487dbf78d75162e2be9.jpg',
+      type: 'Movie',
+      releaseDate: '2024',
+      duration: '100m'
+    },
+    {...},
+  ]
+}
+```
+
+### fetchByGenre
+
+```ts
+moviesHd.fetchByGenre('drama').then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of tv shows. (*[`Promise<ISearch<IMovieResult>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L328-L336)*)\
+output:
+
+```js
+{
+  currentPage: 1,
+  hasNextPage: true,
+  results: [
+    {
+      id: 'movie/watch-the-pastor-online-111166',
+      title: 'The Pastor',
+      url: 'https://movieshd.watch/movie/watch-the-pastor-online-111166',
+      image: 'https://img.movieshd.watch/xxrz/250x400/391/cf/98/cf98db6049fd31178a415817f2de796b/cf98db6049fd31178a415817f2de796b.jpg',
+      type: 'Movie',
+      releaseDate: '2024',
+      duration: '88m'
+    },
+    {
+      id: 'movie/watch-ang-pintor-at-ang-paraluman-online-112501',
+      title: 'Ang Pintor At Ang Paraluman',
+      url: 'https://movieshd.watch/movie/watch-ang-pintor-at-ang-paraluman-online-112501',
+      image: 'https://img.movieshd.watch/xxrz/250x400/391/4a/0f/4a0f7df9c4a0d91ae81330d37e8f551e/4a0f7df9c4a0d91ae81330d37e8f551e.jpg',
+      type: 'Movie',
+      releaseDate: '2024',
+      duration: '104m'
+    },
+    {...},
+  ]
+}
 ```

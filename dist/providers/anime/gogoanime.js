@@ -98,10 +98,7 @@ class Gogoanime extends models_1.AnimeParser {
                         animeInfo.status = models_1.MediaStatus.UNKNOWN;
                         break;
                 }
-                animeInfo.otherName = $('div.anime_info_body_bg > p:nth-child(10)')
-                    .text()
-                    .replace('Other name: ', '')
-                    .replace(/;/g, ',');
+                animeInfo.otherName = $('.other-name a').text().trim();
                 $('div.anime_info_body_bg > p:nth-child(7) > a').each((i, el) => {
                     var _a;
                     (_a = animeInfo.genres) === null || _a === void 0 ? void 0 : _a.push($(el).attr('title').toString());
@@ -258,7 +255,7 @@ class Gogoanime extends models_1.AnimeParser {
                         id: (_b = (_a = $(el).find('a').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1]) === null || _b === void 0 ? void 0 : _b.split('-episode')[0],
                         episodeId: (_c = $(el).find('a').attr('href')) === null || _c === void 0 ? void 0 : _c.split('/')[1],
                         episodeNumber: parseFloat($(el).find('p.episode').text().replace('Episode ', '')),
-                        title: $(el).find('p.name > a').attr('title'),
+                        title: $(el).find('p.name > a').text(),
                         image: $(el).find('div > a > img').attr('src'),
                         url: `${this.baseUrl}${(_d = $(el).find('a').attr('href')) === null || _d === void 0 ? void 0 : _d.trim()}`,
                     });
@@ -283,7 +280,7 @@ class Gogoanime extends models_1.AnimeParser {
                     var _a;
                     genreInfo.push({
                         id: (_a = $(elem).find('p.name > a').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2],
-                        title: $(elem).find('p.name > a').attr('title'),
+                        title: $(elem).find('p.name > a').text(),
                         image: $(elem).find('div > a > img').attr('src'),
                         released: $(elem).find('p.released').text().replace('Released: ', '').trim(),
                         url: this.baseUrl + '/' + $(elem).find('p.name > a').attr('href'),
@@ -310,7 +307,7 @@ class Gogoanime extends models_1.AnimeParser {
                     var _a, _b;
                     topAiring.push({
                         id: (_a = $(el).find('a:nth-child(1)').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2],
-                        title: $(el).find('a:nth-child(1)').attr('title'),
+                        title: $(el).find('a:nth-child(2)').text().trim().split(',')[0].trim(),
                         image: (_b = $(el).find('a:nth-child(1) > div').attr('style')) === null || _b === void 0 ? void 0 : _b.match('(https?://.*.(?:png|jpg))')[0],
                         url: `${this.baseUrl}${$(el).find('a:nth-child(1)').attr('href')}`,
                         genres: $(el)
@@ -344,7 +341,7 @@ class Gogoanime extends models_1.AnimeParser {
                     const pName = $(el).find('p.name > a');
                     recentMovies.push({
                         id: (_a = a.attr('href')) === null || _a === void 0 ? void 0 : _a.replace(`/category/`, ''),
-                        title: pName.attr('title'),
+                        title: pName.text(),
                         releaseDate: pRelease.text().replace('Released: ', '').trim(),
                         image: $(el).find('div > a > img').attr('src'),
                         url: `${this.baseUrl}${a.attr('href')}`,
@@ -374,7 +371,7 @@ class Gogoanime extends models_1.AnimeParser {
                     const pName = $(el).find('p.name > a');
                     recentMovies.push({
                         id: (_a = a.attr('href')) === null || _a === void 0 ? void 0 : _a.replace(`/category/`, ''),
-                        title: pName.attr('title'),
+                        title: pName.text(),
                         releaseDate: pRelease.text().replace('Released: ', '').trim(),
                         image: $(el).find('div > a > img').attr('src'),
                         url: `${this.baseUrl}${a.attr('href')}`,
@@ -485,7 +482,11 @@ class Gogoanime extends models_1.AnimeParser {
                 throw new Error('Something went wrong. Please try again later.');
             }
         };
-        this.baseUrl = customBaseURL ? `https://${customBaseURL}` : this.baseUrl;
+        this.baseUrl = customBaseURL
+            ? customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')
+                ? customBaseURL
+                : `http://${customBaseURL}`
+            : this.baseUrl;
         if (proxy) {
             // Initialize proxyConfig if provided
             this.setProxy(proxy);

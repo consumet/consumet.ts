@@ -45,3 +45,28 @@ test('Search: returns totalPages when search: Love.', async () => {
   const data = await dramaCool.search('Love');
   expect(data.totalPages).not.toEqual(1);
 });
+
+test('fetchPopular: returns a filled array of popular movies/TV.', async () => {
+  const data = await dramaCool.fetchPopular();
+  expect(data.results).not.toEqual([]);
+});
+
+test('fetchRecentMovies: returns a filled array of recent movies.', async () => {
+  const data = await dramaCool.fetchRecentMovies();
+  expect(data.results).not.toEqual([]);
+});
+
+test('fetchRecentTvShows: returns a filled array of recent tv-shows.', async () => {
+  const data = await dramaCool.fetchRecentTvShows();
+  expect(data.results).not.toEqual([]);
+});
+
+test('fetchMediaInfo:returns content-rating, airs-on, director, original-network,trailer, characters', async () => {
+  const data = await dramaCool.fetchMediaInfo('drama-detail/vincenzo');
+  expect(data.contentRating).not.toEqual(undefined);
+  expect(data.airsOn).not.toEqual(undefined);
+  expect(data.director).not.toEqual(undefined);
+  expect(data.originalNetwork).not.toEqual(undefined);
+  expect(data.trailer).not.toEqual(undefined);
+  expect(data.characters).not.toEqual([]);
+});

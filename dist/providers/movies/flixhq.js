@@ -163,7 +163,7 @@ class FlixHQ extends models_1.MovieParser {
                     movieInfo.episodes = [
                         {
                             id: uid,
-                            title: movieInfo.title + ' Movie',
+                            title: movieInfo.title,
                             url: `${this.baseUrl}/ajax/movie/episodes/${uid}`,
                         },
                     ];
@@ -376,19 +376,28 @@ class FlixHQ extends models_1.MovieParser {
                     $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
                 $('div.container > section.block_area > div.block_area-content > div.film_list-wrap > div.flw-item')
                     .each((i, el) => {
-                        var _a, _b, _c, _d;
-                        result.results.push({
-                            id: (_b = (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1)) !== null && _b !== void 0 ? _b : '',
-                            title: (_c = $(el).find('div.film-detail > h2.film-name > a').attr('title')) !== null && _c !== void 0 ? _c : '',
-                            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-                            image: $(el).find('div.film-poster > img').attr('data-src'),
-                            season: $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text(),
-                            latestEpisode: (_d = $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text()) !== null && _d !== void 0 ? _d : null,
-                            type: $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
-                                ? models_1.TvType.MOVIE
-                                : models_1.TvType.TVSERIES,
-                        });
-                    })
+                    var _a, _b, _c, _d;
+                    const resultItem = {
+                        id: (_b = (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1)) !== null && _b !== void 0 ? _b : '',
+                        title: (_c = $(el).find('div.film-detail > h2.film-name > a').attr('title')) !== null && _c !== void 0 ? _c : '',
+                        url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+                        image: $(el).find('div.film-poster > img').attr('data-src'),
+                        type: $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
+                            ? models_1.TvType.MOVIE
+                            : models_1.TvType.TVSERIES,
+                    };
+                    let season = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
+                    let latestEpisode = (_d = $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text()) !== null && _d !== void 0 ? _d : null;
+                    if (resultItem.type === models_1.TvType.TVSERIES) {
+                        resultItem.season = season;
+                        resultItem.latestEpisode = latestEpisode;
+                    }
+                    else {
+                        resultItem.releaseDate = season;
+                        resultItem.duration = latestEpisode;
+                    }
+                    result.results.push(resultItem);
+                })
                     .get();
                 return result;
             }
@@ -409,20 +418,29 @@ class FlixHQ extends models_1.MovieParser {
                 result.hasNextPage =
                     $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
                 $('.film_list-wrap > div.flw-item').each((i, el) => {
-                    var _a, _b, _c;
-                    const releaseDate = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
-                    result.results.push({
+                    var _a, _b, _c, _d;
+                    const resultItem = {
                         id: (_b = (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1)) !== null && _b !== void 0 ? _b : '',
                         title: (_c = $(el).find('div.film-detail > h2 > a').attr('title')) !== null && _c !== void 0 ? _c : '',
                         url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
                         image: $(el).find('div.film-poster > img').attr('data-src'),
-                        releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
-                        seasons: releaseDate.includes('SS') ? parseInt(releaseDate.split('SS')[1]) : undefined,
                         type: $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
                             ? models_1.TvType.MOVIE
                             : models_1.TvType.TVSERIES,
-                    });
-                });
+                    };
+                    let season = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
+                    let latestEpisode = (_d = $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text()) !== null && _d !== void 0 ? _d : null;
+                    if (resultItem.type === models_1.TvType.TVSERIES) {
+                        resultItem.season = season;
+                        resultItem.latestEpisode = latestEpisode;
+                    }
+                    else {
+                        resultItem.releaseDate = season;
+                        resultItem.duration = latestEpisode;
+                    }
+                    result.results.push(resultItem);
+                })
+                    .get();
                 return result;
             }
             catch (err) {
@@ -433,11 +451,11 @@ class FlixHQ extends models_1.MovieParser {
 }
 // (async () => {
 //    const movie = new FlixHQ();
-//   const search = await movie.search('the flash');
+//   // const search = await movie.search('the flash');
 //   // const movieInfo = await movie.fetchEpisodeSources('1168337', 'tv/watch-vincenzo-67955');
 //   // const recentTv = await movie.fetchTrendingTvShows();
-//   //  const genre = await movie.fetchByCountry('KR')
-//   //  console.log(genre)
+//    const genre = await movie.fetchByGenre('drama')
+//    console.log(genre)
 // })();
 exports.default = FlixHQ;
 //# sourceMappingURL=flixhq.js.map

@@ -28,7 +28,11 @@ class Gogoanime extends AnimeParser {
 
   constructor(customBaseURL?: string, proxy?: ProxyConfig, adapter?: AxiosAdapter) {
     super(...arguments);
-    this.baseUrl = customBaseURL ? `https://${customBaseURL}` : this.baseUrl;
+    this.baseUrl = customBaseURL
+      ? customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')
+        ? customBaseURL
+        : `http://${customBaseURL}`
+      : this.baseUrl;
     if (proxy) {
       // Initialize proxyConfig if provided
       this.setProxy(proxy);
@@ -138,10 +142,7 @@ class Gogoanime extends AnimeParser {
           animeInfo.status = MediaStatus.UNKNOWN;
           break;
       }
-      animeInfo.otherName = $('div.anime_info_body_bg > p:nth-child(10)')
-        .text()
-        .replace('Other name: ', '')
-        .replace(/;/g, ',');
+      animeInfo.otherName = $('.other-name a').text().trim();
 
       $('div.anime_info_body_bg > p:nth-child(7) > a').each((i, el) => {
         animeInfo.genres?.push($(el).attr('title')!.toString());
@@ -332,7 +333,7 @@ class Gogoanime extends AnimeParser {
           id: $(el).find('a').attr('href')?.split('/')[1]?.split('-episode')[0]!,
           episodeId: $(el).find('a').attr('href')?.split('/')[1]!,
           episodeNumber: parseFloat($(el).find('p.episode').text().replace('Episode ', '')),
-          title: $(el).find('p.name > a').attr('title')!,
+          title: $(el).find('p.name > a').text()!,
           image: $(el).find('div > a > img').attr('src'),
           url: `${this.baseUrl}${$(el).find('a').attr('href')?.trim()}`,
         });
@@ -361,7 +362,7 @@ class Gogoanime extends AnimeParser {
       $('div.last_episodes > ul > li').each((i, elem) => {
         genreInfo.push({
           id: $(elem).find('p.name > a').attr('href')?.split('/')[2] as string,
-          title: $(elem).find('p.name > a').attr('title') as string,
+          title: $(elem).find('p.name > a').text() as string,
           image: $(elem).find('div > a > img').attr('src'),
           released: $(elem).find('p.released').text().replace('Released: ', '').trim(),
           url: this.baseUrl + '/' + $(elem).find('p.name > a').attr('href'),
@@ -391,7 +392,7 @@ class Gogoanime extends AnimeParser {
       $('div.added_series_body.popular > ul > li').each((i, el) => {
         topAiring.push({
           id: $(el).find('a:nth-child(1)').attr('href')?.split('/')[2]!,
-          title: $(el).find('a:nth-child(1)').attr('title')!,
+          title: $(el).find('a:nth-child(2)').text().trim().split(',')[0].trim()!,
           image: $(el).find('a:nth-child(1) > div').attr('style')?.match('(https?://.*.(?:png|jpg))')![0],
           url: `${this.baseUrl}${$(el).find('a:nth-child(1)').attr('href')}`,
           genres: $(el)
@@ -430,7 +431,7 @@ class Gogoanime extends AnimeParser {
 
         recentMovies.push({
           id: a.attr('href')?.replace(`/category/`, '')!,
-          title: pName.attr('title')!,
+          title: pName.text()!,
           releaseDate: pRelease.text().replace('Released: ', '').trim(),
           image: $(el).find('div > a > img').attr('src'),
           url: `${this.baseUrl}${a.attr('href')}`,
@@ -465,7 +466,7 @@ class Gogoanime extends AnimeParser {
 
         recentMovies.push({
           id: a.attr('href')?.replace(`/category/`, '')!,
-          title: pName.attr('title')!,
+          title: pName.text()!,
           releaseDate: pRelease.text().replace('Released: ', '').trim(),
           image: $(el).find('div > a > img').attr('src'),
           url: `${this.baseUrl}${a.attr('href')}`,
