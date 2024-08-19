@@ -70,7 +70,7 @@ class Gogoanime extends AnimeParser {
           title: $(el).find('p.name > a').text(),
           url: `${this.baseUrl}/${$(el).find('p.name > a').attr('href')}`,
           image: $(el).find('div > a > img').attr('src'),
-          releaseDate: $(el).find('p.released').text().trim(),
+          releaseDate: $(el).find('p.released').text().trim().replace('Released: ', ''),
           subOrDub: $(el).find('p.name > a').text().toLowerCase().includes('(dub)')
             ? SubOrSub.DUB
             : SubOrSub.SUB,

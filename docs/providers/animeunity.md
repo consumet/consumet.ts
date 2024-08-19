@@ -38,6 +38,8 @@ output:
             url: 'https://www.animeunity.to/anime/5167-demon-slayer-kimetsu-no-yaiba-hashira-training-arc',
             image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166240-bGHsLoWmJmiL.png',
             cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/166240-YdxoEhrfwNk0.jpg',
+            rating: 8.94,
+            releaseDate: '2024',
             subOrDub: 'sub'
         }
         {...},

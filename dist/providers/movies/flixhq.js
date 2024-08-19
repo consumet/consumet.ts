@@ -356,8 +356,8 @@ class FlixHQ extends models_1.MovieParser {
                             ? models_1.TvType.MOVIE
                             : models_1.TvType.TVSERIES,
                     };
-                    let season = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
-                    let latestEpisode = (_d = $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text()) !== null && _d !== void 0 ? _d : null;
+                    const season = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
+                    const latestEpisode = (_d = $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text()) !== null && _d !== void 0 ? _d : null;
                     if (resultItem.type === models_1.TvType.TVSERIES) {
                         resultItem.season = season;
                         resultItem.latestEpisode = latestEpisode;
@@ -387,7 +387,8 @@ class FlixHQ extends models_1.MovieParser {
                 const navSelector = 'div.pre-pagination:nth-child(3) > nav:nth-child(1) > ul:nth-child(1)';
                 result.hasNextPage =
                     $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
-                $('.film_list-wrap > div.flw-item').each((i, el) => {
+                $('.film_list-wrap > div.flw-item')
+                    .each((i, el) => {
                     var _a, _b, _c, _d;
                     const resultItem = {
                         id: (_b = (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1)) !== null && _b !== void 0 ? _b : '',
@@ -398,8 +399,8 @@ class FlixHQ extends models_1.MovieParser {
                             ? models_1.TvType.MOVIE
                             : models_1.TvType.TVSERIES,
                     };
-                    let season = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
-                    let latestEpisode = (_d = $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text()) !== null && _d !== void 0 ? _d : null;
+                    const season = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
+                    const latestEpisode = (_d = $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text()) !== null && _d !== void 0 ? _d : null;
                     if (resultItem.type === models_1.TvType.TVSERIES) {
                         resultItem.season = season;
                         resultItem.latestEpisode = latestEpisode;

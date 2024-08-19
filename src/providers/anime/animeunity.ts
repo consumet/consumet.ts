@@ -41,8 +41,10 @@ class AnimeUnity extends AnimeParser {
           id: `${items[i].id}-${items[i].slug}`,
           title: items[i].title ?? items[i].title_eng,
           url: `${this.baseUrl}/anime/${items[i].id}-${items[i].slug}`,
-          image: `${items[i].imageurl}`,
-          cover: `${items[i].imageurl_cover}`,
+          image: items[i].imageurl,
+          cover: items[i].imageurl_cover,
+          rating: parseFloat(items[i].score),
+          releaseDate: items[i].date,
           subOrDub: `${items[i].dub ? SubOrSub.DUB : SubOrSub.SUB}`,
         });
       }

@@ -207,7 +207,7 @@ class DramaCool extends MovieParser {
         case StreamingServers.AsianLoad:
           return {
             ...(await new AsianLoad(this.proxyConfig, this.adapter).extract(serverUrl)),
-            download: this.downloadLink(episodeId)
+            download: this.downloadLink(episodeId),
           };
         case StreamingServers.MixDrop:
           return {
@@ -254,9 +254,14 @@ class DramaCool extends MovieParser {
 
   fetchRecentMovies = async (page: number = 1): Promise<ISearch<IMovieResult>> => {
     return this.fetchData(`${this.baseUrl}/recently-added-movie?page=${page}`, page, false, true);
-  }
+  };
 
-  private async fetchData(url: string, page: number, isTvShow: boolean = false, isMovies: boolean = false): Promise<ISearch<IMovieResult>> {
+  private async fetchData(
+    url: string,
+    page: number,
+    isTvShow: boolean = false,
+    isMovies: boolean = false
+  ): Promise<ISearch<IMovieResult>> {
     try {
       const { data } = await this.client.get(url);
       const $ = load(data);
@@ -278,18 +283,21 @@ class DramaCool extends MovieParser {
           };
 
           if (isTvShow || isMovies) {
-            result.id = result.image ? result.image.replace(/^https:\/\/[^\/]+\/[^\/]+\/(.+?)-\d+\.\w+$/, "drama-detail/$1")! : '';
+            result.id = result.image
+              ? result.image.replace(/^https:\/\/[^\/]+\/[^\/]+\/(.+?)-\d+\.\w+$/, 'drama-detail/$1')!
+              : '';
           }
 
           if (isTvShow) {
-            result.episodeNumber =parseFloat($(el).find('span.ep').text().trim().split(' ')[1]);
+            result.episodeNumber = parseFloat($(el).find('span.ep').text().trim().split(' ')[1]);
           }
 
           results.results.push(result);
         });
 
       const navSelector = 'ul.pagination';
-      results.hasNextPage = $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('selected') : false;
+      results.hasNextPage =
+        $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('selected') : false;
 
       const lastPage = $(navSelector).children().last().find('a').attr('href');
       if (lastPage != undefined && lastPage != '' && lastPage.includes('page=')) {
@@ -306,7 +314,7 @@ class DramaCool extends MovieParser {
 
   private downloadLink = (url: string) => {
     return url.replace(/^(https:\/\/[^\/]+)\/[^?]+(\?.+)$/, '$1/download$2');
-  }
+  };
 
   private removeContainsFromString = (str: string, contains: string) => {
     contains = contains.toLowerCase();

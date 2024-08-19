@@ -409,18 +409,18 @@ class FlixHQ extends MovieParser {
               $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
                 ? TvType.MOVIE
                 : TvType.TVSERIES,
-          }
-          const season = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text()
-          const latestEpisode = $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() ?? null
+          };
+          const season = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
+          const latestEpisode =
+            $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() ?? null;
           if (resultItem.type === TvType.TVSERIES) {
-            resultItem.season = season
-            resultItem.latestEpisode = latestEpisode
+            resultItem.season = season;
+            resultItem.latestEpisode = latestEpisode;
           } else {
-            resultItem.releaseDate = season
-            resultItem.duration = latestEpisode
+            resultItem.releaseDate = season;
+            resultItem.duration = latestEpisode;
           }
-          result.results.push(resultItem)
-
+          result.results.push(resultItem);
         })
         .get();
       return result;
@@ -445,29 +445,30 @@ class FlixHQ extends MovieParser {
       result.hasNextPage =
         $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
 
-      $('.film_list-wrap > div.flw-item').each((i, el) => {
-        const resultItem: IMovieResult = {
-          id: $(el).find('div.film-poster > a').attr('href')?.slice(1) ?? '',
-          title: $(el).find('div.film-detail > h2 > a').attr('title') ?? '',
-          url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-          image: $(el).find('div.film-poster > img').attr('data-src'),
-          type:
-            $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
-              ? TvType.MOVIE
-              : TvType.TVSERIES,
-        }
-        const season = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text()
-        const latestEpisode = $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() ?? null
-        if (resultItem.type === TvType.TVSERIES) {
-          resultItem.season = season
-          resultItem.latestEpisode = latestEpisode
-        } else {
-          resultItem.releaseDate = season
-          resultItem.duration = latestEpisode
-        }
-        result.results.push(resultItem)
-
-      })
+      $('.film_list-wrap > div.flw-item')
+        .each((i, el) => {
+          const resultItem: IMovieResult = {
+            id: $(el).find('div.film-poster > a').attr('href')?.slice(1) ?? '',
+            title: $(el).find('div.film-detail > h2 > a').attr('title') ?? '',
+            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+            image: $(el).find('div.film-poster > img').attr('data-src'),
+            type:
+              $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
+                ? TvType.MOVIE
+                : TvType.TVSERIES,
+          };
+          const season = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
+          const latestEpisode =
+            $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() ?? null;
+          if (resultItem.type === TvType.TVSERIES) {
+            resultItem.season = season;
+            resultItem.latestEpisode = latestEpisode;
+          } else {
+            resultItem.releaseDate = season;
+            resultItem.duration = latestEpisode;
+          }
+          result.results.push(resultItem);
+        })
         .get();
 
       return result;
