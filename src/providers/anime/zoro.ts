@@ -240,7 +240,7 @@ class Zoro extends AnimeParser {
 
   /**
    * Fetches the list of episodes that the user is currently watching.
-   * @param connectSid The session ID of the user.
+   * @param connectSid The session ID of the user. Note: This can be obtained from the browser cookies (needs to be signed in)
    * @returns A promise that resolves to an array of anime episodes.
    */
   async fetchContinueWatching(connectSid: string): Promise<IAnimeEpisode[]> {
