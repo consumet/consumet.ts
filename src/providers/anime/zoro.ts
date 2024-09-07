@@ -11,6 +11,7 @@ import {
   StreamingServers,
   MediaFormat,
   SubOrSub,
+  IAnimeEpisode,
 } from '../../models';
 
 import { StreamSB, RapidCloud, MegaCloud, StreamTape } from '../../utils';
@@ -25,11 +26,15 @@ class Zoro extends AnimeParser {
 
   constructor(customBaseURL?: string) {
     super(...arguments);
-    this.baseUrl = customBaseURL
-      ? customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')
-        ? customBaseURL
-        : `http://${customBaseURL}`
-      : this.baseUrl;
+    if (customBaseURL) {
+      if (customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')) {
+        this.baseUrl = customBaseURL;
+      } else {
+        this.baseUrl = `http://${customBaseURL}`;
+      }
+    } else {
+      this.baseUrl = this.baseUrl;
+    }
   }
 
   /**
@@ -234,6 +239,52 @@ class Zoro extends AnimeParser {
   }
 
   /**
+   * Fetches the list of episodes that the user is currently watching.
+   * @param connectSid The session ID of the user. Note: This can be obtained from the browser cookies (needs to be signed in)
+   * @returns A promise that resolves to an array of anime episodes.
+   */
+  async fetchContinueWatching(connectSid: string): Promise<IAnimeEpisode[]> {
+    try {
+      if (!(await this.verifyLoginState(connectSid))) {
+        throw new Error('Invalid session ID');
+      }
+      const res: IAnimeEpisode[] = [];
+      const { data } = await this.client.get(`${this.baseUrl}/user/continue-watching`, {
+        headers: {
+          Cookie: `connect.sid=${connectSid}`,
+        },
+      });
+      const $ = load(data);
+      $('.flw-item').each((i, ele) => {
+        const card = $(ele);
+        const atag = card.find('.film-name a');
+        const id = atag.attr('href')?.replace("/watch/", "")?.replace('?ep=', '$episode$');
+        const timeText = card.find('.fdb-time')?.text()?.split("/") ?? [];
+        const duration = timeText.pop()?.trim() ?? '';
+        const watchedTime = timeText.length > 0 ? timeText[0].trim() : '';
+        res.push({
+          id: id!,
+          title: atag.text(),
+          number: parseInt(card.find(".fdb-type").text().replace("EP", "").trim()),
+          duration: duration,
+          watchedTime: watchedTime,
+          url: `${this.baseUrl}${atag.attr('href')}`,
+          image: card.find('img')?.attr('data-src'),
+          japaneseTitle: atag.attr('data-jname'),
+          nsfw: card.find('.tick-rate')?.text() === '18+' ? true : false,
+          sub: parseInt(card.find('.tick-item.tick-sub')?.text()) || 0,
+          dub: parseInt(card.find('.tick-item.tick-dub')?.text()) || 0,
+          episodes: parseInt(card.find('.tick-item.tick-eps')?.text()) || 0,
+        });
+      });
+
+      return res;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  }
+
+  /**
    * @param id Anime id
    */
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
@@ -427,6 +478,19 @@ class Zoro extends AnimeParser {
       return await this.fetchEpisodeSources(link, server);
     } catch (err) {
       throw err;
+    }
+  };
+
+  private verifyLoginState = async (connectSid: string): Promise<boolean> => {
+    try {
+      const { data } = await this.client.get(`${this.baseUrl}/ajax/login-state`, {
+        headers: {
+          Cookie: `connect.sid=${connectSid}`,
+        },
+      });
+      return data.is_login;
+    } catch (err) {
+      return false;
     }
   };
 
