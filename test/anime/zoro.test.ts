@@ -67,7 +67,7 @@ test('returns a filled array of anime list', async () => {
 test('returns a filled array of episode list for continue watching', async () => {
   const connectSid = 'users_connect_sid';
   const data = await zoro.fetchContinueWatching(`${connectSid}`);
-  console.log(data)
+  console.log(data);
   expect(data).not.toEqual([]);
 });
 

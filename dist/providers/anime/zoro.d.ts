@@ -1,4 +1,4 @@
-import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer, StreamingServers } from '../../models';
+import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer, StreamingServers, IAnimeEpisode } from '../../models';
 declare class Zoro extends AnimeParser {
     readonly name = "Zoro";
     protected baseUrl: string;
@@ -52,6 +52,12 @@ declare class Zoro extends AnimeParser {
     fetchSpotlight(): Promise<ISearch<IAnimeResult>>;
     fetchSearchSuggestions(query: string): Promise<ISearch<IAnimeResult>>;
     /**
+     * Fetches the list of episodes that the user is currently watching.
+     * @param connectSid The session ID of the user. Note: This can be obtained from the browser cookies (needs to be signed in)
+     * @returns A promise that resolves to an array of anime episodes.
+     */
+    fetchContinueWatching(connectSid: string): Promise<IAnimeEpisode[]>;
+    /**
      * @param id Anime id
      */
     fetchAnimeInfo: (id: string) => Promise<IAnimeInfo>;
@@ -60,6 +66,7 @@ declare class Zoro extends AnimeParser {
      * @param episodeId Episode id
      */
     fetchEpisodeSources: (episodeId: string, server?: StreamingServers) => Promise<ISource>;
+    private verifyLoginState;
     private retrieveServerId;
     /**
      * @param url string

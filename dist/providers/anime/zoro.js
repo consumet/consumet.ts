@@ -185,6 +185,19 @@ class Zoro extends models_1.AnimeParser {
                 throw err;
             }
         };
+        this.verifyLoginState = async (connectSid) => {
+            try {
+                const { data } = await this.client.get(`${this.baseUrl}/ajax/login-state`, {
+                    headers: {
+                        Cookie: `connect.sid=${connectSid}`,
+                    },
+                });
+                return data.is_login;
+            }
+            catch (err) {
+                return false;
+            }
+        };
         this.retrieveServerId = ($, index, subOrDub) => {
             return $(`.ps_-block.ps_-block-sub.servers-${subOrDub} > .ps__-list .server-item`)
                 .map((i, el) => ($(el).attr('data-server-id') == `${index}` ? $(el) : null))
@@ -270,11 +283,17 @@ class Zoro extends models_1.AnimeParser {
         this.fetchEpisodeServers = (episodeId) => {
             throw new Error('Method not implemented.');
         };
-        this.baseUrl = customBaseURL
-            ? customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')
-                ? customBaseURL
-                : `http://${customBaseURL}`
-            : this.baseUrl;
+        if (customBaseURL) {
+            if (customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')) {
+                this.baseUrl = customBaseURL;
+            }
+            else {
+                this.baseUrl = `http://${customBaseURL}`;
+            }
+        }
+        else {
+            this.baseUrl = this.baseUrl;
+        }
     }
     /**
      * @param query Search query
@@ -464,6 +483,52 @@ class Zoro extends models_1.AnimeParser {
         }
         catch (error) {
             throw new Error('Something went wrong. Please try again later.');
+        }
+    }
+    /**
+     * Fetches the list of episodes that the user is currently watching.
+     * @param connectSid The session ID of the user. Note: This can be obtained from the browser cookies (needs to be signed in)
+     * @returns A promise that resolves to an array of anime episodes.
+     */
+    async fetchContinueWatching(connectSid) {
+        try {
+            if (!(await this.verifyLoginState(connectSid))) {
+                throw new Error('Invalid session ID');
+            }
+            const res = [];
+            const { data } = await this.client.get(`${this.baseUrl}/user/continue-watching`, {
+                headers: {
+                    Cookie: `connect.sid=${connectSid}`,
+                },
+            });
+            const $ = (0, cheerio_1.load)(data);
+            $('.flw-item').each((i, ele) => {
+                var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
+                const card = $(ele);
+                const atag = card.find('.film-name a');
+                const id = (_b = (_a = atag.attr('href')) === null || _a === void 0 ? void 0 : _a.replace('/watch/', '')) === null || _b === void 0 ? void 0 : _b.replace('?ep=', '$episode$');
+                const timeText = (_e = (_d = (_c = card.find('.fdb-time')) === null || _c === void 0 ? void 0 : _c.text()) === null || _d === void 0 ? void 0 : _d.split('/')) !== null && _e !== void 0 ? _e : [];
+                const duration = (_g = (_f = timeText.pop()) === null || _f === void 0 ? void 0 : _f.trim()) !== null && _g !== void 0 ? _g : '';
+                const watchedTime = timeText.length > 0 ? timeText[0].trim() : '';
+                res.push({
+                    id: id,
+                    title: atag.text(),
+                    number: parseInt(card.find('.fdb-type').text().replace('EP', '').trim()),
+                    duration: duration,
+                    watchedTime: watchedTime,
+                    url: `${this.baseUrl}${atag.attr('href')}`,
+                    image: (_h = card.find('img')) === null || _h === void 0 ? void 0 : _h.attr('data-src'),
+                    japaneseTitle: atag.attr('data-jname'),
+                    nsfw: ((_j = card.find('.tick-rate')) === null || _j === void 0 ? void 0 : _j.text()) === '18+' ? true : false,
+                    sub: parseInt((_k = card.find('.tick-item.tick-sub')) === null || _k === void 0 ? void 0 : _k.text()) || 0,
+                    dub: parseInt((_l = card.find('.tick-item.tick-dub')) === null || _l === void 0 ? void 0 : _l.text()) || 0,
+                    episodes: parseInt((_m = card.find('.tick-item.tick-eps')) === null || _m === void 0 ? void 0 : _m.text()) || 0,
+                });
+            });
+            return res;
+        }
+        catch (err) {
+            throw new Error(err.message);
         }
     }
 }

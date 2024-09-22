@@ -258,14 +258,14 @@ class Zoro extends AnimeParser {
       $('.flw-item').each((i, ele) => {
         const card = $(ele);
         const atag = card.find('.film-name a');
-        const id = atag.attr('href')?.replace("/watch/", "")?.replace('?ep=', '$episode$');
-        const timeText = card.find('.fdb-time')?.text()?.split("/") ?? [];
+        const id = atag.attr('href')?.replace('/watch/', '')?.replace('?ep=', '$episode$');
+        const timeText = card.find('.fdb-time')?.text()?.split('/') ?? [];
         const duration = timeText.pop()?.trim() ?? '';
         const watchedTime = timeText.length > 0 ? timeText[0].trim() : '';
         res.push({
           id: id!,
           title: atag.text(),
-          number: parseInt(card.find(".fdb-type").text().replace("EP", "").trim()),
+          number: parseInt(card.find('.fdb-type').text().replace('EP', '').trim()),
           duration: duration,
           watchedTime: watchedTime,
           url: `${this.baseUrl}${atag.attr('href')}`,

@@ -30,8 +30,7 @@ class StreamWish extends VideoExtractor {
       // Code adapted from Zenda-Cross (https://github.com/Zenda-Cross/vega-app/blob/main/src/lib/providers/multi/multiGetStream.ts)
       // Thank you to Zenda-Cross for the original implementation.
 
-      const functionRegex =
-        /eval\(function\((.*?)\)\{.*?return p\}.*?\('(.*?)'\.split/;
+      const functionRegex = /eval\(function\((.*?)\)\{.*?return p\}.*?\('(.*?)'\.split/;
       const match = functionRegex.exec(data);
       let p = '';
       if (match) {

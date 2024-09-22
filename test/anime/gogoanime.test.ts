@@ -27,7 +27,7 @@ test('returns a filled array of servers', async () => {
 });
 
 test('returns a filled object of episode sources', async () => {
-  const data = await gogoanime.fetchEpisodeSources('spy-x-family-episode-9',StreamingServers.StreamWish);
+  const data = await gogoanime.fetchEpisodeSources('spy-x-family-episode-9', StreamingServers.StreamWish);
   expect(data.sources).not.toEqual([]);
 });
 
