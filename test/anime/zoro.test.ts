@@ -50,6 +50,51 @@ test('returns a filled array of anime list', async () => {
 });
 
 test('returns a filled array of anime list', async () => {
+  const data = await zoro.fetchSubbedAnime();
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of anime list', async () => {
+  const data = await zoro.fetchDubbedAnime();
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of anime list', async () => {
+  const data = await zoro.fetchMovie();
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of anime list', async () => {
+  const data = await zoro.fetchTV();
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of anime list', async () => {
+  const data = await zoro.fetchOVA();
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of anime list', async () => {
+  const data = await zoro.fetchONA();
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of anime list', async () => {
+  const data = await zoro.fetchSpecial();
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of genres', async () => {
+  const data = await zoro.fetchGenres();
+  expect(data).not.toEqual([]);
+});
+
+test('returns a filled array of anime list', async () => {
+  const data = await zoro.genreSearch('action');
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of anime list', async () => {
   const data = await zoro.fetchSchedule();
   expect(data.results).not.toEqual([]);
 });

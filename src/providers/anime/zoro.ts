@@ -121,6 +121,99 @@ class Zoro extends AnimeParser {
     }
     return this.scrapeCardPage(`${this.baseUrl}/producer/${studio}?page=${page}`);
   }
+  /**
+   * @param page number
+   */
+  fetchSubbedAnime(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCardPage(`${this.baseUrl}/subbed-anime?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchDubbedAnime(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCardPage(`${this.baseUrl}/dubbed-anime?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchMovie(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCardPage(`${this.baseUrl}/movie?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchTV(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCardPage(`${this.baseUrl}/tv?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchOVA(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCardPage(`${this.baseUrl}/ova?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchONA(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCardPage(`${this.baseUrl}/ona?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchSpecial(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCardPage(`${this.baseUrl}/special?page=${page}`);
+  }
+
+  async fetchGenres(): Promise<string[]> {
+    try {
+      const res: string[] = [];
+      const { data } = await this.client.get(`${this.baseUrl}/home`);
+      const $ = load(data);
+
+      const sideBar = $('#main-sidebar');
+      sideBar.find('ul.sb-genre-list li a').each((i, ele) => {
+        const genres = $(ele);
+        res.push(genres.text().toLowerCase());
+      });
+
+      return res;
+    } catch (err) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  }
+  /**
+   * @param page number
+   */
+  genreSearch(genre: string, page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (genre == '') {
+      throw new Error('genre is empty');
+    }
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCardPage(`${this.baseUrl}/genre/${genre}?page=${page}`);
+  }
 
   /**
    * Fetches the schedule for a given date.
