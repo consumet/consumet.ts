@@ -16,7 +16,6 @@ import {
 
 import { StreamSB, RapidCloud, MegaCloud, StreamTape } from '../../utils';
 import { USER_AGENT } from '../../utils';
-import { futimes } from 'fs';
 
 class Zoro extends AnimeParser {
   override readonly name = 'Zoro';
