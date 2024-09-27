@@ -274,7 +274,7 @@ return gogo anime list.
 | page (optional) | `number` | page number (default: 1) |
 
 ```ts
-gogoanime.fetchAnimeAzList().then(data => {
+gogoanime.fetchAnimeAzList("a").then(data => {
   console.log(data);
 })
 ```
@@ -286,12 +286,17 @@ output:
   hasNextPage: true,
   results: [
     {
-      id: 'hackgu-returner',
-      title: '.Hack//G.U. Returner',
-      image: 'https://gogocdn.net/images/anime/5745.jpg',
-      url: 'https://gogoanime3.co/category/hackgu-returner',
-      genres: [ 'Adventure', 'Drama', 'Game', 'Harem', 'Martial Arts', 'Seinen' ],
-      releaseDate: 'Released: 2007'
+      id: "a-channel",
+      title: "A Channel",
+      image: "https://gogocdn.net/images/anime/a-channel8.jpg",
+      url: "https://anitaku.pe/category/a-channel",
+      genres: [
+        "Comedy",
+        "School",
+        "Seinen",
+        "Slice of Life"
+      ],
+      releaseDate: "Released: 2011"
     }
     {...}
     ...
