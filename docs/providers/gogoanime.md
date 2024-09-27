@@ -13,6 +13,7 @@ const gogoanime = new ANIME.Gogoanime();
 - [fetchGenreInfo](#fetchgenreinfo)
 - [fetchTopAiring](#fetchtopairing)
 - [fetchAnimeList](#fetchanimelist)
+- [fetchAnimeAzList](#fetchanimeazlist)
 - [fetchAnimeInfo](#fetchanimeinfo)
 - [fetchEpisodeSources](#fetchepisodesources)
 - [fetchEpisodeServers](#fetchepisodeservers)
@@ -238,6 +239,42 @@ return gogo anime list.
 
 ```ts
 gogoanime.fetchAnimeList().then(data => {
+  console.log(data);
+})
+```
+
+output:
+```js
+{
+  currentPage: 1,
+  hasNextPage: true,
+  results: [
+    {
+      id: 'hackgu-returner',
+      title: '.Hack//G.U. Returner',
+      image: 'https://gogocdn.net/images/anime/5745.jpg',
+      url: 'https://gogoanime3.co/category/hackgu-returner',
+      genres: [ 'Adventure', 'Drama', 'Game', 'Harem', 'Martial Arts', 'Seinen' ],
+      releaseDate: 'Released: 2007'
+    }
+    {...}
+    ...
+  ]
+}
+```
+
+### fetchAnimeAzList
+
+return gogo anime list.
+
+<h4>Parameters</h4>
+
+| Parameter       | Type     | Description              |
+| --------------- | -------- | ------------------------ |
+| page (optional) | `number` | page number (default: 1) |
+
+```ts
+gogoanime.fetchAnimeAzList().then(data => {
   console.log(data);
 })
 ```
