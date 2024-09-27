@@ -1,4 +1,3 @@
-import { info } from 'console';
 import { ANIME } from '../../src/providers';
 import { StreamingServers } from '../../src/models';
 
@@ -43,6 +42,16 @@ test('returns a filled array of anime list', async () => {
   const resultSample = data.results[0];
   expect(resultSample).toHaveProperty('genres');
   expect(resultSample).toHaveProperty('releaseDate');
+});
+
+test('returns a filled array of anime list by letter', async () => {
+  const data = await gogoanime.fetchAzList('a');
+
+  expect(data).not.toEqual([]);
+
+  const result = data.results[0];
+  expect(result).toHaveProperty('genres');
+  expect(result).toHaveProperty('releaseDate');
 });
 
 test('returns a filled array of recent episodes', async () => {

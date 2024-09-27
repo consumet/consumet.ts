@@ -52,5 +52,10 @@ declare class Gogoanime extends AnimeParser {
         link: string | undefined;
     }[]>;
     fetchAnimeList: (page?: number) => Promise<ISearch<IAnimeResult>>;
+    fetchAzList: (letter: string, page?: number) => Promise<{
+        currentPage: number;
+        hasNextPage: boolean;
+        results: IAnimeResult[];
+    }>;
 }
 export default Gogoanime;

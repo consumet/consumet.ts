@@ -21,6 +21,7 @@ import { GogoCDN, StreamSB, StreamWish } from '../../extractors';
 class Gogoanime extends AnimeParser {
   override readonly name = 'Gogoanime';
   protected override baseUrl = 'https://anitaku.pe';
+
   protected override logo =
     'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
   protected override classPath = 'ANIME.Gogoanime';
@@ -545,6 +546,7 @@ class Gogoanime extends AnimeParser {
   fetchAnimeList = async (page: number = 1): Promise<ISearch<IAnimeResult>> => {
     const animeList: IAnimeResult[] = [];
     let res = null;
+
     try {
       res = await this.client.get(`${this.baseUrl}/anime-list.html?page=${page}`);
       const $ = load(res.data);
@@ -552,6 +554,48 @@ class Gogoanime extends AnimeParser {
         const genres: string[] = [];
         const entryBody = $('p.type', $(element).attr('title')!);
         const genresEl = entryBody.first();
+        genresEl.find('a').each((_idx, genreAnchor) => {
+          genres.push($(genreAnchor).attr('title')!);
+        });
+
+        const releaseDate = $(entryBody.get(1)).text();
+
+        const img = $('div', $(element).attr('title')!);
+        const a = $(element).find('a');
+        animeList.push({
+          id: a.attr('href')?.replace(`/category/`, '')!,
+          title: a.text(),
+          image: $(img).find('img').attr('src'),
+          url: `${this.baseUrl}${a.attr('href')}`,
+          genres,
+          releaseDate,
+        });
+      });
+      const hasNextPage = !$('div.anime_name.anime_list > div > div > ul > li').last().hasClass('selected');
+      return {
+        currentPage: page,
+        hasNextPage: hasNextPage,
+        results: animeList,
+      };
+    } catch (err) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  };
+
+  fetchAzList = async (letter: string, page = 1) => {
+    const animeList: IAnimeResult[] = [];
+    let res = null;
+
+    try {
+      const url = `${this.baseUrl}/anime-list-${letter}?page=${page}`;
+      res = await this.client.get(url);
+
+      const $ = load(res.data);
+      $('.anime_list_body .listing li').each((_index, element) => {
+        const genres: string[] = [];
+        const entryBody = $('p.type', $(element).attr('title')!);
+        const genresEl = entryBody.first();
+
         genresEl.find('a').each((_idx, genreAnchor) => {
           genres.push($(genreAnchor).attr('title')!);
         });

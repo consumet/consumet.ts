@@ -379,6 +379,97 @@ class Zoro extends models_1.AnimeParser {
         return this.scrapeCardPage(`${this.baseUrl}/producer/${studio}?page=${page}`);
     }
     /**
+     * @param page number
+     */
+    fetchSubbedAnime(page = 1) {
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCardPage(`${this.baseUrl}/subbed-anime?page=${page}`);
+    }
+    /**
+     * @param page number
+     */
+    fetchDubbedAnime(page = 1) {
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCardPage(`${this.baseUrl}/dubbed-anime?page=${page}`);
+    }
+    /**
+     * @param page number
+     */
+    fetchMovie(page = 1) {
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCardPage(`${this.baseUrl}/movie?page=${page}`);
+    }
+    /**
+     * @param page number
+     */
+    fetchTV(page = 1) {
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCardPage(`${this.baseUrl}/tv?page=${page}`);
+    }
+    /**
+     * @param page number
+     */
+    fetchOVA(page = 1) {
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCardPage(`${this.baseUrl}/ova?page=${page}`);
+    }
+    /**
+     * @param page number
+     */
+    fetchONA(page = 1) {
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCardPage(`${this.baseUrl}/ona?page=${page}`);
+    }
+    /**
+     * @param page number
+     */
+    fetchSpecial(page = 1) {
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCardPage(`${this.baseUrl}/special?page=${page}`);
+    }
+    async fetchGenres() {
+        try {
+            const res = [];
+            const { data } = await this.client.get(`${this.baseUrl}/home`);
+            const $ = (0, cheerio_1.load)(data);
+            const sideBar = $('#main-sidebar');
+            sideBar.find('ul.sb-genre-list li a').each((i, ele) => {
+                const genres = $(ele);
+                res.push(genres.text().toLowerCase());
+            });
+            return res;
+        }
+        catch (err) {
+            throw new Error('Something went wrong. Please try again later.');
+        }
+    }
+    /**
+     * @param page number
+     */
+    genreSearch(genre, page = 1) {
+        if (genre == '') {
+            throw new Error('genre is empty');
+        }
+        if (0 >= page) {
+            page = 1;
+        }
+        return this.scrapeCardPage(`${this.baseUrl}/genre/${genre}?page=${page}`);
+    }
+    /**
      * Fetches the schedule for a given date.
      * @param date The date in format 'YYYY-MM-DD'. Defaults to the current date.
      * @returns A promise that resolves to an object containing the search results.
