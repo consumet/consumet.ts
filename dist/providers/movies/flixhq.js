@@ -187,6 +187,7 @@ class FlixHQ extends models_1.MovieParser {
                 return await this.fetchEpisodeSources(serverUrl.href, mediaId, server);
             }
             catch (err) {
+                console.log(err, 'err');
                 throw new Error(err.message);
             }
         };
@@ -426,7 +427,7 @@ class FlixHQ extends models_1.MovieParser {
 //   // const movieInfo = await movie.fetchEpisodeSources('1168337', 'tv/watch-vincenzo-67955');
 //   // const recentTv = await movie.fetchTrendingTvShows();
 //    const genre = await movie.fetchByGenre('drama')
-//    console.log(genre)
+//    console.log(movieInfo)
 // })();
 exports.default = FlixHQ;
 //# sourceMappingURL=flixhq.js.map
