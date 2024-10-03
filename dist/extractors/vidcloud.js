@@ -27,7 +27,7 @@ class VidCloud extends models_1.VideoExtractor {
                 const sources = res.sources;
                 this.sources = sources.map((s) => ({
                     url: s.file,
-                    isM3U8: s.file.includes('.m3u8'),
+                    isM3U8: s.file.includes('.m3u8') || s.file.endsWith('m3u8'),
                 }));
                 result.sources.push(...this.sources);
                 result.sources = [];
@@ -54,7 +54,7 @@ class VidCloud extends models_1.VideoExtractor {
                 }
                 result.sources.push({
                     url: sources[0].file,
-                    isM3U8: sources[0].file.includes('.m3u8'),
+                    isM3U8: sources[0].file.includes('.m3u8') || sources[0].file.endsWith('m3u8'),
                     quality: 'auto',
                 });
                 result.subtitles = res.tracks.map((s) => ({
