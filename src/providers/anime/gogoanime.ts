@@ -210,7 +210,8 @@ class Gogoanime extends AnimeParser {
         case StreamingServers.StreamWish:
           return {
             headers: {
-              Referer: serverUrl.href,
+              Referer: serverUrl.origin,
+              Origin: serverUrl.origin,
             },
             sources: await new StreamWish(this.proxyConfig, this.adapter).extract(serverUrl),
             download: downloadUrl ? downloadUrl : `https://${serverUrl.host}/download${serverUrl.search}`,

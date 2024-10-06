@@ -154,7 +154,8 @@ class Gogoanime extends models_1.AnimeParser {
                     case models_1.StreamingServers.StreamWish:
                         return {
                             headers: {
-                                Referer: serverUrl.href,
+                                Referer: serverUrl.origin,
+                                Origin: serverUrl.origin,
                             },
                             sources: await new extractors_1.StreamWish(this.proxyConfig, this.adapter).extract(serverUrl),
                             download: downloadUrl ? downloadUrl : `https://${serverUrl.host}/download${serverUrl.search}`,
