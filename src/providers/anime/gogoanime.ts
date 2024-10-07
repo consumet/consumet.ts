@@ -193,7 +193,7 @@ class Gogoanime extends AnimeParser {
       switch (server) {
         case StreamingServers.GogoCDN:
           return {
-            headers: { Referer: serverUrl.href },
+            headers: { Referer: serverUrl.origin },
             sources: await new GogoCDN(this.proxyConfig, this.adapter).extract(serverUrl),
             download: downloadUrl ? downloadUrl : `https://${serverUrl.host}/download${serverUrl.search}`,
           };
@@ -210,14 +210,14 @@ class Gogoanime extends AnimeParser {
         case StreamingServers.StreamWish:
           return {
             headers: {
-              Referer: serverUrl.href,
+              Referer: serverUrl.origin
             },
             sources: await new StreamWish(this.proxyConfig, this.adapter).extract(serverUrl),
             download: downloadUrl ? downloadUrl : `https://${serverUrl.host}/download${serverUrl.search}`,
           };
         default:
           return {
-            headers: { Referer: serverUrl.href },
+            headers: { Referer: serverUrl.origin },
             sources: await new GogoCDN(this.proxyConfig, this.adapter).extract(serverUrl),
             download: downloadUrl ? downloadUrl : `https://${serverUrl.host}/download${serverUrl.search}`,
           };
