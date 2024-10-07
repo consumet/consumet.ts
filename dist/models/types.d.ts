@@ -166,7 +166,8 @@ export declare enum StreamingServers {
     SmashyStream = "smashystream",
     StreamHub = "streamhub",
     StreamWish = "streamwish",
-    VidMoly = "vidmoly"
+    VidMoly = "vidmoly",
+    Voe = "voe"
 }
 export declare enum MediaStatus {
     ONGOING = "Ongoing",

@@ -10,6 +10,7 @@ import Bilibili from './bilibili';
 import Marin from './marin';
 import AnimeSaturn from './animesaturn';
 import AnimeUnity from './animeunity';
+import MonosChinos from './monoschinos';
 
 export default {
   Gogoanime,
@@ -24,4 +25,5 @@ export default {
   Marin,
   AnimeSaturn,
   AnimeUnity,
+  MonosChinos,
 };

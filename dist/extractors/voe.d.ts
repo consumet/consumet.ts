@@ -1,4 +1,4 @@
-import { VideoExtractor, IVideo } from '../models';
+import { IVideo, VideoExtractor } from '../models';
 declare class Voe extends VideoExtractor {
     protected serverName: string;
     protected sources: IVideo[];

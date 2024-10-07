@@ -10,6 +10,7 @@ import Bilibili from './bilibili';
 import Marin from './marin';
 import AnimeSaturn from './animesaturn';
 import AnimeUnity from './animeunity';
+import MonosChinos from './monoschinos';
 declare const _default: {
     Gogoanime: typeof Gogoanime;
     NineAnime: typeof NineAnime;
@@ -23,5 +24,6 @@ declare const _default: {
     Marin: typeof Marin;
     AnimeSaturn: typeof AnimeSaturn;
     AnimeUnity: typeof AnimeUnity;
+    MonosChinos: typeof MonosChinos;
 };
 export default _default;
