@@ -1,4 +1,6 @@
-import { VideoExtractor, IVideo } from '../models';
+import { load } from 'cheerio';
+
+import { IVideo, VideoExtractor } from '../models';
 
 class Voe extends VideoExtractor {
   protected override serverName = 'voe';
@@ -8,15 +10,16 @@ class Voe extends VideoExtractor {
 
   override extract = async (videoUrl: URL): Promise<IVideo[]> => {
     try {
-      const { data } = await this.client.get(videoUrl.href);
+      const res = await this.client.get(videoUrl.href);
+      const $ = load(res.data);
 
-      const links = data.match(/'hls': ?'(http.*?)',/);
-      const quality = data.match(/'video_height': ?([0-9]+),/)[1];
+      const url = $('body').html()!.split('prompt("Node", "')[1].split('");')[0];
+      // const quality = $('body').html()!.match(/'video_height': ?([0-9]+),/)![1];
 
       this.sources.push({
-        quality: quality,
-        url: links[1],
-        isM3U8: links[1].includes('.m3u8'),
+        url: url,
+        quality: 'default',
+        isM3U8: url.includes('.m3u8'),
       });
 
       return this.sources;

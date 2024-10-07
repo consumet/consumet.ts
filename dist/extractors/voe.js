@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+const cheerio_1 = require("cheerio");
 const models_1 = require("../models");
 class Voe extends models_1.VideoExtractor {
     constructor() {
@@ -9,13 +10,14 @@ class Voe extends models_1.VideoExtractor {
         this.domains = ['voe.sx'];
         this.extract = async (videoUrl) => {
             try {
-                const { data } = await this.client.get(videoUrl.href);
-                const links = data.match(/'hls': ?'(http.*?)',/);
-                const quality = data.match(/'video_height': ?([0-9]+),/)[1];
+                const res = await this.client.get(videoUrl.href);
+                const $ = (0, cheerio_1.load)(res.data);
+                const url = $('body').html().split('prompt("Node", "')[1].split('");')[0];
+                // const quality = $('body').html()!.match(/'video_height': ?([0-9]+),/)![1];
                 this.sources.push({
-                    quality: quality,
-                    url: links[1],
-                    isM3U8: links[1].includes('.m3u8'),
+                    url: url,
+                    quality: 'default',
+                    isM3U8: url.includes('.m3u8'),
                 });
                 return this.sources;
             }
