@@ -103,7 +103,7 @@ class MonosChinos extends AnimeParser {
       const $ = load(res.data);
 
       let decodedUrl;
-      var sources: IVideo[];
+      let sources: IVideo[];
 
       // filemoon => js code too obfuscated
       // mixdrop => 403 forbidden
