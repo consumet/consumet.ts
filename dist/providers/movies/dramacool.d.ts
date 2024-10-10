@@ -1,4 +1,4 @@
-import { MovieParser, TvType, IMovieInfo, IEpisodeServer, StreamingServers, ISource, IMovieResult, ISearch } from '../../models';
+import { IEpisodeServer, IMovieInfo, IMovieResult, ISearch, ISource, MovieParser, StreamingServers, TvType } from '../../models';
 declare class DramaCool extends MovieParser {
     readonly name = "DramaCool";
     protected baseUrl: string;
