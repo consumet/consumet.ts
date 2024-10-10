@@ -1,18 +1,17 @@
 import { load } from 'cheerio';
-import { AxiosAdapter } from 'axios';
 
+import { AsianLoad, MixDrop, StreamSB, StreamTape } from '../../extractors';
 import {
-  MovieParser,
-  TvType,
-  IMovieInfo,
   IEpisodeServer,
-  StreamingServers,
-  ISource,
+  IMovieInfo,
   IMovieResult,
   ISearch,
+  ISource,
   MediaStatus,
+  MovieParser,
+  StreamingServers,
+  TvType,
 } from '../../models';
-import { MixDrop, AsianLoad, StreamTape, StreamSB } from '../../extractors';
 
 class DramaCool extends MovieParser {
   override readonly name = 'DramaCool';
@@ -107,7 +106,11 @@ class DramaCool extends MovieParser {
         .map((i, el) => $(el).text().trim())
         .get();
       mediaInfo.image = $('div.details > div.img > img').attr('src');
-      mediaInfo.description = $('div.details div.info p:nth-child(6)').text();
+      mediaInfo.description = $('div.details div.info p:not(:has(*))')
+        .map((i, el) => $(el).text().trim())
+        .get()
+        .join('\n\n')
+        .trim();
       mediaInfo.releaseDate = this.removeContainsFromString(
         $('div.details div.info p:contains("Released:")').text(),
         'Released'
