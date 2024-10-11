@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
-const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
+const models_1 = require("../../models");
 class DramaCool extends models_1.MovieParser {
     constructor() {
         super(...arguments);
@@ -92,7 +92,11 @@ class DramaCool extends models_1.MovieParser {
                     .map((i, el) => $(el).text().trim())
                     .get();
                 mediaInfo.image = $('div.details > div.img > img').attr('src');
-                mediaInfo.description = $('div.details div.info p:nth-child(6)').text();
+                mediaInfo.description = $('div.details div.info p:not(:has(*))')
+                    .map((i, el) => $(el).text().trim())
+                    .get()
+                    .join('\n\n')
+                    .trim();
                 mediaInfo.releaseDate = this.removeContainsFromString($('div.details div.info p:contains("Released:")').text(), 'Released');
                 mediaInfo.contentRating = this.removeContainsFromString($('div.details div.info p:contains("Content Rating:")').text(), 'Content Rating');
                 mediaInfo.airsOn = this.removeContainsFromString($('div.details div.info p:contains("Airs On:")').text(), 'Airs On');
