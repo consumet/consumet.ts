@@ -91,7 +91,7 @@ class MonosChinos extends models_1.AnimeParser {
                 const res = await this.client.get(`https://monoschinos2.com/ver/${episodeId}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 let decodedUrl;
-                var sources;
+                let sources;
                 // filemoon => js code too obfuscated
                 // mixdrop => 403 forbidden
                 // doodstream => loads infinitely
