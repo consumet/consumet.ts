@@ -13,7 +13,7 @@ class StreamWish extends models_1.VideoExtractor {
                 const options = {
                     headers: {
                         Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-                        'Accept-Encoding': 'gzip, deflate, zstd',
+                        'Accept-Encoding': '*',
                         'Accept-Language': 'en-US,en;q=0.9',
                         'Cache-Control': 'max-age=0',
                         Priority: 'u=0, i',

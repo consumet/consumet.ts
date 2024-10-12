@@ -151,6 +151,14 @@ class Gogoanime extends models_1.AnimeParser {
                             sources: await new extractors_1.StreamSB(this.proxyConfig, this.adapter).extract(serverUrl),
                             download: downloadUrl ? downloadUrl : `https://${serverUrl.host}/download${serverUrl.search}`,
                         };
+                    case models_1.StreamingServers.Mp4Upload:
+                        return {
+                            headers: {
+                                Referer: serverUrl.origin,
+                            },
+                            sources: await new extractors_1.Mp4Upload(this.proxyConfig, this.adapter).extract(serverUrl),
+                            download: downloadUrl ? downloadUrl : `https://${serverUrl.host}/download${serverUrl.search}`,
+                        };
                     case models_1.StreamingServers.StreamWish:
                         return {
                             headers: {
@@ -183,6 +191,9 @@ class Gogoanime extends models_1.AnimeParser {
                         break;
                     case models_1.StreamingServers.StreamWish:
                         serverUrl = new URL($('div.anime_video_body > div.anime_muti_link > ul > li.streamwish > a').attr('data-video'));
+                        break;
+                    case models_1.StreamingServers.Mp4Upload:
+                        serverUrl = new URL($('div.anime_video_body > div.anime_muti_link > ul > li.mp4upload > a').attr('data-video'));
                         break;
                     default:
                         serverUrl = new URL(`${$('#load_anime > div > div > iframe').attr('src')}`);
