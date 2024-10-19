@@ -266,7 +266,7 @@ class Goku extends models_1.MovieParser {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/home`);
                 const $ = (0, cheerio_1.load)(data);
-                const tvShowes = $('.section-last')
+                const tvshows = $('.section-last')
                     .last()
                     .find('.item')
                     .map((i, ele) => {
@@ -276,18 +276,8 @@ class Goku extends models_1.MovieParser {
                         title: $(ele).find('.movie-name').text(),
                         url: `${this.baseUrl}${$(ele).find('.is-watch > a').attr('href')}`,
                         image: $(ele).find('.movie-thumbnail > a > img').attr('src'),
-                        season: $(ele)
-                            .find('.info-split > div:nth-child(2)')
-                            .text()
-                            .split('/')[0]
-                            .replace('SS ', '')
-                            .trim(),
-                        latestEpisode: $(ele)
-                            .find('.info-split > div:nth-child(2)')
-                            .text()
-                            .split('/')[1]
-                            .replace('EPS ', '')
-                            .trim(),
+                        season: $(ele).find('.info-split > div:nth-child(2)').text().split('/')[0].trim(),
+                        latestEpisode: $(ele).find('.info-split > div:nth-child(2)').text().split('/')[1].trim(),
                         type: ((_c = (_b = $(ele).find('.is-watch > a').attr('href')) === null || _b === void 0 ? void 0 : _b.indexOf('watch-series')) !== null && _c !== void 0 ? _c : -1 > -1)
                             ? models_1.TvType.TVSERIES
                             : models_1.TvType.MOVIE,
@@ -295,7 +285,7 @@ class Goku extends models_1.MovieParser {
                     return tvshow;
                 })
                     .get();
-                return tvShowes;
+                return tvshows;
             }
             catch (err) {
                 throw new Error(err.message);
@@ -334,7 +324,7 @@ class Goku extends models_1.MovieParser {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/home`);
                 const $ = (0, cheerio_1.load)(data);
-                const tvShowes = $('#trending-series')
+                const tvshows = $('#trending-series')
                     .find('.item')
                     .map((i, ele) => {
                     var _a, _b, _c;
@@ -343,18 +333,8 @@ class Goku extends models_1.MovieParser {
                         title: $(ele).find('.movie-name').text(),
                         url: `${this.baseUrl}${$(ele).find('.is-watch > a').attr('href')}`,
                         image: $(ele).find('.movie-thumbnail > a > img').attr('src'),
-                        season: $(ele)
-                            .find('.info-split > div:nth-child(2)')
-                            .text()
-                            .split('/')[0]
-                            .replace('SS ', '')
-                            .trim(),
-                        latestEpisode: $(ele)
-                            .find('.info-split > div:nth-child(2)')
-                            .text()
-                            .split('/')[1]
-                            .replace('EPS ', '')
-                            .trim(),
+                        season: $(ele).find('.info-split > div:nth-child(2)').text().split('/')[0].trim(),
+                        latestEpisode: $(ele).find('.info-split > div:nth-child(2)').text().split('/')[1].trim(),
                         type: ((_c = (_b = $(ele).find('.is-watch > a').attr('href')) === null || _b === void 0 ? void 0 : _b.indexOf('watch-series')) !== null && _c !== void 0 ? _c : -1 > -1)
                             ? models_1.TvType.TVSERIES
                             : models_1.TvType.MOVIE,
@@ -362,7 +342,103 @@ class Goku extends models_1.MovieParser {
                     return tvshow;
                 })
                     .get();
-                return tvShowes;
+                return tvshows;
+            }
+            catch (err) {
+                throw new Error(err.message);
+            }
+        };
+        this.fetchByCountry = async (country, page = 1) => {
+            const result = {
+                currentPage: page,
+                hasNextPage: false,
+                results: [],
+            };
+            try {
+                const { data } = await this.client.get(`${this.baseUrl}/country/${country}/?page=${page}`);
+                const $ = (0, cheerio_1.load)(data);
+                result.hasNextPage =
+                    $('.page-link').length > 0 ? $('.page-link').last().attr('title') === 'Last' : false;
+                $('div.section-items.section-items-default > div.item')
+                    .each((i, el) => {
+                    var _a, _b, _c, _d;
+                    const resultItem = {
+                        id: (_b = (_a = $(el).find('div.movie-thumbnail > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1)) !== null && _b !== void 0 ? _b : '',
+                        title: (_c = $(el).find('div.movie-info > a > h3.movie-name').text().trim()) !== null && _c !== void 0 ? _c : '',
+                        url: `${this.baseUrl}${$(el).find('div.movie-info > a').attr('href')}`,
+                        image: $(el).find('div.movie-thumbnail > a > img').attr('src'),
+                        type: ((_d = $(el).find('div.movie-info > a').attr('href')) === null || _d === void 0 ? void 0 : _d.includes('movie/'))
+                            ? models_1.TvType.MOVIE
+                            : models_1.TvType.TVSERIES,
+                    };
+                    if (resultItem.type === models_1.TvType.TVSERIES) {
+                        resultItem.season = $(el)
+                            .find('div.movie-info > div.info-split > div:nth-child(2)')
+                            .text()
+                            .split('/')[0]
+                            .trim();
+                        resultItem.latestEpisode = $(el)
+                            .find('div.movie-info > div.info-split > div:nth-child(2)')
+                            .text()
+                            .split('/')[1]
+                            .trim();
+                    }
+                    else {
+                        resultItem.releaseDate = $(el).find('div.movie-info > div.info-split > div:nth-child(1)').text();
+                        resultItem.duration = $(el).find('div.movie-info > div.info-split > div:nth-child(3)').text();
+                    }
+                    result.results.push(resultItem);
+                })
+                    .get();
+                return result;
+            }
+            catch (err) {
+                throw new Error(err.message);
+            }
+        };
+        this.fetchByGenre = async (genre, page = 1) => {
+            const result = {
+                currentPage: page,
+                hasNextPage: false,
+                results: [],
+            };
+            try {
+                const { data } = await this.client.get(`${this.baseUrl}/genre/${genre}?page=${page}`);
+                const $ = (0, cheerio_1.load)(data);
+                result.hasNextPage =
+                    $('.page-link').length > 0 ? $('.page-link').last().attr('title') === 'Last' : false;
+                $('div.section-items.section-items-default > div.item')
+                    .each((i, el) => {
+                    var _a, _b, _c, _d;
+                    const resultItem = {
+                        id: (_b = (_a = $(el).find('div.movie-thumbnail > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1)) !== null && _b !== void 0 ? _b : '',
+                        title: (_c = $(el).find('div.movie-info > a > h3.movie-name').text().trim()) !== null && _c !== void 0 ? _c : '',
+                        url: `${this.baseUrl}${$(el).find('div.movie-info > a').attr('href')}`,
+                        image: $(el).find('div.movie-thumbnail > a > img').attr('src'),
+                        type: ((_d = $(el).find('div.movie-info > a').attr('href')) === null || _d === void 0 ? void 0 : _d.includes('movie/'))
+                            ? models_1.TvType.MOVIE
+                            : models_1.TvType.TVSERIES,
+                    };
+                    if (resultItem.type === models_1.TvType.TVSERIES) {
+                        resultItem.season = $(el)
+                            .find('div.movie-info > div.info-split > div:nth-child(2)')
+                            .text()
+                            .split('/')[0]
+                            .trim();
+                        resultItem.latestEpisode = $(el)
+                            .find('div.movie-info > div.info-split > div:nth-child(2)')
+                            .text()
+                            .split('/')[1]
+                            .trim();
+                    }
+                    else {
+                        resultItem.releaseDate = $(el).find('div.movie-info > div.info-split > div:nth-child(1)').text();
+                        resultItem.duration = $(el).find('div.movie-info > div.info-split > div:nth-child(3)').text();
+                    }
+                    result.results.push(resultItem);
+                })
+                    .get();
+                return result;
             }
             catch (err) {
                 throw new Error(err.message);
@@ -370,5 +446,10 @@ class Goku extends models_1.MovieParser {
         };
     }
 }
+// (async () => {
+//   const movie = new Goku();
+//   const genre = await movie.fetchByGenre('drama-4');
+//   console.log(genre)
+// })();
 exports.default = Goku;
 //# sourceMappingURL=goku.js.map

@@ -308,7 +308,7 @@ class Goku extends MovieParser {
       const { data } = await this.client.get(`${this.baseUrl}/home`);
       const $ = load(data);
 
-      const tvShowes = $('.section-last')
+      const tvshows = $('.section-last')
         .last()
         .find('.item')
         .map((i, ele) => {
@@ -317,18 +317,8 @@ class Goku extends MovieParser {
             title: $(ele).find('.movie-name').text(),
             url: `${this.baseUrl}${$(ele).find('.is-watch > a').attr('href')}`,
             image: $(ele).find('.movie-thumbnail > a > img').attr('src'),
-            season: $(ele)
-              .find('.info-split > div:nth-child(2)')
-              .text()
-              .split('/')[0]
-              .replace('SS ', '')
-              .trim(),
-            latestEpisode: $(ele)
-              .find('.info-split > div:nth-child(2)')
-              .text()
-              .split('/')[1]
-              .replace('EPS ', '')
-              .trim(),
+            season: $(ele).find('.info-split > div:nth-child(2)').text().split('/')[0].trim(),
+            latestEpisode: $(ele).find('.info-split > div:nth-child(2)').text().split('/')[1].trim(),
             type:
               $(ele).find('.is-watch > a').attr('href')?.indexOf('watch-series') ?? -1 > -1
                 ? TvType.TVSERIES
@@ -337,7 +327,7 @@ class Goku extends MovieParser {
           return tvshow;
         })
         .get();
-      return tvShowes;
+      return tvshows;
     } catch (err) {
       throw new Error((err as Error).message);
     }
@@ -378,7 +368,7 @@ class Goku extends MovieParser {
       const { data } = await this.client.get(`${this.baseUrl}/home`);
       const $ = load(data);
 
-      const tvShowes = $('#trending-series')
+      const tvshows = $('#trending-series')
         .find('.item')
         .map((i, ele) => {
           const tvshow: any = {
@@ -386,18 +376,8 @@ class Goku extends MovieParser {
             title: $(ele).find('.movie-name').text(),
             url: `${this.baseUrl}${$(ele).find('.is-watch > a').attr('href')}`,
             image: $(ele).find('.movie-thumbnail > a > img').attr('src'),
-            season: $(ele)
-              .find('.info-split > div:nth-child(2)')
-              .text()
-              .split('/')[0]
-              .replace('SS ', '')
-              .trim(),
-            latestEpisode: $(ele)
-              .find('.info-split > div:nth-child(2)')
-              .text()
-              .split('/')[1]
-              .replace('EPS ', '')
-              .trim(),
+            season: $(ele).find('.info-split > div:nth-child(2)').text().split('/')[0].trim(),
+            latestEpisode: $(ele).find('.info-split > div:nth-child(2)').text().split('/')[1].trim(),
             type:
               $(ele).find('.is-watch > a').attr('href')?.indexOf('watch-series') ?? -1 > -1
                 ? TvType.TVSERIES
@@ -406,11 +386,118 @@ class Goku extends MovieParser {
           return tvshow;
         })
         .get();
-      return tvShowes;
+      return tvshows;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  };
+
+  fetchByCountry = async (country: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
+    const result: ISearch<IMovieResult> = {
+      currentPage: page,
+      hasNextPage: false,
+      results: [],
+    };
+
+    try {
+      const { data } = await this.client.get(`${this.baseUrl}/country/${country}/?page=${page}`);
+      const $ = load(data);
+
+      result.hasNextPage =
+        $('.page-link').length > 0 ? $('.page-link').last().attr('title') === 'Last' : false;
+
+      $('div.section-items.section-items-default > div.item')
+        .each((i, el) => {
+          const resultItem: IMovieResult = {
+            id: $(el).find('div.movie-thumbnail > a').attr('href')?.slice(1) ?? '',
+            title: $(el).find('div.movie-info > a > h3.movie-name').text().trim() ?? '',
+            url: `${this.baseUrl}${$(el).find('div.movie-info > a').attr('href')}`,
+            image: $(el).find('div.movie-thumbnail > a > img').attr('src'),
+            type: $(el).find('div.movie-info > a').attr('href')?.includes('movie/')
+              ? TvType.MOVIE
+              : TvType.TVSERIES,
+          };
+
+          if (resultItem.type === TvType.TVSERIES) {
+            resultItem.season = $(el)
+              .find('div.movie-info > div.info-split > div:nth-child(2)')
+              .text()
+              .split('/')[0]
+              .trim();
+            resultItem.latestEpisode = $(el)
+              .find('div.movie-info > div.info-split > div:nth-child(2)')
+              .text()
+              .split('/')[1]
+              .trim();
+          } else {
+            resultItem.releaseDate = $(el).find('div.movie-info > div.info-split > div:nth-child(1)').text();
+            resultItem.duration = $(el).find('div.movie-info > div.info-split > div:nth-child(3)').text();
+          }
+          result.results.push(resultItem);
+        })
+        .get();
+      return result;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  };
+
+  fetchByGenre = async (genre: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
+    const result: ISearch<IMovieResult> = {
+      currentPage: page,
+      hasNextPage: false,
+      results: [],
+    };
+    try {
+      const { data } = await this.client.get(`${this.baseUrl}/genre/${genre}?page=${page}`);
+
+      const $ = load(data);
+
+      result.hasNextPage =
+        $('.page-link').length > 0 ? $('.page-link').last().attr('title') === 'Last' : false;
+
+      $('div.section-items.section-items-default > div.item')
+        .each((i, el) => {
+          const resultItem: IMovieResult = {
+            id: $(el).find('div.movie-thumbnail > a').attr('href')?.slice(1) ?? '',
+            title: $(el).find('div.movie-info > a > h3.movie-name').text().trim() ?? '',
+            url: `${this.baseUrl}${$(el).find('div.movie-info > a').attr('href')}`,
+            image: $(el).find('div.movie-thumbnail > a > img').attr('src'),
+            type: $(el).find('div.movie-info > a').attr('href')?.includes('movie/')
+              ? TvType.MOVIE
+              : TvType.TVSERIES,
+          };
+
+          if (resultItem.type === TvType.TVSERIES) {
+            resultItem.season = $(el)
+              .find('div.movie-info > div.info-split > div:nth-child(2)')
+              .text()
+              .split('/')[0]
+              .trim();
+            resultItem.latestEpisode = $(el)
+              .find('div.movie-info > div.info-split > div:nth-child(2)')
+              .text()
+              .split('/')[1]
+              .trim();
+          } else {
+            resultItem.releaseDate = $(el).find('div.movie-info > div.info-split > div:nth-child(1)').text();
+            resultItem.duration = $(el).find('div.movie-info > div.info-split > div:nth-child(3)').text();
+          }
+          result.results.push(resultItem);
+        })
+        .get();
+
+      return result;
     } catch (err) {
       throw new Error((err as Error).message);
     }
   };
 }
+
+// (async () => {
+//   const movie = new Goku();
+//   const genre = await movie.fetchByGenre('drama-4');
+//   console.log(genre)
+// })();
 
 export default Goku;

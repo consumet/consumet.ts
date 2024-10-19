@@ -11,6 +11,7 @@ import {
   StreamingServers,
   MediaFormat,
   SubOrSub,
+  IAnimeEpisode,
 } from '../../models';
 
 import { StreamSB, RapidCloud, MegaCloud, StreamTape } from '../../utils';
@@ -25,11 +26,15 @@ class Zoro extends AnimeParser {
 
   constructor(customBaseURL?: string) {
     super(...arguments);
-    this.baseUrl = customBaseURL
-      ? customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')
-        ? customBaseURL
-        : `http://${customBaseURL}`
-      : this.baseUrl;
+    if (customBaseURL) {
+      if (customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')) {
+        this.baseUrl = customBaseURL;
+      } else {
+        this.baseUrl = `http://${customBaseURL}`;
+      }
+    } else {
+      this.baseUrl = this.baseUrl;
+    }
   }
 
   /**
@@ -115,6 +120,99 @@ class Zoro extends AnimeParser {
       page = 1;
     }
     return this.scrapeCardPage(`${this.baseUrl}/producer/${studio}?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchSubbedAnime(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCardPage(`${this.baseUrl}/subbed-anime?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchDubbedAnime(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCardPage(`${this.baseUrl}/dubbed-anime?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchMovie(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCardPage(`${this.baseUrl}/movie?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchTV(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCardPage(`${this.baseUrl}/tv?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchOVA(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCardPage(`${this.baseUrl}/ova?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchONA(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCardPage(`${this.baseUrl}/ona?page=${page}`);
+  }
+  /**
+   * @param page number
+   */
+  fetchSpecial(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCardPage(`${this.baseUrl}/special?page=${page}`);
+  }
+
+  async fetchGenres(): Promise<string[]> {
+    try {
+      const res: string[] = [];
+      const { data } = await this.client.get(`${this.baseUrl}/home`);
+      const $ = load(data);
+
+      const sideBar = $('#main-sidebar');
+      sideBar.find('ul.sb-genre-list li a').each((i, ele) => {
+        const genres = $(ele);
+        res.push(genres.text().toLowerCase());
+      });
+
+      return res;
+    } catch (err) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  }
+  /**
+   * @param page number
+   */
+  genreSearch(genre: string, page: number = 1): Promise<ISearch<IAnimeResult>> {
+    if (genre == '') {
+      throw new Error('genre is empty');
+    }
+    if (0 >= page) {
+      page = 1;
+    }
+    return this.scrapeCardPage(`${this.baseUrl}/genre/${genre}?page=${page}`);
   }
 
   /**
@@ -230,6 +328,52 @@ class Zoro extends AnimeParser {
       return res;
     } catch (error) {
       throw new Error('Something went wrong. Please try again later.');
+    }
+  }
+
+  /**
+   * Fetches the list of episodes that the user is currently watching.
+   * @param connectSid The session ID of the user. Note: This can be obtained from the browser cookies (needs to be signed in)
+   * @returns A promise that resolves to an array of anime episodes.
+   */
+  async fetchContinueWatching(connectSid: string): Promise<IAnimeEpisode[]> {
+    try {
+      if (!(await this.verifyLoginState(connectSid))) {
+        throw new Error('Invalid session ID');
+      }
+      const res: IAnimeEpisode[] = [];
+      const { data } = await this.client.get(`${this.baseUrl}/user/continue-watching`, {
+        headers: {
+          Cookie: `connect.sid=${connectSid}`,
+        },
+      });
+      const $ = load(data);
+      $('.flw-item').each((i, ele) => {
+        const card = $(ele);
+        const atag = card.find('.film-name a');
+        const id = atag.attr('href')?.replace('/watch/', '')?.replace('?ep=', '$episode$');
+        const timeText = card.find('.fdb-time')?.text()?.split('/') ?? [];
+        const duration = timeText.pop()?.trim() ?? '';
+        const watchedTime = timeText.length > 0 ? timeText[0].trim() : '';
+        res.push({
+          id: id!,
+          title: atag.text(),
+          number: parseInt(card.find('.fdb-type').text().replace('EP', '').trim()),
+          duration: duration,
+          watchedTime: watchedTime,
+          url: `${this.baseUrl}${atag.attr('href')}`,
+          image: card.find('img')?.attr('data-src'),
+          japaneseTitle: atag.attr('data-jname'),
+          nsfw: card.find('.tick-rate')?.text() === '18+' ? true : false,
+          sub: parseInt(card.find('.tick-item.tick-sub')?.text()) || 0,
+          dub: parseInt(card.find('.tick-item.tick-dub')?.text()) || 0,
+          episodes: parseInt(card.find('.tick-item.tick-eps')?.text()) || 0,
+        });
+      });
+
+      return res;
+    } catch (err) {
+      throw new Error((err as Error).message);
     }
   }
 
@@ -427,6 +571,19 @@ class Zoro extends AnimeParser {
       return await this.fetchEpisodeSources(link, server);
     } catch (err) {
       throw err;
+    }
+  };
+
+  private verifyLoginState = async (connectSid: string): Promise<boolean> => {
+    try {
+      const { data } = await this.client.get(`${this.baseUrl}/ajax/login-state`, {
+        headers: {
+          Cookie: `connect.sid=${connectSid}`,
+        },
+      });
+      return data.is_login;
+    } catch (err) {
+      return false;
     }
   };
 

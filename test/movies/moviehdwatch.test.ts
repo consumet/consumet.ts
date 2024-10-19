@@ -60,3 +60,13 @@ test('returns a filled object of trending tv shows', async () => {
   const data = await moviesHd.fetchTrendingTvShows();
   expect(data).not.toEqual([]);
 });
+
+test('returns a filled object of movies/tv data by country', async () => {
+  const data = await moviesHd.fetchByCountry('KR');
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled object of movies/tv data by genre', async () => {
+  const data = await moviesHd.fetchByGenre('drama');
+  expect(data.results).not.toEqual([]);
+});

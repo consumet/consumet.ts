@@ -60,3 +60,13 @@ test('returns a filled object of trending tv shows', async () => {
   const data = await goku.fetchTrendingTvShows();
   expect(data).not.toEqual([]);
 });
+
+test('returns a filled object of movies/tv data by country', async () => {
+  const data = await goku.fetchByCountry('south-korea-135');
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled object of movies/tv data by genre', async () => {
+  const data = await goku.fetchByGenre('action-10');
+  expect(data.results).not.toEqual([]);
+});

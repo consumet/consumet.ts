@@ -336,15 +336,13 @@ class MovieHdWatch extends MovieParser {
       const tvshows = $('.section-id-03')
         .find('div.flw-item')
         .map((i, el) => {
-          const season = $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text();
-          const episode = $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text();
           const tvshow = {
             id: $(el).find('div.film-poster > a').attr('href')?.slice(1) ?? '',
             title: $(el).find('div.film-detail > h3.film-name > a').attr('title') ?? '',
             url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
             image: $(el).find('div.film-poster > img').attr('data-src'),
-            season: season.includes('SS') ? parseInt(season.split('SS')[1]) : undefined,
-            latestEpisode: episode.includes('EPS') ? parseInt(episode.split('EPS')[1]) : undefined,
+            season: $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text(),
+            latestEpisode: $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text(),
             type: $(el).find('div.film-poster > a').attr('href')?.includes('tv/')
               ? TvType.TVSERIES
               : TvType.MOVIE,
@@ -396,15 +394,13 @@ class MovieHdWatch extends MovieParser {
       const tvshows = $('#trending-tv')
         .find('div.flw-item')
         .map((i, el) => {
-          const season = $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text();
-          const episode = $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text();
           const tvshow = {
             id: $(el).find('div.film-poster > a').attr('href')?.slice(1) ?? '',
             title: $(el).find('div.film-detail > h3.film-name > a').attr('title') ?? '',
             url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
             image: $(el).find('div.film-poster > img').attr('data-src'),
-            season: season.includes('SS') ? parseInt(season.split('SS')[1]) : undefined,
-            latestEpisode: episode.includes('EPS') ? parseInt(episode.split('EPS')[1]) : undefined,
+            season: $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text(),
+            latestEpisode: $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text(),
             type: $(el).find('div.film-poster > a').attr('href')?.includes('tv/')
               ? TvType.TVSERIES
               : TvType.MOVIE,
@@ -417,6 +413,103 @@ class MovieHdWatch extends MovieParser {
       throw new Error((err as Error).message);
     }
   };
+
+  fetchByCountry = async (country: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
+    const result: ISearch<IMovieResult> = {
+      currentPage: page,
+      hasNextPage: false,
+      results: [],
+    };
+    const navSelector = 'div.pre-pagination:nth-child(3) > nav:nth-child(1) > ul:nth-child(1)';
+
+    try {
+      const { data } = await this.client.get(`${this.baseUrl}/country/${country}/?page=${page}`);
+      const $ = load(data);
+
+      result.hasNextPage =
+        $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
+
+      $('div.container > section.block_area > div.block_area-content > div.film_list-wrap > div.flw-item')
+        .each((i, el) => {
+          const resultItem: IMovieResult = {
+            id: $(el).find('div.film-poster > a').attr('href')?.slice(1) ?? '',
+            title: $(el).find('div.film-detail > h2.film-name > a').attr('title') ?? '',
+            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+            image: $(el).find('div.film-poster > img').attr('data-src'),
+            type: $(el).find('div.film-poster > a').attr('href')?.includes('movie/')
+              ? TvType.MOVIE
+              : TvType.TVSERIES,
+          };
+          const season = $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text();
+          const latestEpisode =
+            $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text() ?? null;
+          if (resultItem.type === TvType.TVSERIES) {
+            resultItem.season = season;
+            resultItem.latestEpisode = latestEpisode;
+          } else {
+            resultItem.releaseDate = season;
+            resultItem.duration = latestEpisode;
+          }
+          result.results.push(resultItem);
+        })
+        .get();
+      return result;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  };
+
+  fetchByGenre = async (genre: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
+    const result: ISearch<IMovieResult> = {
+      currentPage: page,
+      hasNextPage: false,
+      results: [],
+    };
+    try {
+      const { data } = await this.client.get(`${this.baseUrl}/genre/${genre}?page=${page}`);
+
+      const $ = load(data);
+
+      const navSelector = 'div.pre-pagination:nth-child(3) > nav:nth-child(1) > ul:nth-child(1)';
+
+      result.hasNextPage =
+        $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
+
+      $('.film_list-wrap > div.flw-item')
+        .each((i, el) => {
+          const resultItem: IMovieResult = {
+            id: $(el).find('div.film-poster > a').attr('href')?.slice(1) ?? '',
+            title: $(el).find('div.film-detail > h2.film-name > a').attr('title') ?? '',
+            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+            image: $(el).find('div.film-poster > img').attr('data-src'),
+            type: $(el).find('div.film-poster > a').attr('href')?.includes('movie/')
+              ? TvType.MOVIE
+              : TvType.TVSERIES,
+          };
+          const season = $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text();
+          const latestEpisode =
+            $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text() ?? null;
+          if (resultItem.type === TvType.TVSERIES) {
+            resultItem.season = season;
+            resultItem.latestEpisode = latestEpisode;
+          } else {
+            resultItem.releaseDate = season;
+            resultItem.duration = latestEpisode;
+          }
+          result.results.push(resultItem);
+        })
+        .get();
+
+      return result;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  };
 }
 
+// (async () => {
+//   const movie = new MovieHdWatch();
+//   const genre = await movie.fetchByGenre('drama');
+//   console.log(genre)
+// })();
 export default MovieHdWatch;

@@ -796,6 +796,43 @@ output:
 }
 ```
 
+### fetchContinueWatching
+
+<h4>Parameters</h4>
+
+
+| Parameter   | Type     | Description                                      |
+| ----------- | -------- | ------------------------------------------------ |
+| connectSid  | `string` | The session ID obtained from the website cookies |
+
+```ts
+zoro.fetchContinueWatching("{user_connect_sid}").then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of episodes. (*[`Promise<IAnimeEpisode[]>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+[
+  {
+    id: 'dragon-ball-super-broly-387$episode$58063',
+    title: 'Dragon Ball Super: Broly',
+    number: 1,
+    duration: '1:39:43',
+    watchedTime: '00:01',
+    url: 'http://hianime.to/watch/dragon-ball-super-broly-387?ep=58063',
+    image: 'https://cdn.noitatnemucod.net/thumbnail/300x400/100/6b138786ca53a86413d89806cb6836dd.jpg',
+    japaneseTitle: 'Dragon Ball Super Movie: Broly',
+    nsfw: false,
+    sub: 1,
+    dub: 1,
+    episodes: 0
+  },
+  {...},
+  ...
+]
+```
 
 Make sure to check the `headers` property of the returned object. It contains the referer header, which might be needed to bypass the 403 error and allow you to stream the video without any issues.
 

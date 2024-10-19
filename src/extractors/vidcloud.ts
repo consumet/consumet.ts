@@ -29,7 +29,7 @@ class VidCloud extends VideoExtractor {
 
       this.sources = sources.map((s: any) => ({
         url: s.file,
-        isM3U8: s.file.includes('.m3u8'),
+        isM3U8: s.file.includes('.m3u8') || s.file.endsWith('m3u8'),
       }));
 
       result.sources.push(...this.sources);
@@ -39,7 +39,9 @@ class VidCloud extends VideoExtractor {
 
       for (const source of sources) {
         const { data } = await this.client.get(source.file, options);
-        const urls = data.split('\n').filter((line: string) => line.includes('.m3u8')) as string[];
+        const urls = data
+          .split('\n')
+          .filter((line: string) => line.includes('.m3u8') || line.endsWith('m3u8')) as string[];
         const qualities = data.split('\n').filter((line: string) => line.includes('RESOLUTION=')) as string[];
 
         const TdArray = qualities.map((s, i) => {
@@ -53,7 +55,7 @@ class VidCloud extends VideoExtractor {
           this.sources.push({
             url: f2,
             quality: f1,
-            isM3U8: f2.includes('.m3u8'),
+            isM3U8: f2.includes('.m3u8') || f2.endsWith('m3u8'),
           });
         }
         result.sources.push(...this.sources);
@@ -61,7 +63,7 @@ class VidCloud extends VideoExtractor {
 
       result.sources.push({
         url: sources[0].file,
-        isM3U8: sources[0].file.includes('.m3u8'),
+        isM3U8: sources[0].file.includes('.m3u8') || sources[0].file.endsWith('m3u8'),
         quality: 'auto',
       });
 

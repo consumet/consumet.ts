@@ -47,7 +47,7 @@ output:
       title: 'One Piece',
       url: 'https://gogoanime.gg//category/one-piece', // anime url
       image: 'https://gogocdn.net/images/anime/One-piece.jpg',
-      releaseDate: 'Released: 1999',
+      releaseDate: '1999',
       subOrDub: 'sub'
     },
     {
@@ -55,7 +55,7 @@ output:
       title: 'Toriko (Dub)',
       url: 'https://gogoanime.gg//category/toriko-dub',
       image: 'https://gogocdn.net/cover/toriko-dub.png',
-      releaseDate: 'Released: 2011',
+      releaseDate: '2011',
       subOrDub: 'dub'
     },
     {...},

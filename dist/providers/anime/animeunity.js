@@ -29,8 +29,10 @@ class AnimeUnity extends models_1.AnimeParser {
                         id: `${items[i].id}-${items[i].slug}`,
                         title: (_a = items[i].title) !== null && _a !== void 0 ? _a : items[i].title_eng,
                         url: `${this.baseUrl}/anime/${items[i].id}-${items[i].slug}`,
-                        image: `${items[i].imageurl}`,
-                        cover: `${items[i].imageurl_cover}`,
+                        image: items[i].imageurl,
+                        cover: items[i].imageurl_cover,
+                        rating: parseFloat(items[i].score),
+                        releaseDate: items[i].date,
                         subOrDub: `${items[i].dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB}`,
                     });
                 }

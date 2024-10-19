@@ -45,6 +45,7 @@ export interface ISearch<T> {
 
 export interface Trailer {
   id: string;
+  url?: string;
   site?: string;
   thumbnail?: string;
   thumbnailHash?: string | null;
@@ -180,6 +181,7 @@ export enum StreamingServers {
   StreamHub = 'streamhub',
   StreamWish = 'streamwish',
   VidMoly = 'vidmoly',
+  Voe = 'voe',
 }
 
 export enum MediaStatus {
@@ -423,6 +425,7 @@ export interface IMovieInfo extends IMovieResult {
   casts?: string[];
   tags?: string[];
   totalEpisodes?: number;
+  trailer?: Trailer;
   seasons?: { season: number; image?: string; episodes: IMovieEpisode[] }[];
   episodes?: IMovieEpisode[];
 }

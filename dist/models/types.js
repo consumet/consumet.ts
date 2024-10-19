@@ -33,6 +33,7 @@ var StreamingServers;
     StreamingServers["StreamHub"] = "streamhub";
     StreamingServers["StreamWish"] = "streamwish";
     StreamingServers["VidMoly"] = "vidmoly";
+    StreamingServers["Voe"] = "voe";
 })(StreamingServers || (exports.StreamingServers = StreamingServers = {}));
 var MediaStatus;
 (function (MediaStatus) {
