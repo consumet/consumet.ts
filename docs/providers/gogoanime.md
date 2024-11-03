@@ -126,7 +126,7 @@ output:
       title: '',
       releaseDate: '2024',
       image: 'https://gogocdn.net/cover/oshi-no-ko-2nd-season.png',
-      url: 'https://anitaku.pe/category/oshi-no-ko-2nd-season'
+      url: 'https://anitaku.bz//category/oshi-no-ko-2nd-season'
     },
     {...}
     ...
@@ -181,7 +181,7 @@ output:
       title: 'Kingdom 5th Season (Chinese Name)',
       image: 'https://gogocdn.net/cover/kingdom-5th-season-chinese-name.png',
       released: '2025',
-      url: 'https://anitaku.pe//category/kingdom-5th-season-chinese-name'
+      url: 'https://anitaku.bz///category/kingdom-5th-season-chinese-name'
     },
     {...}
     ...
