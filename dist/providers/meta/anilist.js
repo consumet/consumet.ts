@@ -31,7 +31,7 @@ class Anilist extends models_1.AnimeParser {
         this.logo = 'https://upload.wikimedia.org/wikipedia/commons/6/61/AniList_logo.svg';
         this.classPath = 'META.Anilist';
         this.anilistGraphqlUrl = 'https://graphql.anilist.co';
-        this.kitsuGraphqlUrl = 'https://kitsu.app/api/graphql';
+        this.kitsuGraphqlUrl = 'https://kitsu.io/api/graphql';
         this.malSyncUrl = 'https://api.malsync.moe';
         this.anifyUrl = utils_2.ANIFY_URL;
         /**

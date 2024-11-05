@@ -55,7 +55,7 @@ class Anilist extends AnimeParser {
   protected override classPath = 'META.Anilist';
 
   private readonly anilistGraphqlUrl = 'https://graphql.anilist.co';
-  private readonly kitsuGraphqlUrl = 'https://kitsu.app/api/graphql';
+  private readonly kitsuGraphqlUrl = 'https://kitsu.io/api/graphql';
   private readonly malSyncUrl = 'https://api.malsync.moe';
   private readonly anifyUrl = ANIFY_URL;
   provider: AnimeParser;
