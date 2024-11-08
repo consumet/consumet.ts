@@ -5,7 +5,7 @@ declare class MangaKakalot extends MangaParser {
     protected logo: string;
     protected classPath: string;
     fetchMangaInfo: (mangaId: string) => Promise<IMangaInfo>;
-    fetchChapterPages: (chapterId: string) => Promise<IMangaChapterPage[]>;
+    fetchChapterPages: (chapterId: string, mangaId: string) => Promise<IMangaChapterPage[]>;
     /**
      *
      * @param query Search query
