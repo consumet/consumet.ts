@@ -21,7 +21,7 @@ class MangaKakalot extends MangaParser {
       id: mangaId,
       title: '',
     };
-    const url = mangaId.includes('read') ? this.baseUrl : 'https://chapmanganato.to/';
+    const url = mangaId.includes('read') ? this.baseUrl : 'https://chapmanganato.to';
     try {
       const { data } = await this.client.get(`${url}/${mangaId}`);
       const $ = load(data);
