@@ -207,7 +207,7 @@ class KissAsian extends MovieParser {
           };
         case StreamingServers.StreamWish:
           return {
-            sources: await new StreamWish(this.proxyConfig, this.adapter).extract(serverUrl),
+            ...(await new StreamWish(this.proxyConfig, this.adapter).extract(serverUrl)),
           };
         case StreamingServers.Mp4Upload:
           return {

@@ -92,13 +92,16 @@ class MonosChinos extends models_1.AnimeParser {
                 const $ = (0, cheerio_1.load)(res.data);
                 let decodedUrl;
                 let sources;
+                let subtitles = [];
                 // filemoon => js code too obfuscated
                 // mixdrop => 403 forbidden
                 // doodstream => loads infinitely
                 // mp4upload => can't access
                 try {
                     decodedUrl = await __classPrivateFieldGet(this, _MonosChinos_getServerDecodedUrl, "f").call(this, $, models_1.StreamingServers.Voe);
-                    sources = await new extractors_1.Voe().extract(new URL(decodedUrl.replace('voe.sx', 'thomasalthoughhear.com')));
+                    const voeResult = await new extractors_1.Voe().extract(new URL(decodedUrl.replace('voe.sx', 'thomasalthoughhear.com')));
+                    sources = voeResult.sources;
+                    subtitles = voeResult === null || voeResult === void 0 ? void 0 : voeResult.subtitles;
                 }
                 catch (err) {
                     decodedUrl = await __classPrivateFieldGet(this, _MonosChinos_getServerDecodedUrl, "f").call(this, $, models_1.StreamingServers.StreamTape);
@@ -109,7 +112,7 @@ class MonosChinos extends models_1.AnimeParser {
                         throw new Error('Source not found.');
                     }
                 }
-                return { sources: sources };
+                return { sources: sources, subtitles: subtitles };
             }
             catch (err) {
                 throw new Error(err.message);

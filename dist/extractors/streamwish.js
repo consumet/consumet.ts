@@ -8,7 +8,7 @@ class StreamWish extends models_1.VideoExtractor {
         this.serverName = 'streamwish';
         this.sources = [];
         this.extract = async (videoUrl) => {
-            var _a, _b;
+            var _a, _b, _c;
             try {
                 const options = {
                     headers: {
@@ -30,7 +30,6 @@ class StreamWish extends models_1.VideoExtractor {
                         'User-Agent': utils_1.USER_AGENT,
                     },
                 };
-                // console.log(videoUrl.href,"videoUrl")
                 const { data } = await this.client.get(videoUrl.href, options);
                 // Code adapted from Zenda-Cross (https://github.com/Zenda-Cross/vega-app/blob/main/src/lib/providers/multi/multiGetStream.ts)
                 // Thank you to Zenda-Cross for the original implementation.
@@ -56,6 +55,24 @@ class StreamWish extends models_1.VideoExtractor {
                     console.log('No match found');
                 }
                 const links = (_b = p.match(/file:\s*"([^"]+\.m3u8[^"]*)"/)) !== null && _b !== void 0 ? _b : [];
+                const subtitleMatches = (_c = p === null || p === void 0 ? void 0 : p.match(/{file:"([^"]+)",(label:"([^"]+)",)?kind:"(thumbnails|captions)"/g)) !== null && _c !== void 0 ? _c : [];
+                // console.log(subtitleMatches, 'subtitleMatches');
+                const subtitles = subtitleMatches.map(sub => {
+                    var _a, _b, _c, _d, _e, _f;
+                    const lang = (_b = (_a = sub === null || sub === void 0 ? void 0 : sub.match(/label:"([^"]+)"/)) === null || _a === void 0 ? void 0 : _a[1]) !== null && _b !== void 0 ? _b : '';
+                    const url = (_d = (_c = sub === null || sub === void 0 ? void 0 : sub.match(/file:"([^"]+)"/)) === null || _c === void 0 ? void 0 : _c[1]) !== null && _d !== void 0 ? _d : '';
+                    const kind = (_f = (_e = sub === null || sub === void 0 ? void 0 : sub.match(/kind:"([^"]+)"/)) === null || _e === void 0 ? void 0 : _e[1]) !== null && _f !== void 0 ? _f : '';
+                    if (kind.includes('thumbnail')) {
+                        return {
+                            lang: kind,
+                            url: `https://streamwish.com${url}`,
+                        };
+                    }
+                    return {
+                        lang: lang,
+                        url: url,
+                    };
+                });
                 let lastLink = null;
                 links.forEach((link) => {
                     if (link.includes('file:"')) {
@@ -88,7 +105,10 @@ class StreamWish extends models_1.VideoExtractor {
                     }
                 }
                 catch (e) { }
-                return this.sources;
+                return {
+                    sources: this.sources,
+                    subtitles: subtitles,
+                };
             }
             catch (err) {
                 throw new Error(err.message);

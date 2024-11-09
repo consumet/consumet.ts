@@ -26,4 +26,5 @@ test('returns a filled array of recent animes', async () => {
 test('returns a filled object of episode sources', async () => {
   const data = await animefox.fetchEpisodeSources('overlord-iv-episode-1');
   expect(data.sources).not.toEqual([]);
+  expect(data.subtitles).not.toEqual([]);
 });
