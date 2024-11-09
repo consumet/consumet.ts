@@ -23,4 +23,5 @@ test('returns a filled object of episode sources', async () => {
   const data = await monoschinos.fetchEpisodeSources(info.episodes![0].id);
   console.log(data);
   expect(data.sources).not.toEqual([]);
+  expect(data.subtitles).not.toEqual([]);
 });

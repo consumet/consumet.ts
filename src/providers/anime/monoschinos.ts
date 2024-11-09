@@ -8,6 +8,7 @@ import {
   IEpisodeServer,
   ISearch,
   ISource,
+  ISubtitle,
   IVideo,
   StreamingServers,
 } from '../../models';
@@ -104,6 +105,7 @@ class MonosChinos extends AnimeParser {
 
       let decodedUrl;
       let sources: IVideo[];
+      let subtitles: ISubtitle[] = [];
 
       // filemoon => js code too obfuscated
       // mixdrop => 403 forbidden
@@ -112,7 +114,11 @@ class MonosChinos extends AnimeParser {
 
       try {
         decodedUrl = await this.#getServerDecodedUrl($, StreamingServers.Voe);
-        sources = await new Voe().extract(new URL(decodedUrl.replace('voe.sx', 'thomasalthoughhear.com')));
+        const voeResult = await new Voe().extract(
+          new URL(decodedUrl.replace('voe.sx', 'thomasalthoughhear.com'))
+        );
+        sources = voeResult.sources;
+        subtitles = voeResult?.subtitles;
       } catch (err) {
         decodedUrl = await this.#getServerDecodedUrl($, StreamingServers.StreamTape);
         sources = await new StreamTape().extract(new URL(decodedUrl));
@@ -122,7 +128,7 @@ class MonosChinos extends AnimeParser {
         }
       }
 
-      return { sources: sources };
+      return { sources: sources, subtitles: subtitles };
     } catch (err) {
       throw new Error((err as Error).message);
     }

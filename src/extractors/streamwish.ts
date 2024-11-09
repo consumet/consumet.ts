@@ -1,11 +1,11 @@
-import { VideoExtractor, IVideo } from '../models';
+import { VideoExtractor, IVideo, ISubtitle } from '../models';
 import { USER_AGENT } from '../utils';
 import zlib from 'zlib';
 class StreamWish extends VideoExtractor {
   protected override serverName = 'streamwish';
   protected override sources: IVideo[] = [];
 
-  override extract = async (videoUrl: URL): Promise<IVideo[]> => {
+  override extract = async (videoUrl: URL): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
     try {
       const options = {
         headers: {
@@ -28,7 +28,6 @@ class StreamWish extends VideoExtractor {
           'User-Agent': USER_AGENT,
         },
       };
-      // console.log(videoUrl.href,"videoUrl")
       const { data } = await this.client.get(videoUrl.href, options);
 
       // Code adapted from Zenda-Cross (https://github.com/Zenda-Cross/vega-app/blob/main/src/lib/providers/multi/multiGetStream.ts)
@@ -58,6 +57,24 @@ class StreamWish extends VideoExtractor {
         console.log('No match found');
       }
       const links = p.match(/file:\s*"([^"]+\.m3u8[^"]*)"/) ?? [];
+      const subtitleMatches =
+        p?.match(/{file:"([^"]+)",(label:"([^"]+)",)?kind:"(thumbnails|captions)"/g) ?? [];
+      // console.log(subtitleMatches, 'subtitleMatches');
+      const subtitles: ISubtitle[] = subtitleMatches.map(sub => {
+        const lang = sub?.match(/label:"([^"]+)"/)?.[1] ?? '';
+        const url = sub?.match(/file:"([^"]+)"/)?.[1] ?? '';
+        const kind = sub?.match(/kind:"([^"]+)"/)?.[1] ?? '';
+        if (kind.includes('thumbnail')) {
+          return {
+            lang: kind,
+            url: `https://streamwish.com${url}`,
+          };
+        }
+        return {
+          lang: lang,
+          url: url,
+        };
+      });
       let lastLink: string | null = null;
       links.forEach((link: string) => {
         if (link.includes('file:"')) {
@@ -93,7 +110,10 @@ class StreamWish extends VideoExtractor {
         }
       } catch (e) {}
 
-      return this.sources;
+      return {
+        sources: this.sources,
+        subtitles: subtitles,
+      };
     } catch (err) {
       throw new Error((err as Error).message);
     }

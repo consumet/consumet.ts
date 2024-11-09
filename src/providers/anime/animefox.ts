@@ -186,7 +186,7 @@ class AnimeFox extends AnimeParser {
       const iframe = $('#iframe-to-load').attr('src') || '';
       const streamUrl = `https://goload.io/streaming.php?id=${iframe.split('=')[1]}`;
       return {
-        sources: await new GogoCDN(this.proxyConfig).extract(new URL(streamUrl)),
+        ...(await new GogoCDN(this.proxyConfig).extract(new URL(streamUrl))),
       };
     } catch (err) {
       console.log(err);

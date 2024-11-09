@@ -7,6 +7,7 @@ import MovieHdWatch from './movidhdwatch';
 import SmashyStream from './smashystream';
 import Turkish from './turkish123';
 import ViewAsian from './viewAsian';
+import SFlix from './sflix';
 declare const _default: {
     DramaCool: typeof DramaCool;
     FlixHQ: typeof FlixHQ;
@@ -17,5 +18,6 @@ declare const _default: {
     SmashyStream: typeof SmashyStream;
     ViewAsian: typeof ViewAsian;
     Turkish: typeof Turkish;
+    SFlix: typeof SFlix;
 };
 export default _default;

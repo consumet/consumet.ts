@@ -1,7 +1,7 @@
 import { CheerioAPI, load } from 'cheerio';
 import CryptoJS from 'crypto-js';
 
-import { VideoExtractor, IVideo, ProxyConfig } from '../models';
+import { VideoExtractor, IVideo, ProxyConfig, ISubtitle } from '../models';
 import { USER_AGENT } from '../utils';
 
 class GogoCDN extends VideoExtractor {
@@ -16,7 +16,7 @@ class GogoCDN extends VideoExtractor {
 
   private referer: string = '';
 
-  override extract = async (videoUrl: URL): Promise<IVideo[]> => {
+  override extract = async (videoUrl: URL): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
     this.referer = videoUrl.href;
 
     const res = await this.client.get(videoUrl.href);
@@ -32,9 +32,14 @@ class GogoCDN extends VideoExtractor {
         },
       }
     );
-
     const decryptedData = await this.decryptAjaxData(encryptedData.data.data);
+    // console.log(decryptedData.track.tracks);
     if (!decryptedData.source) throw new Error('No source found. Try a different server.');
+
+    const subtitles: ISubtitle[] = decryptedData.track.tracks.map((track: any) => ({
+      url: track.file,
+      lang: track.kind,
+    }));
 
     if (decryptedData.source[0].file.includes('.m3u8')) {
       const resResult = await this.client.get(decryptedData.source[0].file.toString());
@@ -74,7 +79,10 @@ class GogoCDN extends VideoExtractor {
       });
     });
 
-    return this.sources;
+    return {
+      sources: this.sources,
+      subtitles: subtitles,
+    };
   };
 
   private addSources = async (source: any) => {
