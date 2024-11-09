@@ -14,7 +14,7 @@ class MangaKakalot extends models_1.MangaParser {
                 id: mangaId,
                 title: '',
             };
-            const url = mangaId.includes('read') ? this.baseUrl : 'https://readmanganato.com';
+            const url = mangaId.includes('read') ? this.baseUrl : 'https://chapmanganato.to';
             try {
                 const { data } = await this.client.get(`${url}/${mangaId}`);
                 const $ = (0, cheerio_1.load)(data);
@@ -97,7 +97,7 @@ class MangaKakalot extends models_1.MangaParser {
                         .map((i, el) => {
                         var _a;
                         return ({
-                            id: ((_a = $(el).find('a').attr('href')) === null || _a === void 0 ? void 0 : _a.split('.com/')[1]) + '$$READMANGANATO',
+                            id: (_a = $(el).find('a').attr('href')) === null || _a === void 0 ? void 0 : _a.split(`${mangaId}/`)[1],
                             title: $(el).find('a').text(),
                             views: parseInt($(el).find('span.chapter-view.text-nowrap').text().replace(/,/g, '').trim()),
                             releasedDate: $(el).find('span.chapter-time.text-nowrap').attr('title'),
@@ -111,11 +111,11 @@ class MangaKakalot extends models_1.MangaParser {
                 throw new Error(err.message);
             }
         };
-        this.fetchChapterPages = async (chapterId) => {
+        this.fetchChapterPages = async (chapterId, mangaId) => {
             try {
-                const url = !chapterId.includes('$$READMANGANATO')
+                const url = chapterId.includes('$$READMANGANATO')
                     ? `${this.baseUrl}/chapter/${chapterId}`
-                    : `https://readmanganato.com/${chapterId.replace('$$READMANGANATO', '')}`;
+                    : `https://chapmanganato.to/${mangaId}/${chapterId}`;
                 const { data } = await this.client.get(url);
                 const $ = (0, cheerio_1.load)(data);
                 const pages = $('div.container-chapter-reader > img')

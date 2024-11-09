@@ -21,7 +21,7 @@ class MangaKakalot extends MangaParser {
       id: mangaId,
       title: '',
     };
-    const url = mangaId.includes('read') ? this.baseUrl : 'https://readmanganato.com';
+    const url = mangaId.includes('read') ? this.baseUrl : 'https://chapmanganato.to';
     try {
       const { data } = await this.client.get(`${url}/${mangaId}`);
       const $ = load(data);
@@ -112,7 +112,7 @@ class MangaKakalot extends MangaParser {
         mangaInfo.chapters = $('div.container-main-left > div.panel-story-chapter-list > ul > li')
           .map(
             (i, el): IMangaChapter => ({
-              id: $(el).find('a').attr('href')?.split('.com/')[1]! + '$$READMANGANATO',
+              id: $(el).find('a').attr('href')?.split(`${mangaId}/`)[1]!,
               title: $(el).find('a').text(),
               views: parseInt($(el).find('span.chapter-view.text-nowrap').text()!.replace(/,/g, '').trim()),
               releasedDate: $(el).find('span.chapter-time.text-nowrap').attr('title'),
@@ -127,11 +127,11 @@ class MangaKakalot extends MangaParser {
     }
   };
 
-  override fetchChapterPages = async (chapterId: string): Promise<IMangaChapterPage[]> => {
+  override fetchChapterPages = async (chapterId: string, mangaId: string): Promise<IMangaChapterPage[]> => {
     try {
-      const url = !chapterId.includes('$$READMANGANATO')
+      const url = chapterId.includes('$$READMANGANATO')
         ? `${this.baseUrl}/chapter/${chapterId}`
-        : `https://readmanganato.com/${chapterId.replace('$$READMANGANATO', '')}`;
+        : `https://chapmanganato.to/${mangaId}/${chapterId}`;
       const { data } = await this.client.get(url);
       const $ = load(data);
 
