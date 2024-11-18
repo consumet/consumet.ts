@@ -27,7 +27,10 @@ test('returns a filled array of servers', async () => {
 });
 
 test('returns a filled object of episode sources', async () => {
-  const data = await gogoanime.fetchEpisodeSources('spy-x-family-episode-9', StreamingServers.StreamWish);
+  const data = await gogoanime.fetchEpisodeSources(
+    'arifureta-shokugyou-de-sekai-saikyou-season-3-episode-1',
+    StreamingServers.GogoCDN
+  );
   expect(data.sources).not.toEqual([]);
   expect(data.subtitles).not.toEqual([]);
 });
