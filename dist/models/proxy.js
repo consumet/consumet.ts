@@ -45,6 +45,7 @@ class Proxy {
                 if (!this.validUrl.test(url))
                     throw new Error(`Proxy URL at index ${i} is invalid!`);
             this.rotateProxy({ ...proxyConfig, urls: proxyConfig.url });
+            return;
         }
         this.client.interceptors.request.use(config => {
             var _a, _b;
