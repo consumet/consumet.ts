@@ -36,7 +36,7 @@ class GogoCDN extends VideoExtractor {
     // console.log(decryptedData.track.tracks);
     if (!decryptedData.source) throw new Error('No source found. Try a different server.');
 
-    const subtitles: ISubtitle[] = decryptedData.track.tracks.map((track: any) => ({
+    const subtitles: ISubtitle[] = decryptedData.track.tracks?.map((track: any) => ({
       url: track.file,
       lang: track.kind,
     }));
