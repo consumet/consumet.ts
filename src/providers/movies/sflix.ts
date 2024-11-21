@@ -503,5 +503,4 @@ class SFlix extends MovieParser {
   };
 }
 
-
 export default SFlix;

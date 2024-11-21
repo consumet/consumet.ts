@@ -19,7 +19,7 @@ class GogoCDN extends models_1.VideoExtractor {
         };
         this.referer = '';
         this.extract = async (videoUrl) => {
-            var _a;
+            var _a, _b;
             this.referer = videoUrl.href;
             const res = await this.client.get(videoUrl.href);
             const $ = (0, cheerio_1.load)(res.data);
@@ -33,7 +33,7 @@ class GogoCDN extends models_1.VideoExtractor {
             // console.log(decryptedData.track.tracks);
             if (!decryptedData.source)
                 throw new Error('No source found. Try a different server.');
-            const subtitles = decryptedData.track.tracks.map((track) => ({
+            const subtitles = (_b = decryptedData.track.tracks) === null || _b === void 0 ? void 0 : _b.map((track) => ({
                 url: track.file,
                 lang: track.kind,
             }));
