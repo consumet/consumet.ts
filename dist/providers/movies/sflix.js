@@ -436,15 +436,5 @@ class SFlix extends models_1.MovieParser {
         };
     }
 }
-(async () => {
-    const movie = new SFlix();
-    console.time('recentTv');
-    // const search = await movie.fetchEpisodeSources("1167571","tv/free-vincenzo-hd-67955",StreamingServers.Voe);
-    const movieInfo = await movie.search('vincenzo');
-    // const recentTv = await movie.fetchTrendingMovies();
-    console.timeEnd('recentTv');
-    //  const genre = await movie.fetchEpisodeServers("1167571","tv/free-vincenzo-hd-67955");
-    console.log(movieInfo);
-})();
 exports.default = SFlix;
 //# sourceMappingURL=sflix.js.map
