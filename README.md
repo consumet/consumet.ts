@@ -18,7 +18,7 @@ consumet.ts is a Node library which provides high-level APIs to get information 
       <img src="https://img.shields.io/discord/987492554486452315?color=7289da&label=discord&logo=discord&logoColor=7289da" alt="Discord">
     </a>
       <a href="https://github.com/consumet/consumet.ts/blob/master/LICENSE">
-    <img src="https://img.shields.io/npm/l/@consumet/extensions" alt="GitHub">
+    <img src="https://img.shields.io/badge/License-GPL--3.0-blue.svg" alt="GitHub">
   </a>
 </p>
 
@@ -117,4 +117,4 @@ Thanks to the following people for keeping this project alive and thriving.
 - [Anify API](https://github.com/Eltik/Anify) - Used as a caching layer for the meta/anilist provider to speed up responses. 
 
 ## License
-Licensed under [MIT](./LICENSE).
+Licensed under [GPL-3.0](./LICENSE).
