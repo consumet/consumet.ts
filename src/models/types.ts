@@ -60,6 +60,7 @@ export interface FuzzyDate {
 export enum MediaFormat {
   TV = 'TV',
   TV_SHORT = 'TV_SHORT',
+  TV_SPECIAL = 'TV_SPECIAL',
   MOVIE = 'MOVIE',
   SPECIAL = 'SPECIAL',
   OVA = 'OVA',
@@ -68,6 +69,7 @@ export enum MediaFormat {
   MANGA = 'MANGA',
   NOVEL = 'NOVEL',
   ONE_SHOT = 'ONE_SHOT',
+  PV = 'PV',
 }
 
 export interface IAnimeInfo extends IAnimeResult {

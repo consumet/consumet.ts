@@ -5,6 +5,7 @@ var MediaFormat;
 (function (MediaFormat) {
     MediaFormat["TV"] = "TV";
     MediaFormat["TV_SHORT"] = "TV_SHORT";
+    MediaFormat["TV_SPECIAL"] = "TV_SPECIAL";
     MediaFormat["MOVIE"] = "MOVIE";
     MediaFormat["SPECIAL"] = "SPECIAL";
     MediaFormat["OVA"] = "OVA";
@@ -13,6 +14,7 @@ var MediaFormat;
     MediaFormat["MANGA"] = "MANGA";
     MediaFormat["NOVEL"] = "NOVEL";
     MediaFormat["ONE_SHOT"] = "ONE_SHOT";
+    MediaFormat["PV"] = "PV";
 })(MediaFormat || (exports.MediaFormat = MediaFormat = {}));
 var StreamingServers;
 (function (StreamingServers) {
