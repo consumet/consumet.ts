@@ -21,6 +21,7 @@ class Anix extends AnimeParser {
   protected override baseUrl = 'https://anix.sh';
   protected override logo = 'https://anix.sh/img/logo.png';
   protected override classPath = 'ANIME.Anix';
+  private readonly defaultSort = `&type%5B%5D=1&type%5B%5D=5&type%5B%5D=3&type%5B%5D=4&type%5B%5D=2&type%5B%5D=7&status[]=${MediaStatus.ONGOING}&status[]=${MediaStatus.COMPLETED}`;
   private readonly requestedWith = 'XMLHttpRequest';
 
   constructor(customBaseURL?: string, proxy?: ProxyConfig, adapter?: AxiosAdapter) {
@@ -46,7 +47,7 @@ class Anix extends AnimeParser {
   fetchRecentEpisodes = async (page: number = 1): Promise<ISearch<IAnimeResult>> => {
     try {
       const res = await this.client.get(
-        `${this.baseUrl}/filter?status[]=${MediaStatus.ONGOING}&status[]=${MediaStatus.COMPLETED}&sort=recently_updated&page=${page}`
+        `${this.baseUrl}/filter?${this.defaultSort}&sort=recently_updated&page=${page}`
       );
 
       const $ = load(res.data);
@@ -115,7 +116,9 @@ class Anix extends AnimeParser {
    */
   override search = async (query: string, page: number = 1): Promise<ISearch<IAnimeResult>> => {
     try {
-      const res = await this.client.get(`${this.baseUrl}/filter?keyword=${query}&page=${page}`);
+      const res = await this.client.get(
+        `${this.baseUrl}/filter?keyword=${query}&page=${page}&${this.defaultSort}`
+      );
       const $ = load(res.data);
       let hasNextPage = $('.pagination').length > 0;
       if (hasNextPage) {

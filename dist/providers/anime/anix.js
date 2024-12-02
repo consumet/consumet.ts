@@ -10,13 +10,14 @@ class Anix extends models_1.AnimeParser {
         this.baseUrl = 'https://anix.sh';
         this.logo = 'https://anix.sh/img/logo.png';
         this.classPath = 'ANIME.Anix';
+        this.defaultSort = `&type%5B%5D=1&type%5B%5D=5&type%5B%5D=3&type%5B%5D=4&type%5B%5D=2&type%5B%5D=7&status[]=${models_1.MediaStatus.ONGOING}&status[]=${models_1.MediaStatus.COMPLETED}`;
         this.requestedWith = 'XMLHttpRequest';
         /**
          * @param page page number (optional)
          */
         this.fetchRecentEpisodes = async (page = 1) => {
             try {
-                const res = await this.client.get(`${this.baseUrl}/filter?status[]=${models_1.MediaStatus.ONGOING}&status[]=${models_1.MediaStatus.COMPLETED}&sort=recently_updated&page=${page}`);
+                const res = await this.client.get(`${this.baseUrl}/filter?${this.defaultSort}&sort=recently_updated&page=${page}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 const recentEpisodes = [];
                 $('.basic.ani.content-item .piece').each((i, el) => {
@@ -79,7 +80,7 @@ class Anix extends models_1.AnimeParser {
          */
         this.search = async (query, page = 1) => {
             try {
-                const res = await this.client.get(`${this.baseUrl}/filter?keyword=${query}&page=${page}`);
+                const res = await this.client.get(`${this.baseUrl}/filter?keyword=${query}&page=${page}&${this.defaultSort}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 let hasNextPage = $('.pagination').length > 0;
                 if (hasNextPage) {

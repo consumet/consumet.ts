@@ -5,6 +5,7 @@ declare class Anix extends AnimeParser {
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
+    private readonly defaultSort;
     private readonly requestedWith;
     constructor(customBaseURL?: string, proxy?: ProxyConfig, adapter?: AxiosAdapter);
     /**
