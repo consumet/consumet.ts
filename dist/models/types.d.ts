@@ -62,7 +62,8 @@ export declare enum MediaFormat {
     MANGA = "MANGA",
     NOVEL = "NOVEL",
     ONE_SHOT = "ONE_SHOT",
-    PV = "PV"
+    PV = "PV",
+    COMIC = "COMIC"
 }
 export interface IAnimeInfo extends IAnimeResult {
     malId?: number | string;
@@ -165,6 +166,7 @@ export declare enum StreamingServers {
     MyCloud = "mycloud",
     Filemoon = "filemoon",
     VidStreaming = "vidstreaming",
+    VidStream = "vidstream",
     SmashyStream = "smashystream",
     StreamHub = "streamhub",
     StreamWish = "streamwish",

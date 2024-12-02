@@ -15,6 +15,7 @@ var MediaFormat;
     MediaFormat["NOVEL"] = "NOVEL";
     MediaFormat["ONE_SHOT"] = "ONE_SHOT";
     MediaFormat["PV"] = "PV";
+    MediaFormat["COMIC"] = "COMIC";
 })(MediaFormat || (exports.MediaFormat = MediaFormat = {}));
 var StreamingServers;
 (function (StreamingServers) {
@@ -31,6 +32,7 @@ var StreamingServers;
     StreamingServers["MyCloud"] = "mycloud";
     StreamingServers["Filemoon"] = "filemoon";
     StreamingServers["VidStreaming"] = "vidstreaming";
+    StreamingServers["VidStream"] = "vidstream";
     StreamingServers["SmashyStream"] = "smashystream";
     StreamingServers["StreamHub"] = "streamhub";
     StreamingServers["StreamWish"] = "streamwish";

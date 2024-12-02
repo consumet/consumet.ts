@@ -25,3 +25,14 @@ test('returns a filled object of anime data', async () => {
   const data = await anix.fetchAnimeInfo(s.results[0].id);
   expect(data).not.toBeNull();
 });
+
+test('returns a filled object of episode sources', async () => {
+  const data = await anix.fetchEpisodeSources('douluo-dalu-ii-jueshi-tangmen', 'ep-76');
+  expect(data.sources).not.toEqual([]);
+  expect(data.subtitles).not.toEqual([]);
+});
+
+test('returns a filled array of servers', async () => {
+  const data = await anix.fetchEpisodeServers('douluo-dalu-ii-jueshi-tangmen', 'ep-76');
+  expect(data).not.toEqual([]);
+});

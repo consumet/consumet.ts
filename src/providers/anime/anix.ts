@@ -10,7 +10,11 @@ import {
   SubOrSub,
   MediaFormat,
   MediaStatus,
+  StreamingServers,
+  ProxyConfig,
 } from '../../models';
+import { StreamWish } from '../../extractors';
+import { AxiosAdapter } from 'axios';
 
 class Anix extends AnimeParser {
   override readonly name = 'Anix';
@@ -19,9 +23,25 @@ class Anix extends AnimeParser {
   protected override classPath = 'ANIME.Anix';
   private readonly requestedWith = 'XMLHttpRequest';
 
+  constructor(customBaseURL?: string, proxy?: ProxyConfig, adapter?: AxiosAdapter) {
+    super(...arguments);
+    this.baseUrl = customBaseURL
+      ? customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')
+        ? customBaseURL
+        : `http://${customBaseURL}`
+      : this.baseUrl;
+    if (proxy) {
+      // Initialize proxyConfig if provided
+      this.setProxy(proxy);
+    }
+    if (adapter) {
+      // Initialize adapter if provided
+      this.setAxiosAdapter(adapter);
+    }
+  }
+
   /**
    * @param page page number (optional)
-   * @param type type of media. (optional) (default `1`) `1`: Japanese with subtitles, `2`: english/dub with no subtitles, `3`: chinese with english subtitles
    */
   fetchRecentEpisodes = async (page: number = 1): Promise<ISearch<IAnimeResult>> => {
     try {
@@ -60,6 +80,10 @@ class Anix extends AnimeParser {
             break;
           case 'TV Special':
             finalType = MediaFormat.TV_SPECIAL;
+            break;
+          case 'Comic':
+            finalType = MediaFormat.COMIC;
+            break;
         }
         recentEpisodes.push({
           id: url?.split('/')[2]!,
@@ -87,6 +111,7 @@ class Anix extends AnimeParser {
 
   /**
    * @param query Search query
+   * @param page Page number (optional)
    */
   override search = async (query: string, page: number = 1): Promise<ISearch<IAnimeResult>> => {
     try {
@@ -128,6 +153,10 @@ class Anix extends AnimeParser {
             break;
           case 'TV Special':
             finalType = MediaFormat.TV_SPECIAL;
+            break;
+          case 'Comic':
+            finalType = MediaFormat.COMIC;
+            break;
         }
         searchResult.results.push({
           id: url?.split('/')[2]!,
@@ -147,7 +176,6 @@ class Anix extends AnimeParser {
 
   /**
    * @param id Anime id
-   * @param page Page number
    */
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
     const url = `${this.baseUrl}/anime/${id}/ep-1`;
@@ -228,6 +256,10 @@ class Anix extends AnimeParser {
           break;
         case 'TV Special':
           animeInfo.type = MediaFormat.TV_SPECIAL;
+          break;
+        case 'Comic':
+          animeInfo.type = MediaFormat.COMIC;
+          break;
       }
 
       return animeInfo;
@@ -238,18 +270,128 @@ class Anix extends AnimeParser {
 
   /**
    *
+   * @param id Anime id
    * @param episodeId Episode id
+   * @param server Streaming server(optional)
    */
-  override fetchEpisodeSources = async (episodeId: string): Promise<ISource> => {
-    throw new Error('Method not implemented.');
+  override fetchEpisodeSources = async (
+    id: string,
+    episodeId: string,
+    server: StreamingServers = StreamingServers.VidStream
+  ): Promise<ISource> => {
+    const url = `${this.baseUrl}/anime/${id}/${episodeId}`;
+    const uri = new URL(url);
+    const res = await this.client.get(url);
+    const $ = load(res.data);
+    const servers = new Map<string, string>();
+    $($('.ani-server-type-pad')[0])
+      .find('.server')
+      .each((i, el) => {
+        servers.set($(el).text().trim(), $(el).attr('data-video')!);
+      });
+    switch (server) {
+      case StreamingServers.Mp4Upload:
+        if (servers.get('Mp4upload') !== undefined) {
+          const streamUri = new URL(servers.get('Mp4upload')!);
+          return {
+            headers: {
+              Referer: uri.origin,
+            },
+            ...(await new StreamWish(this.proxyConfig, this.adapter).extract(streamUri)),
+          };
+        }
+        throw new Error('Mp4Upload server not found');
+      case StreamingServers.StreamWish:
+        const streamUrl = servers.get('Streamwish') ?? undefined;
+        if (servers.get('Streamwish') != undefined) {
+          const streamUri = new URL(servers.get('Streamwish')!);
+          return {
+            headers: {
+              Referer: uri.origin,
+            },
+            ...(await new StreamWish(this.proxyConfig, this.adapter).extract(streamUri)),
+          };
+        }
+        throw new Error('StreamWish server not found');
+      default:
+        const episodeSources: ISource = {
+          sources: [],
+        };
+
+        try {
+          let defaultUrl = '';
+          $('script:contains("loadIframePlayer")').each((i, el) => {
+            const scriptContent = $(el).text();
+            // Regular expression to capture the JSON inside loadIframePlayer
+            const jsonRegex = /loadIframePlayer\(\s*(['"`])(\[[\s\S]*?\])\1/;
+            const match = jsonRegex.exec(scriptContent);
+
+            if (match && match[0]) {
+              const extractedJson = match[0]
+                .replace('loadIframePlayer(', '')
+                .replace("'", '')
+                .replace("'", '');
+              const data = JSON.parse(extractedJson);
+              defaultUrl = data[0].url;
+
+              episodeSources.sources.push({
+                url: defaultUrl,
+                quality: `default`,
+                isM3U8: true,
+              });
+            } else {
+              console.error('No JSON data found in loadIframePlayer call.');
+            }
+          });
+          const m3u8Content = await this.client.get(defaultUrl);
+
+          if (m3u8Content.data.includes('EXTM3U')) {
+            const videoList = m3u8Content.data.split('#EXT-X-STREAM-INF:');
+            for (const video of videoList ?? []) {
+              if (video.includes('BANDWIDTH')) {
+                const url = video.split('\n')[1];
+                const quality = video.split('RESOLUTION=')[1].split('\n')[0].split('x')[1];
+                const path = defaultUrl.replace(/\/[^/]*\.m3u8$/, '/');
+                episodeSources.sources.push({
+                  url: path + url,
+                  quality: `${quality.split(',')[0]}p`,
+                  isM3U8: true,
+                });
+              }
+            }
+          }
+        } catch (err) {
+          throw new Error((err as Error).message);
+        }
+        return {
+          headers: {
+            Referer: uri.origin,
+          },
+          ...episodeSources,
+        };
+    }
   };
 
   /**
    *
+   * @param id Anime id
    * @param episodeId Episode id
    */
-  override fetchEpisodeServers = (episodeId: string): Promise<IEpisodeServer[]> => {
-    throw new Error('Method not implemented.');
+  override fetchEpisodeServers = async (id: string, episodeId: string): Promise<IEpisodeServer[]> => {
+    const url = `${this.baseUrl}/anime/${id}/${episodeId}`;
+    const uri = new URL(url);
+    const res = await this.client.get(url);
+    const $ = load(res.data);
+    const servers: IEpisodeServer[] = [];
+    $($('.ani-server-type-pad')[0])
+      .find('.server')
+      .each((i, el) => {
+        servers.push({
+          name: $(el).text().trim(),
+          url: $(el).attr('data-video')!,
+        });
+      });
+    return servers;
   };
 }
 
