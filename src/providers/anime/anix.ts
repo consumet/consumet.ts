@@ -25,20 +25,12 @@ class Anix extends AnimeParser {
   private readonly requestedWith = 'XMLHttpRequest';
 
   constructor(customBaseURL?: string, proxy?: ProxyConfig, adapter?: AxiosAdapter) {
-    super(...arguments);
+    super(proxy, adapter);
     this.baseUrl = customBaseURL
       ? customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')
         ? customBaseURL
         : `http://${customBaseURL}`
       : this.baseUrl;
-    if (proxy) {
-      // Initialize proxyConfig if provided
-      this.setProxy(proxy);
-    }
-    if (adapter) {
-      // Initialize adapter if provided
-      this.setAxiosAdapter(adapter);
-    }
   }
 
   /**

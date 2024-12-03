@@ -5,7 +5,7 @@ const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
 class Anix extends models_1.AnimeParser {
     constructor(customBaseURL, proxy, adapter) {
-        super(...arguments);
+        super(proxy, adapter);
         this.name = 'Anix';
         this.baseUrl = 'https://anix.sh';
         this.logo = 'https://anix.sh/img/logo.png';
@@ -360,14 +360,6 @@ class Anix extends models_1.AnimeParser {
                 ? customBaseURL
                 : `http://${customBaseURL}`
             : this.baseUrl;
-        if (proxy) {
-            // Initialize proxyConfig if provided
-            this.setProxy(proxy);
-        }
-        if (adapter) {
-            // Initialize adapter if provided
-            this.setAxiosAdapter(adapter);
-        }
     }
 }
 exports.default = Anix;
