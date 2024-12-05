@@ -242,7 +242,7 @@ class Anix extends models_1.AnimeParser {
          * @param episodeId Episode id
          * @param server Streaming server(optional)
          */
-        this.fetchEpisodeSources = async (id, episodeId, server = models_1.StreamingServers.VidStream) => {
+        this.fetchEpisodeSources = async (id, episodeId, server = models_1.StreamingServers.BuiltIn) => {
             var _a;
             const url = `${this.baseUrl}/anime/${id}/${episodeId}`;
             const uri = new URL(url);

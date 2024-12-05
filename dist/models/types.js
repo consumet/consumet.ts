@@ -32,7 +32,7 @@ var StreamingServers;
     StreamingServers["MyCloud"] = "mycloud";
     StreamingServers["Filemoon"] = "filemoon";
     StreamingServers["VidStreaming"] = "vidstreaming";
-    StreamingServers["VidStream"] = "vidstream";
+    StreamingServers["BuiltIn"] = "builtin";
     StreamingServers["SmashyStream"] = "smashystream";
     StreamingServers["StreamHub"] = "streamhub";
     StreamingServers["StreamWish"] = "streamwish";

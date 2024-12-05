@@ -180,7 +180,7 @@ export enum StreamingServers {
   MyCloud = 'mycloud',
   Filemoon = 'filemoon',
   VidStreaming = 'vidstreaming',
-  VidStream = 'vidstream',
+  BuiltIn = 'builtin',
   SmashyStream = 'smashystream',
   StreamHub = 'streamhub',
   StreamWish = 'streamwish',

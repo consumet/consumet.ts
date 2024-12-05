@@ -272,7 +272,7 @@ class Anix extends AnimeParser {
   override fetchEpisodeSources = async (
     id: string,
     episodeId: string,
-    server: StreamingServers = StreamingServers.VidStream
+    server: StreamingServers = StreamingServers.BuiltIn
   ): Promise<ISource> => {
     const url = `${this.baseUrl}/anime/${id}/${episodeId}`;
     const uri = new URL(url);
