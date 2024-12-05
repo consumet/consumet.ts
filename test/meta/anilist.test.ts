@@ -1,8 +1,10 @@
 import { META } from '../../src/providers';
+import { ANIME } from '../../src/providers';
 
 jest.setTimeout(120000);
 
 const anilist = new META.Anilist();
+const zoro = new ANIME.Zoro();
 
 test('returns a filled array of anime list', async () => {
   const data = await anilist.search('spy x family');
@@ -56,4 +58,21 @@ test('returns object of staff information', async () => {
   const data = await anilist.fetchStaffById(97410);
   expect(data.id).not.toBeUndefined();
 });
+
 ('');
+
+test('returns a filled object of anime data', async () => {  
+  const anilist = new META.Anilist(zoro);
+  
+  const data = await anilist.fetchAnimeInfo('170732');
+
+  console.log(data.episodes);
+  console.log(zoro.name);
+  console.log(data.currentEpisode);
+  console.log(data.episodes?.length);
+  
+  expect(data).not.toBeNull();
+  expect(data.episodes).not.toEqual([]);
+  expect(data.description).not.toBeNull();
+  expect(data.currentEpisode).toEqual(data.episodes?.length);
+});
