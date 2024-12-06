@@ -11,6 +11,7 @@ import Marin from './marin';
 import AnimeSaturn from './animesaturn';
 import AnimeUnity from './animeunity';
 import MonosChinos from './monoschinos';
+import Anix from './anix';
 declare const _default: {
     Gogoanime: typeof Gogoanime;
     NineAnime: typeof NineAnime;
@@ -25,5 +26,6 @@ declare const _default: {
     AnimeSaturn: typeof AnimeSaturn;
     AnimeUnity: typeof AnimeUnity;
     MonosChinos: typeof MonosChinos;
+    Anix: typeof Anix;
 };
 export default _default;

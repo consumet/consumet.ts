@@ -7,8 +7,8 @@ class AnimeFox extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
         this.name = 'AnimeFox';
-        this.baseUrl = 'https://animefox.tv';
-        this.logo = 'https://animefox.tv/assets/images/logo.png';
+        this.baseUrl = 'https://animefox.fun';
+        this.logo = 'https://animefox.fun/assets/images/logo.png';
         this.classPath = 'ANIME.AnimeFox';
         /**
          * @param query Search query
