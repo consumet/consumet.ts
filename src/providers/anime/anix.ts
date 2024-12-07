@@ -21,7 +21,19 @@ class Anix extends AnimeParser {
   protected override baseUrl = 'https://anix.sh';
   protected override logo = 'https://anix.sh/img/logo.png';
   protected override classPath = 'ANIME.Anix';
-  private readonly defaultSort = `&type%5B%5D=1&type%5B%5D=5&type%5B%5D=3&type%5B%5D=4&type%5B%5D=2&type%5B%5D=7&status[]=${MediaStatus.ONGOING}&status[]=${MediaStatus.COMPLETED}`;
+  private readonly MediaCategory = {
+    MOVIE: 1,
+    TV: 2,
+    OVA: 3,
+    SPECIAL: 4,
+    ONA: 5,
+    TV_SPECIAL: 7,
+  };
+  private readonly MediaRegion = {
+    ANIME: 'country[]=1&country[]=2&country[]=3&country[]=4&country[]=6',
+    DONGHUA: 'country[]=5',
+  };
+  private readonly defaultSort = `&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}&status[]=${MediaStatus.ONGOING}&status[]=${MediaStatus.COMPLETED}`;
   private readonly requestedWith = 'XMLHttpRequest';
 
   constructor(customBaseURL?: string, proxy?: ProxyConfig, adapter?: AxiosAdapter) {
@@ -36,11 +48,15 @@ class Anix extends AnimeParser {
   /**
    * @param page page number (optional)
    */
-  fetchRecentEpisodes = async (page: number = 1): Promise<ISearch<IAnimeResult>> => {
+  fetchRecentEpisodes = async (page: number = 1, type?: number): Promise<ISearch<IAnimeResult>> => {
     try {
-      const res = await this.client.get(
-        `${this.baseUrl}/filter?${this.defaultSort}&sort=recently_updated&page=${page}`
-      );
+      let url = `${this.baseUrl}/filter?${this.defaultSort}&sort=recently_updated&page=${page}`;
+      if (type == 1) {
+        url += `&${this.MediaRegion.ANIME}`;
+      } else if (type == 2) {
+        url += `&${this.MediaRegion.DONGHUA}`;
+      }
+      const res = await this.client.get(url);
 
       const $ = load(res.data);
 

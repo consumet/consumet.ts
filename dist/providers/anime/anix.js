@@ -10,14 +10,33 @@ class Anix extends models_1.AnimeParser {
         this.baseUrl = 'https://anix.sh';
         this.logo = 'https://anix.sh/img/logo.png';
         this.classPath = 'ANIME.Anix';
-        this.defaultSort = `&type%5B%5D=1&type%5B%5D=5&type%5B%5D=3&type%5B%5D=4&type%5B%5D=2&type%5B%5D=7&status[]=${models_1.MediaStatus.ONGOING}&status[]=${models_1.MediaStatus.COMPLETED}`;
+        this.MediaCategory = {
+            MOVIE: 1,
+            TV: 2,
+            OVA: 3,
+            SPECIAL: 4,
+            ONA: 5,
+            TV_SPECIAL: 7,
+        };
+        this.MediaRegion = {
+            ANIME: 'country[]=1&country[]=2&country[]=3&country[]=4&country[]=6',
+            DONGHUA: 'country[]=5',
+        };
+        this.defaultSort = `&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}&status[]=${models_1.MediaStatus.ONGOING}&status[]=${models_1.MediaStatus.COMPLETED}`;
         this.requestedWith = 'XMLHttpRequest';
         /**
          * @param page page number (optional)
          */
-        this.fetchRecentEpisodes = async (page = 1) => {
+        this.fetchRecentEpisodes = async (page = 1, type) => {
             try {
-                const res = await this.client.get(`${this.baseUrl}/filter?${this.defaultSort}&sort=recently_updated&page=${page}`);
+                let url = `${this.baseUrl}/filter?${this.defaultSort}&sort=recently_updated&page=${page}`;
+                if (type == 1) {
+                    url += `&${this.MediaRegion.ANIME}`;
+                }
+                else if (type == 2) {
+                    url += `&${this.MediaRegion.DONGHUA}`;
+                }
+                const res = await this.client.get(url);
                 const $ = (0, cheerio_1.load)(res.data);
                 const recentEpisodes = [];
                 $('.basic.ani.content-item .piece').each((i, el) => {

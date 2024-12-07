@@ -5,13 +5,15 @@ declare class Anix extends AnimeParser {
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
+    private readonly MediaCategory;
+    private readonly MediaRegion;
     private readonly defaultSort;
     private readonly requestedWith;
     constructor(customBaseURL?: string, proxy?: ProxyConfig, adapter?: AxiosAdapter);
     /**
      * @param page page number (optional)
      */
-    fetchRecentEpisodes: (page?: number) => Promise<ISearch<IAnimeResult>>;
+    fetchRecentEpisodes: (page?: number, type?: number) => Promise<ISearch<IAnimeResult>>;
     /**
      * @param query Search query
      * @param page Page number (optional)
