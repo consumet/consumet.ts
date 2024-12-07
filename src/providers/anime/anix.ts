@@ -51,13 +51,10 @@ class Anix extends AnimeParser {
   fetchRecentEpisodes = async (page: number = 1, type?: number): Promise<ISearch<IAnimeResult>> => {
     try {
       let url = `${this.baseUrl}/filter?${this.defaultSort}&sort=recently_updated&page=${page}`;
-      switch (type) {
-        case 1:
-          url += `&${this.MediaRegion.ANIME}`;
-          break;
-        case 2:
-          url += `&${this.MediaRegion.DONGHUA}`;
-          break;
+      if (type == 1) {
+        url += `&${this.MediaRegion.ANIME}`;
+      } else if (type == 2) {
+        url += `&${this.MediaRegion.DONGHUA}`;
       }
       const res = await this.client.get(url);
 

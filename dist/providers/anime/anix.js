@@ -30,13 +30,11 @@ class Anix extends models_1.AnimeParser {
         this.fetchRecentEpisodes = async (page = 1, type) => {
             try {
                 let url = `${this.baseUrl}/filter?${this.defaultSort}&sort=recently_updated&page=${page}`;
-                switch (type) {
-                    case 1:
-                        url += `&${this.MediaRegion.ANIME}`;
-                        break;
-                    case 2:
-                        url += `&${this.MediaRegion.DONGHUA}`;
-                        break;
+                if (type == 1) {
+                    url += `&${this.MediaRegion.ANIME}`;
+                }
+                else if (type == 2) {
+                    url += `&${this.MediaRegion.DONGHUA}`;
                 }
                 const res = await this.client.get(url);
                 const $ = (0, cheerio_1.load)(res.data);
