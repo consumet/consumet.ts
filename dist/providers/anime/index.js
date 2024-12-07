@@ -16,6 +16,7 @@ const marin_1 = __importDefault(require("./marin"));
 const animesaturn_1 = __importDefault(require("./animesaturn"));
 const animeunity_1 = __importDefault(require("./animeunity"));
 const monoschinos_1 = __importDefault(require("./monoschinos"));
+const anix_1 = __importDefault(require("./anix"));
 exports.default = {
     Gogoanime: gogoanime_1.default,
     NineAnime: _9anime_1.default,
@@ -30,5 +31,6 @@ exports.default = {
     AnimeSaturn: animesaturn_1.default,
     AnimeUnity: animeunity_1.default,
     MonosChinos: monoschinos_1.default,
+    Anix: anix_1.default,
 };
 //# sourceMappingURL=index.js.map

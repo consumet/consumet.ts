@@ -25,7 +25,7 @@ abstract class AnimeParser extends BaseParser {
    *
    * returns episode servers (video links) available
    */
-  abstract fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]>;
+  abstract fetchEpisodeServers(episodeId: string, ...args: any): Promise<IEpisodeServer[]>;
 }
 
 export default AnimeParser;
