@@ -13,6 +13,7 @@ const dramacool = new MOVIES.DramaCool();
 - [fetchPopular](#fetchpopular)
 - [fetchRecentMovies](#fetchrecentmovies)
 - [fetchRecentTvShows](#fetchrecenttvshows)
+- [fetchSpotlight](#fetchspotlight)
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
@@ -286,4 +287,34 @@ output:
     {...}
   ]
 }
+```
+
+### fetchSpotlight
+  
+  ```ts
+  dramacool.fetchSpotlight().then(data => {
+    console.log(data);
+  })
+  ```
+
+  returns a promise which resolves into an array of movies. (*[`Promise<ISearch<IMovieResult>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L328-L336)*)\
+output:
+```js
+
+{
+  results: [
+    {
+      id: 'drama-detail/the-judge-from-hell',
+      title: 'The Judge from Hell',
+      url: 'https://asianc.co/drama-detail/the-judge-from-hell',
+      cover: 'https://asianc.co/plugins/slideshow/slides/new/dramacool-the-judge-from-hell.png'
+    },
+    {
+      id: 'drama-detail/mom-s-friend-s-son',
+      title: 'Love Next Door',
+      url: 'https://asianc.co/drama-detail/mom-s-friend-s-son',
+      cover: 'https://asianc.co/plugins/slideshow/slides/new/dramacool-mom-s-friend-s-son.png'
+    },
+    {...}
+  ]
 ```

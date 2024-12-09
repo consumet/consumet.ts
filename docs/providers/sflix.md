@@ -16,6 +16,8 @@ const sflix = new MOVIES.SFlix();
 - [fetchTrendingTvShows](#fetchtrendingtvshows)
 - [fetchByCountry](#fetchbycountry)
 - [fetchByGenre](#fetchbygenre)
+- [fetchSpotlight](#fetchspotlight)
+
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
@@ -418,6 +420,43 @@ output:
       type: 'Movie',
       rating: '7.4',
       releaseDate: '2024'
+    },
+    {...}
+  ]
+}
+```
+
+### fetchSpotlight
+  
+  ```ts
+  sflix.fetchSpotlight().then(data => {
+    console.log(data);
+  })
+  ```
+
+  returns a promise which resolves into an array of movies. (*[`Promise<ISearch<IMovieResult>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L328-L336)*)\
+output:
+```js
+
+{
+  results: [
+    {
+      id: 'movie/free-saturday-night-hd-114820',
+      title: 'Saturday Night',
+      url: 'https://sflix.to/movie/free-saturday-night-hd-114820',
+      cover: 'https://f.woowoowoowoo.net/resize/1200x600/2f/1d/2f1d04e79daf8d69ab1eb4ab1574f91f/2f1d04e79daf8d69ab1eb4ab1574f91f.jpg',
+      rating: '7.2',
+      description: 'At 11:30pm on October 11, 1975, a ferocious troupe of young comedians and writers changed television forever. This is the story of what happened behind the ...',
+      type: 'Movie'
+    },
+    {
+      id: 'movie/free-megalopolis-hd-114703',
+      title: 'Megalopolis',
+      url: 'https://sflix.to/movie/free-megalopolis-hd-114703',
+      cover: 'https://f.woowoowoowoo.net/resize/1200x600/fd/d7/fdd70eab48552734313737a7e38810b5/fdd70eab48552734313737a7e38810b5.jpg',
+      rating: '5',
+      description: 'Genius artist Cesar Catilina seeks to leap the City of New Rome into a utopian, idealistic future, while his opposition, Mayor Franklyn Cicero,...',
+      type: 'Movie'
     },
     {...}
   ]

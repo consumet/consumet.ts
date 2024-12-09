@@ -35,3 +35,8 @@ test('returns a filled object of movies/tv data by genre', async () => {
   const data = await sflix.fetchByGenre('drama');
   expect(data.results).not.toEqual([]);
 });
+
+test('fetchSpotlight: returns a filled array of spotlight movies/TV.', async () => {
+  const data = await sflix.fetchSpotlight();
+  expect(data.results).not.toEqual([]);
+});
