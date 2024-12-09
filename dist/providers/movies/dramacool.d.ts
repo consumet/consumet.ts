@@ -12,6 +12,7 @@ declare class DramaCool extends MovieParser {
     fetchPopular: (page?: number) => Promise<ISearch<IMovieResult>>;
     fetchRecentTvShows: (page?: number) => Promise<ISearch<IMovieResult>>;
     fetchRecentMovies: (page?: number) => Promise<ISearch<IMovieResult>>;
+    fetchSpotlight: () => Promise<ISearch<IMovieResult>>;
     private fetchData;
     private downloadLink;
     private removeContainsFromString;

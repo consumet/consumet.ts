@@ -263,6 +263,29 @@ class DramaCool extends MovieParser {
     return this.fetchData(`${this.baseUrl}/recently-added-movie?page=${page}`, page, false, true);
   };
 
+  fetchSpotlight = async (): Promise<ISearch<IMovieResult>> => {
+    try {
+      const results: ISearch<IMovieResult> = { results: [] };
+      const { data } = await this.client.get(`${this.baseUrl}`);
+
+      const $ = load(data);
+
+      $('div.ls-slide').each((i, el) => {
+        results.results.push({
+          id: $(el).find('a').attr('href')?.slice(1)!,
+          title: $(el).find('img').attr('title')!,
+          url: `${this.baseUrl}${$(el).find('a').attr('href')}`,
+          cover: $(el).find('img').attr('src'),
+        });
+      });
+
+      return results;
+    } catch (err) {
+      console.error(err);
+      throw new Error((err as Error).message);
+    }
+  };
+
   private async fetchData(
     url: string,
     page: number,
@@ -338,7 +361,8 @@ class DramaCool extends MovieParser {
 //testing fetchPopular via iife
 // (async () => {
 //   const dramaCool = new DramaCool();
-//   await dramaCool.fetchRecentTvShows();
+//   const l=await dramaCool.fetchSpotlight();
+//   console.log(l);
 // })();
 
 export default DramaCool;

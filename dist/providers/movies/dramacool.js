@@ -190,6 +190,27 @@ class DramaCool extends models_1.MovieParser {
         this.fetchRecentMovies = async (page = 1) => {
             return this.fetchData(`${this.baseUrl}/recently-added-movie?page=${page}`, page, false, true);
         };
+        this.fetchSpotlight = async () => {
+            try {
+                const results = { results: [] };
+                const { data } = await this.client.get(`${this.baseUrl}`);
+                const $ = (0, cheerio_1.load)(data);
+                $('div.ls-slide').each((i, el) => {
+                    var _a;
+                    results.results.push({
+                        id: (_a = $(el).find('a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
+                        title: $(el).find('img').attr('title'),
+                        url: `${this.baseUrl}${$(el).find('a').attr('href')}`,
+                        cover: $(el).find('img').attr('src'),
+                    });
+                });
+                return results;
+            }
+            catch (err) {
+                console.error(err);
+                throw new Error(err.message);
+            }
+        };
         this.downloadLink = (url) => {
             return url.replace(/^(https:\/\/[^\/]+)\/[^?]+(\?.+)$/, '$1/download$2');
         };
@@ -282,7 +303,8 @@ class DramaCool extends models_1.MovieParser {
 //testing fetchPopular via iife
 // (async () => {
 //   const dramaCool = new DramaCool();
-//   await dramaCool.fetchRecentTvShows();
+//   const l=await dramaCool.fetchSpotlight();
+//   console.log(l);
 // })();
 exports.default = DramaCool;
 //# sourceMappingURL=dramacool.js.map

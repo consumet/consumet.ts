@@ -79,7 +79,7 @@ class StreamWish extends models_1.VideoExtractor {
                         link = link.replace('file:"', '').replace(new RegExp('"', 'g'), '');
                     }
                     const linkParser = new URL(link);
-                    linkParser.searchParams.set('i', '0.0');
+                    linkParser.searchParams.set('i', '0.4');
                     this.sources.push({
                         quality: lastLink ? 'backup' : 'default',
                         url: linkParser.href,
