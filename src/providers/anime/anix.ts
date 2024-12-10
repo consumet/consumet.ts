@@ -13,7 +13,7 @@ import {
   StreamingServers,
   ProxyConfig,
 } from '../../models';
-import { StreamWish } from '../../extractors';
+import { Mp4Upload, StreamWish } from '../../extractors';
 import { AxiosAdapter } from 'axios';
 
 class Anix extends AnimeParser {
@@ -308,12 +308,11 @@ class Anix extends AnimeParser {
             headers: {
               Referer: uri.origin,
             },
-            ...(await new StreamWish(this.proxyConfig, this.adapter).extract(streamUri)),
+            sources: await new Mp4Upload(this.proxyConfig, this.adapter).extract(streamUri),
           };
         }
         throw new Error('Mp4Upload server not found');
       case StreamingServers.StreamWish:
-        const streamUrl = servers.get('Streamwish') ?? undefined;
         if (servers.get('Streamwish') != undefined) {
           const streamUri = new URL(servers.get('Streamwish')!);
           return {
