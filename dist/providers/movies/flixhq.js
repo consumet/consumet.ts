@@ -419,6 +419,35 @@ class FlixHQ extends models_1.MovieParser {
                 throw new Error(err.message);
             }
         };
+        this.fetchSpotlight = async () => {
+            try {
+                const results = { results: [] };
+                const { data } = await this.client.get(`${this.baseUrl}/home`);
+                const $ = (0, cheerio_1.load)(data);
+                $('div.swiper-slide').each((i, el) => {
+                    var _a, _b, _c, _d;
+                    results.results.push({
+                        id: (_a = $(el).find('a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
+                        title: $(el).find('a').attr('title'),
+                        url: `${this.baseUrl}${$(el).find('a').attr('href')}`,
+                        cover: (_c = (_b = $(el)) === null || _b === void 0 ? void 0 : _b.css('background-image')) === null || _c === void 0 ? void 0 : _c.replace(/url\(["']?(.+?)["']?\)/, '$1').trim(),
+                        duration: $(el).find('.scd-item:contains("Duration") strong').text().trim(),
+                        rating: $(el).find('.scd-item:contains("IMDB") strong').text().trim(),
+                        genres: $(el)
+                            .find('.scd-item:contains("Genre") .slide-genre-item')
+                            .map((i, el) => $(el).text().trim())
+                            .get(),
+                        description: $(el).find('.sc-desc').text().trim(),
+                        type: ((_d = $(el).find('a').attr('href')) === null || _d === void 0 ? void 0 : _d.split('/')[1]) === 'movie' ? models_1.TvType.MOVIE : models_1.TvType.TVSERIES,
+                    });
+                });
+                return results;
+            }
+            catch (err) {
+                console.error(err);
+                throw new Error(err.message);
+            }
+        };
     }
 }
 // (async () => {
@@ -426,8 +455,8 @@ class FlixHQ extends models_1.MovieParser {
 //   // const search = await movie.search('the flash');
 //   // const movieInfo = await movie.fetchEpisodeSources('1168337', 'tv/watch-vincenzo-67955');
 //   // const recentTv = await movie.fetchTrendingTvShows();
-//    const genre = await movie.fetchByGenre('drama')
-//    console.log(movieInfo)
+//    const genre = await movie.fetchSpotlight()
+//    console.log(genre)
 // })();
 exports.default = FlixHQ;
 //# sourceMappingURL=flixhq.js.map

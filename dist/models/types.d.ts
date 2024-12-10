@@ -53,6 +53,7 @@ export interface FuzzyDate {
 export declare enum MediaFormat {
     TV = "TV",
     TV_SHORT = "TV_SHORT",
+    TV_SPECIAL = "TV_SPECIAL",
     MOVIE = "MOVIE",
     SPECIAL = "SPECIAL",
     OVA = "OVA",
@@ -60,7 +61,9 @@ export declare enum MediaFormat {
     MUSIC = "MUSIC",
     MANGA = "MANGA",
     NOVEL = "NOVEL",
-    ONE_SHOT = "ONE_SHOT"
+    ONE_SHOT = "ONE_SHOT",
+    PV = "PV",
+    COMIC = "COMIC"
 }
 export interface IAnimeInfo extends IAnimeResult {
     malId?: number | string;
@@ -163,6 +166,7 @@ export declare enum StreamingServers {
     MyCloud = "mycloud",
     Filemoon = "filemoon",
     VidStreaming = "vidstreaming",
+    BuiltIn = "builtin",
     SmashyStream = "smashystream",
     StreamHub = "streamhub",
     StreamWish = "streamwish",

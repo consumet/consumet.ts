@@ -434,7 +434,39 @@ class SFlix extends models_1.MovieParser {
                 throw new Error(err.message);
             }
         };
+        this.fetchSpotlight = async () => {
+            try {
+                const results = { results: [] };
+                const { data } = await this.client.get(`${this.baseUrl}/home`);
+                const $ = (0, cheerio_1.load)(data);
+                $('div.swiper-slide').each((i, el) => {
+                    var _a, _b;
+                    results.results.push({
+                        id: (_a = $(el).find('a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
+                        title: $(el).find('a').attr('title'),
+                        url: `${this.baseUrl}${$(el).find('a').attr('href')}`,
+                        cover: $(el).find('div.slide-photo > a > img').attr('src'),
+                        rating: $(el).find('.scd-item:nth-child(1)').text().trim(),
+                        description: $(el).find('.sc-desc').text().trim(),
+                        type: ((_b = $(el).find('a').attr('href')) === null || _b === void 0 ? void 0 : _b.split('/')[1]) === 'movie' ? models_1.TvType.MOVIE : models_1.TvType.TVSERIES,
+                    });
+                });
+                return results;
+            }
+            catch (err) {
+                console.error(err);
+                throw new Error(err.message);
+            }
+        };
     }
 }
+// (async () => {
+//      const movie = new SFlix();
+//     // const search = await movie.search('the flash');
+//     // const movieInfo = await movie.fetchEpisodeSources('1168337', 'tv/watch-vincenzo-67955');
+//     // const recentTv = await movie.fetchTrendingTvShows();
+//      const genre = await movie.fetchSpotlight()
+//      console.log(genre)
+//   })();
 exports.default = SFlix;
 //# sourceMappingURL=sflix.js.map

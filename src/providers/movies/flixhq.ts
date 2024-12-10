@@ -477,6 +477,39 @@ class FlixHQ extends MovieParser {
       throw new Error((err as Error).message);
     }
   };
+
+  fetchSpotlight = async (): Promise<ISearch<IMovieResult>> => {
+    try {
+      const results: ISearch<IMovieResult> = { results: [] };
+      const { data } = await this.client.get(`${this.baseUrl}/home`);
+
+      const $ = load(data);
+
+      $('div.swiper-slide').each((i, el) => {
+        results.results.push({
+          id: $(el).find('a').attr('href')?.slice(1)!,
+          title: $(el).find('a').attr('title')!,
+          url: `${this.baseUrl}${$(el).find('a').attr('href')}`,
+          cover: $(el)
+            ?.css('background-image')
+            ?.replace(/url\(["']?(.+?)["']?\)/, '$1')
+            .trim(),
+          duration: $(el).find('.scd-item:contains("Duration") strong').text().trim(),
+          rating: $(el).find('.scd-item:contains("IMDB") strong').text().trim(),
+          genres: $(el)
+            .find('.scd-item:contains("Genre") .slide-genre-item')
+            .map((i, el) => $(el).text().trim())
+            .get(),
+          description: $(el).find('.sc-desc').text().trim(),
+          type: $(el).find('a').attr('href')?.split('/')[1] === 'movie' ? TvType.MOVIE : TvType.TVSERIES,
+        });
+      });
+      return results;
+    } catch (err) {
+      console.error(err);
+      throw new Error((err as Error).message);
+    }
+  };
 }
 
 // (async () => {
@@ -484,8 +517,8 @@ class FlixHQ extends MovieParser {
 //   // const search = await movie.search('the flash');
 //   // const movieInfo = await movie.fetchEpisodeSources('1168337', 'tv/watch-vincenzo-67955');
 //   // const recentTv = await movie.fetchTrendingTvShows();
-//    const genre = await movie.fetchByGenre('drama')
-//    console.log(movieInfo)
+//    const genre = await movie.fetchSpotlight()
+//    console.log(genre)
 // })();
 
 export default FlixHQ;

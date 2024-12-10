@@ -70,3 +70,8 @@ test('fetchMediaInfo:returns content-rating, airs-on, director, original-network
   expect(data.trailer).not.toEqual(undefined);
   expect(data.characters).not.toEqual([]);
 });
+
+test('fetchSpotlight: returns a filled array of spotlight movies/TV.', async () => {
+  const data = await dramaCool.fetchSpotlight();
+  expect(data.results).not.toEqual([]);
+});
