@@ -262,7 +262,6 @@ class Anix extends models_1.AnimeParser {
          * @param server Streaming server(optional)
          */
         this.fetchEpisodeSources = async (id, episodeId, server = models_1.StreamingServers.BuiltIn) => {
-            var _a;
             const url = `${this.baseUrl}/anime/${id}/${episodeId}`;
             const uri = new URL(url);
             const res = await this.client.get(url);
@@ -281,12 +280,11 @@ class Anix extends models_1.AnimeParser {
                             headers: {
                                 Referer: uri.origin,
                             },
-                            ...(await new extractors_1.StreamWish(this.proxyConfig, this.adapter).extract(streamUri)),
+                            sources: await new extractors_1.Mp4Upload(this.proxyConfig, this.adapter).extract(streamUri),
                         };
                     }
                     throw new Error('Mp4Upload server not found');
                 case models_1.StreamingServers.StreamWish:
-                    const streamUrl = (_a = servers.get('Streamwish')) !== null && _a !== void 0 ? _a : undefined;
                     if (servers.get('Streamwish') != undefined) {
                         const streamUri = new URL(servers.get('Streamwish'));
                         return {
