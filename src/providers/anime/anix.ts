@@ -306,7 +306,7 @@ class Anix extends AnimeParser {
           const streamUri = new URL(servers.get('Mp4upload')!);
           return {
             headers: {
-              Referer: uri.origin,
+              Referer: streamUri.origin,
             },
             sources: await new Mp4Upload(this.proxyConfig, this.adapter).extract(streamUri),
           };
