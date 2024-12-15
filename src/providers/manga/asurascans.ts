@@ -49,16 +49,6 @@ class AsuraScans extends MangaParser {
           .find('.space-y-1.pt-4 > div > button')
           .map((index, ele) => $(ele).text().trim())
           .get(),
-        chapters: dom
-          .find('.pl-4.pr-2.pb-4.overflow-y-auto > div')
-          .map((index, ele): IMangaChapter => {
-            return {
-              id: $(ele).find('h3:nth-child(1) > a').attr('href') as string,
-              title: $(ele).find('h3:nth-child(1) > a').text().trim(),
-              releaseDate: $(ele).find('h3:nth-child(2)').text().trim(),
-            };
-          })
-          .get(),
         recommendations: dom
           .find('.grid.grid-cols-2.gap-3.p-4 > a')
           .map((index, ele): IMangaResult => {
@@ -74,6 +64,22 @@ class AsuraScans extends MangaParser {
           .get(),
       };
 
+      const chapMatch = data
+        .replace(/\n/g, '')
+        .replace(/\\/g, '')
+        .match(/"chapters".*:(\[\{.*?\}\]),/);
+      if (chapMatch) {
+        const chap: { name: string; title: string; id: string; published_at: string }[] = JSON.parse(
+          chapMatch[1]
+        );
+        info.chapters = chap.map((ele): IMangaChapter => {
+          return {
+            id: ele.name,
+            title: ele.title != '' ? ele.title : `Chapter ${ele.name}`,
+            releaseDate: ele.published_at,
+          };
+        });
+      }
       return info;
     } catch (err) {
       throw new Error((err as Error).message);
@@ -83,20 +89,15 @@ class AsuraScans extends MangaParser {
   override fetchChapterPages = async (chapterId: string): Promise<IMangaChapterPage[]> => {
     try {
       const { data }: AxiosResponse = await this.client.get(`${this.baseUrl}/series/${chapterId}`);
-      const $: CheerioAPI = load(data);
-
-      const dom = $('html');
-      const pages = dom
-        .find('.w-full.mx-auto.center > img')
-        .map((index, ele): IMangaChapterPage => {
-          return {
-            img: $(ele).attr('src') as string,
-            page: index + 1,
-          };
+      const chapMatch = data.replace(/\\/g, '').match(/pages.*:(\[{['"]order["'].*?}\])/);
+      if (!chapMatch) throw new Error('Parsing error');
+      const chap: { order: string; url: string }[] = JSON.parse(chapMatch[1]);
+      return chap.map(
+        (page, index): IMangaChapterPage => ({
+          page: index + 1,
+          img: page.url,
         })
-        .get();
-
-      return pages;
+      );
     } catch (err) {
       throw new Error((err as Error).message);
     }
