@@ -37,16 +37,6 @@ class AsuraScans extends models_1.MangaParser {
                         .find('.space-y-1.pt-4 > div > button')
                         .map((index, ele) => $(ele).text().trim())
                         .get(),
-                    chapters: dom
-                        .find('.pl-4.pr-2.pb-4.overflow-y-auto > div')
-                        .map((index, ele) => {
-                        return {
-                            id: $(ele).find('h3:nth-child(1) > a').attr('href'),
-                            title: $(ele).find('h3:nth-child(1) > a').text().trim(),
-                            releaseDate: $(ele).find('h3:nth-child(2)').text().trim(),
-                        };
-                    })
-                        .get(),
                     recommendations: dom
                         .find('.grid.grid-cols-2.gap-3.p-4 > a')
                         .map((index, ele) => {
@@ -61,6 +51,20 @@ class AsuraScans extends models_1.MangaParser {
                     })
                         .get(),
                 };
+                const chapMatch = data
+                    .replace(/\n/g, '')
+                    .replace(/\\/g, '')
+                    .match(/"chapters".*:(\[\{.*?\}\]),/);
+                if (chapMatch) {
+                    const chap = JSON.parse(chapMatch[1]);
+                    info.chapters = chap.map((ele) => {
+                        return {
+                            id: ele.name,
+                            title: ele.title != '' ? ele.title : `Chapter ${ele.name}`,
+                            releaseDate: ele.published_at,
+                        };
+                    });
+                }
                 return info;
             }
             catch (err) {
@@ -70,18 +74,14 @@ class AsuraScans extends models_1.MangaParser {
         this.fetchChapterPages = async (chapterId) => {
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/series/${chapterId}`);
-                const $ = (0, cheerio_1.load)(data);
-                const dom = $('html');
-                const pages = dom
-                    .find('.w-full.mx-auto.center > img')
-                    .map((index, ele) => {
-                    return {
-                        img: $(ele).attr('src'),
-                        page: index + 1,
-                    };
-                })
-                    .get();
-                return pages;
+                const chapMatch = data.replace(/\\/g, '').match(/pages.*:(\[{['"]order["'].*?}\])/);
+                if (!chapMatch)
+                    throw new Error('Parsing error');
+                let chap = JSON.parse(chapMatch[1]);
+                return chap.map((page, index) => ({
+                    page: index + 1,
+                    img: page.url,
+                }));
             }
             catch (err) {
                 throw new Error(err.message);
