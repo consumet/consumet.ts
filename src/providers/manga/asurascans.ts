@@ -91,7 +91,7 @@ class AsuraScans extends MangaParser {
       const { data }: AxiosResponse = await this.client.get(`${this.baseUrl}/series/${chapterId}`);
       const chapMatch = data.replace(/\\/g, '').match(/pages.*:(\[{['"]order["'].*?}\])/);
       if (!chapMatch) throw new Error('Parsing error');
-      let chap: { order: string; url: string }[] = JSON.parse(chapMatch[1]);
+      const chap: { order: string; url: string }[] = JSON.parse(chapMatch[1]);
       return chap.map(
         (page, index): IMangaChapterPage => ({
           page: index + 1,
