@@ -290,6 +290,7 @@ class Anix extends AnimeParser {
    * @param id Anime id
    * @param episodeId Episode id
    * @param server Streaming server(optional)
+   * @param type Type (optional) (options: `sub`, `dub`, `raw`)
    */
   override fetchEpisodeSources = async (
     id: string,
@@ -427,6 +428,7 @@ class Anix extends AnimeParser {
    *
    * @param id Anime id
    * @param episodeId Episode id
+   * @param type Type (optional) (options: `sub`, `dub`, `raw`)
    */
   fetchEpisodeServerType = async (
     id: string,
