@@ -36,6 +36,7 @@ var StreamingServers;
     StreamingServers["SmashyStream"] = "smashystream";
     StreamingServers["StreamHub"] = "streamhub";
     StreamingServers["StreamWish"] = "streamwish";
+    StreamingServers["VidHide"] = "vidhide";
     StreamingServers["VidMoly"] = "vidmoly";
     StreamingServers["Voe"] = "voe";
 })(StreamingServers || (exports.StreamingServers = StreamingServers = {}));

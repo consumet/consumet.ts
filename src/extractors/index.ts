@@ -17,6 +17,7 @@ import StreamWish from './streamwish';
 import VidCloud from './vidcloud';
 import VidMoly from './vidmoly';
 import VizCloud from './vizcloud';
+import VidHide from './vidhide';
 import Voe from './voe';
 
 export {
@@ -39,5 +40,6 @@ export {
   VidCloud,
   VidMoly,
   VizCloud,
+  VidHide,
   Voe,
 };

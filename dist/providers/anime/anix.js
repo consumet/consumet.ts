@@ -273,6 +273,16 @@ class Anix extends models_1.AnimeParser {
                 servers.set($(el).text().trim(), $(el).attr('data-video'));
             });
             switch (server) {
+                case models_1.StreamingServers.VidHide:
+                    if (servers.get('Vidhide') !== undefined) {
+                        const streamUri = new URL(servers.get('Vidhide'));
+                        return {
+                            headers: {
+                                Referer: streamUri.origin,
+                            },
+                            sources: await new extractors_1.VidHide(this.proxyConfig, this.adapter).extract(streamUri),
+                        };
+                    }
                 case models_1.StreamingServers.Mp4Upload:
                     if (servers.get('Mp4upload') !== undefined) {
                         const streamUri = new URL(servers.get('Mp4upload'));
