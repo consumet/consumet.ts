@@ -61,16 +61,16 @@ test('returns object of staff information', async () => {
 
 ('');
 
-test('returns a filled object of anime data', async () => {  
+test('returns a filled object of anime data', async () => {
   const anilist = new META.Anilist(zoro);
-  
+
   const data = await anilist.fetchAnimeInfo('170732');
 
   console.log(data.episodes);
   console.log(zoro.name);
   console.log(data.currentEpisode);
   console.log(data.episodes?.length);
-  
+
   expect(data).not.toBeNull();
   expect(data.episodes).not.toEqual([]);
   expect(data.description).not.toBeNull();

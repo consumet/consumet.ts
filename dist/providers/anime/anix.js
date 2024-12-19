@@ -21,6 +21,8 @@ class Anix extends models_1.AnimeParser {
         this.MediaRegion = {
             ANIME: 'country[]=1&country[]=2&country[]=3&country[]=4&country[]=6',
             DONGHUA: 'country[]=5',
+            SUB: 'language[]=sub',
+            DUB: 'language[]=dub',
         };
         this.defaultSort = `&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}&status[]=${models_1.MediaStatus.ONGOING}&status[]=${models_1.MediaStatus.COMPLETED}`;
         this.requestedWith = 'XMLHttpRequest';
@@ -35,6 +37,12 @@ class Anix extends models_1.AnimeParser {
                 }
                 else if (type == 2) {
                     url += `&${this.MediaRegion.DONGHUA}`;
+                }
+                else if (type == 3) {
+                    url += `&${this.MediaRegion.SUB}`;
+                }
+                else if (type == 4) {
+                    url += `&${this.MediaRegion.DUB}`;
                 }
                 const res = await this.client.get(url);
                 const $ = (0, cheerio_1.load)(res.data);

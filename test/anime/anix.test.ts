@@ -36,3 +36,13 @@ test('returns a filled array of servers', async () => {
   const data = await anix.fetchEpisodeServers('douluo-dalu-ii-jueshi-tangmen', 'ep-76');
   expect(data).not.toEqual([]);
 });
+
+test('returns a filled array of recent episodes (type: sub)', async () => {
+  const data = await anix.fetchRecentEpisodes(1, 3);
+  expect(data).not.toEqual([]);
+});
+
+test('returns a filled array of recent episodes (type: dub)', async () => {
+  const data = await anix.fetchRecentEpisodes(1, 4);
+  expect(data).not.toEqual([]);
+});

@@ -32,6 +32,8 @@ class Anix extends AnimeParser {
   private readonly MediaRegion = {
     ANIME: 'country[]=1&country[]=2&country[]=3&country[]=4&country[]=6',
     DONGHUA: 'country[]=5',
+    SUB: 'language[]=sub',
+    DUB: 'language[]=dub',
   };
   private readonly defaultSort = `&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}&status[]=${MediaStatus.ONGOING}&status[]=${MediaStatus.COMPLETED}`;
   private readonly requestedWith = 'XMLHttpRequest';
@@ -55,7 +57,12 @@ class Anix extends AnimeParser {
         url += `&${this.MediaRegion.ANIME}`;
       } else if (type == 2) {
         url += `&${this.MediaRegion.DONGHUA}`;
+      } else if (type == 3) {
+        url += `&${this.MediaRegion.SUB}`;
+      } else if (type == 4) {
+        url += `&${this.MediaRegion.DUB}`;
       }
+
       const res = await this.client.get(url);
 
       const $ = load(res.data);
