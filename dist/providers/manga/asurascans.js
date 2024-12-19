@@ -77,7 +77,7 @@ class AsuraScans extends models_1.MangaParser {
                 const chapMatch = data.replace(/\\/g, '').match(/pages.*:(\[{['"]order["'].*?}\])/);
                 if (!chapMatch)
                     throw new Error('Parsing error');
-                let chap = JSON.parse(chapMatch[1]);
+                const chap = JSON.parse(chapMatch[1]);
                 return chap.map((page, index) => ({
                     page: index + 1,
                     img: page.url,
