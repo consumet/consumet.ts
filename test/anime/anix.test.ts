@@ -85,8 +85,7 @@ test('returns a filled object of episode sources (type: raw)', async () => {
   expect(data.subtitles).not.toEqual([]);
 });
 
-test('returns a filled object of episode sources (type: invalid option)', async () => {
+test('returns a empty object of episode sources (type: invalid option)', async () => {
   const data = await anix.fetchEpisodeSources('dandadan', 'ep-11', undefined, 'invalid');
-  expect(data.sources).not.toEqual([]);
-  expect(data.subtitles).not.toEqual([]);
+  expect(data.sources).toEqual([]);
 });

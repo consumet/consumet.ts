@@ -328,23 +328,22 @@ class Anix extends models_1.AnimeParser {
                                             break;
                                         }
                                     }
-                                    if (defaultUrl == '')
-                                        defaultUrl = data[0].url;
                                 }
                                 else {
                                     defaultUrl = data[0].url;
                                 }
-                                episodeSources.sources.push({
-                                    url: defaultUrl,
-                                    quality: `default`,
-                                    isM3U8: defaultUrl.includes('.m3u8'),
-                                });
+                                if (defaultUrl != '')
+                                    episodeSources.sources.push({
+                                        url: defaultUrl,
+                                        quality: `default`,
+                                        isM3U8: defaultUrl.includes('.m3u8'),
+                                    });
                             }
                             else {
                                 console.error('No JSON data found in loadIframePlayer call.');
                             }
                         });
-                        if (!defaultUrl.includes('.mp4')) {
+                        if (defaultUrl != '' && !defaultUrl.includes('.mp4')) {
                             const options = {
                                 headers: {
                                     Referer: url,
