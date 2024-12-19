@@ -347,9 +347,10 @@ class Anix extends models_1.AnimeParser {
                         if (!defaultUrl.includes('.mp4')) {
                             const options = {
                                 headers: {
-                                    Referer: `${this.baseUrl}/anime/${id}/${episodeId}`,
+                                    Referer: url,
                                 },
                             };
+                            console.log(options);
                             const m3u8Content = await this.client.get(defaultUrl, options);
                             if (m3u8Content.data.includes('EXTM3U')) {
                                 const videoList = m3u8Content.data.split('#EXT-X-STREAM-INF:');
