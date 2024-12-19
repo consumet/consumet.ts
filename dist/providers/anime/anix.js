@@ -323,7 +323,7 @@ class Anix extends models_1.AnimeParser {
                                 const data = JSON.parse(extractedJson);
                                 if (type != '') {
                                     for (const item of data) {
-                                        if (item.type == type || item.type == type.toUpperCase()) {
+                                        if (item.type.toUpperCase() == type.toUpperCase()) {
                                             defaultUrl = item.url;
                                             break;
                                         }
