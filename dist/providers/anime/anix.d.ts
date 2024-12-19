@@ -29,12 +29,22 @@ declare class Anix extends AnimeParser {
      * @param episodeId Episode id
      * @param server Streaming server(optional)
      */
-    fetchEpisodeSources: (id: string, episodeId: string, server?: StreamingServers) => Promise<ISource>;
+    fetchEpisodeSources: (id: string, episodeId: string, server?: StreamingServers, type?: string) => Promise<ISource>;
     /**
      *
      * @param id Anime id
      * @param episodeId Episode id
      */
     fetchEpisodeServers: (id: string, episodeId: string) => Promise<IEpisodeServer[]>;
+    /**
+     *
+     * @param id Anime id
+     * @param episodeId Episode id
+     */
+    fetchEpisodeServerType: (id: string, episodeId: string, type?: string) => Promise<{
+        sub: IEpisodeServer[];
+        dub: IEpisodeServer[];
+        raw: IEpisodeServer[];
+    } | IEpisodeServer[]>;
 }
 export default Anix;

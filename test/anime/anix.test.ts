@@ -46,3 +46,47 @@ test('returns a filled array of recent episodes (type: dub)', async () => {
   const data = await anix.fetchRecentEpisodes(1, 4);
   expect(data).not.toEqual([]);
 });
+
+test('returns a filled array of servers (type: all)', async () => {
+  const data = await anix.fetchEpisodeServerType('dandadan', 'ep-11');
+  expect(data).not.toEqual([]);
+});
+
+test('returns a filled array of servers (type: sub)', async () => {
+  const data = await anix.fetchEpisodeServerType('dandadan', 'ep-11', 'sub');
+  expect(data).not.toEqual([]);
+});
+
+test('returns a filled array of servers (type: dub)', async () => {
+  const data = await anix.fetchEpisodeServerType('dandadan', 'ep-11', 'dub');
+  expect(data).not.toEqual([]);
+});
+
+test('returns a filled array of servers (type: raw)', async () => {
+  const data = await anix.fetchEpisodeServerType('dandadan', 'ep-11', 'raw');
+  expect(data).not.toEqual([]);
+});
+
+test('returns a filled object of episode sources (type: sub)', async () => {
+  const data = await anix.fetchEpisodeSources('dandadan', 'ep-11', undefined, 'sub');
+  expect(data.sources).not.toEqual([]);
+  expect(data.subtitles).not.toEqual([]);
+});
+
+test('returns a filled object of episode sources (type: dub)', async () => {
+  const data = await anix.fetchEpisodeSources('dandadan', 'ep-11', undefined, 'dub');
+  expect(data.sources).not.toEqual([]);
+  expect(data.subtitles).not.toEqual([]);
+});
+
+test('returns a filled object of episode sources (type: raw)', async () => {
+  const data = await anix.fetchEpisodeSources('dandadan', 'ep-11', undefined, 'raw');
+  expect(data.sources).not.toEqual([]);
+  expect(data.subtitles).not.toEqual([]);
+});
+
+test('returns a filled object of episode sources (type: invalid option)', async () => {
+  const data = await anix.fetchEpisodeSources('dandadan', 'ep-11', undefined, 'invalid');
+  expect(data.sources).not.toEqual([]);
+  expect(data.subtitles).not.toEqual([]);
+});
