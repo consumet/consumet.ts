@@ -333,7 +333,12 @@ class Anix extends models_1.AnimeParser {
                                 console.error('No JSON data found in loadIframePlayer call.');
                             }
                         });
-                        const m3u8Content = await this.client.get(defaultUrl);
+                        console.log(defaultUrl);
+                        const m3u8Content = await this.client.get(defaultUrl, {
+                            headers: {
+                                Referer: uri.origin,
+                            },
+                        });
                         if (m3u8Content.data.includes('EXTM3U')) {
                             const videoList = m3u8Content.data.split('#EXT-X-STREAM-INF:');
                             for (const video of videoList !== null && videoList !== void 0 ? videoList : []) {
