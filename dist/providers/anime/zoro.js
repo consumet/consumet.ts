@@ -625,8 +625,9 @@ class Zoro extends models_1.AnimeParser {
 }
 // (async () => {
 //   const zoro = new Zoro();
-//   const anime = await zoro.search('classroom of the elite');
+//   const anime = await zoro.search('Dandadan');
 //   const info = await zoro.fetchAnimeInfo(anime.results[0].id);
+//   console.log(info.episodes)
 //   const sources = await zoro.fetchEpisodeSources(info.episodes![0].id);
 //   console.log(sources);
 // })();
