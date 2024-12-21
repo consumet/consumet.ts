@@ -363,7 +363,7 @@ class Anix extends AnimeParser {
               console.error('No JSON data found in loadIframePlayer call.');
             }
           });
-          console.log(defaultUrl);
+
           const m3u8Content = await this.client.get(defaultUrl, {
             headers: {
               Referer: uri.origin,
