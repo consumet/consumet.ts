@@ -13,7 +13,7 @@ import {
   StreamingServers,
   ProxyConfig,
 } from '../../models';
-import { Mp4Upload, StreamWish } from '../../extractors';
+import { Mp4Upload, StreamWish, VidHide } from '../../extractors';
 import { AxiosAdapter } from 'axios';
 
 class Anix extends AnimeParser {
@@ -125,7 +125,7 @@ class Anix extends AnimeParser {
   override search = async (query: string, page: number = 1): Promise<ISearch<IAnimeResult>> => {
     try {
       const res = await this.client.get(
-        `${this.baseUrl}/filter?keyword=${query}&page=${page}&${this.defaultSort}`
+        `${this.baseUrl}/filter?keyword=${query}&page=${page}&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}`
       );
       const $ = load(res.data);
       let hasNextPage = $('.pagination').length > 0;
@@ -301,6 +301,16 @@ class Anix extends AnimeParser {
         servers.set($(el).text().trim(), $(el).attr('data-video')!);
       });
     switch (server) {
+      case StreamingServers.VidHide:
+        if (servers.get('Vidhide') !== undefined) {
+          const streamUri = new URL(servers.get('Vidhide')!);
+          return {
+            headers: {
+              Referer: streamUri.origin,
+            },
+            sources: await new VidHide(this.proxyConfig, this.adapter).extract(streamUri),
+          };
+        }
       case StreamingServers.Mp4Upload:
         if (servers.get('Mp4upload') !== undefined) {
           const streamUri = new URL(servers.get('Mp4upload')!);
@@ -353,7 +363,12 @@ class Anix extends AnimeParser {
               console.error('No JSON data found in loadIframePlayer call.');
             }
           });
-          const m3u8Content = await this.client.get(defaultUrl);
+
+          const m3u8Content = await this.client.get(defaultUrl, {
+            headers: {
+              Referer: uri.origin,
+            },
+          });
 
           if (m3u8Content.data.includes('EXTM3U')) {
             const videoList = m3u8Content.data.split('#EXT-X-STREAM-INF:');

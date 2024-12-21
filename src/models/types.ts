@@ -184,6 +184,7 @@ export enum StreamingServers {
   SmashyStream = 'smashystream',
   StreamHub = 'streamhub',
   StreamWish = 'streamwish',
+  VidHide = 'vidhide',
   VidMoly = 'vidmoly',
   Voe = 'voe',
 }
