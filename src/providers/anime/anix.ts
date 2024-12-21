@@ -7,7 +7,6 @@ import {
   IAnimeResult,
   ISource,
   IEpisodeServer,
-  SubOrSub,
   MediaFormat,
   MediaStatus,
   StreamingServers,
@@ -32,6 +31,8 @@ class Anix extends AnimeParser {
   private readonly MediaRegion = {
     ANIME: 'country[]=1&country[]=2&country[]=3&country[]=4&country[]=6',
     DONGHUA: 'country[]=5',
+    SUB: 'language[]=sub',
+    DUB: 'language[]=dub',
   };
   private readonly defaultSort = `&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}&status[]=${MediaStatus.ONGOING}&status[]=${MediaStatus.COMPLETED}`;
   private readonly requestedWith = 'XMLHttpRequest';
@@ -55,7 +56,12 @@ class Anix extends AnimeParser {
         url += `&${this.MediaRegion.ANIME}`;
       } else if (type == 2) {
         url += `&${this.MediaRegion.DONGHUA}`;
+      } else if (type == 3) {
+        url += `&${this.MediaRegion.SUB}`;
+      } else if (type == 4) {
+        url += `&${this.MediaRegion.DUB}`;
       }
+
       const res = await this.client.get(url);
 
       const $ = load(res.data);
@@ -284,11 +290,13 @@ class Anix extends AnimeParser {
    * @param id Anime id
    * @param episodeId Episode id
    * @param server Streaming server(optional)
+   * @param type Type (optional) (options: `sub`, `dub`, `raw`)
    */
   override fetchEpisodeSources = async (
     id: string,
     episodeId: string,
-    server: StreamingServers = StreamingServers.BuiltIn
+    server: StreamingServers = StreamingServers.BuiltIn,
+    type: string = ''
   ): Promise<ISource> => {
     const url = `${this.baseUrl}/anime/${id}/${episodeId}`;
     const uri = new URL(url);
@@ -352,36 +360,48 @@ class Anix extends AnimeParser {
                 .replace("'", '')
                 .replace("'", '');
               const data = JSON.parse(extractedJson);
-              defaultUrl = data[0].url;
 
-              episodeSources.sources.push({
-                url: defaultUrl,
-                quality: `default`,
-                isM3U8: true,
-              });
+              if (type != '') {
+                for (const item of data) {
+                  if (item.type.toUpperCase() == type.toUpperCase()) {
+                    defaultUrl = item.url;
+                    break;
+                  }
+                }
+              } else {
+                defaultUrl = data[0].url;
+              }
+              if (defaultUrl != '')
+                episodeSources.sources.push({
+                  url: defaultUrl,
+                  quality: `default`,
+                  isM3U8: defaultUrl.includes('.m3u8'),
+                });
             } else {
               console.error('No JSON data found in loadIframePlayer call.');
             }
           });
 
-          const m3u8Content = await this.client.get(defaultUrl, {
-            headers: {
-              Referer: uri.origin,
-            },
-          });
-
-          if (m3u8Content.data.includes('EXTM3U')) {
-            const videoList = m3u8Content.data.split('#EXT-X-STREAM-INF:');
-            for (const video of videoList ?? []) {
-              if (video.includes('BANDWIDTH')) {
-                const url = video.split('\n')[1];
-                const quality = video.split('RESOLUTION=')[1].split('\n')[0].split('x')[1];
-                const path = defaultUrl.replace(/\/[^/]*\.m3u8$/, '/');
-                episodeSources.sources.push({
-                  url: path + url,
-                  quality: `${quality.split(',')[0]}p`,
-                  isM3U8: true,
-                });
+          if (defaultUrl != '' && !defaultUrl.includes('.mp4')) {
+            const options = {
+              headers: {
+                Referer: url,
+              },
+            };
+            const m3u8Content = await this.client.get(defaultUrl, options);
+            if (m3u8Content.data.includes('EXTM3U')) {
+              const videoList = m3u8Content.data.split('#EXT-X-STREAM-INF:');
+              for (const video of videoList ?? []) {
+                if (video.includes('BANDWIDTH')) {
+                  const url = video.split('\n')[1];
+                  const quality = video.split('RESOLUTION=')[1].split('\n')[0].split('x')[1];
+                  const path = defaultUrl.replace(/\/[^/]*\.m3u8$/, '/');
+                  episodeSources.sources.push({
+                    url: path + url,
+                    quality: `${quality.split(',')[0]}p`,
+                    isM3U8: true,
+                  });
+                }
               }
             }
           }
@@ -404,7 +424,6 @@ class Anix extends AnimeParser {
    */
   override fetchEpisodeServers = async (id: string, episodeId: string): Promise<IEpisodeServer[]> => {
     const url = `${this.baseUrl}/anime/${id}/${episodeId}`;
-    const uri = new URL(url);
     const res = await this.client.get(url);
     const $ = load(res.data);
     const servers: IEpisodeServer[] = [];
@@ -417,6 +436,59 @@ class Anix extends AnimeParser {
         });
       });
     return servers;
+  };
+
+  /**
+   *
+   * @param id Anime id
+   * @param episodeId Episode id
+   * @param type Type (optional) (options: `sub`, `dub`, `raw`)
+   */
+  fetchEpisodeServerType = async (
+    id: string,
+    episodeId: string,
+    type?: string
+  ): Promise<{ sub: IEpisodeServer[]; dub: IEpisodeServer[]; raw: IEpisodeServer[] } | IEpisodeServer[]> => {
+    const url = `${this.baseUrl}/anime/${id}/${episodeId}`;
+    const res = await this.client.get(url);
+    const $ = load(res.data);
+    const subs: IEpisodeServer[] = [];
+    const dubs: IEpisodeServer[] = [];
+    const raw: IEpisodeServer[] = [];
+
+    $('.ani-server-type-pad').each((index, element) => {
+      $(element)
+        .find('.server')
+        .each((i, el) => {
+          const serverData = {
+            name: $(el).text().trim(),
+            url: $(el).attr('data-video')!,
+          };
+          const dataType = $(el).attr('data-typesv')!.split('-')[0];
+          if (dataType === 'SUB') {
+            subs.push(serverData);
+          } else if (dataType === 'DUB') {
+            dubs.push(serverData);
+          } else if (dataType === 'RAW') {
+            raw.push(serverData);
+          }
+        });
+    });
+
+    if (!type) {
+      return { sub: subs, dub: dubs, raw: raw };
+    }
+
+    // Utilizando un string para seleccionar el tipo
+    if (type.toUpperCase() === 'SUB') {
+      return subs;
+    } else if (type.toUpperCase() === 'DUB') {
+      return dubs;
+    } else if (type.toUpperCase() === 'RAW') {
+      return raw;
+    } else {
+      throw new Error('Invalid server type');
+    }
   };
 }
 
