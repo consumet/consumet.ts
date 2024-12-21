@@ -107,7 +107,7 @@ class Anix extends models_1.AnimeParser {
          */
         this.search = async (query, page = 1) => {
             try {
-                const res = await this.client.get(`${this.baseUrl}/filter?keyword=${query}&page=${page}&${this.defaultSort}`);
+                const res = await this.client.get(`${this.baseUrl}/filter?keyword=${query}&page=${page}&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 let hasNextPage = $('.pagination').length > 0;
                 if (hasNextPage) {
@@ -282,6 +282,16 @@ class Anix extends models_1.AnimeParser {
                 servers.set($(el).text().trim(), $(el).attr('data-video'));
             });
             switch (server) {
+                case models_1.StreamingServers.VidHide:
+                    if (servers.get('Vidhide') !== undefined) {
+                        const streamUri = new URL(servers.get('Vidhide'));
+                        return {
+                            headers: {
+                                Referer: streamUri.origin,
+                            },
+                            sources: await new extractors_1.VidHide(this.proxyConfig, this.adapter).extract(streamUri),
+                        };
+                    }
                 case models_1.StreamingServers.Mp4Upload:
                     if (servers.get('Mp4upload') !== undefined) {
                         const streamUri = new URL(servers.get('Mp4upload'));
