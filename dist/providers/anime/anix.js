@@ -263,6 +263,103 @@ class Anix extends models_1.AnimeParser {
                 throw new Error(err.message);
             }
         };
+        this.fetchRandomAnimeInfo = async () => {
+            var _a, _b, _c, _d, _e;
+            const url = `${this.baseUrl}/random`;
+            try {
+                const res = await this.client.get(url);
+                const $ = (0, cheerio_1.load)(res.data);
+                const id = (_a = $('.content .tmp_alias')) === null || _a === void 0 ? void 0 : _a.attr('value');
+                const animeInfo = {
+                    id: id,
+                    title: (_b = $('.ani-data .maindata .ani-name.d-title')) === null || _b === void 0 ? void 0 : _b.text().trim(),
+                    englishTitle: (_d = (_c = $('.ani-data .maindata .ani-name.d-title')) === null || _c === void 0 ? void 0 : _c.attr('data-en')) === null || _d === void 0 ? void 0 : _d.trim(),
+                    url: `${this.baseUrl}/anime/${id}`,
+                    image: (_e = $('.ani-data .poster img')) === null || _e === void 0 ? void 0 : _e.attr('src'),
+                    description: $('.ani-data .maindata .description .cts-block div').text().trim(),
+                    episodes: [],
+                };
+                $('.episodes .ep-range').each((i, el) => {
+                    $(el)
+                        .find('div')
+                        .each((i, el) => {
+                        var _a, _b, _c;
+                        (_a = animeInfo.episodes) === null || _a === void 0 ? void 0 : _a.push({
+                            id: (_b = $(el).find('a').attr('href')) === null || _b === void 0 ? void 0 : _b.split('/')[3],
+                            number: parseFloat($(el).find(`a`).text()),
+                            url: `${this.baseUrl}${(_c = $(el).find(`a`).attr('href')) === null || _c === void 0 ? void 0 : _c.trim()}`,
+                        });
+                    });
+                });
+                const metaData = { status: '', type: '' };
+                $('.metadata .limiter div').each((i, el) => {
+                    var _a;
+                    const text = $(el).text().trim();
+                    if (text.includes('Genre: ')) {
+                        $(el)
+                            .find('span a')
+                            .each((i, el) => {
+                            if (animeInfo.genres == undefined) {
+                                animeInfo.genres = [];
+                            }
+                            animeInfo.genres.push($(el).attr('title'));
+                        });
+                    }
+                    else if (text.includes('Status: ')) {
+                        metaData.status = text.replace('Status: ', '');
+                    }
+                    else if (text.includes('Type: ')) {
+                        metaData.type = text.replace('Type: ', '');
+                    }
+                    else if (text.includes('Episodes: ')) {
+                        animeInfo.totalEpisodes = (_a = parseFloat(text.replace('Episodes: ', ''))) !== null && _a !== void 0 ? _a : undefined;
+                    }
+                    else if (text.includes('Country: ')) {
+                        animeInfo.countryOfOrigin = text.replace('Country: ', '');
+                    }
+                });
+                animeInfo.status = models_1.MediaStatus.UNKNOWN;
+                switch (metaData.status) {
+                    case 'Ongoing':
+                        animeInfo.status = models_1.MediaStatus.ONGOING;
+                        break;
+                    case 'Completed':
+                        animeInfo.status = models_1.MediaStatus.COMPLETED;
+                        break;
+                }
+                animeInfo.type = models_1.MediaFormat.TV;
+                switch (metaData.type) {
+                    case 'ONA':
+                        animeInfo.type = models_1.MediaFormat.ONA;
+                        break;
+                    case 'Movie':
+                        animeInfo.type = models_1.MediaFormat.MOVIE;
+                        break;
+                    case 'OVA':
+                        animeInfo.type = models_1.MediaFormat.OVA;
+                        break;
+                    case 'Special':
+                        animeInfo.type = models_1.MediaFormat.SPECIAL;
+                        break;
+                    case 'Music':
+                        animeInfo.type = models_1.MediaFormat.MUSIC;
+                        break;
+                    case 'PV':
+                        animeInfo.type = models_1.MediaFormat.PV;
+                        break;
+                    case 'TV Special':
+                        animeInfo.type = models_1.MediaFormat.TV_SPECIAL;
+                        break;
+                    case 'Comic':
+                        animeInfo.type = models_1.MediaFormat.COMIC;
+                        break;
+                }
+                return animeInfo;
+            }
+            catch (err) {
+                throw new Error(err.message);
+            }
+        };
         /**
          *
          * @param id Anime id
@@ -331,6 +428,9 @@ class Anix extends models_1.AnimeParser {
                                     .replace("'", '')
                                     .replace("'", '');
                                 const data = JSON.parse(extractedJson);
+                                if (data == undefined || data.length <= 0) {
+                                    throw new Error('BuiltIn server not found');
+                                }
                                 if (type != '') {
                                     for (const item of data) {
                                         if (item.type.toUpperCase() == type.toUpperCase()) {
@@ -350,7 +450,7 @@ class Anix extends models_1.AnimeParser {
                                     });
                             }
                             else {
-                                console.error('No JSON data found in loadIframePlayer call.');
+                                throw new Error('BuiltIn server not found');
                             }
                         });
                         if (defaultUrl != '' && !defaultUrl.includes('.mp4')) {

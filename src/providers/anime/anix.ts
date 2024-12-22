@@ -285,6 +285,98 @@ class Anix extends AnimeParser {
     }
   };
 
+  fetchRandomAnimeInfo = async (): Promise<IAnimeInfo> => {
+    const url = `${this.baseUrl}/random`;
+
+    try {
+      const res = await this.client.get(url);
+      const $ = load(res.data);
+      const id = $('.content .tmp_alias')?.attr('value')!;
+      const animeInfo: IAnimeInfo = {
+        id: id,
+        title: $('.ani-data .maindata .ani-name.d-title')?.text().trim(),
+        englishTitle: $('.ani-data .maindata .ani-name.d-title')?.attr('data-en')?.trim(),
+        url: `${this.baseUrl}/anime/${id}`,
+        image: $('.ani-data .poster img')?.attr('src'),
+        description: $('.ani-data .maindata .description .cts-block div').text().trim(),
+        episodes: [],
+      };
+      $('.episodes .ep-range').each((i, el) => {
+        $(el)
+          .find('div')
+          .each((i, el) => {
+            animeInfo.episodes?.push({
+              id: $(el).find('a').attr('href')?.split('/')[3]!,
+              number: parseFloat($(el).find(`a`).text()),
+              url: `${this.baseUrl}${$(el).find(`a`).attr('href')?.trim()}`,
+            });
+          });
+      });
+      const metaData = { status: '', type: '' };
+      $('.metadata .limiter div').each((i, el) => {
+        const text = $(el).text().trim();
+        if (text.includes('Genre: ')) {
+          $(el)
+            .find('span a')
+            .each((i, el) => {
+              if (animeInfo.genres == undefined) {
+                animeInfo.genres = [];
+              }
+              animeInfo.genres.push($(el).attr('title')!);
+            });
+        } else if (text.includes('Status: ')) {
+          metaData.status = text.replace('Status: ', '');
+        } else if (text.includes('Type: ')) {
+          metaData.type = text.replace('Type: ', '');
+        } else if (text.includes('Episodes: ')) {
+          animeInfo.totalEpisodes = parseFloat(text.replace('Episodes: ', '')) ?? undefined;
+        } else if (text.includes('Country: ')) {
+          animeInfo.countryOfOrigin = text.replace('Country: ', '');
+        }
+      });
+      animeInfo.status = MediaStatus.UNKNOWN;
+      switch (metaData.status) {
+        case 'Ongoing':
+          animeInfo.status = MediaStatus.ONGOING;
+          break;
+        case 'Completed':
+          animeInfo.status = MediaStatus.COMPLETED;
+          break;
+      }
+      animeInfo.type = MediaFormat.TV;
+      switch (metaData.type) {
+        case 'ONA':
+          animeInfo.type = MediaFormat.ONA;
+          break;
+        case 'Movie':
+          animeInfo.type = MediaFormat.MOVIE;
+          break;
+        case 'OVA':
+          animeInfo.type = MediaFormat.OVA;
+          break;
+        case 'Special':
+          animeInfo.type = MediaFormat.SPECIAL;
+          break;
+        case 'Music':
+          animeInfo.type = MediaFormat.MUSIC;
+          break;
+        case 'PV':
+          animeInfo.type = MediaFormat.PV;
+          break;
+        case 'TV Special':
+          animeInfo.type = MediaFormat.TV_SPECIAL;
+          break;
+        case 'Comic':
+          animeInfo.type = MediaFormat.COMIC;
+          break;
+      }
+
+      return animeInfo;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  };
+
   /**
    *
    * @param id Anime id
@@ -360,6 +452,9 @@ class Anix extends AnimeParser {
                 .replace("'", '')
                 .replace("'", '');
               const data = JSON.parse(extractedJson);
+              if (data == undefined || data.length <= 0) {
+                throw new Error('BuiltIn server not found');
+              }
 
               if (type != '') {
                 for (const item of data) {
@@ -378,7 +473,7 @@ class Anix extends AnimeParser {
                   isM3U8: defaultUrl.includes('.m3u8'),
                 });
             } else {
-              console.error('No JSON data found in loadIframePlayer call.');
+              throw new Error('BuiltIn server not found');
             }
           });
 
