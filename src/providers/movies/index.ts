@@ -8,6 +8,7 @@ import SmashyStream from './smashystream';
 import Turkish from './turkish123';
 import ViewAsian from './viewAsian';
 import SFlix from './sflix';
+import MultiMovies from './multimovies';
 
 export default {
   DramaCool,
@@ -20,4 +21,5 @@ export default {
   ViewAsian,
   Turkish,
   SFlix,
+  MultiMovies,
 };
