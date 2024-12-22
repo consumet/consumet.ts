@@ -209,23 +209,28 @@ class DramaCool extends MovieParser {
       switch (server) {
         case StreamingServers.AsianLoad:
           return {
+            headers: { Referer: serverUrl.origin },
             ...(await new AsianLoad(this.proxyConfig, this.adapter).extract(serverUrl)),
             download: this.downloadLink(episodeId),
           };
         case StreamingServers.MixDrop:
           return {
+            headers: { Referer: serverUrl.origin },
             sources: await new MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),
           };
         case StreamingServers.StreamTape:
           return {
+            headers: { Referer: serverUrl.origin },
             sources: await new StreamTape(this.proxyConfig, this.adapter).extract(serverUrl),
           };
         case StreamingServers.StreamSB:
           return {
+            headers: { Referer: serverUrl.origin },
             sources: await new StreamSB(this.proxyConfig, this.adapter).extract(serverUrl),
           };
         case StreamingServers.StreamWish:
           return {
+            headers: { Referer: serverUrl.origin },
             ...(await new StreamWish(this.proxyConfig, this.adapter).extract(serverUrl)),
           };
         default:
@@ -359,10 +364,11 @@ class DramaCool extends MovieParser {
   };
 }
 //testing fetchPopular via iife
-// (async () => {
-//   const dramaCool = new DramaCool();
-//   const l=await dramaCool.fetchSpotlight();
-//   console.log(l);
-// })();
+(async () => {
+  const dramaCool = new DramaCool();
+  // const l=await dramaCool.fetchSpotlight();
+  const l = await dramaCool.fetchEpisodeSources('vincenzo-2021-episode-1');
+  console.log(l);
+})();
 
 export default DramaCool;
