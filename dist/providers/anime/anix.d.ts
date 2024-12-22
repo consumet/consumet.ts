@@ -23,6 +23,7 @@ declare class Anix extends AnimeParser {
      * @param id Anime id
      */
     fetchAnimeInfo: (id: string) => Promise<IAnimeInfo>;
+    fetchRandomAnimeInfo: () => Promise<IAnimeInfo>;
     /**
      *
      * @param id Anime id
