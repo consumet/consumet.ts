@@ -26,6 +26,7 @@ class Anix extends AnimeParser {
     OVA: 3,
     SPECIAL: 4,
     ONA: 5,
+    MUSIC: 6,
     TV_SPECIAL: 7,
   };
   private readonly MediaRegion = {
@@ -131,7 +132,7 @@ class Anix extends AnimeParser {
   override search = async (query: string, page: number = 1): Promise<ISearch<IAnimeResult>> => {
     try {
       const res = await this.client.get(
-        `${this.baseUrl}/filter?keyword=${query}&page=${page}&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}`
+        `${this.baseUrl}/filter?keyword=${query}&page=${page}&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}&type[]=${this.MediaCategory.MUSIC}`
       );
       const $ = load(res.data);
       let hasNextPage = $('.pagination').length > 0;

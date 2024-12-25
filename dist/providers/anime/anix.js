@@ -16,6 +16,7 @@ class Anix extends models_1.AnimeParser {
             OVA: 3,
             SPECIAL: 4,
             ONA: 5,
+            MUSIC: 6,
             TV_SPECIAL: 7,
         };
         this.MediaRegion = {
@@ -107,7 +108,7 @@ class Anix extends models_1.AnimeParser {
          */
         this.search = async (query, page = 1) => {
             try {
-                const res = await this.client.get(`${this.baseUrl}/filter?keyword=${query}&page=${page}&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}`);
+                const res = await this.client.get(`${this.baseUrl}/filter?keyword=${query}&page=${page}&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}&type[]=${this.MediaCategory.MUSIC}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 let hasNextPage = $('.pagination').length > 0;
                 if (hasNextPage) {
