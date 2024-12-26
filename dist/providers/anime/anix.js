@@ -18,6 +18,7 @@ class Anix extends models_1.AnimeParser {
             ONA: 5,
             MUSIC: 6,
             TV_SPECIAL: 7,
+            UNCATEGORIZED: 0,
         };
         this.MediaRegion = {
             ANIME: 'country[]=1&country[]=2&country[]=3&country[]=4&country[]=6',
@@ -25,7 +26,7 @@ class Anix extends models_1.AnimeParser {
             SUB: 'language[]=sub',
             DUB: 'language[]=dub',
         };
-        this.defaultSort = `&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}&status[]=${models_1.MediaStatus.ONGOING}&status[]=${models_1.MediaStatus.COMPLETED}`;
+        this.defaultSort = `&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}&type[]=${this.MediaCategory.UNCATEGORIZED}&status[]=${models_1.MediaStatus.ONGOING}&status[]=${models_1.MediaStatus.COMPLETED}`;
         this.requestedWith = 'XMLHttpRequest';
         /**
          * @param page page number (optional)
@@ -108,7 +109,7 @@ class Anix extends models_1.AnimeParser {
          */
         this.search = async (query, page = 1) => {
             try {
-                const res = await this.client.get(`${this.baseUrl}/filter?keyword=${query}&page=${page}&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}&type[]=${this.MediaCategory.MUSIC}`);
+                const res = await this.client.get(`${this.baseUrl}/filter?keyword=${query}&page=${page}&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}&type[]=${this.MediaCategory.MUSIC}&type[]=${this.MediaCategory.UNCATEGORIZED}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 let hasNextPage = $('.pagination').length > 0;
                 if (hasNextPage) {

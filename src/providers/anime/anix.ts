@@ -28,6 +28,7 @@ class Anix extends AnimeParser {
     ONA: 5,
     MUSIC: 6,
     TV_SPECIAL: 7,
+    UNCATEGORIZED: 0,
   };
   private readonly MediaRegion = {
     ANIME: 'country[]=1&country[]=2&country[]=3&country[]=4&country[]=6',
@@ -35,7 +36,7 @@ class Anix extends AnimeParser {
     SUB: 'language[]=sub',
     DUB: 'language[]=dub',
   };
-  private readonly defaultSort = `&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}&status[]=${MediaStatus.ONGOING}&status[]=${MediaStatus.COMPLETED}`;
+  private readonly defaultSort = `&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}&type[]=${this.MediaCategory.UNCATEGORIZED}&status[]=${MediaStatus.ONGOING}&status[]=${MediaStatus.COMPLETED}`;
   private readonly requestedWith = 'XMLHttpRequest';
 
   constructor(customBaseURL?: string, proxy?: ProxyConfig, adapter?: AxiosAdapter) {
@@ -132,7 +133,7 @@ class Anix extends AnimeParser {
   override search = async (query: string, page: number = 1): Promise<ISearch<IAnimeResult>> => {
     try {
       const res = await this.client.get(
-        `${this.baseUrl}/filter?keyword=${query}&page=${page}&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}&type[]=${this.MediaCategory.MUSIC}`
+        `${this.baseUrl}/filter?keyword=${query}&page=${page}&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}&type[]=${this.MediaCategory.MUSIC}&type[]=${this.MediaCategory.UNCATEGORIZED}`
       );
       const $ = load(res.data);
       let hasNextPage = $('.pagination').length > 0;
