@@ -26,7 +26,9 @@ class Anix extends AnimeParser {
     OVA: 3,
     SPECIAL: 4,
     ONA: 5,
+    MUSIC: 6,
     TV_SPECIAL: 7,
+    UNCATEGORIZED: 0,
   };
   private readonly MediaRegion = {
     ANIME: 'country[]=1&country[]=2&country[]=3&country[]=4&country[]=6',
@@ -34,7 +36,7 @@ class Anix extends AnimeParser {
     SUB: 'language[]=sub',
     DUB: 'language[]=dub',
   };
-  private readonly defaultSort = `&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}&status[]=${MediaStatus.ONGOING}&status[]=${MediaStatus.COMPLETED}`;
+  private readonly defaultSort = `&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}&type[]=${this.MediaCategory.UNCATEGORIZED}&status[]=${MediaStatus.ONGOING}&status[]=${MediaStatus.COMPLETED}`;
   private readonly requestedWith = 'XMLHttpRequest';
 
   constructor(customBaseURL?: string, proxy?: ProxyConfig, adapter?: AxiosAdapter) {
@@ -131,7 +133,7 @@ class Anix extends AnimeParser {
   override search = async (query: string, page: number = 1): Promise<ISearch<IAnimeResult>> => {
     try {
       const res = await this.client.get(
-        `${this.baseUrl}/filter?keyword=${query}&page=${page}&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}`
+        `${this.baseUrl}/filter?keyword=${query}&page=${page}&type[]=${this.MediaCategory.MOVIE}&type[]=${this.MediaCategory.TV}&type[]=${this.MediaCategory.ONA}&type[]=${this.MediaCategory.OVA}&type[]=${this.MediaCategory.SPECIAL}&type[]=${this.MediaCategory.TV_SPECIAL}&type[]=${this.MediaCategory.MUSIC}&type[]=${this.MediaCategory.UNCATEGORIZED}`
       );
       const $ = load(res.data);
       let hasNextPage = $('.pagination').length > 0;
@@ -200,6 +202,98 @@ class Anix extends AnimeParser {
     try {
       const res = await this.client.get(url);
       const $ = load(res.data);
+      const animeInfo: IAnimeInfo = {
+        id: id,
+        title: $('.ani-data .maindata .ani-name.d-title')?.text().trim(),
+        englishTitle: $('.ani-data .maindata .ani-name.d-title')?.attr('data-en')?.trim(),
+        url: `${this.baseUrl}/anime/${id}`,
+        image: $('.ani-data .poster img')?.attr('src'),
+        description: $('.ani-data .maindata .description .cts-block div').text().trim(),
+        episodes: [],
+      };
+      $('.episodes .ep-range').each((i, el) => {
+        $(el)
+          .find('div')
+          .each((i, el) => {
+            animeInfo.episodes?.push({
+              id: $(el).find('a').attr('href')?.split('/')[3]!,
+              number: parseFloat($(el).find(`a`).text()),
+              url: `${this.baseUrl}${$(el).find(`a`).attr('href')?.trim()}`,
+            });
+          });
+      });
+      const metaData = { status: '', type: '' };
+      $('.metadata .limiter div').each((i, el) => {
+        const text = $(el).text().trim();
+        if (text.includes('Genre: ')) {
+          $(el)
+            .find('span a')
+            .each((i, el) => {
+              if (animeInfo.genres == undefined) {
+                animeInfo.genres = [];
+              }
+              animeInfo.genres.push($(el).attr('title')!);
+            });
+        } else if (text.includes('Status: ')) {
+          metaData.status = text.replace('Status: ', '');
+        } else if (text.includes('Type: ')) {
+          metaData.type = text.replace('Type: ', '');
+        } else if (text.includes('Episodes: ')) {
+          animeInfo.totalEpisodes = parseFloat(text.replace('Episodes: ', '')) ?? undefined;
+        } else if (text.includes('Country: ')) {
+          animeInfo.countryOfOrigin = text.replace('Country: ', '');
+        }
+      });
+      animeInfo.status = MediaStatus.UNKNOWN;
+      switch (metaData.status) {
+        case 'Ongoing':
+          animeInfo.status = MediaStatus.ONGOING;
+          break;
+        case 'Completed':
+          animeInfo.status = MediaStatus.COMPLETED;
+          break;
+      }
+      animeInfo.type = MediaFormat.TV;
+      switch (metaData.type) {
+        case 'ONA':
+          animeInfo.type = MediaFormat.ONA;
+          break;
+        case 'Movie':
+          animeInfo.type = MediaFormat.MOVIE;
+          break;
+        case 'OVA':
+          animeInfo.type = MediaFormat.OVA;
+          break;
+        case 'Special':
+          animeInfo.type = MediaFormat.SPECIAL;
+          break;
+        case 'Music':
+          animeInfo.type = MediaFormat.MUSIC;
+          break;
+        case 'PV':
+          animeInfo.type = MediaFormat.PV;
+          break;
+        case 'TV Special':
+          animeInfo.type = MediaFormat.TV_SPECIAL;
+          break;
+        case 'Comic':
+          animeInfo.type = MediaFormat.COMIC;
+          break;
+      }
+
+      return animeInfo;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  };
+
+  fetchRandomAnimeInfo = async (): Promise<IAnimeInfo> => {
+    const url = `${this.baseUrl}/random`;
+
+    try {
+      const res = await this.client.get(url);
+      const $ = load(res.data);
+      const id = $('.content .tmp_alias')?.attr('value')!;
       const animeInfo: IAnimeInfo = {
         id: id,
         title: $('.ani-data .maindata .ani-name.d-title')?.text().trim(),
@@ -360,6 +454,9 @@ class Anix extends AnimeParser {
                 .replace("'", '')
                 .replace("'", '');
               const data = JSON.parse(extractedJson);
+              if (data == undefined || data.length <= 0) {
+                throw new Error('BuiltIn server not found');
+              }
 
               if (type != '') {
                 for (const item of data) {
@@ -378,7 +475,7 @@ class Anix extends AnimeParser {
                   isM3U8: defaultUrl.includes('.m3u8'),
                 });
             } else {
-              console.error('No JSON data found in loadIframePlayer call.');
+              throw new Error('BuiltIn server not found');
             }
           });
 
