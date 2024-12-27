@@ -37,7 +37,7 @@ class VidHide extends VideoExtractor {
           if (!video.includes('m3u8')) continue;
 
           const url = video.split('\n')[1];
-          const quality = video.split('RESOLUTION=')[1].split(',')[0].split('x')[1];
+          const quality = video.split('RESOLUTION=')[1]?.split(',')[0].split('x')[1];
 
           result.sources.push({
             url: `${pathWithoutMaster}/${url}`,
