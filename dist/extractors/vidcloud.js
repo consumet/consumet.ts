@@ -1,21 +1,19 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const rabbit_1 = require("./rabbit");
 const models_1 = require("../models");
 const utils_1 = require("../utils");
+const megacloud_getsrcs_1 = require("./megacloud/megacloud.getsrcs");
 class VidCloud extends models_1.VideoExtractor {
     constructor() {
         super(...arguments);
         this.serverName = 'VidCloud';
         this.sources = [];
-        this.extract = async (videoUrl, _) => {
-            var _a;
+        this.extract = async (videoUrl, _, referer = 'https://flixhq.to/') => {
             const result = {
                 sources: [],
                 subtitles: [],
             };
             try {
-                const id = (_a = videoUrl.href.split('/').pop()) === null || _a === void 0 ? void 0 : _a.split('?')[0];
                 const options = {
                     headers: {
                         'X-Requested-With': 'XMLHttpRequest',
@@ -23,7 +21,7 @@ class VidCloud extends models_1.VideoExtractor {
                         'User-Agent': utils_1.USER_AGENT,
                     },
                 };
-                const res = await (0, rabbit_1.main)(id);
+                const res = await (0, megacloud_getsrcs_1.getSources)(videoUrl.href, referer);
                 const sources = res.sources;
                 this.sources = sources.map((s) => ({
                     url: s.file,

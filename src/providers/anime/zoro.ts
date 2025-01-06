@@ -486,7 +486,7 @@ class Zoro extends AnimeParser {
         case StreamingServers.VidStreaming:
         case StreamingServers.VidCloud:
           return {
-            ...(await new MegaCloud().extract(serverUrl)),
+            ...(await new MegaCloud().extract(serverUrl, this.baseUrl)),
           };
         case StreamingServers.StreamSB:
           return {
@@ -506,7 +506,7 @@ class Zoro extends AnimeParser {
         case StreamingServers.VidCloud:
           return {
             headers: { Referer: serverUrl.href },
-            ...(await new MegaCloud().extract(serverUrl)),
+            ...(await new MegaCloud().extract(serverUrl, this.baseUrl)),
           };
       }
     }

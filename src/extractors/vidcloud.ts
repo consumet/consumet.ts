@@ -1,6 +1,6 @@
-import { main } from './rabbit';
 import { VideoExtractor, IVideo, ISubtitle, Intro } from '../models';
 import { USER_AGENT } from '../utils';
+import { getSources } from './megacloud/megacloud.getsrcs';
 
 class VidCloud extends VideoExtractor {
   protected override serverName = 'VidCloud';
@@ -8,14 +8,14 @@ class VidCloud extends VideoExtractor {
 
   override extract = async (
     videoUrl: URL,
-    _?: boolean
+    _?: boolean,
+    referer: string = 'https://flixhq.to/'
   ): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
     const result: { sources: IVideo[]; subtitles: ISubtitle[]; intro?: Intro } = {
       sources: [],
       subtitles: [],
     };
     try {
-      const id = videoUrl.href.split('/').pop()?.split('?')[0];
       const options = {
         headers: {
           'X-Requested-With': 'XMLHttpRequest',
@@ -24,7 +24,7 @@ class VidCloud extends VideoExtractor {
         },
       };
 
-      const res = await main(id);
+      const res = await getSources(videoUrl.href, referer);
       const sources = res.sources;
 
       this.sources = sources.map((s: any) => ({
