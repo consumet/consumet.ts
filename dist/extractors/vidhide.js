@@ -7,7 +7,7 @@ class VidHide extends models_1.VideoExtractor {
         this.serverName = 'VidHide';
         this.sources = [];
         this.extract = async (videoUrl) => {
-            var _a;
+            var _a, _b;
             try {
                 const result = {
                     sources: [],
@@ -36,7 +36,7 @@ class VidHide extends models_1.VideoExtractor {
                         if (!video.includes('m3u8'))
                             continue;
                         const url = video.split('\n')[1];
-                        const quality = video.split('RESOLUTION=')[1].split(',')[0].split('x')[1];
+                        const quality = (_b = video.split('RESOLUTION=')[1]) === null || _b === void 0 ? void 0 : _b.split(',')[0].split('x')[1];
                         result.sources.push({
                             url: `${pathWithoutMaster}/${url}`,
                             quality: `${quality}p`,
