@@ -1,2 +1,1 @@
-import type { extractedSources } from './index';
-export declare function getSources(xrax: string): Promise<extractedSources | undefined>;
+export declare function getSources(embed_url: string, site: string): Promise<any>;

@@ -107,7 +107,7 @@ class Zoro extends models_1.AnimeParser {
                     case models_1.StreamingServers.VidStreaming:
                     case models_1.StreamingServers.VidCloud:
                         return {
-                            ...(await new utils_1.MegaCloud().extract(serverUrl)),
+                            ...(await new utils_1.MegaCloud().extract(serverUrl, this.baseUrl)),
                         };
                     case models_1.StreamingServers.StreamSB:
                         return {
@@ -127,7 +127,7 @@ class Zoro extends models_1.AnimeParser {
                     case models_1.StreamingServers.VidCloud:
                         return {
                             headers: { Referer: serverUrl.href },
-                            ...(await new utils_1.MegaCloud().extract(serverUrl)),
+                            ...(await new utils_1.MegaCloud().extract(serverUrl, this.baseUrl)),
                         };
                 }
             }
