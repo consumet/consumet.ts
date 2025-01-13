@@ -434,7 +434,7 @@ class Zoro extends AnimeParser {
       }
 
       // ZORO - PAGE INFO
-      const zInfo = await this.client.get(`${this.baseUrl}/${id}`);
+      const zInfo = await this.client.get(info.url);
       const $$$ = load(zInfo.data);
 
       info.genres = [];

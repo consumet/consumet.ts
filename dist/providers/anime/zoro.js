@@ -65,7 +65,7 @@ class Zoro extends models_1.AnimeParser {
                     info.subOrDub = models_1.SubOrSub.BOTH;
                 }
                 // ZORO - PAGE INFO
-                const zInfo = await this.client.get(`${this.baseUrl}/${id}`);
+                const zInfo = await this.client.get(info.url);
                 const $$$ = (0, cheerio_1.load)(zInfo.data);
                 info.genres = [];
                 $$$('.item.item-list')
