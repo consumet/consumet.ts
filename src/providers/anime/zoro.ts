@@ -441,7 +441,7 @@ class Zoro extends AnimeParser {
       $$$('.item.item-list')
         .find('a')
         .each(function () {
-          let genre = $(this).text().trim();
+          const genre = $(this).text().trim();
           if (genre != undefined) info.genres?.push(genre);
         });
 
