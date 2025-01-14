@@ -588,10 +588,18 @@ class Zoro extends AnimeParser {
   };
 
   private retrieveServerId = ($: any, index: number, subOrDub: 'sub' | 'dub') => {
-    return $(`.ps_-block.ps_-block-sub.servers-${subOrDub} > .ps__-list .server-item`)
-      .map((i: any, el: any) => ($(el).attr('data-server-id') == `${index}` ? $(el) : null))
-      .get()[0]
-      .attr('data-id')!;
+    const rawOrSubOrDub = (raw: boolean) =>
+      $(`.ps_-block.ps_-block-sub.servers-${raw ? 'raw' : subOrDub} > .ps__-list .server-item`)
+          .map((i: any, el: any) => ($(el).attr('data-server-id') == `${index}` ? $(el) : null))
+          .get()[0]
+          .attr('data-id');
+    try {
+      // Attempt to get the subOrDub ID
+      return rawOrSubOrDub(false);
+    } catch (error) {
+      // If an error is thrown, attempt to get the raw ID (The raw is the newest episode uploaded to zoro)
+      return rawOrSubOrDub(true);
+    }
   };
 
   /**
