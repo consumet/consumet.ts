@@ -15,6 +15,11 @@ test('returns a filled object of anime data', async () => {
   expect(data).not.toBeNull();
 });
 
+test('returns a filled object of random anime data', async () => {
+  const data = await anix.fetchRandomAnimeInfo();
+  expect(data).not.toBeNull();
+});
+
 test('returns a filled array of recent episodes', async () => {
   const data = await anix.fetchRecentEpisodes();
   expect(data).not.toEqual([]);
