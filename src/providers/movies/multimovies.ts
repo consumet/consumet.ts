@@ -370,7 +370,7 @@ class MultiMovies extends MovieParser {
     return $iframe;
   }
 }
-
+/*
 (async () => {
   const movie = new MultiMovies();
   // const search = await movie.fetchMediaInfo('tvshows/jujutsu-kaisen/');
@@ -380,5 +380,6 @@ class MultiMovies extends MovieParser {
   // const genre = await movie.fetchByGenre('action');
   console.log(movieInfo);
 })();
+*/
 
 export default MultiMovies;

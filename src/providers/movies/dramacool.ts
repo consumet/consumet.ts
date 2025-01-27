@@ -364,11 +364,13 @@ class DramaCool extends MovieParser {
   };
 }
 //testing fetchPopular via iife
+/*
 (async () => {
   const dramaCool = new DramaCool();
   // const l=await dramaCool.fetchSpotlight();
   const l = await dramaCool.fetchEpisodeSources('vincenzo-2021-episode-1');
   console.log(l);
 })();
+*/
 
 export default DramaCool;
