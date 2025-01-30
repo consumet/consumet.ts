@@ -233,6 +233,13 @@ class TMDB extends MovieParser {
         .filter((crew: { job: string }) => crew.job === 'Screenplay')
         .map((crew: { name: string }) => crew.name);
       info.actors = data?.credits?.cast.map((cast: { name: string }) => cast.name);
+      info.characters = data?.credits?.cast.map((cast: any) => ({
+        id: cast.id,
+        name: cast.name,
+        url: `https://www.themoviedb.org/person/${cast.id}`,
+        character: cast.character,
+        image: `https://image.tmdb.org/t/p/original${cast.profile_path}`,
+      }));
       info.trailer = {
         id: data?.videos?.results[0]?.key,
         site: data?.videos?.results[0]?.site,

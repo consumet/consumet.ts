@@ -13,6 +13,7 @@ const smashystream_1 = __importDefault(require("./smashystream"));
 const turkish123_1 = __importDefault(require("./turkish123"));
 const viewAsian_1 = __importDefault(require("./viewAsian"));
 const sflix_1 = __importDefault(require("./sflix"));
+const multimovies_1 = __importDefault(require("./multimovies"));
 exports.default = {
     DramaCool: dramacool_1.default,
     FlixHQ: flixhq_1.default,
@@ -24,5 +25,6 @@ exports.default = {
     ViewAsian: viewAsian_1.default,
     Turkish: turkish123_1.default,
     SFlix: sflix_1.default,
+    MultiMovies: multimovies_1.default,
 };
 //# sourceMappingURL=index.js.map
