@@ -143,23 +143,28 @@ class DramaCool extends models_1.MovieParser {
                 switch (server) {
                     case models_1.StreamingServers.AsianLoad:
                         return {
+                            headers: { Referer: serverUrl.origin },
                             ...(await new extractors_1.AsianLoad(this.proxyConfig, this.adapter).extract(serverUrl)),
                             download: this.downloadLink(episodeId),
                         };
                     case models_1.StreamingServers.MixDrop:
                         return {
+                            headers: { Referer: serverUrl.origin },
                             sources: await new extractors_1.MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     case models_1.StreamingServers.StreamTape:
                         return {
+                            headers: { Referer: serverUrl.origin },
                             sources: await new extractors_1.StreamTape(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     case models_1.StreamingServers.StreamSB:
                         return {
+                            headers: { Referer: serverUrl.origin },
                             sources: await new extractors_1.StreamSB(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     case models_1.StreamingServers.StreamWish:
                         return {
+                            headers: { Referer: serverUrl.origin },
                             ...(await new extractors_1.StreamWish(this.proxyConfig, this.adapter).extract(serverUrl)),
                         };
                     default:
@@ -301,10 +306,13 @@ class DramaCool extends models_1.MovieParser {
     }
 }
 //testing fetchPopular via iife
-// (async () => {
-//   const dramaCool = new DramaCool();
-//   const l=await dramaCool.fetchSpotlight();
-//   console.log(l);
-// })();
+/*
+(async () => {
+  const dramaCool = new DramaCool();
+  // const l=await dramaCool.fetchSpotlight();
+  const l = await dramaCool.fetchEpisodeSources('vincenzo-2021-episode-1');
+  console.log(l);
+})();
+*/
 exports.default = DramaCool;
 //# sourceMappingURL=dramacool.js.map
