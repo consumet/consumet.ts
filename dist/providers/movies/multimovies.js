@@ -344,14 +344,16 @@ class MultiMovies extends models_1.MovieParser {
         return $iframe;
     }
 }
+/*
 (async () => {
-    const movie = new MultiMovies();
-    // const search = await movie.fetchMediaInfo('tvshows/jujutsu-kaisen/');
-    const movieInfo = await movie.fetchEpisodeSources('episodes/jujutsu-kaisen-1x2/');
-    // const server = await movie.fetchEpisodeServers('episodes/jujutsu-kaisen-1x2/');
-    // const recentTv = await movie.fetchPopular();
-    // const genre = await movie.fetchByGenre('action');
-    console.log(movieInfo);
+  const movie = new MultiMovies();
+  // const search = await movie.fetchMediaInfo('tvshows/jujutsu-kaisen/');
+  const movieInfo = await movie.fetchEpisodeSources('episodes/jujutsu-kaisen-1x2/');
+  // const server = await movie.fetchEpisodeServers('episodes/jujutsu-kaisen-1x2/');
+  // const recentTv = await movie.fetchPopular();
+  // const genre = await movie.fetchByGenre('action');
+  console.log(movieInfo);
 })();
+*/
 exports.default = MultiMovies;
 //# sourceMappingURL=multimovies.js.map

@@ -486,7 +486,7 @@ class Zoro extends AnimeParser {
         case StreamingServers.VidStreaming:
         case StreamingServers.VidCloud:
           return {
-            ...(await new MegaCloud().extract(serverUrl)),
+            ...(await new MegaCloud().extract(serverUrl, this.baseUrl)),
           };
         case StreamingServers.StreamSB:
           return {
@@ -506,7 +506,7 @@ class Zoro extends AnimeParser {
         case StreamingServers.VidCloud:
           return {
             headers: { Referer: serverUrl.href },
-            ...(await new MegaCloud().extract(serverUrl)),
+            ...(await new MegaCloud().extract(serverUrl, this.baseUrl)),
           };
       }
     }
@@ -590,9 +590,9 @@ class Zoro extends AnimeParser {
   private retrieveServerId = ($: any, index: number, subOrDub: 'sub' | 'dub') => {
     const rawOrSubOrDub = (raw: boolean) =>
       $(`.ps_-block.ps_-block-sub.servers-${raw ? 'raw' : subOrDub} > .ps__-list .server-item`)
-          .map((i: any, el: any) => ($(el).attr('data-server-id') == `${index}` ? $(el) : null))
-          .get()[0]
-          .attr('data-id');
+        .map((i: any, el: any) => ($(el).attr('data-server-id') == `${index}` ? $(el) : null))
+        .get()[0]
+        .attr('data-id');
     try {
       // Attempt to get the subOrDub ID
       return rawOrSubOrDub(false);
