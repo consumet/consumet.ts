@@ -30,12 +30,13 @@ function processBlock(n) {
 //? needs to be enhanced
 function encryptBlock(_0x13a508, _0x5baaa1) {
     const [_0x458390, _0x32aa26, _0x53dadc, _0x4810d1, _0x3c0f1b, _0x128bff] = staticdata_1.default;
-    let _0x21ba3f = _0x5baaa1 === 0
+    const _0x21ba3f = _0x5baaa1 === 0
         ? [22039283, 1457920463, 776125350, -1941999367]
         : _0x13a508.slice(_0x5baaa1 - 4, _0x5baaa1);
     for (let _0x5b9637 = 0; _0x5b9637 < 4; _0x5b9637++)
         _0x13a508[_0x5baaa1 + _0x5b9637] ^= _0x21ba3f[_0x5b9637];
-    let _0x116405 = 10, _0x4d3231 = _0x13a508[_0x5baaa1] ^ _0x458390[0], _0x1f3a4f = _0x13a508[_0x5baaa1 + 1] ^ _0x458390[1], _0x598b52 = _0x13a508[_0x5baaa1 + 2] ^ _0x458390[2], _0x2265d4 = _0x13a508[_0x5baaa1 + 3] ^ _0x458390[3], _0xcb5ec5 = 4;
+    const _0x116405 = 10;
+    let _0x4d3231 = _0x13a508[_0x5baaa1] ^ _0x458390[0], _0x1f3a4f = _0x13a508[_0x5baaa1 + 1] ^ _0x458390[1], _0x598b52 = _0x13a508[_0x5baaa1 + 2] ^ _0x458390[2], _0x2265d4 = _0x13a508[_0x5baaa1 + 3] ^ _0x458390[3], _0xcb5ec5 = 4;
     let _0x34de78;
     let _0x42d7a0;
     let _0x4a8c71;
@@ -131,5 +132,4 @@ function getKKey(id, subOrVid, hash = 'mg3c3b04ba', version = '2.8.10', viGuid =
     processBlock(_0x3db385);
     return wordArrayToHex(Uint32Array.of(..._0x3db385), _0x2f9d88).toUpperCase();
 }
-console.log(getKKey(171970, 'sub'));
 //# sourceMappingURL=kisskh.js.map

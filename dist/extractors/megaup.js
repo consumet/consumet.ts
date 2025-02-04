@@ -18,7 +18,7 @@ class MegaUpDecoder {
         });
         _MegaUpDecoder_substitute.set(this, (input, keys, values) => {
             const map = Object.fromEntries(keys.split('').map((key, i) => [key, values[i] || '']));
-            let a = input
+            const a = input
                 .split('')
                 .map(char => map[char] || char)
                 .join('');

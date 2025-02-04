@@ -37,8 +37,8 @@ function encryptBlock(_0x13a508: number[], _0x5baaa1: number) {
   for (let _0x5b9637 = 0; _0x5b9637 < 4; _0x5b9637++)
     _0x13a508[_0x5baaa1 + _0x5b9637] ^= _0x21ba3f[_0x5b9637];
 
-  let _0x116405 = 10,
-    _0x4d3231 = _0x13a508[_0x5baaa1] ^ _0x458390[0],
+  const _0x116405 = 10;
+  let _0x4d3231 = _0x13a508[_0x5baaa1] ^ _0x458390[0],
     _0x1f3a4f = _0x13a508[_0x5baaa1 + 1] ^ _0x458390[1],
     _0x598b52 = _0x13a508[_0x5baaa1 + 2] ^ _0x458390[2],
     _0x2265d4 = _0x13a508[_0x5baaa1 + 3] ^ _0x458390[3],
@@ -148,5 +148,3 @@ export default function getKKey(
 
   return wordArrayToHex(Uint32Array.of(...(_0x3db385 as number[])), _0x2f9d88 as number).toUpperCase();
 }
-
-console.log(getKKey(171970, 'sub'));
