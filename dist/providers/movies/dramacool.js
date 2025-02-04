@@ -7,7 +7,7 @@ class DramaCool extends models_1.MovieParser {
     constructor() {
         super(...arguments);
         this.name = 'DramaCool';
-        this.baseUrl = 'https://asianc.co';
+        this.baseUrl = 'https://dramacool.bg';
         this.logo = 'https://play-lh.googleusercontent.com/IaCb2JXII0OV611MQ-wSA8v_SAs9XF6E3TMDiuxGGXo4wp9bI60GtDASIqdERSTO5XU';
         this.classPath = 'MOVIES.DramaCool';
         this.supportedTypes = new Set([models_1.TvType.MOVIE, models_1.TvType.TVSERIES]);
@@ -143,23 +143,28 @@ class DramaCool extends models_1.MovieParser {
                 switch (server) {
                     case models_1.StreamingServers.AsianLoad:
                         return {
+                            headers: { Referer: serverUrl.origin },
                             ...(await new extractors_1.AsianLoad(this.proxyConfig, this.adapter).extract(serverUrl)),
                             download: this.downloadLink(episodeId),
                         };
                     case models_1.StreamingServers.MixDrop:
                         return {
+                            headers: { Referer: serverUrl.origin },
                             sources: await new extractors_1.MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     case models_1.StreamingServers.StreamTape:
                         return {
+                            headers: { Referer: serverUrl.origin },
                             sources: await new extractors_1.StreamTape(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     case models_1.StreamingServers.StreamSB:
                         return {
+                            headers: { Referer: serverUrl.origin },
                             sources: await new extractors_1.StreamSB(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     case models_1.StreamingServers.StreamWish:
                         return {
+                            headers: { Referer: serverUrl.origin },
                             ...(await new extractors_1.StreamWish(this.proxyConfig, this.adapter).extract(serverUrl)),
                         };
                     default:
@@ -301,10 +306,13 @@ class DramaCool extends models_1.MovieParser {
     }
 }
 //testing fetchPopular via iife
-// (async () => {
-//   const dramaCool = new DramaCool();
-//   const l=await dramaCool.fetchSpotlight();
-//   console.log(l);
-// })();
+/*
+(async () => {
+  const dramaCool = new DramaCool();
+  // const l=await dramaCool.fetchSpotlight();
+  const l = await dramaCool.fetchEpisodeSources('vincenzo-2021-episode-1');
+  console.log(l);
+})();
+*/
 exports.default = DramaCool;
 //# sourceMappingURL=dramacool.js.map

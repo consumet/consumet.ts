@@ -72,7 +72,7 @@ class Zoro extends models_1.AnimeParser {
                     .find('a')
                     .each(function () {
                     var _a;
-                    let genre = $(this).text().trim();
+                    const genre = $(this).text().trim();
                     if (genre != undefined)
                         (_a = info.genres) === null || _a === void 0 ? void 0 : _a.push(genre);
                 });
@@ -145,7 +145,7 @@ class Zoro extends models_1.AnimeParser {
                     case models_1.StreamingServers.VidStreaming:
                     case models_1.StreamingServers.VidCloud:
                         return {
-                            ...(await new utils_1.MegaCloud().extract(serverUrl)),
+                            ...(await new utils_1.MegaCloud().extract(serverUrl, this.baseUrl)),
                         };
                     case models_1.StreamingServers.StreamSB:
                         return {
@@ -165,7 +165,7 @@ class Zoro extends models_1.AnimeParser {
                     case models_1.StreamingServers.VidCloud:
                         return {
                             headers: { Referer: serverUrl.href },
-                            ...(await new utils_1.MegaCloud().extract(serverUrl)),
+                            ...(await new utils_1.MegaCloud().extract(serverUrl, this.baseUrl)),
                         };
                 }
             }
@@ -237,10 +237,18 @@ class Zoro extends models_1.AnimeParser {
             }
         };
         this.retrieveServerId = ($, index, subOrDub) => {
-            return $(`.ps_-block.ps_-block-sub.servers-${subOrDub} > .ps__-list .server-item`)
+            const rawOrSubOrDub = (raw) => $(`.ps_-block.ps_-block-sub.servers-${raw ? 'raw' : subOrDub} > .ps__-list .server-item`)
                 .map((i, el) => ($(el).attr('data-server-id') == `${index}` ? $(el) : null))
                 .get()[0]
                 .attr('data-id');
+            try {
+                // Attempt to get the subOrDub ID
+                return rawOrSubOrDub(false);
+            }
+            catch (error) {
+                // If an error is thrown, attempt to get the raw ID (The raw is the newest episode uploaded to zoro)
+                return rawOrSubOrDub(true);
+            }
         };
         /**
          * @param url string
