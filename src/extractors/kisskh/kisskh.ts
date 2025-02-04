@@ -23,13 +23,12 @@ function padString(input: string) {
   const paddingLength = 16 - (input.length % 16);
   return input + String.fromCharCode(paddingLength).repeat(paddingLength);
 }
-function processBlock(n: any) {
+function processBlock(n: number[]) {
   for (let i = 0; i < n.length; i += 4) encryptBlock(n, i);
 }
 
-// @ts-ignore
 //? needs to be enhanced
-function encryptBlock(_0x13a508: any, _0x5baaa1: any) {
+function encryptBlock(_0x13a508: number[], _0x5baaa1: number) {
   const [_0x458390, _0x32aa26, _0x53dadc, _0x4810d1, _0x3c0f1b, _0x128bff] = staticData;
   let _0x21ba3f =
     _0x5baaa1 === 0
@@ -38,30 +37,29 @@ function encryptBlock(_0x13a508: any, _0x5baaa1: any) {
   for (let _0x5b9637 = 0; _0x5b9637 < 4; _0x5b9637++)
     _0x13a508[_0x5baaa1 + _0x5b9637] ^= _0x21ba3f[_0x5b9637];
 
-  for (
-    var _0x116405 = 10,
-      _0x4d3231 = _0x13a508[_0x5baaa1] ^ _0x458390[0],
-      _0x1f3a4f = _0x13a508[_0x5baaa1 + 1] ^ _0x458390[1],
-      _0x598b52 = _0x13a508[_0x5baaa1 + 2] ^ _0x458390[2],
-      _0x2265d4 = _0x13a508[_0x5baaa1 + 3] ^ _0x458390[3],
-      _0xcb5ec5 = 4,
-      _0x5e2dc7 = 1;
-    _0x5e2dc7 < _0x116405;
-    _0x5e2dc7++
-  ) {
-    var _0x34de78 =
+  let _0x116405 = 10,
+    _0x4d3231 = _0x13a508[_0x5baaa1] ^ _0x458390[0],
+    _0x1f3a4f = _0x13a508[_0x5baaa1 + 1] ^ _0x458390[1],
+    _0x598b52 = _0x13a508[_0x5baaa1 + 2] ^ _0x458390[2],
+    _0x2265d4 = _0x13a508[_0x5baaa1 + 3] ^ _0x458390[3],
+    _0xcb5ec5 = 4;
+  let _0x34de78;
+  let _0x42d7a0;
+  let _0x4a8c71;
+  for (let _0x5e2dc7 = 1; _0x5e2dc7 < _0x116405; _0x5e2dc7++) {
+    _0x34de78 =
       _0x32aa26[_0x4d3231 >>> 24] ^
       _0x53dadc[(_0x1f3a4f >>> 16) & 255] ^
       _0x4810d1[(_0x598b52 >>> 8) & 255] ^
       _0x3c0f1b[_0x2265d4 & 255] ^
       _0x458390[_0xcb5ec5++];
-    var _0x42d7a0 =
+    _0x42d7a0 =
       _0x32aa26[_0x1f3a4f >>> 24] ^
       _0x53dadc[(_0x598b52 >>> 16) & 255] ^
       _0x4810d1[(_0x2265d4 >>> 8) & 255] ^
       _0x3c0f1b[_0x4d3231 & 255] ^
       _0x458390[_0xcb5ec5++];
-    var _0x4a8c71 =
+    _0x4a8c71 =
       _0x32aa26[_0x598b52 >>> 24] ^
       _0x53dadc[(_0x2265d4 >>> 16) & 255] ^
       _0x4810d1[(_0x4d3231 >>> 8) & 255] ^
@@ -146,7 +144,9 @@ export default function getKKey(
   const _0x278f64 = padString(data.join('|'));
   const [_0x3db385, _0x2f9d88] = stringToWordArray(_0x278f64);
 
-  processBlock(_0x3db385);
+  processBlock(_0x3db385 as number[]);
 
   return wordArrayToHex(Uint32Array.of(...(_0x3db385 as number[])), _0x2f9d88 as number).toUpperCase();
 }
+
+console.log(getKKey(171970, 'sub'));

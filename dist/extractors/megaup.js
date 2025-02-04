@@ -25,7 +25,8 @@ class MegaUpDecoder {
             return a;
         });
         _MegaUpDecoder_transform.set(this, (n, t) => {
-            let v = Array.from({ length: 256 }, (_, i) => i), c = 0, f = '';
+            const v = Array.from({ length: 256 }, (_, i) => i);
+            let c = 0, f = '';
             for (let w = 0; w < 256; w++) {
                 c = (c + v[w] + n.charCodeAt(w % n.length)) % 256;
                 [v[w], v[c]] = [v[c], v[w]];
