@@ -162,12 +162,12 @@ class FlixHQ extends models_1.MovieParser {
                     case models_1.StreamingServers.VidCloud:
                         return {
                             headers: { Referer: serverUrl.href },
-                            ...(await new extractors_1.VidCloud(this.proxyConfig, this.adapter).extract(serverUrl, true)),
+                            ...(await new extractors_1.VidCloud(this.proxyConfig, this.adapter).extract(serverUrl, true, this.baseUrl)),
                         };
                     case models_1.StreamingServers.UpCloud:
                         return {
                             headers: { Referer: serverUrl.href },
-                            ...(await new extractors_1.VidCloud(this.proxyConfig, this.adapter).extract(serverUrl)),
+                            ...(await new extractors_1.VidCloud(this.proxyConfig, this.adapter).extract(serverUrl, undefined, this.baseUrl)),
                         };
                     default:
                         return {
@@ -182,7 +182,7 @@ class FlixHQ extends models_1.MovieParser {
                 if (i === -1) {
                     throw new Error(`Server ${server} not found`);
                 }
-                const { data } = await this.client.get(`${this.baseUrl}/ajax/get_link/${servers[i].url.split('.').slice(-1).shift()}`);
+                const { data } = await this.client.get(`${this.baseUrl}/ajax/episode/sources/${servers[i].url.split('.').slice(-1).shift()}`);
                 const serverUrl = new URL(data.link);
                 return await this.fetchEpisodeSources(serverUrl.href, mediaId, server);
             }
