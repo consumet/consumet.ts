@@ -31,7 +31,7 @@ function processBlock(n: any) {
 //? needs to be enhanced
 function encryptBlock(_0x13a508: any, _0x5baaa1: any) {
   const [_0x458390, _0x32aa26, _0x53dadc, _0x4810d1, _0x3c0f1b, _0x128bff] = staticData;
-  let _0x21ba3f =
+  const _0x21ba3f =
     _0x5baaa1 === 0
       ? [22039283, 1457920463, 776125350, -1941999367]
       : _0x13a508.slice(_0x5baaa1 - 4, _0x5baaa1);

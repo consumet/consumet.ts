@@ -9,7 +9,7 @@ export class MegaUpDecoder {
   };
   #substitute = (input: string, keys: string, values: string) => {
     const map = Object.fromEntries(keys.split('').map((key, i) => [key, values[i] || '']));
-    let a = input
+    const a = input
       .split('')
       .map(char => map[char] || char)
       .join('');
