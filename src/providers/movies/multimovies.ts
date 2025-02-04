@@ -406,8 +406,8 @@ class MultiMovies extends MovieParser {
       }
 
       return { servers: [], fileId: '' };
-    } catch (error: any) {
-      throw new Error(`Failed to get servers: ${error.message}`);
+    } catch (err) {
+      throw new Error((err as Error).message);
     }
   }
 }

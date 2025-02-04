@@ -365,8 +365,8 @@ class MultiMovies extends models_1.MovieParser {
             }
             return { servers: [], fileId: '' };
         }
-        catch (error) {
-            throw new Error(`Failed to get servers: ${error.message}`);
+        catch (err) {
+            throw new Error(err.message);
         }
     }
 }

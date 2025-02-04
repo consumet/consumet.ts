@@ -265,11 +265,12 @@ class DramaCool extends models_1.MovieParser {
                 if (name.includes('serverwithtoken')) {
                     name = models_1.StreamingServers.AsianLoad;
                 }
-                server &&
+                if (server) {
                     episodeServers.push({
                         name: name,
                         url: server.startsWith('//') ? server === null || server === void 0 ? void 0 : server.replace('//', 'https://') : server,
                     });
+                }
             });
             return episodeServers;
         }
