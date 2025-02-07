@@ -12,7 +12,7 @@ class Libgen extends BookParser {
    * @type {string}
    */
   override readonly name: string = 'Libgen';
-  private readonly downloadIP = 'http://62.182.86.140';
+  private readonly downloadIP = 'https://download.books.ms';
 
   protected override logo =
     'https://f-droid.org/repo/com.manuelvargastapia.libgen/en-US/icon_TP2ezvMwW5ovE-wixagF1WCThMUohX3T_kzYhuZQ8aY=.png';
