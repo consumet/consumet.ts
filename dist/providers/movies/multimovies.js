@@ -7,8 +7,8 @@ class MultiMovies extends models_1.MovieParser {
     constructor() {
         super(...arguments);
         this.name = 'MultiMovies';
-        this.baseUrl = 'https://multimovies.lat';
-        this.logo = 'https://multimovies.lat/wp-content/uploads/2024/01/cropped-CompressJPEG.online_512x512_image.png';
+        this.baseUrl = 'https://multimovies.today';
+        this.logo = 'https://multimovies.today/wp-content/uploads/2024/01/cropped-CompressJPEG.online_512x512_image.png';
         this.classPath = 'MOVIES.MultiMovies';
         this.supportedTypes = new Set([models_1.TvType.MOVIE, models_1.TvType.TVSERIES]);
         /**
@@ -158,7 +158,6 @@ class MultiMovies extends models_1.MovieParser {
          * @param server server type (default `StreamWish`) (optional)
          */
         this.fetchEpisodeSources = async (episodeId, server = models_1.StreamingServers.StreamWish, fileId) => {
-            var _a, _b;
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
@@ -203,15 +202,13 @@ class MultiMovies extends models_1.MovieParser {
                 const serverUrl = new URL(servers[i].url);
                 let fileId = '';
                 if (!episodeId.startsWith('http')) {
-                    const $iframe = await this.getServer(`${this.baseUrl}/${episodeId}`);
-                    const match = (_a = $iframe.html()) === null || _a === void 0 ? void 0 : _a.match(/fileId\s*=\s*["']([^"']+)["']/);
-                    fileId = (_b = match === null || match === void 0 ? void 0 : match[1]) !== null && _b !== void 0 ? _b : '';
+                    const { fileId: id } = await this.getServer(`${this.baseUrl}/${episodeId}`);
+                    fileId = id !== null && id !== void 0 ? id : '';
                 }
                 // fileId to be used for download link
                 return await this.fetchEpisodeSources(serverUrl.href, server, fileId);
             }
             catch (err) {
-                console.log(err);
                 throw new Error(err.message);
             }
         };
@@ -224,16 +221,7 @@ class MultiMovies extends models_1.MovieParser {
                 episodeId = `${this.baseUrl}/${episodeId}`;
             }
             try {
-                const $iframe = await this.getServer(episodeId);
-                const servers = $iframe('#videoLinks li')
-                    .map((i, el) => {
-                    var _a, _b;
-                    return ({
-                        name: $iframe(el).text().trim(),
-                        url: (_b = (_a = $iframe(el).attr('data-link')) === null || _a === void 0 ? void 0 : _a.trim()) !== null && _b !== void 0 ? _b : '',
-                    });
-                })
-                    .get();
+                const { servers } = await this.getServer(episodeId);
                 return servers;
             }
             catch (err) {
@@ -311,49 +299,85 @@ class MultiMovies extends models_1.MovieParser {
     }
     async getServer(url) {
         var _a, _b, _c, _d;
-        const { data } = await this.client.get(url);
-        const $ = (0, cheerio_1.load)(data);
-        const playerConfig = {
-            postId: $('#player-option-1').attr('data-post'),
-            nume: $('#player-option-1').attr('data-nume'),
-            type: $('#player-option-1').attr('data-type'),
-        };
-        const formData = new FormData();
-        formData.append('action', 'doo_player_ajax');
-        if (playerConfig.postId)
+        try {
+            const { data } = await this.client.get(url);
+            const $ = (0, cheerio_1.load)(data);
+            // Extract player config
+            const playerConfig = {
+                postId: $('#player-option-1').attr('data-post'),
+                nume: $('#player-option-1').attr('data-nume'),
+                type: $('#player-option-1').attr('data-type'),
+            };
+            if (!playerConfig.postId || !playerConfig.nume || !playerConfig.type) {
+                throw new Error('Missing player configuration');
+            }
+            const formData = new FormData();
+            formData.append('action', 'doo_player_ajax');
             formData.append('post', playerConfig.postId);
-        if (playerConfig.nume)
             formData.append('nume', playerConfig.nume);
-        if (playerConfig.type)
             formData.append('type', playerConfig.type);
-        const headers = {
-            'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"',
-            'sec-ch-ua-mobile': '?0',
-            'sec-ch-ua-platform': '"Windows"',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
-        };
-        const playerRes = await this.client.post(`${this.baseUrl}/wp-admin/admin-ajax.php`, formData, {
-            headers,
-        });
-        const iframeUrl = ((_c = (_b = (_a = playerRes.data) === null || _a === void 0 ? void 0 : _a.embed_url) === null || _b === void 0 ? void 0 : _b.match(/<iframe[^>]+src="([^"]+)"[^>]*>/i)) === null || _c === void 0 ? void 0 : _c[1]) || ((_d = playerRes.data) === null || _d === void 0 ? void 0 : _d.embed_url);
-        if (!iframeUrl || iframeUrl.includes('multimovies')) {
-            return (0, cheerio_1.load)('');
+            const headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            };
+            const playerRes = await this.client.post(`${this.baseUrl}/wp-admin/admin-ajax.php`, formData, {
+                headers,
+            });
+            const iframeUrl = ((_c = (_b = (_a = playerRes.data) === null || _a === void 0 ? void 0 : _a.embed_url) === null || _b === void 0 ? void 0 : _b.match(/<iframe[^>]+src="([^"]+)"[^>]*>/i)) === null || _c === void 0 ? void 0 : _c[1]) ||
+                ((_d = playerRes.data) === null || _d === void 0 ? void 0 : _d.embed_url);
+            // Handle non-multimovies case
+            if (!iframeUrl.includes('multimovies')) {
+                let playerBaseUrl = iframeUrl.split('/').slice(0, 3).join('/');
+                const redirectResponse = await this.client.head(playerBaseUrl, { headers });
+                // Update base URL if redirect occurred
+                if (redirectResponse) {
+                    playerBaseUrl =
+                        redirectResponse.request._redirectable._options.href.split('/').slice(0, 3).join('/') ||
+                            redirectResponse.request.res.responseURL.split('/').slice(0, 3).join('/');
+                }
+                const fileId = iframeUrl.split('/').pop();
+                if (!fileId) {
+                    throw new Error('No player ID found');
+                }
+                const streamRequestData = new FormData();
+                streamRequestData.append('sid', fileId);
+                const streamResponse = await this.client.post(`${playerBaseUrl}/embedhelper.php`, streamRequestData, {
+                    headers,
+                });
+                if (!streamResponse.data) {
+                    throw new Error('No stream data found');
+                }
+                const streamDetails = streamResponse.data;
+                const mresultKeys = new Set(Object.keys(streamDetails.mresult));
+                const siteUrlsKeys = new Set(Object.keys(streamDetails.siteUrls));
+                // Find common keys
+                const commonKeys = [...mresultKeys].filter(key => siteUrlsKeys.has(key));
+                // Convert to a Set (if needed)
+                const commonStreamSites = new Set(commonKeys);
+                const servers = Array.from(commonStreamSites).map(site => {
+                    return {
+                        name: streamDetails.siteFriendlyNames[site] === 'StreamHG'
+                            ? 'StreamWish'
+                            : streamDetails.siteFriendlyNames[site],
+                        url: streamDetails.siteUrls[site] + streamDetails.mresult[site],
+                    };
+                });
+                return { servers, fileId };
+            }
+            return { servers: [], fileId: '' };
         }
-        const { data: iframeData } = await this.client.get(iframeUrl, { headers });
-        const $iframe = (0, cheerio_1.load)(iframeData);
-        return $iframe;
+        catch (err) {
+            throw new Error(err.message);
+        }
     }
 }
-/*
-(async () => {
-  const movie = new MultiMovies();
-  // const search = await movie.fetchMediaInfo('tvshows/jujutsu-kaisen/');
-  const movieInfo = await movie.fetchEpisodeSources('episodes/jujutsu-kaisen-1x2/');
-  // const server = await movie.fetchEpisodeServers('episodes/jujutsu-kaisen-1x2/');
-  // const recentTv = await movie.fetchPopular();
-  // const genre = await movie.fetchByGenre('action');
-  console.log(movieInfo);
-})();
-*/
+// (async () => {
+//   const movie = new MultiMovies();
+//   // const search = await movie.fetchMediaInfo('tvshows/jujutsu-kaisen/');
+//   const movieInfo = await movie.fetchEpisodeSources('movies/pushpa-2-the-rule/');
+//   const server = await movie.fetchEpisodeServers('movies/pushpa-2-the-rule/');
+//   // const recentTv = await movie.fetchPopular();
+//   // const genre = await movie.fetchByGenre('action');
+//   console.log(server,movieInfo);
+// })();
 exports.default = MultiMovies;
 //# sourceMappingURL=multimovies.js.map
