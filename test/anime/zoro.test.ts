@@ -130,6 +130,16 @@ test('returns a filled object of episode sources', async () => {
   const data = await zoro.fetchEpisodeSources(info.episodes![0].id); // Overlord IV episode 1 id
   expect(data.sources).not.toEqual([]);
 });
+test('returns a filled object of episode sources of multiple episodes', async () => {
+  const data1 = await zoro.fetchEpisodeSources(
+    'rezero-starting-life-in-another-world-season-3-19301$episode$128356$both'
+  );
+  const data2 = await zoro.fetchEpisodeSources(
+    'rezero-starting-life-in-another-world-season-3-19301$episode$128536$both'
+  );
+  expect(data1.sources).not.toEqual([]);
+  expect(data2.sources).not.toEqual([]);
+});
 
 test('returns a filled object of anime data with: status, genres, season and japaneseTitle', async () => {
   const info = await zoro.fetchAnimeInfo('ranma-1-2-19335');
