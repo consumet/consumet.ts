@@ -403,9 +403,13 @@ class MultiMovies extends MovieParser {
         });
 
         return { servers, fileId };
+      } else {
+        //@Durgesh
+        return {
+          servers: [{ name: 'StreamWish', url: iframeUrl }],
+          fileId: iframeUrl.split('/').pop() ?? '',
+        };
       }
-
-      return { servers: [], fileId: '' };
     } catch (err) {
       throw new Error((err as Error).message);
     }

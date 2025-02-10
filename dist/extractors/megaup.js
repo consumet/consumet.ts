@@ -79,7 +79,8 @@ class MegaUp extends models_1.VideoExtractor {
         };
         this.extract = async (videoUrl) => {
             try {
-                const res = await this.client.get(videoUrl.href);
+                const url = videoUrl.href.replace(/\/(e|e2)\//, '/media/');
+                const res = await this.client.get(url);
                 const decrypted = JSON.parse(this.Decode(res.data.result).replace(/\\/g, ''));
                 const data = {
                     sources: decrypted.sources.map((s) => ({

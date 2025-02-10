@@ -298,7 +298,7 @@ class MultiMovies extends models_1.MovieParser {
         };
     }
     async getServer(url) {
-        var _a, _b, _c, _d;
+        var _a, _b, _c, _d, _e;
         try {
             const { data } = await this.client.get(url);
             const $ = (0, cheerio_1.load)(data);
@@ -363,7 +363,13 @@ class MultiMovies extends models_1.MovieParser {
                 });
                 return { servers, fileId };
             }
-            return { servers: [], fileId: '' };
+            else {
+                //@Durgesh
+                return {
+                    servers: [{ name: 'StreamWish', url: iframeUrl }],
+                    fileId: (_e = iframeUrl.split('/').pop()) !== null && _e !== void 0 ? _e : '',
+                };
+            }
         }
         catch (err) {
             throw new Error(err.message);

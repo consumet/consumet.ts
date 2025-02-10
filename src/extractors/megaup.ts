@@ -89,15 +89,16 @@ export class MegaUp extends VideoExtractor {
 
   override extract = async (videoUrl: URL): Promise<ISource> => {
     try {
-      const res = await this.client.get(videoUrl.href);
+      const url = videoUrl.href.replace(/\/(e|e2)\//, '/media/');
+      const res = await this.client.get(url);
 
       const decrypted = JSON.parse(this.Decode(res.data.result).replace(/\\/g, ''));
       const data: ISource = {
-        sources: decrypted.sources.map((s: any) => ({
+        sources: decrypted.sources.map((s: { file: string }) => ({
           url: s.file,
           isM3U8: s.file.includes('.m3u8') || s.file.endsWith('m3u8'),
         })),
-        subtitles: decrypted.tracks.map((t: any) => ({
+        subtitles: decrypted.tracks.map((t: { kind: any; file: any }) => ({
           kind: t.kind,
           src: t.file,
         })),

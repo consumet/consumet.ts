@@ -41,6 +41,8 @@ export const PROVIDERS_LIST = {
     new MOVIES.KissAsian(),
     new MOVIES.MovieHdWatch(),
     new MOVIES.ViewAsian(),
+    new MOVIES.SFlix(),
+    new MOVIES.MultiMovies(),
   ],
   NEWS: [new NEWS.ANN()],
   META: [new META.Anilist(), new META.TMDB(), new META.Myanimelist()],
