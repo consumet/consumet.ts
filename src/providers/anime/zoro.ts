@@ -12,6 +12,7 @@ import {
   MediaFormat,
   SubOrSub,
   IAnimeEpisode,
+  MediaStatus,
 } from '../../models';
 
 import { StreamSB, RapidCloud, MegaCloud, StreamTape } from '../../utils';
@@ -430,6 +431,49 @@ class Zoro extends AnimeParser {
       }
       if (hasSub && hasDub) {
         info.subOrDub = SubOrSub.BOTH;
+      }
+
+      // ZORO - PAGE INFO
+      const zInfo = await this.client.get(info.url);
+      const $$$ = load(zInfo.data);
+
+      info.genres = [];
+      $$$('.item.item-list')
+        .find('a')
+        .each(function () {
+          const genre = $(this).text().trim();
+          if (genre != undefined) info.genres?.push(genre);
+        });
+
+      switch (
+        $$$('.item.item-title').find("span.item-head:contains('Status')").next('span.name').text().trim()
+      ) {
+        case 'Finished Airing':
+          info.status = MediaStatus.COMPLETED;
+          break;
+        case 'Currently Airing':
+          info.status = MediaStatus.ONGOING;
+          break;
+        case 'Not yet aired':
+          info.status = MediaStatus.NOT_YET_AIRED;
+          break;
+        default:
+          info.status = MediaStatus.UNKNOWN;
+          break;
+      }
+
+      info.season = $$$('.item.item-title')
+        .find("span.item-head:contains('Premiered')")
+        .next('span.name')
+        .text()
+        .trim();
+
+      if (info.japaneseTitle == '' || info.japaneseTitle == undefined) {
+        info.japaneseTitle = $$$('.item.item-title')
+          .find("span.item-head:contains('Japanese')")
+          .next('span.name')
+          .text()
+          .trim();
       }
 
       const episodesAjax = await this.client.get(

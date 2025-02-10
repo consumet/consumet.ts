@@ -1,6 +1,6 @@
 import { load } from 'cheerio';
 
-import { AsianLoad, MixDrop, StreamSB, StreamTape, StreamWish } from '../../extractors';
+import { AsianLoad, MixDrop, StreamSB, StreamTape, StreamWish, VidHide } from '../../extractors';
 import {
   IEpisodeServer,
   IMovieInfo,
@@ -31,7 +31,7 @@ class DramaCool extends MovieParser {
       };
 
       const { data } = await this.client.get(
-        `${this.baseUrl}/search?keyword=${query.replace(/[\W_]+/g, '-')}&page=${page}`
+        `${this.baseUrl}/search?type=drama&keyword=${query.replace(/[\W_]+/g, '+')}&page=${page}`
       );
 
       const $ = load(data);
@@ -50,9 +50,9 @@ class DramaCool extends MovieParser {
 
       $('div.block > div.tab-content > ul.list-episode-item > li').each((i, el) => {
         searchResult.results.push({
-          id: $(el).find('a').attr('href')?.slice(1)!,
+          id: $(el).find('a').attr('href')?.split(`${this.baseUrl}/`)[1]!,
           title: $(el).find('a > h3').text(),
-          url: `${this.baseUrl}${$(el).find('a').attr('href')}`,
+          url: `${$(el).find('a').attr('href')}`,
           image: $(el).find('a > img').attr('data-original'),
         });
       });
@@ -155,14 +155,12 @@ class DramaCool extends MovieParser {
       mediaInfo.episodes = [];
       $('div.content-left > div.block-tab > div > div > ul > li').each((i, el) => {
         mediaInfo.episodes?.push({
-          id: $(el).find('a').attr('href')?.split('.html')[0].slice(1)!,
+          id: $(el).find('a').attr('href')?.split(`${this.baseUrl}/`)[1]!,
           title: $(el).find('h3').text().replace(mediaInfo.title.toString(), '').trim(),
-          episode: parseFloat(
-            $(el).find('a').attr('href')?.split('-episode-')[1].split('.html')[0].split('-').join('.')!
-          ),
+          episode: parseFloat($(el).find('a').attr('href')?.split('-episode-')[1]!),
           subType: $(el).find('span.type').text(),
           releaseDate: $(el).find('span.time').text(),
-          url: `${this.baseUrl}${$(el).find('a').attr('href')}`,
+          url: `${$(el).find('a').attr('href')}`,
         });
       });
       mediaInfo.episodes.reverse();
@@ -177,23 +175,43 @@ class DramaCool extends MovieParser {
     try {
       const episodeServers: IEpisodeServer[] = [];
 
-      if (!episodeId.includes('.html')) episodeId = `${this.baseUrl}/${episodeId}.html`;
+      episodeId = `${this.baseUrl}/${episodeId}`;
 
       const { data } = await this.client.get(episodeId);
       const $ = load(data);
 
-      $('div.anime_muti_link > ul > li').map(async (i, ele) => {
-        const url = $(ele).attr('data-video')!;
-        let name = $(ele).attr('class')!.replace('selected', '').trim();
-        if (name.includes('Standard')) {
+      // keeping the old code future reference
+      // $('div.anime_muti_link > ul > li').map(async (i, ele) => {
+      //   const url = $(ele).attr('data-video')!;
+      //   let name = $(ele).attr('class')!.replace('selected', '').trim();
+      //   if (name.includes('standard')) {
+      //     name = StreamingServers.AsianLoad;
+      //   }
+      //   episodeServers.push({
+      //     name: name,
+      //     url: url.startsWith('//') ? url?.replace('//', 'https://') : url,
+      //   });
+      // });
+
+      const standardServer = $('div.anime_muti_link > ul > li.standard').attr('data-video')!;
+      const url = standardServer.startsWith('//')
+        ? standardServer?.replace('//', 'https://')
+        : standardServer;
+      const { data: servers } = await this.client.get(url);
+      const $$ = load(servers);
+      $$('div#list-server-more > ul > li').each((i, el) => {
+        let name = $$(el).attr('data-provider')!;
+        const server = $$(el).attr('data-video')!;
+        if (name.includes('serverwithtoken')) {
           name = StreamingServers.AsianLoad;
         }
-        episodeServers.push({
-          name: name,
-          url: url.startsWith('//') ? url?.replace('//', 'https://') : url,
-        });
+        if (server) {
+          episodeServers.push({
+            name: name,
+            url: server.startsWith('//') ? server?.replace('//', 'https://') : server,
+          });
+        }
       });
-
       return episodeServers;
     } catch (err) {
       throw new Error((err as Error).message);
@@ -233,13 +251,17 @@ class DramaCool extends MovieParser {
             headers: { Referer: serverUrl.origin },
             ...(await new StreamWish(this.proxyConfig, this.adapter).extract(serverUrl)),
           };
+        case StreamingServers.VidHide:
+          return {
+            headers: { Referer: serverUrl.href },
+            sources: await new VidHide(this.proxyConfig, this.adapter).extract(serverUrl),
+          };
         default:
           throw new Error('Server not supported');
       }
     }
-
     try {
-      if (!episodeId.includes('.html')) episodeId = `${this.baseUrl}/${episodeId}.html`;
+      // episodeId = `${this.baseUrl}/${episodeId}`;
 
       const servers = await this.fetchEpisodeServers(episodeId);
       const i = servers.findIndex(s => s.name.toLowerCase() === server.toLowerCase());
@@ -257,15 +279,15 @@ class DramaCool extends MovieParser {
   };
 
   fetchPopular = async (page: number = 1): Promise<ISearch<IMovieResult>> => {
-    return this.fetchData(`${this.baseUrl}/most-popular-drama?page=${page}`, page);
+    return this.fetchData(`${this.baseUrl}/all-most-popular-drama?page=${page}`, page);
   };
 
   fetchRecentTvShows = async (page: number = 1): Promise<ISearch<IMovieResult>> => {
-    return this.fetchData(`${this.baseUrl}/recently-added?page=${page}`, page, true);
+    return this.fetchData(`${this.baseUrl}/all-recently-added/drama?page=${page}`, page, true);
   };
 
   fetchRecentMovies = async (page: number = 1): Promise<ISearch<IMovieResult>> => {
-    return this.fetchData(`${this.baseUrl}/recently-added-movie?page=${page}`, page, false, true);
+    return this.fetchData(`${this.baseUrl}/all-recently-added/movie?page=${page}`, page, false, true);
   };
 
   fetchSpotlight = async (): Promise<ISearch<IMovieResult>> => {
@@ -311,17 +333,18 @@ class DramaCool extends MovieParser {
         .find('li')
         .each((i, el) => {
           const result: IMovieResult = {
-            id: $(el).find('a').attr('href')?.slice(1)!,
+            id: $(el).find('a').attr('href')?.split(`${this.baseUrl}/`)[1]!,
             title: $(el).find('h3.title').text().trim(),
-            url: `${this.baseUrl}${$(el).find('a').attr('href')}`,
+            url: `${$(el).find('a').attr('href')}`,
             image: $(el).find('img').attr('data-original'),
           };
 
-          if (isTvShow || isMovies) {
-            result.id = result.image
-              ? result.image.replace(/^https:\/\/[^\/]+\/[^\/]+\/(.+?)-\d+\.\w+$/, 'drama-detail/$1')!
-              : '';
-          }
+          // keeping the old code for future reference
+          // if (isTvShow || isMovies) {
+          //   result.id = result.image
+          //     ? result.image.replace(/^https:\/\/[^\/]+\/[^\/]+\/(.+?)-\d+\.\w+$/, 'drama-detail/$1')!
+          //     : '';
+          // }
 
           if (isTvShow) {
             result.episodeNumber = parseFloat($(el).find('span.ep').text().trim().split(' ')[1]);
@@ -363,14 +386,13 @@ class DramaCool extends MovieParser {
       .join('; ');
   };
 }
-//testing fetchPopular via iife
-/*
-(async () => {
-  const dramaCool = new DramaCool();
-  // const l=await dramaCool.fetchSpotlight();
-  const l = await dramaCool.fetchEpisodeSources('vincenzo-2021-episode-1');
-  console.log(l);
-})();
-*/
+// (async () => {
+//   const dramaCool = new DramaCool();
+//   // const l=await dramaCool.search('squid game');
+//   const m = await dramaCool.fetchEpisodeServers('video-watch/squid-games-2021-episode-9-as-jao');
+//   const l = await dramaCool.fetchEpisodeSources('video-watch/squid-games-2021-episode-9-as-jao');
+//   // const l = await dramaCool.fetchMediaInfo('drama-detail/squid-games-2021-hd');
+//   console.log(m,l);
+// })();
 
 export default DramaCool;

@@ -64,6 +64,44 @@ class Zoro extends models_1.AnimeParser {
                 if (hasSub && hasDub) {
                     info.subOrDub = models_1.SubOrSub.BOTH;
                 }
+                // ZORO - PAGE INFO
+                const zInfo = await this.client.get(info.url);
+                const $$$ = (0, cheerio_1.load)(zInfo.data);
+                info.genres = [];
+                $$$('.item.item-list')
+                    .find('a')
+                    .each(function () {
+                    var _a;
+                    const genre = $(this).text().trim();
+                    if (genre != undefined)
+                        (_a = info.genres) === null || _a === void 0 ? void 0 : _a.push(genre);
+                });
+                switch ($$$('.item.item-title').find("span.item-head:contains('Status')").next('span.name').text().trim()) {
+                    case 'Finished Airing':
+                        info.status = models_1.MediaStatus.COMPLETED;
+                        break;
+                    case 'Currently Airing':
+                        info.status = models_1.MediaStatus.ONGOING;
+                        break;
+                    case 'Not yet aired':
+                        info.status = models_1.MediaStatus.NOT_YET_AIRED;
+                        break;
+                    default:
+                        info.status = models_1.MediaStatus.UNKNOWN;
+                        break;
+                }
+                info.season = $$$('.item.item-title')
+                    .find("span.item-head:contains('Premiered')")
+                    .next('span.name')
+                    .text()
+                    .trim();
+                if (info.japaneseTitle == '' || info.japaneseTitle == undefined) {
+                    info.japaneseTitle = $$$('.item.item-title')
+                        .find("span.item-head:contains('Japanese')")
+                        .next('span.name')
+                        .text()
+                        .trim();
+                }
                 const episodesAjax = await this.client.get(`${this.baseUrl}/ajax/v2/episode/list/${id.split('-').pop()}`, {
                     headers: {
                         'X-Requested-With': 'XMLHttpRequest',
