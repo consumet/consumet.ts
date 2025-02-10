@@ -628,16 +628,12 @@ function QZ(QP: any) {
 
 async function loadWasm(url: any) {
   let mod: any, buffer: any;
-  return void 0 !== wasm
-    ? wasm
-    : ((mod = initWasm()),
-      ({
-        instance: url,
-        module: mod,
-        bytes: buffer,
-      } = ((url = fetch(url)), void 0, await QN(await url, mod))),
-      assignWasm(url),
-      buffer);
+  return (
+    (mod = initWasm()),
+    ({ instance: url, module: mod, bytes: buffer } = ((url = fetch(url)), void 0, await QN(await url, mod))),
+    assignWasm(url),
+    buffer
+  );
 }
 
 const grootLoader = {

@@ -1,6 +1,11 @@
 //extractor for https://animekai.to
 
-export class MegaUpDecoder {
+import { ISource, IVideo, VideoExtractor } from '../models';
+
+export class MegaUp extends VideoExtractor {
+  protected serverName: string = 'MegaUp';
+  protected sources: IVideo[] = [];
+
   #reverseIt = (n: string) => {
     return n.split('').reverse().join('');
   };
@@ -64,6 +69,7 @@ export class MegaUpDecoder {
     n = this.#reverseIt(this.#transform('gEUzYavPrGpj', n));
     return decodeURIComponent(n);
   };
+
   Decode = (n: string) => {
     n = this.#base64UrlDecode(this.#base64UrlDecode(n));
     n = this.#reverseIt(this.#transform('E438hS1W9oRmB', n));
@@ -79,5 +85,27 @@ export class MegaUpDecoder {
       this.#substitute(this.#transform('Gay7bxj5B81TJFM', n), 'zcUxoJTi3fgyS', 'oSgyJUfizcTx3')
     );
     return decodeURIComponent(n);
+  };
+
+  override extract = async (videoUrl: URL): Promise<ISource> => {
+    try {
+      const res = await this.client.get(videoUrl.href);
+
+      const decrypted = JSON.parse(this.Decode(res.data.result).replace(/\\/g, ''));
+      const data: ISource = {
+        sources: decrypted.sources.map((s: any) => ({
+          url: s.file,
+          isM3U8: s.file.includes('.m3u8') || s.file.endsWith('m3u8'),
+        })),
+        subtitles: decrypted.tracks.map((t: any) => ({
+          kind: t.kind,
+          src: t.file,
+        })),
+        download: decrypted.download,
+      };
+      return data;
+    } catch (error) {
+      throw new Error((error as Error).message);
+    }
   };
 }

@@ -18,6 +18,7 @@ import {
   VidMoly,
   Mp4Upload,
   StreamWish,
+  MegaUp,
 } from './extractors';
 import {
   IProviderStats,
@@ -113,4 +114,5 @@ export {
   Mp4Upload,
   StreamWish,
   VidMoly,
+  MegaUp,
 };

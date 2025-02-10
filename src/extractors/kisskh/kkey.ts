@@ -105,24 +105,37 @@ function encryptBlock(_0x13a508: number[], _0x5baaa1: number) {
   _0x13a508[_0x5baaa1 + 3] = _0x2265d4;
 }
 /**
- * @param {string | number} id
- * @param {string} version
- * @param {string} viGuid
- * @param {string} platformVer
+ * Generates the `kkey` for KissKH.
  *
- * Refer these links
- * - https://kisskh.co/common.js?v=9082123
- * - https://kisskh.co/502.065066555371fb02.js
+ * @param {Object} params - The parameters object.
+ * @param {string | number} params.id - The ID of the video.
+ * @param {'sub' | 'vid'} params.subOrVid - Determines if the key is for a subtitle or video.
+ * @param {string} [params.hash='mg3c3b04ba'] - The default hash value.
+ * @param {string} [params.version='2.8.10'] - The API version.
+ * @param {string} [params.viGuid='62f176f3bb1b5b8e70e39932ad34a0c7'] - The video GUID.
+ * @param {string} [params.subGuid='VgV52sWhwvBSf8BsM3BRY9weWiiCbtGp'] - The subtitle GUID.
+ * @param {string} [params.platformVer='4830201'] - The platform version.
+ *
+ * @see https://kisskh.co/common.js?v=9082123
+ * @see https://kisskh.co/502.065066555371fb02
  */
-export default function getKKey(
-  id: string | number,
-  subOrVid: 'sub' | 'vid',
-  hash: string = 'mg3c3b04ba',
-  version: string = '2.8.10',
-  viGuid: string = '62f176f3bb1b5b8e70e39932ad34a0c7',
-  subGuid: string = 'VgV52sWhwvBSf8BsM3BRY9weWiiCbtGp',
-  platformVer: string = '4830201'
-): string {
+export default function getKKey({
+  id,
+  subOrVid,
+  hash = 'mg3c3b04ba',
+  version = '2.8.10',
+  viGuid = '62f176f3bb1b5b8e70e39932ad34a0c7',
+  subGuid = 'VgV52sWhwvBSf8BsM3BRY9weWiiCbtGp',
+  platformVer = '4830201',
+}: {
+  id: string | number;
+  subOrVid: 'sub' | 'vid';
+  hash?: string;
+  version?: string;
+  viGuid?: string;
+  subGuid?: string;
+  platformVer?: string;
+}): string {
   const data = [
     '',
     id,
