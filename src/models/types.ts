@@ -130,6 +130,8 @@ export interface IAnimeEpisode {
   title?: string;
   description?: string;
   isFiller?: boolean;
+  isSubbed?: boolean;
+  isDubbed?: boolean;
   url?: string;
   image?: string;
   imageHash?: string;
@@ -187,6 +189,7 @@ export enum StreamingServers {
   VidHide = 'vidhide',
   VidMoly = 'vidmoly',
   Voe = 'voe',
+  MegaUp = 'megaup',
 }
 
 export enum MediaStatus {

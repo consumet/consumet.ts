@@ -19,7 +19,7 @@ const zoro = new ANIME.Zoro();
 - [fetchSchedule](#fetchSchedule)
 - [fetchStudio](#fetchStudio)
 - [fetchSpotlight](#fetchSpotlight)
-- [fetchSearchSuggestions] (#fetchSearchSuggestions)
+- [fetchSearchSuggestions](#fetchSearchSuggestions)
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
@@ -128,6 +128,8 @@ output:
 | Parameter | Type     | Description                                                                           |
 | --------- | -------- | ------------------------------------------------------------------------------------- |
 | episodeId | `string` | takes episode id as a parameter. (*episode id can be found in the anime info object*) |
+| server (optional) | `StreamingServers` | takes server enum as a parameter. (*default: `StreamingServers.MegaUp`*) |
+| subOrDub (optional) | `SubOrSub `| takes subOrDub enum as a parameter. (*can be `SubOrSub.SUB` or `SubOrSub.DUB`, default: `SubOrSub.SUB`*) |
 
 
 In this example, we're getting the sources for the first episode of Overlord IV.

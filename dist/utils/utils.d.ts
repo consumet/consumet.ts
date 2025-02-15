@@ -4,7 +4,7 @@ export declare const ANIFY_URL = "https://anify.eltik.cc";
 export declare const splitAuthor: (authors: string) => string[];
 export declare const floorID: (id: string) => number;
 export declare const formatTitle: (title: string) => string;
-export declare const genElement: (s: string, e: string) => import("cheerio").Cheerio<import("domhandler").AnyNode> | undefined;
+export declare const genElement: (s: string, e: string) => import("cheerio").Cheerio<import("cheerio").AnyNode> | undefined;
 export declare const range: ({ from, to, step, length }: {
     from?: number | undefined;
     to?: number | undefined;

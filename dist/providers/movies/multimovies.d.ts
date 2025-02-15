@@ -5,6 +5,7 @@ declare class MultiMovies extends MovieParser {
     protected logo: string;
     protected classPath: string;
     supportedTypes: Set<TvType>;
+    constructor(customBaseURL?: string);
     /**
      *
      * @param query search query string
