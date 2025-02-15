@@ -57,7 +57,7 @@ class MultiMovies extends MovieParser {
 
       await Promise.all(
         articles.map(async el => {
-          let seasonSet = new Set<number>();
+          const seasonSet = new Set<number>();
 
           const href =
             $(el)

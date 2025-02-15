@@ -558,7 +558,7 @@ class AnimeKai extends AnimeParser {
     try {
       const { data } = await this.client.get(episodeId);
       const $ = load(data.result);
-      let servers: IEpisodeServer[] = [];
+      const servers: IEpisodeServer[] = [];
       const serverItems = $(`.server-items.lang-group[data-id="${subOrDub}"] .server`);
       await Promise.all(
         serverItems.map(async (i, server) => {
