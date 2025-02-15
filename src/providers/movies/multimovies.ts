@@ -215,10 +215,12 @@ class MultiMovies extends MovieParser {
   /**
    *
    * @param episodeId episode id
+   * @param media media id
    * @param server server type (default `StreamWish`) (optional)
    */
   override fetchEpisodeSources = async (
     episodeId: string,
+    mediaId?: string, //just placeholder for compatibility with tmdb
     server: StreamingServers = StreamingServers.StreamWish,
     fileId?: string
   ): Promise<ISource> => {
@@ -274,7 +276,7 @@ class MultiMovies extends MovieParser {
         fileId = id ?? '';
       }
       // fileId to be used for download link
-      return await this.fetchEpisodeSources(serverUrl.href, server, fileId);
+      return await this.fetchEpisodeSources(serverUrl.href, mediaId, server, fileId);
     } catch (err) {
       throw new Error((err as Error).message);
     }
@@ -467,8 +469,8 @@ class MultiMovies extends MovieParser {
 // (async () => {
 //   const movie = new MultiMovies();
 //   const search = await movie.search('jujutsu');
-//   // const movieInfo = await movie.fetchEpisodeSources('movies/pushpa-2-the-rule/');
-//   // const server = await movie.fetchEpisodeServers('movies/pushpa-2-the-rule/');
+//   const movieInfo = await movie.fetchEpisodeSources('movies/pushpa-2-the-rule/');
+//   const server = await movie.fetchEpisodeServers('movies/pushpa-2-the-rule/');
 //   // const recentTv = await movie.fetchPopular();
 //   // const genre = await movie.fetchByGenre('action');
 //   console.log(search);

@@ -174,9 +174,11 @@ class MultiMovies extends models_1.MovieParser {
         /**
          *
          * @param episodeId episode id
+         * @param media media id
          * @param server server type (default `StreamWish`) (optional)
          */
-        this.fetchEpisodeSources = async (episodeId, server = models_1.StreamingServers.StreamWish, fileId) => {
+        this.fetchEpisodeSources = async (episodeId, mediaId, //just placeholder for compatibility with tmdb
+        server = models_1.StreamingServers.StreamWish, fileId) => {
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
@@ -225,7 +227,7 @@ class MultiMovies extends models_1.MovieParser {
                     fileId = id !== null && id !== void 0 ? id : '';
                 }
                 // fileId to be used for download link
-                return await this.fetchEpisodeSources(serverUrl.href, server, fileId);
+                return await this.fetchEpisodeSources(serverUrl.href, mediaId, server, fileId);
             }
             catch (err) {
                 throw new Error(err.message);
@@ -409,8 +411,8 @@ class MultiMovies extends models_1.MovieParser {
 // (async () => {
 //   const movie = new MultiMovies();
 //   const search = await movie.search('jujutsu');
-//   // const movieInfo = await movie.fetchEpisodeSources('movies/pushpa-2-the-rule/');
-//   // const server = await movie.fetchEpisodeServers('movies/pushpa-2-the-rule/');
+//   const movieInfo = await movie.fetchEpisodeSources('movies/pushpa-2-the-rule/');
+//   const server = await movie.fetchEpisodeServers('movies/pushpa-2-the-rule/');
 //   // const recentTv = await movie.fetchPopular();
 //   // const genre = await movie.fetchByGenre('action');
 //   console.log(search);
