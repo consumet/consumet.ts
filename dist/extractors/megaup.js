@@ -89,7 +89,7 @@ class MegaUp extends models_1.VideoExtractor {
                     })),
                     subtitles: decrypted.tracks.map((t) => ({
                         kind: t.kind,
-                        src: t.file,
+                        url: t.file,
                     })),
                     download: decrypted.download,
                 };

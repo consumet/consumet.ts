@@ -1,6 +1,6 @@
-import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer, StreamingServers, SubOrSub, IAnimeEpisode } from '../../models';
-declare class Zoro extends AnimeParser {
-    readonly name = "Zoro";
+import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer, StreamingServers, SubOrSub } from '../../models';
+declare class AnimeKai extends AnimeParser {
+    readonly name = "AnimeKai";
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
@@ -13,23 +13,7 @@ declare class Zoro extends AnimeParser {
     /**
      * @param page number
      */
-    fetchTopAiring(page?: number): Promise<ISearch<IAnimeResult>>;
-    /**
-     * @param page number
-     */
-    fetchMostPopular(page?: number): Promise<ISearch<IAnimeResult>>;
-    /**
-     * @param page number
-     */
-    fetchMostFavorite(page?: number): Promise<ISearch<IAnimeResult>>;
-    /**
-     * @param page number
-     */
     fetchLatestCompleted(page?: number): Promise<ISearch<IAnimeResult>>;
-    /**
-     * @param page number
-     */
-    fetchRecentlyUpdated(page?: number): Promise<ISearch<IAnimeResult>>;
     /**
      * @param page number
      */
@@ -37,20 +21,7 @@ declare class Zoro extends AnimeParser {
     /**
      * @param page number
      */
-    fetchTopUpcoming(page?: number): Promise<ISearch<IAnimeResult>>;
-    /**
-     * @param studio Studio id, e.g. "toei-animation"
-     * @param page page number (optional) `default 1`
-     */
-    fetchStudio(studio: string, page?: number): Promise<ISearch<IAnimeResult>>;
-    /**
-     * @param page number
-     */
-    fetchSubbedAnime(page?: number): Promise<ISearch<IAnimeResult>>;
-    /**
-     * @param page number
-     */
-    fetchDubbedAnime(page?: number): Promise<ISearch<IAnimeResult>>;
+    fetchNewReleases(page?: number): Promise<ISearch<IAnimeResult>>;
     /**
      * @param page number
      */
@@ -85,12 +56,6 @@ declare class Zoro extends AnimeParser {
     fetchSpotlight(): Promise<ISearch<IAnimeResult>>;
     fetchSearchSuggestions(query: string): Promise<ISearch<IAnimeResult>>;
     /**
-     * Fetches the list of episodes that the user is currently watching.
-     * @param connectSid The session ID of the user. Note: This can be obtained from the browser cookies (needs to be signed in)
-     * @returns A promise that resolves to an array of anime episodes.
-     */
-    fetchContinueWatching(connectSid: string): Promise<IAnimeEpisode[]>;
-    /**
      * @param id Anime id
      */
     fetchAnimeInfo: (id: string) => Promise<IAnimeInfo>;
@@ -101,8 +66,6 @@ declare class Zoro extends AnimeParser {
      * @param subOrDub sub or dub (default `SubOrSub.SUB`) (optional)
      */
     fetchEpisodeSources: (episodeId: string, server?: StreamingServers, subOrDub?: SubOrSub) => Promise<ISource>;
-    private verifyLoginState;
-    private retrieveServerId;
     /**
      * @param url string
      */
@@ -112,9 +75,9 @@ declare class Zoro extends AnimeParser {
      */
     private scrapeCard;
     /**
-     * @deprecated
      * @param episodeId Episode id
+     * @param subOrDub sub or dub (default `sub`) (optional)
      */
-    fetchEpisodeServers: (episodeId: string) => Promise<IEpisodeServer[]>;
+    fetchEpisodeServers: (episodeId: string, subOrDub?: SubOrSub) => Promise<IEpisodeServer[]>;
 }
-export default Zoro;
+export default AnimeKai;

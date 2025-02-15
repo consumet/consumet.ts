@@ -4,11 +4,11 @@ const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
 class MultiMovies extends models_1.MovieParser {
-    constructor() {
+    constructor(customBaseURL) {
         super(...arguments);
         this.name = 'MultiMovies';
-        this.baseUrl = 'https://multimovies.today';
-        this.logo = 'https://multimovies.today/wp-content/uploads/2024/01/cropped-CompressJPEG.online_512x512_image.png';
+        this.baseUrl = 'https://multimovies.life';
+        this.logo = 'https://multimovies.life/wp-content/uploads/2024/01/cropped-CompressJPEG.online_512x512_image.png';
         this.classPath = 'MOVIES.MultiMovies';
         this.supportedTypes = new Set([models_1.TvType.MOVIE, models_1.TvType.TVSERIES]);
         /**
@@ -34,21 +34,34 @@ class MultiMovies extends models_1.MovieParser {
                 const $ = (0, cheerio_1.load)(data);
                 const navSelector = 'div.pagination';
                 searchResult.hasNextPage = $(navSelector).find('#nextpagination').length > 0;
-                $('.search-page .result-item article').each((i, el) => {
-                    var _a, _b, _c, _d, _e, _f;
+                const articles = $('.search-page .result-item article').toArray();
+                await Promise.all(articles.map(async (el) => {
+                    var _a, _b, _c, _d, _e;
+                    let seasonSet = new Set();
+                    const href = (_b = (_a = $(el)
+                        .find('.thumbnail a')
+                        .attr('href')) === null || _a === void 0 ? void 0 : _a.replace(/^https?:\/\/[^/]+\//, '').replace(/^\/|\/$/g, '')) !== null && _b !== void 0 ? _b : '';
+                    const episodesInfo = await this.fetchMediaInfo(href);
+                    const episodes = (episodesInfo === null || episodesInfo === void 0 ? void 0 : episodesInfo.episodes) || [];
+                    for (const episode of episodes) {
+                        if (episode.season != null) {
+                            seasonSet.add(episode.season);
+                        }
+                    }
                     searchResult.results.push({
-                        id: (_c = (_b = (_a = $(el).find('.thumbnail a').attr('href')) === null || _a === void 0 ? void 0 : _a.split(this.baseUrl)[1]) === null || _b === void 0 ? void 0 : _b.replace('/', '')) !== null && _c !== void 0 ? _c : '',
+                        id: href,
                         title: $(el).find('.details .title a').text().trim(),
-                        url: (_d = $(el).find('.thumbnail a').attr('href')) !== null && _d !== void 0 ? _d : '',
-                        image: (_e = $(el).find('.thumbnail img').attr('src')) !== null && _e !== void 0 ? _e : '',
+                        url: (_c = $(el).find('.thumbnail a').attr('href')) !== null && _c !== void 0 ? _c : '',
+                        image: (_d = $(el).find('.thumbnail img').attr('src')) !== null && _d !== void 0 ? _d : '',
                         rating: parseFloat($(el).find('.meta .rating').text().replace('IMDb ', '')) || 0,
                         releaseDate: $(el).find('.meta .year').text().trim(),
+                        season: seasonSet.size,
                         description: $(el).find('.contenido p').text().trim(),
-                        type: ((_f = $(el).find('.thumbnail a').attr('href')) === null || _f === void 0 ? void 0 : _f.includes('/movies/'))
+                        type: ((_e = $(el).find('.thumbnail a').attr('href')) === null || _e === void 0 ? void 0 : _e.includes('/movies/'))
                             ? models_1.TvType.MOVIE
                             : models_1.TvType.TVSERIES,
                     });
-                });
+                }));
                 return searchResult;
             }
             catch (err) {
@@ -60,12 +73,12 @@ class MultiMovies extends models_1.MovieParser {
          * @param mediaId media link or id
          */
         this.fetchMediaInfo = async (mediaId) => {
-            var _a, _b, _c, _d;
+            var _a, _b, _c, _d, _e, _f, _g, _h, _j;
             if (!mediaId.startsWith(this.baseUrl)) {
                 mediaId = `${this.baseUrl}/${mediaId}`;
             }
             const movieInfo = {
-                id: mediaId.split(`${this.baseUrl}/`)[1],
+                id: mediaId.replace(/^https?:\/\/[^/]+\//, '').replace(/^\/|\/$/g, ''),
                 title: '',
                 url: mediaId,
             };
@@ -76,9 +89,11 @@ class MultiMovies extends models_1.MovieParser {
                 $('div#single_relacionados  article').each((i, el) => {
                     var _a, _b, _c, _d;
                     recommendationsArray.push({
-                        id: (_b = (_a = $(el).find('a').attr('href')) === null || _a === void 0 ? void 0 : _a.split(this.baseUrl)[1]) === null || _b === void 0 ? void 0 : _b.replace('/', ''),
+                        id: (_a = $(el)
+                            .find('a')
+                            .attr('href')) === null || _a === void 0 ? void 0 : _a.replace(/^https?:\/\/[^/]+\//, '').replace(/^\/|\/$/g, ''),
                         title: $(el).find('a img').attr('alt'),
-                        image: $(el).find('a img').attr('data-src'),
+                        image: (_b = $(el).find('a img').attr('data-src')) !== null && _b !== void 0 ? _b : $(el).find('a img').attr('src'),
                         type: ((_c = $(el).find('.thumbnail a').attr('href')) === null || _c === void 0 ? void 0 : _c.includes('/movies/'))
                             ? models_1.TvType.TVSERIES
                             : (_d = models_1.TvType.MOVIE) !== null && _d !== void 0 ? _d : null,
@@ -86,13 +101,14 @@ class MultiMovies extends models_1.MovieParser {
                 });
                 movieInfo.cover = (_b = (_a = $('div#info .galeria').first().find('.g-item a').attr('href')) === null || _a === void 0 ? void 0 : _a.trim()) !== null && _b !== void 0 ? _b : '';
                 movieInfo.title = $('.sheader > .data > h1').text();
-                movieInfo.image = $('.sheader > .poster > img').attr('data-src');
+                movieInfo.image =
+                    (_c = $('.sheader > .poster > img').attr('src')) !== null && _c !== void 0 ? _c : $('.sheader > .poster > img').attr('data-src');
                 movieInfo.description = $('div#info div[itemprop="description"] p').text();
                 movieInfo.type = movieInfo.id.split('/')[0] === 'tvshows' ? models_1.TvType.TVSERIES : models_1.TvType.MOVIE;
                 movieInfo.releaseDate = $('.sheader > .data > .extra > span.date').text().trim();
                 movieInfo.trailer = {
-                    id: (_d = (_c = $('div#trailer .embed  iframe').attr('data-litespeed-src')) === null || _c === void 0 ? void 0 : _c.split('embed/')[1]) === null || _d === void 0 ? void 0 : _d.split('?')[0],
-                    url: $('div#trailer .embed iframe').attr('data-litespeed-src'),
+                    id: (_f = (_e = (_d = $('div#trailer .embed  iframe').attr('data-litespeed-src')) === null || _d === void 0 ? void 0 : _d.split('embed/')[1]) === null || _e === void 0 ? void 0 : _e.split('?')[0]) !== null && _f !== void 0 ? _f : (_h = (_g = $('div#trailer .embed  iframe').attr('src')) === null || _g === void 0 ? void 0 : _g.split('embed/')[1]) === null || _h === void 0 ? void 0 : _h.split('?')[0],
+                    url: (_j = $('div#trailer .embed iframe').attr('data-litespeed-src')) !== null && _j !== void 0 ? _j : $('div#trailer .embed iframe').attr('src'),
                 };
                 movieInfo.genres = $('.sgeneros a')
                     .map((i, el) => $(el).text())
@@ -100,8 +116,9 @@ class MultiMovies extends models_1.MovieParser {
                     .map(v => v.trim());
                 movieInfo.characters = [];
                 $('div#cast .persons .person').each((i, el) => {
+                    var _a;
                     const url = $(el).find('.img > a').attr('href');
-                    const image = $(el).find('.img > a > img').attr('data-src');
+                    const image = (_a = $(el).find('.img > a > img').attr('data-src')) !== null && _a !== void 0 ? _a : $(el).find('.img > a > img').attr('src');
                     const name = $(el).find('.data > .name > a').text();
                     const character = $(el).find('.data > .caracter').text();
                     movieInfo.characters.push({
@@ -122,17 +139,19 @@ class MultiMovies extends models_1.MovieParser {
                         $(el)
                             .find('.episodios li')
                             .each((j, ep) => {
-                            var _a, _b, _c, _d, _e, _f;
+                            var _a, _b, _c, _d, _e, _f, _g;
                             const episode = {
-                                id: (_a = $(ep).find('.episodiotitle a').attr('href')) === null || _a === void 0 ? void 0 : _a.split(`${this.baseUrl}/`)[1],
+                                id: (_a = $(ep)
+                                    .find('.episodiotitle a')
+                                    .attr('href')) === null || _a === void 0 ? void 0 : _a.replace(/^https?:\/\/[^/]+\//, '').replace(/^\/|\/$/g, ''),
                                 season: seasonNumber,
                                 number: parseInt($(ep).find('.numerando').text().trim().split('-')[1]),
                                 title: $(ep).find('.episodiotitle a').text().trim(),
                                 url: (_c = (_b = $(ep).find('.episodiotitle a').attr('href')) === null || _b === void 0 ? void 0 : _b.trim()) !== null && _c !== void 0 ? _c : '',
-                                releaseDate: $(ep).find('.episodiotitle .date').text().trim(),
-                                image: (_e = (_d = $(ep).find('.imagen img').attr('data-src')) === null || _d === void 0 ? void 0 : _d.trim()) !== null && _e !== void 0 ? _e : '',
+                                releaseDate: String(new Date($(ep).find('.episodiotitle .date').text().trim()).getFullYear()),
+                                image: (_e = (_d = $(ep).find('.imagen img').attr('data-src')) === null || _d === void 0 ? void 0 : _d.trim()) !== null && _e !== void 0 ? _e : (_f = $(ep).find('.imagen img').attr('src')) === null || _f === void 0 ? void 0 : _f.trim(),
                             };
-                            (_f = movieInfo.episodes) === null || _f === void 0 ? void 0 : _f.push(episode);
+                            (_g = movieInfo.episodes) === null || _g === void 0 ? void 0 : _g.push(episode);
                         });
                     });
                 }
@@ -155,9 +174,11 @@ class MultiMovies extends models_1.MovieParser {
         /**
          *
          * @param episodeId episode id
+         * @param media media id
          * @param server server type (default `StreamWish`) (optional)
          */
-        this.fetchEpisodeSources = async (episodeId, server = models_1.StreamingServers.StreamWish, fileId) => {
+        this.fetchEpisodeSources = async (episodeId, mediaId, //just placeholder for compatibility with tmdb
+        server = models_1.StreamingServers.StreamWish, fileId) => {
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
@@ -206,7 +227,7 @@ class MultiMovies extends models_1.MovieParser {
                     fileId = id !== null && id !== void 0 ? id : '';
                 }
                 // fileId to be used for download link
-                return await this.fetchEpisodeSources(serverUrl.href, server, fileId);
+                return await this.fetchEpisodeSources(serverUrl.href, mediaId, server, fileId);
             }
             catch (err) {
                 throw new Error(err.message);
@@ -296,6 +317,17 @@ class MultiMovies extends models_1.MovieParser {
                 throw new Error(err.message);
             }
         };
+        if (customBaseURL) {
+            if (customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')) {
+                this.baseUrl = customBaseURL;
+            }
+            else {
+                this.baseUrl = `http://${customBaseURL}`;
+            }
+        }
+        else {
+            this.baseUrl = this.baseUrl;
+        }
     }
     async getServer(url) {
         var _a, _b, _c, _d, _e;
@@ -378,12 +410,12 @@ class MultiMovies extends models_1.MovieParser {
 }
 // (async () => {
 //   const movie = new MultiMovies();
-//   // const search = await movie.fetchMediaInfo('tvshows/jujutsu-kaisen/');
+//   const search = await movie.search('jujutsu');
 //   const movieInfo = await movie.fetchEpisodeSources('movies/pushpa-2-the-rule/');
 //   const server = await movie.fetchEpisodeServers('movies/pushpa-2-the-rule/');
 //   // const recentTv = await movie.fetchPopular();
 //   // const genre = await movie.fetchByGenre('action');
-//   console.log(server,movieInfo);
+//   console.log(search);
 // })();
 exports.default = MultiMovies;
 //# sourceMappingURL=multimovies.js.map

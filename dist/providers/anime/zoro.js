@@ -112,18 +112,21 @@ class Zoro extends models_1.AnimeParser {
                 info.totalEpisodes = $$('div.detail-infor-content > div > a').length;
                 info.episodes = [];
                 $$('div.detail-infor-content > div > a').each((i, el) => {
-                    var _a, _b, _c, _d;
-                    const episodeId = (_c = (_b = (_a = $$(el)
-                        .attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2]) === null || _b === void 0 ? void 0 : _b.replace('?ep=', '$episode$')) === null || _c === void 0 ? void 0 : _c.concat(`$${info.subOrDub}`);
+                    var _a, _b, _c;
+                    const episodeId = (_b = (_a = $$(el).attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2]) === null || _b === void 0 ? void 0 : _b.replace('?ep=', '$episode$');
                     const number = parseInt($$(el).attr('data-number'));
                     const title = $$(el).attr('title');
                     const url = this.baseUrl + $$(el).attr('href');
                     const isFiller = $$(el).hasClass('ssl-item-filler');
-                    (_d = info.episodes) === null || _d === void 0 ? void 0 : _d.push({
+                    const isSubbed = number <= (parseInt($('div.film-stats div.tick div.tick-item.tick-sub').text().trim()) || 0);
+                    const isDubbed = number <= (parseInt($('div.film-stats div.tick div.tick-item.tick-dub').text().trim()) || 0);
+                    (_c = info.episodes) === null || _c === void 0 ? void 0 : _c.push({
                         id: episodeId,
                         number: number,
                         title: title,
                         isFiller: isFiller,
+                        isSubbed: isSubbed,
+                        isDubbed: isDubbed,
                         url: url,
                     });
                 });
@@ -136,9 +139,10 @@ class Zoro extends models_1.AnimeParser {
         /**
          *
          * @param episodeId Episode id
+         * @param server server type (default `VidCloud`) (optional)
+         * @param subOrDub sub or dub (default `SubOrSub.SUB`) (optional)
          */
-        this.fetchEpisodeSources = async (episodeId, server = models_1.StreamingServers.VidCloud) => {
-            var _a;
+        this.fetchEpisodeSources = async (episodeId, server = models_1.StreamingServers.VidCloud, subOrDub = models_1.SubOrSub.SUB) => {
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
@@ -171,9 +175,10 @@ class Zoro extends models_1.AnimeParser {
             }
             if (!episodeId.includes('$episode$'))
                 throw new Error('Invalid episode id');
+            // keeping this for future use
             // Fallback to using sub if no info found in case of compatibility
             // TODO: add both options later
-            const subOrDub = ((_a = episodeId.split('$')) === null || _a === void 0 ? void 0 : _a.pop()) === 'dub' ? 'dub' : 'sub';
+            // subOrDub = episodeId.split('$')?.pop() === 'dub' ? 'dub' : 'sub';
             episodeId = `${this.baseUrl}/watch/${episodeId
                 .replace('$episode$', '?ep=')
                 .replace(/\$auto|\$sub|\$dub/gi, '')}`;
@@ -217,7 +222,7 @@ class Zoro extends models_1.AnimeParser {
                     throw new Error("Couldn't find server. Try another server");
                 }
                 const { data: { link }, } = await this.client.get(`${this.baseUrl}/ajax/v2/episode/sources?id=${serverId}`);
-                return await this.fetchEpisodeSources(link, server);
+                return await this.fetchEpisodeSources(link, server, models_1.SubOrSub.SUB);
             }
             catch (err) {
                 throw err;
@@ -672,10 +677,9 @@ class Zoro extends models_1.AnimeParser {
 // (async () => {
 //   const zoro = new Zoro();
 //   const anime = await zoro.search('Dandadan');
-//   const info = await zoro.fetchAnimeInfo(anime.results[0].id);
-//   console.log(info.episodes)
-//   const sources = await zoro.fetchEpisodeSources(info.episodes![0].id);
-//   console.log(sources);
+//   const info = await zoro.fetchAnimeInfo('solo-leveling-season-2-arise-from-the-shadow-19413');
+//   console.log(info.episodes);
+//   const sources = await zoro.fetchEpisodeSources("solo-leveling-season-2-arise-from-the-shadow-19413$episode$131394$dub", StreamingServers.VidCloud,SubOrSub.DUB);
 // })();
 exports.default = Zoro;
 //# sourceMappingURL=zoro.js.map

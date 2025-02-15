@@ -14,6 +14,7 @@ import {
   SmashyStream,
   StreamHub,
   VidMoly,
+  MegaUp,
 } from '../extractors';
 import {
   USER_AGENT,
@@ -90,4 +91,5 @@ export {
   compareTwoStrings,
   VidMoly,
   getKKey,
+  MegaUp,
 };

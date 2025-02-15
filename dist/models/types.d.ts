@@ -120,6 +120,8 @@ export interface IAnimeEpisode {
     title?: string;
     description?: string;
     isFiller?: boolean;
+    isSubbed?: boolean;
+    isDubbed?: boolean;
     url?: string;
     image?: string;
     imageHash?: string;
@@ -172,7 +174,8 @@ export declare enum StreamingServers {
     StreamWish = "streamwish",
     VidHide = "vidhide",
     VidMoly = "vidmoly",
-    Voe = "voe"
+    Voe = "voe",
+    MegaUp = "megaup"
 }
 export declare enum MediaStatus {
     ONGOING = "Ongoing",

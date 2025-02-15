@@ -39,6 +39,7 @@ var StreamingServers;
     StreamingServers["VidHide"] = "vidhide";
     StreamingServers["VidMoly"] = "vidmoly";
     StreamingServers["Voe"] = "voe";
+    StreamingServers["MegaUp"] = "megaup";
 })(StreamingServers || (exports.StreamingServers = StreamingServers = {}));
 var MediaStatus;
 (function (MediaStatus) {

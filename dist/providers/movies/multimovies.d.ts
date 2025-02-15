@@ -5,6 +5,7 @@ declare class MultiMovies extends MovieParser {
     protected logo: string;
     protected classPath: string;
     supportedTypes: Set<TvType>;
+    constructor(customBaseURL?: string);
     /**
      *
      * @param query search query string
@@ -19,9 +20,10 @@ declare class MultiMovies extends MovieParser {
     /**
      *
      * @param episodeId episode id
+     * @param media media id
      * @param server server type (default `StreamWish`) (optional)
      */
-    fetchEpisodeSources: (episodeId: string, server?: StreamingServers, fileId?: string) => Promise<ISource>;
+    fetchEpisodeSources: (episodeId: string, mediaId?: string, server?: StreamingServers, fileId?: string) => Promise<ISource>;
     /**
      *
      * @param episodeId takes episode link or movie id
