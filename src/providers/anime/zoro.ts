@@ -491,9 +491,7 @@ class Zoro extends AnimeParser {
       info.totalEpisodes = $$('div.detail-infor-content > div > a').length;
       info.episodes = [];
       $$('div.detail-infor-content > div > a').each((i, el) => {
-        const episodeId = $$(el).attr('href')?.split('/')[2]!;
-        // ?.replace('?ep=', '$episode$')
-        // ?.concat(`$${info.subOrDub}`)!
+        const episodeId = $$(el).attr('href')?.split('/')[2]?.replace('?ep=', '$episode$')!;
         const number = parseInt($$(el).attr('data-number')!);
         const title = $$(el).attr('title');
         const url = this.baseUrl + $$(el).attr('href');
@@ -561,14 +559,13 @@ class Zoro extends AnimeParser {
           };
       }
     }
-    // keeping this for future use
-    // if (!episodeId.includes('$episode$')) throw new Error('Invalid episode id');
+    if (!episodeId.includes('$episode$')) throw new Error('Invalid episode id');
 
+    // keeping this for future use
     // Fallback to using sub if no info found in case of compatibility
 
     // TODO: add both options later
     // subOrDub = episodeId.split('$')?.pop() === 'dub' ? 'dub' : 'sub';
-    if (!episodeId.includes('?ep=')) throw new Error('Invalid episode id');
 
     episodeId = `${this.baseUrl}/watch/${episodeId
       .replace('$episode$', '?ep=')

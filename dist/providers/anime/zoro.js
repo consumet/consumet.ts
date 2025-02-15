@@ -112,17 +112,15 @@ class Zoro extends models_1.AnimeParser {
                 info.totalEpisodes = $$('div.detail-infor-content > div > a').length;
                 info.episodes = [];
                 $$('div.detail-infor-content > div > a').each((i, el) => {
-                    var _a, _b;
-                    const episodeId = (_a = $$(el).attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2];
-                    // ?.replace('?ep=', '$episode$')
-                    // ?.concat(`$${info.subOrDub}`)!
+                    var _a, _b, _c;
+                    const episodeId = (_b = (_a = $$(el).attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2]) === null || _b === void 0 ? void 0 : _b.replace('?ep=', '$episode$');
                     const number = parseInt($$(el).attr('data-number'));
                     const title = $$(el).attr('title');
                     const url = this.baseUrl + $$(el).attr('href');
                     const isFiller = $$(el).hasClass('ssl-item-filler');
                     const isSubbed = number <= (parseInt($('div.film-stats div.tick div.tick-item.tick-sub').text().trim()) || 0);
                     const isDubbed = number <= (parseInt($('div.film-stats div.tick div.tick-item.tick-dub').text().trim()) || 0);
-                    (_b = info.episodes) === null || _b === void 0 ? void 0 : _b.push({
+                    (_c = info.episodes) === null || _c === void 0 ? void 0 : _c.push({
                         id: episodeId,
                         number: number,
                         title: title,
@@ -175,13 +173,12 @@ class Zoro extends models_1.AnimeParser {
                         };
                 }
             }
+            if (!episodeId.includes('$episode$'))
+                throw new Error('Invalid episode id');
             // keeping this for future use
-            // if (!episodeId.includes('$episode$')) throw new Error('Invalid episode id');
             // Fallback to using sub if no info found in case of compatibility
             // TODO: add both options later
             // subOrDub = episodeId.split('$')?.pop() === 'dub' ? 'dub' : 'sub';
-            if (!episodeId.includes('?ep='))
-                throw new Error('Invalid episode id');
             episodeId = `${this.baseUrl}/watch/${episodeId
                 .replace('$episode$', '?ep=')
                 .replace(/\$auto|\$sub|\$dub/gi, '')}`;

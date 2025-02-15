@@ -132,10 +132,10 @@ test('returns a filled object of episode sources', async () => {
 });
 test('returns a filled object of episode sources of multiple episodes', async () => {
   const data1 = await zoro.fetchEpisodeSources(
-    'rezero-starting-life-in-another-world-season-3-19301?ep=128356$both'
+    'rezero-starting-life-in-another-world-season-3-19301$episode$128356$both'
   );
   const data2 = await zoro.fetchEpisodeSources(
-    'rezero-starting-life-in-another-world-season-3-19301?ep=128536$both'
+    'rezero-starting-life-in-another-world-season-3-19301$episode$128536$both'
   );
   expect(data1.sources).not.toEqual([]);
   expect(data2.sources).not.toEqual([]);
