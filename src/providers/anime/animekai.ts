@@ -322,12 +322,12 @@ class AnimeKai extends AnimeParser {
             ) || 0,
         });
       });
-      info.relatedAnime = [];
+      info.relations = [];
       $('section#related-anime .tab-body .aitem-col').each((i, ele) => {
         const card = $(ele);
         const aTag = card.find('a.aitem');
         const id = aTag.attr('href')?.replace('/watch/', '');
-        info.relatedAnime.push({
+        info.relations?.push({
           id: id!,
           title: aTag.find('.title').text().trim(),
           url: `${this.baseUrl}${aTag.attr('href')}`,
@@ -336,6 +336,7 @@ class AnimeKai extends AnimeParser {
           type: card.find('.info').children().eq(-2).text().trim() as MediaFormat,
           sub: parseInt(card.find('.info span.sub')?.text()) || 0,
           dub: parseInt(card.find('.info span.dub')?.text()) || 0,
+          relationType: card.find('.info').children().last().text().trim(),
           episodes:
             parseInt(
               card.find('.info').children().eq(-3).text().trim() ?? card.find('.info span.sub')?.text()
@@ -398,9 +399,7 @@ class AnimeKai extends AnimeParser {
       info.episodes = [];
 
       $$('div.eplist > ul > li > a').each((i, el) => {
-        const episodeId = `${info.id}${$$(el).attr('href')}ep=${$$(el).attr('num')}?token=${$$(el).attr(
-          'token'
-        )}`; //appending token to episode id, as it is required to fetch servers keeping the structure same as other providers
+        const episodeId = `${info.id}$ep=${$$(el).attr('num')}$token=${$$(el).attr('token')}`; //appending token to episode id, as it is required to fetch servers keeping the structure same as other providers
         const number = parseInt($$(el).attr('num')!);
         const title = $$(el).children('span').text().trim();
         const url = `${this.baseUrl}/watch/${info.id}${$$(el).attr('href')}ep=${$$(el).attr('num')}`;
@@ -552,8 +551,8 @@ class AnimeKai extends AnimeParser {
     subOrDub: SubOrSub = SubOrSub.SUB
   ): Promise<IEpisodeServer[]> => {
     if (!episodeId.startsWith(this.baseUrl + '/ajax'))
-      episodeId = `${this.baseUrl}/ajax/links/list?token=${episodeId.split('?token=')[1]}&_=${GenerateToken(
-        episodeId.split('?token=')[1]
+      episodeId = `${this.baseUrl}/ajax/links/list?token=${episodeId.split('$token=')[1]}&_=${GenerateToken(
+        episodeId.split('$token=')[1]
       )}`;
     try {
       const { data } = await this.client.get(episodeId);
@@ -584,8 +583,8 @@ class AnimeKai extends AnimeParser {
 //   const anime = await animekai.search('dandadan');
 //   const info = await animekai.fetchAnimeInfo('solo-leveling-season-2-arise-from-the-shadow-x7rq');
 //     console.log(info.episodes);
-//   const sources = await animekai.fetchSearchSuggestions("Jujutsu");
-//   // console.log(sources);
+//   const sources = await animekai.fetchEpisodeSources(info?.episodes![0].id!);
+//   console.log(sources);
 // })();
 
 export default AnimeKai;

@@ -37,7 +37,7 @@ class MultiMovies extends models_1.MovieParser {
                 const articles = $('.search-page .result-item article').toArray();
                 await Promise.all(articles.map(async (el) => {
                     var _a, _b, _c, _d, _e;
-                    let seasonSet = new Set();
+                    const seasonSet = new Set();
                     const href = (_b = (_a = $(el)
                         .find('.thumbnail a')
                         .attr('href')) === null || _a === void 0 ? void 0 : _a.replace(/^https?:\/\/[^/]+\//, '').replace(/^\/|\/$/g, '')) !== null && _b !== void 0 ? _b : '';

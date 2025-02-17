@@ -24,5 +24,6 @@ declare class AnimePahe extends AnimeParser {
      * @attention AnimePahe doesn't support this method
      */
     fetchEpisodeServers: (episodeLink: string) => Promise<IEpisodeServer[]>;
+    private Headers;
 }
 export default AnimePahe;
