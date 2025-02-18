@@ -55,6 +55,7 @@ class AnimePahe extends models_1.AnimeParser {
                 animeInfo.genres = $('div.anime-genre ul li')
                     .map((i, el) => $(el).find('a').attr('title'))
                     .get();
+                animeInfo.hasSub = true;
                 switch ($('div.anime-info p:icontains("Status:") a').text().trim()) {
                     case 'Currently Airing':
                         animeInfo.status = models_1.MediaStatus.ONGOING;

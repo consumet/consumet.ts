@@ -841,7 +841,7 @@ class Anilist extends AnimeParser {
 
         if (possibleSource) {
           try {
-            possibleAnime = await this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop()!);
+            possibleAnime = await this.provider.fetchAnimeInfo(new URL(possibleSource.url).pathname.slice(1));
           } catch (err) {
             console.error(err);
             possibleAnime = await this.findAnimeRaw(slug);

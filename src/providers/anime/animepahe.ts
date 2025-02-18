@@ -13,7 +13,6 @@ import {
 } from '../../models';
 import { Kwik } from '../../extractors';
 import { USER_AGENT } from '../../utils';
-import axios from 'axios';
 
 class AnimePahe extends AnimeParser {
   override readonly name = 'AnimePahe';
@@ -70,6 +69,7 @@ class AnimePahe extends AnimeParser {
       animeInfo.genres = $('div.anime-genre ul li')
         .map((i, el) => $(el).find('a').attr('title'))
         .get();
+      animeInfo.hasSub = true;
 
       switch ($('div.anime-info p:icontains("Status:") a').text().trim()) {
         case 'Currently Airing':
