@@ -12,10 +12,11 @@ import {
   MediaFormat,
 } from '../../models';
 import { Kwik } from '../../extractors';
+import { USER_AGENT } from '../../utils';
 
 class AnimePahe extends AnimeParser {
   override readonly name = 'AnimePahe';
-  protected override baseUrl = 'https://animepahe.com';
+  protected override baseUrl = 'https://animepahe.ru';
   protected override logo = 'https://animepahe.com/pikacon.ico';
   protected override classPath = 'ANIME.AnimePahe';
 
@@ -26,11 +27,13 @@ class AnimePahe extends AnimeParser {
    */
   override search = async (query: string): Promise<ISearch<IAnimeResult>> => {
     try {
-      const { data } = await this.client.get(`${this.baseUrl}/api?m=search&q=${encodeURIComponent(query)}`);
+      const { data } = await this.client.get(`${this.baseUrl}/api?m=search&q=${encodeURIComponent(query)}`, {
+        headers: this.Headers(false),
+      });
 
       const res = {
         results: data.data.map((item: any) => ({
-          id: `${item.id}/${item.session}`,
+          id: item.session,
           title: item.title,
           image: item.poster,
           rating: item.score,
@@ -56,20 +59,19 @@ class AnimePahe extends AnimeParser {
     };
 
     try {
-      const res = await this.client.get(
-        `${this.baseUrl}/anime/${id.split('/')[1]}?anime_id=${id.split('/')[0]}`
-      );
+      const res = await this.client.get(`${this.baseUrl}/anime/${id}`, { headers: this.Headers(id) });
       const $ = load(res.data);
 
       animeInfo.title = $('div.title-wrapper > h1 > span').first().text();
       animeInfo.image = $('div.anime-poster a').attr('href');
       animeInfo.cover = `https:${$('div.anime-cover').attr('data-src')}`;
-      animeInfo.description = $('div.anime-summary').text();
+      animeInfo.description = $('div.anime-summary').text().trim();
       animeInfo.genres = $('div.anime-genre ul li')
         .map((i, el) => $(el).find('a').attr('title'))
         .get();
+      animeInfo.hasSub = true;
 
-      switch ($('div.col-sm-4.anime-info p:icontains("Status:") a').text().trim()) {
+      switch ($('div.anime-info p:icontains("Status:") a').text().trim()) {
         case 'Currently Airing':
           animeInfo.status = MediaStatus.ONGOING;
           break;
@@ -79,36 +81,57 @@ class AnimePahe extends AnimeParser {
         default:
           animeInfo.status = MediaStatus.UNKNOWN;
       }
-      animeInfo.type = $('div.col-sm-4.anime-info > p:nth-child(2) > a')
+      animeInfo.type = $('div.anime-info > p:contains("Type:") > a')
         .text()
         .trim()
         .toUpperCase() as MediaFormat;
-      animeInfo.releaseDate = $('div.col-sm-4.anime-info > p:nth-child(5)')
+      animeInfo.releaseDate = $('div.anime-info > p:contains("Aired:")')
         .text()
         .split('to')[0]
         .replace('Aired:', '')
         .trim();
-      animeInfo.aired = $('div.col-sm-4.anime-info > p:nth-child(5)')
-        .text()
-        .replace('Aired:', '')
-        .trim()
-        .replace('\n', ' ');
-      animeInfo.studios = $('div.col-sm-4.anime-info > p:nth-child(7)')
+      animeInfo.studios = $('div.anime-info > p:contains("Studio:")')
         .text()
         .replace('Studio:', '')
         .trim()
         .split('\n');
       animeInfo.totalEpisodes = parseInt(
-        $('div.col-sm-4.anime-info > p:nth-child(3)').text().replace('Episodes:', '')
+        $('div.anime-info > p:contains("Episodes:")').text().replace('Episodes:', '')
       );
+      animeInfo.recommendations = [];
+      $('div.anime-recommendation .col-sm-6').each((i, el) => {
+        animeInfo.recommendations?.push({
+          id: $(el).find('.col-2 > a').attr('href')?.split('/')[2]!,
+          title: $(el).find('.col-2 > a').attr('title')!,
+          image:
+            $(el).find('.col-2 > a > img').attr('src') || $(el).find('.col-2 > a > img').attr('data-src'),
+          url: `${this.baseUrl}/anime/${$(el).find('.col-2 > a').attr('href')?.split('/')[2]}`,
+          releaseDate: $(el).find('div.col-9 > a').text().trim(),
+          status: $(el).find('div.col-9 > strong').text().trim() as MediaStatus,
+        });
+      });
+
+      animeInfo.relations = [];
+      $('div.anime-relation .col-sm-6').each((i, el) => {
+        animeInfo.relations?.push({
+          id: $(el).find('.col-2 > a').attr('href')?.split('/')[2]!,
+          title: $(el).find('.col-2 > a').attr('title')!,
+          image:
+            $(el).find('.col-2 > a > img').attr('src') || $(el).find('.col-2 > a > img').attr('data-src'),
+          url: `${this.baseUrl}/anime/${$(el).find('.col-2 > a').attr('href')?.split('/')[2]}`,
+          releaseDate: $(el).find('div.col-9 > a').text().trim(),
+          status: $(el).find('div.col-9 > strong').text().trim() as MediaStatus,
+          relationType: $(el).find('h4 > span').text().trim(),
+        });
+      });
 
       animeInfo.episodes = [];
       if (episodePage < 0) {
         const {
           data: { last_page, data },
-        } = await this.client.get(
-          `${this.baseUrl}/api?m=release&id=${id.split('/')[1]}&sort=episode_asc&page=1`
-        );
+        } = await this.client.get(`${this.baseUrl}/api?m=release&id=${id}&sort=episode_asc&page=1`, {
+          headers: this.Headers(id),
+        });
 
         animeInfo.episodePages = last_page;
 
@@ -116,21 +139,21 @@ class AnimePahe extends AnimeParser {
           ...data.map(
             (item: any) =>
               ({
-                id: `${id.split('/')[1]}/${item.session}`,
+                id: `${id}/${item.session}`,
                 number: item.episode,
                 title: item.title,
                 image: item.snapshot,
                 duration: item.duration,
-                url: `${this.baseUrl}/play/${id.split('/')[1]}/${item.session}`,
+                url: `${this.baseUrl}/play/${id}/${item.session}`,
               } as IAnimeEpisode)
           )
         );
 
         for (let i = 1; i < last_page; i++) {
-          animeInfo.episodes.push(...(await this.fetchEpisodes(id.split('/')[1], i + 1)));
+          animeInfo.episodes.push(...(await this.fetchEpisodes(id, i + 1)));
         }
       } else {
-        animeInfo.episodes.push(...(await this.fetchEpisodes(id.split('/')[1], episodePage)));
+        animeInfo.episodes.push(...(await this.fetchEpisodes(id, episodePage)));
       }
 
       return animeInfo;
@@ -146,9 +169,7 @@ class AnimePahe extends AnimeParser {
   override fetchEpisodeSources = async (episodeId: string): Promise<ISource> => {
     try {
       const { data } = await this.client.get(`${this.baseUrl}/play/${episodeId}`, {
-        headers: {
-          Referer: `${this.baseUrl}`,
-        },
+        headers: this.Headers(episodeId.split('/')[0]),
       });
 
       const $ = load(data);
@@ -165,7 +186,6 @@ class AnimePahe extends AnimeParser {
         },
         sources: [],
       };
-
       for (const link of links) {
         const res = await new Kwik(this.proxyConfig).extract(new URL(link.url));
         res[0].quality = link.quality;
@@ -181,7 +201,8 @@ class AnimePahe extends AnimeParser {
 
   private fetchEpisodes = async (session: string, page: number): Promise<IAnimeEpisode[]> => {
     const res = await this.client.get(
-      `${this.baseUrl}/api?m=release&id=${session}&sort=episode_asc&page=${page}`
+      `${this.baseUrl}/api?m=release&id=${session}&sort=episode_asc&page=${page}`,
+      { headers: this.Headers(session) }
     );
 
     const epData = res.data.data;
@@ -207,15 +228,35 @@ class AnimePahe extends AnimeParser {
   override fetchEpisodeServers = (episodeLink: string): Promise<IEpisodeServer[]> => {
     throw new Error('Method not implemented.');
   };
+
+  private Headers(sessionId: string | false) {
+    return {
+      authority: 'animepahe.ru',
+      accept: 'application/json, text/javascript, */*; q=0.01',
+      'accept-language': 'en-US,en;q=0.9',
+      cookie: '__ddg2_=;',
+      dnt: '1',
+      'sec-ch-ua': '"Not A(Brand";v="99", "Microsoft Edge";v="121", "Chromium";v="121"',
+      'sec-ch-ua-mobile': '?0',
+      'sec-ch-ua-platform': '"Windows"',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'same-origin',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: sessionId ? `${this.baseUrl}/anime/${sessionId}` : `${this.baseUrl}`,
+      'user-agent': USER_AGENT,
+    };
+  }
 }
 
 export default AnimePahe;
 
 // (async () => {
 //   const animepahe = new AnimePahe();
-//
+
 //   const anime = await animepahe.search('Classroom of the elite');
 //   const info = await animepahe.fetchAnimeInfo(anime.results[0].id);
+//   // console.log(info);
 //   const sources = await animepahe.fetchEpisodeSources(info.episodes![0].id);
 //   console.log(sources);
 // })();

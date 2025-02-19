@@ -47,22 +47,23 @@ class AnimeKai extends models_1.AnimeParser {
                         episodes: parseInt((_h = aTag.find('.info').children().eq(-2).text().trim()) !== null && _h !== void 0 ? _h : (_j = aTag.find('.info span.sub')) === null || _j === void 0 ? void 0 : _j.text()) || 0,
                     });
                 });
-                info.relatedAnime = [];
+                info.relations = [];
                 $('section#related-anime .tab-body .aitem-col').each((i, ele) => {
-                    var _a, _b, _c, _d, _e, _f, _g, _h;
+                    var _a, _b, _c, _d, _e, _f, _g, _h, _j;
                     const card = $(ele);
                     const aTag = card.find('a.aitem');
                     const id = (_a = aTag.attr('href')) === null || _a === void 0 ? void 0 : _a.replace('/watch/', '');
-                    info.relatedAnime.push({
+                    (_b = info.relations) === null || _b === void 0 ? void 0 : _b.push({
                         id: id,
                         title: aTag.find('.title').text().trim(),
                         url: `${this.baseUrl}${aTag.attr('href')}`,
-                        image: (_c = (_b = aTag.attr('style')) === null || _b === void 0 ? void 0 : _b.match(/background-image:\s*url\('(.+?)'\)/)) === null || _c === void 0 ? void 0 : _c[1],
-                        japaneseTitle: (_d = aTag.find('.title').attr('data-jp')) === null || _d === void 0 ? void 0 : _d.trim(),
+                        image: (_d = (_c = aTag.attr('style')) === null || _c === void 0 ? void 0 : _c.match(/background-image:\s*url\('(.+?)'\)/)) === null || _d === void 0 ? void 0 : _d[1],
+                        japaneseTitle: (_e = aTag.find('.title').attr('data-jp')) === null || _e === void 0 ? void 0 : _e.trim(),
                         type: card.find('.info').children().eq(-2).text().trim(),
-                        sub: parseInt((_e = card.find('.info span.sub')) === null || _e === void 0 ? void 0 : _e.text()) || 0,
-                        dub: parseInt((_f = card.find('.info span.dub')) === null || _f === void 0 ? void 0 : _f.text()) || 0,
-                        episodes: parseInt((_g = card.find('.info').children().eq(-3).text().trim()) !== null && _g !== void 0 ? _g : (_h = card.find('.info span.sub')) === null || _h === void 0 ? void 0 : _h.text()) || 0,
+                        sub: parseInt((_f = card.find('.info span.sub')) === null || _f === void 0 ? void 0 : _f.text()) || 0,
+                        dub: parseInt((_g = card.find('.info span.dub')) === null || _g === void 0 ? void 0 : _g.text()) || 0,
+                        relationType: card.find('.info').children().last().text().trim(),
+                        episodes: parseInt((_h = card.find('.info').children().eq(-3).text().trim()) !== null && _h !== void 0 ? _h : (_j = card.find('.info span.sub')) === null || _j === void 0 ? void 0 : _j.text()) || 0,
                     });
                 });
                 const hasSub = $('.entity-scroll > .info > span.sub').length > 0;
@@ -114,7 +115,7 @@ class AnimeKai extends models_1.AnimeParser {
                 info.episodes = [];
                 $$('div.eplist > ul > li > a').each((i, el) => {
                     var _a;
-                    const episodeId = `${info.id}${$$(el).attr('href')}ep=${$$(el).attr('num')}?token=${$$(el).attr('token')}`; //appending token to episode id, as it is required to fetch servers keeping the structure same as other providers
+                    const episodeId = `${info.id}$ep=${$$(el).attr('num')}$token=${$$(el).attr('token')}`; //appending token to episode id, as it is required to fetch servers keeping the structure same as other providers
                     const number = parseInt($$(el).attr('num'));
                     const title = $$(el).children('span').text().trim();
                     const url = `${this.baseUrl}/watch/${info.id}${$$(el).attr('href')}ep=${$$(el).attr('num')}`;
@@ -251,11 +252,11 @@ class AnimeKai extends models_1.AnimeParser {
          */
         this.fetchEpisodeServers = async (episodeId, subOrDub = models_1.SubOrSub.SUB) => {
             if (!episodeId.startsWith(this.baseUrl + '/ajax'))
-                episodeId = `${this.baseUrl}/ajax/links/list?token=${episodeId.split('?token=')[1]}&_=${GenerateToken(episodeId.split('?token=')[1])}`;
+                episodeId = `${this.baseUrl}/ajax/links/list?token=${episodeId.split('$token=')[1]}&_=${GenerateToken(episodeId.split('$token=')[1])}`;
             try {
                 const { data } = await this.client.get(episodeId);
                 const $ = (0, cheerio_1.load)(data.result);
-                let servers = [];
+                const servers = [];
                 const serverItems = $(`.server-items.lang-group[data-id="${subOrDub}"] .server`);
                 await Promise.all(serverItems.map(async (i, server) => {
                     const id = $(server).attr('data-lid');
@@ -512,8 +513,8 @@ class AnimeKai extends models_1.AnimeParser {
 //   const anime = await animekai.search('dandadan');
 //   const info = await animekai.fetchAnimeInfo('solo-leveling-season-2-arise-from-the-shadow-x7rq');
 //     console.log(info.episodes);
-//   const sources = await animekai.fetchSearchSuggestions("Jujutsu");
-//   // console.log(sources);
+//   const sources = await animekai.fetchEpisodeSources(info?.episodes![0].id!);
+//   console.log(sources);
 // })();
 exports.default = AnimeKai;
 //# sourceMappingURL=animekai.js.map

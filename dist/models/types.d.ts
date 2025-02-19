@@ -26,6 +26,7 @@ export interface IAnimeResult {
     rating?: number;
     type?: MediaFormat;
     releaseDate?: string;
+    relationType?: string;
     [x: string]: any;
 }
 export interface ISearch<T> {
