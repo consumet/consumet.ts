@@ -173,15 +173,12 @@ class Zoro extends models_1.AnimeParser {
                         };
                 }
             }
-            if (!episodeId.includes('$episode$'))
-                throw new Error('Invalid episode id');
+            // if (!episodeId.includes('$episode$')) throw new Error('Invalid episode id');
             // keeping this for future use
             // Fallback to using sub if no info found in case of compatibility
             // TODO: add both options later
             // subOrDub = episodeId.split('$')?.pop() === 'dub' ? 'dub' : 'sub';
-            episodeId = `${this.baseUrl}/watch/${episodeId
-                .replace('$episode$', '?ep=')
-                .replace(/\$auto|\$sub|\$dub/gi, '')}`;
+            episodeId = `${this.baseUrl}/watch/${episodeId}`;
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/ajax/v2/episode/servers?episodeId=${episodeId.split('?ep=')[1]}`);
                 const $ = (0, cheerio_1.load)(data.html);
