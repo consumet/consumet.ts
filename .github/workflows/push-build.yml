@@ -15,8 +15,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Checkout PR branch
-        run: git checkout ${{ github.event.pull_request.head.ref }}
+      - name: Checkout PR
+        run: gh pr checkout ${{ github.event.pull_request.number }}
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
