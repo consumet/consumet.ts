@@ -1,4 +1,4 @@
-import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer, StreamingServers, SubOrSub, IAnimeEpisode } from '../../models';
+import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer, StreamingServers, SubOrSub, IAnimeEpisode, WatchListType } from '../../models';
 declare class Zoro extends AnimeParser {
     readonly name = "Zoro";
     protected baseUrl: string;
@@ -90,6 +90,7 @@ declare class Zoro extends AnimeParser {
      * @returns A promise that resolves to an array of anime episodes.
      */
     fetchContinueWatching(connectSid: string): Promise<IAnimeEpisode[]>;
+    fetchWatchList(connectSid: string, page?: number, sortListType?: WatchListType): Promise<ISearch<IAnimeResult>>;
     /**
      * @param id Anime id
      */

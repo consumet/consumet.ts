@@ -116,9 +116,15 @@ test('returns a filled array of episode list for continue watching', async () =>
   expect(data).not.toEqual([]);
 });
 
+test('returns a filled array of animes from watch list', async () => {
+  const connectSid = 'users_connect_sid';
+  const data = await zoro.fetchWatchList(`${connectSid}`);
+  console.log(data);
+  expect(data).not.toEqual([]);
+});
+
 test('returns a filled object of anime data', async () => {
-  const res = await zoro.search('Overlord IV');
-  const data = await zoro.fetchAnimeInfo('one-piece-100'); // Overlord IV id
+  const data = await zoro.fetchAnimeInfo('one-piece-100');
   expect(data).not.toBeNull();
   expect(data.description).not.toBeNull();
   expect(data.episodes).not.toEqual([]);

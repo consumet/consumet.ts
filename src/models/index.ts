@@ -46,6 +46,7 @@ import {
   MediaFormat,
   ProxyConfig,
   IStaff,
+  WatchListType,
 } from './types';
 import { LibgenBookObject, GetComicsComicsObject } from './type-objects';
 
@@ -99,4 +100,5 @@ export {
   MediaFormat,
   ProxyConfig,
   IStaff,
+  WatchListType,
 };

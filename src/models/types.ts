@@ -202,6 +202,15 @@ export enum MediaStatus {
   UNKNOWN = 'Unknown',
 }
 
+export enum WatchListType {
+  WATCHING = 'watching',
+  ONHOLD = 'on-hold',
+  PLAN_TO_WATCH = 'plan to watch',
+  DROPPED = 'dropped',
+  COMPLETED = 'completed',
+  NONE = 'none',
+}
+
 export enum SubOrSub {
   SUB = 'sub',
   DUB = 'dub',
