@@ -491,7 +491,7 @@ class Zoro extends AnimeParser {
       info.totalEpisodes = $$('div.detail-infor-content > div > a').length;
       info.episodes = [];
       $$('div.detail-infor-content > div > a').each((i, el) => {
-        const episodeId = $$(el).attr('href')?.split('/')[2]?.replace('?ep=', '$episode$')!;
+        const episodeId = $$(el).attr('href')?.split('/')[2]!;
         const number = parseInt($$(el).attr('data-number')!);
         const title = $$(el).attr('title');
         const url = this.baseUrl + $$(el).attr('href');

@@ -657,7 +657,7 @@ async function getSources(embed_url, site) {
     try {
         await V(base_url + '/images/loading.png?v=0.0.9');
         let getSourcesUrl = '';
-        if (base_url.includes('mega')) {
+        if ((base_url === null || base_url === void 0 ? void 0 : base_url.includes('mega')) || (base_url === null || base_url === void 0 ? void 0 : base_url.includes('bunnies'))) {
             getSourcesUrl =
                 base_url +
                     '/' +
