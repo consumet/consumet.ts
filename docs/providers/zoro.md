@@ -836,6 +836,44 @@ output:
 ]
 ```
 
+### fetchWatchList
+
+<h4>Parameters</h4>
+
+
+| Parameter   | Type     | Description                                      |
+| ----------- | -------- | ------------------------------------------------ |
+| connectSid  | `string` | The session ID obtained from the website cookies |
+
+```ts
+zoro.fetchWatchList("{user_connect_sid}").then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+[
+  {
+    id: 'bleach-thousand-year-blood-war-the-conflict-19322',
+    title: 'Bleach: Thousand-Year Blood War - The Conflict',
+    url: 'http://hianime.to/bleach-thousand-year-blood-war-the-conflict-19322',
+    image: 'https://cdn.noitatnemucod.net/thumbnail/300x400/100/b87a9e986e6e403ffddb520d24f5040a.jpg',
+    duration: '24m',
+    watchList: 'Completed',
+    japaneseTitle: 'Bleach: Sennen Kessen-hen - Soukoku-tan',
+    type: 'TV',
+    nsfw: true,
+    sub: 14,
+    dub: 14,
+    episodes: 14
+  },
+  {...},
+  ...
+]
+```
+
 Make sure to check the `headers` property of the returned object. It contains the referer header, which might be needed to bypass the 403 error and allow you to stream the video without any issues.
 
 <p align="end">(<a href="https://github.com/consumet/extensions/blob/master/docs/guides/anime.md#">back to anime providers list</a>)</p>

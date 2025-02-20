@@ -13,6 +13,7 @@ import {
   SubOrSub,
   IAnimeEpisode,
   MediaStatus,
+  WatchListType,
 } from '../../models';
 
 import { StreamSB, RapidCloud, MegaCloud, StreamTape } from '../../utils';
@@ -378,6 +379,37 @@ class Zoro extends AnimeParser {
     }
   }
 
+  async fetchWatchList(
+    connectSid: string,
+    page: number = 1,
+    sortListType?: WatchListType
+  ): Promise<ISearch<IAnimeResult>> {
+    if (!(await this.verifyLoginState(connectSid))) {
+      throw new Error('Invalid session ID');
+    }
+    if (0 >= page) {
+      page = 1;
+    }
+    let type: number = 0;
+    switch (sortListType) {
+      case WatchListType.WATCHING:
+        type = 1;
+      case WatchListType.ONHOLD:
+        type = 2;
+      case WatchListType.PLAN_TO_WATCH:
+        type = 3;
+      case WatchListType.DROPPED:
+        type = 4;
+      case WatchListType.COMPLETED:
+        type = 5;
+    }
+    return this.scrapeCardPage(
+      `${this.baseUrl}/user/watch-list?page=${page}${type != 0 ? '&type=' + type : ''}`,
+      {
+        headers: { Cookie: `connect.sid=${connectSid}` },
+      }
+    );
+  }
   /**
    * @param id Anime id
    */
@@ -655,7 +687,7 @@ class Zoro extends AnimeParser {
   /**
    * @param url string
    */
-  private scrapeCardPage = async (url: string): Promise<ISearch<IAnimeResult>> => {
+  private scrapeCardPage = async (url: string, headers?: object): Promise<ISearch<IAnimeResult>> => {
     try {
       const res: ISearch<IAnimeResult> = {
         currentPage: 0,
@@ -663,7 +695,7 @@ class Zoro extends AnimeParser {
         totalPages: 0,
         results: [],
       };
-      const { data } = await this.client.get(url);
+      const { data } = await this.client.get(url, headers);
       const $ = load(data);
 
       const pagination = $('ul.pagination');
@@ -702,6 +734,7 @@ class Zoro extends AnimeParser {
         const card = $(ele);
         const atag = card.find('.film-name a');
         const id = atag.attr('href')?.split('/')[1].split('?')[0];
+        const watchList = card.find('.dropdown-menu .added').text().trim() as WatchListType;
         const type = card
           .find('.fdi-item')
           ?.first()
@@ -714,6 +747,7 @@ class Zoro extends AnimeParser {
           url: `${this.baseUrl}${atag.attr('href')}`,
           image: card.find('img')?.attr('data-src'),
           duration: card.find('.fdi-duration')?.text(),
+          watchList: watchList || WatchListType.NONE,
           japaneseTitle: atag.attr('data-jname'),
           type: type as MediaFormat,
           nsfw: card.find('.tick-rate')?.text() === '18+' ? true : false,

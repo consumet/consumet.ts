@@ -258,7 +258,7 @@ class Zoro extends models_1.AnimeParser {
         /**
          * @param url string
          */
-        this.scrapeCardPage = async (url) => {
+        this.scrapeCardPage = async (url, headers) => {
             var _a, _b, _c;
             try {
                 const res = {
@@ -267,7 +267,7 @@ class Zoro extends models_1.AnimeParser {
                     totalPages: 0,
                     results: [],
                 };
-                const { data } = await this.client.get(url);
+                const { data } = await this.client.get(url, headers);
                 const $ = (0, cheerio_1.load)(data);
                 const pagination = $('ul.pagination');
                 res.currentPage = parseInt((_a = pagination.find('.page-item.active')) === null || _a === void 0 ? void 0 : _a.text());
@@ -305,6 +305,7 @@ class Zoro extends models_1.AnimeParser {
                     const card = $(ele);
                     const atag = card.find('.film-name a');
                     const id = (_a = atag.attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
+                    const watchList = card.find('.dropdown-menu .added').text().trim();
                     const type = (_c = (_b = card
                         .find('.fdi-item')) === null || _b === void 0 ? void 0 : _b.first()) === null || _c === void 0 ? void 0 : _c.text().replace(' (? eps)', '').replace(/\s\(\d+ eps\)/g, '');
                     results.push({
@@ -313,6 +314,7 @@ class Zoro extends models_1.AnimeParser {
                         url: `${this.baseUrl}${atag.attr('href')}`,
                         image: (_d = card.find('img')) === null || _d === void 0 ? void 0 : _d.attr('data-src'),
                         duration: (_e = card.find('.fdi-duration')) === null || _e === void 0 ? void 0 : _e.text(),
+                        watchList: watchList || models_1.WatchListType.NONE,
                         japaneseTitle: atag.attr('data-jname'),
                         type: type,
                         nsfw: ((_f = card.find('.tick-rate')) === null || _f === void 0 ? void 0 : _f.text()) === '18+' ? true : false,
@@ -672,6 +674,30 @@ class Zoro extends models_1.AnimeParser {
         catch (err) {
             throw new Error(err.message);
         }
+    }
+    async fetchWatchList(connectSid, page = 1, sortListType) {
+        if (!(await this.verifyLoginState(connectSid))) {
+            throw new Error('Invalid session ID');
+        }
+        if (0 >= page) {
+            page = 1;
+        }
+        let type = 0;
+        switch (sortListType) {
+            case models_1.WatchListType.WATCHING:
+                type = 1;
+            case models_1.WatchListType.ONHOLD:
+                type = 2;
+            case models_1.WatchListType.PLAN_TO_WATCH:
+                type = 3;
+            case models_1.WatchListType.DROPPED:
+                type = 4;
+            case models_1.WatchListType.COMPLETED:
+                type = 5;
+        }
+        return this.scrapeCardPage(`${this.baseUrl}/user/watch-list?page=${page}${type != 0 ? '&type=' + type : ''}`, {
+            headers: { Cookie: `connect.sid=${connectSid}` },
+        });
     }
 }
 // (async () => {
