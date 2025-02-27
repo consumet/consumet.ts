@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getHashFromImage = exports.substringBeforeLast = exports.substringAfterLast = exports.substringBefore = exports.substringAfter = exports.compareTwoStrings = exports.convertDuration = exports.isJson = exports.getDays = exports.capitalizeFirstLetter = exports.range = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.ANIFY_URL = exports.days = exports.USER_AGENT = void 0;
+exports.getHashFromImage = exports.substringBeforeLast = exports.substringAfterLast = exports.substringBefore = exports.substringAfter = exports.compareTwoStrings = exports.isJson = exports.getDays = exports.capitalizeFirstLetter = exports.range = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.ANIFY_URL = exports.days = exports.USER_AGENT = void 0;
+exports.convertDuration = convertDuration;
 // import sharp from 'sharp';
 const cheerio_1 = require("cheerio");
 exports.USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36';
@@ -101,7 +102,6 @@ function convertDuration(milliseconds) {
     minutes = minutes % 60;
     return `PT${hours}H${minutes}M${seconds}S`;
 }
-exports.convertDuration = convertDuration;
 const compareTwoStrings = (first, second) => {
     first = first.replace(/\s+/g, '');
     second = second.replace(/\s+/g, '');

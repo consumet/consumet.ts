@@ -21,7 +21,7 @@ class AnimeKai extends models_1.AnimeParser {
                 title: '',
             };
             try {
-                const { data } = await this.client.get(`${this.baseUrl}/watch/${id}`);
+                const { data } = await this.client.get(`${this.baseUrl}/watch/${id}`, { headers: this.Headers() });
                 const $ = (0, cheerio_1.load)(data);
                 info.title = $('.entity-scroll > .title').text();
                 info.japaneseTitle = (_a = $('.entity-scroll > .title').attr('data-jp')) === null || _a === void 0 ? void 0 : _a.trim();
@@ -108,6 +108,7 @@ class AnimeKai extends models_1.AnimeParser {
                     headers: {
                         'X-Requested-With': 'XMLHttpRequest',
                         Referer: `${this.baseUrl}/watch/${id}`,
+                        ...this.Headers(),
                     },
                 });
                 const $$ = (0, cheerio_1.load)(episodesAjax.data.result);
@@ -183,7 +184,9 @@ class AnimeKai extends models_1.AnimeParser {
                     totalPages: 0,
                     results: [],
                 };
-                const { data } = await this.client.get(url);
+                const { data } = await this.client.get(url, {
+                    headers: this.Headers(),
+                });
                 const $ = (0, cheerio_1.load)(data);
                 const pagination = $('ul.pagination');
                 res.currentPage = parseInt(pagination.find('.page-item.active span.page-link').text().trim()) || 0;
@@ -254,13 +257,13 @@ class AnimeKai extends models_1.AnimeParser {
             if (!episodeId.startsWith(this.baseUrl + '/ajax'))
                 episodeId = `${this.baseUrl}/ajax/links/list?token=${episodeId.split('$token=')[1]}&_=${GenerateToken(episodeId.split('$token=')[1])}`;
             try {
-                const { data } = await this.client.get(episodeId);
+                const { data } = await this.client.get(episodeId, { headers: this.Headers() });
                 const $ = (0, cheerio_1.load)(data.result);
                 const servers = [];
                 const serverItems = $(`.server-items.lang-group[data-id="${subOrDub}"] .server`);
                 await Promise.all(serverItems.map(async (i, server) => {
                     const id = $(server).attr('data-lid');
-                    const { data } = await this.client.get(`${this.baseUrl}/ajax/links/view?id=${id}&_=${GenerateToken(id)}`);
+                    const { data } = await this.client.get(`${this.baseUrl}/ajax/links/view?id=${id}&_=${GenerateToken(id)}`, { headers: this.Headers() });
                     servers.push({
                         name: `MegaUp ${$(server).text().trim()}`, //megaup is the only server for now
                         url: JSON.parse(DecodeIframeData(data.result)).url,
@@ -369,7 +372,7 @@ class AnimeKai extends models_1.AnimeParser {
     async fetchGenres() {
         try {
             const res = [];
-            const { data } = await this.client.get(`${this.baseUrl}/home`);
+            const { data } = await this.client.get(`${this.baseUrl}/home`, { headers: this.Headers() });
             const $ = (0, cheerio_1.load)(data);
             const sideBar = $('#menu');
             sideBar.find('ul.c4 li a').each((i, ele) => {
@@ -404,7 +407,7 @@ class AnimeKai extends models_1.AnimeParser {
             const res = {
                 results: [],
             };
-            const { data } = await this.client.get(`${this.baseUrl}/ajax/schedule/items?tz=5.5&time=${Math.floor(new Date(`${date}T00:00:00Z`).getTime() / 1000)}`);
+            const { data } = await this.client.get(`${this.baseUrl}/ajax/schedule/items?tz=5.5&time=${Math.floor(new Date(`${date}T00:00:00Z`).getTime() / 1000)}`, { headers: this.Headers() });
             const $ = (0, cheerio_1.load)(data.result);
             $('ul.collapsed li').each((i, ele) => {
                 var _a;
@@ -428,7 +431,7 @@ class AnimeKai extends models_1.AnimeParser {
     async fetchSpotlight() {
         try {
             const res = { results: [] };
-            const { data } = await this.client.get(`${this.baseUrl}/home`);
+            const { data } = await this.client.get(`${this.baseUrl}/home`, { headers: this.Headers() });
             const $ = (0, cheerio_1.load)(data);
             $('div.swiper-wrapper > div.swiper-slide').each((i, el) => {
                 var _a, _b;
@@ -470,7 +473,7 @@ class AnimeKai extends models_1.AnimeParser {
     }
     async fetchSearchSuggestions(query) {
         try {
-            const { data } = await this.client.get(`${this.baseUrl}/ajax/anime/search?keyword=${query.replace(/[\W_]+/g, '+')}`);
+            const { data } = await this.client.get(`${this.baseUrl}/ajax/anime/search?keyword=${query.replace(/[\W_]+/g, '+')}`, { headers: this.Headers() });
             const $ = (0, cheerio_1.load)(data.result.html);
             const res = {
                 results: [],
@@ -506,6 +509,22 @@ class AnimeKai extends models_1.AnimeParser {
         catch (error) {
             throw new Error('Something went wrong. Please try again later.');
         }
+    }
+    Headers() {
+        return {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0',
+            Accept: 'text/html, */*; q=0.01',
+            'Accept-Language': 'en-US,en;q=0.5',
+            'Sec-GPC': '1',
+            'Sec-Fetch-Dest': 'empty',
+            'Sec-Fetch-Mode': 'cors',
+            'Sec-Fetch-Site': 'same-origin',
+            Priority: 'u=0',
+            Pragma: 'no-cache',
+            'Cache-Control': 'no-cache',
+            Referer: `${this.baseUrl}/`,
+            Cookie: 'usertype=guest; session=hxYne0BNXguMc8zK1FHqQKXPmmoANzBBOuNPM64a; cf_clearance=WfGWV1bKGAaNySbh.yzCyuobBOtjg0ncfPwMhtsvsrs-1737611098-1.2.1.1-zWHcaytuokjFTKbCAxnSPDc_BWAeubpf9TAAVfuJ2vZuyYXByqZBXAZDl_VILwkO5NOLck8N0C4uQr4yGLbXRcZ_7jfWUvfPGayTADQLuh.SH.7bvhC7DmxrMGZ8SW.hGKEQzRJf8N7h6ZZ27GMyqOfz1zfrOiu9W30DhEtW2N7FAXUPrdolyKjCsP1AK3DqsDtYOiiPNLnu47l.zxK80XogfBRQkiGecCBaeDOJHenjn._Zgykkr.F_2bj2C3AS3A5mCpZSlWK5lqhV6jQSQLF9wKWitHye39V.6NoE3RE',
+        };
     }
 }
 // (async () => {

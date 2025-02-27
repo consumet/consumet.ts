@@ -79,5 +79,6 @@ declare class AnimeKai extends AnimeParser {
      * @param subOrDub sub or dub (default `sub`) (optional)
      */
     fetchEpisodeServers: (episodeId: string, subOrDub?: SubOrSub) => Promise<IEpisodeServer[]>;
+    private Headers;
 }
 export default AnimeKai;
