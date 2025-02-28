@@ -143,6 +143,7 @@ export interface IAnimeEpisode {
 export interface IEpisodeServer {
   name: string;
   url: string;
+  [x: string]: unknown;
 }
 
 export interface IVideo {
