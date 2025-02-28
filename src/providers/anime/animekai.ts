@@ -13,6 +13,7 @@ import {
   SubOrSub,
   IAnimeEpisode,
   MediaStatus,
+  Intro,
 } from '../../models';
 
 import { MegaUp } from '../../utils';
@@ -461,8 +462,10 @@ class AnimeKai extends AnimeParser {
       }
 
       const serverUrl: URL = new URL(servers[i].url);
-
-      return await this.fetchEpisodeSources(serverUrl.href, server, subOrDub);
+      const sources = await this.fetchEpisodeSources(serverUrl.href, server, subOrDub);
+      sources.intro = servers[i]?.intro as Intro;
+      sources.outro = servers[i]?.outro as Intro;
+      return sources;
     } catch (err) {
       throw new Error((err as Error).message);
     }
@@ -571,9 +574,18 @@ class AnimeKai extends AnimeParser {
             `${this.baseUrl}/ajax/links/view?id=${id}&_=${GenerateToken(id!)}`,
             { headers: this.Headers() }
           );
+          const decodedData = JSON.parse(DecodeIframeData(data.result));
           servers.push({
             name: `MegaUp ${$(server).text().trim()}`!, //megaup is the only server for now
-            url: JSON.parse(DecodeIframeData(data.result)).url,
+            url: decodedData.url,
+            intro: {
+              start: decodedData?.skip.intro[0],
+              end: decodedData?.skip.intro[1],
+            },
+            outro: {
+              start: decodedData?.skip.outro[0],
+              end: decodedData?.skip.outro[1],
+            },
           });
         })
       );
