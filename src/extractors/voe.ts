@@ -19,7 +19,9 @@ class Voe extends VideoExtractor {
 
       const { data } = await this.client.get(pageUrl);
       const $$ = load(data);
-      const url = $$('body').html()!.split('prompt("Node", "')[1].split('");')[0];
+      const url = $$('body')
+        .html()!
+        .match(/'hls'\s*:\s*'([^']+)'/s)?.[1]!;
 
       let thumbnailSrc: string = '';
       $$('script').each((i, el) => {
@@ -41,9 +43,9 @@ class Voe extends VideoExtractor {
       ];
 
       this.sources.push({
-        url: url,
+        url: atob(url),
         quality: 'default',
-        isM3U8: url.includes('.m3u8'),
+        isM3U8: atob(url).includes('.m3u8'),
       });
 
       return {
