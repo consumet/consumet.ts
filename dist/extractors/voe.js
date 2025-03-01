@@ -19,9 +19,8 @@ class Voe extends models_1.VideoExtractor {
                     : '';
                 const { data } = await this.client.get(pageUrl);
                 const $$ = (0, cheerio_1.load)(data);
-                const url = (_c = $$('body')
-                    .html()
-                    .match(/'hls'\s*:\s*'([^']+)'/s)) === null || _c === void 0 ? void 0 : _c[1];
+                const bodyHtml = $$('body').html() || '';
+                const url = ((_c = bodyHtml.match(/'hls'\s*:\s*'([^']+)'/s)) === null || _c === void 0 ? void 0 : _c[1]) || '';
                 let thumbnailSrc = '';
                 $$('script').each((i, el) => {
                     const scriptContent = $(el).html();

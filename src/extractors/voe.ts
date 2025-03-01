@@ -19,9 +19,8 @@ class Voe extends VideoExtractor {
 
       const { data } = await this.client.get(pageUrl);
       const $$ = load(data);
-      const url = $$('body')
-        .html()!
-        .match(/'hls'\s*:\s*'([^']+)'/s)?.[1]!;
+      const bodyHtml = $$('body').html() || '';
+      const url = bodyHtml.match(/'hls'\s*:\s*'([^']+)'/s)?.[1] || '';
 
       let thumbnailSrc: string = '';
       $$('script').each((i, el) => {
