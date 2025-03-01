@@ -9,7 +9,7 @@ class Voe extends models_1.VideoExtractor {
         this.sources = [];
         this.domains = ['voe.sx'];
         this.extract = async (videoUrl) => {
-            var _a, _b;
+            var _a, _b, _c;
             try {
                 const res = await this.client.get(videoUrl.href);
                 const $ = (0, cheerio_1.load)(res.data);
@@ -19,7 +19,8 @@ class Voe extends models_1.VideoExtractor {
                     : '';
                 const { data } = await this.client.get(pageUrl);
                 const $$ = (0, cheerio_1.load)(data);
-                const url = $$('body').html().split('prompt("Node", "')[1].split('");')[0];
+                const bodyHtml = $$('body').html() || '';
+                const url = ((_c = bodyHtml.match(/'hls'\s*:\s*'([^']+)'/s)) === null || _c === void 0 ? void 0 : _c[1]) || '';
                 let thumbnailSrc = '';
                 $$('script').each((i, el) => {
                     const scriptContent = $(el).html();
@@ -39,9 +40,9 @@ class Voe extends models_1.VideoExtractor {
                     },
                 ];
                 this.sources.push({
-                    url: url,
+                    url: atob(url),
                     quality: 'default',
-                    isM3U8: url.includes('.m3u8'),
+                    isM3U8: atob(url).includes('.m3u8'),
                 });
                 return {
                     sources: this.sources,
