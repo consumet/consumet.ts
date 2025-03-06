@@ -11,6 +11,31 @@ declare class Zoro extends AnimeParser {
      */
     search(query: string, page?: number): Promise<ISearch<IAnimeResult>>;
     /**
+     * Fetch advanced anime search results with various filters.
+     *
+     * @param page Page number (default: 1)
+     * @param type One of (Optional): movie, tv, ova, ona, special, music
+     * @param status One of (Optional): finished_airing, currently_airing, not_yet_aired
+     * @param rated One of (Optional): g, pg, pg_13, r, r_plus, rx
+     * @param score Number from 1 to 10 (Optional)
+     * @param season One of (Optional): spring, summer, fall, winter
+     * @param language One of (Optional): sub, dub, sub_dub
+     * @param startDate Start date object { year, month, day } (Optional)
+     * @param endDate End date object { year, month, day } (Optional)
+     * @param sort One of (Optional): recently_added, recently_updated, score, name_az, released_date, most_watched
+     * @param genres Array of genres (Optional): action, adventure, cars, comedy, dementia, demons, mystery, drama, ecchi, fantasy, game, historical, horror, kids, magic, martial_arts, mecha, music, parody, samurai, romance, school, sci_fi, shoujo, shoujo_ai, shounen, shounen_ai, space, sports, super_power, vampire, harem, military, slice_of_life, supernatural, police, psychological, thriller, seinen, isekai, josei
+     * @returns A Promise resolving to the search results.
+     */
+    fetchAdvancedSearch(page?: number, type?: string, status?: string, rated?: string, score?: number, season?: string, language?: string, startDate?: {
+        year: number;
+        month: number;
+        day: number;
+    }, endDate?: {
+        year: number;
+        month: number;
+        day: number;
+    }, sort?: string, genres?: string[]): Promise<ISearch<IAnimeResult>>;
+    /**
      * @param page number
      */
     fetchTopAiring(page?: number): Promise<ISearch<IAnimeResult>>;
