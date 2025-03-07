@@ -13,6 +13,7 @@ import {
   SubOrSub,
   IAnimeEpisode,
   MediaStatus,
+  Intro,
 } from '../../models';
 
 import { MegaUp } from '../../utils';
@@ -130,7 +131,7 @@ class AnimeKai extends AnimeParser {
   async fetchGenres(): Promise<string[]> {
     try {
       const res: string[] = [];
-      const { data } = await this.client.get(`${this.baseUrl}/home`);
+      const { data } = await this.client.get(`${this.baseUrl}/home`, { headers: this.Headers() });
       const $ = load(data);
 
       const sideBar = $('#menu');
@@ -170,7 +171,8 @@ class AnimeKai extends AnimeParser {
       const { data } = await this.client.get(
         `${this.baseUrl}/ajax/schedule/items?tz=5.5&time=${Math.floor(
           new Date(`${date}T00:00:00Z`).getTime() / 1000
-        )}`
+        )}`,
+        { headers: this.Headers() }
       );
       const $ = load(data.result);
 
@@ -197,7 +199,7 @@ class AnimeKai extends AnimeParser {
   async fetchSpotlight(): Promise<ISearch<IAnimeResult>> {
     try {
       const res: ISearch<IAnimeResult> = { results: [] };
-      const { data } = await this.client.get(`${this.baseUrl}/home`);
+      const { data } = await this.client.get(`${this.baseUrl}/home`, { headers: this.Headers() });
       const $ = load(data);
 
       $('div.swiper-wrapper > div.swiper-slide').each((i, el) => {
@@ -241,7 +243,8 @@ class AnimeKai extends AnimeParser {
   async fetchSearchSuggestions(query: string): Promise<ISearch<IAnimeResult>> {
     try {
       const { data } = await this.client.get(
-        `${this.baseUrl}/ajax/anime/search?keyword=${query.replace(/[\W_]+/g, '+')}`
+        `${this.baseUrl}/ajax/anime/search?keyword=${query.replace(/[\W_]+/g, '+')}`,
+        { headers: this.Headers() }
       );
       const $ = load(data.result.html);
       const res: ISearch<IAnimeResult> = {
@@ -293,7 +296,7 @@ class AnimeKai extends AnimeParser {
       title: '',
     };
     try {
-      const { data } = await this.client.get(`${this.baseUrl}/watch/${id}`);
+      const { data } = await this.client.get(`${this.baseUrl}/watch/${id}`, { headers: this.Headers() });
       const $ = load(data);
 
       info.title = $('.entity-scroll > .title').text();
@@ -390,6 +393,7 @@ class AnimeKai extends AnimeParser {
           headers: {
             'X-Requested-With': 'XMLHttpRequest',
             Referer: `${this.baseUrl}/watch/${id}`,
+            ...this.Headers(),
           },
         }
       );
@@ -458,8 +462,10 @@ class AnimeKai extends AnimeParser {
       }
 
       const serverUrl: URL = new URL(servers[i].url);
-
-      return await this.fetchEpisodeSources(serverUrl.href, server, subOrDub);
+      const sources = await this.fetchEpisodeSources(serverUrl.href, server, subOrDub);
+      sources.intro = servers[i]?.intro as Intro;
+      sources.outro = servers[i]?.outro as Intro;
+      return sources;
     } catch (err) {
       throw new Error((err as Error).message);
     }
@@ -476,7 +482,9 @@ class AnimeKai extends AnimeParser {
         totalPages: 0,
         results: [],
       };
-      const { data } = await this.client.get(url);
+      const { data } = await this.client.get(url, {
+        headers: this.Headers(),
+      });
       const $ = load(data);
 
       const pagination = $('ul.pagination');
@@ -555,7 +563,7 @@ class AnimeKai extends AnimeParser {
         episodeId.split('$token=')[1]
       )}`;
     try {
-      const { data } = await this.client.get(episodeId);
+      const { data } = await this.client.get(episodeId, { headers: this.Headers() });
       const $ = load(data.result);
       const servers: IEpisodeServer[] = [];
       const serverItems = $(`.server-items.lang-group[data-id="${subOrDub}"] .server`);
@@ -563,11 +571,21 @@ class AnimeKai extends AnimeParser {
         serverItems.map(async (i, server) => {
           const id = $(server).attr('data-lid');
           const { data } = await this.client.get(
-            `${this.baseUrl}/ajax/links/view?id=${id}&_=${GenerateToken(id!)}`
+            `${this.baseUrl}/ajax/links/view?id=${id}&_=${GenerateToken(id!)}`,
+            { headers: this.Headers() }
           );
+          const decodedData = JSON.parse(DecodeIframeData(data.result));
           servers.push({
             name: `MegaUp ${$(server).text().trim()}`!, //megaup is the only server for now
-            url: JSON.parse(DecodeIframeData(data.result)).url,
+            url: decodedData.url,
+            intro: {
+              start: decodedData?.skip.intro[0],
+              end: decodedData?.skip.intro[1],
+            },
+            outro: {
+              start: decodedData?.skip.outro[0],
+              end: decodedData?.skip.outro[1],
+            },
           });
         })
       );
@@ -576,6 +594,24 @@ class AnimeKai extends AnimeParser {
       throw new Error((err as Error).message);
     }
   };
+
+  private Headers(): Record<string, string> {
+    return {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0',
+      Accept: 'text/html, */*; q=0.01',
+      'Accept-Language': 'en-US,en;q=0.5',
+      'Sec-GPC': '1',
+      'Sec-Fetch-Dest': 'empty',
+      'Sec-Fetch-Mode': 'cors',
+      'Sec-Fetch-Site': 'same-origin',
+      Priority: 'u=0',
+      Pragma: 'no-cache',
+      'Cache-Control': 'no-cache',
+      Referer: `${this.baseUrl}/`,
+      Cookie:
+        'usertype=guest; session=hxYne0BNXguMc8zK1FHqQKXPmmoANzBBOuNPM64a; cf_clearance=WfGWV1bKGAaNySbh.yzCyuobBOtjg0ncfPwMhtsvsrs-1737611098-1.2.1.1-zWHcaytuokjFTKbCAxnSPDc_BWAeubpf9TAAVfuJ2vZuyYXByqZBXAZDl_VILwkO5NOLck8N0C4uQr4yGLbXRcZ_7jfWUvfPGayTADQLuh.SH.7bvhC7DmxrMGZ8SW.hGKEQzRJf8N7h6ZZ27GMyqOfz1zfrOiu9W30DhEtW2N7FAXUPrdolyKjCsP1AK3DqsDtYOiiPNLnu47l.zxK80XogfBRQkiGecCBaeDOJHenjn._Zgykkr.F_2bj2C3AS3A5mCpZSlWK5lqhV6jQSQLF9wKWitHye39V.6NoE3RE',
+    };
+  }
 }
 
 // (async () => {

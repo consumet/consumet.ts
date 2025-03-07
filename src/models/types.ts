@@ -143,6 +143,7 @@ export interface IAnimeEpisode {
 export interface IEpisodeServer {
   name: string;
   url: string;
+  [x: string]: unknown;
 }
 
 export interface IVideo {
@@ -200,6 +201,15 @@ export enum MediaStatus {
   CANCELLED = 'Cancelled',
   NOT_YET_AIRED = 'Not yet aired',
   UNKNOWN = 'Unknown',
+}
+
+export enum WatchListType {
+  WATCHING = 'watching',
+  ONHOLD = 'on-hold',
+  PLAN_TO_WATCH = 'plan to watch',
+  DROPPED = 'dropped',
+  COMPLETED = 'completed',
+  NONE = 'none',
 }
 
 export enum SubOrSub {
