@@ -721,7 +721,7 @@ export async function getSources(embed_url: string, site: string) {
 
     let getSourcesUrl = '';
 
-    if (base_url!.includes('mega')) {
+    if (base_url?.includes('mega') || base_url?.includes('bunnies')) {
       getSourcesUrl =
         base_url +
         '/' +

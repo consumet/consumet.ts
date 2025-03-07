@@ -523,7 +523,7 @@ class Zoro extends AnimeParser {
       info.totalEpisodes = $$('div.detail-infor-content > div > a').length;
       info.episodes = [];
       $$('div.detail-infor-content > div > a').each((i, el) => {
-        const episodeId = $$(el).attr('href')?.split('/')[2]?.replace('?ep=', '$episode$')!;
+        const episodeId = $$(el).attr('href')?.split('/')[2]!;
         const number = parseInt($$(el).attr('data-number')!);
         const title = $$(el).attr('title');
         const url = this.baseUrl + $$(el).attr('href');
@@ -591,7 +591,7 @@ class Zoro extends AnimeParser {
           };
       }
     }
-    if (!episodeId.includes('$episode$')) throw new Error('Invalid episode id');
+    // if (!episodeId.includes('$episode$')) throw new Error('Invalid episode id');
 
     // keeping this for future use
     // Fallback to using sub if no info found in case of compatibility
@@ -599,9 +599,7 @@ class Zoro extends AnimeParser {
     // TODO: add both options later
     // subOrDub = episodeId.split('$')?.pop() === 'dub' ? 'dub' : 'sub';
 
-    episodeId = `${this.baseUrl}/watch/${episodeId
-      .replace('$episode$', '?ep=')
-      .replace(/\$auto|\$sub|\$dub/gi, '')}`;
+    episodeId = `${this.baseUrl}/watch/${episodeId}`;
 
     try {
       const { data } = await this.client.get(
