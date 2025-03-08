@@ -7,6 +7,7 @@ const zoro = new ANIME.Zoro();
 <h2>Methods</h2>
 
 - [search](#search)
+- [fetchAdvancedSearch](#fetchadvancedsearch)
 - [fetchAnimeInfo](#fetchanimeinfo)
 - [fetchEpisodeSources](#fetchepisodesources)
 - [fetchTopAiring](#fetchTopAiring)
@@ -69,6 +70,78 @@ output:
       episodes: 13
     },
     {...}
+    ...
+  ]
+}
+```
+
+# `fetchAdvancedSearch`
+
+Fetches a list of anime based on various filters and sorting options.
+
+## Parameters
+
+| Parameter  | Type       | Description |
+|------------|------------|-------------|
+| `page` | `number` | Page number (default: `1`). Must be `>= 1`. |
+| `type` | `string` | *(Optional)* One of: `"movie"`, `"tv"`, `"ova"`, `"ona"`, `"special"`, `"music"`. |
+| `status` | `string` | *(Optional)* One of: `"finished_airing"`, `"currently_airing"`, `"not_yet_aired"`. |
+| `rated` | `string` | *(Optional)* One of: `"g"`, `"pg"`, `"pg_13"`, `"r"`, `"r_plus"`, `"rx"`. |
+| `score` | `number` | *(Optional)* A rating from `1` to `10`. |
+| `season` | `string` | *(Optional)* One of: `"spring"`, `"summer"`, `"fall"`, `"winter"`. |
+| `language` | `string` | *(Optional)* One of: `"sub"`, `"dub"`, `"sub_dub"`. |
+| `startDate` | `{ year: number, month: number, day: number }` | *(Optional)* The starting release date. |
+| `endDate` | `{ year: number, month: number, day: number }` | *(Optional)* The ending release date. |
+| `sort` | `string` | *(Optional)* One of: `"recently_added"`, `"recently_updated"`, `"score"`, `"name_az"`, `"released_date"`, `"most_watched"`. |
+| `genres` | `string[]` | *(Optional)* An array of genres such as `"action"`, `"adventure"`, `"comedy"`, `"drama"`, `"fantasy"`, `"horror"`, `"sci_fi"`, `"thriller"`, etc. |
+
+---
+
+## Example Usage
+
+```ts
+zoro.fetchAdvancedSearch(1, 'tv', 'finished_airing').then(data => {
+  console.log(data);
+});
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{
+  currentPage: 1,
+  hasNextPage: true,
+  totalPages: 106,
+  results: [
+    {
+      id: 'hirogaru-sky-precure-18320',
+      title: 'Hirogaru Sky! Precure',
+      url: 'http://hianime.to/hirogaru-sky-precure-18320',
+      image: 'https://cdn.noitatnemucod.net/thumbnail/300x400/100/efe14cc95072a24d780ea717b467019b.jpg',
+      duration: '24m',
+      watchList: 'none',
+      japaneseTitle: 'Hirogaru Sky! Precure',
+      type: 'TV',
+      nsfw: false,
+      sub: 50,
+      dub: 0,
+      episodes: 50
+    },
+    {
+      id: 'tokyo-revengers-christmas-showdown-uncensored-18315',
+      title: 'Tokyo Revengers: Christmas Showdown (Uncensored)',
+      url: 'http://hianime.to/tokyo-revengers-christmas-showdown-uncensored-18315',
+      image: 'https://cdn.noitatnemucod.net/thumbnail/300x400/100/92b1395533dc5e1bedfcf757eb3f6209.jpg',
+      duration: '23m',
+      watchList: 'none',
+      japaneseTitle: 'Tokyo Revengers: Seiya Kessen-hen (Uncensored)',
+      type: 'TV',
+      nsfw: true,
+      sub: 13,
+      dub: 13,
+      episodes: 13
+    },
+    {...},
     ...
   ]
 }

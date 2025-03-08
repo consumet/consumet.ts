@@ -359,6 +359,106 @@ class Zoro extends models_1.AnimeParser {
         return this.scrapeCardPage(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
     }
     /**
+     * Fetch advanced anime search results with various filters.
+     *
+     * @param page Page number (default: 1)
+     * @param type One of (Optional): movie, tv, ova, ona, special, music
+     * @param status One of (Optional): finished_airing, currently_airing, not_yet_aired
+     * @param rated One of (Optional): g, pg, pg_13, r, r_plus, rx
+     * @param score Number from 1 to 10 (Optional)
+     * @param season One of (Optional): spring, summer, fall, winter
+     * @param language One of (Optional): sub, dub, sub_dub
+     * @param startDate Start date object { year, month, day } (Optional)
+     * @param endDate End date object { year, month, day } (Optional)
+     * @param sort One of (Optional): recently_added, recently_updated, score, name_az, released_date, most_watched
+     * @param genres Array of genres (Optional): action, adventure, cars, comedy, dementia, demons, mystery, drama, ecchi, fantasy, game, historical, horror, kids, magic, martial_arts, mecha, music, parody, samurai, romance, school, sci_fi, shoujo, shoujo_ai, shounen, shounen_ai, space, sports, super_power, vampire, harem, military, slice_of_life, supernatural, police, psychological, thriller, seinen, isekai, josei
+     * @returns A Promise resolving to the search results.
+     */
+    fetchAdvancedSearch(page = 1, type, status, rated, score, season, language, startDate, endDate, sort, genres) {
+        if (page <= 0)
+            page = 1;
+        const mappings = {
+            type: { movie: 1, tv: 2, ova: 3, ona: 4, special: 5, music: 6 },
+            status: { finished_airing: 1, currently_airing: 2, not_yet_aired: 3 },
+            rated: { g: 1, pg: 2, pg_13: 3, r: 4, r_plus: 5, rx: 6 },
+            season: { spring: 1, summer: 2, fall: 3, winter: 4 },
+            language: { sub: 1, dub: 2, sub_dub: 3 },
+            genre: {
+                action: 1,
+                adventure: 2,
+                cars: 3,
+                comedy: 4,
+                dementia: 5,
+                demons: 6,
+                mystery: 7,
+                drama: 8,
+                ecchi: 9,
+                fantasy: 10,
+                game: 11,
+                historical: 13,
+                horror: 14,
+                kids: 15,
+                magic: 16,
+                martial_arts: 17,
+                mecha: 18,
+                music: 19,
+                parody: 20,
+                samurai: 21,
+                romance: 22,
+                school: 23,
+                sci_fi: 24,
+                shoujo: 25,
+                shoujo_ai: 26,
+                shounen: 27,
+                shounen_ai: 28,
+                space: 29,
+                sports: 30,
+                super_power: 31,
+                vampire: 32,
+                harem: 35,
+                military: 38,
+                slice_of_life: 36,
+                supernatural: 37,
+                police: 39,
+                psychological: 40,
+                thriller: 41,
+                seinen: 42,
+                isekai: 44,
+                josei: 43,
+            },
+        };
+        const params = new URLSearchParams({ page: page.toString() });
+        const addParam = (key, value) => {
+            var _a;
+            if (value)
+                params.append(key, (((_a = mappings[key]) === null || _a === void 0 ? void 0 : _a[value]) || value).toString());
+        };
+        addParam('type', type);
+        addParam('status', status);
+        addParam('rated', rated);
+        if (score)
+            params.append('score', score.toString());
+        addParam('season', season);
+        addParam('language', language);
+        if (startDate) {
+            params.append('sy', startDate.year.toString());
+            params.append('sm', startDate.month.toString());
+            params.append('sd', startDate.day.toString());
+        }
+        if (endDate) {
+            params.append('ey', endDate.year.toString());
+            params.append('em', endDate.month.toString());
+            params.append('ed', endDate.day.toString());
+        }
+        if (sort)
+            params.append('sort', sort);
+        if (genres === null || genres === void 0 ? void 0 : genres.length) {
+            const genreIds = genres.map(genre => (mappings.genre[genre] || genre).toString()).join('%2C');
+            params.append('genres', genreIds);
+        }
+        return this.scrapeCardPage(`${this.baseUrl}/filter?${params.toString()}`);
+    }
+    /**
      * @param page number
      */
     fetchTopAiring(page = 1) {
