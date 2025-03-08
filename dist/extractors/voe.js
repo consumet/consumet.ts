@@ -21,6 +21,15 @@ class Voe extends models_1.VideoExtractor {
                 const $$ = (0, cheerio_1.load)(data);
                 const bodyHtml = $$('body').html() || '';
                 const url = ((_c = bodyHtml.match(/'hls'\s*:\s*'([^']+)'/s)) === null || _c === void 0 ? void 0 : _c[1]) || '';
+                const subtitleRegex = /<track\s+kind="subtitles"\s+label="([^"]+)"\s+srclang="([^"]+)"\s+src="([^"]+)"/g;
+                let subtitles = [];
+                let match;
+                while ((match = subtitleRegex.exec(bodyHtml)) !== null) {
+                    subtitles.push({
+                        lang: match[1],
+                        url: new URL(match[3], videoUrl.origin).href,
+                    });
+                }
                 let thumbnailSrc = '';
                 $$('script').each((i, el) => {
                     const scriptContent = $(el).html();
@@ -33,12 +42,12 @@ class Voe extends models_1.VideoExtractor {
                         }
                     }
                 });
-                const subtitles = [
-                    {
+                if (thumbnailSrc) {
+                    subtitles.push({
                         lang: 'thumbnails',
                         url: `${videoUrl.origin}${thumbnailSrc}`,
-                    },
-                ];
+                    });
+                }
                 this.sources.push({
                     url: atob(url),
                     quality: 'default',
