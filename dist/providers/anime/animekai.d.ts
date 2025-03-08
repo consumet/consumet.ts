@@ -21,6 +21,10 @@ declare class AnimeKai extends AnimeParser {
     /**
      * @param page number
      */
+    fetchRecentlyUpdated(page?: number): Promise<ISearch<IAnimeResult>>;
+    /**
+     * @param page number
+     */
     fetchNewReleases(page?: number): Promise<ISearch<IAnimeResult>>;
     /**
      * @param page number
