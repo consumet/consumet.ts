@@ -3,6 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = getKKey;
 const staticdata_1 = __importDefault(require("./staticdata"));
 function stringToWordArray(input) {
     const wordArray = [];
@@ -136,5 +137,4 @@ function getKKey({ id, subOrVid, hash = 'mg3c3b04ba', version = '2.8.10', viGuid
     processBlock(_0x3db385);
     return wordArrayToHex(Uint32Array.of(..._0x3db385), _0x2f9d88).toUpperCase();
 }
-exports.default = getKKey;
 //# sourceMappingURL=kkey.js.map

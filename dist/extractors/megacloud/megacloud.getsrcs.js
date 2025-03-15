@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getSources = void 0;
+exports.getSources = getSources;
 const megacloud_decodedpng_1 = require("./megacloud.decodedpng");
 const util_1 = __importDefault(require("util"));
 const crypto_js_1 = __importDefault(require("crypto-js"));
@@ -714,5 +714,4 @@ async function getSources(embed_url, site) {
         console.error(err);
     }
 }
-exports.getSources = getSources;
 //# sourceMappingURL=megacloud.getsrcs.js.map

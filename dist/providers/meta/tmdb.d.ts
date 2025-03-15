@@ -16,7 +16,7 @@ declare class TMDB extends MovieParser {
      * @param timePeriod trending time period day or week
      * @param page page number
      */
-    fetchTrending: (type: string | 'all', timePeriod?: 'day' | 'week', page?: number) => Promise<ISearch<IMovieResult | IAnimeResult | IPeopleResult>>;
+    fetchTrending: (type: string | "all", timePeriod?: "day" | "week", page?: number) => Promise<ISearch<IMovieResult | IAnimeResult | IPeopleResult>>;
     /**
      * @param query search query
      * @param page page number
