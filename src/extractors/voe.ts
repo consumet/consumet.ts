@@ -22,6 +22,17 @@ class Voe extends VideoExtractor {
       const bodyHtml = $$('body').html() || '';
       const url = bodyHtml.match(/'hls'\s*:\s*'([^']+)'/s)?.[1] || '';
 
+      const subtitleRegex =
+        /<track\s+kind="subtitles"\s+label="([^"]+)"\s+srclang="([^"]+)"\s+src="([^"]+)"/g;
+      let subtitles: ISubtitle[] = [];
+      let match;
+      while ((match = subtitleRegex.exec(bodyHtml)) !== null) {
+        subtitles.push({
+          lang: match[1],
+          url: new URL(match[3], videoUrl.origin).href,
+        });
+      }
+
       let thumbnailSrc: string = '';
       $$('script').each((i, el) => {
         const scriptContent = $(el).html();
@@ -34,12 +45,12 @@ class Voe extends VideoExtractor {
           }
         }
       });
-      const subtitles: ISubtitle[] = [
-        {
+      if (thumbnailSrc) {
+        subtitles.push({
           lang: 'thumbnails',
           url: `${videoUrl.origin}${thumbnailSrc}`,
-        },
-      ];
+        });
+      }
 
       this.sources.push({
         url: atob(url),

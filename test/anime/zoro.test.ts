@@ -10,6 +10,11 @@ test('returns a filled array of anime list', async () => {
 });
 
 test('returns a filled array of anime list', async () => {
+  const data = await zoro.fetchAdvancedSearch(1, 'tv', 'finished_airing');
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of anime list', async () => {
   const data = await zoro.fetchTopAiring();
   expect(data.results).not.toEqual([]);
 });
