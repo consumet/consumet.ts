@@ -115,26 +115,26 @@ export class MegaUp extends VideoExtractor {
   Decode = (n: string) => {
     n = this.#substitute(
       this.#transform(
-        "fnxEj3tD4Bl0X",
+        'fnxEj3tD4Bl0X',
         this.#base64UrlDecode(
           this.#reverseIt(
             this.#reverseIt(
               this.#transform(
-                "IjilzMV57GrnF",
+                'IjilzMV57GrnF',
                 this.#base64UrlDecode(
                   this.#substitute(
                     this.#reverseIt(
                       this.#substitute(
                         this.#transform(
-                          "PlzI69YVCtGwoa8",
+                          'PlzI69YVCtGwoa8',
                           this.#base64UrlDecode(this.#base64UrlDecode(`${n}`))
                         ),
-                        "c2IfHZwSX1mj",
-                        "mwfXcS2ZjI1H"
+                        'c2IfHZwSX1mj',
+                        'mwfXcS2ZjI1H'
                       )
                     ),
-                    "82NkgQDYbIF",
-                    "82IQNkFgYbD"
+                    '82NkgQDYbIF',
+                    '82IQNkFgYbD'
                   )
                 )
               )
@@ -142,8 +142,8 @@ export class MegaUp extends VideoExtractor {
           )
         )
       ),
-      "crwkth05iJR8",
-      "JRkt8rw0i5ch"
+      'crwkth05iJR8',
+      'JRkt8rw0i5ch'
     );
 
     return decodeURIComponent(n);
