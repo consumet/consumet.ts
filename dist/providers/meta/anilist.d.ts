@@ -1,5 +1,5 @@
 import { AxiosAdapter } from 'axios';
-import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IAnimeEpisode, IEpisodeServer, Genres, MangaParser, IMangaChapterPage, IMangaInfo, IMangaResult, ProxyConfig, IStaff } from '../../models';
+import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IAnimeEpisode, IEpisodeServer, Genres, MangaParser, IMangaChapterPage, IMangaInfo, IMangaResult, ProxyConfig, IStaff, IAnilistAdvancedSearchProps } from '../../models';
 declare class Anilist extends AnimeParser {
     proxyConfig?: ProxyConfig | undefined;
     readonly name = "Anilist";
@@ -39,7 +39,7 @@ declare class Anilist extends AnimeParser {
      * @param status Status (optional) (options: `RELEASING`, `FINISHED`, `NOT_YET_RELEASED`, `CANCELLED`, `HIATUS`)
      * @param season Season (optional) (options: `WINTER`, `SPRING`, `SUMMER`, `FALL`)
      */
-    advancedSearch: (query?: string, type?: string, page?: number, perPage?: number, format?: string, sort?: string[], genres?: Genres[] | string[], id?: string | number, year?: number, status?: string, season?: string) => Promise<ISearch<IAnimeResult>>;
+    advancedSearch: ({ query, type, page, perPage, format, sort, genres, tags, id, year, status, season, }: IAnilistAdvancedSearchProps) => Promise<ISearch<IAnimeResult>>;
     /**
      *
      * @param id Anime id

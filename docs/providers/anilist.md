@@ -10,6 +10,7 @@ const anilist = new META.Anilist();
 <h2>Methods</h2>
 
 - [search](#search)
+- [advancedSearch](#advancedsearch)
 - [fetchTrendingAnime](#fetchtrendinganime)
 - [fetchPopularAnime](#fetchpopularanime)
 - [fetchAnimeInfo](#fetchanimeinfo)
@@ -66,6 +67,90 @@ output:
     }
     {...}
     ...
+  ]
+}
+```
+
+### advancedSearch
+
+<h4>Parameters</h4>
+
+This function takes a single object with the following properties:
+
+| Parameter            | Type                  | Description                                                                                              |
+| -------------------- | ----------------------|--------------------------------------------------------------------------------------------------------- |
+| query     (optional) | `string`              | query to search for. (*In this case, We're searching for `One Piece`*)                                   |
+| type      (optional) | `string`              | media type. (e.g `ANIME`, `MANGA`) **Default: "ANIME"**                                                  |
+| page      (optional) | `number`              | page number to search for.                                                                               |
+| perPage   (optional) | `number`              | number of results per page.  **Default: 15**                                                             |
+| format    (optional) | `string`              | format of the media. (e.g. `TV`, `MOVIE`, `OVA`...)                                                      |
+| sort      (optional) | `string[]`            | sorting options. (e.g. [`POPULARITY_DESC`, `SCORE`, ...]) **Default: ['POPULARITY_DESC', 'SCORE_DESC']** |
+| genres    (optional) | `string[]` `Genres[]` | list of genres to filter. (e.g. [`Action`, `Fantasy`])                                                   |
+| tags      (optional) | `string[]` `Tags[]`   | list of tags to filter. (e.g. [`Pirates`, `Shounen`])                                                    |
+| year      (optional) | `string` `number`     | filter by release year.                                                                                  |
+| id        (optional) | `string` `number`     | filter by specific ID.                                                                                   |
+| status    (optional) | `string`              | media status. (e.g. `FINISHED`, `RELEASING`, ...)                                                        |
+| season    (optional) | `string`              | season. (e.g. `SPRING`, `SUMMER`, `FALL`, `WINTER`)                                                      |
+
+```ts
+await anilist.advancedSearch({
+    query: "One piece",
+    type: "ANIME",
+    page: 1,
+    perPage: 10,
+    format: "MOVIE",
+    sort: ["POPULARITY_DESC"],
+    genres: ["Action", "Adventure"],
+    tags: ["Shounen"],
+    id: undefined,
+    year: 2016,
+    status: "FINISHED",
+    season: "SUMMER"
+  }).then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{
+  "currentPage": 1,
+  "hasNextPage": false,
+  "totalPages": 1,
+  "totalResults": 1,
+  "results": [
+    {
+      "id": "21335",
+      "malId": 31490,
+      "title": {
+        "romaji": "ONE PIECE FILM: GOLD",
+        "english": "One Piece Film: Gold",
+        "native": "ONE PIECE FILM GOLD",
+        "userPreferred": "ONE PIECE FILM: GOLD"
+      },
+      "status": "Completed",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21335-XsXdE0AeOkkZ.jpg",
+      "imageHash": "hash",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21335-ps20iVSGUXbD.jpg",
+      "coverHash": "hash",
+      "popularity": 47358,
+      "totalEpisodes": 1,
+      "currentEpisode": 1,
+      "countryOfOrigin": "JP",
+      "description": "In One Piece Film Gold, The Straw Hats are at it again in an all-new high-flying adventure! A gripping tale unfolds in the spectacular city of Gran Tesoro, where Luffy and his crew are drawn by dreams of hitting the jackpot. With so much luck, Luffy's winning streak can't possibly end. But behind the gilded curtains lies a powerful king whose deep pockets and deeper ambitions spell disaster for all.\n<br><br>\n(Source: FUNimation)",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Drama",
+        "Fantasy"
+      ],
+      "rating": 77,
+      "color": "#f1bb35",
+      "type": "MOVIE",
+      "releaseDate": 2016
+    }
   ]
 }
 ```

@@ -38,6 +38,7 @@ import {
   IMovieResult,
   Intro,
   Genres,
+  Tags,
   INewsFeed,
   Topics,
   INewsInfo,
@@ -47,6 +48,8 @@ import {
   ProxyConfig,
   IStaff,
   WatchListType,
+  IAnilistAdvancedSearchProps,
+  AnilistAdvancedSearchVariablesType,
 } from './types';
 import { LibgenBookObject, GetComicsComicsObject } from './type-objects';
 
@@ -92,6 +95,7 @@ export {
   IMovieResult,
   Intro,
   Genres,
+  Tags,
   INewsFeed,
   Topics,
   INewsInfo,
@@ -101,4 +105,6 @@ export {
   ProxyConfig,
   IStaff,
   WatchListType,
+  IAnilistAdvancedSearchProps,
+  AnilistAdvancedSearchVariablesType,
 };

@@ -20,6 +20,9 @@ import {
   MediaFormat,
   ITitle,
   IStaff,
+  IAnilistAdvancedSearchProps,
+  AnilistAdvancedSearchVariablesType,
+  Tags,
 } from '../../models';
 import {
   anilistSearchQuery,
@@ -201,44 +204,57 @@ class Anilist extends AnimeParser {
    * @param status Status (optional) (options: `RELEASING`, `FINISHED`, `NOT_YET_RELEASED`, `CANCELLED`, `HIATUS`)
    * @param season Season (optional) (options: `WINTER`, `SPRING`, `SUMMER`, `FALL`)
    */
-  advancedSearch = async (
-    query?: string,
-    type: string = 'ANIME',
-    page: number = 1,
-    perPage: number = 20,
-    format?: string,
-    sort?: string[],
-    genres?: Genres[] | string[],
-    id?: string | number,
-    year?: number,
-    status?: string,
-    season?: string
-  ): Promise<ISearch<IAnimeResult>> => {
+  advancedSearch = async ({
+    query,
+    type = 'ANIME',
+    page = 1,
+    perPage = 20,
+    format,
+    sort,
+    genres,
+    tags,
+    id,
+    year,
+    status,
+    season,
+  }: IAnilistAdvancedSearchProps): Promise<ISearch<IAnimeResult>> => {
+    const variables: AnilistAdvancedSearchVariablesType = {
+      search: query && query.length ? query : null,
+      type: type,
+      page: page,
+      size: perPage,
+      sort: sort && sort.length ? sort : ['POPULARITY_DESC', 'SCORE_DESC'],
+      genres: genres && genres.length ? genres : null,
+      tags: tags && tags.length ? tags : null,
+      year: year ? `${year}%` : '%',
+    };
+
+    if (id) variables.id = id;
+    if (format) variables.format = format;
+    if (status) variables.status = status;
+    if (season) variables.season = season;
+
     const options = {
       headers: {
         'Content-Type': 'application/json',
         Accept: 'application/json',
       },
       query: anilistAdvancedQuery(),
-      variables: {
-        search: query,
-        type: type,
-        page: page,
-        size: perPage,
-        format: format,
-        sort: sort,
-        genres: genres,
-        id: id,
-        year: year ? `${year}%` : undefined,
-        status: status,
-        season: season,
-      },
+      variables: variables,
     };
 
     if (genres) {
       genres.forEach(genre => {
         if (!Object.values(Genres).includes(genre as Genres)) {
           throw new Error(`genre ${genre} is not valid`);
+        }
+      });
+    }
+
+    if (tags) {
+      tags.forEach(tag => {
+        if (!Object.values(Tags).includes(tag as Tags)) {
+          throw new Error(`tag ${tag} is not valid`);
         }
       });
     }
