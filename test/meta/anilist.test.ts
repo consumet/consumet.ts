@@ -4,6 +4,39 @@ jest.setTimeout(120000);
 
 const anilist = new META.Anilist();
 
+test('returns a specific array of anime list', async () => {
+  let query: string | undefined = 'One piece';
+  let type: string | undefined = 'ANIME';
+  let page: number = 1;
+  let perPage: number = 10;
+  let format: string | undefined = 'MOVIE';
+  let sort: string[] | undefined = ['POPULARITY_DESC'];
+  let genres: string[] | undefined = ['Action', 'Adventure'];
+  let tags: string[] | undefined = ['Shounen'];
+  let id: string | number | undefined;
+  let year: number | undefined = 2016;
+  let status: string | undefined = 'FINISHED';
+  let season: string | undefined = 'SUMMER';
+
+  const data = await anilist.advancedSearch({
+    query,
+    type,
+    page,
+    perPage,
+    format,
+    sort,
+    genres,
+    tags,
+    id,
+    year,
+    status,
+    season,
+  });
+
+  expect(data.results.length).toBe(1);
+  expect(data.results.some(item => item.id === '21335')).toBe(true);
+});
+
 test('returns a filled array of anime list', async () => {
   const data = await anilist.search('spy x family');
   expect(data.results).not.toEqual([]);

@@ -152,32 +152,45 @@ class Anilist extends models_1.AnimeParser {
          * @param status Status (optional) (options: `RELEASING`, `FINISHED`, `NOT_YET_RELEASED`, `CANCELLED`, `HIATUS`)
          * @param season Season (optional) (options: `WINTER`, `SPRING`, `SUMMER`, `FALL`)
          */
-        this.advancedSearch = async (query, type = 'ANIME', page = 1, perPage = 20, format, sort, genres, id, year, status, season) => {
+        this.advancedSearch = async ({ query, type = 'ANIME', page = 1, perPage = 20, format, sort, genres, tags, id, year, status, season, }) => {
             var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y;
+            const variables = {
+                search: query && query.length ? query : null,
+                type: type,
+                page: page,
+                size: perPage,
+                sort: sort && sort.length ? sort : ['POPULARITY_DESC', 'SCORE_DESC'],
+                genres: genres && genres.length ? genres : null,
+                tags: tags && tags.length ? tags : null,
+                year: year ? `${year}%` : '%',
+            };
+            if (id)
+                variables.id = id;
+            if (format)
+                variables.format = format;
+            if (status)
+                variables.status = status;
+            if (season)
+                variables.season = season;
             const options = {
                 headers: {
                     'Content-Type': 'application/json',
                     Accept: 'application/json',
                 },
                 query: (0, utils_1.anilistAdvancedQuery)(),
-                variables: {
-                    search: query,
-                    type: type,
-                    page: page,
-                    size: perPage,
-                    format: format,
-                    sort: sort,
-                    genres: genres,
-                    id: id,
-                    year: year ? `${year}%` : undefined,
-                    status: status,
-                    season: season,
-                },
+                variables: variables,
             };
             if (genres) {
                 genres.forEach(genre => {
                     if (!Object.values(models_1.Genres).includes(genre)) {
                         throw new Error(`genre ${genre} is not valid`);
+                    }
+                });
+            }
+            if (tags) {
+                tags.forEach(tag => {
+                    if (!Object.values(models_1.Tags).includes(tag)) {
+                        throw new Error(`tag ${tag} is not valid`);
                     }
                 });
             }
