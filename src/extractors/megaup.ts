@@ -113,42 +113,42 @@ export class MegaUp extends VideoExtractor {
     return decodeURIComponent(n);
   };
   Decode = (n: string) => {
-    n = this.#substitute(
-      this.#transform(
-        'fnxEj3tD4Bl0X',
-        this.#base64UrlDecode(
+    n = this.#transform(
+      "A6mkJw3XMsruY", 
+      this.#base64UrlDecode(
+        this.#substitute(
           this.#reverseIt(
             this.#reverseIt(
               this.#transform(
-                'IjilzMV57GrnF',
+                "Sv7tijKFrwDxsl9", 
                 this.#base64UrlDecode(
                   this.#substitute(
-                    this.#reverseIt(
-                      this.#substitute(
-                        this.#transform(
-                          'PlzI69YVCtGwoa8',
-                          this.#base64UrlDecode(this.#base64UrlDecode(`${n}`))
-                        ),
-                        'c2IfHZwSX1mj',
-                        'mwfXcS2ZjI1H'
+                    this.#transform(
+                      "j8971KLwSyI", 
+                      this.#base64UrlDecode(
+                        this.#reverseIt(
+                          this.#substitute(
+                            this.#base64UrlDecode(`${n}`), 
+                            "kxV4iJtRZg3", 
+                            "VJx34RtgkZi"
+                          )
+                        )
                       )
-                    ),
-                    '82NkgQDYbIF',
-                    '82IQNkFgYbD'
+                    ), 
+                    "BjZ9dF6AxHTqn", 
+                    "jxqZdB6n9FTHA"
                   )
                 )
               )
             )
-          )
+          ), 
+          "FpPBdhzCyGYoDvO", 
+          "YGFpvoBdCyDPhzO"
         )
-      ),
-      'crwkth05iJR8',
-      'JRkt8rw0i5ch'
+      )
     );
-
     return decodeURIComponent(n);
   };
-
   override extract = async (videoUrl: URL): Promise<ISource> => {
     try {
       const url = videoUrl.href.replace(/\/(e|e2)\//, '/media/');
