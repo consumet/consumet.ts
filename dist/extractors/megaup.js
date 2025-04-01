@@ -60,7 +60,37 @@ class MegaUp extends models_1.VideoExtractor {
             return decodeURIComponent(n);
         };
         this.Decode = (n) => {
-            n = __classPrivateFieldGet(this, _MegaUp_substitute, "f").call(this, __classPrivateFieldGet(this, _MegaUp_transform, "f").call(this, 'fnxEj3tD4Bl0X', __classPrivateFieldGet(this, _MegaUp_base64UrlDecode, "f").call(this, __classPrivateFieldGet(this, _MegaUp_reverseIt, "f").call(this, __classPrivateFieldGet(this, _MegaUp_reverseIt, "f").call(this, __classPrivateFieldGet(this, _MegaUp_transform, "f").call(this, 'IjilzMV57GrnF', __classPrivateFieldGet(this, _MegaUp_base64UrlDecode, "f").call(this, __classPrivateFieldGet(this, _MegaUp_substitute, "f").call(this, __classPrivateFieldGet(this, _MegaUp_reverseIt, "f").call(this, __classPrivateFieldGet(this, _MegaUp_substitute, "f").call(this, __classPrivateFieldGet(this, _MegaUp_transform, "f").call(this, 'PlzI69YVCtGwoa8', __classPrivateFieldGet(this, _MegaUp_base64UrlDecode, "f").call(this, __classPrivateFieldGet(this, _MegaUp_base64UrlDecode, "f").call(this, `${n}`))), 'c2IfHZwSX1mj', 'mwfXcS2ZjI1H')), '82NkgQDYbIF', '82IQNkFgYbD'))))))), 'crwkth05iJR8', 'JRkt8rw0i5ch');
+            n = __classPrivateFieldGet(this, _MegaUp_transform, "f").call(this, "A6mkJw3XMsruY", 
+                __classPrivateFieldGet(this, _MegaUp_base64UrlDecode, "f").call(this, 
+                    __classPrivateFieldGet(this, _MegaUp_substitute, "f").call(this, 
+                        __classPrivateFieldGet(this, _MegaUp_reverseIt, "f").call(this, 
+                            __classPrivateFieldGet(this, _MegaUp_reverseIt, "f").call(this, 
+                                __classPrivateFieldGet(this, _MegaUp_transform, "f").call(this, "Sv7tijKFrwDxsl9", 
+                                    __classPrivateFieldGet(this, _MegaUp_base64UrlDecode, "f").call(this, 
+                                        __classPrivateFieldGet(this, _MegaUp_substitute, "f").call(this, 
+                                            __classPrivateFieldGet(this, _MegaUp_transform, "f").call(this, "j8971KLwSyI", 
+                                                __classPrivateFieldGet(this, _MegaUp_base64UrlDecode, "f").call(this, 
+                                                    __classPrivateFieldGet(this, _MegaUp_reverseIt, "f").call(this, 
+                                                        __classPrivateFieldGet(this, _MegaUp_substitute, "f").call(this, 
+                                                            __classPrivateFieldGet(this, _MegaUp_base64UrlDecode, "f").call(this, n), 
+                                                            "kxV4iJtRZg3", 
+                                                            "VJx34RtgkZi"
+                                                        )
+                                                    )
+                                                )
+                                            ), 
+                                            "BjZ9dF6AxHTqn", 
+                                            "jxqZdB6n9FTHA"
+                                        )
+                                    )
+                                )
+                            )
+                        ), 
+                        "FpPBdhzCyGYoDvO", 
+                        "YGFpvoBdCyDPhzO"
+                    )
+                )
+            );
             return decodeURIComponent(n);
         };
         this.extract = async (videoUrl) => {
