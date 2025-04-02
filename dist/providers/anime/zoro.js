@@ -149,6 +149,7 @@ class Zoro extends models_1.AnimeParser {
                     case models_1.StreamingServers.VidStreaming:
                     case models_1.StreamingServers.VidCloud:
                         return {
+                            headers: { Referer: serverUrl.href },
                             ...(await new utils_1.MegaCloud().extract(serverUrl, this.baseUrl)),
                         };
                     case models_1.StreamingServers.StreamSB:
@@ -804,8 +805,8 @@ class Zoro extends models_1.AnimeParser {
 //   const zoro = new Zoro();
 //   const anime = await zoro.search('Dandadan');
 //   const info = await zoro.fetchAnimeInfo('solo-leveling-season-2-arise-from-the-shadow-19413');
-//   console.log(info.episodes);
 //   const sources = await zoro.fetchEpisodeSources("solo-leveling-season-2-arise-from-the-shadow-19413$episode$131394$dub", StreamingServers.VidCloud,SubOrSub.DUB);
+//   console.log(sources);
 // })();
 exports.default = Zoro;
 //# sourceMappingURL=zoro.js.map

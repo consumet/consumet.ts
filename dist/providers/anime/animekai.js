@@ -154,11 +154,13 @@ class AnimeKai extends models_1.AnimeParser {
                         return {
                             headers: { Referer: serverUrl.href },
                             ...(await new utils_1.MegaUp(this.proxyConfig, this.adapter).extract(serverUrl)),
+                            download: serverUrl.href.replace(/\/e\//, '/download/'),
                         };
                     default:
                         return {
                             headers: { Referer: serverUrl.href },
                             ...(await new utils_1.MegaUp(this.proxyConfig, this.adapter).extract(serverUrl)),
+                            download: serverUrl.href.replace(/\/e\//, '/download/'),
                         };
                 }
             }
@@ -272,7 +274,7 @@ class AnimeKai extends models_1.AnimeParser {
                     const { data } = await this.client.get(`${this.baseUrl}/ajax/links/view?id=${id}&_=${GenerateToken(id)}`, { headers: this.Headers() });
                     const decodedData = JSON.parse(DecodeIframeData(data.result));
                     servers.push({
-                        name: `MegaUp ${$(server).text().trim()}`, //megaup is the only server for now
+                        name: `MegaUp ${$(server).text().trim()}`.toLowerCase(), //megaup is the only server for now
                         url: decodedData.url,
                         intro: {
                             start: decodedData === null || decodedData === void 0 ? void 0 : decodedData.skip.intro[0],
