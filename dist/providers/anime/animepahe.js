@@ -58,10 +58,11 @@ class AnimePahe extends models_1.AnimeParser {
                 animeInfo.hasSub = true;
                 animeInfo.externalLinks = [];
                 $('p.external-links > a').each((i, el) => {
-                    var _a, _b, _c, _d;
-                    (_a = animeInfo.externalLinks) === null || _a === void 0 ? void 0 : _a.push({
-                        id: (_c = (_b = $(el).attr('href')) === null || _b === void 0 ? void 0 : _b.trim()) === null || _c === void 0 ? void 0 : _c.split('/').pop(),
-                        url: (_d = $(el).attr('href')) === null || _d === void 0 ? void 0 : _d.trim(),
+                    var _a, _b;
+                    const url = (_a = $(el).attr('href')) === null || _a === void 0 ? void 0 : _a.trim();
+                    (_b = animeInfo.externalLinks) === null || _b === void 0 ? void 0 : _b.push({
+                        id: (url === null || url === void 0 ? void 0 : url.includes('?')) ? url === null || url === void 0 ? void 0 : url.split('?')[1].split('=')[1] : url === null || url === void 0 ? void 0 : url.split('/').pop(),
+                        url: url,
                         sourceName: $(el).text().trim(),
                     });
                 });

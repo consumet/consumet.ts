@@ -73,9 +73,10 @@ class AnimePahe extends AnimeParser {
 
       animeInfo.externalLinks = [];
       $('p.external-links > a').each((i, el) => {
+        const url = $(el).attr('href')?.trim();
         animeInfo.externalLinks?.push({
-          id: $(el).attr('href')?.trim()?.split('/').pop(),
-          url: $(el).attr('href')?.trim(),
+          id: url?.includes('?') ? url?.split('?')[1].split('=')[1] : url?.split('/').pop(),
+          url: url,
           sourceName: $(el).text().trim(),
         });
       });
