@@ -56,6 +56,15 @@ class AnimePahe extends models_1.AnimeParser {
                     .map((i, el) => $(el).find('a').attr('title'))
                     .get();
                 animeInfo.hasSub = true;
+                animeInfo.externalLinks = [];
+                $('p.external-links > a').each((i, el) => {
+                    var _a, _b, _c, _d;
+                    (_a = animeInfo.externalLinks) === null || _a === void 0 ? void 0 : _a.push({
+                        id: (_c = (_b = $(el).attr('href')) === null || _b === void 0 ? void 0 : _b.trim()) === null || _c === void 0 ? void 0 : _c.split('/').pop(),
+                        url: (_d = $(el).attr('href')) === null || _d === void 0 ? void 0 : _d.trim(),
+                        sourceName: $(el).text().trim(),
+                    });
+                });
                 switch ($('div.anime-info p:icontains("Status:") a').text().trim()) {
                     case 'Currently Airing':
                         animeInfo.status = models_1.MediaStatus.ONGOING;
