@@ -553,13 +553,13 @@ class AnimeKai extends models_1.AnimeParser {
         };
     }
 }
-// (async () => {
-//   const animekai = new AnimeKai();
-//   const anime = await animekai.search('dandadan');
-//   const info = await animekai.fetchAnimeInfo('solo-leveling-season-2-arise-from-the-shadow-x7rq');
-//     console.log(info.episodes);
-//   const sources = await animekai.fetchEpisodeSources(info?.episodes![0].id!);
-//   console.log(sources);
-// })();
+//(async () => {
+//  const animekai = new AnimeKai();
+//  const anime = await animekai.search('dandadan');
+//  const info = await animekai.fetchAnimeInfo('solo-leveling-season-2-arise-from-the-shadow-x7rq');
+//  console.log(info.episodes);
+//  const sources = await animekai.fetchEpisodeSources(info?.episodes![0].id!);
+//  console.log(sources);
+//})();
 exports.default = AnimeKai;
 //# sourceMappingURL=animekai.js.map
