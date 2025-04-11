@@ -26,6 +26,50 @@ export class MegaUp extends VideoExtractor {
   private KAICODEX!: KaiCodex;
   private kaicodexReady: Promise<void>;
 
+  /* Old decrypting functions in case the new ones break
+
+  #reverseIt = (n: string) => {
+    return n.split('').reverse().join('');
+  };
+  #base64UrlEncode = (str: string) => {
+    return btoa(str).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  };
+  #substitute = (input: string, keys: string, values: string) => {
+    const map = Object.fromEntries(keys.split('').map((key, i) => [key, values[i] || '']));
+    const a = input
+      .split('')
+      .map(char => map[char] || char)
+      .join('');
+    return a;
+  };
+  #transform = (n: string, t: string) => {
+    const v = Array.from({ length: 256 }, (_, i) => i);
+    let c = 0,
+      f = '';
+
+    for (let w = 0; w < 256; w++) {
+      c = (c + v[w] + n.charCodeAt(w % n.length)) % 256;
+      [v[w], v[c]] = [v[c], v[w]];
+    }
+    for (let a = (c = 0), w = 0; a < t.length; a++) {
+      w = (w + 1) % 256;
+      c = (c + v[w]) % 256;
+      [v[w], v[c]] = [v[c], v[w]];
+      f += String.fromCharCode(t.charCodeAt(a) ^ v[(v[w] + v[c]) % 256]);
+    }
+
+    return f;
+  };
+  #base64UrlDecode = (n: string) => {
+    n = n
+      .padEnd(n.length + ((4 - (n.length % 4)) % 4), '=')
+      .replace(/-/g, '+')
+      .replace(/_/g, '/');
+    return atob(n);
+  };
+  
+  */
+
   constructor(protected proxyConfig?: ProxyConfig, protected adapter?: AxiosAdapter) {
     super(proxyConfig, adapter);
     this.kaicodexReady = this.loadKAICODEX();
