@@ -58,6 +58,12 @@ export interface FuzzyDate {
   day?: number;
 }
 
+export interface ExternalLink {
+  id?: string;
+  url?: string;
+  sourceName?: string;
+}
+
 export enum MediaFormat {
   TV = 'TV',
   TV_SHORT = 'TV_SHORT',
@@ -100,6 +106,7 @@ export interface IAnimeInfo extends IAnimeResult {
   studios?: string[];
   color?: string;
   cover?: string;
+  externalLinks?: ExternalLink[];
   trailer?: Trailer;
   episodes?: IAnimeEpisode[];
   startDate?: FuzzyDate;

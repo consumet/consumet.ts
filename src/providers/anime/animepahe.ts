@@ -71,6 +71,16 @@ class AnimePahe extends AnimeParser {
         .get();
       animeInfo.hasSub = true;
 
+      animeInfo.externalLinks = [];
+      $('p.external-links > a').each((i, el) => {
+        const url = $(el).attr('href')?.trim();
+        animeInfo.externalLinks?.push({
+          id: url?.includes('?') ? url?.split('?')[1].split('=')[1] : url?.split('/').pop(),
+          url: url,
+          sourceName: $(el).text().trim(),
+        });
+      });
+
       switch ($('div.anime-info p:icontains("Status:") a').text().trim()) {
         case 'Currently Airing':
           animeInfo.status = MediaStatus.ONGOING;
@@ -95,6 +105,7 @@ class AnimePahe extends AnimeParser {
         .replace('Studio:', '')
         .trim()
         .split('\n');
+
       animeInfo.totalEpisodes = parseInt(
         $('div.anime-info > p:contains("Episodes:")').text().replace('Episodes:', '')
       );

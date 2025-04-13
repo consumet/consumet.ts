@@ -1,73 +1,77 @@
 "use strict";
 //extractor for https://animekai.to
-var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (receiver, state, kind, f) {
-    if (kind === "a" && !f) throw new TypeError("Private accessor was defined without a getter");
-    if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver)) throw new TypeError("Cannot read private member from an object whose class did not declare it");
-    return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
-};
-var _MegaUp_reverseIt, _MegaUp_base64UrlEncode, _MegaUp_substitute, _MegaUp_transform, _MegaUp_base64UrlDecode;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MegaUp = void 0;
+// The code for this is now fetched from outside consumet:
+// https://raw.githubusercontent.com/amarullz/kaicodex/refs/heads/main/generated/kai_codex.js
+// as this repository auto-updates the extraction keys when they change.
+// If something breaks in the future, blame this part.
 const models_1 = require("../models");
 class MegaUp extends models_1.VideoExtractor {
-    constructor() {
-        super(...arguments);
+    /* Old decrypting functions in case the new ones break
+  
+    #reverseIt = (n: string) => {
+      return n.split('').reverse().join('');
+    };
+    #base64UrlEncode = (str: string) => {
+      return btoa(str).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+    };
+    #substitute = (input: string, keys: string, values: string) => {
+      const map = Object.fromEntries(keys.split('').map((key, i) => [key, values[i] || '']));
+      const a = input
+        .split('')
+        .map(char => map[char] || char)
+        .join('');
+      return a;
+    };
+    #transform = (n: string, t: string) => {
+      const v = Array.from({ length: 256 }, (_, i) => i);
+      let c = 0,
+        f = '';
+  
+      for (let w = 0; w < 256; w++) {
+        c = (c + v[w] + n.charCodeAt(w % n.length)) % 256;
+        [v[w], v[c]] = [v[c], v[w]];
+      }
+      for (let a = (c = 0), w = 0; a < t.length; a++) {
+        w = (w + 1) % 256;
+        c = (c + v[w]) % 256;
+        [v[w], v[c]] = [v[c], v[w]];
+        f += String.fromCharCode(t.charCodeAt(a) ^ v[(v[w] + v[c]) % 256]);
+      }
+  
+      return f;
+    };
+    #base64UrlDecode = (n: string) => {
+      n = n
+        .padEnd(n.length + ((4 - (n.length % 4)) % 4), '=')
+        .replace(/-/g, '+')
+        .replace(/_/g, '/');
+      return atob(n);
+    };
+    
+    */
+    constructor(proxyConfig, adapter) {
+        super(proxyConfig, adapter);
+        this.proxyConfig = proxyConfig;
+        this.adapter = adapter;
         this.serverName = 'MegaUp';
         this.sources = [];
-        _MegaUp_reverseIt.set(this, (n) => {
-            return n.split('').reverse().join('');
-        });
-        _MegaUp_base64UrlEncode.set(this, (str) => {
-            return btoa(str).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
-        });
-        _MegaUp_substitute.set(this, (input, keys, values) => {
-            const map = Object.fromEntries(keys.split('').map((key, i) => [key, values[i] || '']));
-            const a = input
-                .split('')
-                .map(char => map[char] || char)
-                .join('');
-            return a;
-        });
-        _MegaUp_transform.set(this, (n, t) => {
-            const v = Array.from({ length: 256 }, (_, i) => i);
-            let c = 0, f = '';
-            for (let w = 0; w < 256; w++) {
-                c = (c + v[w] + n.charCodeAt(w % n.length)) % 256;
-                [v[w], v[c]] = [v[c], v[w]];
-            }
-            for (let a = (c = 0), w = 0; a < t.length; a++) {
-                w = (w + 1) % 256;
-                c = (c + v[w]) % 256;
-                [v[w], v[c]] = [v[c], v[w]];
-                f += String.fromCharCode(t.charCodeAt(a) ^ v[(v[w] + v[c]) % 256]);
-            }
-            return f;
-        });
-        _MegaUp_base64UrlDecode.set(this, (n) => {
-            n = n
-                .padEnd(n.length + ((4 - (n.length % 4)) % 4), '=')
-                .replace(/-/g, '+')
-                .replace(/_/g, '/');
-            return atob(n);
-        });
         this.GenerateToken = (n) => {
-            n = encodeURIComponent(n);
-            return (n = __classPrivateFieldGet(this, _MegaUp_base64UrlEncode, "f").call(this, __classPrivateFieldGet(this, _MegaUp_substitute, "f").call(this, __classPrivateFieldGet(this, _MegaUp_base64UrlEncode, "f").call(this, __classPrivateFieldGet(this, _MegaUp_transform, "f").call(this, 'sXmH96C4vhRrgi8', __classPrivateFieldGet(this, _MegaUp_reverseIt, "f").call(this, __classPrivateFieldGet(this, _MegaUp_reverseIt, "f").call(this, __classPrivateFieldGet(this, _MegaUp_base64UrlEncode, "f").call(this, __classPrivateFieldGet(this, _MegaUp_transform, "f").call(this, 'kOCJnByYmfI', __classPrivateFieldGet(this, _MegaUp_substitute, "f").call(this, __classPrivateFieldGet(this, _MegaUp_substitute, "f").call(this, __classPrivateFieldGet(this, _MegaUp_reverseIt, "f").call(this, __classPrivateFieldGet(this, _MegaUp_base64UrlEncode, "f").call(this, __classPrivateFieldGet(this, _MegaUp_transform, "f").call(this, '0DU8ksIVlFcia2', n))), '1wctXeHqb2', '1tecHq2Xbw'), '48KbrZx1ml', 'Km8Zb4lxr1'))))))), 'hTn79AMjduR5', 'djn5uT7AMR9h')));
+            return this.KAICODEX.enc(n);
         };
         this.DecodeIframeData = (n) => {
-            n = `${n}`;
-            n = __classPrivateFieldGet(this, _MegaUp_transform, "f").call(this, '0DU8ksIVlFcia2', __classPrivateFieldGet(this, _MegaUp_base64UrlDecode, "f").call(this, __classPrivateFieldGet(this, _MegaUp_reverseIt, "f").call(this, __classPrivateFieldGet(this, _MegaUp_substitute, "f").call(this, __classPrivateFieldGet(this, _MegaUp_substitute, "f").call(this, __classPrivateFieldGet(this, _MegaUp_transform, "f").call(this, 'kOCJnByYmfI', __classPrivateFieldGet(this, _MegaUp_base64UrlDecode, "f").call(this, __classPrivateFieldGet(this, _MegaUp_reverseIt, "f").call(this, __classPrivateFieldGet(this, _MegaUp_reverseIt, "f").call(this, __classPrivateFieldGet(this, _MegaUp_transform, "f").call(this, 'sXmH96C4vhRrgi8', __classPrivateFieldGet(this, _MegaUp_base64UrlDecode, "f").call(this, __classPrivateFieldGet(this, _MegaUp_substitute, "f").call(this, __classPrivateFieldGet(this, _MegaUp_base64UrlDecode, "f").call(this, n), 'djn5uT7AMR9h', 'hTn79AMjduR5'))))))), 'Km8Zb4lxr1', '48KbrZx1ml'), '1tecHq2Xbw', '1wctXeHqb2'))));
-            return decodeURIComponent(n);
+            return this.KAICODEX.dec(n);
         };
         this.Decode = (n) => {
-            n = __classPrivateFieldGet(this, _MegaUp_substitute, "f").call(this, __classPrivateFieldGet(this, _MegaUp_reverseIt, "f").call(this, __classPrivateFieldGet(this, _MegaUp_transform, "f").call(this, '3U8XtHJfgam02k', __classPrivateFieldGet(this, _MegaUp_base64UrlDecode, "f").call(this, __classPrivateFieldGet(this, _MegaUp_transform, "f").call(this, 'PgiY5eIZWn', __classPrivateFieldGet(this, _MegaUp_base64UrlDecode, "f").call(this, __classPrivateFieldGet(this, _MegaUp_substitute, "f").call(this, __classPrivateFieldGet(this, _MegaUp_reverseIt, "f").call(this, __classPrivateFieldGet(this, _MegaUp_substitute, "f").call(this, __classPrivateFieldGet(this, _MegaUp_transform, "f").call(this, 'QKbVomcBHysCW9', __classPrivateFieldGet(this, _MegaUp_base64UrlDecode, "f").call(this, __classPrivateFieldGet(this, _MegaUp_reverseIt, "f").call(this, __classPrivateFieldGet(this, _MegaUp_base64UrlDecode, "f").call(this, n)))), '0GsO8otUi21aY', 'Go1UiY82st0Oa')), 'rXjnhU3SsbEd', 'rXEsS3nbjhUd')))))), '7DtY4mHcMA2yIL', 'IM7Am4D2yYHctL');
-            return decodeURIComponent(n);
+            return this.KAICODEX.decMega(n);
         };
         this.extract = async (videoUrl) => {
             try {
+                await this.kaicodexReady;
                 const url = videoUrl.href.replace(/\/(e|e2)\//, '/media/');
                 const res = await this.client.get(url);
-                const decrypted = JSON.parse(this.Decode(res.data.result).replace(/\\/g, ''));
+                const decrypted = JSON.parse(this.KAICODEX.decMega(res.data.result).replace(/\\/g, ''));
                 const data = {
                     sources: decrypted.sources.map((s) => ({
                         url: s.file,
@@ -85,8 +89,19 @@ class MegaUp extends models_1.VideoExtractor {
                 throw new Error(error.message);
             }
         };
+        this.kaicodexReady = this.loadKAICODEX();
+    }
+    async loadKAICODEX() {
+        const extraction_code = 'https://raw.githubusercontent.com/amarullz/kaicodex/refs/heads/main/generated/kai_codex.js';
+        const response = await fetch(extraction_code);
+        const originalCode = await response.text();
+        const wrappedCode = `
+      ${originalCode}
+      return KAICODEX;
+    `;
+        const fn = new Function(wrappedCode);
+        this.KAICODEX = fn();
     }
 }
 exports.MegaUp = MegaUp;
-_MegaUp_reverseIt = new WeakMap(), _MegaUp_base64UrlEncode = new WeakMap(), _MegaUp_substitute = new WeakMap(), _MegaUp_transform = new WeakMap(), _MegaUp_base64UrlDecode = new WeakMap();
 //# sourceMappingURL=megaup.js.map
