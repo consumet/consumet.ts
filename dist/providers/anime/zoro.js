@@ -801,12 +801,16 @@ class Zoro extends models_1.AnimeParser {
         });
     }
 }
-(async () => {
-    const zoro = new Zoro();
-    const anime = await zoro.search('Dandadan');
-    const info = await zoro.fetchAnimeInfo('solo-leveling-season-2-arise-from-the-shadow-19413');
-    const sources = await zoro.fetchEpisodeSources('solo-leveling-season-2-arise-from-the-shadow-19413$episode$131394$dub', models_1.StreamingServers.VidCloud, models_1.SubOrSub.DUB);
-    console.log(sources);
-})();
+// (async () => {
+//   const zoro = new Zoro();
+//   const anime = await zoro.search('Dandadan');
+//   const info = await zoro.fetchAnimeInfo('solo-leveling-season-2-arise-from-the-shadow-19413');
+//   const sources = await zoro.fetchEpisodeSources(
+//     'solo-leveling-season-2-arise-from-the-shadow-19413$episode$131394$dub',
+//     StreamingServers.VidCloud,
+//     SubOrSub.DUB
+//   );
+//   console.log(sources);
+// })();
 exports.default = Zoro;
 //# sourceMappingURL=zoro.js.map
