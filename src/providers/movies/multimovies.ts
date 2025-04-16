@@ -13,9 +13,9 @@ import { MixDrop, StreamTape, StreamWish, VidHide } from '../../extractors';
 
 class MultiMovies extends MovieParser {
   override readonly name = 'MultiMovies';
-  protected override baseUrl = 'https://multimovies.life';
+  protected override baseUrl = 'https://multimovies.guru';
   protected override logo =
-    'https://multimovies.life/wp-content/uploads/2024/01/cropped-CompressJPEG.online_512x512_image.png';
+    'https://multimovies.guru/wp-content/uploads/2024/01/cropped-CompressJPEG.online_512x512_image.png';
   protected override classPath = 'MOVIES.MultiMovies';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
   constructor(customBaseURL?: string) {
@@ -469,11 +469,11 @@ class MultiMovies extends MovieParser {
 // (async () => {
 //   const movie = new MultiMovies();
 //   const search = await movie.search('jujutsu');
-//   const movieInfo = await movie.fetchEpisodeSources('movies/pushpa-2-the-rule/');
-//   const server = await movie.fetchEpisodeServers('movies/pushpa-2-the-rule/');
+//   const movieInfo = await movie.fetchEpisodeSources(search.results[0]?.id);
+//   const server = await movie.fetchEpisodeServers(search.results[0]?.id);
 //   // const recentTv = await movie.fetchPopular();
 //   // const genre = await movie.fetchByGenre('action');
-//   console.log(search);
+//   console.log(movieInfo,server);
 // })();
 
 export default MultiMovies;

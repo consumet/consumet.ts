@@ -56,7 +56,8 @@ class StreamWish extends VideoExtractor {
       } else {
         console.log('No match found');
       }
-      const links = p.match(/file:\s*"([^"]+\.m3u8[^"]*)"/) ?? [];
+      let link = p.match(/https?:\/\/[^"]+?\.m3u8[^"]*/)![0];
+      // console.log('Decoded Links:', link);
       const subtitleMatches =
         p?.match(/{file:"([^"]+)",(label:"([^"]+)",)?kind:"(thumbnails|captions)"/g) ?? [];
       // console.log(subtitleMatches, 'subtitleMatches');
@@ -75,19 +76,15 @@ class StreamWish extends VideoExtractor {
           url: url,
         };
       });
-      let lastLink: string | null = null;
-      links.forEach((link: string) => {
-        if (link.includes('file:"')) {
-          link = link.replace('file:"', '').replace(new RegExp('"', 'g'), '');
-        }
-        const linkParser = new URL(link);
-        linkParser.searchParams.set('i', '0.4');
-        this.sources.push({
-          quality: lastLink! ? 'backup' : 'default',
-          url: linkParser.href,
-          isM3U8: link.includes('.m3u8'),
-        });
-        lastLink = link;
+      if (link.includes('hls2"')) {
+        link = link.replace('hls2"', '').replace(new RegExp('"', 'g'), '');
+      }
+      const linkParser = new URL(link);
+      linkParser.searchParams.set('i', '0.4');
+      this.sources.push({
+        quality: 'default',
+        url: linkParser.href,
+        isM3U8: link.includes('.m3u8'),
       });
 
       try {
@@ -98,7 +95,7 @@ class StreamWish extends VideoExtractor {
           for (const video of videoList ?? []) {
             if (!video.includes('m3u8')) continue;
 
-            const url = links[1].split('master.m3u8')[0] + video.split('\n')[1];
+            const url = link.split('master.m3u8')[0] + video.split('\n')[1];
             const quality = video.split('RESOLUTION=')[1].split(',')[0].split('x')[1];
 
             this.sources.push({

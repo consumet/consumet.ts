@@ -7,8 +7,8 @@ class MultiMovies extends models_1.MovieParser {
     constructor(customBaseURL) {
         super(...arguments);
         this.name = 'MultiMovies';
-        this.baseUrl = 'https://multimovies.life';
-        this.logo = 'https://multimovies.life/wp-content/uploads/2024/01/cropped-CompressJPEG.online_512x512_image.png';
+        this.baseUrl = 'https://multimovies.guru';
+        this.logo = 'https://multimovies.guru/wp-content/uploads/2024/01/cropped-CompressJPEG.online_512x512_image.png';
         this.classPath = 'MOVIES.MultiMovies';
         this.supportedTypes = new Set([models_1.TvType.MOVIE, models_1.TvType.TVSERIES]);
         /**
@@ -411,11 +411,11 @@ class MultiMovies extends models_1.MovieParser {
 // (async () => {
 //   const movie = new MultiMovies();
 //   const search = await movie.search('jujutsu');
-//   const movieInfo = await movie.fetchEpisodeSources('movies/pushpa-2-the-rule/');
-//   const server = await movie.fetchEpisodeServers('movies/pushpa-2-the-rule/');
+//   const movieInfo = await movie.fetchEpisodeSources(search.results[0]?.id);
+//   const server = await movie.fetchEpisodeServers(search.results[0]?.id);
 //   // const recentTv = await movie.fetchPopular();
 //   // const genre = await movie.fetchByGenre('action');
-//   console.log(search);
+//   console.log(movieInfo,server);
 // })();
 exports.default = MultiMovies;
 //# sourceMappingURL=multimovies.js.map

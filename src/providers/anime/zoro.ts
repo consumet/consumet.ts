@@ -21,7 +21,7 @@ import { USER_AGENT } from '../../utils';
 
 class Zoro extends AnimeParser {
   override readonly name = 'Zoro';
-  protected override baseUrl = 'https://hianime.to';
+  protected override baseUrl = 'https://hianimez.to';
   protected override logo =
     'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
   protected override classPath = 'ANIME.Zoro';
@@ -891,7 +891,11 @@ class Zoro extends AnimeParser {
 //   const zoro = new Zoro();
 //   const anime = await zoro.search('Dandadan');
 //   const info = await zoro.fetchAnimeInfo('solo-leveling-season-2-arise-from-the-shadow-19413');
-//   const sources = await zoro.fetchEpisodeSources("solo-leveling-season-2-arise-from-the-shadow-19413$episode$131394$dub", StreamingServers.VidCloud,SubOrSub.DUB);
+//   const sources = await zoro.fetchEpisodeSources(
+//     'solo-leveling-season-2-arise-from-the-shadow-19413$episode$131394$dub',
+//     StreamingServers.VidCloud,
+//     SubOrSub.DUB
+//   );
 //   console.log(sources);
 // })();
 
