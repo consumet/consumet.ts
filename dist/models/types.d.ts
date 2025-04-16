@@ -329,7 +329,10 @@ export interface ISource {
     outro?: Intro;
     subtitles?: ISubtitle[];
     sources: IVideo[];
-    download?: string;
+    download?: string | {
+        url?: string;
+        quality?: string;
+    }[];
     embedURL?: string;
 }
 /**

@@ -191,6 +191,13 @@ class AnimePahe extends AnimeParser {
         audio: $(el).attr('data-audio'),
       }));
 
+      const downloads = $('div#pickDownload > a')
+        .map((i, el) => ({
+          url: $(el).attr('href')!,
+          quality: $(el).text(),
+        }))
+        .get();
+
       const iSource: ISource = {
         headers: {
           Referer: 'https://kwik.cx/',
@@ -203,6 +210,7 @@ class AnimePahe extends AnimeParser {
         res[0].isDub = link.audio === 'eng';
         iSource.sources.push(res[0]);
       }
+      iSource.download = downloads;
 
       return iSource;
     } catch (err) {
