@@ -9,6 +9,7 @@ import Turkish from './turkish123';
 import ViewAsian from './viewAsian';
 import SFlix from './sflix';
 import MultiMovies from './multimovies';
+import NetflixMirror from './netflixmirror';
 
 export default {
   DramaCool,
@@ -22,4 +23,5 @@ export default {
   Turkish,
   SFlix,
   MultiMovies,
+  NetflixMirror,
 };

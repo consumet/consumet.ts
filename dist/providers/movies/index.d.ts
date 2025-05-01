@@ -9,6 +9,7 @@ import Turkish from './turkish123';
 import ViewAsian from './viewAsian';
 import SFlix from './sflix';
 import MultiMovies from './multimovies';
+import NetflixMirror from './netflixmirror';
 declare const _default: {
     DramaCool: typeof DramaCool;
     FlixHQ: typeof FlixHQ;
@@ -21,5 +22,6 @@ declare const _default: {
     Turkish: typeof Turkish;
     SFlix: typeof SFlix;
     MultiMovies: typeof MultiMovies;
+    NetflixMirror: typeof NetflixMirror;
 };
 export default _default;
