@@ -14,6 +14,7 @@ const turkish123_1 = __importDefault(require("./turkish123"));
 const viewAsian_1 = __importDefault(require("./viewAsian"));
 const sflix_1 = __importDefault(require("./sflix"));
 const multimovies_1 = __importDefault(require("./multimovies"));
+const netflixmirror_1 = __importDefault(require("./netflixmirror"));
 exports.default = {
     DramaCool: dramacool_1.default,
     FlixHQ: flixhq_1.default,
@@ -26,5 +27,6 @@ exports.default = {
     Turkish: turkish123_1.default,
     SFlix: sflix_1.default,
     MultiMovies: multimovies_1.default,
+    NetflixMirror: netflixmirror_1.default,
 };
 //# sourceMappingURL=index.js.map

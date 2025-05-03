@@ -46,6 +46,7 @@ exports.PROVIDERS_LIST = {
         new providers_1.MOVIES.ViewAsian(),
         new providers_1.MOVIES.SFlix(),
         new providers_1.MOVIES.MultiMovies(),
+        new providers_1.MOVIES.NetflixMirror(),
     ],
     NEWS: [new providers_1.NEWS.ANN()],
     META: [new providers_1.META.Anilist(), new providers_1.META.TMDB(), new providers_1.META.Myanimelist()],

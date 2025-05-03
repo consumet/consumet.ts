@@ -418,7 +418,7 @@ class TMDB extends MovieParser {
     // Allow for a range of ±2 seasons and ensure that the seasons value is a number.
     if (extraData && extraData.totalSeasons && extraData.type === TvType.TVSERIES) {
       findMedia.results = findMedia.results.filter(result => {
-        const totalSeasons = (result.season as number) || 0;
+        const totalSeasons = (result.seasons as number) || 0;
         const extraDataSeasons = (extraData.totalSeasons as number) || 0;
         return totalSeasons >= extraDataSeasons - 2 && totalSeasons <= extraDataSeasons + 2;
       });

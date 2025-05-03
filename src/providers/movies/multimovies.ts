@@ -81,7 +81,7 @@ class MultiMovies extends MovieParser {
             image: $(el).find('.thumbnail img').attr('src') ?? '',
             rating: parseFloat($(el).find('.meta .rating').text().replace('IMDb ', '')) || 0,
             releaseDate: $(el).find('.meta .year').text().trim(),
-            season: seasonSet.size,
+            seasons: seasonSet.size,
             description: $(el).find('.contenido p').text().trim(),
             type: $(el).find('.thumbnail a').attr('href')?.includes('/movies/')
               ? TvType.MOVIE

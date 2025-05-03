@@ -55,7 +55,7 @@ class MultiMovies extends models_1.MovieParser {
                         image: (_d = $(el).find('.thumbnail img').attr('src')) !== null && _d !== void 0 ? _d : '',
                         rating: parseFloat($(el).find('.meta .rating').text().replace('IMDb ', '')) || 0,
                         releaseDate: $(el).find('.meta .year').text().trim(),
-                        season: seasonSet.size,
+                        seasons: seasonSet.size,
                         description: $(el).find('.contenido p').text().trim(),
                         type: ((_e = $(el).find('.thumbnail a').attr('href')) === null || _e === void 0 ? void 0 : _e.includes('/movies/'))
                             ? models_1.TvType.MOVIE

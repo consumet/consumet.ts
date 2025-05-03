@@ -9,7 +9,7 @@ export declare const PROVIDERS_LIST: {
     BOOKS: import("../providers/books/libgen").default[];
     COMICS: import("../providers/comics/getComics").default[];
     LIGHT_NOVELS: import("../providers/light-novels/readlightnovels").default[];
-    MOVIES: (import("../providers/movies/dramacool").default | import("../providers/movies/flixhq").default | import("../providers/movies/fmovies").default | import("../providers/movies/goku").default | import("../providers/movies/kissasian").default | import("../providers/movies/movidhdwatch").default | import("../providers/movies/viewAsian").default | import("../providers/movies/sflix").default | import("../providers/movies/multimovies").default)[];
+    MOVIES: (import("../providers/movies/dramacool").default | import("../providers/movies/flixhq").default | import("../providers/movies/fmovies").default | import("../providers/movies/goku").default | import("../providers/movies/kissasian").default | import("../providers/movies/movidhdwatch").default | import("../providers/movies/viewAsian").default | import("../providers/movies/sflix").default | import("../providers/movies/multimovies").default | import("../providers/movies/netflixmirror").default)[];
     NEWS: import("../providers/news/animenewsnetwork").default[];
     META: (import("../providers/meta/anilist").default | import("../providers/meta/mal").default | import("../providers/meta/tmdb").default)[];
     OTHERS: never[];
