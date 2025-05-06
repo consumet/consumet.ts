@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
-const flixhq_1 = __importDefault(require("../movies/flixhq"));
+const himovies_1 = __importDefault(require("../movies/himovies"));
 class TMDB extends models_1.MovieParser {
     constructor(apiKey = '5201b54eb0968700e693a30576d7d4dc', provider, proxyConfig, adapter) {
         super(proxyConfig, adapter);
@@ -357,14 +357,14 @@ class TMDB extends models_1.MovieParser {
         this.fetchEpisodeServers = async (episodeId, ...args) => {
             return this.provider.fetchEpisodeServers(episodeId, ...args);
         };
-        this.provider = provider || new flixhq_1.default();
+        this.provider = provider || new himovies_1.default();
     }
 }
 // (async () => {
 //   const tmdb = new TMDB();
-//   const search = await tmdb.search('the flash');
+//   const search = await tmdb.search('jujutsu');
 //   const info = await tmdb.fetchMediaInfo(search.results[0].id, search.results![0].type as string);
-//   // console.log(info);
+//   console.log(info.seasons[0].episodes);
 // })();
 exports.default = TMDB;
 //# sourceMappingURL=tmdb.js.map

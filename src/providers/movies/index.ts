@@ -10,6 +10,7 @@ import ViewAsian from './viewAsian';
 import SFlix from './sflix';
 import MultiMovies from './multimovies';
 import NetflixMirror from './netflixmirror';
+import HiMovies from './himovies';
 
 export default {
   DramaCool,
@@ -24,4 +25,5 @@ export default {
   SFlix,
   MultiMovies,
   NetflixMirror,
+  HiMovies,
 };

@@ -804,9 +804,9 @@ class Zoro extends models_1.AnimeParser {
 // (async () => {
 //   const zoro = new Zoro();
 //   const anime = await zoro.search('Dandadan');
-//   const info = await zoro.fetchAnimeInfo('solo-leveling-season-2-arise-from-the-shadow-19413');
+//   const info = await zoro.fetchAnimeInfo(anime.results[0].id);
 //   const sources = await zoro.fetchEpisodeSources(
-//     'solo-leveling-season-2-arise-from-the-shadow-19413$episode$131394$dub',
+//     info.episodes![0].id,
 //     StreamingServers.VidCloud,
 //     SubOrSub.DUB
 //   );
