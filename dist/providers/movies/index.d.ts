@@ -10,6 +10,7 @@ import ViewAsian from './viewAsian';
 import SFlix from './sflix';
 import MultiMovies from './multimovies';
 import NetflixMirror from './netflixmirror';
+import HiMovies from './himovies';
 declare const _default: {
     DramaCool: typeof DramaCool;
     FlixHQ: typeof FlixHQ;
@@ -23,5 +24,6 @@ declare const _default: {
     SFlix: typeof SFlix;
     MultiMovies: typeof MultiMovies;
     NetflixMirror: typeof NetflixMirror;
+    HiMovies: typeof HiMovies;
 };
 export default _default;
