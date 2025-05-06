@@ -23,7 +23,8 @@ declare class MultiMovies extends MovieParser {
      * @param media media id
      * @param server server type (default `StreamWish`) (optional)
      */
-    fetchEpisodeSources: (episodeId: string, mediaId?: string, server?: StreamingServers, fileId?: string) => Promise<ISource>;
+    fetchEpisodeSources: (episodeId: string, mediaId?: string, //just placeholder for compatibility with tmdb
+    server?: StreamingServers, fileId?: string) => Promise<ISource>;
     /**
      *
      * @param episodeId takes episode link or movie id

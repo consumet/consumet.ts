@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
-const { GenerateToken, DecodeIframeData } = new utils_1.MegaUp();
+const { GenerateToken, DecodeIframeData, Decode } = new utils_1.MegaUp();
 class AnimeKai extends models_1.AnimeParser {
     constructor(customBaseURL) {
         super(...arguments);
@@ -272,7 +272,7 @@ class AnimeKai extends models_1.AnimeParser {
                 await Promise.all(serverItems.map(async (i, server) => {
                     const id = $(server).attr('data-lid');
                     const { data } = await this.client.get(`${this.baseUrl}/ajax/links/view?id=${id}&_=${GenerateToken(id)}`, { headers: this.Headers() });
-                    const decodedData = JSON.parse(DecodeIframeData(data.result));
+                    const decodedData = JSON.parse(Decode(data.result));
                     servers.push({
                         name: `MegaUp ${$(server).text().trim()}`.toLowerCase(), //megaup is the only server for now
                         url: decodedData.url,
