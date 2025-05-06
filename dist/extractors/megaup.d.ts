@@ -6,10 +6,12 @@ export declare class MegaUp extends VideoExtractor {
     protected adapter?: AxiosAdapter | undefined;
     protected serverName: string;
     protected sources: IVideo[];
-    private KAICODEX;
-    private kaicodexReady;
+    private homeKeys;
+    private megaKeys;
+    private kaiKeysReady;
     constructor(proxyConfig?: ProxyConfig | undefined, adapter?: AxiosAdapter | undefined);
-    private loadKAICODEX;
+    private loadKAIKEYS;
+    private keysChar;
     GenerateToken: (n: string) => string;
     DecodeIframeData: (n: string) => string;
     Decode: (n: string) => string;
