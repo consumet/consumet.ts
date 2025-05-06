@@ -655,9 +655,12 @@ function transformURL(url) {
     return null;
 }
 async function getSources(embed_url, site) {
-    var _b;
+    var _b, _c;
     await getMeta(embed_url, site);
     let xrax = (_b = embed_url.split('/').pop()) === null || _b === void 0 ? void 0 : _b.split('?').shift();
+    let regx = /https:\/\/[a-zA-Z0-9.]*/;
+    let base_url = (_c = embed_url.match(regx)) === null || _c === void 0 ? void 0 : _c[0];
+    let test = embed_url.split('/');
     fake_window.xrax = xrax;
     fake_window.G = xrax;
     canvas.baseUrl = embed_url;
@@ -665,14 +668,40 @@ async function getSources(embed_url, site) {
     let browser_version = 1878522368;
     try {
         await V();
-        let getSourcesUrl = `https://megacloud.tv${transformURL(embed_url)}/getSources?id=` +
-            fake_window.pid +
-            '&v=' +
-            fake_window.localStorage.kversion +
-            '&h=' +
-            fake_window.localStorage.kid +
-            '&b=' +
-            browser_version;
+        let getSourcesUrl = '';
+        if (base_url.includes('mega')) {
+            getSourcesUrl =
+                base_url +
+                    '/' +
+                    test[3] +
+                    '/ajax/' +
+                    test[4] +
+                    '/getSources?id=' +
+                    fake_window.pid +
+                    '&v=' +
+                    fake_window.localStorage.kversion +
+                    '&h=' +
+                    fake_window.localStorage.kid +
+                    '&b=' +
+                    browser_version;
+        }
+        else {
+            getSourcesUrl =
+                base_url +
+                    '/ajax/' +
+                    test[3] +
+                    '/' +
+                    test[4] +
+                    '/getSources?id=' +
+                    fake_window.pid +
+                    '&v=' +
+                    fake_window.localStorage.kversion +
+                    '&h=' +
+                    fake_window.localStorage.kid +
+                    '&b=' +
+                    browser_version;
+        }
+        // console.log('getSourcesUrl: ', getSourcesUrl);
         let resp_json = await (await fetch(getSourcesUrl, {
             headers: {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36',

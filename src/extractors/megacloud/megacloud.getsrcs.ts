@@ -712,6 +712,9 @@ function transformURL(url: string) {
 export async function getSources(embed_url: string, site: string) {
   await getMeta(embed_url, site);
   let xrax = embed_url.split('/').pop()?.split('?').shift();
+  let regx = /https:\/\/[a-zA-Z0-9.]*/;
+  let base_url = embed_url.match(regx)?.[0];
+  let test = embed_url.split('/');
   fake_window.xrax = xrax;
   fake_window.G = xrax;
   canvas.baseUrl = embed_url;
@@ -720,15 +723,40 @@ export async function getSources(embed_url: string, site: string) {
 
   try {
     await V();
-    let getSourcesUrl =
-      `https://megacloud.tv${transformURL(embed_url)}/getSources?id=` +
-      fake_window.pid +
-      '&v=' +
-      fake_window.localStorage.kversion +
-      '&h=' +
-      fake_window.localStorage.kid +
-      '&b=' +
-      browser_version;
+    let getSourcesUrl = '';
+
+    if (base_url!.includes('mega')) {
+      getSourcesUrl =
+        base_url +
+        '/' +
+        test[3] +
+        '/ajax/' +
+        test[4] +
+        '/getSources?id=' +
+        fake_window.pid +
+        '&v=' +
+        fake_window.localStorage.kversion +
+        '&h=' +
+        fake_window.localStorage.kid +
+        '&b=' +
+        browser_version;
+    } else {
+      getSourcesUrl =
+        base_url +
+        '/ajax/' +
+        test[3] +
+        '/' +
+        test[4] +
+        '/getSources?id=' +
+        fake_window.pid +
+        '&v=' +
+        fake_window.localStorage.kversion +
+        '&h=' +
+        fake_window.localStorage.kid +
+        '&b=' +
+        browser_version;
+    }
+    // console.log('getSourcesUrl: ', getSourcesUrl);
     let resp_json = await (
       await fetch(getSourcesUrl, {
         headers: {
