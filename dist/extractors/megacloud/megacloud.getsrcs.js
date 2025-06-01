@@ -34,7 +34,7 @@ const image_data = {
     data: megacloud_decodedpng_1.decoded_png,
 };
 const canvas = {
-    baseUrl: '',
+    baseUrl: 'https://megacloud.tv/embed-2/e-1/1hnXq7VzX0Ex?k=1',
     width: 0,
     height: 0,
     style: {
@@ -59,10 +59,10 @@ const fake_window = {
     document: {
         cookie: '',
     },
-    origin: '',
+    origin: 'https://megacloud.tv',
     location: {
-        href: '',
-        origin: '',
+        href: 'https://megacloud.tv/embed-2/e-1/1hnXq7VzX0Ex?k=1',
+        origin: 'https://megacloud.tv',
     },
     performance: {
         timeOrigin: dateNow,
@@ -79,7 +79,7 @@ const fake_window = {
 };
 const nodeList = {
     image: {
-        src: '',
+        src: 'https://megacloud.tv/images/image.png?v=0.1.0',
         height: 50,
         width: 65,
         complete: true,
@@ -576,11 +576,18 @@ function QZ(QP) {
             assignWasm(new WebAssembly.Instance(QP, Qn)));
 }
 async function loadWasm(url) {
-    let mod, buffer;
-    return ((mod = initWasm()),
-        ({ instance: url, module: mod, bytes: buffer } = ((url = fetch(url)), void 0, await QN(await url, mod))),
-        assignWasm(url),
-        buffer);
+    const mod = initWasm();
+    const response = fetch(url, {
+        headers: {
+            Referer: fake_window.location.href,
+            Host: 'megacloud.tv',
+        },
+    });
+    // Process the fetched binary with QN
+    // @ts-ignore
+    const { instance, bytes } = await QN(await response, mod);
+    assignWasm(instance);
+    return bytes;
 }
 const grootLoader = {
     groot: function () {
@@ -588,9 +595,9 @@ const grootLoader = {
     },
 };
 let wasmLoader = Object.assign(loadWasm, { initSync: QZ }, grootLoader);
-const V = async (url) => {
+const V = async () => {
     try {
-        let Q0 = await wasmLoader(url);
+        let Q0 = await wasmLoader('https://megacloud.tv/images/loading.png?v=0.0.9');
         fake_window.bytes = Q0;
         wasmLoader.groot();
         fake_window.jwt_plugin(Q0);
@@ -600,12 +607,12 @@ const V = async (url) => {
         fake_window.error = true;
     }
 };
-const getMeta = async (url) => {
+const getMeta = async (url, site) => {
     var _a;
     let resp = await fetch(url, {
         headers: {
-            UserAgent: user_agent,
-            Referrer: referer,
+            UserAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36',
+            Referrer: site,
         },
     });
     let txt = await resp.text();
@@ -638,24 +645,29 @@ const M = (a, P) => {
 function z(a) {
     return [(a & 4278190080) >> 24, (a & 16711680) >> 16, (a & 65280) >> 8, a & 255];
 }
+function transformURL(url) {
+    const regex = /\/(embed-\d+)\/(e-\d+)\//;
+    const match = url.match(regex);
+    if (match) {
+        const [, embedPart, ePart] = match;
+        return `/${embedPart}/ajax/${ePart}`;
+    }
+    return null;
+}
 async function getSources(embed_url, site) {
-    var _a, _b;
-    referer = site;
-    let xrax = (_a = embed_url.split('/').pop()) === null || _a === void 0 ? void 0 : _a.split('?').shift();
+    var _b, _c;
+    await getMeta(embed_url, site);
+    let xrax = (_b = embed_url.split('/').pop()) === null || _b === void 0 ? void 0 : _b.split('?').shift();
     let regx = /https:\/\/[a-zA-Z0-9.]*/;
-    let base_url = (_b = embed_url.match(regx)) === null || _b === void 0 ? void 0 : _b[0];
-    nodeList.image.src = base_url + '/images/image.png?v=0.0.9';
+    let base_url = (_c = embed_url.match(regx)) === null || _c === void 0 ? void 0 : _c[0];
     let test = embed_url.split('/');
     fake_window.xrax = xrax;
     fake_window.G = xrax;
-    canvas.baseUrl = base_url;
-    fake_window.origin = base_url;
-    fake_window.location.origin = base_url;
+    canvas.baseUrl = embed_url;
     fake_window.location.href = embed_url;
-    await getMeta(embed_url);
     let browser_version = 1878522368;
     try {
-        await V(base_url + '/images/loading.png?v=0.0.9');
+        await V();
         let getSourcesUrl = '';
         if (base_url.includes('mega')) {
             getSourcesUrl =
@@ -689,15 +701,18 @@ async function getSources(embed_url, site) {
                     '&b=' +
                     browser_version;
         }
+        // console.log('getSourcesUrl: ', getSourcesUrl);
         let resp_json = await (await fetch(getSourcesUrl, {
             headers: {
-                'User-Agent': user_agent,
-                Referer: embed_url,
-                'X-Reuested-With': 'XMLHttpRequest',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36',
+                //"Referrer": fake_window.origin + "/v2/embed-4/" + xrax + "?z=",
+                Referer: site,
+                'X-Requested-With': 'XMLHttpRequest',
             },
             method: 'GET',
             mode: 'cors',
         })).json();
+        //let encrypted = resp_json.sources;
         let Q3 = fake_window.localStorage.kversion;
         let Q1 = z(Q3);
         let Q5 = fake_window.navigate();
