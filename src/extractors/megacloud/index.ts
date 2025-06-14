@@ -1,15 +1,11 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const models_1 = require("../../models");
-const axios = require("axios");
+import { VideoExtractor } from "../../models";
+import axios from "axios";
 
-class MegaCloud extends models_1.VideoExtractor {
-    constructor() {
-        super(...arguments);
-        this.serverName = 'MegaCloud';
-        this.sources = [];
-    }
-    async extract(embedIframeURL, referer = 'https://hianime.to') {
+class MegaCloud extends VideoExtractor {
+    serverName = 'MegaCloud';
+    sources = [];
+
+    async extract(embedIframeURL: URL, referer: string = 'https://hianime.to') {
         try {
             const extractedData = {
                 subtitles: [],
@@ -29,7 +25,6 @@ class MegaCloud extends models_1.VideoExtractor {
             if (!sourceId) throw new Error("Unable to extract sourceId from embed URL");
 
             const megacloudUrl = `https://megacloud.blog/embed-2/v2/e-1/getSources?id=${sourceId}`;
-
             const { data: rawSourceData } = await axios.get(megacloudUrl);
 
             const bypassUrl = `https://bypass.lunaranime.ru/extract?url=${encodeURIComponent(megacloudUrl)}`;
@@ -39,15 +34,14 @@ class MegaCloud extends models_1.VideoExtractor {
                 throw new Error("No sources found in bypass response");
             }
 
-            extractedData.sources = bypassData.sources.map((s) => ({
+            extractedData.sources = bypassData.sources.map((s: any) => ({
                 url: s.file,
                 isM3U8: s.type === 'hls',
                 type: s.type,
             }));
-
             extractedData.intro = rawSourceData.intro ? rawSourceData.intro : extractedData.intro;
             extractedData.outro = rawSourceData.outro ? rawSourceData.outro : extractedData.outro;
-            extractedData.subtitles = rawSourceData.tracks?.map((track) => ({
+            extractedData.subtitles = rawSourceData.tracks?.map((track: any) => ({
                 url: track.file,
                 lang: track.label ? track.label : track.kind,
             })) || [];
@@ -64,5 +58,5 @@ class MegaCloud extends models_1.VideoExtractor {
         }
     }
 }
-exports.default = MegaCloud;
-//# sourceMappingURL=index.js.map
+
+export default MegaCloud;
