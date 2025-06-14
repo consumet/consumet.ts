@@ -18,7 +18,7 @@ import {
 
 import { MegaUp } from '../../utils';
 
-const { GenerateToken, DecodeIframeData } = new MegaUp();
+const { GenerateToken, DecodeIframeData, Decode } = new MegaUp();
 
 class AnimeKai extends AnimeParser {
   override readonly name = 'AnimeKai';
@@ -589,7 +589,7 @@ class AnimeKai extends AnimeParser {
             `${this.baseUrl}/ajax/links/view?id=${id}&_=${GenerateToken(id!)}`,
             { headers: this.Headers() }
           );
-          const decodedData = JSON.parse(DecodeIframeData(data.result));
+          const decodedData = JSON.parse(Decode(data.result));
           servers.push({
             name: `MegaUp ${$(server).text().trim()}`.toLowerCase()!, //megaup is the only server for now
             url: decodedData.url,
