@@ -19,6 +19,7 @@ import {
   Mp4Upload,
   StreamWish,
   MegaUp,
+  Luffy,
 } from './extractors';
 import {
   IProviderStats,
@@ -115,4 +116,5 @@ export {
   StreamWish,
   VidMoly,
   MegaUp,
+  Luffy,
 };

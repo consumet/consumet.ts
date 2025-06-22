@@ -20,6 +20,7 @@ import VizCloud from './vizcloud';
 import VidHide from './vidhide';
 import Voe from './voe';
 import { MegaUp } from './megaup';
+import Luffy from './luffy';
 
 export {
   AsianLoad,
@@ -44,4 +45,5 @@ export {
   VidHide,
   Voe,
   MegaUp,
+  Luffy,
 };

@@ -17,8 +17,8 @@ class VidHide extends models_1.VideoExtractor {
                     throw new Error('Video not found');
                 });
                 const unpackedData = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)[2].replace('eval', ''));
-                const links = (_a = unpackedData.match(new RegExp('sources:\\[\\{file:"(.*?)"'))) !== null && _a !== void 0 ? _a : [];
-                const m3u8Link = links[1];
+                const links = (_a = unpackedData.match(/https?:\/\/[^"]+?\.m3u8[^"]*/g)) !== null && _a !== void 0 ? _a : [];
+                const m3u8Link = links[0];
                 const m3u8Content = await this.client.get(m3u8Link, {
                     headers: {
                         Referer: m3u8Link,

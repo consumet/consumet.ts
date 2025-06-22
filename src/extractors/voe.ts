@@ -10,6 +10,61 @@ class Voe extends VideoExtractor {
 
   override extract = async (videoUrl: URL): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
     try {
+      function decryptF7(p8: string): Record<string, any> {
+        try {
+          const vF = rot13(p8);
+          const vF2 = replacePatterns(vF);
+          const vF3 = removeUnderscores(vF2);
+          const vF4 = base64Decode(vF3);
+          const vF5 = charShift(vF4, 3);
+          const vF6 = reverse(vF5);
+          const vAtob = base64Decode(vF6);
+
+          return JSON.parse(vAtob);
+        } catch (e) {
+          console.error('Decryption error:', e);
+          return {};
+        }
+      }
+
+      function rot13(input: string): string {
+        return input.replace(/[a-zA-Z]/g, c => {
+          const base = c <= 'Z' ? 65 : 97;
+          return String.fromCharCode(((c.charCodeAt(0) - base + 13) % 26) + base);
+        });
+      }
+
+      function replacePatterns(input: string): string {
+        const patterns = ['@$', '^^', '~@', '%?', '*~', '!!', '#&'];
+        let result = input;
+        for (const pattern of patterns) {
+          const regex = new RegExp(pattern.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, '\\$1'), 'g');
+          result = result.replace(regex, '_');
+        }
+        return result;
+      }
+
+      function removeUnderscores(input: string): string {
+        return input.replace(/_/g, '');
+      }
+
+      function charShift(input: string, shift: number): string {
+        return [...input].map(c => String.fromCharCode(c.charCodeAt(0) - shift)).join('');
+      }
+
+      function reverse(input: string): string {
+        return input.split('').reverse().join('');
+      }
+
+      function base64Decode(input: string): string {
+        try {
+          return Buffer.from(input, 'base64').toString('utf-8');
+        } catch (e) {
+          console.error('Base64 decode failed:', e);
+          return '';
+        }
+      }
+
       const res = await this.client.get(videoUrl.href);
       const $ = load(res.data);
       const scriptContent = $('script').html();
@@ -19,43 +74,20 @@ class Voe extends VideoExtractor {
 
       const { data } = await this.client.get(pageUrl);
       const $$ = load(data);
-      const bodyHtml = $$('body').html() || '';
-      const url = bodyHtml.match(/'hls'\s*:\s*'([^']+)'/s)?.[1] || '';
+      const encodedString = $$('script[type="application/json"]').html()?.trim() || '';
+      const jsonData = decryptF7(encodedString);
 
-      const subtitleRegex =
-        /<track\s+kind="subtitles"\s+label="([^"]+)"\s+srclang="([^"]+)"\s+src="([^"]+)"/g;
-      let subtitles: ISubtitle[] = [];
-      let match;
-      while ((match = subtitleRegex.exec(bodyHtml)) !== null) {
-        subtitles.push({
-          lang: match[1],
-          url: new URL(match[3], videoUrl.origin).href,
-        });
-      }
-
-      let thumbnailSrc: string = '';
-      $$('script').each((i, el) => {
-        const scriptContent = $(el).html();
-        const regex = /previewThumbnails:\s*{[^}]*src:\s*\["([^"]+)"\]/;
-        if (scriptContent) {
-          const match = scriptContent.match(regex);
-          if (match && match[1]) {
-            thumbnailSrc = match[1];
-            return false;
-          }
-        }
-      });
-      if (thumbnailSrc) {
-        subtitles.push({
-          lang: 'thumbnails',
-          url: `${videoUrl.origin}${thumbnailSrc}`,
-        });
-      }
+      let url = jsonData.source;
+      let siteName = jsonData.site_name;
+      let subtitles = jsonData.captions.map((sub: { file: string; label: string }) => ({
+        lang: sub.label,
+        url: `https://${siteName}${sub.file}`,
+      })) as ISubtitle[];
 
       this.sources.push({
-        url: atob(url),
+        url: url,
         quality: 'default',
-        isM3U8: atob(url).includes('.m3u8'),
+        isM3U8: url.includes('.m3u8'),
       });
 
       return {
@@ -63,7 +95,6 @@ class Voe extends VideoExtractor {
         subtitles: subtitles,
       };
     } catch (err) {
-      console.log(err);
       throw new Error((err as Error).message);
     }
   };

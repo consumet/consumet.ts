@@ -16,8 +16,8 @@ class VidHide extends VideoExtractor {
       });
 
       const unpackedData = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)![2].replace('eval', ''));
-      const links = unpackedData.match(new RegExp('sources:\\[\\{file:"(.*?)"')) ?? [];
-      const m3u8Link = links[1];
+      const links = unpackedData.match(/https?:\/\/[^"]+?\.m3u8[^"]*/g) ?? [];
+      const m3u8Link = links[0];
       const m3u8Content = await this.client.get(m3u8Link, {
         headers: {
           Referer: m3u8Link,
