@@ -200,6 +200,7 @@ export enum StreamingServers {
   Voe = 'voe',
   MegaUp = 'megaup',
   MegaCloud = 'megacloud',
+  Luffy = 'luffy',
 }
 
 export enum MediaStatus {
