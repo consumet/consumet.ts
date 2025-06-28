@@ -1083,7 +1083,22 @@ class Anilist extends models_1.AnimeParser {
             if (findAnime.results.length === 0)
                 return undefined;
             // Sort the retrieved info for more accurate results.
+            // Calculate topRating separately
             let topRating = 0;
+            findAnime.results.forEach(result => {
+                var _b, _c;
+                const targetTitle = slug.toLowerCase();
+                let title;
+                if (typeof result.title == 'string')
+                    title = result.title;
+                else
+                    title = (_c = (_b = result.title.english) !== null && _b !== void 0 ? _b : result.title.romaji) !== null && _c !== void 0 ? _c : '';
+                const rating = (0, utils_2.compareTwoStrings)(targetTitle, title.toLowerCase());
+                if (rating > topRating) {
+                    topRating = rating;
+                }
+            });
+            // Then sort separately
             findAnime.results.sort((a, b) => {
                 var _b, _c, _d, _e;
                 const targetTitle = slug.toLowerCase();
@@ -1099,12 +1114,6 @@ class Anilist extends models_1.AnimeParser {
                     secondTitle = (_e = (_d = b.title.english) !== null && _d !== void 0 ? _d : b.title.romaji) !== null && _e !== void 0 ? _e : '';
                 const firstRating = (0, utils_2.compareTwoStrings)(targetTitle, firstTitle.toLowerCase());
                 const secondRating = (0, utils_2.compareTwoStrings)(targetTitle, secondTitle.toLowerCase());
-                if (firstRating > topRating) {
-                    topRating = firstRating;
-                }
-                if (secondRating > topRating) {
-                    topRating = secondRating;
-                }
                 // Sort in descending order
                 return secondRating - firstRating;
             });
