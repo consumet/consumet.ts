@@ -1330,8 +1330,23 @@ class Anilist extends AnimeParser {
 
     // Sort the retrieved info for more accurate results.
 
+    // Calculate topRating separately
     let topRating = 0;
 
+    findAnime.results.forEach(result => {
+      const targetTitle = slug.toLowerCase();
+      let title: string;
+
+      if (typeof result.title == 'string') title = result.title as string;
+      else title = result.title.english ?? result.title.romaji ?? '';
+
+      const rating = compareTwoStrings(targetTitle, title.toLowerCase());
+      if (rating > topRating) {
+        topRating = rating;
+      }
+    });
+
+    // Then sort separately
     findAnime.results.sort((a, b) => {
       const targetTitle = slug.toLowerCase();
 
@@ -1346,13 +1361,6 @@ class Anilist extends AnimeParser {
 
       const firstRating = compareTwoStrings(targetTitle, firstTitle.toLowerCase());
       const secondRating = compareTwoStrings(targetTitle, secondTitle.toLowerCase());
-
-      if (firstRating > topRating) {
-        topRating = firstRating;
-      }
-      if (secondRating > topRating) {
-        topRating = secondRating;
-      }
 
       // Sort in descending order
       return secondRating - firstRating;

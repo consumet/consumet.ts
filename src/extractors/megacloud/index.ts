@@ -20,7 +20,7 @@ class MegaCloud extends VideoExtractor {
         sources: [],
       };
 
-      const resp = await getSources(embedIframeURL.href, referer);
+      const resp = await getSources(embedIframeURL, referer);
 
       if (!resp) return extractedData;
 

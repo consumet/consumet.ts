@@ -22,7 +22,7 @@ class MegaCloud extends models_1.VideoExtractor {
                 },
                 sources: [],
             };
-            const resp = await (0, megacloud_getsrcs_1.getSources)(embedIframeURL.href, referer);
+            const resp = await (0, megacloud_getsrcs_1.getSources)(embedIframeURL, referer);
             if (!resp)
                 return extractedData;
             if (Array.isArray(resp.sources)) {

@@ -151,7 +151,7 @@ class AnimeOwl extends models_1.AnimeParser {
                 for (const dub of dubEpisodes) {
                     if (groupedMap.has(dub.title)) {
                         const entry = groupedMap.get(dub.title);
-                        entry.id = `${entry.id}&${dub.id}`; //combining the sub and dub episode ids
+                        entry.id = `${entry.id}$${dub.id}`; //combining the sub and dub episode ids
                         entry.isDubbed = true;
                     }
                     else {
@@ -281,8 +281,9 @@ class AnimeOwl extends models_1.AnimeParser {
          */
         this.fetchEpisodeServers = async (episodeId, subOrDub = models_1.SubOrSub.SUB) => {
             var _a, _b, _c;
-            const subEpisodeId = episodeId.split('$')[1].split('&')[0];
-            const dubEpisodeId = episodeId.split('&')[1];
+            const parts = episodeId.split('$');
+            const subEpisodeId = parts[1];
+            const dubEpisodeId = parts[2];
             const id = episodeId.split('$')[0];
             const { data } = await this.client.get(`${this.baseUrl}/anime/${id}`);
             const $ = (0, cheerio_1.load)(data);
@@ -492,12 +493,12 @@ class AnimeOwl extends models_1.AnimeParser {
         }
     }
 }
-(async () => {
-    const animeowl = new AnimeOwl();
-    const search = await animeowl.fetchSpotlight();
-    const info = await animeowl.fetchAnimeInfo(search.results[0].id);
-    // const sources = await animeowl.fetchEpisodeSources(info.episodes![0].id,StreamingServers.Luffy, SubOrSub.DUB);
-    // console.log(info);
-})();
+// (async () => {
+//   const animeowl = new AnimeOwl();
+//   const search = await animeowl.fetchSpotlight();
+//   const info = await animeowl.fetchAnimeInfo(search.results[0].id);
+//   // const sources = await animeowl.fetchEpisodeSources(info.episodes![0].id,StreamingServers.Luffy, SubOrSub.DUB);
+//   // console.log(info);
+// })();
 exports.default = AnimeOwl;
 //# sourceMappingURL=animeowl.js.map
