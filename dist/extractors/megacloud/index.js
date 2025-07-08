@@ -57,7 +57,7 @@ class MegaCloud extends models_1.VideoExtractor {
     async extract(embedIframeURL, referer = 'https://hianime.to') {
         var _a;
         try {
-            const response = await fetch('https://raw.githubusercontent.com/itzzzme/megacloud-keys/refs/heads/main/key.txt');
+            const response = await fetch('https://api.lunaranime.ru/static/key.txt');
             const key = await response.text();
             const extractedData = {
                 subtitles: [],
