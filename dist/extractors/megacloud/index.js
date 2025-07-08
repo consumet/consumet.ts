@@ -78,8 +78,7 @@ class MegaCloud extends models_1.VideoExtractor {
             const megacloudUrl = `https://megacloud.blog/embed-2/v2/e-1/getSources?id=${sourceId}`;
             const response2 = await fetch(megacloudUrl);
             const rawSourceData = await response2.json();
-            console.log(rawSourceData);
-            console.log(key);
+            throw new Error(`${rawSourceData} - ${key}`);
             const encrypted = rawSourceData === null || rawSourceData === void 0 ? void 0 : rawSourceData.sources;
             if (!encrypted)
                 throw new Error('Encrypted source missing in response');
