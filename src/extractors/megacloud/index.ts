@@ -80,7 +80,7 @@ class MegaCloud extends VideoExtractor {
       const response2 = await fetch(megacloudUrl);
       const rawSourceData = await response2.json();
 
-      throw new Error(`${rawSourceData} - ${key}`);
+      throw new Error(`${JSON.stringify(rawSourceData)} - ${key}`);
       const encrypted = rawSourceData?.sources;
       if (!encrypted) throw new Error('Encrypted source missing in response');
       const decrypted = CryptoJS.AES.decrypt(encrypted, key).toString(CryptoJS.enc.Utf8);
