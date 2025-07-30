@@ -22,6 +22,9 @@ class VidCloud extends models_1.VideoExtractor {
                     },
                 };
                 const res = await (0, megacloud_getsrcs_1.getSources)(videoUrl, referer);
+                if (!res) {
+                    throw new Error('Failed to get sources');
+                }
                 const sources = res.sources;
                 this.sources = sources.map((s) => ({
                     url: s.file,
