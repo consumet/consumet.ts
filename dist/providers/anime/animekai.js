@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
-const { GenerateToken, DecodeIframeData } = new utils_1.MegaUp();
+const { getAnimeKaiToken } = require('../../utils/getAnimeKaiToken');
 class AnimeKai extends models_1.AnimeParser {
     constructor(customBaseURL) {
         super(...arguments);
@@ -11,132 +11,152 @@ class AnimeKai extends models_1.AnimeParser {
         this.baseUrl = 'https://animekai.to';
         this.logo = 'https://animekai.to/assets/uploads/37585a39fe8c8d8fafaa2c7bfbf5374ecac859ea6a0288a6da2c61f5.png';
         this.classPath = 'ANIME.AnimeKai';
+        this.megaUp = new utils_1.MegaUp();
         /**
          * @param id Anime id
          */
         this.fetchAnimeInfo = async (id) => {
-            var _a;
             const info = {
-                id: id,
+                id,
                 title: '',
+                japaneseTitle: '',
+                image: '',
+                description: '',
+                type: '',
+                url: '',
+                status: models_1.MediaStatus.UNKNOWN,
+                season: '',
+                hasSub: false,
+                hasDub: false,
+                subOrDub: undefined,
+                genres: [],
+                recommendations: [],
+                relations: [],
+                episodes: [],
+                totalEpisodes: 0,
             };
+        
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/watch/${id}`, { headers: this.Headers() });
-                const $ = (0, cheerio_1.load)(data);
-                info.title = $('.entity-scroll > .title').text();
-                info.japaneseTitle = (_a = $('.entity-scroll > .title').attr('data-jp')) === null || _a === void 0 ? void 0 : _a.trim();
-                info.image = $('div.poster > div >img').attr('src');
+                const $ = cheerio_1.load(data);
+        
+                // Basic info
+                info.title = $('.entity-scroll > .title').text().trim();
+                info.japaneseTitle = $('.entity-scroll > .title').attr('data-jp')?.trim() ?? '';
+                info.image = $('div.poster > div > img').attr('src') ?? '';
                 info.description = $('.entity-scroll > .desc').text().trim();
-                // Movie, TV, OVA, ONA, Special, Music
                 info.type = $('.entity-scroll > .info').children().last().text().toUpperCase();
                 info.url = `${this.baseUrl}/watch/${id}`;
-                info.recommendations = [];
-                $('section.sidebar-section:not(#related-anime) .aitem-col .aitem').each((i, ele) => {
-                    var _a, _b, _c, _d, _e, _f, _g, _h, _j;
-                    const aTag = $(ele);
-                    const id = (_a = aTag.attr('href')) === null || _a === void 0 ? void 0 : _a.replace('/watch/', '');
-                    (_b = info.recommendations) === null || _b === void 0 ? void 0 : _b.push({
-                        id: id,
-                        title: aTag.find('.title').text().trim(),
-                        url: `${this.baseUrl}${aTag.attr('href')}`,
-                        image: (_d = (_c = aTag.attr('style')) === null || _c === void 0 ? void 0 : _c.match(/background-image:\s*url\('(.+?)'\)/)) === null || _d === void 0 ? void 0 : _d[1],
-                        japaneseTitle: (_e = aTag.find('.title').attr('data-jp')) === null || _e === void 0 ? void 0 : _e.trim(),
-                        type: aTag.find('.info').children().last().text().trim(),
-                        sub: parseInt((_f = aTag.find('.info span.sub')) === null || _f === void 0 ? void 0 : _f.text()) || 0,
-                        dub: parseInt((_g = aTag.find('.info span.dub')) === null || _g === void 0 ? void 0 : _g.text()) || 0,
-                        episodes: parseInt((_h = aTag.find('.info').children().eq(-2).text().trim()) !== null && _h !== void 0 ? _h : (_j = aTag.find('.info span.sub')) === null || _j === void 0 ? void 0 : _j.text()) || 0,
-                    });
-                });
-                info.relations = [];
-                $('section#related-anime .tab-body .aitem-col').each((i, ele) => {
-                    var _a, _b, _c, _d, _e, _f, _g, _h, _j;
-                    const card = $(ele);
-                    const aTag = card.find('a.aitem');
-                    const id = (_a = aTag.attr('href')) === null || _a === void 0 ? void 0 : _a.replace('/watch/', '');
-                    (_b = info.relations) === null || _b === void 0 ? void 0 : _b.push({
-                        id: id,
-                        title: aTag.find('.title').text().trim(),
-                        url: `${this.baseUrl}${aTag.attr('href')}`,
-                        image: (_d = (_c = aTag.attr('style')) === null || _c === void 0 ? void 0 : _c.match(/background-image:\s*url\('(.+?)'\)/)) === null || _d === void 0 ? void 0 : _d[1],
-                        japaneseTitle: (_e = aTag.find('.title').attr('data-jp')) === null || _e === void 0 ? void 0 : _e.trim(),
-                        type: card.find('.info').children().eq(-2).text().trim(),
-                        sub: parseInt((_f = card.find('.info span.sub')) === null || _f === void 0 ? void 0 : _f.text()) || 0,
-                        dub: parseInt((_g = card.find('.info span.dub')) === null || _g === void 0 ? void 0 : _g.text()) || 0,
-                        relationType: card.find('.info').children().last().text().trim(),
-                        episodes: parseInt((_h = card.find('.info').children().eq(-3).text().trim()) !== null && _h !== void 0 ? _h : (_j = card.find('.info span.sub')) === null || _j === void 0 ? void 0 : _j.text()) || 0,
-                    });
-                });
+        
+                // Status
+                const statusText = $('.entity-scroll > .detail').find("div:contains('Status') > span").text().trim();
+                info.status = {
+                    'Completed': models_1.MediaStatus.COMPLETED,
+                    'Releasing': models_1.MediaStatus.ONGOING,
+                    'Not yet aired': models_1.MediaStatus.NOT_YET_AIRED
+                }[statusText] ?? models_1.MediaStatus.UNKNOWN;
+        
+                // Season
+                info.season = $('.entity-scroll > .detail').find("div:contains('Premiered') > span").text().trim();
+        
+                // Sub/Dub info
                 const hasSub = $('.entity-scroll > .info > span.sub').length > 0;
                 const hasDub = $('.entity-scroll > .info > span.dub').length > 0;
-                if (hasSub) {
-                    info.subOrDub = models_1.SubOrSub.SUB;
-                    info.hasSub = hasSub;
-                }
-                if (hasDub) {
-                    info.subOrDub = models_1.SubOrSub.DUB;
-                    info.hasDub = hasDub;
-                }
-                if (hasSub && hasDub) {
-                    info.subOrDub = models_1.SubOrSub.BOTH;
-                }
-                info.genres = [];
-                $('.entity-scroll > .detail')
-                    .find('div:contains("Genres")')
-                    .each(function () {
-                    var _a;
-                    const genre = $(this).text().trim();
-                    if (genre != undefined)
-                        (_a = info.genres) === null || _a === void 0 ? void 0 : _a.push(genre);
+                info.hasSub = hasSub;
+                info.hasDub = hasDub;
+                info.subOrDub = hasSub && hasDub
+                    ? models_1.SubOrSub.BOTH
+                    : hasSub
+                        ? models_1.SubOrSub.SUB
+                        : hasDub
+                            ? models_1.SubOrSub.DUB
+                            : undefined;
+        
+                // Genres
+                $('.entity-scroll > .detail').find('div:contains("Genres")').each((i, el) => {
+                    const genre = $(el).text().replace('Genres:', '').trim();
+                    if (genre) info.genres.push(...genre.split(',').map(g => g.trim()));
                 });
-                switch ($('.entity-scroll > .detail').find("div:contains('Status') > span").text().trim()) {
-                    case 'Completed':
-                        info.status = models_1.MediaStatus.COMPLETED;
-                        break;
-                    case 'Releasing':
-                        info.status = models_1.MediaStatus.ONGOING;
-                        break;
-                    case 'Not yet aired':
-                        info.status = models_1.MediaStatus.NOT_YET_AIRED;
-                        break;
-                    default:
-                        info.status = models_1.MediaStatus.UNKNOWN;
-                        break;
-                }
-                info.season = $('.entity-scroll > .detail').find("div:contains('Premiered') > span").text().trim();
-                const ani_id = $('.rate-box#anime-rating').attr('data-id');
-                const episodesAjax = await this.client.get(`${this.baseUrl}/ajax/episodes/list?ani_id=${ani_id}&_=${GenerateToken(ani_id)}`, {
-                    headers: {
-                        'X-Requested-With': 'XMLHttpRequest',
-                        Referer: `${this.baseUrl}/watch/${id}`,
-                        ...this.Headers(),
-                    },
-                });
-                const $$ = (0, cheerio_1.load)(episodesAjax.data.result);
-                info.totalEpisodes = $$('div.eplist > ul > li').length;
-                info.episodes = [];
-                $$('div.eplist > ul > li > a').each((i, el) => {
-                    var _a;
-                    const episodeId = `${info.id}$ep=${$$(el).attr('num')}$token=${$$(el).attr('token')}`; //appending token to episode id, as it is required to fetch servers keeping the structure same as other providers
-                    const number = parseInt($$(el).attr('num'));
-                    const title = $$(el).children('span').text().trim();
-                    const url = `${this.baseUrl}/watch/${info.id}${$$(el).attr('href')}ep=${$$(el).attr('num')}`;
-                    const isFiller = $$(el).hasClass('filler');
-                    const isSubbed = number <= (parseInt($('.entity-scroll > .info > span.sub').text().trim()) || 0);
-                    const isDubbed = number <= (parseInt($('.entity-scroll > .info > span.dub').text().trim()) || 0);
-                    (_a = info.episodes) === null || _a === void 0 ? void 0 : _a.push({
-                        id: episodeId,
-                        number: number,
-                        title: title,
-                        isFiller: isFiller,
-                        isSubbed: isSubbed,
-                        isDubbed: isDubbed,
-                        url: url,
+        
+                // Recommendations
+                $('section.sidebar-section:not(#related-anime) .aitem-col .aitem').each((i, el) => {
+                    const aTag = $(el);
+                    const recId = aTag.attr('href')?.replace('/watch/', '');
+                    info.recommendations.push({
+                        id: recId,
+                        title: aTag.find('.title').text().trim(),
+                        url: `${this.baseUrl}${aTag.attr('href')}`,
+                        image: aTag.attr('style')?.match(/url\(['"]?(.*?)['"]?\)/)?.[1] ?? '',
+                        japaneseTitle: aTag.find('.title').attr('data-jp')?.trim(),
+                        type: aTag.find('.info').children().last().text().trim(),
+                        sub: parseInt(aTag.find('.info span.sub').text()) || 0,
+                        dub: parseInt(aTag.find('.info span.dub').text()) || 0,
+                        episodes: parseInt(aTag.find('.info').children().eq(-2).text().trim()) || 0,
                     });
                 });
+        
+                // Relations
+                $('section#related-anime .tab-body .aitem-col').each((i, el) => {
+                    const card = $(el);
+                    const aTag = card.find('a.aitem');
+                    const relId = aTag.attr('href')?.replace('/watch/', '');
+                    info.relations.push({
+                        id: relId,
+                        title: aTag.find('.title').text().trim(),
+                        url: `${this.baseUrl}${aTag.attr('href')}`,
+                        image: aTag.attr('style')?.match(/url\(['"]?(.*?)['"]?\)/)?.[1] ?? '',
+                        japaneseTitle: aTag.find('.title').attr('data-jp')?.trim(),
+                        type: card.find('.info').children().eq(-2).text().trim(),
+                        sub: parseInt(card.find('.info span.sub').text()) || 0,
+                        dub: parseInt(card.find('.info span.dub').text()) || 0,
+                        relationType: card.find('.info').children().last().text().trim(),
+                        episodes: parseInt(card.find('.info').children().eq(-3).text()) || 0,
+                    });
+                });
+        
+                // Episodes (AJAX)
+                const ani_id = $('.rate-box#anime-rating').attr('data-id');
+                if (!ani_id) throw new Error('ani_id not found on page');
+        
+                await this.megaUp.kaicodexReady;
+        
+                const token = await getAnimeKaiToken(id);
+        
+                const episodesAjax = await this.client.get(
+                    `${this.baseUrl}/ajax/episodes/list?ani_id=${ani_id}&_=${token}`, 
+                    {
+                        headers: {
+                            'X-Requested-With': 'XMLHttpRequest',
+                            Referer: `${this.baseUrl}/watch/${id}`,
+                            ...this.Headers(),
+                        },
+                    }
+                );
+        
+                if (!episodesAjax.data || episodesAjax.data.status !== 200 || !episodesAjax.data.result) {
+                    throw new Error(`Episodes AJAX returned invalid data`);
+                }
+        
+                const $$ = cheerio_1.load(episodesAjax.data.result);
+                info.totalEpisodes = $$('div.eplist > ul > li').length;
+
+                $$('div.eplist > ul > li > a').each((i, el) => {
+                    const number = parseInt($$(el).attr('num') ?? '0');
+                    info.episodes.push({
+                        id: `${info.id}$ep=${number}$token=${$$(el).attr('token')}`,
+                        number,
+                        title: $$(el).children('span').text().trim(),
+                        isFiller: $$(el).hasClass('filler'),
+                        isSubbed: number <= (parseInt($('.entity-scroll > .info > span.sub').text().trim()) || 0),
+                        isDubbed: number <= (parseInt($('.entity-scroll > .info > span.dub').text().trim()) || 0),
+                        url: `${this.baseUrl}/watch/${info.id}${$$(el).attr('href')}ep=${number}`,
+                    });
+                });
+
                 return info;
-            }
-            catch (err) {
-                throw new Error(err.message);
+
+            } catch (err) {
+                throw new Error(`fetchAnimeInfo failed: ${err.message}`);
             }
         };
         /**
@@ -263,7 +283,7 @@ class AnimeKai extends models_1.AnimeParser {
          */
         this.fetchEpisodeServers = async (episodeId, subOrDub = models_1.SubOrSub.SUB) => {
             if (!episodeId.startsWith(this.baseUrl + '/ajax'))
-                episodeId = `${this.baseUrl}/ajax/links/list?token=${episodeId.split('$token=')[1]}&_=${GenerateToken(episodeId.split('$token=')[1])}`;
+                episodeId = `${this.baseUrl}/ajax/links/list?token=${episodeId.split('$token=')[1]}&_=${this.megaUp.GenerateToken(episodeId.split('$token=')[1])}`;
             try {
                 const { data } = await this.client.get(episodeId, { headers: this.Headers() });
                 const $ = (0, cheerio_1.load)(data.result);
@@ -271,8 +291,8 @@ class AnimeKai extends models_1.AnimeParser {
                 const serverItems = $(`.server-items.lang-group[data-id="${subOrDub}"] .server`);
                 await Promise.all(serverItems.map(async (i, server) => {
                     const id = $(server).attr('data-lid');
-                    const { data } = await this.client.get(`${this.baseUrl}/ajax/links/view?id=${id}&_=${GenerateToken(id)}`, { headers: this.Headers() });
-                    const decodedData = JSON.parse(DecodeIframeData(data.result));
+                    const { data } = await this.client.get(`${this.baseUrl}/ajax/links/view?id=${id}&_=${this.megaUp.GenerateToken(id)}`, { headers: this.Headers() });
+                    const decodedData = JSON.parse(this.megaUp.DecodeIframeData(data.result));
                     servers.push({
                         name: `MegaUp ${$(server).text().trim()}`.toLowerCase(), //megaup is the only server for now
                         url: decodedData.url,
