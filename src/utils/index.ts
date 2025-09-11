@@ -15,6 +15,7 @@ import {
   StreamHub,
   VidMoly,
   MegaUp,
+  Luffy,
 } from '../extractors';
 import {
   USER_AGENT,
@@ -92,4 +93,5 @@ export {
   VidMoly,
   getKKey,
   MegaUp,
+  Luffy,
 };

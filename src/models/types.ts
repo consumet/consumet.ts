@@ -199,6 +199,8 @@ export enum StreamingServers {
   VidMoly = 'vidmoly',
   Voe = 'voe',
   MegaUp = 'megaup',
+  MegaCloud = 'megacloud',
+  Luffy = 'luffy',
 }
 
 export enum MediaStatus {

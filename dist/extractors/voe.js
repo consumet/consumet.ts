@@ -11,6 +11,55 @@ class Voe extends models_1.VideoExtractor {
         this.extract = async (videoUrl) => {
             var _a, _b, _c;
             try {
+                function decryptF7(p8) {
+                    try {
+                        const vF = rot13(p8);
+                        const vF2 = replacePatterns(vF);
+                        const vF3 = removeUnderscores(vF2);
+                        const vF4 = base64Decode(vF3);
+                        const vF5 = charShift(vF4, 3);
+                        const vF6 = reverse(vF5);
+                        const vAtob = base64Decode(vF6);
+                        return JSON.parse(vAtob);
+                    }
+                    catch (e) {
+                        console.error('Decryption error:', e);
+                        return {};
+                    }
+                }
+                function rot13(input) {
+                    return input.replace(/[a-zA-Z]/g, c => {
+                        const base = c <= 'Z' ? 65 : 97;
+                        return String.fromCharCode(((c.charCodeAt(0) - base + 13) % 26) + base);
+                    });
+                }
+                function replacePatterns(input) {
+                    const patterns = ['@$', '^^', '~@', '%?', '*~', '!!', '#&'];
+                    let result = input;
+                    for (const pattern of patterns) {
+                        const regex = new RegExp(pattern.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, '\\$1'), 'g');
+                        result = result.replace(regex, '_');
+                    }
+                    return result;
+                }
+                function removeUnderscores(input) {
+                    return input.replace(/_/g, '');
+                }
+                function charShift(input, shift) {
+                    return [...input].map(c => String.fromCharCode(c.charCodeAt(0) - shift)).join('');
+                }
+                function reverse(input) {
+                    return input.split('').reverse().join('');
+                }
+                function base64Decode(input) {
+                    try {
+                        return Buffer.from(input, 'base64').toString('utf-8');
+                    }
+                    catch (e) {
+                        console.error('Base64 decode failed:', e);
+                        return '';
+                    }
+                }
                 const res = await this.client.get(videoUrl.href);
                 const $ = (0, cheerio_1.load)(res.data);
                 const scriptContent = $('script').html();
@@ -19,39 +68,18 @@ class Voe extends models_1.VideoExtractor {
                     : '';
                 const { data } = await this.client.get(pageUrl);
                 const $$ = (0, cheerio_1.load)(data);
-                const bodyHtml = $$('body').html() || '';
-                const url = ((_c = bodyHtml.match(/'hls'\s*:\s*'([^']+)'/s)) === null || _c === void 0 ? void 0 : _c[1]) || '';
-                const subtitleRegex = /<track\s+kind="subtitles"\s+label="([^"]+)"\s+srclang="([^"]+)"\s+src="([^"]+)"/g;
-                let subtitles = [];
-                let match;
-                while ((match = subtitleRegex.exec(bodyHtml)) !== null) {
-                    subtitles.push({
-                        lang: match[1],
-                        url: new URL(match[3], videoUrl.origin).href,
-                    });
-                }
-                let thumbnailSrc = '';
-                $$('script').each((i, el) => {
-                    const scriptContent = $(el).html();
-                    const regex = /previewThumbnails:\s*{[^}]*src:\s*\["([^"]+)"\]/;
-                    if (scriptContent) {
-                        const match = scriptContent.match(regex);
-                        if (match && match[1]) {
-                            thumbnailSrc = match[1];
-                            return false;
-                        }
-                    }
-                });
-                if (thumbnailSrc) {
-                    subtitles.push({
-                        lang: 'thumbnails',
-                        url: `${videoUrl.origin}${thumbnailSrc}`,
-                    });
-                }
+                const encodedString = ((_c = $$('script[type="application/json"]').html()) === null || _c === void 0 ? void 0 : _c.trim()) || '';
+                const jsonData = decryptF7(encodedString);
+                let url = jsonData.source;
+                let siteName = jsonData.site_name;
+                let subtitles = jsonData.captions.map((sub) => ({
+                    lang: sub.label,
+                    url: `https://${siteName}${sub.file}`,
+                }));
                 this.sources.push({
-                    url: atob(url),
+                    url: url,
                     quality: 'default',
-                    isM3U8: atob(url).includes('.m3u8'),
+                    isM3U8: url.includes('.m3u8'),
                 });
                 return {
                     sources: this.sources,
@@ -59,7 +87,6 @@ class Voe extends models_1.VideoExtractor {
                 };
             }
             catch (err) {
-                console.log(err);
                 throw new Error(err.message);
             }
         };

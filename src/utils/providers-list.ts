@@ -17,6 +17,7 @@ export const PROVIDERS_LIST = {
     new ANIME.Zoro(),
     new ANIME.Marin(),
     new ANIME.AnimeKai(),
+    new ANIME.AnimeOwl(),
   ],
   MANGA: [
     new MANGA.MangaDex(),
@@ -45,6 +46,7 @@ export const PROVIDERS_LIST = {
     new MOVIES.SFlix(),
     new MOVIES.MultiMovies(),
     new MOVIES.NetflixMirror(),
+    new MOVIES.HiMovies(),
   ],
   NEWS: [new NEWS.ANN()],
   META: [new META.Anilist(), new META.TMDB(), new META.Myanimelist()],

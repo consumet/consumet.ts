@@ -13,9 +13,9 @@ import { MixDrop, StreamTape, StreamWish, VidHide } from '../../extractors';
 
 class MultiMovies extends MovieParser {
   override readonly name = 'MultiMovies';
-  protected override baseUrl = 'https://multimovies.guru';
+  protected override baseUrl = 'https://multimovies.email';
   protected override logo =
-    'https://multimovies.guru/wp-content/uploads/2024/01/cropped-CompressJPEG.online_512x512_image.png';
+    'https://multimovies.email/wp-content/uploads/2024/01/cropped-CompressJPEG.online_512x512_image.png';
   protected override classPath = 'MOVIES.MultiMovies';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
   constructor(customBaseURL?: string) {
@@ -237,7 +237,7 @@ class MultiMovies extends MovieParser {
           return {
             headers: { Referer: serverUrl.href },
             ...(await new StreamWish(this.proxyConfig, this.adapter).extract(serverUrl)),
-            download: fileId ? `https://gdmirrorbot.nl/file/${fileId}` : '',
+            download: fileId ? `${serverUrl.href.toString().replace('/e/', '/f/')}/${fileId}` : '',
           };
         case StreamingServers.StreamTape:
           return {
@@ -255,7 +255,7 @@ class MultiMovies extends MovieParser {
           return {
             headers: { Referer: serverUrl.href },
             ...(await new StreamWish(this.proxyConfig, this.adapter).extract(serverUrl)),
-            download: fileId ? `https://gdmirrorbot.nl/file/${fileId}` : '',
+            download: fileId ? `${serverUrl.href.toString().replace('/e/', '/f/')}/${fileId}` : '',
           };
       }
     }
@@ -395,6 +395,11 @@ class MultiMovies extends MovieParser {
 
       const headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+        'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        Referer: this.baseUrl,
+        'Sec-Fetch-User': '?1',
       };
 
       const playerRes = await this.client.post(`${this.baseUrl}/wp-admin/admin-ajax.php`, formData, {
@@ -407,17 +412,28 @@ class MultiMovies extends MovieParser {
 
       // Handle non-multimovies case
       if (!iframeUrl.includes('multimovies')) {
+        if (iframeUrl.includes('dhcplay')) {
+          return {
+            servers: [{ name: 'StreamWish', url: iframeUrl }],
+            fileId: iframeUrl.split('/').pop() ?? '',
+          };
+        }
         let playerBaseUrl = iframeUrl.split('/').slice(0, 3).join('/');
-        const redirectResponse = await this.client.head(playerBaseUrl, { headers });
+        const redirectResponse = await this.client.head(playerBaseUrl, {
+          headers: headers,
+          maxRedirects: 5,
+          validateStatus: () => true,
+        });
+
+        const isRedirected = redirectResponse.request._redirectable._isRedirect ? redirectResponse : null;
+        const finalResponse = isRedirected ? redirectResponse : null;
 
         // Update base URL if redirect occurred
-        if (redirectResponse) {
-          playerBaseUrl =
-            redirectResponse.request._redirectable._options.href.split('/').slice(0, 3).join('/') ||
-            redirectResponse.request.res.responseURL.split('/').slice(0, 3).join('/');
+        if (finalResponse) {
+          playerBaseUrl = finalResponse?.request.res.responseUrl.split('/').slice(0, 3).join('/');
         }
-        const fileId = iframeUrl.split('/').pop();
 
+        const fileId = iframeUrl.split('/').pop();
         if (!fileId) {
           throw new Error('No player ID found');
         }
@@ -434,7 +450,7 @@ class MultiMovies extends MovieParser {
         }
 
         const streamDetails = streamResponse.data;
-        const mresultKeys = new Set(Object.keys(streamDetails.mresult));
+        const mresultKeys = new Set(Object.keys(JSON.parse(atob(streamDetails.mresult))));
         const siteUrlsKeys = new Set(Object.keys(streamDetails.siteUrls));
 
         // Find common keys
@@ -447,14 +463,15 @@ class MultiMovies extends MovieParser {
             name:
               streamDetails.siteFriendlyNames[site] === 'StreamHG'
                 ? 'StreamWish'
+                : streamDetails.siteFriendlyNames[site] === 'EarnVids'
+                ? 'VidHide'
                 : streamDetails.siteFriendlyNames[site],
-            url: streamDetails.siteUrls[site] + streamDetails.mresult[site],
+            url: streamDetails.siteUrls[site] + JSON.parse(atob(streamDetails.mresult))[site],
           };
         });
 
         return { servers, fileId };
       } else {
-        //@Durgesh
         return {
           servers: [{ name: 'StreamWish', url: iframeUrl }],
           fileId: iframeUrl.split('/').pop() ?? '',
@@ -468,12 +485,13 @@ class MultiMovies extends MovieParser {
 
 // (async () => {
 //   const movie = new MultiMovies();
-//   const search = await movie.search('jujutsu');
-//   const movieInfo = await movie.fetchEpisodeSources(search.results[0]?.id);
-//   const server = await movie.fetchEpisodeServers(search.results[0]?.id);
+//   const search = await movie.search('mercy for none');
+//   const movieInfo = await movie.fetchMediaInfo(search.results[0]?.id);
+//   console.log(movieInfo.episodes![0].id, movieInfo.id);
+//   const server = await movie.fetchEpisodeSources(movieInfo.episodes![0].id, movieInfo.id);
 //   // const recentTv = await movie.fetchPopular();
 //   // const genre = await movie.fetchByGenre('action');
-//   console.log(movieInfo,server);
+//   console.log(server);
 // })();
 
 export default MultiMovies;

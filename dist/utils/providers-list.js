@@ -19,6 +19,7 @@ exports.PROVIDERS_LIST = {
         new providers_1.ANIME.Zoro(),
         new providers_1.ANIME.Marin(),
         new providers_1.ANIME.AnimeKai(),
+        new providers_1.ANIME.AnimeOwl(),
     ],
     MANGA: [
         new providers_1.MANGA.MangaDex(),
@@ -47,6 +48,7 @@ exports.PROVIDERS_LIST = {
         new providers_1.MOVIES.SFlix(),
         new providers_1.MOVIES.MultiMovies(),
         new providers_1.MOVIES.NetflixMirror(),
+        new providers_1.MOVIES.HiMovies(),
     ],
     NEWS: [new providers_1.NEWS.ANN()],
     META: [new providers_1.META.Anilist(), new providers_1.META.TMDB(), new providers_1.META.Myanimelist()],

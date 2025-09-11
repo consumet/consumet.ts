@@ -20,4 +20,5 @@ import VizCloud from './vizcloud';
 import VidHide from './vidhide';
 import Voe from './voe';
 import { MegaUp } from './megaup';
-export { AsianLoad, BilibiliExtractor, Filemoon, GogoCDN, Kwik, MixDrop, Mp4Player, Mp4Upload, RapidCloud, MegaCloud, SmashyStream, StreamHub, StreamLare, StreamSB, StreamTape, StreamWish, VidCloud, VidMoly, VizCloud, VidHide, Voe, MegaUp, };
+import Luffy from './luffy';
+export { AsianLoad, BilibiliExtractor, Filemoon, GogoCDN, Kwik, MixDrop, Mp4Player, Mp4Upload, RapidCloud, MegaCloud, SmashyStream, StreamHub, StreamLare, StreamSB, StreamTape, StreamWish, VidCloud, VidMoly, VizCloud, VidHide, Voe, MegaUp, Luffy, };

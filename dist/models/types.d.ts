@@ -183,7 +183,9 @@ export declare enum StreamingServers {
     VidHide = "vidhide",
     VidMoly = "vidmoly",
     Voe = "voe",
-    MegaUp = "megaup"
+    MegaUp = "megaup",
+    MegaCloud = "megacloud",
+    Luffy = "luffy"
 }
 export declare enum MediaStatus {
     ONGOING = "Ongoing",

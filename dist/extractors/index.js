@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.MegaUp = exports.Voe = exports.VidHide = exports.VizCloud = exports.VidMoly = exports.VidCloud = exports.StreamWish = exports.StreamTape = exports.StreamSB = exports.StreamLare = exports.StreamHub = exports.SmashyStream = exports.MegaCloud = exports.RapidCloud = exports.Mp4Upload = exports.Mp4Player = exports.MixDrop = exports.Kwik = exports.GogoCDN = exports.Filemoon = exports.BilibiliExtractor = exports.AsianLoad = void 0;
+exports.Luffy = exports.MegaUp = exports.Voe = exports.VidHide = exports.VizCloud = exports.VidMoly = exports.VidCloud = exports.StreamWish = exports.StreamTape = exports.StreamSB = exports.StreamLare = exports.StreamHub = exports.SmashyStream = exports.MegaCloud = exports.RapidCloud = exports.Mp4Upload = exports.Mp4Player = exports.MixDrop = exports.Kwik = exports.GogoCDN = exports.Filemoon = exports.BilibiliExtractor = exports.AsianLoad = void 0;
 const asianload_1 = __importDefault(require("./asianload"));
 exports.AsianLoad = asianload_1.default;
 const bilibili_1 = __importDefault(require("./bilibili"));
@@ -48,4 +48,6 @@ const voe_1 = __importDefault(require("./voe"));
 exports.Voe = voe_1.default;
 const megaup_1 = require("./megaup");
 Object.defineProperty(exports, "MegaUp", { enumerable: true, get: function () { return megaup_1.MegaUp; } });
+const luffy_1 = __importDefault(require("./luffy"));
+exports.Luffy = luffy_1.default;
 //# sourceMappingURL=index.js.map

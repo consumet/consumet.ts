@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.MegaUp = exports.VidMoly = exports.StreamWish = exports.Mp4Upload = exports.Filemoon = exports.BilibiliExtractor = exports.AsianLoad = exports.VizCloud = exports.SmashyStream = exports.StreamHub = exports.StreamTape = exports.RapidCloud = exports.Kwik = exports.MixDrop = exports.VidCloud = exports.StreamSB = exports.GogoCDN = exports.MediaFormat = exports.TvType = exports.MediaStatus = exports.StreamingServers = exports.SubOrSub = exports.Genres = exports.Topics = exports.PROVIDERS_LIST = exports.NEWS = exports.META = exports.MOVIES = exports.LIGHT_NOVELS = exports.MANGA = exports.COMICS = exports.BOOKS = exports.ANIME = void 0;
+exports.Luffy = exports.MegaUp = exports.VidMoly = exports.StreamWish = exports.Mp4Upload = exports.Filemoon = exports.BilibiliExtractor = exports.AsianLoad = exports.VizCloud = exports.SmashyStream = exports.StreamHub = exports.StreamTape = exports.RapidCloud = exports.Kwik = exports.MixDrop = exports.VidCloud = exports.StreamSB = exports.GogoCDN = exports.MediaFormat = exports.TvType = exports.MediaStatus = exports.StreamingServers = exports.SubOrSub = exports.Genres = exports.Topics = exports.PROVIDERS_LIST = exports.NEWS = exports.META = exports.MOVIES = exports.LIGHT_NOVELS = exports.MANGA = exports.COMICS = exports.BOOKS = exports.ANIME = void 0;
 const providers_1 = require("./providers");
 Object.defineProperty(exports, "ANIME", { enumerable: true, get: function () { return providers_1.ANIME; } });
 Object.defineProperty(exports, "BOOKS", { enumerable: true, get: function () { return providers_1.BOOKS; } });
@@ -30,6 +30,7 @@ Object.defineProperty(exports, "VidMoly", { enumerable: true, get: function () {
 Object.defineProperty(exports, "Mp4Upload", { enumerable: true, get: function () { return extractors_1.Mp4Upload; } });
 Object.defineProperty(exports, "StreamWish", { enumerable: true, get: function () { return extractors_1.StreamWish; } });
 Object.defineProperty(exports, "MegaUp", { enumerable: true, get: function () { return extractors_1.MegaUp; } });
+Object.defineProperty(exports, "Luffy", { enumerable: true, get: function () { return extractors_1.Luffy; } });
 const models_1 = require("./models");
 Object.defineProperty(exports, "StreamingServers", { enumerable: true, get: function () { return models_1.StreamingServers; } });
 Object.defineProperty(exports, "MediaStatus", { enumerable: true, get: function () { return models_1.MediaStatus; } });
