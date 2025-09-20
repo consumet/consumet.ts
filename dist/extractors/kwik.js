@@ -6,7 +6,7 @@ class Kwik extends models_1.VideoExtractor {
         super(...arguments);
         this.serverName = 'kwik';
         this.sources = [];
-        this.host = 'https://animepahe.ru/';
+        this.host = 'https://animepahe.si/';
         this.extract = async (videoUrl) => {
             try {
                 const response = await fetch(`${videoUrl.href}`, {
