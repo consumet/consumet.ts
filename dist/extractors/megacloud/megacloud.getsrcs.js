@@ -1,5 +1,6 @@
 "use strict";
 // solution inspired from https://github.com/drblgn/rabbit_wasm/blob/main/rabbit.ts
+// @ts-nocheck
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -96,7 +97,9 @@ let memoryBuff;
 //fix this
 function getMemBuff() {
     return (memoryBuff =
-        null !== memoryBuff && 0 !== memoryBuff.byteLength ? memoryBuff : new Uint8Array(wasm.memory.buffer));
+        null !== memoryBuff && 0 !== memoryBuff.byteLength
+            ? memoryBuff
+            : new Uint8Array(wasm.memory.buffer));
 }
 const encoder = new TextEncoder();
 const encode = function (text, array) {
@@ -138,7 +141,9 @@ function isNull(test) {
 }
 function getDataView() {
     return (dataView =
-        dataView === null || isDetached(dataView.buffer) || dataView.buffer !== wasm.memory.buffer
+        dataView === null ||
+            isDetached(dataView.buffer) ||
+            dataView.buffer !== wasm.memory.buffer
             ? new DataView(wasm.memory.buffer)
             : dataView);
 }

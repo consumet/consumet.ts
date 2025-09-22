@@ -1,4 +1,5 @@
 // solution inspired from https://github.com/drblgn/rabbit_wasm/blob/main/rabbit.ts
+// @ts-nocheck
 
 import { decoded_png } from './megacloud.decodedpng';
 import util from 'util';
@@ -116,7 +117,9 @@ let memoryBuff: Uint8Array | null;
 //fix this
 function getMemBuff(): Uint8Array {
   return (memoryBuff =
-    null !== memoryBuff && 0 !== memoryBuff.byteLength ? memoryBuff : new Uint8Array(wasm.memory.buffer));
+    null !== memoryBuff && 0 !== memoryBuff.byteLength
+      ? memoryBuff
+      : new Uint8Array(wasm.memory.buffer as ArrayBuffer));
 }
 
 const encoder = new TextEncoder();
@@ -167,8 +170,10 @@ function isNull(test: any) {
 
 function getDataView() {
   return (dataView =
-    dataView === null || isDetached(dataView.buffer) || dataView.buffer !== wasm.memory.buffer
-      ? new DataView(wasm.memory.buffer)
+    dataView === null ||
+    isDetached(dataView.buffer) ||
+    dataView.buffer !== (wasm.memory.buffer as ArrayBuffer)
+      ? new DataView(wasm.memory.buffer as ArrayBuffer)
       : dataView);
 }
 
