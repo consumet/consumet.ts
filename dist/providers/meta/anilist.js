@@ -820,7 +820,7 @@ class Anilist extends models_1.AnimeParser {
                     currentPage: data.data.Page.pageInfo.currentPage,
                     hasNextPage: data.data.Page.pageInfo.hasNextPage,
                     results: data.data.Page.media.map((item) => {
-                        var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s;
+                        var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r;
                         return ({
                             id: item.id.toString(),
                             malId: item.idMal,
@@ -858,9 +858,7 @@ class Anilist extends models_1.AnimeParser {
                             releaseDate: item.seasonYear,
                             color: (_r = item.coverImage) === null || _r === void 0 ? void 0 : _r.color,
                             genres: item.genres,
-                            totalEpisodes: isNaN(item.episodes)
-                                ? 0
-                                : item.episodes || (((_s = item.nextAiringEpisode) === null || _s === void 0 ? void 0 : _s.episode) ? item.nextAiringEpisode.episode - 1 : 0),
+                            totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes,
                             duration: item.duration,
                             type: item.format,
                         });
@@ -891,7 +889,7 @@ class Anilist extends models_1.AnimeParser {
                     currentPage: data.data.Page.pageInfo.currentPage,
                     hasNextPage: data.data.Page.pageInfo.hasNextPage,
                     results: data.data.Page.media.map((item) => {
-                        var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s;
+                        var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r;
                         return ({
                             id: item.id.toString(),
                             malId: item.idMal,
@@ -929,9 +927,7 @@ class Anilist extends models_1.AnimeParser {
                             releaseDate: item.seasonYear,
                             color: (_r = item.coverImage) === null || _r === void 0 ? void 0 : _r.color,
                             genres: item.genres,
-                            totalEpisodes: isNaN(item.episodes)
-                                ? 0
-                                : item.episodes || (((_s = item.nextAiringEpisode) === null || _s === void 0 ? void 0 : _s.episode) ? item.nextAiringEpisode.episode - 1 : 0),
+                            totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes,
                             duration: item.duration,
                             type: item.format,
                         });
@@ -1032,7 +1028,7 @@ class Anilist extends models_1.AnimeParser {
                     currentPage: data.data.Page.pageInfo.currentPage,
                     hasNextPage: data.data.Page.pageInfo.hasNextPage,
                     results: data.data.Page.media.map((item) => {
-                        var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s;
+                        var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r;
                         return ({
                             id: item.id.toString(),
                             malId: item.idMal,
@@ -1059,9 +1055,7 @@ class Anilist extends models_1.AnimeParser {
                             releaseDate: item.seasonYear,
                             color: (_r = item.coverImage) === null || _r === void 0 ? void 0 : _r.color,
                             genres: item.genres,
-                            totalEpisodes: isNaN(item.episodes)
-                                ? 0
-                                : item.episodes || (((_s = item.nextAiringEpisode) === null || _s === void 0 ? void 0 : _s.episode) ? item.nextAiringEpisode.episode - 1 : 0),
+                            totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes,
                             duration: item.duration,
                             type: item.format,
                         });

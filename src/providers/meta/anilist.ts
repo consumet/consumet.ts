@@ -1076,9 +1076,7 @@ class Anilist extends AnimeParser {
           releaseDate: item.seasonYear,
           color: item.coverImage?.color,
           genres: item.genres,
-          totalEpisodes: isNaN(item.episodes)
-            ? 0
-            : item.episodes || (item.nextAiringEpisode?.episode ? item.nextAiringEpisode.episode - 1 : 0),
+          totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes,
           duration: item.duration,
           type: item.format,
         })),
@@ -1152,9 +1150,7 @@ class Anilist extends AnimeParser {
           releaseDate: item.seasonYear,
           color: item.coverImage?.color,
           genres: item.genres,
-          totalEpisodes: isNaN(item.episodes)
-            ? 0
-            : item.episodes || (item.nextAiringEpisode?.episode ? item.nextAiringEpisode.episode - 1 : 0),
+          totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes,
           duration: item.duration,
           type: item.format,
         })),
@@ -1307,9 +1303,7 @@ class Anilist extends AnimeParser {
           releaseDate: item.seasonYear,
           color: item.coverImage?.color,
           genres: item.genres,
-          totalEpisodes: isNaN(item.episodes)
-            ? 0
-            : item.episodes || (item.nextAiringEpisode?.episode ? item.nextAiringEpisode.episode - 1 : 0),
+          totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes,
           duration: item.duration,
           type: item.format,
         })),

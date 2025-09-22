@@ -129,7 +129,19 @@ function parse(text, func, func2) {
     return (i !== len &&
         (0 !== i && (text = text.slice(i)),
             (parsedLen = func2(parsedLen, len, (len = i + 3 * text.length), 1) >>> 0),
-            (encoded = getMemBuff().subarray(parsedLen + i, parsedLen + len)),
+            (encoded = (() => {
+                const memBuff = getMemBuff();
+                // If buffer is not an ArrayBuffer, copy to a new ArrayBuffer
+                let ab;
+                if (memBuff.buffer instanceof ArrayBuffer && memBuff.buffer.constructor.name === 'ArrayBuffer') {
+                    ab = memBuff.buffer;
+                }
+                else {
+                    // Copy to new ArrayBuffer
+                    ab = new Uint8Array(memBuff).buffer;
+                }
+                return new Uint8Array(ab).subarray(parsedLen + i, parsedLen + len);
+            })()),
             (i += encode(text, encoded).written),
             (parsedLen = func2(parsedLen, len, i, 1) >>> 0)),
         (size = i),
