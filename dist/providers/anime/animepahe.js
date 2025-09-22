@@ -8,7 +8,7 @@ class AnimePahe extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
         this.name = 'AnimePahe';
-        this.baseUrl = 'https://animepahe.ru';
+        this.baseUrl = 'https://animepahe.si';
         this.logo = 'https://animepahe.com/pikacon.ico';
         this.classPath = 'ANIME.AnimePahe';
         // private readonly sgProxy = 'https://cors.consumet.stream';
@@ -207,7 +207,7 @@ class AnimePahe extends models_1.AnimeParser {
     }
     Headers(sessionId) {
         return {
-            authority: 'animepahe.ru',
+            authority: 'animepahe.si',
             accept: 'application/json, text/javascript, */*; q=0.01',
             'accept-language': 'en-US,en;q=0.9',
             cookie: '__ddg2_=;',
