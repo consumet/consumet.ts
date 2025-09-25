@@ -26,6 +26,12 @@ class Luffy extends models_1.VideoExtractor {
                         url: item.url + jwt,
                     });
                 });
+                const subtitles = server['subtitles'] || [];
+                if (subtitles.length > 0) {
+                    this.sources.forEach(source => {
+                        source.subtitles = subtitles;
+                    });
+                }
                 return this.sources;
             }
             catch (err) {
