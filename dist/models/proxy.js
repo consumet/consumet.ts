@@ -5,56 +5,95 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Proxy = void 0;
 const axios_1 = __importDefault(require("axios"));
+const axios_cache_interceptor_1 = require("axios-cache-interceptor");
 class Proxy {
-    /**
-     *
-     * @param proxyConfig The proxy config (optional)
-     * @param adapter The axios adapter (optional)
-     */
     constructor(proxyConfig, adapter) {
         this.proxyConfig = proxyConfig;
         this.adapter = adapter;
-        this.validUrl = /^https?:\/\/.+/;
-        this.rotateProxy = (proxy) => {
-            var _a;
-            setInterval(() => {
-                const url = proxy.urls.shift();
-                if (url)
-                    proxy.urls.push(url);
-                this.setProxy({ url: proxy.urls[0], key: proxy.key });
-            }, (_a = proxy === null || proxy === void 0 ? void 0 : proxy.rotateInterval) !== null && _a !== void 0 ? _a : 5000);
+        // Prefer URL() over regex for validation
+        this.isValidUrl = (value) => {
+            try {
+                const u = new URL(value);
+                return u.protocol === 'http:' || u.protocol === 'https:';
+            }
+            catch (_a) {
+                return false;
+            }
         };
-        this.toMap = (arr) => arr.map((v, i) => [i, v]);
-        this.client = axios_1.default.create();
-        if (proxyConfig)
-            this.setProxy(proxyConfig);
+        const instance = axios_1.default.create();
+        this.client = (0, axios_cache_interceptor_1.setupCache)(instance);
         if (adapter)
             this.setAxiosAdapter(adapter);
+        if (proxyConfig)
+            this.setProxy(proxyConfig);
     }
     /**
      * Set or Change the proxy config
      */
     setProxy(proxyConfig) {
+        var _a;
         if (!(proxyConfig === null || proxyConfig === void 0 ? void 0 : proxyConfig.url))
             return;
-        if (typeof (proxyConfig === null || proxyConfig === void 0 ? void 0 : proxyConfig.url) === 'string')
-            if (!this.validUrl.test(proxyConfig.url))
-                throw new Error('Proxy URL is invalid!');
-        if (Array.isArray(proxyConfig === null || proxyConfig === void 0 ? void 0 : proxyConfig.url)) {
-            for (const [i, url] of this.toMap(proxyConfig.url))
-                if (!this.validUrl.test(url))
+        // Clear any existing rotation when changing strategy
+        if (this.rotationTimer) {
+            clearInterval(this.rotationTimer);
+            this.rotationTimer = undefined;
+        }
+        if (Array.isArray(proxyConfig.url)) {
+            // Validate all
+            proxyConfig.url.forEach((u, i) => {
+                if (!this.isValidUrl(u))
                     throw new Error(`Proxy URL at index ${i} is invalid!`);
-            this.rotateProxy({ ...proxyConfig, urls: proxyConfig.url });
+            });
+            const urls = [...proxyConfig.url];
+            // Apply immediately with the first URL
+            this.applyProxyUrl(urls[0], proxyConfig.key);
+            // Start rotation
+            this.rotationTimer = setInterval(() => {
+                const next = urls.shift();
+                if (next)
+                    urls.push(next);
+                this.applyProxyUrl(urls[0], proxyConfig.key);
+            }, (_a = proxyConfig.rotateInterval) !== null && _a !== void 0 ? _a : 5000);
             return;
         }
-        this.client.interceptors.request.use(config => {
-            var _a, _b;
-            if (proxyConfig === null || proxyConfig === void 0 ? void 0 : proxyConfig.url) {
-                config.headers.set('x-api-key', (_a = proxyConfig === null || proxyConfig === void 0 ? void 0 : proxyConfig.key) !== null && _a !== void 0 ? _a : '');
-                config.url = `${proxyConfig.url}${(config === null || config === void 0 ? void 0 : config.url) ? config === null || config === void 0 ? void 0 : config.url : ''}`;
+        // Single URL
+        if (typeof proxyConfig.url === 'string') {
+            if (!this.isValidUrl(proxyConfig.url))
+                throw new Error('Proxy URL is invalid!');
+            this.applyProxyUrl(proxyConfig.url, proxyConfig.key);
+        }
+    }
+    /**
+     * Apply a single proxy URL by (re)installing the request interceptor
+     */
+    applyProxyUrl(proxyUrl, key) {
+        // Eject previous interceptor if any
+        if (this.proxyInterceptorId !== undefined) {
+            this.client.interceptors.request.eject(this.proxyInterceptorId);
+            this.proxyInterceptorId = undefined;
+        }
+        // Install new interceptor
+        this.proxyInterceptorId = this.client.interceptors.request.use(config => {
+            var _a, _b, _c, _d;
+            // Use baseURL instead of string-concatenating into url
+            // Only set baseURL if it isn't already the same proxy
+            if (!config.baseURL || !config.baseURL.startsWith(proxyUrl)) {
+                config.baseURL = proxyUrl;
             }
-            if ((_b = config === null || config === void 0 ? void 0 : config.url) === null || _b === void 0 ? void 0 : _b.includes('anify'))
-                config.headers.set('User-Agent', 'consumet');
+            if (key) {
+                // Axios v1 headers are AxiosHeaders; guard just in case
+                config.headers = (_a = config.headers) !== null && _a !== void 0 ? _a : {};
+                config.headers.set ? config.headers.set('x-api-key', key) : (config.headers['x-api-key'] = key);
+            }
+            // Only try to set User-Agent in Node (browser disallows it)
+            const isNode = typeof process !== 'undefined' && !!((_b = process.versions) === null || _b === void 0 ? void 0 : _b.node);
+            if (isNode && ((_c = config.url) === null || _c === void 0 ? void 0 : _c.includes('anify'))) {
+                config.headers = (_d = config.headers) !== null && _d !== void 0 ? _d : {};
+                config.headers.set
+                    ? config.headers.set('User-Agent', 'consumet')
+                    : (config.headers['User-Agent'] = 'consumet');
+            }
             return config;
         });
     }
