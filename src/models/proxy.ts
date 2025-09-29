@@ -1,45 +1,100 @@
 import axios, { AxiosAdapter, AxiosInstance } from 'axios';
-
+import { setupCache } from 'axios-cache-interceptor';
 import { ProxyConfig } from './types';
 
 export class Proxy {
-  /**
-   *
-   * @param proxyConfig The proxy config (optional)
-   * @param adapter The axios adapter (optional)
-   */
   constructor(protected proxyConfig?: ProxyConfig, protected adapter?: AxiosAdapter) {
-    this.client = axios.create();
-
-    if (proxyConfig) this.setProxy(proxyConfig);
+    const instance = axios.create();
+    this.client = setupCache(instance);
     if (adapter) this.setAxiosAdapter(adapter);
+    if (proxyConfig) this.setProxy(proxyConfig);
   }
-  private validUrl = /^https?:\/\/.+/;
+
+  // Keep track of rotation + interceptor so we can cleanly update
+  private rotationTimer?: ReturnType<typeof setInterval>;
+  private proxyInterceptorId?: number;
+
+  // Prefer URL() over regex for validation
+  private isValidUrl = (value: string): boolean => {
+    try {
+      const u = new URL(value);
+      return u.protocol === 'http:' || u.protocol === 'https:';
+    } catch {
+      return false;
+    }
+  };
+
   /**
    * Set or Change the proxy config
    */
   setProxy(proxyConfig: ProxyConfig) {
     if (!proxyConfig?.url) return;
 
-    if (typeof proxyConfig?.url === 'string')
-      if (!this.validUrl.test(proxyConfig.url)) throw new Error('Proxy URL is invalid!');
+    // Clear any existing rotation when changing strategy
+    if (this.rotationTimer) {
+      clearInterval(this.rotationTimer);
+      this.rotationTimer = undefined;
+    }
 
-    if (Array.isArray(proxyConfig?.url)) {
-      for (const [i, url] of this.toMap<string>(proxyConfig.url))
-        if (!this.validUrl.test(url)) throw new Error(`Proxy URL at index ${i} is invalid!`);
+    if (Array.isArray(proxyConfig.url)) {
+      // Validate all
+      proxyConfig.url.forEach((u, i) => {
+        if (!this.isValidUrl(u)) throw new Error(`Proxy URL at index ${i} is invalid!`);
+      });
 
-      this.rotateProxy({ ...proxyConfig, urls: proxyConfig.url });
+      const urls = [...proxyConfig.url];
+      // Apply immediately with the first URL
+      this.applyProxyUrl(urls[0], proxyConfig.key);
+
+      // Start rotation
+      this.rotationTimer = setInterval(() => {
+        const next = urls.shift();
+        if (next) urls.push(next);
+        this.applyProxyUrl(urls[0], proxyConfig.key);
+      }, proxyConfig.rotateInterval ?? 5000);
 
       return;
     }
 
-    this.client.interceptors.request.use(config => {
-      if (proxyConfig?.url) {
-        config.headers.set('x-api-key', proxyConfig?.key ?? '');
-        config.url = `${proxyConfig.url}${config?.url ? config?.url : ''}`;
+    // Single URL
+    if (typeof proxyConfig.url === 'string') {
+      if (!this.isValidUrl(proxyConfig.url)) throw new Error('Proxy URL is invalid!');
+      this.applyProxyUrl(proxyConfig.url, proxyConfig.key);
+    }
+  }
+
+  /**
+   * Apply a single proxy URL by (re)installing the request interceptor
+   */
+  private applyProxyUrl(proxyUrl: string, key?: string) {
+    // Eject previous interceptor if any
+    if (this.proxyInterceptorId !== undefined) {
+      this.client.interceptors.request.eject(this.proxyInterceptorId);
+      this.proxyInterceptorId = undefined;
+    }
+
+    // Install new interceptor
+    this.proxyInterceptorId = this.client.interceptors.request.use(config => {
+      // Use baseURL instead of string-concatenating into url
+      // Only set baseURL if it isn't already the same proxy
+      if (!config.baseURL || !config.baseURL.startsWith(proxyUrl)) {
+        config.baseURL = proxyUrl;
       }
 
-      if (config?.url?.includes('anify')) config.headers.set('User-Agent', 'consumet');
+      if (key) {
+        // Axios v1 headers are AxiosHeaders; guard just in case
+        config.headers = config.headers ?? {};
+        config.headers.set ? config.headers.set('x-api-key', key) : (config.headers['x-api-key'] = key);
+      }
+
+      // Only try to set User-Agent in Node (browser disallows it)
+      const isNode = typeof process !== 'undefined' && !!process.versions?.node;
+      if (isNode && config.url?.includes('anify')) {
+        config.headers = config.headers ?? {};
+        config.headers.set
+          ? config.headers.set('User-Agent', 'consumet')
+          : (config.headers['User-Agent'] = 'consumet');
+      }
 
       return config;
     });
@@ -51,16 +106,6 @@ export class Proxy {
   setAxiosAdapter(adapter: AxiosAdapter) {
     this.client.defaults.adapter = adapter;
   }
-  private rotateProxy = (proxy: Omit<ProxyConfig, 'url'> & { urls: string[] }) => {
-    setInterval(() => {
-      const url = proxy.urls.shift();
-      if (url) proxy.urls.push(url);
-
-      this.setProxy({ url: proxy.urls[0], key: proxy.key });
-    }, proxy?.rotateInterval ?? 5000);
-  };
-
-  private toMap = <T>(arr: T[]): [number, T][] => arr.map((v, i) => [i, v]);
 
   protected client: AxiosInstance;
 }
