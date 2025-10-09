@@ -77,7 +77,7 @@ export async function getSources(embed_url: URL, site: string) {
 
   if (encrypted) {
     const decodeUrl =
-      'https://script.google.com/macros/s/AKfycbx-yHTwupis_JD0lNzoOnxYcEYeXmJZrg7JeMxYnEZnLBy5V0--UxEvP-y9txHyy1TX9Q/exec';
+      'https://script.google.com/macros/s/AKfycbxHbYHbrGMXYD2-bC-C43D3njIbU-wGiYQuJL61H4vyy6YVXkybMNNEPJNPPuZrD1gRVA/exec';
 
     const params = new URLSearchParams({
       encrypted_data: sources,

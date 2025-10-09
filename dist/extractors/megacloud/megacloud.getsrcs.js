@@ -68,7 +68,7 @@ async function getSources(embed_url, site) {
     const sources = encryptedResData.sources;
     let videoSrc = [];
     if (encrypted) {
-        const decodeUrl = 'https://script.google.com/macros/s/AKfycbx-yHTwupis_JD0lNzoOnxYcEYeXmJZrg7JeMxYnEZnLBy5V0--UxEvP-y9txHyy1TX9Q/exec';
+        const decodeUrl = 'https://script.google.com/macros/s/AKfycbxHbYHbrGMXYD2-bC-C43D3njIbU-wGiYQuJL61H4vyy6YVXkybMNNEPJNPPuZrD1gRVA/exec';
         const params = new URLSearchParams({
             encrypted_data: sources,
             nonce: nonce,
