@@ -9,7 +9,6 @@ import Turkish from './turkish123';
 import ViewAsian from './viewAsian';
 import SFlix from './sflix';
 import MultiMovies from './multimovies';
-import NetflixMirror from './netflixmirror';
 import HiMovies from './himovies';
 
 export default {
@@ -24,6 +23,5 @@ export default {
   Turkish,
   SFlix,
   MultiMovies,
-  NetflixMirror,
   HiMovies,
 };
