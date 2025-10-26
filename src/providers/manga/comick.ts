@@ -3,11 +3,11 @@ import { IMangaChapterPage, IMangaInfo, IMangaResult, ISearch, MangaParser, Medi
 
 class ComicK extends MangaParser {
   override readonly name = 'ComicK';
-  protected override baseUrl = 'https://comick.app';
+  protected override baseUrl = 'https://comick.art';
   protected override logo = 'https://th.bing.com/th/id/OIP.fw4WrmAoA2PmKitiyMzUIgAAAA?pid=ImgDet&rs=1';
   protected override classPath = 'MANGA.ComicK';
 
-  private readonly apiUrl = 'https://api.comick.io';
+  private readonly apiUrl = 'https://api.comick.io/v1.0';
 
   private _axios() {
     return axios.create({
@@ -37,13 +37,13 @@ class ComicK extends MangaParser {
         description: data.desc,
         genres: data.md_comic_md_genres?.map(genre => genre.md_genres.name),
         status: data.status ?? 0 === 0 ? MediaStatus.ONGOING : MediaStatus.COMPLETED,
-        image: `https://meo.comick.pictures${data.md_covers ? data.md_covers[0].b2key : ''}`,
+        image: `https://meo.comick.pictures/${data.md_covers ? data.md_covers[0].b2key : ''}`,
         malId: data.links?.mal,
         links: links,
         chapters: [],
       };
 
-      const allChapters: ChapterData[] = await this.fetchAllChapters(mangaId, 1);
+      const allChapters = await this.fetchAllChapters(mangaInfo.id, 1);
       for (const chapter of allChapters) {
         mangaInfo.chapters?.push({
           id: chapter.hid,
@@ -103,7 +103,7 @@ class ComicK extends MangaParser {
 
     try {
       const req = await this._axios().get(
-        `/v1.0/search?q=${encodeURIComponent(query)}&limit=${limit}&page=${page}`
+        `/search?q=${encodeURIComponent(query)}&limit=${limit}&page=${page}`
       );
 
       const results: ISearch<IMangaResult> = {
@@ -116,7 +116,7 @@ class ComicK extends MangaParser {
       for (const manga of data) {
         let cover: Cover | string | null = manga.md_covers ? manga.md_covers[0] : null;
         if (cover && cover.b2key != undefined) {
-          cover = `https://meo.comick.pictures${cover.b2key}`;
+          cover = `https://meo.comick.pictures/${cover.b2key}`;
         }
 
         results.results.push({
@@ -133,25 +133,13 @@ class ComicK extends MangaParser {
     }
   };
 
-  private fetchAllChapters = async (mangaId: string, page: number): Promise<any[]> => {
+  private fetchAllChapters = async (hid: string, page: number): Promise<any[]> => {
     if (page <= 0) {
       page = 1;
     }
-    const comicId = await this.getComicId(mangaId);
-    const req = await this._axios().get(`/comic/${comicId}/chapters?page=${page}`);
+    const req = await this._axios().get(`/comic/${hid}/chapters?page=${page}`);
     return req.data.chapters;
   };
-
-  /**
-   * @description Fetches the comic HID from the slug
-   * @param id Comic slug
-   * @returns Promise<string> empty if not found
-   */
-  private async getComicId(id: string): Promise<string> {
-    const req = await this._axios().get(`/comic/${id}`);
-    const data: Comic = req.data['comic'];
-    return data ? data.hid : '';
-  }
 }
 
 // (async () => {
