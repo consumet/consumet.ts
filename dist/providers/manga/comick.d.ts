@@ -14,7 +14,7 @@ declare class ComicK extends MangaParser {
     fetchMangaInfo: (mangaId: string) => Promise<IMangaInfo>;
     /**
      *
-     * @param chapterId Chapter ID (HID)
+     * @param chapterId Chapter ID '{slug}/{hid}-chapter-{chap}-{lang}'
      * @returns Promise<IMangaChapterPage[]>
      */
     fetchChapterPages: (chapterId: string) => Promise<IMangaChapterPage[]>;
@@ -25,11 +25,5 @@ declare class ComicK extends MangaParser {
      */
     search: (query: string, page?: number, limit?: number) => Promise<ISearch<IMangaResult>>;
     private fetchAllChapters;
-    /**
-     * @description Fetches the comic HID from the slug
-     * @param id Comic slug
-     * @returns Promise<string> empty if not found
-     */
-    private getComicId;
 }
 export default ComicK;
