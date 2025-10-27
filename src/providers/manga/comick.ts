@@ -75,14 +75,12 @@ class ComicK extends MangaParser {
    */
   override fetchChapterPages = async (chapterId: string): Promise<IMangaChapterPage[]> => {
     try {
-      const data = await this._axios().get(`https://comick.art/api/comics/${chapterId}`, {
-        headers: { 'User-Agent': 'Mozilla/5.0' },
-      });
+      const data = await this._axios().get(`/comics/${chapterId}`);
 
       const pages: { img: string; page: number }[] = [];
-      data.data.chapter.images.map((image: { b2key: string; w: string }, index: number) => {
+      data.data.chapter.images.map((image: { url: string }, index: number) => {
         pages.push({
-          img: `https://meo.comick.pictures/${image.b2key}?width=${image.w}`,
+          img: image.url,
           page: index,
         });
       });
@@ -119,16 +117,11 @@ class ComicK extends MangaParser {
       const data: SearchResult[] = await req.data.data;
 
       for (const manga of data) {
-        let cover: Cover | string | null = manga.md_covers ? manga.md_covers[0] : null;
-        if (cover && cover.b2key != undefined) {
-          cover = `https://meo.comick.pictures/${cover.b2key}`;
-        }
-
         results.results.push({
           id: manga.slug,
           title: manga.title ?? manga.slug,
           altTitles: manga.md_titles ? manga.md_titles.map(title => title.title) : [],
-          image: cover as string,
+          image: manga.default_thumbnail,
         });
       }
 
@@ -169,6 +162,7 @@ interface SearchResult {
   demographic: number;
   md_titles: [MDTitle];
   md_covers: Array<Cover>;
+  default_thumbnail: string;
   highlight: string;
 }
 

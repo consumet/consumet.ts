@@ -64,13 +64,11 @@ class ComicK extends models_1.MangaParser {
          */
         this.fetchChapterPages = async (chapterId) => {
             try {
-                const data = await this._axios().get(`https://comick.art/api/comics/${chapterId}`, {
-                    headers: { 'User-Agent': 'Mozilla/5.0' },
-                });
+                const data = await this._axios().get(`/comics/${chapterId}`);
                 const pages = [];
                 data.data.chapter.images.map((image, index) => {
                     pages.push({
-                        img: `https://meo.comick.pictures/${image.b2key}?width=${image.w}`,
+                        img: image.url,
                         page: index,
                     });
                 });
@@ -102,15 +100,11 @@ class ComicK extends models_1.MangaParser {
                 };
                 const data = await req.data.data;
                 for (const manga of data) {
-                    let cover = manga.md_covers ? manga.md_covers[0] : null;
-                    if (cover && cover.b2key != undefined) {
-                        cover = `https://meo.comick.pictures/${cover.b2key}`;
-                    }
                     results.results.push({
                         id: manga.slug,
                         title: (_a = manga.title) !== null && _a !== void 0 ? _a : manga.slug,
                         altTitles: manga.md_titles ? manga.md_titles.map(title => title.title) : [],
-                        image: cover,
+                        image: manga.default_thumbnail,
                     });
                 }
                 return results;
