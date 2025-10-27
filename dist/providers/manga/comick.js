@@ -79,7 +79,6 @@ class ComicK extends models_1.MangaParser {
                 throw new Error(err.message);
             }
         };
-        // TODO: implement the official api route 'https://api.comick.dev/v1.0/search?q=' for better pagination (requires cloudflare bypass)
         // also need to implement and advanced search with filters
         /**
          * @param query search query
