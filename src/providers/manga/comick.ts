@@ -9,18 +9,17 @@ class ComicK extends MangaParser {
   protected override classPath = 'MANGA.ComicK';
 
   private readonly apiUrl = 'https://comick.art/api';
+  public referer = 'https://comick.art';
 
   private _axios() {
     return axios.create({
       baseURL: this.apiUrl,
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
-        Referer: 'https://comick.art',
+        Referer: this.referer,
       },
     });
   }
-
-  public referer = 'https://comick.art';
 
   /**
    * @description Fetches info about the manga

@@ -123,7 +123,7 @@ class ComicK extends models_1.MangaParser {
             baseURL: this.apiUrl,
             headers: {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
-                Referer: 'https://comick.art',
+                Referer: this.referer,
             },
         });
     }
