@@ -14,6 +14,7 @@ class ComicK extends models_1.MangaParser {
         this.logo = 'https://th.bing.com/th/id/OIP.fw4WrmAoA2PmKitiyMzUIgAAAA?pid=ImgDet&rs=1';
         this.classPath = 'MANGA.ComicK';
         this.apiUrl = 'https://comick.art/api';
+        this.referer = 'https://comick.art';
         /**
          * @description Fetches info about the manga
          * @param mangaId Comic slug
@@ -79,24 +80,20 @@ class ComicK extends models_1.MangaParser {
             }
         };
         // TODO: implement the official api route 'https://api.comick.dev/v1.0/search?q=' for better pagination (requires cloudflare bypass)
+        // also need to implement and advanced search with filters
         /**
          * @param query search query
          * @param page page number (default: 1)
          * @param limit limit of results to return (default: 20) (max: 100) (min: 1)
          */
-        this.search = async (query, page = 1, limit = 20) => {
+        this.search = async (query, cursor) => {
             var _a;
-            if (page < 1)
-                throw new Error('Page number must be greater than 1');
-            if (limit > 300)
-                throw new Error('Limit must be less than or equal to 300');
-            if (limit * (page - 1) >= 10000)
-                throw new Error('not enough results');
             try {
-                const req = await this._axios().get(`/search?q=${encodeURIComponent(query)}`);
+                const req = await this._axios().get(`/search?q=${encodeURIComponent(query)}&cursor=${cursor}`);
                 const results = {
-                    currentPage: page,
                     results: [],
+                    prev_cursor: req.data.prev_cursor,
+                    next_cursor: req.data.next_cursor,
                 };
                 const data = await req.data.data;
                 for (const manga of data) {
@@ -117,7 +114,7 @@ class ComicK extends models_1.MangaParser {
             if (page <= 0) {
                 page = 1;
             }
-            const req = await axios_1.default.get(`https://comick.art/api/comics/${hid}/chapter-list?page=${page}`);
+            const req = await this._axios().get(`/comics/${hid}/chapter-list?page=${page}`);
             return req.data.data;
         };
     }

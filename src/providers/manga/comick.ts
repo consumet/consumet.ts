@@ -20,6 +20,8 @@ class ComicK extends MangaParser {
     });
   }
 
+  public referer = 'https://comick.art';
+
   /**
    * @description Fetches info about the manga
    * @param mangaId Comic slug
@@ -92,26 +94,20 @@ class ComicK extends MangaParser {
   };
 
   // TODO: implement the official api route 'https://api.comick.dev/v1.0/search?q=' for better pagination (requires cloudflare bypass)
+  // also need to implement and advanced search with filters
   /**
    * @param query search query
    * @param page page number (default: 1)
    * @param limit limit of results to return (default: 20) (max: 100) (min: 1)
    */
-  override search = async (
-    query: string,
-    page: number = 1,
-    limit: number = 20
-  ): Promise<ISearch<IMangaResult>> => {
-    if (page < 1) throw new Error('Page number must be greater than 1');
-    if (limit > 300) throw new Error('Limit must be less than or equal to 300');
-    if (limit * (page - 1) >= 10000) throw new Error('not enough results');
-
+  override search = async (query: string, cursor?: string): Promise<Search<IMangaResult>> => {
     try {
-      const req = await this._axios().get(`/search?q=${encodeURIComponent(query)}`);
+      const req = await this._axios().get(`/search?q=${encodeURIComponent(query)}&cursor=${cursor}`);
 
-      const results: ISearch<IMangaResult> = {
-        currentPage: page,
+      const results: Search<IMangaResult> = {
         results: [],
+        prev_cursor: req.data.prev_cursor,
+        next_cursor: req.data.next_cursor,
       };
 
       const data: SearchResult[] = await req.data.data;
@@ -135,7 +131,7 @@ class ComicK extends MangaParser {
     if (page <= 0) {
       page = 1;
     }
-    const req = await axios.get(`https://comick.art/api/comics/${hid}/chapter-list?page=${page}`);
+    const req = await this._axios().get(`/comics/${hid}/chapter-list?page=${page}`);
     return req.data.data;
   };
 }
@@ -149,6 +145,12 @@ class ComicK extends MangaParser {
 // })();
 
 export default ComicK;
+
+interface Search<T> {
+  results: T[];
+  next_cursor: string;
+  prev_cursor?: string;
+}
 
 interface SearchResult {
   title: string;

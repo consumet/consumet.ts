@@ -1,4 +1,4 @@
-import { IMangaChapterPage, IMangaInfo, IMangaResult, ISearch, MangaParser } from '../../models';
+import { IMangaChapterPage, IMangaInfo, IMangaResult, MangaParser } from '../../models';
 declare class ComicK extends MangaParser {
     readonly name = "ComicK";
     protected baseUrl: string;
@@ -6,6 +6,7 @@ declare class ComicK extends MangaParser {
     protected classPath: string;
     private readonly apiUrl;
     private _axios;
+    referer: string;
     /**
      * @description Fetches info about the manga
      * @param mangaId Comic slug
@@ -23,7 +24,12 @@ declare class ComicK extends MangaParser {
      * @param page page number (default: 1)
      * @param limit limit of results to return (default: 20) (max: 100) (min: 1)
      */
-    search: (query: string, page?: number, limit?: number) => Promise<ISearch<IMangaResult>>;
+    search: (query: string, cursor?: string) => Promise<Search<IMangaResult>>;
     private fetchAllChapters;
 }
 export default ComicK;
+interface Search<T> {
+    results: T[];
+    next_cursor: string;
+    prev_cursor?: string;
+}
