@@ -28,10 +28,7 @@ class ComicK extends MangaParser {
    */
   override fetchMangaInfo = async (mangaId: string): Promise<IMangaInfo> => {
     try {
-      const req = await this._axios().get(`${this.baseUrl}/comic/${mangaId}`);
-      const $ = load(req.data);
-
-      const data: Comic = JSON.parse($("script[id='comic-data']").text());
+      const data: Comic = await this.getComicData(mangaId);
 
       const links = Object.values(data.links ?? []).filter(link => link !== null);
 
@@ -131,6 +128,13 @@ class ComicK extends MangaParser {
     }
     const req = await this._axios().get(`/comics/${hid}/chapter-list?page=${page}`);
     return req.data.data;
+  };
+
+  private getComicData = async (mangaId: string): Promise<Comic> => {
+    const req = await this._axios().get(`${this.baseUrl}/comic/${mangaId}`);
+    const $ = load(req.data);
+
+    return JSON.parse($("script[id='comic-data']").text()) as Comic;
   };
 }
 

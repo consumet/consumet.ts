@@ -26,6 +26,7 @@ declare class ComicK extends MangaParser {
      */
     search: (query: string, cursor?: string) => Promise<Search<IMangaResult>>;
     private fetchAllChapters;
+    private getComicData;
 }
 export default ComicK;
 interface Search<T> {

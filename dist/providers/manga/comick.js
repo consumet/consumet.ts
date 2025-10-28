@@ -23,9 +23,7 @@ class ComicK extends models_1.MangaParser {
         this.fetchMangaInfo = async (mangaId) => {
             var _a, _b, _c, _d, _e, _f;
             try {
-                const req = await this._axios().get(`${this.baseUrl}/comic/${mangaId}`);
-                const $ = (0, cheerio_1.load)(req.data);
-                const data = JSON.parse($("script[id='comic-data']").text());
+                const data = await this.getComicData(mangaId);
                 const links = Object.values((_a = data.links) !== null && _a !== void 0 ? _a : []).filter(link => link !== null);
                 const mangaInfo = {
                     id: data.slug,
@@ -115,6 +113,11 @@ class ComicK extends models_1.MangaParser {
             }
             const req = await this._axios().get(`/comics/${hid}/chapter-list?page=${page}`);
             return req.data.data;
+        };
+        this.getComicData = async (mangaId) => {
+            const req = await this._axios().get(`${this.baseUrl}/comic/${mangaId}`);
+            const $ = (0, cheerio_1.load)(req.data);
+            return JSON.parse($("script[id='comic-data']").text());
         };
     }
     _axios() {
