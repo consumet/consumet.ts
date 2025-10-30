@@ -2,8 +2,7 @@
 
 import { ISource, IVideo, VideoExtractor } from '../models';
 import axios, { AxiosAdapter } from 'axios';
-import { ISubtitle, ProxyConfig } from '../models/types';
-import { USER_AGENT } from '../utils';
+import { ProxyConfig } from '../models/types';
 
 export class MegaUp extends VideoExtractor {
   protected serverName: string = 'MegaUp';

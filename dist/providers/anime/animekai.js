@@ -8,7 +8,7 @@ class AnimeKai extends models_1.AnimeParser {
     constructor(customBaseURL) {
         super(...arguments);
         this.name = 'AnimeKai';
-        this.baseUrl = 'https://anikai.to/';
+        this.baseUrl = 'https://anikai.to';
         this.logo = 'https://anikai.to//assets/uploads/37585a39fe8c8d8fafaa2c7bfbf5374ecac859ea6a0288a6da2c61f5.png';
         this.classPath = 'ANIME.AnimeKai';
         /**

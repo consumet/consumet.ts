@@ -22,7 +22,7 @@ const { GenerateToken, DecodeIframeData } = new MegaUp();
 
 class AnimeKai extends AnimeParser {
   override readonly name = 'AnimeKai';
-  protected override baseUrl = 'https://anikai.to/';
+  protected override baseUrl = 'https://anikai.to';
   protected override logo =
     'https://anikai.to//assets/uploads/37585a39fe8c8d8fafaa2c7bfbf5374ecac859ea6a0288a6da2c61f5.png';
   protected override classPath = 'ANIME.AnimeKai';
