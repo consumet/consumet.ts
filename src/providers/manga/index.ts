@@ -12,6 +12,7 @@ import MangaHost from './mangahost';
 import BRMangas from './brmangas';
 import ReadManga from './readmanga';
 import VyvyManga from './vyvymanga';
+import WeebCentral from './weebcentral';
 
 export default {
   MangaDex,
@@ -28,4 +29,5 @@ export default {
   BRMangas,
   ReadManga,
   VyvyManga,
+  WeebCentral,
 };
