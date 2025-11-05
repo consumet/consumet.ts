@@ -12,6 +12,7 @@ import MangaHost from './mangahost';
 import BRMangas from './brmangas';
 import ReadManga from './readmanga';
 import VyvyManga from './vyvymanga';
+import WeebCentral from './weebcentral';
 declare const _default: {
     MangaDex: typeof MangaDex;
     ComicK: typeof ComicK;
@@ -27,5 +28,6 @@ declare const _default: {
     BRMangas: typeof BRMangas;
     ReadManga: typeof ReadManga;
     VyvyManga: typeof VyvyManga;
+    WeebCentral: typeof WeebCentral;
 };
 export default _default;
