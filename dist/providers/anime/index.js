@@ -19,7 +19,9 @@ const monoschinos_1 = __importDefault(require("./monoschinos"));
 const anix_1 = __importDefault(require("./anix"));
 const animekai_1 = __importDefault(require("./animekai"));
 const animeowl_1 = __importDefault(require("./animeowl"));
+const kickassanime_1 = __importDefault(require("./kickassanime"));
 exports.default = {
+    KickAssAnime: kickassanime_1.default,
     Gogoanime: gogoanime_1.default,
     NineAnime: _9anime_1.default,
     AnimePahe: animepahe_1.default,

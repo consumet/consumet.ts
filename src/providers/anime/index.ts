@@ -14,8 +14,10 @@ import MonosChinos from './monoschinos';
 import Anix from './anix';
 import AnimeKai from './animekai';
 import AnimeOwl from './animeowl';
+import KickAssAnime from './kickassanime';
 
 export default {
+  KickAssAnime,
   Gogoanime,
   NineAnime,
   AnimePahe,

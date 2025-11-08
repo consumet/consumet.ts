@@ -14,7 +14,9 @@ import MonosChinos from './monoschinos';
 import Anix from './anix';
 import AnimeKai from './animekai';
 import AnimeOwl from './animeowl';
+import KickAssAnime from './kickassanime';
 declare const _default: {
+    KickAssAnime: typeof KickAssAnime;
     Gogoanime: typeof Gogoanime;
     NineAnime: typeof NineAnime;
     AnimePahe: typeof AnimePahe;
