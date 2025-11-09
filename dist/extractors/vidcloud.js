@@ -1,67 +1,88 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const models_1 = require("../models");
 const utils_1 = require("../utils");
-const megacloud_getsrcs_1 = require("./megacloud/megacloud.getsrcs");
+const axios_1 = __importDefault(require("axios"));
 class VidCloud extends models_1.VideoExtractor {
     constructor() {
         super(...arguments);
         this.serverName = 'VidCloud';
         this.sources = [];
         this.extract = async (videoUrl, _, referer = 'https://flixhq.to/') => {
-            const result = {
-                sources: [],
-                subtitles: [],
-            };
+            var _a, _b;
             try {
-                const options = {
-                    headers: {
-                        'X-Requested-With': 'XMLHttpRequest',
-                        Referer: videoUrl.href,
-                        'User-Agent': utils_1.USER_AGENT,
-                    },
+                const result = {
+                    sources: [],
+                    subtitles: [],
                 };
-                const res = await (0, megacloud_getsrcs_1.getSources)(videoUrl, referer);
-                if (!res) {
-                    throw new Error('Failed to get sources');
+                const decUrl = new URL('https://dec.eatmynerds.live');
+                decUrl.searchParams.set('url', videoUrl.href);
+                const { data: initialData } = await axios_1.default.get(decUrl.toString());
+                if (!((_a = initialData === null || initialData === void 0 ? void 0 : initialData.sources) === null || _a === void 0 ? void 0 : _a.length)) {
+                    throw new Error('No sources found from the initial request.');
                 }
-                const sources = res.sources;
-                this.sources = sources.map((s) => ({
-                    url: s.file,
-                    isM3U8: s.file.includes('.m3u8') || s.file.endsWith('m3u8'),
-                }));
-                result.sources.push(...this.sources);
-                result.sources = [];
-                this.sources = [];
-                for (const source of sources) {
-                    const { data } = await this.client.get(source.file, options);
-                    const urls = data
-                        .split('\n')
-                        .filter((line) => line.includes('.m3u8') || line.endsWith('m3u8'));
-                    const qualities = data.split('\n').filter((line) => line.includes('RESOLUTION='));
-                    const TdArray = qualities.map((s, i) => {
-                        const f1 = s.split('x')[1];
-                        const f2 = urls[i];
-                        return [f1, f2];
+                let masterPlaylistUrl = initialData.sources[0].file;
+                let masterPlaylist;
+                try {
+                    const { data } = await axios_1.default.get(masterPlaylistUrl, {
+                        headers: {
+                            Referer: videoUrl.href,
+                            'User-Agent': utils_1.USER_AGENT,
+                        },
+                        timeout: 10000,
                     });
-                    for (const [f1, f2] of TdArray) {
-                        this.sources.push({
-                            url: f2,
-                            quality: f1,
-                            isM3U8: f2.includes('.m3u8') || f2.endsWith('m3u8'),
-                        });
-                    }
-                    result.sources.push(...this.sources);
+                    masterPlaylist = data;
                 }
-                result.sources.push({
-                    url: sources[0].file,
-                    isM3U8: sources[0].file.includes('.m3u8') || sources[0].file.endsWith('m3u8'),
+                catch (httpsError) {
+                    const httpUrl = masterPlaylistUrl.replace('https://', 'http://');
+                    try {
+                        const { data } = await axios_1.default.get(httpUrl, {
+                            headers: {
+                                Referer: videoUrl.href,
+                                'User-Agent': utils_1.USER_AGENT,
+                            },
+                            timeout: 10000,
+                        });
+                        masterPlaylist = data;
+                        masterPlaylistUrl = httpUrl;
+                    }
+                    catch (httpError) {
+                        console.error('Both HTTPS and HTTP failed');
+                        throw httpsError;
+                    }
+                }
+                const sources = [];
+                sources.push({
+                    url: masterPlaylistUrl,
+                    isM3U8: true,
                     quality: 'auto',
                 });
-                result.subtitles = res.tracks.map((s) => ({
-                    url: s.file,
-                    lang: s.label ? s.label : 'Default (maybe)',
-                }));
+                const playlistRegex = /#EXT-X-STREAM-INF:.*RESOLUTION=(\d+x(\d+)).*\n(.*)/g;
+                let match;
+                while ((match = playlistRegex.exec(masterPlaylist)) !== null) {
+                    const quality = `${match[2]}p`;
+                    let url = match[3];
+                    if (!url.startsWith('http')) {
+                        url = new URL(url, masterPlaylistUrl).toString();
+                    }
+                    sources.push({
+                        url: url,
+                        quality: quality,
+                        isM3U8: url.includes('.m3u8'),
+                    });
+                }
+                result.sources = sources;
+                result.subtitles =
+                    ((_b = initialData.tracks) === null || _b === void 0 ? void 0 : _b.map((s) => {
+                        var _a;
+                        return ({
+                            url: s.file,
+                            lang: (_a = s.label) !== null && _a !== void 0 ? _a : 'Default',
+                        });
+                    })) || [];
                 return result;
             }
             catch (err) {
