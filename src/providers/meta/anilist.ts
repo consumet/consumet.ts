@@ -36,10 +36,10 @@ import {
   getDays,
   capitalizeFirstLetter,
 } from '../../utils';
-import Gogoanime from '../../providers/anime/gogoanime';
+import Gogoanime from '../anime/gogoanime';
 import Hianime from '../anime/hianime';
-import Mangasee123 from '../manga/mangasee123';
 import { ANIFY_URL, compareTwoStrings, getHashFromImage } from '../../utils/utils';
+import MangaDex from '../manga/mangadex';
 
 class Anilist extends AnimeParser {
   override readonly name = 'Anilist';
@@ -1926,7 +1926,7 @@ class Anilist extends AnimeParser {
      * @param provider MangaParser
      */
     constructor(provider?: MangaParser) {
-      this.provider = provider || new Mangasee123();
+      this.provider = provider || new MangaDex();
     }
 
     /**

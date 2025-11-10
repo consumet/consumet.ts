@@ -7,10 +7,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
-const gogoanime_1 = __importDefault(require("../../providers/anime/gogoanime"));
+const gogoanime_1 = __importDefault(require("../anime/gogoanime"));
 const hianime_1 = __importDefault(require("../anime/hianime"));
-const mangasee123_1 = __importDefault(require("../manga/mangasee123"));
 const utils_2 = require("../../utils/utils");
+const mangadex_1 = __importDefault(require("../manga/mangadex"));
 class Anilist extends models_1.AnimeParser {
     /**
      * This class maps anilist to kitsu with any other anime provider.
@@ -1873,7 +1873,7 @@ Anilist.Manga = class Manga {
                 throw Error(error.message);
             }
         };
-        this.provider = provider || new mangasee123_1.default();
+        this.provider = provider || new mangadex_1.default();
     }
 };
 // (async () => {
