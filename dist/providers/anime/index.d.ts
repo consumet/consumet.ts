@@ -1,21 +1,15 @@
 import Gogoanime from './gogoanime';
 import AnimePahe from './animepahe';
-import HiAnime from './hianime';
-import Anify from './anify';
-import Bilibili from './bilibili';
+import Hianime from './hianime';
 import AnimeSaturn from './animesaturn';
-import Anix from './anix';
 import AnimeKai from './animekai';
 import KickAssAnime from './kickassanime';
 declare const _default: {
-    HiAnime: typeof HiAnime;
+    Hianime: typeof Hianime;
     AnimePahe: typeof AnimePahe;
     AnimeKai: typeof AnimeKai;
     KickAssAnime: typeof KickAssAnime;
     AnimeSaturn: typeof AnimeSaturn;
     Gogoanime: typeof Gogoanime;
-    Anify: typeof Anify;
-    Bilibili: typeof Bilibili;
-    Anix: typeof Anix;
 };
 export default _default;

@@ -8,17 +8,17 @@ import { ANIME, MANGA, /* BOOKS , */ COMICS, LIGHT_NOVELS, MOVIES, META, NEWS } 
 export const PROVIDERS_LIST = {
   ANIME: [
     new ANIME.AnimePahe(),
+    new ANIME.Hianime(),
     new ANIME.AnimeKai(),
     new ANIME.KickAssAnime(),
     new ANIME.AnimeSaturn(),
-    new ANIME.Bilibili(),
-    new ANIME.Anify(),
     new ANIME.Gogoanime(),
   ],
   MANGA: [
-    new MANGA.MangaDex(),
+    new MANGA.WeebCentral(),
     new MANGA.MangaHere(),
     new MANGA.MangaPill(),
+    new MANGA.MangaDex(),
     new MANGA.MangaReader(),
     new MANGA.ComicK(),
   ],
@@ -34,6 +34,6 @@ export const PROVIDERS_LIST = {
     new MOVIES.HiMovies(),
   ],
   NEWS: [new NEWS.ANN()],
-  META: [/* new META.Anilist() ,*/ new META.TMDB() /*, new META.Myanimelist() */],
+  META: [new META.Anilist(), new META.TMDB(), new META.Myanimelist()],
   OTHERS: [],
 };

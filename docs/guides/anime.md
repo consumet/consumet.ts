@@ -33,7 +33,7 @@ const animeProvider = ANIME.<providerName>();
 
 ## Anime Providers List
 This list is in alphabetical order. (except the sub bullet points)
-- [Zoro.to](../providers/zoro.md)
+- [Hianime](../providers/hianime.md)
 - [AnimePahe](../providers/animepahe.md)
 - [Animekai](../providers/animekai.md)
 - [Kickassanime](../providers/kickassanime.md)

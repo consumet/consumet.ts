@@ -4,13 +4,13 @@ const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const utils_2 = require("../../utils");
-class HiAnime extends models_1.AnimeParser {
+class Hianime extends models_1.AnimeParser {
     constructor(customBaseURL) {
         super(...arguments);
-        this.name = 'Zoro';
+        this.name = 'hianime';
         this.baseUrl = 'https://hianime.to';
         this.logo = 'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
-        this.classPath = 'ANIME.Zoro';
+        this.classPath = 'ANIME.hianime';
         /**
          * @param id Anime id
          */
@@ -64,7 +64,7 @@ class HiAnime extends models_1.AnimeParser {
                 if (hasSub && hasDub) {
                     info.subOrDub = models_1.SubOrSub.BOTH;
                 }
-                // ZORO - PAGE INFO
+                // hianime - PAGE INFO
                 const zInfo = await this.client.get(info.url);
                 const $$$ = (0, cheerio_1.load)(zInfo.data);
                 info.genres = [];
@@ -197,13 +197,13 @@ class HiAnime extends models_1.AnimeParser {
                     switch (server) {
                         case models_1.StreamingServers.VidCloud:
                             serverId = this.retrieveServerId($, 1, subOrDub);
-                            // zoro's vidcloud server is rapidcloud
+                            // hianime's vidcloud server is rapidcloud
                             if (!serverId)
                                 throw new Error('RapidCloud not found');
                             break;
                         case models_1.StreamingServers.VidStreaming:
                             serverId = this.retrieveServerId($, 4, subOrDub);
-                            // zoro's vidcloud server is rapidcloud
+                            // hianime's vidcloud server is rapidcloud
                             if (!serverId)
                                 throw new Error('vidtreaming not found');
                             break;
@@ -252,7 +252,7 @@ class HiAnime extends models_1.AnimeParser {
                 return rawOrSubOrDub(false);
             }
             catch (error) {
-                // If an error is thrown, attempt to get the raw ID (The raw is the newest episode uploaded to zoro)
+                // If an error is thrown, attempt to get the raw ID (The raw is the newest episode uploaded to hianime)
                 return rawOrSubOrDub(true);
             }
         };
@@ -802,15 +802,15 @@ class HiAnime extends models_1.AnimeParser {
     }
 }
 // (async () => {
-//   const zoro = new Zoro();
-//   const anime = await zoro.search('Dandadan');
-//   const info = await zoro.fetchAnimeInfo(anime.results[0].id);
-//   const sources = await zoro.fetchEpisodeSources(
+//   const hi = new hianime();
+//   const anime = await hianime.search('Dandadan');
+//   const info = await hianime.fetchAnimeInfo(anime.results[0].id);
+//   const sources = await hianime.fetchEpisodeSources(
 //     info.episodes![0].id,
 //     StreamingServers.VidCloud,
 //     SubOrSub.DUB
 //   );
 //   console.log(sources);
 // })();
-exports.default = HiAnime;
+exports.default = Hianime;
 //# sourceMappingURL=hianime.js.map

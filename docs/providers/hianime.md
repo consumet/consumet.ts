@@ -1,7 +1,7 @@
-<h1>Zoro</h1>
+<h1>hianime</h1>
 
 ```ts
-const zoro = new ANIME.Zoro();
+const hianime = new ANIME.hianime();
 ```
 
 <h2>Methods</h2>
@@ -33,7 +33,7 @@ const zoro = new ANIME.Zoro();
 | query     | `string` | query to search for. (*In this case, We're searching for `Spy x Family`*) |
 
 ```ts
-zoro.search("spy x family").then(data => {
+hianime.search("spy x family").then(data => {
   console.log(data);
 })
 ```
@@ -100,7 +100,7 @@ Fetches a list of anime based on various filters and sorting options.
 ## Example Usage
 
 ```ts
-zoro.fetchAdvancedSearch(1, 'tv', 'finished_airing').then(data => {
+hianime.fetchAdvancedSearch(1, 'tv', 'finished_airing').then(data => {
   console.log(data);
 });
 ```
@@ -157,7 +157,7 @@ output:
 
 
 ```ts
-zoro.fetchAnimeInfo("overlord-iv-18075").then(data => {
+hianime.fetchAnimeInfo("overlord-iv-18075").then(data => {
   console.log(data);
 })
 ```
@@ -170,10 +170,10 @@ output:
   title: 'Overlord IV',
   malID: 48895,
   alID: 133844,
-  image: 'https://img.zorores.com/_r/300x400/100/ef/1d/ef1d1028cf6c177587805651b78282a6/ef1d1028cf6c177587805651b78282a6.jpg',
+  image: 'https://img.hianimeres.com/_r/300x400/100/ef/1d/ef1d1028cf6c177587805651b78282a6/ef1d1028cf6c177587805651b78282a6.jpg',
   description: 'Fourth season of Overlord',
   type: 'TV',
-  url: 'https://zoro.to/overlord-iv-18075',
+  url: 'https://hianime.to/overlord-iv-18075',
   totalEpisodes: 3,
   episodes: [
     {
@@ -181,14 +181,14 @@ output:
       number: 1,
       title: 'Sorcerous Nation of Ainz Ooal Gown',
       isFiller: false,
-      url: 'https://zoro.to/watch/overlord-iv-18075?ep=92599'
+      url: 'https://hianime.to/watch/overlord-iv-18075?ep=92599'
     },
     {
       id: 'overlord-iv-18075$episode$92769',
       number: 2,
       title: 'Re-Estize Kingdom',
       isFiller: false,
-      url: 'https://zoro.to/watch/overlord-iv-18075?ep=92769'
+      url: 'https://hianime.to/watch/overlord-iv-18075?ep=92769'
     },
   ]
 }
@@ -207,7 +207,7 @@ output:
 
 In this example, we're getting the sources for the first episode of Overlord IV.
 ```ts
-zoro.fetchEpisodeSources("overlord-iv-18075$episode$92599").then(data => {
+hianime.fetchEpisodeSources("overlord-iv-18075$episode$92599").then(data => {
   console.log(data);
 })
 ```
@@ -240,23 +240,23 @@ output:
   ],
   subtitles: [
     {
-      url: 'https://cc.zorores.com/5f/b4/5fb4481163961694ef0dc661a1bf51d7/eng-2.vtt',
+      url: 'https://cc.hianimeres.com/5f/b4/5fb4481163961694ef0dc661a1bf51d7/eng-2.vtt',
       lang: 'English'
     },
     {
-      url: 'https://cc.zorores.com/5f/b4/5fb4481163961694ef0dc661a1bf51d7/por-3.vtt',
+      url: 'https://cc.hianimeres.com/5f/b4/5fb4481163961694ef0dc661a1bf51d7/por-3.vtt',
       lang: 'Portuguese - Portuguese(Brazil)'
     },
     {
-      url: 'https://cc.zorores.com/5f/b4/5fb4481163961694ef0dc661a1bf51d7/rus-5.vtt',
+      url: 'https://cc.hianimeres.com/5f/b4/5fb4481163961694ef0dc661a1bf51d7/rus-5.vtt',
       lang: 'Russian'
     },
     {
-      url: 'https://cc.zorores.com/5f/b4/5fb4481163961694ef0dc661a1bf51d7/spa-4.vtt',
+      url: 'https://cc.hianimeres.com/5f/b4/5fb4481163961694ef0dc661a1bf51d7/spa-4.vtt',
       lang: 'Spanish - Spanish(Latin_America)'
     },
     {
-      url: 'https://preview.zorores.com/53/531eb74affebbec2613a6ba0883754f3/thumbnails/sprite.vtt',
+      url: 'https://preview.hianimeres.com/53/531eb74affebbec2613a6ba0883754f3/thumbnails/sprite.vtt',
       lang: 'Default (maybe)'
     }
   ]
@@ -272,7 +272,7 @@ output:
 | page (optional) | `number` | page number (default 1) |
 
 ```ts
-zoro.fetchTopAiring().then(data => {
+hianime.fetchTopAiring().then(data => {
   console.log(data);
 })
 ```
@@ -325,7 +325,7 @@ output:
 | page (optional) | `number` | page number (default 1) |
 
 ```ts
-zoro.fetchMostPopular().then(data => {
+hianime.fetchMostPopular().then(data => {
   console.log(data);
 })
 ```
@@ -378,7 +378,7 @@ output:
 | page (optional) | `number` | page number (default 1) |
 
 ```ts
-zoro.fetchMostFavorite().then(data => {
+hianime.fetchMostFavorite().then(data => {
   console.log(data);
 })
 ```
@@ -432,7 +432,7 @@ output:
 | page (optional) | `number` | page number (default 1) |
 
 ```ts
-zoro.fetchLatestCompleted().then(data => {
+hianime.fetchLatestCompleted().then(data => {
   console.log(data);
 })
 ```
@@ -486,7 +486,7 @@ output:
 | page (optional) | `number` | page number (default 1) |
 
 ```ts
-zoro.fetchRecentlyUpdated().then(data => {
+hianime.fetchRecentlyUpdated().then(data => {
   console.log(data);
 })
 ```
@@ -540,7 +540,7 @@ output:
 | page (optional) | `number` | page number (default 1) |
 
 ```ts
-zoro.fetchRecentlyAdded().then(data => {
+hianime.fetchRecentlyAdded().then(data => {
   console.log(data);
 })
 ```
@@ -594,7 +594,7 @@ output:
 | page (optional) | `number` | page number (default 1) |
 
 ```ts
-zoro.fetchTopUpcoming().then(data => {
+hianime.fetchTopUpcoming().then(data => {
   console.log(data);
 })
 ```
@@ -647,7 +647,7 @@ output:
 | date    | `string` | Date in format 'YYYY-MM-DD'. Defaults to the current date. |
 
 ```ts
-zoro.fetchSchedule('2024-03-11').then(data => {
+hianime.fetchSchedule('2024-03-11').then(data => {
   console.log(data);
 })
 ```
@@ -719,7 +719,7 @@ output:
 | page (optional) | `number` | page number (default 1) |
 
 ```ts
-zoro.fetchStudio('toei-animation').then(data => {
+hianime.fetchStudio('toei-animation').then(data => {
   console.log(data);
 })
 ```
@@ -767,7 +767,7 @@ output:
 ### fetchSpotlight
 
 ```ts
-zoro.fetchSpotlight().then(data => {
+hianime.fetchSpotlight().then(data => {
   console.log(data);
 })
 ```
@@ -802,7 +802,7 @@ output:
 ### fetchSearchSuggestions
 
 ```ts
-zoro.fetchSearchSuggestions("One Piece").then(data => {
+hianime.fetchSearchSuggestions("One Piece").then(data => {
   console.log(data);
 })
 ```
@@ -881,7 +881,7 @@ output:
 | connectSid  | `string` | The session ID obtained from the website cookies |
 
 ```ts
-zoro.fetchContinueWatching("{user_connect_sid}").then(data => {
+hianime.fetchContinueWatching("{user_connect_sid}").then(data => {
   console.log(data);
 })
 ```
@@ -919,7 +919,7 @@ output:
 | connectSid  | `string` | The session ID obtained from the website cookies |
 
 ```ts
-zoro.fetchWatchList("{user_connect_sid}").then(data => {
+hianime.fetchWatchList("{user_connect_sid}").then(data => {
   console.log(data);
 })
 ```
