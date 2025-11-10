@@ -19,7 +19,7 @@ import {
 import { StreamSB, RapidCloud, MegaCloud, StreamTape } from '../../utils';
 import { USER_AGENT } from '../../utils';
 
-class Zoro extends AnimeParser {
+class HiAnime extends AnimeParser {
   override readonly name = 'Zoro';
   protected override baseUrl = 'https://hianime.to';
   protected override logo =
@@ -899,4 +899,4 @@ class Zoro extends AnimeParser {
 //   console.log(sources);
 // })();
 
-export default Zoro;
+export default HiAnime;
