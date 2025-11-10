@@ -32,6 +32,8 @@ var StreamingServers;
     StreamingServers["MyCloud"] = "mycloud";
     StreamingServers["Filemoon"] = "filemoon";
     StreamingServers["VidStreaming"] = "vidstreaming";
+    StreamingServers["DuckStream"] = "duckstream";
+    StreamingServers["BirdStream"] = "birdstream";
     StreamingServers["BuiltIn"] = "builtin";
     StreamingServers["SmashyStream"] = "smashystream";
     StreamingServers["StreamHub"] = "streamhub";

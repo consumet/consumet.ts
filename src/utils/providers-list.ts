@@ -7,17 +7,16 @@ import { ANIME, MANGA, BOOKS, COMICS, LIGHT_NOVELS, MOVIES, META, NEWS } from '.
  */
 export const PROVIDERS_LIST = {
   ANIME: [
-    new ANIME.NineAnime(),
-    new ANIME.AnimeFox(),
+    new ANIME.Zoro(),
     new ANIME.AnimePahe(),
+    new ANIME.AnimeKai(),
+    new ANIME.KickAssAnime(),
+    new ANIME.AnimeSaturn(),
     new ANIME.Bilibili(),
     new ANIME.Crunchyroll(),
     new ANIME.Anify(),
     new ANIME.Gogoanime(),
-    new ANIME.Zoro(),
     new ANIME.Marin(),
-    new ANIME.AnimeKai(),
-    new ANIME.AnimeOwl(),
   ],
   MANGA: [
     new MANGA.MangaDex(),
