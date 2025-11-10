@@ -1,6 +1,6 @@
 import { VideoExtractor, IVideo, ISubtitle, Intro } from '../models';
 import { USER_AGENT } from '../utils';
-import { getSources } from './megacloud/megacloud.getsrcs';
+import axios from 'axios';
 
 class VidCloud extends VideoExtractor {
   protected override serverName = 'VidCloud';
@@ -11,69 +11,83 @@ class VidCloud extends VideoExtractor {
     _?: boolean,
     referer: string = 'https://flixhq.to/'
   ): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
-    const result: { sources: IVideo[]; subtitles: ISubtitle[]; intro?: Intro } = {
-      sources: [],
-      subtitles: [],
-    };
     try {
-      const options = {
-        headers: {
-          'X-Requested-With': 'XMLHttpRequest',
-          Referer: videoUrl.href,
-          'User-Agent': USER_AGENT,
-        },
+      const result: { sources: IVideo[]; subtitles: ISubtitle[]; intro?: Intro } = {
+        sources: [],
+        subtitles: [],
       };
 
-      const res = await getSources(videoUrl, referer);
-      if (!res) {
-        throw new Error('Failed to get sources');
+      const decUrl = new URL('https://dec.eatmynerds.live');
+      decUrl.searchParams.set('url', videoUrl.href);
+
+      const { data: initialData } = await axios.get(decUrl.toString());
+
+      if (!initialData?.sources?.length) {
+        throw new Error('No sources found from the initial request.');
       }
-      const sources = res.sources;
 
-      this.sources = sources.map((s: any) => ({
-        url: s.file,
-        isM3U8: s.file.includes('.m3u8') || s.file.endsWith('m3u8'),
-      }));
+      let masterPlaylistUrl = initialData.sources[0].file;
 
-      result.sources.push(...this.sources);
-
-      result.sources = [];
-      this.sources = [];
-
-      for (const source of sources) {
-        const { data } = await this.client.get(source.file, options);
-        const urls = data
-          .split('\n')
-          .filter((line: string) => line.includes('.m3u8') || line.endsWith('m3u8')) as string[];
-        const qualities = data.split('\n').filter((line: string) => line.includes('RESOLUTION=')) as string[];
-
-        const TdArray = qualities.map((s, i) => {
-          const f1 = s.split('x')[1];
-          const f2 = urls[i];
-
-          return [f1, f2];
+      let masterPlaylist: string;
+      try {
+        const { data } = await axios.get(masterPlaylistUrl, {
+          headers: {
+            Referer: videoUrl.href,
+            'User-Agent': USER_AGENT,
+          },
+          timeout: 10000,
         });
-
-        for (const [f1, f2] of TdArray) {
-          this.sources.push({
-            url: f2,
-            quality: f1,
-            isM3U8: f2.includes('.m3u8') || f2.endsWith('m3u8'),
+        masterPlaylist = data;
+      } catch (httpsError) {
+        const httpUrl = masterPlaylistUrl.replace('https://', 'http://');
+        try {
+          const { data } = await axios.get(httpUrl, {
+            headers: {
+              Referer: videoUrl.href,
+              'User-Agent': USER_AGENT,
+            },
+            timeout: 10000,
           });
+          masterPlaylist = data;
+          masterPlaylistUrl = httpUrl;
+        } catch (httpError) {
+          console.error('Both HTTPS and HTTP failed');
+          throw httpsError;
         }
-        result.sources.push(...this.sources);
       }
 
-      result.sources.push({
-        url: sources[0].file,
-        isM3U8: sources[0].file.includes('.m3u8') || sources[0].file.endsWith('m3u8'),
+      const sources: IVideo[] = [];
+
+      sources.push({
+        url: masterPlaylistUrl,
+        isM3U8: true,
         quality: 'auto',
       });
 
-      result.subtitles = res.tracks.map((s: any) => ({
-        url: s.file,
-        lang: s.label ? s.label : 'Default (maybe)',
-      }));
+      const playlistRegex = /#EXT-X-STREAM-INF:.*RESOLUTION=(\d+x(\d+)).*\n(.*)/g;
+      let match;
+
+      while ((match = playlistRegex.exec(masterPlaylist)) !== null) {
+        const quality = `${match[2]}p`;
+        let url = match[3];
+
+        if (!url.startsWith('http')) {
+          url = new URL(url, masterPlaylistUrl).toString();
+        }
+
+        sources.push({
+          url: url,
+          quality: quality,
+          isM3U8: url.includes('.m3u8'),
+        });
+      }
+
+      result.sources = sources;
+      result.subtitles =
+        initialData.tracks?.map((s: any) => ({
+          url: s.file,
+          lang: s.label ?? 'Default',
+        })) || [];
 
       return result;
     } catch (err) {

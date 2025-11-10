@@ -33,15 +33,10 @@ const animeProvider = ANIME.<providerName>();
 
 ## Anime Providers List
 This list is in alphabetical order. (except the sub bullet points)
-
-- [9anime](../providers/9anime.md)
-- [Anify](../providers/anify.md)
-- [AnimeFox](../providers/animefox.md)
+- [Hianime](../providers/hianime.md)
 - [AnimePahe](../providers/animepahe.md)
+- [Animekai](../providers/animekai.md)
+- [Kickassanime](../providers/kickassanime.md)
 - [AnimeSaturn](../providers/animesaturn.md)
-- [AnimeUnity](../providers/animeunity.md)
-- [Gogoanime](../providers/gogoanime.md)
-- [MonosChinos](../providers/monoschinos.md)
-- [Zoro.to](../providers/zoro.md)
 
 <p align="end">(<a href="https://github.com/consumet/extensions/blob/master/docs">back to table of contents</a>)</p>

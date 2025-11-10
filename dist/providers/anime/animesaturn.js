@@ -2,13 +2,12 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
-const utils_1 = require("../../utils");
 class AnimeSaturn extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
         this.name = 'AnimeSaturn';
-        this.baseUrl = 'https://www.animesaturn.tv/';
-        this.logo = 'https://www.animesaturn.tv/immagini/favicon-32x32.png';
+        this.baseUrl = 'https://www.animesaturn.cx/';
+        this.logo = 'https://www.animesaturn.cx/immagini/favicon-32x32.png';
         this.classPath = 'ANIME.AnimeSaturn';
         /**
          * @param query Search query
@@ -80,88 +79,226 @@ class AnimeSaturn extends models_1.AnimeParser {
          */
         this.fetchEpisodeSources = async (episodeId) => {
             var _a;
-            const fakeData = await this.client.get(`${this.baseUrl}ep/${episodeId}`);
-            const $2 = await (0, cheerio_1.load)(fakeData.data);
-            const serverOneUrl = $2("div > a:contains('Guarda lo streaming')").attr('href'); // scrape from server 1 (m3u8 and mp4 urls)
-            if (serverOneUrl == null)
-                throw new Error('Invalid url');
-            let data = await this.client.get(serverOneUrl);
-            let $ = await (0, cheerio_1.load)(data.data);
+            const episodeData = await this.client.get(`${this.baseUrl}ep/${episodeId}`, {
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0',
+                    Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    Referer: this.baseUrl,
+                    Connection: 'keep-alive',
+                    'Upgrade-Insecure-Requests': '1',
+                    'Sec-Fetch-Dest': 'document',
+                    'Sec-Fetch-Mode': 'navigate',
+                    'Sec-Fetch-Site': 'same-origin',
+                    Priority: 'u=0, i',
+                },
+            });
+            const $episode = await (0, cheerio_1.load)(episodeData.data);
+            let watchUrl = $episode("a:contains('Guarda lo streaming')").attr('href');
+            if (!watchUrl) {
+                watchUrl = $episode("div:contains('Guarda lo streaming')").parent('a').attr('href');
+            }
+            if (!watchUrl) {
+                watchUrl = $episode("a[href*='watch']").attr('href');
+            }
+            if (!watchUrl) {
+                throw new Error('Watch URL not found');
+            }
+            const watchData = await this.client.get(watchUrl, {
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0',
+                    Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    Referer: `${this.baseUrl}ep/${episodeId}`,
+                    Connection: 'keep-alive',
+                    'Upgrade-Insecure-Requests': '1',
+                    'Sec-Fetch-Dest': 'document',
+                    'Sec-Fetch-Mode': 'navigate',
+                    'Sec-Fetch-Site': 'same-origin',
+                    'Sec-Fetch-User': '?1',
+                    Priority: 'u=0, i',
+                },
+            });
+            const $watch = await (0, cheerio_1.load)(watchData.data);
             const sources = {
-                headers: {},
+                headers: {
+                    Referer: watchUrl,
+                    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0',
+                },
                 subtitles: [],
                 sources: [],
             };
-            // M3U8 and MP4
-            const scriptTag = $('script').filter(function () {
-                return $(this).text().includes("jwplayer('player_hls')");
+            $watch('video source').each((i, element) => {
+                const src = $watch(element).attr('src');
+                if (src && (src.includes('.mp4') || src.includes('.m3u8'))) {
+                    sources.sources.push({
+                        url: src,
+                        isM3U8: src.includes('.m3u8'),
+                        quality: 'default',
+                    });
+                }
             });
-            let serverOneSource;
-            // m3u8
-            scriptTag.each((i, element) => {
-                const scriptText = $(element).text();
-                scriptText.split('\n').forEach(line => {
-                    if (line.includes('file:') && !serverOneSource) {
-                        serverOneSource = line
-                            .split('file:')[1]
-                            .trim()
-                            .replace(/'/g, '')
-                            .replace(/,/g, '')
-                            .replace(/"/g, '');
+            const videoSrc = $watch('video#myvideo').attr('src');
+            if (videoSrc && (videoSrc.includes('.mp4') || videoSrc.includes('.m3u8'))) {
+                if (!sources.sources.some(s => s.url === videoSrc)) {
+                    sources.sources.push({
+                        url: videoSrc,
+                        isM3U8: videoSrc.includes('.m3u8'),
+                        quality: 'default',
+                    });
+                }
+            }
+            $watch('script').each((i, element) => {
+                const scriptText = $watch(element).text();
+                if (scriptText.includes('jwplayer') || scriptText.includes('file:')) {
+                    const lines = scriptText.split('\n');
+                    for (const line of lines) {
+                        if (line.includes('file:')) {
+                            let url = line.split('file:')[1].trim().replace(/['"]/g, '').replace(/,/g, '').trim();
+                            if (url && (url.includes('.mp4') || url.includes('.m3u8'))) {
+                                if (!sources.sources.some(s => s.url === url)) {
+                                    sources.sources.push({
+                                        url: url,
+                                        isM3U8: url.includes('.m3u8'),
+                                        quality: 'default',
+                                    });
+                                }
+                            }
+                        }
                     }
-                });
+                }
+                const mp4Match = scriptText.match(/https?:\/\/[^"'\s]+\.mp4[^"'\s]*/g);
+                if (mp4Match) {
+                    mp4Match.forEach(url => {
+                        if (!sources.sources.some(s => s.url === url)) {
+                            sources.sources.push({
+                                url: url,
+                                isM3U8: false,
+                                quality: 'default',
+                            });
+                        }
+                    });
+                }
+                const m3u8Match = scriptText.match(/https?:\/\/[^"'\s]+\.m3u8[^"'\s]*/g);
+                if (m3u8Match) {
+                    m3u8Match.forEach(url => {
+                        if (!sources.sources.some(s => s.url === url)) {
+                            sources.sources.push({
+                                url: url,
+                                isM3U8: true,
+                                quality: 'default',
+                            });
+                        }
+                    });
+                }
             });
-            // mp4
-            if (!serverOneSource) {
-                serverOneSource = $('#myvideo > source').attr('src');
+            if (sources.sources.length === 0) {
+                throw new Error('No video sources found');
             }
-            if (!serverOneSource)
-                throw new Error('Invalid source');
-            sources.sources.push({
-                url: serverOneSource,
-                isM3U8: serverOneSource.includes('.m3u8'),
-            });
-            if (serverOneSource.includes('.m3u8')) {
+            const m3u8Source = sources.sources.find(s => s.isM3U8);
+            if (m3u8Source && m3u8Source.url.includes('playlist.m3u8')) {
                 (_a = sources.subtitles) === null || _a === void 0 ? void 0 : _a.push({
-                    url: serverOneSource.replace('playlist.m3u8', 'subtitles.vtt'),
-                    lang: 'Spanish',
+                    url: m3u8Source.url.replace('playlist.m3u8', 'subtitles.vtt'),
+                    lang: 'Italian',
                 });
             }
-            // STREAMTAPE
-            const serverTwoUrl = serverOneUrl + '&server=1'; // scrape from server 2 (streamtape)
-            data = await this.client.get(serverTwoUrl);
-            $ = await (0, cheerio_1.load)(data.data);
-            const videoUrl = $('.embed-container > iframe').attr('src');
-            const serverTwoSource = await new utils_1.StreamTape(this.proxyConfig, this.adapter).extract(new URL(videoUrl));
-            if (!serverTwoSource)
-                throw new Error('Invalid source');
-            sources.sources.push({
-                url: serverTwoSource[0].url,
-                isM3U8: serverTwoSource[0].isM3U8,
-            });
             return sources;
         };
         /**
          *
          * @param episodeId Episode id
          */
-        this.fetchEpisodeServers = (episodeId) => {
-            throw new Error('Method not implemented.');
+        this.fetchEpisodeServers = async (episodeId) => {
+            const episodeData = await this.client.get(`${this.baseUrl}ep/${episodeId}`, {
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0',
+                    Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    Referer: this.baseUrl,
+                    Connection: 'keep-alive',
+                    'Upgrade-Insecure-Requests': '1',
+                    'Sec-Fetch-Dest': 'document',
+                    'Sec-Fetch-Mode': 'navigate',
+                    'Sec-Fetch-Site': 'same-origin',
+                    Priority: 'u=0, i',
+                },
+            });
+            const $episode = await (0, cheerio_1.load)(episodeData.data);
+            const servers = [];
+            const mainWatchUrl = $episode("a:contains('Guarda lo streaming')").attr('href');
+            if (mainWatchUrl) {
+                servers.push({
+                    name: 'Server 1',
+                    url: mainWatchUrl,
+                });
+            }
+            if (mainWatchUrl) {
+                const watchData = await this.client.get(mainWatchUrl, {
+                    headers: {
+                        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0',
+                        Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+                        'Accept-Language': 'en-US,en;q=0.5',
+                        Referer: `${this.baseUrl}ep/${episodeId}`,
+                        Connection: 'keep-alive',
+                        'Upgrade-Insecure-Requests': '1',
+                        'Sec-Fetch-Dest': 'document',
+                        'Sec-Fetch-Mode': 'navigate',
+                        'Sec-Fetch-Site': 'same-origin',
+                        'Sec-Fetch-User': '?1',
+                        Priority: 'u=0, i',
+                    },
+                });
+                const $watch = await (0, cheerio_1.load)(watchData.data);
+                $watch('.dropdown-menu .dropdown-item').each((i, element) => {
+                    const serverUrl = $watch(element).attr('href');
+                    const serverName = $watch(element).text().trim();
+                    if (serverUrl && serverName && !servers.some(s => s.url === serverUrl)) {
+                        servers.push({
+                            name: serverName,
+                            url: serverUrl,
+                        });
+                    }
+                });
+                const altPlayerUrl = $watch("a:contains('Player alternativo')").attr('href');
+                if (altPlayerUrl && !servers.some(s => s.url === altPlayerUrl)) {
+                    servers.push({
+                        name: 'Player Alternativo',
+                        url: altPlayerUrl,
+                    });
+                }
+                $watch('iframe').each((i, element) => {
+                    const src = $watch(element).attr('src');
+                    if (src && (src.includes('streamtape') || src.includes('mixdrop') || src.includes('doodstream'))) {
+                        const serverName = src.includes('streamtape')
+                            ? 'StreamTape'
+                            : src.includes('mixdrop')
+                                ? 'MixDrop'
+                                : src.includes('doodstream')
+                                    ? 'DoodStream'
+                                    : 'External Server';
+                        if (!servers.some(s => s.url === src)) {
+                            servers.push({
+                                name: serverName,
+                                url: src,
+                            });
+                        }
+                    }
+                });
+            }
+            return servers;
         };
     }
 }
 exports.default = AnimeSaturn;
-// Test this dog code
-// const animeSaturn = new AnimeSaturn();
-/*animeSaturn.search('naruto').then((res) => {
-console.log(res);
-
-  animeSaturn.fetchAnimeInfo(res.results[0].id).then((res) => {
-    console.log(res);
-
-    animeSaturn.fetchEpisodeSources(res?.episodes?.at(0)?.id || "0").then((res) => {
-      console.log(res);
-    })
-  });
-});*/
+// (async () => {
+//   const animesaturn = new AnimeSaturn();
+//   const anime = await animesaturn.search('Kingdom');
+//   console.log(anime);
+//   const info = await animesaturn.fetchAnimeInfo("Kingdom-6");
+//   console.log(info);
+//   const servers = await animesaturn.fetchEpisodeServers("Kingdom-6-ep-6");
+//   console.log(servers);
+//   const sources = await animesaturn.fetchEpisodeSources("Kingdom-6-ep-6");
+//   console.log(sources);
+// })();
 //# sourceMappingURL=animesaturn.js.map

@@ -191,6 +191,8 @@ export enum StreamingServers {
   MyCloud = 'mycloud',
   Filemoon = 'filemoon',
   VidStreaming = 'vidstreaming',
+  DuckStream = 'duckstream',
+  BirdStream = 'birdstream',
   BuiltIn = 'builtin',
   SmashyStream = 'smashystream',
   StreamHub = 'streamhub',
