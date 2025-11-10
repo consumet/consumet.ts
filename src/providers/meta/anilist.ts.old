@@ -41,7 +41,7 @@ import {
 } from '../../utils';
 import Gogoanime from '../../providers/anime/gogoanime';
 import Anify from '../anime/anify';
-import Zoro from '../anime/zoro';
+import HiAnime from '../anime/hianime';
 import Mangasee123 from '../manga/mangasee123';
 import Crunchyroll from '../anime/crunchyroll';
 import Bilibili from '../anime/bilibili';
@@ -581,7 +581,7 @@ class Anilist extends AnimeParser {
         rating: item.node.meanScore,
       }));
       if (
-        (this.provider instanceof Zoro || this.provider instanceof Gogoanime) &&
+        (this.provider instanceof HiAnime || this.provider instanceof Gogoanime) &&
         !dub &&
         (animeInfo.status === MediaStatus.ONGOING ||
           range({ from: 1940, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate!)))
@@ -864,7 +864,7 @@ class Anilist extends AnimeParser {
       return undefined;
     }
 
-    if (this.provider instanceof Zoro) {
+    if (this.provider instanceof HiAnime) {
       // Set the correct episode sub/dub request type
       possibleAnime.episodes.forEach((_: any, index: number) => {
         if (possibleAnime.subOrDub === SubOrSub.BOTH) {
@@ -1510,7 +1510,7 @@ class Anilist extends AnimeParser {
     let possibleAnimeEpisodes: IAnimeEpisode[] = [];
     let fillerEpisodes: { number: string; 'filler-bool': boolean }[] = [];
     if (
-      (this.provider instanceof Zoro || this.provider instanceof Gogoanime) &&
+      (this.provider instanceof HiAnime || this.provider instanceof Gogoanime) &&
       !dub &&
       (Media.status === 'RELEASING' ||
         range({ from: 2000, to: new Date().getFullYear() + 1 }).includes(parseInt(Media.startDate?.year!)))

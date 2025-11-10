@@ -4,7 +4,7 @@ const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const utils_2 = require("../../utils");
-class Zoro extends models_1.AnimeParser {
+class HiAnime extends models_1.AnimeParser {
     constructor(customBaseURL) {
         super(...arguments);
         this.name = 'Zoro';
@@ -812,5 +812,5 @@ class Zoro extends models_1.AnimeParser {
 //   );
 //   console.log(sources);
 // })();
-exports.default = Zoro;
-//# sourceMappingURL=zoro.js.map
+exports.default = HiAnime;
+//# sourceMappingURL=hianime.js.map
