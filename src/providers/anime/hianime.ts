@@ -16,15 +16,15 @@ import {
   WatchListType,
 } from '../../models';
 
-import { StreamSB, RapidCloud, MegaCloud, StreamTape } from '../../utils';
+import { MegaCloud, StreamSB, StreamTape } from '../../utils';
 import { USER_AGENT } from '../../utils';
 
-class Zoro extends AnimeParser {
-  override readonly name = 'Zoro';
+class Hianime extends AnimeParser {
+  override readonly name = 'hianime';
   protected override baseUrl = 'https://hianime.to';
   protected override logo =
     'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
-  protected override classPath = 'ANIME.Zoro';
+  protected override classPath = 'ANIME.hianime';
 
   constructor(customBaseURL?: string) {
     super(...arguments);
@@ -581,7 +581,7 @@ class Zoro extends AnimeParser {
         info.subOrDub = SubOrSub.BOTH;
       }
 
-      // ZORO - PAGE INFO
+      // hianime - PAGE INFO
       const zInfo = await this.client.get(info.url);
       const $$$ = load(zInfo.data);
 
@@ -739,13 +739,13 @@ class Zoro extends AnimeParser {
           case StreamingServers.VidCloud:
             serverId = this.retrieveServerId($, 1, subOrDub);
 
-            // zoro's vidcloud server is rapidcloud
+            // hianime's vidcloud server is rapidcloud
             if (!serverId) throw new Error('RapidCloud not found');
             break;
           case StreamingServers.VidStreaming:
             serverId = this.retrieveServerId($, 4, subOrDub);
 
-            // zoro's vidcloud server is rapidcloud
+            // hianime's vidcloud server is rapidcloud
             if (!serverId) throw new Error('vidtreaming not found');
             break;
           case StreamingServers.StreamSB:
@@ -796,7 +796,7 @@ class Zoro extends AnimeParser {
       // Attempt to get the subOrDub ID
       return rawOrSubOrDub(false);
     } catch (error) {
-      // If an error is thrown, attempt to get the raw ID (The raw is the newest episode uploaded to zoro)
+      // If an error is thrown, attempt to get the raw ID (The raw is the newest episode uploaded to hianime)
       return rawOrSubOrDub(true);
     }
   };
@@ -888,10 +888,10 @@ class Zoro extends AnimeParser {
 }
 
 // (async () => {
-//   const zoro = new Zoro();
-//   const anime = await zoro.search('Dandadan');
-//   const info = await zoro.fetchAnimeInfo(anime.results[0].id);
-//   const sources = await zoro.fetchEpisodeSources(
+//   const hi = new hianime();
+//   const anime = await hianime.search('Dandadan');
+//   const info = await hianime.fetchAnimeInfo(anime.results[0].id);
+//   const sources = await hianime.fetchEpisodeSources(
 //     info.episodes![0].id,
 //     StreamingServers.VidCloud,
 //     SubOrSub.DUB
@@ -899,4 +899,4 @@ class Zoro extends AnimeParser {
 //   console.log(sources);
 // })();
 
-export default Zoro;
+export default Hianime;

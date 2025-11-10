@@ -1,6 +1,6 @@
 import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer, StreamingServers, SubOrSub, IAnimeEpisode, WatchListType } from '../../models';
-declare class Zoro extends AnimeParser {
-    readonly name = "Zoro";
+declare class Hianime extends AnimeParser {
+    readonly name = "hianime";
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
@@ -143,4 +143,4 @@ declare class Zoro extends AnimeParser {
      */
     fetchEpisodeServers: (episodeId: string) => Promise<IEpisodeServer[]>;
 }
-export default Zoro;
+export default Hianime;
