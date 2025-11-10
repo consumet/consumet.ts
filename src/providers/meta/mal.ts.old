@@ -14,8 +14,7 @@ import {
 } from '../../models';
 import { substringAfter, substringBefore, compareTwoStrings, kitsuSearchQuery, range } from '../../utils';
 import Gogoanime from '../anime/gogoanime';
-import Zoro from '../anime/zoro';
-import Crunchyroll from '../anime/crunchyroll';
+import HiAnime from '../anime/hianime';
 import Anify from '../anime/anify';
 import Bilibili from '../anime/bilibili';
 import { ANIFY_URL } from '../../utils/utils';
@@ -185,7 +184,7 @@ class Myanimelist extends AnimeParser {
       };
       let fillerEpisodes: { number: string; 'filler-bool': boolean }[];
       if (
-        (this.provider instanceof Zoro || this.provider instanceof Gogoanime) &&
+        (this.provider instanceof HiAnime || this.provider instanceof Gogoanime) &&
         !dub &&
         (animeInfo.status === MediaStatus.ONGOING ||
           range({ from: 2000, to: new Date().getFullYear() + 1 }).includes(animeInfo.startDate?.year!))
@@ -412,7 +411,7 @@ class Myanimelist extends AnimeParser {
       return [];
     }
 
-    if (this.provider instanceof Zoro) {
+    if (this.provider instanceof HiAnime) {
       // Set the correct episode sub/dub request type
       possibleAnime.episodes.forEach((_: any, index: number) => {
         if (possibleAnime.subOrDub === SubOrSub.BOTH) {
