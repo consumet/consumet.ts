@@ -37,5 +37,6 @@ provider Anilist {
 This list is in alphabetical order. (except the sub bullet points)
 
 - [Anilist](../providers/anilist.md)
+- [TMDB](../providers/tmdb.md)
 
 <p align="end">(<a href="https://github.com/consumet/extensions/blob/master/docs">back to table of contents</a>)</p>

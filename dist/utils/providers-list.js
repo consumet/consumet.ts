@@ -10,17 +10,17 @@ const providers_1 = require("../providers");
 exports.PROVIDERS_LIST = {
     ANIME: [
         new providers_1.ANIME.AnimePahe(),
+        new providers_1.ANIME.Hianime(),
         new providers_1.ANIME.AnimeKai(),
         new providers_1.ANIME.KickAssAnime(),
         new providers_1.ANIME.AnimeSaturn(),
-        new providers_1.ANIME.Bilibili(),
-        new providers_1.ANIME.Anify(),
         new providers_1.ANIME.Gogoanime(),
     ],
     MANGA: [
-        new providers_1.MANGA.MangaDex(),
+        new providers_1.MANGA.WeebCentral(),
         new providers_1.MANGA.MangaHere(),
         new providers_1.MANGA.MangaPill(),
+        new providers_1.MANGA.MangaDex(),
         new providers_1.MANGA.MangaReader(),
         new providers_1.MANGA.ComicK(),
     ],
@@ -36,7 +36,7 @@ exports.PROVIDERS_LIST = {
         new providers_1.MOVIES.Turkish(),
     ],
     NEWS: [new providers_1.NEWS.ANN()],
-    META: [/* new META.Anilist() ,*/ new providers_1.META.TMDB() /*, new META.Myanimelist() */],
+    META: [new providers_1.META.Anilist(), new providers_1.META.TMDB(), new providers_1.META.Myanimelist()],
     OTHERS: [],
 };
 //# sourceMappingURL=providers-list.js.map
