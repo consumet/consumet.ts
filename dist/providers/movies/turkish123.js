@@ -10,20 +10,57 @@ class Turkish extends models_1.MovieParser {
         this.classPath = 'MOVIES.Turkish';
         this.supportedTypes = new Set([models_1.TvType.TVSERIES]);
     }
+    /**
+     * Search for Turkish TV shows
+     * @param query search query string
+     */
+    async search(query) {
+        try {
+            const params = `wp-admin/admin-ajax.php?s=${query}&action=searchwp_live_search&swpengine=default&swpquery=${query}`;
+            const { data } = await this.client(this.baseUrl + params, {
+                headers: this.getRequestHeaders(),
+            });
+            const $ = (0, cheerio_1.load)(data);
+            const results = [];
+            $('li')
+                .not('.ss-bottom')
+                .each((_, el) => {
+                const $el = $(el);
+                const href = $el.find('a').attr('href');
+                const styleAttr = $el.find('a').attr('style');
+                const imageMatch = styleAttr.match(/url\((.*?)\)/);
+                results.push({
+                    id: href.replace(this.baseUrl, '').replace('/', ''),
+                    image: imageMatch ? imageMatch[1] : '',
+                    title: $el.find('.ss-title').text(),
+                    tags: $el
+                        .find('.ss-info > a')
+                        .not('.ss-title')
+                        .map((_, e) => $(e).text())
+                        .get()
+                        .filter(v => v !== 'NULL'),
+                });
+            });
+            return results;
+        }
+        catch (err) {
+            throw new Error(err.message);
+        }
+    }
+    /**
+     * Fetch detailed media information
+     * @param mediaId media id
+     */
     async fetchMediaInfo(mediaId) {
         const info = { id: mediaId, title: '' };
         try {
             const { data } = await this.client(this.baseUrl + mediaId, {
-                headers: {
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-                    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-                    Referer: this.baseUrl,
-                },
+                headers: this.getRequestHeaders(),
             });
             const $ = (0, cheerio_1.load)(data);
-            info.image = $('#content-cover')
-                .attr('style')
-                .match(/url\((.*?)\)/)[1];
+            const coverStyle = $('#content-cover').attr('style');
+            const coverMatch = coverStyle === null || coverStyle === void 0 ? void 0 : coverStyle.match(/url\((.*?)\)/);
+            info.image = coverMatch ? coverMatch[1] : undefined;
             info.title = $('.mvic-desc > h1').text();
             info.description = $('.f-desc')
                 .text()
@@ -31,78 +68,74 @@ class Turkish extends models_1.MovieParser {
             info.romaji = $('.yellowi').text();
             info.tags = $('.mvici-left > p:nth-child(3)')
                 .find('a')
-                .map((_, e) => $(e).text())
+                .map((_, el) => $(el).text())
                 .get();
             info.rating = parseFloat($('.imdb-r').text());
             info.releaseDate = $('.mvici-right > p:nth-child(3)').find('a').first().text();
             info.totalEpisodes = $('.les-content > a').length;
             info.episodes = $('.les-content > a')
-                .map((i, e) => ({
-                id: $(e).attr('href').split('/').slice(-2)[0],
-                title: `Episode ${i + 1}`,
-            }))
+                .map((i, el) => {
+                const $el = $(el);
+                const href = $el.attr('href');
+                const episodeId = href.split('/').slice(-2)[0];
+                return {
+                    id: episodeId,
+                    title: `Episode ${i + 1}`,
+                };
+            })
                 .get();
+            return info;
         }
-        catch (error) { }
-        return info;
-    }
-    async fetchEpisodeSources(episodeId) {
-        const source = { sources: [{ url: '' }], headers: { Referer: 'https://tukipasti.com' } };
-        try {
-            const { data } = await this.client(this.baseUrl + episodeId, {
-                headers: {
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-                    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-                    Referer: this.baseUrl,
-                },
-            });
-            const resp = (await this.client(data.match(/"(https:\/\/tukipasti.com\/t\/.*?)"/)[1])).data;
-            source.sources[0].url = resp.match(/var urlPlay = '(.*?)'/)[1];
+        catch (err) {
+            throw new Error(err.message);
         }
-        catch (error) { }
-        return source;
     }
+    /**
+     * Fetch episode servers (not implemented)
+     */
     fetchEpisodeServers() {
         throw new Error('Method not implemented.');
     }
-    async search(q) {
-        const params = `wp-admin/admin-ajax.php?s=${q}&action=searchwp_live_search&swpengine=default&swpquery=${q}`;
+    /**
+     * Fetch episode sources
+     * @param episodeId episode id
+     */
+    async fetchEpisodeSources(episodeId) {
         try {
-            const { data } = await this.client(this.baseUrl + params, {
-                headers: {
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-                    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-                    Referer: this.baseUrl,
-                },
+            const { data } = await this.client(this.baseUrl + episodeId, {
+                headers: this.getRequestHeaders(),
             });
-            const $ = (0, cheerio_1.load)(data);
-            const result = [];
-            $('li')
-                .not('.ss-bottom')
-                .each((_, ele) => {
-                var _a;
-                result.push({
-                    id: $(ele).find('a').attr('href').replace(this.baseUrl, '').replace('/', ''),
-                    image: (_a = $(ele)
-                        .find('a')
-                        .attr('style')
-                        .match(/url\((.*?)\)/)[1]) !== null && _a !== void 0 ? _a : '',
-                    title: $(ele).find('.ss-title').text(),
-                    tags: $(ele)
-                        .find('.ss-info >a')
-                        .not('.ss-title')
-                        .map((_, e) => $(e).text())
-                        .get()
-                        .filter(v => v != 'NULL'),
-                });
-            });
-            return result;
+            // Extract tukipasti URL
+            const urlMatch = data.match(/"(https:\/\/tukipasti\.com\/t\/.*?)"/);
+            if (!urlMatch) {
+                throw new Error('Failed to extract tukipasti URL');
+            }
+            // Fetch the actual stream URL
+            const { data: streamData } = await this.client(urlMatch[1]);
+            const streamMatch = streamData.match(/var urlPlay = '(.*?)'/);
+            if (!streamMatch) {
+                throw new Error('Failed to extract stream URL');
+            }
+            return {
+                sources: [{ url: streamMatch[1] }],
+                headers: { Referer: 'https://tukipasti.com' },
+            };
         }
-        catch (error) {
-            console.log(error);
+        catch (err) {
+            throw new Error(err.message);
         }
-        return [];
+    }
+    /**
+     * Get common request headers
+     */
+    getRequestHeaders() {
+        return {
+            'User-Agent': Turkish.USER_AGENT,
+            'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+            Referer: this.baseUrl,
+        };
     }
 }
+Turkish.USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36';
 exports.default = Turkish;
 //# sourceMappingURL=turkish123.js.map

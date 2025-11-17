@@ -1,4 +1,5 @@
 import { ANIME, MANGA, /* BOOKS , */ COMICS, LIGHT_NOVELS, MOVIES, META, NEWS } from '../providers';
+import movies from '../providers/movies';
 
 /**
  * List of providers
@@ -28,10 +29,10 @@ export const PROVIDERS_LIST = {
   MOVIES: [
     new MOVIES.DramaCool(),
     new MOVIES.FlixHQ(),
-    new MOVIES.Fmovies(),
     new MOVIES.Goku(),
     new MOVIES.SFlix(),
     new MOVIES.HiMovies(),
+    new MOVIES.Turkish(),
   ],
   NEWS: [new NEWS.ANN()],
   META: [/* new META.Anilist() ,*/ new META.TMDB() /*, new META.Myanimelist() */],
