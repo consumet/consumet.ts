@@ -229,6 +229,12 @@ class KickAssAnime extends models_1.AnimeParser {
             throw new Error('All domains failed for episode servers');
         };
     }
+    /**
+     * Get HTTP headers for requests
+     * @param host The host URL
+     * @param endpoint The endpoint type (optional)
+     * @returns Object containing HTTP headers
+     */
     getHeaders(host, endpoint = '') {
         const baseHeaders = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
@@ -244,6 +250,11 @@ class KickAssAnime extends models_1.AnimeParser {
         }
         return baseHeaders;
     }
+    /**
+     * Map anime status string to MediaStatus enum
+     * @param status The status string from API
+     * @returns MediaStatus enum value
+     */
     mapStatus(status) {
         switch (status) {
             case 'finished_airing':
@@ -537,6 +548,11 @@ class KickAssAnime extends models_1.AnimeParser {
             throw new Error(`Failed to decrypt video data: ${error}`);
         }
     }
+    /**
+     * Get decryption key for specific server
+     * @param serverName Name of the server
+     * @returns Uint8Array key or null if not found
+     */
     getServerKey(serverName) {
         switch (serverName) {
             case models_1.StreamingServers.VidStreaming:
@@ -552,6 +568,11 @@ class KickAssAnime extends models_1.AnimeParser {
                 return null;
         }
     }
+    /**
+     * Convert hexadecimal string to Uint8Array
+     * @param hex Hexadecimal string
+     * @returns Uint8Array representation
+     */
     hexToBytes(hex) {
         const bytes = new Uint8Array(hex.length / 2);
         for (let i = 0; i < hex.length; i += 2) {

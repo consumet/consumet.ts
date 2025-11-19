@@ -12,7 +12,9 @@ class AnimeKai extends models_1.AnimeParser {
         this.logo = 'https://anikai.to//assets/uploads/37585a39fe8c8d8fafaa2c7bfbf5374ecac859ea6a0288a6da2c61f5.png';
         this.classPath = 'ANIME.AnimeKai';
         /**
-         * @param id Anime id
+         * Fetch anime information
+         * @param id Anime ID/slug
+         * @returns Promise<IAnimeInfo>
          */
         this.fetchAnimeInfo = async (id) => {
             var _a;
@@ -140,10 +142,11 @@ class AnimeKai extends models_1.AnimeParser {
             }
         };
         /**
-         *
-         * @param episodeId Episode id
-         * @param server server type (default `VidCloud`) (optional)
-         * @param subOrDub sub or dub (default `SubOrSub.SUB`) (optional)
+         * Fetch episode video sources
+         * @param episodeId Episode ID
+         * @param server Server type (default: VidCloud)
+         * @param subOrDub Sub or dub preference (default: SUB)
+         * @returns Promise<ISource>
          */
         this.fetchEpisodeSources = async (episodeId, server = models_1.StreamingServers.MegaUp, subOrDub = models_1.SubOrSub.SUB) => {
             var _a, _b;
@@ -222,6 +225,7 @@ class AnimeKai extends models_1.AnimeParser {
                 return res;
             }
             catch (err) {
+                console.error('scrapeCardPage error for URL:', url, 'Error:', err.message);
                 throw new Error('Something went wrong. Please try again later.');
             }
         };
@@ -254,12 +258,15 @@ class AnimeKai extends models_1.AnimeParser {
                 return results;
             }
             catch (err) {
+                console.error('scrapeCard error:', err);
                 throw new Error('Something went wrong. Please try again later.');
             }
         };
         /**
-         * @param episodeId Episode id
-         * @param subOrDub sub or dub (default `sub`) (optional)
+         * Fetch available episode servers
+         * @param episodeId Episode ID
+         * @param subOrDub Sub or dub preference (default: SUB)
+         * @returns Promise<IEpisodeServer[]>
          */
         this.fetchEpisodeServers = async (episodeId, subOrDub = models_1.SubOrSub.SUB) => {
             if (!episodeId.startsWith(this.baseUrl + '/ajax'))
@@ -306,8 +313,10 @@ class AnimeKai extends models_1.AnimeParser {
         }
     }
     /**
-     * @param query Search query
-     * @param page Page number (optional)
+     * Search for anime
+     * @param query Search query string
+     * @param page Page number (default: 1)
+     * @returns Promise<ISearch<IAnimeResult>>
      */
     search(query, page = 1) {
         if (0 >= page) {
@@ -435,8 +444,12 @@ class AnimeKai extends models_1.AnimeParser {
                 results: [],
             };
             const { data } = await this.client.get(`${this.baseUrl}/ajax/schedule/items?tz=5.5&time=${Math.floor(new Date(`${date}T00:00:00Z`).getTime() / 1000)}`, { headers: this.Headers() });
-            const $ = (0, cheerio_1.load)(data.result);
-            $('ul.collapsed li').each((i, ele) => {
+            let htmlContent = data.result || data;
+            if (typeof htmlContent === 'object' && htmlContent.html) {
+                htmlContent = htmlContent.html;
+            }
+            const $ = (0, cheerio_1.load)(htmlContent);
+            $('ul li').each((i, ele) => {
                 var _a;
                 const card = $(ele);
                 const titleElement = card.find('span.title');
@@ -452,6 +465,7 @@ class AnimeKai extends models_1.AnimeParser {
             return res;
         }
         catch (err) {
+            console.error('Schedule fetch error:', err);
             throw new Error('Something went wrong. Please try again later.');
         }
     }
@@ -557,13 +571,15 @@ class AnimeKai extends models_1.AnimeParser {
 }
 // (async () => {
 //   const animekai = new AnimeKai();
-//   const anime = await animekai.search('cyberpunk edgerunners');
-//   const info = await animekai.fetchAnimeInfo(anime.results[0].id);
-//   // console.log(info.episodes);
-//   const servers = await animekai.fetchEpisodeServers(info?.episodes![0].id!);
-//   console.log(servers)
-//   const sources = await animekai.fetchEpisodeSources(info?.episodes![0].id!,servers[0].name as StreamingServers);
-//   console.log(sources);
+//   const schedule = await animekai.fetchSchedule();
+//   console.log(schedule);
+//   // const anime = await animekai.search('cyberpunk edgerunners');
+//   // const info = await animekai.fetchAnimeInfo(anime.results[0].id);
+//   // // console.log(info.episodes);
+//   // const servers = await animekai.fetchEpisodeServers(info?.episodes![0].id!);
+//   // console.log(servers)
+//   // const sources = await animekai.fetchEpisodeSources(info?.episodes![0].id!,servers[0].name as StreamingServers);
+//   // console.log(sources);
 // })();
 exports.default = AnimeKai;
 //# sourceMappingURL=animekai.js.map

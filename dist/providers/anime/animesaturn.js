@@ -10,7 +10,9 @@ class AnimeSaturn extends models_1.AnimeParser {
         this.logo = 'https://www.animesaturn.cx/immagini/favicon-32x32.png';
         this.classPath = 'ANIME.AnimeSaturn';
         /**
-         * @param query Search query
+         * Search for anime
+         * @param query Search query string
+         * @returns Promise<ISearch<IAnimeResult>>
          */
         this.search = async (query) => {
             // baseUrl/animelist?search={query}
@@ -37,7 +39,9 @@ class AnimeSaturn extends models_1.AnimeParser {
             return res;
         };
         /**
-         * @param id Anime id
+         * Fetch anime information
+         * @param id Anime ID/slug
+         * @returns Promise<IAnimeInfo>
          */
         this.fetchAnimeInfo = async (id) => {
             var _a, _b, _c, _d, _e, _f, _g, _h;
@@ -74,8 +78,9 @@ class AnimeSaturn extends models_1.AnimeParser {
             return info;
         };
         /**
-         *
-         * @param episodeId Episode id
+         * Fetch episode video sources
+         * @param episodeId Episode ID
+         * @returns Promise<ISource>
          */
         this.fetchEpisodeSources = async (episodeId) => {
             var _a;
@@ -205,8 +210,9 @@ class AnimeSaturn extends models_1.AnimeParser {
             return sources;
         };
         /**
-         *
-         * @param episodeId Episode id
+         * Fetch available episode servers
+         * @param episodeId Episode ID
+         * @returns Promise<IEpisodeServer[]>
          */
         this.fetchEpisodeServers = async (episodeId) => {
             const episodeData = await this.client.get(`${this.baseUrl}ep/${episodeId}`, {
