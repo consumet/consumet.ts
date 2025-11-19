@@ -28,6 +28,12 @@ class KickAssAnime extends AnimeParser {
     'https://kaa.si',
   ];
 
+  /**
+   * Get HTTP headers for requests
+   * @param host The host URL
+   * @param endpoint The endpoint type (optional)
+   * @returns Object containing HTTP headers
+   */
   private getHeaders(host: string, endpoint: string = '') {
     const baseHeaders = {
       'User-Agent':
@@ -99,6 +105,11 @@ class KickAssAnime extends AnimeParser {
     throw new Error('All domains failed for search');
   };
 
+  /**
+   * Map anime status string to MediaStatus enum
+   * @param status The status string from API
+   * @returns MediaStatus enum value
+   */
   private mapStatus(status: string): MediaStatus {
     switch (status) {
       case 'finished_airing':
@@ -584,6 +595,11 @@ class KickAssAnime extends AnimeParser {
     }
   }
 
+  /**
+   * Get decryption key for specific server
+   * @param serverName Name of the server
+   * @returns Uint8Array key or null if not found
+   */
   private getServerKey(serverName: string): Uint8Array | null {
     switch (serverName) {
       case StreamingServers.VidStreaming:
@@ -600,6 +616,11 @@ class KickAssAnime extends AnimeParser {
     }
   }
 
+  /**
+   * Convert hexadecimal string to Uint8Array
+   * @param hex Hexadecimal string
+   * @returns Uint8Array representation
+   */
   private hexToBytes(hex: string): Uint8Array {
     const bytes = new Uint8Array(hex.length / 2);
     for (let i = 0; i < hex.length; i += 2) {

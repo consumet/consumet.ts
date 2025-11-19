@@ -6,8 +6,10 @@ declare class Hianime extends AnimeParser {
     protected classPath: string;
     constructor(customBaseURL?: string);
     /**
-     * @param query Search query
-     * @param page Page number (optional)
+     * Search for anime
+     * @param query Search query string
+     * @param page Page number (default: 1)
+     * @returns Promise<ISearch<IAnimeResult>>
      */
     search(query: string, page?: number): Promise<ISearch<IAnimeResult>>;
     /**
@@ -117,14 +119,17 @@ declare class Hianime extends AnimeParser {
     fetchContinueWatching(connectSid: string): Promise<IAnimeEpisode[]>;
     fetchWatchList(connectSid: string, page?: number, sortListType?: WatchListType): Promise<ISearch<IAnimeResult>>;
     /**
-     * @param id Anime id
+     * Fetch anime information
+     * @param id Anime ID/slug
+     * @returns Promise<IAnimeInfo>
      */
     fetchAnimeInfo: (id: string) => Promise<IAnimeInfo>;
     /**
-     *
-     * @param episodeId Episode id
-     * @param server server type (default `VidCloud`) (optional)
-     * @param subOrDub sub or dub (default `SubOrSub.SUB`) (optional)
+     * Fetch episode video sources
+     * @param episodeId Episode ID
+     * @param server Server type (default: VidCloud)
+     * @param subOrDub Sub or dub preference (default: SUB)
+     * @returns Promise<ISource>
      */
     fetchEpisodeSources: (episodeId: string, server?: StreamingServers, subOrDub?: SubOrSub) => Promise<ISource>;
     private verifyLoginState;

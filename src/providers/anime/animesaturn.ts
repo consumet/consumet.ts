@@ -22,7 +22,9 @@ class AnimeSaturn extends AnimeParser {
   protected override classPath = 'ANIME.AnimeSaturn';
 
   /**
-   * @param query Search query
+   * Search for anime
+   * @param query Search query string
+   * @returns Promise<ISearch<IAnimeResult>>
    */
   override search = async (query: string): Promise<ISearch<IAnimeResult>> => {
     // baseUrl/animelist?search={query}
@@ -58,7 +60,9 @@ class AnimeSaturn extends AnimeParser {
   };
 
   /**
-   * @param id Anime id
+   * Fetch anime information
+   * @param id Anime ID/slug
+   * @returns Promise<IAnimeInfo>
    */
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
     const data = await this.client.get(`${this.baseUrl}anime/${id}`);
@@ -106,8 +110,9 @@ class AnimeSaturn extends AnimeParser {
   };
 
   /**
-   *
-   * @param episodeId Episode id
+   * Fetch episode video sources
+   * @param episodeId Episode ID
+   * @returns Promise<ISource>
    */
   override fetchEpisodeSources = async (episodeId: string): Promise<ISource> => {
     const episodeData = await this.client.get(`${this.baseUrl}ep/${episodeId}`, {
@@ -256,8 +261,9 @@ class AnimeSaturn extends AnimeParser {
   };
 
   /**
-   *
-   * @param episodeId Episode id
+   * Fetch available episode servers
+   * @param episodeId Episode ID
+   * @returns Promise<IEpisodeServer[]>
    */
   override fetchEpisodeServers = async (episodeId: string): Promise<IEpisodeServer[]> => {
     const episodeData = await this.client.get(`${this.baseUrl}ep/${episodeId}`, {

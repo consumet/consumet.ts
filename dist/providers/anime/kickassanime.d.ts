@@ -5,6 +5,12 @@ declare class KickAssAnime extends AnimeParser {
     protected logo: string;
     protected classPath: string;
     private fallbackDomains;
+    /**
+     * Get HTTP headers for requests
+     * @param host The host URL
+     * @param endpoint The endpoint type (optional)
+     * @returns Object containing HTTP headers
+     */
     private getHeaders;
     /**
      * Search for anime
@@ -13,6 +19,11 @@ declare class KickAssAnime extends AnimeParser {
      * @returns Promise<ISearch<IAnimeResult>>
      */
     search: (query: string, page?: number) => Promise<ISearch<IAnimeResult>>;
+    /**
+     * Map anime status string to MediaStatus enum
+     * @param status The status string from API
+     * @returns MediaStatus enum value
+     */
     private mapStatus;
     /**
      * Fetch detailed anime information
@@ -37,7 +48,17 @@ declare class KickAssAnime extends AnimeParser {
     private extractCatBirdStream;
     private decodeHtmlEntities;
     private extractEncryptedServer;
+    /**
+     * Get decryption key for specific server
+     * @param serverName Name of the server
+     * @returns Uint8Array key or null if not found
+     */
     private getServerKey;
+    /**
+     * Convert hexadecimal string to Uint8Array
+     * @param hex Hexadecimal string
+     * @returns Uint8Array representation
+     */
     private hexToBytes;
     private sha1;
     private decryptAES;
