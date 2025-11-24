@@ -5,7 +5,7 @@ const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const { GenerateToken, DecodeIframeData } = new utils_1.MegaUp();
 class AnimeKai extends models_1.AnimeParser {
-    constructor(customBaseURL) {
+    constructor() {
         super(...arguments);
         this.name = 'AnimeKai';
         this.baseUrl = 'https://anikai.to';
@@ -300,17 +300,6 @@ class AnimeKai extends models_1.AnimeParser {
                 throw new Error(err.message);
             }
         };
-        if (customBaseURL) {
-            if (customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')) {
-                this.baseUrl = customBaseURL;
-            }
-            else {
-                this.baseUrl = `http://${customBaseURL}`;
-            }
-        }
-        else {
-            this.baseUrl = this.baseUrl;
-        }
     }
     /**
      * Search for anime
@@ -569,17 +558,5 @@ class AnimeKai extends models_1.AnimeParser {
         };
     }
 }
-// (async () => {
-//   const animekai = new AnimeKai();
-//   const schedule = await animekai.fetchSchedule();
-//   console.log(schedule);
-//   // const anime = await animekai.search('cyberpunk edgerunners');
-//   // const info = await animekai.fetchAnimeInfo(anime.results[0].id);
-//   // // console.log(info.episodes);
-//   // const servers = await animekai.fetchEpisodeServers(info?.episodes![0].id!);
-//   // console.log(servers)
-//   // const sources = await animekai.fetchEpisodeSources(info?.episodes![0].id!,servers[0].name as StreamingServers);
-//   // console.log(sources);
-// })();
 exports.default = AnimeKai;
 //# sourceMappingURL=animekai.js.map

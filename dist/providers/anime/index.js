@@ -9,6 +9,7 @@ const hianime_1 = __importDefault(require("./hianime"));
 const animesaturn_1 = __importDefault(require("./animesaturn"));
 const animekai_1 = __importDefault(require("./animekai"));
 const kickassanime_1 = __importDefault(require("./kickassanime"));
+const animeunity_1 = __importDefault(require("./animeunity"));
 exports.default = {
     Hianime: hianime_1.default,
     AnimePahe: animepahe_1.default,
@@ -16,5 +17,6 @@ exports.default = {
     KickAssAnime: kickassanime_1.default,
     AnimeSaturn: animesaturn_1.default,
     Gogoanime: gogoanime_1.default,
+    AnimeUnity: animeunity_1.default,
 };
 //# sourceMappingURL=index.js.map
