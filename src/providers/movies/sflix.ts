@@ -208,7 +208,8 @@ class SFlix extends MovieParser {
         throw new Error('No link returned from episode source');
       }
 
-      if (data.link.includes('https://videostr.net')) {
+      const parsedUrl = new URL(data.link);
+      if (parsedUrl.host === 'videostr.net' || parsedUrl.host === 'www.videostr.net') {
         server = StreamingServers.VideoStr;
       }
 

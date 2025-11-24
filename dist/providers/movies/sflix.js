@@ -175,7 +175,8 @@ class SFlix extends models_1.MovieParser {
                 if (!(data === null || data === void 0 ? void 0 : data.link)) {
                     throw new Error('No link returned from episode source');
                 }
-                if (data.link.includes('https://videostr.net')) {
+                const parsedUrl = new URL(data.link);
+                if (parsedUrl.host === 'videostr.net' || parsedUrl.host === 'www.videostr.net') {
                     server = models_1.StreamingServers.VideoStr;
                 }
                 return await this.fetchEpisodeSources(data.link, mediaId, server);

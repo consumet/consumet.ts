@@ -15,7 +15,6 @@ class AnimeSaturn extends models_1.AnimeParser {
          * @returns Promise<ISearch<IAnimeResult>>
          */
         this.search = async (query) => {
-            // baseUrl/animelist?search={query}
             const data = await this.client.get(`${this.baseUrl}animelist?search=${query}`);
             const $ = await (0, cheerio_1.load)(data.data);
             if (!$)
@@ -296,15 +295,4 @@ class AnimeSaturn extends models_1.AnimeParser {
     }
 }
 exports.default = AnimeSaturn;
-// (async () => {
-//   const animesaturn = new AnimeSaturn();
-//   const anime = await animesaturn.search('Kingdom');
-//   console.log(anime);
-//   const info = await animesaturn.fetchAnimeInfo("Kingdom-6");
-//   console.log(info);
-//   const servers = await animesaturn.fetchEpisodeServers("Kingdom-6-ep-6");
-//   console.log(servers);
-//   const sources = await animesaturn.fetchEpisodeSources("Kingdom-6-ep-6");
-//   console.log(sources);
-// })();
 //# sourceMappingURL=animesaturn.js.map

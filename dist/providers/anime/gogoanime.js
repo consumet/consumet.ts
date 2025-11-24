@@ -5,10 +5,10 @@ const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const extractors_1 = require("../../extractors");
 class Gogoanime extends models_1.AnimeParser {
-    constructor(customBaseURL, proxy, adapter) {
+    constructor() {
         super(...arguments);
         this.name = 'Gogoanime';
-        this.baseUrl = 'https://gogoanime.by'; // Do not include a trailing forward slash.
+        this.baseUrl = 'https://gogoanime.by';
         this.logo = 'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
         this.classPath = 'ANIME.Gogoanime';
         this.ajaxUrl = 'https://ajax.gogocdn.net/ajax';
@@ -24,19 +24,18 @@ class Gogoanime extends models_1.AnimeParser {
                 results: [],
             };
             try {
-                const res = await this.client.get(`${this.baseUrl}/filter.html?keyword=${encodeURIComponent(query)}&page=${page}`);
+                const res = await this.client.get(`${this.baseUrl}/page/${page}/?s=${query}`);
                 const $ = (0, cheerio_1.load)(res.data);
-                searchResult.hasNextPage =
-                    $('div.anime_name.new_series > div > div > ul > li.selected').next().length > 0;
-                $('div.last_episodes > ul > li').each((i, el) => {
+                searchResult.hasNextPage = $('div.pagination .page-numbers.current').next('a.page-numbers').length > 0;
+                $('div.listupd > article.bs > div.bsx').each((i, elem) => {
                     var _a;
+                    const url = $(elem).find('a.tip').attr('href');
                     searchResult.results.push({
-                        id: (_a = $(el).find('p.name > a').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2],
-                        title: $(el).find('p.name > a').text(),
-                        url: `${this.baseUrl}/${$(el).find('p.name > a').attr('href')}`,
-                        image: $(el).find('div > a > img').attr('src'),
-                        releaseDate: $(el).find('p.released').text().trim().replace('Released: ', ''),
-                        subOrDub: $(el).find('p.name > a').text().toLowerCase().includes('(dub)')
+                        id: (_a = url === null || url === void 0 ? void 0 : url.split('/series/')[1]) === null || _a === void 0 ? void 0 : _a.replace(/\/$/, ''),
+                        title: $(elem).find('.tt h2').text().trim(),
+                        image: $(elem).find('div.limit > img').attr('src'),
+                        url,
+                        subOrDub: $(elem).find('div.limit > div.bt > span.sb').text().toLowerCase().includes('dub')
                             ? models_1.SubOrSub.DUB
                             : models_1.SubOrSub.SUB,
                     });
@@ -287,18 +286,18 @@ class Gogoanime extends models_1.AnimeParser {
                 const res = await this.client.get(`${this.baseUrl}/genre/${genre}?page=${page}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 const genreInfo = [];
-                $('div.last_episodes > ul > li').each((i, elem) => {
+                $('div.listupd > article.bs > div.bsx').each((i, elem) => {
                     var _a;
                     genreInfo.push({
-                        id: (_a = $(elem).find('p.name > a').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2],
-                        title: $(elem).find('p.name > a').text(),
-                        image: $(elem).find('div > a > img').attr('src'),
+                        id: (_a = $(elem).find('a.tip').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2],
+                        title: $(elem).find('a.tip > a').text(),
+                        image: $(elem).find('div.limit > img').attr('src'),
                         released: $(elem).find('p.released').text().replace('Released: ', '').trim(),
                         url: this.baseUrl + '/' + $(elem).find('p.name > a').attr('href'),
                     });
                 });
-                const paginatorDom = $('div.anime_name_pagination > div > ul > li');
-                const hasNextPage = paginatorDom.length > 0 && !paginatorDom.last().hasClass('selected');
+                const paginatorDom = $('div.pagination > a.page-numbers');
+                const hasNextPage = paginatorDom.length > 0;
                 return {
                     currentPage: page,
                     hasNextPage: hasNextPage,
@@ -493,25 +492,7 @@ class Gogoanime extends models_1.AnimeParser {
                 throw new Error('Something went wrong. Please try again later.');
             }
         };
-        this.baseUrl = customBaseURL
-            ? customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')
-                ? customBaseURL
-                : `http://${customBaseURL}`
-            : this.baseUrl;
-        if (proxy) {
-            // Initialize proxyConfig if provided
-            this.setProxy(proxy);
-        }
-        if (adapter) {
-            // Initialize adapter if provided
-            this.setAxiosAdapter(adapter);
-        }
     }
 }
-// (async () => {
-//   const gogo = new Gogoanime();
-//   const search = await gogo.fetchEpisodeSources('jigokuraku-dub-episode-1',StreamingServers.StreamWish);
-//   console.log(search);
-// })();
 exports.default = Gogoanime;
 //# sourceMappingURL=gogoanime.js.map

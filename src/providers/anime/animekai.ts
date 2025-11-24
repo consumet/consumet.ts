@@ -1,4 +1,3 @@
-import { AxiosAdapter } from 'axios';
 import { CheerioAPI, load } from 'cheerio';
 
 import {
@@ -11,7 +10,6 @@ import {
   StreamingServers,
   MediaFormat,
   SubOrSub,
-  IAnimeEpisode,
   MediaStatus,
   Intro,
 } from '../../models';

@@ -19,7 +19,7 @@ class Anilist extends models_1.AnimeParser {
      * @param proxyConfig proxy config (optional)
      * @param adapter axios adapter (optional)
      */
-    constructor(provider, proxyConfig, adapter, customBaseURL) {
+    constructor(provider, proxyConfig, adapter) {
         super(proxyConfig, adapter);
         this.proxyConfig = proxyConfig;
         this.name = 'Anilist';
@@ -1617,7 +1617,7 @@ class Anilist extends models_1.AnimeParser {
             const englishPossibleEpisodes = this.findMangaSlug(provider, title.english, malId);
             return englishPossibleEpisodes;
         };
-        this.provider = provider || new gogoanime_1.default(customBaseURL, proxyConfig);
+        this.provider = provider || new gogoanime_1.default();
     }
 }
 _a = Anilist;

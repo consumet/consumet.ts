@@ -1,4 +1,3 @@
-import { AxiosAdapter } from 'axios';
 import { CheerioAPI, load } from 'cheerio';
 
 import {

@@ -1,19 +1,14 @@
-import { Cheerio, load } from 'cheerio';
+import { load } from 'cheerio';
 
 import {
   AnimeParser,
   ISearch,
   IAnimeInfo,
-  MediaStatus,
   IAnimeResult,
   ISource,
   IAnimeEpisode,
   IEpisodeServer,
-  StreamingServers,
 } from '../../models';
-
-import { StreamTape } from '../../utils';
-import { Mp4Player } from '../../extractors';
 
 class AnimeSaturn extends AnimeParser {
   override readonly name = 'AnimeSaturn';
@@ -27,8 +22,6 @@ class AnimeSaturn extends AnimeParser {
    * @returns Promise<ISearch<IAnimeResult>>
    */
   override search = async (query: string): Promise<ISearch<IAnimeResult>> => {
-    // baseUrl/animelist?search={query}
-
     const data = await this.client.get(`${this.baseUrl}animelist?search=${query}`);
 
     const $ = await load(data.data);
@@ -357,19 +350,3 @@ class AnimeSaturn extends AnimeParser {
 }
 
 export default AnimeSaturn;
-
-// (async () => {
-//   const animesaturn = new AnimeSaturn();
-
-//   const anime = await animesaturn.search('Kingdom');
-//   console.log(anime);
-
-//   const info = await animesaturn.fetchAnimeInfo("Kingdom-6");
-//   console.log(info);
-
-//   const servers = await animesaturn.fetchEpisodeServers("Kingdom-6-ep-6");
-//   console.log(servers);
-
-//   const sources = await animesaturn.fetchEpisodeSources("Kingdom-6-ep-6");
-//   console.log(sources);
-// })();
