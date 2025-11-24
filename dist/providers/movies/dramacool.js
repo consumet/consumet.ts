@@ -281,12 +281,6 @@ class DramaCool extends models_1.MovieParser {
     async extractFromServer(episodeUrl, server) {
         const serverUrl = new URL(episodeUrl);
         switch (server) {
-            case models_1.StreamingServers.AsianLoad:
-                return {
-                    headers: { Referer: serverUrl.origin },
-                    ...(await new extractors_1.AsianLoad(this.proxyConfig, this.adapter).extract(serverUrl)),
-                    download: this.generateDownloadLink(episodeUrl),
-                };
             case models_1.StreamingServers.MixDrop:
                 return {
                     headers: { Referer: serverUrl.origin },
@@ -297,20 +291,10 @@ class DramaCool extends models_1.MovieParser {
                     headers: { Referer: serverUrl.origin },
                     sources: await new extractors_1.StreamTape(this.proxyConfig, this.adapter).extract(serverUrl),
                 };
-            case models_1.StreamingServers.StreamSB:
-                return {
-                    headers: { Referer: serverUrl.origin },
-                    sources: await new extractors_1.StreamSB(this.proxyConfig, this.adapter).extract(serverUrl),
-                };
             case models_1.StreamingServers.StreamWish:
                 return {
                     headers: { Referer: serverUrl.origin },
                     ...(await new extractors_1.StreamWish(this.proxyConfig, this.adapter).extract(serverUrl)),
-                };
-            case models_1.StreamingServers.VidHide:
-                return {
-                    headers: { Referer: serverUrl.href },
-                    sources: await new extractors_1.VidHide(this.proxyConfig, this.adapter).extract(serverUrl),
                 };
             default:
                 throw new Error('Server not supported');

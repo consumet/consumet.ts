@@ -22,13 +22,13 @@ test('fetchEpisodeServers: returns a filled object of streaming servers', async 
 });
 
 test('fetchEpisodeSources: returns a filled object of streaming sources', async () => {
-  const episodeSources = await sflix.fetchEpisodeSources(
+  const data = await sflix.fetchEpisodeSources(
     '18729',
     'movie/free-superbad-hd-18729',
     StreamingServers.UpCloud
   );
-  expect(episodeSources.sources).not.toEqual([]);
-  expect(episodeSources.subtitles).not.toEqual([]);
+  expect(data.sources).not.toEqual([]);
+  expect(data.subtitles).not.toEqual([]);
 });
 
 test('fetchByCountry: returns a filled object of movies/tv data by country', async () => {

@@ -124,9 +124,11 @@ class HiMovies extends models_1.MovieParser {
                     const $el = $(el);
                     const urlPattern = isMovie ? /\/movie\// : /\/tv\//;
                     const replacement = isMovie ? '/watch-movie/' : '/watch-tv/';
+                    const dataId = $el.find('a').attr('data-id');
                     return {
                         name: $el.find('a').attr('title').slice(6).toLowerCase().replace('server', '').trim(),
-                        url: `${this.baseUrl}/${mediaId}.${$el.find('a').attr('data-id')}`.replace(urlPattern, replacement),
+                        url: `${this.baseUrl}/${mediaId}.${dataId}`.replace(urlPattern, replacement),
+                        id: dataId,
                     };
                 })
                     .get();
@@ -409,12 +411,12 @@ class HiMovies extends models_1.MovieParser {
             case models_1.StreamingServers.MegaCloud:
                 return {
                     headers: { Referer: serverUrl.href },
-                    ...(await new extractors_1.MegaCloud(this.proxyConfig, this.adapter).extract(serverUrl, this.baseUrl)),
+                    ...(await new extractors_1.MegaCloud(this.proxyConfig, this.adapter).extract(serverUrl)),
                 };
             default:
                 return {
                     headers: { Referer: serverUrl.href },
-                    ...(await new extractors_1.MegaCloud(this.proxyConfig, this.adapter).extract(serverUrl, this.baseUrl)),
+                    ...(await new extractors_1.MegaCloud(this.proxyConfig, this.adapter).extract(serverUrl)),
                 };
         }
     }

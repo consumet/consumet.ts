@@ -453,6 +453,11 @@ class SFlix extends models_1.MovieParser {
                     headers: { Referer: serverUrl.href },
                     ...(await new extractors_1.VidCloud(this.proxyConfig, this.adapter).extract(serverUrl)),
                 };
+            case models_1.StreamingServers.MegaCloud:
+                return {
+                    headers: { Referer: serverUrl.href },
+                    ...(await new extractors_1.MegaCloud(this.proxyConfig, this.adapter).extract(serverUrl)),
+                };
             default:
                 return {
                     headers: { Referer: serverUrl.href },

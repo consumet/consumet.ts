@@ -26,7 +26,6 @@ class VidCloud extends models_1.VideoExtractor {
                 }
                 let masterPlaylistUrl = initialData.sources[0].file;
                 let masterPlaylist = null;
-                // Try HTTPS first
                 try {
                     const { data } = await axios_1.default.get(masterPlaylistUrl, {
                         headers: {
@@ -38,7 +37,6 @@ class VidCloud extends models_1.VideoExtractor {
                     masterPlaylist = data;
                 }
                 catch (httpsError) {
-                    // Try fallback HTTP
                     const httpUrl = masterPlaylistUrl.replace('https://', 'http://');
                     try {
                         const { data } = await axios_1.default.get(httpUrl, {
@@ -52,11 +50,10 @@ class VidCloud extends models_1.VideoExtractor {
                         masterPlaylistUrl = httpUrl;
                     }
                     catch (httpError) {
-                        // ❗ NEW BEHAVIOR — return direct fallback instead of throwing
                         return {
                             sources: [
                                 {
-                                    url: masterPlaylistUrl, // return the raw url
+                                    url: masterPlaylistUrl,
                                     isM3U8: masterPlaylistUrl.includes('.m3u8'),
                                     quality: 'auto',
                                 },
@@ -72,13 +69,11 @@ class VidCloud extends models_1.VideoExtractor {
                     }
                 }
                 const sources = [];
-                // auto-quality source
                 sources.push({
                     url: masterPlaylistUrl,
                     isM3U8: true,
                     quality: 'auto',
                 });
-                // Parse qualities only if we successfully downloaded the playlist
                 const playlistRegex = /#EXT-X-STREAM-INF:.*RESOLUTION=(\d+x(\d+)).*\n(.*)/g;
                 let match;
                 while ((match = playlistRegex.exec(masterPlaylist)) !== null) {
