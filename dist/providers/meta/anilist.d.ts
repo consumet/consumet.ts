@@ -20,6 +20,15 @@ declare class Anilist extends AnimeParser {
      */
     constructor(provider?: AnimeParser, proxyConfig?: ProxyConfig | undefined, adapter?: AxiosAdapter);
     /**
+     * @param authToken Anilist auth token
+     * @param type Type of favorites to fetch: 'ANIME', 'MANGA', or 'BOTH' (default: 'BOTH')
+     * @returns favorite lists
+     */
+    fetchFavoriteList: (authToken: string, type?: "ANIME" | "MANGA" | "BOTH") => Promise<{
+        anime?: IAnimeInfo[];
+        manga?: IAnimeInfo[];
+    }>;
+    /**
      * @param query Search query
      * @param page Page number (optional)
      * @param perPage Number of results per page (optional) (default: 15) (max: 50)
