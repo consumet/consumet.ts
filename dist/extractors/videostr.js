@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const models_1 = require("../models");
-class Voe extends models_1.VideoExtractor {
+class VideoStr extends models_1.VideoExtractor {
     constructor() {
         super(...arguments);
         this.serverName = 'VideoStr';
@@ -9,7 +9,7 @@ class Voe extends models_1.VideoExtractor {
         this.extract = async (videoUrl) => {
             var _a, _b, _c;
             try {
-                const apiUrl = 'https://crawlr.cc/3F7A1C9D8?url=' + encodeURIComponent(videoUrl.href);
+                const apiUrl = 'https://crawlr.cc/E2B9A6F4C?url=' + encodeURIComponent(videoUrl.href);
                 const { data } = await this.client.get(apiUrl);
                 if (!data.sources || data.sources.length === 0) {
                     throw new Error('No sources returned');
@@ -40,5 +40,5 @@ class Voe extends models_1.VideoExtractor {
         };
     }
 }
-exports.default = Voe;
-//# sourceMappingURL=voe.js.map
+exports.default = VideoStr;
+//# sourceMappingURL=videostr.js.map

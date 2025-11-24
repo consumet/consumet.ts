@@ -17,6 +17,7 @@ import VidCloud from './vidcloud';
 import VidMoly from './vidmoly';
 import VizCloud from './vizcloud';
 import VidHide from './vidhide';
+import VideoStr from './videostr';
 import MegaCloud from './megacloud';
 import Voe from './voe';
 import Luffy from './luffy';
@@ -43,6 +44,7 @@ export {
   VidMoly,
   VizCloud,
   VidHide,
+  VideoStr,
   Voe,
   MegaUp,
   Luffy,

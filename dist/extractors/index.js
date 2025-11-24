@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Luffy = exports.MegaUp = exports.Voe = exports.VidHide = exports.VizCloud = exports.VidMoly = exports.VidCloud = exports.StreamWish = exports.StreamTape = exports.StreamSB = exports.StreamLare = exports.StreamHub = exports.SmashyStream = exports.MegaCloud = exports.RapidCloud = exports.Mp4Upload = exports.Mp4Player = exports.MixDrop = exports.Kwik = exports.GogoCDN = exports.Filemoon = exports.BilibiliExtractor = exports.AsianLoad = void 0;
+exports.Luffy = exports.MegaUp = exports.Voe = exports.VideoStr = exports.VidHide = exports.VizCloud = exports.VidMoly = exports.VidCloud = exports.StreamWish = exports.StreamTape = exports.StreamSB = exports.StreamLare = exports.StreamHub = exports.SmashyStream = exports.MegaCloud = exports.RapidCloud = exports.Mp4Upload = exports.Mp4Player = exports.MixDrop = exports.Kwik = exports.GogoCDN = exports.Filemoon = exports.BilibiliExtractor = exports.AsianLoad = void 0;
 const asianload_1 = __importDefault(require("./asianload"));
 exports.AsianLoad = asianload_1.default;
 const bilibili_1 = __importDefault(require("./bilibili"));
@@ -42,6 +42,8 @@ const vizcloud_1 = __importDefault(require("./vizcloud"));
 exports.VizCloud = vizcloud_1.default;
 const vidhide_1 = __importDefault(require("./vidhide"));
 exports.VidHide = vidhide_1.default;
+const videostr_1 = __importDefault(require("./videostr"));
+exports.VideoStr = videostr_1.default;
 const megacloud_1 = __importDefault(require("./megacloud"));
 exports.MegaCloud = megacloud_1.default;
 const voe_1 = __importDefault(require("./voe"));
