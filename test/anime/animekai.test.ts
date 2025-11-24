@@ -2,7 +2,7 @@ import { ANIME } from '../../src/providers';
 
 jest.setTimeout(120000);
 
-const animekai = new ANIME.AnimeKai('https://anikai.to');
+const animekai = new ANIME.AnimeKai();
 
 test('Search: returns a filled array of anime list', async () => {
   const data = await animekai.search('Dandadan');
