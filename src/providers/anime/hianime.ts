@@ -40,14 +40,17 @@ class Hianime extends AnimeParser {
   }
 
   /**
-   * @param query Search query
-   * @param page Page number (optional)
+   * Search for anime
+   * @param query Search query string
+   * @param page Page number (default: 1)
+   * @returns Promise<ISearch<IAnimeResult>>
    */
   override search(query: string, page: number = 1): Promise<ISearch<IAnimeResult>> {
     if (0 >= page) {
       page = 1;
     }
-    return this.scrapeCardPage(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
+    const searchUrl = `${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`;
+    return this.scrapeCardPage(searchUrl);
   }
   /**
    * Fetch advanced anime search results with various filters.
@@ -527,7 +530,9 @@ class Hianime extends AnimeParser {
     );
   }
   /**
-   * @param id Anime id
+   * Fetch anime information
+   * @param id Anime ID/slug
+   * @returns Promise<IAnimeInfo>
    */
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
     const info: IAnimeInfo = {
@@ -535,7 +540,8 @@ class Hianime extends AnimeParser {
       title: '',
     };
     try {
-      const { data } = await this.client.get(`${this.baseUrl}/watch/${id}`);
+      const animeUrl = `${this.baseUrl}/watch/${id}`;
+      const { data } = await this.client.get(animeUrl);
       const $ = load(data);
 
       const { mal_id, anilist_id } = JSON.parse($('#syncData').text());
@@ -667,10 +673,11 @@ class Hianime extends AnimeParser {
   };
 
   /**
-   *
-   * @param episodeId Episode id
-   * @param server server type (default `VidCloud`) (optional)
-   * @param subOrDub sub or dub (default `SubOrSub.SUB`) (optional)
+   * Fetch episode video sources
+   * @param episodeId Episode ID
+   * @param server Server type (default: VidCloud)
+   * @param subOrDub Sub or dub preference (default: SUB)
+   * @returns Promise<ISource>
    */
   override fetchEpisodeSources = async (
     episodeId: string,
@@ -684,7 +691,7 @@ class Hianime extends AnimeParser {
         case StreamingServers.VidCloud:
           return {
             headers: { Referer: serverUrl.href },
-            ...(await new MegaCloud().extract(serverUrl, this.baseUrl)),
+            ...(await new MegaCloud().extract(serverUrl)),
           };
         case StreamingServers.StreamSB:
           return {
@@ -704,7 +711,7 @@ class Hianime extends AnimeParser {
         case StreamingServers.VidCloud:
           return {
             headers: { Referer: serverUrl.href },
-            ...(await new MegaCloud().extract(serverUrl, this.baseUrl)),
+            ...(await new MegaCloud().extract(serverUrl)),
           };
       }
     }
@@ -812,23 +819,37 @@ class Hianime extends AnimeParser {
         totalPages: 0,
         results: [],
       };
+
       const { data } = await this.client.get(url, headers);
       const $ = load(data);
-
       const pagination = $('ul.pagination');
-      res.currentPage = parseInt(pagination.find('.page-item.active')?.text());
+
+      // Fix currentPage parsing
+      const currentPageText = pagination.find('.page-item.active')?.text()?.trim();
+      res.currentPage = currentPageText ? parseInt(currentPageText) : 1;
+      if (isNaN(res.currentPage)) {
+        res.currentPage = 1;
+      }
+
       const nextPage = pagination.find('a[title=Next]')?.attr('href');
       if (nextPage != undefined && nextPage != '') {
         res.hasNextPage = true;
       }
-      const totalPages = pagination.find('a[title=Last]').attr('href')?.split('=').pop();
-      if (totalPages === undefined || totalPages === '') {
-        res.totalPages = res.currentPage;
+
+      // Fix totalPages parsing
+      const totalPagesHref = pagination.find('a[title=Last]').attr('href');
+      if (totalPagesHref) {
+        const totalPagesStr = totalPagesHref.split('=').pop();
+        res.totalPages = totalPagesStr ? parseInt(totalPagesStr) : res.currentPage;
+        if (isNaN(res.totalPages)) {
+          res.totalPages = res.currentPage;
+        }
       } else {
-        res.totalPages = parseInt(totalPages);
+        res.totalPages = res.currentPage;
       }
 
       res.results = await this.scrapeCard($);
+
       if (res.results.length === 0) {
         res.currentPage = 0;
         res.hasNextPage = false;
@@ -836,6 +857,7 @@ class Hianime extends AnimeParser {
       }
       return res;
     } catch (err) {
+      console.error('Hianime scrapeCardPage error:', (err as Error).message);
       throw new Error('Something went wrong. Please try again later.');
     }
   };
@@ -848,33 +870,50 @@ class Hianime extends AnimeParser {
       const results: IAnimeResult[] = [];
 
       $('.flw-item').each((i, ele) => {
-        const card = $(ele);
-        const atag = card.find('.film-name a');
-        const id = atag.attr('href')?.split('/')[1].split('?')[0];
-        const watchList = card.find('.dropdown-menu .added').text().trim() as WatchListType;
-        const type = card
-          .find('.fdi-item')
-          ?.first()
-          ?.text()
-          .replace(' (? eps)', '')
-          .replace(/\s\(\d+ eps\)/g, '');
-        results.push({
-          id: id!,
-          title: atag.text(),
-          url: `${this.baseUrl}${atag.attr('href')}`,
-          image: card.find('img')?.attr('data-src'),
-          duration: card.find('.fdi-duration')?.text(),
-          watchList: watchList || WatchListType.NONE,
-          japaneseTitle: atag.attr('data-jname'),
-          type: type as MediaFormat,
-          nsfw: card.find('.tick-rate')?.text() === '18+' ? true : false,
-          sub: parseInt(card.find('.tick-item.tick-sub')?.text()) || 0,
-          dub: parseInt(card.find('.tick-item.tick-dub')?.text()) || 0,
-          episodes: parseInt(card.find('.tick-item.tick-eps')?.text()) || 0,
-        });
+        try {
+          const card = $(ele);
+          const atag = card.find('.film-name a');
+
+          const href = atag.attr('href');
+          if (!href) {
+            return;
+          }
+
+          const id = href.split('/')[1]?.split('?')[0];
+          if (!id) {
+            return;
+          }
+
+          const watchList = card.find('.dropdown-menu .added').text().trim() as WatchListType;
+          const type = card
+            .find('.fdi-item')
+            ?.first()
+            ?.text()
+            .replace(' (? eps)', '')
+            .replace(/\s\(\d+ eps\)/g, '');
+
+          results.push({
+            id: id,
+            title: atag.text(),
+            url: `${this.baseUrl}${atag.attr('href')}`,
+            image: card.find('img')?.attr('data-src'),
+            duration: card.find('.fdi-duration')?.text(),
+            watchList: watchList || WatchListType.NONE,
+            japaneseTitle: atag.attr('data-jname'),
+            type: type as MediaFormat,
+            nsfw: card.find('.tick-rate')?.text() === '18+' ? true : false,
+            sub: parseInt(card.find('.tick-item.tick-sub')?.text()) || 0,
+            dub: parseInt(card.find('.tick-item.tick-dub')?.text()) || 0,
+            episodes: parseInt(card.find('.tick-item.tick-eps')?.text()) || 0,
+          });
+        } catch (cardErr) {
+          // Continue with next card instead of failing completely
+        }
       });
+
       return results;
     } catch (err) {
+      console.error('Hianime scrapeCard error:', (err as Error).message);
       throw new Error('Something went wrong. Please try again later.');
     }
   };
@@ -886,17 +925,5 @@ class Hianime extends AnimeParser {
     throw new Error('Method not implemented.');
   };
 }
-
-// (async () => {
-//   const hi = new hianime();
-//   const anime = await hianime.search('Dandadan');
-//   const info = await hianime.fetchAnimeInfo(anime.results[0].id);
-//   const sources = await hianime.fetchEpisodeSources(
-//     info.episodes![0].id,
-//     StreamingServers.VidCloud,
-//     SubOrSub.DUB
-//   );
-//   console.log(sources);
-// })();
 
 export default Hianime;

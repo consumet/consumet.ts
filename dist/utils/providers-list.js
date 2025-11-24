@@ -30,10 +30,10 @@ exports.PROVIDERS_LIST = {
     MOVIES: [
         new providers_1.MOVIES.DramaCool(),
         new providers_1.MOVIES.FlixHQ(),
-        new providers_1.MOVIES.Fmovies(),
         new providers_1.MOVIES.Goku(),
         new providers_1.MOVIES.SFlix(),
         new providers_1.MOVIES.HiMovies(),
+        new providers_1.MOVIES.Turkish(),
     ],
     NEWS: [new providers_1.NEWS.ANN()],
     META: [new providers_1.META.Anilist(), new providers_1.META.TMDB(), new providers_1.META.Myanimelist()],

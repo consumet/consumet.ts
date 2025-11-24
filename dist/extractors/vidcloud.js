@@ -11,8 +11,8 @@ class VidCloud extends models_1.VideoExtractor {
         super(...arguments);
         this.serverName = 'VidCloud';
         this.sources = [];
-        this.extract = async (videoUrl, _, referer = 'https://flixhq.to/') => {
-            var _a, _b;
+        this.extract = async (videoUrl, referer = 'https://flixhq.to/') => {
+            var _a, _b, _c;
             try {
                 const result = {
                     sources: [],
@@ -25,7 +25,7 @@ class VidCloud extends models_1.VideoExtractor {
                     throw new Error('No sources found from the initial request.');
                 }
                 let masterPlaylistUrl = initialData.sources[0].file;
-                let masterPlaylist;
+                let masterPlaylist = null;
                 try {
                     const { data } = await axios_1.default.get(masterPlaylistUrl, {
                         headers: {
@@ -50,8 +50,22 @@ class VidCloud extends models_1.VideoExtractor {
                         masterPlaylistUrl = httpUrl;
                     }
                     catch (httpError) {
-                        console.error('Both HTTPS and HTTP failed');
-                        throw httpsError;
+                        return {
+                            sources: [
+                                {
+                                    url: masterPlaylistUrl,
+                                    isM3U8: masterPlaylistUrl.includes('.m3u8'),
+                                    quality: 'auto',
+                                },
+                            ],
+                            subtitles: ((_b = initialData.tracks) === null || _b === void 0 ? void 0 : _b.map((s) => {
+                                var _a;
+                                return ({
+                                    url: s.file,
+                                    lang: (_a = s.label) !== null && _a !== void 0 ? _a : 'Default',
+                                });
+                            })) || [],
+                        };
                     }
                 }
                 const sources = [];
@@ -69,14 +83,14 @@ class VidCloud extends models_1.VideoExtractor {
                         url = new URL(url, masterPlaylistUrl).toString();
                     }
                     sources.push({
-                        url: url,
-                        quality: quality,
+                        url,
+                        quality,
                         isM3U8: url.includes('.m3u8'),
                     });
                 }
                 result.sources = sources;
                 result.subtitles =
-                    ((_b = initialData.tracks) === null || _b === void 0 ? void 0 : _b.map((s) => {
+                    ((_c = initialData.tracks) === null || _c === void 0 ? void 0 : _c.map((s) => {
                         var _a;
                         return ({
                             url: s.file,

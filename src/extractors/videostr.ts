@@ -1,6 +1,6 @@
 import { VideoExtractor, IVideo, ISubtitle } from '../models';
 
-interface IVoeOutput {
+interface IVideoStrOutput {
   sources: {
     url: string;
     quality: string;
@@ -19,15 +19,15 @@ interface IVoeOutput {
   };
 }
 
-class Voe extends VideoExtractor {
+class VideoStr extends VideoExtractor {
   protected override serverName = 'VideoStr';
   protected override sources: IVideo[] = [];
 
   override extract = async (videoUrl: URL): Promise<{ sources: IVideo[]; subtitles: ISubtitle[] }> => {
     try {
-      const apiUrl = 'https://crawlr.cc/3F7A1C9D8?url=' + encodeURIComponent(videoUrl.href);
+      const apiUrl = 'https://crawlr.cc/E2B9A6F4C?url=' + encodeURIComponent(videoUrl.href);
 
-      const { data } = await this.client.get<IVoeOutput>(apiUrl);
+      const { data } = await this.client.get<IVideoStrOutput>(apiUrl);
 
       if (!data.sources || data.sources.length === 0) {
         throw new Error('No sources returned');
@@ -58,4 +58,4 @@ class Voe extends VideoExtractor {
   };
 }
 
-export default Voe;
+export default VideoStr;

@@ -13,7 +13,9 @@ class AnimePahe extends models_1.AnimeParser {
         this.classPath = 'ANIME.AnimePahe';
         // private readonly sgProxy = 'https://cors.consumet.stream';
         /**
-         * @param query Search query
+         * Search for anime
+         * @param query Search query string
+         * @returns Promise<ISearch<IAnimeResult>>
          */
         this.search = async (query) => {
             try {
@@ -37,8 +39,10 @@ class AnimePahe extends models_1.AnimeParser {
             }
         };
         /**
-         * @param id id format id/session
-         * @param episodePage Episode page number (optional) default: -1 to get all episodes. number of episode pages can be found in the anime info object
+         * Fetch anime information
+         * @param id Anime ID in format id/session
+         * @param episodePage Episode page number (default: -1 for all episodes)
+         * @returns Promise<IAnimeInfo>
          */
         this.fetchAnimeInfo = async (id, episodePage = -1) => {
             const animeInfo = {
@@ -144,8 +148,9 @@ class AnimePahe extends models_1.AnimeParser {
             }
         };
         /**
-         *
-         * @param episodeId episode id
+         * Fetch episode video sources
+         * @param episodeId Episode ID
+         * @returns Promise<ISource>
          */
         this.fetchEpisodeSources = async (episodeId) => {
             try {
@@ -198,8 +203,10 @@ class AnimePahe extends models_1.AnimeParser {
             ];
         };
         /**
-         * @deprecated
-         * @attention AnimePahe doesn't support this method
+         * Fetch episode servers (deprecated)
+         * @deprecated AnimePahe doesn't support this method
+         * @param episodeLink Episode link
+         * @returns Promise<IEpisodeServer[]>
          */
         this.fetchEpisodeServers = (episodeLink) => {
             throw new Error('Method not implemented.');

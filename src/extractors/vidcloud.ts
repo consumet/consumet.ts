@@ -8,7 +8,6 @@ class VidCloud extends VideoExtractor {
 
   override extract = async (
     videoUrl: URL,
-    _?: boolean,
     referer: string = 'https://flixhq.to/'
   ): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
     try {
@@ -27,8 +26,8 @@ class VidCloud extends VideoExtractor {
       }
 
       let masterPlaylistUrl = initialData.sources[0].file;
+      let masterPlaylist: string | null = null;
 
-      let masterPlaylist: string;
       try {
         const { data } = await axios.get(masterPlaylistUrl, {
           headers: {
@@ -40,6 +39,7 @@ class VidCloud extends VideoExtractor {
         masterPlaylist = data;
       } catch (httpsError) {
         const httpUrl = masterPlaylistUrl.replace('https://', 'http://');
+
         try {
           const { data } = await axios.get(httpUrl, {
             headers: {
@@ -51,8 +51,20 @@ class VidCloud extends VideoExtractor {
           masterPlaylist = data;
           masterPlaylistUrl = httpUrl;
         } catch (httpError) {
-          console.error('Both HTTPS and HTTP failed');
-          throw httpsError;
+          return {
+            sources: [
+              {
+                url: masterPlaylistUrl,
+                isM3U8: masterPlaylistUrl.includes('.m3u8'),
+                quality: 'auto',
+              },
+            ],
+            subtitles:
+              initialData.tracks?.map((s: any) => ({
+                url: s.file,
+                lang: s.label ?? 'Default',
+              })) || [],
+          };
         }
       }
 
@@ -67,7 +79,7 @@ class VidCloud extends VideoExtractor {
       const playlistRegex = /#EXT-X-STREAM-INF:.*RESOLUTION=(\d+x(\d+)).*\n(.*)/g;
       let match;
 
-      while ((match = playlistRegex.exec(masterPlaylist)) !== null) {
+      while ((match = playlistRegex.exec(masterPlaylist!)) !== null) {
         const quality = `${match[2]}p`;
         let url = match[3];
 
@@ -76,8 +88,8 @@ class VidCloud extends VideoExtractor {
         }
 
         sources.push({
-          url: url,
-          quality: quality,
+          url,
+          quality,
           isM3U8: url.includes('.m3u8'),
         });
       }

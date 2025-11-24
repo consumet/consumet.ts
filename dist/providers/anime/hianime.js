@@ -12,7 +12,9 @@ class Hianime extends models_1.AnimeParser {
         this.logo = 'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
         this.classPath = 'ANIME.hianime';
         /**
-         * @param id Anime id
+         * Fetch anime information
+         * @param id Anime ID/slug
+         * @returns Promise<IAnimeInfo>
          */
         this.fetchAnimeInfo = async (id) => {
             const info = {
@@ -20,7 +22,8 @@ class Hianime extends models_1.AnimeParser {
                 title: '',
             };
             try {
-                const { data } = await this.client.get(`${this.baseUrl}/watch/${id}`);
+                const animeUrl = `${this.baseUrl}/watch/${id}`;
+                const { data } = await this.client.get(animeUrl);
                 const $ = (0, cheerio_1.load)(data);
                 const { mal_id, anilist_id } = JSON.parse($('#syncData').text());
                 info.malID = Number(mal_id);
@@ -137,10 +140,11 @@ class Hianime extends models_1.AnimeParser {
             }
         };
         /**
-         *
-         * @param episodeId Episode id
-         * @param server server type (default `VidCloud`) (optional)
-         * @param subOrDub sub or dub (default `SubOrSub.SUB`) (optional)
+         * Fetch episode video sources
+         * @param episodeId Episode ID
+         * @param server Server type (default: VidCloud)
+         * @param subOrDub Sub or dub preference (default: SUB)
+         * @returns Promise<ISource>
          */
         this.fetchEpisodeSources = async (episodeId, server = models_1.StreamingServers.VidCloud, subOrDub = models_1.SubOrSub.SUB) => {
             if (episodeId.startsWith('http')) {
@@ -150,7 +154,7 @@ class Hianime extends models_1.AnimeParser {
                     case models_1.StreamingServers.VidCloud:
                         return {
                             headers: { Referer: serverUrl.href },
-                            ...(await new utils_1.MegaCloud().extract(serverUrl, this.baseUrl)),
+                            ...(await new utils_1.MegaCloud().extract(serverUrl)),
                         };
                     case models_1.StreamingServers.StreamSB:
                         return {
@@ -170,7 +174,7 @@ class Hianime extends models_1.AnimeParser {
                     case models_1.StreamingServers.VidCloud:
                         return {
                             headers: { Referer: serverUrl.href },
-                            ...(await new utils_1.MegaCloud().extract(serverUrl, this.baseUrl)),
+                            ...(await new utils_1.MegaCloud().extract(serverUrl)),
                         };
                 }
             }
@@ -271,17 +275,27 @@ class Hianime extends models_1.AnimeParser {
                 const { data } = await this.client.get(url, headers);
                 const $ = (0, cheerio_1.load)(data);
                 const pagination = $('ul.pagination');
-                res.currentPage = parseInt((_a = pagination.find('.page-item.active')) === null || _a === void 0 ? void 0 : _a.text());
-                const nextPage = (_b = pagination.find('a[title=Next]')) === null || _b === void 0 ? void 0 : _b.attr('href');
+                // Fix currentPage parsing
+                const currentPageText = (_b = (_a = pagination.find('.page-item.active')) === null || _a === void 0 ? void 0 : _a.text()) === null || _b === void 0 ? void 0 : _b.trim();
+                res.currentPage = currentPageText ? parseInt(currentPageText) : 1;
+                if (isNaN(res.currentPage)) {
+                    res.currentPage = 1;
+                }
+                const nextPage = (_c = pagination.find('a[title=Next]')) === null || _c === void 0 ? void 0 : _c.attr('href');
                 if (nextPage != undefined && nextPage != '') {
                     res.hasNextPage = true;
                 }
-                const totalPages = (_c = pagination.find('a[title=Last]').attr('href')) === null || _c === void 0 ? void 0 : _c.split('=').pop();
-                if (totalPages === undefined || totalPages === '') {
-                    res.totalPages = res.currentPage;
+                // Fix totalPages parsing
+                const totalPagesHref = pagination.find('a[title=Last]').attr('href');
+                if (totalPagesHref) {
+                    const totalPagesStr = totalPagesHref.split('=').pop();
+                    res.totalPages = totalPagesStr ? parseInt(totalPagesStr) : res.currentPage;
+                    if (isNaN(res.totalPages)) {
+                        res.totalPages = res.currentPage;
+                    }
                 }
                 else {
-                    res.totalPages = parseInt(totalPages);
+                    res.totalPages = res.currentPage;
                 }
                 res.results = await this.scrapeCard($);
                 if (res.results.length === 0) {
@@ -292,6 +306,7 @@ class Hianime extends models_1.AnimeParser {
                 return res;
             }
             catch (err) {
+                console.error('Hianime scrapeCardPage error:', err.message);
                 throw new Error('Something went wrong. Please try again later.');
             }
         };
@@ -303,30 +318,43 @@ class Hianime extends models_1.AnimeParser {
                 const results = [];
                 $('.flw-item').each((i, ele) => {
                     var _a, _b, _c, _d, _e, _f, _g, _h, _j;
-                    const card = $(ele);
-                    const atag = card.find('.film-name a');
-                    const id = (_a = atag.attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
-                    const watchList = card.find('.dropdown-menu .added').text().trim();
-                    const type = (_c = (_b = card
-                        .find('.fdi-item')) === null || _b === void 0 ? void 0 : _b.first()) === null || _c === void 0 ? void 0 : _c.text().replace(' (? eps)', '').replace(/\s\(\d+ eps\)/g, '');
-                    results.push({
-                        id: id,
-                        title: atag.text(),
-                        url: `${this.baseUrl}${atag.attr('href')}`,
-                        image: (_d = card.find('img')) === null || _d === void 0 ? void 0 : _d.attr('data-src'),
-                        duration: (_e = card.find('.fdi-duration')) === null || _e === void 0 ? void 0 : _e.text(),
-                        watchList: watchList || models_1.WatchListType.NONE,
-                        japaneseTitle: atag.attr('data-jname'),
-                        type: type,
-                        nsfw: ((_f = card.find('.tick-rate')) === null || _f === void 0 ? void 0 : _f.text()) === '18+' ? true : false,
-                        sub: parseInt((_g = card.find('.tick-item.tick-sub')) === null || _g === void 0 ? void 0 : _g.text()) || 0,
-                        dub: parseInt((_h = card.find('.tick-item.tick-dub')) === null || _h === void 0 ? void 0 : _h.text()) || 0,
-                        episodes: parseInt((_j = card.find('.tick-item.tick-eps')) === null || _j === void 0 ? void 0 : _j.text()) || 0,
-                    });
+                    try {
+                        const card = $(ele);
+                        const atag = card.find('.film-name a');
+                        const href = atag.attr('href');
+                        if (!href) {
+                            return;
+                        }
+                        const id = (_a = href.split('/')[1]) === null || _a === void 0 ? void 0 : _a.split('?')[0];
+                        if (!id) {
+                            return;
+                        }
+                        const watchList = card.find('.dropdown-menu .added').text().trim();
+                        const type = (_c = (_b = card
+                            .find('.fdi-item')) === null || _b === void 0 ? void 0 : _b.first()) === null || _c === void 0 ? void 0 : _c.text().replace(' (? eps)', '').replace(/\s\(\d+ eps\)/g, '');
+                        results.push({
+                            id: id,
+                            title: atag.text(),
+                            url: `${this.baseUrl}${atag.attr('href')}`,
+                            image: (_d = card.find('img')) === null || _d === void 0 ? void 0 : _d.attr('data-src'),
+                            duration: (_e = card.find('.fdi-duration')) === null || _e === void 0 ? void 0 : _e.text(),
+                            watchList: watchList || models_1.WatchListType.NONE,
+                            japaneseTitle: atag.attr('data-jname'),
+                            type: type,
+                            nsfw: ((_f = card.find('.tick-rate')) === null || _f === void 0 ? void 0 : _f.text()) === '18+' ? true : false,
+                            sub: parseInt((_g = card.find('.tick-item.tick-sub')) === null || _g === void 0 ? void 0 : _g.text()) || 0,
+                            dub: parseInt((_h = card.find('.tick-item.tick-dub')) === null || _h === void 0 ? void 0 : _h.text()) || 0,
+                            episodes: parseInt((_j = card.find('.tick-item.tick-eps')) === null || _j === void 0 ? void 0 : _j.text()) || 0,
+                        });
+                    }
+                    catch (cardErr) {
+                        // Continue with next card instead of failing completely
+                    }
                 });
                 return results;
             }
             catch (err) {
+                console.error('Hianime scrapeCard error:', err.message);
                 throw new Error('Something went wrong. Please try again later.');
             }
         };
@@ -350,14 +378,17 @@ class Hianime extends models_1.AnimeParser {
         }
     }
     /**
-     * @param query Search query
-     * @param page Page number (optional)
+     * Search for anime
+     * @param query Search query string
+     * @param page Page number (default: 1)
+     * @returns Promise<ISearch<IAnimeResult>>
      */
     search(query, page = 1) {
         if (0 >= page) {
             page = 1;
         }
-        return this.scrapeCardPage(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
+        const searchUrl = `${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`;
+        return this.scrapeCardPage(searchUrl);
     }
     /**
      * Fetch advanced anime search results with various filters.
@@ -801,16 +832,5 @@ class Hianime extends models_1.AnimeParser {
         });
     }
 }
-// (async () => {
-//   const hi = new hianime();
-//   const anime = await hianime.search('Dandadan');
-//   const info = await hianime.fetchAnimeInfo(anime.results[0].id);
-//   const sources = await hianime.fetchEpisodeSources(
-//     info.episodes![0].id,
-//     StreamingServers.VidCloud,
-//     SubOrSub.DUB
-//   );
-//   console.log(sources);
-// })();
 exports.default = Hianime;
 //# sourceMappingURL=hianime.js.map

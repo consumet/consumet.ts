@@ -178,6 +178,7 @@ export interface IVideo {
 }
 
 export enum StreamingServers {
+  VideoStr = 'videostr',
   AsianLoad = 'asianload',
   GogoCDN = 'gogocdn',
   StreamSB = 'streamsb',
