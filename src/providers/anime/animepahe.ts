@@ -20,8 +20,6 @@ class AnimePahe extends AnimeParser {
   protected override logo = 'https://animepahe.com/pikacon.ico';
   protected override classPath = 'ANIME.AnimePahe';
 
-  // private readonly sgProxy = 'https://cors.consumet.stream';
-
   /**
    * Search for anime
    * @param query Search query string
@@ -276,13 +274,3 @@ class AnimePahe extends AnimeParser {
 }
 
 export default AnimePahe;
-
-// (async () => {
-//   const animepahe = new AnimePahe();
-
-//   const anime = await animepahe.search('Classroom of the elite');
-//   const info = await animepahe.fetchAnimeInfo(anime.results[0].id);
-//   // console.log(info);
-//   const sources = await animepahe.fetchEpisodeSources(info.episodes![0].id);
-//   console.log(sources);
-// })();

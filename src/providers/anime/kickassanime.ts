@@ -311,13 +311,10 @@ class KickAssAnime extends AnimeParser {
     serverName: string,
     requestHeaders: any
   ): Promise<{ sources: IVideo[]; subtitles: ISubtitle[] }> {
-    const baseUrl = new URL(url).origin;
     const headers = {
       'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0',
       Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
       'Accept-Language': 'en-US,en;q=0.5',
-      // Remove Accept-Encoding to avoid compression issues
-      // 'Accept-Encoding': 'gzip, deflate, br, zstd',
       Referer: 'https://kaa.mx/',
       DNT: '1',
       'Sec-GPC': '1',
@@ -653,24 +650,3 @@ class KickAssAnime extends AnimeParser {
 }
 
 export default KickAssAnime;
-// (async () => {
-//   const kickass = new KickAssAnime();
-
-//   // Test 1: Search
-//   console.log('Search Results:', await kickass.search('Naruto'));
-
-//   // Test 2: Anime Info
-//   console.log('Anime Info:', await kickass.fetchAnimeInfo('naruto-f3cf'));
-
-//   // Test 3A: Episode Servers
-//   console.log('Episode Servers:', await kickass.fetchEpisodeServers('naruto-f3cf/episode/ep-1-12cd96'));
-
-//   // Test 3B: Episode Sources (All Servers)
-//   console.log('Episode Sources (All):', await kickass.fetchEpisodeSources('naruto-f3cf/episode/ep-1-12cd96'));
-
-//   // Test 3C: Episode Sources (VidStreaming Only)
-//   console.log('Episode Sources (VidStreaming):', await kickass.fetchEpisodeSources('naruto-f3cf/episode/ep-1-12cd96', StreamingServers.VidStreaming));
-
-//   // Test 3D: Episode Sources (BirdStream Only)
-//   console.log('Episode Sources (BirdStream):', await kickass.fetchEpisodeSources('naruto-f3cf/episode/ep-1-12cd96', StreamingServers.BirdStream));
-// })();
