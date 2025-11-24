@@ -155,6 +155,12 @@ class HiMovies extends models_1.MovieParser {
                     throw new Error(`Server ${server} not found`);
                 }
                 const { data } = await this.client.get(`${this.baseUrl}/ajax/episode/sources/${selectedServer.url.split('.').pop()}`);
+                if (!(data === null || data === void 0 ? void 0 : data.link)) {
+                    throw new Error('No link returned from episode source');
+                }
+                if (data.link.includes('https://videostr.net')) {
+                    server = models_1.StreamingServers.VideoStr;
+                }
                 return await this.fetchEpisodeSources(data.link, mediaId, server);
             }
             catch (err) {
@@ -412,6 +418,11 @@ class HiMovies extends models_1.MovieParser {
                 return {
                     headers: { Referer: serverUrl.href },
                     ...(await new extractors_1.MegaCloud(this.proxyConfig, this.adapter).extract(serverUrl)),
+                };
+            case models_1.StreamingServers.VideoStr:
+                return {
+                    headers: { Referer: serverUrl.href },
+                    ...(await new extractors_1.VideoStr(this.proxyConfig, this.adapter).extract(serverUrl)),
                 };
             default:
                 return {

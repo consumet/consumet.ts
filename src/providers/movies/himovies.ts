@@ -10,7 +10,7 @@ import {
   IMovieResult,
   ISearch,
 } from '../../models';
-import { MegaCloud, VidCloud } from '../../extractors';
+import { MegaCloud, VidCloud, VideoStr } from '../../extractors';
 
 class HiMovies extends MovieParser {
   override readonly name = 'HiMovies';
@@ -186,6 +186,14 @@ class HiMovies extends MovieParser {
       const { data } = await this.client.get(
         `${this.baseUrl}/ajax/episode/sources/${selectedServer.url.split('.').pop()}`
       );
+
+      if (!data?.link) {
+        throw new Error('No link returned from episode source');
+      }
+
+      if (data.link.includes('https://videostr.net')) {
+        server = StreamingServers.VideoStr;
+      }
 
       return await this.fetchEpisodeSources(data.link, mediaId, server);
     } catch (err) {
@@ -486,6 +494,11 @@ class HiMovies extends MovieParser {
         return {
           headers: { Referer: serverUrl.href },
           ...(await new MegaCloud(this.proxyConfig, this.adapter).extract(serverUrl)),
+        };
+      case StreamingServers.VideoStr:
+        return {
+          headers: { Referer: serverUrl.href },
+          ...(await new VideoStr(this.proxyConfig, this.adapter).extract(serverUrl)),
         };
       default:
         return {

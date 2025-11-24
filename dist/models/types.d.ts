@@ -164,6 +164,7 @@ export interface IVideo {
     [x: string]: unknown;
 }
 export declare enum StreamingServers {
+    VideoStr = "videostr",
     AsianLoad = "asianload",
     GogoCDN = "gogocdn",
     StreamSB = "streamsb",

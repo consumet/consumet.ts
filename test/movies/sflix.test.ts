@@ -18,6 +18,7 @@ test('fetchMediaInfo: returns a filled object of movies/tv data', async () => {
 
 test('fetchEpisodeServers: returns a filled object of streaming servers', async () => {
   const data = await sflix.fetchEpisodeServers('18729', 'movie/free-superbad-hd-18729');
+  console.log(data);
   expect(data).not.toEqual([]);
 });
 
@@ -25,7 +26,7 @@ test('fetchEpisodeSources: returns a filled object of streaming sources', async 
   const data = await sflix.fetchEpisodeSources(
     '18729',
     'movie/free-superbad-hd-18729',
-    StreamingServers.UpCloud
+    StreamingServers.MegaCloud
   );
   expect(data.sources).not.toEqual([]);
   expect(data.subtitles).not.toEqual([]);

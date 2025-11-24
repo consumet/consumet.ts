@@ -1,5 +1,5 @@
 import { VideoExtractor, IVideo, ISubtitle } from '../models';
-declare class Voe extends VideoExtractor {
+declare class VideoStr extends VideoExtractor {
     protected serverName: string;
     protected sources: IVideo[];
     extract: (videoUrl: URL) => Promise<{
@@ -7,4 +7,4 @@ declare class Voe extends VideoExtractor {
         subtitles: ISubtitle[];
     }>;
 }
-export default Voe;
+export default VideoStr;
