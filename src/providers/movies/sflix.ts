@@ -10,7 +10,7 @@ import {
   IMovieResult,
   ISearch,
 } from '../../models';
-import { MixDrop, VidCloud, Voe } from '../../extractors';
+import { MegaCloud, MixDrop, VidCloud, Voe } from '../../extractors';
 
 class SFlix extends MovieParser {
   override readonly name = 'SFlix';
@@ -527,6 +527,12 @@ class SFlix extends MovieParser {
         return {
           headers: { Referer: serverUrl.href },
           ...(await new VidCloud(this.proxyConfig, this.adapter).extract(serverUrl)),
+        };
+
+      case StreamingServers.MegaCloud:
+        return {
+          headers: { Referer: serverUrl.href },
+          ...(await new MegaCloud(this.proxyConfig, this.adapter).extract(serverUrl)),
         };
 
       default:

@@ -43,7 +43,7 @@ test('fetchEpisodeServers: returns filled object of streaming servers when given
 test('fetchEpisodeSources: returns filled object of streaming sources when given an episodeId.', async () => {
   const data = await dramaCool.fetchEpisodeSources(
     'episode/101046/a-graceful-liar-2025-episode-32',
-    StreamingServers.MixDrop
+    StreamingServers.StreamWish
   );
   expect(data).not.toEqual({});
 });

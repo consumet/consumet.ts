@@ -1,3 +1,4 @@
+import { StreamingServers } from '../../src/models';
 import { MOVIES } from '../../src/providers';
 
 jest.setTimeout(120000);
@@ -16,8 +17,17 @@ test('fetchMediaInfo: returns a filled object of movies/tv data', async () => {
 });
 
 test('fetchEpisodeSources: returns a filled object of streaming sources', async () => {
-  const episodeSources = await himovies.fetchEpisodeSources('1167571', 'tv/watch-vincenzo-67955');
-  expect(episodeSources.sources).not.toEqual([]);
+  const data = await himovies.fetchEpisodeSources(
+    '1167571',
+    'tv/watch-vincenzo-67955',
+    StreamingServers.MegaCloud
+  );
+  expect(data.sources).not.toEqual([]);
+});
+
+test('fetchEpisodeServers: returns a filled object of streaming servers', async () => {
+  const data = await himovies.fetchEpisodeServers('1167571', 'tv/watch-vincenzo-67955');
+  expect(data).not.toEqual([]);
 });
 
 test('fetchByCountry: returns a filled object of movies/tv data by country', async () => {

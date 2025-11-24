@@ -28,7 +28,6 @@ class VidCloud extends VideoExtractor {
       let masterPlaylistUrl = initialData.sources[0].file;
       let masterPlaylist: string | null = null;
 
-      // Try HTTPS first
       try {
         const { data } = await axios.get(masterPlaylistUrl, {
           headers: {
@@ -39,7 +38,6 @@ class VidCloud extends VideoExtractor {
         });
         masterPlaylist = data;
       } catch (httpsError) {
-        // Try fallback HTTP
         const httpUrl = masterPlaylistUrl.replace('https://', 'http://');
 
         try {
@@ -53,11 +51,10 @@ class VidCloud extends VideoExtractor {
           masterPlaylist = data;
           masterPlaylistUrl = httpUrl;
         } catch (httpError) {
-          // ❗ NEW BEHAVIOR — return direct fallback instead of throwing
           return {
             sources: [
               {
-                url: masterPlaylistUrl, // return the raw url
+                url: masterPlaylistUrl,
                 isM3U8: masterPlaylistUrl.includes('.m3u8'),
                 quality: 'auto',
               },
@@ -73,14 +70,12 @@ class VidCloud extends VideoExtractor {
 
       const sources: IVideo[] = [];
 
-      // auto-quality source
       sources.push({
         url: masterPlaylistUrl,
         isM3U8: true,
         quality: 'auto',
       });
 
-      // Parse qualities only if we successfully downloaded the playlist
       const playlistRegex = /#EXT-X-STREAM-INF:.*RESOLUTION=(\d+x(\d+)).*\n(.*)/g;
       let match;
 

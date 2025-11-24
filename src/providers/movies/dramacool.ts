@@ -339,41 +339,20 @@ class DramaCool extends MovieParser {
     const serverUrl = new URL(episodeUrl);
 
     switch (server) {
-      case StreamingServers.AsianLoad:
-        return {
-          headers: { Referer: serverUrl.origin },
-          ...(await new AsianLoad(this.proxyConfig, this.adapter).extract(serverUrl)),
-          download: this.generateDownloadLink(episodeUrl),
-        };
-
       case StreamingServers.MixDrop:
         return {
           headers: { Referer: serverUrl.origin },
           sources: await new MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),
         };
-
       case StreamingServers.StreamTape:
         return {
           headers: { Referer: serverUrl.origin },
           sources: await new StreamTape(this.proxyConfig, this.adapter).extract(serverUrl),
         };
-
-      case StreamingServers.StreamSB:
-        return {
-          headers: { Referer: serverUrl.origin },
-          sources: await new StreamSB(this.proxyConfig, this.adapter).extract(serverUrl),
-        };
-
       case StreamingServers.StreamWish:
         return {
           headers: { Referer: serverUrl.origin },
           ...(await new StreamWish(this.proxyConfig, this.adapter).extract(serverUrl)),
-        };
-
-      case StreamingServers.VidHide:
-        return {
-          headers: { Referer: serverUrl.href },
-          sources: await new VidHide(this.proxyConfig, this.adapter).extract(serverUrl),
         };
 
       default:
