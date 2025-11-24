@@ -10,6 +10,7 @@ const utils_1 = require("../../utils");
 const gogoanime_1 = __importDefault(require("../anime/gogoanime"));
 const hianime_1 = __importDefault(require("../anime/hianime"));
 const utils_2 = require("../../utils/utils");
+const queries_1 = require("../../utils/queries");
 const mangadex_1 = __importDefault(require("../manga/mangadex"));
 class Anilist extends models_1.AnimeParser {
     /**
@@ -30,6 +31,116 @@ class Anilist extends models_1.AnimeParser {
         this.kitsuGraphqlUrl = 'https://kitsu.io/api/graphql';
         this.malSyncUrl = 'https://api.malsync.moe';
         this.anifyUrl = utils_2.ANIFY_URL;
+        /**
+         * @param authToken Anilist auth token
+         * @param type Type of favorites to fetch: 'ANIME', 'MANGA', or 'BOTH' (default: 'BOTH')
+         * @returns favorite lists
+         */
+        this.fetchFavoriteList = async (authToken, type = 'BOTH') => {
+            const options = {
+                query: (0, queries_1.anilistFavouritesQuery)(),
+            };
+            try {
+                let { data, status } = await this.client.post(this.anilistGraphqlUrl, options, {
+                    validateStatus: () => true,
+                    headers: {
+                        Authorization: authToken,
+                        'User-Agent': utils_2.USER_AGENT,
+                    },
+                });
+                const result = {};
+                if (type === 'ANIME' || type === 'BOTH') {
+                    result.anime = data.data.Viewer.favourites.anime.nodes.map((item) => {
+                        var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q;
+                        return ({
+                            id: item.id.toString(),
+                            malId: item.idMal,
+                            title: item.title
+                                ? {
+                                    romaji: item.title.romaji,
+                                    english: item.title.english,
+                                    native: item.title.native,
+                                    userPreferred: item.title.userPreferred,
+                                }
+                                : item.title.romaji,
+                            status: item.status == 'RELEASING'
+                                ? models_1.MediaStatus.ONGOING
+                                : item.status == 'FINISHED'
+                                    ? models_1.MediaStatus.COMPLETED
+                                    : item.status == 'NOT_YET_RELEASED'
+                                        ? models_1.MediaStatus.NOT_YET_AIRED
+                                        : item.status == 'CANCELLED'
+                                            ? models_1.MediaStatus.CANCELLED
+                                            : item.status == 'HIATUS'
+                                                ? models_1.MediaStatus.HIATUS
+                                                : models_1.MediaStatus.UNKNOWN,
+                            image: (_e = (_c = (_b = item.coverImage) === null || _b === void 0 ? void 0 : _b.extraLarge) !== null && _c !== void 0 ? _c : (_d = item.coverImage) === null || _d === void 0 ? void 0 : _d.large) !== null && _e !== void 0 ? _e : (_f = item.coverImage) === null || _f === void 0 ? void 0 : _f.medium,
+                            imageHash: (0, utils_2.getHashFromImage)((_k = (_h = (_g = item.coverImage) === null || _g === void 0 ? void 0 : _g.extraLarge) !== null && _h !== void 0 ? _h : (_j = item.coverImage) === null || _j === void 0 ? void 0 : _j.large) !== null && _k !== void 0 ? _k : (_l = item.coverImage) === null || _l === void 0 ? void 0 : _l.medium),
+                            cover: item.bannerImage,
+                            coverHash: (0, utils_2.getHashFromImage)(item.bannerImage),
+                            popularity: item.popularity,
+                            description: item.description,
+                            rating: item.averageScore,
+                            genres: item.genres,
+                            color: (_m = item.coverImage) === null || _m === void 0 ? void 0 : _m.color,
+                            totalEpisodes: (_o = item.episodes) !== null && _o !== void 0 ? _o : undefined,
+                            totalChapters: (_p = item.chapters) !== null && _p !== void 0 ? _p : undefined,
+                            totalVolumes: (_q = item.volumes) !== null && _q !== void 0 ? _q : undefined,
+                            type: item.format,
+                            mediaType: item.type,
+                            releaseDate: item.seasonYear,
+                        });
+                    });
+                }
+                if (type === 'MANGA' || type === 'BOTH') {
+                    result.manga = data.data.Viewer.favourites.manga.nodes.map((item) => {
+                        var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q;
+                        return ({
+                            id: item.id.toString(),
+                            malId: item.idMal,
+                            title: item.title
+                                ? {
+                                    romaji: item.title.romaji,
+                                    english: item.title.english,
+                                    native: item.title.native,
+                                    userPreferred: item.title.userPreferred,
+                                }
+                                : item.title.romaji,
+                            status: item.status == 'RELEASING'
+                                ? models_1.MediaStatus.ONGOING
+                                : item.status == 'FINISHED'
+                                    ? models_1.MediaStatus.COMPLETED
+                                    : item.status == 'NOT_YET_RELEASED'
+                                        ? models_1.MediaStatus.NOT_YET_AIRED
+                                        : item.status == 'CANCELLED'
+                                            ? models_1.MediaStatus.CANCELLED
+                                            : item.status == 'HIATUS'
+                                                ? models_1.MediaStatus.HIATUS
+                                                : models_1.MediaStatus.UNKNOWN,
+                            image: (_e = (_c = (_b = item.coverImage) === null || _b === void 0 ? void 0 : _b.extraLarge) !== null && _c !== void 0 ? _c : (_d = item.coverImage) === null || _d === void 0 ? void 0 : _d.large) !== null && _e !== void 0 ? _e : (_f = item.coverImage) === null || _f === void 0 ? void 0 : _f.medium,
+                            imageHash: (0, utils_2.getHashFromImage)((_k = (_h = (_g = item.coverImage) === null || _g === void 0 ? void 0 : _g.extraLarge) !== null && _h !== void 0 ? _h : (_j = item.coverImage) === null || _j === void 0 ? void 0 : _j.large) !== null && _k !== void 0 ? _k : (_l = item.coverImage) === null || _l === void 0 ? void 0 : _l.medium),
+                            cover: item.bannerImage,
+                            coverHash: (0, utils_2.getHashFromImage)(item.bannerImage),
+                            popularity: item.popularity,
+                            description: item.description,
+                            rating: item.averageScore,
+                            genres: item.genres,
+                            color: (_m = item.coverImage) === null || _m === void 0 ? void 0 : _m.color,
+                            totalEpisodes: (_o = item.episodes) !== null && _o !== void 0 ? _o : undefined,
+                            totalChapters: (_p = item.chapters) !== null && _p !== void 0 ? _p : undefined,
+                            totalVolumes: (_q = item.volumes) !== null && _q !== void 0 ? _q : undefined,
+                            type: item.format,
+                            mediaType: item.type,
+                            releaseDate: item.seasonYear,
+                        });
+                    });
+                }
+                return result;
+            }
+            catch (err) {
+                throw new Error(err.message);
+            }
+        };
         /**
          * @param query Search query
          * @param page Page number (optional)
