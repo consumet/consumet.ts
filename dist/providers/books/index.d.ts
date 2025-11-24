@@ -1,5 +1,2 @@
-import Libgen from './libgen';
-declare const _default: {
-    Libgen: typeof Libgen;
-};
+declare const _default: {};
 export default _default;

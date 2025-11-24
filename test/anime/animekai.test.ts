@@ -5,7 +5,7 @@ jest.setTimeout(120000);
 
 // run: yarn test --watch --verbose false animekai.test.ts
 
-const animekai = new ANIME.AnimeKai('animekai.to');
+const animekai = new ANIME.AnimeKai('https://anikai.to');
 
 test('returns a filled array of anime list', async () => {
   const data = await animekai.search('Dandadan');

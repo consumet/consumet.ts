@@ -23,7 +23,9 @@ class AnimePahe extends AnimeParser {
   // private readonly sgProxy = 'https://cors.consumet.stream';
 
   /**
-   * @param query Search query
+   * Search for anime
+   * @param query Search query string
+   * @returns Promise<ISearch<IAnimeResult>>
    */
   override search = async (query: string): Promise<ISearch<IAnimeResult>> => {
     try {
@@ -49,8 +51,10 @@ class AnimePahe extends AnimeParser {
   };
 
   /**
-   * @param id id format id/session
-   * @param episodePage Episode page number (optional) default: -1 to get all episodes. number of episode pages can be found in the anime info object
+   * Fetch anime information
+   * @param id Anime ID in format id/session
+   * @param episodePage Episode page number (default: -1 for all episodes)
+   * @returns Promise<IAnimeInfo>
    */
   override fetchAnimeInfo = async (id: string, episodePage: number = -1): Promise<IAnimeInfo> => {
     const animeInfo: IAnimeInfo = {
@@ -174,8 +178,9 @@ class AnimePahe extends AnimeParser {
   };
 
   /**
-   *
-   * @param episodeId episode id
+   * Fetch episode video sources
+   * @param episodeId Episode ID
+   * @returns Promise<ISource>
    */
   override fetchEpisodeSources = async (episodeId: string): Promise<ISource> => {
     try {
@@ -241,8 +246,10 @@ class AnimePahe extends AnimeParser {
   };
 
   /**
-   * @deprecated
-   * @attention AnimePahe doesn't support this method
+   * Fetch episode servers (deprecated)
+   * @deprecated AnimePahe doesn't support this method
+   * @param episodeLink Episode link
+   * @returns Promise<IEpisodeServer[]>
    */
   override fetchEpisodeServers = (episodeLink: string): Promise<IEpisodeServer[]> => {
     throw new Error('Method not implemented.');

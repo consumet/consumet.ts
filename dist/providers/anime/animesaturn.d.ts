@@ -5,21 +5,27 @@ declare class AnimeSaturn extends AnimeParser {
     protected logo: string;
     protected classPath: string;
     /**
-     * @param query Search query
+     * Search for anime
+     * @param query Search query string
+     * @returns Promise<ISearch<IAnimeResult>>
      */
     search: (query: string) => Promise<ISearch<IAnimeResult>>;
     /**
-     * @param id Anime id
+     * Fetch anime information
+     * @param id Anime ID/slug
+     * @returns Promise<IAnimeInfo>
      */
     fetchAnimeInfo: (id: string) => Promise<IAnimeInfo>;
     /**
-     *
-     * @param episodeId Episode id
+     * Fetch episode video sources
+     * @param episodeId Episode ID
+     * @returns Promise<ISource>
      */
     fetchEpisodeSources: (episodeId: string) => Promise<ISource>;
     /**
-     *
-     * @param episodeId Episode id
+     * Fetch available episode servers
+     * @param episodeId Episode ID
+     * @returns Promise<IEpisodeServer[]>
      */
     fetchEpisodeServers: (episodeId: string) => Promise<IEpisodeServer[]>;
 }

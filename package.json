@@ -1,6 +1,6 @@
 {
   "name": "@consumet/extensions",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "Nodejs library that provides high-level APIs for obtaining information on various entertainment media such as books, movies, comic books, anime, manga, and so on.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,8 +11,6 @@
     "prepare": "husky || true",
     "test": "jest",
     "test:anime": "jest ./test/anime",
-    "test:anime:anix": "jest ./test/anime/anix.test.ts",
-    "test:anime:zoro": "jest ./test/anime/zoro.test.ts",
     "test:books": "jest ./test/books/libgen.test.ts",
     "test:comics": "jest ./test/comics",
     "test:movies": "jest ./test/movies",
@@ -61,7 +59,8 @@
     "crypto-js": "^4.1.1",
     "domhandler": "^5.0.3",
     "form-data": "^4.0.0",
-    "husky": "^9.1.1"
+    "husky": "^9.1.1",
+    "node-fetch": "^2.7.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.3",

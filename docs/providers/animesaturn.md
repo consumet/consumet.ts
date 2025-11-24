@@ -9,6 +9,7 @@ const animesaturn = new ANIME.AnimeSaturn();
 - [search](#search)
 - [fetchAnimeInfo](#fetchanimeinfo)
 - [fetchEpisodeSources](#fetchepisodesources)
+- [fetchEpisodeServers](#fetchepisodeservers)
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
@@ -18,10 +19,10 @@ const animesaturn = new ANIME.AnimeSaturn();
 
 | Parameter | Type     | Description                                                              |
 | --------- | -------- | ------------------------------------------------------------------------ |
-| query     | `string` | query to search for. (*In this case, We're searching for `Tokyo Revengers`*) |
+| query     | `string` | query to search for. (*In this case, We're searching for `Kingdom`*) |
 
 ```ts
-animesaturn.search("Tokyo Revengers").then(data => {
+animesaturn.search("Kingdom").then(data => {
   console.log(data);
 })
 ```
@@ -33,22 +34,22 @@ output:
     hasNextPage: false,
     results: [
         {
-            id: 'Tokyo-Revengers-aaaaaa',
-            title: 'Tokyo Revengers',
-            image: 'https://cdn.animesaturn.tv/static/images/copertine/4af2d1048aeb86aeb9b585f3619275601626143497_full.jpg',
-            url: 'https://www.animesaturn.tv/anime/Tokyo-Revengers-aaaaaa'
+            id: 'Kingdom-a',
+            title: 'Kingdom',
+            image: 'https://cdn.animesaturn.cx/static/images/copertine/20523_1_1.png',
+            url: 'https://www.animesaturn.cx/anime/Kingdom-a'
         },
         {
-            id: 'Tokyo-Revengers-ITA-aa',
-            title: 'Tokyo Revengers (ITA)',
-            image: 'https://cdn.animesaturn.tv/static/images/copertine/4af2d1048aeb86aeb9b585f3619275601626143497_full.jpg',
-            url: 'https://www.animesaturn.tv/anime/Tokyo-Revengers-ITA-aa'
+            id: 'Kingdom-2-a',
+            title: 'Kingdom 2',
+            image: 'https://cdn.animesaturn.cx/static/images/copertine/20856_1_1.png',
+            url: 'https://www.animesaturn.cx/anime/Kingdom-2-a'
         },
         {
-            id: 'Tokyo-Revengers-Seiya-Kessen-hen-aa',
-            title: 'Tokyo Revengers: Seiya Kessen-hen',
-            image: 'https://cdn.animesaturn.tv/static/images/copertine/26084_1_1.png',
-            url: 'https://www.animesaturn.tv/anime/Tokyo-Revengers-Seiya-Kessen-hen-aa'
+            id: 'Kingdom-6',
+            title: 'Kingdom 6',
+            image: 'https://cdn.animesaturn.cx/static/images/copertine/28254_1_1.png',
+            url: 'https://www.animesaturn.cx/anime/Kingdom-6'
         }
     ]
 }
@@ -64,7 +65,7 @@ output:
 
 
 ```ts
-animesaturn.fetchAnimeInfo("Tokyo-Revengers-aaaaaa").then(data => {
+animesaturn.fetchAnimeInfo("Kingdom-6").then(data => {
   console.log(data);
 })
 ```
@@ -73,37 +74,20 @@ returns a promise which resolves into an anime info object (including the episod
 output:
 ```js
 {
-    id: 'Tokyo-Revengers-aaaaaa',
-    title: 'Tokyo Revengers Sub ITA',
-    genres: [ 'Azione', 'Drammatico', 'Scolastico', 'Shounen', 'Soprannaturale' ],
-    image: 'https://cdn.animesaturn.tv/static/images/locandine/Zkczy.png',
-    cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/120120-oRfDsJjrpoQ4.jpg',
+    id: 'Kingdom-6',
+    title: 'Kingdom 6 Sub ITA',
+    malID: '61517',
+    alID: '190840',
+    genres: [ 'Storico', 'Seinen', 'Militari', 'Azione' ],
+    image: 'https://cdn.animesaturn.cx/static/images/locandine/ee88d3095027d9094a4b35adea43eb5a.png',
     description: '',
     episodes: [
-        { number: 1, id: 'Tokyo-Revengers-ep-1' },
-        { number: 2, id: 'Tokyo-Revengers-ep-2' },
-        { number: 3, id: 'Tokyo-Revengers-ep-3' },
-        { number: 4, id: 'Tokyo-Revengers-ep-4' },
-        { number: 5, id: 'Tokyo-Revengers-ep-5' },
-        { number: 6, id: 'Tokyo-Revengers-ep-6' },
-        { number: 7, id: 'Tokyo-Revengers-ep-7' },
-        { number: 8, id: 'Tokyo-Revengers-ep-8' },
-        { number: 9, id: 'Tokyo-Revengers-ep-9' },
-        { number: 10, id: 'Tokyo-Revengers-ep-10' },
-        { number: 11, id: 'Tokyo-Revengers-ep-11' },
-        { number: 12, id: 'Tokyo-Revengers-ep-12' },
-        { number: 13, id: 'Tokyo-Revengers-ep-13' },
-        { number: 14, id: 'Tokyo-Revengers-ep-14' },
-        { number: 15, id: 'Tokyo-Revengers-ep-15' },
-        { number: 16, id: 'Tokyo-Revengers-ep-16' },
-        { number: 17, id: 'Tokyo-Revengers-ep-17' },
-        { number: 18, id: 'Tokyo-Revengers-ep-18' },
-        { number: 19, id: 'Tokyo-Revengers-ep-19' },
-        { number: 20, id: 'Tokyo-Revengers-ep-20' },
-        { number: 21, id: 'Tokyo-Revengers-ep-21' },
-        { number: 22, id: 'Tokyo-Revengers-ep-22' },
-        { number: 23, id: 'Tokyo-Revengers-ep-23' },
-        { number: 24, id: 'Tokyo-Revengers-aszb-ep-24' }
+        { number: 1, id: 'Kingdom-6-ep-1' },
+        { number: 2, id: 'Kingdom-6-ep-2' },
+        { number: 3, id: 'Kingdom-6-ep-3' },
+        { number: 4, id: 'Kingdom-6-ep-4' },
+        { number: 5, id: 'Kingdom-6-ep-5' },
+        { number: 6, id: 'Kingdom-6-ep-6' }
     ]
 }
 ```
@@ -117,35 +101,65 @@ output:
 | episodeId | `string` | takes episode id as a parameter. (*episode id can be found in the anime info object*) |
 
 
-In this example, we're getting the sources for the first episode of Tokyo Revengers.
+In this example, we're getting the sources for the 6th episode of Kingdom 6.
 ```ts
-animesaturn.fetchEpisodeSources("Tokyo-Revengers-ep-1").then(data => {
+animesaturn.fetchEpisodeSources("Kingdom-6-ep-6").then(data => {
   console.log(data);
 })
 ```
 
-returns a promise which resolves into an array of episode sources (the second sources url is recommended as more stable). (*[`Promise<ISource>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L210-L214)*)\
+returns a promise which resolves into an episode sources object with headers for video requests. (*[`Promise<ISource>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L210-L214)*)\
 output:
 ```js
 {
-    headers: {},
-    subtitles: [
-        {
-            url: 'https://www.saturnspeed75.org/DDL/ANIME/TokyoRevengers/01/subtitles.vtt',
-            lang: 'Spanish'
-        }
-    ],
+    headers: {
+        "Referer": "https://www.animesaturn.cx/watch?file=df3KUkMh639oR",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+    },
+    subtitles: [],
     sources: [
         {
-            url: 'https://www.saturnspeed75.org/DDL/ANIME/TokyoRevengers/01/playlist.m3u8',
-            isM3U8: true
-        },
-        {
-            url: 'https://streamtape.com/get_video?id=0ZamyRrDpBFbX01&expires=1694799037&ip=DxWsE0InDS9X&token=1Ut-RohY4oCE',
-            isM3U8: false
+            url: "https://srv22.hondana.streampeaker.org/DDL/ANIME/Kingdom6/Kingdom6_Ep_06_SUB_ITA.mp4",
+            isM3U8: false,
+            quality: "default"
         }
     ]
 }
+```
+
+### fetchEpisodeServers
+
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                                                                           |
+| --------- | -------- | ------------------------------------------------------------------------------------- |
+| episodeId | `string` | takes episode id as a parameter. (*episode id can be found in the anime info object*) |
+
+
+In this example, we're getting the available servers for the 6th episode of Kingdom 6.
+```ts
+animesaturn.fetchEpisodeServers("Kingdom-6-ep-6").then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of available episode servers. (*[`Promise<IEpisodeServer[]>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L115-L118)*)\
+output:
+```js
+[
+    {
+        name: "Server 1",
+        url: "https://www.animesaturn.cx/watch?file=df3KUkMh639oR"
+    },
+    {
+        name: "Server 6", 
+        url: "https://www.animesaturn.cx/watch?file=df3KUkMh639oR&server=5"
+    },
+    {
+        name: "Player Alternativo",
+        url: "https://www.animesaturn.cx/watch?file=df3KUkMh639oR&s=alt"
+    }
+]
 ```
 
 <p align="end">(<a href="https://github.com/consumet/extensions/blob/master/docs/guides/anime.md#">back to anime providers list</a>)</p>
