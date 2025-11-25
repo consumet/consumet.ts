@@ -10,3 +10,4 @@ export declare const anilistCharacterQuery: () => string;
 export declare const anilistStaffQuery: () => string;
 export declare const kitsuSearchQuery: (query: string) => string;
 export declare const anilistStaffInfoQuery: (id: number) => string;
+export declare const anilistFavouritesQuery: () => string;

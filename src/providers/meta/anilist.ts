@@ -37,7 +37,8 @@ import {
   capitalizeFirstLetter,
 } from '../../utils';
 import Hianime from '../anime/hianime';
-import { ANIFY_URL, compareTwoStrings, getHashFromImage } from '../../utils/utils';
+import { ANIFY_URL, compareTwoStrings, getHashFromImage, USER_AGENT } from '../../utils/utils';
+import { anilistFavouritesQuery } from '../../utils/queries';
 import MangaDex from '../manga/mangadex';
 
 class Anilist extends AnimeParser {
@@ -63,6 +64,127 @@ class Anilist extends AnimeParser {
     super(proxyConfig, adapter);
     this.provider = provider || new Hianime();
   }
+
+  /**
+   * @param authToken Anilist auth token
+   * @param type Type of favorites to fetch: 'ANIME', 'MANGA', or 'BOTH' (default: 'BOTH')
+   * @returns favorite lists
+   */
+  fetchFavoriteList = async (
+    authToken: string,
+    type: 'ANIME' | 'MANGA' | 'BOTH' = 'BOTH'
+  ): Promise<{
+    anime?: IAnimeInfo[];
+    manga?: IAnimeInfo[];
+  }> => {
+    const options = {
+      query: anilistFavouritesQuery(),
+    };
+
+    try {
+      let { data, status } = await this.client.post(this.anilistGraphqlUrl, options, {
+        validateStatus: () => true,
+        headers: {
+          Authorization: authToken,
+          'User-Agent': USER_AGENT,
+        },
+      });
+
+      const result: { anime?: IAnimeInfo[]; manga?: IAnimeInfo[] } = {};
+
+      if (type === 'ANIME' || type === 'BOTH') {
+        result.anime = data.data.Viewer.favourites.anime.nodes.map((item: any) => ({
+          id: item.id.toString(),
+          malId: item.idMal,
+          title: item.title
+            ? {
+                romaji: item.title.romaji,
+                english: item.title.english,
+                native: item.title.native,
+                userPreferred: item.title.userPreferred,
+              }
+            : item.title.romaji,
+          status:
+            item.status == 'RELEASING'
+              ? MediaStatus.ONGOING
+              : item.status == 'FINISHED'
+              ? MediaStatus.COMPLETED
+              : item.status == 'NOT_YET_RELEASED'
+              ? MediaStatus.NOT_YET_AIRED
+              : item.status == 'CANCELLED'
+              ? MediaStatus.CANCELLED
+              : item.status == 'HIATUS'
+              ? MediaStatus.HIATUS
+              : MediaStatus.UNKNOWN,
+          image: item.coverImage?.extraLarge ?? item.coverImage?.large ?? item.coverImage?.medium,
+          imageHash: getHashFromImage(
+            item.coverImage?.extraLarge ?? item.coverImage?.large ?? item.coverImage?.medium
+          ),
+          cover: item.bannerImage,
+          coverHash: getHashFromImage(item.bannerImage),
+          popularity: item.popularity,
+          description: item.description,
+          rating: item.averageScore,
+          genres: item.genres,
+          color: item.coverImage?.color,
+          totalEpisodes: item.episodes ?? undefined,
+          totalChapters: item.chapters ?? undefined,
+          totalVolumes: item.volumes ?? undefined,
+          type: item.format,
+          mediaType: item.type,
+          releaseDate: item.seasonYear,
+        }));
+      }
+
+      if (type === 'MANGA' || type === 'BOTH') {
+        result.manga = data.data.Viewer.favourites.manga.nodes.map((item: any) => ({
+          id: item.id.toString(),
+          malId: item.idMal,
+          title: item.title
+            ? {
+                romaji: item.title.romaji,
+                english: item.title.english,
+                native: item.title.native,
+                userPreferred: item.title.userPreferred,
+              }
+            : item.title.romaji,
+          status:
+            item.status == 'RELEASING'
+              ? MediaStatus.ONGOING
+              : item.status == 'FINISHED'
+              ? MediaStatus.COMPLETED
+              : item.status == 'NOT_YET_RELEASED'
+              ? MediaStatus.NOT_YET_AIRED
+              : item.status == 'CANCELLED'
+              ? MediaStatus.CANCELLED
+              : item.status == 'HIATUS'
+              ? MediaStatus.HIATUS
+              : MediaStatus.UNKNOWN,
+          image: item.coverImage?.extraLarge ?? item.coverImage?.large ?? item.coverImage?.medium,
+          imageHash: getHashFromImage(
+            item.coverImage?.extraLarge ?? item.coverImage?.large ?? item.coverImage?.medium
+          ),
+          cover: item.bannerImage,
+          coverHash: getHashFromImage(item.bannerImage),
+          popularity: item.popularity,
+          description: item.description,
+          rating: item.averageScore,
+          genres: item.genres,
+          color: item.coverImage?.color,
+          totalEpisodes: item.episodes ?? undefined,
+          totalChapters: item.chapters ?? undefined,
+          totalVolumes: item.volumes ?? undefined,
+          type: item.format,
+          mediaType: item.type,
+          releaseDate: item.seasonYear,
+        }));
+      }
+
+      return result;
+    } catch (err: any) {
+      throw new Error(err.message);
+    }
+  };
 
   /**
    * @param query Search query
