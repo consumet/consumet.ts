@@ -52,27 +52,6 @@ jobs:
               git reset --hard origin/main
             fi
 
-            echo "Creating/updating .env file..."
-            cat > .env << 'EOF'
-# Port - let ecosystem.preview.config.js control it (PORT=8001)
-# PORT=8001
-
-# Redis configuration (optional - for caching)
-REDIS_HOST=localhost
-REDIS_PORT=6379
-REDIS_TTL=3600
-# REDIS_PASSWORD=
-
-# TMDB API key (optional - for movie metadata)
-# TMDB_KEY=
-
-# Environment
-NODE_ENV=development
-
-# Proxy (optional)
-# PROXY=[]
-EOF
-
             echo "Installing preview API dependencies..."
             yarn install
 
