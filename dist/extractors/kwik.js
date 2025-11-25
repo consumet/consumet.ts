@@ -68,7 +68,7 @@ class Kwik extends models_1.VideoExtractor {
             });
             const data = await response.text();
             // not the best, but assume the format always like this
-            const destination = data.match(`a.redirect\\\"\\\)\.attr\\\(\\\"href","(https://[^"]+)`);
+            const destination = data.match(`a\\\.redirect\\\"\\\)\.attr\\\(\\\"href","(https://[^"]+)`);
             return destination[1];
         }
         catch (err) {
@@ -87,7 +87,7 @@ class Kwik extends models_1.VideoExtractor {
             });
             const cookie = (_a = response.headers.get('set-cookie')) === null || _a === void 0 ? void 0 : _a.split(';')[0];
             const data = await response.text();
-            const obfuscatedParams = data.match(`\\\}\\\("([^"]+)".*?"([^"]+)"\s*,\s*([^,]+)\s*,\s*([^,]+)`);
+            const obfuscatedParams = data.match(`\\\}\\\("([^"]+)".*?"([^"]+)"\\\s*,\\\s*([^,]+)\\\s*,\\\s*([^,]+)`);
             const formScript = this.deobfuscate(obfuscatedParams[1], obfuscatedParams[2], Number(obfuscatedParams[3]), Number(obfuscatedParams[4]));
             const formActionUrl = formScript.match(/form action="([^"]+)/)[1];
             const postToken = formScript.match(/name="_token" value="([^"]+)/)[1];

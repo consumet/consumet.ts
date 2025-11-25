@@ -78,7 +78,7 @@ class Kwik extends VideoExtractor {
       const data = await response.text();
 
       // not the best, but assume the format always like this
-      const destination = data.match(`a.redirect\\\"\\\)\.attr\\\(\\\"href","(https://[^"]+)`);
+      const destination = data.match(`a\\\.redirect\\\"\\\)\.attr\\\(\\\"href","(https://[^"]+)`);
 
       return destination![1];
     } catch (err) {
@@ -100,7 +100,9 @@ class Kwik extends VideoExtractor {
       const cookie = response.headers.get('set-cookie')?.split(';')[0];
       const data = await response.text();
 
-      const obfuscatedParams = data.match(`\\\}\\\("([^"]+)".*?"([^"]+)"\s*,\s*([^,]+)\s*,\s*([^,]+)`);
+      const obfuscatedParams = data.match(
+        `\\\}\\\("([^"]+)".*?"([^"]+)"\\\s*,\\\s*([^,]+)\\\s*,\\\s*([^,]+)`
+      );
 
       const formScript = this.deobfuscate(
         obfuscatedParams![1],
