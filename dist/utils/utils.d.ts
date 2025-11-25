@@ -21,3 +21,4 @@ export declare const substringBefore: (str: string, toFind: string) => string;
 export declare const substringAfterLast: (str: string, toFind: string) => string;
 export declare const substringBeforeLast: (str: string, toFind: string) => string;
 export declare const getHashFromImage: (url: string) => "" | "hash";
+export declare const safeUnpack: (packedSource: string) => string;

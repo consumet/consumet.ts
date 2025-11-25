@@ -5,7 +5,7 @@ import { VideoExtractor, IVideo } from '../models';
 declare class Filemoon extends VideoExtractor {
     protected serverName: string;
     protected sources: IVideo[];
-    private readonly host;
+    private readonly baseUrl;
     extract: (videoUrl: URL) => Promise<IVideo[]>;
 }
 export default Filemoon;

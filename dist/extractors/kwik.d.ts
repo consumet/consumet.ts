@@ -5,7 +5,6 @@ declare class Kwik extends VideoExtractor {
     private readonly baseUrl;
     private readonly safelinkBaseUrl;
     extract: (videoUrl: URL) => Promise<IVideo[]>;
-    safeUnpack(packedSource: string): string;
     bypassShortlink(shortinkUrl: URL): Promise<any>;
     getDirectDownloadLink(downloadUrl: URL): Promise<string | null>;
     /**
