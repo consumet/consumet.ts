@@ -35,7 +35,7 @@ jobs:
             fi
 
             echo "Installing consumet.ts dependencies..."
-            yarn install --frozen-lockfile
+            yarn install
 
             echo "Building consumet.ts..."
             yarn build
