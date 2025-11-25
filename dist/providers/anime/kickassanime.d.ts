@@ -4,7 +4,6 @@ declare class KickAssAnime extends AnimeParser {
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
-    private fallbackDomains;
     /**
      * Get HTTP headers for requests
      * @param host The host URL

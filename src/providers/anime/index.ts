@@ -1,4 +1,3 @@
-import Gogoanime from './gogoanime';
 import AnimePahe from './animepahe';
 import Hianime from './hianime';
 import AnimeSaturn from './animesaturn';
@@ -12,6 +11,5 @@ export default {
   AnimeKai,
   KickAssAnime,
   AnimeSaturn,
-  Gogoanime,
   AnimeUnity,
 };

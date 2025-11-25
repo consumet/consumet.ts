@@ -5,7 +5,7 @@ const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const utils_2 = require("../../utils");
 class Hianime extends models_1.AnimeParser {
-    constructor(customBaseURL) {
+    constructor() {
         super(...arguments);
         this.name = 'hianime';
         this.baseUrl = 'https://hianime.to';
@@ -365,17 +365,6 @@ class Hianime extends models_1.AnimeParser {
         this.fetchEpisodeServers = (episodeId) => {
             throw new Error('Method not implemented.');
         };
-        if (customBaseURL) {
-            if (customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')) {
-                this.baseUrl = customBaseURL;
-            }
-            else {
-                this.baseUrl = `http://${customBaseURL}`;
-            }
-        }
-        else {
-            this.baseUrl = this.baseUrl;
-        }
     }
     /**
      * Search for anime
