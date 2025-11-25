@@ -40,7 +40,7 @@ jobs:
             echo "Building consumet.ts..."
             yarn build
 
-            if [ ! -d "~/api.consumet.org-preview" ]; then
+            if [ ! -d "$HOME/api.consumet.org-preview" ]; then
               echo "Cloning preview API repository..."
               cd ~
               git clone https://github.com/consumet/api.consumet.org.git api.consumet.org-preview
