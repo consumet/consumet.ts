@@ -162,7 +162,7 @@ class Anilist extends models_1.AnimeParser {
                     currentPage: (_d = (_c = (_b = data.data.Page) === null || _b === void 0 ? void 0 : _b.pageInfo) === null || _c === void 0 ? void 0 : _c.currentPage) !== null && _d !== void 0 ? _d : (_e = data.meta) === null || _e === void 0 ? void 0 : _e.currentPage,
                     hasNextPage: (_h = (_g = (_f = data.data.Page) === null || _f === void 0 ? void 0 : _f.pageInfo) === null || _g === void 0 ? void 0 : _g.hasNextPage) !== null && _h !== void 0 ? _h : ((_j = data.meta) === null || _j === void 0 ? void 0 : _j.currentPage) != ((_k = data.meta) === null || _k === void 0 ? void 0 : _k.lastPage),
                     results: (_p = (_o = (_m = (_l = data.data) === null || _l === void 0 ? void 0 : _l.Page) === null || _m === void 0 ? void 0 : _m.media) === null || _o === void 0 ? void 0 : _o.map((item) => {
-                        var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q;
+                        var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p;
                         return ({
                             id: item.id.toString(),
                             malId: item.idMal,
@@ -194,9 +194,10 @@ class Anilist extends models_1.AnimeParser {
                             rating: item.averageScore,
                             genres: item.genres,
                             color: (_m = item.coverImage) === null || _m === void 0 ? void 0 : _m.color,
-                            totalEpisodes: (_o = item.episodes) !== null && _o !== void 0 ? _o : ((_p = item.nextAiringEpisode) === null || _p === void 0 ? void 0 : _p.episode) - 1,
+                            totalEpisodes: item.episodes ||
+                                (((_o = item.nextAiringEpisode) === null || _o === void 0 ? void 0 : _o.episode) ? item.nextAiringEpisode.episode - 1 : undefined),
                             currentEpisodeCount: (item === null || item === void 0 ? void 0 : item.nextAiringEpisode)
-                                ? ((_q = item === null || item === void 0 ? void 0 : item.nextAiringEpisode) === null || _q === void 0 ? void 0 : _q.episode) - 1
+                                ? ((_p = item === null || item === void 0 ? void 0 : item.nextAiringEpisode) === null || _p === void 0 ? void 0 : _p.episode) - 1
                                 : item.episodes,
                             type: item.format,
                             releaseDate: item.seasonYear,
@@ -299,7 +300,7 @@ class Anilist extends models_1.AnimeParser {
                     results: [],
                 };
                 res.results.push(...((_x = (_w = (_v = (_u = data.data) === null || _u === void 0 ? void 0 : _u.Page) === null || _v === void 0 ? void 0 : _v.media) === null || _w === void 0 ? void 0 : _w.map((item) => {
-                    var _b, _c, _d, _e, _f, _g, _h, _j;
+                    var _b, _c, _d, _e, _f, _g, _h;
                     return ({
                         id: item.id.toString(),
                         malId: item.idMal,
@@ -327,13 +328,14 @@ class Anilist extends models_1.AnimeParser {
                         cover: item.bannerImage,
                         coverHash: (0, utils_2.getHashFromImage)(item.bannerImage),
                         popularity: item.popularity,
-                        totalEpisodes: (_f = item.episodes) !== null && _f !== void 0 ? _f : ((_g = item.nextAiringEpisode) === null || _g === void 0 ? void 0 : _g.episode) - 1,
-                        currentEpisode: ((_h = item.nextAiringEpisode) === null || _h === void 0 ? void 0 : _h.episode) - 1 || item.episodes,
+                        totalEpisodes: item.episodes ||
+                            (((_f = item.nextAiringEpisode) === null || _f === void 0 ? void 0 : _f.episode) ? item.nextAiringEpisode.episode - 1 : undefined),
+                        currentEpisode: ((_g = item.nextAiringEpisode) === null || _g === void 0 ? void 0 : _g.episode) - 1 || item.episodes,
                         countryOfOrigin: item.countryOfOrigin,
                         description: item.description,
                         genres: item.genres,
                         rating: item.averageScore,
-                        color: (_j = item.coverImage) === null || _j === void 0 ? void 0 : _j.color,
+                        color: (_h = item.coverImage) === null || _h === void 0 ? void 0 : _h.color,
                         type: item.format,
                         releaseDate: item.seasonYear,
                     });

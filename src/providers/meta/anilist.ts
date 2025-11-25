@@ -247,7 +247,9 @@ class Anilist extends AnimeParser {
             rating: item.averageScore,
             genres: item.genres,
             color: item.coverImage?.color,
-            totalEpisodes: item.episodes ?? item.nextAiringEpisode?.episode - 1,
+            totalEpisodes:
+              item.episodes ||
+              (item.nextAiringEpisode?.episode ? item.nextAiringEpisode.episode - 1 : undefined),
             currentEpisodeCount: item?.nextAiringEpisode
               ? item?.nextAiringEpisode?.episode - 1
               : item.episodes,
@@ -396,7 +398,9 @@ class Anilist extends AnimeParser {
           cover: item.bannerImage,
           coverHash: getHashFromImage(item.bannerImage),
           popularity: item.popularity,
-          totalEpisodes: item.episodes ?? item.nextAiringEpisode?.episode - 1,
+          totalEpisodes:
+            item.episodes ||
+            (item.nextAiringEpisode?.episode ? item.nextAiringEpisode.episode - 1 : undefined),
           currentEpisode: item.nextAiringEpisode?.episode - 1 || item.episodes,
           countryOfOrigin: item.countryOfOrigin,
           description: item.description,
