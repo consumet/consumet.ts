@@ -40,6 +40,9 @@ jobs:
             echo "Building consumet.ts..."
             yarn build
 
+            echo "Registering local consumet.ts for linking..."
+            yarn link
+
             if [ ! -d "$HOME/api.consumet.org-preview" ]; then
               echo "Cloning preview API repository..."
               cd ~
@@ -54,6 +57,9 @@ jobs:
 
             echo "Installing preview API dependencies..."
             yarn install --frozen-lockfile
+
+            echo "Linking local consumet.ts..."
+            yarn link @consumet/extensions
 
             echo "Building preview API..."
             yarn build
