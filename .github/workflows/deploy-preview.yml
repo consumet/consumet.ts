@@ -1,0 +1,75 @@
+name: Deploy Preview API
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy Preview API to Raspberry Pi
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.PI_HOST }}
+          username: ${{ secrets.PI_USER }}
+          key: ${{ secrets.PI_SSH_KEY }}
+          passphrase: ${{ secrets.PI_SSH_PASSPHRASE }}
+          port: ${{ secrets.PI_SSH_PORT }}
+          script: |
+            set -e
+
+            cd ~ || exit 1
+
+            if [ ! -d "consumet.ts" ]; then
+              echo "Cloning consumet.ts repository..."
+              git clone https://github.com/consumet/consumet.ts.git
+              cd consumet.ts
+            else
+              echo "Updating consumet.ts..."
+              cd consumet.ts
+              git fetch origin
+              git reset --hard origin/master
+            fi
+
+            echo "Installing consumet.ts dependencies..."
+            yarn install --frozen-lockfile
+
+            echo "Building consumet.ts..."
+            yarn build
+
+            if [ ! -d "$HOME/api.consumet.org-preview" ]; then
+              echo "Cloning preview API repository..."
+              cd ~
+              git clone https://github.com/consumet/api.consumet.org.git api.consumet.org-preview
+              cd api.consumet.org-preview
+            else
+              echo "Updating preview API..."
+              cd ~/api.consumet.org-preview
+              git fetch origin
+              git reset --hard origin/main
+            fi
+
+            echo "Installing preview API dependencies..."
+            yarn install --frozen-lockfile
+
+            echo "Linking local consumet.ts build..."
+            yarn remove @consumet/extensions || true
+            yarn add "file:$HOME/consumet.ts"
+
+            echo "Building preview API..."
+            yarn build
+
+            echo "Restarting preview PM2 process..."
+            if sudo pm2 describe api.consumet.org-preview > /dev/null 2>&1; then
+              sudo pm2 restart api.consumet.org-preview
+            else
+              sudo pm2 start ecosystem.preview.config.js
+              sudo pm2 save
+            fi
+
+            echo "Preview deployment completed!"
+            echo "Available at: https://dev.api.consumet.org"
+            sudo pm2 status
