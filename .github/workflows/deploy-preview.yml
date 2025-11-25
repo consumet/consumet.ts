@@ -74,7 +74,7 @@ NODE_ENV=development
 EOF
 
             echo "Installing preview API dependencies..."
-            yarn install --frozen-lockfile
+            yarn install
 
             echo "Linking local consumet.ts build..."
             yarn remove @consumet/extensions || true
