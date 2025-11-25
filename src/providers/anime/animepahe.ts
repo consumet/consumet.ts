@@ -49,6 +49,36 @@ class AnimePahe extends AnimeParser {
   };
 
   /**
+   * @param page page number (optional)
+   * @returns Promise<ISearch<IAnimeResult>>
+   */
+  async fetchRecentEpisodes(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    try {
+      const { data } = await this.client.get(`${this.baseUrl}/api?m=airing&page=${page}`, {
+        headers: this.Headers(false),
+      });
+
+      const res = {
+        currentPage: data.current_page,
+        totalResults: data.total,
+        totalPages: data.last_page,
+        results: data.data.map((item: any) => ({
+          id: item.anime_session,
+          title: item.anime_title,
+          episodeId: `${item.anime_session}/${item.session}`,
+          episodeImage: item.snapshot,
+          episodeNumber: item.episode,
+          url: `${this.baseUrl}/play/${item.anime_session}/${item.session}`,
+        })),
+      };
+
+      return res;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  }
+
+  /**
    * Fetch anime information
    * @param id Anime ID in format id/session
    * @param episodePage Episode page number (default: -1 for all episodes)
