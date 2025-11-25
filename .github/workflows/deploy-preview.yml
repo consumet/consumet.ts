@@ -59,8 +59,8 @@ jobs:
             yarn build
 
             echo "Restarting preview PM2 process..."
-            if sudo pm2 describe consumet-api-preview > /dev/null 2>&1; then
-              sudo pm2 restart consumet-api-preview
+            if sudo pm2 describe api.consumet.org-preview > /dev/null 2>&1; then
+              sudo pm2 restart api.consumet.org-preview
             else
               sudo pm2 start ecosystem.preview.config.js
               sudo pm2 save
