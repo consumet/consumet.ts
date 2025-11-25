@@ -1,14 +1,21 @@
-<h1> MangaHere </h1>
+# MangaHere
 
 ```ts
 const mangahere = new MANGA.MangaHere();
 ```
 
-<h2>Methods</h2>
+## Methods
 
 - [search](#search)
 - [fetchMangaInfo](#fetchmangainfo)
 - [fetchChapterPages](#fetchchapterpages)
+- [fetchMangaTrending](#fetchmangatrending)
+- [fetchMangaRanking](#fetchmangaranking)
+- [fetchMangaHotReleases](#fetchmangahotreleases)
+- [fetchMangaRecentUpdate](#fetchmangarecentupdate)
+- [browse](#browse)
+- [Enums](#enums)
+- [Genres](#genres)
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
@@ -24,7 +31,7 @@ mangahere.search("Tomodachi Game").then(data => {
   console.log(data);
 })
 ```
-returns a promise which resolves into an array of manga. (*[`Promise<ISearch<IMangaResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L97-L106)*)\
+returns a promise which resolves into an array of manga. (*[`Promise<ISearch<IMangaResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L97-L106)*)
 output:
 ```js
 {
@@ -64,7 +71,7 @@ mangahere.fetchMangaInfo("tomodachi_game").then(data => {
   console.log(data);
 })
 ```
-returns a promise which resolves into an manga info object (including the chapters). (*[`Promise<IMangaInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L115-L120)*)\
+returns a promise which resolves into an manga info object (including the chapters). (*[`Promise<IMangaInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L115-L120)*)
 output:
 ```js
 {
@@ -102,7 +109,7 @@ mangahere.fetchChapterPages("tomodachi_game/c102").then(data => {
   console.log(data);
 })
 ```
-returns an array of pages. (*[`Promise<IMangaChapterPage[]>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L122-L126)*)\
+returns an array of pages. (*[`Promise<IMangaChapterPage[]>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L122-L126)*)
 output:
 ```js
 [
@@ -131,5 +138,175 @@ output:
   ...
 ]
 ```
+
+### fetchMangaTrending
+
+<h4>No Parameters</h4>
+
+```ts
+mangahere.fetchMangaTrending().then(data => {
+  console.log(data);
+})
+```
+returns a promise which resolves into an array of trending manga. (*[`Promise<ISearch<IMangaResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L36-L45)*)
+output:
+```js
+{
+  "currentPage": 1,
+  "hasNextPage": false,
+  "results": [
+    {
+      "id": "vigilante_boku_no_hero_academia_illegals",
+      "title": "Vigilante: Boku no Hero Academia Illegals",
+      "image": "https://fmcdn.mangahere.com/store/manga/23729/cover.jpg?token=0a9354621b172d8a3889ea717ae85f461735005d&ttl=1764172800&v=1661264222",
+      "headerForImage": {
+        "Referer": "https://mangahere.cc"
+      },
+      "latestChapterId": "vigilante_boku_no_hero_academia_illegals/c126",
+      "latestChapterNumber": 126
+    },
+    {
+      "id": "star_martial_god_technique",
+      "title": "Star Martial God Technique",
+      "image": "https://fmcdn.mangahere.com/store/manga/24541/cover.jpg?token=0a4f3b7cc0c04af78cee74083439df6b732e5a68&ttl=1764172800&v=1759970554",
+      "headerForImage": {
+        "Referer": "https://mangahere.cc"
+      },
+      "latestChapterId": "star_martial_god_technique/c862",
+      "latestChapterNumber": 862
+    },
+    {...}
+    ...
+  ]
+}
+```
+
+### fetchMangaRanking
+
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                |
+| --------- | -------- | -------------------------- |
+| type      | `MangaHereRankingType` | ranking type (default: 'total')   |
+
+```ts
+mangahere.fetchMangaRanking('day').then(data => {
+  console.log(data);
+})
+```
+returns a promise which resolves into an array of ranking manga. (*[`Promise<ISearch<IMangaResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L36-L45)*)
+
+### fetchMangaHotReleases
+
+<h4>No Parameters</h4>
+
+```ts
+mangahere.fetchMangaHotReleases().then(data => {
+  console.log(data);
+})
+```
+returns a promise which resolves into an array of hot releases. (*[`Promise<ISearch<IMangaResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L36-L45)*)
+
+### fetchMangaRecentUpdate
+
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                |
+| --------- | -------- | -------------------------- |
+| page      | `number` | page number (default: 1)   |
+
+```ts
+mangahere.fetchMangaRecentUpdate(2).then(data => {
+  console.log(data);
+})
+```
+returns a promise which resolves into an array of recent updates. (*[`Promise<ISearch<IMangaResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L36-L45)*)
+
+### browse
+
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                |
+| --------- | -------- | -------------------------- |
+| genre     | `string` | genre to filter by         |
+| status    | `MangaHereStatus` | status to filter by        |
+| sort      | `MangaHereSort` | sort by                    |
+| page      | `number` | page number (default: 1)   |
+
+```ts
+mangahere.browse({ genre: 'supernatural', status: 'completed', page: 2 }).then(data => {
+  console.log(data);
+})
+```
+returns a promise which resolves into an array of browsed manga. (*[`Promise<ISearch<IMangaResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L36-L45)*)
+
+## Enums
+
+### MangaHereRankingType
+| Type    | Description      |
+| ------- | ---------------- |
+| `total` | Total ranking    |
+| `month` | Monthly ranking  |
+| `week`  | Weekly ranking   |
+| `day`   | Daily ranking    |
+
+### MangaHereStatus
+| Status      | Description       |
+| ----------- | ----------------- |
+| `all`       | All statuses      |
+| `new`       | New manga         |
+| `completed` | Completed manga   |
+| `ongoing`   | Ongoing manga     |
+
+### MangaHereSort
+| Sort         | Description          |
+| ------------ | -------------------- |
+| `az`         | Alphabetical         |
+| `popularity` | Popularity           |
+| `rating`     | Rating               |
+| `latest`     | Latest chapters      |
+| `news`       | News                 |
+
+## Genres
+> Last updated: November 25, 2025
+> **Caution**: Genres may change over time.
+
+| Key             | Description     |
+| --------------- | --------------- |
+| `action`        | Action          |
+| `adventure`     | Adventure       |
+| `comedy`        | Comedy          |
+| `fantasy`       | Fantasy         |
+| `historical`    | Historical      |
+| `horror`        | Horror          |
+| `martial-arts`  | Martial Arts    |
+| `mystery`       | Mystery         |
+| `romance`       | Romance         |
+| `shounen-ai`    | Shounen Ai      |
+| `supernatural`  | Supernatural    |
+| `drama`         | Drama           |
+| `shounen`       | Shounen         |
+| `school-life`   | School Life     |
+| `shoujo`        | Shoujo          |
+| `gender-bender` | Gender Bender   |
+| `josei`         | Josei           |
+| `psychological` | Psychological   |
+| `seinen`        | Seinen          |
+| `slice-of-life` | Slice of Life   |
+| `sci-fi`        | Sci-fi          |
+| `ecchi`         | Ecchi           |
+| `harem`         | Harem           |
+| `shoujo-ai`     | Shoujo Ai       |
+| `yuri`          | Yuri            |
+| `mature`        | Mature          |
+| `tragedy`       | Tragedy         |
+| `yaoi`          | Yaoi            |
+| `doujinshi`     | Doujinshi       |
+| `sports`        | Sports          |
+| `adult`         | Adult           |
+| `one-shot`      | One Shot        |
+| `smut`          | Smut            |
+| `mecha`         | Mecha           |
+| `webtoons`      | Webtoons        |
 
 <p align="end">(<a href="https://github.com/consumet/extensions/blob/master/docs/guides/manga.md#">back to manga providers list</a>)</p>
