@@ -2,7 +2,7 @@ import { ANIME } from '../../src/providers';
 
 jest.setTimeout(120000);
 
-const hianime = new ANIME.Hianime('hianime.to');
+const hianime = new ANIME.Hianime();
 
 test('Search: returns a filled array of anime list', async () => {
   const data = await hianime.search('Overlord IV');
@@ -136,13 +136,11 @@ test('fetchEpisodeSources: returns a filled object of episode sources', async ()
 // test('returns a filled array of episode list for continue watching', async () => {
 //   const connectSid = 'users_connect_sid';
 //   const data = await hianime.fetchContinueWatching(`${connectSid}`);
-//   console.log(data);
 //   expect(data).not.toEqual([]);
 // });
 
 // test('returns a filled array of animes from watch list', async () => {
 //   const connectSid = 'users_connect_sid';
 //   const data = await hianime.fetchWatchList(`${connectSid}`);
-//   console.log(data);
 //   expect(data).not.toEqual([]);
 // });

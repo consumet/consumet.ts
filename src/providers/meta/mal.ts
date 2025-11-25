@@ -13,7 +13,6 @@ import {
   MediaFormat,
 } from '../../models';
 import { substringAfter, substringBefore, compareTwoStrings, kitsuSearchQuery, range } from '../../utils';
-import Gogoanime from '../anime/gogoanime';
 import Hianime from '../anime/hianime';
 import { ANIFY_URL } from '../../utils/utils';
 
@@ -36,7 +35,7 @@ class Myanimelist extends AnimeParser {
    */
   constructor(provider?: AnimeParser) {
     super();
-    this.provider = provider || new Gogoanime();
+    this.provider = provider || new Hianime();
   }
 
   private malStatusToMediaStatus(status: string): MediaStatus {
@@ -182,7 +181,7 @@ class Myanimelist extends AnimeParser {
       };
       let fillerEpisodes: { number: string; 'filler-bool': boolean }[];
       if (
-        (this.provider instanceof Hianime || this.provider instanceof Gogoanime) &&
+        this.provider instanceof Hianime &&
         !dub &&
         (animeInfo.status === MediaStatus.ONGOING ||
           range({ from: 2000, to: new Date().getFullYear() + 1 }).includes(animeInfo.startDate?.year!))
@@ -641,10 +640,3 @@ class Myanimelist extends AnimeParser {
 }
 
 export default Myanimelist;
-
-// (async () => {
-//   const mal = new Myanimelist();
-//   // const search = await mal.search('one piece');
-//   const info = await mal.fetchAnimeInfo('21', true);
-//   //console.log(info);
-// })();

@@ -6,7 +6,7 @@ class MangaHere extends models_1.MangaParser {
     constructor() {
         super(...arguments);
         this.name = 'MangaHere';
-        this.baseUrl = 'http://www.mangahere.cc';
+        this.baseUrl = 'https://mangahere.cc';
         this.logo = 'https://i.pinimg.com/564x/51/08/62/51086247ed16ff8abae2df0bb06448e4.jpg';
         this.classPath = 'MANGA.MangaHere';
         this.fetchMangaInfo = async (mangaId) => {

@@ -1,8 +1,4 @@
-// import sharp from 'sharp';
 import { load } from 'cheerio';
-// import * as blurhash from 'blurhash';
-import { ProxyConfig } from '../models';
-import axios, { AxiosRequestConfig } from 'axios';
 
 export const USER_AGENT =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36';
@@ -155,26 +151,11 @@ export const substringBeforeLast = (str: string, toFind: string) => {
   return index == -1 ? '' : str.substring(0, index);
 };
 
-// const generateHash = async (url: string) => {
-//   let returnedBuffer;
-
-//   const response = await fetch(url);
-//   const arrayBuffer = await response.arrayBuffer();
-//   returnedBuffer = Buffer.from(arrayBuffer);
-
-//   // const { info, data } = await sharp(returnedBuffer).ensureAlpha().raw().toBuffer({
-//   //   resolveWithObject: true,
-//   // });
-
-//   return blurhash.encode(new Uint8ClampedArray(data), info.width, info.height, 4, 3);
-// };
-
 export const getHashFromImage = (url: string) => {
   if (url?.length === 0) {
     return '';
   } else {
     let hash!: string;
-    // generateHash(url).then(hashKey => (hash = hashKey));
     return 'hash';
   }
 };

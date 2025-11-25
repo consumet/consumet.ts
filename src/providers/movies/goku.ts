@@ -1,4 +1,4 @@
-import { load, CheerioAPI } from 'cheerio';
+import { load } from 'cheerio';
 
 import {
   MovieParser,

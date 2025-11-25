@@ -1,4 +1,3 @@
-import Gogoanime from './gogoanime';
 import AnimePahe from './animepahe';
 import Hianime from './hianime';
 import AnimeSaturn from './animesaturn';
@@ -11,7 +10,6 @@ declare const _default: {
     AnimeKai: typeof AnimeKai;
     KickAssAnime: typeof KickAssAnime;
     AnimeSaturn: typeof AnimeSaturn;
-    Gogoanime: typeof Gogoanime;
     AnimeUnity: typeof AnimeUnity;
 };
 export default _default;

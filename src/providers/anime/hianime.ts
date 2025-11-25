@@ -25,19 +25,6 @@ class Hianime extends AnimeParser {
     'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
   protected override classPath = 'ANIME.hianime';
 
-  constructor(customBaseURL?: string) {
-    super(...arguments);
-    if (customBaseURL) {
-      if (customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')) {
-        this.baseUrl = customBaseURL;
-      } else {
-        this.baseUrl = `http://${customBaseURL}`;
-      }
-    } else {
-      this.baseUrl = this.baseUrl;
-    }
-  }
-
   /**
    * Search for anime
    * @param query Search query string
