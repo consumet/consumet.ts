@@ -1,19 +1,14 @@
-import { ANIME, MANGA, /* BOOKS , */ COMICS, LIGHT_NOVELS, MOVIES, META, NEWS } from '../providers';
-import movies from '../providers/movies';
+import { ANIME, MANGA, BOOKS, COMICS, LIGHT_NOVELS, MOVIES, META, NEWS } from '../providers';
 
-/**
- * List of providers
- *
- * add new providers here (order does not matter)
- */
+// List of providers
 export const PROVIDERS_LIST = {
   ANIME: [
     new ANIME.AnimePahe(),
     new ANIME.Hianime(),
     new ANIME.AnimeKai(),
+    new ANIME.AnimeUnity(),
     new ANIME.KickAssAnime(),
     new ANIME.AnimeSaturn(),
-    new ANIME.Gogoanime(),
   ],
   MANGA: [
     new MANGA.WeebCentral(),
@@ -23,7 +18,7 @@ export const PROVIDERS_LIST = {
     new MANGA.MangaReader(),
     new MANGA.ComicK(),
   ],
-  // BOOKS: [new BOOKS.Libgen()],
+  BOOKS: [],
   COMICS: [new COMICS.GetComics()],
   LIGHT_NOVELS: [],
   MOVIES: [

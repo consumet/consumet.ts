@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getHashFromImage = exports.substringBeforeLast = exports.substringAfterLast = exports.substringBefore = exports.substringAfter = exports.compareTwoStrings = exports.isJson = exports.getDays = exports.capitalizeFirstLetter = exports.range = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.ANIFY_URL = exports.days = exports.USER_AGENT = void 0;
 exports.convertDuration = convertDuration;
-// import sharp from 'sharp';
 const cheerio_1 = require("cheerio");
 exports.USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36';
 exports.days = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
@@ -147,23 +146,12 @@ const substringBeforeLast = (str, toFind) => {
     return index == -1 ? '' : str.substring(0, index);
 };
 exports.substringBeforeLast = substringBeforeLast;
-// const generateHash = async (url: string) => {
-//   let returnedBuffer;
-//   const response = await fetch(url);
-//   const arrayBuffer = await response.arrayBuffer();
-//   returnedBuffer = Buffer.from(arrayBuffer);
-//   // const { info, data } = await sharp(returnedBuffer).ensureAlpha().raw().toBuffer({
-//   //   resolveWithObject: true,
-//   // });
-//   return blurhash.encode(new Uint8ClampedArray(data), info.width, info.height, 4, 3);
-// };
 const getHashFromImage = (url) => {
     if ((url === null || url === void 0 ? void 0 : url.length) === 0) {
         return '';
     }
     else {
         let hash;
-        // generateHash(url).then(hashKey => (hash = hashKey));
         return 'hash';
     }
 };

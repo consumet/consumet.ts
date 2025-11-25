@@ -29,7 +29,6 @@ var StreamingServers;
     StreamingServers["VidCloud"] = "vidcloud";
     StreamingServers["StreamTape"] = "streamtape";
     StreamingServers["VizCloud"] = "vizcloud";
-    // same as vizcloud
     StreamingServers["MyCloud"] = "mycloud";
     StreamingServers["Filemoon"] = "filemoon";
     StreamingServers["VidStreaming"] = "vidstreaming";

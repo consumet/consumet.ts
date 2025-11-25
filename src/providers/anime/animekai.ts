@@ -1,4 +1,3 @@
-import { AxiosAdapter } from 'axios';
 import { CheerioAPI, load } from 'cheerio';
 
 import {
@@ -11,7 +10,6 @@ import {
   StreamingServers,
   MediaFormat,
   SubOrSub,
-  IAnimeEpisode,
   MediaStatus,
   Intro,
 } from '../../models';
@@ -26,19 +24,6 @@ class AnimeKai extends AnimeParser {
   protected override logo =
     'https://anikai.to//assets/uploads/37585a39fe8c8d8fafaa2c7bfbf5374ecac859ea6a0288a6da2c61f5.png';
   protected override classPath = 'ANIME.AnimeKai';
-
-  constructor(customBaseURL?: string) {
-    super(...arguments);
-    if (customBaseURL) {
-      if (customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')) {
-        this.baseUrl = customBaseURL;
-      } else {
-        this.baseUrl = `http://${customBaseURL}`;
-      }
-    } else {
-      this.baseUrl = this.baseUrl;
-    }
-  }
 
   /**
    * Search for anime
@@ -647,20 +632,5 @@ class AnimeKai extends AnimeParser {
     };
   }
 }
-
-// (async () => {
-//   const animekai = new AnimeKai();
-
-//   const schedule = await animekai.fetchSchedule();
-//   console.log(schedule);
-
-//   // const anime = await animekai.search('cyberpunk edgerunners');
-//   // const info = await animekai.fetchAnimeInfo(anime.results[0].id);
-//   // // console.log(info.episodes);
-//   // const servers = await animekai.fetchEpisodeServers(info?.episodes![0].id!);
-//   // console.log(servers)
-//   // const sources = await animekai.fetchEpisodeSources(info?.episodes![0].id!,servers[0].name as StreamingServers);
-//   // console.log(sources);
-// })();
 
 export default AnimeKai;

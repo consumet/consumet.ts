@@ -4,7 +4,6 @@ declare class Hianime extends AnimeParser {
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
-    constructor(customBaseURL?: string);
     /**
      * Search for anime
      * @param query Search query string

@@ -42,13 +42,6 @@ class KickAssAnime extends models_1.AnimeParser {
         this.baseUrl = 'https://kickass-anime.ru';
         this.logo = 'https://kickass-anime.ru/img/logo.png';
         this.classPath = 'ANIME.KickAssAnime';
-        this.fallbackDomains = [
-            'https://kickass-anime.ru',
-            'https://kickass-anime.ro',
-            'https://kaa.to',
-            'https://kaa.rs',
-            'https://kaa.si',
-        ];
         /**
          * Search for anime
          * @param query Search query string
@@ -56,45 +49,42 @@ class KickAssAnime extends models_1.AnimeParser {
          * @returns Promise<ISearch<IAnimeResult>>
          */
         this.search = async (query, page = 1) => {
-            // Try each domain until one works
-            for (const domain of this.fallbackDomains) {
-                try {
-                    const searchUrl = `${domain}/api/fsearch`;
-                    const headers = this.getHeaders(domain, 'search');
-                    const response = await this.client.post(searchUrl, {
-                        page: page,
-                        query: query,
-                    }, {
-                        headers,
-                        timeout: 10000,
+            try {
+                const searchUrl = `${this.baseUrl}/api/fsearch`;
+                const headers = this.getHeaders(this.baseUrl, 'search');
+                const response = await this.client.post(searchUrl, {
+                    page: page,
+                    query: query,
+                }, {
+                    headers,
+                    timeout: 10000,
+                });
+                const searchResults = response.data.result.map((anime) => {
+                    var _a, _b;
+                    return ({
+                        id: anime.slug,
+                        title: anime.title,
+                        url: anime.watch_uri ? `${this.baseUrl}${anime.watch_uri}` : `${this.baseUrl}/${anime.slug}`,
+                        image: anime.poster
+                            ? `${this.baseUrl}/image/${anime.poster.hq}.${anime.poster.formats[0]}`
+                            : undefined,
+                        releaseDate: (_a = anime.year) === null || _a === void 0 ? void 0 : _a.toString(),
+                        subOrDub: ((_b = anime.locales) === null || _b === void 0 ? void 0 : _b.includes('en-US')) ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB,
+                        status: this.mapStatus(anime.status),
+                        otherName: anime.title_en,
+                        totalEpisodes: anime.episode_count,
                     });
-                    const searchResults = response.data.result.map((anime) => {
-                        var _a, _b;
-                        return ({
-                            id: anime.slug,
-                            title: anime.title,
-                            url: anime.watch_uri ? `${domain}${anime.watch_uri}` : `${domain}/${anime.slug}`,
-                            image: anime.poster ? `${domain}/image/${anime.poster.hq}.${anime.poster.formats[0]}` : undefined,
-                            releaseDate: (_a = anime.year) === null || _a === void 0 ? void 0 : _a.toString(),
-                            subOrDub: ((_b = anime.locales) === null || _b === void 0 ? void 0 : _b.includes('en-US')) ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB,
-                            status: this.mapStatus(anime.status),
-                            otherName: anime.title_en,
-                            totalEpisodes: anime.episode_count,
-                        });
-                    });
-                    return {
-                        currentPage: page,
-                        hasNextPage: page < response.data.maxPage,
-                        totalPages: response.data.maxPage,
-                        results: searchResults,
-                    };
-                }
-                catch (error) {
-                    console.log(`Failed with domain ${domain}:`, error);
-                    continue; // Try next domain
-                }
+                });
+                return {
+                    currentPage: page,
+                    hasNextPage: page < response.data.maxPage,
+                    totalPages: response.data.maxPage,
+                    results: searchResults,
+                };
             }
-            throw new Error('All domains failed for search');
+            catch (err) {
+                throw new Error(err.message);
+            }
         };
         /**
          * Fetch detailed anime information
@@ -103,54 +93,52 @@ class KickAssAnime extends models_1.AnimeParser {
          */
         this.fetchAnimeInfo = async (id) => {
             var _a, _b, _c;
-            // Try each domain until one works
-            for (const domain of this.fallbackDomains) {
-                try {
-                    const headers = this.getHeaders(domain);
-                    // Get anime info
-                    const infoResponse = await this.client.get(`${domain}/api/show/${id}`, {
-                        headers,
-                        timeout: 10000,
-                    });
-                    const animeData = infoResponse.data;
-                    // Get episodes
-                    const episodesResponse = await this.client.get(`${domain}/api/show/${id}/episodes?page=1&lang=ja-JP`, {
-                        headers,
-                        timeout: 10000,
-                    });
-                    const episodes = episodesResponse.data.result.map((ep) => ({
-                        id: `${domain}/api/show/${id}/episode/ep-${Math.floor(ep.episode_number)}-${ep.slug}`,
-                        title: ep.title,
-                        number: Math.floor(ep.episode_number),
-                        image: ep.thumbnail ? `${domain}/image/${ep.thumbnail.hq}.${ep.thumbnail.formats[0]}` : undefined,
-                        url: `${domain}/api/show/${id}/episode/ep-${Math.floor(ep.episode_number)}-${ep.slug}`,
-                    }));
-                    return {
-                        id: animeData.slug,
-                        title: animeData.title_en || animeData.title,
-                        url: `${domain}/${animeData.slug}`,
-                        genres: animeData.genres || [],
-                        totalEpisodes: episodes.length,
-                        image: animeData.poster
-                            ? `${domain}/image/${animeData.poster.hq}.${animeData.poster.formats[0]}`
-                            : undefined,
-                        cover: animeData.banner
-                            ? `${domain}/image/${animeData.banner.hq}.${animeData.banner.formats[0]}`
-                            : undefined,
-                        description: animeData.synopsis,
-                        episodes: episodes,
-                        subOrDub: ((_a = animeData.locales) === null || _a === void 0 ? void 0 : _a.includes('en-US')) ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB,
-                        type: (_b = animeData.type) === null || _b === void 0 ? void 0 : _b.toUpperCase(),
-                        status: this.mapStatus(animeData.status),
-                        otherName: animeData.title_original,
-                        releaseDate: (_c = animeData.year) === null || _c === void 0 ? void 0 : _c.toString(),
-                    };
-                }
-                catch (error) {
-                    continue; // Try next domain
-                }
+            try {
+                const headers = this.getHeaders(this.baseUrl);
+                // Get anime info
+                const infoResponse = await this.client.get(`${this.baseUrl}/api/show/${id}`, {
+                    headers,
+                    timeout: 10000,
+                });
+                const animeData = infoResponse.data;
+                // Get episodes
+                const episodesResponse = await this.client.get(`${this.baseUrl}/api/show/${id}/episodes?page=1&lang=ja-JP`, {
+                    headers,
+                    timeout: 10000,
+                });
+                const episodes = episodesResponse.data.result.map((ep) => ({
+                    id: `${this.baseUrl}/api/show/${id}/episode/ep-${Math.floor(ep.episode_number)}-${ep.slug}`,
+                    title: ep.title,
+                    number: Math.floor(ep.episode_number),
+                    image: ep.thumbnail
+                        ? `${this.baseUrl}/image/${ep.thumbnail.hq}.${ep.thumbnail.formats[0]}`
+                        : undefined,
+                    url: `${this.baseUrl}/api/show/${id}/episode/ep-${Math.floor(ep.episode_number)}-${ep.slug}`,
+                }));
+                return {
+                    id: animeData.slug,
+                    title: animeData.title_en || animeData.title,
+                    url: `${this.baseUrl}/${animeData.slug}`,
+                    genres: animeData.genres || [],
+                    totalEpisodes: episodes.length,
+                    image: animeData.poster
+                        ? `${this.baseUrl}/image/${animeData.poster.hq}.${animeData.poster.formats[0]}`
+                        : undefined,
+                    cover: animeData.banner
+                        ? `${this.baseUrl}/image/${animeData.banner.hq}.${animeData.banner.formats[0]}`
+                        : undefined,
+                    description: animeData.synopsis,
+                    episodes: episodes,
+                    subOrDub: ((_a = animeData.locales) === null || _a === void 0 ? void 0 : _a.includes('en-US')) ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB,
+                    type: (_b = animeData.type) === null || _b === void 0 ? void 0 : _b.toUpperCase(),
+                    status: this.mapStatus(animeData.status),
+                    otherName: animeData.title_original,
+                    releaseDate: (_c = animeData.year) === null || _c === void 0 ? void 0 : _c.toString(),
+                };
             }
-            throw new Error('All domains failed for anime info');
+            catch (err) {
+                throw new Error(err.message);
+            }
         };
         /**
          * Fetch episode video sources and subtitles
@@ -159,48 +147,45 @@ class KickAssAnime extends models_1.AnimeParser {
          * @returns Promise<ISource>
          */
         this.fetchEpisodeSources = async (episodeId, server) => {
-            for (const domain of this.fallbackDomains) {
-                try {
-                    const headers = this.getHeaders(domain);
-                    const episodeUrl = `${domain}/api/show/${episodeId}`;
-                    const response = await this.client.get(episodeUrl, {
-                        headers,
-                        timeout: 10000,
-                    });
-                    const servers = response.data.servers || [];
-                    const sources = [];
-                    const subtitles = [];
-                    // Filter servers if specific server requested
-                    const targetServers = server
-                        ? servers.filter((s) => s.name.toLowerCase().includes(server.toLowerCase()))
-                        : servers;
-                    if (server && targetServers.length === 0) {
-                        throw new Error(`Server "${server}" not found`);
-                    }
-                    for (const serverData of targetServers) {
-                        try {
-                            const serverSources = await this.extractFromServer(serverData.src, serverData.name, headers);
-                            sources.push(...serverSources.sources);
-                            subtitles.push(...serverSources.subtitles);
-                        }
-                        catch (error) {
-                            // Silent fail, continue with other servers
-                        }
-                    }
-                    return {
-                        sources: sources,
-                        subtitles: subtitles,
-                        headers: {
-                            Referer: episodeUrl,
-                            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0',
-                        },
-                    };
+            try {
+                const headers = this.getHeaders(this.baseUrl);
+                const episodeUrl = `${this.baseUrl}/api/show/${episodeId}`;
+                const response = await this.client.get(episodeUrl, {
+                    headers,
+                    timeout: 10000,
+                });
+                const servers = response.data.servers || [];
+                const sources = [];
+                const subtitles = [];
+                // Filter servers if specific server requested
+                const targetServers = server
+                    ? servers.filter((s) => s.name.toLowerCase().includes(server.toLowerCase()))
+                    : servers;
+                if (server && targetServers.length === 0) {
+                    throw new Error(`Server "${server}" not found`);
                 }
-                catch (error) {
-                    // Try next domain
+                for (const serverData of targetServers) {
+                    try {
+                        const serverSources = await this.extractFromServer(serverData.src, serverData.name, headers);
+                        sources.push(...serverSources.sources);
+                        subtitles.push(...serverSources.subtitles);
+                    }
+                    catch (error) {
+                        // Silent fail, continue with other servers
+                    }
                 }
+                return {
+                    sources: sources,
+                    subtitles: subtitles,
+                    headers: {
+                        Referer: episodeUrl,
+                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0',
+                    },
+                };
             }
-            throw new Error('All domains failed for episode sources');
+            catch (err) {
+                throw new Error(err.message);
+            }
         };
         /**
          * Fetch available servers for an episode
@@ -208,25 +193,22 @@ class KickAssAnime extends models_1.AnimeParser {
          * @returns Promise<IEpisodeServer[]>
          */
         this.fetchEpisodeServers = async (episodeId) => {
-            for (const domain of this.fallbackDomains) {
-                try {
-                    const headers = this.getHeaders(domain);
-                    const episodeUrl = `${domain}/api/show/${episodeId}`;
-                    const response = await this.client.get(episodeUrl, {
-                        headers,
-                        timeout: 10000,
-                    });
-                    const servers = response.data.servers || [];
-                    return servers.map((server) => ({
-                        name: server.name,
-                        url: server.src,
-                    }));
-                }
-                catch (error) {
-                    // Try next domain
-                }
+            try {
+                const headers = this.getHeaders(this.baseUrl);
+                const episodeUrl = `${this.baseUrl}/api/show/${episodeId}`;
+                const response = await this.client.get(episodeUrl, {
+                    headers,
+                    timeout: 10000,
+                });
+                const servers = response.data.servers || [];
+                return servers.map((server) => ({
+                    name: server.name,
+                    url: server.src,
+                }));
             }
-            throw new Error('All domains failed for episode servers');
+            catch (err) {
+                throw new Error(err.message);
+            }
         };
     }
     /**
@@ -292,13 +274,10 @@ class KickAssAnime extends models_1.AnimeParser {
         return { sources, subtitles };
     }
     async extractCatBirdStream(url, serverName, requestHeaders) {
-        const baseUrl = new URL(url).origin;
         const headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0',
             Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.5',
-            // Remove Accept-Encoding to avoid compression issues
-            // 'Accept-Encoding': 'gzip, deflate, br, zstd',
             Referer: 'https://kaa.mx/',
             DNT: '1',
             'Sec-GPC': '1',
@@ -600,19 +579,4 @@ class KickAssAnime extends models_1.AnimeParser {
     }
 }
 exports.default = KickAssAnime;
-// (async () => {
-//   const kickass = new KickAssAnime();
-//   // Test 1: Search
-//   console.log('Search Results:', await kickass.search('Naruto'));
-//   // Test 2: Anime Info
-//   console.log('Anime Info:', await kickass.fetchAnimeInfo('naruto-f3cf'));
-//   // Test 3A: Episode Servers
-//   console.log('Episode Servers:', await kickass.fetchEpisodeServers('naruto-f3cf/episode/ep-1-12cd96'));
-//   // Test 3B: Episode Sources (All Servers)
-//   console.log('Episode Sources (All):', await kickass.fetchEpisodeSources('naruto-f3cf/episode/ep-1-12cd96'));
-//   // Test 3C: Episode Sources (VidStreaming Only)
-//   console.log('Episode Sources (VidStreaming):', await kickass.fetchEpisodeSources('naruto-f3cf/episode/ep-1-12cd96', StreamingServers.VidStreaming));
-//   // Test 3D: Episode Sources (BirdStream Only)
-//   console.log('Episode Sources (BirdStream):', await kickass.fetchEpisodeSources('naruto-f3cf/episode/ep-1-12cd96', StreamingServers.BirdStream));
-// })();
 //# sourceMappingURL=kickassanime.js.map
