@@ -63,13 +63,13 @@ jobs:
             yarn build
 
             echo "Restarting preview PM2 process..."
-            if sudo pm2 describe api.consumet.org-preview > /dev/null 2>&1; then
-              sudo pm2 restart api.consumet.org-preview
+            if pm2 describe api.consumet.org-preview > /dev/null 2>&1; then
+              pm2 restart api.consumet.org-preview
             else
-              sudo pm2 start ecosystem.preview.config.js
-              sudo pm2 save
+              pm2 start ecosystem.preview.config.js
+              pm2 save
             fi
 
             echo "Preview deployment completed!"
             echo "Available at: https://dev.api.consumet.org"
-            sudo pm2 status
+            pm2 status
