@@ -32,6 +32,7 @@ import {
   substringAfter,
   substringBefore,
   compareTwoStrings,
+  safeUnpack,
 } from './utils';
 import {
   anilistSearchQuery,
@@ -94,4 +95,5 @@ export {
   getKKey,
   MegaUp,
   Luffy,
+  safeUnpack,
 };

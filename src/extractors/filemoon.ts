@@ -1,7 +1,7 @@
 import { load } from 'cheerio';
 
 import { VideoExtractor, IVideo, ISubtitle, Intro, ISource } from '../models';
-import { USER_AGENT } from '../utils';
+import { USER_AGENT, safeUnpack } from '../utils';
 import { Console } from 'console';
 
 /**
@@ -11,7 +11,7 @@ class Filemoon extends VideoExtractor {
   protected override serverName = 'Filemoon';
   protected override sources: IVideo[] = [];
 
-  private readonly host = 'https://filemoon.sx';
+  private readonly baseUrl = 'https://filemoon.sx';
 
   override extract = async (videoUrl: URL): Promise<IVideo[]> => {
     const options = {
@@ -38,9 +38,14 @@ class Filemoon extends VideoExtractor {
     const $ = load(data);
     try {
       const { data } = await this.client.get($('iframe').attr('src')!, options)!;
-      const unpackedData = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)![2].replace('eval', ''));
+      const unpackedData = safeUnpack(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)![2]);
       const links = unpackedData.match(new RegExp('sources:\\[\\{file:"(.*?)"')) ?? [];
       const m3u8Link = links[1];
+
+      if (!m3u8Link) {
+        throw new Error('No m3u8 link found in unpacked data');
+      }
+
       this.sources.unshift({
         url: m3u8Link,
         quality: 'auto',

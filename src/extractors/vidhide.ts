@@ -1,4 +1,5 @@
 import { VideoExtractor, IVideo, ISubtitle } from '../models';
+import { safeUnpack } from '../utils/utils';
 
 class VidHide extends VideoExtractor {
   protected override serverName = 'VidHide';
@@ -15,9 +16,14 @@ class VidHide extends VideoExtractor {
         throw new Error('Video not found');
       });
 
-      const unpackedData = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)![2].replace('eval', ''));
+      const unpackedData = safeUnpack(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)![2]);
       const links = unpackedData.match(/https?:\/\/[^"]+?\.m3u8[^"]*/g) ?? [];
       const m3u8Link = links[0];
+
+      if (!m3u8Link) {
+        throw new Error('No m3u8 link found in unpacked data');
+      }
+
       const m3u8Content = await this.client.get(m3u8Link, {
         headers: {
           Referer: m3u8Link,
