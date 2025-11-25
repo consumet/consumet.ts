@@ -47,8 +47,9 @@ declare class Anilist extends AnimeParser {
      * @param year Year (optional) e.g. `2022`
      * @param status Status (optional) (options: `RELEASING`, `FINISHED`, `NOT_YET_RELEASED`, `CANCELLED`, `HIATUS`)
      * @param season Season (optional) (options: `WINTER`, `SPRING`, `SUMMER`, `FALL`)
+     * @param countryOfOrigin Country of origin (optional)
      */
-    advancedSearch: (query?: string, type?: string, page?: number, perPage?: number, format?: string, sort?: string[], genres?: Genres[] | string[], id?: string | number, year?: number, status?: string, season?: string) => Promise<ISearch<IAnimeResult>>;
+    advancedSearch: (query?: string, type?: string, page?: number, perPage?: number, format?: string, sort?: string[], genres?: Genres[] | string[], id?: string | number, year?: number, status?: string, season?: string, countryOfOrigin?: string) => Promise<ISearch<IAnimeResult>>;
     /**
      *
      * @param id Anime id
