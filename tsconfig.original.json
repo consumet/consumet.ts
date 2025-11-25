@@ -10,8 +10,8 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "lib": ["esnext"]
   },
-  "lib": ["esnext"],
   "include": ["src"]
 }
