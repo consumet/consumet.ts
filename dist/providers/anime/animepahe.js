@@ -211,6 +211,34 @@ class AnimePahe extends models_1.AnimeParser {
             throw new Error('Method not implemented.');
         };
     }
+    /**
+     * @param page page number (optional)
+     * @returns Promise<ISearch<IAnimeResult>>
+     */
+    async fetchRecentEpisodes(page = 1) {
+        try {
+            const { data } = await this.client.get(`${this.baseUrl}/api?m=airing&page=${page}`, {
+                headers: this.Headers(false),
+            });
+            const res = {
+                currentPage: data.current_page,
+                totalResults: data.total,
+                totalPages: data.last_page,
+                results: data.data.map((item) => ({
+                    id: item.anime_session,
+                    title: item.anime_title,
+                    episodeId: `${item.anime_session}/${item.session}`,
+                    episodeImage: item.snapshot,
+                    episodeNumber: item.episode,
+                    url: `${this.baseUrl}/play/${item.anime_session}/${item.session}`,
+                })),
+            };
+            return res;
+        }
+        catch (err) {
+            throw new Error(err.message);
+        }
+    }
     Headers(sessionId) {
         return {
             authority: 'animepahe.si',

@@ -11,6 +11,11 @@ declare class AnimePahe extends AnimeParser {
      */
     search: (query: string) => Promise<ISearch<IAnimeResult>>;
     /**
+     * @param page page number (optional)
+     * @returns Promise<ISearch<IAnimeResult>>
+     */
+    fetchRecentEpisodes(page?: number): Promise<ISearch<IAnimeResult>>;
+    /**
      * Fetch anime information
      * @param id Anime ID in format id/session
      * @param episodePage Episode page number (default: -1 for all episodes)
