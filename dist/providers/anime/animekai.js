@@ -5,14 +5,16 @@ const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const { GenerateToken, DecodeIframeData } = new utils_1.MegaUp();
 class AnimeKai extends models_1.AnimeParser {
-    constructor(customBaseURL) {
+    constructor() {
         super(...arguments);
         this.name = 'AnimeKai';
-        this.baseUrl = 'https://animekai.to';
-        this.logo = 'https://animekai.to/assets/uploads/37585a39fe8c8d8fafaa2c7bfbf5374ecac859ea6a0288a6da2c61f5.png';
+        this.baseUrl = 'https://anikai.to';
+        this.logo = 'https://anikai.to//assets/uploads/37585a39fe8c8d8fafaa2c7bfbf5374ecac859ea6a0288a6da2c61f5.png';
         this.classPath = 'ANIME.AnimeKai';
         /**
-         * @param id Anime id
+         * Fetch anime information
+         * @param id Anime ID/slug
+         * @returns Promise<IAnimeInfo>
          */
         this.fetchAnimeInfo = async (id) => {
             var _a;
@@ -104,11 +106,11 @@ class AnimeKai extends models_1.AnimeParser {
                 }
                 info.season = $('.entity-scroll > .detail').find("div:contains('Premiered') > span").text().trim();
                 const ani_id = $('.rate-box#anime-rating').attr('data-id');
-                const episodesAjax = await this.client.get(`${this.baseUrl}/ajax/episodes/list?ani_id=${ani_id}&_=${GenerateToken(ani_id)}`, {
+                const episodesAjax = await this.client.get(`${this.baseUrl}/ajax/episodes/list?ani_id=${ani_id}&_=${await GenerateToken(ani_id)}`, {
                     headers: {
+                        ...this.Headers(),
                         'X-Requested-With': 'XMLHttpRequest',
                         Referer: `${this.baseUrl}/watch/${id}`,
-                        ...this.Headers(),
                     },
                 });
                 const $$ = (0, cheerio_1.load)(episodesAjax.data.result);
@@ -140,10 +142,11 @@ class AnimeKai extends models_1.AnimeParser {
             }
         };
         /**
-         *
-         * @param episodeId Episode id
-         * @param server server type (default `VidCloud`) (optional)
-         * @param subOrDub sub or dub (default `SubOrSub.SUB`) (optional)
+         * Fetch episode video sources
+         * @param episodeId Episode ID
+         * @param server Server type (default: VidCloud)
+         * @param subOrDub Sub or dub preference (default: SUB)
+         * @returns Promise<ISource>
          */
         this.fetchEpisodeSources = async (episodeId, server = models_1.StreamingServers.MegaUp, subOrDub = models_1.SubOrSub.SUB) => {
             var _a, _b;
@@ -222,6 +225,7 @@ class AnimeKai extends models_1.AnimeParser {
                 return res;
             }
             catch (err) {
+                console.error('scrapeCardPage error for URL:', url, 'Error:', err.message);
                 throw new Error('Something went wrong. Please try again later.');
             }
         };
@@ -254,35 +258,39 @@ class AnimeKai extends models_1.AnimeParser {
                 return results;
             }
             catch (err) {
+                console.error('scrapeCard error:', err);
                 throw new Error('Something went wrong. Please try again later.');
             }
         };
         /**
-         * @param episodeId Episode id
-         * @param subOrDub sub or dub (default `sub`) (optional)
+         * Fetch available episode servers
+         * @param episodeId Episode ID
+         * @param subOrDub Sub or dub preference (default: SUB)
+         * @returns Promise<IEpisodeServer[]>
          */
         this.fetchEpisodeServers = async (episodeId, subOrDub = models_1.SubOrSub.SUB) => {
             if (!episodeId.startsWith(this.baseUrl + '/ajax'))
-                episodeId = `${this.baseUrl}/ajax/links/list?token=${episodeId.split('$token=')[1]}&_=${GenerateToken(episodeId.split('$token=')[1])}`;
+                episodeId = `${this.baseUrl}/ajax/links/list?token=${episodeId.split('$token=')[1]}&_=${await GenerateToken(episodeId.split('$token=')[1])}`;
             try {
                 const { data } = await this.client.get(episodeId, { headers: this.Headers() });
                 const $ = (0, cheerio_1.load)(data.result);
                 const servers = [];
-                const serverItems = $(`.server-items.lang-group[data-id="${subOrDub}"] .server`);
+                const subOrDubStr = subOrDub === models_1.SubOrSub.SUB ? 'softsub' : 'dub';
+                const serverItems = $(`.server-items.lang-group[data-id="${subOrDubStr}"] .server`);
                 await Promise.all(serverItems.map(async (i, server) => {
                     const id = $(server).attr('data-lid');
-                    const { data } = await this.client.get(`${this.baseUrl}/ajax/links/view?id=${id}&_=${GenerateToken(id)}`, { headers: this.Headers() });
-                    const decodedData = JSON.parse(DecodeIframeData(data.result));
+                    const { data } = await this.client.get(`${this.baseUrl}/ajax/links/view?id=${id}&_=${await GenerateToken(id)}`, { headers: this.Headers() });
+                    const decodedIframeData = await DecodeIframeData(data.result);
                     servers.push({
                         name: `MegaUp ${$(server).text().trim()}`.toLowerCase(), //megaup is the only server for now
-                        url: decodedData.url,
+                        url: decodedIframeData.url,
                         intro: {
-                            start: decodedData === null || decodedData === void 0 ? void 0 : decodedData.skip.intro[0],
-                            end: decodedData === null || decodedData === void 0 ? void 0 : decodedData.skip.intro[1],
+                            start: decodedIframeData === null || decodedIframeData === void 0 ? void 0 : decodedIframeData.skip.intro[0],
+                            end: decodedIframeData === null || decodedIframeData === void 0 ? void 0 : decodedIframeData.skip.intro[1],
                         },
                         outro: {
-                            start: decodedData === null || decodedData === void 0 ? void 0 : decodedData.skip.outro[0],
-                            end: decodedData === null || decodedData === void 0 ? void 0 : decodedData.skip.outro[1],
+                            start: decodedIframeData === null || decodedIframeData === void 0 ? void 0 : decodedIframeData.skip.outro[0],
+                            end: decodedIframeData === null || decodedIframeData === void 0 ? void 0 : decodedIframeData.skip.outro[1],
                         },
                     });
                 }));
@@ -292,21 +300,12 @@ class AnimeKai extends models_1.AnimeParser {
                 throw new Error(err.message);
             }
         };
-        if (customBaseURL) {
-            if (customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')) {
-                this.baseUrl = customBaseURL;
-            }
-            else {
-                this.baseUrl = `http://${customBaseURL}`;
-            }
-        }
-        else {
-            this.baseUrl = this.baseUrl;
-        }
     }
     /**
-     * @param query Search query
-     * @param page Page number (optional)
+     * Search for anime
+     * @param query Search query string
+     * @param page Page number (default: 1)
+     * @returns Promise<ISearch<IAnimeResult>>
      */
     search(query, page = 1) {
         if (0 >= page) {
@@ -434,8 +433,12 @@ class AnimeKai extends models_1.AnimeParser {
                 results: [],
             };
             const { data } = await this.client.get(`${this.baseUrl}/ajax/schedule/items?tz=5.5&time=${Math.floor(new Date(`${date}T00:00:00Z`).getTime() / 1000)}`, { headers: this.Headers() });
-            const $ = (0, cheerio_1.load)(data.result);
-            $('ul.collapsed li').each((i, ele) => {
+            let htmlContent = data.result || data;
+            if (typeof htmlContent === 'object' && htmlContent.html) {
+                htmlContent = htmlContent.html;
+            }
+            const $ = (0, cheerio_1.load)(htmlContent);
+            $('ul li').each((i, ele) => {
                 var _a;
                 const card = $(ele);
                 const titleElement = card.find('span.title');
@@ -451,6 +454,7 @@ class AnimeKai extends models_1.AnimeParser {
             return res;
         }
         catch (err) {
+            console.error('Schedule fetch error:', err);
             throw new Error('Something went wrong. Please try again later.');
         }
     }
@@ -538,7 +542,8 @@ class AnimeKai extends models_1.AnimeParser {
     }
     Headers() {
         return {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36',
+            Connection: 'keep-alive',
             Accept: 'text/html, */*; q=0.01',
             'Accept-Language': 'en-US,en;q=0.5',
             'Sec-GPC': '1',
@@ -549,17 +554,9 @@ class AnimeKai extends models_1.AnimeParser {
             Pragma: 'no-cache',
             'Cache-Control': 'no-cache',
             Referer: `${this.baseUrl}/`,
-            Cookie: 'usertype=guest; session=hxYne0BNXguMc8zK1FHqQKXPmmoANzBBOuNPM64a; cf_clearance=WfGWV1bKGAaNySbh.yzCyuobBOtjg0ncfPwMhtsvsrs-1737611098-1.2.1.1-zWHcaytuokjFTKbCAxnSPDc_BWAeubpf9TAAVfuJ2vZuyYXByqZBXAZDl_VILwkO5NOLck8N0C4uQr4yGLbXRcZ_7jfWUvfPGayTADQLuh.SH.7bvhC7DmxrMGZ8SW.hGKEQzRJf8N7h6ZZ27GMyqOfz1zfrOiu9W30DhEtW2N7FAXUPrdolyKjCsP1AK3DqsDtYOiiPNLnu47l.zxK80XogfBRQkiGecCBaeDOJHenjn._Zgykkr.F_2bj2C3AS3A5mCpZSlWK5lqhV6jQSQLF9wKWitHye39V.6NoE3RE',
+            Cookie: '__p_mov=1; usertype=guest; session=vLrU4aKItp0QltI2asH83yugyWDsSSQtyl9sxWKO',
         };
     }
 }
-//(async () => {
-//  const animekai = new AnimeKai();
-//  const anime = await animekai.search('dandadan');
-//  const info = await animekai.fetchAnimeInfo('solo-leveling-season-2-arise-from-the-shadow-x7rq');
-//  console.log(info.episodes);
-//  const sources = await animekai.fetchEpisodeSources(info?.episodes![0].id!);
-//  console.log(sources);
-//})();
 exports.default = AnimeKai;
 //# sourceMappingURL=animekai.js.map

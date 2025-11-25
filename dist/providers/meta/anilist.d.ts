@@ -9,7 +9,7 @@ declare class Anilist extends AnimeParser {
     private readonly anilistGraphqlUrl;
     private readonly kitsuGraphqlUrl;
     private readonly malSyncUrl;
-    private readonly anifyUrl;
+    private anifyUrl;
     provider: AnimeParser;
     /**
      * This class maps anilist to kitsu with any other anime provider.
@@ -18,7 +18,16 @@ declare class Anilist extends AnimeParser {
      * @param proxyConfig proxy config (optional)
      * @param adapter axios adapter (optional)
      */
-    constructor(provider?: AnimeParser, proxyConfig?: ProxyConfig | undefined, adapter?: AxiosAdapter, customBaseURL?: string);
+    constructor(provider?: AnimeParser, proxyConfig?: ProxyConfig | undefined, adapter?: AxiosAdapter);
+    /**
+     * @param authToken Anilist auth token
+     * @param type Type of favorites to fetch: 'ANIME', 'MANGA', or 'BOTH' (default: 'BOTH')
+     * @returns favorite lists
+     */
+    fetchFavoriteList: (authToken: string, type?: "ANIME" | "MANGA" | "BOTH") => Promise<{
+        anime?: IAnimeInfo[];
+        manga?: IAnimeInfo[];
+    }>;
     /**
      * @param query Search query
      * @param page Page number (optional)
@@ -94,11 +103,11 @@ declare class Anilist extends AnimeParser {
      */
     fetchRandomAnime: () => Promise<IAnimeInfo>;
     /**
-     * @param provider The provider to get the episode Ids from (optional) default: `gogoanime` (options: `gogoanime`, `zoro`)
+     * @param provider The provider to get the episode Ids from (optional) default: `gogoanime` (options: `gogoanime`, `Hianime`)
      * @param page page number (optional)
      * @param perPage number of results per page (optional)
      */
-    fetchRecentEpisodes: (provider?: "gogoanime" | "zoro", page?: number, perPage?: number) => Promise<ISearch<IAnimeResult>>;
+    fetchRecentEpisodes: (provider?: "gogoanime" | "Hianime", page?: number, perPage?: number) => Promise<ISearch<IAnimeResult>>;
     private fetchDefaultEpisodeList;
     /**
      * @param id anilist id

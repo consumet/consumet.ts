@@ -2,7 +2,7 @@
 
 Always reference these instructions first and fallback to search or bash commands only when you encounter unexpected information that does not match the info here.
 
-consumet.ts is a Node.js TypeScript library that provides high-level APIs for scraping entertainment media information including anime, manga, books, movies, comics, light novels, and news from various providers.
+consumet.ts is a Node.js TypeScript library that provides high-level APIs for scraping entertainment media information including anime, manga, movies, light novels, and news from various providers.
 
 ## Working Effectively
 
@@ -14,24 +14,19 @@ consumet.ts is a Node.js TypeScript library that provides high-level APIs for sc
 ### Bootstrap and Setup
 Run these commands in order to set up the development environment:
 
-1. `yarn install --ignore-engines` -- installs dependencies (40 seconds). NEVER CANCEL.
-2. `yarn build` -- compiles TypeScript to JavaScript (5 seconds). **NOTE: May fail with TypeScript errors - see Build Issues section.**
+1. `yarn install` -- installs dependencies (40 seconds). NEVER CANCEL.
+2. `yarn build` -- compiles TypeScript to JavaScript (5 seconds).
 3. Basic functionality test: `node -e "const { ANIME } = require('./dist'); console.log('Providers:', Object.keys(ANIME));"`
 
 ### Build Process
 - `yarn build` -- compiles TypeScript (5 seconds)
 - `yarn lint` -- runs prettier formatting (4 seconds)
-- **CRITICAL BUILD ISSUE**: The build may fail with TypeScript errors in `src/extractors/megacloud/megacloud.getsrcs.ts`. If this happens:
-  - Add `// @ts-nocheck` at the top of the file after the first comment line
-  - This disables type checking for that specific file and allows the build to complete
 
 ### Testing
 - `yarn test` -- runs full test suite (16 seconds). NEVER CANCEL.
 - `yarn test:anime` -- runs anime provider tests only
-- `yarn test:books` -- runs book provider tests only  
 - `yarn test:movies` -- runs movie provider tests only
 - `yarn test:manga` -- runs manga provider tests only
-- `yarn test:comics` -- runs comic provider tests only
 - `yarn test:lightnovels` -- runs light novel provider tests only
 - `yarn test:news` -- runs news provider tests only
 - `yarn test:meta` -- runs metadata provider tests only
@@ -39,11 +34,10 @@ Run these commands in order to set up the development environment:
   - Network connectivity issues
   - Website structure changes
   - Rate limiting from target sites
-  - Provider initialization errors (especially AnimeOwl)
 
 ### Key Commands with Timing
-- `yarn install --ignore-engines` (40s) - NEVER CANCEL
-- `yarn build` (5s) - may require TypeScript fix
+- `yarn install` (40s) - NEVER CANCEL
+- `yarn build` (5s)
 - `yarn lint` (4s) 
 - `yarn test` (16s) - NEVER CANCEL, failures expected
 - Set timeouts to 60+ seconds for install, 30+ seconds for build/test operations
@@ -59,8 +53,6 @@ Run these commands in order to set up the development environment:
 When testing provider functionality:
 - Verify imports work: Check that `require('./dist')` loads without module errors
 - Test provider instantiation by creating instances in Node.js REPL
-- Use examples in `examples/` directory as reference (run with `npx ts-node examples/one-piece.ts`)
-- Be aware that AnimeOwl provider may show initialization errors in background - this is normal
 - Focus on testing code structure and imports rather than network-dependent scraping results
 
 ## Common Tasks
@@ -89,23 +81,20 @@ Always run these manually before committing: `yarn lint && yarn build` (9 second
 
 ```
 src/
-├── extractors/          # Media stream extractors (VidCloud, etc.)
+├── extractors/          # Media stream extractors (VidCloud, MegaCloud, etc.)
 ├── models/             # Base classes and type definitions
 ├── providers/          # Content providers organized by category
-│   ├── anime/         # Anime providers (Gogoanime, Zoro, etc.)
-│   ├── books/         # Book providers (Libgen)
-│   ├── manga/         # Manga providers (MangaDex, etc.) 
-│   ├── movies/        # Movie providers (FlixHQ, etc.)
-│   ├── comics/        # Comic providers
+│   ├── anime/         # Anime providers (HiAnime, AnimePahe, KickAssAnime, etc.)
+│   ├── manga/         # Manga providers (MangaHere, WeebCentral, etc.) 
+│   ├── movies/        # Movie providers (FlixHQ, SFlix, etc.)
 │   ├── light-novels/  # Light novel providers
-│   ├── meta/          # Metadata providers (AniList, TMDB)
+│   ├── meta/          # Metadata providers (AniList, TMDB, MAL)
 │   └── news/          # News providers
 └── utils/             # Shared utilities
 
 test/                  # Integration tests (mirror src structure)
 dist/                  # Compiled JavaScript output
 docs/                  # Documentation and guides
-examples/              # Usage examples (TypeScript)
 ```
 
 ### Key Files to Monitor
@@ -117,12 +106,7 @@ examples/              # Usage examples (TypeScript)
 
 ## Known Issues
 
-### Build Issues
-- **TypeScript compilation errors in megacloud extractor**: Add `// @ts-nocheck` to fix
-- **Strict nullish coalescing errors**: Fixed in current codebase
-
 ### Runtime Issues  
-- **AnimeOwl provider errors**: Background initialization failures are normal, don't affect other providers
 - **Network timeouts**: Common in tests due to scraping external sites
 - **Provider failures**: External website changes frequently break scrapers
 

@@ -19,42 +19,41 @@ class FlixHQ extends MovieParser {
   protected override classPath = 'MOVIES.FlixHQ';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
 
+  private static readonly NAV_SELECTOR =
+    'div.pre-pagination:nth-child(3) > nav:nth-child(1) > ul:nth-child(1)';
+
   /**
-   *
+   * Search for movies or TV shows
    * @param query search query string
-   * @param page page number (default 1) (optional)
+   * @param page page number (default 1)
    */
   override search = async (query: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
-    const searchResult: ISearch<IMovieResult> = {
-      currentPage: page,
-      hasNextPage: false,
-      results: [],
-    };
     try {
-      const { data } = await this.client.get(
-        `${this.baseUrl}/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`
-      );
+      const sanitizedQuery = query.replace(/[\W_]+/g, '-');
+      const { data } = await this.client.get(`${this.baseUrl}/search/${sanitizedQuery}?page=${page}`);
 
       const $ = load(data);
-
-      const navSelector = 'div.pre-pagination:nth-child(3) > nav:nth-child(1) > ul:nth-child(1)';
+      const searchResult: ISearch<IMovieResult> = {
+        currentPage: page,
+        hasNextPage: false,
+        results: [],
+      };
 
       searchResult.hasNextPage =
-        $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
+        $(FlixHQ.NAV_SELECTOR).length > 0 && !$(FlixHQ.NAV_SELECTOR).children().last().hasClass('active');
 
-      $('.film_list-wrap > div.flw-item').each((i, el) => {
-        const releaseDate = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
+      $('.film_list-wrap > div.flw-item').each((_, el) => {
+        const $el = $(el);
+        const releaseDate = $el.find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
+
         searchResult.results.push({
-          id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
-          title: $(el).find('div.film-detail > h2 > a').attr('title')!,
-          url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-          image: $(el).find('div.film-poster > img').attr('data-src'),
+          id: $el.find('div.film-poster > a').attr('href')?.slice(1)!,
+          title: $el.find('div.film-detail > h2 > a').attr('title')!,
+          url: `${this.baseUrl}${$el.find('div.film-poster > a').attr('href')}`,
+          image: $el.find('div.film-poster > img').attr('data-src'),
           releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
           seasons: releaseDate.includes('SS') ? parseInt(releaseDate.split('SS')[1]) : undefined,
-          type:
-            $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
-              ? TvType.MOVIE
-              : TvType.TVSERIES,
+          type: this.parseMediaType($el.find('div.film-detail > div.fd-infor > span.float-right').text()),
         });
       });
 
@@ -65,7 +64,7 @@ class FlixHQ extends MovieParser {
   };
 
   /**
-   *
+   * Fetch detailed media information
    * @param mediaId media link or id
    */
   override fetchMediaInfo = async (mediaId: string): Promise<IMovieInfo> => {
@@ -170,10 +169,50 @@ class FlixHQ extends MovieParser {
   };
 
   /**
-   *
-   * @param episodeId episode id
+   * Fetch available episode servers
+   * @param episodeId episode link or movie id
+   * @param mediaId movie link or id
+   */
+  override fetchEpisodeServers = async (episodeId: string, mediaId: string): Promise<IEpisodeServer[]> => {
+    const isMovie = mediaId.includes('movie');
+
+    const serverUrl = isMovie
+      ? `${this.baseUrl}/ajax/movie/episodes/${episodeId}`
+      : episodeId.startsWith(this.baseUrl + '/ajax')
+      ? episodeId
+      : `${this.baseUrl}/ajax/v2/episode/servers/${episodeId}`;
+
+    try {
+      const { data } = await this.client.get(serverUrl);
+      const $ = load(data);
+
+      const servers = $('.nav > li')
+        .map((_, el) => {
+          const $el = $(el);
+          const title = $el.find('a').attr('title')!;
+          const dataId = isMovie ? $el.find('a').attr('data-linkid') : $el.find('a').attr('data-id');
+          const urlPattern = isMovie ? /\/movie\// : /\/tv\//;
+          const replacement = isMovie ? '/watch-movie/' : '/watch-tv/';
+
+          return {
+            name: isMovie ? title.toLowerCase() : title.slice(6).trim().toLowerCase(),
+            url: `${this.baseUrl}/${mediaId}.${dataId}`.replace(urlPattern, replacement),
+            id: dataId,
+          };
+        })
+        .get();
+
+      return servers;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  };
+
+  /**
+   * Fetch episode sources from a specific server
+   * @param episodeId episode id or URL
    * @param mediaId media id
-   * @param server server type (default `VidCloud`) (optional)
+   * @param server streaming server type (default UpCloud)
    */
   override fetchEpisodeSources = async (
     episodeId: string,
@@ -191,16 +230,12 @@ class FlixHQ extends MovieParser {
         case StreamingServers.VidCloud:
           return {
             headers: { Referer: serverUrl.href },
-            ...(await new VidCloud(this.proxyConfig, this.adapter).extract(serverUrl, true, this.baseUrl)),
+            ...(await new VidCloud(this.proxyConfig, this.adapter).extract(serverUrl, this.baseUrl)),
           };
         case StreamingServers.UpCloud:
           return {
             headers: { Referer: serverUrl.href },
-            ...(await new VidCloud(this.proxyConfig, this.adapter).extract(
-              serverUrl,
-              undefined,
-              this.baseUrl
-            )),
+            ...(await new VidCloud(this.proxyConfig, this.adapter).extract(serverUrl, this.baseUrl)),
           };
         default:
           return {
@@ -227,302 +262,248 @@ class FlixHQ extends MovieParser {
 
       return await this.fetchEpisodeSources(serverUrl.href, mediaId, server);
     } catch (err) {
-      console.log(err, 'err');
       throw new Error((err as Error).message);
     }
   };
 
   /**
-   *
-   * @param episodeId takes episode link or movie id
-   * @param mediaId takes movie link or id (found on movie info object)
+   * Fetch recent movies
    */
-  override fetchEpisodeServers = async (episodeId: string, mediaId: string): Promise<IEpisodeServer[]> => {
-    if (!episodeId.startsWith(this.baseUrl + '/ajax') && !mediaId.includes('movie'))
-      episodeId = `${this.baseUrl}/ajax/v2/episode/servers/${episodeId}`;
-    else episodeId = `${this.baseUrl}/ajax/movie/episodes/${episodeId}`;
-
-    try {
-      const { data } = await this.client.get(episodeId);
-      const $ = load(data);
-
-      const servers = $('.nav > li')
-        .map((i, el) => {
-          const server = {
-            name: mediaId.includes('movie')
-              ? $(el).find('a').attr('title')!.toLowerCase()
-              : $(el).find('a').attr('title')!.slice(6).trim().toLowerCase(),
-            url: `${this.baseUrl}/${mediaId}.${
-              !mediaId.includes('movie')
-                ? $(el).find('a').attr('data-id')
-                : $(el).find('a').attr('data-linkid')
-            }`.replace(
-              !mediaId.includes('movie') ? /\/tv\// : /\/movie\//,
-              !mediaId.includes('movie') ? '/watch-tv/' : '/watch-movie/'
-            ),
-          };
-          return server;
-        })
-        .get();
-      return servers;
-    } catch (err) {
-      throw new Error((err as Error).message);
-    }
-  };
-
   fetchRecentMovies = async (): Promise<IMovieResult[]> => {
-    try {
-      const { data } = await this.client.get(`${this.baseUrl}/home`);
-      const $ = load(data);
-
-      const movies = $(
-        'section.block_area:contains("Latest Movies") > div:nth-child(2) > div:nth-child(1) > div.flw-item'
-      )
-        .map((i, el) => {
-          const releaseDate = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
-          const movie: any = {
-            id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
-            title: $(el).find('div.film-detail > h3.film-name > a').attr('title')!,
-            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-            image: $(el).find('div.film-poster > img').attr('data-src'),
-            releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
-            duration: $(el).find('div.film-detail > div.fd-infor > span.fdi-duration').text() || null,
-            type:
-              $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
-                ? TvType.MOVIE
-                : TvType.TVSERIES,
-          };
-          return movie;
-        })
-        .get();
-      return movies;
-    } catch (err) {
-      throw new Error((err as Error).message);
-    }
+    return this.fetchHomeSection('Latest Movies');
   };
 
+  /**
+   * Fetch recent TV shows
+   */
   fetchRecentTvShows = async (): Promise<IMovieResult[]> => {
-    try {
-      const { data } = await this.client.get(`${this.baseUrl}/home`);
-      const $ = load(data);
-
-      const tvshows = $(
-        'section.block_area:contains("Latest TV Shows") > div:nth-child(2) > div:nth-child(1) > div.flw-item'
-      )
-        .map((i, el) => {
-          const tvshow = {
-            id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
-            title: $(el).find('div.film-detail > h3.film-name > a').attr('title')!,
-            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-            image: $(el).find('div.film-poster > img').attr('data-src'),
-            season: $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text(),
-            latestEpisode: $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() || null,
-            type:
-              $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
-                ? TvType.MOVIE
-                : TvType.TVSERIES,
-          };
-          return tvshow;
-        })
-        .get();
-      return tvshows;
-    } catch (err) {
-      throw new Error((err as Error).message);
-    }
+    return this.fetchHomeSection('Latest TV Shows', true);
   };
 
+  /**
+   * Fetch trending movies
+   */
   fetchTrendingMovies = async (): Promise<IMovieResult[]> => {
-    try {
-      const { data } = await this.client.get(`${this.baseUrl}/home`);
-      const $ = load(data);
-
-      const movies = $('div#trending-movies div.film_list-wrap div.flw-item')
-        .map((i, el) => {
-          const releaseDate = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
-          const movie: any = {
-            id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
-            title: $(el).find('div.film-detail > h3.film-name > a').attr('title')!,
-            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-            image: $(el).find('div.film-poster > img').attr('data-src'),
-            releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
-            duration: $(el).find('div.film-detail > div.fd-infor > span.fdi-duration').text() || null,
-            type:
-              $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
-                ? TvType.MOVIE
-                : TvType.TVSERIES,
-          };
-          return movie;
-        })
-        .get();
-      return movies;
-    } catch (err) {
-      throw new Error((err as Error).message);
-    }
+    return this.fetchHomeSectionById('trending-movies');
   };
 
+  /**
+   * Fetch trending TV shows
+   */
   fetchTrendingTvShows = async (): Promise<IMovieResult[]> => {
-    try {
-      const { data } = await this.client.get(`${this.baseUrl}/home`);
-      const $ = load(data);
-
-      const tvshows = $('div#trending-tv div.film_list-wrap div.flw-item')
-        .map((i, el) => {
-          const tvshow = {
-            id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
-            title: $(el).find('div.film-detail > h3.film-name > a').attr('title')!,
-            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-            image: $(el).find('div.film-poster > img').attr('data-src'),
-            season: $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text(),
-            latestEpisode: $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() || null,
-            type:
-              $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
-                ? TvType.MOVIE
-                : TvType.TVSERIES,
-          };
-          return tvshow;
-        })
-        .get();
-      return tvshows;
-    } catch (err) {
-      throw new Error((err as Error).message);
-    }
+    return this.fetchHomeSectionById('trending-tv', true);
   };
 
+  /**
+   * Fetch content by country
+   * @param country country name
+   * @param page page number (default 1)
+   */
   fetchByCountry = async (country: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
-    const result: ISearch<IMovieResult> = {
-      currentPage: page,
-      hasNextPage: false,
-      results: [],
-    };
-    const navSelector = 'div.pre-pagination:nth-child(3) > nav:nth-child(1) > ul:nth-child(1)';
-
-    try {
-      const { data } = await this.client.get(`${this.baseUrl}/country/${country}/?page=${page}`);
-      const $ = load(data);
-
-      result.hasNextPage =
-        $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
-
-      $('div.container > section.block_area > div.block_area-content > div.film_list-wrap > div.flw-item')
-        .each((i, el) => {
-          const resultItem: IMovieResult = {
-            id: $(el).find('div.film-poster > a').attr('href')?.slice(1) ?? '',
-            title: $(el).find('div.film-detail > h2.film-name > a').attr('title') ?? '',
-            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-            image: $(el).find('div.film-poster > img').attr('data-src'),
-            type:
-              $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
-                ? TvType.MOVIE
-                : TvType.TVSERIES,
-          };
-          const season = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
-          const latestEpisode =
-            $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() ?? null;
-          if (resultItem.type === TvType.TVSERIES) {
-            resultItem.season = season;
-            resultItem.latestEpisode = latestEpisode;
-          } else {
-            resultItem.releaseDate = season;
-            resultItem.duration = latestEpisode;
-          }
-          result.results.push(resultItem);
-        })
-        .get();
-      return result;
-    } catch (err) {
-      throw new Error((err as Error).message);
-    }
+    return this.fetchByFilter('country', country, page);
   };
 
+  /**
+   * Fetch content by genre
+   * @param genre genre name
+   * @param page page number (default 1)
+   */
   fetchByGenre = async (genre: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
-    const result: ISearch<IMovieResult> = {
-      currentPage: page,
-      hasNextPage: false,
-      results: [],
-    };
-    try {
-      const { data } = await this.client.get(`${this.baseUrl}/genre/${genre}?page=${page}`);
-
-      const $ = load(data);
-
-      const navSelector = 'div.pre-pagination:nth-child(3) > nav:nth-child(1) > ul:nth-child(1)';
-
-      result.hasNextPage =
-        $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
-
-      $('.film_list-wrap > div.flw-item')
-        .each((i, el) => {
-          const resultItem: IMovieResult = {
-            id: $(el).find('div.film-poster > a').attr('href')?.slice(1) ?? '',
-            title: $(el).find('div.film-detail > h2 > a').attr('title') ?? '',
-            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-            image: $(el).find('div.film-poster > img').attr('data-src'),
-            type:
-              $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
-                ? TvType.MOVIE
-                : TvType.TVSERIES,
-          };
-          const season = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
-          const latestEpisode =
-            $(el).find('div.film-detail > div.fd-infor > span:nth-child(3)').text() ?? null;
-          if (resultItem.type === TvType.TVSERIES) {
-            resultItem.season = season;
-            resultItem.latestEpisode = latestEpisode;
-          } else {
-            resultItem.releaseDate = season;
-            resultItem.duration = latestEpisode;
-          }
-          result.results.push(resultItem);
-        })
-        .get();
-
-      return result;
-    } catch (err) {
-      throw new Error((err as Error).message);
-    }
+    return this.fetchByFilter('genre', genre, page);
   };
 
+  /**
+   * Fetch spotlight/featured content
+   */
   fetchSpotlight = async (): Promise<ISearch<IMovieResult>> => {
     try {
-      const results: ISearch<IMovieResult> = { results: [] };
       const { data } = await this.client.get(`${this.baseUrl}/home`);
-
       const $ = load(data);
 
-      $('div.swiper-slide').each((i, el) => {
+      const results: ISearch<IMovieResult> = { results: [] };
+
+      $('div.swiper-slide').each((_, el) => {
+        const $el = $(el);
+        const href = $el.find('a').attr('href');
+
         results.results.push({
-          id: $(el).find('a').attr('href')?.slice(1)!,
-          title: $(el).find('a').attr('title')!,
-          url: `${this.baseUrl}${$(el).find('a').attr('href')}`,
-          cover: $(el)
+          id: href?.slice(1)!,
+          title: $el.find('a').attr('title')!,
+          url: `${this.baseUrl}${href}`,
+          cover: $el
             ?.css('background-image')
             ?.replace(/url\(["']?(.+?)["']?\)/, '$1')
             .trim(),
-          duration: $(el).find('.scd-item:contains("Duration") strong').text().trim(),
-          rating: $(el).find('.scd-item:contains("IMDB") strong').text().trim(),
-          genres: $(el)
+          duration: $el.find('.scd-item:contains("Duration") strong').text().trim(),
+          rating: $el.find('.scd-item:contains("IMDB") strong').text().trim(),
+          genres: $el
             .find('.scd-item:contains("Genre") .slide-genre-item')
-            .map((i, el) => $(el).text().trim())
+            .map((_, el) => $(el).text().trim())
             .get(),
-          description: $(el).find('.sc-desc').text().trim(),
-          type: $(el).find('a').attr('href')?.split('/')[1] === 'movie' ? TvType.MOVIE : TvType.TVSERIES,
+          description: $el.find('.sc-desc').text().trim(),
+          type: href?.split('/')[1] === 'movie' ? TvType.MOVIE : TvType.TVSERIES,
         });
       });
+
       return results;
     } catch (err) {
-      console.error(err);
       throw new Error((err as Error).message);
     }
   };
-}
 
-// (async () => {
-//    const movie = new FlixHQ();
-//   // const search = await movie.search('the flash');
-//   // const movieInfo = await movie.fetchEpisodeSources('1168337', 'tv/watch-vincenzo-67955');
-//   // const recentTv = await movie.fetchTrendingTvShows();
-//    const genre = await movie.fetchSpotlight()
-//    console.log(genre)
-// })();
+  /**
+   * Fetch content from home page by section title
+   * @param sectionTitle section title to search for
+   * @param isTvShow whether content is TV shows
+   */
+  private async fetchHomeSection(sectionTitle: string, isTvShow: boolean = false): Promise<IMovieResult[]> {
+    try {
+      const { data } = await this.client.get(`${this.baseUrl}/home`);
+      const $ = load(data);
+
+      const results = $(
+        `section.block_area:contains("${sectionTitle}") > div:nth-child(2) > div:nth-child(1) > div.flw-item`
+      )
+        .map((_, el) => {
+          const $el = $(el);
+          const firstSpan = $el.find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
+          const result: any = {
+            id: $el.find('div.film-poster > a').attr('href')?.slice(1)!,
+            title: $el.find('div.film-detail > h3.film-name > a').attr('title')!,
+            url: `${this.baseUrl}${$el.find('div.film-poster > a').attr('href')}`,
+            image: $el.find('div.film-poster > img').attr('data-src'),
+            type: this.parseMediaType($el.find('div.film-detail > div.fd-infor > span.float-right').text()),
+          };
+
+          if (isTvShow) {
+            result.season = firstSpan;
+            result.latestEpisode =
+              $el.find('div.film-detail > div.fd-infor > span:nth-child(3)').text() || null;
+          } else {
+            result.releaseDate = isNaN(parseInt(firstSpan)) ? undefined : firstSpan;
+            result.duration = $el.find('div.film-detail > div.fd-infor > span.fdi-duration').text() || null;
+          }
+
+          return result;
+        })
+        .get();
+
+      return results;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  }
+
+  /**
+   * Fetch content from home page by div ID
+   * @param divId div ID to search for
+   * @param isTvShow whether content is TV shows
+   */
+  private async fetchHomeSectionById(divId: string, isTvShow: boolean = false): Promise<IMovieResult[]> {
+    try {
+      const { data } = await this.client.get(`${this.baseUrl}/home`);
+      const $ = load(data);
+
+      const results = $(`div#${divId} div.film_list-wrap div.flw-item`)
+        .map((_, el) => {
+          const $el = $(el);
+          const firstSpan = $el.find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
+          const result: any = {
+            id: $el.find('div.film-poster > a').attr('href')?.slice(1)!,
+            title: $el.find('div.film-detail > h3.film-name > a').attr('title')!,
+            url: `${this.baseUrl}${$el.find('div.film-poster > a').attr('href')}`,
+            image: $el.find('div.film-poster > img').attr('data-src'),
+            type: this.parseMediaType($el.find('div.film-detail > div.fd-infor > span.float-right').text()),
+          };
+
+          if (isTvShow) {
+            result.season = firstSpan;
+            result.latestEpisode =
+              $el.find('div.film-detail > div.fd-infor > span:nth-child(3)').text() || null;
+          } else {
+            result.releaseDate = isNaN(parseInt(firstSpan)) ? undefined : firstSpan;
+            result.duration = $el.find('div.film-detail > div.fd-infor > span.fdi-duration').text() || null;
+          }
+
+          return result;
+        })
+        .get();
+
+      return results;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  }
+
+  /**
+   * Fetch content by filter (genre or country)
+   * @param filterType filter type (genre or country)
+   * @param filterValue filter value
+   * @param page page number
+   */
+  private async fetchByFilter(
+    filterType: 'genre' | 'country',
+    filterValue: string,
+    page: number
+  ): Promise<ISearch<IMovieResult>> {
+    try {
+      const { data } = await this.client.get(`${this.baseUrl}/${filterType}/${filterValue}?page=${page}`);
+      const $ = load(data);
+
+      const result: ISearch<IMovieResult> = {
+        currentPage: page,
+        hasNextPage: false,
+        results: [],
+      };
+
+      result.hasNextPage =
+        $(FlixHQ.NAV_SELECTOR).length > 0 && !$(FlixHQ.NAV_SELECTOR).children().last().hasClass('active');
+
+      const selector =
+        filterType === 'country'
+          ? 'div.container > section.block_area > div.block_area-content > div.film_list-wrap > div.flw-item'
+          : '.film_list-wrap > div.flw-item';
+
+      $(selector).each((_, el) => {
+        const $el = $(el);
+        const season = $el.find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
+        const latestEpisode = $el.find('div.film-detail > div.fd-infor > span:nth-child(3)').text() || null;
+        const type = this.parseMediaType(
+          $el.find('div.film-detail > div.fd-infor > span.float-right').text()
+        );
+
+        const resultItem: IMovieResult = {
+          id: $el.find('div.film-poster > a').attr('href')?.slice(1) ?? '',
+          title: $el.find('div.film-detail > h2 > a, div.film-detail > h2.film-name > a').attr('title') ?? '',
+          url: `${this.baseUrl}${$el.find('div.film-poster > a').attr('href')}`,
+          image: $el.find('div.film-poster > img').attr('data-src'),
+          type,
+        };
+
+        if (type === TvType.TVSERIES) {
+          resultItem.season = season;
+          resultItem.latestEpisode = latestEpisode;
+        } else {
+          resultItem.releaseDate = season;
+          resultItem.duration = latestEpisode;
+        }
+
+        result.results.push(resultItem);
+      });
+
+      return result;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  }
+
+  /**
+   * Parse media type from text
+   * @param typeText type text to parse
+   */
+  private parseMediaType(typeText: string): TvType {
+    return typeText === 'Movie' ? TvType.MOVIE : TvType.TVSERIES;
+  }
+}
 
 export default FlixHQ;

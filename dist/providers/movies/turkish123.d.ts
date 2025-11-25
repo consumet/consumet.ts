@@ -1,11 +1,32 @@
-import { IAnimeInfo, IEpisodeServer, IMovieInfo, ISource, MovieParser, TvType } from '../../models';
-export default class Turkish extends MovieParser {
-    name: string;
+import { MovieParser, TvType, IMovieInfo, IAnimeInfo, IEpisodeServer, ISource } from '../../models';
+declare class Turkish extends MovieParser {
+    readonly name = "Turkish123";
     protected baseUrl: string;
     protected classPath: string;
     supportedTypes: Set<TvType>;
+    private static readonly USER_AGENT;
+    /**
+     * Search for Turkish TV shows
+     * @param query search query string
+     */
+    search(query: string): Promise<IMovieInfo[]>;
+    /**
+     * Fetch detailed media information
+     * @param mediaId media id
+     */
     fetchMediaInfo(mediaId: string): Promise<IMovieInfo | IAnimeInfo>;
-    fetchEpisodeSources(episodeId: string): Promise<ISource>;
+    /**
+     * Fetch episode servers (not implemented)
+     */
     fetchEpisodeServers(): Promise<IEpisodeServer[]>;
-    search(q: string): Promise<IMovieInfo[]>;
+    /**
+     * Fetch episode sources
+     * @param episodeId episode id
+     */
+    fetchEpisodeSources(episodeId: string): Promise<ISource>;
+    /**
+     * Get common request headers
+     */
+    private getRequestHeaders;
 }
+export default Turkish;

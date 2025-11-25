@@ -6,11 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
-const gogoanime_1 = __importDefault(require("../anime/gogoanime"));
-const zoro_1 = __importDefault(require("../anime/zoro"));
-const crunchyroll_1 = __importDefault(require("../anime/crunchyroll"));
-const anify_1 = __importDefault(require("../anime/anify"));
-const bilibili_1 = __importDefault(require("../anime/bilibili"));
+const hianime_1 = __importDefault(require("../anime/hianime"));
 const utils_2 = require("../../utils/utils");
 class Myanimelist extends models_1.AnimeParser {
     /**
@@ -95,31 +91,38 @@ class Myanimelist extends models_1.AnimeParser {
          * @param fetchFiller fetch filler episodes
          */
         this.fetchAnimeInfo = async (animeId, dub = false, fetchFiller = false) => {
-            var _a, _b, _c, _d, _e, _f, _g;
+            var _a, _b, _c, _d, _e;
             try {
                 const animeInfo = await this.fetchMalInfoById(animeId);
                 const titleWithLanguages = animeInfo === null || animeInfo === void 0 ? void 0 : animeInfo.title;
                 let fillerEpisodes;
-                if ((this.provider instanceof zoro_1.default || this.provider instanceof gogoanime_1.default) &&
+                if (this.provider instanceof hianime_1.default &&
                     !dub &&
                     (animeInfo.status === models_1.MediaStatus.ONGOING ||
                         (0, utils_1.range)({ from: 2000, to: new Date().getFullYear() + 1 }).includes((_a = animeInfo.startDate) === null || _a === void 0 ? void 0 : _a.year))) {
                     try {
-                        animeInfo.episodes = (_b = (await new anify_1.default(this.proxyConfig, this.adapter, this.provider.name.toLowerCase()).fetchAnimeInfo(animeId)).episodes) === null || _b === void 0 ? void 0 : _b.map((item) => ({
-                            id: item.slug,
-                            title: item.title,
-                            description: item.description,
-                            number: item.number,
-                            image: item.image,
-                        }));
-                        (_c = animeInfo.episodes) === null || _c === void 0 ? void 0 : _c.reverse();
+                        // NOTE: gotta fix in future
+                        // animeInfo.episodes = (
+                        //   await new Anify(
+                        //     this.proxyConfig,
+                        //     this.adapter,
+                        //     this.provider.name.toLowerCase() as 'gogoanime' | 'Hianime' | '9anime' | 'animepahe'
+                        //   ).fetchAnimeInfo(animeId)
+                        // ).episodes?.map((item: any) => ({
+                        //   id: item.slug,
+                        //   title: item.title,
+                        //   description: item.description,
+                        //   number: item.number,
+                        //   image: item.image,
+                        // }));
+                        // animeInfo.episodes?.reverse();
                     }
                     catch (err) {
                         animeInfo.episodes = await this.findAnimeSlug((titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.english) ||
                             (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.romaji) ||
                             (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.native) ||
-                            (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.userPreferred), animeInfo.season, (_d = animeInfo.startDate) === null || _d === void 0 ? void 0 : _d.year, animeId, dub);
-                        animeInfo.episodes = (_e = animeInfo.episodes) === null || _e === void 0 ? void 0 : _e.map((episode) => {
+                            (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.userPreferred), animeInfo.season, (_b = animeInfo.startDate) === null || _b === void 0 ? void 0 : _b.year, animeId, dub);
+                        animeInfo.episodes = (_c = animeInfo.episodes) === null || _c === void 0 ? void 0 : _c.map((episode) => {
                             if (!episode.image)
                                 episode.image = animeInfo.image;
                             return episode;
@@ -131,7 +134,7 @@ class Myanimelist extends models_1.AnimeParser {
                     animeInfo.episodes = await this.findAnimeSlug((titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.english) ||
                         (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.romaji) ||
                         (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.native) ||
-                        (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.userPreferred), animeInfo.season, (_f = animeInfo.startDate) === null || _f === void 0 ? void 0 : _f.year, animeId, dub);
+                        (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.userPreferred), animeInfo.season, (_d = animeInfo.startDate) === null || _d === void 0 ? void 0 : _d.year, animeId, dub);
                 if (fetchFiller) {
                     const { data: fillerData } = await this.client({
                         baseURL: `https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${animeId}.json`,
@@ -143,7 +146,7 @@ class Myanimelist extends models_1.AnimeParser {
                         fillerEpisodes === null || fillerEpisodes === void 0 ? void 0 : fillerEpisodes.push(...fillerData.episodes);
                     }
                 }
-                animeInfo.episodes = (_g = animeInfo.episodes) === null || _g === void 0 ? void 0 : _g.map((episode) => {
+                animeInfo.episodes = (_e = animeInfo.episodes) === null || _e === void 0 ? void 0 : _e.map((episode) => {
                     if (!episode.image)
                         episode.image = animeInfo.image;
                     if (fetchFiller &&
@@ -163,8 +166,6 @@ class Myanimelist extends models_1.AnimeParser {
         };
         this.fetchEpisodeSources = async (episodeId, ...args) => {
             try {
-                if (episodeId.includes('/') && this.provider instanceof anify_1.default)
-                    return new anify_1.default().fetchEpisodeSources(episodeId, args[0], args[1]);
                 return this.provider.fetchEpisodeSources(episodeId, ...args);
             }
             catch (err) {
@@ -172,17 +173,6 @@ class Myanimelist extends models_1.AnimeParser {
             }
         };
         this.findAnimeRaw = async (slug, externalLinks) => {
-            if (externalLinks && this.provider instanceof crunchyroll_1.default) {
-                if (externalLinks.map((link) => link.site.includes('Crunchyroll'))) {
-                    const link = externalLinks.find((link) => link.site.includes('Crunchyroll'));
-                    const { request } = await this.client.get(link.url, {
-                        validateStatus: () => true,
-                    });
-                    const mediaType = request.res.responseUrl.split('/')[3];
-                    const id = request.res.responseUrl.split('/')[4];
-                    return await this.provider.fetchAnimeInfo(id, mediaType);
-                }
-            }
             const findAnime = (await this.provider.search(slug));
             if (findAnime.results.length === 0)
                 return [];
@@ -205,98 +195,26 @@ class Myanimelist extends models_1.AnimeParser {
                 // Sort in descending order
                 return secondRating - firstRating;
             });
-            if (this.provider instanceof crunchyroll_1.default) {
-                return await this.provider.fetchAnimeInfo(findAnime.results[0].id, findAnime.results[0].type);
-            }
             // TODO: use much better way than this
             return (await this.provider.fetchAnimeInfo(findAnime.results[0].id));
         };
         this.findAnimeSlug = async (title, season, startDate, malId, dub, externalLinks) => {
             var _a, _b, _c;
-            if (this.provider instanceof anify_1.default)
-                return (await this.provider.fetchAnimeInfo(malId)).episodes;
             // console.log({ title });
             const slug = title === null || title === void 0 ? void 0 : title.replace(/[^0-9a-zA-Z]+/g, ' ');
             let possibleAnime;
-            if (malId && !(this.provider instanceof crunchyroll_1.default || this.provider instanceof bilibili_1.default)) {
-                const malAsyncReq = await this.client({
-                    method: 'GET',
-                    url: `${this.malSyncUrl}/mal/anime/${malId}`,
-                    validateStatus: () => true,
-                });
-                if (malAsyncReq.status === 200) {
-                    const sitesT = malAsyncReq.data.Sites;
-                    let sites = Object.values(sitesT).map((v, i) => {
-                        const obj = [...Object.values(Object.values(sitesT)[i])];
-                        const pages = obj.map(v => ({
-                            page: v.page,
-                            url: v.url,
-                            title: v.title,
-                        }));
-                        return pages;
-                    });
-                    sites = sites.flat();
-                    sites.sort((a, b) => {
-                        const targetTitle = malAsyncReq.data.title.toLowerCase();
-                        const firstRating = (0, utils_1.compareTwoStrings)(targetTitle, a.title.toLowerCase());
-                        const secondRating = (0, utils_1.compareTwoStrings)(targetTitle, b.title.toLowerCase());
-                        // Sort in descending order
-                        return secondRating - firstRating;
-                    });
-                    const possibleSource = sites.find(s => {
-                        if (s.page.toLowerCase() === this.provider.name.toLowerCase())
-                            if (this.provider instanceof gogoanime_1.default)
-                                return dub ? s.title.toLowerCase().includes('dub') : !s.title.toLowerCase().includes('dub');
-                            else
-                                return true;
-                        return false;
-                    });
-                    if (possibleSource) {
-                        try {
-                            possibleAnime = await this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop());
-                        }
-                        catch (err) {
-                            console.error(err);
-                            possibleAnime = await this.findAnimeRaw(slug);
-                        }
-                    }
-                    else
-                        possibleAnime = await this.findAnimeRaw(slug);
-                }
-                else
-                    possibleAnime = await this.findAnimeRaw(slug);
-            }
-            else
-                possibleAnime = await this.findAnimeRaw(slug, externalLinks);
             // To avoid a new request, lets match and see if the anime show found is in sub/dub
             const expectedType = dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
             if (possibleAnime.subOrDub != models_1.SubOrSub.BOTH && possibleAnime.subOrDub != expectedType) {
                 return [];
             }
-            if (this.provider instanceof zoro_1.default) {
+            if (this.provider instanceof hianime_1.default) {
                 // Set the correct episode sub/dub request type
                 possibleAnime.episodes.forEach((_, index) => {
                     if (possibleAnime.subOrDub === models_1.SubOrSub.BOTH) {
                         possibleAnime.episodes[index].id = possibleAnime.episodes[index].id.replace(`$both`, dub ? '$dub' : '$sub');
                     }
                 });
-            }
-            if (this.provider instanceof crunchyroll_1.default) {
-                const nestedEpisodes = Object.keys(possibleAnime.episodes)
-                    .filter((key) => key.toLowerCase().includes(dub ? 'dub' : 'sub'))
-                    .sort((first, second) => {
-                    var _a, _b, _c, _d;
-                    return (((_b = (_a = possibleAnime.episodes[first]) === null || _a === void 0 ? void 0 : _a[0].season_number) !== null && _b !== void 0 ? _b : 0) -
-                        ((_d = (_c = possibleAnime.episodes[second]) === null || _c === void 0 ? void 0 : _c[0].season_number) !== null && _d !== void 0 ? _d : 0));
-                })
-                    .map((key) => {
-                    const audio = key
-                        .replace(/[0-9]/g, '')
-                        .replace(/(^\w{1})|(\s+\w{1})/g, (letter) => letter.toUpperCase());
-                    possibleAnime.episodes[key].forEach((element) => (element.type = audio));
-                    return possibleAnime.episodes[key];
-                });
-                return nestedEpisodes.flat();
             }
             const possibleProviderEpisodes = possibleAnime.episodes;
             if (typeof ((_a = possibleProviderEpisodes[0]) === null || _a === void 0 ? void 0 : _a.image) !== 'undefined' &&
@@ -554,7 +472,7 @@ class Myanimelist extends models_1.AnimeParser {
             // }
             return animeInfo;
         };
-        this.provider = provider || new gogoanime_1.default();
+        this.provider = provider || new hianime_1.default();
     }
     malStatusToMediaStatus(status) {
         if (status == 'currently airing')
@@ -609,10 +527,4 @@ class Myanimelist extends models_1.AnimeParser {
     }
 }
 exports.default = Myanimelist;
-// (async () => {
-//   const mal = new Myanimelist();
-//   // const search = await mal.search('one piece');
-//   const info = await mal.fetchAnimeInfo('21', true);
-//   //console.log(info);
-// })();
 //# sourceMappingURL=mal.js.map

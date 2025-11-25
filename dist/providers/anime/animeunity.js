@@ -73,14 +73,10 @@ class AnimeUnity extends models_1.AnimeParser {
                     }).toArray()) !== null && _j !== void 0 ? _j : undefined,
                     totalEpisodes: totalEpisodes,
                     image: (_k = $('img.cover')) === null || _k === void 0 ? void 0 : _k.attr('src'),
-                    // image: $('meta[property="og:image"]')?.attr('content'),
                     cover: (_m = (_l = $('.banner')) === null || _l === void 0 ? void 0 : _l.attr('src')) !== null && _m !== void 0 ? _m : (_p = (_o = $('.banner')) === null || _o === void 0 ? void 0 : _o.attr('style')) === null || _p === void 0 ? void 0 : _p.replace('background: url(', ''),
                     description: $('.description').text().trim(),
                     episodes: [],
                 };
-                // fetch episodes method 1 (only first page can be fetchedd)
-                // const items = JSON.parse("" + $('video-player').attr('episodes') + "")
-                // fetch episodes method 2 (all pages can be fetched)
                 const res2 = await this.client.get(url2);
                 const items = res2.data.episodes;
                 for (const i in items) {
@@ -158,18 +154,4 @@ class AnimeUnity extends models_1.AnimeParser {
     }
 }
 exports.default = AnimeUnity;
-/**
- * old episode sources fetching method, keep it here.
- */
-// const domain = $('script:contains("window.video")').text()?.match(/url: '(.*)'/)![1]
-// const token = $('script:contains("window.video")').text()?.match(/token': '(.*)'/)![1]
-// const token360p = $('script:contains("window.video")').text()?.match(/token360p': '(.*)'/)![1]
-// const token480p = $('script:contains("window.video")').text()?.match(/token480p': '(.*)'/)![1]
-// const token720p = $('script:contains("window.video")').text()?.match(/token720p': '(.*)'/)![1]
-// const token1080p = $('script:contains("window.video")').text()?.match(/token1080p': '(.*)'/)![1]
-// const expires = $('script:contains("window.video")').text()?.match(/expires': '(.*)'/)![1]
-// episodeSources.sources.push({
-//     url: `${domain}?token=${token}&token360p=${token360p}&token480p=${token480p}&token720p=${token720p}&token1080p=${token1080p}&referer=&expires=${expires}`,
-//     isM3U8: true
-// })
 //# sourceMappingURL=animeunity.js.map

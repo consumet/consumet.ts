@@ -20,10 +20,10 @@ class AnimePahe extends AnimeParser {
   protected override logo = 'https://animepahe.com/pikacon.ico';
   protected override classPath = 'ANIME.AnimePahe';
 
-  // private readonly sgProxy = 'https://cors.consumet.stream';
-
   /**
-   * @param query Search query
+   * Search for anime
+   * @param query Search query string
+   * @returns Promise<ISearch<IAnimeResult>>
    */
   override search = async (query: string): Promise<ISearch<IAnimeResult>> => {
     try {
@@ -49,8 +49,40 @@ class AnimePahe extends AnimeParser {
   };
 
   /**
-   * @param id id format id/session
-   * @param episodePage Episode page number (optional) default: -1 to get all episodes. number of episode pages can be found in the anime info object
+   * @param page page number (optional)
+   * @returns Promise<ISearch<IAnimeResult>>
+   */
+  async fetchRecentEpisodes(page: number = 1): Promise<ISearch<IAnimeResult>> {
+    try {
+      const { data } = await this.client.get(`${this.baseUrl}/api?m=airing&page=${page}`, {
+        headers: this.Headers(false),
+      });
+
+      const res = {
+        currentPage: data.current_page,
+        totalResults: data.total,
+        totalPages: data.last_page,
+        results: data.data.map((item: any) => ({
+          id: item.anime_session,
+          title: item.anime_title,
+          episodeId: `${item.anime_session}/${item.session}`,
+          episodeImage: item.snapshot,
+          episodeNumber: item.episode,
+          url: `${this.baseUrl}/play/${item.anime_session}/${item.session}`,
+        })),
+      };
+
+      return res;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  }
+
+  /**
+   * Fetch anime information
+   * @param id Anime ID in format id/session
+   * @param episodePage Episode page number (default: -1 for all episodes)
+   * @returns Promise<IAnimeInfo>
    */
   override fetchAnimeInfo = async (id: string, episodePage: number = -1): Promise<IAnimeInfo> => {
     const animeInfo: IAnimeInfo = {
@@ -174,8 +206,9 @@ class AnimePahe extends AnimeParser {
   };
 
   /**
-   *
-   * @param episodeId episode id
+   * Fetch episode video sources
+   * @param episodeId Episode ID
+   * @returns Promise<ISource>
    */
   override fetchEpisodeSources = async (episodeId: string): Promise<ISource> => {
     try {
@@ -204,13 +237,23 @@ class AnimePahe extends AnimeParser {
         },
         sources: [],
       };
+
+      // more link, more slow
       for (const link of links) {
         const res = await new Kwik(this.proxyConfig).extract(new URL(link.url));
         res[0].quality = link.quality;
         res[0].isDub = link.audio === 'eng';
         iSource.sources.push(res[0]);
       }
-      iSource.download = downloads;
+
+      iSource.download = [];
+      for (const download of downloads) {
+        const res = await new Kwik(this.proxyConfig).getDirectDownloadLink(new URL(download.url));
+        iSource.download.push({
+          url: res!,
+          quality: download.quality,
+        });
+      }
 
       return iSource;
     } catch (err) {
@@ -241,8 +284,10 @@ class AnimePahe extends AnimeParser {
   };
 
   /**
-   * @deprecated
-   * @attention AnimePahe doesn't support this method
+   * Fetch episode servers (deprecated)
+   * @deprecated AnimePahe doesn't support this method
+   * @param episodeLink Episode link
+   * @returns Promise<IEpisodeServer[]>
    */
   override fetchEpisodeServers = (episodeLink: string): Promise<IEpisodeServer[]> => {
     throw new Error('Method not implemented.');
@@ -269,13 +314,3 @@ class AnimePahe extends AnimeParser {
 }
 
 export default AnimePahe;
-
-// (async () => {
-//   const animepahe = new AnimePahe();
-
-//   const anime = await animepahe.search('Classroom of the elite');
-//   const info = await animepahe.fetchAnimeInfo(anime.results[0].id);
-//   // console.log(info);
-//   const sources = await animepahe.fetchEpisodeSources(info.episodes![0].id);
-//   console.log(sources);
-// })();

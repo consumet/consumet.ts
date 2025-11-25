@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const models_1 = require("../models");
+const utils_1 = require("../utils/utils");
 class VidHide extends models_1.VideoExtractor {
     constructor() {
         super(...arguments);
@@ -16,9 +17,12 @@ class VidHide extends models_1.VideoExtractor {
                 const { data } = await this.client.get(videoUrl.href).catch(() => {
                     throw new Error('Video not found');
                 });
-                const unpackedData = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)[2].replace('eval', ''));
+                const unpackedData = (0, utils_1.safeUnpack)(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)[2]);
                 const links = (_a = unpackedData.match(/https?:\/\/[^"]+?\.m3u8[^"]*/g)) !== null && _a !== void 0 ? _a : [];
                 const m3u8Link = links[0];
+                if (!m3u8Link) {
+                    throw new Error('No m3u8 link found in unpacked data');
+                }
                 const m3u8Content = await this.client.get(m3u8Link, {
                     headers: {
                         Referer: m3u8Link,

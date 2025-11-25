@@ -1,6 +1,19 @@
-import { load } from 'cheerio';
-
 import { VideoExtractor, IVideo } from '../models';
+
+interface IStreamOutput {
+  sources: {
+    url: string;
+    quality: string;
+  }[];
+  tracks: any[];
+  audio: any[];
+  intro: { start: number; end: number };
+  outro: { start: number; end: number };
+  headers: {
+    Referer: string;
+    'User-Agent': string;
+  };
+}
 
 class StreamTape extends VideoExtractor {
   protected override serverName = 'StreamTape';
@@ -8,25 +21,21 @@ class StreamTape extends VideoExtractor {
 
   override extract = async (videoUrl: URL): Promise<IVideo[]> => {
     try {
-      const { data } = await this.client.get(videoUrl.href).catch(() => {
-        throw new Error('Video not found');
-      });
+      const apiUrl = 'https://crawlr.cc/F4A2D9B6C?url=' + encodeURIComponent(videoUrl.href);
 
-      const $ = load(data);
+      const { data } = await this.client.get<IStreamOutput>(apiUrl);
 
-      let [fh, sh] = $.html()
-        ?.match(/robotlink'\).innerHTML = (.*)'/)![1]
-        .split("+ ('");
+      if (!data.sources || data.sources.length === 0) {
+        throw new Error('No sources returned');
+      }
 
-      sh = sh.substring(3);
-      fh = fh.replace(/\'/g, '');
-
-      const url = `https:${fh}${sh}`;
-
-      this.sources.push({
-        url: url,
-        isM3U8: url.includes('.m3u8'),
-      });
+      for (const src of data.sources) {
+        this.sources.push({
+          url: src.url,
+          quality: src.quality,
+          isM3U8: src.url.includes('.m3u8'),
+        });
+      }
 
       return this.sources;
     } catch (err) {
@@ -34,4 +43,5 @@ class StreamTape extends VideoExtractor {
     }
   };
 }
+
 export default StreamTape;

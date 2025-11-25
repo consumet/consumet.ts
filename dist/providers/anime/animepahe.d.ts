@@ -5,23 +5,35 @@ declare class AnimePahe extends AnimeParser {
     protected logo: string;
     protected classPath: string;
     /**
-     * @param query Search query
+     * Search for anime
+     * @param query Search query string
+     * @returns Promise<ISearch<IAnimeResult>>
      */
     search: (query: string) => Promise<ISearch<IAnimeResult>>;
     /**
-     * @param id id format id/session
-     * @param episodePage Episode page number (optional) default: -1 to get all episodes. number of episode pages can be found in the anime info object
+     * @param page page number (optional)
+     * @returns Promise<ISearch<IAnimeResult>>
+     */
+    fetchRecentEpisodes(page?: number): Promise<ISearch<IAnimeResult>>;
+    /**
+     * Fetch anime information
+     * @param id Anime ID in format id/session
+     * @param episodePage Episode page number (default: -1 for all episodes)
+     * @returns Promise<IAnimeInfo>
      */
     fetchAnimeInfo: (id: string, episodePage?: number) => Promise<IAnimeInfo>;
     /**
-     *
-     * @param episodeId episode id
+     * Fetch episode video sources
+     * @param episodeId Episode ID
+     * @returns Promise<ISource>
      */
     fetchEpisodeSources: (episodeId: string) => Promise<ISource>;
     private fetchEpisodes;
     /**
-     * @deprecated
-     * @attention AnimePahe doesn't support this method
+     * Fetch episode servers (deprecated)
+     * @deprecated AnimePahe doesn't support this method
+     * @param episodeLink Episode link
+     * @returns Promise<IEpisodeServer[]>
      */
     fetchEpisodeServers: (episodeLink: string) => Promise<IEpisodeServer[]>;
     private Headers;

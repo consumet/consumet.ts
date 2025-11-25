@@ -178,6 +178,7 @@ export interface IVideo {
 }
 
 export enum StreamingServers {
+  VideoStr = 'videostr',
   AsianLoad = 'asianload',
   GogoCDN = 'gogocdn',
   StreamSB = 'streamsb',
@@ -187,10 +188,11 @@ export enum StreamingServers {
   VidCloud = 'vidcloud',
   StreamTape = 'streamtape',
   VizCloud = 'vizcloud',
-  // same as vizcloud
   MyCloud = 'mycloud',
   Filemoon = 'filemoon',
   VidStreaming = 'vidstreaming',
+  DuckStream = 'duckstream',
+  BirdStream = 'birdstream',
   BuiltIn = 'builtin',
   SmashyStream = 'smashystream',
   StreamHub = 'streamhub',

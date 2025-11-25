@@ -1,10 +1,11 @@
 import { load } from 'cheerio';
 
 import { MangaParser, ISearch, IMangaInfo, IMangaResult, MediaStatus, IMangaChapterPage } from '../../models';
+import { safeUnpack } from '../../utils/utils';
 
 class MangaHere extends MangaParser {
   override readonly name = 'MangaHere';
-  protected override baseUrl = 'http://www.mangahere.cc';
+  protected override baseUrl = 'https://mangahere.cc';
   protected override logo = 'https://i.pinimg.com/564x/51/08/62/51086247ed16ff8abae2df0bb06448e4.jpg';
   protected override classPath = 'MANGA.MangaHere';
 
@@ -83,8 +84,8 @@ class MangaHere extends MangaParser {
       if (typeof bar !== 'undefined') {
         const ss = html.indexOf('eval(function(p,a,c,k,e,d)');
         const se = html.indexOf('</script>', ss);
-        const s = html.substring(ss, se).replace('eval', '');
-        const ds = eval(s) as string;
+        const s = html.substring(ss, se);
+        const ds = safeUnpack(s);
 
         const urls = ds.split("['")[1].split("']")[0].split("','");
 
@@ -125,7 +126,7 @@ class MangaHere extends MangaParser {
             else sKey = '';
           }
 
-          const ds = eval(resText.replace('eval', ''));
+          const ds = safeUnpack(resText);
 
           const baseLinksp = ds.indexOf('pix=') + 5;
           const baseLinkes = ds.indexOf(';', baseLinksp) - 1;
@@ -188,16 +189,17 @@ class MangaHere extends MangaParser {
   private extractKey = (html: string) => {
     const skss = html.indexOf('eval(function(p,a,c,k,e,d)');
     const skse = html.indexOf('</script>', skss);
-    const sks = html.substring(skss, skse).replace('eval', '');
+    const sks = html.substring(skss, skse);
 
-    const skds = eval(sks);
+    const skds = safeUnpack(sks);
 
     const sksl = skds.indexOf("'");
     const skel = skds.indexOf(';');
 
     const skrs = skds.substring(sksl, skel);
 
-    return eval(skrs) as string;
+    // return eval(skrs) as string;
+    return skrs.slice(1, -1);
   };
 }
 

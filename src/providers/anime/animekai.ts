@@ -1,4 +1,3 @@
-import { AxiosAdapter } from 'axios';
 import { CheerioAPI, load } from 'cheerio';
 
 import {
@@ -11,7 +10,6 @@ import {
   StreamingServers,
   MediaFormat,
   SubOrSub,
-  IAnimeEpisode,
   MediaStatus,
   Intro,
 } from '../../models';
@@ -22,27 +20,16 @@ const { GenerateToken, DecodeIframeData } = new MegaUp();
 
 class AnimeKai extends AnimeParser {
   override readonly name = 'AnimeKai';
-  protected override baseUrl = 'https://animekai.to';
+  protected override baseUrl = 'https://anikai.to';
   protected override logo =
-    'https://animekai.to/assets/uploads/37585a39fe8c8d8fafaa2c7bfbf5374ecac859ea6a0288a6da2c61f5.png';
+    'https://anikai.to//assets/uploads/37585a39fe8c8d8fafaa2c7bfbf5374ecac859ea6a0288a6da2c61f5.png';
   protected override classPath = 'ANIME.AnimeKai';
 
-  constructor(customBaseURL?: string) {
-    super(...arguments);
-    if (customBaseURL) {
-      if (customBaseURL.startsWith('http://') || customBaseURL.startsWith('https://')) {
-        this.baseUrl = customBaseURL;
-      } else {
-        this.baseUrl = `http://${customBaseURL}`;
-      }
-    } else {
-      this.baseUrl = this.baseUrl;
-    }
-  }
-
   /**
-   * @param query Search query
-   * @param page Page number (optional)
+   * Search for anime
+   * @param query Search query string
+   * @param page Page number (default: 1)
+   * @returns Promise<ISearch<IAnimeResult>>
    */
   override search(query: string, page: number = 1): Promise<ISearch<IAnimeResult>> {
     if (0 >= page) {
@@ -185,9 +172,15 @@ class AnimeKai extends AnimeParser {
         )}`,
         { headers: this.Headers() }
       );
-      const $ = load(data.result);
 
-      $('ul.collapsed li').each((i, ele) => {
+      let htmlContent = data.result || data;
+      if (typeof htmlContent === 'object' && htmlContent.html) {
+        htmlContent = htmlContent.html;
+      }
+
+      const $ = load(htmlContent);
+
+      $('ul li').each((i, ele) => {
         const card = $(ele);
         const titleElement = card.find('span.title');
         const episodeText = card.find('span').last().text().trim();
@@ -200,9 +193,9 @@ class AnimeKai extends AnimeParser {
           airingEpisode: episodeText.replace('EP ', ''), // Extract episode number
         });
       });
-
       return res;
     } catch (err) {
+      console.error('Schedule fetch error:', err);
       throw new Error('Something went wrong. Please try again later.');
     }
   }
@@ -299,7 +292,9 @@ class AnimeKai extends AnimeParser {
   }
 
   /**
-   * @param id Anime id
+   * Fetch anime information
+   * @param id Anime ID/slug
+   * @returns Promise<IAnimeInfo>
    */
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
     const info: IAnimeInfo = {
@@ -399,12 +394,12 @@ class AnimeKai extends AnimeParser {
 
       const ani_id = $('.rate-box#anime-rating').attr('data-id');
       const episodesAjax = await this.client.get(
-        `${this.baseUrl}/ajax/episodes/list?ani_id=${ani_id}&_=${GenerateToken(ani_id!)}`,
+        `${this.baseUrl}/ajax/episodes/list?ani_id=${ani_id}&_=${await GenerateToken(ani_id!)}`,
         {
           headers: {
+            ...this.Headers(),
             'X-Requested-With': 'XMLHttpRequest',
             Referer: `${this.baseUrl}/watch/${id}`,
-            ...this.Headers(),
           },
         }
       );
@@ -440,10 +435,11 @@ class AnimeKai extends AnimeParser {
   };
 
   /**
-   *
-   * @param episodeId Episode id
-   * @param server server type (default `VidCloud`) (optional)
-   * @param subOrDub sub or dub (default `SubOrSub.SUB`) (optional)
+   * Fetch episode video sources
+   * @param episodeId Episode ID
+   * @param server Server type (default: VidCloud)
+   * @param subOrDub Sub or dub preference (default: SUB)
+   * @returns Promise<ISource>
    */
   override fetchEpisodeSources = async (
     episodeId: string,
@@ -527,6 +523,7 @@ class AnimeKai extends AnimeParser {
       }
       return res;
     } catch (err) {
+      console.error('scrapeCardPage error for URL:', url, 'Error:', (err as Error).message);
       throw new Error('Something went wrong. Please try again later.');
     }
   };
@@ -543,6 +540,7 @@ class AnimeKai extends AnimeParser {
         const atag = card.find('div.inner > a');
         const id = atag.attr('href')?.replace('/watch/', '');
         const type = card.find('.info').children().last()?.text().trim();
+
         results.push({
           id: id!,
           title: atag.text().trim(),
@@ -560,46 +558,51 @@ class AnimeKai extends AnimeParser {
             ) || 0, //if no direct episode count, then just use sub count
         });
       });
+
       return results;
     } catch (err) {
+      console.error('scrapeCard error:', err);
       throw new Error('Something went wrong. Please try again later.');
     }
   };
   /**
-   * @param episodeId Episode id
-   * @param subOrDub sub or dub (default `sub`) (optional)
+   * Fetch available episode servers
+   * @param episodeId Episode ID
+   * @param subOrDub Sub or dub preference (default: SUB)
+   * @returns Promise<IEpisodeServer[]>
    */
   override fetchEpisodeServers = async (
     episodeId: string,
     subOrDub: SubOrSub = SubOrSub.SUB
   ): Promise<IEpisodeServer[]> => {
     if (!episodeId.startsWith(this.baseUrl + '/ajax'))
-      episodeId = `${this.baseUrl}/ajax/links/list?token=${episodeId.split('$token=')[1]}&_=${GenerateToken(
+      episodeId = `${this.baseUrl}/ajax/links/list?token=${
         episodeId.split('$token=')[1]
-      )}`;
+      }&_=${await GenerateToken(episodeId.split('$token=')[1])}`;
     try {
       const { data } = await this.client.get(episodeId, { headers: this.Headers() });
       const $ = load(data.result);
       const servers: IEpisodeServer[] = [];
-      const serverItems = $(`.server-items.lang-group[data-id="${subOrDub}"] .server`);
+      const subOrDubStr = subOrDub === SubOrSub.SUB ? 'softsub' : 'dub';
+      const serverItems = $(`.server-items.lang-group[data-id="${subOrDubStr}"] .server`);
       await Promise.all(
         serverItems.map(async (i, server) => {
           const id = $(server).attr('data-lid');
           const { data } = await this.client.get(
-            `${this.baseUrl}/ajax/links/view?id=${id}&_=${GenerateToken(id!)}`,
+            `${this.baseUrl}/ajax/links/view?id=${id}&_=${await GenerateToken(id!)}`,
             { headers: this.Headers() }
           );
-          const decodedData = JSON.parse(DecodeIframeData(data.result));
+          const decodedIframeData = await DecodeIframeData(data.result);
           servers.push({
             name: `MegaUp ${$(server).text().trim()}`.toLowerCase()!, //megaup is the only server for now
-            url: decodedData.url,
+            url: decodedIframeData.url,
             intro: {
-              start: decodedData?.skip.intro[0],
-              end: decodedData?.skip.intro[1],
+              start: decodedIframeData?.skip.intro[0],
+              end: decodedIframeData?.skip.intro[1],
             },
             outro: {
-              start: decodedData?.skip.outro[0],
-              end: decodedData?.skip.outro[1],
+              start: decodedIframeData?.skip.outro[0],
+              end: decodedIframeData?.skip.outro[1],
             },
           });
         })
@@ -612,7 +615,9 @@ class AnimeKai extends AnimeParser {
 
   private Headers(): Record<string, string> {
     return {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0',
+      'User-Agent':
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36',
+      Connection: 'keep-alive',
       Accept: 'text/html, */*; q=0.01',
       'Accept-Language': 'en-US,en;q=0.5',
       'Sec-GPC': '1',
@@ -623,19 +628,9 @@ class AnimeKai extends AnimeParser {
       Pragma: 'no-cache',
       'Cache-Control': 'no-cache',
       Referer: `${this.baseUrl}/`,
-      Cookie:
-        'usertype=guest; session=hxYne0BNXguMc8zK1FHqQKXPmmoANzBBOuNPM64a; cf_clearance=WfGWV1bKGAaNySbh.yzCyuobBOtjg0ncfPwMhtsvsrs-1737611098-1.2.1.1-zWHcaytuokjFTKbCAxnSPDc_BWAeubpf9TAAVfuJ2vZuyYXByqZBXAZDl_VILwkO5NOLck8N0C4uQr4yGLbXRcZ_7jfWUvfPGayTADQLuh.SH.7bvhC7DmxrMGZ8SW.hGKEQzRJf8N7h6ZZ27GMyqOfz1zfrOiu9W30DhEtW2N7FAXUPrdolyKjCsP1AK3DqsDtYOiiPNLnu47l.zxK80XogfBRQkiGecCBaeDOJHenjn._Zgykkr.F_2bj2C3AS3A5mCpZSlWK5lqhV6jQSQLF9wKWitHye39V.6NoE3RE',
+      Cookie: '__p_mov=1; usertype=guest; session=vLrU4aKItp0QltI2asH83yugyWDsSSQtyl9sxWKO',
     };
   }
 }
-
-//(async () => {
-//  const animekai = new AnimeKai();
-//  const anime = await animekai.search('dandadan');
-//  const info = await animekai.fetchAnimeInfo('solo-leveling-season-2-arise-from-the-shadow-x7rq');
-//  console.log(info.episodes);
-//  const sources = await animekai.fetchEpisodeSources(info?.episodes![0].id!);
-//  console.log(sources);
-//})();
 
 export default AnimeKai;

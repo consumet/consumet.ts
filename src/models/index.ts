@@ -9,6 +9,7 @@ import LightNovelParser from './lightnovel-parser';
 import MovieParser from './movie-parser';
 import NewsParser from './news-parser';
 import {
+  Trailer,
   IProviderStats,
   ISearch,
   IAnimeEpisode,
@@ -101,4 +102,5 @@ export {
   ProxyConfig,
   IStaff,
   WatchListType,
+  Trailer,
 };

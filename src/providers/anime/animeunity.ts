@@ -1,4 +1,4 @@
-import { Cheerio, load } from 'cheerio';
+import { load } from 'cheerio';
 
 import {
   AnimeParser,
@@ -94,16 +94,11 @@ class AnimeUnity extends AnimeParser {
             .toArray() ?? undefined,
         totalEpisodes: totalEpisodes,
         image: $('img.cover')?.attr('src'),
-        // image: $('meta[property="og:image"]')?.attr('content'),
         cover: $('.banner')?.attr('src') ?? $('.banner')?.attr('style')?.replace('background: url(', ''),
         description: $('.description').text().trim(),
         episodes: [],
       };
 
-      // fetch episodes method 1 (only first page can be fetchedd)
-      // const items = JSON.parse("" + $('video-player').attr('episodes') + "")
-
-      // fetch episodes method 2 (all pages can be fetched)
       const res2 = await this.client.get(url2);
       const items = res2.data.episodes;
 
@@ -199,19 +194,3 @@ class AnimeUnity extends AnimeParser {
 }
 
 export default AnimeUnity;
-
-/**
- * old episode sources fetching method, keep it here.
- */
-// const domain = $('script:contains("window.video")').text()?.match(/url: '(.*)'/)![1]
-// const token = $('script:contains("window.video")').text()?.match(/token': '(.*)'/)![1]
-// const token360p = $('script:contains("window.video")').text()?.match(/token360p': '(.*)'/)![1]
-// const token480p = $('script:contains("window.video")').text()?.match(/token480p': '(.*)'/)![1]
-// const token720p = $('script:contains("window.video")').text()?.match(/token720p': '(.*)'/)![1]
-// const token1080p = $('script:contains("window.video")').text()?.match(/token1080p': '(.*)'/)![1]
-// const expires = $('script:contains("window.video")').text()?.match(/expires': '(.*)'/)![1]
-
-// episodeSources.sources.push({
-//     url: `${domain}?token=${token}&token360p=${token360p}&token480p=${token480p}&token720p=${token720p}&token1080p=${token1080p}&referer=&expires=${expires}`,
-//     isM3U8: true
-// })
