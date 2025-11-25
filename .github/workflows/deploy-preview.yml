@@ -55,6 +55,10 @@ jobs:
             echo "Installing preview API dependencies..."
             yarn install --frozen-lockfile
 
+            echo "Linking local consumet.ts build..."
+            yarn remove @consumet/extensions || true
+            yarn add "file:$HOME/consumet.ts"
+
             echo "Building preview API..."
             yarn build
 
