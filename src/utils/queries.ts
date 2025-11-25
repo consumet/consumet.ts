@@ -44,3 +44,6 @@ export const anilistStaffInfoQuery = (
   id: number
 ) => `query($id: Int = ${id}) { Staff(id: $id) { id name { first last native full } image { large medium } description siteUrl staffMedia { edges { id node { id title { romaji english native } type coverImage { extraLarge large medium color } } } } } }
 `;
+
+export const anilistFavouritesQuery = () =>
+  `query { Viewer { id name about avatar { medium } bannerImage isFollowing isFollower isBlocked bans favourites { anime { nodes { id idMal status(version: 2) title { userPreferred romaji english native } bannerImage coverImage{ extraLarge large medium color } episodes chapters volumes type season popularity description format seasonYear genres averageScore countryOfOrigin nextAiringEpisode { airingAt timeUntilAiring episode } } } manga { nodes { id idMal status(version: 2) title { userPreferred romaji english native } bannerImage coverImage{ extraLarge large medium color } chapters volumes type popularity description format genres averageScore countryOfOrigin } } } } }`;
