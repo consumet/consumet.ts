@@ -237,13 +237,23 @@ class AnimePahe extends AnimeParser {
         },
         sources: [],
       };
+
+      // more link, more slow
       for (const link of links) {
         const res = await new Kwik(this.proxyConfig).extract(new URL(link.url));
         res[0].quality = link.quality;
         res[0].isDub = link.audio === 'eng';
         iSource.sources.push(res[0]);
       }
-      iSource.download = downloads;
+
+      iSource.download = [];
+      for (const download of downloads) {
+        const res = await new Kwik(this.proxyConfig).getDirectDownloadLink(new URL(download.url));
+        iSource.download.push({
+          url: res!,
+          quality: download.quality,
+        });
+      }
 
       return iSource;
     } catch (err) {

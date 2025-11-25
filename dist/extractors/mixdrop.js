@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const models_1 = require("../models");
+const utils_1 = require("../utils/utils");
 class MixDrop extends models_1.VideoExtractor {
     constructor() {
         super(...arguments);
@@ -9,7 +10,7 @@ class MixDrop extends models_1.VideoExtractor {
         this.extract = async (videoUrl) => {
             try {
                 const { data } = await this.client.get(videoUrl.href);
-                const formated = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)[2].replace('eval', ''));
+                const formated = (0, utils_1.safeUnpack)(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)[2]);
                 const [poster, source] = formated
                     .match(/poster="([^"]+)"|wurl="([^"]+)"/g)
                     .map((x) => x.split(`="`)[1].replace(/"/g, ''))

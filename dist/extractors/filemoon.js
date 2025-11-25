@@ -11,7 +11,7 @@ class Filemoon extends models_1.VideoExtractor {
         super(...arguments);
         this.serverName = 'Filemoon';
         this.sources = [];
-        this.host = 'https://filemoon.sx';
+        this.baseUrl = 'https://filemoon.sx';
         this.extract = async (videoUrl) => {
             var _a;
             const options = {
@@ -36,9 +36,12 @@ class Filemoon extends models_1.VideoExtractor {
             const $ = (0, cheerio_1.load)(data);
             try {
                 const { data } = await this.client.get($('iframe').attr('src'), options);
-                const unpackedData = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)[2].replace('eval', ''));
+                const unpackedData = (0, utils_1.safeUnpack)(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)[2]);
                 const links = (_a = unpackedData.match(new RegExp('sources:\\[\\{file:"(.*?)"'))) !== null && _a !== void 0 ? _a : [];
                 const m3u8Link = links[1];
+                if (!m3u8Link) {
+                    throw new Error('No m3u8 link found in unpacked data');
+                }
                 this.sources.unshift({
                     url: m3u8Link,
                     quality: 'auto',

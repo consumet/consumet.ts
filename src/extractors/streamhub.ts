@@ -1,4 +1,5 @@
 import { VideoExtractor, IVideo, ISubtitle } from '../models';
+import { safeUnpack } from '../utils/utils';
 
 class StreamHub extends VideoExtractor {
   protected override serverName = 'StreamHub';
@@ -15,19 +16,25 @@ class StreamHub extends VideoExtractor {
         throw new Error('Video not found');
       });
 
-      const unpackedData = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)![2].replace('eval', ''));
+      const unpackedData = safeUnpack(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)![2]);
 
       const links = unpackedData.match(new RegExp('sources:\\[\\{src:"(.*?)"')) ?? [];
-      const m3u8Content = await this.client.get(links[1], {
+      const m3u8Link = links[1];
+
+      if (!m3u8Link) {
+        throw new Error('No m3u8 link found in unpacked data');
+      }
+
+      const m3u8Content = await this.client.get(m3u8Link, {
         headers: {
-          Referer: links[1],
+          Referer: m3u8Link,
         },
       });
 
       result.sources.push({
         quality: 'auto',
-        url: links[1],
-        isM3U8: links[1].includes('.m3u8'),
+        url: m3u8Link,
+        isM3U8: m3u8Link.includes('.m3u8'),
       });
 
       if (m3u8Content.data.includes('EXTM3U')) {

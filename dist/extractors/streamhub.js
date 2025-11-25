@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const models_1 = require("../models");
+const utils_1 = require("../utils/utils");
 class StreamHub extends models_1.VideoExtractor {
     constructor() {
         super(...arguments);
@@ -16,17 +17,21 @@ class StreamHub extends models_1.VideoExtractor {
                 const { data } = await this.client.get(videoUrl.href).catch(() => {
                     throw new Error('Video not found');
                 });
-                const unpackedData = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)[2].replace('eval', ''));
+                const unpackedData = (0, utils_1.safeUnpack)(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)[2]);
                 const links = (_a = unpackedData.match(new RegExp('sources:\\[\\{src:"(.*?)"'))) !== null && _a !== void 0 ? _a : [];
-                const m3u8Content = await this.client.get(links[1], {
+                const m3u8Link = links[1];
+                if (!m3u8Link) {
+                    throw new Error('No m3u8 link found in unpacked data');
+                }
+                const m3u8Content = await this.client.get(m3u8Link, {
                     headers: {
-                        Referer: links[1],
+                        Referer: m3u8Link,
                     },
                 });
                 result.sources.push({
                     quality: 'auto',
-                    url: links[1],
-                    isM3U8: links[1].includes('.m3u8'),
+                    url: m3u8Link,
+                    isM3U8: m3u8Link.includes('.m3u8'),
                 });
                 if (m3u8Content.data.includes('EXTM3U')) {
                     const videoList = m3u8Content.data.split('#EXT-X-STREAM-INF:');
