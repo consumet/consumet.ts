@@ -1,6 +1,6 @@
 import { load, CheerioAPI } from 'cheerio';
 
-import { AsianLoad, MixDrop, StreamSB, StreamTape, StreamWish, VidHide } from '../../extractors';
+import { MixDrop, StreamTape, StreamWish } from '../../extractors';
 import {
   IEpisodeServer,
   IMovieInfo,

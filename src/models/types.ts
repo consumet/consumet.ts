@@ -188,7 +188,6 @@ export enum StreamingServers {
   VidCloud = 'vidcloud',
   StreamTape = 'streamtape',
   VizCloud = 'vizcloud',
-  // same as vizcloud
   MyCloud = 'mycloud',
   Filemoon = 'filemoon',
   VidStreaming = 'vidstreaming',

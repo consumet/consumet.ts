@@ -36,7 +36,6 @@ import {
   getDays,
   capitalizeFirstLetter,
 } from '../../utils';
-import Gogoanime from '../anime/gogoanime';
 import Hianime from '../anime/hianime';
 import { ANIFY_URL, compareTwoStrings, getHashFromImage } from '../../utils/utils';
 import MangaDex from '../manga/mangadex';
@@ -62,7 +61,7 @@ class Anilist extends AnimeParser {
    */
   constructor(provider?: AnimeParser, public proxyConfig?: ProxyConfig, adapter?: AxiosAdapter) {
     super(proxyConfig, adapter);
-    this.provider = provider || new Gogoanime();
+    this.provider = provider || new Hianime();
   }
 
   /**
@@ -566,7 +565,7 @@ class Anilist extends AnimeParser {
         rating: item.node.meanScore,
       }));
       if (
-        (this.provider instanceof Hianime || this.provider instanceof Gogoanime) &&
+        this.provider instanceof Hianime &&
         !dub &&
         (animeInfo.status === MediaStatus.ONGOING ||
           range({ from: 1940, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate!)))
@@ -1328,7 +1327,7 @@ class Anilist extends AnimeParser {
                   .find((source: any) => source.providerId.toLowerCase() === 'gogoanime')
                   ?.episodes.pop()?.id
               : item.episodes.data
-                  .find((source: any) => source.providerId.toLowerCase() === 'Hianime')
+                  .find((source: any) => source.providerId.toLowerCase() === 'hianime')
                   ?.episodes.pop()?.id
           }`,
           episodeTitle: item.episodes.latest.latestTitle ?? `Episode ${item.currentEpisode}`,
@@ -1402,7 +1401,7 @@ class Anilist extends AnimeParser {
     let possibleAnimeEpisodes: IAnimeEpisode[] = [];
     let fillerEpisodes: { number: string; 'filler-bool': boolean }[] = [];
     if (
-      (this.provider instanceof Hianime || this.provider instanceof Gogoanime) &&
+      this.provider instanceof Hianime &&
       !dub &&
       (Media.status === 'RELEASING' ||
         range({ from: 2000, to: new Date().getFullYear() + 1 }).includes(parseInt(Media.startDate?.year!)))

@@ -7,7 +7,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
-const gogoanime_1 = __importDefault(require("../anime/gogoanime"));
 const hianime_1 = __importDefault(require("../anime/hianime"));
 const utils_2 = require("../../utils/utils");
 const mangadex_1 = __importDefault(require("../manga/mangadex"));
@@ -466,7 +465,7 @@ class Anilist extends models_1.AnimeParser {
                         rating: item.node.meanScore,
                     });
                 });
-                if ((this.provider instanceof hianime_1.default || this.provider instanceof gogoanime_1.default) &&
+                if (this.provider instanceof hianime_1.default &&
                     !dub &&
                     (animeInfo.status === models_1.MediaStatus.ONGOING ||
                         (0, utils_1.range)({ from: 1940, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate)))) {
@@ -1076,7 +1075,7 @@ class Anilist extends models_1.AnimeParser {
                             ? (_k = (_j = item.episodes.data
                                 .find((source) => source.providerId.toLowerCase() === 'gogoanime')) === null || _j === void 0 ? void 0 : _j.episodes.pop()) === null || _k === void 0 ? void 0 : _k.id
                             : (_m = (_l = item.episodes.data
-                                .find((source) => source.providerId.toLowerCase() === 'Hianime')) === null || _l === void 0 ? void 0 : _l.episodes.pop()) === null || _m === void 0 ? void 0 : _m.id}`,
+                                .find((source) => source.providerId.toLowerCase() === 'hianime')) === null || _l === void 0 ? void 0 : _l.episodes.pop()) === null || _m === void 0 ? void 0 : _m.id}`,
                         episodeTitle: (_o = item.episodes.latest.latestTitle) !== null && _o !== void 0 ? _o : `Episode ${item.currentEpisode}`,
                         episodeNumber: item.currentEpisode,
                         genres: item.genre,
@@ -1122,7 +1121,7 @@ class Anilist extends models_1.AnimeParser {
             const { data: { data: { Media }, }, } = await this.client.post(this.anilistGraphqlUrl, options);
             let possibleAnimeEpisodes = [];
             let fillerEpisodes = [];
-            if ((this.provider instanceof hianime_1.default || this.provider instanceof gogoanime_1.default) &&
+            if (this.provider instanceof hianime_1.default &&
                 !dub &&
                 (Media.status === 'RELEASING' ||
                     (0, utils_1.range)({ from: 2000, to: new Date().getFullYear() + 1 }).includes(parseInt((_b = Media.startDate) === null || _b === void 0 ? void 0 : _b.year)))) {
@@ -1617,7 +1616,7 @@ class Anilist extends models_1.AnimeParser {
             const englishPossibleEpisodes = this.findMangaSlug(provider, title.english, malId);
             return englishPossibleEpisodes;
         };
-        this.provider = provider || new gogoanime_1.default();
+        this.provider = provider || new hianime_1.default();
     }
 }
 _a = Anilist;
