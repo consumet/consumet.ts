@@ -26,7 +26,6 @@ jobs:
         run: yarn config set registry https://registry.npmjs.org/
 
       - name: Cache Yarn dependencies
-        if: exists('yarn.lock')
         uses: actions/cache@v3
         with:
           path: |
@@ -38,5 +37,12 @@ jobs:
 
       - name: Install dependencies & build
         run: |
+          if [ -f yarn.lock ]; then
+            echo "yarn.lock found, using cache"
+          else
+            echo "yarn.lock not found, proceeding without cache"
+          fi
           for i in {1..3}; do
-            yarn install --ignore-engines && break |
+            yarn install --ignore-engines && break || sleep 10
+          done
+          yarn build
