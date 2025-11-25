@@ -6,7 +6,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
-const gogoanime_1 = __importDefault(require("../anime/gogoanime"));
 const hianime_1 = __importDefault(require("../anime/hianime"));
 const utils_2 = require("../../utils/utils");
 class Myanimelist extends models_1.AnimeParser {
@@ -97,7 +96,7 @@ class Myanimelist extends models_1.AnimeParser {
                 const animeInfo = await this.fetchMalInfoById(animeId);
                 const titleWithLanguages = animeInfo === null || animeInfo === void 0 ? void 0 : animeInfo.title;
                 let fillerEpisodes;
-                if ((this.provider instanceof hianime_1.default || this.provider instanceof gogoanime_1.default) &&
+                if (this.provider instanceof hianime_1.default &&
                     !dub &&
                     (animeInfo.status === models_1.MediaStatus.ONGOING ||
                         (0, utils_1.range)({ from: 2000, to: new Date().getFullYear() + 1 }).includes((_a = animeInfo.startDate) === null || _a === void 0 ? void 0 : _a.year))) {
@@ -473,7 +472,7 @@ class Myanimelist extends models_1.AnimeParser {
             // }
             return animeInfo;
         };
-        this.provider = provider || new gogoanime_1.default();
+        this.provider = provider || new hianime_1.default();
     }
     malStatusToMediaStatus(status) {
         if (status == 'currently airing')
@@ -528,10 +527,4 @@ class Myanimelist extends models_1.AnimeParser {
     }
 }
 exports.default = Myanimelist;
-// (async () => {
-//   const mal = new Myanimelist();
-//   // const search = await mal.search('one piece');
-//   const info = await mal.fetchAnimeInfo('21', true);
-//   //console.log(info);
-// })();
 //# sourceMappingURL=mal.js.map

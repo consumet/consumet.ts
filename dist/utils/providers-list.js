@@ -2,19 +2,15 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PROVIDERS_LIST = void 0;
 const providers_1 = require("../providers");
-/**
- * List of providers
- *
- * add new providers here (order does not matter)
- */
+// List of providers
 exports.PROVIDERS_LIST = {
     ANIME: [
         new providers_1.ANIME.AnimePahe(),
         new providers_1.ANIME.Hianime(),
         new providers_1.ANIME.AnimeKai(),
+        new providers_1.ANIME.AnimeUnity(),
         new providers_1.ANIME.KickAssAnime(),
         new providers_1.ANIME.AnimeSaturn(),
-        new providers_1.ANIME.Gogoanime(),
     ],
     MANGA: [
         new providers_1.MANGA.WeebCentral(),
@@ -24,7 +20,7 @@ exports.PROVIDERS_LIST = {
         new providers_1.MANGA.MangaReader(),
         new providers_1.MANGA.ComicK(),
     ],
-    // BOOKS: [new BOOKS.Libgen()],
+    BOOKS: [],
     COMICS: [new providers_1.COMICS.GetComics()],
     LIGHT_NOVELS: [],
     MOVIES: [
