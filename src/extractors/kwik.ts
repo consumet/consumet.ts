@@ -78,7 +78,7 @@ class Kwik extends VideoExtractor {
       const data = await response.text();
 
       // not the best, but assume the format always like this
-      const destination = data.match(`a\\\.redirect\\\"\\\)\.attr\\\(\\\"href","(https://[^"]+)`);
+      const destination = data.match(`a\\\.redirect\\\"\\\)\\\.attr\\\(\\\"href","(https://[^"]+)`);
 
       return destination![1];
     } catch (err) {
