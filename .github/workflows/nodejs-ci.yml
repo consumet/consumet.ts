@@ -21,8 +21,12 @@ jobs:
         uses: actions/setup-node@v4.1.0
         with:
           node-version: ${{ matrix.node-version }}
-          
+
+      - name: Set Yarn registry
+        run: yarn config set registry https://registry.npmjs.org/
+
       - name: Cache Yarn dependencies
+        if: exists('yarn.lock')
         uses: actions/cache@v3
         with:
           path: |
@@ -32,12 +36,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      - name: Set Yarn registry
-        run: yarn config set registry https://registry.npmjs.org/
-
       - name: Install dependencies & build
         run: |
           for i in {1..3}; do
-            yarn install --ignore-engines && break || sleep 10
-          done
-          yarn build
+            yarn install --ignore-engines && break |
