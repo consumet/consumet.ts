@@ -138,7 +138,7 @@ class KickAssAnime extends AnimeParser {
       );
 
       const episodes: IAnimeEpisode[] = episodesResponse.data.result.map((ep: any) => ({
-        id: `${this.baseUrl}/api/show/${id}/episode/ep-${Math.floor(ep.episode_number)}-${ep.slug}`,
+        id: `${id}/episode/ep-${Math.floor(ep.episode_number)}-${ep.slug}`,
         title: ep.title,
         number: Math.floor(ep.episode_number),
         image: ep.thumbnail

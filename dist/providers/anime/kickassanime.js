@@ -107,7 +107,7 @@ class KickAssAnime extends models_1.AnimeParser {
                     timeout: 10000,
                 });
                 const episodes = episodesResponse.data.result.map((ep) => ({
-                    id: `${this.baseUrl}/api/show/${id}/episode/ep-${Math.floor(ep.episode_number)}-${ep.slug}`,
+                    id: `${id}/episode/ep-${Math.floor(ep.episode_number)}-${ep.slug}`,
                     title: ep.title,
                     number: Math.floor(ep.episode_number),
                     image: ep.thumbnail
