@@ -310,6 +310,7 @@ class Anilist extends AnimeParser {
    * @param year Year (optional) e.g. `2022`
    * @param status Status (optional) (options: `RELEASING`, `FINISHED`, `NOT_YET_RELEASED`, `CANCELLED`, `HIATUS`)
    * @param season Season (optional) (options: `WINTER`, `SPRING`, `SUMMER`, `FALL`)
+   * @param countryOfOrigin Country of origin (optional)
    */
   advancedSearch = async (
     query?: string,
@@ -322,7 +323,8 @@ class Anilist extends AnimeParser {
     id?: string | number,
     year?: number,
     status?: string,
-    season?: string
+    season?: string,
+    countryOfOrigin?: string
   ): Promise<ISearch<IAnimeResult>> => {
     const options = {
       headers: {
@@ -332,16 +334,17 @@ class Anilist extends AnimeParser {
       query: anilistAdvancedQuery(),
       variables: {
         search: query,
-        type: type,
-        page: page,
+        type,
+        page,
         size: perPage,
-        format: format,
-        sort: sort,
-        genres: genres,
-        id: id,
+        format,
+        sort,
+        genres,
+        id,
         year: year ? `${year}%` : undefined,
-        status: status,
-        season: season,
+        status,
+        season,
+        countryOfOrigin,
       },
     };
 

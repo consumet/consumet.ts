@@ -256,8 +256,9 @@ class Anilist extends models_1.AnimeParser {
          * @param year Year (optional) e.g. `2022`
          * @param status Status (optional) (options: `RELEASING`, `FINISHED`, `NOT_YET_RELEASED`, `CANCELLED`, `HIATUS`)
          * @param season Season (optional) (options: `WINTER`, `SPRING`, `SUMMER`, `FALL`)
+         * @param countryOfOrigin Country of origin (optional)
          */
-        this.advancedSearch = async (query, type = 'ANIME', page = 1, perPage = 20, format, sort, genres, id, year, status, season) => {
+        this.advancedSearch = async (query, type = 'ANIME', page = 1, perPage = 20, format, sort, genres, id, year, status, season, countryOfOrigin) => {
             var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y;
             const options = {
                 headers: {
@@ -267,16 +268,17 @@ class Anilist extends models_1.AnimeParser {
                 query: (0, utils_1.anilistAdvancedQuery)(),
                 variables: {
                     search: query,
-                    type: type,
-                    page: page,
+                    type,
+                    page,
                     size: perPage,
-                    format: format,
-                    sort: sort,
-                    genres: genres,
-                    id: id,
+                    format,
+                    sort,
+                    genres,
+                    id,
                     year: year ? `${year}%` : undefined,
-                    status: status,
-                    season: season,
+                    status,
+                    season,
+                    countryOfOrigin,
                 },
             };
             if (genres) {

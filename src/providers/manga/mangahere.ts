@@ -1,7 +1,11 @@
-import { load } from 'cheerio';
+import { load, CheerioAPI } from 'cheerio';
 
 import { MangaParser, ISearch, IMangaInfo, IMangaResult, MediaStatus, IMangaChapterPage } from '../../models';
 import { safeUnpack } from '../../utils/utils';
+
+export type MangaHereRankingType = 'total' | 'month' | 'week' | 'day';
+export type MangaHereSort = 'az' | 'popularity' | 'rating' | 'latest' | 'news';
+export type MangaHereStatus = 'all' | 'new' | 'completed' | 'ongoing';
 
 class MangaHere extends MangaParser {
   override readonly name = 'MangaHere';
@@ -178,6 +182,226 @@ class MangaHere extends MangaParser {
         )
         .get();
       return searchRes;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  };
+
+  fetchMangaRanking = async (type: MangaHereRankingType = 'total'): Promise<ISearch<IMangaResult>> => {
+    let url = '';
+    switch (type) {
+      case 'total':
+        url = `${this.baseUrl}/totalranking/`;
+        break;
+      case 'month':
+        url = `${this.baseUrl}/monthranking/`;
+        break;
+      case 'week':
+        url = `${this.baseUrl}/ranking/`;
+        break;
+      case 'day':
+        url = `${this.baseUrl}/dayranking/`;
+        break;
+      default:
+        url = `${this.baseUrl}/totalranking/`;
+        break;
+    }
+    return this._getMangaList(url);
+  };
+
+  fetchMangaHotReleases = async (): Promise<ISearch<IMangaResult>> =>
+    this._getMangaList(`${this.baseUrl}/hot/`);
+
+  fetchMangaTrending = async (): Promise<ISearch<IMangaResult>> =>
+    this._getMangaList(`${this.baseUrl}/trending/`);
+
+  fetchMangaRecentUpdate = async (page: number = 1): Promise<ISearch<IMangaResult>> => {
+    try {
+      const { data } = await this.client.get(`${this.baseUrl}/latest/${page}/`);
+      const $ = load(data);
+
+      const recentUpdate: ISearch<IMangaResult> = {
+        currentPage: page,
+        hasNextPage: $('div.pager-list-left > a').last().text() === '>',
+        results: [],
+      };
+
+      recentUpdate.results = $('ul.manga-list-4-list > li')
+        .map((i, el): IMangaResult => {
+          const latestChapter = $(el).find('ul.manga-list-4-item-part > li > a').first();
+          const latestChapterUrl = latestChapter.attr('href');
+          const latestChapterText = latestChapter.text();
+
+          let latestChapterId;
+          if (latestChapterUrl) {
+            latestChapterId = latestChapterUrl.substring('/manga/'.length, latestChapterUrl.lastIndexOf('/'));
+          }
+
+          let latestChapterNumber;
+          if (latestChapterText) {
+            const match = latestChapterText.match(/(\d+(\.\d+)?)$/);
+            if (match) {
+              latestChapterNumber = parseFloat(match[0]);
+            }
+          }
+
+          return {
+            id: $(el).find('a').first().attr('href')?.split('/')[2]!,
+            title: $(el).find('p.manga-list-4-item-title > a').attr('title')!,
+            image: $(el).find('a > img').first().attr('src')!,
+            genres: $(el)
+              .find('p.manga-list-4-show-tag-list > a')
+              .map((i, el) => $(el).text())
+              .get(),
+            latestChapterId: latestChapterId,
+            latestChapterNumber: latestChapterNumber,
+            headerForImage: { Referer: this.baseUrl },
+          };
+        })
+        .get();
+
+      return recentUpdate;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  };
+
+  browse = async (
+    options: { genre?: string; status?: MangaHereStatus; sort?: MangaHereSort; page?: number } = {}
+  ): Promise<ISearch<IMangaResult>> => {
+    const { genre, status, sort, page = 1 } = options;
+
+    let path = '/directory/';
+    const pathSegments: string[] = [];
+
+    if (genre) {
+      pathSegments.push(genre);
+    }
+
+    if (status && status !== 'all') {
+      switch (status) {
+        case 'new':
+          pathSegments.push('new');
+          break;
+        case 'completed':
+          pathSegments.push('completed');
+          break;
+        case 'ongoing':
+          pathSegments.push('on_going');
+          break;
+      }
+    }
+
+    if (pathSegments.length > 0) {
+      path = `/${pathSegments.join('/')}/`;
+    }
+
+    let url = `${this.baseUrl}${path}`;
+    if (page > 1) {
+      url += `${page}.htm`;
+    }
+
+    if (sort && sort !== 'popularity') {
+      url += `?${sort}`;
+    }
+
+    try {
+      const { data } = await this.client.get(url, {
+        headers: {
+          cookie: 'isAdult=1',
+        },
+      });
+      const $ = load(data);
+
+      const browseResult: ISearch<IMangaResult> = {
+        currentPage: page,
+        hasNextPage: $('.pager-list-left > a').last().text() === '>',
+        results: [],
+      };
+
+      browseResult.results = $('.manga-list-1-list > li')
+        .map((i, el): IMangaResult => {
+          const subtitleLink = $(el).find('p.manga-list-1-item-subtitle > a');
+          const latestChapterUrl = subtitleLink.attr('href');
+          const latestChapterText = subtitleLink.text();
+
+          let latestChapterId;
+          if (latestChapterUrl) {
+            latestChapterId = latestChapterUrl.substring('/manga/'.length, latestChapterUrl.lastIndexOf('/'));
+          }
+
+          let latestChapterNumber;
+          if (latestChapterText) {
+            const match = latestChapterText.match(/(\d+(\.\d+)?)$/);
+            if (match) {
+              latestChapterNumber = parseFloat(match[0]);
+            }
+          }
+
+          return {
+            id: $(el).find('a').first().attr('href')?.split('/')[2]!,
+            title: $(el).find('a').first().attr('title')!,
+            image: $(el).find('a > img').first().attr('src')!,
+            headerForImage: { Referer: this.baseUrl },
+            latestChapterId: latestChapterId,
+            latestChapterNumber: latestChapterNumber,
+          };
+        })
+        .get();
+
+      return browseResult;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  };
+
+  private _getMangaList = async (url: string): Promise<ISearch<IMangaResult>> => {
+    try {
+      const { data } = await this.client.get(url, {
+        headers: {
+          cookie: 'isAdult=1',
+        },
+      });
+
+      const $ = load(data);
+
+      const mangaList: ISearch<IMangaResult> = {
+        currentPage: 1,
+        hasNextPage: false,
+        results: [],
+      };
+
+      mangaList.results = $('.manga-list-1-list > li')
+        .map((i, el): IMangaResult => {
+          const subtitleLink = $(el).find('p.manga-list-1-item-subtitle > a');
+          const latestChapterUrl = subtitleLink.attr('href');
+          const latestChapterText = subtitleLink.text();
+
+          let latestChapterId;
+          if (latestChapterUrl) {
+            latestChapterId = latestChapterUrl.substring('/manga/'.length, latestChapterUrl.lastIndexOf('/'));
+          }
+
+          let latestChapterNumber;
+          if (latestChapterText) {
+            const match = latestChapterText.match(/(\d+(\.\d+)?)$/);
+            if (match) {
+              latestChapterNumber = parseFloat(match[0]);
+            }
+          }
+
+          return {
+            id: $(el).find('a').first().attr('href')?.split('/')[2]!,
+            title: $(el).find('a').first().attr('title')!,
+            image: $(el).find('a > img').first().attr('src')!,
+            headerForImage: { Referer: this.baseUrl },
+            latestChapterId: latestChapterId,
+            latestChapterNumber: latestChapterNumber,
+          };
+        })
+        .get();
+
+      return mangaList;
     } catch (err) {
       throw new Error((err as Error).message);
     }
