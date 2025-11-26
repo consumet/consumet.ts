@@ -407,12 +407,13 @@ class Anilist extends AnimeParser {
             (item.nextAiringEpisode?.episode ? item.nextAiringEpisode.episode - 1 : undefined),
           currentEpisode: item.nextAiringEpisode?.episode - 1 || item.episodes,
           countryOfOrigin: item.countryOfOrigin,
+          chapters: item.chapters ?? undefined,
           description: item.description,
           genres: item.genres,
           rating: item.averageScore,
           color: item.coverImage?.color,
           type: item.format,
-          releaseDate: item.seasonYear,
+          releaseDate: item?.seasonYear ?? item.startDate?.year,
         })) ??
           data.data?.map((item: any) => ({
             id: item.anilistId.toString(),
@@ -440,9 +441,11 @@ class Anilist extends AnimeParser {
             genres: item.genre,
             color: item.color,
             totalEpisodes: item.currentEpisode,
+            chapters: item.totalChapters ?? undefined,
             type: item.format,
-            releaseDate: item.year,
-          })))
+            releaseDate: item.year ?? item.startDate?.year,
+          })) ??
+          [])
       );
 
       return res;
@@ -2137,6 +2140,33 @@ class Anilist extends AnimeParser {
       return this.provider.fetchChapterPages(chapterId, ...args);
     };
 
+    fetchChaptersList = async (mangaId: string, ...args: any): Promise<IMangaChapter[]> => {
+      try {
+        const options = {
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+          },
+          query: anilistMediaDetailQuery(mangaId),
+        };
+
+        const { data } = await axios.post(new Anilist().anilistGraphqlUrl, options).catch(err => {
+          throw new Error('Media not found');
+        });
+
+        const title = {
+          english: data.data.Media.title.english,
+          romaji: data.data.Media.title.romaji,
+        };
+        const malId = data.data.Media.idMal;
+
+        const chapters = await new Anilist().findManga(this.provider, title, malId as number);
+        return chapters.reverse();
+      } catch (error) {
+        throw new Error((error as Error).message);
+      }
+    };
+
     fetchMangaInfo = async (id: string, ...args: any): Promise<IMangaInfo> => {
       const mangaInfo: IMangaInfo = {
         id: id,
@@ -2426,10 +2456,14 @@ class Anilist extends AnimeParser {
 
 // (async () => {
 //   const ani = new Anilist(new Hianime());
-//   const anime = await ani.fetchAnimeInfo('21');
-//   console.log(anime.episodes);
-//   const sources = await ani.fetchEpisodeSources(anime.episodes![0].id, anime.episodes![0].number, anime.id);
-//   console.log(sources);
+//   const anime = await ani.advancedSearch(undefined, "MANGA", undefined, undefined, undefined, ["POPULARITY_DESC"], undefined, undefined, undefined, undefined, undefined, "KR");
+//   console.log(anime.results[0].title);
+//   const details = await ani.fetchAnilistInfoById(anime.results[0].id);
+//   const chapters = await new Anilist.Manga(new MangaReader()).fetchChaptersList(anime.results[0].id);
+//   console.log(chapters);
+
+//   const pages = await new Anilist.Manga(new MangaReader()).fetchChapterPages(chapters[0].id);
+//   console.log(pages);
 // })();
 
 export default Anilist;
