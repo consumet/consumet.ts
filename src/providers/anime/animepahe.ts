@@ -11,8 +11,8 @@ import {
   IEpisodeServer,
   MediaFormat,
 } from '../../models';
-import { Kwik } from '../../extractors';
 import { USER_AGENT } from '../../utils';
+import { Kwik } from '../../extractors';
 
 class AnimePahe extends AnimeParser {
   override readonly name = 'AnimePahe';

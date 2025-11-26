@@ -29,7 +29,7 @@ class Anilist extends models_1.AnimeParser {
         this.anilistGraphqlUrl = 'https://graphql.anilist.co';
         this.kitsuGraphqlUrl = 'https://kitsu.io/api/graphql';
         this.malSyncUrl = 'https://api.malsync.moe';
-        this.anifyUrl = utils_2.ANIFY_URL;
+        this.anifyUrl = 'https://anify.eltik.cc';
         /**
          * @param authToken Anilist auth token
          * @param type Type of favorites to fetch: 'ANIME', 'MANGA', or 'BOTH' (default: 'BOTH')

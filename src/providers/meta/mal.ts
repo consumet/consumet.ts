@@ -14,7 +14,6 @@ import {
 } from '../../models';
 import { substringAfter, substringBefore, compareTwoStrings, kitsuSearchQuery, range } from '../../utils';
 import Hianime from '../anime/hianime';
-import { ANIFY_URL } from '../../utils/utils';
 
 class Myanimelist extends AnimeParser {
   override readonly name = 'Myanimelist';
@@ -25,7 +24,8 @@ class Myanimelist extends AnimeParser {
   private readonly anilistGraphqlUrl = 'https://graphql.anilist.co';
   private readonly kitsuGraphqlUrl = 'https://kitsu.app/api/graphql';
   private readonly malSyncUrl = 'https://api.malsync.moe';
-  private readonly anifyUrl = ANIFY_URL;
+  private readonly anifyUrl = 'https://anify.eltik.cc';
+
   provider: AnimeParser;
 
   /**

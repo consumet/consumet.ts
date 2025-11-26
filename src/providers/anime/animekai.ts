@@ -14,7 +14,7 @@ import {
   Intro,
 } from '../../models';
 
-import { MegaUp } from '../../utils';
+import { MegaUp } from '../../extractors';
 
 const { GenerateToken, DecodeIframeData } = new MegaUp();
 

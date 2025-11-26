@@ -3,7 +3,6 @@ import { load } from 'cheerio';
 export const USER_AGENT =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36';
 export const days = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
-export const ANIFY_URL = 'https://anify.eltik.cc';
 
 export const splitAuthor = (authors: string) => {
   const res: string[] = [];
@@ -199,4 +198,52 @@ export const safeUnpack = (packedSource: string): string => {
   } catch (err) {
     throw new Error(`Failed to unpack script: ${err}`);
   }
+};
+
+export const parsePostInfo = (post: string) => {
+  let year = '';
+  let size = '';
+  let description = '';
+  let sizeDone = false;
+  for (let i = 0; i < post.length; i++) {
+    if (
+      i + 5 < post.length &&
+      post[i] == 'Y' &&
+      post[i + 1] == 'e' &&
+      post[i + 2] == 'a' &&
+      post[i + 3] == 'r' &&
+      post[i + 4] == ' ' &&
+      post[i + 5] == ':'
+    ) {
+      year = post[i + 7] + post[i + 8] + post[i + 9] + post[i + 10];
+      i += 9;
+    } else if (
+      i + 5 < post.length &&
+      post[i] == 'S' &&
+      post[i + 1] == 'i' &&
+      post[i + 2] == 'z' &&
+      post[i + 3] == 'e' &&
+      post[i + 4] == ' ' &&
+      post[i + 5] == ':'
+    ) {
+      let j = i + 7;
+      const temp = j;
+      for (; j < temp + 4; j++) {
+        if (!isNaN(Number(post[j]))) {
+          size += post[j];
+        } else {
+          break;
+        }
+      }
+      size += post[j] + post[j + 1];
+      i += j - i;
+      i += 2;
+      sizeDone = true;
+    }
+    if (sizeDone) {
+      description += post[i];
+    }
+  }
+  description = description.substring(0, description.length - 12);
+  return { year, size, description };
 };

@@ -1,11 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.safeUnpack = exports.getHashFromImage = exports.substringBeforeLast = exports.substringAfterLast = exports.substringBefore = exports.substringAfter = exports.compareTwoStrings = exports.isJson = exports.getDays = exports.capitalizeFirstLetter = exports.range = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.ANIFY_URL = exports.days = exports.USER_AGENT = void 0;
+exports.parsePostInfo = exports.safeUnpack = exports.getHashFromImage = exports.substringBeforeLast = exports.substringAfterLast = exports.substringBefore = exports.substringAfter = exports.compareTwoStrings = exports.isJson = exports.getDays = exports.capitalizeFirstLetter = exports.range = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.days = exports.USER_AGENT = void 0;
 exports.convertDuration = convertDuration;
 const cheerio_1 = require("cheerio");
 exports.USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36';
 exports.days = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
-exports.ANIFY_URL = 'https://anify.eltik.cc';
 const splitAuthor = (authors) => {
     const res = [];
     let eater = '';
@@ -193,4 +192,50 @@ const safeUnpack = (packedSource) => {
     }
 };
 exports.safeUnpack = safeUnpack;
+const parsePostInfo = (post) => {
+    let year = '';
+    let size = '';
+    let description = '';
+    let sizeDone = false;
+    for (let i = 0; i < post.length; i++) {
+        if (i + 5 < post.length &&
+            post[i] == 'Y' &&
+            post[i + 1] == 'e' &&
+            post[i + 2] == 'a' &&
+            post[i + 3] == 'r' &&
+            post[i + 4] == ' ' &&
+            post[i + 5] == ':') {
+            year = post[i + 7] + post[i + 8] + post[i + 9] + post[i + 10];
+            i += 9;
+        }
+        else if (i + 5 < post.length &&
+            post[i] == 'S' &&
+            post[i + 1] == 'i' &&
+            post[i + 2] == 'z' &&
+            post[i + 3] == 'e' &&
+            post[i + 4] == ' ' &&
+            post[i + 5] == ':') {
+            let j = i + 7;
+            const temp = j;
+            for (; j < temp + 4; j++) {
+                if (!isNaN(Number(post[j]))) {
+                    size += post[j];
+                }
+                else {
+                    break;
+                }
+            }
+            size += post[j] + post[j + 1];
+            i += j - i;
+            i += 2;
+            sizeDone = true;
+        }
+        if (sizeDone) {
+            description += post[i];
+        }
+    }
+    description = description.substring(0, description.length - 12);
+    return { year, size, description };
+};
+exports.parsePostInfo = parsePostInfo;
 //# sourceMappingURL=utils.js.map

@@ -15,7 +15,7 @@ import {
   WatchListType,
 } from '../../models';
 
-import { MegaCloud, StreamSB, StreamTape } from '../../utils';
+import { MegaCloud, StreamSB, StreamTape } from '../../extractors';
 import { USER_AGENT } from '../../utils';
 
 class Hianime extends AnimeParser {
