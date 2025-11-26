@@ -1380,6 +1380,7 @@ class Anilist extends models_1.AnimeParser {
                         episode: (_r = data.data.Media.nextAiringEpisode) === null || _r === void 0 ? void 0 : _r.episode,
                     };
                 animeInfo.totalEpisodes = (_t = (_s = data.data.Media) === null || _s === void 0 ? void 0 : _s.episodes) !== null && _t !== void 0 ? _t : ((_u = data.data.Media.nextAiringEpisode) === null || _u === void 0 ? void 0 : _u.episode) - 1;
+                animeInfo.totalChapters = data.data.Media.chapters;
                 animeInfo.currentEpisode = ((_w = (_v = data.data.Media) === null || _v === void 0 ? void 0 : _v.nextAiringEpisode) === null || _w === void 0 ? void 0 : _w.episode)
                     ? ((_x = data.data.Media.nextAiringEpisode) === null || _x === void 0 ? void 0 : _x.episode) - 1
                     : ((_y = data.data.Media) === null || _y === void 0 ? void 0 : _y.episodes) || undefined;
@@ -1423,6 +1424,7 @@ class Anilist extends models_1.AnimeParser {
                                             ? models_1.MediaStatus.HIATUS
                                             : models_1.MediaStatus.UNKNOWN,
                         episodes: item.node.mediaRecommendation.episodes,
+                        chapters: item.node.mediaRecommendation.chapters,
                         image: (_c = (_b = item.node.mediaRecommendation.coverImage.extraLarge) !== null && _b !== void 0 ? _b : item.node.mediaRecommendation.coverImage.large) !== null && _c !== void 0 ? _c : item.node.mediaRecommendation.coverImage.medium,
                         imageHash: (0, utils_2.getHashFromImage)((_e = (_d = item.node.mediaRecommendation.coverImage.extraLarge) !== null && _d !== void 0 ? _d : item.node.mediaRecommendation.coverImage.large) !== null && _e !== void 0 ? _e : item.node.mediaRecommendation.coverImage.medium),
                         cover: (_h = (_g = (_f = item.node.mediaRecommendation.bannerImage) !== null && _f !== void 0 ? _f : item.node.mediaRecommendation.coverImage.extraLarge) !== null && _g !== void 0 ? _g : item.node.mediaRecommendation.coverImage.large) !== null && _h !== void 0 ? _h : item.node.mediaRecommendation.coverImage.medium,
@@ -1488,6 +1490,7 @@ class Anilist extends models_1.AnimeParser {
                                             ? models_1.MediaStatus.HIATUS
                                             : models_1.MediaStatus.UNKNOWN,
                         episodes: item.node.episodes,
+                        chapters: item.node.chapters,
                         image: (_c = (_b = item.node.coverImage.extraLarge) !== null && _b !== void 0 ? _b : item.node.coverImage.large) !== null && _c !== void 0 ? _c : item.node.coverImage.medium,
                         imageHash: (0, utils_2.getHashFromImage)((_e = (_d = item.node.coverImage.extraLarge) !== null && _d !== void 0 ? _d : item.node.coverImage.large) !== null && _e !== void 0 ? _e : item.node.coverImage.medium),
                         cover: (_h = (_g = (_f = item.node.bannerImage) !== null && _f !== void 0 ? _f : item.node.coverImage.extraLarge) !== null && _g !== void 0 ? _g : item.node.coverImage.large) !== null && _h !== void 0 ? _h : item.node.coverImage.medium,
@@ -2021,10 +2024,12 @@ Anilist.Manga = class Manga {
 //   const anime = await ani.advancedSearch(undefined, "MANGA", undefined, undefined, undefined, ["POPULARITY_DESC"], undefined, undefined, undefined, undefined, undefined, "KR");
 //   console.log(anime.results[0].title);
 //   const details = await ani.fetchAnilistInfoById(anime.results[0].id);
-//   const chapters = await new Anilist.Manga(new MangaReader()).fetchChaptersList(anime.results[0].id);
-//   console.log(chapters);
-//   const pages = await new Anilist.Manga(new MangaReader()).fetchChapterPages(chapters[0].id);
-//   console.log(pages);
+//   console.log(details.startDate);
+//   console.log(details.totalChapters);
+//   // const chapters = await new Anilist.Manga(new MangaReader()).fetchChaptersList(anime.results[0].id);
+//   // console.log(chapters);
+//   // const pages = await new Anilist.Manga(new MangaReader()).fetchChapterPages(chapters[0].id);
+//   // console.log(pages);
 // })();
 exports.default = Anilist;
 //# sourceMappingURL=anilist.js.map

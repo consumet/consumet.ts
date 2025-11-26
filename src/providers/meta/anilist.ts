@@ -1708,6 +1708,7 @@ class Anilist extends AnimeParser {
         };
 
       animeInfo.totalEpisodes = data.data.Media?.episodes ?? data.data.Media.nextAiringEpisode?.episode - 1;
+      animeInfo.totalChapters = data.data.Media.chapters;
       animeInfo.currentEpisode = data.data.Media?.nextAiringEpisode?.episode
         ? data.data.Media.nextAiringEpisode?.episode - 1
         : data.data.Media?.episodes || undefined;
@@ -1750,6 +1751,7 @@ class Anilist extends AnimeParser {
             ? MediaStatus.HIATUS
             : MediaStatus.UNKNOWN,
         episodes: item.node.mediaRecommendation.episodes,
+        chapters: item.node.mediaRecommendation.chapters,
         image:
           item.node.mediaRecommendation.coverImage.extraLarge ??
           item.node.mediaRecommendation.coverImage.large ??
@@ -1823,6 +1825,7 @@ class Anilist extends AnimeParser {
             ? MediaStatus.HIATUS
             : MediaStatus.UNKNOWN,
         episodes: item.node.episodes,
+        chapters: item.node.chapters,
 
         image: item.node.coverImage.extraLarge ?? item.node.coverImage.large ?? item.node.coverImage.medium,
         imageHash: getHashFromImage(
@@ -2459,11 +2462,13 @@ class Anilist extends AnimeParser {
 //   const anime = await ani.advancedSearch(undefined, "MANGA", undefined, undefined, undefined, ["POPULARITY_DESC"], undefined, undefined, undefined, undefined, undefined, "KR");
 //   console.log(anime.results[0].title);
 //   const details = await ani.fetchAnilistInfoById(anime.results[0].id);
-//   const chapters = await new Anilist.Manga(new MangaReader()).fetchChaptersList(anime.results[0].id);
-//   console.log(chapters);
+//   console.log(details.startDate);
+//   console.log(details.totalChapters);
+//   // const chapters = await new Anilist.Manga(new MangaReader()).fetchChaptersList(anime.results[0].id);
+//   // console.log(chapters);
 
-//   const pages = await new Anilist.Manga(new MangaReader()).fetchChapterPages(chapters[0].id);
-//   console.log(pages);
+//   // const pages = await new Anilist.Manga(new MangaReader()).fetchChapterPages(chapters[0].id);
+//   // console.log(pages);
 // })();
 
 export default Anilist;
