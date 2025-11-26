@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
+const extractors_1 = require("../../extractors");
 const utils_1 = require("../../utils");
-const utils_2 = require("../../utils");
 class Hianime extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
@@ -154,27 +154,27 @@ class Hianime extends models_1.AnimeParser {
                     case models_1.StreamingServers.VidCloud:
                         return {
                             headers: { Referer: serverUrl.href },
-                            ...(await new utils_1.MegaCloud().extract(serverUrl)),
+                            ...(await new extractors_1.MegaCloud().extract(serverUrl)),
                         };
                     case models_1.StreamingServers.StreamSB:
                         return {
                             headers: {
                                 Referer: serverUrl.href,
                                 watchsb: 'streamsb',
-                                'User-Agent': utils_2.USER_AGENT,
+                                'User-Agent': utils_1.USER_AGENT,
                             },
-                            sources: await new utils_1.StreamSB(this.proxyConfig, this.adapter).extract(serverUrl, true),
+                            sources: await new extractors_1.StreamSB(this.proxyConfig, this.adapter).extract(serverUrl, true),
                         };
                     case models_1.StreamingServers.StreamTape:
                         return {
-                            headers: { Referer: serverUrl.href, 'User-Agent': utils_2.USER_AGENT },
-                            sources: await new utils_1.StreamTape(this.proxyConfig, this.adapter).extract(serverUrl),
+                            headers: { Referer: serverUrl.href, 'User-Agent': utils_1.USER_AGENT },
+                            sources: await new extractors_1.StreamTape(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     default:
                     case models_1.StreamingServers.VidCloud:
                         return {
                             headers: { Referer: serverUrl.href },
-                            ...(await new utils_1.MegaCloud().extract(serverUrl)),
+                            ...(await new extractors_1.MegaCloud().extract(serverUrl)),
                         };
                 }
             }

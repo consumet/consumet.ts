@@ -18,7 +18,9 @@
     "test:manga": "jest ./test/manga",
     "test:lightnovels": "jest ./test/light-novels",
     "test:news": "jest ./test/news",
-    "test:meta": "jest ./test/meta"
+    "test:meta": "jest ./test/meta",
+    "test:meta:anilist": "jest ./test/meta/anilist.test.ts",
+    "test:meta:tmdb": "jest ./test/meta/tmdb.test.ts"
   },
   "pre-commit": [
     "lint",
@@ -61,7 +63,8 @@
     "domhandler": "^5.0.3",
     "form-data": "^4.0.0",
     "husky": "^9.1.1",
-    "node-fetch": "^2.7.0"
+    "node-fetch": "^2.7.0",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.3",

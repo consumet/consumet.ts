@@ -7,7 +7,6 @@ const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const hianime_1 = __importDefault(require("../anime/hianime"));
-const utils_2 = require("../../utils/utils");
 class Myanimelist extends models_1.AnimeParser {
     /**
      * This class maps myanimelist to kitsu with any other anime provider.
@@ -23,7 +22,7 @@ class Myanimelist extends models_1.AnimeParser {
         this.anilistGraphqlUrl = 'https://graphql.anilist.co';
         this.kitsuGraphqlUrl = 'https://kitsu.app/api/graphql';
         this.malSyncUrl = 'https://api.malsync.moe';
-        this.anifyUrl = utils_2.ANIFY_URL;
+        this.anifyUrl = 'https://anify.eltik.cc';
         this.search = async (query, page = 1) => {
             const searchResults = {
                 currentPage: page,

@@ -37,7 +37,7 @@ import {
   capitalizeFirstLetter,
 } from '../../utils';
 import Hianime from '../anime/hianime';
-import { ANIFY_URL, compareTwoStrings, getHashFromImage, USER_AGENT } from '../../utils/utils';
+import { compareTwoStrings, getHashFromImage, USER_AGENT } from '../../utils/utils';
 import { anilistFavouritesQuery } from '../../utils/queries';
 import MangaDex from '../manga/mangadex';
 
@@ -50,7 +50,8 @@ class Anilist extends AnimeParser {
   private readonly anilistGraphqlUrl = 'https://graphql.anilist.co';
   private readonly kitsuGraphqlUrl = 'https://kitsu.io/api/graphql';
   private readonly malSyncUrl = 'https://api.malsync.moe';
-  private anifyUrl = ANIFY_URL;
+  private readonly anifyUrl = 'https://anify.eltik.cc';
+
   provider: AnimeParser;
 
   /**

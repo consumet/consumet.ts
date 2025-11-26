@@ -488,7 +488,7 @@ class HiMovies extends MovieParser {
       case StreamingServers.UpCloud:
         return {
           headers: { Referer: serverUrl.href },
-          ...(await new VidCloud(this.proxyConfig, this.adapter).extract(serverUrl, this.baseUrl)),
+          ...(await new VidCloud(this.proxyConfig, this.adapter).extract(serverUrl)),
         };
 
       case StreamingServers.MegaCloud:

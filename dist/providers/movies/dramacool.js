@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
-const extractors_1 = require("../../extractors");
 const models_1 = require("../../models");
+const extractors_1 = require("../../extractors");
 class DramaCool extends models_1.MovieParser {
     constructor() {
         super(...arguments);

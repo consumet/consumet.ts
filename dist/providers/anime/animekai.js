@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
-const utils_1 = require("../../utils");
-const { GenerateToken, DecodeIframeData } = new utils_1.MegaUp();
+const extractors_1 = require("../../extractors");
+const { GenerateToken, DecodeIframeData } = new extractors_1.MegaUp();
 class AnimeKai extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
@@ -156,13 +156,13 @@ class AnimeKai extends models_1.AnimeParser {
                     case models_1.StreamingServers.MegaUp:
                         return {
                             headers: { Referer: serverUrl.href },
-                            ...(await new utils_1.MegaUp(this.proxyConfig, this.adapter).extract(serverUrl)),
+                            ...(await new extractors_1.MegaUp(this.proxyConfig, this.adapter).extract(serverUrl)),
                             download: serverUrl.href.replace(/\/e\//, '/download/'),
                         };
                     default:
                         return {
                             headers: { Referer: serverUrl.href },
-                            ...(await new utils_1.MegaUp(this.proxyConfig, this.adapter).extract(serverUrl)),
+                            ...(await new extractors_1.MegaUp(this.proxyConfig, this.adapter).extract(serverUrl)),
                             download: serverUrl.href.replace(/\/e\//, '/download/'),
                         };
                 }
