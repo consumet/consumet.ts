@@ -37,7 +37,7 @@ import {
   capitalizeFirstLetter,
 } from '../../utils';
 import Hianime from '../anime/hianime';
-import { compareTwoStrings, getHashFromImage, USER_AGENT } from '../../utils/utils';
+import { compareTwoStrings, findSimilarTitles, getHashFromImage, USER_AGENT } from '../../utils/utils';
 import { anilistFavouritesQuery } from '../../utils/queries';
 import MangaDex from '../manga/mangadex';
 
@@ -1340,54 +1340,44 @@ class Anilist extends AnimeParser {
     }
   };
 
-  private findAnimeRaw = async (slug: string, externalLinks?: any) => {
-    const findAnime = (await this.provider.search(slug)) as ISearch<IAnimeResult>;
+  private findAnimeRaw = async (title: ITitle) => {
+    const searchTerm = title?.romaji || title?.english || title?.userPreferred || '';
+    const findAnime = (await this.provider.search(searchTerm)) as ISearch<IAnimeResult>;
 
-    if (findAnime.results.length === 0) return undefined;
-
-    // Sort the retrieved info for more accurate results.
-
-    // Calculate topRating separately
-    let topRating = 0;
-
-    findAnime.results.forEach(result => {
-      const targetTitle = slug.toLowerCase();
-      let title: string;
-
-      if (typeof result.title == 'string') title = result.title as string;
-      else title = result.title.english ?? result.title.romaji ?? '';
-
-      const rating = compareTwoStrings(targetTitle, title.toLowerCase());
-      if (rating > topRating) {
-        topRating = rating;
-      }
-    });
-
-    // Then sort separately
-    findAnime.results.sort((a, b) => {
-      const targetTitle = slug.toLowerCase();
-
-      let firstTitle: string;
-      let secondTitle: string;
-
-      if (typeof a.title == 'string') firstTitle = a.title as string;
-      else firstTitle = a.title.english ?? a.title.romaji ?? '';
-
-      if (typeof b.title == 'string') secondTitle = b.title as string;
-      else secondTitle = b.title.english ?? b.title.romaji ?? '';
-
-      const firstRating = compareTwoStrings(targetTitle, firstTitle.toLowerCase());
-      const secondRating = compareTwoStrings(targetTitle, secondTitle.toLowerCase());
-
-      // Sort in descending order
-      return secondRating - firstRating;
-    });
-
-    if (topRating >= 0.7) {
-      return await this.provider.fetchAnimeInfo(findAnime.results[0].id);
+    if (!findAnime?.results) {
+      return {} as IAnimeEpisode[];
     }
 
-    return undefined;
+    // Run similar title searches in parallel
+    const [mappedEng, mappedRom] = await Promise.all([
+      Promise.resolve(findSimilarTitles(title?.english || '', findAnime.results)),
+      Promise.resolve(findSimilarTitles(title?.romaji || '', findAnime.results)),
+    ]);
+
+    // Use Set for efficient deduplication
+    const uniqueResults = Array.from(
+      new Set([...mappedEng, ...mappedRom].map(item => JSON.stringify(item)))
+    ).map(str => JSON.parse(str));
+
+    // Sort by similarity score
+    uniqueResults.sort((a, b) => (b.similarity || 0) - (a.similarity || 0));
+    const mappings: any = {};
+    for (const obj of uniqueResults) {
+      const match = obj.title.replace(/\(TV\)/g, '').match(/\(([^)0-9]+)\)/);
+      const key = match ? match[1].replace(/\s+/g, '-').toLowerCase() : 'sub';
+
+      if (!mappings[key]) {
+        mappings[key] = obj.id;
+      }
+
+      // Early return if we have both sub and dub
+      if (mappings.sub && mappings.dub) break;
+    }
+    // console.log('mappings', mappings);
+    // console.time('animeinfo');
+    const animeInfo = await this.provider.fetchAnimeInfo(mappings.sub || mappings.dub);
+    // console.timeEnd('animeinfo');
+    return animeInfo.episodes as IAnimeEpisode[];
   };
 
   /**
@@ -1497,16 +1487,8 @@ class Anilist extends AnimeParser {
   ) => {
     let episodes: IAnimeEpisode[] = [];
 
-    episodes = await this.findAnime(
-      { english: Media.title?.english!, romaji: Media.title?.romaji! },
-      Media.season!,
-      Media.startDate.year,
-      Media.idMal as number,
-      dub,
-      id,
-      Media.externalLinks
-    );
-
+    episodes = await this.findAnimeRaw({ english: Media.title?.english!, romaji: Media.title?.romaji! });
+    // console.log('fetchDefaultEpisodeList', episodes);
     return episodes;
   };
 
@@ -2461,9 +2443,10 @@ class Anilist extends AnimeParser {
 //   const ani = new Anilist(new Hianime());
 //   const anime = await ani.advancedSearch(undefined, "MANGA", undefined, undefined, undefined, ["POPULARITY_DESC"], undefined, undefined, undefined, undefined, undefined, "KR");
 //   console.log(anime.results[0].title);
-//   const details = await ani.fetchAnilistInfoById(anime.results[0].id);
+//   const details = await ani.fetchAnimeInfo(anime.results[0].id);
 //   console.log(details.startDate);
 //   console.log(details.totalChapters);
+//   console.log(details.episodes);
 //   // const chapters = await new Anilist.Manga(new MangaReader()).fetchChaptersList(anime.results[0].id);
 //   // console.log(chapters);
 
