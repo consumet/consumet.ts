@@ -2,6 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.parsePostInfo = exports.safeUnpack = exports.getHashFromImage = exports.substringBeforeLast = exports.substringAfterLast = exports.substringBefore = exports.substringAfter = exports.compareTwoStrings = exports.isJson = exports.getDays = exports.capitalizeFirstLetter = exports.range = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.days = exports.USER_AGENT = void 0;
 exports.convertDuration = convertDuration;
+exports.findSimilarTitles = findSimilarTitles;
+exports.removeSpecialChars = removeSpecialChars;
+exports.transformSpecificVariations = transformSpecificVariations;
+exports.cleanTitle = cleanTitle;
 const cheerio_1 = require("cheerio");
 exports.USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36';
 exports.days = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
@@ -238,4 +242,83 @@ const parsePostInfo = (post) => {
     return { year, size, description };
 };
 exports.parsePostInfo = parsePostInfo;
+// Function to find similar titles
+function findSimilarTitles(inputTitle, titles) {
+    const results = [];
+    titles === null || titles === void 0 ? void 0 : titles.forEach((titleObj) => {
+        var _a, _b;
+        const title = cleanTitle(((_b = (_a = titleObj === null || titleObj === void 0 ? void 0 : titleObj.title) === null || _a === void 0 ? void 0 : _a.toLowerCase()) === null || _b === void 0 ? void 0 : _b.replace(/\([^\)]*\)/g, '').trim()) || '');
+        // Calculate similarity score between inputTitle and title
+        const similarity = (0, exports.compareTwoStrings)(cleanTitle((inputTitle === null || inputTitle === void 0 ? void 0 : inputTitle.toLowerCase()) || ''), title);
+        if (similarity > 0.6) {
+            results.push({ ...titleObj, similarity });
+        }
+    });
+    const isSubAvailable = results.some(result => result.episodes && result.episodes.sub > 0);
+    // If episodes.sub is available, sort the results
+    if (isSubAvailable) {
+        return results.sort((a, b) => {
+            var _a, _b;
+            // First sort by similarity in descending order
+            if (b.similarity !== a.similarity) {
+                return b.similarity - a.similarity;
+            }
+            // If similarity is the same, sort by episodes.sub in descending order
+            return (((_a = b.episodes) === null || _a === void 0 ? void 0 : _a.sub) || 0) - (((_b = a.episodes) === null || _b === void 0 ? void 0 : _b.sub) || 0);
+        });
+    }
+    // If episodes.sub is not available, return the original list
+    return results.sort((a, b) => b.similarity - a.similarity);
+}
+function removeSpecialChars(title) {
+    if (!title)
+        return '';
+    return title
+        .replace(/[^A-Za-z0-9!@#$%^&*()\-= ]/gim, ' ')
+        .replace(/[^A-Za-z0-9\-= ]/gim, '')
+        .replace(/ {2}/g, ' ');
+}
+function transformSpecificVariations(title) {
+    if (!title)
+        return '';
+    return title.replace(/yuu/g, 'yu').replace(/ ou/g, ' oh');
+}
+function romanToArabic(roman) {
+    const romanMap = {
+        i: 1,
+        v: 5,
+        x: 10,
+        l: 50,
+        c: 100,
+        d: 500,
+        m: 1000,
+    };
+    roman = roman.toLowerCase();
+    let result = 0;
+    for (let i = 0; i < roman.length; i++) {
+        const current = romanMap[roman[i]];
+        const next = romanMap[roman[i + 1]];
+        if (next && current < next) {
+            result += next - current;
+            i++;
+        }
+        else {
+            result += current;
+        }
+    }
+    return result;
+}
+function cleanTitle(title) {
+    if (!title)
+        return '';
+    return transformSpecificVariations(removeSpecialChars(title
+        .replace(/[^A-Za-z0-9!@#$%^&*() ]/gim, ' ')
+        .replace(/(th|rd|nd|st) (Season|season)/gim, '')
+        .replace(/\([^\(]*\)$/gim, '')
+        .replace(/season/g, '')
+        .replace(/\b(IX|IV|V?I{0,3})\b/gi, (match) => romanToArabic(match).toString())
+        .replace(/ {2}/g, ' ')
+        .replace(/"/g, '')
+        .trimEnd()));
+}
 //# sourceMappingURL=utils.js.map

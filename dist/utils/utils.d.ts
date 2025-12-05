@@ -3,7 +3,7 @@ export declare const days: string[];
 export declare const splitAuthor: (authors: string) => string[];
 export declare const floorID: (id: string) => number;
 export declare const formatTitle: (title: string) => string;
-export declare const genElement: (s: string, e: string) => import("cheerio").Cheerio<import("domhandler").AnyNode> | undefined;
+export declare const genElement: (s: string, e: string) => import("cheerio").Cheerio<import("cheerio").AnyNode> | undefined;
 export declare const range: ({ from, to, step, length }: {
     from?: number | undefined;
     to?: number | undefined;
@@ -26,3 +26,7 @@ export declare const parsePostInfo: (post: string) => {
     size: string;
     description: string;
 };
+export declare function findSimilarTitles(inputTitle: string, titles: any[]): any[];
+export declare function removeSpecialChars(title: string | undefined | null): string;
+export declare function transformSpecificVariations(title: string | undefined | null): string;
+export declare function cleanTitle(title: string | undefined | null): string;

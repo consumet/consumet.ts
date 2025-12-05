@@ -1093,49 +1093,37 @@ class Anilist extends models_1.AnimeParser {
                 throw new Error(err.message);
             }
         };
-        this.findAnimeRaw = async (slug, externalLinks) => {
-            const findAnime = (await this.provider.search(slug));
-            if (findAnime.results.length === 0)
-                return undefined;
-            // Sort the retrieved info for more accurate results.
-            // Calculate topRating separately
-            let topRating = 0;
-            findAnime.results.forEach(result => {
-                var _b, _c;
-                const targetTitle = slug.toLowerCase();
-                let title;
-                if (typeof result.title == 'string')
-                    title = result.title;
-                else
-                    title = (_c = (_b = result.title.english) !== null && _b !== void 0 ? _b : result.title.romaji) !== null && _c !== void 0 ? _c : '';
-                const rating = (0, utils_2.compareTwoStrings)(targetTitle, title.toLowerCase());
-                if (rating > topRating) {
-                    topRating = rating;
-                }
-            });
-            // Then sort separately
-            findAnime.results.sort((a, b) => {
-                var _b, _c, _d, _e;
-                const targetTitle = slug.toLowerCase();
-                let firstTitle;
-                let secondTitle;
-                if (typeof a.title == 'string')
-                    firstTitle = a.title;
-                else
-                    firstTitle = (_c = (_b = a.title.english) !== null && _b !== void 0 ? _b : a.title.romaji) !== null && _c !== void 0 ? _c : '';
-                if (typeof b.title == 'string')
-                    secondTitle = b.title;
-                else
-                    secondTitle = (_e = (_d = b.title.english) !== null && _d !== void 0 ? _d : b.title.romaji) !== null && _e !== void 0 ? _e : '';
-                const firstRating = (0, utils_2.compareTwoStrings)(targetTitle, firstTitle.toLowerCase());
-                const secondRating = (0, utils_2.compareTwoStrings)(targetTitle, secondTitle.toLowerCase());
-                // Sort in descending order
-                return secondRating - firstRating;
-            });
-            if (topRating >= 0.7) {
-                return await this.provider.fetchAnimeInfo(findAnime.results[0].id);
+        this.findAnimeRaw = async (title) => {
+            const searchTerm = (title === null || title === void 0 ? void 0 : title.romaji) || (title === null || title === void 0 ? void 0 : title.english) || (title === null || title === void 0 ? void 0 : title.userPreferred) || '';
+            const findAnime = (await this.provider.search(searchTerm));
+            if (!(findAnime === null || findAnime === void 0 ? void 0 : findAnime.results)) {
+                return {};
             }
-            return undefined;
+            // Run similar title searches in parallel
+            const [mappedEng, mappedRom] = await Promise.all([
+                Promise.resolve((0, utils_2.findSimilarTitles)((title === null || title === void 0 ? void 0 : title.english) || '', findAnime.results)),
+                Promise.resolve((0, utils_2.findSimilarTitles)((title === null || title === void 0 ? void 0 : title.romaji) || '', findAnime.results)),
+            ]);
+            // Use Set for efficient deduplication
+            const uniqueResults = Array.from(new Set([...mappedEng, ...mappedRom].map(item => JSON.stringify(item)))).map(str => JSON.parse(str));
+            // Sort by similarity score
+            uniqueResults.sort((a, b) => (b.similarity || 0) - (a.similarity || 0));
+            const mappings = {};
+            for (const obj of uniqueResults) {
+                const match = obj.title.replace(/\(TV\)/g, '').match(/\(([^)0-9]+)\)/);
+                const key = match ? match[1].replace(/\s+/g, '-').toLowerCase() : 'sub';
+                if (!mappings[key]) {
+                    mappings[key] = obj.id;
+                }
+                // Early return if we have both sub and dub
+                if (mappings.sub && mappings.dub)
+                    break;
+            }
+            // console.log('mappings', mappings);
+            // console.time('animeinfo');
+            const animeInfo = await this.provider.fetchAnimeInfo(mappings.sub || mappings.dub);
+            // console.timeEnd('animeinfo');
+            return animeInfo.episodes;
         };
         /**
          * @returns a random anime
@@ -1217,7 +1205,8 @@ class Anilist extends models_1.AnimeParser {
         this.fetchDefaultEpisodeList = async (Media, dub, id) => {
             var _b, _c;
             let episodes = [];
-            episodes = await this.findAnime({ english: (_b = Media.title) === null || _b === void 0 ? void 0 : _b.english, romaji: (_c = Media.title) === null || _c === void 0 ? void 0 : _c.romaji }, Media.season, Media.startDate.year, Media.idMal, dub, id, Media.externalLinks);
+            episodes = await this.findAnimeRaw({ english: (_b = Media.title) === null || _b === void 0 ? void 0 : _b.english, romaji: (_c = Media.title) === null || _c === void 0 ? void 0 : _c.romaji });
+            // console.log('fetchDefaultEpisodeList', episodes);
             return episodes;
         };
         /**
@@ -2023,9 +2012,10 @@ Anilist.Manga = class Manga {
 //   const ani = new Anilist(new Hianime());
 //   const anime = await ani.advancedSearch(undefined, "MANGA", undefined, undefined, undefined, ["POPULARITY_DESC"], undefined, undefined, undefined, undefined, undefined, "KR");
 //   console.log(anime.results[0].title);
-//   const details = await ani.fetchAnilistInfoById(anime.results[0].id);
+//   const details = await ani.fetchAnimeInfo(anime.results[0].id);
 //   console.log(details.startDate);
 //   console.log(details.totalChapters);
+//   console.log(details.episodes);
 //   // const chapters = await new Anilist.Manga(new MangaReader()).fetchChaptersList(anime.results[0].id);
 //   // console.log(chapters);
 //   // const pages = await new Anilist.Manga(new MangaReader()).fetchChapterPages(chapters[0].id);
