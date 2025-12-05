@@ -1,6 +1,9 @@
 import { ISource, IVideo, VideoExtractor } from '../models';
 import { AxiosAdapter } from 'axios';
 import { ProxyConfig } from '../models/types';
+/**
+ * Thanks to [Seniy](https://github.com/AzartX47/EncDecEndpoints/blob/main/samples/animekai.py) for the api implementation
+ */
 export declare class MegaUp extends VideoExtractor {
     protected proxyConfig?: ProxyConfig | undefined;
     protected adapter?: AxiosAdapter | undefined;
