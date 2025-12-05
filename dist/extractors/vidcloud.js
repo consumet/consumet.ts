@@ -11,7 +11,7 @@ class VidCloud extends models_1.VideoExtractor {
         super(...arguments);
         this.serverName = 'VidCloud';
         this.sources = [];
-        this.extract = async (videoUrl) => {
+        this.extract = async (videoUrl, referer = 'https://flixhq.to/') => {
             var _a, _b, _c;
             try {
                 const result = {
