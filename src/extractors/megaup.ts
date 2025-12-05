@@ -1,6 +1,12 @@
+//extractor for https://animekai.to
+
 import { ISource, IVideo, VideoExtractor } from '../models';
 import axios, { AxiosAdapter } from 'axios';
 import { ProxyConfig } from '../models/types';
+
+/**
+ * Thanks to [Seniy](https://github.com/AzartX47/EncDecEndpoints/blob/main/samples/animekai.py) for the api implementation
+ */
 
 export class MegaUp extends VideoExtractor {
   protected serverName: string = 'MegaUp';
