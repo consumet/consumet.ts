@@ -6,6 +6,7 @@ class StreamSB extends VideoExtractor {
   protected override sources: IVideo[] = [];
 
   private readonly host = 'https://streamsss.net/sources50';
+  // TODO: update host2
   private readonly host2 = 'https://watchsb.com/sources50';
 
   private PAYLOAD = (hex: string) =>

@@ -15,6 +15,9 @@ class Kwik extends models_1.VideoExtractor {
                     headers: { Referer: this.baseUrl },
                 });
                 const data = await response.text();
+                // good idea if it eval your server rm -rf, or shell execution
+                // maybe some want to inject some people server and put it crypto miner
+                // const source = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)![2].replace('eval', '')).match(
                 const source = (0, utils_1.safeUnpack)(/;(eval)(\(f.*?)(\n<\/script>)/s.exec(data)[2]).match(/https.*?m3u8/);
                 this.sources.push({
                     url: source[0],
