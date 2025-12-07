@@ -2,7 +2,7 @@ import { VideoExtractor, IVideo, ISubtitle } from '../models';
 declare class VidCloud extends VideoExtractor {
     protected serverName: string;
     protected sources: IVideo[];
-    extract: (videoUrl: URL, referer?: string) => Promise<{
+    extract: (videoUrl: URL) => Promise<{
         sources: IVideo[];
     } & {
         subtitles: ISubtitle[];

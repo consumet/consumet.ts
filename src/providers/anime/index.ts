@@ -4,7 +4,6 @@ import AnimeSaturn from './animesaturn';
 import AnimeKai from './animekai';
 import KickAssAnime from './kickassanime';
 import AnimeUnity from './animeunity';
-import AnimeSama from './animesama';
 
 export default {
   Hianime,
@@ -13,5 +12,4 @@ export default {
   KickAssAnime,
   AnimeSaturn,
   AnimeUnity,
-  AnimeSama,
 };

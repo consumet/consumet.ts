@@ -12,14 +12,15 @@
     "test": "jest",
     "test:anime": "jest ./test/anime",
     "test:anime:kaa": "jest ./test/anime/kickassanime.test.ts",
-    "test:anime:anisma": "jest ./test/anime/animesama.test.ts",
     "test:books": "jest ./test/books",
     "test:comics": "jest ./test/comics",
     "test:movies": "jest ./test/movies",
     "test:manga": "jest ./test/manga",
     "test:lightnovels": "jest ./test/light-novels",
     "test:news": "jest ./test/news",
-    "test:meta": "jest ./test/meta"
+    "test:meta": "jest ./test/meta",
+    "test:meta:anilist": "jest ./test/meta/anilist.test.ts",
+    "test:meta:tmdb": "jest ./test/meta/tmdb.test.ts"
   },
   "pre-commit": [
     "lint",
@@ -61,17 +62,16 @@
     "crypto-js": "^4.1.1",
     "domhandler": "^5.0.3",
     "form-data": "^4.0.0",
-    "got": "^11.8.6",
-    "got-scraping": "^4.1.2",
     "husky": "^9.1.1",
-    "node-fetch": "^2.7.0"
+    "node-fetch": "^2.7.0",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.3",
     "@commitlint/config-angular": "^17.6.3",
     "@types/crypto-js": "^4.1.1",
     "@types/jest": "^29.5.1",
-    "@types/node": "^20.19.25",
+    "@types/node": "^20.2.1",
     "@types/ws": "^8.5.4",
     "auto-changelog": "^2.4.0",
     "cloudscraper": "^4.6.0",
