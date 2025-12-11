@@ -4,7 +4,7 @@ async function testAnimeSama() {
   const animeId = 'gachiakuta';
   const season = 1;
   const episode = 17;
-  const language = 'vf';//you can also use 'vostfr' for the sub
+  const language = 'vf'; //you can also use 'vostfr' for the sub
 
   console.log('Test Configuration:');
   console.log(`  Anime ID: ${animeId}`);
