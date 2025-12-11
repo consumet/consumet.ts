@@ -259,7 +259,7 @@ class Anilist extends models_1.AnimeParser {
          * @param countryOfOrigin Country of origin (optional)
          */
         this.advancedSearch = async (query, type = 'ANIME', page = 1, perPage = 20, format, sort, genres, id, year, status, season, countryOfOrigin) => {
-            var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y;
+            var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z;
             const options = {
                 headers: {
                     'Content-Type': 'application/json',
@@ -301,8 +301,8 @@ class Anilist extends models_1.AnimeParser {
                     totalResults: (_t = (_s = (_r = data.data) === null || _r === void 0 ? void 0 : _r.Page) === null || _s === void 0 ? void 0 : _s.pageInfo) === null || _t === void 0 ? void 0 : _t.total,
                     results: [],
                 };
-                res.results.push(...((_x = (_w = (_v = (_u = data.data) === null || _u === void 0 ? void 0 : _u.Page) === null || _v === void 0 ? void 0 : _v.media) === null || _w === void 0 ? void 0 : _w.map((item) => {
-                    var _b, _c, _d, _e, _f, _g, _h;
+                res.results.push(...((_z = (_x = (_w = (_v = (_u = data.data) === null || _u === void 0 ? void 0 : _u.Page) === null || _v === void 0 ? void 0 : _v.media) === null || _w === void 0 ? void 0 : _w.map((item) => {
+                    var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l;
                     return ({
                         id: item.id.toString(),
                         malId: item.idMal,
@@ -334,15 +334,16 @@ class Anilist extends models_1.AnimeParser {
                             (((_f = item.nextAiringEpisode) === null || _f === void 0 ? void 0 : _f.episode) ? item.nextAiringEpisode.episode - 1 : undefined),
                         currentEpisode: ((_g = item.nextAiringEpisode) === null || _g === void 0 ? void 0 : _g.episode) - 1 || item.episodes,
                         countryOfOrigin: item.countryOfOrigin,
+                        chapters: (_h = item.chapters) !== null && _h !== void 0 ? _h : undefined,
                         description: item.description,
                         genres: item.genres,
                         rating: item.averageScore,
-                        color: (_h = item.coverImage) === null || _h === void 0 ? void 0 : _h.color,
+                        color: (_j = item.coverImage) === null || _j === void 0 ? void 0 : _j.color,
                         type: item.format,
-                        releaseDate: item.seasonYear,
+                        releaseDate: (_k = item === null || item === void 0 ? void 0 : item.seasonYear) !== null && _k !== void 0 ? _k : (_l = item.startDate) === null || _l === void 0 ? void 0 : _l.year,
                     });
                 })) !== null && _x !== void 0 ? _x : (_y = data.data) === null || _y === void 0 ? void 0 : _y.map((item) => {
-                    var _b, _c;
+                    var _b, _c, _d, _e, _f;
                     return ({
                         id: item.anilistId.toString(),
                         malId: item.mappings['mal'],
@@ -368,10 +369,11 @@ class Anilist extends models_1.AnimeParser {
                         genres: item.genre,
                         color: item.color,
                         totalEpisodes: item.currentEpisode,
+                        chapters: (_d = item.totalChapters) !== null && _d !== void 0 ? _d : undefined,
                         type: item.format,
-                        releaseDate: item.year,
+                        releaseDate: (_e = item.year) !== null && _e !== void 0 ? _e : (_f = item.startDate) === null || _f === void 0 ? void 0 : _f.year,
                     });
-                })));
+                })) !== null && _z !== void 0 ? _z : []));
                 return res;
             }
             catch (err) {
@@ -1091,49 +1093,37 @@ class Anilist extends models_1.AnimeParser {
                 throw new Error(err.message);
             }
         };
-        this.findAnimeRaw = async (slug, externalLinks) => {
-            const findAnime = (await this.provider.search(slug));
-            if (findAnime.results.length === 0)
-                return undefined;
-            // Sort the retrieved info for more accurate results.
-            // Calculate topRating separately
-            let topRating = 0;
-            findAnime.results.forEach(result => {
-                var _b, _c;
-                const targetTitle = slug.toLowerCase();
-                let title;
-                if (typeof result.title == 'string')
-                    title = result.title;
-                else
-                    title = (_c = (_b = result.title.english) !== null && _b !== void 0 ? _b : result.title.romaji) !== null && _c !== void 0 ? _c : '';
-                const rating = (0, utils_2.compareTwoStrings)(targetTitle, title.toLowerCase());
-                if (rating > topRating) {
-                    topRating = rating;
-                }
-            });
-            // Then sort separately
-            findAnime.results.sort((a, b) => {
-                var _b, _c, _d, _e;
-                const targetTitle = slug.toLowerCase();
-                let firstTitle;
-                let secondTitle;
-                if (typeof a.title == 'string')
-                    firstTitle = a.title;
-                else
-                    firstTitle = (_c = (_b = a.title.english) !== null && _b !== void 0 ? _b : a.title.romaji) !== null && _c !== void 0 ? _c : '';
-                if (typeof b.title == 'string')
-                    secondTitle = b.title;
-                else
-                    secondTitle = (_e = (_d = b.title.english) !== null && _d !== void 0 ? _d : b.title.romaji) !== null && _e !== void 0 ? _e : '';
-                const firstRating = (0, utils_2.compareTwoStrings)(targetTitle, firstTitle.toLowerCase());
-                const secondRating = (0, utils_2.compareTwoStrings)(targetTitle, secondTitle.toLowerCase());
-                // Sort in descending order
-                return secondRating - firstRating;
-            });
-            if (topRating >= 0.7) {
-                return await this.provider.fetchAnimeInfo(findAnime.results[0].id);
+        this.findAnimeRaw = async (title) => {
+            const searchTerm = (title === null || title === void 0 ? void 0 : title.romaji) || (title === null || title === void 0 ? void 0 : title.english) || (title === null || title === void 0 ? void 0 : title.userPreferred) || '';
+            const findAnime = (await this.provider.search(searchTerm));
+            if (!(findAnime === null || findAnime === void 0 ? void 0 : findAnime.results)) {
+                return {};
             }
-            return undefined;
+            // Run similar title searches in parallel
+            const [mappedEng, mappedRom] = await Promise.all([
+                Promise.resolve((0, utils_2.findSimilarTitles)((title === null || title === void 0 ? void 0 : title.english) || '', findAnime.results)),
+                Promise.resolve((0, utils_2.findSimilarTitles)((title === null || title === void 0 ? void 0 : title.romaji) || '', findAnime.results)),
+            ]);
+            // Use Set for efficient deduplication
+            const uniqueResults = Array.from(new Set([...mappedEng, ...mappedRom].map(item => JSON.stringify(item)))).map(str => JSON.parse(str));
+            // Sort by similarity score
+            uniqueResults.sort((a, b) => (b.similarity || 0) - (a.similarity || 0));
+            const mappings = {};
+            for (const obj of uniqueResults) {
+                const match = obj.title.replace(/\(TV\)/g, '').match(/\(([^)0-9]+)\)/);
+                const key = match ? match[1].replace(/\s+/g, '-').toLowerCase() : 'sub';
+                if (!mappings[key]) {
+                    mappings[key] = obj.id;
+                }
+                // Early return if we have both sub and dub
+                if (mappings.sub && mappings.dub)
+                    break;
+            }
+            // console.log('mappings', mappings);
+            // console.time('animeinfo');
+            const animeInfo = await this.provider.fetchAnimeInfo(mappings.sub || mappings.dub);
+            // console.timeEnd('animeinfo');
+            return animeInfo.episodes;
         };
         /**
          * @returns a random anime
@@ -1215,7 +1205,8 @@ class Anilist extends models_1.AnimeParser {
         this.fetchDefaultEpisodeList = async (Media, dub, id) => {
             var _b, _c;
             let episodes = [];
-            episodes = await this.findAnime({ english: (_b = Media.title) === null || _b === void 0 ? void 0 : _b.english, romaji: (_c = Media.title) === null || _c === void 0 ? void 0 : _c.romaji }, Media.season, Media.startDate.year, Media.idMal, dub, id, Media.externalLinks);
+            episodes = await this.findAnimeRaw({ english: (_b = Media.title) === null || _b === void 0 ? void 0 : _b.english, romaji: (_c = Media.title) === null || _c === void 0 ? void 0 : _c.romaji });
+            // console.log('fetchDefaultEpisodeList', episodes);
             return episodes;
         };
         /**
@@ -1378,6 +1369,7 @@ class Anilist extends models_1.AnimeParser {
                         episode: (_r = data.data.Media.nextAiringEpisode) === null || _r === void 0 ? void 0 : _r.episode,
                     };
                 animeInfo.totalEpisodes = (_t = (_s = data.data.Media) === null || _s === void 0 ? void 0 : _s.episodes) !== null && _t !== void 0 ? _t : ((_u = data.data.Media.nextAiringEpisode) === null || _u === void 0 ? void 0 : _u.episode) - 1;
+                animeInfo.totalChapters = data.data.Media.chapters;
                 animeInfo.currentEpisode = ((_w = (_v = data.data.Media) === null || _v === void 0 ? void 0 : _v.nextAiringEpisode) === null || _w === void 0 ? void 0 : _w.episode)
                     ? ((_x = data.data.Media.nextAiringEpisode) === null || _x === void 0 ? void 0 : _x.episode) - 1
                     : ((_y = data.data.Media) === null || _y === void 0 ? void 0 : _y.episodes) || undefined;
@@ -1421,6 +1413,7 @@ class Anilist extends models_1.AnimeParser {
                                             ? models_1.MediaStatus.HIATUS
                                             : models_1.MediaStatus.UNKNOWN,
                         episodes: item.node.mediaRecommendation.episodes,
+                        chapters: item.node.mediaRecommendation.chapters,
                         image: (_c = (_b = item.node.mediaRecommendation.coverImage.extraLarge) !== null && _b !== void 0 ? _b : item.node.mediaRecommendation.coverImage.large) !== null && _c !== void 0 ? _c : item.node.mediaRecommendation.coverImage.medium,
                         imageHash: (0, utils_2.getHashFromImage)((_e = (_d = item.node.mediaRecommendation.coverImage.extraLarge) !== null && _d !== void 0 ? _d : item.node.mediaRecommendation.coverImage.large) !== null && _e !== void 0 ? _e : item.node.mediaRecommendation.coverImage.medium),
                         cover: (_h = (_g = (_f = item.node.mediaRecommendation.bannerImage) !== null && _f !== void 0 ? _f : item.node.mediaRecommendation.coverImage.extraLarge) !== null && _g !== void 0 ? _g : item.node.mediaRecommendation.coverImage.large) !== null && _h !== void 0 ? _h : item.node.mediaRecommendation.coverImage.medium,
@@ -1486,6 +1479,7 @@ class Anilist extends models_1.AnimeParser {
                                             ? models_1.MediaStatus.HIATUS
                                             : models_1.MediaStatus.UNKNOWN,
                         episodes: item.node.episodes,
+                        chapters: item.node.chapters,
                         image: (_c = (_b = item.node.coverImage.extraLarge) !== null && _b !== void 0 ? _b : item.node.coverImage.large) !== null && _c !== void 0 ? _c : item.node.coverImage.medium,
                         imageHash: (0, utils_2.getHashFromImage)((_e = (_d = item.node.coverImage.extraLarge) !== null && _d !== void 0 ? _d : item.node.coverImage.large) !== null && _e !== void 0 ? _e : item.node.coverImage.medium),
                         cover: (_h = (_g = (_f = item.node.bannerImage) !== null && _f !== void 0 ? _f : item.node.coverImage.extraLarge) !== null && _g !== void 0 ? _g : item.node.coverImage.large) !== null && _h !== void 0 ? _h : item.node.coverImage.medium,
@@ -1822,6 +1816,30 @@ Anilist.Manga = class Manga {
         this.fetchChapterPages = (chapterId, ...args) => {
             return this.provider.fetchChapterPages(chapterId, ...args);
         };
+        this.fetchChaptersList = async (mangaId, ...args) => {
+            try {
+                const options = {
+                    headers: {
+                        'Content-Type': 'application/json',
+                        Accept: 'application/json',
+                    },
+                    query: (0, utils_1.anilistMediaDetailQuery)(mangaId),
+                };
+                const { data } = await axios_1.default.post(new _a().anilistGraphqlUrl, options).catch(err => {
+                    throw new Error('Media not found');
+                });
+                const title = {
+                    english: data.data.Media.title.english,
+                    romaji: data.data.Media.title.romaji,
+                };
+                const malId = data.data.Media.idMal;
+                const chapters = await new _a().findManga(this.provider, title, malId);
+                return chapters.reverse();
+            }
+            catch (error) {
+                throw new Error(error.message);
+            }
+        };
         this.fetchMangaInfo = async (id, ...args) => {
             var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
             const mangaInfo = {
@@ -1992,10 +2010,16 @@ Anilist.Manga = class Manga {
 };
 // (async () => {
 //   const ani = new Anilist(new Hianime());
-//   const anime = await ani.fetchAnimeInfo('21');
-//   console.log(anime.episodes);
-//   const sources = await ani.fetchEpisodeSources(anime.episodes![0].id, anime.episodes![0].number, anime.id);
-//   console.log(sources);
+//   const anime = await ani.advancedSearch(undefined, "MANGA", undefined, undefined, undefined, ["POPULARITY_DESC"], undefined, undefined, undefined, undefined, undefined, "KR");
+//   console.log(anime.results[0].title);
+//   const details = await ani.fetchAnimeInfo(anime.results[0].id);
+//   console.log(details.startDate);
+//   console.log(details.totalChapters);
+//   console.log(details.episodes);
+//   // const chapters = await new Anilist.Manga(new MangaReader()).fetchChaptersList(anime.results[0].id);
+//   // console.log(chapters);
+//   // const pages = await new Anilist.Manga(new MangaReader()).fetchChapterPages(chapters[0].id);
+//   // console.log(pages);
 // })();
 exports.default = Anilist;
 //# sourceMappingURL=anilist.js.map

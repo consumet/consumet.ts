@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Deploy Preview API to Raspberry Pi
-        uses: appleboy/ssh-action@v1.0.0
+        uses: appleboy/ssh-action@v1.2.3
         with:
           host: ${{ secrets.PI_HOST }}
           username: ${{ secrets.PI_USER }}
