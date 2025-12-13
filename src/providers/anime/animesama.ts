@@ -1,4 +1,4 @@
-import { makeRequest } from '../../models/gotscraping-wrapper';
+import type { Response } from 'got';
 import {
   ISearch,
   IAnimeInfo,
@@ -16,6 +16,34 @@ import MoveArnPre from '../../extractors//movearnpre';
 import Sibnet from '../../extractors/sibnet';
 import Sendvid from '../../extractors//sendvid';
 import Lpayer from '../../extractors//lplayer';
+
+interface HeaderGeneratorOptions {
+  browsers?: Array<{ name: string; minVersion?: number; maxVersion?: number }>;
+  devices?: string[];
+  locales?: string[];
+  operatingSystems?: string[];
+}
+
+interface GotScrapingOptions {
+  url: string;
+  method?: string;
+  headers?: Record<string, string>;
+  headerGeneratorOptions?: HeaderGeneratorOptions;
+  responseType?: 'text' | 'json' | 'buffer';
+  body?: string;
+  throwHttpErrors?: boolean;
+  [key: string]: unknown;
+}
+
+let gotScraping: any = null;
+
+async function makeRequest(options: GotScrapingOptions): Promise<Response<string>> {
+  if (!gotScraping) {
+    const module = await import('got-scraping');
+    gotScraping = module.gotScraping;
+  }
+  return gotScraping(options);
+}
 
 interface EpisodePlayer {
   [playerName: string]: string;
@@ -540,11 +568,3 @@ class AnimeSama extends AnimeParser {
 }
 
 export default AnimeSama;
-// (async () => {
-//   const animeSama = new AnimeSama();
-//   const anime = await animeSama.search('gachiakuta');
-//   const info = await animeSama.fetchAnimeInfo(anime.results[0].id);
-//   // console.log(info);
-//   const sources = await animeSama.fetchEpisodeSources(info.episodes![0].id);
-//   console.log(sources);
-// })();
