@@ -1,9 +1,41 @@
 "use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || (function () {
+    var ownKeys = function(o) {
+        ownKeys = Object.getOwnPropertyNames || function (o) {
+            var ar = [];
+            for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) ar[ar.length] = k;
+            return ar;
+        };
+        return ownKeys(o);
+    };
+    return function (mod) {
+        if (mod && mod.__esModule) return mod;
+        var result = {};
+        if (mod != null) for (var k = ownKeys(mod), i = 0; i < k.length; i++) if (k[i] !== "default") __createBinding(result, mod, k[i]);
+        __setModuleDefault(result, mod);
+        return result;
+    };
+})();
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const gotscraping_wrapper_1 = require("../../models/gotscraping-wrapper");
 const models_1 = require("../../models/");
 const anime_parser_1 = __importDefault(require("../../models/anime-parser"));
 const vidmoly_1 = __importDefault(require("../../extractors/vidmoly"));
@@ -11,6 +43,14 @@ const movearnpre_1 = __importDefault(require("../../extractors//movearnpre"));
 const sibnet_1 = __importDefault(require("../../extractors/sibnet"));
 const sendvid_1 = __importDefault(require("../../extractors//sendvid"));
 const lplayer_1 = __importDefault(require("../../extractors//lplayer"));
+let gotScraping = null;
+async function makeRequest(options) {
+    if (!gotScraping) {
+        const module = await Promise.resolve().then(() => __importStar(require('got-scraping')));
+        gotScraping = module.gotScraping;
+    }
+    return gotScraping(options);
+}
 class AnimeSama extends anime_parser_1.default {
     constructor() {
         super();
@@ -20,7 +60,7 @@ class AnimeSama extends anime_parser_1.default {
         this.classPath = 'ANIME.AnimeSama';
         this.search = async (query) => {
             try {
-                const response = await (0, gotscraping_wrapper_1.makeRequest)({
+                const response = await makeRequest({
                     url: 'https://anime-sama.eu/template-php/defaut/fetch.php',
                     method: 'POST',
                     headers: {
@@ -86,7 +126,7 @@ class AnimeSama extends anime_parser_1.default {
             try {
                 const catalogueUrl = `${this.baseUrl}/catalogue/`;
                 const animeUrl = `${this.baseUrl}/catalogue/${id}/`;
-                const response = await (0, gotscraping_wrapper_1.makeRequest)({
+                const response = await makeRequest({
                     url: animeUrl,
                     headers: this.getHeaders(catalogueUrl),
                 });
@@ -205,7 +245,7 @@ class AnimeSama extends anime_parser_1.default {
             try {
                 const animeUrl = `${this.baseUrl}/catalogue/${id}/`;
                 const episodesUrl = `${this.baseUrl}/catalogue/${id}/${season}/${language}/`;
-                const response = await (0, gotscraping_wrapper_1.makeRequest)({
+                const response = await makeRequest({
                     url: episodesUrl,
                     headers: this.getHeaders(animeUrl),
                 });
@@ -218,7 +258,7 @@ class AnimeSama extends anime_parser_1.default {
                     throw new Error('Could not find episodes.js reference');
                 }
                 const episodesJsUrl = new URL(episodesJsMatch[1], episodesUrl).href;
-                const jsResponse = await (0, gotscraping_wrapper_1.makeRequest)({
+                const jsResponse = await makeRequest({
                     url: episodesJsUrl,
                     headers: {
                         ...this.getHeaders(episodesUrl),
@@ -316,7 +356,7 @@ class AnimeSama extends anime_parser_1.default {
         };
         this.extractDoodstream = async (embedUrl) => {
             try {
-                const response = await (0, gotscraping_wrapper_1.makeRequest)({
+                const response = await makeRequest({
                     url: embedUrl,
                     headers: this.getHeaders(this.baseUrl),
                 });
@@ -327,7 +367,7 @@ class AnimeSama extends anime_parser_1.default {
                 }
                 const tokenUrl = tokenMatch[1];
                 const fullTokenUrl = new URL(tokenUrl, embedUrl).href;
-                const tokenResponse = await (0, gotscraping_wrapper_1.makeRequest)({
+                const tokenResponse = await makeRequest({
                     url: fullTokenUrl,
                     headers: {
                         ...this.getHeaders(embedUrl),
@@ -355,7 +395,7 @@ class AnimeSama extends anime_parser_1.default {
         };
         this.extractGeneric = async (embedUrl) => {
             try {
-                const response = await (0, gotscraping_wrapper_1.makeRequest)({
+                const response = await makeRequest({
                     url: embedUrl,
                     headers: this.getHeaders(this.baseUrl),
                 });
@@ -461,12 +501,4 @@ class AnimeSama extends anime_parser_1.default {
     }
 }
 exports.default = AnimeSama;
-// (async () => {
-//   const animeSama = new AnimeSama();
-//   const anime = await animeSama.search('gachiakuta');
-//   const info = await animeSama.fetchAnimeInfo(anime.results[0].id);
-//   // console.log(info);
-//   const sources = await animeSama.fetchEpisodeSources(info.episodes![0].id);
-//   console.log(sources);
-// })();
 //# sourceMappingURL=animesama.js.map
