@@ -5,6 +5,7 @@ import MangaPill from './mangapill';
 import MangaReader from './mangareader';
 import AsuraScans from './asurascans';
 import WeebCentral from './weebcentral';
+import MangaKakalot from './mangakakalot';
 
 export default {
   MangaDex,
@@ -14,4 +15,5 @@ export default {
   MangaReader,
   AsuraScans,
   WeebCentral,
+  MangaKakalot,
 };
