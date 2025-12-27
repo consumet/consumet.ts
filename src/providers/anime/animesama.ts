@@ -56,7 +56,7 @@ interface EpisodeData {
 
 class AnimeSama extends AnimeParser {
   override readonly name = 'AnimeSama';
-  protected override baseUrl = 'https://anime-sama.eu';
+  protected override baseUrl = 'https://anime-sama.si';
   protected override logo = 'https://cdn.statically.io/gh/Anime-Sama/IMG/img/autres/logo.png';
   protected override classPath = 'ANIME.AnimeSama';
 
@@ -102,13 +102,13 @@ class AnimeSama extends AnimeParser {
   override search = async (query: string): Promise<ISearch<IAnimeResult>> => {
     try {
       const response = await makeRequest({
-        url: 'https://anime-sama.eu/template-php/defaut/fetch.php',
+        url: 'https://anime-sama.si/template-php/defaut/fetch.php',
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
           'X-Requested-With': 'XMLHttpRequest',
-          Referer: 'https://anime-sama.eu/catalogue/',
-          Origin: 'https://anime-sama.eu',
+          Referer: 'https://anime-sama.si/catalogue/',
+          Origin: 'https://anime-sama.si',
           Accept: '*/*',
           'Accept-Language': 'en-GB,en;q=0.5',
           'Sec-Fetch-Dest': 'empty',
@@ -140,7 +140,7 @@ class AnimeSama extends AnimeParser {
       }
 
       const animeRegex =
-        /<a href="https:\/\/anime-sama\.eu\/catalogue\/([^/"]+)"[^>]*>[\s\S]*?<img[^>]*src="([^"]+)"[^>]*\/>[\s\S]*?<h3[^>]*>([^<]+)<\/h3>/g;
+        /<a href="https:\/\/anime-sama\.si\/catalogue\/([^/"]+)"[^>]*>[\s\S]*?<img[^>]*src="([^"]+)"[^>]*\/>[\s\S]*?<h3[^>]*>([^<]+)<\/h3>/g;
       const results: IAnimeResult[] = [];
       let match;
 
