@@ -39,8 +39,8 @@ class KickAssAnime extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
         this.name = 'KickAssAnime';
-        this.baseUrl = 'https://kickass-anime.ru';
-        this.logo = 'https://kickass-anime.ru/img/logo.png';
+        this.baseUrl = 'https://kickass-anime.ro';
+        this.logo = 'https://kickass-anime.ro/img/logo.png';
         this.classPath = 'ANIME.KickAssAnime';
         /**
          * Search for anime
