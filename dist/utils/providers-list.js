@@ -18,6 +18,7 @@ exports.PROVIDERS_LIST = {
         new providers_1.MANGA.MangaPill(),
         new providers_1.MANGA.MangaDex(),
         new providers_1.MANGA.MangaReader(),
+        new providers_1.MANGA.MangaKakalot(),
         new providers_1.MANGA.ComicK(),
     ],
     BOOKS: [],
