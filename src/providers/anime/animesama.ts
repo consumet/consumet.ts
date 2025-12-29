@@ -56,7 +56,7 @@ interface EpisodeData {
 
 class AnimeSama extends AnimeParser {
   override readonly name = 'AnimeSama';
-  protected override baseUrl = 'https://anime-sama.si';
+  protected override baseUrl = 'https://anime-sama.tv';
   protected override logo = 'https://cdn.statically.io/gh/Anime-Sama/IMG/img/autres/logo.png';
   protected override classPath = 'ANIME.AnimeSama';
 
@@ -102,13 +102,13 @@ class AnimeSama extends AnimeParser {
   override search = async (query: string): Promise<ISearch<IAnimeResult>> => {
     try {
       const response = await makeRequest({
-        url: 'https://anime-sama.si/template-php/defaut/fetch.php',
+        url: 'https://anime-sama.tv/template-php/defaut/fetch.php',
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
           'X-Requested-With': 'XMLHttpRequest',
-          Referer: 'https://anime-sama.si/catalogue/',
-          Origin: 'https://anime-sama.si',
+          Referer: 'https://anime-sama.tv/catalogue/',
+          Origin: 'https://anime-sama.tv',
           Accept: '*/*',
           'Accept-Language': 'en-GB,en;q=0.5',
           'Sec-Fetch-Dest': 'empty',

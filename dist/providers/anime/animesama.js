@@ -55,19 +55,19 @@ class AnimeSama extends anime_parser_1.default {
     constructor() {
         super();
         this.name = 'AnimeSama';
-        this.baseUrl = 'https://anime-sama.si';
+        this.baseUrl = 'https://anime-sama.tv';
         this.logo = 'https://cdn.statically.io/gh/Anime-Sama/IMG/img/autres/logo.png';
         this.classPath = 'ANIME.AnimeSama';
         this.search = async (query) => {
             try {
                 const response = await makeRequest({
-                    url: 'https://anime-sama.si/template-php/defaut/fetch.php',
+                    url: 'https://anime-sama.tv/template-php/defaut/fetch.php',
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
                         'X-Requested-With': 'XMLHttpRequest',
-                        Referer: 'https://anime-sama.si/catalogue/',
-                        Origin: 'https://anime-sama.si',
+                        Referer: 'https://anime-sama.tv/catalogue/',
+                        Origin: 'https://anime-sama.tv',
                         Accept: '*/*',
                         'Accept-Language': 'en-GB,en;q=0.5',
                         'Sec-Fetch-Dest': 'empty',
