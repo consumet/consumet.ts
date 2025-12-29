@@ -16,6 +16,7 @@ export const PROVIDERS_LIST = {
     new MANGA.MangaPill(),
     new MANGA.MangaDex(),
     new MANGA.MangaReader(),
+    new MANGA.MangaKakalot(),
     new MANGA.ComicK(),
   ],
   BOOKS: [],
