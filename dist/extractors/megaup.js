@@ -1,5 +1,4 @@
 "use strict";
-//extractor for https://animekai.to
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -7,9 +6,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.MegaUp = void 0;
 const models_1 = require("../models");
 const axios_1 = __importDefault(require("axios"));
-/**
- * Thanks to [Seniy](https://github.com/AzartX47/EncDecEndpoints/blob/main/samples/animekai.py) for the api implementation
- */
 class MegaUp extends models_1.VideoExtractor {
     constructor(proxyConfig, adapter) {
         super(proxyConfig, adapter);
