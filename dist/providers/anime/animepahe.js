@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
-const extractors_1 = require("../../extractors");
 const utils_1 = require("../../utils");
+const extractors_1 = require("../../extractors");
 class AnimePahe extends models_1.AnimeParser {
     constructor() {
         super(...arguments);

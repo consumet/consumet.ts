@@ -1,6 +1,6 @@
 {
   "name": "@consumet/extensions",
-  "version": "1.8.7",
+  "version": "1.8.8",
   "description": "Nodejs library that provides high-level APIs for obtaining information on various entertainment media such as books, movies, comic books, anime, manga, and so on.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,7 +18,9 @@
     "test:manga": "jest ./test/manga",
     "test:lightnovels": "jest ./test/light-novels",
     "test:news": "jest ./test/news",
-    "test:meta": "jest ./test/meta"
+    "test:meta": "jest ./test/meta",
+    "test:meta:anilist": "jest ./test/meta/anilist.test.ts",
+    "test:meta:tmdb": "jest ./test/meta/tmdb.test.ts"
   },
   "pre-commit": [
     "lint",
@@ -60,8 +62,11 @@
     "crypto-js": "^4.1.1",
     "domhandler": "^5.0.3",
     "form-data": "^4.0.0",
+    "got": "^11.8.6",
+    "got-scraping": "^3.2.13",
     "husky": "^9.1.1",
-    "node-fetch": "^2.7.0"
+    "node-fetch": "^2.7.0",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.3",

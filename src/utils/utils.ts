@@ -3,7 +3,6 @@ import { load } from 'cheerio';
 export const USER_AGENT =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36';
 export const days = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
-export const ANIFY_URL = 'https://anify.eltik.cc';
 
 export const splitAuthor = (authors: string) => {
   const res: string[] = [];
@@ -200,3 +199,151 @@ export const safeUnpack = (packedSource: string): string => {
     throw new Error(`Failed to unpack script: ${err}`);
   }
 };
+
+export const parsePostInfo = (post: string) => {
+  let year = '';
+  let size = '';
+  let description = '';
+  let sizeDone = false;
+  for (let i = 0; i < post.length; i++) {
+    if (
+      i + 5 < post.length &&
+      post[i] == 'Y' &&
+      post[i + 1] == 'e' &&
+      post[i + 2] == 'a' &&
+      post[i + 3] == 'r' &&
+      post[i + 4] == ' ' &&
+      post[i + 5] == ':'
+    ) {
+      year = post[i + 7] + post[i + 8] + post[i + 9] + post[i + 10];
+      i += 9;
+    } else if (
+      i + 5 < post.length &&
+      post[i] == 'S' &&
+      post[i + 1] == 'i' &&
+      post[i + 2] == 'z' &&
+      post[i + 3] == 'e' &&
+      post[i + 4] == ' ' &&
+      post[i + 5] == ':'
+    ) {
+      let j = i + 7;
+      const temp = j;
+      for (; j < temp + 4; j++) {
+        if (!isNaN(Number(post[j]))) {
+          size += post[j];
+        } else {
+          break;
+        }
+      }
+      size += post[j] + post[j + 1];
+      i += j - i;
+      i += 2;
+      sizeDone = true;
+    }
+    if (sizeDone) {
+      description += post[i];
+    }
+  }
+  description = description.substring(0, description.length - 12);
+  return { year, size, description };
+};
+
+// Function to find similar titles
+export function findSimilarTitles(inputTitle: string, titles: any[]): any[] {
+  const results: (any & { similarity: number })[] = [];
+
+  titles?.forEach((titleObj: any) => {
+    const title = cleanTitle(
+      titleObj?.title
+        ?.toLowerCase()
+        ?.replace(/\([^\)]*\)/g, '')
+        .trim() || ''
+    );
+
+    // Calculate similarity score between inputTitle and title
+    const similarity = compareTwoStrings(cleanTitle(inputTitle?.toLowerCase() || ''), title);
+
+    if (similarity > 0.6) {
+      results.push({ ...titleObj, similarity });
+    }
+  });
+
+  const isSubAvailable = results.some(result => result.episodes && result.episodes.sub > 0);
+
+  // If episodes.sub is available, sort the results
+  if (isSubAvailable) {
+    return results.sort((a, b) => {
+      // First sort by similarity in descending order
+      if (b.similarity !== a.similarity) {
+        return b.similarity - a.similarity;
+      }
+      // If similarity is the same, sort by episodes.sub in descending order
+      return (b.episodes?.sub || 0) - (a.episodes?.sub || 0);
+    });
+  }
+
+  // If episodes.sub is not available, return the original list
+  return results.sort((a, b) => b.similarity - a.similarity);
+}
+
+export function removeSpecialChars(title: string | undefined | null): string {
+  if (!title) return '';
+
+  return title
+    .replace(/[^A-Za-z0-9!@#$%^&*()\-= ]/gim, ' ')
+    .replace(/[^A-Za-z0-9\-= ]/gim, '')
+    .replace(/ {2}/g, ' ');
+}
+
+export function transformSpecificVariations(title: string | undefined | null): string {
+  if (!title) return '';
+
+  return title.replace(/yuu/g, 'yu').replace(/ ou/g, ' oh');
+}
+
+function romanToArabic(roman: string): number {
+  const romanMap: Record<string, number> = {
+    i: 1,
+    v: 5,
+    x: 10,
+    l: 50,
+    c: 100,
+    d: 500,
+    m: 1000,
+  };
+
+  roman = roman.toLowerCase();
+  let result = 0;
+
+  for (let i = 0; i < roman.length; i++) {
+    const current = romanMap[roman[i]!]!;
+    const next = romanMap[roman[i + 1]!];
+
+    if (next && current < next) {
+      result += next - current;
+      i++;
+    } else {
+      result += current;
+    }
+  }
+
+  return result;
+}
+
+export function cleanTitle(title: string | undefined | null): string {
+  if (!title) return '';
+
+  return transformSpecificVariations(
+    removeSpecialChars(
+      title
+        .replace(/[^A-Za-z0-9!@#$%^&*() ]/gim, ' ')
+        .replace(/(th|rd|nd|st) (Season|season)/gim, '')
+        .replace(/\([^\(]*\)$/gim, '')
+        .replace(/season/g, '')
+        .replace(/\b(IX|IV|V?I{0,3})\b/gi, (match: any) => romanToArabic(match).toString())
+        .replace(/ {2}/g, ' ')
+        .replace(/"/g, '')
+        .trimEnd()
+    )
+  );
+}

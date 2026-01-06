@@ -1,5 +1,5 @@
 import { AxiosAdapter } from 'axios';
-import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IAnimeEpisode, IEpisodeServer, Genres, MangaParser, IMangaChapterPage, IMangaInfo, IMangaResult, ProxyConfig, IStaff } from '../../models';
+import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IAnimeEpisode, IEpisodeServer, Genres, MangaParser, IMangaChapterPage, IMangaInfo, IMangaResult, IMangaChapter, ProxyConfig, IStaff } from '../../models';
 declare class Anilist extends AnimeParser {
     proxyConfig?: ProxyConfig | undefined;
     readonly name = "Anilist";
@@ -9,7 +9,7 @@ declare class Anilist extends AnimeParser {
     private readonly anilistGraphqlUrl;
     private readonly kitsuGraphqlUrl;
     private readonly malSyncUrl;
-    private anifyUrl;
+    private readonly anifyUrl;
     provider: AnimeParser;
     /**
      * This class maps anilist to kitsu with any other anime provider.
@@ -47,8 +47,9 @@ declare class Anilist extends AnimeParser {
      * @param year Year (optional) e.g. `2022`
      * @param status Status (optional) (options: `RELEASING`, `FINISHED`, `NOT_YET_RELEASED`, `CANCELLED`, `HIATUS`)
      * @param season Season (optional) (options: `WINTER`, `SPRING`, `SUMMER`, `FALL`)
+     * @param countryOfOrigin Country of origin (optional)
      */
-    advancedSearch: (query?: string, type?: string, page?: number, perPage?: number, format?: string, sort?: string[], genres?: Genres[] | string[], id?: string | number, year?: number, status?: string, season?: string) => Promise<ISearch<IAnimeResult>>;
+    advancedSearch: (query?: string, type?: string, page?: number, perPage?: number, format?: string, sort?: string[], genres?: Genres[] | string[], id?: string | number, year?: number, status?: string, season?: string, countryOfOrigin?: string) => Promise<ISearch<IAnimeResult>>;
     /**
      *
      * @param id Anime id
@@ -194,6 +195,7 @@ declare class Anilist extends AnimeParser {
              * @returns
              */
             fetchChapterPages: (chapterId: string, ...args: any) => Promise<IMangaChapterPage[]>;
+            fetchChaptersList: (mangaId: string, ...args: any) => Promise<IMangaChapter[]>;
             fetchMangaInfo: (id: string, ...args: any) => Promise<IMangaInfo>;
         };
     };

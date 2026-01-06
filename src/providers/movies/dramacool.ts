@@ -1,6 +1,5 @@
 import { load, CheerioAPI } from 'cheerio';
 
-import { MixDrop, StreamTape, StreamWish } from '../../extractors';
 import {
   IEpisodeServer,
   IMovieInfo,
@@ -12,6 +11,7 @@ import {
   StreamingServers,
   TvType,
 } from '../../models';
+import { MixDrop, StreamTape, StreamWish } from '../../extractors';
 
 class DramaCool extends MovieParser {
   override readonly name = 'DramaCool';
