@@ -69,7 +69,7 @@ class MangaKakalot extends models_1.MangaParser {
          * @param mangaId Manga ID from search results
          */
         this.fetchMangaInfo = async (mangaId) => {
-            var _a, _b;
+            var _a, _b, _c, _d;
             try {
                 const url = `${this.baseUrl}/manga/${mangaId}`;
                 const response = await this.proxyRequest(url);
@@ -96,28 +96,28 @@ class MangaKakalot extends models_1.MangaParser {
                     default:
                         status = models_1.MediaStatus.UNKNOWN;
                 }
-                // Parse chapters
+                // Fetch chapters from API
                 const chapters = [];
-                $('.row').each((_, el) => {
-                    const target = $(el);
-                    const link = target.find('span a');
-                    if (link.length === 0)
-                        return;
-                    const fullPath = link.attr('href') || '';
-                    const pathParts = fullPath.split('/').filter(Boolean);
-                    const chapterId = pathParts[pathParts.length - 1];
-                    const chapterName = link.text().trim();
-                    const views = target.find('span:eq(1)').text().trim();
-                    const releaseDate = target.find('span:eq(2)').text().trim();
-                    if (chapterId) {
-                        chapters.push({
-                            id: `${mangaId}/${chapterId}`,
-                            title: chapterName,
-                            views: views,
-                            releaseDate: releaseDate,
+                try {
+                    const chaptersUrl = `${this.baseUrl}/api/manga/${mangaId}/chapters?limit=9999999999999`;
+                    const chaptersResponse = await this.proxyRequest(chaptersUrl, { isJson: true });
+                    if (((_d = (_c = chaptersResponse.data) === null || _c === void 0 ? void 0 : _c.data) === null || _d === void 0 ? void 0 : _d.chapters) && Array.isArray(chaptersResponse.data.data.chapters)) {
+                        chaptersResponse.data.data.chapters.forEach((chapter) => {
+                            var _a;
+                            if (chapter.chapter_slug) {
+                                chapters.push({
+                                    id: `${mangaId}/${chapter.chapter_slug}`,
+                                    title: chapter.chapter_name || `Chapter ${chapter.chapter_num}`,
+                                    views: ((_a = chapter.view) === null || _a === void 0 ? void 0 : _a.toString()) || '',
+                                    releaseDate: chapter.updated_at || '',
+                                });
+                            }
                         });
                     }
-                });
+                }
+                catch (chapterError) {
+                    console.warn(`[MangaKakalot] Failed to fetch chapters from API: ${chapterError.message}`);
+                }
                 const mangaInfo = {
                     id: mangaId,
                     title: title,
