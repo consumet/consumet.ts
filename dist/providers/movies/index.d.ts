@@ -4,6 +4,7 @@ import Goku from './goku';
 import Turkish from './turkish123';
 import SFlix from './sflix';
 import HiMovies from './himovies';
+import NetMirror from './netmirror';
 declare const _default: {
     DramaCool: typeof DramaCool;
     FlixHQ: typeof FlixHQ;
@@ -11,5 +12,6 @@ declare const _default: {
     Turkish: typeof Turkish;
     SFlix: typeof SFlix;
     HiMovies: typeof HiMovies;
+    NetMirror: typeof NetMirror;
 };
 export default _default;

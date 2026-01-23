@@ -9,6 +9,7 @@ const goku_1 = __importDefault(require("./goku"));
 const turkish123_1 = __importDefault(require("./turkish123"));
 const sflix_1 = __importDefault(require("./sflix"));
 const himovies_1 = __importDefault(require("./himovies"));
+const netmirror_1 = __importDefault(require("./netmirror"));
 exports.default = {
     DramaCool: dramacool_1.default,
     FlixHQ: flixhq_1.default,
@@ -16,5 +17,6 @@ exports.default = {
     Turkish: turkish123_1.default,
     SFlix: sflix_1.default,
     HiMovies: himovies_1.default,
+    NetMirror: netmirror_1.default,
 };
 //# sourceMappingURL=index.js.map

@@ -305,31 +305,27 @@ class MangaKakalot extends MangaParser {
           status = MediaStatus.UNKNOWN;
       }
 
-      // Parse chapters
+      // Fetch chapters from API
       const chapters: IMangaChapter[] = [];
+      try {
+        const chaptersUrl = `${this.baseUrl}/api/manga/${mangaId}/chapters?limit=9999999999999`;
+        const chaptersResponse = await this.proxyRequest(chaptersUrl, { isJson: true });
 
-      $('.row').each((_, el) => {
-        const target = $(el);
-        const link = target.find('span a');
-
-        if (link.length === 0) return;
-
-        const fullPath = link.attr('href') || '';
-        const pathParts = fullPath.split('/').filter(Boolean);
-        const chapterId = pathParts[pathParts.length - 1];
-        const chapterName = link.text().trim();
-        const views = target.find('span:eq(1)').text().trim();
-        const releaseDate = target.find('span:eq(2)').text().trim();
-
-        if (chapterId) {
-          chapters.push({
-            id: `${mangaId}/${chapterId}`,
-            title: chapterName,
-            views: views,
-            releaseDate: releaseDate,
+        if (chaptersResponse.data?.data?.chapters && Array.isArray(chaptersResponse.data.data.chapters)) {
+          chaptersResponse.data.data.chapters.forEach((chapter: any) => {
+            if (chapter.chapter_slug) {
+              chapters.push({
+                id: `${mangaId}/${chapter.chapter_slug}`,
+                title: chapter.chapter_name || `Chapter ${chapter.chapter_num}`,
+                views: chapter.view?.toString() || '',
+                releaseDate: chapter.updated_at || '',
+              });
+            }
           });
         }
-      });
+      } catch (chapterError) {
+        console.warn(`[MangaKakalot] Failed to fetch chapters from API: ${(chapterError as Error).message}`);
+      }
 
       const mangaInfo: IMangaInfo = {
         id: mangaId,
