@@ -6,6 +6,7 @@ import MangaReader from './mangareader';
 import AsuraScans from './asurascans';
 import WeebCentral from './weebcentral';
 import MangaKakalot from './mangakakalot';
+import Comix from './comix';
 declare const _default: {
     MangaDex: typeof MangaDex;
     ComicK: typeof ComicK;
@@ -15,5 +16,6 @@ declare const _default: {
     AsuraScans: typeof AsuraScans;
     WeebCentral: typeof WeebCentral;
     MangaKakalot: typeof MangaKakalot;
+    Comix: typeof Comix;
 };
 export default _default;
