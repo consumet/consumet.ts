@@ -11,6 +11,7 @@ const mangareader_1 = __importDefault(require("./mangareader"));
 const asurascans_1 = __importDefault(require("./asurascans"));
 const weebcentral_1 = __importDefault(require("./weebcentral"));
 const mangakakalot_1 = __importDefault(require("./mangakakalot"));
+const comix_1 = __importDefault(require("./comix"));
 exports.default = {
     MangaDex: mangadex_1.default,
     ComicK: comick_1.default,
@@ -20,5 +21,6 @@ exports.default = {
     AsuraScans: asurascans_1.default,
     WeebCentral: weebcentral_1.default,
     MangaKakalot: mangakakalot_1.default,
+    Comix: comix_1.default,
 };
 //# sourceMappingURL=index.js.map

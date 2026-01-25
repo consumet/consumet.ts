@@ -20,6 +20,7 @@ exports.PROVIDERS_LIST = {
         new providers_1.MANGA.MangaReader(),
         new providers_1.MANGA.MangaKakalot(),
         new providers_1.MANGA.ComicK(),
+        new providers_1.MANGA.Comix(),
     ],
     BOOKS: [],
     COMICS: [new providers_1.COMICS.GetComics()],
