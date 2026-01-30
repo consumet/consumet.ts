@@ -26,7 +26,7 @@ class NetMirror extends models_1.MovieParser {
                 const { data } = await this.client.get(`${this.baseUrl}/search.php?s=${encodeURIComponent(query)}&t=x`, {
                     headers: {
                         ...this.headers,
-                        Cookie: this.getCookies(),
+                        Cookie: await this.getCookies(),
                     },
                 });
                 if (!data.searchResult || !Array.isArray(data.searchResult)) {
@@ -48,48 +48,83 @@ class NetMirror extends models_1.MovieParser {
                 throw new Error(`NetMirror search failed: ${err.message}`);
             }
         };
-        this.fetchQuickInfo = async (id) => {
+        this.fetchPostData = async (id) => {
             try {
-                const { data } = await this.client.get(`${this.baseUrl}/mini-modal-info.php?id=${id}&t=x`, {
+                const { data } = await this.client.get(`${this.baseUrl}/post.php?id=${id}&t=x`, {
                     headers: {
                         ...this.headers,
-                        Cookie: this.getCookies(),
+                        Cookie: await this.getCookies(),
                     },
                 });
                 return data;
             }
             catch (err) {
-                throw new Error(`NetMirror fetchQuickInfo failed: ${err.message}`);
+                throw new Error(`NetMirror fetchPostData failed: ${err.message}`);
             }
         };
         this.fetchMediaInfo = async (mediaId) => {
-            var _a, _b;
+            var _a;
             try {
-                const quickInfo = await this.fetchQuickInfo(mediaId);
-                const isTvShow = (_a = quickInfo.runtime) === null || _a === void 0 ? void 0 : _a.toLowerCase().includes('season');
+                const postData = await this.fetchPostData(mediaId);
+                const isTvShow = postData.type === 't';
                 const movieInfo = {
                     id: mediaId,
-                    title: '',
+                    title: postData.title || '',
                     type: isTvShow ? models_1.TvType.TVSERIES : models_1.TvType.MOVIE,
                     image: `https://imgcdn.kim/poster/780/${mediaId}.jpg`,
                     cover: `https://imgcdn.kim/poster/1920/${mediaId}.jpg`,
-                    genres: ((_b = quickInfo.genre) === null || _b === void 0 ? void 0 : _b.split(', ').map(g => g.trim())) || [],
-                    duration: quickInfo.runtime,
-                    rating: quickInfo.ua ? undefined : undefined,
+                    genres: ((_a = postData.genre) === null || _a === void 0 ? void 0 : _a.split(',').map(g => g.trim())) || [],
+                    duration: postData.runtime,
+                    description: postData.desc || postData.m_desc || '',
+                    // rating is a string in the response, but IMovieInfo expects a number.
+                    // We'll leave it undefined since we can't convert it reliably.
+                    rating: undefined,
+                    year: postData.year || undefined,
                 };
+                // Handle episodes for TV shows
                 if (isTvShow) {
-                    movieInfo.episodes = [
-                        {
-                            id: mediaId,
-                            title: 'Full Content',
-                        },
-                    ];
+                    // Check if episodes array exists and has valid entries
+                    if (postData.episodes && postData.episodes.length > 0 && postData.episodes[0] !== null) {
+                        movieInfo.episodes = postData.episodes.map(ep => ({
+                            id: ep.id,
+                            title: ep.t,
+                            number: parseInt(ep.ep),
+                            season: parseInt(ep.s.replace('S', '')),
+                            description: ep.ep_desc,
+                            duration: ep.time,
+                        }));
+                    }
+                    else if (postData.season && postData.season.length > 0) {
+                        // Fallback: Create episodes based on seasons if episodes array is empty
+                        movieInfo.episodes = postData.season.flatMap(season => {
+                            const episodes = [];
+                            for (let i = 1; i <= parseInt(season.ep); i++) {
+                                episodes.push({
+                                    id: season.id,
+                                    title: `Season ${season.s} Episode ${i}`,
+                                    number: i,
+                                    season: parseInt(season.s),
+                                });
+                            }
+                            return episodes;
+                        });
+                    }
+                    else {
+                        // Fallback: Single episode for the entire show
+                        movieInfo.episodes = [
+                            {
+                                id: mediaId,
+                                title: 'Full Content',
+                            },
+                        ];
+                    }
                 }
                 else {
+                    // Handle movies
                     movieInfo.episodes = [
                         {
                             id: mediaId,
-                            title: 'Full Movie',
+                            title: postData.title || 'Full Movie',
                         },
                     ];
                 }
@@ -113,7 +148,7 @@ class NetMirror extends models_1.MovieParser {
                 const { data } = await this.client.get(`${this.baseUrl}/playlist.php?id=${episodeId}&t=Video&tm=${Date.now()}`, {
                     headers: {
                         ...this.headers,
-                        Cookie: this.getCookies(),
+                        Cookie: await this.getCookies(),
                     },
                 });
                 if (!data || !Array.isArray(data) || data.length === 0) {
@@ -153,10 +188,10 @@ class NetMirror extends models_1.MovieParser {
         };
         this.fetchHlsPlaylist = async (episodeId) => {
             try {
-                const { data } = await this.client.get(`${this.baseUrl}/hls/${episodeId}.m3u8?in=unknown::ni`, {
+                const { data } = await this.client.get(`${this.baseUrl}/hls/${episodeId}`, {
                     headers: {
                         ...this.headers,
-                        Cookie: this.getCookies(),
+                        Cookie: await this.getCookies(),
                     },
                 });
                 return data;
@@ -176,8 +211,23 @@ class NetMirror extends models_1.MovieParser {
         };
         this.fetchTrendingMovies = async () => {
             try {
-                const data = await this.search('trending');
-                return data.results;
+                // Fetch recent movies as a fallback for trending content
+                const { data } = await this.client.get(`${this.baseUrl}/search.php?s=new&t=x`, {
+                    headers: {
+                        ...this.headers,
+                        Cookie: await this.getCookies(),
+                    },
+                });
+                if (!data.searchResult || !Array.isArray(data.searchResult)) {
+                    return [];
+                }
+                // Return the first 10 results as trending
+                return data.searchResult.slice(0, 10).map(item => ({
+                    id: item.id,
+                    title: item.t,
+                    image: `https://imgcdn.kim/poster/342/${item.id}.jpg`,
+                    type: models_1.TvType.MOVIE,
+                }));
             }
             catch (err) {
                 throw new Error(`NetMirror fetchTrendingMovies failed: ${err.message}`);
@@ -187,8 +237,22 @@ class NetMirror extends models_1.MovieParser {
     setOTT(provider) {
         this.ott = provider;
     }
-    getCookies() {
-        return `user_token=consumets; ott=${this.ott}`;
+    async getCookies() {
+        const res = await fetch(this.baseUrl + '/p.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: 'init=1',
+        });
+        const setCookie = res.headers.get('set-cookie');
+        if (!setCookie)
+            throw new Error('No Set-Cookie header found');
+        // Define the hardcoded t_hash_t as requested
+        const t_hash_t = '988a734da1152ddea2c25c8904eede20%3A%3A0cb4f3935641c828678b8946867997e5%3A%3A1768993531%3A%3Ani';
+        // Extract t_hash from the p.php response
+        const tHashMatch = /t_hash=([^;]+)/.exec(setCookie);
+        const t_hash = tHashMatch ? tHashMatch[1] : '';
+        // Return the combined string using the hardcoded t_hash_t and the fetched t_hash
+        return `t_hash_t=${t_hash_t}; t_hash=${t_hash}; ott=${this.ott}`;
     }
 }
 exports.default = NetMirror;
