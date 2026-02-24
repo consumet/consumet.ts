@@ -4,16 +4,49 @@
 const animekai = new ANIME.AnimeKai();
 ```
 
+> **⚠️ Cloudflare Protection:** AnimeKai is heavily protected by Cloudflare. To use this provider reliably, you **must** configure a CORS proxy (such as [Whatever Origin](https://github.com/nicholasgasior/whatever-origin) or similar). Without a proxy, most requests will be blocked by Cloudflare challenges.
+
+<h3>Using a CORS Proxy</h3>
+
+Pass a `ProxyConfig` object when instantiating the provider. The `encodeUrl` option ensures the target URL is encoded via `encodeURIComponent` before being appended to the proxy URL — this is required for CORS proxies that expect the target URL as a query parameter value.
+
+```ts
+import { ANIME } from '@consumet/extensions';
+
+const animekai = new ANIME.AnimeKai({
+  url: 'https://your-cors-proxy.example.com/get?url=',
+  encodeUrl: true,
+});
+```
+
+| ProxyConfig Option | Type       | Description                                                                                                              |
+| ------------------ | ---------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `url`              | `string \| string[]` | The proxy base URL. The target URL will be appended to this value.                                          |
+| `key` *(optional)* | `string`   | Value sent as the `x-api-key` header (if your proxy requires authentication).                                            |
+| `rotateInterval` *(optional)* | `number` | Proxy rotation interval in milliseconds when using multiple proxy URLs (default: 5000).                      |
+| `encodeUrl` *(optional)*      | `boolean`| When `true`, the target URL is encoded with `encodeURIComponent` before appending. **Required for CORS proxies.** |
+
+> **Tip:** The library also automatically unwraps `{ contents: "..." }` response wrappers that CORS proxies like Whatever Origin return, so you don't need to handle that yourself.
+
 <h2>Methods</h2>
 
 - [search](#search)
 - [fetchAnimeInfo](#fetchanimeinfo)
-- [fetchEpisodeServers](#fetchEpisodeservers)
+- [fetchEpisodeServers](#fetchepisodeservers)
 - [fetchEpisodeSources](#fetchepisodesources)
-- [fetchLatestCompleted](#fetchLatestCompleted)
-- [fetchSchedule](#fetchSchedule)
-- [fetchSpotlight](#fetchSpotlight)
-- [fetchSearchSuggestions](#fetchSearchSuggestions)
+- [fetchLatestCompleted](#fetchlatestcompleted)
+- [fetchRecentlyAdded](#fetchrecentlyadded)
+- [fetchNewReleases](#fetchnewreleases)
+- [fetchMovie](#fetchmovie)
+- [fetchTV](#fetchtv)
+- [fetchOVA](#fetchova)
+- [fetchONA](#fetchona)
+- [fetchSpecial](#fetchspecial)
+- [fetchGenres](#fetchgenres)
+- [genreSearch](#genresearch)
+- [fetchSchedule](#fetchschedule)
+- [fetchSpotlight](#fetchspotlight)
+- [fetchSearchSuggestions](#fetchsearchsuggestions)
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
@@ -118,13 +151,13 @@ output:
   totalEpisodes: 24,
   episodes: [
     {
-      id: 'jujutsu-kaisen-4gm6#ep=1?token=30nW30ysAuVpjobTutx2',
+      id: 'jujutsu-kaisen-4gm6$ep=1$token=30nW30ysAuVpjobTutx2',
       number: 1,
       title: 'Ryoumen Sukuna',
       url: 'https://animekai.to/watch/jujutsu-kaisen-4gm6#ep=1'
     },
     {
-      id: 'jujutsu-kaisen-4gm6#ep=2?token=lRDAkRGtUbo9jJTQvJxw',
+      id: 'jujutsu-kaisen-4gm6$ep=2$token=lRDAkRGtUbo9jJTQvJxw',
       number: 2,
       title: 'For Myself',
       url: 'https://animekai.to/watch/jujutsu-kaisen-4gm6#ep=2'
@@ -145,7 +178,7 @@ output:
 
 
 ```ts
-animekai.fetchEpisodeServers("jujutsu-kaisen-4gm6#ep=1?token=30nW30ysAuVpjobTutx2").then(data => {
+animekai.fetchEpisodeServers("jujutsu-kaisen-4gm6$ep=1$token=30nW30ysAuVpjobTutx2").then(data => {
   console.log(data);
 })
 ```
@@ -177,7 +210,7 @@ output:
 
 
 ```ts
-animekai.fetchEpisodeSources("jujutsu-kaisen-4gm6#ep=1?token=30nW30ysAuVpjobTutx2").then(data => {
+animekai.fetchEpisodeSources("jujutsu-kaisen-4gm6$ep=1$token=30nW30ysAuVpjobTutx2").then(data => {
   console.log(data);
 })
 ```
@@ -242,6 +275,89 @@ output:
 }
 ```
 > Note: The responses from the `fetchRecentlyAdded`, `fetchNewReleases`, `fetchMovie`, `fetchTV`, `fetchONA`, `fetchOVA`, and `fetchSpecial` methods are similar to `fetchLatestCompleted`.
+
+### fetchRecentlyAdded
+Same parameters and response format as [fetchLatestCompleted](#fetchlatestcompleted).
+
+### fetchNewReleases
+Same parameters and response format as [fetchLatestCompleted](#fetchlatestcompleted).
+
+### fetchMovie
+Same parameters and response format as [fetchLatestCompleted](#fetchlatestcompleted).
+
+### fetchTV
+Same parameters and response format as [fetchLatestCompleted](#fetchlatestcompleted).
+
+### fetchOVA
+Same parameters and response format as [fetchLatestCompleted](#fetchlatestcompleted).
+
+### fetchONA
+Same parameters and response format as [fetchLatestCompleted](#fetchlatestcompleted).
+
+### fetchSpecial
+Same parameters and response format as [fetchLatestCompleted](#fetchlatestcompleted).
+
+### fetchGenres
+
+Returns an array of available genre strings.
+
+```ts
+animekai.fetchGenres().then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of strings. (*`Promise<string[]>`*)\
+output:
+```js
+[
+  'Action',
+  'Adventure',
+  'Comedy',
+  'Drama',
+  'Fantasy',
+  ...
+]
+```
+
+### genreSearch
+
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                                                              |
+| --------- | -------- | ------------------------------------------------------------------------ |
+| genre     | `string` | genre name to search for (e.g. `'action'`)                               |
+| page (optional) | `number` | page number (default 1) |
+
+```ts
+animekai.genreSearch('action').then(data => {
+  console.log(data);
+})
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{
+  currentPage: 1,
+  hasNextPage: true,
+  totalPages: 58,
+  results: [
+    {
+      id: 'one-piece-jz7f',
+      title: 'One Piece',
+      url: 'https://animekai.to/watch/one-piece-jz7f',
+      image: 'https://static.animekai.to/.../one-piece@300.jpg',
+      japaneseTitle: 'One Piece',
+      type: 'TV',
+      sub: 1122,
+      dub: 1085,
+      episodes: 1122
+    },
+    {...}
+  ]
+}
+```
 
 ### fetchSchedule
 

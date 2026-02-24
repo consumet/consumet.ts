@@ -477,6 +477,13 @@ export interface ProxyConfig {
      * The proxy rotation interval in milliseconds. (default: 5000)
      */
     rotateInterval?: number;
+    /**
+     * When true, the target URL is encoded with encodeURIComponent before
+     * being appended to the proxy URL. Required for CORS proxies that
+     * expect the target URL as a query parameter value.
+     * @example url: 'https://whatever.fly.dev/get?url=', encodeUrl: true
+     */
+    encodeUrl?: boolean;
 }
 export interface IRoles {
     id: string;

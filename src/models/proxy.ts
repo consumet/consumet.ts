@@ -36,13 +36,27 @@ export class Proxy {
     this.client.interceptors.request.use(config => {
       if (proxyConfig?.url) {
         config.headers.set('x-api-key', proxyConfig?.key ?? '');
-        config.url = `${proxyConfig.url}${config?.url ? config?.url : ''}`;
+        const targetUrl = config?.url ? config.url : '';
+        config.url = proxyConfig.encodeUrl
+          ? `${proxyConfig.url}${encodeURIComponent(targetUrl)}`
+          : `${proxyConfig.url}${targetUrl}`;
       }
 
       if (config?.url?.includes('anify')) config.headers.set('User-Agent', 'consumet');
 
       return config;
     });
+
+    // For CORS proxies that wrap the response in { contents: "..." },
+    // unwrap it automatically so consumers get the actual content.
+    if (proxyConfig.encodeUrl) {
+      this.client.interceptors.response.use(response => {
+        if (response.data && typeof response.data === 'object' && 'contents' in response.data) {
+          response.data = response.data.contents;
+        }
+        return response;
+      });
+    }
   }
 
   /**
