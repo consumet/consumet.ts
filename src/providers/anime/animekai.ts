@@ -427,10 +427,14 @@ class AnimeKai extends AnimeParser {
 
       info.genres = [];
       $('.entity-scroll > .detail')
-        .find('div:contains("Genres")')
+        .find('div')
         .each(function () {
-          const genre = $(this).text().trim();
-          if (genre != undefined) info.genres?.push(genre);
+          const text = $(this).text().trim();
+          if (text.startsWith('Genres:')) {
+            const genresText = text.replace('Genres:', '').trim();
+            const genres = genresText.split(',').map(g => g.trim());
+            info.genres = genres;
+          }
         });
 
       switch ($('.entity-scroll > .detail').find("div:contains('Status') > span").text().trim()) {
