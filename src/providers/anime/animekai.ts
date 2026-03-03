@@ -389,26 +389,46 @@ class AnimeKai extends AnimeParser {
       });
 
       info.relations = [];
-      $('section#related-anime .tab-body .aitem').each((i, ele) => {
-        const aTag = $(ele);
-        const card = aTag.closest('.aitem-col');
+      $('section#related-anime .aitem-col a.aitem').each((_, el) => {
+        const aTag = $(el);
+        const infoBox = aTag.find('.info');
 
-        const id = aTag.attr('href')?.replace('/watch/', '');
+        const id = aTag.attr('href')?.replace('/watch/', '') ?? '';
+        const title = aTag.find('.title').text().trim();
+        const japaneseTitle = aTag.find('.title').attr('data-jp')?.trim();
+
+        const sub = parseInt(infoBox.find('.sub').text()) || 0;
+        const dub = parseInt(infoBox.find('.dub').text()) || 0;
+
+        const bolds = infoBox.find('span > b');
+
+        let episodes = 0;
+        let type = '';
+        let relationType = '';
+
+        bolds.each((_, b) => {
+          const text = $(b).text().trim();
+
+          if ($(b).hasClass('text-muted')) {
+            relationType = text;
+          } else if (/^\d+$/.test(text)) {
+            episodes = parseInt(text);
+          } else {
+            type = text; // TV, MOVIE, etc
+          }
+        });
 
         info.relations?.push({
-          id: id!,
-          title: aTag.find('.title').text().trim(),
+          id,
+          title,
           url: `${this.baseUrl}${aTag.attr('href')}`,
           image: aTag.attr('style')?.match(/background-image:\s*url\('(.+?)'\)/)?.[1],
-          japaneseTitle: aTag.find('.title').attr('data-jp')?.trim(),
-          type: card.find('.info').children().eq(-2).text().trim() as MediaFormat,
-          sub: parseInt(card.find('.info span.sub')?.text()) || 0,
-          dub: parseInt(card.find('.info span.dub')?.text()) || 0,
-          relationType: card.find('.info').children().last().text().trim(),
-          episodes:
-            parseInt(
-              card.find('.info').children().eq(-3).text().trim() ?? card.find('.info span.sub')?.text()
-            ) || 0,
+          japaneseTitle,
+          type: type.toUpperCase() as MediaFormat,
+          sub,
+          dub,
+          relationType,
+          episodes,
         });
       });
 
