@@ -148,6 +148,9 @@ output:
   ],
   status: 'Completed',
   season: 'Fall 2020',
+  duration: '23 min',
+  malId: '57334',
+  anilistId: '171018',
   totalEpisodes: 24,
   episodes: [
     {
