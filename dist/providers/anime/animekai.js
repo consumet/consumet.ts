@@ -94,10 +94,10 @@ class AnimeKai extends models_1.AnimeParser {
                     });
                 });
                 info.relations = [];
-                $('section#related-anime .tab-body .aitem-col').each((i, ele) => {
+                $('section#related-anime .tab-body .aitem').each((i, ele) => {
                     var _a, _b, _c, _d, _e, _f, _g, _h, _j;
-                    const card = $(ele);
-                    const aTag = card.find('a.aitem');
+                    const aTag = $(ele);
+                    const card = aTag.closest('.aitem-col');
                     const id = (_a = aTag.attr('href')) === null || _a === void 0 ? void 0 : _a.replace('/watch/', '');
                     (_b = info.relations) === null || _b === void 0 ? void 0 : _b.push({
                         id: id,

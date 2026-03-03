@@ -389,10 +389,12 @@ class AnimeKai extends AnimeParser {
       });
 
       info.relations = [];
-      $('section#related-anime .tab-body .aitem-col').each((i, ele) => {
-        const card = $(ele);
-        const aTag = card.find('a.aitem');
+      $('section#related-anime .tab-body .aitem').each((i, ele) => {
+        const aTag = $(ele);
+        const card = aTag.closest('.aitem-col');
+
         const id = aTag.attr('href')?.replace('/watch/', '');
+
         info.relations?.push({
           id: id!,
           title: aTag.find('.title').text().trim(),
