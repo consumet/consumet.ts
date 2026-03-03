@@ -478,6 +478,15 @@ class AnimeKai extends AnimeParser {
 
       info.duration = $('.entity-scroll > .detail').find("div:contains('Duration') > span").text().trim();
 
+      const linksDiv = $('.entity-scroll > .detail')
+        .find('div')
+        .filter((_, el) => $(el).text().includes('Links:'));
+      const malLink = linksDiv.find('a[href*="myanimelist"]');
+      const anilistLink = linksDiv.find('a[href*="anilist"]');
+
+      info.malId = malLink.attr('href')?.match(/anime\/(\d+)/)?.[1] ?? '';
+      info.anilistId = anilistLink.attr('href')?.match(/anime\/(\d+)/)?.[1] ?? '';
+
       const ani_id = $('.rate-box#anime-rating').attr('data-id');
 
       const episodesAjax = await this.client.get(
