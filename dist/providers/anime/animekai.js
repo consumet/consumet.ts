@@ -94,22 +94,42 @@ class AnimeKai extends models_1.AnimeParser {
                     });
                 });
                 info.relations = [];
-                $('section#related-anime .tab-body .aitem-col').each((i, ele) => {
-                    var _a, _b, _c, _d, _e, _f, _g, _h, _j;
-                    const card = $(ele);
-                    const aTag = card.find('a.aitem');
-                    const id = (_a = aTag.attr('href')) === null || _a === void 0 ? void 0 : _a.replace('/watch/', '');
-                    (_b = info.relations) === null || _b === void 0 ? void 0 : _b.push({
-                        id: id,
-                        title: aTag.find('.title').text().trim(),
+                $('section#related-anime .aitem-col a.aitem').each((_, el) => {
+                    var _a, _b, _c, _d, _e, _f;
+                    const aTag = $(el);
+                    const infoBox = aTag.find('.info');
+                    const id = (_b = (_a = aTag.attr('href')) === null || _a === void 0 ? void 0 : _a.replace('/watch/', '')) !== null && _b !== void 0 ? _b : '';
+                    const title = aTag.find('.title').text().trim();
+                    const japaneseTitle = (_c = aTag.find('.title').attr('data-jp')) === null || _c === void 0 ? void 0 : _c.trim();
+                    const sub = parseInt(infoBox.find('.sub').text()) || 0;
+                    const dub = parseInt(infoBox.find('.dub').text()) || 0;
+                    const bolds = infoBox.find('span > b');
+                    let episodes = 0;
+                    let type = '';
+                    let relationType = '';
+                    bolds.each((_, b) => {
+                        const text = $(b).text().trim();
+                        if ($(b).hasClass('text-muted')) {
+                            relationType = text;
+                        }
+                        else if (/^\d+$/.test(text)) {
+                            episodes = parseInt(text);
+                        }
+                        else {
+                            type = text; // TV, MOVIE, etc
+                        }
+                    });
+                    (_d = info.relations) === null || _d === void 0 ? void 0 : _d.push({
+                        id,
+                        title,
                         url: `${this.baseUrl}${aTag.attr('href')}`,
-                        image: (_d = (_c = aTag.attr('style')) === null || _c === void 0 ? void 0 : _c.match(/background-image:\s*url\('(.+?)'\)/)) === null || _d === void 0 ? void 0 : _d[1],
-                        japaneseTitle: (_e = aTag.find('.title').attr('data-jp')) === null || _e === void 0 ? void 0 : _e.trim(),
-                        type: card.find('.info').children().eq(-2).text().trim(),
-                        sub: parseInt((_f = card.find('.info span.sub')) === null || _f === void 0 ? void 0 : _f.text()) || 0,
-                        dub: parseInt((_g = card.find('.info span.dub')) === null || _g === void 0 ? void 0 : _g.text()) || 0,
-                        relationType: card.find('.info').children().last().text().trim(),
-                        episodes: parseInt((_h = card.find('.info').children().eq(-3).text().trim()) !== null && _h !== void 0 ? _h : (_j = card.find('.info span.sub')) === null || _j === void 0 ? void 0 : _j.text()) || 0,
+                        image: (_f = (_e = aTag.attr('style')) === null || _e === void 0 ? void 0 : _e.match(/background-image:\s*url\('(.+?)'\)/)) === null || _f === void 0 ? void 0 : _f[1],
+                        japaneseTitle,
+                        type: type.toUpperCase(),
+                        sub,
+                        dub,
+                        relationType,
+                        episodes,
                     });
                 });
                 const hasSub = $('.entity-scroll > .info > span.sub').length > 0;
