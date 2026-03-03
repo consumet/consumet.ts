@@ -127,12 +127,14 @@ class AnimeKai extends models_1.AnimeParser {
                 }
                 info.genres = [];
                 $('.entity-scroll > .detail')
-                    .find('div:contains("Genres")')
+                    .find('div')
                     .each(function () {
-                    var _a;
-                    const genre = $(this).text().trim();
-                    if (genre != undefined)
-                        (_a = info.genres) === null || _a === void 0 ? void 0 : _a.push(genre);
+                    const text = $(this).text().trim();
+                    if (text.startsWith('Genres:')) {
+                        const genresText = text.replace('Genres:', '').trim();
+                        const genres = genresText.split(',').map(g => g.trim());
+                        info.genres = genres;
+                    }
                 });
                 switch ($('.entity-scroll > .detail').find("div:contains('Status') > span").text().trim()) {
                     case 'Completed':
