@@ -171,6 +171,7 @@ class AnimeKai extends models_1.AnimeParser {
                         break;
                 }
                 info.season = $('.entity-scroll > .detail').find("div:contains('Premiered') > span").text().trim();
+                info.duration = $('.entity-scroll > .detail').find("div:contains('Duration') > span").text().trim();
                 const ani_id = $('.rate-box#anime-rating').attr('data-id');
                 const episodesAjax = await this.client.get(`${this.baseUrl}/ajax/episodes/list?ani_id=${ani_id}&_=${await GenerateToken(ani_id)}`, {
                     headers: {
