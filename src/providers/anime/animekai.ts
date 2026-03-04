@@ -476,6 +476,19 @@ class AnimeKai extends AnimeParser {
 
       info.season = $('.entity-scroll > .detail').find("div:contains('Premiered') > span").text().trim();
 
+      info.duration = $('.entity-scroll > .detail').find("div:contains('Duration') > span").text().trim();
+
+      $('.entity-scroll > .detail div')
+        .filter((_, el) => $(el).text().includes('Links:'))
+        .find('a')
+        .each((_, el) => {
+          const href = $(el).attr('href') ?? '';
+
+          if (href.includes('myanimelist')) info.malId = href.match(/anime\/(\d+)/)?.[1] ?? '';
+
+          if (href.includes('anilist')) info.anilistId = href.match(/anime\/(\d+)/)?.[1] ?? '';
+        });
+
       const ani_id = $('.rate-box#anime-rating').attr('data-id');
 
       const episodesAjax = await this.client.get(
