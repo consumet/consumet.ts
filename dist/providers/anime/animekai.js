@@ -55,7 +55,7 @@ class AnimeKai extends models_1.AnimeParser {
          * @returns Promise<IAnimeInfo>
          */
         this.fetchAnimeInfo = async (id) => {
-            var _a, _b, _c, _d, _e, _f, _g;
+            var _a;
             // Strip episode params ($ep=...,$token=...) if present — only use the anime slug
             const animeSlug = id.split('$')[0];
             const info = {
@@ -172,13 +172,17 @@ class AnimeKai extends models_1.AnimeParser {
                 }
                 info.season = $('.entity-scroll > .detail').find("div:contains('Premiered') > span").text().trim();
                 info.duration = $('.entity-scroll > .detail').find("div:contains('Duration') > span").text().trim();
-                const linksDiv = $('.entity-scroll > .detail')
-                    .find('div')
-                    .filter((_, el) => $(el).text().includes('Links:'));
-                const malLink = linksDiv.find('a[href*="myanimelist"]');
-                const anilistLink = linksDiv.find('a[href*="anilist"]');
-                info.malId = (_d = (_c = (_b = malLink.attr('href')) === null || _b === void 0 ? void 0 : _b.match(/anime\/(\d+)/)) === null || _c === void 0 ? void 0 : _c[1]) !== null && _d !== void 0 ? _d : '';
-                info.anilistId = (_g = (_f = (_e = anilistLink.attr('href')) === null || _e === void 0 ? void 0 : _e.match(/anime\/(\d+)/)) === null || _f === void 0 ? void 0 : _f[1]) !== null && _g !== void 0 ? _g : '';
+                $('.entity-scroll > .detail div')
+                    .filter((_, el) => $(el).text().includes('Links:'))
+                    .find('a')
+                    .each((_, el) => {
+                    var _a, _b, _c, _d, _e;
+                    const href = (_a = $(el).attr('href')) !== null && _a !== void 0 ? _a : '';
+                    if (href.includes('myanimelist'))
+                        info.malId = (_c = (_b = href.match(/anime\/(\d+)/)) === null || _b === void 0 ? void 0 : _b[1]) !== null && _c !== void 0 ? _c : '';
+                    if (href.includes('anilist'))
+                        info.anilistId = (_e = (_d = href.match(/anime\/(\d+)/)) === null || _d === void 0 ? void 0 : _d[1]) !== null && _e !== void 0 ? _e : '';
+                });
                 const ani_id = $('.rate-box#anime-rating').attr('data-id');
                 const episodesAjax = await this.client.get(`${this.baseUrl}/ajax/episodes/list?ani_id=${ani_id}&_=${await GenerateToken(ani_id)}`, {
                     headers: {
