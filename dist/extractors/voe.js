@@ -7,7 +7,6 @@ class Voe extends models_1.VideoExtractor {
         this.serverName = 'VideoStr';
         this.sources = [];
         this.extract = async (videoUrl) => {
-            var _a, _b, _c;
             try {
                 const apiUrl = 'https://crawlr.cc/3F7A1C9D8?url=' + encodeURIComponent(videoUrl.href);
                 const { data } = await this.client.get(apiUrl);
@@ -17,18 +16,15 @@ class Voe extends models_1.VideoExtractor {
                 for (const src of data.sources) {
                     this.sources.push({
                         url: src.url,
-                        quality: (_a = src.quality) !== null && _a !== void 0 ? _a : 'auto',
+                        quality: src.quality ?? 'auto',
                         isM3U8: src.url.includes('.m3u8'),
                     });
                 }
-                const subtitles = (_c = (_b = data.tracks) === null || _b === void 0 ? void 0 : _b.map(t => {
-                    var _a, _b;
-                    return ({
-                        lang: (_a = t.label) !== null && _a !== void 0 ? _a : 'Unknown',
-                        url: t.file,
-                        kind: (_b = t.kind) !== null && _b !== void 0 ? _b : 'captions',
-                    });
-                })) !== null && _c !== void 0 ? _c : [];
+                const subtitles = data.tracks?.map(t => ({
+                    lang: t.label ?? 'Unknown',
+                    url: t.file,
+                    kind: t.kind ?? 'captions',
+                })) ?? [];
                 return {
                     sources: this.sources,
                     subtitles,

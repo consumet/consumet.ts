@@ -38,20 +38,19 @@ class Hianime extends models_1.AnimeParser {
                 info.recommendations = await this.scrapeCard($);
                 info.relatedAnime = [];
                 $('#main-sidebar section:nth-child(1) div.anif-block-ul li').each((i, ele) => {
-                    var _a, _b, _c, _d, _e, _f, _g;
                     const card = $(ele);
                     const aTag = card.find('.film-name a');
-                    const id = (_a = aTag.attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
+                    const id = aTag.attr('href')?.split('/')[1].split('?')[0];
                     info.relatedAnime.push({
                         id: id,
                         title: aTag.text(),
                         url: `${this.baseUrl}${aTag.attr('href')}`,
-                        image: (_b = card.find('img')) === null || _b === void 0 ? void 0 : _b.attr('data-src'),
+                        image: card.find('img')?.attr('data-src'),
                         japaneseTitle: aTag.attr('data-jname'),
-                        type: (_d = (_c = card.find('.tick').contents().last()) === null || _c === void 0 ? void 0 : _c.text()) === null || _d === void 0 ? void 0 : _d.trim(),
-                        sub: parseInt((_e = card.find('.tick-item.tick-sub')) === null || _e === void 0 ? void 0 : _e.text()) || 0,
-                        dub: parseInt((_f = card.find('.tick-item.tick-dub')) === null || _f === void 0 ? void 0 : _f.text()) || 0,
-                        episodes: parseInt((_g = card.find('.tick-item.tick-eps')) === null || _g === void 0 ? void 0 : _g.text()) || 0,
+                        type: card.find('.tick').contents().last()?.text()?.trim(),
+                        sub: parseInt(card.find('.tick-item.tick-sub')?.text()) || 0,
+                        dub: parseInt(card.find('.tick-item.tick-dub')?.text()) || 0,
+                        episodes: parseInt(card.find('.tick-item.tick-eps')?.text()) || 0,
                     });
                 });
                 const hasSub = $('div.film-stats div.tick div.tick-item.tick-sub').length > 0;
@@ -74,10 +73,9 @@ class Hianime extends models_1.AnimeParser {
                 $$$('.item.item-list')
                     .find('a')
                     .each(function () {
-                    var _a;
                     const genre = $(this).text().trim();
                     if (genre != undefined)
-                        (_a = info.genres) === null || _a === void 0 ? void 0 : _a.push(genre);
+                        info.genres?.push(genre);
                 });
                 switch ($$$('.item.item-title').find("span.item-head:contains('Status')").next('span.name').text().trim()) {
                     case 'Finished Airing':
@@ -115,15 +113,14 @@ class Hianime extends models_1.AnimeParser {
                 info.totalEpisodes = $$('div.detail-infor-content > div > a').length;
                 info.episodes = [];
                 $$('div.detail-infor-content > div > a').each((i, el) => {
-                    var _a, _b, _c;
-                    const episodeId = (_b = (_a = $$(el).attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2]) === null || _b === void 0 ? void 0 : _b.replace('?ep=', '$episode$');
+                    const episodeId = $$(el).attr('href')?.split('/')[2]?.replace('?ep=', '$episode$');
                     const number = parseInt($$(el).attr('data-number'));
                     const title = $$(el).attr('title');
                     const url = this.baseUrl + $$(el).attr('href');
                     const isFiller = $$(el).hasClass('ssl-item-filler');
                     const isSubbed = number <= (parseInt($('div.film-stats div.tick div.tick-item.tick-sub').text().trim()) || 0);
                     const isDubbed = number <= (parseInt($('div.film-stats div.tick div.tick-item.tick-dub').text().trim()) || 0);
-                    (_c = info.episodes) === null || _c === void 0 ? void 0 : _c.push({
+                    info.episodes?.push({
                         id: episodeId,
                         number: number,
                         title: title,
@@ -264,7 +261,6 @@ class Hianime extends models_1.AnimeParser {
          * @param url string
          */
         this.scrapeCardPage = async (url, headers) => {
-            var _a, _b, _c;
             try {
                 const res = {
                     currentPage: 0,
@@ -276,12 +272,12 @@ class Hianime extends models_1.AnimeParser {
                 const $ = (0, cheerio_1.load)(data);
                 const pagination = $('ul.pagination');
                 // Fix currentPage parsing
-                const currentPageText = (_b = (_a = pagination.find('.page-item.active')) === null || _a === void 0 ? void 0 : _a.text()) === null || _b === void 0 ? void 0 : _b.trim();
+                const currentPageText = pagination.find('.page-item.active')?.text()?.trim();
                 res.currentPage = currentPageText ? parseInt(currentPageText) : 1;
                 if (isNaN(res.currentPage)) {
                     res.currentPage = 1;
                 }
-                const nextPage = (_c = pagination.find('a[title=Next]')) === null || _c === void 0 ? void 0 : _c.attr('href');
+                const nextPage = pagination.find('a[title=Next]')?.attr('href');
                 if (nextPage != undefined && nextPage != '') {
                     res.hasNextPage = true;
                 }
@@ -317,7 +313,6 @@ class Hianime extends models_1.AnimeParser {
             try {
                 const results = [];
                 $('.flw-item').each((i, ele) => {
-                    var _a, _b, _c, _d, _e, _f, _g, _h, _j;
                     try {
                         const card = $(ele);
                         const atag = card.find('.film-name a');
@@ -325,26 +320,30 @@ class Hianime extends models_1.AnimeParser {
                         if (!href) {
                             return;
                         }
-                        const id = (_a = href.split('/')[1]) === null || _a === void 0 ? void 0 : _a.split('?')[0];
+                        const id = href.split('/')[1]?.split('?')[0];
                         if (!id) {
                             return;
                         }
                         const watchList = card.find('.dropdown-menu .added').text().trim();
-                        const type = (_c = (_b = card
-                            .find('.fdi-item')) === null || _b === void 0 ? void 0 : _b.first()) === null || _c === void 0 ? void 0 : _c.text().replace(' (? eps)', '').replace(/\s\(\d+ eps\)/g, '');
+                        const type = card
+                            .find('.fdi-item')
+                            ?.first()
+                            ?.text()
+                            .replace(' (? eps)', '')
+                            .replace(/\s\(\d+ eps\)/g, '');
                         results.push({
                             id: id,
                             title: atag.text(),
                             url: `${this.baseUrl}${atag.attr('href')}`,
-                            image: (_d = card.find('img')) === null || _d === void 0 ? void 0 : _d.attr('data-src'),
-                            duration: (_e = card.find('.fdi-duration')) === null || _e === void 0 ? void 0 : _e.text(),
+                            image: card.find('img')?.attr('data-src'),
+                            duration: card.find('.fdi-duration')?.text(),
                             watchList: watchList || models_1.WatchListType.NONE,
                             japaneseTitle: atag.attr('data-jname'),
                             type: type,
-                            nsfw: ((_f = card.find('.tick-rate')) === null || _f === void 0 ? void 0 : _f.text()) === '18+' ? true : false,
-                            sub: parseInt((_g = card.find('.tick-item.tick-sub')) === null || _g === void 0 ? void 0 : _g.text()) || 0,
-                            dub: parseInt((_h = card.find('.tick-item.tick-dub')) === null || _h === void 0 ? void 0 : _h.text()) || 0,
-                            episodes: parseInt((_j = card.find('.tick-item.tick-eps')) === null || _j === void 0 ? void 0 : _j.text()) || 0,
+                            nsfw: card.find('.tick-rate')?.text() === '18+' ? true : false,
+                            sub: parseInt(card.find('.tick-item.tick-sub')?.text()) || 0,
+                            dub: parseInt(card.find('.tick-item.tick-dub')?.text()) || 0,
+                            episodes: parseInt(card.find('.tick-item.tick-eps')?.text()) || 0,
                         });
                     }
                     catch (cardErr) {
@@ -450,9 +449,8 @@ class Hianime extends models_1.AnimeParser {
         };
         const params = new URLSearchParams({ page: page.toString() });
         const addParam = (key, value) => {
-            var _a;
             if (value)
-                params.append(key, (((_a = mappings[key]) === null || _a === void 0 ? void 0 : _a[value]) || value).toString());
+                params.append(key, (mappings[key]?.[value] || value).toString());
         };
         addParam('type', type);
         addParam('status', status);
@@ -473,7 +471,7 @@ class Hianime extends models_1.AnimeParser {
         }
         if (sort)
             params.append('sort', sort);
-        if (genres === null || genres === void 0 ? void 0 : genres.length) {
+        if (genres?.length) {
             const genreIds = genres.map(genre => (mappings.genre[genre] || genre).toString()).join('%2C');
             params.append('genres', genreIds);
         }
@@ -656,10 +654,9 @@ class Hianime extends models_1.AnimeParser {
             const { data: { html }, } = await this.client.get(`${this.baseUrl}/ajax/schedule/list?tzOffset=360&date=${date}`);
             const $ = (0, cheerio_1.load)(html);
             $('li').each((i, ele) => {
-                var _a;
                 const card = $(ele);
                 const title = card.find('.film-name');
-                const id = (_a = card.find('a.tsl-link').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
+                const id = card.find('a.tsl-link').attr('href')?.split('/')[1].split('?')[0];
                 const airingTime = card.find('div.time').text().replace('\n', '').trim();
                 const airingEpisode = card.find('div.film-detail div.fd-play button').text().replace('\n', '').trim();
                 res.results.push({
@@ -683,19 +680,19 @@ class Hianime extends models_1.AnimeParser {
             const { data } = await this.client.get(`${this.baseUrl}/home`);
             const $ = (0, cheerio_1.load)(data);
             $('#slider div.swiper-wrapper div.swiper-slide').each((i, el) => {
-                var _a, _b, _c;
                 const card = $(el);
                 const titleElement = card.find('div.desi-head-title');
-                const id = ((_b = (_a = card
+                const id = card
                     .find('div.desi-buttons .btn-secondary')
-                    .attr('href')) === null || _a === void 0 ? void 0 : _a.match(/\/([^/]+)$/)) === null || _b === void 0 ? void 0 : _b[1]) || null;
+                    .attr('href')
+                    ?.match(/\/([^/]+)$/)?.[1] || null;
                 const img = card.find('img.film-poster-img');
                 res.results.push({
                     id: id,
                     title: titleElement.text(),
                     japaneseTitle: titleElement.attr('data-jname'),
                     banner: img.attr('data-src') || img.attr('src') || null,
-                    rank: parseInt((_c = card.find('.desi-sub-text').text().match(/(\d+)/g)) === null || _c === void 0 ? void 0 : _c[0]),
+                    rank: parseInt(card.find('.desi-sub-text').text().match(/(\d+)/g)?.[0]),
                     url: `${this.baseUrl}/${id}`,
                     type: card.find('div.sc-detail .scd-item:nth-child(1)').text().trim(),
                     duration: card.find('div.sc-detail > div:nth-child(2)').text().trim(),
@@ -722,12 +719,11 @@ class Hianime extends models_1.AnimeParser {
                 results: [],
             };
             $('.nav-item').each((i, el) => {
-                var _a;
                 const card = $(el);
                 if (!card.hasClass('nav-bottom')) {
                     const image = card.find('.film-poster img').attr('data-src');
                     const title = card.find('.film-name');
-                    const id = (_a = card.attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
+                    const id = card.attr('href')?.split('/')[1].split('?')[0];
                     const duration = card.find('.film-infor span').last().text().trim();
                     const releaseDate = card.find('.film-infor span:nth-child(1)').text().trim();
                     const type = card.find('.film-infor').find('span, i').remove().end().text().trim();
@@ -768,12 +764,11 @@ class Hianime extends models_1.AnimeParser {
             });
             const $ = (0, cheerio_1.load)(data);
             $('.flw-item').each((i, ele) => {
-                var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
                 const card = $(ele);
                 const atag = card.find('.film-name a');
-                const id = (_b = (_a = atag.attr('href')) === null || _a === void 0 ? void 0 : _a.replace('/watch/', '')) === null || _b === void 0 ? void 0 : _b.replace('?ep=', '$episode$');
-                const timeText = (_e = (_d = (_c = card.find('.fdb-time')) === null || _c === void 0 ? void 0 : _c.text()) === null || _d === void 0 ? void 0 : _d.split('/')) !== null && _e !== void 0 ? _e : [];
-                const duration = (_g = (_f = timeText.pop()) === null || _f === void 0 ? void 0 : _f.trim()) !== null && _g !== void 0 ? _g : '';
+                const id = atag.attr('href')?.replace('/watch/', '')?.replace('?ep=', '$episode$');
+                const timeText = card.find('.fdb-time')?.text()?.split('/') ?? [];
+                const duration = timeText.pop()?.trim() ?? '';
                 const watchedTime = timeText.length > 0 ? timeText[0].trim() : '';
                 res.push({
                     id: id,
@@ -782,12 +777,12 @@ class Hianime extends models_1.AnimeParser {
                     duration: duration,
                     watchedTime: watchedTime,
                     url: `${this.baseUrl}${atag.attr('href')}`,
-                    image: (_h = card.find('img')) === null || _h === void 0 ? void 0 : _h.attr('data-src'),
+                    image: card.find('img')?.attr('data-src'),
                     japaneseTitle: atag.attr('data-jname'),
-                    nsfw: ((_j = card.find('.tick-rate')) === null || _j === void 0 ? void 0 : _j.text()) === '18+' ? true : false,
-                    sub: parseInt((_k = card.find('.tick-item.tick-sub')) === null || _k === void 0 ? void 0 : _k.text()) || 0,
-                    dub: parseInt((_l = card.find('.tick-item.tick-dub')) === null || _l === void 0 ? void 0 : _l.text()) || 0,
-                    episodes: parseInt((_m = card.find('.tick-item.tick-eps')) === null || _m === void 0 ? void 0 : _m.text()) || 0,
+                    nsfw: card.find('.tick-rate')?.text() === '18+' ? true : false,
+                    sub: parseInt(card.find('.tick-item.tick-sub')?.text()) || 0,
+                    dub: parseInt(card.find('.tick-item.tick-dub')?.text()) || 0,
+                    episodes: parseInt(card.find('.tick-item.tick-eps')?.text()) || 0,
                 });
             });
             return res;

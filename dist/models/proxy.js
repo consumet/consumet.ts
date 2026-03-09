@@ -16,13 +16,12 @@ class Proxy {
         this.adapter = adapter;
         this.validUrl = /^https?:\/\/.+/;
         this.rotateProxy = (proxy) => {
-            var _a;
             setInterval(() => {
                 const url = proxy.urls.shift();
                 if (url)
                     proxy.urls.push(url);
                 this.setProxy({ url: proxy.urls[0], key: proxy.key });
-            }, (_a = proxy === null || proxy === void 0 ? void 0 : proxy.rotateInterval) !== null && _a !== void 0 ? _a : 5000);
+            }, proxy?.rotateInterval ?? 5000);
         };
         this.toMap = (arr) => arr.map((v, i) => [i, v]);
         this.client = axios_1.default.create();
@@ -35,12 +34,12 @@ class Proxy {
      * Set or Change the proxy config
      */
     setProxy(proxyConfig) {
-        if (!(proxyConfig === null || proxyConfig === void 0 ? void 0 : proxyConfig.url))
+        if (!proxyConfig?.url)
             return;
-        if (typeof (proxyConfig === null || proxyConfig === void 0 ? void 0 : proxyConfig.url) === 'string')
+        if (typeof proxyConfig?.url === 'string')
             if (!this.validUrl.test(proxyConfig.url))
                 throw new Error('Proxy URL is invalid!');
-        if (Array.isArray(proxyConfig === null || proxyConfig === void 0 ? void 0 : proxyConfig.url)) {
+        if (Array.isArray(proxyConfig?.url)) {
             for (const [i, url] of this.toMap(proxyConfig.url))
                 if (!this.validUrl.test(url))
                     throw new Error(`Proxy URL at index ${i} is invalid!`);
@@ -48,15 +47,14 @@ class Proxy {
             return;
         }
         this.client.interceptors.request.use(config => {
-            var _a, _b;
-            if (proxyConfig === null || proxyConfig === void 0 ? void 0 : proxyConfig.url) {
-                config.headers.set('x-api-key', (_a = proxyConfig === null || proxyConfig === void 0 ? void 0 : proxyConfig.key) !== null && _a !== void 0 ? _a : '');
-                const targetUrl = (config === null || config === void 0 ? void 0 : config.url) ? config.url : '';
+            if (proxyConfig?.url) {
+                config.headers.set('x-api-key', proxyConfig?.key ?? '');
+                const targetUrl = config?.url ? config.url : '';
                 config.url = proxyConfig.encodeUrl
                     ? `${proxyConfig.url}${encodeURIComponent(targetUrl)}`
                     : `${proxyConfig.url}${targetUrl}`;
             }
-            if ((_b = config === null || config === void 0 ? void 0 : config.url) === null || _b === void 0 ? void 0 : _b.includes('anify'))
+            if (config?.url?.includes('anify'))
                 config.headers.set('User-Agent', 'consumet');
             return config;
         });

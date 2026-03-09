@@ -41,18 +41,17 @@ class Myanimelist extends models_1.AnimeParser {
             const hasNextPage = page < maxPage;
             searchResults.hasNextPage = hasNextPage;
             $('tr').each((i, item) => {
-                var _a;
-                const id = (_a = $(item).find('.hoverinfo_trigger').attr('href')) === null || _a === void 0 ? void 0 : _a.split('anime/')[1].split('/')[0];
+                const id = $(item).find('.hoverinfo_trigger').attr('href')?.split('anime/')[1].split('/')[0];
                 const title = $(item).find('strong').text();
                 const description = $(item).find('.pt4').text().replace('...read more.', '...');
                 const type = $(item).children().eq(2).text().trim();
                 const episodeCount = $(item).children().eq(3).text().trim();
                 const score = (parseFloat($(item).children().eq(4).text()) * 10).toFixed(0);
                 const imageTmp = $(item).children().first().find('img').attr('data-src');
-                const imageUrl = `https://cdn.myanimelist.net/images/anime/${imageTmp === null || imageTmp === void 0 ? void 0 : imageTmp.split('anime/')[1]}`;
+                const imageUrl = `https://cdn.myanimelist.net/images/anime/${imageTmp?.split('anime/')[1]}`;
                 if (title != '') {
                     searchResults.results.push({
-                        id: id !== null && id !== void 0 ? id : '',
+                        id: id ?? '',
                         title: title,
                         image: imageUrl,
                         rating: parseInt(score),
@@ -90,15 +89,14 @@ class Myanimelist extends models_1.AnimeParser {
          * @param fetchFiller fetch filler episodes
          */
         this.fetchAnimeInfo = async (animeId, dub = false, fetchFiller = false) => {
-            var _a, _b, _c, _d, _e;
             try {
                 const animeInfo = await this.fetchMalInfoById(animeId);
-                const titleWithLanguages = animeInfo === null || animeInfo === void 0 ? void 0 : animeInfo.title;
+                const titleWithLanguages = animeInfo?.title;
                 let fillerEpisodes;
                 if (this.provider instanceof hianime_1.default &&
                     !dub &&
                     (animeInfo.status === models_1.MediaStatus.ONGOING ||
-                        (0, utils_1.range)({ from: 2000, to: new Date().getFullYear() + 1 }).includes((_a = animeInfo.startDate) === null || _a === void 0 ? void 0 : _a.year))) {
+                        (0, utils_1.range)({ from: 2000, to: new Date().getFullYear() + 1 }).includes(animeInfo.startDate?.year))) {
                     try {
                         // NOTE: gotta fix in future
                         // animeInfo.episodes = (
@@ -117,11 +115,11 @@ class Myanimelist extends models_1.AnimeParser {
                         // animeInfo.episodes?.reverse();
                     }
                     catch (err) {
-                        animeInfo.episodes = await this.findAnimeSlug((titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.english) ||
-                            (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.romaji) ||
-                            (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.native) ||
-                            (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.userPreferred), animeInfo.season, (_b = animeInfo.startDate) === null || _b === void 0 ? void 0 : _b.year, animeId, dub);
-                        animeInfo.episodes = (_c = animeInfo.episodes) === null || _c === void 0 ? void 0 : _c.map((episode) => {
+                        animeInfo.episodes = await this.findAnimeSlug(titleWithLanguages?.english ||
+                            titleWithLanguages?.romaji ||
+                            titleWithLanguages?.native ||
+                            titleWithLanguages?.userPreferred, animeInfo.season, animeInfo.startDate?.year, animeId, dub);
+                        animeInfo.episodes = animeInfo.episodes?.map((episode) => {
                             if (!episode.image)
                                 episode.image = animeInfo.image;
                             return episode;
@@ -130,10 +128,10 @@ class Myanimelist extends models_1.AnimeParser {
                     }
                 }
                 else
-                    animeInfo.episodes = await this.findAnimeSlug((titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.english) ||
-                        (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.romaji) ||
-                        (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.native) ||
-                        (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.userPreferred), animeInfo.season, (_d = animeInfo.startDate) === null || _d === void 0 ? void 0 : _d.year, animeId, dub);
+                    animeInfo.episodes = await this.findAnimeSlug(titleWithLanguages?.english ||
+                        titleWithLanguages?.romaji ||
+                        titleWithLanguages?.native ||
+                        titleWithLanguages?.userPreferred, animeInfo.season, animeInfo.startDate?.year, animeId, dub);
                 if (fetchFiller) {
                     const { data: fillerData } = await this.client({
                         baseURL: `https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${animeId}.json`,
@@ -142,15 +140,15 @@ class Myanimelist extends models_1.AnimeParser {
                     });
                     if (!fillerData.toString().startsWith('404')) {
                         fillerEpisodes = [];
-                        fillerEpisodes === null || fillerEpisodes === void 0 ? void 0 : fillerEpisodes.push(...fillerData.episodes);
+                        fillerEpisodes?.push(...fillerData.episodes);
                     }
                 }
-                animeInfo.episodes = (_e = animeInfo.episodes) === null || _e === void 0 ? void 0 : _e.map((episode) => {
+                animeInfo.episodes = animeInfo.episodes?.map((episode) => {
                     if (!episode.image)
                         episode.image = animeInfo.image;
                     if (fetchFiller &&
-                        (fillerEpisodes === null || fillerEpisodes === void 0 ? void 0 : fillerEpisodes.length) > 0 &&
-                        (fillerEpisodes === null || fillerEpisodes === void 0 ? void 0 : fillerEpisodes.length) >= animeInfo.episodes.length) {
+                        fillerEpisodes?.length > 0 &&
+                        fillerEpisodes?.length >= animeInfo.episodes.length) {
                         if (fillerEpisodes[episode.number - 1])
                             episode.isFiller = new Boolean(fillerEpisodes[episode.number - 1]['filler-bool']).valueOf();
                     }
@@ -177,18 +175,17 @@ class Myanimelist extends models_1.AnimeParser {
                 return [];
             // Sort the retrieved info for more accurate results.
             findAnime.results.sort((a, b) => {
-                var _a, _b, _c, _d;
                 const targetTitle = slug.toLowerCase();
                 let firstTitle;
                 let secondTitle;
                 if (typeof a.title == 'string')
                     firstTitle = a.title;
                 else
-                    firstTitle = (_b = (_a = a.title.english) !== null && _a !== void 0 ? _a : a.title.romaji) !== null && _b !== void 0 ? _b : '';
+                    firstTitle = a.title.english ?? a.title.romaji ?? '';
                 if (typeof b.title == 'string')
                     secondTitle = b.title;
                 else
-                    secondTitle = (_d = (_c = b.title.english) !== null && _c !== void 0 ? _c : b.title.romaji) !== null && _d !== void 0 ? _d : '';
+                    secondTitle = b.title.english ?? b.title.romaji ?? '';
                 const firstRating = (0, utils_1.compareTwoStrings)(targetTitle, firstTitle.toLowerCase());
                 const secondRating = (0, utils_1.compareTwoStrings)(targetTitle, secondTitle.toLowerCase());
                 // Sort in descending order
@@ -198,9 +195,8 @@ class Myanimelist extends models_1.AnimeParser {
             return (await this.provider.fetchAnimeInfo(findAnime.results[0].id));
         };
         this.findAnimeSlug = async (title, season, startDate, malId, dub, externalLinks) => {
-            var _a, _b, _c;
             // console.log({ title });
-            const slug = title === null || title === void 0 ? void 0 : title.replace(/[^0-9a-zA-Z]+/g, ' ');
+            const slug = title?.replace(/[^0-9a-zA-Z]+/g, ' ');
             let possibleAnime;
             // To avoid a new request, lets match and see if the anime show found is in sub/dub
             const expectedType = dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
@@ -216,9 +212,9 @@ class Myanimelist extends models_1.AnimeParser {
                 });
             }
             const possibleProviderEpisodes = possibleAnime.episodes;
-            if (typeof ((_a = possibleProviderEpisodes[0]) === null || _a === void 0 ? void 0 : _a.image) !== 'undefined' &&
-                typeof ((_b = possibleProviderEpisodes[0]) === null || _b === void 0 ? void 0 : _b.title) !== 'undefined' &&
-                typeof ((_c = possibleProviderEpisodes[0]) === null || _c === void 0 ? void 0 : _c.description) !== 'undefined')
+            if (typeof possibleProviderEpisodes[0]?.image !== 'undefined' &&
+                typeof possibleProviderEpisodes[0]?.title !== 'undefined' &&
+                typeof possibleProviderEpisodes[0]?.description !== 'undefined')
                 return possibleProviderEpisodes;
             const options = {
                 headers: { 'Content-Type': 'application/json' },
@@ -230,27 +226,26 @@ class Myanimelist extends models_1.AnimeParser {
         this.findKitsuAnime = async (possibleProviderEpisodes, options, season, startDate) => {
             const kitsuEpisodes = await this.client.post(this.kitsuGraphqlUrl, options);
             const episodesList = new Map();
-            if (kitsuEpisodes === null || kitsuEpisodes === void 0 ? void 0 : kitsuEpisodes.data.data) {
+            if (kitsuEpisodes?.data.data) {
                 const { nodes } = kitsuEpisodes.data.data.searchAnimeByTitle;
                 if (nodes) {
                     nodes.forEach((node) => {
-                        var _a, _b;
-                        if (node.season === season && node.startDate.trim().split('-')[0] === (startDate === null || startDate === void 0 ? void 0 : startDate.toString())) {
+                        if (node.season === season && node.startDate.trim().split('-')[0] === startDate?.toString()) {
                             const episodes = node.episodes.nodes;
                             for (const episode of episodes) {
-                                const i = episode === null || episode === void 0 ? void 0 : episode.number.toString().replace(/"/g, '');
+                                const i = episode?.number.toString().replace(/"/g, '');
                                 let name = undefined;
                                 let description = undefined;
                                 let thumbnail = undefined;
-                                if ((_a = episode === null || episode === void 0 ? void 0 : episode.description) === null || _a === void 0 ? void 0 : _a.en)
-                                    description = episode === null || episode === void 0 ? void 0 : episode.description.en.toString().replace(/"/g, '').replace('\\n', '\n');
-                                if (episode === null || episode === void 0 ? void 0 : episode.thumbnail)
-                                    thumbnail = episode === null || episode === void 0 ? void 0 : episode.thumbnail.original.url.toString().replace(/"/g, '');
+                                if (episode?.description?.en)
+                                    description = episode?.description.en.toString().replace(/"/g, '').replace('\\n', '\n');
+                                if (episode?.thumbnail)
+                                    thumbnail = episode?.thumbnail.original.url.toString().replace(/"/g, '');
                                 if (episode) {
-                                    if ((_b = episode.titles) === null || _b === void 0 ? void 0 : _b.canonical)
+                                    if (episode.titles?.canonical)
                                         name = episode.titles.canonical.toString().replace(/"/g, '');
                                     episodesList.set(i, {
-                                        episodeNum: episode === null || episode === void 0 ? void 0 : episode.number.toString().replace(/"/g, ''),
+                                        episodeNum: episode?.number.toString().replace(/"/g, ''),
                                         title: name,
                                         description,
                                         thumbnail,
@@ -269,17 +264,16 @@ class Myanimelist extends models_1.AnimeParser {
                 }
             }
             const newEpisodeList = [];
-            if ((possibleProviderEpisodes === null || possibleProviderEpisodes === void 0 ? void 0 : possibleProviderEpisodes.length) !== 0) {
-                possibleProviderEpisodes === null || possibleProviderEpisodes === void 0 ? void 0 : possibleProviderEpisodes.forEach((ep, i) => {
-                    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
+            if (possibleProviderEpisodes?.length !== 0) {
+                possibleProviderEpisodes?.forEach((ep, i) => {
                     const j = (i + 1).toString();
                     newEpisodeList.push({
                         id: ep.id,
-                        title: (_c = (_a = ep.title) !== null && _a !== void 0 ? _a : (_b = episodesList.get(j)) === null || _b === void 0 ? void 0 : _b.title) !== null && _c !== void 0 ? _c : null,
-                        image: (_f = (_d = ep.image) !== null && _d !== void 0 ? _d : (_e = episodesList.get(j)) === null || _e === void 0 ? void 0 : _e.thumbnail) !== null && _f !== void 0 ? _f : null,
+                        title: ep.title ?? episodesList.get(j)?.title ?? null,
+                        image: ep.image ?? episodesList.get(j)?.thumbnail ?? null,
                         number: ep.number,
-                        description: (_j = (_g = ep.description) !== null && _g !== void 0 ? _g : (_h = episodesList.get(j)) === null || _h === void 0 ? void 0 : _h.description) !== null && _j !== void 0 ? _j : null,
-                        url: (_k = ep.url) !== null && _k !== void 0 ? _k : null,
+                        description: ep.description ?? episodesList.get(j)?.description ?? null,
+                        url: ep.url ?? null,
                     });
                 });
             }
@@ -331,8 +325,7 @@ class Myanimelist extends models_1.AnimeParser {
             animeInfo.popularity = parseInt($('.numbers.popularity').text().trim().replace('Popularity #', '').trim());
             const producers = [];
             $('a').each(function (i, link) {
-                var _a;
-                if (((_a = $(link).attr('href')) === null || _a === void 0 ? void 0 : _a.includes('producer')) &&
+                if ($(link).attr('href')?.includes('producer') &&
                     $(link).parent().children().eq(0).text() == 'Producers:') {
                     producers.push($(link).text());
                 }
@@ -414,7 +407,6 @@ class Myanimelist extends models_1.AnimeParser {
             });
             const description = $('.spaceit_pad').get();
             description.forEach((elem) => {
-                var _a;
                 const text = $(elem).text().toLowerCase().trim();
                 const key = text.split(':')[0];
                 const value = (0, utils_1.substringAfter)(text, `${key}:`).trim();
@@ -458,7 +450,7 @@ class Myanimelist extends models_1.AnimeParser {
                         break;
                     case 'studios':
                         for (const studio of $(elem).find('a'))
-                            (_a = animeInfo.studios) === null || _a === void 0 ? void 0 : _a.push($(studio).text());
+                            animeInfo.studios?.push($(studio).text());
                         break;
                     case 'rating':
                         animeInfo.ageRating = value;
@@ -497,7 +489,7 @@ class Myanimelist extends models_1.AnimeParser {
                 const href = $(elem).attr('href');
                 const image = $(elem).find('img').attr('data-src');
                 const titleDOM = $(elem).find('.episode-title');
-                const title = titleDOM === null || titleDOM === void 0 ? void 0 : titleDOM.text();
+                const title = titleDOM?.text();
                 titleDOM.remove();
                 const numberDOM = $(elem).find('.title').text().split(' ');
                 let number = 0;

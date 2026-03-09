@@ -10,7 +10,6 @@ class MoveArnPre extends video_extractor_1.default {
         this.serverName = 'movearnpre';
         this.sources = [];
         this.extract = async (videoUrl) => {
-            var _a;
             try {
                 const { data } = await this.client.get(videoUrl.href, {
                     headers: {
@@ -46,7 +45,7 @@ class MoveArnPre extends video_extractor_1.default {
                             ];
                             for (const pattern of patterns) {
                                 const match = unpacked.match(pattern);
-                                if (match === null || match === void 0 ? void 0 : match[1]) {
+                                if (match?.[1]) {
                                     masterUrl = match[1];
                                     break;
                                 }
@@ -62,7 +61,7 @@ class MoveArnPre extends video_extractor_1.default {
                     ];
                     for (const pattern of patterns) {
                         const match = data.match(pattern);
-                        if (match === null || match === void 0 ? void 0 : match[1]) {
+                        if (match?.[1]) {
                             masterUrl = match[1];
                             break;
                         }
@@ -92,7 +91,7 @@ class MoveArnPre extends video_extractor_1.default {
                             if (!variant.includes('m3u8'))
                                 continue;
                             const lines = variant.split('\n');
-                            const variantUrl = (_a = lines[1]) === null || _a === void 0 ? void 0 : _a.trim();
+                            const variantUrl = lines[1]?.trim();
                             if (!variantUrl)
                                 continue;
                             const resMatch = variant.match(/RESOLUTION=\d+x(\d+)/);
@@ -110,7 +109,7 @@ class MoveArnPre extends video_extractor_1.default {
                         }
                     }
                 }
-                catch (_b) {
+                catch {
                     if (this.sources.length === 0) {
                         this.sources.push({
                             quality: 'auto',
@@ -121,7 +120,7 @@ class MoveArnPre extends video_extractor_1.default {
                 }
                 return this.sources;
             }
-            catch (_c) {
+            catch {
                 return [];
             }
         };
@@ -145,7 +144,7 @@ class MoveArnPre extends video_extractor_1.default {
             }
             return unpacked;
         }
-        catch (_a) {
+        catch {
             return '';
         }
     }

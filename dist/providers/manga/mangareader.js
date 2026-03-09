@@ -18,18 +18,15 @@ class MangaReader extends models_1.MangaParser {
                 const { data } = await this.client.get(`${this.baseUrl}/search?keyword=${query}`);
                 const $ = (0, cheerio_1.load)(data);
                 const results = $('div.manga_list-sbs div.mls-wrap div.item')
-                    .map((i, el) => {
-                    var _a;
-                    return ({
-                        id: (_a = $(el).find('a.manga-poster').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1],
-                        title: $(el).find('div.manga-detail h3.manga-name a').text().trim(),
-                        image: $(el).find('a.manga-poster img').attr('src'),
-                        genres: $(el)
-                            .find(`div.manga-detail div.fd-infor span > a`)
-                            .map((i, genre) => $(genre).text())
-                            .get(),
-                    });
-                })
+                    .map((i, el) => ({
+                    id: $(el).find('a.manga-poster').attr('href')?.split('/')[1],
+                    title: $(el).find('div.manga-detail h3.manga-name a').text().trim(),
+                    image: $(el).find('a.manga-poster img').attr('src'),
+                    genres: $(el)
+                        .find(`div.manga-detail div.fd-infor span > a`)
+                        .map((i, genre) => $(genre).text())
+                        .get(),
+                }))
                     .get();
                 return {
                     results: results,
@@ -58,14 +55,11 @@ class MangaReader extends models_1.MangaParser {
                     .get();
                 mangaInfo.chapters = container
                     .find(`div.chapters-list-ul ul li`)
-                    .map((i, el) => {
-                    var _a;
-                    return ({
-                        id: (_a = $(el).find('a').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/read/')[1],
-                        title: $(el).find('a').attr('title').trim(),
-                        chapter: $(el).find('a span.name').text().split('Chapter ')[1].split(':')[0],
-                    });
-                })
+                    .map((i, el) => ({
+                    id: $(el).find('a').attr('href')?.split('/read/')[1],
+                    title: $(el).find('a').attr('title').trim(),
+                    chapter: $(el).find('a span.name').text().split('Chapter ')[1].split(':')[0],
+                }))
                     .get();
                 return mangaInfo;
             }

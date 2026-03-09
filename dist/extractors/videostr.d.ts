@@ -5,6 +5,8 @@ declare class VideoStr extends VideoExtractor {
     extract: (videoUrl: URL) => Promise<{
         sources: IVideo[];
         subtitles: ISubtitle[];
+        intro?: any;
+        outro?: any;
     }>;
 }
 export default VideoStr;

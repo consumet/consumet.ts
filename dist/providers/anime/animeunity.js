@@ -13,7 +13,6 @@ class AnimeUnity extends models_1.AnimeParser {
          * @param query Search query
          */
         this.search = async (query) => {
-            var _a;
             try {
                 const res = await this.client.get(`${this.baseUrl}/archivio?title=${query}`);
                 const $ = (0, cheerio_1.load)(res.data);
@@ -27,7 +26,7 @@ class AnimeUnity extends models_1.AnimeParser {
                 for (const i in items) {
                     searchResult.results.push({
                         id: `${items[i].id}-${items[i].slug}`,
-                        title: (_a = items[i].title) !== null && _a !== void 0 ? _a : items[i].title_eng,
+                        title: items[i].title ?? items[i].title_eng,
                         url: `${this.baseUrl}/anime/${items[i].id}-${items[i].slug}`,
                         image: items[i].imageurl,
                         cover: items[i].imageurl_cover,
@@ -47,7 +46,6 @@ class AnimeUnity extends models_1.AnimeParser {
          * @param page Page number
          */
         this.fetchAnimeInfo = async (id, page = 1) => {
-            var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q;
             const url = `${this.baseUrl}/anime/${id}`;
             const episodesPerPage = 120;
             const lastPageEpisode = page * episodesPerPage;
@@ -56,7 +54,7 @@ class AnimeUnity extends models_1.AnimeParser {
             try {
                 const res = await this.client.get(url);
                 const $ = (0, cheerio_1.load)(res.data);
-                const totalEpisodes = parseInt((_b = (_a = $('video-player')) === null || _a === void 0 ? void 0 : _a.attr('episodes_count')) !== null && _b !== void 0 ? _b : '0');
+                const totalEpisodes = parseInt($('video-player')?.attr('episodes_count') ?? '0');
                 const totalPages = Math.round(totalEpisodes / 120) + 1;
                 if (page < 1 || page > totalPages)
                     throw new Error(`Argument 'page' for ${id} must be between 1 and ${totalPages}! (You passed ${page})`);
@@ -65,22 +63,24 @@ class AnimeUnity extends models_1.AnimeParser {
                     hasNextPage: totalPages > page,
                     totalPages: totalPages,
                     id: id,
-                    title: (_c = $('h1.title')) === null || _c === void 0 ? void 0 : _c.text().trim(),
+                    title: $('h1.title')?.text().trim(),
                     url: url,
-                    alID: (_g = (_f = (_e = (_d = $('.banner')) === null || _d === void 0 ? void 0 : _d.attr('style')) === null || _e === void 0 ? void 0 : _e.split('/')) === null || _f === void 0 ? void 0 : _f.pop()) === null || _g === void 0 ? void 0 : _g.split('-')[0],
-                    genres: (_j = (_h = $('.info-wrapper.pt-3.pb-3 small')) === null || _h === void 0 ? void 0 : _h.map((_, element) => {
+                    alID: $('.banner')?.attr('style')?.split('/')?.pop()?.split('-')[0],
+                    genres: $('.info-wrapper.pt-3.pb-3 small')
+                        ?.map((_, element) => {
                         return $(element).text().replace(',', '').trim();
-                    }).toArray()) !== null && _j !== void 0 ? _j : undefined,
+                    })
+                        .toArray() ?? undefined,
                     totalEpisodes: totalEpisodes,
-                    image: (_k = $('img.cover')) === null || _k === void 0 ? void 0 : _k.attr('src'),
-                    cover: (_m = (_l = $('.banner')) === null || _l === void 0 ? void 0 : _l.attr('src')) !== null && _m !== void 0 ? _m : (_p = (_o = $('.banner')) === null || _o === void 0 ? void 0 : _o.attr('style')) === null || _p === void 0 ? void 0 : _p.replace('background: url(', ''),
+                    image: $('img.cover')?.attr('src'),
+                    cover: $('.banner')?.attr('src') ?? $('.banner')?.attr('style')?.replace('background: url(', ''),
                     description: $('.description').text().trim(),
                     episodes: [],
                 };
                 const res2 = await this.client.get(url2);
                 const items = res2.data.episodes;
                 for (const i in items) {
-                    (_q = animeInfo.episodes) === null || _q === void 0 ? void 0 : _q.push({
+                    animeInfo.episodes?.push({
                         id: `${id}/${items[i].id}`,
                         number: parseInt(items[i].number),
                         url: `${url}/${items[i].id}`,
@@ -97,7 +97,6 @@ class AnimeUnity extends models_1.AnimeParser {
          * @param episodeId Episode id
          */
         this.fetchEpisodeSources = async (episodeId) => {
-            var _a, _b, _c, _d, _e;
             try {
                 const res = await this.client.get(`${this.baseUrl}/anime/${episodeId}`);
                 const $ = (0, cheerio_1.load)(res.data);
@@ -108,17 +107,20 @@ class AnimeUnity extends models_1.AnimeParser {
                 if (streamUrl) {
                     const res = await this.client.get(streamUrl);
                     const $ = (0, cheerio_1.load)(res.data);
-                    const domain = (_a = $('script:contains("window.video")')
-                        .text()) === null || _a === void 0 ? void 0 : _a.match(/url: '(.*)'/)[1];
-                    const token = (_b = $('script:contains("window.video")')
-                        .text()) === null || _b === void 0 ? void 0 : _b.match(/token': '(.*)'/)[1];
-                    const expires = (_c = $('script:contains("window.video")')
-                        .text()) === null || _c === void 0 ? void 0 : _c.match(/expires': '(.*)'/)[1];
+                    const domain = $('script:contains("window.video")')
+                        .text()
+                        ?.match(/url: '(.*)'/)[1];
+                    const token = $('script:contains("window.video")')
+                        .text()
+                        ?.match(/token': '(.*)'/)[1];
+                    const expires = $('script:contains("window.video")')
+                        .text()
+                        ?.match(/expires': '(.*)'/)[1];
                     const defaultUrl = `${domain}${domain.includes('?') ? '&' : '?'}token=${token}&referer=&expires=${expires}&h=1`;
                     const m3u8Content = await this.client.get(defaultUrl);
                     if (m3u8Content.data.includes('EXTM3U')) {
                         const videoList = m3u8Content.data.split('#EXT-X-STREAM-INF:');
-                        for (const video of videoList !== null && videoList !== void 0 ? videoList : []) {
+                        for (const video of videoList ?? []) {
                             if (video.includes('BANDWIDTH')) {
                                 const url = video.split('\n')[1];
                                 const quality = video.split('RESOLUTION=')[1].split('\n')[0].split('x')[1];
@@ -135,8 +137,10 @@ class AnimeUnity extends models_1.AnimeParser {
                         quality: `default`,
                         isM3U8: true,
                     });
-                    episodeSources.download = (_e = (_d = $('script:contains("window.downloadUrl ")')
-                        .text()) === null || _d === void 0 ? void 0 : _d.match(/downloadUrl = '(.*)'/)[1]) === null || _e === void 0 ? void 0 : _e.toString();
+                    episodeSources.download = $('script:contains("window.downloadUrl ")')
+                        .text()
+                        ?.match(/downloadUrl = '(.*)'/)[1]
+                        ?.toString();
                 }
                 return episodeSources;
             }

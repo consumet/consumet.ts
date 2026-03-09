@@ -34,7 +34,6 @@ class Comix extends models_1.MangaParser {
          * @returns Promise<IMangaInfo>
          */
         this.fetchMangaInfo = async (mangaId) => {
-            var _a, _b, _c, _d, _e;
             try {
                 const { data } = await axios_1.default.get(`${this.baseUrl}/title/${mangaId}`, {
                     headers: this.baseHeaders,
@@ -77,13 +76,13 @@ class Comix extends models_1.MangaParser {
                     title: extractedData.title,
                     altTitles: extractedData.alt_titles,
                     description: extractedData.synopsis,
-                    genres: ((_a = extractedData.genre) === null || _a === void 0 ? void 0 : _a.map((g) => g.title)) || [],
-                    status: ((_b = extractedData.status) === null || _b === void 0 ? void 0 : _b.toLowerCase()) === 'releasing' ? models_1.MediaStatus.ONGOING : models_1.MediaStatus.COMPLETED,
+                    genres: extractedData.genre?.map((g) => g.title) || [],
+                    status: extractedData.status?.toLowerCase() === 'releasing' ? models_1.MediaStatus.ONGOING : models_1.MediaStatus.COMPLETED,
                     rating: extractedData.rated_avg,
                     views: extractedData.follows_total,
-                    image: (_c = extractedData.poster) === null || _c === void 0 ? void 0 : _c.large,
-                    authors: ((_d = extractedData.author) === null || _d === void 0 ? void 0 : _d.map((a) => a.title)) || [],
-                    artist: ((_e = extractedData.artist) === null || _e === void 0 ? void 0 : _e.map((a) => a.title)) || [],
+                    image: extractedData.poster?.large,
+                    authors: extractedData.author?.map((a) => a.title) || [],
+                    artist: extractedData.artist?.map((a) => a.title) || [],
                 };
                 return mangaInfo;
             }
@@ -176,12 +175,11 @@ class Comix extends models_1.MangaParser {
                 };
                 if (data.result && data.result.items) {
                     data.result.items.forEach((item) => {
-                        var _a;
                         results.results.push({
                             id: item.slug,
                             title: item.title,
                             altTitles: item.alt_titles || [],
-                            image: (_a = item.poster) === null || _a === void 0 ? void 0 : _a.large,
+                            image: item.poster?.large,
                             description: item.synopsis,
                             status: item.status === 'releasing' ? models_1.MediaStatus.ONGOING : models_1.MediaStatus.COMPLETED,
                             rating: item.rated_avg,
@@ -219,14 +217,13 @@ class Comix extends models_1.MangaParser {
                 });
                 if (data.result && data.result.items) {
                     data.result.items.forEach((item) => {
-                        var _a;
                         chapters.push({
                             id: item.chapter_id.toString(), // Using chapter_id as key
                             title: item.name || `Chapter ${item.number}`,
                             number: item.number,
                             releaseDate: item.created_at ? new Date(item.created_at * 1000).toISOString() : undefined,
                             isOfficial: item.is_official === 1,
-                            scanlationGroup: (_a = item.scanlation_group) === null || _a === void 0 ? void 0 : _a.name,
+                            scanlationGroup: item.scanlation_group?.name,
                         });
                     });
                     pagination = data.result.pagination;

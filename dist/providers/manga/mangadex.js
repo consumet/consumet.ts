@@ -12,7 +12,6 @@ class MangaDex extends models_1.MangaParser {
         this.classPath = 'MANGA.MangaDex';
         this.apiUrl = 'https://api.mangadex.org';
         this.fetchMangaInfo = async (mangaId) => {
-            var _a;
             try {
                 const { data } = await this.client.get(`${this.apiUrl}/manga/${mangaId}`);
                 const mangaInfo = {
@@ -32,7 +31,7 @@ class MangaDex extends models_1.MangaParser {
                 };
                 const allChapters = await this.fetchAllChapters(mangaId, 0);
                 for (const chapter of allChapters) {
-                    (_a = mangaInfo.chapters) === null || _a === void 0 ? void 0 : _a.push({
+                    mangaInfo.chapters?.push({
                         id: chapter.id,
                         title: chapter.attributes.title ? chapter.attributes.title : chapter.attributes.chapter,
                         chapterNumber: chapter.attributes.chapter,
@@ -41,7 +40,7 @@ class MangaDex extends models_1.MangaParser {
                     });
                 }
                 const findCoverArt = data.data.relationships.find((rel) => rel.type === 'cover_art');
-                const coverArt = await this.fetchCoverImage(findCoverArt === null || findCoverArt === void 0 ? void 0 : findCoverArt.id);
+                const coverArt = await this.fetchCoverImage(findCoverArt?.id);
                 mangaInfo.image = `${this.baseUrl}/covers/${mangaInfo.id}/${coverArt}`;
                 return mangaInfo;
             }
@@ -276,8 +275,7 @@ class MangaDex extends models_1.MangaParser {
             }
         };
         this.fetchAllChapters = async (mangaId, offset, res) => {
-            var _a, _b;
-            if (((_a = res === null || res === void 0 ? void 0 : res.data) === null || _a === void 0 ? void 0 : _a.offset) + 96 >= ((_b = res === null || res === void 0 ? void 0 : res.data) === null || _b === void 0 ? void 0 : _b.total)) {
+            if (res?.data?.offset + 96 >= res?.data?.total) {
                 return [];
             }
             const response = await this.client.get(`${this.apiUrl}/manga/${mangaId}/feed?offset=${offset}&limit=96&order[volume]=desc&order[chapter]=desc&translatedLanguage[]=en`);

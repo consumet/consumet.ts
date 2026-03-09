@@ -17,7 +17,7 @@ class StreamSB extends models_1.VideoExtractor {
                 Referer: videoUrl.href,
             };
             let id = videoUrl.href.split('/e/').pop();
-            if (id === null || id === void 0 ? void 0 : id.includes('html'))
+            if (id?.includes('html'))
                 id = id.split('.html')[0];
             const bytes = new TextEncoder().encode(id);
             const res = await this.client
@@ -25,7 +25,7 @@ class StreamSB extends models_1.VideoExtractor {
                 headers,
             })
                 .catch(() => null);
-            if (!(res === null || res === void 0 ? void 0 : res.data.stream_data))
+            if (!res?.data.stream_data)
                 throw new Error('No source found. Try a different server.');
             headers = {
                 'User-Agent': utils_1.USER_AGENT,
@@ -35,7 +35,7 @@ class StreamSB extends models_1.VideoExtractor {
                 headers,
             });
             const videoList = m3u8Urls.data.split('#EXT-X-STREAM-INF:');
-            for (const video of videoList !== null && videoList !== void 0 ? videoList : []) {
+            for (const video of videoList ?? []) {
                 if (!video.includes('m3u8'))
                     continue;
                 const url = video.split('\n')[1];

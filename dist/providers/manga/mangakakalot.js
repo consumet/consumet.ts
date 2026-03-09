@@ -69,7 +69,6 @@ class MangaKakalot extends models_1.MangaParser {
          * @param mangaId Manga ID from search results
          */
         this.fetchMangaInfo = async (mangaId) => {
-            var _a, _b, _c, _d;
             try {
                 const url = `${this.baseUrl}/manga/${mangaId}`;
                 const response = await this.proxyRequest(url);
@@ -78,9 +77,9 @@ class MangaKakalot extends models_1.MangaParser {
                 const title = target.find('.manga-info-text li:eq(0) h1').text().trim();
                 const image = target.find('.manga-info-pic img').attr('src') || '';
                 const author = target.find('.manga-info-text li:eq(1) a').text().trim();
-                const statusText = ((_a = target.find('.manga-info-text li:eq(2)').text().split(':')[1]) === null || _a === void 0 ? void 0 : _a.trim()) || '';
+                const statusText = target.find('.manga-info-text li:eq(2)').text().split(':')[1]?.trim() || '';
                 const description = $('#noidungm').text().trim();
-                const genresText = ((_b = target.find('.manga-info-text li:eq(6)').text().split(':')[1]) === null || _b === void 0 ? void 0 : _b.trim()) || '';
+                const genresText = target.find('.manga-info-text li:eq(6)').text().split(':')[1]?.trim() || '';
                 const genres = genresText
                     .split(',')
                     .map(g => g.trim())
@@ -101,14 +100,13 @@ class MangaKakalot extends models_1.MangaParser {
                 try {
                     const chaptersUrl = `${this.baseUrl}/api/manga/${mangaId}/chapters?limit=9999999999999`;
                     const chaptersResponse = await this.proxyRequest(chaptersUrl, { isJson: true });
-                    if (((_d = (_c = chaptersResponse.data) === null || _c === void 0 ? void 0 : _c.data) === null || _d === void 0 ? void 0 : _d.chapters) && Array.isArray(chaptersResponse.data.data.chapters)) {
+                    if (chaptersResponse.data?.data?.chapters && Array.isArray(chaptersResponse.data.data.chapters)) {
                         chaptersResponse.data.data.chapters.forEach((chapter) => {
-                            var _a;
                             if (chapter.chapter_slug) {
                                 chapters.push({
                                     id: `${mangaId}/${chapter.chapter_slug}`,
                                     title: chapter.chapter_name || `Chapter ${chapter.chapter_num}`,
-                                    views: ((_a = chapter.view) === null || _a === void 0 ? void 0 : _a.toString()) || '',
+                                    views: chapter.view?.toString() || '',
                                     releaseDate: chapter.updated_at || '',
                                 });
                             }
@@ -314,8 +312,7 @@ class MangaKakalot extends models_1.MangaParser {
             return;
         const now = Date.now();
         Object.keys(this.cookieJar[domain]).forEach(name => {
-            var _a;
-            const timestamp = ((_a = this.cookieTimestamps[domain]) === null || _a === void 0 ? void 0 : _a[name]) || 0;
+            const timestamp = this.cookieTimestamps[domain]?.[name] || 0;
             if (now - timestamp > this.COOKIE_MAX_AGE) {
                 delete this.cookieJar[domain][name];
                 delete this.cookieTimestamps[domain][name];
@@ -395,7 +392,7 @@ class MangaKakalot extends models_1.MangaParser {
                 this.extractCookies(listResponse.headers, domain);
                 await this.delay(800);
             }
-            catch (_a) {
+            catch {
                 // Ignore warmup list errors
             }
             this.warmedUp[domain] = Date.now();

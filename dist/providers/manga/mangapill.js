@@ -18,14 +18,11 @@ class MangaPill extends models_1.MangaParser {
                 const { data } = await this.client.get(`${this.baseUrl}/search?q=${encodeURIComponent(query)}`);
                 const $ = (0, cheerio_1.load)(data);
                 const results = $('div.container div.my-3.justify-end > div')
-                    .map((i, el) => {
-                    var _a;
-                    return ({
-                        id: (_a = $(el).find('a').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/manga/')[1],
-                        title: $(el).find('div > a > div').text().trim(),
-                        image: $(el).find('a img').attr('data-src'),
-                    });
-                })
+                    .map((i, el) => ({
+                    id: $(el).find('a').attr('href')?.split('/manga/')[1],
+                    title: $(el).find('div > a > div').text().trim(),
+                    image: $(el).find('a img').attr('data-src'),
+                }))
                     .get();
                 return {
                     results: results,
@@ -59,14 +56,11 @@ class MangaPill extends models_1.MangaParser {
                     .filter((genre) => genre !== 'Genres' && genre !== '')
                     .map(genre => genre.trim());
                 mangaInfo.chapters = $('div.container div.border-border div#chapters div.grid-cols-1 a')
-                    .map((i, el) => {
-                    var _a;
-                    return ({
-                        id: (_a = $(el).attr('href')) === null || _a === void 0 ? void 0 : _a.split('/chapters/')[1],
-                        title: $(el).text().trim(),
-                        chapter: $(el).text().split('Chapter ')[1],
-                    });
-                })
+                    .map((i, el) => ({
+                    id: $(el).attr('href')?.split('/chapters/')[1],
+                    title: $(el).text().trim(),
+                    chapter: $(el).text().split('Chapter ')[1],
+                }))
                     .get();
                 return mangaInfo;
             }

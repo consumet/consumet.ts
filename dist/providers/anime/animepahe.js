@@ -61,10 +61,9 @@ class AnimePahe extends models_1.AnimeParser {
                 animeInfo.hasSub = true;
                 animeInfo.externalLinks = [];
                 $('p.external-links > a').each((i, el) => {
-                    var _a, _b;
-                    const url = (_a = $(el).attr('href')) === null || _a === void 0 ? void 0 : _a.trim();
-                    (_b = animeInfo.externalLinks) === null || _b === void 0 ? void 0 : _b.push({
-                        id: (url === null || url === void 0 ? void 0 : url.includes('?')) ? url === null || url === void 0 ? void 0 : url.split('?')[1].split('=')[1] : url === null || url === void 0 ? void 0 : url.split('/').pop(),
+                    const url = $(el).attr('href')?.trim();
+                    animeInfo.externalLinks?.push({
+                        id: url?.includes('?') ? url?.split('?')[1].split('=')[1] : url?.split('/').pop(),
                         url: url,
                         sourceName: $(el).text().trim(),
                     });
@@ -96,24 +95,22 @@ class AnimePahe extends models_1.AnimeParser {
                 animeInfo.totalEpisodes = parseInt($('div.anime-info > p:contains("Episodes:")').text().replace('Episodes:', ''));
                 animeInfo.recommendations = [];
                 $('div.anime-recommendation .col-sm-6').each((i, el) => {
-                    var _a, _b, _c;
-                    (_a = animeInfo.recommendations) === null || _a === void 0 ? void 0 : _a.push({
-                        id: (_b = $(el).find('.col-2 > a').attr('href')) === null || _b === void 0 ? void 0 : _b.split('/')[2],
+                    animeInfo.recommendations?.push({
+                        id: $(el).find('.col-2 > a').attr('href')?.split('/')[2],
                         title: $(el).find('.col-2 > a').attr('title'),
                         image: $(el).find('.col-2 > a > img').attr('src') || $(el).find('.col-2 > a > img').attr('data-src'),
-                        url: `${this.baseUrl}/anime/${(_c = $(el).find('.col-2 > a').attr('href')) === null || _c === void 0 ? void 0 : _c.split('/')[2]}`,
+                        url: `${this.baseUrl}/anime/${$(el).find('.col-2 > a').attr('href')?.split('/')[2]}`,
                         releaseDate: $(el).find('div.col-9 > a').text().trim(),
                         status: $(el).find('div.col-9 > strong').text().trim(),
                     });
                 });
                 animeInfo.relations = [];
                 $('div.anime-relation .col-sm-6').each((i, el) => {
-                    var _a, _b, _c;
-                    (_a = animeInfo.relations) === null || _a === void 0 ? void 0 : _a.push({
-                        id: (_b = $(el).find('.col-2 > a').attr('href')) === null || _b === void 0 ? void 0 : _b.split('/')[2],
+                    animeInfo.relations?.push({
+                        id: $(el).find('.col-2 > a').attr('href')?.split('/')[2],
                         title: $(el).find('.col-2 > a').attr('title'),
                         image: $(el).find('.col-2 > a > img').attr('src') || $(el).find('.col-2 > a > img').attr('data-src'),
-                        url: `${this.baseUrl}/anime/${(_c = $(el).find('.col-2 > a').attr('href')) === null || _c === void 0 ? void 0 : _c.split('/')[2]}`,
+                        url: `${this.baseUrl}/anime/${$(el).find('.col-2 > a').attr('href')?.split('/')[2]}`,
                         releaseDate: $(el).find('div.col-9 > a').text().trim(),
                         status: $(el).find('div.col-9 > strong').text().trim(),
                         relationType: $(el).find('h4 > span').text().trim(),

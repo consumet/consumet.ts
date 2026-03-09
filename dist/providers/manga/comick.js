@@ -21,27 +21,26 @@ class ComicK extends models_1.MangaParser {
          * @returns Promise<IMangaInfo>
          */
         this.fetchMangaInfo = async (mangaId) => {
-            var _a, _b, _c, _d, _e, _f;
             try {
                 const data = await this.getComicData(mangaId);
-                const links = Object.values((_a = data.links) !== null && _a !== void 0 ? _a : []).filter(link => link !== null);
+                const links = Object.values(data.links ?? []).filter(link => link !== null);
                 const mangaInfo = {
                     id: data.slug,
                     title: data.title,
                     altTitles: data.md_titles ? data.md_titles.map(title => title.title) : [],
                     description: data.desc,
-                    genres: (_b = data.md_comic_md_genres) === null || _b === void 0 ? void 0 : _b.map(genre => genre.md_genres.name),
-                    status: ((_c = data.status) !== null && _c !== void 0 ? _c : 0 === 0) ? models_1.MediaStatus.ONGOING : models_1.MediaStatus.COMPLETED,
+                    genres: data.md_comic_md_genres?.map(genre => genre.md_genres.name),
+                    status: data.status ?? 0 === 0 ? models_1.MediaStatus.ONGOING : models_1.MediaStatus.COMPLETED,
                     image: data.default_thumbnail,
-                    malId: (_d = data.links) === null || _d === void 0 ? void 0 : _d.mal,
+                    malId: data.links?.mal,
                     links: links,
                     chapters: [],
                 };
                 const allChapters = await this.fetchAllChapters(mangaInfo.id, 1);
                 for (const chapter of allChapters) {
-                    (_e = mangaInfo.chapters) === null || _e === void 0 ? void 0 : _e.push({
+                    mangaInfo.chapters?.push({
                         id: `${mangaInfo.id}/${chapter.hid}-chapter-${chapter.chap}-${chapter.lang}`,
-                        title: (_f = chapter.title) !== null && _f !== void 0 ? _f : chapter.chap,
+                        title: chapter.title ?? chapter.chap,
                         chapterNumber: chapter.chap,
                         volumeNumber: chapter.vol,
                         releaseDate: chapter.created_at,
@@ -84,7 +83,6 @@ class ComicK extends models_1.MangaParser {
          * @param limit limit of results to return (default: 20) (max: 100) (min: 1)
          */
         this.search = async (query, cursor) => {
-            var _a;
             try {
                 const req = await this._axios().get(`/search?q=${encodeURIComponent(query)}&cursor=${cursor}`);
                 const results = {
@@ -96,7 +94,7 @@ class ComicK extends models_1.MangaParser {
                 for (const manga of data) {
                     results.results.push({
                         id: manga.slug,
-                        title: (_a = manga.title) !== null && _a !== void 0 ? _a : manga.slug,
+                        title: manga.title ?? manga.slug,
                         altTitles: manga.md_titles ? manga.md_titles.map(title => title.title) : [],
                         image: manga.default_thumbnail,
                     });

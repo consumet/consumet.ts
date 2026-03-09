@@ -27,19 +27,18 @@ class Goku extends models_1.MovieParser {
                     results: [],
                 };
                 $('div.section-items > div.item').each((_, el) => {
-                    var _a;
                     const $el = $(el);
                     const releaseDate = $el.find('div.movie-info div.info-split > div:nth-child(1)').text();
                     const rating = $el.find('div.movie-info div.info-split div.is-rated').text();
                     const href = $el.find('.is-watch > a').attr('href');
                     searchResult.results.push({
-                        id: (_a = href === null || href === void 0 ? void 0 : href.replace('/', '')) !== null && _a !== void 0 ? _a : '',
+                        id: href?.replace('/', '') ?? '',
                         title: $el.find('div.movie-info h3.movie-name').text(),
                         url: `${this.baseUrl}${href}`,
                         image: $el.find('div.movie-thumbnail > a > img').attr('src'),
                         releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
                         rating: isNaN(parseFloat(rating)) ? undefined : parseFloat(rating),
-                        type: (href === null || href === void 0 ? void 0 : href.includes('watch-series')) ? models_1.TvType.TVSERIES : models_1.TvType.MOVIE,
+                        type: href?.includes('watch-series') ? models_1.TvType.TVSERIES : models_1.TvType.MOVIE,
                     });
                 });
                 return searchResult;
@@ -90,11 +89,10 @@ class Goku extends models_1.MovieParser {
                 else {
                     movieInfo.episodes = [];
                     $('meta').each((_, el) => {
-                        var _a, _b, _c;
                         const $el = $(el);
                         if ($el.attr('property') === 'og:url') {
-                            (_a = movieInfo.episodes) === null || _a === void 0 ? void 0 : _a.push({
-                                id: (_c = (_b = $el.attr('content')) === null || _b === void 0 ? void 0 : _b.split('/').pop()) !== null && _c !== void 0 ? _c : '',
+                            movieInfo.episodes?.push({
+                                id: $el.attr('content')?.split('/').pop() ?? '',
                                 title: movieInfo.title.toString(),
                                 url: $el.attr('content'),
                             });
@@ -118,11 +116,10 @@ class Goku extends models_1.MovieParser {
                 const $ = (0, cheerio_1.load)(data);
                 const servers = $('.dropdown-menu > a')
                     .map((_, el) => {
-                    var _a;
                     const $el = $(el);
                     return {
                         name: $el.text(),
-                        id: (_a = $el.attr('data-id')) !== null && _a !== void 0 ? _a : '',
+                        id: $el.attr('data-id') ?? '',
                     };
                 })
                     .get();
@@ -247,12 +244,11 @@ class Goku extends models_1.MovieParser {
             const { data: seasonData } = await this.client.get(`${this.baseUrl}/ajax/movie/season/episodes/${season.id}`);
             const $$ = (0, cheerio_1.load)(seasonData);
             $$('.item').each((_, el) => {
-                var _a, _b, _c, _d;
                 const $$el = $$(el);
-                const episodeText = (_b = (_a = $$el.find('a').text()) === null || _a === void 0 ? void 0 : _a.split(':')[0].trim().substring(3)) !== null && _b !== void 0 ? _b : '';
+                const episodeText = $$el.find('a').text()?.split(':')[0].trim().substring(3) ?? '';
                 episodes.push({
-                    id: (_c = $$el.find('a').attr('data-id')) !== null && _c !== void 0 ? _c : '',
-                    title: (_d = $$el.find('a').attr('title')) !== null && _d !== void 0 ? _d : '',
+                    id: $$el.find('a').attr('data-id') ?? '',
+                    title: $$el.find('a').attr('title') ?? '',
                     number: parseInt(episodeText),
                     season: season.season,
                     url: $$el.find('a').attr('href'),
@@ -281,15 +277,14 @@ class Goku extends models_1.MovieParser {
             return section
                 .find('.item')
                 .map((_, el) => {
-                var _a, _b;
                 const $el = $(el);
                 const href = $el.find('.is-watch > a').attr('href');
                 const result = {
-                    id: href === null || href === void 0 ? void 0 : href.replace('/', ''),
+                    id: href?.replace('/', ''),
                     title: $el.find('.movie-name').text(),
                     url: `${this.baseUrl}${href}`,
                     image: $el.find('.movie-thumbnail > a > img').attr('src'),
-                    type: (href === null || href === void 0 ? void 0 : href.includes(isMovie ? 'watch-movie' : 'watch-series'))
+                    type: href?.includes(isMovie ? 'watch-movie' : 'watch-series')
                         ? isMovie
                             ? models_1.TvType.MOVIE
                             : models_1.TvType.TVSERIES
@@ -305,8 +300,8 @@ class Goku extends models_1.MovieParser {
                 else {
                     const seasonEpisode = $el.find('.info-split > div:nth-child(2)').text();
                     const parts = seasonEpisode.split('/');
-                    result.season = (_a = parts[0]) === null || _a === void 0 ? void 0 : _a.trim();
-                    result.latestEpisode = (_b = parts[1]) === null || _b === void 0 ? void 0 : _b.trim();
+                    result.season = parts[0]?.trim();
+                    result.latestEpisode = parts[1]?.trim();
                 }
                 return result;
             })
@@ -335,12 +330,11 @@ class Goku extends models_1.MovieParser {
                 results: [],
             };
             $('div.section-items.section-items-default > div.item').each((_, el) => {
-                var _a, _b, _c, _d;
                 const $el = $(el);
                 const href = $el.find('div.movie-info > a').attr('href');
-                const mediaType = (href === null || href === void 0 ? void 0 : href.includes('movie/')) ? models_1.TvType.MOVIE : models_1.TvType.TVSERIES;
+                const mediaType = href?.includes('movie/') ? models_1.TvType.MOVIE : models_1.TvType.TVSERIES;
                 const resultItem = {
-                    id: (_b = (_a = $el.find('div.movie-thumbnail > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1)) !== null && _b !== void 0 ? _b : '',
+                    id: $el.find('div.movie-thumbnail > a').attr('href')?.slice(1) ?? '',
                     title: $el.find('div.movie-info > a > h3.movie-name').text().trim(),
                     url: `${this.baseUrl}${href}`,
                     image: $el.find('div.movie-thumbnail > a > img').attr('src'),
@@ -349,8 +343,8 @@ class Goku extends models_1.MovieParser {
                 if (mediaType === models_1.TvType.TVSERIES) {
                     const seasonEpisode = $el.find('div.movie-info > div.info-split > div:nth-child(2)').text();
                     const parts = seasonEpisode.split('/');
-                    resultItem.season = (_c = parts[0]) === null || _c === void 0 ? void 0 : _c.trim();
-                    resultItem.latestEpisode = (_d = parts[1]) === null || _d === void 0 ? void 0 : _d.trim();
+                    resultItem.season = parts[0]?.trim();
+                    resultItem.latestEpisode = parts[1]?.trim();
                 }
                 else {
                     resultItem.releaseDate = $el.find('div.movie-info > div.info-split > div:nth-child(1)').text();
