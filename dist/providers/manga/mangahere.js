@@ -27,7 +27,7 @@ class MangaHere extends models_1.MangaParser {
                 mangaInfo.headers = { Referer: this.baseUrl };
                 mangaInfo.image = $('div.detail-info-cover > img').attr('src');
                 mangaInfo.genres = $('p.detail-info-right-tag-list > a')
-                    .map((i, el) => { var _a; return (_a = $(el).attr('title')) === null || _a === void 0 ? void 0 : _a.trim(); })
+                    .map((i, el) => $(el).attr('title')?.trim())
                     .get();
                 switch ($('span.detail-info-right-title-tip').text()) {
                     case 'Ongoing':
@@ -45,14 +45,11 @@ class MangaHere extends models_1.MangaParser {
                     .map((i, el) => $(el).attr('title'))
                     .get();
                 mangaInfo.chapters = $('ul.detail-main-list > li')
-                    .map((i, el) => {
-                    var _a;
-                    return ({
-                        id: (_a = $(el).find('a').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/manga/')[1].slice(0, -7),
-                        title: $(el).find('a > div > p.title3').text(),
-                        releasedDate: $(el).find('a > div > p.title2').text().trim(),
-                    });
-                })
+                    .map((i, el) => ({
+                    id: $(el).find('a').attr('href')?.split('/manga/')[1].slice(0, -7),
+                    title: $(el).find('a > div > p.title3').text(),
+                    releasedDate: $(el).find('a > div > p.title2').text().trim(),
+                }))
                     .get();
                 return mangaInfo;
             }
@@ -61,7 +58,6 @@ class MangaHere extends models_1.MangaParser {
             }
         };
         this.fetchChapterPages = async (chapterId) => {
-            var _a, _b;
             const chapterPages = [];
             const url = `${this.baseUrl}/manga/${chapterId}/1.html`;
             try {
@@ -74,7 +70,7 @@ class MangaHere extends models_1.MangaParser {
                 const copyrightHandle = $('p.detail-block-content').text().match('Dear user') ||
                     $('p.detail-block-content').text().match('blocked');
                 if (copyrightHandle) {
-                    throw Error((_a = copyrightHandle.input) === null || _a === void 0 ? void 0 : _a.trim());
+                    throw Error(copyrightHandle.input?.trim());
                 }
                 const bar = $('script[src*=chapter_bar]').data();
                 const html = $.html();
@@ -95,7 +91,7 @@ class MangaHere extends models_1.MangaParser {
                     const chapterIdsl = html.indexOf('chapterid');
                     const chapterId = html.substring(chapterIdsl + 11, html.indexOf(';', chapterIdsl)).trim();
                     const chapterPagesElmnt = $('body > div:nth-child(6) > div > span').children('a');
-                    const pages = parseInt((_b = chapterPagesElmnt.last().prev().attr('data-page')) !== null && _b !== void 0 ? _b : '0');
+                    const pages = parseInt(chapterPagesElmnt.last().prev().attr('data-page') ?? '0');
                     const pageBase = url.substring(0, url.lastIndexOf('/'));
                     let resText = '';
                     for (let i = 1; i <= pages; i++) {
@@ -144,21 +140,18 @@ class MangaHere extends models_1.MangaParser {
                 const $ = (0, cheerio_1.load)(data);
                 searchRes.hasNextPage = $('div.pager-list-left > a.active').next().text() !== '>';
                 searchRes.results = $('div.container > div > div > ul > li')
-                    .map((i, el) => {
-                    var _a;
-                    return ({
-                        id: (_a = $(el).find('a').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2],
-                        title: $(el).find('p.manga-list-4-item-title > a').text(),
-                        headerForImage: { Referer: this.baseUrl },
-                        image: $(el).find('a > img').attr('src'),
-                        description: $(el).find('p').last().text(),
-                        status: $(el).find('p.manga-list-4-show-tag-list-2 > a').text() === 'Ongoing'
-                            ? models_1.MediaStatus.ONGOING
-                            : $(el).find('p.manga-list-4-show-tag-list-2 > a').text() === 'Completed'
-                                ? models_1.MediaStatus.COMPLETED
-                                : models_1.MediaStatus.UNKNOWN,
-                    });
-                })
+                    .map((i, el) => ({
+                    id: $(el).find('a').attr('href')?.split('/')[2],
+                    title: $(el).find('p.manga-list-4-item-title > a').text(),
+                    headerForImage: { Referer: this.baseUrl },
+                    image: $(el).find('a > img').attr('src'),
+                    description: $(el).find('p').last().text(),
+                    status: $(el).find('p.manga-list-4-show-tag-list-2 > a').text() === 'Ongoing'
+                        ? models_1.MediaStatus.ONGOING
+                        : $(el).find('p.manga-list-4-show-tag-list-2 > a').text() === 'Completed'
+                            ? models_1.MediaStatus.COMPLETED
+                            : models_1.MediaStatus.UNKNOWN,
+                }))
                     .get();
                 return searchRes;
             }
@@ -200,7 +193,6 @@ class MangaHere extends models_1.MangaParser {
                 };
                 recentUpdate.results = $('ul.manga-list-4-list > li')
                     .map((i, el) => {
-                    var _a;
                     const latestChapter = $(el).find('ul.manga-list-4-item-part > li > a').first();
                     const latestChapterUrl = latestChapter.attr('href');
                     const latestChapterText = latestChapter.text();
@@ -216,7 +208,7 @@ class MangaHere extends models_1.MangaParser {
                         }
                     }
                     return {
-                        id: (_a = $(el).find('a').first().attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2],
+                        id: $(el).find('a').first().attr('href')?.split('/')[2],
                         title: $(el).find('p.manga-list-4-item-title > a').attr('title'),
                         image: $(el).find('a > img').first().attr('src'),
                         genres: $(el)
@@ -279,7 +271,6 @@ class MangaHere extends models_1.MangaParser {
                 };
                 browseResult.results = $('.manga-list-1-list > li')
                     .map((i, el) => {
-                    var _a;
                     const subtitleLink = $(el).find('p.manga-list-1-item-subtitle > a');
                     const latestChapterUrl = subtitleLink.attr('href');
                     const latestChapterText = subtitleLink.text();
@@ -295,7 +286,7 @@ class MangaHere extends models_1.MangaParser {
                         }
                     }
                     return {
-                        id: (_a = $(el).find('a').first().attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2],
+                        id: $(el).find('a').first().attr('href')?.split('/')[2],
                         title: $(el).find('a').first().attr('title'),
                         image: $(el).find('a > img').first().attr('src'),
                         headerForImage: { Referer: this.baseUrl },
@@ -325,7 +316,6 @@ class MangaHere extends models_1.MangaParser {
                 };
                 mangaList.results = $('.manga-list-1-list > li')
                     .map((i, el) => {
-                    var _a;
                     const subtitleLink = $(el).find('p.manga-list-1-item-subtitle > a');
                     const latestChapterUrl = subtitleLink.attr('href');
                     const latestChapterText = subtitleLink.text();
@@ -341,7 +331,7 @@ class MangaHere extends models_1.MangaParser {
                         }
                     }
                     return {
-                        id: (_a = $(el).find('a').first().attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2],
+                        id: $(el).find('a').first().attr('href')?.split('/')[2],
                         title: $(el).find('a').first().attr('title'),
                         image: $(el).find('a > img').first().attr('src'),
                         headerForImage: { Referer: this.baseUrl },

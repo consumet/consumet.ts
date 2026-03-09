@@ -1,104 +1,22 @@
 import { VideoExtractor, IVideo, ISubtitle, Intro } from '../models';
-import { USER_AGENT } from '../utils';
-import axios from 'axios';
+import { extractMegaCloudSources } from './megacloud-util';
 
 class VidCloud extends VideoExtractor {
   protected override serverName = 'VidCloud';
   protected override sources: IVideo[] = [];
 
-  override extract = async (videoUrl: URL): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
+  override extract = async (
+    videoUrl: URL,
+    referer: string = 'https://flixhq.to/'
+  ): Promise<{ sources: IVideo[]; subtitles: ISubtitle[]; intro?: Intro; outro?: Intro }> => {
     try {
-      const result: { sources: IVideo[]; subtitles: ISubtitle[]; intro?: Intro } = {
-        sources: [],
-        subtitles: [],
+      const result = await extractMegaCloudSources(videoUrl, referer);
+      return {
+        sources: result.sources,
+        subtitles: result.subtitles,
+        intro: result.intro,
+        outro: result.outro,
       };
-
-      const decUrl = new URL('https://dec.eatmynerds.live');
-      decUrl.searchParams.set('url', videoUrl.href);
-
-      const { data: initialData } = await axios.get(decUrl.toString());
-
-      if (!initialData?.sources?.length) {
-        throw new Error('No sources found from the initial request.');
-      }
-
-      let masterPlaylistUrl = initialData.sources[0].file;
-      let masterPlaylist: string | null = null;
-
-      try {
-        const { data } = await axios.get(masterPlaylistUrl, {
-          headers: {
-            Referer: videoUrl.href,
-            'User-Agent': USER_AGENT,
-          },
-          timeout: 10000,
-        });
-        masterPlaylist = data;
-      } catch (httpsError) {
-        const httpUrl = masterPlaylistUrl.replace('https://', 'http://');
-
-        try {
-          const { data } = await axios.get(httpUrl, {
-            headers: {
-              Referer: videoUrl.href,
-              'User-Agent': USER_AGENT,
-            },
-            timeout: 10000,
-          });
-          masterPlaylist = data;
-          masterPlaylistUrl = httpUrl;
-        } catch (httpError) {
-          return {
-            sources: [
-              {
-                url: masterPlaylistUrl,
-                isM3U8: masterPlaylistUrl.includes('.m3u8'),
-                quality: 'auto',
-              },
-            ],
-            subtitles:
-              initialData.tracks?.map((s: any) => ({
-                url: s.file,
-                lang: s.label ?? 'Default',
-              })) || [],
-          };
-        }
-      }
-
-      const sources: IVideo[] = [];
-
-      sources.push({
-        url: masterPlaylistUrl,
-        isM3U8: true,
-        quality: 'auto',
-      });
-
-      const playlistRegex = /#EXT-X-STREAM-INF:.*RESOLUTION=(\d+x(\d+)).*\n(.*)/g;
-      let match;
-
-      while ((match = playlistRegex.exec(masterPlaylist!)) !== null) {
-        const quality = `${match[2]}p`;
-        let url = match[3];
-
-        if (!url.startsWith('http')) {
-          url = new URL(url, masterPlaylistUrl).toString();
-        }
-
-        sources.push({
-          url,
-          quality,
-          isM3U8: url.includes('.m3u8'),
-        });
-      }
-
-      result.sources = sources;
-      result.subtitles =
-        initialData.tracks?.map((s: any) => ({
-          url: s.file,
-          lang: s.label ?? 'Default',
-        })) || [];
-
-      return result;
     } catch (err) {
       throw err;
     }

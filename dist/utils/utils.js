@@ -29,7 +29,7 @@ const splitAuthor = (authors) => {
 exports.splitAuthor = splitAuthor;
 const floorID = (id) => {
     let imp = '';
-    for (let i = 0; i < (id === null || id === void 0 ? void 0 : id.length) - 3; i++) {
+    for (let i = 0; i < id?.length - 3; i++) {
         imp += id[i];
     }
     const idV = parseInt(imp);
@@ -71,7 +71,7 @@ const genElement = (s, e) => {
 exports.genElement = genElement;
 const range = ({ from = 0, to = 0, step = 1, length = Math.ceil((to - from) / step) }) => Array.from({ length }, (_, i) => from + i * step);
 exports.range = range;
-const capitalizeFirstLetter = (s) => (s === null || s === void 0 ? void 0 : s.charAt(0).toUpperCase()) + s.slice(1);
+const capitalizeFirstLetter = (s) => s?.charAt(0).toUpperCase() + s.slice(1);
 exports.capitalizeFirstLetter = capitalizeFirstLetter;
 const getDays = (day1, day2) => {
     const day1Index = exports.days.indexOf((0, exports.capitalizeFirstLetter)(day1)) - 1;
@@ -150,7 +150,7 @@ const substringBeforeLast = (str, toFind) => {
 };
 exports.substringBeforeLast = substringBeforeLast;
 const getHashFromImage = (url) => {
-    if ((url === null || url === void 0 ? void 0 : url.length) === 0) {
+    if (url?.length === 0) {
         return '';
     }
     else {
@@ -245,11 +245,13 @@ exports.parsePostInfo = parsePostInfo;
 // Function to find similar titles
 function findSimilarTitles(inputTitle, titles) {
     const results = [];
-    titles === null || titles === void 0 ? void 0 : titles.forEach((titleObj) => {
-        var _a, _b;
-        const title = cleanTitle(((_b = (_a = titleObj === null || titleObj === void 0 ? void 0 : titleObj.title) === null || _a === void 0 ? void 0 : _a.toLowerCase()) === null || _b === void 0 ? void 0 : _b.replace(/\([^\)]*\)/g, '').trim()) || '');
+    titles?.forEach((titleObj) => {
+        const title = cleanTitle(titleObj?.title
+            ?.toLowerCase()
+            ?.replace(/\([^\)]*\)/g, '')
+            .trim() || '');
         // Calculate similarity score between inputTitle and title
-        const similarity = (0, exports.compareTwoStrings)(cleanTitle((inputTitle === null || inputTitle === void 0 ? void 0 : inputTitle.toLowerCase()) || ''), title);
+        const similarity = (0, exports.compareTwoStrings)(cleanTitle(inputTitle?.toLowerCase() || ''), title);
         if (similarity > 0.6) {
             results.push({ ...titleObj, similarity });
         }
@@ -258,13 +260,12 @@ function findSimilarTitles(inputTitle, titles) {
     // If episodes.sub is available, sort the results
     if (isSubAvailable) {
         return results.sort((a, b) => {
-            var _a, _b;
             // First sort by similarity in descending order
             if (b.similarity !== a.similarity) {
                 return b.similarity - a.similarity;
             }
             // If similarity is the same, sort by episodes.sub in descending order
-            return (((_a = b.episodes) === null || _a === void 0 ? void 0 : _a.sub) || 0) - (((_b = a.episodes) === null || _b === void 0 ? void 0 : _b.sub) || 0);
+            return (b.episodes?.sub || 0) - (a.episodes?.sub || 0);
         });
     }
     // If episodes.sub is not available, return the original list

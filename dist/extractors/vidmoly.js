@@ -7,7 +7,6 @@ class VidMoly extends models_1.VideoExtractor {
         this.serverName = 'vidmoly';
         this.sources = [];
         this.extract = async (videoUrl) => {
-            var _a;
             try {
                 const urlString = videoUrl.href.replace('vidmoly.to', 'vidmoly.net');
                 const { data } = await this.client.get(urlString, {
@@ -50,7 +49,7 @@ class VidMoly extends models_1.VideoExtractor {
                         if (!video.includes('m3u8'))
                             continue;
                         const lines = video.split('\n');
-                        const url = (_a = lines[1]) === null || _a === void 0 ? void 0 : _a.trim();
+                        const url = lines[1]?.trim();
                         if (!url)
                             continue;
                         const resolutionMatch = video.match(/RESOLUTION=(\d+)x(\d+)/);

@@ -32,7 +32,7 @@ class DramaCool extends models_1.MovieParser {
                     const $el = $(el);
                     const href = $el.find('a').attr('href');
                     searchResult.results.push({
-                        id: href === null || href === void 0 ? void 0 : href.split(`${this.baseUrl}/`)[1],
+                        id: href?.split(`${this.baseUrl}/`)[1],
                         title: $el.find('a > h3').text(),
                         url: href,
                         image: $el.find('a > img').attr('data-original'),
@@ -49,7 +49,6 @@ class DramaCool extends models_1.MovieParser {
          * @param mediaId media link or id
          */
         this.fetchMediaInfo = async (mediaId) => {
-            var _a;
             try {
                 const normalizedId = mediaId;
                 const url = mediaId.startsWith(this.baseUrl) ? mediaId : `${this.baseUrl}/${mediaId}`;
@@ -78,8 +77,7 @@ class DramaCool extends models_1.MovieParser {
                     $(element)
                         .find('a')
                         .each((_, anchor) => {
-                        var _a;
-                        (_a = mediaInfo.genres) === null || _a === void 0 ? void 0 : _a.push($(anchor).text());
+                        mediaInfo.genres?.push($(anchor).text());
                     });
                 });
                 // Basic info
@@ -103,20 +101,19 @@ class DramaCool extends models_1.MovieParser {
                 const trailerIframe = $('div.trailer').find('iframe').attr('src');
                 if (trailerIframe) {
                     mediaInfo.trailer = {
-                        id: (_a = trailerIframe.split('embed/')[1]) === null || _a === void 0 ? void 0 : _a.split('?')[0],
+                        id: trailerIframe.split('embed/')[1]?.split('?')[0],
                         url: trailerIframe,
                     };
                 }
                 // Episodes
                 mediaInfo.episodes = [];
                 $('div.content-left > div.block-tab > div > div > ul > li').each((_, el) => {
-                    var _a;
                     const $el = $(el);
                     const href = $el.find('a').attr('href');
-                    (_a = mediaInfo.episodes) === null || _a === void 0 ? void 0 : _a.push({
-                        id: href === null || href === void 0 ? void 0 : href.split(`${this.baseUrl}/`)[1],
+                    mediaInfo.episodes?.push({
+                        id: href?.split(`${this.baseUrl}/`)[1],
                         title: $el.find('h3').text().replace(mediaInfo.title.toString(), '').trim(),
-                        episode: parseFloat(href === null || href === void 0 ? void 0 : href.split('-episode-')[1]),
+                        episode: parseFloat(href?.split('-episode-')[1]),
                         subType: $el.find('span.type').text(),
                         releaseDate: $el.find('span.time').text(),
                         url: href,
@@ -183,7 +180,7 @@ class DramaCool extends models_1.MovieParser {
                     const $el = $(el);
                     const href = $el.find('a').attr('href');
                     results.results.push({
-                        id: href === null || href === void 0 ? void 0 : href.slice(1),
+                        id: href?.slice(1),
                         title: $el.find('img').attr('title'),
                         url: `${this.baseUrl}${href}`,
                         cover: $el.find('img').attr('src'),
@@ -255,7 +252,7 @@ class DramaCool extends models_1.MovieParser {
                 const $el = $(el);
                 const href = $el.find('a').attr('href');
                 const result = {
-                    id: href === null || href === void 0 ? void 0 : href.split(`${this.baseUrl}/`)[1],
+                    id: href?.split(`${this.baseUrl}/`)[1],
                     title: $el.find('h3.title').text().trim(),
                     url: href,
                     image: $el.find('img').attr('data-original'),
@@ -310,7 +307,7 @@ class DramaCool extends models_1.MovieParser {
         const navElement = $(DramaCool.NAV_SELECTOR);
         results.hasNextPage = navElement.length > 0 && !navElement.children().last().hasClass('selected');
         const lastPageHref = navElement.children().last().find('a').attr('href');
-        if (lastPageHref === null || lastPageHref === void 0 ? void 0 : lastPageHref.includes('page=')) {
+        if (lastPageHref?.includes('page=')) {
             const maxPage = new URLSearchParams(lastPageHref).get('page');
             results.totalPages = maxPage && !isNaN(parseInt(maxPage)) ? parseInt(maxPage) : currentPage + 1;
         }

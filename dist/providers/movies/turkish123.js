@@ -59,7 +59,7 @@ class Turkish extends models_1.MovieParser {
             });
             const $ = (0, cheerio_1.load)(data);
             const coverStyle = $('#content-cover').attr('style');
-            const coverMatch = coverStyle === null || coverStyle === void 0 ? void 0 : coverStyle.match(/url\((.*?)\)/);
+            const coverMatch = coverStyle?.match(/url\((.*?)\)/);
             info.image = coverMatch ? coverMatch[1] : undefined;
             info.title = $('.mvic-desc > h1').text();
             info.description = $('.f-desc')

@@ -46,7 +46,6 @@ class Lpayer extends video_extractor_1.default {
         this.AES_KEY = Buffer.from('kiemtienmua911ca', 'utf8');
         this.AES_IV = Buffer.from('1234567890oiuytr', 'utf8');
         this.extract = async (videoUrl) => {
-            var _a;
             try {
                 const videoId = videoUrl.hash.substring(1);
                 if (!videoId)
@@ -88,7 +87,7 @@ class Lpayer extends video_extractor_1.default {
                                 if (lines[i].startsWith('#EXT-X-STREAM-INF:')) {
                                     const resolutionMatch = lines[i].match(/RESOLUTION=\d+x(\d+)/);
                                     const quality = resolutionMatch ? `${resolutionMatch[1]}p` : 'unknown';
-                                    const urlLine = (_a = lines[i + 1]) === null || _a === void 0 ? void 0 : _a.trim();
+                                    const urlLine = lines[i + 1]?.trim();
                                     if (urlLine && !urlLine.startsWith('#')) {
                                         let variantUrl = urlLine;
                                         if (!variantUrl.startsWith('http')) {
@@ -105,11 +104,11 @@ class Lpayer extends video_extractor_1.default {
                             }
                         }
                     }
-                    catch (_b) { }
+                    catch { }
                 }
                 return this.sources;
             }
-            catch (_c) {
+            catch {
                 return [];
             }
         };
@@ -122,7 +121,7 @@ class Lpayer extends video_extractor_1.default {
             decrypted = Buffer.concat([decrypted, decipher.final()]);
             return decrypted.toString('utf8');
         }
-        catch (_a) {
+        catch {
             return '';
         }
     }

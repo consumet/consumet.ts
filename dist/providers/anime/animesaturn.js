@@ -24,12 +24,11 @@ class AnimeSaturn extends models_1.AnimeParser {
                 results: [],
             };
             $('ul.list-group li').each((i, element) => {
-                var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l;
                 const item = {
-                    id: (_e = (_d = (_c = (_b = (_a = $(element)) === null || _a === void 0 ? void 0 : _a.find('a.thumb')) === null || _b === void 0 ? void 0 : _b.attr('href')) === null || _c === void 0 ? void 0 : _c.split('/')) === null || _d === void 0 ? void 0 : _d.pop()) !== null && _e !== void 0 ? _e : '',
-                    title: (_g = (_f = $(element)) === null || _f === void 0 ? void 0 : _f.find('h3 a')) === null || _g === void 0 ? void 0 : _g.text(),
-                    image: (_j = (_h = $(element)) === null || _h === void 0 ? void 0 : _h.find('img.copertina-archivio')) === null || _j === void 0 ? void 0 : _j.attr('src'),
-                    url: (_l = (_k = $(element)) === null || _k === void 0 ? void 0 : _k.find('h3 a')) === null || _l === void 0 ? void 0 : _l.attr('href'),
+                    id: $(element)?.find('a.thumb')?.attr('href')?.split('/')?.pop() ?? '',
+                    title: $(element)?.find('h3 a')?.text(),
+                    image: $(element)?.find('img.copertina-archivio')?.attr('src'),
+                    url: $(element)?.find('h3 a')?.attr('href'),
                 };
                 if (!item.id)
                     throw new Error('Invalid id');
@@ -43,19 +42,22 @@ class AnimeSaturn extends models_1.AnimeParser {
          * @returns Promise<IAnimeInfo>
          */
         this.fetchAnimeInfo = async (id) => {
-            var _a, _b, _c, _d, _e, _f, _g, _h;
             const data = await this.client.get(`${this.baseUrl}anime/${id}`);
             const $ = await (0, cheerio_1.load)(data.data);
             const info = {
                 id,
                 title: $('div.container.anime-title-as> b').text(),
-                malID: (_a = $('a[href^="https://myanimelist.net/anime/"]').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(30, -1),
-                alID: (_b = $('a[href^="https://anilist.co/anime/"]').attr('href')) === null || _b === void 0 ? void 0 : _b.slice(25, -1),
-                genres: (_d = (_c = $('div.container a.badge.badge-light')) === null || _c === void 0 ? void 0 : _c.map((i, element) => {
+                malID: $('a[href^="https://myanimelist.net/anime/"]').attr('href')?.slice(30, -1),
+                alID: $('a[href^="https://anilist.co/anime/"]').attr('href')?.slice(25, -1),
+                genres: $('div.container a.badge.badge-light')
+                    ?.map((i, element) => {
                     return $(element).text();
-                }).toArray()) !== null && _d !== void 0 ? _d : undefined,
-                image: ((_e = $('img.img-fluid')) === null || _e === void 0 ? void 0 : _e.attr('src')) || undefined,
-                cover: ((_h = (_g = (_f = $('div.banner')) === null || _f === void 0 ? void 0 : _f.attr('style')) === null || _g === void 0 ? void 0 : _g.match(/background:\s*url\(['"]?([^'")]+)['"]?\)/i)) === null || _h === void 0 ? void 0 : _h[1]) || undefined,
+                })
+                    .toArray() ?? undefined,
+                image: $('img.img-fluid')?.attr('src') || undefined,
+                cover: $('div.banner')
+                    ?.attr('style')
+                    ?.match(/background:\s*url\(['"]?([^'")]+)['"]?\)/i)?.[1] || undefined,
                 description: $('#full-trama').text(),
                 episodes: [],
             };
@@ -64,12 +66,11 @@ class AnimeSaturn extends models_1.AnimeParser {
                 $(element)
                     .find('.bottone-ep')
                     .each((i, element) => {
-                    var _a, _b;
                     const link = $(element).attr('href');
                     const episodeNumber = $(element).text().trim().replace('Episodio ', '').trim();
                     episodes.push({
                         number: parseInt(episodeNumber),
-                        id: (_b = (_a = link === null || link === void 0 ? void 0 : link.split('/')) === null || _a === void 0 ? void 0 : _a.pop()) !== null && _b !== void 0 ? _b : '',
+                        id: link?.split('/')?.pop() ?? '',
                     });
                 });
             });
@@ -82,7 +83,6 @@ class AnimeSaturn extends models_1.AnimeParser {
          * @returns Promise<ISource>
          */
         this.fetchEpisodeSources = async (episodeId) => {
-            var _a;
             const episodeData = await this.client.get(`${this.baseUrl}ep/${episodeId}`, {
                 headers: {
                     'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0',
@@ -201,7 +201,7 @@ class AnimeSaturn extends models_1.AnimeParser {
             }
             const m3u8Source = sources.sources.find(s => s.isM3U8);
             if (m3u8Source && m3u8Source.url.includes('playlist.m3u8')) {
-                (_a = sources.subtitles) === null || _a === void 0 ? void 0 : _a.push({
+                sources.subtitles?.push({
                     url: m3u8Source.url.replace('playlist.m3u8', 'subtitles.vtt'),
                     lang: 'Italian',
                 });

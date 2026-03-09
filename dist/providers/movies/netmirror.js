@@ -63,7 +63,6 @@ class NetMirror extends models_1.MovieParser {
             }
         };
         this.fetchMediaInfo = async (mediaId) => {
-            var _a;
             try {
                 const postData = await this.fetchPostData(mediaId);
                 const isTvShow = postData.type === 't';
@@ -73,7 +72,7 @@ class NetMirror extends models_1.MovieParser {
                     type: isTvShow ? models_1.TvType.TVSERIES : models_1.TvType.MOVIE,
                     image: `https://imgcdn.kim/poster/780/${mediaId}.jpg`,
                     cover: `https://imgcdn.kim/poster/1920/${mediaId}.jpg`,
-                    genres: ((_a = postData.genre) === null || _a === void 0 ? void 0 : _a.split(',').map(g => g.trim())) || [],
+                    genres: postData.genre?.split(',').map(g => g.trim()) || [],
                     duration: postData.runtime,
                     description: postData.desc || postData.m_desc || '',
                     // rating is a string in the response, but IMovieInfo expects a number.
@@ -143,7 +142,6 @@ class NetMirror extends models_1.MovieParser {
             ];
         };
         this.fetchEpisodeSources = async (episodeId, mediaId) => {
-            var _a;
             try {
                 const { data } = await this.client.get(`${this.baseUrl}/playlist.php?id=${episodeId}&t=Video&tm=${Date.now()}`, {
                     headers: {
@@ -172,7 +170,9 @@ class NetMirror extends models_1.MovieParser {
                         isM3U8: true,
                     };
                 });
-                const subtitles = (_a = playlist.tracks) === null || _a === void 0 ? void 0 : _a.filter(t => t.kind === 'captions').map(t => ({
+                const subtitles = playlist.tracks
+                    ?.filter(t => t.kind === 'captions')
+                    .map(t => ({
                     url: t.file.startsWith('//') ? `https:${t.file}` : t.file,
                     lang: t.label || t.language || 'Unknown',
                 }));

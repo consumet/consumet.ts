@@ -59,22 +59,19 @@ class KickAssAnime extends models_1.AnimeParser {
                     headers,
                     timeout: 10000,
                 });
-                const searchResults = response.data.result.map((anime) => {
-                    var _a, _b;
-                    return ({
-                        id: anime.slug,
-                        title: anime.title,
-                        url: anime.watch_uri ? `${this.baseUrl}${anime.watch_uri}` : `${this.baseUrl}/${anime.slug}`,
-                        image: anime.poster
-                            ? `${this.baseUrl}/image/${anime.poster.hq}.${anime.poster.formats[0]}`
-                            : undefined,
-                        releaseDate: (_a = anime.year) === null || _a === void 0 ? void 0 : _a.toString(),
-                        subOrDub: ((_b = anime.locales) === null || _b === void 0 ? void 0 : _b.includes('en-US')) ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB,
-                        status: this.mapStatus(anime.status),
-                        otherName: anime.title_en,
-                        totalEpisodes: anime.episode_count,
-                    });
-                });
+                const searchResults = response.data.result.map((anime) => ({
+                    id: anime.slug,
+                    title: anime.title,
+                    url: anime.watch_uri ? `${this.baseUrl}${anime.watch_uri}` : `${this.baseUrl}/${anime.slug}`,
+                    image: anime.poster
+                        ? `${this.baseUrl}/image/${anime.poster.hq}.${anime.poster.formats[0]}`
+                        : undefined,
+                    releaseDate: anime.year?.toString(),
+                    subOrDub: anime.locales?.includes('en-US') ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB,
+                    status: this.mapStatus(anime.status),
+                    otherName: anime.title_en,
+                    totalEpisodes: anime.episode_count,
+                }));
                 return {
                     currentPage: page,
                     hasNextPage: page < response.data.maxPage,
@@ -92,7 +89,6 @@ class KickAssAnime extends models_1.AnimeParser {
          * @returns Promise<IAnimeInfo>
          */
         this.fetchAnimeInfo = async (id) => {
-            var _a, _b, _c;
             try {
                 const headers = this.getHeaders(this.baseUrl);
                 // Get anime info
@@ -129,11 +125,11 @@ class KickAssAnime extends models_1.AnimeParser {
                         : undefined,
                     description: animeData.synopsis,
                     episodes: episodes,
-                    subOrDub: ((_a = animeData.locales) === null || _a === void 0 ? void 0 : _a.includes('en-US')) ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB,
-                    type: (_b = animeData.type) === null || _b === void 0 ? void 0 : _b.toUpperCase(),
+                    subOrDub: animeData.locales?.includes('en-US') ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB,
+                    type: animeData.type?.toUpperCase(),
                     status: this.mapStatus(animeData.status),
                     otherName: animeData.title_original,
-                    releaseDate: (_c = animeData.year) === null || _c === void 0 ? void 0 : _c.toString(),
+                    releaseDate: animeData.year?.toString(),
                 };
             }
             catch (err) {

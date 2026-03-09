@@ -43,7 +43,6 @@ class Kwik extends models_1.VideoExtractor {
         }
     }
     async getDirectDownloadLink(downloadUrl) {
-        var _a;
         try {
             if (downloadUrl.href.match(this.safelinkBaseUrl)) {
                 const bypassedUrl = await this.bypassShortlink(downloadUrl);
@@ -52,7 +51,7 @@ class Kwik extends models_1.VideoExtractor {
             const response = await fetch(`${downloadUrl.href}`, {
                 headers: { Referer: this.baseUrl },
             });
-            const cookie = (_a = response.headers.get('set-cookie')) === null || _a === void 0 ? void 0 : _a.split(';')[0];
+            const cookie = response.headers.get('set-cookie')?.split(';')[0];
             const data = await response.text();
             const obfuscatedParams = data.match(`\\\}\\\("([^"]+)".*?"([^"]+)"\\\s*,\\\s*([^,]+)\\\s*,\\\s*([^,]+)`);
             const formScript = this.deobfuscate(obfuscatedParams[1], obfuscatedParams[2], Number(obfuscatedParams[3]), Number(obfuscatedParams[4]));
@@ -108,7 +107,7 @@ class Kwik extends models_1.VideoExtractor {
         try {
             return decodeURIComponent(escape(result));
         }
-        catch (_a) {
+        catch {
             return result;
         }
     }

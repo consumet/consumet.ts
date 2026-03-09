@@ -46,7 +46,7 @@ class WeebCentral extends models_1.MangaParser {
                     .map((i, el) => {
                     const linkElement = $(el).find('section a').first();
                     const href = linkElement.attr('href');
-                    const id = (href === null || href === void 0 ? void 0 : href.split('/series/')[1]) || '';
+                    const id = href?.split('/series/')[1] || '';
                     const title = $(el).find('section.hidden.lg\\:block .tooltip a').text().trim() ||
                         $(el).find('section a .text-ellipsis').text().trim();
                     const image = $(el).find('picture source').first().attr('srcset') || $(el).find('picture img').attr('src');
@@ -107,7 +107,7 @@ class WeebCentral extends models_1.MangaParser {
                 mangaInfo.chapters = $chapters('a[href*="/chapters/"]')
                     .map((i, el) => {
                     const href = $chapters(el).attr('href');
-                    const chapterId = href === null || href === void 0 ? void 0 : href.split('/chapters/')[1];
+                    const chapterId = href?.split('/chapters/')[1];
                     const chapterText = $chapters(el).find('span.grow span').first().text().trim();
                     const timeElement = $chapters(el).find('time');
                     const releaseDate = timeElement.attr('datetime');
